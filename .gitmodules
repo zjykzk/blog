@@ -1,3 +1,4 @@
-[submodule "themes"]
-	path = themes
-	url = https://github.com/spf13/hugoThemes
+[submodule "blog"]
+	path = public
+	url = git@github.com:zjykzk/zjykzk.github.io.git
+	branch = master
