@@ -1,10 +1,10 @@
 # hostname (and path) to the root eg. http://spf13.com/
 baseurl = "http://zjykzk.github.io/"
 # Site title
-title = "网志"
+title = "老码农的自留地"
 
 # Copyright
-copyright = "(c) 2015 zenk."
+copyright = "(c) 2016 zenk."
 
 # Language
 languageCode = "zh-CN"
@@ -22,6 +22,14 @@ paginatePath = "page"
 
 # Enable Disqus integration
 disqusShortname = "zenk"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+[indexes]
+    category = "categories"
+
+canonifyurls = true
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
