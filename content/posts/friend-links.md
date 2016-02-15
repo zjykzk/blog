@@ -2,7 +2,6 @@
 author = "author"
 date = "2016-02-15T11:19:35+08:00"
 description = "价值博客"
-draft = true
 keywords = ["链接"]
 title = "价值博客"
 type = "post"
