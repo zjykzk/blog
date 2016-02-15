@@ -23,7 +23,7 @@ paginatePath = "page"
 # Enable Disqus integration
 disqusShortname = "zenk"
 
-contentdir = "content"
+contentdir = "content/posts"
 layoutdir = "layouts"
 publishdir = "public"
 [indexes]
