@@ -1,8 +1,7 @@
-[submodule "blog"]
-	path = public
-	url = git@github.com:zjykzk/zjykzk.github.io.git
-	branch = master
 [submodule "theme"]
 	path = themes/hugo-bootstrap
 	url = https://github.com/mmrath/hugo-bootstrap
 	branch = master
+[submodule "public"]
+	path = public
+	url = git@github.com:zjykzk/zjykzk.github.io.git
