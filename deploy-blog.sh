@@ -2,6 +2,13 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+# Go To Public folder
+cd public
+# update the blog generated at some other place
+git pull origin master --rebase
+
+cd ..
+
 # Build the project.
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
