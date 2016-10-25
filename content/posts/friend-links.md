@@ -58,4 +58,4 @@ type = "post"
 
 [林达华](http://dahua.spaces.live.com/) | [浦宇平](http://www.puyuping.com/) | [**白鸦**](http://uicom.net/blog/) | [程化](http://blog.csdn.net/hellothere/) | [**罗浩|Startup Game**](http://meditic.com/) | [**阮一峰**](http://www.ruanyifeng.com/blog/)
 
-[高远](http://www.charlesgao.com/) | [鲍盛](http://fsbao.net/) | [Xiaoxiao](http://xiaoxiao.com.cn/) | [**张驰原**](http://blog.pluskid.org/) | [**Keso**](http://blog.donews.com/keso) | [**思践**](http://ethinker.blog.china.alibaba.com/)
+[高远](http://www.charlesgao.com/) | [鲍盛](http://fsbao.net/) | [Xiaoxiao](http://xiaoxiao.com.cn/) | [**张驰原**](http://blog.pluskid.org/) | [**Keso**](http://blog.donews.com/keso) | [**思践**](http://ethinker.blog.china.alibaba.com/)|[Tony Bai](http://tonybai.com/)
