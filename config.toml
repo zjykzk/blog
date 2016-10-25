@@ -1,7 +1,7 @@
 # hostname (and path) to the root eg. http://spf13.com/
 baseurl = "http://zjykzk.github.io/"
 # Site title
-title = "老码农的自留地"
+title = "zencode"
 
 # Copyright
 copyright = "(c) 2016 zenk."
