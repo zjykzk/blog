@@ -50,6 +50,15 @@ sys.setdefaultencoding('utf8')
 
 
 
+### file object
+
+### codecs
+
+指定encoding参数生成file-object-like对象，利用：
+
+1. 函数`read` 读取byte字符串，按照encoding的编码返回unicode
+2.  `write` 输入unicode，按照encoding的编码转换成byte字符串写入文件
+
 ## python 3
 
 # go中的字符串
