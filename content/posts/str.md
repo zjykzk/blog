@@ -2,9 +2,9 @@
 author = "zenk"
 date = "2017-01-19T14:05:14+08:00"
 description = "字符串与编码"
-draft = true
-keywords = ["string", ""]
-tags = ["one", "two"]
+draft = false
+keywords = ["string", "go","python"]
+tags = [ "编程"]
 title = "字符串"
 topics = ["program"]
 type = "post"
@@ -40,13 +40,14 @@ type = "post"
 
    下表表示了utf8的编码，z表示用于编码的bit
 
-   | unicode范围                       | utf8编码                              |
-   | ------------------------------- | ----------------------------------- |
-   | 十六进制表示                          | 二进制表示                               |
-   | 000000 - 00007F                 | 0zzzzzzz                            |
-   | 000080 - 0007FF                 | 110zzzzz 10zzzzzz                   |
-   | 000800 - 00D7FF/00E000 - 00FFFF | 1110zzzz 10zzzzzz 10zzzzzz          |
-   | 010000 - 10FFFF                 | 11110zzz 10zzzzzz 10zzzzzz 10zzzzzz |
+unicode范围                       | utf8编码
+------------------------------ | :----------------------------------
+十六进制表示                          | 二进制表示
+000000 - 00007F                 | 0zzzzzzz
+000080 - 0007FF                 | 110zzzzz 10zzzzzz
+000800 - 00D7FF/00E000 - 00FFFF | 1110zzzz 10zzzzzz 10zzzzzz
+010000 - 10FFFF                 | 11110zzz 10zzzzzz 10zzzzzz 10zzzzzz 
+
 
 # 环境中的编码
 

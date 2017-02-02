@@ -4,7 +4,7 @@ baseurl = "http://zjykzk.github.io/"
 title = "zencode"
 
 # Copyright
-copyright = "(c) 2016 zenk."
+copyright = "(c) 2017 zenk."
 
 # Language
 languageCode = "zh-CN"
@@ -78,6 +78,7 @@ canonifyurls = true
     fractions = false
     hrefTargetBlank = false
     latexDashes = true
+    taskLists = true
     plainIdAnchors = true
-    extensions = []
+    extensions = ["hardLineBreak"]
     extensionmask = []
