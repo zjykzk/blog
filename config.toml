@@ -1,7 +1,7 @@
 # hostname (and path) to the root eg. http://spf13.com/
 baseurl = "http://zjykzk.github.io/"
 # Site title
-title = "zencode"
+title = "zenk 随笔"
 
 # Copyright
 copyright = "(c) 2017 zenk."
@@ -14,7 +14,7 @@ languageCode = "zh-CN"
 metaDataFormat = "toml"
 
 # Theme to use (located in /themes/THEMENAME/)
-theme = "hugo-bootstrap"
+theme = "zen"
 
 # Pagination
 paginate = 10
@@ -49,12 +49,12 @@ canonifyurls = true
 [params]
     # You can use markdown here.
     brand = "foobar"
-    topline = "few words about your site"
+    topline = "网络随笔"
     footline = "code with <i class='fa fa-heart'></i>"
 
     # Text for the top menu link, which goes the root URL for the site.
     # Default (if omitted) is "Home".
-    home = "home"
+    home = "Home"
 
     # Select a syntax highight.
     # Check the static/css/highlight directory for options.
@@ -72,6 +72,10 @@ canonifyurls = true
     #twitter = "" # Your Twitter profile ID
     #youtube = ""  # Your Youtube channel ID
     #flattr = ""  # populate with your flattr uid
+    sidebar = true         # Show a sidebar to the right
+    slicknav = true        # Activates SlickNav, a nice mobile menu.
+    submitted = true       # Show author and date information for a post.
+    dateformat = "2006-01-02"
 
 [blackfriday]
     angledQuotes = true

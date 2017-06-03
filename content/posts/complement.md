@@ -2,32 +2,30 @@
 author = "zenk"
 date = "2017-05-30T23:18:02+08:00"
 description = "complement representation of number"
-draft = true
-keywords = ["complement"]
-tags = ["program"]
-title = "complement"
-topics = ["program"]
+draft = false
+keywords = ["补码"]
+tags = ["编程","技术"]
+title = "补码"
+topics = ["编程"]
 type = "post"
 
 +++
 
 
 
-# 补码
+#  补码
 
 ## 加法
 
 2个十进制数字的非正式算法：两个数字中相同位置的数相加，如果结果超过10产生进位，该进位在下一位数相加时加上。直到两个数字的所有位数都加完为止。
 
 考虑十进制的2位数加法，例如：16 + 26。
-$$
-\begin{array}{clr}
-   & 1 & 6   \\
-+ & 2 & 6  \\
-\hline         \\
-   & 4 & 2   \\
-\end{array}
-$$
+```
+    1 6
+  + 2 6
+ -------
+    4 2
+```
 
 
 上例中的加法过程是：
@@ -43,14 +41,14 @@ $$
 2. 如果被减数小于减数，交互减数与被减数的位置进行 `1` 操作，把结果加一个负号
 
 考虑十进制的2位数减法，例如：16 - 25。
-$$
-\begin{array}{clr}
-   & 1 & 6   \\
-- & 2 & 5  \\
-\hline         \\
-   & - & 9   \\
-\end{array}
-$$
+
+```
+    1 6
+  + 2 5
+ -------
+    - 9
+```
+
 上例中的加法过程是：
 
 1. `16` 比`25`小，交换两个数的位置
