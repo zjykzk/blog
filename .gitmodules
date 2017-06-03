@@ -1,7 +1,11 @@
-[submodule "theme"]
-	path = themes/zen
-	url = https://github.com/frjo/hugo-theme-zen.git
-	branch = master
 [submodule "public"]
 	path = public
 	url = git@github.com:zjykzk/zjykzk.github.io.git
+[submodule "theme-zen"]
+	path = themes/zen
+	url = https://github.com/frjo/hugo-theme-zen.git
+	branch = master
+[submodule "theme"]
+	path = themes/hugo-bootstrap
+	url = https://github.com/frjo/hugo-theme-zen.git
+	branch = master
