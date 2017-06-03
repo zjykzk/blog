@@ -5,7 +5,3 @@
 	path = themes/zen
 	url = https://github.com/frjo/hugo-theme-zen.git
 	branch = master
-[submodule "theme"]
-	path = themes/hugo-bootstrap
-	url = https://github.com/frjo/hugo-theme-zen.git
-	branch = master
