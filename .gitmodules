@@ -1,6 +1,6 @@
 [submodule "theme"]
-	path = themes/hugo-bootstrap
-	url = https://github.com/mmrath/hugo-bootstrap
+	path = themes/zen
+	url = https://github.com/frjo/hugo-theme-zen.git
 	branch = master
 [submodule "public"]
 	path = public
