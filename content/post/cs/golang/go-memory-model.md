@@ -11,8 +11,6 @@ categories = ["cs"]
 
 +++
 
-## 内存模型
-
 内存模型定义了一系列的条件，在这些条件下，多个goroutine对一个变量进行读写，保证一个goroutine读取到的值是是另外一个goroutine写入的某个值。
 
 ## Happens Before
