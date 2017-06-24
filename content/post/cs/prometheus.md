@@ -7,6 +7,7 @@ keywords = ["monitor", "prometheus"]
 tags = ["编程"]
 title = "prometheus"
 type = "post"
+categories = ["cs"]
 
 +++
 

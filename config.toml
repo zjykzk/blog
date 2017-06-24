@@ -17,7 +17,7 @@ metaDataFormat = "toml"
 theme = "zen"
 
 [taxonomies]
-    cs = "cs"
+    category = "categories"
 
 [author]
     name = "zenk"

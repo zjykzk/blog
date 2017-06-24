@@ -7,7 +7,7 @@ keywords = ["编程", "bug"]
 tags = ["编程"]
 title = "增加bug的编程实践"
 type = "post"
-cs = [""]
+categories = ["cs", "test"]
 
 +++
 

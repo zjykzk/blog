@@ -8,6 +8,7 @@ tags = ["编程"]
 title = "flume"
 topics = ["大数据","技术"]
 type = "post"
+categories = ["cs"]
 
 +++
 # 简介

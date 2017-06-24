@@ -7,7 +7,7 @@ keywords = ["string", "go","python"]
 tags = [ "编程"]
 title = "字符串"
 type = "post"
-taxonomies = ["taxonomies"]
+categories = ["cs"]
 
 +++
 

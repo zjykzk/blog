@@ -8,6 +8,7 @@ tags = ["编程"]
 title = "浮点数 IEEE 754"
 topics = ["编程"]
 type = "post"
+categories = ["cs"]
 
 +++
 
