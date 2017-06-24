@@ -7,6 +7,7 @@ tags = ["编程"]
 title = "GO 内存模型"
 description = "GO内存模型，happens before 定义"
 type = "post"
+cs = ["", "golang"]
 
 +++
 

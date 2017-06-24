@@ -4,10 +4,10 @@ date = "2016-06-04T11:12:13+08:00"
 description = "description"
 draft = false
 keywords = ["编程", "bug"]
-tags = ["编程", "方法论"]
+tags = ["编程"]
 title = "增加bug的编程实践"
-topics = ["编程"]
 type = "post"
+cs = [""]
 
 +++
 

@@ -6,8 +6,8 @@ draft = false
 keywords = ["string", "go","python"]
 tags = [ "编程"]
 title = "字符串"
-topics = ["program"]
 type = "post"
+taxonomies = ["taxonomies"]
 
 +++
 
@@ -69,7 +69,7 @@ unicode范围                       | utf8编码
 
 #### 重要方法
 
-```py
+```python
 # <type 'str'> to <type 'unicode'>
 # 如果 s 是'unicode'类型，python会先通过encode函数把s转换成'str'类型，而encode函数的encoding是sys.getdefaultencoding()的值
 s.decode(encoding)

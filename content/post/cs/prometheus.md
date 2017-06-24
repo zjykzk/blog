@@ -4,9 +4,8 @@ date = "2016-10-09T14:45:21+08:00"
 description = "prometheus介绍"
 draft = false
 keywords = ["monitor", "prometheus"]
-tags = ["技术", "监控"]
+tags = ["编程"]
 title = "prometheus"
-topics = ["topic 1"]
 type = "post"
 
 +++

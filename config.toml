@@ -16,66 +16,19 @@ metaDataFormat = "toml"
 # Theme to use (located in /themes/THEMENAME/)
 theme = "zen"
 
-# Pagination
-paginate = 10
-paginatePath = "page"
-
-# Enable Disqus integration
-disqusShortname = "zenk"
-
-contentdir = "content/posts"
-layoutdir = "layouts"
-publishdir = "public"
-[indexes]
-    category = "categories"
-
-canonifyurls = true
-
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-    code = "/:slug/"
-
 [taxonomies]
-    tag = "tags"
-    topic = "topics"
+    cs = "cs"
 
 [author]
     name = "zenk"
     email = "zhangkai.zju@gmail.com"
 
-#
-# All parameters below here are optional and can be mixed and matched.
-#
 [params]
-    # You can use markdown here.
-    brand = "foobar"
-    topline = "网络随笔"
-    footline = "code with <i class='fa fa-heart'></i>"
-
-    # Text for the top menu link, which goes the root URL for the site.
-    # Default (if omitted) is "Home".
-    home = "Home"
-
-    # Select a syntax highight.
-    # Check the static/css/highlight directory for options.
-    highlight = "default"
-
-    # Google Analytics.
-    #googleAnalytics = "Your Google Analytics tracking code"
-
-    # Sidebar social links.
-    github = "https://github.com/zjykzk" # Your Github profile ID
-    #bitbucket = "" # Your Bitbucket profile ID
-    #linkedin = "" # Your LinkedIn profile ID (from public URL)
-    #googleplus = "" # Your Google+ profile ID
-    #facebook = "" # Your Facebook profile ID
-    #twitter = "" # Your Twitter profile ID
-    #youtube = ""  # Your Youtube channel ID
-    #flattr = ""  # populate with your flattr uid
-    sidebar = true         # Show a sidebar to the right
-    slicknav = true        # Activates SlickNav, a nice mobile menu.
-    submitted = true       # Show author and date information for a post.
+# zen theme replated configuration
     dateformat = "2006-01-02"
+    submitted = true       # Show author and date information for a post.
+    poweredby = true       # Show powered by hugo in footer
+    logo = false           # Turn off the logo.
 
 [blackfriday]
     angledQuotes = true
