@@ -25,7 +25,7 @@ theme = "zen"
 
 [params]
 # zen theme replated configuration
-    dateformat = "2006-01-02"
+    dateformat = "2006-01-02 15:04:05"
     submitted = true       # Show author and date information for a post.
     poweredby = true       # Show powered by hugo in footer
     logo = false           # Turn off the logo.
