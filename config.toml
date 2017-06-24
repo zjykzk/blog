@@ -18,6 +18,7 @@ theme = "zen"
 
 [taxonomies]
     category = "categories"
+    tag = "tags"
 
 [author]
     name = "zenk"
