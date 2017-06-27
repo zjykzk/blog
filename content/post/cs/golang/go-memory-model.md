@@ -35,7 +35,7 @@ print(b);
 
 但是，多个goroutine执行时，就无法保证打印*a*的时候，*b*的值一定是1.
 
-**happens before**定义了内存操作的顺序，它是一种偏序。*e1* happens before *e2*, *e2* happens after *e1* 。如果 *e1* 既不happens before *e2* 也不happens after *e2* ，那么 *e1* 和 *e2*是并发执行的。它有传递的性质（自反性，对称性就不考虑了）。这个关系就决定了共享变量在某个上下文下面读写顺序，那么它的具体值变化也就确定了。
+**happens before**定义了内存操作的顺序，它是一种偏序。*e1* happens before *e2*, *e2* happens after *e1* 。如果 *e1* 既不happens before *e2* 也不happens after *e2* ，那么 *e1* 和 *e2* 是并发执行的。它有传递的性质（自反性，对称性就不考虑了）。这个关系就决定了共享变量在某个上下文下面读写顺序，那么它的具体值变化也就确定了。
 
 *在一个goroutine中，happens before的顺序就是代码表达的顺序。*
 
@@ -61,12 +61,12 @@ print(b);
 
 程序的初始化是通过一个goroutine执行的，这个goroutine会生成一个新的goroutine，因此会有竞争存在。
 
-1. 包 *p* 依赖 *q* ， *q* 的 *init* 函数happens before包 *p* 的任何操作
-2. 所有 *init* 函数执行结束happens before *main.main*函数
+1. 包 *p* 依赖 *q*，*q* 的 *init* 函数happens before包 *p* 的任何操作
+2. 所有 *init* 函数执行结束happens before *main.main* 函数
 
 ### Goroutine 创建
 
-*go* 语句happens before新创建的goroutine的运行。以下代码中，***1*** happens before ***2***，***2*** happens before 函数***f***的执行，在将来的某个时刻所以打印`"hello, world"`（可能是在hello函数返回之后）。
+*go* 语句happens before新创建的goroutine的运行。以下代码中，***1*** happens before ***2***，***2*** happens before 函数***f***的执行，在将来的某个时刻所以打印 `hello, world`（可能是在hello函数返回之后）。
 
 ```go
 var a string
@@ -83,7 +83,7 @@ func hello() {
 
 ### Goroutine 销毁
 
-goroutine的退出跟其他的操作没有任何的happens before操作。以下代码无法保证***print(a)***的结果就是`"hello, world"`。事实上，编译器完全有可能把 *go* 语句完全的删除掉。
+goroutine的退出跟其他的操作没有任何的happens before操作。以下代码无法保证***print(a)***的结果就是 `hello, world`。事实上，编译器完全有可能把 *go* 语句完全的删除掉。
 
 ```go
 var a string
@@ -98,7 +98,7 @@ func hello() {
 
 channel在golang里面是同步的一个重要手段。channel上面的每个发送操作，都唯一对应着一个channel上面的接受操作，显然发送／接受操作在不同的goroutine下面才需要讨论。
 
-**在一个channel上面的发送操作的完成happens before想对应的接受操作的完成。**以下代码中，按照本规则 *1* happens before *2* ，另外，因为 *2* 和 *3* 在同一个goroutine中执行， *2* happens before *3* ，所以能够打印出`"hello, world"`。
+**在一个channel上面的发送操作的完成happens before想对应的接受操作的完成。**以下代码中，按照本规则 *1* happens before *2* ，另外，因为 *2* 和 *3* 在同一个goroutine中执行， *2* happens before *3* ，所以能够打印出 `hello, world`。
 
 ```go
 var c = make(chan int, 10)
@@ -118,7 +118,7 @@ func main() {
 
 **channel的关闭操作happens before因为关闭channel读到的0值。**上面例子中，用 *close( c)* 代替 *ch <- 0* 同样能够保证 *1*  happens before *2*  。
 
-**没有缓冲的channel上面的接受操作happens before发送操作。也就是说，发送操作只有在channel上面进行的接受操作结束以后才返回。**以下代码中，根据本规则 *1* happens before *2* ，另外，因为 *2* 和 *3* 在同一个goroutine中执行， *2* happens before *3* ，所以能够打印出`"hello, world"`。
+**没有缓冲的channel上面的接受操作happens before发送操作。也就是说，发送操作只有在channel上面进行的接受操作结束以后才返回。**以下代码中，根据本规则 *1* happens before *2* 。另外，因为 *2* 和 *3* 在同一个goroutine中执行， *2* happens before *3* ，所以能够打印出 `hello, world`。
 
 ```
 var c = make(chan int)
@@ -157,7 +157,7 @@ func main() {
 
 包 *sync* 实现了两类锁分别是： *sync.Mutex* 和 *sync.RWMutex。*
 
-**给定类型为 *sync.Mutex* 或者是 *sync.RWMutex* 的变量 *l* ,以及满足 *n<m* 条件的整数。调用 *n* 次 *l.Unlock()*  happens before 调用 *m* 次 *l.Lock()* （返回）。**以下代码中，根据本规则 *1* happens before *2* ，另外，因为 *2* 和 *3* 在同一个goroutine中执行， *2* happens before *3* ，所以能够打印出`"hello, world"`。
+**给定类型为 *sync.Mutex* 或者是 *sync.RWMutex* 的变量 *l* ,以及满足 *n<m* 条件的整数。调用 *n* 次 *l.Unlock()*  happens before 调用 *m* 次 *l.Lock()* （返回）。**以下代码中，根据本规则 *1* happens before *2* ，另外，因为 *2* 和 *3* 在同一个goroutine中执行， *2* happens before *3* ，所以能够打印出 `hello, world`。
 
 ```go
 var l sync.Mutex
