@@ -77,7 +77,7 @@ func f() {
 
 func hello() {
 	a = "hello, world" // 1
-	go f()			  // 2
+	go f()             // 2
 }
 ```
 
