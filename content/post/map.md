@@ -7,6 +7,22 @@ title = "map 内部实现"
 
 +++
 
+# hash
+
+TODO
+
+# 查询
+
+TODO
+
+# 删除
+
+TODO
+
+# 更新
+
+TODO
+
 # 内存布局
 
 ```
