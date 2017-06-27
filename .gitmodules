@@ -3,5 +3,5 @@
 	url = git@github.com:zjykzk/zjykzk.github.io.git
 [submodule "theme-zen"]
 	path = themes/zen
-	url = https://github.com/frjo/hugo-theme-zen.git
+	url = git@github.com:zjykzk/hugo-theme-zen.git
 	branch = master
