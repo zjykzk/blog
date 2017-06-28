@@ -106,13 +106,13 @@ var a string
 
 func f() {
 	a = "hello, world"
-	c <- 0		// 1
+	c <- 0       // 1
 }
 
 func main() {
 	go f()
-	<-c			// 2
-	print(a)	 // 3
+	<-c          // 2
+	print(a)     // 3
 }
 ```
 
@@ -120,19 +120,19 @@ func main() {
 
 **没有缓冲的channel上面的接受操作happens before发送操作。也就是说，发送操作只有在channel上面进行的接受操作结束以后才返回。**以下代码中，根据本规则 *1* happens before *2* 。另外，因为 *2* 和 *3* 在同一个goroutine中执行， *2* happens before *3* ，所以能够打印出 `hello, world`。
 
-```
+```go
 var c = make(chan int)
 var a string
 
 func f() {
 	a = "hello, world"
-	<-c					// 1
+	<-c	                 // 1
 }
 
 func main() {
 	go f()
-	c <- 0				// 2
-	print(a)			// 3
+	c <- 0               // 2
+	print(a)             // 3
 }
 ```
 
@@ -165,14 +165,14 @@ var a string
 
 func f() {
 	a = "hello, world"
-	l.Unlock()		// 1
+	l.Unlock()       // 1
 }
 
 func main() {
 	l.Lock()
 	go f()
-	l.Lock()		// 2
-	print(a)		// 3
+	l.Lock()         // 2
+	print(a)         // 3
 }
 ```
 
