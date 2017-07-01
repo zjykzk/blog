@@ -25,6 +25,9 @@ theme = "zen"
     email = "zhangkai.zju@gmail.com"
 
 [params]
+# code releated
+    code_syntax_css = "prism.css"
+    code_syntax_js = "prism.js"
 # zen theme replated configuration
     dateformat = "2006-01-02 15:04:05"
     submitted = true       # Show author and date information for a post.
