@@ -1,13 +1,13 @@
 # hostname (and path) to the root eg. http://spf13.com/
 baseurl = "http://zjykzk.github.io/"
 # Site title
-title = "zenk 随笔"
+title = "老K随笔"
 
 # Copyright
 copyright = "(c) 2017 zenk."
 
 # Language
-languageCode = "zh-CN"
+languageCode = "zh_CN"
 
 # Metadata format
 # "yaml", "toml", "json"
