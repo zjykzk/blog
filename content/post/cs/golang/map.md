@@ -138,7 +138,7 @@ bucket的第一个条目`tophash[0]` 用来标识bucket中的条目是否已经�
 3. hitprobe: 查找存在的key时需要检查的条目数量
 4. missprobe: 查找不存在的key是需要检查的条目数量
 
-结果是选择触发扩容时的值，其测试数据如下：
+其测试数据如下：
 
 | 装载因子 | %overflow | bytes/entry | hitprobe | missprobe |
 | :--: | :-------: | :---------: | :------: | :-------: |
