@@ -6,7 +6,7 @@ tags = ["golang","编程"]
 draft = false
 title = "map 内部实现"
 categories=["cs"]
-description="golang 中map的实现细节"
+description="golang 中map的实现细节，它是一个典型的hashmap。"
 
 +++
 
@@ -131,7 +131,7 @@ bucket的第一个条目`tophash[0]` 用来标识bucket中的条目是否已经�
 
 ## 装载因子
 
-装载因子决定hashmap的资源使用率以及性能高低，在实现hashmap时，考虑四个方面：
+装载因子决定map的资源使用率以及性能高低，在实现map时，考虑四个方面：
 
 1. %overflow：拥有overflow的bucket的百分比
 2. bytes/entry: 每个key/value的额外开销
@@ -146,7 +146,7 @@ bucket的第一个条目`tophash[0]` 用来标识bucket中的条目是否已经�
 
 # 扩容
 
-当进行添加元素的操作时，如果超过装载因子，或者overflow的bucket数量超出阈值，就会触发扩容的操作。如果是因为overflow的bucket数量过多引起的，hashmap的容量不会扩大，不然就扩大为原来的大小的两倍。
+当进行添加元素的操作时，如果超过装载因子，或者overflow的bucket数量超出阈值，就会触发扩容的操作。如果是因为overflow的bucket数量过多引起的，map的容量不会扩大，不然就扩大为原来的大小的两倍。
 
 在实现扩容的时候，会先为需要的bucket分配新内存，然后把旧的bucket保存起来，再把旧的内容移到新的bucket中去。
 
