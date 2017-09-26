@@ -1,11 +1,11 @@
 +++
 author = "zenk"
 slug = ""
-tags = []
+tags = ["golang"]
 draft = true
-categories=[]
+categories=["cs"]
 title=""
-description="golang 调度细节"
+description="golang 1.8.1 goroutine 调度细节"
 date="2017-08-08T15:50:01+08:00"
 +++
 
