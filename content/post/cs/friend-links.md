@@ -8,6 +8,12 @@ type = "post"
 
 +++
 
+### Python
+
+[**David Beazley**](http://www.dabeaz.com/)
+
+### Others
+
 [**刘未鹏 | MIND HACKS**](http://mindhacks.cn/)|[**TopLanguage**](https://groups.google.com/group/pongba) | [PythonCN](http://groups.google.com/group/python-cn) | [ErlangCN](http://erlang-china.org/)
 
 [**Coding Horror**](http://www.codinghorror.com/blog/) | [High Scalability](http://highscalability.com/) | [**InfoQ**](http://www.infoq.com/cn)
