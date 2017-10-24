@@ -1,7 +1,7 @@
 +++
 author = "zenk"
 date = "2017-05-30T23:18:02+08:00"
-description = "complement representation of number"
+description = "计算机通过补码来表示整数，其实补码是比较通用的一种表示数字方式。"
 draft = false
 keywords = ["补码"]
 tags = ["编程"]

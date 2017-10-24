@@ -1,7 +1,7 @@
 +++
 author = "zenk"
 date = "2016-10-09T14:45:21+08:00"
-description = "prometheus介绍"
+description = "prometheus是开源的现代监控系统。它用go开发，发布于2012。社区热度比较高，功能比较丰富灵活。"
 draft = false
 keywords = ["monitor", "prometheus"]
 tags = ["编程"]
@@ -10,9 +10,6 @@ type = "post"
 categories = ["cs"]
 
 +++
-
-prometheus是开源的现代监控系统。它用go开发，发布于2012。
-社区热度比较高，功能比较丰富灵活。
 
 ## 架构
 
