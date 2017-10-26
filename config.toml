@@ -33,6 +33,7 @@ theme = "zen"
     submitted = true       # Show author and date information for a post.
     poweredby = true       # Show powered by hugo in footer
     logo = false           # Turn off the logo.
+    sidebar = false
 
 [blackfriday]
     angledQuotes = true
