@@ -81,21 +81,12 @@ date="2017-10-24T18:46:11+08:00"
 
 ### mongodb
 
-通过命令 `mongostat` 查看mongodb的运行状态，发现随着消费线程并发的提高锁的百分比越来越高最后超过的90%。查看mongodb的版本是2.4.9，它用的数据库锁。换个mongodb版本，避免锁的开销，通过了解公司线上使用的版本3.0.15，并使用wireTiger存储引擎。果断按照这个环境进行benchmark，结果仍然不尽任意。查看**profiler**，一个类似mysql的慢查询的命令。通过以下命令加上专家的讲解，其中扫描对象比较多（**从信息"nscannedObjects" : 71040看出**） 确认是缺少了一个索引。
+通过命令 `mongostat` 查看mongodb的运行状态，发现随着消费线程并发的提高锁的百分比越来越高最后超过的90%。查看mongodb的版本是2.4.9，它用的数据库锁。换个mongodb版本，避免锁的开销，通过了解公司线上使用的版本3.0.15，并使用wireTiger存储引擎。果断按照这个环境进行benchmark，结果仍然不尽任意。查看**profiler**，一个类似mysql的慢查询的命令。通过以下命令加上专家的讲解，从**信息 nscannedObjects : 71040**，发现扫描对象比较多，从代码确认是缺少了一个索引。
 
 ```
 > db.setProfilingLevel(2);
-{"was" : 0 , "slowms" : 100, "ok" : 1} // "was" is the old setting
-> db.system.profile.find().sort({millis:-1}) // 列出耗时的操作，按照操作耗时排序
-{ "op" : "query", "ns" : "broker_test.working_message", "query" : { "$query" : { "state" : 2 }, "$orderby" : { "created_at" : 1 } }, "cursorid" : 24924786875, "ntoreturn" : 256, "ntoskip" : 0, "nscanned" : 0, "nscannedObjects" : 71040, "scanAndOrder" : true, "keyUpdates" : 
-0, "writeConflicts" : 0, "numYield" : 557, "locks" : { "Global" : { "acquireCount" : { "r" : NumberLong(1116) } }, "Database" : { "acquireCount" : { "r" : NumberLong(558) } }, "Collection" : { "acquireCount" : { "r" : NumberLong(558) } } }, "nreturned" : 256, "responseLengt
-h" : 182909, "millis" : 192, "execStats" : { "stage" : "OR", "nReturned" : 256, "executionTimeMillisEstimate" : 180, "works" : 71299, "advanced" : 256, "needTime" : 71043, "needFetch" : 0, "saveState" : 557, "restoreState" : 557, "isEOF" : 0, "invalidates" : 0, "dupsTested"
- : 256, "dupsDropped" : 0, "locsForgotten" : 0, "matchTested_0" : 0, "matchTested_1" : 0, "inputStages" : [ { "stage" : "SORT", "nReturned" : 256, "executionTimeMillisEstimate" : 180, "works" : 71299, "advanced" : 256, "needTime" : 71042, "needFetch" : 0, "saveState" : 557,
- "restoreState" : 557, "isEOF" : 1, "invalidates" : 0, "sortPattern" : { "created_at" : 1 }, "memUsage" : 184937, "memLimit" : 33554432, "limitAmount" : 256, "inputStage" : { "stage" : "COLLSCAN", "filter" : { "state" : { "$eq" : 2 } }, "nReturned" : 70469, "executionTimeMi
-llisEstimate" : 60, "works" : 71042, "advanced" : 70469, "needTime" : 572, "needFetch" : 0, "saveState" : 557, "restoreState" : 557, "isEOF" : 1, "invalidates" : 0, "direction" : "forward", "docsExamined" : 71040 } }, { "stage" : "SORT", "nReturned" : 0, "executionTimeMilli
-sEstimate" : 0, "works" : 0, "advanced" : 0, "needTime" : 0, "needFetch" : 0, "saveState" : 557, "restoreState" : 557, "isEOF" : 0, "invalidates" : 0, "sortPattern" : { "created_at" : 1 }, "memUsage" : 0, "memLimit" : 33554432, "inputStage" : { "stage" : "COLLSCAN", "filter
-" : { "state" : { "$eq" : 2 } }, "nReturned" : 0, "executionTimeMillisEstimate" : 0, "works" : 0, "advanced" : 0, "needTime" : 0, "needFetch" : 0, "saveState" : 557, "restoreState" : 557, "isEOF" : 0, "invalidates" : 0, "direction" : "forward", "docsExamined" : 0 } } ] }, "
-ts" : ISODate("2017-10-24T07:54:08.773Z"), "client" : "10.200.20.56", "allUsers" : [ ], "user" : "" }
+{"was" : 0 , "slowms" : 100, "ok" : 1}       // "was" 表示旧的设置
+> db.system.profile.find().sort({millis:-1}) // 列出耗时的操作，按照操作耗时排序，这条语句会列出扫描的对象数量，锁等关键信息
 ```
 
 在程序里面加上索引，再次benchmark达到预期。
