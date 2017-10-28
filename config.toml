@@ -7,7 +7,7 @@ title = "老K随笔"
 copyright = "(c) 2017 zenk."
 
 # Language
-languageCode = "zh_CN"
+DefaultContentLanguage = "zh"
 
 # Metadata format
 # "yaml", "toml", "json"
