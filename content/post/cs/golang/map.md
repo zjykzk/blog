@@ -122,6 +122,10 @@ bucket的第一个条目`tophash[0]` 用来标识bucket中的条目是否已经�
 | :--: | :-------: | :---------: | :------: | :-------: |
 | 6.5  |   20.90   |    10.79    |   4.25   |    6.5    |
 
+# hash函数
+
+map中的key对应着一个hash函数，用于定位bucket。在golang的hash函数是固定的，用户无法修改。golang中的预定义类型，像 `int32/int64/string/interface` 等等都有一个hash函数与之对应，代码在runtime/alg.go中。对于自定义类型以及数组，如果它每个字段或者元素都是有hash函数，那么该类型就有hash函数，hash值由每个字段的hash值来定义，代码在reflect/type.go函数`StructOf`中。
+
 # 扩容
 
 当进行添加元素的操作时，如果超过装载因子，或者overflow的bucket数量超出阈值，就会触发扩容的操作。如果是因为overflow的bucket数量过多引起的，map的容量不会扩大，不然就扩大为原来的大小的两倍。
