@@ -5,7 +5,7 @@ tags = ["编程"]
 draft = false
 categories=["cs"]
 title="记一次mongo数据库优化经历"
-description="优化首要的是profile，profile一切"
+description="优化首要的是profile，profile一切。"
 date="2017-10-24T18:46:11+08:00"
 +++
 

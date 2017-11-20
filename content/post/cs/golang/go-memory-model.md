@@ -5,7 +5,7 @@ draft = false
 keywords = ["go", "内存模型"]
 tags = ["编程", "golang"]
 title = "GO 内存模型"
-description = "GO内存模型，happens before 定义"
+description = "GO内存模型，happens before 定义。"
 type = "post"
 categories = ["cs"]
 
