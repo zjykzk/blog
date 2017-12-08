@@ -1,6 +1,5 @@
 +++
 author = "zenk"
-slug = ""
 tags = ["mq","rocketmq"]
 draft = true
 categories=["cs"]
