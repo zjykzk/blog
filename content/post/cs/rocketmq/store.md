@@ -23,12 +23,6 @@ store模块是rocketmq的核心模块。主要功能有：
 
 负责消息存储，包括写消息，刷盘。
 
-### 核心代码
-
-```
-org.apache.rocketmq.store.CommitLog
-```
-
 ### 消息文件
 
 消息保存在默认值为`${user.home}\store\commitlog`文件夹下，可以通过配置项`storePathCommitLog`修改。所有的消息都写入一个逻辑文件，每个逻辑文件包含大小相等的物理文件。
@@ -43,7 +37,7 @@ org.apache.rocketmq.store.CommitLog
 
 在同步刷盘的场景下，会有一个定期检查消息是否已经写入磁盘的线程：`GroupCommitService`，除了检查还会进行刷盘的操作 。写消息的时候会生成一个`GroupCommitRequest`提交到`GroupCommitService`，并等待被唤醒或者超时。当`GroupCommitService`发现已经刷盘的最后一个消息的索引大于等于本消息的索引时就会唤醒`GroupCommitRequest`。
 
-备注：以上的场景还依赖于消息的属性`WAIT`，只有该属性为空或者为`true`就会执行同步刷盘逻辑，默认是空的。
+**备注**：以上的场景还依赖于消息的属性`WAIT`，只有该属性为空或者为`true`才会执行同步刷盘逻辑，默认是空的。
 
 #### 异步刷盘
 
@@ -59,9 +53,49 @@ org.apache.rocketmq.store.CommitLog
 
 使用了写buffer以后，写消息的全部逻辑就是把消息写入buffer。同时，系统会有一个线程`CommitRealTimeService`定期把消息写入文件。
 
+### 核心代码
+
+```
+org.apache.rocketmq.store.CommitLog
+```
+
 ## 消费队列
 
-TODO
+每个topic对应多个消费队列，这个是提高消费并发度的前提。
+
+### 结构
+
+每个消费队列对应一个逻辑文件，文件中对应每个消息的内容大小是固定的20个字节，包含消息的偏移量，大小以及tag哈希值。
+
+#### 文件目录
+
+数据保存在目录`${rootpath}/consumequeue`下面，`rootpath` 通过配置项`storePathRootDir`指定，默认的是`${user.home}/store`。
+
+```
+${rootpath}/consumequeue
+└── 0%default                     // topic
+    ├── 0                         // queue 0
+    │   └── 00000000000000000000
+    ├── 1                         // queue 1
+    │   └── 00000000000000000000
+    ├── 2                         // queue 2
+    │   └── 00000000000000000000
+    └── 3                         // queue 3
+        └── 00000000000000000000
+```
+
+#### 队列元素
+
+```
+|<----- 8 byte ----->|<- 4 byte ->|<------ 8 byte ------>|
++--------------------+------------+----------------------+
+|   commitlog offset |   size     | message tag hash code|
++--------------------+------------+----------------------+
+```
+
+### 执行
+
+通过线程`ReputMessageService`的分派消息的逻辑执行。
 
 ### 写盘
 
@@ -76,12 +110,6 @@ org.apache.rocketmq.store.DefaultMessageStore.FlushConsumeQueueService
 ## 清理消息
 
 系统每隔10s（可以配置）执行尝试删除过期的消息。
-
-### 核心代码
-
-```
-org.apache.rocketmq.store.DefaultMessageStore.CleanCommitLogService
-```
 
 ### 清理条件
 
@@ -102,15 +130,15 @@ org.apache.rocketmq.store.DefaultMessageStore.CleanCommitLogService
    * 通过配置项 `redeleteHangedFileInterval`指定执行周期，默认120s
    * 通过配置项 `destroyMapedFileIntervalForcibly`指定强制清理的时间，默认120s
 
-## 清理消费队列以及索引
-
-随着消息的清理，包含已经清理掉消息的消费队列以及索引就变得没有用处了，所以系统每隔100ms（可以配置）执行清理消费队列和索引。
-
 ### 核心代码
 
 ```
-org.apache.rocketmq.store.DefaultMessageStore.CleanConsumeQueueService
+org.apache.rocketmq.store.DefaultMessageStore.CleanCommitLogService
 ```
+
+## 清理消费队列以及索引
+
+随着消息的清理，包含已经清理掉消息的消费队列以及索引就变得没有用处了，所以系统每隔100ms（可以配置）执行清理消费队列和索引。
 
 ### 清理逻辑
 
@@ -119,26 +147,97 @@ org.apache.rocketmq.store.DefaultMessageStore.CleanConsumeQueueService
 1. 消费队列：如果队列的最大消息偏移量都比当前最小的消息偏移量小，那么就可以清理本队列
 2. 消息索引：如果索引中最大的消息偏移量都比当前最小的消息偏移量小，那么就可以清理本索引
 
+### 核心代码
+
+```
+org.apache.rocketmq.store.DefaultMessageStore.CleanConsumeQueueService
+```
+
 ## 消息索引
 
-系统可以通过配置项`messageIndexEnable`开关消息索引，默认是打开的。索引允许重复构建，通过配置项`duplicationEnable`指定。系统启动的时候，如果允许重复索引会重头构建，不然就从当前文件大小开始。
+消息索引是方便用户查询消息的一个结构。系统可以通过配置项`messageIndexEnable`开关消息索引，默认是打开的。索引允许重复构建，通过配置项`duplicationEnable`指定。系统启动的时候，如果允许重复索引会重头构建，不然就从当前文件大小开始。
+
+### 索引内容
+
+索引的key包含消息的两个属性：
+
+1. `KEYS`，支持多个值，每个值之间通过空格分割
+2. `UNIQ_KEY`
+
+索引的内容是消息的偏移量和时间（秒的精度）。
+
+### 结构
+
+#### 目录结构
+
+数据保存在目录`${rootpath}/index`下面，`rootpath` 通过配置项`storePathRootDir`指定，默认的是`${user.home}/store`。
+
+```
+index/
+└── 20171225143756745
+```
+
+#### 文件内容
+
+每个文件内容分成3部分，header, slot table和index linked list。组织如下：
+
+```
+|<-- 40 byte -->|<---   500w   --->|<---   2000w   --->|
++---------------+------------------+-------------------+
+|    header     |   slot table     | index linked list |
++---------------+------------------+-------------------+
+```
+
+##### header
+
+```
++---------------------+--0
+| beginTimestampIndex | ----> 第一条消息的保存时间
++---------------------+--8
+| endTimestampIndex   | ----> 最后一条消息的保存时间
++---------------------+--16
+| beginPhyoffsetIndex | ----> 第一条消息的在commitlog中的偏移量
++---------------------+--24
+| endPhyoffsetIndex   | ----> 最后一条消息的在commitlog中的偏移量
++---------------------+--32
+| hashSlotcountIndex  | ----> 哈希槽数量，保存添加到本槽列表的最新索引位置
++---------------------+--36
+| indexCountIndex     | ----> 索引数量，具体索引数据
++---------------------+--40
+```
+
+##### slot table 和 index linked list
+
+**slot table**总共有500w个位置，每个位置保存的是在这个slot上的索引列表中最新的那个索引。
+
+**index linked list**保存每个消息的索引数据
+
+```
+   
+   -  +-----+ <==== [slot table]
+   ^  |  10 |
+   |  +-----+
+   |  | 200 |
+   |  +-----+     +-----------+-------------+  +-----------+-------------+<=[index linked list]
+   |  |  18 | --> | index data| next index  |=>| index data| next index  |
+ 500w +-----+     +-----------+-------------+  +-----------+-------------+
+   |  | ... |     /                         \
+   |  +-----+    /                           \------------------------------------\
+   |  | 90  |    |<--4 byte-->|<--- 8 byte    --->|<--4 byte-->|<-----4 byte----->|
+   |  +-----+    +------------+-------------------|------------+------------------+ <= [index]
+   v  | 100 |    | key hash   | commit log offset | timestamp  | next index offset|
+   -  +-----+    +------------+-------------------|------------+------------------+
+```
+
+### 执行
+
+通过线程`ReputMessageService`的分派消息的逻辑执行。
 
 ### 核心代码
 
 ```
 org.apache.rocketmq.store.index
 ```
-
-### 索引内容
-
-消息的两个属性进行索引：
-
-1. `KEYS`，支持多个值，每个值直接通过空格分割
-2. `UNIQ_KEY`
-
-### 执行
-
-通过线程`ReputMessageService`的分派消息的逻辑执行。
 
 ## 预分配MappedFile
 
@@ -154,18 +253,18 @@ org.apache.rocketmq.store.AllocateMappedFileService
 
 当消息写入完成以后，系统有一个线程对消息可以做其他一些逻辑。比如：构建索引，消费队列，通知long pull的客户端请求。线程会维护一个消息索引，根据这个索引跟当前最大已经写入的消息的最大偏移量进行比较得到是否有消息需要处理。
 
-当系统重启的时候，会根据`duplicationEnable`来决定是否从头开始处理消息还是只处理新来的消息。
-
-### 核心逻辑
-
-```
-org.apache.rocketmq.store.ReputMessageService
-```
+当系统重启的时候，会根据`duplicationEnable`来决定是否从头开始处理消息还是只处理新来的消息。在`duplicationEnable`是`true`的情况下，还需要设置`CommitLog.confirmOffset`才能从头开始处理消息，因为默认情况下系统启动以后`CommitLog.confirmOffset`和`ReputMessageService.reputFromOffset`是相等的，详见代码`ReputMessageService.doReput`。
 
 ### 具体逻辑
 
 1. 分派消息：构建消费队列，消息索引
 2. 同时long pull的客户端请求
+
+### 核心代码
+
+```
+org.apache.rocketmq.store.DefaultMessageStore.ReputMessageService
+```
 
 ## HA
 
@@ -191,13 +290,40 @@ org.apache.rocketmq.store.ha.HAService
 org.apache.rocketmq.store.ha.HAConnection
 ```
 
-## ScheduleMessageService
+## 定时任务
 
-TODO
+实现了定时调度某个消息的功能。用户通过给消息设置`DELAY`属性值来实现。
 
-## StoreStatsService
+系统包含了一个名字为`SCHEDULE_TOPIC_XXXX`的topic，当消息指定了`DELALY`属性时，消息就会被发送到topic `SCHEDULE_TOPIC_XXXX` 中，同时会保存原来的topic、消费队列、以及其他属性值。这些值都作为消息的属性来保存。
 
-TODO
+系统通过配置项`messageDelayLevel`预定义可以延迟多长时间，同时每个延迟的级别对应着的消费队列。
+
+系统通过一个定时器，周期性从每个延迟级别对应的消费队列中拿取消息，并检查是否到期，如果到期就会把消息放入到原来的topic和队列中，同时会把先前用于保存原来消息的属性值删除，并设置投递时间。
+
+### 核心代码
+
+```
+org.apache.rocketmq.store.schedule.ScheduleMessageService
+```
+
+## 统计
+
+消息的统计。包含：
+
+1. 发送消息的总数`putMessageTimesTotal`
+2. 发送消息时，不同响应时间级别的消息数量`putMessageDistributeTime`
+3. 发送消息请求的最长响应时间`putMessageEntireTimeMax`
+4. 发送消息的总大小`putMessageSizeTotal`、平均大小`putMessageAverageSize`
+5. 发消息的TPS`putTps`
+6. 拉取消息请求的最长响应时间`getMessageEntireTimeMax`
+7. 拉取消息请求命中TPS`getFoundTps`、没有命中TPS `getMissTps`以及总的请求TPS`getTotalTps`
+8. 拉取消息的TPS，拉取消息请求，并返回消息的TPS `getTransferedTps`
+
+### 核心代码
+
+```
+org.apache.rocketmq.store.StoreStatsService
+```
 
 ## 写buffer
 
@@ -246,6 +372,13 @@ rocketmq中的索引、消费队列、消息这些数据都通过内存映射进
 #### 写buffer
 
 建立一个buffer池，这些buffer是堆外内存。buffer所占用的内存是不会被交换出去的，同时也会通知内核这部分数据将来会读到。`MappedFile`新建的时候可以通过这个池子获得buffer作为写的buffer。
+
+### 核心代码
+
+```
+org.apache.rocketmq.store.MappedFileQueue
+org.apache.rocketmq.store.MappedFile
+```
 
 ## 备注
 
