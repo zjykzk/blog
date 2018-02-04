@@ -2,7 +2,7 @@
 author = "zenk"
 slug = ""
 tags = ["vim"]
-draft = true
+draft = false
 categories=["cs"]
 title="vim常用操作"
 description="vim常用操作"
