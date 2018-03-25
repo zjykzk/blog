@@ -2,7 +2,7 @@
 author = "zenk"
 slug = ""
 tags = ["golang"]
-draft = true
+draft = false
 categories=["cs"]
 title="golang中的tls"
 description="golang中tls的使用。"
@@ -72,5 +72,3 @@ Entry point: 0x448f20
 ```
 
 可以看到，这里调用了系统调用[`arch_prctl`](http://man7.org/linux/man-pages/man2/arch_prctl.2.html)，在linux下把`m0.tls+8`的地址保存到`fs`寄存器。到此，完成TLS的设置。
-
-golang这样设置以后操作系统是怎么使用的呢？
