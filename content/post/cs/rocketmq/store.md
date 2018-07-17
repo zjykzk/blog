@@ -45,7 +45,7 @@ store模块是rocketmq的核心模块。主要功能有：
 
 #### 主从同步
 
-每条消息要等从broker同步完才算完成。
+每条消息要等一个从broker同步完才算完成。
 
 在主从同步的场景下，会有一个定期检查消息是否已经被从broker同步的辅助线程：`GroupTransferService`。写消息的时候会生成一个`GroupCommitRequest`提交给`GroupTransferService`，并等待被唤醒或者超时。当`GroupTransferService`发现从broker已经同步的最后一个消息的索引大于本次消息的索引时就会唤醒`GroupCommitRequest`。
 
@@ -268,7 +268,7 @@ org.apache.rocketmq.store.DefaultMessageStore.ReputMessageService
 
 ## HA
 
-RocketMQ的HA是最朴素的主从同步，主broker挂了从broker可以读数据，但是不能写，也不会自动主从切换。
+RocketMQ的HA是最朴素的一主多从同步，主broker挂了从broker可以读数据，但是不能写，也不会自动主从切换。
 
 ![ha](/imgs/rocketmq/ha.png)
 
