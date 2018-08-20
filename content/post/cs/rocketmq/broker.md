@@ -18,13 +18,11 @@ broker模块是rocketmq的核心。主要功能：
 4. 主重同步
 5. 状态统计
 
-![/static/imgs/rocketmq/broker.png]()
+![broker](/imgs/rocketmq/broker.png)
 
 ## MessageStore
 
-消息管理模块。
-
-TODO
+[消息管理模块](/post/cs/rocketmq/store/)。
 
 ## RemotingServer
 
@@ -39,16 +37,18 @@ TODO
 
 分几类请求，每类请求有自己的请求队列以及相应的处理请求的线程池，通过请求编码来绑定队列和线程池。
 
-![/static/imgs/rocketmq/broker-remotingserver.png]()
+![broker-remotingserver](/imgs/rocketmq/broker-remotingserver.png)
 
 ### 协议
 
 长度头的方式。
 
-|<-- 4 byte -->|<--  4 byte -->   |
-+------------------+---------------------+-------------------+----------------+
-| total length | header length| header data | body data |
-+------------------+---------------------+-------------------+----------------+
+```
+|<-- 4 byte -->|<--  4 byte -->   |<-------------- data -------> |
++--------------+------------------+-------------+----------------+
+| total length |   header length  | header data | body data      |
++--------------+------------------+-------------+----------------+
+```
 
 ### 数据封包
 
