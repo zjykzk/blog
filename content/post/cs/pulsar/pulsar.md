@@ -35,7 +35,9 @@ https://streaml.io/blog/why-apache-pulsar-part-2
 
 **bookkeeper**
 
+如何写quorum，PendingAddOp会等待多个bookier写完
 
+bookkeeper中的journal文件写要求比较高，因为这个文件内容是同步写的，最好用SSD
 
 topic的映射
 
