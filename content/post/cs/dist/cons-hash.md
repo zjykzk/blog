@@ -3,8 +3,8 @@ author = "zenk"
 tags = ["分布式","算法"]
 draft = false
 categories=["cs"]
-title="分布式中常用算法"
-description="分布式系统中，经常使用的用算法总结"
+title="一致性hash算法"
+description="一致性hash算法介绍。"
 date="2018-04-28T13:58:46+08:00"
 +++
 
