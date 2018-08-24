@@ -12,6 +12,10 @@ type = "post"
 
 [**David Beazley**](http://www.dabeaz.com/)
 
+### Golang
+
+[**Rakyll**](https://rakyll.org/) | [**Peter Bourgon**](https://peter.bourgon.org/) | [**Dave Cheney**](https://dave.cheney.net) | [**Golang Wiki**](https://github.com/golang/go/wiki)
+
 ### Others
 
 [**刘未鹏 | MIND HACKS**](http://mindhacks.cn/)|[**TopLanguage**](https://groups.google.com/group/pongba) | [PythonCN](http://groups.google.com/group/python-cn) | [ErlangCN](http://erlang-china.org/)
