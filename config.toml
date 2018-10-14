@@ -3,6 +3,8 @@ baseurl = "http://zjykzk.github.io/"
 # Site title
 title = "老K随笔"
 
+Paginate = 100
+
 # Copyright
 copyright = "(c) 2017 zenk."
 
