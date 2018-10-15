@@ -1,6 +1,6 @@
 +++
 author = "zenk"
-tags = ["分布式","算法"]
+tags = ["dist","algo"]
 draft = false
 categories=["cs"]
 title="一致性hash算法"

@@ -1,7 +1,7 @@
 +++
 author = "zenk"
 slug = ""
-tags = ["编程"]
+tags = ["program"]
 draft = false
 categories=["cs"]
 title="记一次mongo数据库优化经历"

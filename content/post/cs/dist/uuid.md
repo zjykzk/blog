@@ -1,6 +1,6 @@
 +++
 author = "zenk"
-tags = ["分布式","算法"]
+tags = ["dist","algo"]
 draft = false
 categories=["cs"]
 title="分布式ID生成算法"

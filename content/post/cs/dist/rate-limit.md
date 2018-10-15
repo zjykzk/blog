@@ -1,7 +1,7 @@
 +++
 author = "zenk"
 slug = ""
-tags = ["分布式","算法"]
+tags = ["dist","algo"]
 draft = false
 categories=["cs"]
 title="限流"

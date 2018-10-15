@@ -1,7 +1,7 @@
 +++
 author = "zenk"
 slug = ""
-tags = ["编程","设计"]
+tags = ["program","design"]
 draft = true
 categories=["cs"]
 title="命名习惯"

@@ -1,6 +1,6 @@
 +++
 author = "zenk"
-tags = ["编程","设计"]
+tags = ["program","design"]
 draft = false
 categories=["cs"]
 title="接口在哪里定义？"

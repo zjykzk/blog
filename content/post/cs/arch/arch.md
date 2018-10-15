@@ -1,6 +1,6 @@
 +++
 author = "zenk"
-tags = ["编程","架构"]
+tags = ["program","arch"]
 draft = true
 categories=["cs"]
 title="什么是架构"

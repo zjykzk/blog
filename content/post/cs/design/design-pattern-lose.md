@@ -1,7 +1,7 @@
 +++
 author = "zenk"
 slug = ""
-tags = ["设计模式"]
+tags = ["design-pattern"]
 draft = true
 categories=["cs"]
 title="设计模式拾遗"

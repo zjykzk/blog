@@ -1,7 +1,7 @@
 +++
 author = "zenk"
 slug = ""
-tags = ["分布式"]
+tags = ["dist"]
 draft = false
 categories=["cs"]
 title="熔断"

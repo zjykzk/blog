@@ -1,7 +1,7 @@
 +++
 author = "zenk"
 slug = ""
-tags = ["编程","设计"]
+tags = ["program","design"]
 categories=["cs"]
 title="常用面向对象设计原则"
 description="常用的面向对象设计原则，SOILD"

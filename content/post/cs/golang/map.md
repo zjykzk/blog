@@ -2,7 +2,7 @@
 author = "zenk"
 date = "2017-06-15T19:13:25+08:00"
 slug = ""
-tags = ["golang","编程"]
+tags = ["golang","program"]
 draft = false
 title = "map 内部实现"
 categories=["cs"]
