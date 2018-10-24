@@ -33,3 +33,5 @@ db：Insert/Remove/Update/Find
 变量： conf
 
 类型： XXXConfig
+
+创建对象统一用New，不用Create。
