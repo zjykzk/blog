@@ -47,7 +47,7 @@ date="2018-10-12T14:23:18+08:00"
 
 Netflix中的[Hystrix](https://github.com/Netflix/Hystrix/wiki/How-it-Works#CircuitBreaker)有一个完整的实现。
 
-![hystrix circuit breaker](/imgs/hystrix-circuit-breaker-1280.png)
+![hystrix circuit breaker，图片来自hystrix的github wiki](/imgs/hystrix-circuit-breaker-1280.png)
 
 流程如下：
 

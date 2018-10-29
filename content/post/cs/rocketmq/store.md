@@ -113,22 +113,22 @@ org.apache.rocketmq.store.DefaultMessageStore.FlushConsumeQueueService
 
 ### 清理条件
 
-1. 清理时间到达，默认是凌晨4点
-2. 消息所在的磁盘使用率或者其他数据所在磁盘使用率操作告警阀值和强制删除阀值
-   * 保存消息的目录通过配置项 `storePathCommitLog` 指定，默认是 `$HOME/store/commitlog`
-   * 保存其他数据的目录通过配置项 `storePathRootDir` 指定，默认是 `$HOME/store`
-   * 告警的磁盘使用率阀值通过系统变量 `rocketmq.broker.diskSpaceWarningLevelRatio`指定，默认是 0.9
-   * 强制删除的磁盘使用率阀值通过系统变量 `rocketmq.broker.diskSpaceCleanForciblyRatio`指定，默认是 0.75
-3. 手动触发清理，这里提供了一个接口暴露给外面调用，调用以后会在连续执行20次删除
+1. 清理时间到达，默认是凌晨4点。
+2. 消息所在的磁盘使用率或者其他数据所在磁盘使用率操作告警阀值和强制删除阀值。
+   * 保存消息的目录通过配置项 `storePathCommitLog` 指定，默认是 `$HOME/store/commitlog`。
+   * 保存其他数据的目录通过配置项 `storePathRootDir` 指定，默认是 `$HOME/store`。
+   * 告警的磁盘使用率阀值通过系统变量 `rocketmq.broker.diskSpaceWarningLevelRatio`指定，默认是 0.9。
+   * 强制删除的磁盘使用率阀值通过系统变量 `rocketmq.broker.diskSpaceCleanForciblyRatio`指定，默认是 0.75。
+3. 手动触发清理，这里提供了一个接口暴露给外面调用，调用以后会在连续执行20次删除。
 
 ### 清理逻辑
 
-1. 正常清理过期的消息，过期时间可以通过配置项 `fileReservedTime` 指定，默认是72小时
+1. 正常清理过期的消息，过期时间可以通过配置项 `fileReservedTime` 指定，默认是72小时。
 
-2. 清理上次没有清理成功的消息，这是因为消息被清理时，其他地方正在使用。每隔一段时间执行一次，同时如果距离上次被清理时间超过了一段时间会被强制清理
+2. 清理上次没有清理成功的消息，这是因为消息被清理时，其他地方正在使用。每隔一段时间执行一次，同时如果距离上次被清理时间超过了一段时间会被强制清理。
 
-   * 通过配置项 `redeleteHangedFileInterval`指定执行周期，默认120s
-   * 通过配置项 `destroyMapedFileIntervalForcibly`指定强制清理的时间，默认120s
+   * 通过配置项 `redeleteHangedFileInterval`指定执行周期，默认120s。
+   * 通过配置项 `destroyMapedFileIntervalForcibly`指定强制清理的时间，默认120s。
 
 ### 核心代码
 
@@ -144,8 +144,8 @@ org.apache.rocketmq.store.DefaultMessageStore.CleanCommitLogService
 
 获取当前消息的最小偏移量，这个偏移量随着消息的清理会不停的变化。
 
-1. 消费队列：如果队列的最大消息偏移量都比当前最小的消息偏移量小，那么就可以清理本队列
-2. 消息索引：如果索引中最大的消息偏移量都比当前最小的消息偏移量小，那么就可以清理本索引
+1. 消费队列：如果队列的最大消息偏移量都比当前最小的消息偏移量小，那么就可以清理本队列。
+2. 消息索引：如果索引中最大的消息偏移量都比当前最小的消息偏移量小，那么就可以清理本索引。
 
 ### 核心代码
 
@@ -161,8 +161,8 @@ org.apache.rocketmq.store.DefaultMessageStore.CleanConsumeQueueService
 
 索引的key包含消息的两个属性：
 
-1. `KEYS`，支持多个值，每个值之间通过空格分割
-2. `UNIQ_KEY`
+1. `KEYS`，支持多个值，每个值之间通过空格分割。
+2. `UNIQ_KEY`。
 
 索引的内容是消息的偏移量和时间（秒的精度）。
 
@@ -257,8 +257,8 @@ org.apache.rocketmq.store.AllocateMappedFileService
 
 ### 具体逻辑
 
-1. 分派消息：构建消费队列，消息索引
-2. 同时long pull的客户端请求
+1. 分派消息：构建消费队列，消息索引。
+2. 同时long pull的客户端请求。
 
 ### 核心代码
 
@@ -274,14 +274,35 @@ RocketMQ的HA是最朴素的一主多从同步，主broker挂了从broker可以�
 
 ### 消息同步逻辑
 
-1. 启动的时候，MASTER会启动监听服务`AcceptSocketService`，SLAVE会启动同步服务 `HAClient`
-2. 建立连接`HAConnection`之后，MASTER会为连接建立两个线程`WriteSocketService`和`ReadSocketService`分别负责这条连接的写和读
-3. SLAVE向MASTER报告，当前同步的位置，具体是到目前为止同步到的偏移量
-4. MASTER根据SLAVE报告的偏移量，发送消息数据
+1. 启动的时候，MASTER会启动监听线程`AcceptSocketService`，SLAVE会启动同步线程 `HAClient`。
+2. 建立连接`HAConnection`之后，MASTER会为连接建立两个线程`WriteSocketService`和`ReadSocketService`分别负责这条连接的写和读。
+3. SLAVE向MASTER报告，当前同步的位置，具体是到目前为止同步到的偏移量。
+4. MASTER根据SLAVE报告的偏移量，发送消息数据。
+
+**WriteSocketService**线程
+
+主结点向从结点推送消息线程。线程会记录当前同步的位置确保同步的数据不会重复。当线程启动的时候会等待从结点上报同步进度，如果上报的结果是0，从当前新消息文件中的第一个消息偏移量开始同步（不理解* V *）。消息写完主结点之后，会通知本线程进行写消息。另外，写完消息以后会主动向从结点发送已经同步的位置，像是一个保活机制。
+
+**ReadSocketService**线程
+
+接收从结点的同步进度。它的任务就是接收从结点同步进度，然后通知等待从结点写完的消息。
+
+**HAClient**线程
+
+从结点和主结点同步线程。主要工作
+
+1. 和主结点建立同步连接。
+2. 周期性的向主结点发送同步进度。
+3. 接收主结点推送过来的数据，并把数据写入磁盘。
+4. 检查是否有数据同步过来，有的话也会向主结点发送同步进度。
 
 #### 写buffer的影响
 
 当开启写buffer的时候，主从同步的逻辑中使用到的当前消息的最大索引计算逻辑是不一样的。在这种情况下，系统会有一个线程`CommitRealTimeService`负责把写buffer中的数据写入文件。只有写入以后数据，才会被同步到从broker。也就是说主从同步的实时性还会受到这个线程的影响。
+
+### 主从同步发送消息过程
+
+当我们使用主从同步模式的时候，消息要等到主、从都写完才能返回。在这个过程中，除了主从同步逻辑以外还有消息等待从结点写完成的逻辑。这个逻辑是通过`GroupTransferService`完成的。大致流程如下：消息写完主结点后向`GroupTransferService`发送等待从结点写完请求，`GroupTransferService`只做一件事情，就是不断对比当前从结点同步进度与当前接收到的消息物理偏移量，如果从结点的同步进度大，说明消息已经写入从结点，随即通知消息已经写完。另外，从结点的同步进度是通过`ReadSocketService`接收到从结点主动发过来的；当消息写完主结点之后会通知主结点往从结点写消息服务`WriteSocketService`。
 
 ### 核心代码
 
@@ -365,9 +386,9 @@ rocketmq中的索引、消费队列、消息这些数据都通过内存映射进
 
 #### 预热
 
-1. 新建`MappedFile`时通过先把文件映射的内存都写一遍，内核为文件分配物理页
-2. 使用`mlock`锁住文件映射的物理内存，确保这部分内存不被交换出去
-3. 使用`madvise`通知内核这部分数据将来会读到
+1. 新建`MappedFile`时通过先把文件映射的内存都写一遍，内核为文件分配物理页。
+2. 使用`mlock`锁住文件映射的物理内存，确保这部分内存不被交换出去。
+3. 使用`madvise`通知内核这部分数据将来会读到。
 
 #### 写buffer
 
