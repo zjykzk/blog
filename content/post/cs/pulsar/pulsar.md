@@ -36,10 +36,20 @@ https://streaml.io/blog/why-apache-pulsar-part-2
 **bookkeeper**
 
 * 集群怎么做的？
-
 * 面向record，有什么好处？
-
 * 如何写quorum，PendingAddOp会等待多个bookier写完，怎么确定没有重复写？
+
+https://streaml.io/blog/why-bookkeeper-part-2
+
+https://bookkeeper.apache.org/distributedlog/technical-review/2016/09/19/kafka-vs-distributedlog.html
+
+https://streaml.io/blog/why-apache-bookkeeper
+
+https://streaml.io/blog/messaging-storage-or-both
+
+https://bookkeeper.apache.org/docs/latest/api/ledger-api/
+
+
 
 bookkeeper中的journal文件写要求比较高，因为这个文件内容是同步写的，最好用SSD
 
