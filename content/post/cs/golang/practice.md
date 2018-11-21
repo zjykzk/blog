@@ -71,3 +71,11 @@ https://github.com/bketelsen/talks/blob/master/slides/gcru18-best.md
 
 1. 
 
+## 并发
+
+**channel**
+
+1. 明确channel的收发角色。
+2. 向channel发送的数据时候，需要考虑消费者很慢的情况，需要文档说明。
+3. 向channel发送的数据量没有限制的情况，考虑通过参数把channel传过来，这样可以方便用户自己调优。
+4. 向channel发送的数据量有限制的情况，考虑返回一个拥有buffered的channel，因为自己能够控制大小。
