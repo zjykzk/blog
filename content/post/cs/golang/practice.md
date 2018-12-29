@@ -46,6 +46,14 @@ https://blog.golang.org/package-names
 https://rakyll.org/style-packages/
 https://github.com/bketelsen/talks/blob/master/slides/gcru18-best.md
 
+## 注释
+
+// TODO
+
+## 错误处理
+
+TODO
+
 ## 包
 
 **组织**
