@@ -4,7 +4,7 @@ tags = ["rocketmq"]
 draft = false
 categories=["cs"]
 title="offset管理"
-description="offset相关原理与实现"
+description="offset相关原理与实现。"
 date="2018-12-28T16:03:51+08:00"
 
 +++
