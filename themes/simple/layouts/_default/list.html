@@ -1,0 +1,16 @@
+<style>
+.pd{width:4em;flex-shrink:0;padding-bottom:.9em}
+.par div{display:flex}
+</style>
+<script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-43852829-1','auto');ga('send','pageview');
+</script>
+<script async src=//www.google-analytics.com/analytics.js></script><meta name=viewport content="width=device-width">
+<div class=par>
+{{ range .Pages -}}
+<div>
+    <div class="pd">{{ .Lastmod.Format ($.Param "dateformat" | default "2006-01-02") }}</div>
+    <a href={{ .RelPermalink }}>{{.Title}}</a>
+</div>
+{{ end -}}
+</div>

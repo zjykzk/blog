@@ -1,0 +1,8 @@
+{{ define "main" -}}
+{{ if .IsHome }}
+{{ .Render "list"}} 
+{{ else }}
+{{ .Render "single" }}
+{{ partial "footer.html" . -}}
+{{ end -}}
+{{ end }}
