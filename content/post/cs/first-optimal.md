@@ -10,7 +10,7 @@ date="2017-10-24T18:46:11+08:00"
 +++
 
 # 缘起
-
+<style>table{border-collapse:collapse;}table,td,th{border:1px solid #000}td{text-align:center}</style>
 最近，做一个项目：封装一个MQ，提供发送、拉取、查询的基本功能，需要保证一条消息只被消费一次。写完了基本功能以后，开始做benchmark。结果超级糟糕：
 
 | 发送线程数量 | 消费线程数量 |  发送TPS  | 消费TPS |
