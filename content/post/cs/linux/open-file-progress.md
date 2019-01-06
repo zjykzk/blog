@@ -4,7 +4,7 @@ slug = ""
 tags = ["linux"]
 draft = false
 categories=["cs"]
-title="如何定位一个文件。"
+title="如何定位一个文件"
 description="linux中怎么通过文件名找到具体的数据。"
 date="2018-10-24T14:57:53+08:00"
 
