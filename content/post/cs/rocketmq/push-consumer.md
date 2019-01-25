@@ -4,8 +4,8 @@ slug = ""
 tags = ["rocketmq"]
 draft = false
 categories=["cs"]
-title="push模式的实现细节"
-description="push模式功能和实现细节。"
+title="RocketMQ push模式的实现细节"
+description="RocketMQ push模式功能和实现细节。"
 date="2019-01-16T16:54:09+08:00"
 
 +++
