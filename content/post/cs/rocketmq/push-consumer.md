@@ -2,7 +2,7 @@
 author = "zenk"
 slug = ""
 tags = ["rocketmq"]
-draft = false
+draft = true
 categories=["cs"]
 title="RocketMQ push模式的实现细节"
 description="RocketMQ push模式功能和实现细节。"
@@ -75,13 +75,13 @@ ReblanceService.run
 
 消费服务分并发消费和顺序消费，主要区别在于提交消费任务逻辑，消费逻辑和处理消费结果的逻辑，以及对message queue的处理逻辑。另外，顺序消费是指在同一个消费队列里面的消息顺序消费。
 
-**提交消费任务**
+### 提交消费任务
 
 并发消费：把消息分成多个批次并发处理，一批多少个消息是自定义的，默认是1。如果提交异常，则延迟5s后提交。
 
 顺序消费：依赖于process queue是否正在被消费，这样避免同时消费多个不同的消息，不然就没法保证有序了。
 
-**消费逻辑**
+### 消费逻辑
 
 下图中左边是*并发消费*，右边是*顺序消费*。
 
@@ -89,16 +89,60 @@ ReblanceService.run
 
 消费消息的时候，在可能停顿的执行点上面都加上了process queue是否已经drop的检查。
 
-因为提交任务的方式不一样导致了不同模式下面消费逻辑的差别。并发消费只考虑当前的消息即可，而顺序消费却要在这里从process queue中取消息。
+因为提交任务的方式不一样导致了不同模式下面消费逻辑的差别。
 
-顺序消费的时候需要确保：
+并发消费：只考虑当前的消息即可。
+
+顺序消费：从process queue中取消息。消费的时候需要确保：
 
 1. 每个消费队列某一时候只有一个消费请求被执行。
 2. 每个消费队列某一时刻只有一个地方在执行用户的消费逻辑。
 
-以上两个条件中只要一个条件不满足，就没法保证消息顺序消费。但是，在代码层面第一个逻辑已经确保了第二个逻辑。另外，第一个逻辑需要的锁，是因为消费慢，同时队列被分配别的消费者，在消费结束之前又分配回来了，就有可能导致1条件不满足，所以需要加锁。
+以上两个条件中只要一个条件不满足，就没法保证消息顺序消费。另外，第一个逻辑需要的锁，是因为消费慢，同时队列被分配别的消费者，在消费结束之前又分配回来了，就有可能导致1条件不满足，所以需要加锁。在代码层面第一个逻辑需要的锁已经确保了第二个逻辑。消费之前需要锁的原因是为了避免，用户还在消费的时候向broker解锁。
 
-**处理消费结果**
+***TODO 锁的逻辑。***
+
+只有message queue被锁住了才能消费。客户端向服务端发送锁的请求成功以后才算锁成功。
+
+客户端：定时锁broker中的message queue，过期时间是30s。
+
+服务端：锁了以后的过期时间是60s
+
+```java
+负载均衡的时候如果，消费队列不属于自己了需要解锁。
+@Override
+    public boolean removeUnnecessaryMessageQueue(MessageQueue mq, ProcessQueue pq) {
+        this.defaultMQPushConsumerImpl.getOffsetStore().persist(mq);
+        this.defaultMQPushConsumerImpl.getOffsetStore().removeOffset(mq);
+        if (this.defaultMQPushConsumerImpl.isConsumeOrderly()
+            && MessageModel.CLUSTERING.equals(this.defaultMQPushConsumerImpl.messageModel())) {
+            try {
+                if (pq.getLockConsume().tryLock(1000, TimeUnit.MILLISECONDS)) {
+                    try {
+                        return this.unlockDelay(mq, pq); // 。。。，如果还有消息就delay20秒，不然就直接unlock，有消息的时候有可能会发生同时消费？不会吧，至少本机是不会消费的，锁被你抢到了
+                    } finally {
+                        pq.getLockConsume().unlock();
+                    }
+                } else {
+                    log.warn("[WRONG]mq is consuming, so can not unlock it, {}. maybe hanged for a while, {}",
+                        mq,
+                        pq.getTryUnlockTimes());
+
+                    pq.incTryUnlockTimes(); // 失败了怎么处理，因为没有remove操作，那只能等待下次负载均衡的时候，再删除了，这个的影响是别人没法消费，因为这边还会定时的向broker发锁，因此broker那边被锁住了。这里就可能发送重复消费了
+                }
+            } catch (Exception e) {
+                log.error("removeUnnecessaryMessageQueue Exception", e);
+            }
+
+            return false;
+        }
+        return true;
+    }
+```
+
+
+
+### 处理消费结果
 
 下图中左边是并发消费，右边是顺序消费。
 

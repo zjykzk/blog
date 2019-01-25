@@ -2,7 +2,7 @@
 author = "zenk"
 slug = ""
 tags = ["rocketmq","mq"]
-draft = true
+draft = false
 categories=["cs"]
 title="RocketMQ HA实现"
 description="RocketMQ HA实现细节。"
