@@ -2,7 +2,7 @@
 author = "zenk"
 slug = ""
 tags = ["rocketmq"]
-draft = true
+draft = false
 categories=["cs"]
 title="RocketMQ push模式的实现细节"
 description="RocketMQ push模式功能和实现细节。"
@@ -100,47 +100,11 @@ ReblanceService.run
 
 以上两个条件中只要一个条件不满足，就没法保证消息顺序消费。另外，第一个逻辑需要的锁，是因为消费慢，同时队列被分配别的消费者，在消费结束之前又分配回来了，就有可能导致1条件不满足，所以需要加锁。在代码层面第一个逻辑需要的锁已经确保了第二个逻辑。消费之前需要锁的原因是为了避免，用户还在消费的时候向broker解锁。
 
-***TODO 锁的逻辑。***
+**锁的逻辑**
 
-只有message queue被锁住了才能消费。客户端向服务端发送锁的请求成功以后才算锁成功。
+只有message queue被锁住了才能消费。客户端向服务端发送锁的请求成功以后才算锁成功。同时锁会有一个过期时间。在客户端这边定时向broker发送锁的请求，所得粒度是group+clientID，过期时间是30s。在服务端这边，锁了的过期时间是60s，这个时间以后能够接收其他锁的请求。
 
-客户端：定时锁broker中的message queue，过期时间是30s。
-
-服务端：锁了以后的过期时间是60s
-
-```java
-负载均衡的时候如果，消费队列不属于自己了需要解锁。
-@Override
-    public boolean removeUnnecessaryMessageQueue(MessageQueue mq, ProcessQueue pq) {
-        this.defaultMQPushConsumerImpl.getOffsetStore().persist(mq);
-        this.defaultMQPushConsumerImpl.getOffsetStore().removeOffset(mq);
-        if (this.defaultMQPushConsumerImpl.isConsumeOrderly()
-            && MessageModel.CLUSTERING.equals(this.defaultMQPushConsumerImpl.messageModel())) {
-            try {
-                if (pq.getLockConsume().tryLock(1000, TimeUnit.MILLISECONDS)) {
-                    try {
-                        return this.unlockDelay(mq, pq); // 。。。，如果还有消息就delay20秒，不然就直接unlock，有消息的时候有可能会发生同时消费？不会吧，至少本机是不会消费的，锁被你抢到了
-                    } finally {
-                        pq.getLockConsume().unlock();
-                    }
-                } else {
-                    log.warn("[WRONG]mq is consuming, so can not unlock it, {}. maybe hanged for a while, {}",
-                        mq,
-                        pq.getTryUnlockTimes());
-
-                    pq.incTryUnlockTimes(); // 失败了怎么处理，因为没有remove操作，那只能等待下次负载均衡的时候，再删除了，这个的影响是别人没法消费，因为这边还会定时的向broker发锁，因此broker那边被锁住了。这里就可能发送重复消费了
-                }
-            } catch (Exception e) {
-                log.error("removeUnnecessaryMessageQueue Exception", e);
-            }
-
-            return false;
-        }
-        return true;
-    }
-```
-
-
+在负载均衡的时候，检查一个消费队列发现不属于自己或者长时间没有拉的时候就会把这个消费队列移除掉。移除的逻辑比较有意思，为了确保这个消费队列正在被消费不会被移除，这里使用了一个消费锁。移除的时候尝试获得这个锁，如果超过1s还没有获得就会等待下一次负载均衡的检查，如果获得了锁就会延迟20s再向broker发送解锁请求。这里的延迟，有个效果就是可能这时候已经向broker发送了拉消息的请求，如果在它返回之前又把队列分配给自己了，那么就有可能两个触发一个拉消息的请求，这个时候就会同时有两个拉消息的请求，那么拉出来重复的消息。
 
 ### 处理消费结果
 
