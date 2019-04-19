@@ -8,6 +8,10 @@ type = "post"
 
 +++
 
+### 有趣的一些项目
+
+[**hackaday**](https://hackaday.com/)
+
 ### Python
 
 [**David Beazley**](http://www.dabeaz.com/)
@@ -64,8 +68,8 @@ type = "post"
 
 [TK](http://hi.baidu.com/tombkeeper) | [wuyizi](http://wuyizi.spaces.live.com/) | [Yelz](http://yelz.spaces.live.com/) | [丁丁虫](http://tintin.sfview.org/) | [付翀](http://ifire.cn/) | [**刘慈欣**](http://blog.sina.com.cn/lcx) | [**卢昌海**](http://www.changhai.org/) | [**老罗**](http://www.luoyonghao.net/blogs/luoyonghao/) | [**土摩托**](http://immusoul.com/)
 
-[吴欣安(atppp)](http://blog.wuxinan.net/) | [**周爱民**](http://blog.csdn.net/aimingoo/) | [和菜头](http://www.hecaitou.net/) |  | [守望轩](http://www.watch-life.net/) | [小花](http://flowerfei.com/)
+[吴欣安(atppp)](http://blog.wuxinan.net/) | [**周爱民**](http://blog.csdn.net/aimingoo/) | [和菜头](http://www.hecaitou.net/) | [林达华](http://dahua.spaces.live.com/) | [浦宇平](http://www.puyuping.com/) | [**白鸦**](http://uicom.net/blog/) 
 
-[林达华](http://dahua.spaces.live.com/) | [浦宇平](http://www.puyuping.com/) | [**白鸦**](http://uicom.net/blog/) | [程化](http://blog.csdn.net/hellothere/) | [**罗浩|Startup Game**](http://meditic.com/) | [**阮一峰**](http://www.ruanyifeng.com/blog/)
+[程化](http://blog.csdn.net/hellothere/) | [**罗浩|Startup Game**](http://meditic.com/) | [**阮一峰**](http://www.ruanyifeng.com/blog/)
 
 [高远](http://www.charlesgao.com/) | [鲍盛](http://fsbao.net/) | [Xiaoxiao](http://xiaoxiao.com.cn/) | [**张驰原**](http://blog.pluskid.org/) | [**Keso**](http://blog.donews.com/keso) | [**思践**](http://ethinker.blog.china.alibaba.com/)|[Tony Bai](http://tonybai.com/)
