@@ -79,3 +79,22 @@ x = y
 4. 结构体`S`含类型为`T`嵌入字段（embedded field）：`S`和`*S`的方法集合都包含`T`的方法集合，`*S`的方法集合还包含`*T`的方法集合。
 5. 结构体`S`含类型为`*T`嵌入字段（embedded field）：`S`和`*S`的方法集合都包含`T`的方法集合以及`*T`的方法集合。
 6. 其他类型没有方法集合。
+
+## 对齐
+
+数值类型的大小保证：
+
+```
+type                                       size in bytes
+byte, uint8, int8                          1
+uint16, int16                              2
+uint32, int32, float32                     4
+uint64, int64, float64, complex64          8
+complex128                                 16
+```
+
+对齐规则：
+
+1. 任何类型的变量`x`，`unsafe.Alignof(x)`返回值至少为1。
+2. 结构体变量`x`，`unsafe.Alignof(x)`返回值等于是结构体中所有字段的对齐值中的最大值，但是至少为1。
+3. 数组变量`x`，`unsafe.Alignof(x)`返回值等于数组元素的对齐值。
