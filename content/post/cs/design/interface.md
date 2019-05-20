@@ -109,3 +109,6 @@ RESTful实现需要在3级以上
 [api检查清单](https://mathieu.fenniak.net/the-api-checklist/)
 
 [google云api设计模式](https://cloud.google.com/apis/design/design_patterns)
+
+[k8s api规范](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md)
+
