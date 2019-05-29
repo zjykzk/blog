@@ -15,4 +15,5 @@ body{background:#faf9de;}
 <hr> {{ .Content }}
 <div class="np">{{if .Next}}<a href={{.Next.RelPermalink}}>← {{.Next.Title}}</a>{{else}}<a/>{{end}} {{if .Prev}}<a href={{.Prev.RelPermalink}}>{{.Prev.Title}} →</a>{{else}}<a></a>{{end}}</div>
 {{ partial "footer.html" . -}}
+{{ partial "gitalk.html" .  }}
 </html>
