@@ -2,7 +2,7 @@
 author = "zenk"
 slug = ""
 tags = ["golang"]
-draft = true
+draft = false
 categories=["cs"]
 title="sync.Map实现分析"
 description="sync.Map实现分析。"
@@ -10,7 +10,7 @@ date="2019-05-29T14:44:31+08:00"
 
 +++
 
-golang的SDK中提供线程安全的map实现`sync.Map`，它主要适用于两个场景：
+golang的SDK中提供线程安全的map实现`sync.Map`。它是针对`RWMutex+map`的实现方案中存在cache line的false share提出来的。主要适用于两个场景：
 
 1. 针对一个key一次写多次读。
 2. 多个goroutine并发读写修改的key是没有交集。
@@ -158,9 +158,12 @@ m.mu.Unlock()
 #### 疑问
 
 1. **为什么需要expunged状态？**
-2. **为什么newEntry的时候取的是参数interface{}的地址，这个地址不是栈上的么，会不会有问题？**
 
-参数i已经逃逸到堆上面去了。
+如果没有这个状态，更新已经删除的但是已经存在的数据就需要加锁了。
+
+1. **为什么newEntry的时候取的是参数interface{}的地址，这个地址不是栈上的么，会不会有问题？**
+
+参数`i`的地址被保存到`map`中时，变量`&i`已经逃逸到堆上面去了。
 
 ### 总结
 
@@ -171,3 +174,8 @@ m.mu.Unlock()
 3. 延迟删除，只有当只读的数据被写的数据覆盖以后才会被gc回收。
 4. 内存复用，已经删除的数据所在的内存，当同一个key赋值的时候，可以被重新被使用。
 5. 分摊分析。
+
+### 参考连接
+
+1. <https://github.com/golang/sync/commits/master/syncmap/map.go>
+2. <https://golang.org/pkg/sync/#Map>
