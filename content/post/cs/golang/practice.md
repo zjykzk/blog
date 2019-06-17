@@ -62,6 +62,7 @@ https://github.com/bketelsen/talks/blob/master/slides/gcru18-best.md
 
 1. 不好忽略每个错误，及时忽略需要注明原因。
 2. 调用的接口返回错误，当返回该错误时最好做个封装指明错误的来源，方便做错误跟踪。
+3. 每个模块返回的错误，在错误信息里面包含模块信息，一般会定义一个辅助方法。
 
 ## 包
 
@@ -87,6 +88,14 @@ https://github.com/bketelsen/talks/blob/master/slides/gcru18-best.md
 接口定义位置的一些例外：
 
 1. `sort`包下面的`Interface`，类似这样的抽象数据结构。
+
+2. 接口定义中引用了自己，比如定义一个Comparable接口。
+
+   ```
+   type Comparable interface {
+     Compare(o Comparable) int
+   }
+   ```
 
 ## 并发
 
