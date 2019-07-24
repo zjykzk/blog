@@ -112,3 +112,7 @@ RESTful实现需要在3级以上
 
 [k8s api规范](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md)
 
+[使用api first方法设计接口](https://www.programmableweb.com/news/how-to-design-great-apis-api-first-design-and-raml/how-to/2015/07/10)
+
+[api-first设计方法](https://www.programmableweb.com/news/introduction-to-api-first-design/analysis/2016/10/31)
+
