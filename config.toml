@@ -32,7 +32,7 @@ theme = "simple"
     code_syntax_css = "prism.css"
     code_syntax_js = "prism.js"
 # zen theme replated configuration
-    dateformat = "01/06"
+    dateformat = "2006-01-02"
     submitted = true       # Show author and date information for a post.
     poweredby = true       # Show powered by hugo in footer
     logo = false           # Turn off the logo.
