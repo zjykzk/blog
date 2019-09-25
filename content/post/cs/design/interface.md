@@ -104,7 +104,7 @@ RESTful实现需要在3级以上
 
 [微软api设计指南](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md)
 
-[微软api设计的最佳实践](<https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design>)
+[微软api设计的最佳实践](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
 
 [api检查清单](https://mathieu.fenniak.net/the-api-checklist/)
 
@@ -117,3 +117,5 @@ RESTful实现需要在3级以上
 [api-first设计方法](https://www.programmableweb.com/news/introduction-to-api-first-design/analysis/2016/10/31)
 
 https://jsonapi.org/
+
+[rfc7807](https://tools.ietf.org/html/rfc7807)
