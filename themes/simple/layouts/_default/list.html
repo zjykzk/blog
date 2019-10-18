@@ -7,7 +7,7 @@
 </script>
 <script async src=//www.google-analytics.com/analytics.js></script><meta name=viewport content="width=device-width">
 <div class=par>
-{{ range .Pages -}}
+{{ range .Site.RegularPages -}}
 <div>
     <div class="pd">{{ .Lastmod.Format ($.Param "dateformat" | default "2006-01-02") }}</div>
     <a href={{ .RelPermalink }}>{{.Title}}</a>
