@@ -114,3 +114,33 @@ https://github.com/bketelsen/talks/blob/master/slides/gcru18-best.md
 2. 糟糕的局部引用。
 3. 编译器会对解除指针时做额外的检查。
 4. Cache层拷贝一堆对象，可以粗略的认为和拷贝一指针效率差不多，因为cache层和主存之间中以固定大小的数据进行传输。x86下面是64字节。
+
+## 项目结构
+
+```
+project-layout
+├── api
+├── assets
+├── build
+├── cmd
+├── configs
+├── deployments
+├── docs
+├── examples
+├── githooks
+├── init
+├── internal
+├── LICENSE.md
+├── Makefile
+├── pkg
+├── README.md
+├── scripts
+├── test
+├── third_party
+├── tools
+├── vendor
+├── web
+└── website
+```
+
+细节参考https://github.com/golang-standards/project-layout。
