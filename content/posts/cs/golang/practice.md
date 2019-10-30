@@ -144,3 +144,9 @@ project-layout
 ```
 
 细节参考https://github.com/golang-standards/project-layout。
+
+### test目录
+
+mock代码目录：test/mocks/<entity>/<entity>.go
+
+测试数据目录：test/testdata
