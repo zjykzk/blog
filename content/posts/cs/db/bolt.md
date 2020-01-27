@@ -213,6 +213,8 @@ type meta struct {
 
 通过内存映射读取数据。
 
+同时,需要管理空闲的磁盘空间,重复利用。
+
 ### [写时复制](https://github.com/boltdb/bolt/issues/308#issuecomment-74811638)
 
 当发生添加数据或者修改时，被修改的数据所在的page都会被写到新的page。这样的好处就是事务隔离实现比较简单。
