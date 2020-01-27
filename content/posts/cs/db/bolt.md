@@ -215,7 +215,7 @@ type meta struct {
 
 ### [写时复制](https://github.com/boltdb/bolt/issues/308#issuecomment-74811638)
 
-当发生添加数据或者修改时，整个bucket引用的数据都会被写到新的page。这样的好处就是事务隔离实现比较简单。
+当发生添加数据或者修改时，被修改的数据所在的page都会被写到新的page。这样的好处就是事务隔离实现比较简单。
 
 ### [元数据](#meta)
 
