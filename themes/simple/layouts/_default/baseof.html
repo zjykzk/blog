@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}" dir="{{ $.Param "languagedir" | default "ltr" }}">
     {{- partial "head.html" . -}}
-    <body>
+	<style>
+	#container{width:60%;margin:auto}
+	</style>
+    <body id="container">
         {{- partial "header.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}

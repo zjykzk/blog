@@ -8,12 +8,17 @@ img{max-width:100%;height:auto}
 pre{max-width:100%;height:auto;white-space:pre-wrap}
 .np{display:flex;flex-direction:row;justify-content:space-between;padding-bottom:.5em;font-style:italic}
 body{background:#faf9de;}
+#container{width:60%;margin:auto}
 </style>
 <script> window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date; ga('create', 'UA-43852829-1', 'auto'); ga('send', 'pageview'); </script>
 <script async src=//www.google-analytics.com/analytics.js></script><link rel=icon href="data:;base64,=">
 <strong>{{ .Title }}</strong>
-<hr> {{ .Content }}
+<body id="container">
+<article>
+ {{ .Content }}
+</article>
 <div class="np">{{if .Next}}<a href={{.Next.RelPermalink}}>← {{.Next.Title}}</a>{{else}}<a/>{{end}} {{if .Prev}}<a href={{.Prev.RelPermalink}}>{{.Prev.Title}} →</a>{{else}}<a></a>{{end}}</div>
 {{ partial "footer.html" . -}}
 {{ partial "gitalk.html" .  }}
+</body>
 </html>
