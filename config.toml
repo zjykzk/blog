@@ -49,6 +49,8 @@ DefaultContentLanguage = "zh"
   	# home_image = "/images/avatar.png"          # Path to header image starting from the static directory (optional)
   	recent_posts = 7                           # Max amount of recent posts to show
   	mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
+	[params.style]                             # CSS style overrides
+    	backgroundColor = "#FAF9DE"
 	[[params.social]]
     	fa_icon = "fab fa-github fa-1x"
     	href = "http://github.com/zjykzk"
