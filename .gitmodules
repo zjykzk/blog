@@ -5,3 +5,6 @@
 	path = themes/zen
 	url = git@github.com:zjykzk/hugo-theme-zen.git
 	branch = master
+[submodule "themes/devise"]
+	path = themes/devise
+	url = https://github.com/austingebauer/devise.git

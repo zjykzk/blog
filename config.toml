@@ -1,22 +1,38 @@
 # hostname (and path) to the root eg. http://spf13.com/
 baseurl = "http://zjykzk.github.io/"
-# Site title
 title = "老K随笔"
-
-Paginate = 100
-
-# Copyright
-copyright = "(c) 2017 zenk."
-
+copyright = "(c) 2025 zenk."
+languageCode = "en-us"
+theme = "devise"
+relativeURLs = true
+enableEmoji = true
+googleAnalytics = ""
+enableRobotsTXT = true
 # Language
 DefaultContentLanguage = "zh"
 
-# Metadata format
-# "yaml", "toml", "json"
-metaDataFormat = "toml"
+[pagination]
+	pagerSize = 100
 
-# Theme to use (located in /themes/THEMENAME/)
-theme = "simple"
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    title = "About"
+    url = "/posts/about/"
+    weight = -110
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "Posts"
+    url = "/posts/"
+    weight = -100
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    title = "Categories"
+    url = "/categories/"
+    weight = -90
 
 [taxonomies]
     category = "categories"
@@ -27,36 +43,21 @@ theme = "simple"
     email = "zhangkai.zju@gmail.com"
 
 [params]
-    enableGitalk = true
-# code releated
-    code_syntax_css = "prism.css"
-    code_syntax_js = "prism.js"
-# zen theme replated configuration
-    dateformat = "2006-01-02"
-    submitted = true       # Show author and date information for a post.
-    poweredby = true       # Show powered by hugo in footer
-    logo = false           # Turn off the logo.
-    sidebar = false
-
-[params.gitalk]
-    clientID = "94870b3efea9c642b0e7" # Your client ID
-    clientSecret = "97e434f793caeaa7d09bf5a196cd6c84e6b4debc" # Your client secret
-    repo = "zjykzk.github.io" # The repo to store comments
-    owner = "zjykzk" # Your GitHub ID
-    admin= "zjykzk" # Required. Github repository owner and collaborators. (Users who having write access to this repository)
-    id= "location.pathname" # The unique id of the page.
-    labels= "gitalk" # Github issue labels. If you used to use Gitment, you can change it
-    perPage= 15 # Pagination size, with maximum 100.
-    pagerDirection= "last" # Comment sorting direction, available values are 'last' and 'first'.
-    createIssueManually= false # If it is 'false', it is auto to make a Github issue when the administrators login.
-    distractionFreeMode= false # Enable hot key (cmd|ctrl + enter) submit comment.
-
-[blackfriday]
-    angledQuotes = true
-    fractions = false
-    hrefTargetBlank = false
-    latexDashes = true
-    taskLists = true
-    plainIdAnchors = true
-    extensions = ["hardLineBreak"]
-    extensionmask = []
+	# description = "Your meta description"      # Your meta description of the site
+  	header_title = "zenk"                 # Your header title
+  	header_subtitle = "" # Your header subtitle
+  	# home_image = "/images/avatar.png"          # Path to header image starting from the static directory (optional)
+  	recent_posts = 7                           # Max amount of recent posts to show
+  	mainSections = ["posts", "post", "blog"]   # Main sections to include in recent posts
+	[[params.social]]
+    	fa_icon = "fab fa-github fa-1x"
+    	href = "http://github.com/zjykzk"
+		# 	[[params.social]]
+		# fa_icon = "fab fa-linkedin-in fa-1x"
+		# href = ""
+		# 	[[params.social]]
+		# fa_icon = "fab fa-twitter fa-1x"
+		# href = ""
+		# 	[[params.social]]
+		# fa_icon = "fas fa-at fa-1x"
+		# href = ""
