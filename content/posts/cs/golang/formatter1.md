@@ -9,7 +9,9 @@ description="var&const group"
 date="2025-05-20T10:26:00+08:00"
 +++
 
-说明以下代码格式化：
+# 声明常量和变量
+
+代码实例：
 
 ```go
 var (
@@ -25,7 +27,9 @@ const (
 )
 ```
 
-`var/const/(/)`的格式化比较简单，基本上类似如下代码：
+## `var/const/(/)`的格式化
+
+比较简单，基本上类似如下代码：
 
 ```go
 println(indents, "var (", "\f")
@@ -34,7 +38,9 @@ println(indents, ")", "\f")
 // indents: 表示缩进格式
 ```
 
-圆括号内部稍微复杂些。内部的一条语句叫做 var spec，其完整形式是这样的：
+## 圆括号内部
+
+稍微复杂些。内部的一条语句叫做 var spec，其完整形式是这样的：
 
 ```go
 idents Type = values // comments

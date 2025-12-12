@@ -43,6 +43,7 @@ DefaultContentLanguage = "zh"
     email = "zhangkai.zju@gmail.com"
 
 [params]
+	math = true
 	# description = "Your meta description"      # Your meta description of the site
   	header_title = "zenk"                 # Your header title
   	header_subtitle = "" # Your header subtitle
@@ -63,3 +64,12 @@ DefaultContentLanguage = "zh"
 		# 	[[params.social]]
 		# fa_icon = "fas fa-at fa-1x"
 		# href = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
