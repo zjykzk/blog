@@ -1,2 +1,2 @@
-- think tool: 一个提醒工具，没有任何输入，只是让大模型停下来想下
--
+- think tool: 一个提醒工具，没有任何输入，只是让大模型停下来想下，注意和extended think tool区别，后者是大模型的内置能力
+- https://www.anthropic.com/engineering/claude-think-tool
