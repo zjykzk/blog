@@ -1,0 +1,3 @@
+- 适用『router』和『adapter』
+	- router：分派任务
+	- adatper：生成一段代码
