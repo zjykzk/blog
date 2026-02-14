@@ -1,3 +1,3 @@
-- 适用『router』和『adapter』
+- 『router』和『adapter』，单步决策效果最好
 	- router：分派任务
-	- adatper：生成一段代码
+	- adatper：生成一段代码之类
