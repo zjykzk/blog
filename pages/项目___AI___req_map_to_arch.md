@@ -1,3 +1,19 @@
+---
+title: 项目/AI/req_map_to_arch source note
+type: source
+status: archived
+updated: 2026-04-21
+aliases:
+  - 项目___AI___req_map_to_arch
+  - 项目/AI/req_map_to_arch
+---
+
+# 项目/AI/req_map_to_arch source note
+
+沉淀后的主题页：[[wiki/topics/Requirement to Architecture Mapping]]
+
+## 原始摘录
+
 ## Input Normalization
 
 Normalize all inputs into this structure before validating:
@@ -174,3 +190,9 @@ Normalize all inputs into this structure before validating:
     • infra/
   5. Is this a pure reusable helper?
     • pkg/
+
+## Related
+
+- [[wiki/topics/Requirement to Architecture Mapping]]
+- [[wiki/syntheses/AI Engineering Workflow]]
+- [[wiki/maps/AI Map]]

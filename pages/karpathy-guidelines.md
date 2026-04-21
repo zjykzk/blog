@@ -1,3 +1,18 @@
+---
+title: karpathy-guidelines source note
+type: source
+status: archived
+updated: 2026-04-21
+aliases:
+  - karpathy-guidelines
+---
+
+# karpathy-guidelines source note
+
+沉淀后的主题页：[[wiki/topics/Karpathy Guidelines]]
+
+## 原始摘录
+
 - ```
   ---
   name: karpathy-guidelines
@@ -67,3 +82,9 @@
   
   Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
   ```
+
+## Related
+
+- [[wiki/topics/Karpathy Guidelines]]
+- [[wiki/syntheses/AI Engineering Workflow]]
+- [[wiki/maps/AI Map]]
