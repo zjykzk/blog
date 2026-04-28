@@ -21,9 +21,11 @@ aliases:
 ## Maps
 
 - [[wiki/maps/Classification Thinking Map]]
+- [[wiki/maps/CS Map]]
 - [[wiki/maps/Learning Map]]
-
-（更多 map 待建：CS Map、AI Map、Management Map、Reading Map）
+- [[wiki/maps/AI Map]]
+- [[wiki/maps/Management Map]]
+- [[wiki/maps/Reading Map]]
 
 ## Topics
 
@@ -33,6 +35,7 @@ aliases:
 - [[wiki/topics/Methods of Classification]]
 - [[wiki/topics/Thinking in Systems]]
 - [[wiki/topics/What Makes a Good Classification]]
+- [[wiki/topics/面向对象分析与设计]]
 
 ## Concepts
 

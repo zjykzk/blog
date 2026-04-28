@@ -11,10 +11,14 @@
             "id": "643a7efd50df968a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
             }
           }
         ]
@@ -90,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "raw/sources/业务建模.md",
+                "file": "CLAUDE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 业务建模"
+              "title": "Backlinks for CLAUDE"
             }
           },
           {
@@ -109,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "raw/sources/业务建模.md",
+                "file": "CLAUDE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 业务建模"
+              "title": "Outgoing links from CLAUDE"
             }
           },
           {
@@ -152,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "CLAUDE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of CLAUDE"
             }
           },
           {
@@ -181,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -204,10 +209,14 @@
   },
   "active": "643a7efd50df968a",
   "lastOpenFiles": [
+    "content/posts/cs/web/react.md",
+    "wiki/maps/AI Map.md",
+    "wiki/concepts/Agent.md",
+    "wiki/topics/面向对象分析与设计.md",
+    "wiki/topics/Object-Oriented Analysis and Design.md",
     "wiki/concepts/Agent Tool.md",
     "mobu/三级学修/同修班/29课-三士道建立原理.md",
     "content/posts/cs/linux/fix-bad-init.md",
-    "wiki/maps/AI Map.md",
     "wiki/topics/Karpathy Guidelines.md",
     "wiki/topics/Requirement to Architecture Mapping.md",
     "wiki/topics/User Stories.md",
@@ -216,7 +225,6 @@
     "public/posts/cs/design/how-to-split-by-responsibility",
     "wiki/maps/Learning Map.md",
     "content/posts/cs/design/how-to-split-by-responsibility.md",
-    "content/posts/cs/web/react.md",
     "wiki/maps/Classification Thinking Map.md",
     "wiki/topics/Limits of Classification.md",
     "pages/分类的边界.md",
@@ -233,13 +241,10 @@
     "public/posts/cs/web/react/index.html",
     "public/posts/cs/web/react",
     "content/posts/cs/web/learn.md",
-    "mobu/工具/得到高效学习方法.md",
     "public/posts/cs/web/react-state-effect/index.html",
     "public/posts/cs/web/react-state-effect",
     "public/tags/react/index.xml",
     "public/tags/react/index.html",
-    "wiki/maps/CS Map.md",
-    "wiki/sources/AI Coding Control Limits Source Guide.md",
     "Untitled.canvas",
     "raw/sources/HRiwbM75WooKMuxkev3cKjqHnie.PNG",
     "Pasted image 20260421133444.png",

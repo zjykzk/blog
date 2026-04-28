@@ -62,6 +62,7 @@ tags:
 
 ## Navigation
 
+- [[wiki/topics/面向对象分析与设计]]
 - [[wiki/maps/AI Map]]
 - [[wiki/topics/Karpathy Guidelines]]
 - `content/posts/cs/arch/arch.md`
