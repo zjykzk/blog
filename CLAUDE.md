@@ -4,59 +4,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-This repository is a personal Hugo-based knowledge site.
+This repository is a personal knowledge base centered on the structured `wiki/` directory.
 
 There are three distinct content layers:
-- `content/posts/`: published blog posts that Hugo renders into the site
 - `wiki/`: the current canonical knowledge layer, organized as maps, concepts, topics, syntheses, and source guides
 - `raw/`, `mobu/`, and `logseq/`: source material, legacy notes, and migration inputs that feed the structured wiki over time
+- `content/posts/`: a separate publishing layer rather than the canonical destination for stable knowledge
 
-The active Hugo theme is `devise` (`config.toml`), while `themes/zen` and `themes/simple` are present as older or alternative themes.
+## Knowledge organization
 
-## Common commands
-
-### Run the site locally
-- `hugo server`
-
-### Build the site
-- `hugo`
-
-### Deploy helper
-- `./deploy-blog.sh`
-  - builds the site with `hugo`
-  - then commits and pushes the generated `public/` site repo
-  - this script performs git operations in `public/`, so inspect before using
-
-### Theme-related Node dependencies
-The active `devise` theme has a `package.json` for frontend dependencies:
-- `cd themes/devise && npm install`
-
-The legacy `zen` theme has its own Node/Gulp toolchain:
-- `cd themes/zen && npm install`
-- `cd themes/zen && npm test`
-
-There is no repo-wide lint or test harness beyond the theme-specific tooling above.
-
-## Architecture
-
-### Hugo site configuration
-- Root site configuration lives in `config.toml`
-- The site uses `theme = "devise"`
-- Homepage behavior and recent-post selection are driven by `params.recent_posts` and `params.mainSections`
-- Goldmark passthrough is enabled for math-style delimiters in Markdown
-
-### Rendering flow
-- `themes/devise/layouts/_default/baseof.html` defines the shared page shell with `head`, `header`, and `footer` partials
-- `themes/devise/layouts/index.html` renders either homepage content or the default category-driven listing
-- `themes/devise/layouts/partials/category-posts.html` builds the homepage listing: recent posts first, then posts grouped by category taxonomies
-- `themes/devise/layouts/post/single.html` renders individual posts
-
-### Styling model
-- `themes/devise/layouts/partials/head.html` compiles Sass through Hugo Pipes
-- `themes/devise/assets/sass/override.scss` is the main style override entrypoint; it imports Bootstrap and Font Awesome and applies site-specific typography/layout styling
-- Theme colors and some typography are parameterized from `config.toml` via `.Param "style.*"`
-
-### Knowledge organization
 `wiki/` is the main long-term knowledge layer, not a scratch directory.
 
 Key structure:
@@ -71,14 +27,14 @@ Important entrypoints:
 - `wiki/NAMING.md`: naming and placement rules for the wiki
 - `wiki/Welcome.md`: legacy page kept only for historical clarity, not as the homepage
 
-### Content migration model
+## Content migration model
+
 The repository is in a transition from a mixed notes vault to a more structured “LLM Wiki”.
 - New stable knowledge should generally land in `wiki/`
-- `content/posts/` remains the public publishing layer
+- `content/posts/` is not the canonical destination for long-term knowledge
 - `mobu/`, `raw/`, older notes, and Logseq artifacts are migration inputs rather than the canonical destination
 
 ## Working notes for future edits
-- When changing site behavior, check both `config.toml` and the active `themes/devise/layouts/` templates
-- When changing visual styling, start with `themes/devise/assets/sass/override.scss`
-- Do not assume files under `wiki/` are published directly; published output is still driven by Hugo content under `content/posts/`
-- Be careful around `deploy-blog.sh`: it assumes `public/` is a separate git checkout with a tracked `master` branch
+- Prefer organizing durable knowledge under `wiki/` instead of adding new material to legacy note areas
+- Do not treat `wiki/Welcome.md` as the homepage when updating navigation or entrypoints
+- When classifying new material, use the structure in `wiki/NAMING.md`

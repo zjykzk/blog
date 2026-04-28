@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "content/posts/cs/web/react-state-effect.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "react-state-effect"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "content/posts/cs/web/react-state-effect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CLAUDE"
+              "title": "Backlinks for react-state-effect"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "content/posts/cs/web/react-state-effect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from CLAUDE"
+              "title": "Outgoing links from react-state-effect"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "content/posts/cs/web/react-state-effect.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLAUDE"
+              "title": "Outline of react-state-effect"
             }
           },
           {
@@ -209,6 +209,7 @@
   },
   "active": "643a7efd50df968a",
   "lastOpenFiles": [
+    "CLAUDE.md",
     "content/posts/cs/web/react.md",
     "wiki/maps/AI Map.md",
     "wiki/concepts/Agent.md",
@@ -240,7 +241,6 @@
     "content/posts/cs/web/react-state-effect.md",
     "public/posts/cs/web/react/index.html",
     "public/posts/cs/web/react",
-    "content/posts/cs/web/learn.md",
     "public/posts/cs/web/react-state-effect/index.html",
     "public/posts/cs/web/react-state-effect",
     "public/tags/react/index.xml",
