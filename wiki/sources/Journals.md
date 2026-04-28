@@ -18,8 +18,8 @@ tags:
 
 ## Current examples
 
-- [[journals/2026_04_01]]
-- [[journals/2026_04_04]]
+- `journals/2026_04_01.md`
+- `journals/2026_04_04.md`
 
 ## Extraction rule
 

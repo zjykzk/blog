@@ -27,11 +27,11 @@ tags:
 
 这个区分很重要，因为它把“外部流程控制”与“模型内部推理能力”分开来看。
 
-## Related
+## Cross-links
 
 - [[wiki/concepts/Agent]]
 - [[wiki/maps/AI Map]]
 
 ## Source notes
 
-- [[pages/llm]]
+- `pages/llm.md`

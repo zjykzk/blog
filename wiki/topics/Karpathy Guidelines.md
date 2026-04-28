@@ -49,12 +49,12 @@ tags:
 
 这些规则适合拿来约束 LLM 协作中的默认行为，让输出更像成熟工程师的局部、可验证修改，而不是泛化式“重写一遍”。
 
-## Related
+## Navigation
 
 - [[wiki/maps/AI Map]]
 - [[wiki/topics/Requirement to Architecture Mapping]]
 
 ## Source notes
 
-- [[pages/karpathy-guidelines]]
-- [[pages/项目___AI___skills]]
+- `pages/karpathy-guidelines.md`
+- `pages/项目___AI___skills.md`

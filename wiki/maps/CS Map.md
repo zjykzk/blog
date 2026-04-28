@@ -24,6 +24,12 @@ tags:
 
 - [[wiki/topics/Go Memory Model]]
 
+## Performance and systems
+
+- [[wiki/topics/High Concurrency]]
+- [[wiki/topics/Circuit Breaker]]
+- [[wiki/topics/Go Memory Model]]
+
 ## Databases
 
 - [[wiki/topics/BoltDB Internals]]
@@ -32,6 +38,7 @@ tags:
 
 - [[wiki/topics/Requirement to Architecture Mapping]]
 - [[wiki/topics/User Stories]]
+- [[wiki/topics/Frontend Development Workflow]]
 - [[wiki/topics/Testing Strategy]]
 - [[wiki/topics/Testing Purpose]]
 - [[wiki/topics/Problem Framing]]
@@ -45,7 +52,8 @@ tags:
 ## Source layer
 
 - [[wiki/sources/Published Posts]]
-- [[content/posts/cs/arch/arch]]
-- [[content/posts/cs/dist/circuit-breaker]]
-- [[content/posts/cs/golang/go-memory-model]]
-- [[content/posts/cs/db/bolt]]
+- [[wiki/sources/Frontend Development Workflow Roundtable Source Guide]]
+- `content/posts/cs/arch/arch.md`
+- `content/posts/cs/dist/circuit-breaker.md`
+- `content/posts/cs/golang/go-memory-model.md`
+- `content/posts/cs/db/bolt.md`

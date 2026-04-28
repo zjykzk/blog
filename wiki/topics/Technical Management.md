@@ -78,4 +78,4 @@ tags:
 ## Source notes
 
 - [[wiki/sources/Mobu Notes]]
-- [[mobu/管理/技术管理]]
+- `mobu/管理/技术管理.md`

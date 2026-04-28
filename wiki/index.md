@@ -1,89 +1,47 @@
 ---
-title: LLM Wiki Index
+title: Wiki Home
 type: map
-status: growing
-source_count: 0
-updated: 2026-04-20
+status: draft
+updated: 2026-04-26
 aliases:
-  - Wiki Index
-tags:
-  - llm-wiki
-  - index
+  - wiki home
+  - wiki/index
 ---
 
-# LLM Wiki Index
+# Wiki Home
 
-这个 vault 正在从混合式笔记仓库，重构为更接近 Karpathy 风格的 LLM Wiki：
+这里是 wiki 的导航中心。写给未来的自己，也写给任何帮我整理知识的 Agent。
 
-- `raw/`：原始材料、日记、摘录、草稿、领域输入
-- `wiki/`：稳定知识页、主题页、概念页、索引页、综合页
-- `content/posts/`：对外发布层
+## 使用规则
 
-## Start here
+- 新知识的流转：`raw/` 或对话 → `pages/` source note → `wiki/concepts` 或 `wiki/topics` → `wiki/syntheses` → `wiki/maps`。
+- 放置与命名见 [[wiki/NAMING]]。
+- source note 位于 `pages/`，保留原始摘录；wiki 下只写已经稳定的结论。
 
-### Maps
+## Maps
 
-- [[wiki/maps/AI Map]]
-- [[wiki/maps/CS Map]]
-- [[wiki/maps/Management Map]]
-- [[wiki/maps/Reading Map]]
+- [[wiki/maps/Classification Thinking Map]]
+- [[wiki/maps/Learning Map]]
 
-### Core pages
+（更多 map 待建：CS Map、AI Map、Management Map、Reading Map）
 
-- [[wiki/concepts/Agent]]
-- [[wiki/concepts/Agent Tool]]
-- [[wiki/concepts/LLM]]
-- [[wiki/concepts/Cynefin Framework]]
-- [[wiki/topics/Karpathy Guidelines]]
-- [[wiki/topics/Requirement to Architecture Mapping]]
-- [[wiki/topics/Context Management]]
-- [[wiki/topics/Tool Routing]]
-- [[wiki/topics/AI Skills Workflow]]
-- [[wiki/topics/AI Harness]]
-- [[wiki/topics/Testing Purpose]]
-- [[wiki/topics/Problem Framing]]
-- [[wiki/topics/Spec-Driven Development]]
-- [[wiki/topics/Technical Management]]
-- [[wiki/topics/Resource Formula]]
-- [[wiki/topics/Circuit Breaker]]
-- [[wiki/topics/Go Memory Model]]
-- [[wiki/topics/BoltDB Internals]]
+## Topics
 
-### Syntheses
+- [[wiki/topics/Categorical Thinking]]
+- [[wiki/topics/Learning Methodology]]
+- [[wiki/topics/Limits of Classification]]
+- [[wiki/topics/Methods of Classification]]
+- [[wiki/topics/Thinking in Systems]]
+- [[wiki/topics/What Makes a Good Classification]]
 
-- [[wiki/syntheses/From User Story to Architecture]]
-- [[wiki/syntheses/Decision Modes for Engineering Work]]
-- [[wiki/syntheses/AI Engineering Workflow]]
+## Concepts
 
-### Source guides
+- [[wiki/concepts/Cognition Three Channels]]
+- [[wiki/concepts/Expression Three Channels]]
+- [[wiki/concepts/Feedback Loops]]
+- [[wiki/concepts/Knowledge as Network]]
+- [[wiki/concepts/Leverage Points]]
 
-- [[wiki/sources/Journals]]
-- [[wiki/sources/Mobu Notes]]
-- [[wiki/sources/Published Posts]]
-- [[wiki/sources/Modern Software Engineering Notes]]
-- [[wiki/log]]
+## Syntheses
 
-## Structure
-
-- `wiki/maps/`：MOC / 主题入口
-- `wiki/concepts/`：稳定概念页
-- `wiki/topics/`：长期主题页
-- `wiki/syntheses/`：综合理解
-- `wiki/sources/`：对 raw 或外部材料的结构化导读
-
-## Migration notes
-
-当前仍保留旧目录：
-- `pages/`
-- `journals/`
-- `mobu/`
-- `content/posts/`
-
-第一阶段采用“先建索引层，再逐步迁移内容”的方式，避免一次性搬家导致断链。
-
-## Naming and placement
-
-- 目录语义规则见 [[wiki/NAMING]]
-- `wiki/index.md` 是当前首页
-- `wiki/Welcome.md` 是历史遗留页，不再承担导航职责
-- 新增稳定知识优先写入 `wiki/`
+- [[wiki/syntheses/Learning Methodology Across Sources]]

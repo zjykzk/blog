@@ -28,6 +28,6 @@ tags:
 - 还缺少稳定判断和作者自己的综合提炼
 - 适合后续再抽成更成熟的 topic / synthesis 页面
 
-## Source note
+## Related
 
-- [[mobu/读书/modern_software_engineering]]
+- `mobu/读书/modern_software_engineering.md`

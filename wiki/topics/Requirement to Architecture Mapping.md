@@ -60,14 +60,14 @@ tags:
 - 在 `infra/` 定义 repo interface
 - 让 handler 直接依赖 MySQL repo
 
-## Related
+## Navigation
 
 - [[wiki/maps/AI Map]]
 - [[wiki/topics/Karpathy Guidelines]]
-- [[content/posts/cs/arch/arch]]
+- `content/posts/cs/arch/arch.md`
 
 ## Source notes
 
-- [[pages/项目___AI___req_map_to_arch]]
-- [[journals/2026_04_01]]
-- [[pages/项目___AI]]
+- `pages/项目___AI___req_map_to_arch.md`
+- `journals/2026_04_01.md`
+- `pages/项目___AI.md`

@@ -25,9 +25,9 @@ tags:
 - 通过反馈修正
 - 用经验与证据而不是纯直觉推动工程决策
 
-## Related
+## Navigation
 
 - [[wiki/maps/CS Map]]
 - [[wiki/maps/Reading Map]]
 - [[wiki/sources/Modern Software Engineering Notes]]
-- [[pages/软件工程]]
+- `pages/软件工程.md`

@@ -31,7 +31,7 @@ tags:
 - 输入、输出、流程和维护方式是什么
 - 这项能力为什么值得做
 
-## Related
+## Navigation
 
 - [[wiki/topics/Requirement to Architecture Mapping]]
-- [[pages/用户故事]]
+- `pages/用户故事.md`

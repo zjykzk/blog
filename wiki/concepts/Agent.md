@@ -40,5 +40,5 @@ Agent 的核心任务目前可以归纳为三件事：
 
 ## Source notes
 
-- [[pages/Agent]]
-- [[journals/2026_04_04]]
+- `pages/Agent.md`
+- `journals/2026_04_04.md`

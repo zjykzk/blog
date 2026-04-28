@@ -37,8 +37,8 @@ tags:
 - 当前差异在哪里
 - 应该选择什么策略
 
-## Related
+## Navigation
 
 - [[wiki/topics/User Stories]]
 - [[wiki/topics/Requirement to Architecture Mapping]]
-- [[pages/问题]]
+- `pages/问题.md`

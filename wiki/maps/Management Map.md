@@ -24,14 +24,18 @@ tags:
 ## Concepts and frameworks
 
 - [[wiki/concepts/Cynefin Framework]]
+- [[wiki/topics/Mental Models]]
+- [[wiki/topics/Critical Thinking]]
 
 ## Syntheses
 
 - [[wiki/syntheses/Decision Modes for Engineering Work]]
+- [[wiki/syntheses/Thinking and Judgment Workflow]]
+- [[wiki/syntheses/Acting Under Complexity]]
 
 ## Source layer
 
 - [[wiki/sources/Mobu Notes]]
-- [[mobu/管理/技术管理]]
-- [[mobu/work/资源公式]]
-- [[mobu/工具/Cynefin_Framework]]
+- `mobu/管理/技术管理.md`
+- `mobu/work/资源公式.md`
+- `mobu/工具/Cynefin_Framework.md`

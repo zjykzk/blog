@@ -56,4 +56,4 @@ tags:
 
 ## Source notes
 
-- [[pages/测试模型]]
+- `pages/测试模型.md`

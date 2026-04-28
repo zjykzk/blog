@@ -2,3 +2,8 @@
 *.sw[po]
 public
 .DS_Store
+
+# Amplihack runtime directories (auto-generated)
+.claude/logs/
+.claude/runtime/
+.claude

@@ -26,7 +26,7 @@ tags:
 - 组合估算如何防止失真
 - 适合估算人力、预算、时间还是系统资源
 
-## Related
+## Navigation
 
 - [[wiki/sources/Mobu Notes]]
-- [[mobu/work/资源公式]]
+- `mobu/work/资源公式.md`

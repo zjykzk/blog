@@ -83,4 +83,4 @@ Cynefin Framework 适合用来判断问题处在哪种上下文里，再决定�
 ## Source notes
 
 - [[wiki/sources/Mobu Notes]]
-- [[mobu/工具/Cynefin_Framework]]
+- `mobu/工具/Cynefin_Framework.md`

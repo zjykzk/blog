@@ -32,6 +32,6 @@ tags:
 - 值得持续维护
 - 不只是摘录，而是已经形成稳定判断
 
-## Source tree
+## Related
 
-- [[mobu]]
+- `mobu/`

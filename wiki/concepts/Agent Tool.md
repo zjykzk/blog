@@ -30,17 +30,17 @@ tags:
 
 当前 source note 存在文件名与内容的历史错位：
 
-- [[pages/Agent tool]] 里保留的是 think tool 摘录
-- [[pages/llm]] 里保留的是 router / adapter 摘录
+- `pages/Agent tool.md` 里保留的是 think tool 摘录
+- `pages/llm.md` 里保留的是 router / adapter 摘录
 
 第一轮先不重命名旧文件，只在 wiki 层完成语义归并。
 
-## Related
+## Navigation
 
 - [[wiki/concepts/Agent]]
 - [[wiki/maps/AI Map]]
 
 ## Source notes
 
-- [[pages/Agent tool]]
-- [[pages/Agent]]
+- `pages/Agent tool.md`
+- `pages/Agent.md`

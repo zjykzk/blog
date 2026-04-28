@@ -1,0 +1,255 @@
+{
+  "main": {
+    "id": "01fae94a99e6b4d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebf0a574ea957ff3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "643a7efd50df968a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4cccec22018590f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "299a1465d81abb5c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7580ab20bfa01a4b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a5fd56c06f3d8cb7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "685d7b80524e84c5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 455.5
+  },
+  "right": {
+    "id": "7eba894845c12087",
+    "type": "split",
+    "children": [
+      {
+        "id": "08737287f0b38787",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a72ee529f0d70378",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "raw/sources/业务建模.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 业务建模"
+            }
+          },
+          {
+            "id": "05de111923732849",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "raw/sources/业务建模.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 业务建模"
+            }
+          },
+          {
+            "id": "ff6574d28b505db5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0301bf6a6435c40e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7a6586595102e34c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "ce33752340119870",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
+            "id": "3db5bb23802ad8d3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-importer:Open Importer": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "643a7efd50df968a",
+  "lastOpenFiles": [
+    "wiki/concepts/Agent Tool.md",
+    "mobu/三级学修/同修班/29课-三士道建立原理.md",
+    "content/posts/cs/linux/fix-bad-init.md",
+    "wiki/maps/AI Map.md",
+    "wiki/topics/Karpathy Guidelines.md",
+    "wiki/topics/Requirement to Architecture Mapping.md",
+    "wiki/topics/User Stories.md",
+    "wiki/maps/Management Map.md",
+    "public/posts/cs/design/how-to-split-by-responsibility/index.html",
+    "public/posts/cs/design/how-to-split-by-responsibility",
+    "wiki/maps/Learning Map.md",
+    "content/posts/cs/design/how-to-split-by-responsibility.md",
+    "content/posts/cs/web/react.md",
+    "wiki/maps/Classification Thinking Map.md",
+    "wiki/topics/Limits of Classification.md",
+    "pages/分类的边界.md",
+    "wiki/topics/What Makes a Good Classification.md",
+    "pages/什么是好的分类.md",
+    "public/posts/cs/design/oo-analysis-design-rank/index.html",
+    "public/posts/cs/design/oo-analysis-design-rank",
+    "content/posts/cs/design/oo-analysis-design-rank.md",
+    "wiki/topics/Methods of Classification.md",
+    "pages/分类的方法.md",
+    "wiki/topics/Categorical Thinking.md",
+    "pages/分类思维.md",
+    "content/posts/cs/web/react-state-effect.md",
+    "public/posts/cs/web/react/index.html",
+    "public/posts/cs/web/react",
+    "content/posts/cs/web/learn.md",
+    "mobu/工具/得到高效学习方法.md",
+    "public/posts/cs/web/react-state-effect/index.html",
+    "public/posts/cs/web/react-state-effect",
+    "public/tags/react/index.xml",
+    "public/tags/react/index.html",
+    "wiki/maps/CS Map.md",
+    "wiki/sources/AI Coding Control Limits Source Guide.md",
+    "Untitled.canvas",
+    "raw/sources/HRiwbM75WooKMuxkev3cKjqHnie.PNG",
+    "Pasted image 20260421133444.png",
+    "raw/HRiwbM75WooKMuxkev3cKjqHnie.PNG",
+    "token.png",
+    "mobu/读书/modern_software_engineering-幕布图片-195155-330004.png",
+    "mobu/读书/modern_software_engineering-幕布图片-147011-551432.png",
+    "mobu/读书/架构师启示录-知识模型、落地方法与思维模式-幕布图片-249642-378639.png",
+    "mobu/读书/modern_software_engineering-幕布图片-745916-418737.png",
+    "mobu/读书/架构师启示录-知识模型、落地方法与思维模式-幕布图片-517680-867801.png",
+    "mobu/读书/架构师启示录-知识模型、落地方法与思维模式-幕布图片-750801-536791.png"
+  ]
+}

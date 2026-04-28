@@ -36,7 +36,7 @@ tags:
 
 “写多少测试”不应只看覆盖率，还应关注测试是否产生误报、是否真的支持判断质量。
 
-## Related
+## Navigation
 
 - [[wiki/topics/Testing Strategy]]
-- [[pages/测试]]
+- `pages/测试.md`

@@ -77,4 +77,4 @@ Hystrix 的典型做法是维护滑动时间窗口，统计最近一段时间里
 ## Source notes
 
 - [[wiki/sources/Published Posts]]
-- [[content/posts/cs/dist/circuit-breaker]]
+- `content/posts/cs/dist/circuit-breaker.md`
