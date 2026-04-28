@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/cs/web/react-state-effect.md",
+                "file": "wiki/topics/面向对象分析与设计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "react-state-effect"
+              "title": "面向对象分析与设计"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/cs/web/react-state-effect.md",
+                "file": "wiki/topics/面向对象分析与设计.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for react-state-effect"
+              "title": "Backlinks for 面向对象分析与设计"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/cs/web/react-state-effect.md",
+                "file": "wiki/topics/面向对象分析与设计.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from react-state-effect"
+              "title": "Outgoing links from 面向对象分析与设计"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/cs/web/react-state-effect.md",
+                "file": "wiki/topics/面向对象分析与设计.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of react-state-effect"
+              "title": "Outline of 面向对象分析与设计"
             }
           },
           {
@@ -209,6 +209,10 @@
   },
   "active": "643a7efd50df968a",
   "lastOpenFiles": [
+    "wiki/sources/React Framework Background and Core Concepts Source Guide.md",
+    "wiki/concepts/React.md",
+    "wiki/sources/Published Posts.md",
+    "content/posts/cs/web/react-state-effect.md",
     "CLAUDE.md",
     "content/posts/cs/web/react.md",
     "wiki/maps/AI Map.md",
@@ -235,10 +239,6 @@
     "public/posts/cs/design/oo-analysis-design-rank",
     "content/posts/cs/design/oo-analysis-design-rank.md",
     "wiki/topics/Methods of Classification.md",
-    "pages/分类的方法.md",
-    "wiki/topics/Categorical Thinking.md",
-    "pages/分类思维.md",
-    "content/posts/cs/web/react-state-effect.md",
     "public/posts/cs/web/react/index.html",
     "public/posts/cs/web/react",
     "public/posts/cs/web/react-state-effect/index.html",
