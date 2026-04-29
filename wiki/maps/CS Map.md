@@ -36,6 +36,7 @@ tags:
 
 ## Architecture and methods
 
+- [[wiki/concepts/Software Design Three Generators]]
 - [[wiki/topics/面向对象分析与设计]]
 - [[wiki/topics/Requirement to Architecture Mapping]]
 - [[wiki/topics/User Stories]]

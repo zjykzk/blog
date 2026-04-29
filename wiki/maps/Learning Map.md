@@ -20,6 +20,7 @@ aliases:
 - [[wiki/concepts/Cognition Three Channels]]——认识三根：接/替/想
 - [[wiki/concepts/Expression Three Channels]]——表达三根：编/载/解
 - [[wiki/concepts/Knowledge as Network]]——知识是网不是塔
+- [[wiki/concepts/Cognitive Engineering]]——设计人、工具与反馈构成的认知系统
 
 ## 跨源综合
 
