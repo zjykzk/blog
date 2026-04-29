@@ -37,6 +37,7 @@ tags:
 ## Architecture and methods
 
 - [[wiki/concepts/Software Design Three Generators]]
+- [[wiki/topics/Software Methodology]]
 - [[wiki/topics/面向对象分析与设计]]
 - [[wiki/topics/Requirement to Architecture Mapping]]
 - [[wiki/topics/User Stories]]
@@ -53,6 +54,7 @@ tags:
 
 ## Source layer
 
+- [[wiki/sources/Software Methodology by Pan Jianyu]]
 - [[wiki/sources/Published Posts]]
 - [[wiki/sources/Frontend Development Workflow Roundtable Source Guide]]
 - `content/posts/cs/arch/arch.md`

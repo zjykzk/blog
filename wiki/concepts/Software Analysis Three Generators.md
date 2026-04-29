@@ -246,6 +246,7 @@ aliases:
 - [[wiki/concepts/Business Modeling in Software]]
 - [[wiki/concepts/Domain-Driven Design]]
 - [[wiki/concepts/Software Design Three Generators]]
+- [[wiki/topics/Software Methodology]]
 - [[wiki/concepts/Cognition Three Channels]]
 - [[wiki/concepts/Expression Three Channels]]
 - [[wiki/topics/面向对象分析与设计]]

@@ -35,6 +35,7 @@ aliases:
 - [[wiki/topics/Methods of Classification]]
 - [[wiki/topics/Thinking in Systems]]
 - [[wiki/topics/What Makes a Good Classification]]
+- [[wiki/topics/Software Methodology]]
 - [[wiki/topics/面向对象分析与设计]]
 
 ## Concepts
@@ -52,3 +53,7 @@ aliases:
 ## Syntheses
 
 - [[wiki/syntheses/Learning Methodology Across Sources]]
+
+## Sources
+
+- [[wiki/sources/Software Methodology by Pan Jianyu]]

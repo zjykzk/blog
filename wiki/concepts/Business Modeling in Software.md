@@ -106,6 +106,7 @@ aliases:
 - [[wiki/concepts/Domain-Driven Design]]
 - [[wiki/concepts/Software Analysis Three Generators]]
 - [[wiki/concepts/Software Design Three Generators]]
+- [[wiki/topics/Software Methodology]]
 
 ## 源
 
