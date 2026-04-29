@@ -40,10 +40,14 @@ aliases:
 ## Concepts
 
 - [[wiki/concepts/Cognition Three Channels]]
+- [[wiki/concepts/Cognitive Engineering]]
 - [[wiki/concepts/Expression Three Channels]]
 - [[wiki/concepts/Feedback Loops]]
 - [[wiki/concepts/Knowledge as Network]]
 - [[wiki/concepts/Leverage Points]]
+- [[wiki/concepts/Domain-Driven Design]]
+- [[wiki/concepts/Software Analysis Three Generators]]
+- [[wiki/concepts/Software Design Three Generators]]
 
 ## Syntheses
 
