@@ -37,6 +37,7 @@ aliases:
 - [[wiki/topics/What Makes a Good Classification]]
 - [[wiki/topics/Software Methodology]]
 - [[wiki/topics/面向对象分析与设计]]
+- [[wiki/topics/UML Diagrams in Software Development]]
 
 ## Concepts
 

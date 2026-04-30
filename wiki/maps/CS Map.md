@@ -39,6 +39,7 @@ tags:
 - [[wiki/concepts/Software Design Three Generators]]
 - [[wiki/topics/Software Methodology]]
 - [[wiki/topics/面向对象分析与设计]]
+- [[wiki/topics/UML Diagrams in Software Development]]
 - [[wiki/topics/Requirement to Architecture Mapping]]
 - [[wiki/topics/User Stories]]
 - [[wiki/topics/Frontend Development Workflow]]
