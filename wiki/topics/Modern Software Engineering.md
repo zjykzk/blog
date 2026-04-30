@@ -14,6 +14,14 @@ tags:
 
 # Modern Software Engineering
 
+这页讨论的不是某一条具体方法流派的历史，而是一个更高层的方法论总纲：如何把软件开发理解为一种经验主义、证据驱动的问题求解活动。
+
+如果要区分它和相邻页面：
+
+- `[[wiki/topics/Software Development Thought Lineage]]` 关心不同思想如何历史演化、彼此修正
+- `[[wiki/topics/Software Methodology]]` 关心潘加宇《软件方法》那条具体的建模与分析主线
+- 本页关心的是统摄这些实践的上位视角
+
 当前已有笔记里，现代软件工程最核心的一句定义种子是：
 
 - 使用经验主义和科学的方法解决软件问题

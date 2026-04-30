@@ -48,6 +48,7 @@ tags:
 - [[wiki/topics/Problem Framing]]
 - [[wiki/topics/Spec-Driven Development]]
 - [[wiki/topics/Modern Software Engineering]]
+- [[wiki/topics/Software Development Thought Lineage]]
 
 ## Syntheses
 

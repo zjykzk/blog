@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/sources/AI Coding Control Limits Source Guide.md",
+                "file": "wiki/topics/UML Diagrams in Software Development.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Coding Control Limits Source Guide"
+              "title": "UML Diagrams in Software Development"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/sources/AI Coding Control Limits Source Guide.md",
+                "file": "wiki/topics/UML Diagrams in Software Development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AI Coding Control Limits Source Guide"
+              "title": "Backlinks for UML Diagrams in Software Development"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/sources/AI Coding Control Limits Source Guide.md",
+                "file": "wiki/topics/UML Diagrams in Software Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from AI Coding Control Limits Source Guide"
+              "title": "Outgoing links from UML Diagrams in Software Development"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/sources/AI Coding Control Limits Source Guide.md",
+                "file": "wiki/topics/UML Diagrams in Software Development.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AI Coding Control Limits Source Guide"
+              "title": "Outline of UML Diagrams in Software Development"
             }
           },
           {
@@ -187,11 +187,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,6 +211,13 @@
   },
   "active": "643a7efd50df968a",
   "lastOpenFiles": [
+    "wiki/topics/Software Methodology.md",
+    "wiki/topics/UML Diagrams in Software Development.md",
+    "wiki/topics/Software Development Thought Lineage.md",
+    "wiki/topics/European Antisemitism.md",
+    "pages/European Antisemitism.md",
+    "wiki/sources/AI Coding Control Limits Source Guide.md",
+    "wiki/sources/Software Methodology by Pan Jianyu.md",
     "wiki/concepts/Domain-Driven Design.md",
     "wiki/concepts/Business Modeling in Software.md",
     "wiki/concepts/Software Analysis Three Generators.md",
@@ -229,15 +237,8 @@
     "mobu/三级学修/同修班/29课-三士道建立原理.md",
     "content/posts/cs/linux/fix-bad-init.md",
     "wiki/topics/Karpathy Guidelines.md",
-    "wiki/topics/Requirement to Architecture Mapping.md",
-    "wiki/topics/User Stories.md",
-    "wiki/maps/Management Map.md",
     "public/posts/cs/design/how-to-split-by-responsibility/index.html",
     "public/posts/cs/design/how-to-split-by-responsibility",
-    "wiki/maps/Learning Map.md",
-    "content/posts/cs/design/how-to-split-by-responsibility.md",
-    "wiki/maps/Classification Thinking Map.md",
-    "wiki/topics/Limits of Classification.md",
     "public/posts/cs/design/oo-analysis-design-rank/index.html",
     "public/posts/cs/design/oo-analysis-design-rank",
     "public/posts/cs/web/react/index.html",

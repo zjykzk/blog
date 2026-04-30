@@ -30,6 +30,7 @@ aliases:
 ## Topics
 
 - [[wiki/topics/Categorical Thinking]]
+- [[wiki/topics/European Antisemitism]]
 - [[wiki/topics/Learning Methodology]]
 - [[wiki/topics/Limits of Classification]]
 - [[wiki/topics/Methods of Classification]]
