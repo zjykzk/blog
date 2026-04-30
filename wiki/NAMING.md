@@ -14,7 +14,7 @@
 
 ## 命名规则
 
-1. **文件名用英文（或中英混写），空格分词**，例如 `Learning Methodology.md`，避免下划线、连字符。
+1. **文件名用英文（或中英混写），空格分词**，例如 `Learning Methodology.md`。避免下划线；避免用连字符代替空格，但保留专有术语内部的连字符，例如 `Domain-Driven Design.md`、`Spec-Driven Development.md`。
 2. **标题大小写**：概念和主题用 Title Case（首字母大写）；map 文件用 `X Map.md` 格式。
 3. **一页一主题**：一个概念/主题/综合只建一页，不拆多个文件。
 4. **别名**：frontmatter 用 `aliases` 列出中文、缩写、旧名，方便双链。
@@ -25,7 +25,7 @@
 ---
 title: <页面标题>
 type: concept | topic | synthesis | map | source
-status: draft | stable | archived
+status: seed | growing | draft | stable | archived
 updated: YYYY-MM-DD
 aliases:
   - <别名1>
@@ -34,7 +34,14 @@ aliases:
 ```
 
 - `type` 必填，对应放置目录。
-- `status`：新建时用 `draft`；内容稳定后改为 `stable`；被替换时改为 `archived`。
+- `status`：
+  - `seed`：刚建立的种子页，只有核心判断、链接或占位结构。
+  - `growing`：持续扩展中的页面，已有主体内容但还未稳定。
+  - `draft`：成文中的草稿，结构和结论仍可能明显调整。
+  - `stable`：内容已经稳定，可作为长期引用。
+  - `archived`：已被替代或仅保留历史记录。
+
+例外：`wiki/NAMING.md` 和 `wiki/README.md` 是治理文档，不是知识页；lint 时不要求 frontmatter。
 
 ## 跨页链接
 
