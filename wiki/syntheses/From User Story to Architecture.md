@@ -3,7 +3,7 @@ title: From User Story to Architecture
 type: synthesis
 status: growing
 source_count: 3
-updated: 2026-04-21
+updated: 2026-05-01
 aliases:
   - 从用户故事到架构
 tags:
@@ -46,6 +46,35 @@ tags:
 这样做的价值，是把“讨论需求”和“讨论实现”之间插入一层中间表示，减少跳步设计。
 
 参考：[[wiki/topics/Requirement to Architecture Mapping]]
+
+## Step 2.5: Produce intermediate artifacts
+
+归一化不是抽象练习。它的价值在于每一步都产出一个可以检查的中间结果：
+
+```text
+业务场景
+  -> 需求说明、约束清单
+
+领域建模
+  -> 领域词表、业务规则表、权限规则表
+
+用例定义
+  -> 触发者、输入、输出、主流程、异常流程
+
+职责划分
+  -> 核心逻辑、外围设施、模块边界
+
+运行设计
+  -> 数据流、状态机、接口调用链
+
+失败设计
+  -> 错误码、重试策略、幂等策略
+
+代码设计
+  -> 目录结构、类型定义、接口定义、函数职责
+```
+
+这一步防止需求直接坠落成代码。工程师要让每个中间结果都能被讨论、推翻、修正，然后再进入下一层。
 
 ## Step 3: Map decisions to layers
 
