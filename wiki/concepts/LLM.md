@@ -2,8 +2,8 @@
 title: LLM
 type: concept
 status: seed
-source_count: 2
-updated: 2026-04-20
+source_count: 3
+updated: 2026-05-01
 aliases:
   - llm
 tags:
@@ -27,6 +27,12 @@ tags:
 
 这个区分很重要，因为它把“外部流程控制”与“模型内部推理能力”分开来看。
 
+## Boundary
+
+`[[wiki/sources/Theory Is All You Need Source Guide]]` 提供了另一个边界：LLM 的生成性主要来自对既有语言结构的重组、翻译和预测。
+
+所以评估 LLM 时，不只看它能否生成新文本，还要问它是否能提出可行动的因果假设，并知道该通过什么实验生成新数据。
+
 ## Cross-links
 
 - [[wiki/concepts/Agent]]
@@ -35,3 +41,4 @@ tags:
 ## Source notes
 
 - `pages/llm.md`
+- [[wiki/sources/Theory Is All You Need Source Guide]]

@@ -2,8 +2,8 @@
 title: AI Map
 type: map
 status: growing
-source_count: 7
-updated: 2026-04-22
+source_count: 8
+updated: 2026-05-01
 aliases:
   - 项目/AI
   - AI Hub
@@ -54,6 +54,7 @@ tags:
 - [[wiki/sources/Before the Tool Call Source Guide]]
 - [[wiki/sources/Qiaomu Best Prompt Source Guide]]
 - [[wiki/sources/Epiplexity Paper Notes]]
+- [[wiki/sources/Theory Is All You Need Source Guide]]
 
 ## Related journals
 

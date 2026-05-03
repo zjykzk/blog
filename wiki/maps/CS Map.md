@@ -36,6 +36,8 @@ tags:
 
 ## Architecture and methods
 
+- [[wiki/maps/Software Analysis Map]]
+- [[wiki/maps/Software Design Map]]
 - [[wiki/concepts/Software Design Three Generators]]
 - [[wiki/topics/Software Methodology]]
 - [[wiki/topics/面向对象分析与设计]]

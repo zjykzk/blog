@@ -20,6 +20,8 @@ aliases:
 
 ## Maps
 
+- [[wiki/maps/Software Analysis Map]]
+- [[wiki/maps/Software Design Map]]
 - [[wiki/maps/Classification Thinking Map]]
 - [[wiki/maps/CS Map]]
 - [[wiki/maps/Learning Map]]
