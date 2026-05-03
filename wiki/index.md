@@ -44,6 +44,7 @@ aliases:
 
 ## Concepts
 
+- [[wiki/concepts/Concept]]
 - [[wiki/concepts/Economic Bubble]]
 - [[wiki/concepts/Cognition Three Channels]]
 - [[wiki/concepts/Cognitive Engineering]]
