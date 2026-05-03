@@ -45,6 +45,7 @@ aliases:
 - [[wiki/concepts/Economic Bubble]]
 - [[wiki/concepts/Cognition Three Channels]]
 - [[wiki/concepts/Cognitive Engineering]]
+- [[wiki/concepts/Conceptual Integrity]]
 - [[wiki/concepts/Expression Three Channels]]
 - [[wiki/concepts/Feedback Loops]]
 - [[wiki/concepts/Knowledge as Network]]
