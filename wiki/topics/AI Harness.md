@@ -2,8 +2,13 @@
 title: AI Harness
 type: topic
 status: growing
-source_count: 4
-updated: 2026-04-23
+summary: AI Harness is the runtime order layer that connects model, context, tools, permissions, state, and recovery into a controllable agent system.
+provenance:
+  extracted: 0.68
+  inferred: 0.32
+  ambiguous: 0.0
+source_count: 6
+updated: 2026-05-04
 aliases:
   - harness
 tags:
@@ -96,8 +101,22 @@ AI Harness 不是模型本身，也不是某一个工具本身。它更像 agent
 - pre-action authorization：系统如何在动作执行前用独立于模型输出的策略层做 allow / deny 判定，并保留可审计记录
 - execution reliability：系统如何把动作做成可恢复、可隔离、可连续的执行过程
 - human decision authority：系统如何保留人类在关键节点上的最终判断权
+- information density preservation：系统如何用工具最小化、分层记忆和压缩机制，把有限上下文留给真正影响下一步决策的信息
 
 这些维度并不是 Claude Code 独有的实现细节，而更像 agent system design 的一组通用观察面。
+
+## Density-preserving harness
+
+[[wiki/sources/GenericAgent Paper Source Guide]] 补强了 harness 的另一个面向：harness 不只是把模型接到工具和权限系统上，也是在塑造模型每一轮能看到的信息环境。
+
+GenericAgent 的做法是把四件事放在同一个设计原则下：
+
+- 用 minimal atomic tool set 降低工具 schema 常驻上下文的成本
+- 用 hierarchical on-demand memory 让深层事实和 SOP 需要时再进入上下文
+- 把成功轨迹压缩成 SOP 和可执行代码，而不是复放原始历史
+- 用 truncation、compression、message eviction 和 working-memory anchor 控制长任务中的历史膨胀
+
+这说明 harness 的质量可以用一个新问题来追问：它是在提高 [[wiki/concepts/Context Information Density]]，还是只是在堆更多可见能力？ ^[inferred]
 
 ## Design consequence
 
@@ -142,6 +161,7 @@ AI Harness 不是模型本身，也不是某一个工具本身。它更像 agent
 - [[wiki/sources/Before the Tool Call Source Guide]]
 - [[wiki/sources/Agent Harness Qiaomu Article Source Guide]]
 - [[wiki/sources/Managed Agents Source Guide]]
+- [[wiki/sources/GenericAgent Paper Source Guide]]
 
 ## Navigation
 

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "stats": {
+    "total_sources_ingested": 1,
+    "total_pages": 98
+  },
+  "sources": {
+    "https://arxiv.org/abs/2604.17091": {
+      "ingested_at": "2026-05-04T04:24:22Z",
+      "size_bytes": 2539633,
+      "modified_at": "2026-05-04T04:11:55Z",
+      "content_hash": "sha256:829fd8563407f810e265b97eb96714ac79fa0b732de07dff750207bdc65f55c7",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Context Information Density.md",
+        "wiki/sources/GenericAgent Paper Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/Context Management.md",
+        "wiki/topics/AI Harness.md",
+        "wiki/syntheses/Agent System Design Space.md",
+        "wiki/sources/Agent Systems Papers Source Guide.md",
+        "wiki/maps/AI Map.md",
+        "wiki/syntheses/AI Engineering Workflow.md"
+      ]
+    }
+  }
+}

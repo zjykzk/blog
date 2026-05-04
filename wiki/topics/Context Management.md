@@ -2,8 +2,13 @@
 title: Context Management
 type: topic
 status: seed
-source_count: 3
-updated: 2026-04-23
+summary: Context management designs what enters, stays in, and leaves an AI agent's active context so decisions remain grounded under finite attention.
+provenance:
+  extracted: 0.72
+  inferred: 0.28
+  ambiguous: 0.0
+source_count: 4
+updated: 2026-05-04
 aliases:
   - 上下文管理
 tags:
@@ -39,6 +44,19 @@ tags:
 它还有一个更容易被忽略的角色：上下文管理并不只是“往窗口里塞信息”，而是在塑造模型内部形成判断的条件。
 
 换句话说，当前可见的 prompt / memory / transcript 更像 reasoning 的输入约束，而不是 reasoning 本身的完整展开图。
+
+## Context information density
+
+[[wiki/sources/GenericAgent Paper Source Guide]] 把这个问题进一步压成一个更硬的原则：agent 的长期表现不主要取决于 nominal context window 有多大，而取决于有限上下文里保留了多少 decision-relevant information。
+
+它把上下文质量拆成两个主要求：
+
+- completeness：当前决策需要的信息必须在场
+- conciseness：无关、过期、重复的信息必须被排除
+
+这解释了为什么“多塞一点上下文”不总是更安全。上下文越长，position bias、无关信息稀释和 effective context length 收缩会一起把关键信息挤出可用注意力范围。
+
+因此，更稳定的目标不是最大化可见历史，而是最大化 [[wiki/concepts/Context Information Density]]。
 
 ## Reasoning implication
 
@@ -80,3 +98,4 @@ tags:
 - [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]]
 - [[wiki/sources/Dive into Claude Code Source Guide]]
 - [[wiki/sources/Agent Harness Qiaomu Article Source Guide]]
+- [[wiki/sources/GenericAgent Paper Source Guide]]

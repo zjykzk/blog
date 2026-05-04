@@ -2,8 +2,13 @@
 title: Agent Systems Papers Source Guide
 type: source
 status: seed
-source_count: 2
-updated: 2026-04-23
+summary: Source guide collecting agent-system papers and deciding which claims should stay source-level versus move into topics and syntheses.
+provenance:
+  extracted: 0.81
+  inferred: 0.19
+  ambiguous: 0.0
+source_count: 3
+updated: 2026-05-04
 aliases:
   - agent papers source
   - agent systems source guide
@@ -46,6 +51,7 @@ tags:
 - [[wiki/sources/Dive into Claude Code Source Guide]]
 - [[wiki/sources/Before the Tool Call Source Guide]]
 - [[wiki/sources/Managed Agents Source Guide]]
+- [[wiki/sources/GenericAgent Paper Source Guide]]
 
 ## Related source guides
 
@@ -56,6 +62,7 @@ tags:
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/Context Management]]
 - [[wiki/topics/AI Skills Workflow]]
+- [[wiki/concepts/Context Information Density]]
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/syntheses/AI Engineering Workflow]]
 

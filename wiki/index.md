@@ -2,7 +2,7 @@
 title: Wiki Home
 type: map
 status: draft
-updated: 2026-04-26
+updated: 2026-05-04
 aliases:
   - wiki home
   - wiki/index
@@ -54,6 +54,7 @@ aliases:
 - [[wiki/concepts/Knowledge as Network]]
 - [[wiki/concepts/Leverage Points]]
 - [[wiki/concepts/Domain-Driven Design]]
+- [[wiki/concepts/Context Information Density]]
 - [[wiki/concepts/Software Analysis Three Generators]]
 - [[wiki/concepts/Software Design Three Generators]]
 
@@ -64,3 +65,4 @@ aliases:
 ## Sources
 
 - [[wiki/sources/Software Methodology by Pan Jianyu]]
+- [[wiki/sources/GenericAgent Paper Source Guide]]

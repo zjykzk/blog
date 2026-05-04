@@ -2,8 +2,13 @@
 title: AI Map
 type: map
 status: growing
-source_count: 8
-updated: 2026-05-01
+summary: Entry point for the AI, Agent, and LLM knowledge cluster, linking concepts, topics, syntheses, and source guides.
+provenance:
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
+source_count: 9
+updated: 2026-05-04
 aliases:
   - 项目/AI
   - AI Hub
@@ -23,6 +28,7 @@ tags:
 - [[wiki/concepts/Agent Tool]]
 - [[wiki/concepts/LLM]]
 - [[wiki/concepts/Epiplexity]]
+- [[wiki/concepts/Context Information Density]]
 
 ## Topics
 
@@ -55,6 +61,7 @@ tags:
 - [[wiki/sources/Qiaomu Best Prompt Source Guide]]
 - [[wiki/sources/Epiplexity Paper Notes]]
 - [[wiki/sources/Theory Is All You Need Source Guide]]
+- [[wiki/sources/GenericAgent Paper Source Guide]]
 
 ## Related journals
 

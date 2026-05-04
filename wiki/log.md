@@ -24,3 +24,7 @@ tags:
 
 - [2026-05-03T09:41:13Z] WIKI_DASHBOARD name="content-index" view=table filter="folder:wiki"
 - [2026-05-03T09:41:13Z] WIKI_DASHBOARD_FIX name="content-index" reason="update Bases syntax to filters.and/views schema"
+
+## 2026-05-04 | ingest
+
+- [2026-05-04T04:24:22Z] INGEST source="https://arxiv.org/abs/2604.17091" pages_updated=6 pages_created=2 mode=append
