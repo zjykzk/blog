@@ -1,0 +1,24 @@
+filters:
+  and:
+    - file.inFolder("wiki")
+    - file.ext == "md"
+properties:
+  file.name:
+    displayName: Page
+  category:
+    displayName: Category
+  tags:
+    displayName: Tags
+  summary:
+    displayName: Summary
+  updated:
+    displayName: Updated
+views:
+  - type: table
+    name: Content Index
+    order:
+      - file.name
+      - category
+      - tags
+      - summary
+      - updated
