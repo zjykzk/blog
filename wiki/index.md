@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-05T17:05:00+08:00
+updated: 2026-05-05T17:25:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -83,6 +83,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Agent|Agent]] — Agent 的核心任务目前可以归纳为三件事： (#ai #agent #concept)
 - [[wiki/concepts/Agent Tool|Agent Tool]] — Agent tools are schema-defined action surfaces that let an agent inspect, change, retrieve, or validate external state under harness control. (#ai #agents #tools)
 - [[wiki/concepts/AI Collaboration Scaffolding|AI Collaboration Scaffolding]] — AI collaboration scaffolding gives coding assistants onboarding context, design discussion, standards, anchors, and feedback loops so their output fits the team. (#ai #software-engineering #workflow #ai-coding)
+- [[wiki/concepts/Knowledge Priming|Knowledge Priming]] — Knowledge priming gives AI coding assistants curated, versioned project context before generation so they fit local architecture and conventions. (#ai #ai-coding #context #workflow)
+- [[wiki/concepts/Design-First Collaboration|Design-First Collaboration]] — Design-first collaboration makes AI design decisions explicit through staged alignment before any implementation code is generated. (#ai #ai-coding #software-engineering #workflow)
 - [[wiki/concepts/AI Memory 4W Taxonomy|AI Memory 4W Taxonomy]] — The AI Memory 4W Taxonomy classifies memory by when it persists, what it stores, how it is represented, and which modalities it handles. (#ai #memory #taxonomy #agents)
 - [[wiki/concepts/AI Learning Tutor Loop|AI Learning Tutor Loop]] — AI Learning Tutor Loop uses a source-grounded AI system to map a field, expose disagreements, test understanding, and repair errors. ( #ai #learning #tutoring #questions)
 - [[wiki/concepts/Business Modeling in Software|Business Modeling in Software]] — 软件中的业务建模，不是先讨论'软件怎么做'，而是先回答：目标组织为了产出业务结果，现在是怎么运作的，应该怎么改。
@@ -158,7 +160,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #ai #cognition #causal-reasoning #source)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Ingested Rahul Garg's AI-assisted development article and added an AI Collaboration Scaffolding concept around priming, design-first work, anchors, standards, and feedback.
+- [[wiki/hot|Hot Cache]] — Added Design-First Collaboration as a focused concept connecting staged design checkpoints, contracts, tests, and AI skills workflow.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

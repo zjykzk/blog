@@ -6,12 +6,13 @@ category: topics
 summary: Frontend development workflow 不是一条把设计稿翻译成页面的生产线，而是一套持续对齐用户任务、界面行为与系统行为的工作方法。
 sources:
   - https://martinfowler.com/articles/reduce-friction-ai/
+  - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
 created: 2026-04-26
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 2
-updated: 2026-05-05T17:05:00+08:00
+source_count: 3
+updated: 2026-05-05T17:25:00+08:00
 aliases:
   - 前端开发流程
   - frontend development process
@@ -80,6 +81,8 @@ In AI-assisted frontend work, this same principle applies to the assistant. [[wi
 
 For frontend work, that means an AI coding assistant needs task flow, state semantics, component conventions, accessibility expectations, and validation criteria before it starts producing UI code. ^[inferred]
 
+[[wiki/concepts/Design-First Collaboration]] fits frontend work especially well because UI code hides design decisions about user capabilities, component boundaries, interaction flow, state transitions, and contracts with backend APIs. Walking those levels before code reduces the chance that a generated interface looks plausible while encoding the wrong task model. ^[inferred]
+
 ## Treat frontend as mismatch detection
 
 前端之所以在流程里独特，不只是因为它负责界面，而是因为它经常最早暴露系统在哪里对用户失真。
@@ -101,6 +104,7 @@ For frontend work, that means an AI coding assistant needs task flow, state sema
 - [[wiki/topics/Requirement to Architecture Mapping]]
 - [[wiki/topics/Testing Strategy]]
 - [[wiki/concepts/AI Collaboration Scaffolding]]
+- [[wiki/concepts/Design-First Collaboration]]
 
 ## Downstream synthesis
 

@@ -6,12 +6,13 @@ category: topics
 summary: 从投入层次看：Test Pyramid 从测试目的看：Test Quadrants
 sources:
   - https://martinfowler.com/articles/reduce-friction-ai/
+  - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
 created: 2026-04-21
 base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 3
-updated: 2026-05-05T17:05:00+08:00
+source_count: 4
+updated: 2026-05-05T17:25:00+08:00
 aliases:
   - 测试模型
 tags:
@@ -66,11 +67,16 @@ Better signals are closer to review and delivery outcomes:
 
 These metrics treat AI output as something that must survive team standards and downstream change, not just compile once. ^[inferred]
 
+[[wiki/concepts/Design-First Collaboration]] adds a more operational testing bridge: after capabilities, components, and interactions are agreed, the contracts level can define interfaces, types, and schemas before implementation.
+
+Those contracts can be turned into tests before the assistant writes code. This makes AI-assisted TDD more natural because the test target is an agreed design artifact rather than an inferred implementation. ^[inferred]
+
 ## Peer topics
 
 - [[wiki/topics/Testing Purpose]]
 - [[wiki/topics/Spec-Driven Development]]
 - [[wiki/concepts/AI Collaboration Scaffolding]]
+- [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 
 ## Navigation

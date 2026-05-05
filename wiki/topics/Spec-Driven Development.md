@@ -6,12 +6,13 @@ category: topics
 summary: Spec Driven Development（SDD）把'代码是真相、文档是附属品'这个长期默认假设倒置： 规约是合同，代码是合同的执行副本 。合同变了，执行副本重新生成；执行副本擅自改了，CI 让构建失败。AI coding assistant 这波新工具把这个老想法重新点燃——因为 LLM 是'擅长模式补全、不会读心'的队友，模糊的上下文被放大成灾难。
 sources:
   - https://martinfowler.com/articles/reduce-friction-ai/
+  - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
 created: 2026-04-26
 base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 3
-updated: 2026-05-05T17:05:00+08:00
+source_count: 4
+updated: 2026-05-05T17:25:00+08:00
 aliases:
   - SDD
 tags:
@@ -76,6 +77,8 @@ Rahul Garg's AI collaboration patterns add a lighter version of the same discipl
 
 In that sense, SDD and [[wiki/concepts/AI Collaboration Scaffolding]] share the same core move: reduce the model's need to guess by turning intent, constraints, and standards into explicit artifacts. ^[inferred]
 
+[[wiki/concepts/Design-First Collaboration]] sharpens the bridge: its contracts level creates function signatures, types, schemas, and interfaces before implementation. That is not full SDD, but it gives the assistant a concrete contract to implement against and gives the human a reviewable artifact before code exists. ^[inferred]
+
 ## Open questions
 
 - 从 legacy code 反向抽规约时，规约未必比代码更接近意图——这是 brownfield 的特殊挑战
@@ -92,4 +95,5 @@ In that sense, SDD and [[wiki/concepts/AI Collaboration Scaffolding]] share the 
 - [[wiki/topics/Modern Software Engineering]]
 - [[wiki/syntheses/From User Story to Architecture]]
 - [[wiki/concepts/AI Collaboration Scaffolding]]
+- [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]

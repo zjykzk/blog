@@ -4,13 +4,15 @@ type: topic
 status: seed
 category: topics
 summary: 当前 source notes 里已经出现了一个很清楚的 workflow 雏形：
-sources: []
+sources:
+  - https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html#ThisPatternInLattice
+  - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
 created: 2026-04-22
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 3
-updated: 2026-04-22
+source_count: 5
+updated: 2026-05-05T17:25:00+08:00
 aliases:
   - skills workflow
   - AI skills
@@ -33,6 +35,14 @@ tags:
 ## Why it matters
 
 这说明 skill 不是“把 prompt 存起来”，而是把一次有效协作抽成稳定工作流。
+
+[[wiki/concepts/Knowledge Priming]] adds a concrete example from Lattice: a `knowledge-priming` atom plus a `knowledge-priming-refiner` can interview the user, capture project identity, write it to a versioned file, and let other skills read that context automatically.
+
+This reinforces the local view that skill design is partly context architecture: a skill can decide how project context is gathered, compressed, persisted, and reintroduced before later actions. ^[inferred]
+
+[[wiki/concepts/Design-First Collaboration]] adds a second Lattice example: a `design-first` atom can encode a staged collaboration method, while a `design-blueprint` molecule can load context, walk the design levels, and persist the approved blueprint.
+
+That makes a skill more than an invocation shortcut. It can preserve sequencing discipline, especially when deadline pressure would otherwise collapse design and implementation into one prompt. ^[inferred]
 
 ## Practical pattern
 
@@ -71,6 +81,8 @@ tags:
 - [[wiki/topics/Requirement to Architecture Mapping]]
 - [[wiki/topics/Karpathy Guidelines]]
 - [[wiki/topics/Context Management]]
+- [[wiki/concepts/Knowledge Priming]]
+- [[wiki/concepts/Design-First Collaboration]]
 
 ## Peer topics
 
@@ -92,3 +104,4 @@ tags:
 - `pages/项目___AI___skills.md`
 - `journals/2026_04_01.md`
 - [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]]
+- [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]

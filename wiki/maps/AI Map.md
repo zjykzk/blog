@@ -13,8 +13,8 @@ provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
-source_count: 15
-updated: 2026-05-05T17:05:00+08:00
+source_count: 16
+updated: 2026-05-05T17:25:00+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -33,6 +33,8 @@ tags:
 - [[wiki/concepts/Agent]]
 - [[wiki/concepts/Agent Tool]]
 - [[wiki/concepts/AI Collaboration Scaffolding]]
+- [[wiki/concepts/Knowledge Priming]]
+- [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/concepts/LLM]]
 - [[wiki/concepts/Epiplexity]]

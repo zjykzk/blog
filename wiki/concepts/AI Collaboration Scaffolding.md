@@ -6,8 +6,10 @@ category: concepts
 summary: AI collaboration scaffolding gives coding assistants onboarding context, design discussion, standards, anchors, and feedback loops so their output fits the team.
 sources:
   - https://martinfowler.com/articles/reduce-friction-ai/
+  - https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html#ThisPatternInLattice
+  - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
 created: 2026-05-05T17:05:00+08:00
-updated: 2026-05-05T17:05:00+08:00
+updated: 2026-05-05T17:25:00+08:00
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -43,6 +45,10 @@ The article proposes five patterns:
 
 Together these patterns create a shared mental model between human and assistant.
 
+[[wiki/concepts/Knowledge Priming]] is the most infrastructure-like of the five patterns: the article recommends keeping project context in versioned, reviewable files rather than relying on a developer to paste reminders into each session. Its Lattice example implements this as a reusable skill/refiner pair that captures project identity and makes it available to other skills.
+
+[[wiki/concepts/Design-First Collaboration]] is the design-alignment pattern: it reconstructs the human whiteboard by moving through capabilities, components, interactions, contracts, and implementation, with no code until the design is agreed.
+
 ## Why It Matters
 
 The core failure mode is not that the model cannot code. It is that the assistant defaults to generic training-data patterns when project-specific context is absent.
@@ -62,6 +68,8 @@ For [[wiki/concepts/Harness Ratchet]], the feedback flywheel is the human-team v
 ## Related
 
 - [[wiki/syntheses/AI Engineering Workflow]]
+- [[wiki/concepts/Knowledge Priming]]
+- [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/topics/Spec-Driven Development]]
 - [[wiki/topics/Modern Software Engineering]]
 - [[wiki/topics/Testing Strategy]]

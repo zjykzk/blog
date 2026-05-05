@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity sharpened AI-assisted development workflow, AI memory, long-context evaluation, and agent harness engineering around context, standards, verification, and feedback.
+summary: Recent wiki activity sharpened AI-assisted development workflow around design-first collaboration, knowledge priming, AI memory, and agent harness engineering.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-05T17:05:00+08:00
+updated: 2026-05-05T17:25:00+08:00
 ---
 
 ## Recent Activity
 
+- Ingested Rahul Garg's Design-First Collaboration page: added [[wiki/concepts/Design-First Collaboration]] and connected staged design checkpoints to contracts, tests, frontend workflow, and AI skills.
+- Ingested Rahul Garg's focused Knowledge Priming page: added [[wiki/concepts/Knowledge Priming]] and connected the Lattice skill/refiner example to AI skills workflow and collaboration scaffolding.
 - Ingested Rahul Garg's "Patterns for Reducing Friction in AI-Assisted Development": added [[wiki/concepts/AI Collaboration Scaffolding]] and connected priming, design-first collaboration, anchors, standards, and feedback to AI coding workflow.
-- Ingested "Survey on AI Memory": added [[wiki/topics/AI Memory]] and [[wiki/concepts/AI Memory 4W Taxonomy]] to separate persistent memory from active context.
-- Ingested "Lost in the Middle": added [[wiki/concepts/Lost in the Middle Effect]] and strengthened context-management, context-density, and agent design-space pages around positional robustness.
 
 ## Active Threads
 
@@ -31,6 +31,8 @@ updated: 2026-05-05T17:05:00+08:00
 - Long-context quality now has a positional robustness thread: the right information must be present and placed where the model can actually use it.
 - AI memory is now split from context: memory persists and gets retrieved into the active window; context is the bounded runtime workspace for the current inference step.
 - AI coding workflow now has an explicit collaboration-scaffolding layer: onboarding context, design alignment, team standards, anchored decisions, and feedback loops.
+- Knowledge priming is now represented as context infrastructure: compact project identity should be versioned, reviewed, and reused by skills instead of pasted ad hoc.
+- Design-first collaboration is now represented as a staged AI pairing workflow: capabilities, components, interactions, contracts, then implementation.
 
 ## Key Takeaways
 
@@ -46,5 +48,7 @@ updated: 2026-05-05T17:05:00+08:00
 - More retrieved context is not automatically better; reader performance can saturate before retriever recall, so reranking and truncation can be accuracy tools, not just latency optimizations.
 - Memory architecture should be compared by lifecycle, content type, storage representation, and modality before debating implementation details.
 - AI coding productivity should be measured by acceptance, iteration cycles, rework, and review burden, not by time to first output or generated lines.
+- Reusable AI skills can be context architecture, not just command wrappers: they can collect, compress, persist, and reintroduce project context before action.
+- Contracts are the hinge between AI design conversation and testing: once interfaces are agreed, tests can be generated before implementation.
 
 ## Flagged Contradictions

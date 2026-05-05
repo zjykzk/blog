@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 10,
-    "total_pages": 126
+    "total_sources_ingested": 12,
+    "total_pages": 128
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -221,6 +221,51 @@
         "wiki/topics/Testing Strategy.md",
         "wiki/topics/Frontend Development Workflow.md",
         "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html#ThisPatternInLattice": {
+      "ingested_at": "2026-05-05T17:15:00+08:00",
+      "size_bytes": 2100,
+      "modified_at": "2026-02-24T00:00:00+00:00",
+      "content_hash": "sha256:84005885755d2be344f061dce7f5708a13c25843771484efb0ed3d82007a81a2",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Knowledge Priming.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/AI Collaboration Scaffolding.md",
+        "wiki/sources/Reducing Friction in AI-Assisted Development Source Guide.md",
+        "wiki/topics/AI Skills Workflow.md",
+        "wiki/syntheses/AI Engineering Workflow.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html": {
+      "ingested_at": "2026-05-05T17:25:00+08:00",
+      "size_bytes": 11200,
+      "modified_at": "2026-03-03T00:00:00+00:00",
+      "content_hash": "sha256:ba459efd0a99cb0c80d3949ab5c73768cb09a3a10098f26063f6654068d1ad15",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Design-First Collaboration.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/AI Collaboration Scaffolding.md",
+        "wiki/sources/Reducing Friction in AI-Assisted Development Source Guide.md",
+        "wiki/topics/AI Skills Workflow.md",
+        "wiki/syntheses/AI Engineering Workflow.md",
+        "wiki/topics/Spec-Driven Development.md",
+        "wiki/topics/Testing Strategy.md",
+        "wiki/topics/Frontend Development Workflow.md",
         "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",

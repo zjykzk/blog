@@ -6,8 +6,10 @@ category: sources
 summary: Source guide for Rahul Garg's Martin Fowler article on five patterns for reducing friction in AI-assisted development.
 sources:
   - https://martinfowler.com/articles/reduce-friction-ai/
+  - https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html#ThisPatternInLattice
+  - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
 created: 2026-05-05T17:05:00+08:00
-updated: 2026-05-05T17:05:00+08:00
+updated: 2026-05-05T17:25:00+08:00
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -46,6 +48,9 @@ For this wiki, it mainly strengthens [[wiki/syntheses/AI Engineering Workflow]],
 - The article reframes AI assistants as teammates with high speed and low local context.
 - It proposes five patterns: Knowledge Priming, Design-First Collaboration, Context Anchoring, Encoding Team Standards, and Feedback Flywheel.
 - The patterns mirror human pair-programming rituals: onboarding, whiteboarding, shared standards, documented decisions, and retrospectives.
+- The Knowledge Priming page treats priming documents as versioned project infrastructure and gives Lattice's `knowledge-priming` atom plus `knowledge-priming-refiner` as an implementation example.
+- The Design-First Collaboration page argues that AI assistants silently embed design choices when they generate code immediately, so teams should align through capabilities, components, interactions, and contracts before implementation.
+- The Design-First Lattice example encodes the five-level method as a `design-first` atom and the larger context-to-blueprint workflow as a `design-blueprint` molecule.
 - The author explicitly marks the benefits as hypotheses or early practice observations, not validated findings.
 - The approach has overhead and is most justified for non-trivial work, multi-session work, or team-coordinated work.
 
@@ -54,6 +59,14 @@ For this wiki, it mainly strengthens [[wiki/syntheses/AI Engineering Workflow]],
 ### [[wiki/concepts/AI Collaboration Scaffolding]]
 
 The article directly motivates a concept page for the collaboration layer around AI coding assistants.
+
+### [[wiki/concepts/Knowledge Priming]]
+
+The focused Knowledge Priming page deserves a separate concept because it makes the onboarding-context pattern operational: curate project identity, keep it versioned, and let other AI skills read it automatically.
+
+### [[wiki/concepts/Design-First Collaboration]]
+
+The focused Design-First Collaboration page deserves a separate concept because it names the implementation trap and gives a concrete five-level workflow for turning hidden AI design decisions into explicit checkpoints.
 
 ### [[wiki/syntheses/AI Engineering Workflow]]
 
@@ -72,11 +85,15 @@ The article adds collaboration-quality metrics that are closer to testing and de
 - Which of the five patterns actually improves delivery outcomes under controlled comparison?
 - How much scaffolding is enough before the overhead exceeds the benefit?
 - How should teams keep priming documents and standards current without creating documentation drag?
+- When should a priming workflow be implemented as a reusable skill rather than a plain repository document? ^[inferred]
+- How should teams decide which design level to start at for tasks between trivial utilities and multi-component features?
 - Can first-pass acceptance rate reliably predict change failure rate across different teams? ^[ambiguous]
 
 ## Related
 
 - [[wiki/concepts/AI Collaboration Scaffolding]]
+- [[wiki/concepts/Knowledge Priming]]
+- [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/topics/Spec-Driven Development]]
 - [[wiki/topics/Modern Software Engineering]]
