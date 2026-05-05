@@ -6,6 +6,7 @@ summary: AI Harness is the runtime order layer that connects model, context, too
 category: topics
 sources:
   - https://x.com/_avichawla/article/2044670188998803855
+  - https://x.com/trq212/status/2024574133011673516
 created: 2026-05-04
 base_confidence: 0.70
 lifecycle: draft
@@ -14,8 +15,8 @@ provenance:
   extracted: 0.94
   inferred: 0.06
   ambiguous: 0.0
-source_count: 7
-updated: 2026-05-05T00:00:00+08:00
+source_count: 8
+updated: 2026-05-05T13:58:10+08:00
 aliases:
   - harness
 tags:
@@ -140,6 +141,13 @@ GenericAgent 的做法是把四件事放在同一个设计原则下：
 因此 harness 不能只问“这一轮需要什么信息”，还要问“哪些信息应该稳定地留在前缀，哪些变化应该追加到 suffix”。
 
 一个更稳的做法是：把状态更新、提醒和压缩请求追加成新的消息，而不是改写 system prompt 或工具定义。这样可以同时保留 [[wiki/topics/Context Management]] 的语义连续性和 [[wiki/concepts/KV Cache]] 的可复用性。
+
+Thariq's Claude Code article adds two concrete harness patterns:
+
+- Treat mode transitions as stable tool calls, such as plan-mode entry and exit, instead of mutating the upstream prompt.
+- Use deferred tool loading: keep stable lightweight tool stubs in the prefix, then let a tool-search mechanism load full schemas only when needed.
+
+这两个模式背后的同一条原则是：capability surface 可以按需展开，但 prefix shape 应该尽量稳定。
 
 ## Design consequence
 

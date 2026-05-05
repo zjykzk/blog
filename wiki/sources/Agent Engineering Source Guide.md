@@ -10,7 +10,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 5
-updated: 2026-05-05T00:00:00+08:00
+updated: 2026-05-05T13:58:10+08:00
 aliases:
   - agent engineering source cluster
   - harness workflow source guide
@@ -58,6 +58,8 @@ tags:
 - [[wiki/sources/Before the Tool Call Source Guide]]
 - [[wiki/sources/Agent Systems Papers Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
+
+The prompt-caching guide now covers both a secondary case-study explainer and Thariq's original Claude Code article, which contributes the production-harness angle: cache-hit monitoring, stable mode tools, deferred tool loading, and cache-safe compaction.
 
 ## Main promotion destinations
 

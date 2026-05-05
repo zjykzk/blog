@@ -6,14 +6,15 @@ summary: Prompt caching reuses stable prompt prefixes so repeated agent turns av
 category: concepts
 sources:
   - https://x.com/_avichawla/article/2044670188998803855
+  - https://x.com/trq212/status/2024574133011673516
 created: 2026-05-05T00:00:00+08:00
-updated: 2026-05-05T00:00:00+08:00
-base_confidence: 0.44
+updated: 2026-05-05T13:58:10+08:00
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.82
-  inferred: 0.18
+  extracted: 0.84
+  inferred: 0.16
   ambiguous: 0.0
 aliases:
   - prompt cache
@@ -57,6 +58,7 @@ The source lists three practical cache breakers:
 - injecting timestamps into the static prompt
 - serializing tool schemas in unstable order
 - changing tool definitions during a session
+- switching models inside an already-warm session
 
 That makes cache stability a concrete [[wiki/topics/AI Harness]] responsibility. A harness that mutates its prefix to store state can silently turn every future turn into a cold-cache request.
 
@@ -70,6 +72,8 @@ The article's operational rules can be distilled into a stable agent design chec
 - Let user messages, assistant turns, tool output, and observations grow at the bottom.
 - Append reminders or state changes as new messages instead of editing the static prefix.
 - Avoid model switching inside one session because caches are model-specific.
+- Represent mode switches as stable tools or messages rather than by rewriting the system prompt.
+- Defer-load large or rarely used tool schemas behind stable lightweight stubs instead of adding and removing tools mid-conversation.
 
 These rules are not only cost optimizations; they also make the prompt boundary explicit, which helps preserve [[wiki/concepts/Context Information Density]]. ^[inferred]
 
@@ -78,6 +82,8 @@ These rules are not only cost optimizations; they also make the prompt boundary 
 When a session nears the context limit, the source recommends cache-safe forking: keep the existing system prompt, tools, and conversation prefix intact, then append the compaction instruction as a new message.
 
 The important point is that compaction should not rewrite the reusable prefix. It should introduce new work at the end of the sequence so the cache can still match the already-stable part.
+
+Thariq's Claude Code article adds that forking and compaction should reuse the parent prefix wherever possible: keep the same system prompt, tool definitions, project context, and session context, then append the compaction instruction at the end.
 
 ## Metrics
 
@@ -88,6 +94,8 @@ The source names three response fields to monitor:
 - `input_tokens`: tokens processed without a cache read
 
 It defines cache efficiency as `cache_read_input_tokens / (cache_read_input_tokens + cache_creation_input_tokens)`.
+
+The Claude Code article treats cache hit rate as production health, not just local optimization: a low hit rate can mean the harness is silently rewriting supposedly stable prefix material.
 
 ## Open Questions
 

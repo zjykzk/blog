@@ -1,7 +1,7 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 2,
+    "total_sources_ingested": 3,
     "total_pages": 101
   },
   "sources": {
@@ -44,6 +44,25 @@
         "wiki/sources/Agent Engineering Source Guide.md",
         "wiki/maps/AI Map.md",
         "wiki/index.md"
+      ]
+    },
+    "https://x.com/trq212/status/2024574133011673516": {
+      "ingested_at": "2026-05-05T13:58:10+08:00",
+      "size_bytes": 595,
+      "modified_at": "2026-05-05T13:58:10+08:00",
+      "content_hash": "sha256:44bb1a5d7a47c1fe40bdb8b5d8732a14fadf205e4d6d35a0d7c3e5b346dbcfe8",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [],
+      "pages_updated": [
+        "wiki/concepts/Prompt Caching.md",
+        "wiki/topics/AI Harness.md",
+        "wiki/topics/Context Management.md",
+        "wiki/syntheses/Agent System Design Space.md",
+        "wiki/sources/Prompt Caching Claude Code Case Study Source Guide.md",
+        "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/index.md",
+        "wiki/hot.md"
       ]
     }
   }

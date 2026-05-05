@@ -6,6 +6,7 @@ summary: Agent System Design Space compares agent architectures by values, conte
 category: syntheses
 sources:
   - https://x.com/_avichawla/article/2044670188998803855
+  - https://x.com/trq212/status/2024574133011673516
 created: 2026-05-04
 base_confidence: 0.53
 lifecycle: draft
@@ -14,8 +15,8 @@ provenance:
   extracted: 0.92
   inferred: 0.08
   ambiguous: 0.0
-source_count: 3
-updated: 2026-05-05T00:00:00+08:00
+source_count: 4
+updated: 2026-05-05T13:58:10+08:00
 aliases:
   - Agent architecture design space
   - AI agent system design space
@@ -133,6 +134,8 @@ Agent architecture also has an inference-economics surface: how much repeated wo
 For long sessions, a large static foundation can be cheap after the first turn if it remains an identical prefix. The same foundation can be expensive on every turn if the harness mutates anything upstream of the cache breakpoint.
 
 This makes cache discipline a sibling of memory, tool design, and recovery rather than a billing afterthought. ^[inferred]
+
+Thariq's Claude Code article makes this design surface operational: cache-hit rate is important enough to alert on, and cache misses can come from harness choices that look semantically harmless, such as timestamp injection, nondeterministic tool ordering, model switching, or changing a tool parameter upstream of the cache breakpoint.
 
 ## 4. Why environment changes the architecture
 

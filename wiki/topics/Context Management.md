@@ -6,6 +6,7 @@ summary: Context management designs what enters, stays in, leaves, and stays sta
 category: topics
 sources:
   - https://x.com/_avichawla/article/2044670188998803855
+  - https://x.com/trq212/status/2024574133011673516
 created: 2026-05-04
 base_confidence: 0.70
 lifecycle: draft
@@ -14,8 +15,8 @@ provenance:
   extracted: 0.93
   inferred: 0.07
   ambiguous: 0.0
-source_count: 5
-updated: 2026-05-05T00:00:00+08:00
+source_count: 6
+updated: 2026-05-05T13:58:10+08:00
 aliases:
   - 上下文管理
 tags:
@@ -82,6 +83,8 @@ This means context management has two simultaneous goals:
 - preserve prefix identity when stable information does not need to change
 
 Those goals can conflict when a system wants to update policies, tools, or durable state mid-session. In that case, cache efficiency is not the only objective; it is one design constraint among correctness, safety, and freshness. ^[inferred]
+
+The Claude Code prompt-caching source sharpens this into an ordering rule: stable system prompt and tools first, project context next, session context after that, and volatile conversation tail last. That ordering lets many sessions share global cache hits while still allowing each session to accumulate its own local context.
 
 ## Reasoning implication
 
