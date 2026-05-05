@@ -5,14 +5,19 @@ status: draft
 category: concepts
 summary: 认知工程学不是单独研究'人怎么想'，而是研究如何设计工具、信息结构与反馈机制，让人更容易想对、做对、协同对。
 tags: []
-sources: []
+sources:
+  - https://x.com/ihtesham2005/status/2030214970353602806
 created: 2026-04-29
-base_confidence: 0.37
+base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-04-29
+updated: 2026-05-05T14:18:28+08:00
 aliases:
   - 认知工程学
+provenance:
+  extracted: 0.70
+  inferred: 0.30
+  ambiguous: 0.00
 ---
 
 # Cognitive Engineering
@@ -55,6 +60,8 @@ aliases:
 
 如果系统设计得不好，AI 会制造一种"已经理解"的幻觉；如果设计得好，AI 扩大的不是替代性，而是人的认知带宽。
 
+[[wiki/concepts/AI Learning Tutor Loop]] 是一个学习场景里的具体例子：AI 先帮助学习者从源材料中抽取 mental models 和争议地图，再用诊断问题与错误反馈形成闭环。这里 AI 没有替人学习，而是改变了信息结构和反馈密度。
+
 ## 方法论含义
 
 - 设计知识系统时，不要只问"怎么记"，要问"怎么让它参与判断"。
@@ -66,3 +73,4 @@ aliases:
 - [[wiki/concepts/Cognition Three Channels]]
 - [[wiki/concepts/Knowledge as Network]]
 - [[wiki/topics/Learning Methodology]]
+- [[wiki/concepts/AI Learning Tutor Loop]]

@@ -4,13 +4,14 @@ type: topic
 status: growing
 category: topics
 summary: 这页聚合的是《学会提问》这类材料中最稳定、最值得反复使用的批判性思维框架。
-sources: []
+sources:
+  - https://x.com/ihtesham2005/status/2030214970353602806
 created: 2026-04-21
-base_confidence: 0.37
+base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 1
-updated: 2026-04-21
+updated: 2026-05-05T14:18:28+08:00
 aliases:
   - 学会提问
   - critical thinking
@@ -18,6 +19,10 @@ tags:
   - thinking
   - reasoning
   - methods
+provenance:
+  extracted: 0.78
+  inferred: 0.22
+  ambiguous: 0.00
 ---
 
 # Critical Thinking
@@ -57,6 +62,8 @@ tags:
 - 数据有没有欺骗性
 - 有没有重要信息被省略
 
+AI 辅助学习可以把这套问题化动作外部化：让 AI 先列出领域内专家的根本分歧和各方最强论点，再生成能区分深理解与死记硬背的问题。真正的学习动作仍然是学习者自己回答、被反馈、再修正。
+
 ## Why it matters
 
 它的价值不只是“提高表达质量”，而是帮助你形成更可靠的判断过程，尤其是在面对复杂论证、专家意见、统计数据和公共讨论时。
@@ -66,6 +73,8 @@ tags:
 - [[wiki/topics/Problem Framing]]
 - [[wiki/topics/Mental Models]]
 - [[wiki/topics/Probability]]
+- [[wiki/topics/Learning Methodology]]
+- [[wiki/concepts/AI Learning Tutor Loop]]
 - [[wiki/syntheses/Thinking and Judgment Workflow]]
 
 ## Navigation

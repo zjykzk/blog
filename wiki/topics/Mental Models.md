@@ -4,19 +4,24 @@ type: topic
 status: growing
 category: topics
 summary: 这页聚合的是一组可以反复调用的思维工具，而不是某个单一学科知识点。
-sources: []
+sources:
+  - https://x.com/ihtesham2005/status/2030214970353602806
 created: 2026-04-21
-base_confidence: 0.37
+base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 1
-updated: 2026-04-21
+updated: 2026-05-05T14:18:28+08:00
 aliases:
   - 思维框架
 tags:
   - thinking
   - models
   - decision-making
+provenance:
+  extracted: 0.70
+  inferred: 0.30
+  ambiguous: 0.00
 ---
 
 # Mental Models
@@ -59,6 +64,10 @@ tags:
 
 参考：[[wiki/topics/Probability]]
 
+## Learning Use
+
+在学习一个新领域时，mental models 可以先作为“专家共享结构”被抽出来。Ihtesham Ali 的 NotebookLM 学习 workflow 里，第一步不是让 AI 总结教材，而是问“专家共享的 5 个核心 mental models 是什么”。这个问法把学习入口从材料顺序切到结构地图，适合接到 [[wiki/concepts/AI Learning Tutor Loop]]。^[inferred]
+
 ## Peer topics
 
 - [[wiki/topics/Categorical Thinking]]
@@ -66,6 +75,8 @@ tags:
 - [[wiki/topics/Critical Thinking]]
 - [[wiki/topics/Probability]]
 - [[wiki/topics/Learnable Structure in Data]]
+- [[wiki/topics/Learning Methodology]]
+- [[wiki/concepts/AI Learning Tutor Loop]]
 - [[wiki/syntheses/Thinking and Judgment Workflow]]
 - [[wiki/topics/Modern Software Engineering]]
 

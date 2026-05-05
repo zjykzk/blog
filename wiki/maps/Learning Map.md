@@ -3,16 +3,20 @@ title: Learning Map
 type: map
 status: draft
 category: maps
-summary: Learning Methodology——七条动作原则
+summary: Learning Map collects learning methodology, cognition concepts, AI tutor loops, and cross-source synthesis for durable learning practice.
 tags: []
 sources: []
 created: 2026-04-26
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-04-26
+updated: 2026-05-05T14:18:28+08:00
 aliases:
   - 学习地图
+provenance:
+  extracted: 0.85
+  inferred: 0.15
+  ambiguous: 0.00
 ---
 
 # Learning Map
@@ -29,6 +33,7 @@ aliases:
 - [[wiki/concepts/Expression Three Channels]]——表达三根：编/载/解
 - [[wiki/concepts/Knowledge as Network]]——知识是网不是塔
 - [[wiki/concepts/Cognitive Engineering]]——设计人、工具与反馈构成的认知系统
+- [[wiki/concepts/AI Learning Tutor Loop]]——用 AI 源材料系统建立知识地形、诊断理解并修补错误
 
 ## 跨源综合
 
@@ -36,6 +41,7 @@ aliases:
 
 ## 相关源笔记（pages/ 与 mobu/）
 
+- [[wiki/sources/NotebookLM Learning Workflow Source Guide]]——Ihtesham Ali 的 NotebookLM 学习 workflow source guide
 - [[学习方法论]]（pages source note）
 - [[mobu/工具/得到高效学习方法]]
 - [[mobu/工具/认知天性]]

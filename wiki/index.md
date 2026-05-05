@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-05T14:03:13+08:00
+updated: 2026-05-05T14:18:28+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -31,7 +31,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/maps/AI Map|AI Map]] — Entry point for the AI, Agent, and LLM knowledge cluster, linking concepts, topics, syntheses, and source guides. (#ai #agents #llm-wiki)
 - [[wiki/maps/Classification Thinking Map|Classification Thinking Map]] — 这一组页面围绕一个核心问题展开： 人如何通过分类把混乱切成结构，以及这种切法的价值、方法与边界是什么。
 - [[wiki/maps/CS Map|CS Map]] — 这页聚合当前 vault 中更偏计算机科学与软件架构的长期知识页。 (#cs #map #architecture)
-- [[wiki/maps/Learning Map|Learning Map]] — Learning Methodology——七条动作原则
+- [[wiki/maps/Learning Map|Learning Map]] — Learning Map collects learning methodology, cognition concepts, AI tutor loops, and cross-source synthesis for durable learning practice.
 - [[wiki/maps/Management Map|Management Map]] — 这页聚合当前 vault 中与管理、决策、组织协作相关的长期知识页。 (#management #leadership #map)
 - [[wiki/maps/Reading Map|Reading Map]] — 这页用于承接读书笔记从 raw/source 进入 wiki 的提升过程。 (#reading #books #map)
 - [[wiki/maps/Software Analysis Map|Software Analysis Map]] — 这页把软件分析中的核心概念按层次放在一张图里。它基于 Software Analysis Three Generators 的三根： 组织、交换、边界 。 (#software-analysis #requirements #architecture #map)
@@ -78,6 +78,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 ## Concepts
 - [[wiki/concepts/Agent|Agent]] — Agent 的核心任务目前可以归纳为三件事： (#ai #agent #concept)
 - [[wiki/concepts/Agent Tool|Agent Tool]] — 当前在旧笔记中， Agent tool 这个文件名和其中的内容发生了错位：文件里实际保留的是 think tool 摘录，而 router / adapter 这段内容出现在旧的 llm.md 中。 (#ai #agents #tools)
+- [[wiki/concepts/AI Learning Tutor Loop|AI Learning Tutor Loop]] — AI Learning Tutor Loop uses a source-grounded AI system to map a field, expose disagreements, test understanding, and repair errors. ( #ai #learning #tutoring #questions)
 - [[wiki/concepts/Business Modeling in Software|Business Modeling in Software]] — 软件中的业务建模，不是先讨论'软件怎么做'，而是先回答：目标组织为了产出业务结果，现在是怎么运作的，应该怎么改。
 - [[wiki/concepts/Cognition Three Channels|Cognition Three Channels]] — 人认识世界靠三根独立的生成器撑着。关掉任何一根，认识塌一块。
 - [[wiki/concepts/Cognitive Engineering|Cognitive Engineering]] — 认知工程学不是单独研究'人怎么想'，而是研究如何设计工具、信息结构与反馈机制，让人更容易想对、做对、协同对。
@@ -131,6 +132,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Managed Agents Source Guide|Managed Agents Source Guide]] — 这篇 Anthropic engineering article 更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#agents #ai #harness #source #anthropic)
 - [[wiki/sources/Mobu Notes|Mobu Notes Source Guide]] — mobu/ 目前是个人知识与领域素材的大池子，适合作为 raw/domain input 层，而不是直接作为稳定 wiki 层。 (#mobu #raw #source)
 - [[wiki/sources/Modern Software Engineering Notes|Modern Software Engineering Notes]] — 这份读书笔记目前以摘录和图片为主，仍更适合作为 source note，而不是直接升格为稳定 wiki 页面。 (#book-notes #software-engineering #source)
+- [[wiki/sources/NotebookLM Learning Workflow Source Guide|NotebookLM Learning Workflow Source Guide]] — Source guide for Ihtesham Ali's NotebookLM learning workflow thread: corpus loading, mental-model prompts, disagreement mapping, and diagnostic feedback. ( #source #ai #learning #notebooklm #questions)
 - [[wiki/sources/Probability Roundtable Source Guide|Probability Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担概率论的稳定母页角色。 (#probability #thinking #roundtable #source)
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide|Prompt Caching Claude Code Case Study Source Guide]] — Source guide for prompt-caching case studies that frame Claude Code cache efficiency as an agent harness design problem. ( #source #ai #agents #caching #claude-code)
 - [[wiki/sources/Published Posts|Published Posts Source Guide]] — content/posts/ 是对外发布层，不直接等同于 wiki 本体。 (#hugo #posts #source)
@@ -141,7 +143,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #ai #cognition #causal-reasoning #source)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Ingested Akshay Pachaar's agent harness anatomy thread and added verification loops as a production harness concept.
+- [[wiki/hot|Hot Cache]] — Ingested Ihtesham Ali's NotebookLM learning workflow and added AI Learning Tutor Loop to the learning cluster.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

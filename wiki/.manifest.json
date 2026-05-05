@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 4,
-    "total_pages": 103
+    "total_sources_ingested": 5,
+    "total_pages": 111
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -85,6 +85,28 @@
         "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md"
+      ]
+    },
+    "https://x.com/ihtesham2005/status/2030214970353602806": {
+      "ingested_at": "2026-05-05T14:18:28+08:00",
+      "size_bytes": 383,
+      "modified_at": "2026-05-05T14:18:28+08:00",
+      "content_hash": "sha256:7465fe01b0fa3163a539192b2a8ff359bd6f5b0350c525f295773db35e723683",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/AI Learning Tutor Loop.md",
+        "wiki/sources/NotebookLM Learning Workflow Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/Learning Methodology.md",
+        "wiki/concepts/Cognitive Engineering.md",
+        "wiki/topics/Mental Models.md",
+        "wiki/topics/Critical Thinking.md",
+        "wiki/maps/Learning Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
       ]
     }
   }

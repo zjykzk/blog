@@ -5,16 +5,21 @@ status: draft
 category: topics
 summary: 一份自己能用、能指导动作的学习方法论。建立在两个概念之上：人是三通道进出系统；知识是网不是塔。
 tags: []
-sources: []
+sources:
+  - https://x.com/ihtesham2005/status/2030214970353602806
 created: 2026-04-26
-base_confidence: 0.37
+base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-04-26
+updated: 2026-05-05T14:18:28+08:00
 aliases:
   - 学习方法论
   - 如何学习
   - How to learn
+provenance:
+  extracted: 0.78
+  inferred: 0.22
+  ambiguous: 0.00
 ---
 
 # Learning Methodology
@@ -71,11 +76,15 @@ aliases:
 
 **动作**：学完一个东西，问"它的结构和我已经懂的什么东西同构？" 找到一次同构，这块知识就白送另一块。
 
+AI 可以被用来加速这一步，但前提是问题要对。一个可复用模式是：先把足够宽的材料放进 NotebookLM 这类源材料系统，再问“这个领域专家共享的核心 mental models 是什么”，而不是让它直接总结内容。这样 AI 帮忙抽的是结构层，不是表象层。
+
 ### 5. 输出即学习
 
 教出来才算学会。输出不是结束后的锦上添花，是学习循环的闭环。
 
 **动作**：每学完一段，强迫自己产出一份能给外人看懂的东西。对面听不懂的每个点，都是自己理解的漏洞。
+
+在 AI 辅助学习里，输出可以变成更短的闭环：让 AI 生成能区分深理解和死记硬背的诊断问题，自己回答，再让 AI 根据源材料解释错在哪里、漏掉了什么。这个过程对应 [[wiki/concepts/AI Learning Tutor Loop]]。
 
 ### 6. 给网织密的时间
 
@@ -127,6 +136,8 @@ aliases:
 - [[wiki/concepts/Cognition Three Channels]]
 - [[wiki/concepts/Expression Three Channels]]
 - [[wiki/concepts/Knowledge as Network]]
+- [[wiki/concepts/AI Learning Tutor Loop]]
+- [[wiki/concepts/Cognitive Engineering]]
 - [[wiki/syntheses/Learning Methodology Across Sources]]
 - [[wiki/maps/Learning Map]]
 - [[学习方法论]]
@@ -137,3 +148,4 @@ aliases:
 - `~/Documents/notes/20260426T015450--表达的秩__rank.org`
 - `~/Documents/notes/20260426T020345--学习方法论__method_learning.org`
 - 本轮对话（2026-04-26）
+- `https://x.com/ihtesham2005/status/2030214970353602806`
