@@ -13,8 +13,8 @@ provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
-source_count: 18
-updated: 2026-05-05T17:45:00+08:00
+source_count: 19
+updated: 2026-05-05T17:55:00+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -37,6 +37,7 @@ tags:
 - [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/concepts/Context Anchoring]]
 - [[wiki/concepts/Encoding Team Standards]]
+- [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/concepts/LLM]]
 - [[wiki/concepts/Epiplexity]]

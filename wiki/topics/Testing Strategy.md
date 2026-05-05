@@ -8,6 +8,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
   - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
+  - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
 created: 2026-04-21
 base_confidence: 0.53
 lifecycle: draft
@@ -16,8 +17,8 @@ provenance:
   extracted: 0.80
   inferred: 0.20
   ambiguous: 0.0
-source_count: 5
-updated: 2026-05-05T17:45:00+08:00
+source_count: 6
+updated: 2026-05-05T17:55:00+08:00
 aliases:
   - 测试模型
 tags:
@@ -80,6 +81,8 @@ Those contracts can be turned into tests before the assistant writes code. This 
 
 This is not a replacement for automated tests. It is a way to make review and security checks more consistent across developers and AI sessions, especially when the relevant standard is architectural judgment or threat-model knowledge rather than a simple assertion. ^[inferred]
 
+[[wiki/concepts/Feedback Flywheel]] adds the measurement loop: accepted output, repeated review comments, regeneration cycles, and post-merge rework should decide which tests, review instructions, standards, or guardrails need to change next.
+
 ## Peer topics
 
 - [[wiki/topics/Testing Purpose]]
@@ -87,6 +90,7 @@ This is not a replacement for automated tests. It is a way to make review and se
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/concepts/Encoding Team Standards]]
+- [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 
 ## Navigation

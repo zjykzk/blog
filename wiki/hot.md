@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity sharpened AI-assisted development workflow around executable team standards, context anchoring, and design-first collaboration.
+summary: Recent wiki activity sharpened AI-assisted development workflow around feedback flywheels, executable standards, and context anchoring.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-05T17:45:00+08:00
+updated: 2026-05-05T17:55:00+08:00
 ---
 
 ## Recent Activity
 
+- Ingested Rahul Garg's Feedback Flywheel page: added [[wiki/concepts/Feedback Flywheel]] and connected AI collaboration metrics to artifact maintenance, harness ratchets, testing strategy, and feedback loops.
 - Ingested Rahul Garg's Encoding Team Standards page: added [[wiki/concepts/Encoding Team Standards]] and connected executable governance to AI skills, coding guidelines, testing strategy, and modern software engineering.
 - Ingested Rahul Garg's Context Anchoring page: added [[wiki/concepts/Context Anchoring]] and connected living feature documents to context management, SDD, and AI skills workflow.
-- Ingested Rahul Garg's Design-First Collaboration page: added [[wiki/concepts/Design-First Collaboration]] and connected staged design checkpoints to contracts, tests, frontend workflow, and AI skills.
 
 ## Active Threads
 
@@ -35,6 +35,7 @@ updated: 2026-05-05T17:45:00+08:00
 - Design-first collaboration is now represented as a staged AI pairing workflow: capabilities, components, interactions, contracts, then implementation.
 - Context anchoring is now represented as feature-level external memory: decisions, reasons, rejected alternatives, open questions, and state should survive outside the chat transcript.
 - Encoding team standards is now represented as executable governance: senior judgment about generation, refactoring, security, and review can live as versioned shared instructions.
+- Feedback flywheel is now represented as the maintenance loop for AI collaboration: real review, regeneration, acceptance, and rework signals should update context, standards, workflows, checks, and guardrails.
 
 ## Key Takeaways
 
@@ -54,5 +55,6 @@ updated: 2026-05-05T17:45:00+08:00
 - Contracts are the hinge between AI design conversation and testing: once interfaces are agreed, tests can be generated before implementation.
 - Durable feature documents are a practical reset mechanism: they let teams close long AI chats and restart from a compact, decision-rich artifact.
 - AI standards should move from personal prompting skill into repository infrastructure when output quality varies by who is asking.
+- Failed AI interactions are useful evidence only if they change a durable artifact; otherwise the same collaboration failure returns as a new prompt problem.
 
 ## Flagged Contradictions

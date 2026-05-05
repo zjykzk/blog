@@ -6,8 +6,9 @@ category: concepts
 summary: A harness ratchet turns repeated agent failures into durable rules, hooks, checks, or workflow changes instead of treating them as one-off bad runs.
 sources:
   - https://addyosmani.com/blog/agent-harness-engineering/
+  - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
 created: 2026-05-05T15:10:00+08:00
-updated: 2026-05-05T15:10:00+08:00
+updated: 2026-05-05T17:55:00+08:00
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -43,6 +44,10 @@ Addy Osmani's article gives concrete examples of failures becoming harness chang
 
 The ratchet is strongest when every rule traces back to a real failure, not a speculative style preference.
 
+[[wiki/concepts/Feedback Flywheel]] adds the human-team version of the same loop: review comments, regeneration cycles, accepted outputs, and post-merge rework should become updates to priming documents, standards, workflows, or checks.
+
+The useful distinction is scope. Harness ratchet focuses on the runtime around an agent; feedback flywheel focuses on the collaboration system around AI-assisted development. ^[inferred]
+
 ## Why It Matters
 
 This turns agent engineering from prompt tweaking into feedback-driven system design.
@@ -66,5 +71,6 @@ If only the first side exists, the harness can accumulate stale rules and contex
 - [[wiki/topics/Context Management]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Agent Tool]]
+- [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]

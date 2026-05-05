@@ -10,8 +10,9 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
   - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
+  - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
 created: 2026-05-05T17:05:00+08:00
-updated: 2026-05-05T17:45:00+08:00
+updated: 2026-05-05T17:55:00+08:00
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -55,6 +56,8 @@ Together these patterns create a shared mental model between human and assistant
 
 [[wiki/concepts/Encoding Team Standards]] is the governance pattern: it turns tacit senior-developer judgment about generation, refactoring, security, and review into shared instructions that execute for everyone.
 
+[[wiki/concepts/Feedback Flywheel]] is the maintenance pattern: it captures what worked, what failed, and what humans had to correct, then feeds those lessons back into the collaboration artifacts.
+
 ## Why It Matters
 
 The core failure mode is not that the model cannot code. It is that the assistant defaults to generic training-data patterns when project-specific context is absent.
@@ -78,6 +81,7 @@ For [[wiki/concepts/Harness Ratchet]], the feedback flywheel is the human-team v
 - [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/concepts/Context Anchoring]]
 - [[wiki/concepts/Encoding Team Standards]]
+- [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/topics/Spec-Driven Development]]
 - [[wiki/topics/Modern Software Engineering]]
 - [[wiki/topics/Testing Strategy]]

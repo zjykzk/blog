@@ -9,6 +9,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
   - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
+  - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
 created: 2026-04-22
 base_confidence: 0.70
 lifecycle: draft
@@ -17,8 +18,8 @@ provenance:
   extracted: 0.78
   inferred: 0.22
   ambiguous: 0.0
-source_count: 7
-updated: 2026-05-05T17:45:00+08:00
+source_count: 8
+updated: 2026-05-05T17:55:00+08:00
 aliases:
   - skills workflow
   - AI skills
@@ -57,6 +58,10 @@ This makes durable intermediate artifacts part of skill design. A skill can deci
 [[wiki/concepts/Encoding Team Standards]] adds a fourth Lattice example: atoms such as `clean-code`, `architecture`, `secure-coding`, and `test-quality` can carry team standards with self-validation checklists, while refiners customize them through guided interviews.
 
 That makes skills a vehicle for executable governance: they can apply shared team judgment consistently instead of relying on whoever happens to know the best prompt. ^[inferred]
+
+[[wiki/concepts/Feedback Flywheel]] adds the fifth Lattice example: skills should help capture observed failures, accepted outputs, review comments, and artifact updates so the next run starts from improved context and standards.
+
+That turns skill design into a maintenance loop. A reusable workflow is not complete if it only executes; it should also make it easy to improve the workflow after real use. ^[inferred]
 
 ## Practical pattern
 
@@ -99,6 +104,7 @@ That makes skills a vehicle for executable governance: they can apply shared tea
 - [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/concepts/Context Anchoring]]
 - [[wiki/concepts/Encoding Team Standards]]
+- [[wiki/concepts/Feedback Flywheel]]
 
 ## Peer topics
 

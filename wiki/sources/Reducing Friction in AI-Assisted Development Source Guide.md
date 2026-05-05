@@ -10,8 +10,9 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
   - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
+  - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
 created: 2026-05-05T17:05:00+08:00
-updated: 2026-05-05T17:45:00+08:00
+updated: 2026-05-05T17:55:00+08:00
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -61,6 +62,9 @@ For this wiki, it mainly strengthens [[wiki/syntheses/AI Engineering Workflow]],
 - It proposes treating generation, refactoring, security, and review instructions as versioned, reviewed, shared infrastructure.
 - It describes executable instructions as having role definition, context requirements, categorized standards, and output format.
 - The Encoding Team Standards Lattice example uses composable atoms such as `clean-code`, `architecture`, `domain-driven-design`, `secure-coding`, and `test-quality`, with refiners that customize standards through guided interviews.
+- The Feedback Flywheel page argues that AI collaboration artifacts should improve through observed successes, failures, review comments, regeneration cycles, and post-merge rework.
+- It treats first-pass acceptance rate, iteration cycles, post-merge rework, review burden, and repeated corrections as better signals than generation speed.
+- It frames failed AI interactions as evidence for updating priming documents, context anchors, standards, workflows, commands, checks, and guardrails.
 - The author explicitly marks the benefits as hypotheses or early practice observations, not validated findings.
 - The approach has overhead and is most justified for non-trivial work, multi-session work, or team-coordinated work.
 
@@ -85,6 +89,10 @@ The focused Context Anchoring page deserves a separate concept because it moves 
 ### [[wiki/concepts/Encoding Team Standards]]
 
 The focused Encoding Team Standards page deserves a separate concept because it shifts team judgment from tacit senior habit into executable, versioned AI instructions.
+
+### [[wiki/concepts/Feedback Flywheel]]
+
+The focused Feedback Flywheel page deserves a separate concept because it closes the loop: AI collaboration artifacts must learn from actual use or they become stale process.
 
 ### [[wiki/syntheses/AI Engineering Workflow]]
 
@@ -114,6 +122,7 @@ The article adds collaboration-quality metrics that are closer to testing and de
 - [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/concepts/Context Anchoring]]
 - [[wiki/concepts/Encoding Team Standards]]
+- [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/topics/Spec-Driven Development]]
 - [[wiki/topics/Modern Software Engineering]]

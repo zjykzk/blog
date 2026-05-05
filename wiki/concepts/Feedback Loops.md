@@ -3,14 +3,19 @@ title: Feedback Loops
 type: concept
 status: draft
 category: concepts
-summary: 反馈回路是系统里“结果反过来影响原因”的闭环。
+summary: Feedback loops are system structures where results flow back to influence future causes, creating growth, stability, or oscillation.
 tags: []
-sources: []
+sources:
+  - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
 created: 2026-04-26
-base_confidence: 0.37
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-04-26
+provenance:
+  extracted: 0.76
+  inferred: 0.24
+  ambiguous: 0.0
+updated: 2026-05-05T17:55:00+08:00
 aliases:
   - 反馈回路
   - Feedback Loop
@@ -86,6 +91,12 @@ KPI -> 行为选择 -> 文化固化 -> 强化 KPI 的现实合理性 -> 更强 K
 
 更好的记忆 -> 更好的决策 -> 更高质量结果 -> 更好的记忆写回
 
+### AI-assisted development
+
+[[wiki/concepts/Feedback Flywheel]] is a concrete software-engineering feedback loop: AI collaboration produces outputs, reviews, corrections, accepted work, and rework; those signals update priming documents, context anchors, standards, workflows, checks, and guardrails.
+
+The delay matters. If the team waits too long to update the artifacts, the same AI mistakes repeat. If the team updates after every isolated event, the system can accumulate noisy rules. ^[inferred]
+
 ## 一个判断句
 
 如果某个结果会通过某条路径回头影响自己，那你看到的就不是链，而是环。
@@ -96,4 +107,5 @@ KPI -> 行为选择 -> 文化固化 -> 强化 KPI 的现实合理性 -> 更强 K
 - [[wiki/topics/Problem Framing]]
 - [[wiki/topics/Learning Methodology]]
 - [[wiki/concepts/Leverage Points]]
+- [[wiki/concepts/Feedback Flywheel]]
 - [[pages/Thinking in Systems]]
