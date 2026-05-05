@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity sharpened AI memory, long-context evaluation, and agent harness engineering around persistence, context usability, verification, and feedback.
+summary: Recent wiki activity sharpened AI-assisted development workflow, AI memory, long-context evaluation, and agent harness engineering around context, standards, verification, and feedback.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-05T16:25:00+08:00
+updated: 2026-05-05T17:05:00+08:00
 ---
 
 ## Recent Activity
 
+- Ingested Rahul Garg's "Patterns for Reducing Friction in AI-Assisted Development": added [[wiki/concepts/AI Collaboration Scaffolding]] and connected priming, design-first collaboration, anchors, standards, and feedback to AI coding workflow.
 - Ingested "Survey on AI Memory": added [[wiki/topics/AI Memory]] and [[wiki/concepts/AI Memory 4W Taxonomy]] to separate persistent memory from active context.
 - Ingested "Lost in the Middle": added [[wiki/concepts/Lost in the Middle Effect]] and strengthened context-management, context-density, and agent design-space pages around positional robustness.
-- Ingested Addy Osmani's "Agent Harness Engineering": added [[wiki/concepts/Harness Ratchet]] and strengthened harness, context-rot, tool-trust, hook, and verification-loop pages.
 
 ## Active Threads
 
@@ -30,6 +30,7 @@ updated: 2026-05-05T16:25:00+08:00
 - Harness engineering is now represented as a feedback discipline: repeated agent mistakes should become durable rules, hooks, checks, done conditions, tool-surface changes, or workflow splits.
 - Long-context quality now has a positional robustness thread: the right information must be present and placed where the model can actually use it.
 - AI memory is now split from context: memory persists and gets retrieved into the active window; context is the bounded runtime workspace for the current inference step.
+- AI coding workflow now has an explicit collaboration-scaffolding layer: onboarding context, design alignment, team standards, anchored decisions, and feedback loops.
 
 ## Key Takeaways
 
@@ -44,5 +45,6 @@ updated: 2026-05-05T16:25:00+08:00
 - Context rot reframes long-context work as an active harness problem: compaction, offloading, progressive disclosure, and full reset from a handoff file are runtime design choices.
 - More retrieved context is not automatically better; reader performance can saturate before retriever recall, so reranking and truncation can be accuracy tools, not just latency optimizations.
 - Memory architecture should be compared by lifecycle, content type, storage representation, and modality before debating implementation details.
+- AI coding productivity should be measured by acceptance, iteration cycles, rework, and review burden, not by time to first output or generated lines.
 
 ## Flagged Contradictions

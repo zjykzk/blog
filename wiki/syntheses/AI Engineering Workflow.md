@@ -4,17 +4,18 @@ type: synthesis
 status: growing
 summary: AI Engineering Workflow connects agent mental models, workflow control, tool design, coding constraints, and requirement normalization.
 category: syntheses
-sources: []
+sources:
+  - https://martinfowler.com/articles/reduce-friction-ai/
 created: 2026-05-04
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 1.0
-  inferred: 0.0
+  extracted: 0.91
+  inferred: 0.09
   ambiguous: 0.0
-source_count: 6
-updated: 2026-05-04
+source_count: 7
+updated: 2026-05-05T17:05:00+08:00
 aliases:
   - AI 工作流
   - Agent workflow
@@ -129,6 +130,16 @@ LLM 本身有模型内建能力，例如 extended thinking；但工程系统里�
 5. 先归一化需求，再决定实现分层
 6. 最后进入实现与验证
 
+[[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]] adds a collaboration layer around this workflow:
+
+- prime the assistant with project-specific context before generation
+- discuss design before implementation
+- anchor decisions and current state outside the chat
+- encode team standards as reusable prompts, commands, or checks
+- feed repeated failures back into the scaffolding
+
+This turns AI engineering from "prompt for output" into a structured pair-programming loop.
+
 ## Why this synthesis matters
 
 如果没有这条综合链路，AI 工程容易只剩下局部技巧：
@@ -146,6 +157,7 @@ LLM 本身有模型内建能力，例如 extended thinking；但工程系统里�
 - [[wiki/concepts/Agent Tool]]
 - [[wiki/concepts/LLM]]
 - [[wiki/concepts/Context Information Density]]
+- [[wiki/concepts/AI Collaboration Scaffolding]]
 
 ## Upstream topics
 
@@ -155,6 +167,10 @@ LLM 本身有模型内建能力，例如 extended thinking；但工程系统里�
 - [[wiki/topics/Tool Routing]]
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/topics/AI Harness]]
+
+## Source notes
+
+- [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 
 ## Navigation
 

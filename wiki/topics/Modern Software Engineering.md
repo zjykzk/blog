@@ -4,13 +4,14 @@ type: topic
 status: seed
 category: topics
 summary: 这页讨论的不是某一条具体方法流派的历史，而是一个更高层的方法论总纲：如何把软件开发理解为一种经验主义、证据驱动的问题求解活动。
-sources: []
+sources:
+  - https://martinfowler.com/articles/reduce-friction-ai/
 created: 2026-04-21
 base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 2
-updated: 2026-04-21
+source_count: 3
+updated: 2026-05-05T17:05:00+08:00
 aliases:
   - 软件工程
   - modern software engineering
@@ -40,10 +41,25 @@ tags:
 - 通过反馈修正
 - 用经验与证据而不是纯直觉推动工程决策
 
+## AI-assisted collaboration
+
+[[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]] adds a modern AI-specific expression of the same empirical principle: do not judge AI coding by first output speed or generated lines.
+
+The article proposes measuring collaboration quality instead:
+
+- first-pass acceptance rate
+- iteration cycles per task
+- post-merge rework
+- review burden compared to manual writing
+
+This fits the modern software engineering view because AI-assisted development should still be judged by fit, maintainability, feedback, and downstream rework, not by local generation speed.
+
 ## Navigation
 
 - [[wiki/topics/面向对象分析与设计]]
 - [[wiki/maps/CS Map]]
 - [[wiki/maps/Reading Map]]
 - [[wiki/sources/Modern Software Engineering Notes]]
+- [[wiki/concepts/AI Collaboration Scaffolding]]
+- [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - `pages/软件工程.md`

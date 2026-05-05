@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 9,
-    "total_pages": 124
+    "total_sources_ingested": 10,
+    "total_pages": 126
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -197,6 +197,30 @@
         "wiki/topics/AI Harness.md",
         "wiki/syntheses/Agent System Design Space.md",
         "wiki/sources/Agent Systems Papers Source Guide.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://martinfowler.com/articles/reduce-friction-ai/": {
+      "ingested_at": "2026-05-05T17:05:00+08:00",
+      "size_bytes": 22000,
+      "modified_at": "2026-04-08T00:00:00+00:00",
+      "content_hash": "sha256:451ef1719fb1df5a0e7884df7c167c68033459796876ac1d52b8b44c5ca301c8",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/AI Collaboration Scaffolding.md",
+        "wiki/sources/Reducing Friction in AI-Assisted Development Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/syntheses/AI Engineering Workflow.md",
+        "wiki/topics/Spec-Driven Development.md",
+        "wiki/topics/Modern Software Engineering.md",
+        "wiki/topics/Testing Strategy.md",
+        "wiki/topics/Frontend Development Workflow.md",
+        "wiki/sources/Agent Engineering Source Guide.md",
         "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",

@@ -13,8 +13,8 @@ provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
-source_count: 14
-updated: 2026-05-05T16:25:00+08:00
+source_count: 15
+updated: 2026-05-05T17:05:00+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -32,6 +32,7 @@ tags:
 
 - [[wiki/concepts/Agent]]
 - [[wiki/concepts/Agent Tool]]
+- [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/concepts/LLM]]
 - [[wiki/concepts/Epiplexity]]
@@ -80,6 +81,7 @@ tags:
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
+- [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 
 ## Related journals
 

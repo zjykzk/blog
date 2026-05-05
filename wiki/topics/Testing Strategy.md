@@ -4,13 +4,14 @@ type: topic
 status: seed
 category: topics
 summary: 从投入层次看：Test Pyramid 从测试目的看：Test Quadrants
-sources: []
+sources:
+  - https://martinfowler.com/articles/reduce-friction-ai/
 created: 2026-04-21
 base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 2
-updated: 2026-04-21
+source_count: 3
+updated: 2026-05-05T17:05:00+08:00
 aliases:
   - 测试模型
 tags:
@@ -52,10 +53,25 @@ tags:
 - 用四象限规划“要覆盖什么”
 - 用金字塔决定“自动化资源怎么配”
 
+## AI-assisted development metrics
+
+[[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]] adds a useful testing-adjacent point: generation speed is a weak quality metric for AI coding.
+
+Better signals are closer to review and delivery outcomes:
+
+- first-pass acceptance rate
+- iteration cycles per task
+- post-merge rework required
+- review burden compared to manual writing
+
+These metrics treat AI output as something that must survive team standards and downstream change, not just compile once. ^[inferred]
+
 ## Peer topics
 
 - [[wiki/topics/Testing Purpose]]
 - [[wiki/topics/Spec-Driven Development]]
+- [[wiki/concepts/AI Collaboration Scaffolding]]
+- [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 
 ## Navigation
 
