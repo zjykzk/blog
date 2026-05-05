@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-05T17:25:00+08:00
+updated: 2026-05-05T17:35:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -40,7 +40,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 ## Topics
 - [[wiki/topics/AI Harness|AI Harness]] — AI Harness is the runtime order layer that connects model, context, tools, permissions, state, recovery, and cache-stable capability loading into a controllable agent system. (#ai #agents #harness #runtime)
 - [[wiki/topics/AI Memory|AI Memory]] — AI Memory is the persistent state layer that lets agents retain, retrieve, update, and consolidate experience beyond a single context window. (#ai #agents #memory #context)
-- [[wiki/topics/AI Skills Workflow|AI Skills Workflow]] — 当前 source notes 里已经出现了一个很清楚的 workflow 雏形： (#ai #skills #workflow)
+- [[wiki/topics/AI Skills Workflow|AI Skills Workflow]] — AI Skills Workflow treats skills as reusable workflows that gather, order, persist, and reload context for more stable agent behavior. (#ai #skills #workflow)
 - [[wiki/topics/BoltDB Internals|BoltDB Internals]] — BoltDB 是一个非常适合入门数据库实现的案例：代码量相对小，但已经覆盖了页式存储、B+ 树、事务、空闲页管理、写时复制等核心机制。 (#database #storage #golang)
 - [[wiki/topics/Categorical Thinking|Categorical Thinking]] — 分类思维，是先找一个划分维度，再按这个维度把混乱切成几类，从而让理解、判断和行动变得更清楚。
 - [[wiki/topics/Circuit Breaker|Circuit Breaker]] — Circuit Breaker 是分布式系统里的保护机制：当下游服务已经过载或不可用时，不再继续把请求打过去，而是主动快速失败，避免故障扩大。 (#distributed-systems #resilience #architecture)
@@ -66,7 +66,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/Resource Formula|Resource Formula]] — 当前笔记里的核心想法很短，但值得保留成一个主题种子： (#planning #resources #work)
 - [[wiki/topics/Software Development Thought Lineage|Software Development Thought Lineage]] — 这页关心的核心问题，不是某一条具体方法怎么落地，也不是现代软件工程的总定义，而是：不同软件开发思想是如何在历史上一个接一个出现、彼此修正，并逐步形成今天这组主流方法栈的。 (#software-engineering #methodology #history #development)
 - [[wiki/topics/Software Methodology|Software Methodology]] — 这里的'软件方法'，特指潘加宇《软件方法》所代表的那条建模与分析主线：不是先列功能，而是先锁定组织改进，再逐步收缩到系统边界，最后把责任落实到对象与代码。
-- [[wiki/topics/Spec-Driven Development|Spec-Driven Development]] — Spec Driven Development（SDD）把'代码是真相、文档是附属品'这个长期默认假设倒置： 规约是合同，代码是合同的执行副本 。合同变了，执行副本重新生成；执行副本擅自改了，CI 让构建失败。AI coding assistant 这波新工具把这个老想法重新点燃——因为 LLM 是'擅长模式补全、不会读心'的队友，模糊的上下文被放大成灾难。 (#software-engineering #specs #ai-coding #process)
+- [[wiki/topics/Spec-Driven Development|Spec-Driven Development]] — Spec-Driven Development treats specs as contracts that guide implementation, validation, and AI coding work before code becomes the default truth. (#software-engineering #specs #ai-coding #process)
 - [[wiki/topics/Technical Management|Technical Management]] — 这页聚合的是技术管理里比较稳定、可反复使用的判断，而不是具体某次团队事件。 (#management #leadership #engineering)
 - [[wiki/topics/Testing Purpose|Testing Purpose]] — 测试的直接目的，不是追求某个表面指标，而是增加对代码正确性的信心。 (#testing #quality #software-engineering)
 - [[wiki/topics/Testing Strategy|Testing Strategy]] — 从投入层次看：Test Pyramid 从测试目的看：Test Quadrants (#testing #quality #software-engineering)
@@ -85,6 +85,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/AI Collaboration Scaffolding|AI Collaboration Scaffolding]] — AI collaboration scaffolding gives coding assistants onboarding context, design discussion, standards, anchors, and feedback loops so their output fits the team. (#ai #software-engineering #workflow #ai-coding)
 - [[wiki/concepts/Knowledge Priming|Knowledge Priming]] — Knowledge priming gives AI coding assistants curated, versioned project context before generation so they fit local architecture and conventions. (#ai #ai-coding #context #workflow)
 - [[wiki/concepts/Design-First Collaboration|Design-First Collaboration]] — Design-first collaboration makes AI design decisions explicit through staged alignment before any implementation code is generated. (#ai #ai-coding #software-engineering #workflow)
+- [[wiki/concepts/Context Anchoring|Context Anchoring]] — Context anchoring preserves feature-level AI collaboration decisions in a living document outside the chat session. (#ai #ai-coding #context #workflow)
 - [[wiki/concepts/AI Memory 4W Taxonomy|AI Memory 4W Taxonomy]] — The AI Memory 4W Taxonomy classifies memory by when it persists, what it stores, how it is represented, and which modalities it handles. (#ai #memory #taxonomy #agents)
 - [[wiki/concepts/AI Learning Tutor Loop|AI Learning Tutor Loop]] — AI Learning Tutor Loop uses a source-grounded AI system to map a field, expose disagreements, test understanding, and repair errors. ( #ai #learning #tutoring #questions)
 - [[wiki/concepts/Business Modeling in Software|Business Modeling in Software]] — 软件中的业务建模，不是先讨论'软件怎么做'，而是先回答：目标组织为了产出业务结果，现在是怎么运作的，应该怎么改。
@@ -160,7 +161,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #ai #cognition #causal-reasoning #source)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Added Design-First Collaboration as a focused concept connecting staged design checkpoints, contracts, tests, and AI skills workflow.
+- [[wiki/hot|Hot Cache]] — Added Context Anchoring as a focused concept connecting feature-level decision memory, context management, and AI skills workflow.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

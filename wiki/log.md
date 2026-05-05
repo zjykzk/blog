@@ -52,3 +52,4 @@ tags:
 - [2026-05-05T17:05:00+08:00] INGEST source="https://martinfowler.com/articles/reduce-friction-ai/" pages_updated=10 pages_created=2 mode=append
 - [2026-05-05T17:15:00+08:00] INGEST source="https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html#ThisPatternInLattice" pages_updated=8 pages_created=1 mode=append
 - [2026-05-05T17:25:00+08:00] INGEST source="https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html" pages_updated=11 pages_created=1 mode=append
+- [2026-05-05T17:35:00+08:00] INGEST source="https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html" pages_updated=10 pages_created=1 mode=append

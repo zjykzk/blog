@@ -3,16 +3,21 @@ title: AI Skills Workflow
 type: topic
 status: seed
 category: topics
-summary: 当前 source notes 里已经出现了一个很清楚的 workflow 雏形：
+summary: AI Skills Workflow treats skills as reusable workflows that gather, order, persist, and reload context for more stable agent behavior.
 sources:
   - https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html#ThisPatternInLattice
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
+  - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
 created: 2026-04-22
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 5
-updated: 2026-05-05T17:25:00+08:00
+provenance:
+  extracted: 0.78
+  inferred: 0.22
+  ambiguous: 0.0
+source_count: 6
+updated: 2026-05-05T17:35:00+08:00
 aliases:
   - skills workflow
   - AI skills
@@ -43,6 +48,10 @@ This reinforces the local view that skill design is partly context architecture:
 [[wiki/concepts/Design-First Collaboration]] adds a second Lattice example: a `design-first` atom can encode a staged collaboration method, while a `design-blueprint` molecule can load context, walk the design levels, and persist the approved blueprint.
 
 That makes a skill more than an invocation shortcut. It can preserve sequencing discipline, especially when deadline pressure would otherwise collapse design and implementation into one prompt. ^[inferred]
+
+[[wiki/concepts/Context Anchoring]] adds a third Lattice example: a `context-anchoring` atom can create or enrich a living feature document across sessions, so the workflow's decisions and current state survive the chat boundary.
+
+This makes durable intermediate artifacts part of skill design. A skill can decide what should be kept outside the active context and reloaded later, not only what prompt should run now. ^[inferred]
 
 ## Practical pattern
 
@@ -83,6 +92,7 @@ That makes a skill more than an invocation shortcut. It can preserve sequencing 
 - [[wiki/topics/Context Management]]
 - [[wiki/concepts/Knowledge Priming]]
 - [[wiki/concepts/Design-First Collaboration]]
+- [[wiki/concepts/Context Anchoring]]
 
 ## Peer topics
 

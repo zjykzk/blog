@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity sharpened AI-assisted development workflow around design-first collaboration, knowledge priming, AI memory, and agent harness engineering.
+summary: Recent wiki activity sharpened AI-assisted development workflow around context anchoring, design-first collaboration, knowledge priming, and agent context management.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-05T17:25:00+08:00
+updated: 2026-05-05T17:35:00+08:00
 ---
 
 ## Recent Activity
 
+- Ingested Rahul Garg's Context Anchoring page: added [[wiki/concepts/Context Anchoring]] and connected living feature documents to context management, SDD, and AI skills workflow.
 - Ingested Rahul Garg's Design-First Collaboration page: added [[wiki/concepts/Design-First Collaboration]] and connected staged design checkpoints to contracts, tests, frontend workflow, and AI skills.
 - Ingested Rahul Garg's focused Knowledge Priming page: added [[wiki/concepts/Knowledge Priming]] and connected the Lattice skill/refiner example to AI skills workflow and collaboration scaffolding.
-- Ingested Rahul Garg's "Patterns for Reducing Friction in AI-Assisted Development": added [[wiki/concepts/AI Collaboration Scaffolding]] and connected priming, design-first collaboration, anchors, standards, and feedback to AI coding workflow.
 
 ## Active Threads
 
@@ -33,6 +33,7 @@ updated: 2026-05-05T17:25:00+08:00
 - AI coding workflow now has an explicit collaboration-scaffolding layer: onboarding context, design alignment, team standards, anchored decisions, and feedback loops.
 - Knowledge priming is now represented as context infrastructure: compact project identity should be versioned, reviewed, and reused by skills instead of pasted ad hoc.
 - Design-first collaboration is now represented as a staged AI pairing workflow: capabilities, components, interactions, contracts, then implementation.
+- Context anchoring is now represented as feature-level external memory: decisions, reasons, rejected alternatives, open questions, and state should survive outside the chat transcript.
 
 ## Key Takeaways
 
@@ -50,5 +51,6 @@ updated: 2026-05-05T17:25:00+08:00
 - AI coding productivity should be measured by acceptance, iteration cycles, rework, and review burden, not by time to first output or generated lines.
 - Reusable AI skills can be context architecture, not just command wrappers: they can collect, compress, persist, and reintroduce project context before action.
 - Contracts are the hinge between AI design conversation and testing: once interfaces are agreed, tests can be generated before implementation.
+- Durable feature documents are a practical reset mechanism: they let teams close long AI chats and restart from a compact, decision-rich artifact.
 
 ## Flagged Contradictions

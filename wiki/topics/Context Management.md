@@ -11,6 +11,7 @@ sources:
   - https://x.com/_avichawla/article/2044670188998803855
   - https://x.com/trq212/status/2024574133011673516
   - https://x.com/akshay_pachaar/status/2041146899319971922
+  - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
 created: 2026-05-04
 base_confidence: 0.70
 lifecycle: draft
@@ -19,8 +20,8 @@ provenance:
   extracted: 0.92
   inferred: 0.08
   ambiguous: 0.0
-source_count: 9
-updated: 2026-05-05T16:25:00+08:00
+source_count: 10
+updated: 2026-05-05T17:35:00+08:00
 aliases:
   - 上下文管理
 tags:
@@ -102,6 +103,14 @@ The article maps this to several harness mechanisms:
 - full context resets that rebuild a fresh session from a compact handoff file when compaction alone is not enough
 
 This strengthens the current density view: context management is not only preserving history, but deciding when old history should leave the active reasoning surface and become retrievable state.
+
+## Externalized decision context
+
+[[wiki/concepts/Context Anchoring]] adds a collaboration-level answer to context rot: do not keep feature decisions only in the chat transcript.
+
+Rahul Garg's article argues that developers keep long AI conversations alive because closing the session would lose the only record of decisions, reasons, rejected alternatives, open questions, and current implementation state. That behavior preserves nominal history while making the active context longer and less reliable.
+
+The stronger pattern is to move decision context into a living feature document. This turns old chat history into compact external state that can be loaded into a fresh session, improving [[wiki/concepts/Context Information Density]] and making resets less costly. ^[inferred]
 
 ## Cache-stable context
 

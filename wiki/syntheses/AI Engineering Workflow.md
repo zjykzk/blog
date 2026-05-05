@@ -8,6 +8,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/
   - https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html#ThisPatternInLattice
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
+  - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
 created: 2026-05-04
 base_confidence: 0.70
 lifecycle: draft
@@ -16,8 +17,8 @@ provenance:
   extracted: 0.91
   inferred: 0.09
   ambiguous: 0.0
-source_count: 8
-updated: 2026-05-05T17:25:00+08:00
+source_count: 9
+updated: 2026-05-05T17:35:00+08:00
 aliases:
   - AI 工作流
   - Agent workflow
@@ -136,7 +137,7 @@ LLM 本身有模型内建能力，例如 extended thinking；但工程系统里�
 
 - prime the assistant with project-specific context before generation, ideally through versioned context infrastructure such as [[wiki/concepts/Knowledge Priming]]
 - discuss design before implementation through staged checkpoints such as [[wiki/concepts/Design-First Collaboration]]
-- anchor decisions and current state outside the chat
+- anchor feature-level decisions and current state outside the chat through [[wiki/concepts/Context Anchoring]]
 - encode team standards as reusable prompts, commands, or checks
 - feed repeated failures back into the scaffolding
 
@@ -162,6 +163,7 @@ This turns AI engineering from "prompt for output" into a structured pair-progra
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Knowledge Priming]]
 - [[wiki/concepts/Design-First Collaboration]]
+- [[wiki/concepts/Context Anchoring]]
 
 ## Upstream topics
 
