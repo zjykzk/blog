@@ -5,9 +5,10 @@ status: seed
 category: concepts
 summary: A verification loop gives an agent external feedback, such as tests, visual checks, or evaluators, so errors are caught before they compound.
 sources:
+  - https://addyosmani.com/blog/agent-harness-engineering/
   - https://x.com/akshay_pachaar/status/2041146899319971922
 created: 2026-05-05T14:03:13+08:00
-updated: 2026-05-05T14:03:13+08:00
+updated: 2026-05-05T15:10:00+08:00
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -62,10 +63,22 @@ Verification should be treated as part of [[wiki/topics/AI Harness]], not as a p
 
 For [[wiki/syntheses/Agent System Design Space]], the key design question is not "does this agent have verification?" but "what kind of truth signal does the task allow, and where does that signal enter the loop?" ^[inferred]
 
+## Hooks and evaluator splits
+
+[[wiki/sources/Agent Harness Engineering Source Guide]] makes the loop more concrete: hooks can run checks at lifecycle points and return only failures to the agent, keeping successful verification silent and failed verification verbose.
+
+For coding agents, that usually means test suites, typecheckers, linters, formatters, visual checks, and pre-commit checks feeding errors back into the loop.
+
+The same source also distinguishes self-verification from generator/evaluator separation. Self-checks are cheap and useful, but separate evaluator roles can catch quality failures that a generator is likely to grade too optimistically.
+
+This connects verification to [[wiki/concepts/Harness Ratchet]]: every repeated verification failure is evidence for a new rule, hook, done condition, or workflow split.
+
 ## Related
 
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/Context Management]]
 - [[wiki/concepts/Agent Tool]]
+- [[wiki/concepts/Harness Ratchet]]
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
+- [[wiki/sources/Agent Harness Engineering Source Guide]]

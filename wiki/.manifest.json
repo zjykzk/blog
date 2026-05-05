@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 6,
-    "total_pages": 117
+    "total_sources_ingested": 7,
+    "total_pages": 119
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -129,6 +129,30 @@
         "wiki/maps/Management Map.md",
         "wiki/concepts/Leverage Points.md",
         "wiki/topics/Mental Models.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://addyosmani.com/blog/agent-harness-engineering/": {
+      "ingested_at": "2026-05-05T15:10:00+08:00",
+      "size_bytes": 18000,
+      "modified_at": "2026-04-19T00:00:00+00:00",
+      "content_hash": "sha256:16336db7a9c5ca8fb83c3cdc39b61c96ae38c30934423885aaa1f7a81ae28440",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Harness Ratchet.md",
+        "wiki/sources/Agent Harness Engineering Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/AI Harness.md",
+        "wiki/topics/Context Management.md",
+        "wiki/concepts/Agent Tool.md",
+        "wiki/concepts/Verification Loop.md",
+        "wiki/syntheses/Agent System Design Space.md",
+        "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"

@@ -9,8 +9,8 @@ created: 2026-04-23
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 5
-updated: 2026-05-05T14:03:13+08:00
+source_count: 6
+updated: 2026-05-05T15:10:00+08:00
 aliases:
   - agent engineering source cluster
   - harness workflow source guide
@@ -59,10 +59,13 @@ tags:
 - [[wiki/sources/Agent Systems Papers Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
+- [[wiki/sources/Agent Harness Engineering Source Guide]]
 
 The prompt-caching guide now covers both a secondary case-study explainer and Thariq's original Claude Code article, which contributes the production-harness angle: cache-hit monitoring, stable mode tools, deferred tool loading, and cache-safe compaction.
 
 The agent-harness anatomy guide contributes the broad component inventory: orchestration loop, tool layer, memory, context management, prompt construction, output parsing, state management, error handling, guardrails, verification, and subagent orchestration.
+
+Addy Osmani's harness-engineering guide contributes the operational discipline: treat agent mistakes as harness improvement signals, then encode the lesson as rules, hooks, checks, done conditions, tool-surface changes, or workflow splits.
 
 ## Main promotion destinations
 
@@ -74,6 +77,7 @@ The agent-harness anatomy guide contributes the broad component inventory: orche
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/concepts/Prompt Caching]]
 - [[wiki/concepts/Verification Loop]]
+- [[wiki/concepts/Harness Ratchet]]
 
 ## What belongs here
 

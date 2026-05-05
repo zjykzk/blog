@@ -5,6 +5,7 @@ status: growing
 summary: AI Harness is the runtime order layer that connects model, context, tools, permissions, state, recovery, and cache stability into a controllable agent system.
 category: topics
 sources:
+  - https://addyosmani.com/blog/agent-harness-engineering/
   - https://x.com/_avichawla/article/2044670188998803855
   - https://x.com/trq212/status/2024574133011673516
   - https://x.com/akshay_pachaar/status/2041146899319971922
@@ -16,8 +17,8 @@ provenance:
   extracted: 0.93
   inferred: 0.07
   ambiguous: 0.0
-source_count: 8
-updated: 2026-05-05T14:03:13+08:00
+source_count: 9
+updated: 2026-05-05T15:10:00+08:00
 aliases:
   - harness
 tags:
@@ -60,6 +61,10 @@ AI Harness 不是模型本身，也不是某一个工具本身。它更像 agent
 - 状态如何被记录、持久化和重建
 
 把这些放在一起看，harness 的职责就不只是“把模型接到工具上”，而是在塑造 agent 的可运行秩序。
+
+Addy Osmani's harness-engineering article adds a useful implementation-level inventory: prompts, repo rule files, skills, tools, MCP servers, filesystem, sandbox, browser, subagent orchestration, lifecycle hooks, observability, cost metering, and recovery paths are all harness surface.
+
+This matters because the same model can be moved between harnesses and expose very different behavior. The behavior users experience is often dominated by context policy, tool design, execution environment, hooks, and feedback loops, not only by model weights.
 
 这里还需要补一个经常被低估的点：harness 不只是在提供 capability surface，也是在决定 action 是否可以真正落地。
 
@@ -177,6 +182,21 @@ The same base model can behave differently when the surrounding harness changes:
 
 This makes harness design an architectural bet, not just application plumbing. ^[inferred]
 
+## Harness ratchet
+
+[[wiki/sources/Agent Harness Engineering Source Guide]] contributes a stronger operational habit: agent mistakes should become durable harness improvements.
+
+When a failure repeats or reveals a missing boundary, the response should not just be "retry with a better prompt." The harness can absorb the lesson as:
+
+- a shorter rule in `AGENTS.md`
+- a hook that blocks or checks the risky action
+- a test, lint, typecheck, or visual verification signal
+- a planner / executor / evaluator split
+- a clearer done condition before implementation starts
+- a smaller or more focused tool surface
+
+This is the role of [[wiki/concepts/Harness Ratchet]]: it turns failure history into system structure. The caution is that the ratchet should add rules only when failures earn them, and remove rules when model or harness changes make them obsolete.
+
 ## Governance implication
 
 从 `Before the Tool Call` 这类材料往上抽，一个更稳定的判断是：harness 的安全边界不应只寄托在 prompt、模型自觉或人工事后复盘上。
@@ -194,6 +214,7 @@ This makes harness design an architectural bet, not just application plumbing. ^
 
 - [[wiki/concepts/Agent]]
 - [[wiki/concepts/Agent Tool]]
+- [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/topics/Context Management]]
 - [[wiki/topics/Tool Routing]]
@@ -217,6 +238,7 @@ This makes harness design an architectural bet, not just application plumbing. ^
 - [[wiki/sources/GenericAgent Paper Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
+- [[wiki/sources/Agent Harness Engineering Source Guide]]
 
 ## Navigation
 

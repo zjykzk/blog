@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-05T14:40:00+08:00
+updated: 2026-05-05T15:10:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -80,7 +80,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 ## Concepts
 - [[wiki/concepts/Accountability|Accountability]] — Accountability means taking public, name-attached risk so society can route responsibility, equity, and leverage toward you. ( #wealth #responsibility #judgment #career)
 - [[wiki/concepts/Agent|Agent]] — Agent 的核心任务目前可以归纳为三件事： (#ai #agent #concept)
-- [[wiki/concepts/Agent Tool|Agent Tool]] — 当前在旧笔记中， Agent tool 这个文件名和其中的内容发生了错位：文件里实际保留的是 think tool 摘录，而 router / adapter 这段内容出现在旧的 llm.md 中。 (#ai #agents #tools)
+- [[wiki/concepts/Agent Tool|Agent Tool]] — Agent tools are schema-defined action surfaces that let an agent inspect, change, retrieve, or validate external state under harness control. (#ai #agents #tools)
 - [[wiki/concepts/AI Learning Tutor Loop|AI Learning Tutor Loop]] — AI Learning Tutor Loop uses a source-grounded AI system to map a field, expose disagreements, test understanding, and repair errors. ( #ai #learning #tutoring #questions)
 - [[wiki/concepts/Business Modeling in Software|Business Modeling in Software]] — 软件中的业务建模，不是先讨论'软件怎么做'，而是先回答：目标组织为了产出业务结果，现在是怎么运作的，应该怎么改。
 - [[wiki/concepts/Cognition Three Channels|Cognition Three Channels]] — 人认识世界靠三根独立的生成器撑着。关掉任何一根，认识塌一块。
@@ -96,6 +96,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Epiplexity|Epiplexity]] — Epiplexity 不是在问一份数据“总共有多少信息”，而是在问：对一个算力有限的观察者来说，这份数据里到底有多少结构是可提取、可学习、可压缩的。 (#ai #ml #concept #information-theory)
 - [[wiki/concepts/Expression Three Channels|Expression Three Channels]] — 人向外表达，靠三根独立的生成器撑着。关掉任何一根，表达塌一块。
 - [[wiki/concepts/Feedback Loops|Feedback Loops]] — 反馈回路是系统里“结果反过来影响原因”的闭环。
+- [[wiki/concepts/Harness Ratchet|Harness Ratchet]] — A harness ratchet turns repeated agent failures into durable rules, hooks, checks, or workflow changes instead of treating them as one-off bad runs. (#ai #agents #harness #feedback)
 - [[wiki/concepts/Knowledge as Network|Knowledge as Network]] — 知识没有全局层级，只有局部的序。看起来像金字塔，其实是张网。
 - [[wiki/concepts/KV Cache|KV Cache]] — KV cache stores transformer key/value tensors so repeated prefixes or generated histories do not need full attention recomputation. ( #ai #llm #inference #caching)
 - [[wiki/concepts/Leverage Points|Leverage Points]] — 杠杆点是系统里“改一点，结果却变很多”的位置。
@@ -124,6 +125,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 ## Sources
 - [[wiki/sources/Agent Engineering Source Guide|Agent Engineering Source Guide]] — 这页用于收拢“agent engineering / harness / workflow”这一类更偏工程综述与系统实践的来源材料。 (#source #ai #agents #engineering #harness)
 - [[wiki/sources/Agent Harness Anatomy Source Guide|Agent Harness Anatomy Source Guide]] — Source guide for Akshay Pachaar's agent harness thread, focused on the 12-component harness model and architecture decisions. (#source #ai #agents #harness #architecture)
+- [[wiki/sources/Agent Harness Engineering Source Guide|Agent Harness Engineering Source Guide]] — Source guide for Addy Osmani's Agent Harness Engineering article, focused on harnesses as configurable runtime systems that improve through failures. (#source #ai #agents #harness #engineering)
 - [[wiki/sources/Agent Harness Qiaomu Article Source Guide|Agent Harness Qiaomu Article Source Guide]] — 这篇文章目前更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#article #blog #ai #agents #harness #source)
 - [[wiki/sources/Agent Systems Papers Source Guide|Agent Systems Papers Source Guide]] — Source guide collecting agent-system papers and deciding which claims should stay source-level versus move into topics and syntheses. (#papers #agents #ai #source)
 - [[wiki/sources/AI Coding Control Limits Source Guide|AI Coding Control Limits Source Guide]] — 这篇文章更适合作为一个 source facing note 进入当前仓库，而不是直接承担稳定 topic 页角色。 (#ai-coding #software-engineering #source #complexity #productivity #security)
@@ -149,7 +151,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #ai #cognition #causal-reasoning #source)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Ingested Naval Ravikant's How to Get Rich PDF and added a wealth-creation cluster around specific knowledge, accountability, leverage, and judgment.
+- [[wiki/hot|Hot Cache]] — Ingested Addy Osmani's Agent Harness Engineering article and added a harness-ratchet concept around turning agent failures into durable rules, hooks, checks, and workflow changes.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

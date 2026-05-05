@@ -5,6 +5,7 @@ status: seed
 summary: Context management designs what enters, stays in, leaves, and stays stable in an AI agent's active context under finite attention and cache constraints.
 category: topics
 sources:
+  - https://addyosmani.com/blog/agent-harness-engineering/
   - https://x.com/_avichawla/article/2044670188998803855
   - https://x.com/trq212/status/2024574133011673516
   - https://x.com/akshay_pachaar/status/2041146899319971922
@@ -16,8 +17,8 @@ provenance:
   extracted: 0.92
   inferred: 0.08
   ambiguous: 0.0
-source_count: 6
-updated: 2026-05-05T14:03:13+08:00
+source_count: 7
+updated: 2026-05-05T15:10:00+08:00
 aliases:
   - 上下文管理
 tags:
@@ -69,6 +70,19 @@ Akshay Pachaar's harness overview sharpens this point: context management is one
 这解释了为什么“多塞一点上下文”不总是更安全。上下文越长，position bias、无关信息稀释和 effective context length 收缩会一起把关键信息挤出可用注意力范围。
 
 因此，更稳定的目标不是最大化可见历史，而是最大化 [[wiki/concepts/Context Information Density]]。
+
+## Context rot and resets
+
+[[wiki/sources/Agent Harness Engineering Source Guide]] adds the practical failure name "context rot": long contexts can make an agent worse at reasoning and task completion as the window fills with stale, redundant, or low-signal material.
+
+The article maps this to several harness mechanisms:
+
+- compaction before the window overflows
+- offloading large tool outputs to the filesystem while keeping only useful head/tail context inline
+- progressive disclosure through skills instead of loading every instruction and tool at startup
+- full context resets that rebuild a fresh session from a compact handoff file when compaction alone is not enough
+
+This strengthens the current density view: context management is not only preserving history, but deciding when old history should leave the active reasoning surface and become retrievable state.
 
 ## Cache-stable context
 
@@ -134,3 +148,4 @@ The Claude Code prompt-caching source sharpens this into an ordering rule: stabl
 - [[wiki/sources/GenericAgent Paper Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
+- [[wiki/sources/Agent Harness Engineering Source Guide]]

@@ -5,6 +5,7 @@ status: seed
 category: concepts
 summary: Agent tools are schema-defined action surfaces that let an agent inspect, change, retrieve, or validate external state under harness control.
 sources:
+  - https://addyosmani.com/blog/agent-harness-engineering/
   - https://x.com/akshay_pachaar/status/2041146899319971922
 created: 2026-04-20
 base_confidence: 0.44
@@ -14,8 +15,8 @@ provenance:
   extracted: 0.76
   inferred: 0.24
   ambiguous: 0.0
-source_count: 3
-updated: 2026-05-05T14:03:13+08:00
+source_count: 4
+updated: 2026-05-05T15:10:00+08:00
 aliases:
   - agent tools
   - router and adapter
@@ -59,6 +60,13 @@ The source's main design implication is that more tools are not automatically be
 
 A better default is to expose the smallest useful tool set for the current task, then retrieve or reveal additional tools only when the task demands them. This connects tool design directly to [[wiki/topics/Context Management]] and [[wiki/concepts/Context Information Density]].
 
+Addy Osmani's harness-engineering article sharpens this into two operational rules:
+
+- tool names, descriptions, and schemas are part of the prompt surface, so every unnecessary or overlapping tool competes for model attention
+- MCP and external tool descriptions are trusted text that the model reads, so tool installation is also a prompt-trust decision
+
+This means tool scoping is both a context-quality problem and a security boundary problem. ^[inferred]
+
 ## Note on source mismatch
 
 当前 source note 存在文件名与内容的历史错位：
@@ -74,6 +82,7 @@ A better default is to expose the smallest useful tool set for the current task,
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/Context Management]]
 - [[wiki/concepts/Verification Loop]]
+- [[wiki/concepts/Harness Ratchet]]
 - [[wiki/maps/AI Map]]
 
 ## Source notes
@@ -81,3 +90,4 @@ A better default is to expose the smallest useful tool set for the current task,
 - `pages/Agent tool.md`
 - `pages/Agent.md`
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
+- [[wiki/sources/Agent Harness Engineering Source Guide]]

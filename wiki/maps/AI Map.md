@@ -13,8 +13,8 @@ provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
-source_count: 11
-updated: 2026-05-05T14:03:13+08:00
+source_count: 12
+updated: 2026-05-05T15:10:00+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -38,6 +38,7 @@ tags:
 - [[wiki/concepts/Prompt Caching]]
 - [[wiki/concepts/KV Cache]]
 - [[wiki/concepts/Verification Loop]]
+- [[wiki/concepts/Harness Ratchet]]
 
 ## Topics
 
@@ -73,6 +74,7 @@ tags:
 - [[wiki/sources/GenericAgent Paper Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
+- [[wiki/sources/Agent Harness Engineering Source Guide]]
 
 ## Related journals
 
