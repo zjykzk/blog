@@ -2,6 +2,13 @@
 title: Learnable Structure in Data
 type: topic
 status: seed
+category: topics
+summary: 评估数据价值时，一个更稳的起点，不是先问“这里有多少信息”，而是先问：对当前模型来说，这里到底有多少结构是可学习的。
+sources: []
+created: 2026-04-25
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-25
 aliases:

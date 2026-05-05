@@ -2,6 +2,14 @@
 title: Thinking in Systems
 type: topic
 status: draft
+category: topics
+summary: 一本关于系统视角的入门书，但真正重要的不是术语，而是一个判断翻转： 问题反复出现，优先怀疑系统结构，而不是个体意志。
+tags: []
+sources: []
+created: 2026-04-26
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-26
 aliases:
   - Thinking in Systems: A Primer

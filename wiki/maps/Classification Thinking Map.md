@@ -2,6 +2,14 @@
 title: Classification Thinking Map
 type: map
 status: draft
+category: maps
+summary: 这一组页面围绕一个核心问题展开： 人如何通过分类把混乱切成结构，以及这种切法的价值、方法与边界是什么。
+tags: []
+sources: []
+created: 2026-04-27
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-27
 aliases:
   - 分类思维地图

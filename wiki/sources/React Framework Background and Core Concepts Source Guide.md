@@ -2,6 +2,13 @@
 title: React Framework Background and Core Concepts Source Guide
 type: source
 status: draft
+category: sources
+summary: 这篇材料更适合作为 React 入门理解的 source facing note，而不是直接承担前端体系中的稳定概念母页。
+sources: []
+created: 2026-04-28
+base_confidence: 0.40
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-28
 aliases:
   - react source guide
@@ -111,3 +118,5 @@ tags:
 - [[wiki/concepts/State Management]]
 - [[wiki/topics/Frontend Development]]
 - [[wiki/maps/CS Map]]
+- [[wiki/sources/Frontend Development Workflow Roundtable Source Guide]]
+- [[wiki/sources/Modern Software Engineering Notes]]

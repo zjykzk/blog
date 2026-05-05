@@ -2,6 +2,13 @@
 title: Published Posts Source Guide
 type: source
 status: seed
+category: sources
+summary: content/posts/ 是对外发布层，不直接等同于 wiki 本体。
+sources: []
+created: 2026-04-20
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-20
 aliases:

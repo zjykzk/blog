@@ -2,6 +2,14 @@
 title: Conceptual Integrity
 type: concept
 status: seed
+category: concepts
+summary: 软件设计中的概念完整性，不是风格统一，而是一个系统里的所有部分都像从同一个头脑里长出来：用户、程序员、机器面对它时，都能感觉到这里面只有一套世界观。
+tags: []
+sources: []
+created: 2026-05-03
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-05-03
 aliases:
   - 概念完整性

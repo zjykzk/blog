@@ -2,6 +2,14 @@
 title: Software Design Three Generators
 type: concept
 status: draft
+category: concepts
+summary: 软件设计这门学问，名词满天飞：SOLID、设计模式二十三种、DDD、六边形、洋葱、整洁架构、CQRS、事件溯源、依赖注入、分层、微服务、界限上下文、聚合根……但任何一个设计决定，最后都能归到三根独立的生成器里。
+tags: []
+sources: []
+created: 2026-04-27
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-27
 aliases:
   - 划线接线流转
@@ -140,6 +148,7 @@ aliases:
 - [[wiki/topics/面向对象分析与设计]]
 - [[wiki/topics/Modern Software Engineering]]
 - [[wiki/topics/Requirement to Architecture Mapping]]
+- [[wiki/syntheses/Business Analysis to Software Design]]
 
 ## 源
 

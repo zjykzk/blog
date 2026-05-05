@@ -1,3 +1,16 @@
+---
+title: NAMING
+category: meta
+summary: 这份文档规定 wiki/ 下笔记的命名和放置规则。
+tags: []
+sources: []
+created: 2026-05-01
+updated: 2026-05-01
+base_confidence: 0.30
+lifecycle: draft
+lifecycle_changed: 2026-05-05
+---
+
 # Wiki Naming and Placement Rules
 
 这份文档规定 `wiki/` 下笔记的命名和放置规则。
@@ -45,9 +58,9 @@ aliases:
 
 ## 跨页链接
 
-- 页内用 Obsidian 双链 `[[wiki/concepts/XXX]]`（带路径，避免同名冲突）。
+- 页内用 Obsidian 双链，形如 `wiki/concepts/Page Name`（实际书写时加双中括号，带路径，避免同名冲突）。
 - 每页末尾建议列出 `## Related`，枚举相关 wiki 页。
-- 指向 `pages/` 下的 source note 用 `[[XXX]]`（Obsidian 会按 alias 解析）。
+- 指向 `pages/` 下的 source note 用 `pages/Page Name`（实际书写时加双中括号）。
 
 ## 从 source 到 wiki 的迁移流程
 

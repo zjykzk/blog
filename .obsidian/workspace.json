@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/topics/UML Diagrams in Software Development.md",
+                "file": "wiki/concepts/Concept.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UML Diagrams in Software Development"
+              "title": "Concept"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "理解债",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,12 +74,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 455.5
+    "width": 455.5,
+    "collapsed": true
   },
   "right": {
     "id": "7eba894845c12087",
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/topics/UML Diagrams in Software Development.md",
+                "file": "wiki/concepts/Concept.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for UML Diagrams in Software Development"
+              "title": "Backlinks for Concept"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/topics/UML Diagrams in Software Development.md",
+                "file": "wiki/concepts/Concept.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from UML Diagrams in Software Development"
+              "title": "Outgoing links from Concept"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/topics/UML Diagrams in Software Development.md",
+                "file": "wiki/concepts/Concept.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of UML Diagrams in Software Development"
+              "title": "Outline of Concept"
             }
           },
           {
@@ -211,45 +211,44 @@
   },
   "active": "643a7efd50df968a",
   "lastOpenFiles": [
-    "wiki/topics/Software Methodology.md",
-    "wiki/topics/UML Diagrams in Software Development.md",
-    "wiki/topics/Software Development Thought Lineage.md",
-    "wiki/topics/European Antisemitism.md",
-    "pages/European Antisemitism.md",
-    "wiki/sources/AI Coding Control Limits Source Guide.md",
-    "wiki/sources/Software Methodology by Pan Jianyu.md",
-    "wiki/concepts/Domain-Driven Design.md",
-    "wiki/concepts/Business Modeling in Software.md",
-    "wiki/concepts/Software Analysis Three Generators.md",
-    "wiki/concepts/Software Design Three Generators.md",
-    "wiki/concepts/Cognitive Engineering.md",
-    "wiki/topics/面向对象分析与设计.md",
-    "wiki/sources/React Framework Background and Core Concepts Source Guide.md",
-    "wiki/concepts/React.md",
-    "wiki/sources/Published Posts.md",
-    "content/posts/cs/web/react-state-effect.md",
-    "CLAUDE.md",
-    "content/posts/cs/web/react.md",
+    "Excalidraw/agent.excalidraw",
+    "wiki/syntheses/React UI Organization Model.md",
+    "wiki/syntheses/Business Analysis to Software Design.md",
+    "wiki/topics/Frontend Development.md",
+    "wiki/concepts/State Management.md",
+    "wiki/concepts/Component-Based Architecture.md",
+    "wiki/concepts/Declarative Programming.md",
     "wiki/maps/AI Map.md",
-    "wiki/concepts/Agent.md",
-    "wiki/topics/Object-Oriented Analysis and Design.md",
-    "wiki/concepts/Agent Tool.md",
-    "mobu/三级学修/同修班/29课-三士道建立原理.md",
-    "content/posts/cs/linux/fix-bad-init.md",
-    "wiki/topics/Karpathy Guidelines.md",
+    "Excalidraw/backend.excalidraw",
+    "agent.excalidraw",
+    "Excalidraw/Drawing 2026-05-05 10.55.33.excalidraw.md",
+    "Excalidraw/Drawing 2026-05-05 10.57.19.excalidraw.md",
+    "wiki/hot.md",
+    "wiki/sources/GenericAgent Paper Source Guide.md",
+    "wiki/concepts/Context Information Density.md",
+    "2026-04-21.md",
+    "wiki/index.md",
+    "wiki/log.md",
+    "README.md",
+    "_meta/content-index.base",
+    "wiki/topics/AI Harness.md",
+    "journals/2026_04_18.md",
+    "Untitled.canvas",
+    "Pasted image 20260421133444.png",
+    "wiki/concepts/Conceptual Integrity.md",
+    "_meta",
+    "wiki/concepts/Concept.md",
+    "skills-lock.json",
+    "log/app.log",
+    "log",
+    "wiki/concepts/Software Analysis Three Generators.md",
+    "wiki/maps/Software Analysis Map.md",
+    "wiki/concepts/Software Design Three Generators.md",
+    "wiki/maps/CS Map.md",
+    "wiki/topics/面向对象分析与设计.md",
     "public/posts/cs/design/how-to-split-by-responsibility/index.html",
     "public/posts/cs/design/how-to-split-by-responsibility",
-    "public/posts/cs/design/oo-analysis-design-rank/index.html",
-    "public/posts/cs/design/oo-analysis-design-rank",
-    "public/posts/cs/web/react/index.html",
-    "public/posts/cs/web/react",
-    "public/posts/cs/web/react-state-effect/index.html",
-    "public/posts/cs/web/react-state-effect",
-    "public/tags/react/index.xml",
-    "public/tags/react/index.html",
-    "Untitled.canvas",
     "raw/sources/HRiwbM75WooKMuxkev3cKjqHnie.PNG",
-    "Pasted image 20260421133444.png",
     "raw/HRiwbM75WooKMuxkev3cKjqHnie.PNG",
     "token.png",
     "mobu/读书/modern_software_engineering-幕布图片-195155-330004.png",

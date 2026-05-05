@@ -2,6 +2,14 @@
 title: Learning Map
 type: map
 status: draft
+category: maps
+summary: Learning Methodology——七条动作原则
+tags: []
+sources: []
+created: 2026-04-26
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-26
 aliases:
   - 学习地图

@@ -2,6 +2,14 @@
 title: Learning Methodology Across Sources
 type: synthesis
 status: draft
+category: syntheses
+summary: 把 wiki 里散落在不同笔记中的学习相关结论，按 Learning Methodology 的七条原则做一次对齐。目的：看清楚哪些原则已经被多个独立来源印证、哪些还只是一家之言、哪些源之间有冲突需要再想。
+tags: []
+sources: []
+created: 2026-04-26
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-26
 aliases:
   - 学习方法跨源综合
@@ -102,7 +110,7 @@ aliases:
 - [[wiki/concepts/Cognition Three Channels]]
 - [[wiki/concepts/Expression Three Channels]]
 - [[wiki/concepts/Knowledge as Network]]
-- [[学习方法论]]
-- [[认知天性]]
-- [[得到高效学习方法]]
-- [[思维框架]]
+- [[pages/学习方法论]]
+- [[mobu/工具/认知天性]]
+- [[mobu/工具/得到高效学习方法]]
+- [[mobu/读书/思维框架]]

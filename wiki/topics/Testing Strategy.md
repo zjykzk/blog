@@ -2,6 +2,13 @@
 title: Testing Strategy
 type: topic
 status: seed
+category: topics
+summary: 从投入层次看：Test Pyramid 从测试目的看：Test Quadrants
+sources: []
+created: 2026-04-21
+base_confidence: 0.53
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 2
 updated: 2026-04-21
 aliases:

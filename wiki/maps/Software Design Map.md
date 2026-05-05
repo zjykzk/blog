@@ -2,6 +2,13 @@
 title: Software Design Map
 type: map
 status: seed
+category: maps
+summary: 这页把软件设计中的核心概念按层次放在一张图里。关键区分是：
+sources: []
+created: 2026-05-03
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-05-03
 aliases:
   - 软件设计地图

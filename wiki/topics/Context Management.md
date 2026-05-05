@@ -3,9 +3,15 @@ title: Context Management
 type: topic
 status: seed
 summary: Context management designs what enters, stays in, and leaves an AI agent's active context so decisions remain grounded under finite attention.
+category: topics
+sources: []
+created: 2026-05-04
+base_confidence: 0.70
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.72
-  inferred: 0.28
+  extracted: 1.0
+  inferred: 0.0
   ambiguous: 0.0
 source_count: 4
 updated: 2026-05-04

@@ -2,6 +2,14 @@
 title: Concept
 type: concept
 status: seed
+category: concepts
+summary: 概念不是词，而是有限生命面对连续世界时制造的边界。
+tags: []
+sources: []
+created: 2026-05-03
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-05-03
 aliases:
   - 概念

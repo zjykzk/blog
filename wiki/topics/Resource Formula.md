@@ -2,6 +2,13 @@
 title: Resource Formula
 type: topic
 status: seed
+category: topics
+summary: 当前笔记里的核心想法很短，但值得保留成一个主题种子：
+sources: []
+created: 2026-04-21
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-21
 aliases:

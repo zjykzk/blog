@@ -2,6 +2,14 @@
 title: Categorical Thinking
 type: topic
 status: draft
+category: topics
+summary: 分类思维，是先找一个划分维度，再按这个维度把混乱切成几类，从而让理解、判断和行动变得更清楚。
+tags: []
+sources: []
+created: 2026-04-27
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-27
 aliases:
   - 分类思维

@@ -2,6 +2,13 @@
 title: Management Map
 type: map
 status: growing
+category: maps
+summary: 这页聚合当前 vault 中与管理、决策、组织协作相关的长期知识页。
+sources: []
+created: 2026-04-21
+base_confidence: 0.53
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 2
 updated: 2026-04-21
 aliases:

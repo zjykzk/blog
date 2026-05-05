@@ -2,6 +2,13 @@
 title: Managed Agents Source Guide
 type: source
 status: seed
+category: sources
+summary: 这篇 Anthropic engineering article 更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。
+sources: []
+created: 2026-04-25
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-25
 aliases:
@@ -95,3 +102,9 @@ source: https://www.anthropic.com/engineering/managed-agents
 - 当前仓库是否应该补一个更明确讨论 `session as durable event log` 的 topic？
 - `AI Harness` 是否需要继续拆出 execution boundary / persistence / recovery 等子主题？
 - 如果后续继续 ingest 托管式 agent 系统文章，是否足以形成一个更清晰的 hosted-agent synthesis？
+
+## Related
+
+- [[wiki/sources/Agent Systems Papers Source Guide]]
+- [[wiki/sources/Agent Engineering Source Guide]]
+- [[wiki/sources/Agent Harness Qiaomu Article Source Guide]]

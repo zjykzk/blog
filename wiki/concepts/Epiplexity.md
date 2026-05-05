@@ -2,6 +2,13 @@
 title: Epiplexity
 type: concept
 status: seed
+category: concepts
+summary: Epiplexity 不是在问一份数据“总共有多少信息”，而是在问：对一个算力有限的观察者来说，这份数据里到底有多少结构是可提取、可学习、可压缩的。
+sources: []
+created: 2026-04-24
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-24
 aliases:

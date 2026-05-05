@@ -2,6 +2,13 @@
 title: Mental Models
 type: topic
 status: growing
+category: topics
+summary: 这页聚合的是一组可以反复调用的思维工具，而不是某个单一学科知识点。
+sources: []
+created: 2026-04-21
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-21
 aliases:

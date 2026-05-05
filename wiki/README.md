@@ -1,3 +1,16 @@
+---
+title: README
+category: meta
+summary: This directory is the stable knowledge layer of the vault.
+tags: []
+sources: []
+created: 2026-04-21
+updated: 2026-04-21
+base_confidence: 0.30
+lifecycle: draft
+lifecycle_changed: 2026-05-05
+---
+
 # LLM Wiki layout
 
 This directory is the stable knowledge layer of the vault.

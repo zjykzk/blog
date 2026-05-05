@@ -2,6 +2,13 @@
 title: Theory Is All You Need Source Guide
 type: source
 status: seed
+category: sources
+summary: 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。
+sources: []
+created: 2026-05-01
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-05-01
 aliases:
@@ -168,6 +175,12 @@ AI 在第一类问题里强。人和 AI 的联合系统，真正难的是第二�
 - [[wiki/topics/Problem Framing]]
 - [[wiki/topics/Thinking in Systems]]
 - [[wiki/maps/AI Map]]
+
+## Related
+
+- [[wiki/sources/Epiplexity Paper Notes]]
+- [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]]
+- [[wiki/sources/Qiaomu Best Prompt Source Guide]]
 
 ## Source
 

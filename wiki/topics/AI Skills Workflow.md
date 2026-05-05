@@ -2,6 +2,13 @@
 title: AI Skills Workflow
 type: topic
 status: seed
+category: topics
+summary: 当前 source notes 里已经出现了一个很清楚的 workflow 雏形：
+sources: []
+created: 2026-04-22
+base_confidence: 0.70
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 3
 updated: 2026-04-22
 aliases:

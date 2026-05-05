@@ -3,9 +3,15 @@ title: AI Engineering Workflow
 type: synthesis
 status: growing
 summary: AI Engineering Workflow connects agent mental models, workflow control, tool design, coding constraints, and requirement normalization.
+category: syntheses
+sources: []
+created: 2026-05-04
+base_confidence: 0.70
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.7
-  inferred: 0.3
+  extracted: 1.0
+  inferred: 0.0
   ambiguous: 0.0
 source_count: 6
 updated: 2026-05-04

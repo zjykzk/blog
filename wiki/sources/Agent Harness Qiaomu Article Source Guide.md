@@ -2,6 +2,13 @@
 title: Agent Harness Qiaomu Article Source Guide
 type: source
 status: seed
+category: sources
+summary: 这篇文章目前更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。
+sources: []
+created: 2026-04-23
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-23
 aliases:
@@ -103,3 +110,9 @@ tags:
 - `AI Harness` 是否应该显式补入 verification / evaluation loop 这一维？
 - `Agent System Design Space` 是否应该把 verification 当作独立设计面，而不是只放在 execution reliability 里？
 - 如果继续 ingest 更多工程综述型文章，是否需要形成一个更明确的 `agent engineering` source cluster？
+
+## Related
+
+- [[wiki/sources/Agent Engineering Source Guide]]
+- [[wiki/sources/Agent Systems Papers Source Guide]]
+- [[wiki/sources/Managed Agents Source Guide]]

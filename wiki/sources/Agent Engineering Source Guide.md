@@ -2,6 +2,13 @@
 title: Agent Engineering Source Guide
 type: source
 status: seed
+category: sources
+summary: 这页用于收拢“agent engineering / harness / workflow”这一类更偏工程综述与系统实践的来源材料。
+sources: []
+created: 2026-04-23
+base_confidence: 0.70
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 4
 updated: 2026-04-23
 aliases:

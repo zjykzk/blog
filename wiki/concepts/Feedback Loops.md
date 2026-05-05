@@ -2,6 +2,14 @@
 title: Feedback Loops
 type: concept
 status: draft
+category: concepts
+summary: 反馈回路是系统里“结果反过来影响原因”的闭环。
+tags: []
+sources: []
+created: 2026-04-26
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-26
 aliases:
   - 反馈回路

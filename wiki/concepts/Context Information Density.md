@@ -3,6 +3,9 @@ title: Context Information Density
 type: concept
 status: seed
 summary: Context information density treats agent context quality as the ratio of decision-relevant signal to finite active context budget.
+category: concepts
+sources: []
+created: 2026-05-04
 provenance:
   extracted: 0.78
   inferred: 0.22

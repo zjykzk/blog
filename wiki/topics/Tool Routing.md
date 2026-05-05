@@ -2,6 +2,13 @@
 title: Tool Routing
 type: topic
 status: growing
+category: topics
+summary: 当前笔记里关于 router / adapter 的判断，可以进一步抽成一个独立主题：工具路由不是附属细节，而是 agent 系统的核心结构设计。
+sources: []
+created: 2026-04-22
+base_confidence: 0.70
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 4
 updated: 2026-04-22
 aliases:

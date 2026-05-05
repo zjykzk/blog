@@ -2,6 +2,13 @@
 title: Problem Framing
 type: topic
 status: seed
+category: topics
+summary: 这个定义虽然简单，但它迫使我们先把“预期”说清楚，而不是直接跳进解决方案。
+sources: []
+created: 2026-04-21
+base_confidence: 0.53
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 2
 updated: 2026-04-21
 aliases:

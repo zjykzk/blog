@@ -3,6 +3,12 @@ title: Agent Systems Papers Source Guide
 type: source
 status: seed
 summary: Source guide collecting agent-system papers and deciding which claims should stay source-level versus move into topics and syntheses.
+category: sources
+sources: []
+created: 2026-05-04
+base_confidence: 0.70
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.81
   inferred: 0.19

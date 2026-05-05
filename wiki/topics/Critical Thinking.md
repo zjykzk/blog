@@ -2,6 +2,13 @@
 title: Critical Thinking
 type: topic
 status: growing
+category: topics
+summary: 这页聚合的是《学会提问》这类材料中最稳定、最值得反复使用的批判性思维框架。
+sources: []
+created: 2026-04-21
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-21
 aliases:

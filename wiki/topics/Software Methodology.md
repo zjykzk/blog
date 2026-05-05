@@ -2,6 +2,14 @@
 title: Software Methodology
 type: topic
 status: draft
+category: topics
+summary: 这里的'软件方法'，特指潘加宇《软件方法》所代表的那条建模与分析主线：不是先列功能，而是先锁定组织改进，再逐步收缩到系统边界，最后把责任落实到对象与代码。
+tags: []
+sources: []
+created: 2026-04-29
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-29
 aliases:
   - 软件方法

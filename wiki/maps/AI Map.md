@@ -3,6 +3,12 @@ title: AI Map
 type: map
 status: growing
 summary: Entry point for the AI, Agent, and LLM knowledge cluster, linking concepts, topics, syntheses, and source guides.
+category: maps
+sources: []
+created: 2026-05-04
+base_confidence: 0.70
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.9
   inferred: 0.1

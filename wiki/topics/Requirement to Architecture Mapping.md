@@ -2,6 +2,13 @@
 title: Requirement to Architecture Mapping
 type: topic
 status: growing
+category: topics
+summary: 这个主题页沉淀的是：如何把用户故事、PRD、free form requirement 先归一化，再稳定映射到分层架构。
+sources: []
+created: 2026-05-01
+base_confidence: 0.70
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 3
 updated: 2026-05-01
 aliases:

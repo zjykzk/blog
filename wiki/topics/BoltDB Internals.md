@@ -2,6 +2,13 @@
 title: BoltDB Internals
 type: topic
 status: growing
+category: topics
+summary: BoltDB 是一个非常适合入门数据库实现的案例：代码量相对小，但已经覆盖了页式存储、B+ 树、事务、空闲页管理、写时复制等核心机制。
+sources: []
+created: 2026-04-21
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-21
 aliases:

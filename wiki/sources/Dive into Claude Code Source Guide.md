@@ -2,6 +2,13 @@
 title: Dive into Claude Code Source Guide
 type: source
 status: seed
+category: sources
+summary: 这篇 arXiv 论文更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。
+sources: []
+created: 2026-04-22
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-22
 aliases:
@@ -127,3 +134,10 @@ tags:
 - 当前仓库是否需要补一个更直接讨论 agent system design space 的 synthesis 页？
 - `AI Harness` 是否应该继续细拆为 permission / context / delegation / persistence 等子主题？
 - 后续 ingest 同类 agent 论文时，是否要形成一个 `agent systems papers` 的 source guide 簇？
+
+## Related
+
+- [[wiki/sources/Agent Systems Papers Source Guide]]
+- [[wiki/sources/Agent Engineering Source Guide]]
+- [[wiki/sources/Before the Tool Call Source Guide]]
+- [[wiki/sources/GenericAgent Paper Source Guide]]

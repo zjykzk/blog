@@ -2,6 +2,13 @@
 title: LLM
 type: concept
 status: seed
+category: concepts
+summary: 当前旧笔记里与 LLM 相关的两类判断混在了一起：
+sources: []
+created: 2026-05-01
+base_confidence: 0.70
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 3
 updated: 2026-05-01
 aliases:

@@ -2,6 +2,13 @@
 title: Technical Management
 type: topic
 status: growing
+category: topics
+summary: 这页聚合的是技术管理里比较稳定、可反复使用的判断，而不是具体某次团队事件。
+sources: []
+created: 2026-04-21
+base_confidence: 0.53
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 2
 updated: 2026-04-21
 aliases:

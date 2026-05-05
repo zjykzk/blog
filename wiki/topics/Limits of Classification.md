@@ -2,6 +2,14 @@
 title: Limits of Classification
 type: topic
 status: draft
+category: topics
+summary: 它擅长把混乱切开，却不自动提供关系、过程、演化和反馈。很多理解错误，不是因为不会分类，而是因为 把分类工具误当成了世界本身 。
+tags: []
+sources: []
+created: 2026-04-27
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-27
 aliases:
   - 分类的边界

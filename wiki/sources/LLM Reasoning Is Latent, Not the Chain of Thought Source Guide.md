@@ -2,6 +2,13 @@
 title: LLM Reasoning Is Latent, Not the Chain of Thought Source Guide
 type: source
 status: seed
+category: sources
+summary: 这篇 arXiv 论文更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。
+sources: []
+created: 2026-04-22
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-22
 aliases:
@@ -94,3 +101,10 @@ tags:
 - 当前仓库是否需要补一个更直接讨论 reasoning / interpretability 的 topic 页？
 - 这篇论文更适合最后汇入 `Context Management`，还是会逼出一个新的 synthesis（例如关于 agent 中“可见轨迹 vs 内部状态”的区分）？
 - 后续若继续 ingest 同类论文，是否要形成一个 `reasoning papers` 的 source guide 簇，而不是单篇孤立存放？
+
+## Related
+
+- [[wiki/sources/Agent Systems Papers Source Guide]]
+- [[wiki/sources/Theory Is All You Need Source Guide]]
+- [[wiki/sources/Epiplexity Paper Notes]]
+- [[wiki/sources/GenericAgent Paper Source Guide]]

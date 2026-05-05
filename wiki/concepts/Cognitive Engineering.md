@@ -2,6 +2,14 @@
 title: Cognitive Engineering
 type: concept
 status: draft
+category: concepts
+summary: 认知工程学不是单独研究'人怎么想'，而是研究如何设计工具、信息结构与反馈机制，让人更容易想对、做对、协同对。
+tags: []
+sources: []
+created: 2026-04-29
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-29
 aliases:
   - 认知工程学

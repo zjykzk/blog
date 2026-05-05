@@ -2,6 +2,13 @@
 title: Agent Tool
 type: concept
 status: seed
+category: concepts
+summary: 当前在旧笔记中， Agent tool 这个文件名和其中的内容发生了错位：文件里实际保留的是 think tool 摘录，而 router / adapter 这段内容出现在旧的 llm.md 中。
+sources: []
+created: 2026-04-20
+base_confidence: 0.53
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 2
 updated: 2026-04-20
 aliases:

@@ -3,6 +3,9 @@ title: GenericAgent Paper Source Guide
 type: source
 status: seed
 summary: Source guide for the GenericAgent paper, focused on context information density, hierarchical memory, tool minimality, and self-evolution.
+category: sources
+sources: []
+created: 2026-05-04
 provenance:
   extracted: 0.86
   inferred: 0.14

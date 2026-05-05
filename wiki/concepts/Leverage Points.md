@@ -2,6 +2,14 @@
 title: Leverage Points
 type: concept
 status: draft
+category: concepts
+summary: 杠杆点是系统里“改一点，结果却变很多”的位置。
+tags: []
+sources: []
+created: 2026-04-26
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-26
 aliases:
   - 杠杆点

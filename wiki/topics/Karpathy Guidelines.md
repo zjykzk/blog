@@ -2,6 +2,13 @@
 title: Karpathy Guidelines
 type: topic
 status: growing
+category: topics
+summary: 这组 guideline 的核心目的是降低 LLM 写代码时常见的失误，尤其是：默认假设、过度设计、顺手大改、以及缺少可验证目标。
+sources: []
+created: 2026-04-20
+base_confidence: 0.53
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 2
 updated: 2026-04-20
 aliases:

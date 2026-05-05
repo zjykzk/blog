@@ -2,6 +2,14 @@
 title: Business Modeling in Software
 type: concept
 status: draft
+category: concepts
+summary: 软件中的业务建模，不是先讨论'软件怎么做'，而是先回答：目标组织为了产出业务结果，现在是怎么运作的，应该怎么改。
+tags: []
+sources: []
+created: 2026-04-29
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-29
 aliases:
   - 软件中的业务建模
@@ -107,6 +115,7 @@ aliases:
 - [[wiki/concepts/Software Analysis Three Generators]]
 - [[wiki/concepts/Software Design Three Generators]]
 - [[wiki/topics/Software Methodology]]
+- [[wiki/syntheses/Business Analysis to Software Design]]
 
 ## 源
 

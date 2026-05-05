@@ -2,6 +2,13 @@
 title: Qiaomu Best Prompt Source Guide
 type: source
 status: seed
+category: sources
+summary: 这篇文章当前更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定母页。
+sources: []
+created: 2026-04-23
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-23
 aliases:
@@ -94,3 +101,6 @@ tags:
 
 - [[wiki/topics/Prompt Frequency]]
 - [[wiki/maps/AI Map]]
+- [[wiki/sources/Agent Engineering Source Guide]]
+- [[wiki/sources/Managed Agents Source Guide]]
+- [[wiki/sources/AI Coding Control Limits Source Guide]]

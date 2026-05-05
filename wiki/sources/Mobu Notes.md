@@ -2,6 +2,13 @@
 title: Mobu Notes Source Guide
 type: source
 status: seed
+category: sources
+summary: mobu/ 目前是个人知识与领域素材的大池子，适合作为 raw/domain input 层，而不是直接作为稳定 wiki 层。
+sources: []
+created: 2026-04-20
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-20
 aliases:

@@ -2,6 +2,13 @@
 title: Circuit Breaker
 type: topic
 status: growing
+category: topics
+summary: Circuit Breaker 是分布式系统里的保护机制：当下游服务已经过载或不可用时，不再继续把请求打过去，而是主动快速失败，避免故障扩大。
+sources: []
+created: 2026-04-21
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-21
 aliases:

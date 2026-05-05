@@ -2,6 +2,13 @@
 title: Prompt Frequency
 type: topic
 status: seed
+category: topics
+summary: 一个值得单独抽出来的判断是：在语义不变时，越接近训练语料中常见表达的 prompt，模型通常越容易发挥出能力。
+sources: []
+created: 2026-04-23
+base_confidence: 0.53
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 2
 updated: 2026-04-23
 aliases:

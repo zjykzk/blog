@@ -2,6 +2,14 @@
 title: Knowledge as Network
 type: concept
 status: draft
+category: concepts
+summary: 知识没有全局层级，只有局部的序。看起来像金字塔，其实是张网。
+tags: []
+sources: []
+created: 2026-04-26
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-26
 aliases:
   - 知识网

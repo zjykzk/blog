@@ -2,6 +2,13 @@
 title: High Concurrency
 type: topic
 status: seed
+category: topics
+summary: 当前这篇旧笔记内容还很少，但主题本身值得先占位，因为它很可能会成为系统设计和性能治理的重要母页。
+sources: []
+created: 2026-04-21
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-21
 aliases:

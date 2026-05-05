@@ -2,6 +2,13 @@
 title: Cynefin Framework
 type: concept
 status: growing
+category: concepts
+summary: Cynefin Framework 适合用来判断问题处在哪种上下文里，再决定应该用什么动作模式，而不是先假定所有问题都能靠一种统一方法解决。
+sources: []
+created: 2026-04-21
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-21
 aliases:

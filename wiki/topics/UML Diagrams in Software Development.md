@@ -2,6 +2,14 @@
 title: UML Diagrams in Software Development
 type: topic
 status: draft
+category: topics
+summary: UML 图不是一套必须全画的仪式，而是一组在不同开发环节回答不同问题的建模工具。
+tags: []
+sources: []
+created: 2026-05-01
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-05-01
 aliases:
   - UML

@@ -2,6 +2,14 @@
 title: European Antisemitism
 type: topic
 status: draft
+category: topics
+summary: 欧洲反犹主义之所以长期存在，不是因为犹太人有什么共同本质，而是因为他们在很多历史结构里反复处在一种容易被区分、被排斥、被掠夺、被甩锅的位置。它不是一条不变的偏见，而是一套会不断换语言的社会机制：中世纪更多借宗教敌意和制度隔离维持，近代更多借民族主义、经济焦虑和阴谋论升级，到了纳粹主义时期则被推进成国家机器。
+tags: []
+sources: []
+created: 2026-05-01
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-05-01
 aliases:
   - 欧洲反犹主义

@@ -2,6 +2,13 @@
 title: Reading Map
 type: map
 status: seed
+category: maps
+summary: 这页用于承接读书笔记从 raw/source 进入 wiki 的提升过程。
+sources: []
+created: 2026-04-21
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-21
 aliases:

@@ -2,6 +2,13 @@
 title: Thinking and Judgment Workflow
 type: synthesis
 status: growing
+category: syntheses
+summary: 这页把 Mental Models 、 Critical Thinking 、 Problem Framing 串成一条更完整的思考路径：面对复杂问题时，不只是要会想，还要知道先怎么定义问题、再怎么观察、最后怎么判断。
+sources: []
+created: 2026-04-21
+base_confidence: 0.70
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 3
 updated: 2026-04-21
 aliases:

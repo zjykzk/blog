@@ -2,6 +2,14 @@
 title: Learning Methodology
 type: topic
 status: draft
+category: topics
+summary: 一份自己能用、能指导动作的学习方法论。建立在两个概念之上：人是三通道进出系统；知识是网不是塔。
+tags: []
+sources: []
+created: 2026-04-26
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-26
 aliases:
   - 学习方法论

@@ -2,6 +2,13 @@
 title: Software Development Thought Lineage
 type: topic
 status: draft
+category: topics
+summary: 这页关心的核心问题，不是某一条具体方法怎么落地，也不是现代软件工程的总定义，而是：不同软件开发思想是如何在历史上一个接一个出现、彼此修正，并逐步形成今天这组主流方法栈的。
+sources: []
+created: 2026-04-30
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-30
 aliases:
   - 软件开发思想脉络

@@ -2,6 +2,14 @@
 title: What Makes a Good Classification
 type: topic
 status: draft
+category: topics
+summary: 好的分类，不是最整齐的分类，也不是看起来最像“标准答案”的分类，而是 最能支持理解、判断和行动的分类 。
+tags: []
+sources: []
+created: 2026-04-27
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-27
 aliases:
   - 什么是好的分类

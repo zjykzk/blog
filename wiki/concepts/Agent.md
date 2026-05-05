@@ -2,6 +2,13 @@
 title: Agent
 type: concept
 status: seed
+category: concepts
+summary: Agent 的核心任务目前可以归纳为三件事：
+sources: []
+created: 2026-04-20
+base_confidence: 0.53
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 2
 updated: 2026-04-20
 aliases:

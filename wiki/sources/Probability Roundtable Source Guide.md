@@ -2,6 +2,13 @@
 title: Probability Roundtable Source Guide
 type: source
 status: seed
+category: sources
+summary: 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担概率论的稳定母页角色。
+sources: []
+created: 2026-04-24
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-24
 aliases:

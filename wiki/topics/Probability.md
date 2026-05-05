@@ -2,6 +2,13 @@
 title: Probability
 type: topic
 status: seed
+category: topics
+summary: 概率不只是一个数学章节名，也是一种处理不确定性的核心框架。
+sources: []
+created: 2026-04-24
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-24
 aliases:

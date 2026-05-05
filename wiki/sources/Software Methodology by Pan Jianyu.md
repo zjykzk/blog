@@ -2,6 +2,14 @@
 title: Software Methodology by Pan Jianyu
 type: source
 status: draft
+category: sources
+summary: 这页收纳《软件方法》相关的阅读入口与当前已经稳定下来的判断。
+tags: []
+sources: []
+created: 2026-04-29
+base_confidence: 0.40
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-29
 aliases:
   - 软件方法书目导引

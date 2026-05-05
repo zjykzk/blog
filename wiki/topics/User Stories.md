@@ -2,6 +2,13 @@
 title: User Stories
 type: topic
 status: seed
+category: topics
+summary: 用户故事的价值，不在于写出一个固定格式，而在于把“谁、想做什么、为什么”表达清楚，并让需求能继续往设计与实现层面流动。
+sources: []
+created: 2026-04-21
+base_confidence: 0.53
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 2
 updated: 2026-04-21
 aliases:

@@ -2,6 +2,14 @@
 title: Methods of Classification
 type: topic
 status: draft
+category: topics
+summary: 分类方法的差异，本质上不是“分成几类”，而是 按什么维度切对象 。
+tags: []
+sources: []
+created: 2026-04-27
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-27
 aliases:
   - 分类的方法

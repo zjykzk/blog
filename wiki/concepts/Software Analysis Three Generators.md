@@ -2,6 +2,14 @@
 title: Software Analysis Three Generators
 type: concept
 status: draft
+category: concepts
+summary: 翻书架：需求工程、用例建模、领域驱动设计、事件风暴、用户故事地图、业务流程再造、数据流图、状态机、UML 九种图、C4 模型、ArchiMate、Use Case 2.0、Jobs to be Done……每一派都说自己抓到了本质，每一派都有一套词汇表、一套图、一套流程。新人进来第一个反应是：这些到底是同一件事的不同说法，还是真的在干不同的事？
+tags: []
+sources: []
+created: 2026-04-29
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-29
 aliases:
   - 组织交换边界
@@ -252,6 +260,7 @@ aliases:
 - [[wiki/topics/面向对象分析与设计]]
 - [[wiki/topics/Requirement to Architecture Mapping]]
 - [[wiki/topics/User Stories]]
+- [[wiki/syntheses/Business Analysis to Software Design]]
 
 ## 源
 

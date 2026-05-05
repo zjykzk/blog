@@ -2,6 +2,13 @@
 title: Software Analysis Map
 type: map
 status: seed
+category: maps
+summary: 这页把软件分析中的核心概念按层次放在一张图里。它基于 Software Analysis Three Generators 的三根： 组织、交换、边界 。
+sources: []
+created: 2026-05-02
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-05-02
 aliases:
   - 软件分析地图

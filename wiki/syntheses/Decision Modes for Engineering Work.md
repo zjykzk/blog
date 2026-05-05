@@ -2,6 +2,13 @@
 title: Decision Modes for Engineering Work
 type: synthesis
 status: growing
+category: syntheses
+summary: 这页尝试把管理、问题判断和软件工程方法连成一个更高层的操作框架：面对不同类型的问题，团队不该只换答案，更要换决策模式。
+sources: []
+created: 2026-04-21
+base_confidence: 0.70
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 3
 updated: 2026-04-21
 aliases:

@@ -2,6 +2,13 @@
 title: Before the Tool Call Source Guide
 type: source
 status: seed
+category: sources
+summary: 这篇 arXiv 论文更适合作为单篇 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。
+sources: []
+created: 2026-04-22
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-22
 aliases:
@@ -91,3 +98,9 @@ tags:
 - 当前仓库是否需要单独形成一个更明确的 topic，例如 tool authorization / agent governance？
 - 对 agent system 来说，pre-action authorization 应被视为 harness 的子机制，还是一层独立架构组件？
 - 如果后续继续 ingest MCP、安全沙箱、policy engine 相关资料，是否应形成一个更稳定的 synthesis，把“tool use”与“governance boundary”统一起来？
+
+## Related
+
+- [[wiki/sources/Agent Systems Papers Source Guide]]
+- [[wiki/sources/Agent Engineering Source Guide]]
+- [[wiki/sources/Dive into Claude Code Source Guide]]

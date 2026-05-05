@@ -2,6 +2,13 @@
 title: Modern Software Engineering Notes
 type: source
 status: seed
+category: sources
+summary: 这份读书笔记目前以摘录和图片为主，仍更适合作为 source note，而不是直接升格为稳定 wiki 页面。
+sources: []
+created: 2026-04-21
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-21
 aliases:
@@ -31,3 +38,6 @@ tags:
 ## Related
 
 - `mobu/读书/modern_software_engineering.md`
+- [[wiki/sources/Spec-Driven Development Paper Source Guide]]
+- [[wiki/sources/Frontend Development Workflow Roundtable Source Guide]]
+- [[wiki/sources/Software Methodology by Pan Jianyu]]

@@ -2,6 +2,13 @@
 title: From User Story to Architecture
 type: synthesis
 status: growing
+category: syntheses
+summary: 这页综合的不是单一技巧，而是一条完整路径：需求如何从业务表达，一路变成可以实现、可以验证、可以维护的架构决策。
+sources: []
+created: 2026-05-01
+base_confidence: 0.70
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 3
 updated: 2026-05-01
 aliases:

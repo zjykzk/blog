@@ -2,6 +2,13 @@
 title: Go Memory Model
 type: topic
 status: growing
+category: topics
+summary: Go Memory Model 的核心作用，是定义并发场景下内存操作之间的顺序约束，让我们能判断一个 goroutine 读取到的值在什么条件下是确定的。
+sources: []
+created: 2026-04-21
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-21
 aliases:

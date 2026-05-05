@@ -3,9 +3,15 @@ title: AI Harness
 type: topic
 status: growing
 summary: AI Harness is the runtime order layer that connects model, context, tools, permissions, state, and recovery into a controllable agent system.
+category: topics
+sources: []
+created: 2026-05-04
+base_confidence: 0.70
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.68
-  inferred: 0.32
+  extracted: 0.99
+  inferred: 0.01
   ambiguous: 0.0
 source_count: 6
 updated: 2026-05-04

@@ -2,6 +2,13 @@
 title: Journals Source Guide
 type: source
 status: growing
+category: sources
+summary: journals/ 是当前 vault 的时间流输入层。它们不应直接承担稳定知识页职责，但应该持续为 wiki/ 提供可回溯的来源。
+sources: []
+created: 2026-04-20
+base_confidence: 0.53
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 2
 updated: 2026-04-20
 aliases:

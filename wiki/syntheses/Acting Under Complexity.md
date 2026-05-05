@@ -2,6 +2,13 @@
 title: Acting Under Complexity
 type: synthesis
 status: growing
+category: syntheses
+summary: 这页尝试把 Cynefin、决策模式、思考工作流、mental models、critical thinking 串成一个更高层的框架：当问题复杂、不确定、争议大时，关键不是只会分析，而是知道应该如何判断并继续行动。
+sources: []
+created: 2026-04-21
+base_confidence: 0.70
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 5
 updated: 2026-04-21
 aliases:

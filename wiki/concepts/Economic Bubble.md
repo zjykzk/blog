@@ -2,6 +2,14 @@
 title: Economic Bubble
 type: concept
 status: seed
+category: concepts
+summary: An economic bubble is not simply an expensive asset. It is a price structure where market value has detached from the real support beneath it, and continues rising mainly because people believe...
+tags: []
+sources: []
+created: 2026-05-02
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-05-02
 aliases:
   - 经济泡沫

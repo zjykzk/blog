@@ -2,6 +2,13 @@
 title: Frontend Development Workflow Roundtable Source Guide
 type: source
 status: draft
+category: sources
+summary: 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担前端工程方法论的稳定母页角色。
+sources: []
+created: 2026-04-26
+base_confidence: 0.40
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 updated: 2026-04-26
 aliases:
   - frontend workflow roundtable source
@@ -123,3 +130,5 @@ tags:
 - [[wiki/topics/Testing Strategy]]
 - [[wiki/syntheses/From User Story to Architecture]]
 - [[wiki/maps/CS Map]]
+- [[wiki/sources/React Framework Background and Core Concepts Source Guide]]
+- [[wiki/sources/Modern Software Engineering Notes]]

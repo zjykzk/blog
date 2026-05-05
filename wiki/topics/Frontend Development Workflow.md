@@ -2,6 +2,13 @@
 title: Frontend Development Workflow
 type: topic
 status: draft
+category: topics
+summary: Frontend development workflow 不是一条把设计稿翻译成页面的生产线，而是一套持续对齐用户任务、界面行为与系统行为的工作方法。
+sources: []
+created: 2026-04-26
+base_confidence: 0.37
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 1
 updated: 2026-04-26
 aliases:

@@ -2,6 +2,13 @@
 title: Testing Purpose
 type: topic
 status: seed
+category: topics
+summary: 测试的直接目的，不是追求某个表面指标，而是增加对代码正确性的信心。
+sources: []
+created: 2026-04-21
+base_confidence: 0.53
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 source_count: 2
 updated: 2026-04-21
 aliases:

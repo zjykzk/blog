@@ -3,9 +3,15 @@ title: Agent System Design Space
 type: synthesis
 status: seed
 summary: Agent System Design Space compares agent architectures by their values, context handling, tools, permissions, memory, delegation, and recovery.
+category: syntheses
+sources: []
+created: 2026-05-04
+base_confidence: 0.53
+lifecycle: draft
+lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.63
-  inferred: 0.37
+  extracted: 1.0
+  inferred: 0.0
   ambiguous: 0.0
 source_count: 2
 updated: 2026-05-04
