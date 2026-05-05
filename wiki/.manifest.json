@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 3,
-    "total_pages": 101
+    "total_sources_ingested": 4,
+    "total_pages": 103
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -61,6 +61,28 @@
         "wiki/syntheses/Agent System Design Space.md",
         "wiki/sources/Prompt Caching Claude Code Case Study Source Guide.md",
         "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/index.md",
+        "wiki/hot.md"
+      ]
+    },
+    "https://x.com/akshay_pachaar/status/2041146899319971922": {
+      "ingested_at": "2026-05-05T14:03:13+08:00",
+      "size_bytes": 456,
+      "modified_at": "2026-05-05T14:03:13+08:00",
+      "content_hash": "sha256:b42d1240232fce09f327c6bf69b2e3fc1a38bfe4eb2a983e82fa20ae6e049f50",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Verification Loop.md",
+        "wiki/sources/Agent Harness Anatomy Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/AI Harness.md",
+        "wiki/topics/Context Management.md",
+        "wiki/concepts/Agent Tool.md",
+        "wiki/syntheses/Agent System Design Space.md",
+        "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md"
       ]

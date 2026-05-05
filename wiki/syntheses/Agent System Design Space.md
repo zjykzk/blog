@@ -7,16 +7,17 @@ category: syntheses
 sources:
   - https://x.com/_avichawla/article/2044670188998803855
   - https://x.com/trq212/status/2024574133011673516
+  - https://x.com/akshay_pachaar/status/2041146899319971922
 created: 2026-05-04
 base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.92
-  inferred: 0.08
+  extracted: 0.90
+  inferred: 0.10
   ambiguous: 0.0
 source_count: 4
-updated: 2026-05-05T13:58:10+08:00
+updated: 2026-05-05T14:03:13+08:00
 aliases:
   - Agent architecture design space
   - AI agent system design space
@@ -75,6 +76,19 @@ tags:
 - 哪些动作要在更严格的边界里运行
 
 这不是一个附属开关，而是 agent 是否可控的核心结构。
+
+### Verification and recovery
+
+Akshay Pachaar's harness overview makes verification a first-class design surface rather than a final QA step.
+
+The design question is:
+
+- which failures should be retried automatically
+- which failures should become observations for the model to repair
+- which failures need user intervention
+- which outputs can be checked by deterministic tests, visual inspection, or evaluator models
+
+This is where [[wiki/concepts/Verification Loop]] connects to state management and error handling: feedback only improves an agent if the harness can route it back into the loop in a usable form.
 
 ### Context compression and reconstruction
 
@@ -184,12 +198,15 @@ Thariq's Claude Code article makes this design surface operational: cache-hit ra
 - [[wiki/concepts/Context Information Density]]
 - [[wiki/concepts/Prompt Caching]]
 - [[wiki/concepts/KV Cache]]
+- [[wiki/concepts/Verification Loop]]
+- [[wiki/concepts/Agent Tool]]
 
 ## Upstream source notes
 
 - [[wiki/sources/Managed Agents Source Guide]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
+- [[wiki/sources/Agent Harness Anatomy Source Guide]]
 
 ## Navigation
 

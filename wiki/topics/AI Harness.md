@@ -7,16 +7,17 @@ category: topics
 sources:
   - https://x.com/_avichawla/article/2044670188998803855
   - https://x.com/trq212/status/2024574133011673516
+  - https://x.com/akshay_pachaar/status/2041146899319971922
 created: 2026-05-04
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.94
-  inferred: 0.06
+  extracted: 0.93
+  inferred: 0.07
   ambiguous: 0.0
 source_count: 8
-updated: 2026-05-05T13:58:10+08:00
+updated: 2026-05-05T14:03:13+08:00
 aliases:
   - harness
 tags:
@@ -48,9 +49,13 @@ AI Harness 不是模型本身，也不是某一个工具本身。它更像 agent
 
 一个 harness 至少在治理几类关键问题：
 
+- orchestration loop 如何组装输入、调用模型、执行工具并判断停止
 - 上下文如何被组织、压缩和恢复
 - 工具如何被暴露、路由和限制
+- 输出如何被解析成最终回答、工具调用或 handoff
 - 权限边界如何被设置，并在何时交还给人类决策
+- 错误如何被分类成可重试、可由模型修正、需要用户介入或直接暴露
+- verification loop 如何把测试、视觉检查或 evaluator 的反馈送回系统
 - 子任务是否应该被委派，以及如何隔离执行环境
 - 状态如何被记录、持久化和重建
 
@@ -76,6 +81,7 @@ AI Harness 不是模型本身，也不是某一个工具本身。它更像 agent
 - 能不能把上下文压到足够小但不丢掉任务边界
 - 能不能让工具在正确边界内被调用
 - 能不能把高风险动作重新交给人判断
+- 能不能用 [[wiki/concepts/Verification Loop]] 在错误扩散前获得外部反馈
 - 能不能在需要时隔离子任务与执行环境
 - 能不能在会话中断之后恢复足够连续的状态
 
@@ -157,6 +163,20 @@ Thariq's Claude Code article adds two concrete harness patterns:
 
 所以讨论 harness 时，不能只问“它有哪些功能”，还要问“它在什么环境里工作”。
 
+## Harness as product surface
+
+[[wiki/sources/Agent Harness Anatomy Source Guide]] adds a useful framing: the harness is not a commodity wrapper around the model. It is part of the product behavior surface.
+
+The same base model can behave differently when the surrounding harness changes:
+
+- different tool schemas alter the action space
+- different memory and context policies alter what the model can use
+- different error handling policies determine whether failures become recoverable observations
+- different guardrails and permissions determine whether proposed actions can actually execute
+- different verification loops determine whether work is checked before it compounds
+
+This makes harness design an architectural bet, not just application plumbing. ^[inferred]
+
 ## Governance implication
 
 从 `Before the Tool Call` 这类材料往上抽，一个更稳定的判断是：harness 的安全边界不应只寄托在 prompt、模型自觉或人工事后复盘上。
@@ -173,6 +193,8 @@ Thariq's Claude Code article adds two concrete harness patterns:
 ## Upstream concepts and topics
 
 - [[wiki/concepts/Agent]]
+- [[wiki/concepts/Agent Tool]]
+- [[wiki/concepts/Verification Loop]]
 - [[wiki/topics/Context Management]]
 - [[wiki/topics/Tool Routing]]
 
@@ -194,6 +216,7 @@ Thariq's Claude Code article adds two concrete harness patterns:
 - [[wiki/sources/Managed Agents Source Guide]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
+- [[wiki/sources/Agent Harness Anatomy Source Guide]]
 
 ## Navigation
 

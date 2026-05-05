@@ -7,16 +7,17 @@ category: topics
 sources:
   - https://x.com/_avichawla/article/2044670188998803855
   - https://x.com/trq212/status/2024574133011673516
+  - https://x.com/akshay_pachaar/status/2041146899319971922
 created: 2026-05-04
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.93
-  inferred: 0.07
+  extracted: 0.92
+  inferred: 0.08
   ambiguous: 0.0
 source_count: 6
-updated: 2026-05-05T13:58:10+08:00
+updated: 2026-05-05T14:03:13+08:00
 aliases:
   - 上下文管理
 tags:
@@ -41,6 +42,8 @@ tags:
 
 这也是为什么在 production agent 里，上下文管理应该被看成高频失败点，而不是 token 层的小优化。
 
+Akshay Pachaar's harness overview sharpens this point: context management is one of the components that turns a stateless model call into a stateful agent. The model does not carry durable working state by itself; the harness decides which memory, transcript, tool results, and current task state are visible on each turn.
+
 ## Practical role
 
 在工作流里，上下文管理至少承担三件事：
@@ -48,6 +51,7 @@ tags:
 - 保留完成任务所需的最小必要信息
 - 让任务拆分和下一步决策有依据
 - 让工具调用发生在正确边界内
+- 在工具结果、错误反馈和 verification output 之间维持可用的工作状态
 
 它还有一个更容易被忽略的角色：上下文管理并不只是“往窗口里塞信息”，而是在塑造模型内部形成判断的条件。
 
@@ -129,3 +133,4 @@ The Claude Code prompt-caching source sharpens this into an ordering rule: stabl
 - [[wiki/sources/Agent Harness Qiaomu Article Source Guide]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
+- [[wiki/sources/Agent Harness Anatomy Source Guide]]
