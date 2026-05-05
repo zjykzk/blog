@@ -9,8 +9,9 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html#ThisPatternInLattice
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
+  - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
 created: 2026-05-05T17:05:00+08:00
-updated: 2026-05-05T17:35:00+08:00
+updated: 2026-05-05T17:45:00+08:00
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -52,6 +53,8 @@ Together these patterns create a shared mental model between human and assistant
 
 [[wiki/concepts/Context Anchoring]] is the persistence pattern: it moves feature-level decisions, rejected alternatives, constraints, open questions, and current state into a living document so the shared mental model survives long sessions and session boundaries.
 
+[[wiki/concepts/Encoding Team Standards]] is the governance pattern: it turns tacit senior-developer judgment about generation, refactoring, security, and review into shared instructions that execute for everyone.
+
 ## Why It Matters
 
 The core failure mode is not that the model cannot code. It is that the assistant defaults to generic training-data patterns when project-specific context is absent.
@@ -74,6 +77,7 @@ For [[wiki/concepts/Harness Ratchet]], the feedback flywheel is the human-team v
 - [[wiki/concepts/Knowledge Priming]]
 - [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/concepts/Context Anchoring]]
+- [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/topics/Spec-Driven Development]]
 - [[wiki/topics/Modern Software Engineering]]
 - [[wiki/topics/Testing Strategy]]

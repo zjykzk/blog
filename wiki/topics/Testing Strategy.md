@@ -3,16 +3,21 @@ title: Testing Strategy
 type: topic
 status: seed
 category: topics
-summary: 从投入层次看：Test Pyramid 从测试目的看：Test Quadrants
+summary: Testing Strategy combines test layering, test purpose, and AI-era quality gates to increase confidence in software changes.
 sources:
   - https://martinfowler.com/articles/reduce-friction-ai/
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
+  - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
 created: 2026-04-21
 base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 4
-updated: 2026-05-05T17:25:00+08:00
+provenance:
+  extracted: 0.80
+  inferred: 0.20
+  ambiguous: 0.0
+source_count: 5
+updated: 2026-05-05T17:45:00+08:00
 aliases:
   - 测试模型
 tags:
@@ -71,12 +76,17 @@ These metrics treat AI output as something that must survive team standards and 
 
 Those contracts can be turned into tests before the assistant writes code. This makes AI-assisted TDD more natural because the test target is an agreed design artifact rather than an inferred implementation. ^[inferred]
 
+[[wiki/concepts/Encoding Team Standards]] extends testing strategy from tests to quality gates. A security instruction, review instruction, or test-quality instruction can encode what the team treats as blockers, must-fix issues, and advisories.
+
+This is not a replacement for automated tests. It is a way to make review and security checks more consistent across developers and AI sessions, especially when the relevant standard is architectural judgment or threat-model knowledge rather than a simple assertion. ^[inferred]
+
 ## Peer topics
 
 - [[wiki/topics/Testing Purpose]]
 - [[wiki/topics/Spec-Driven Development]]
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Design-First Collaboration]]
+- [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 
 ## Navigation

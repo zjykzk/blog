@@ -6,12 +6,17 @@ category: topics
 summary: 这页讨论的不是某一条具体方法流派的历史，而是一个更高层的方法论总纲：如何把软件开发理解为一种经验主义、证据驱动的问题求解活动。
 sources:
   - https://martinfowler.com/articles/reduce-friction-ai/
+  - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
 created: 2026-04-21
 base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 3
-updated: 2026-05-05T17:05:00+08:00
+provenance:
+  extracted: 0.84
+  inferred: 0.16
+  ambiguous: 0.0
+source_count: 4
+updated: 2026-05-05T17:45:00+08:00
 aliases:
   - 软件工程
   - modern software engineering
@@ -54,6 +59,8 @@ The article proposes measuring collaboration quality instead:
 
 This fits the modern software engineering view because AI-assisted development should still be judged by fit, maintainability, feedback, and downstream rework, not by local generation speed.
 
+[[wiki/concepts/Encoding Team Standards]] adds a second modern software engineering angle: AI collaboration quality should be improved by systems, not only by individual skill. Treating instructions as repository infrastructure makes team standards visible, reviewable, and improvable through the same feedback loops as code, tests, lint rules, and CI pipelines.
+
 ## Navigation
 
 - [[wiki/topics/面向对象分析与设计]]
@@ -61,5 +68,6 @@ This fits the modern software engineering view because AI-assisted development s
 - [[wiki/maps/Reading Map]]
 - [[wiki/sources/Modern Software Engineering Notes]]
 - [[wiki/concepts/AI Collaboration Scaffolding]]
+- [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - `pages/软件工程.md`

@@ -3,14 +3,19 @@ title: Karpathy Guidelines
 type: topic
 status: growing
 category: topics
-summary: 这组 guideline 的核心目的是降低 LLM 写代码时常见的失误，尤其是：默认假设、过度设计、顺手大改、以及缺少可验证目标。
-sources: []
+summary: Karpathy Guidelines are coding constraints that reduce common LLM mistakes such as hidden assumptions, over-design, broad edits, and missing verification.
+sources:
+  - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
 created: 2026-04-20
 base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 2
-updated: 2026-04-20
+provenance:
+  extracted: 0.72
+  inferred: 0.28
+  ambiguous: 0.0
+source_count: 3
+updated: 2026-05-05T17:45:00+08:00
 aliases:
   - karpathy-guidelines
 tags:
@@ -56,10 +61,15 @@ tags:
 
 这些规则适合拿来约束 LLM 协作中的默认行为，让输出更像成熟工程师的局部、可验证修改，而不是泛化式“重写一遍”。
 
+[[wiki/concepts/Encoding Team Standards]] generalizes this page's role: guidelines become more valuable when they are encoded as versioned, shared instructions that execute in generation, refactoring, security checks, and review.
+
+The difference is operational. A guideline page informs the human or assistant; an executable instruction applies the guideline as part of the workflow, with priority categories and expected output format. ^[inferred]
+
 ## Navigation
 
 - [[wiki/maps/AI Map]]
 - [[wiki/topics/Requirement to Architecture Mapping]]
+- [[wiki/concepts/Encoding Team Standards]]
 
 ## Source notes
 

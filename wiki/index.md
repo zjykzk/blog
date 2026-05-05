@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-05T17:35:00+08:00
+updated: 2026-05-05T17:45:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -52,7 +52,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/Go Memory Model|Go Memory Model]] — Go Memory Model 的核心作用，是定义并发场景下内存操作之间的顺序约束，让我们能判断一个 goroutine 读取到的值在什么条件下是确定的。 (#golang #concurrency #memory-model)
 - [[wiki/topics/High Concurrency|High Concurrency]] — 当前这篇旧笔记内容还很少，但主题本身值得先占位，因为它很可能会成为系统设计和性能治理的重要母页。 (#cs #concurrency #systems)
 - [[wiki/topics/Judgment Under Leverage|Judgment Under Leverage]] — Judgment under leverage is the problem of making decisions whose consequences are amplified by capital, labor, code, or media. ( #judgment #leverage #wealth #decision-making)
-- [[wiki/topics/Karpathy Guidelines|Karpathy Guidelines]] — 这组 guideline 的核心目的是降低 LLM 写代码时常见的失误，尤其是：默认假设、过度设计、顺手大改、以及缺少可验证目标。 (#ai #coding #guidelines)
+- [[wiki/topics/Karpathy Guidelines|Karpathy Guidelines]] — Karpathy Guidelines are coding constraints that reduce common LLM mistakes such as hidden assumptions, over-design, broad edits, and missing verification. (#ai #coding #guidelines)
 - [[wiki/topics/Learnable Structure in Data|Learnable Structure in Data]] — 评估数据价值时，一个更稳的起点，不是先问“这里有多少信息”，而是先问：对当前模型来说，这里到底有多少结构是可学习的。 (#ai #data #training #topic)
 - [[wiki/topics/Learning Methodology|Learning Methodology]] — 一份自己能用、能指导动作的学习方法论。建立在两个概念之上：人是三通道进出系统；知识是网不是塔。
 - [[wiki/topics/Limits of Classification|Limits of Classification]] — 它擅长把混乱切开，却不自动提供关系、过程、演化和反馈。很多理解错误，不是因为不会分类，而是因为 把分类工具误当成了世界本身 。
@@ -69,7 +69,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/Spec-Driven Development|Spec-Driven Development]] — Spec-Driven Development treats specs as contracts that guide implementation, validation, and AI coding work before code becomes the default truth. (#software-engineering #specs #ai-coding #process)
 - [[wiki/topics/Technical Management|Technical Management]] — 这页聚合的是技术管理里比较稳定、可反复使用的判断，而不是具体某次团队事件。 (#management #leadership #engineering)
 - [[wiki/topics/Testing Purpose|Testing Purpose]] — 测试的直接目的，不是追求某个表面指标，而是增加对代码正确性的信心。 (#testing #quality #software-engineering)
-- [[wiki/topics/Testing Strategy|Testing Strategy]] — 从投入层次看：Test Pyramid 从测试目的看：Test Quadrants (#testing #quality #software-engineering)
+- [[wiki/topics/Testing Strategy|Testing Strategy]] — Testing Strategy combines test layering, test purpose, and AI-era quality gates to increase confidence in software changes. (#testing #quality #software-engineering)
 - [[wiki/topics/Thinking in Systems|Thinking in Systems]] — 一本关于系统视角的入门书，但真正重要的不是术语，而是一个判断翻转： 问题反复出现，优先怀疑系统结构，而不是个体意志。
 - [[wiki/topics/Tool Routing|Tool Routing]] — 当前笔记里关于 router / adapter 的判断，可以进一步抽成一个独立主题：工具路由不是附属细节，而是 agent 系统的核心结构设计。 (#ai #agents #tools)
 - [[wiki/topics/UML Diagrams in Software Development|UML Diagrams in Software Development]] — UML 图不是一套必须全画的仪式，而是一组在不同开发环节回答不同问题的建模工具。
@@ -86,6 +86,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Knowledge Priming|Knowledge Priming]] — Knowledge priming gives AI coding assistants curated, versioned project context before generation so they fit local architecture and conventions. (#ai #ai-coding #context #workflow)
 - [[wiki/concepts/Design-First Collaboration|Design-First Collaboration]] — Design-first collaboration makes AI design decisions explicit through staged alignment before any implementation code is generated. (#ai #ai-coding #software-engineering #workflow)
 - [[wiki/concepts/Context Anchoring|Context Anchoring]] — Context anchoring preserves feature-level AI collaboration decisions in a living document outside the chat session. (#ai #ai-coding #context #workflow)
+- [[wiki/concepts/Encoding Team Standards|Encoding Team Standards]] — Encoding team standards turns tacit engineering judgment into versioned AI instructions that execute consistently across the team. (#ai #ai-coding #software-engineering #workflow)
 - [[wiki/concepts/AI Memory 4W Taxonomy|AI Memory 4W Taxonomy]] — The AI Memory 4W Taxonomy classifies memory by when it persists, what it stores, how it is represented, and which modalities it handles. (#ai #memory #taxonomy #agents)
 - [[wiki/concepts/AI Learning Tutor Loop|AI Learning Tutor Loop]] — AI Learning Tutor Loop uses a source-grounded AI system to map a field, expose disagreements, test understanding, and repair errors. ( #ai #learning #tutoring #questions)
 - [[wiki/concepts/Business Modeling in Software|Business Modeling in Software]] — 软件中的业务建模，不是先讨论'软件怎么做'，而是先回答：目标组织为了产出业务结果，现在是怎么运作的，应该怎么改。
@@ -161,7 +162,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #ai #cognition #causal-reasoning #source)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Added Context Anchoring as a focused concept connecting feature-level decision memory, context management, and AI skills workflow.
+- [[wiki/hot|Hot Cache]] — Added Encoding Team Standards as a focused concept connecting executable governance, AI skills workflow, and team quality gates.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

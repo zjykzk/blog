@@ -9,8 +9,9 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html#ThisPatternInLattice
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
+  - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
 created: 2026-05-05T17:05:00+08:00
-updated: 2026-05-05T17:35:00+08:00
+updated: 2026-05-05T17:45:00+08:00
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -56,6 +57,10 @@ For this wiki, it mainly strengthens [[wiki/syntheses/AI Engineering Workflow]],
 - It distinguishes project-level priming documents from feature-level context anchors: priming provides the stable vocabulary, while the feature document provides the evolving history.
 - It connects context anchoring to ADRs: code records outcomes, while the living document records reasoning and rejected alternatives.
 - The Context Anchoring Lattice example encodes the practice as a `context-anchoring` atom that creates or enriches a living document across sessions.
+- The Encoding Team Standards page argues that quality varies when AI instructions depend on who is prompting, even with the same model, codebase, and project context.
+- It proposes treating generation, refactoring, security, and review instructions as versioned, reviewed, shared infrastructure.
+- It describes executable instructions as having role definition, context requirements, categorized standards, and output format.
+- The Encoding Team Standards Lattice example uses composable atoms such as `clean-code`, `architecture`, `domain-driven-design`, `secure-coding`, and `test-quality`, with refiners that customize standards through guided interviews.
 - The author explicitly marks the benefits as hypotheses or early practice observations, not validated findings.
 - The approach has overhead and is most justified for non-trivial work, multi-session work, or team-coordinated work.
 
@@ -76,6 +81,10 @@ The focused Design-First Collaboration page deserves a separate concept because 
 ### [[wiki/concepts/Context Anchoring]]
 
 The focused Context Anchoring page deserves a separate concept because it moves AI collaboration memory from an eroding chat transcript into a durable feature-level decision artifact.
+
+### [[wiki/concepts/Encoding Team Standards]]
+
+The focused Encoding Team Standards page deserves a separate concept because it shifts team judgment from tacit senior habit into executable, versioned AI instructions.
 
 ### [[wiki/syntheses/AI Engineering Workflow]]
 
@@ -104,6 +113,7 @@ The article adds collaboration-quality metrics that are closer to testing and de
 - [[wiki/concepts/Knowledge Priming]]
 - [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/concepts/Context Anchoring]]
+- [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/topics/Spec-Driven Development]]
 - [[wiki/topics/Modern Software Engineering]]

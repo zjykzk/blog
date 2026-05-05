@@ -8,6 +8,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html#ThisPatternInLattice
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
+  - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
 created: 2026-04-22
 base_confidence: 0.70
 lifecycle: draft
@@ -16,8 +17,8 @@ provenance:
   extracted: 0.78
   inferred: 0.22
   ambiguous: 0.0
-source_count: 6
-updated: 2026-05-05T17:35:00+08:00
+source_count: 7
+updated: 2026-05-05T17:45:00+08:00
 aliases:
   - skills workflow
   - AI skills
@@ -52,6 +53,10 @@ That makes a skill more than an invocation shortcut. It can preserve sequencing 
 [[wiki/concepts/Context Anchoring]] adds a third Lattice example: a `context-anchoring` atom can create or enrich a living feature document across sessions, so the workflow's decisions and current state survive the chat boundary.
 
 This makes durable intermediate artifacts part of skill design. A skill can decide what should be kept outside the active context and reloaded later, not only what prompt should run now. ^[inferred]
+
+[[wiki/concepts/Encoding Team Standards]] adds a fourth Lattice example: atoms such as `clean-code`, `architecture`, `secure-coding`, and `test-quality` can carry team standards with self-validation checklists, while refiners customize them through guided interviews.
+
+That makes skills a vehicle for executable governance: they can apply shared team judgment consistently instead of relying on whoever happens to know the best prompt. ^[inferred]
 
 ## Practical pattern
 
@@ -93,6 +98,7 @@ This makes durable intermediate artifacts part of skill design. A skill can deci
 - [[wiki/concepts/Knowledge Priming]]
 - [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/concepts/Context Anchoring]]
+- [[wiki/concepts/Encoding Team Standards]]
 
 ## Peer topics
 

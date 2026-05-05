@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 13,
-    "total_pages": 129
+    "total_sources_ingested": 14,
+    "total_pages": 130
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -289,6 +289,30 @@
         "wiki/syntheses/AI Engineering Workflow.md",
         "wiki/topics/AI Skills Workflow.md",
         "wiki/topics/Spec-Driven Development.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html": {
+      "ingested_at": "2026-05-05T17:45:00+08:00",
+      "size_bytes": 14800,
+      "modified_at": "2026-03-31T00:00:00+00:00",
+      "content_hash": "sha256:9d4ae1dd06ac7fb704019f58b0d25d53566346a99ee59e69e145a0982ba7bd67",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Encoding Team Standards.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/AI Collaboration Scaffolding.md",
+        "wiki/sources/Reducing Friction in AI-Assisted Development Source Guide.md",
+        "wiki/syntheses/AI Engineering Workflow.md",
+        "wiki/topics/AI Skills Workflow.md",
+        "wiki/topics/Karpathy Guidelines.md",
+        "wiki/topics/Modern Software Engineering.md",
+        "wiki/topics/Testing Strategy.md",
         "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",
