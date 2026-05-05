@@ -45,3 +45,4 @@ tags:
 - [2026-05-05T13:58:10+08:00] INGEST source="https://x.com/trq212/status/2024574133011673516" pages_updated=8 pages_created=0 mode=append
 - [2026-05-05T14:03:13+08:00] INGEST source="https://x.com/akshay_pachaar/status/2041146899319971922" pages_updated=8 pages_created=2 mode=append
 - [2026-05-05T14:18:28+08:00] INGEST source="https://x.com/ihtesham2005/status/2030214970353602806" pages_updated=8 pages_created=2 mode=append
+- [2026-05-05T14:40:00+08:00] INGEST source="/Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf" pages_updated=7 pages_created=6 mode=append

@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-05T14:18:28+08:00
+updated: 2026-05-05T14:40:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -50,6 +50,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/Frontend Development Workflow|Frontend Development Workflow]] — Frontend development workflow 不是一条把设计稿翻译成页面的生产线，而是一套持续对齐用户任务、界面行为与系统行为的工作方法。 (#frontend #software-engineering #workflow #ux)
 - [[wiki/topics/Go Memory Model|Go Memory Model]] — Go Memory Model 的核心作用，是定义并发场景下内存操作之间的顺序约束，让我们能判断一个 goroutine 读取到的值在什么条件下是确定的。 (#golang #concurrency #memory-model)
 - [[wiki/topics/High Concurrency|High Concurrency]] — 当前这篇旧笔记内容还很少，但主题本身值得先占位，因为它很可能会成为系统设计和性能治理的重要母页。 (#cs #concurrency #systems)
+- [[wiki/topics/Judgment Under Leverage|Judgment Under Leverage]] — Judgment under leverage is the problem of making decisions whose consequences are amplified by capital, labor, code, or media. ( #judgment #leverage #wealth #decision-making)
 - [[wiki/topics/Karpathy Guidelines|Karpathy Guidelines]] — 这组 guideline 的核心目的是降低 LLM 写代码时常见的失误，尤其是：默认假设、过度设计、顺手大改、以及缺少可验证目标。 (#ai #coding #guidelines)
 - [[wiki/topics/Learnable Structure in Data|Learnable Structure in Data]] — 评估数据价值时，一个更稳的起点，不是先问“这里有多少信息”，而是先问：对当前模型来说，这里到底有多少结构是可学习的。 (#ai #data #training #topic)
 - [[wiki/topics/Learning Methodology|Learning Methodology]] — 一份自己能用、能指导动作的学习方法论。建立在两个概念之上：人是三通道进出系统；知识是网不是塔。
@@ -73,9 +74,11 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/UML Diagrams in Software Development|UML Diagrams in Software Development]] — UML 图不是一套必须全画的仪式，而是一组在不同开发环节回答不同问题的建模工具。
 - [[wiki/topics/User Stories|User Stories]] — 用户故事的价值，不在于写出一个固定格式，而在于把“谁、想做什么、为什么”表达清楚，并让需求能继续往设计与实现层面流动。 (#product #requirements #software-engineering)
 - [[wiki/topics/What Makes a Good Classification|What Makes a Good Classification]] — 好的分类，不是最整齐的分类，也不是看起来最像“标准答案”的分类，而是 最能支持理解、判断和行动的分类 。
+- [[wiki/topics/Wealth Creation|Wealth Creation]] — Wealth creation means owning scalable assets that give society what it wants, rather than renting time for money or playing status games. ( #wealth #business #leverage #career)
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Accountability|Accountability]] — Accountability means taking public, name-attached risk so society can route responsibility, equity, and leverage toward you. ( #wealth #responsibility #judgment #career)
 - [[wiki/concepts/Agent|Agent]] — Agent 的核心任务目前可以归纳为三件事： (#ai #agent #concept)
 - [[wiki/concepts/Agent Tool|Agent Tool]] — 当前在旧笔记中， Agent tool 这个文件名和其中的内容发生了错位：文件里实际保留的是 think tool 摘录，而 router / adapter 这段内容出现在旧的 llm.md 中。 (#ai #agents #tools)
 - [[wiki/concepts/AI Learning Tutor Loop|AI Learning Tutor Loop]] — AI Learning Tutor Loop uses a source-grounded AI system to map a field, expose disagreements, test understanding, and repair errors. ( #ai #learning #tutoring #questions)
@@ -98,9 +101,11 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Leverage Points|Leverage Points]] — 杠杆点是系统里“改一点，结果却变很多”的位置。
 - [[wiki/concepts/LLM|LLM]] — 当前旧笔记里与 LLM 相关的两类判断混在了一起： (#ai #llm #concept)
 - [[wiki/concepts/Prompt Caching|Prompt Caching]] — Prompt caching reuses stable prompt prefixes so repeated agent turns avoid recomputing the same system, tool, and context tokens. ( #ai #agents #context #caching)
+- [[wiki/concepts/Permissionless Leverage|Permissionless Leverage]] — Permissionless leverage uses code and media to multiply judgment without needing capital approval or labor hierarchy. ( #wealth #leverage #internet #media)
 - [[wiki/concepts/React|React]] — React is a frontend UI library centered on components, declarative rendering, and state-driven interface updates.
 - [[wiki/concepts/Software Analysis Three Generators|Software Analysis Three Generators]] — 翻书架：需求工程、用例建模、领域驱动设计、事件风暴、用户故事地图、业务流程再造、数据流图、状态机、UML 九种图、C4 模型、ArchiMate、Use Case 2.0、Jobs to be Done……每一派都说自己抓到了本质，每一派都有一套词汇表、一套图、一套流程。新人进来第一个反应是：这些到底是同一件事的不同说法，还是真的在干不同的事？
 - [[wiki/concepts/Software Design Three Generators|Software Design Three Generators]] — 软件设计这门学问，名词满天飞：SOLID、设计模式二十三种、DDD、六边形、洋葱、整洁架构、CQRS、事件溯源、依赖注入、分层、微服务、界限上下文、聚合根……但任何一个设计决定，最后都能归到三根独立的生成器里。
+- [[wiki/concepts/Specific Knowledge|Specific Knowledge]] — Specific knowledge is hard-to-train knowledge built from genuine curiosity, practice, and creative or technical edge. ( #wealth #learning #skill #judgment)
 - [[wiki/concepts/State Management|State Management]] — State management controls where application state lives, how it changes, and how those changes propagate through the interface. (#frontend #architecture #state)
 - [[wiki/concepts/Verification Loop|Verification Loop]] — A verification loop gives an agent external feedback, such as tests, visual checks, or evaluators, so errors are caught before they compound. (#ai #agents #verification)
 
@@ -127,6 +132,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Epiplexity Paper Notes|Epiplexity Paper Notes]] — 这页保留论文 From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence 的阅读笔记，并作为 Epiplexity 的来源层。 (#paper #ai #information-theory #source)
 - [[wiki/sources/Frontend Development Workflow Roundtable Source Guide|Frontend Development Workflow Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担前端工程方法论的稳定母页角色。 (#frontend #software-engineering #workflow #ux #source #roundtable)
 - [[wiki/sources/GenericAgent Paper Source Guide|GenericAgent Paper Source Guide]] — Source guide for the GenericAgent paper, focused on context information density, hierarchical memory, tool minimality, and self-evolution. (#papers #agents #ai #source)
+- [[wiki/sources/How to Get Rich Source Guide|How to Get Rich Source Guide]] — Source guide for Naval Ravikant's How to Get Rich tweetstorm PDF, focused on wealth, equity, specific knowledge, accountability, leverage, and judgment. ( #source #wealth #leverage #career #judgment)
 - [[wiki/sources/Journals|Journals Source Guide]] — journals/ 是当前 vault 的时间流输入层。它们不应直接承担稳定知识页职责，但应该持续为 wiki/ 提供可回溯的来源。 (#journals #raw #source)
 - [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide|LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]] — 这篇 arXiv 论文更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#paper #arxiv #reasoning #llm #source)
 - [[wiki/sources/Managed Agents Source Guide|Managed Agents Source Guide]] — 这篇 Anthropic engineering article 更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#agents #ai #harness #source #anthropic)
@@ -143,7 +149,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #ai #cognition #causal-reasoning #source)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Ingested Ihtesham Ali's NotebookLM learning workflow and added AI Learning Tutor Loop to the learning cluster.
+- [[wiki/hot|Hot Cache]] — Ingested Naval Ravikant's How to Get Rich PDF and added a wealth-creation cluster around specific knowledge, accountability, leverage, and judgment.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

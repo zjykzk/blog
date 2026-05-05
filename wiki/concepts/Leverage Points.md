@@ -5,12 +5,13 @@ status: draft
 category: concepts
 summary: 杠杆点是系统里“改一点，结果却变很多”的位置。
 tags: []
-sources: []
+sources:
+  - /Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf
 created: 2026-04-26
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-04-26
+updated: 2026-05-05T14:40:00+08:00
 aliases:
   - 杠杆点
   - High Leverage Change
@@ -83,6 +84,12 @@ aliases:
 
 高杠杆：建立稳定输出闭环、改变问题驱动方式、重建复盘机制。
 
+### Wealth creation
+
+低杠杆：继续提高小时收入。
+
+高杠杆：建立可复制资产、持有 equity、用 [[wiki/concepts/Permissionless Leverage]] 让代码或媒体在投入之后继续工作。Naval Ravikant 的 "How to Get Rich" 把这条路径压成 [[wiki/concepts/Specific Knowledge]]、[[wiki/concepts/Accountability]] 和 leverage 的组合。
+
 ### AI Agent
 
 低杠杆：反复抠 prompt 词句。
@@ -107,4 +114,6 @@ aliases:
 - [[wiki/concepts/Feedback Loops]]
 - [[wiki/topics/Mental Models]]
 - [[wiki/topics/Technical Management]]
+- [[wiki/topics/Wealth Creation]]
+- [[wiki/concepts/Permissionless Leverage]]
 - [[pages/Thinking in Systems]]

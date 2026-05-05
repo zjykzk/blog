@@ -6,12 +6,13 @@ category: topics
 summary: 这页聚合的是一组可以反复调用的思维工具，而不是某个单一学科知识点。
 sources:
   - https://x.com/ihtesham2005/status/2030214970353602806
+  - /Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf
 created: 2026-04-21
-base_confidence: 0.42
+base_confidence: 0.54
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 1
-updated: 2026-05-05T14:18:28+08:00
+source_count: 2
+updated: 2026-05-05T14:40:00+08:00
 aliases:
   - 思维框架
 tags:
@@ -19,8 +20,8 @@ tags:
   - models
   - decision-making
 provenance:
-  extracted: 0.70
-  inferred: 0.30
+  extracted: 0.68
+  inferred: 0.32
   ambiguous: 0.00
 ---
 
@@ -68,6 +69,10 @@ provenance:
 
 在学习一个新领域时，mental models 可以先作为“专家共享结构”被抽出来。Ihtesham Ali 的 NotebookLM 学习 workflow 里，第一步不是让 AI 总结教材，而是问“专家共享的 5 个核心 mental models 是什么”。这个问法把学习入口从材料顺序切到结构地图，适合接到 [[wiki/concepts/AI Learning Tutor Loop]]。^[inferred]
 
+## Wealth Use
+
+Naval Ravikant 的 "How to Get Rich" 也可以读成一组经济行动 mental models：区分 wealth / money / status，区分 renting time / owning equity，区分 permissioned leverage / [[wiki/concepts/Permissionless Leverage]]，以及把 leverage 视为 [[wiki/topics/Judgment Under Leverage]] 的放大器。^[inferred]
+
 ## Peer topics
 
 - [[wiki/topics/Categorical Thinking]]
@@ -76,6 +81,8 @@ provenance:
 - [[wiki/topics/Probability]]
 - [[wiki/topics/Learnable Structure in Data]]
 - [[wiki/topics/Learning Methodology]]
+- [[wiki/topics/Wealth Creation]]
+- [[wiki/topics/Judgment Under Leverage]]
 - [[wiki/concepts/AI Learning Tutor Loop]]
 - [[wiki/syntheses/Thinking and Judgment Workflow]]
 - [[wiki/topics/Modern Software Engineering]]
@@ -88,3 +95,4 @@ provenance:
 ## Source notes
 
 - `mobu/读书/思维框架.md`
+- `/Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf`

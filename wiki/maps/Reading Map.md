@@ -4,13 +4,14 @@ type: map
 status: seed
 category: maps
 summary: 这页用于承接读书笔记从 raw/source 进入 wiki 的提升过程。
-sources: []
+sources:
+  - /Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf
 created: 2026-04-21
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 1
-updated: 2026-04-21
+source_count: 2
+updated: 2026-05-05T14:40:00+08:00
 aliases:
   - 读书地图
 tags:
@@ -30,6 +31,8 @@ tags:
 - [[wiki/topics/Probability]]
 - [[wiki/topics/Modern Software Engineering]]
 - [[wiki/topics/Learnable Structure in Data]]
+- [[wiki/topics/Wealth Creation]]
+- [[wiki/topics/Judgment Under Leverage]]
 
 ## Syntheses
 
@@ -43,12 +46,14 @@ tags:
 - [[wiki/sources/Mobu Notes]]
 - [[wiki/sources/Probability Roundtable Source Guide]]
 - [[wiki/sources/Epiplexity Paper Notes]]
+- [[wiki/sources/How to Get Rich Source Guide]]
 
 ## Source layer
 
 - `mobu/读书/modern_software_engineering.md`
 - `mobu/读书/思维框架.md`
 - `mobu/读书/学会提问.md`
+- `/Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf`
 
 ## Promotion rule
 

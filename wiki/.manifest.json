@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 5,
-    "total_pages": 111
+    "total_sources_ingested": 6,
+    "total_pages": 117
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -104,6 +104,31 @@
         "wiki/topics/Mental Models.md",
         "wiki/topics/Critical Thinking.md",
         "wiki/maps/Learning Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "/Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf": {
+      "ingested_at": "2026-05-05T14:40:00+08:00",
+      "size_bytes": 150892,
+      "modified_at": "2026-05-04T11:38:54+08:00",
+      "content_hash": "sha256:ffb4cff07866c4ae89b7ccc81bacd92a0b63aff1f034847e5baa8935c6151563",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Specific Knowledge.md",
+        "wiki/concepts/Accountability.md",
+        "wiki/concepts/Permissionless Leverage.md",
+        "wiki/topics/Judgment Under Leverage.md",
+        "wiki/topics/Wealth Creation.md",
+        "wiki/sources/How to Get Rich Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/maps/Reading Map.md",
+        "wiki/maps/Management Map.md",
+        "wiki/concepts/Leverage Points.md",
+        "wiki/topics/Mental Models.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"
