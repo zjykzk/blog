@@ -5,6 +5,7 @@ status: seed
 summary: Context management designs what enters, stays in, leaves, and stays stable in an AI agent's active context under finite attention and cache constraints.
 category: topics
 sources:
+  - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
   - https://arxiv.org/abs/2307.03172
   - https://addyosmani.com/blog/agent-harness-engineering/
   - https://x.com/_avichawla/article/2044670188998803855
@@ -18,8 +19,8 @@ provenance:
   extracted: 0.92
   inferred: 0.08
   ambiguous: 0.0
-source_count: 8
-updated: 2026-05-05T15:45:00+08:00
+source_count: 9
+updated: 2026-05-05T16:25:00+08:00
 aliases:
   - 上下文管理
 tags:
@@ -45,6 +46,8 @@ tags:
 这也是为什么在 production agent 里，上下文管理应该被看成高频失败点，而不是 token 层的小优化。
 
 Akshay Pachaar's harness overview sharpens this point: context management is one of the components that turns a stateless model call into a stateful agent. The model does not carry durable working state by itself; the harness decides which memory, transcript, tool results, and current task state are visible on each turn.
+
+[[wiki/sources/AI Memory Survey Source Guide]] clarifies the boundary: context is the bounded runtime workspace for the current inference step, while [[wiki/topics/AI Memory]] is persistent state outside that step. They form a loop: encode interaction traces into memory, retrieve selected memory into context, act, then update memory from the result.
 
 ## Practical role
 
@@ -145,6 +148,7 @@ The Claude Code prompt-caching source sharpens this into an ordering rule: stabl
 ## Peer topics
 
 - [[wiki/topics/Tool Routing]]
+- [[wiki/topics/AI Memory]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/topics/Prompt Frequency]]
@@ -166,3 +170,4 @@ The Claude Code prompt-caching source sharpens this into an ordering rule: stabl
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
 - [[wiki/sources/Lost in the Middle Paper Source Guide]]
+- [[wiki/sources/AI Memory Survey Source Guide]]

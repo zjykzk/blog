@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 8,
-    "total_pages": 121
+    "total_sources_ingested": 9,
+    "total_pages": 124
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -172,6 +172,29 @@
       "pages_updated": [
         "wiki/topics/Context Management.md",
         "wiki/concepts/Context Information Density.md",
+        "wiki/syntheses/Agent System Design Space.md",
+        "wiki/sources/Agent Systems Papers Source Guide.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf": {
+      "ingested_at": "2026-05-05T16:25:00+08:00",
+      "size_bytes": 0,
+      "modified_at": "2026-05-05T16:25:00+08:00",
+      "content_hash": "sha256:109cd40e655f001c507c1a0625949ab7d015443dc3363f3c875007863896ed5d",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/topics/AI Memory.md",
+        "wiki/concepts/AI Memory 4W Taxonomy.md",
+        "wiki/sources/AI Memory Survey Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/Context Management.md",
+        "wiki/topics/AI Harness.md",
         "wiki/syntheses/Agent System Design Space.md",
         "wiki/sources/Agent Systems Papers Source Guide.md",
         "wiki/maps/AI Map.md",

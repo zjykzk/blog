@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-05T15:45:00+08:00
+updated: 2026-05-05T16:25:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -39,6 +39,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 
 ## Topics
 - [[wiki/topics/AI Harness|AI Harness]] — AI Harness is the runtime order layer that connects model, context, tools, permissions, state, recovery, and cache-stable capability loading into a controllable agent system. (#ai #agents #harness #runtime)
+- [[wiki/topics/AI Memory|AI Memory]] — AI Memory is the persistent state layer that lets agents retain, retrieve, update, and consolidate experience beyond a single context window. (#ai #agents #memory #context)
 - [[wiki/topics/AI Skills Workflow|AI Skills Workflow]] — 当前 source notes 里已经出现了一个很清楚的 workflow 雏形： (#ai #skills #workflow)
 - [[wiki/topics/BoltDB Internals|BoltDB Internals]] — BoltDB 是一个非常适合入门数据库实现的案例：代码量相对小，但已经覆盖了页式存储、B+ 树、事务、空闲页管理、写时复制等核心机制。 (#database #storage #golang)
 - [[wiki/topics/Categorical Thinking|Categorical Thinking]] — 分类思维，是先找一个划分维度，再按这个维度把混乱切成几类，从而让理解、判断和行动变得更清楚。
@@ -81,6 +82,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Accountability|Accountability]] — Accountability means taking public, name-attached risk so society can route responsibility, equity, and leverage toward you. ( #wealth #responsibility #judgment #career)
 - [[wiki/concepts/Agent|Agent]] — Agent 的核心任务目前可以归纳为三件事： (#ai #agent #concept)
 - [[wiki/concepts/Agent Tool|Agent Tool]] — Agent tools are schema-defined action surfaces that let an agent inspect, change, retrieve, or validate external state under harness control. (#ai #agents #tools)
+- [[wiki/concepts/AI Memory 4W Taxonomy|AI Memory 4W Taxonomy]] — The AI Memory 4W Taxonomy classifies memory by when it persists, what it stores, how it is represented, and which modalities it handles. (#ai #memory #taxonomy #agents)
 - [[wiki/concepts/AI Learning Tutor Loop|AI Learning Tutor Loop]] — AI Learning Tutor Loop uses a source-grounded AI system to map a field, expose disagreements, test understanding, and repair errors. ( #ai #learning #tutoring #questions)
 - [[wiki/concepts/Business Modeling in Software|Business Modeling in Software]] — 软件中的业务建模，不是先讨论'软件怎么做'，而是先回答：目标组织为了产出业务结果，现在是怎么运作的，应该怎么改。
 - [[wiki/concepts/Cognition Three Channels|Cognition Three Channels]] — 人认识世界靠三根独立的生成器撑着。关掉任何一根，认识塌一块。
@@ -130,6 +132,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Agent Harness Qiaomu Article Source Guide|Agent Harness Qiaomu Article Source Guide]] — 这篇文章目前更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#article #blog #ai #agents #harness #source)
 - [[wiki/sources/Agent Systems Papers Source Guide|Agent Systems Papers Source Guide]] — Source guide collecting agent-system papers and deciding which claims should stay source-level versus move into topics and syntheses. (#papers #agents #ai #source)
 - [[wiki/sources/AI Coding Control Limits Source Guide|AI Coding Control Limits Source Guide]] — 这篇文章更适合作为一个 source facing note 进入当前仓库，而不是直接承担稳定 topic 页角色。 (#ai-coding #software-engineering #source #complexity #productivity #security)
+- [[wiki/sources/AI Memory Survey Source Guide|AI Memory Survey Source Guide]] — Source guide for Survey on AI Memory, focused on memory theory, the 4W taxonomy, single/multi-agent memory, evaluation, and open challenges. (#paper #ai #agents #memory #survey)
 - [[wiki/sources/Before the Tool Call Source Guide|Before the Tool Call Source Guide]] — 这篇 arXiv 论文更适合作为单篇 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#paper #arxiv #agents #authorization #security #source)
 - [[wiki/sources/Dive into Claude Code Source Guide|Dive into Claude Code Source Guide]] — 这篇 arXiv 论文更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#paper #arxiv #agents #ai #harness #source)
 - [[wiki/sources/Epiplexity Paper Notes|Epiplexity Paper Notes]] — 这页保留论文 From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence 的阅读笔记，并作为 Epiplexity 的来源层。 (#paper #ai #information-theory #source)
@@ -153,7 +156,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #ai #cognition #causal-reasoning #source)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Ingested Lost in the Middle and added a long-context positional-bias concept around why usable context depends on evidence placement, not only context length.
+- [[wiki/hot|Hot Cache]] — Ingested Survey on AI Memory and added an AI Memory topic plus a 4W taxonomy for memory lifecycle, content, storage, and modality.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

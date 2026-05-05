@@ -13,8 +13,8 @@ provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
-source_count: 13
-updated: 2026-05-05T15:45:00+08:00
+source_count: 14
+updated: 2026-05-05T16:25:00+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -32,6 +32,7 @@ tags:
 
 - [[wiki/concepts/Agent]]
 - [[wiki/concepts/Agent Tool]]
+- [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/concepts/LLM]]
 - [[wiki/concepts/Epiplexity]]
 - [[wiki/concepts/Context Information Density]]
@@ -46,6 +47,7 @@ tags:
 - [[wiki/topics/Karpathy Guidelines]]
 - [[wiki/topics/Requirement to Architecture Mapping]]
 - [[wiki/topics/Context Management]]
+- [[wiki/topics/AI Memory]]
 - [[wiki/topics/Tool Routing]]
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/topics/Prompt Frequency]]
@@ -74,6 +76,7 @@ tags:
 - [[wiki/sources/Theory Is All You Need Source Guide]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
 - [[wiki/sources/Lost in the Middle Paper Source Guide]]
+- [[wiki/sources/AI Memory Survey Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]

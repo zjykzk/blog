@@ -13,8 +13,8 @@ provenance:
   extracted: 0.81
   inferred: 0.19
   ambiguous: 0.0
-source_count: 4
-updated: 2026-05-05T15:45:00+08:00
+source_count: 5
+updated: 2026-05-05T16:25:00+08:00
 aliases:
   - agent papers source
   - agent systems source guide
@@ -59,8 +59,11 @@ tags:
 - [[wiki/sources/Managed Agents Source Guide]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
 - [[wiki/sources/Lost in the Middle Paper Source Guide]]
+- [[wiki/sources/AI Memory Survey Source Guide]]
 
 The Lost in the Middle paper contributes an evaluation protocol for usable long context: move the relevant evidence across the input and measure best-case versus worst-case performance, rather than treating max context length as capability.
+
+The AI Memory survey contributes a broad taxonomy and evaluation vocabulary for memory systems, especially the distinction between context, memory, knowledge, and experience.
 
 ## Related source guides
 
@@ -70,7 +73,9 @@ The Lost in the Middle paper contributes an evaluation protocol for usable long 
 
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/Context Management]]
+- [[wiki/topics/AI Memory]]
 - [[wiki/topics/AI Skills Workflow]]
+- [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/concepts/Context Information Density]]
 - [[wiki/concepts/Lost in the Middle Effect]]
 - [[wiki/syntheses/Agent System Design Space]]

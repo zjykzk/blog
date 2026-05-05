@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity sharpened long-context evaluation, agent harness engineering, wealth creation, and learning workflows around context usability, verification, and feedback.
+summary: Recent wiki activity sharpened AI memory, long-context evaluation, and agent harness engineering around persistence, context usability, verification, and feedback.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-05T15:45:00+08:00
+updated: 2026-05-05T16:25:00+08:00
 ---
 
 ## Recent Activity
 
+- Ingested "Survey on AI Memory": added [[wiki/topics/AI Memory]] and [[wiki/concepts/AI Memory 4W Taxonomy]] to separate persistent memory from active context.
 - Ingested "Lost in the Middle": added [[wiki/concepts/Lost in the Middle Effect]] and strengthened context-management, context-density, and agent design-space pages around positional robustness.
 - Ingested Addy Osmani's "Agent Harness Engineering": added [[wiki/concepts/Harness Ratchet]] and strengthened harness, context-rot, tool-trust, hook, and verification-loop pages.
-- Ingested Naval Ravikant's "How to Get Rich" PDF: added a wealth-creation cluster around [[wiki/topics/Wealth Creation]], [[wiki/concepts/Specific Knowledge]], [[wiki/concepts/Accountability]], [[wiki/concepts/Permissionless Leverage]], and [[wiki/topics/Judgment Under Leverage]].
 
 ## Active Threads
 
@@ -29,6 +29,7 @@ updated: 2026-05-05T15:45:00+08:00
 - Wealth creation is now represented as a system model: own scalable assets, build specific knowledge, accept accountability, use permissionless leverage, and improve judgment because leverage amplifies decisions.
 - Harness engineering is now represented as a feedback discipline: repeated agent mistakes should become durable rules, hooks, checks, done conditions, tool-surface changes, or workflow splits.
 - Long-context quality now has a positional robustness thread: the right information must be present and placed where the model can actually use it.
+- AI memory is now split from context: memory persists and gets retrieved into the active window; context is the bounded runtime workspace for the current inference step.
 
 ## Key Takeaways
 
@@ -42,5 +43,6 @@ updated: 2026-05-05T15:45:00+08:00
 - Permissionless leverage connects the reading and management clusters: code and media change the replication structure of work, but they amplify judgment rather than replacing it.
 - Context rot reframes long-context work as an active harness problem: compaction, offloading, progressive disclosure, and full reset from a handoff file are runtime design choices.
 - More retrieved context is not automatically better; reader performance can saturate before retriever recall, so reranking and truncation can be accuracy tools, not just latency optimizations.
+- Memory architecture should be compared by lifecycle, content type, storage representation, and modality before debating implementation details.
 
 ## Flagged Contradictions

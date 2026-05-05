@@ -5,6 +5,7 @@ status: seed
 summary: Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, and cache economics.
 category: syntheses
 sources:
+  - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
   - https://arxiv.org/abs/2307.03172
   - https://addyosmani.com/blog/agent-harness-engineering/
   - https://x.com/_avichawla/article/2044670188998803855
@@ -18,8 +19,8 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.0
-source_count: 6
-updated: 2026-05-05T15:45:00+08:00
+source_count: 7
+updated: 2026-05-05T16:25:00+08:00
 aliases:
   - Agent architecture design space
   - AI agent system design space
@@ -152,6 +153,10 @@ GenericAgent 把 persistence 进一步拆成层级记忆：常驻索引、事实
 
 The same design surface includes full context resets: for long jobs, a harness may deliberately tear down a saturated session and rebuild from a compact handoff file. That is recovery by reconstruction, not merely summarization.
 
+[[wiki/sources/AI Memory Survey Source Guide]] broadens this surface into memory architecture: lifecycle, content type, storage representation, modality, consolidation policy, and sharing policy all change what the agent can preserve and reuse.
+
+In multi-agent systems, memory also becomes a coordination substrate: agents may communicate through shared natural-language summaries, structured schemas, latent state, shared task-level experience, or step-level routing.
+
 ### Cache economics
 
 Agent architecture also has an inference-economics surface: how much repeated work the system forces the model provider to redo.
@@ -188,6 +193,8 @@ Thariq's Claude Code article makes this design surface operational: cache-hit ra
 - 它是否把 repeated failures 转成 [[wiki/concepts/Harness Ratchet]] 层面的规则、hook 或 workflow change
 - 它如何隔离复杂任务和执行环境
 - 它如何记录状态，并在中断后恢复连续性
+- 它的 memory 属于什么生命周期、内容类型、存储形式和模态
+- 多 agent 共享 memory 时如何处理 provenance、冲突和访问边界
 - 它如何保持静态 prompt / tool / context 前缀稳定，避免不必要的缓存失效
 
 这样看，agent system 的差异不再只是 feature list 的差异，而是系统秩序设计的差异。
@@ -207,8 +214,10 @@ Thariq's Claude Code article makes this design surface operational: cache-hit ra
 
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/Context Management]]
+- [[wiki/topics/AI Memory]]
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/concepts/Context Information Density]]
+- [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/concepts/Lost in the Middle Effect]]
 - [[wiki/concepts/Prompt Caching]]
 - [[wiki/concepts/KV Cache]]
@@ -221,6 +230,7 @@ Thariq's Claude Code article makes this design surface operational: cache-hit ra
 - [[wiki/sources/Managed Agents Source Guide]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
 - [[wiki/sources/Lost in the Middle Paper Source Guide]]
+- [[wiki/sources/AI Memory Survey Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]

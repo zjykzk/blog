@@ -48,3 +48,4 @@ tags:
 - [2026-05-05T14:40:00+08:00] INGEST source="/Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf" pages_updated=7 pages_created=6 mode=append
 - [2026-05-05T15:10:00+08:00] INGEST source="https://addyosmani.com/blog/agent-harness-engineering/" pages_updated=10 pages_created=2 mode=append
 - [2026-05-05T15:45:00+08:00] INGEST source="https://arxiv.org/abs/2307.03172" pages_updated=8 pages_created=2 mode=append
+- [2026-05-05T16:25:00+08:00] INGEST source="https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf" pages_updated=8 pages_created=3 mode=append

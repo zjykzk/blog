@@ -5,6 +5,7 @@ status: growing
 summary: AI Harness is the runtime order layer that connects model, context, tools, permissions, state, recovery, and cache stability into a controllable agent system.
 category: topics
 sources:
+  - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
   - https://addyosmani.com/blog/agent-harness-engineering/
   - https://x.com/_avichawla/article/2044670188998803855
   - https://x.com/trq212/status/2024574133011673516
@@ -17,8 +18,8 @@ provenance:
   extracted: 0.93
   inferred: 0.07
   ambiguous: 0.0
-source_count: 9
-updated: 2026-05-05T15:10:00+08:00
+source_count: 10
+updated: 2026-05-05T16:25:00+08:00
 aliases:
   - harness
 tags:
@@ -59,6 +60,7 @@ AI Harness 不是模型本身，也不是某一个工具本身。它更像 agent
 - verification loop 如何把测试、视觉检查或 evaluator 的反馈送回系统
 - 子任务是否应该被委派，以及如何隔离执行环境
 - 状态如何被记录、持久化和重建
+- memory 如何被编码、检索、更新、遗忘和固化
 
 把这些放在一起看，harness 的职责就不只是“把模型接到工具上”，而是在塑造 agent 的可运行秩序。
 
@@ -137,6 +139,10 @@ GenericAgent 的做法是把四件事放在同一个设计原则下：
 - 用 truncation、compression、message eviction 和 working-memory anchor 控制长任务中的历史膨胀
 
 这说明 harness 的质量可以用一个新问题来追问：它是在提高 [[wiki/concepts/Context Information Density]]，还是只是在堆更多可见能力？ ^[inferred]
+
+[[wiki/sources/AI Memory Survey Source Guide]] gives this density-preserving role a broader memory architecture vocabulary. A harness can separate index from content, consolidate recent traces into reusable skills or reflections, and coordinate specialized buffers before acting.
+
+That means memory is not simply "more context later." It is a harness-governed state layer whose lifecycle, content type, storage form, and modality should match the agent's task. ^[inferred]
 
 ## Cache-stable harness
 
@@ -217,6 +223,7 @@ This is the role of [[wiki/concepts/Harness Ratchet]]: it turns failure history 
 - [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/topics/Context Management]]
+- [[wiki/topics/AI Memory]]
 - [[wiki/topics/Tool Routing]]
 
 ## Peer topics
@@ -239,6 +246,7 @@ This is the role of [[wiki/concepts/Harness Ratchet]]: it turns failure history 
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
+- [[wiki/sources/AI Memory Survey Source Guide]]
 
 ## Navigation
 
