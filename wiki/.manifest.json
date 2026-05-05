@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 7,
-    "total_pages": 119
+    "total_sources_ingested": 8,
+    "total_pages": 121
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -152,6 +152,28 @@
         "wiki/concepts/Verification Loop.md",
         "wiki/syntheses/Agent System Design Space.md",
         "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://arxiv.org/abs/2307.03172": {
+      "ingested_at": "2026-05-05T15:45:00+08:00",
+      "size_bytes": 334000,
+      "modified_at": "2023-11-20T23:09:34+00:00",
+      "content_hash": "sha256:6ee83218472b4aa1478e6fa41624afe0d9061d4447d324699ca4bb5883f0fbef",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Lost in the Middle Effect.md",
+        "wiki/sources/Lost in the Middle Paper Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/Context Management.md",
+        "wiki/concepts/Context Information Density.md",
+        "wiki/syntheses/Agent System Design Space.md",
+        "wiki/sources/Agent Systems Papers Source Guide.md",
         "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",

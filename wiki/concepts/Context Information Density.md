@@ -4,17 +4,18 @@ type: concept
 status: seed
 summary: Context information density treats agent context quality as the ratio of decision-relevant signal to finite active context budget.
 category: concepts
-sources: []
+sources:
+  - https://arxiv.org/abs/2307.03172
 created: 2026-05-04
 provenance:
-  extracted: 0.78
-  inferred: 0.22
+  extracted: 0.80
+  inferred: 0.20
   ambiguous: 0.0
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-05-04
-source_count: 1
-updated: 2026-05-04
+source_count: 2
+updated: 2026-05-05T15:45:00+08:00
 aliases:
   - context information density maximization
   - contextual information density
@@ -41,6 +42,10 @@ The paper frames context quality around two primary requirements:
 - **Naturalness**: the representation should stay semantically legible enough for the model to use.
 
 Completeness and conciseness are structurally in tension. Adding more material may preserve details but dilute attention; compressing material may improve focus but omit needed constraints. This tension remains even when context windows grow, because the model still has finite effective attention.
+
+[[wiki/sources/Lost in the Middle Paper Source Guide]] adds a third constraint: positional usability. A fact can be present, relevant, and still underused if it sits in a low-utility region of a long context.
+
+This is why density cannot be measured only by counting relevant tokens. It also depends on whether those tokens are placed where the model can retrieve and apply them. ^[inferred]
 
 ## Agent design implications
 
@@ -70,6 +75,8 @@ It also gives [[wiki/syntheses/Agent System Design Space]] a stronger evaluation
 ## Related
 
 - [[wiki/topics/Context Management]]
+- [[wiki/concepts/Lost in the Middle Effect]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
+- [[wiki/sources/Lost in the Middle Paper Source Guide]]

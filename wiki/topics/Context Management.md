@@ -5,6 +5,7 @@ status: seed
 summary: Context management designs what enters, stays in, leaves, and stays stable in an AI agent's active context under finite attention and cache constraints.
 category: topics
 sources:
+  - https://arxiv.org/abs/2307.03172
   - https://addyosmani.com/blog/agent-harness-engineering/
   - https://x.com/_avichawla/article/2044670188998803855
   - https://x.com/trq212/status/2024574133011673516
@@ -17,8 +18,8 @@ provenance:
   extracted: 0.92
   inferred: 0.08
   ambiguous: 0.0
-source_count: 7
-updated: 2026-05-05T15:10:00+08:00
+source_count: 8
+updated: 2026-05-05T15:45:00+08:00
 aliases:
   - 上下文管理
 tags:
@@ -70,6 +71,21 @@ Akshay Pachaar's harness overview sharpens this point: context management is one
 这解释了为什么“多塞一点上下文”不总是更安全。上下文越长，position bias、无关信息稀释和 effective context length 收缩会一起把关键信息挤出可用注意力范围。
 
 因此，更稳定的目标不是最大化可见历史，而是最大化 [[wiki/concepts/Context Information Density]]。
+
+## Positional robustness
+
+[[wiki/sources/Lost in the Middle Paper Source Guide]] gives the context-management cluster a concrete empirical failure mode: [[wiki/concepts/Lost in the Middle Effect]].
+
+The paper shows that long-context models may use information well when it appears at the beginning or end of the input, but perform substantially worse when the same information appears in the middle.
+
+This means context management has to govern ordering, not just inclusion:
+
+- decision-critical evidence should not be buried in the middle of a long prompt
+- retrieved documents may need reranking or truncation instead of simple top-k accumulation
+- long-context claims should be evaluated by moving relevant evidence across context positions
+- bigger context windows do not automatically imply better context use
+
+For agent systems, this makes evidence placement part of runtime design. A harness that preserves the right fact but places it where the model is unlikely to use it has not really preserved usable context. ^[inferred]
 
 ## Context rot and resets
 
@@ -149,3 +165,4 @@ The Claude Code prompt-caching source sharpens this into an ordering rule: stabl
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
+- [[wiki/sources/Lost in the Middle Paper Source Guide]]

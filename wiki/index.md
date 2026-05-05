@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-05T15:10:00+08:00
+updated: 2026-05-05T15:45:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -101,6 +101,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/KV Cache|KV Cache]] — KV cache stores transformer key/value tensors so repeated prefixes or generated histories do not need full attention recomputation. ( #ai #llm #inference #caching)
 - [[wiki/concepts/Leverage Points|Leverage Points]] — 杠杆点是系统里“改一点，结果却变很多”的位置。
 - [[wiki/concepts/LLM|LLM]] — 当前旧笔记里与 LLM 相关的两类判断混在了一起： (#ai #llm #concept)
+- [[wiki/concepts/Lost in the Middle Effect|Lost in the Middle Effect]] — The lost-in-the-middle effect is the long-context failure mode where models use information best at the beginning or end and worse in the middle. (#ai #llm #context #evaluation)
 - [[wiki/concepts/Prompt Caching|Prompt Caching]] — Prompt caching reuses stable prompt prefixes so repeated agent turns avoid recomputing the same system, tool, and context tokens. ( #ai #agents #context #caching)
 - [[wiki/concepts/Permissionless Leverage|Permissionless Leverage]] — Permissionless leverage uses code and media to multiply judgment without needing capital approval or labor hierarchy. ( #wealth #leverage #internet #media)
 - [[wiki/concepts/React|React]] — React is a frontend UI library centered on components, declarative rendering, and state-driven interface updates.
@@ -137,6 +138,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/How to Get Rich Source Guide|How to Get Rich Source Guide]] — Source guide for Naval Ravikant's How to Get Rich tweetstorm PDF, focused on wealth, equity, specific knowledge, accountability, leverage, and judgment. ( #source #wealth #leverage #career #judgment)
 - [[wiki/sources/Journals|Journals Source Guide]] — journals/ 是当前 vault 的时间流输入层。它们不应直接承担稳定知识页职责，但应该持续为 wiki/ 提供可回溯的来源。 (#journals #raw #source)
 - [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide|LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]] — 这篇 arXiv 论文更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#paper #arxiv #reasoning #llm #source)
+- [[wiki/sources/Lost in the Middle Paper Source Guide|Lost in the Middle Paper Source Guide]] — Source guide for the Lost in the Middle paper, focused on long-context positional bias and evaluation protocols for usable context. (#paper #ai #llm #context #evaluation)
 - [[wiki/sources/Managed Agents Source Guide|Managed Agents Source Guide]] — 这篇 Anthropic engineering article 更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#agents #ai #harness #source #anthropic)
 - [[wiki/sources/Mobu Notes|Mobu Notes Source Guide]] — mobu/ 目前是个人知识与领域素材的大池子，适合作为 raw/domain input 层，而不是直接作为稳定 wiki 层。 (#mobu #raw #source)
 - [[wiki/sources/Modern Software Engineering Notes|Modern Software Engineering Notes]] — 这份读书笔记目前以摘录和图片为主，仍更适合作为 source note，而不是直接升格为稳定 wiki 页面。 (#book-notes #software-engineering #source)
@@ -151,7 +153,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #ai #cognition #causal-reasoning #source)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Ingested Addy Osmani's Agent Harness Engineering article and added a harness-ratchet concept around turning agent failures into durable rules, hooks, checks, and workflow changes.
+- [[wiki/hot|Hot Cache]] — Ingested Lost in the Middle and added a long-context positional-bias concept around why usable context depends on evidence placement, not only context length.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

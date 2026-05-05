@@ -5,6 +5,7 @@ status: seed
 summary: Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, and cache economics.
 category: syntheses
 sources:
+  - https://arxiv.org/abs/2307.03172
   - https://addyosmani.com/blog/agent-harness-engineering/
   - https://x.com/_avichawla/article/2044670188998803855
   - https://x.com/trq212/status/2024574133011673516
@@ -17,8 +18,8 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.0
-source_count: 5
-updated: 2026-05-05T15:10:00+08:00
+source_count: 6
+updated: 2026-05-05T15:45:00+08:00
 aliases:
   - Agent architecture design space
   - AI agent system design space
@@ -107,11 +108,14 @@ Addy Osmani's harness-engineering article adds the ratchet angle: verification s
 
 [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]] 又补了另一个评价面：上下文是否 cache-stable。一个 agent 可能语义上保留了正确历史，但如果每一轮都重写 system prompt、重排 tool schema 或改变 model，它会在 runtime economics 上退化成冷缓存系统。
 
+[[wiki/sources/Lost in the Middle Paper Source Guide]] adds a third evaluation surface: positional robustness. A system can include the right evidence and still fail if that evidence lands where the model is least likely to use it.
+
 所以 context design 至少有三层问题：
 
 - what should be visible for the next decision
 - what should be compressed or retrieved later
 - what must remain stable enough for [[wiki/concepts/Prompt Caching]] to work
+- where decision-critical evidence should be placed so it remains usable
 
 ### Extension surfaces
 
@@ -179,6 +183,7 @@ Thariq's Claude Code article makes this design surface operational: cache-hit ra
 - 它在约束什么风险
 - 它把什么决策留给人
 - 它如何处理上下文受限的问题
+- 它是否能避免 [[wiki/concepts/Lost in the Middle Effect]] 把关键证据埋在低效位置
 - 它是否有 verification / evaluation loop 来纠偏自身输出
 - 它是否把 repeated failures 转成 [[wiki/concepts/Harness Ratchet]] 层面的规则、hook 或 workflow change
 - 它如何隔离复杂任务和执行环境
@@ -204,6 +209,7 @@ Thariq's Claude Code article makes this design surface operational: cache-hit ra
 - [[wiki/topics/Context Management]]
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/concepts/Context Information Density]]
+- [[wiki/concepts/Lost in the Middle Effect]]
 - [[wiki/concepts/Prompt Caching]]
 - [[wiki/concepts/KV Cache]]
 - [[wiki/concepts/Verification Loop]]
@@ -214,6 +220,7 @@ Thariq's Claude Code article makes this design surface operational: cache-hit ra
 
 - [[wiki/sources/Managed Agents Source Guide]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
+- [[wiki/sources/Lost in the Middle Paper Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]

@@ -13,8 +13,8 @@ provenance:
   extracted: 0.81
   inferred: 0.19
   ambiguous: 0.0
-source_count: 3
-updated: 2026-05-04
+source_count: 4
+updated: 2026-05-05T15:45:00+08:00
 aliases:
   - agent papers source
   - agent systems source guide
@@ -58,6 +58,9 @@ tags:
 - [[wiki/sources/Before the Tool Call Source Guide]]
 - [[wiki/sources/Managed Agents Source Guide]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
+- [[wiki/sources/Lost in the Middle Paper Source Guide]]
+
+The Lost in the Middle paper contributes an evaluation protocol for usable long context: move the relevant evidence across the input and measure best-case versus worst-case performance, rather than treating max context length as capability.
 
 ## Related source guides
 
@@ -69,6 +72,7 @@ tags:
 - [[wiki/topics/Context Management]]
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/concepts/Context Information Density]]
+- [[wiki/concepts/Lost in the Middle Effect]]
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/syntheses/AI Engineering Workflow]]
 
