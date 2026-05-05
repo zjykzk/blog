@@ -2,19 +2,20 @@
 title: AI Harness
 type: topic
 status: growing
-summary: AI Harness is the runtime order layer that connects model, context, tools, permissions, state, and recovery into a controllable agent system.
+summary: AI Harness is the runtime order layer that connects model, context, tools, permissions, state, recovery, and cache stability into a controllable agent system.
 category: topics
-sources: []
+sources:
+  - https://x.com/_avichawla/article/2044670188998803855
 created: 2026-05-04
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.99
-  inferred: 0.01
+  extracted: 0.94
+  inferred: 0.06
   ambiguous: 0.0
-source_count: 6
-updated: 2026-05-04
+source_count: 7
+updated: 2026-05-05T00:00:00+08:00
 aliases:
   - harness
 tags:
@@ -108,6 +109,7 @@ AI Harness 不是模型本身，也不是某一个工具本身。它更像 agent
 - execution reliability：系统如何把动作做成可恢复、可隔离、可连续的执行过程
 - human decision authority：系统如何保留人类在关键节点上的最终判断权
 - information density preservation：系统如何用工具最小化、分层记忆和压缩机制，把有限上下文留给真正影响下一步决策的信息
+- cache stability：系统如何让静态 prompt 前缀、tool schema、project context 和 model choice 在会话中保持稳定，从而复用 [[wiki/concepts/Prompt Caching]]
 
 这些维度并不是 Claude Code 独有的实现细节，而更像 agent system design 的一组通用观察面。
 
@@ -123,6 +125,21 @@ GenericAgent 的做法是把四件事放在同一个设计原则下：
 - 用 truncation、compression、message eviction 和 working-memory anchor 控制长任务中的历史膨胀
 
 这说明 harness 的质量可以用一个新问题来追问：它是在提高 [[wiki/concepts/Context Information Density]]，还是只是在堆更多可见能力？ ^[inferred]
+
+## Cache-stable harness
+
+[[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]] 给 harness 增加了一个更偏 runtime economics 的维度：长时 agent 不只要管理上下文质量，还要管理哪些上下文能作为稳定前缀被复用。
+
+这会把一些看似无害的实现细节变成系统约束：
+
+- system prompt 里注入时间戳，会让每一轮都变成不同前缀
+- tool schema 序列化顺序不稳定，会破坏缓存命中
+- 会话中途添加、删除或修改 tool definition，会让后续 token 重新计费和重算
+- 中途切换 model，会失去 model-specific cache
+
+因此 harness 不能只问“这一轮需要什么信息”，还要问“哪些信息应该稳定地留在前缀，哪些变化应该追加到 suffix”。
+
+一个更稳的做法是：把状态更新、提醒和压缩请求追加成新的消息，而不是改写 system prompt 或工具定义。这样可以同时保留 [[wiki/topics/Context Management]] 的语义连续性和 [[wiki/concepts/KV Cache]] 的可复用性。
 
 ## Design consequence
 
@@ -168,6 +185,7 @@ GenericAgent 的做法是把四件事放在同一个设计原则下：
 - [[wiki/sources/Agent Harness Qiaomu Article Source Guide]]
 - [[wiki/sources/Managed Agents Source Guide]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
+- [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 
 ## Navigation
 

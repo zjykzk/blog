@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-05
+updated: 2026-05-05T00:00:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -38,12 +38,12 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/maps/Software Design Map|Software Design Map]] — 这页把软件设计中的核心概念按层次放在一张图里。关键区分是： (#software-design #architecture #map)
 
 ## Topics
-- [[wiki/topics/AI Harness|AI Harness]] — AI Harness is the runtime order layer that connects model, context, tools, permissions, state, and recovery into a controllable agent system. (#ai #agents #harness #runtime)
+- [[wiki/topics/AI Harness|AI Harness]] — AI Harness is the runtime order layer that connects model, context, tools, permissions, state, recovery, and cache stability into a controllable agent system. (#ai #agents #harness #runtime)
 - [[wiki/topics/AI Skills Workflow|AI Skills Workflow]] — 当前 source notes 里已经出现了一个很清楚的 workflow 雏形： (#ai #skills #workflow)
 - [[wiki/topics/BoltDB Internals|BoltDB Internals]] — BoltDB 是一个非常适合入门数据库实现的案例：代码量相对小，但已经覆盖了页式存储、B+ 树、事务、空闲页管理、写时复制等核心机制。 (#database #storage #golang)
 - [[wiki/topics/Categorical Thinking|Categorical Thinking]] — 分类思维，是先找一个划分维度，再按这个维度把混乱切成几类，从而让理解、判断和行动变得更清楚。
 - [[wiki/topics/Circuit Breaker|Circuit Breaker]] — Circuit Breaker 是分布式系统里的保护机制：当下游服务已经过载或不可用时，不再继续把请求打过去，而是主动快速失败，避免故障扩大。 (#distributed-systems #resilience #architecture)
-- [[wiki/topics/Context Management|Context Management]] — Context management designs what enters, stays in, and leaves an AI agent's active context so decisions remain grounded under finite attention. (#ai #agents #context)
+- [[wiki/topics/Context Management|Context Management]] — Context management designs what enters, stays in, leaves, and stays stable in an AI agent's active context under finite attention and cache constraints. (#ai #agents #context)
 - [[wiki/topics/Critical Thinking|Critical Thinking]] — 这页聚合的是《学会提问》这类材料中最稳定、最值得反复使用的批判性思维框架。 (#thinking #reasoning #methods)
 - [[wiki/topics/European Antisemitism|European Antisemitism]] — 欧洲反犹主义之所以长期存在，不是因为犹太人有什么共同本质，而是因为他们在很多历史结构里反复处在一种容易被区分、被排斥、被掠夺、被甩锅的位置。它不是一条不变的偏见，而是一套会不断换语言的社会机制：中世纪更多借宗教敌意和制度隔离维持，近代更多借民族主义、经济焦虑和阴谋论升级，到了纳粹主义时期则被推进成国家机器。
 - [[wiki/topics/Frontend Development|Frontend Development]] — Frontend development organizes user-interface behavior, state, rendering, and interaction into maintainable software. (#frontend #software #ui)
@@ -93,8 +93,10 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Expression Three Channels|Expression Three Channels]] — 人向外表达，靠三根独立的生成器撑着。关掉任何一根，表达塌一块。
 - [[wiki/concepts/Feedback Loops|Feedback Loops]] — 反馈回路是系统里“结果反过来影响原因”的闭环。
 - [[wiki/concepts/Knowledge as Network|Knowledge as Network]] — 知识没有全局层级，只有局部的序。看起来像金字塔，其实是张网。
+- [[wiki/concepts/KV Cache|KV Cache]] — KV cache stores transformer key/value tensors so repeated prefixes or generated histories do not need full attention recomputation. ( #ai #llm #inference #caching)
 - [[wiki/concepts/Leverage Points|Leverage Points]] — 杠杆点是系统里“改一点，结果却变很多”的位置。
 - [[wiki/concepts/LLM|LLM]] — 当前旧笔记里与 LLM 相关的两类判断混在了一起： (#ai #llm #concept)
+- [[wiki/concepts/Prompt Caching|Prompt Caching]] — Prompt caching reuses stable prompt prefixes so repeated agent turns avoid recomputing the same system, tool, and context tokens. ( #ai #agents #context #caching)
 - [[wiki/concepts/React|React]] — React is a frontend UI library centered on components, declarative rendering, and state-driven interface updates.
 - [[wiki/concepts/Software Analysis Three Generators|Software Analysis Three Generators]] — 翻书架：需求工程、用例建模、领域驱动设计、事件风暴、用户故事地图、业务流程再造、数据流图、状态机、UML 九种图、C4 模型、ArchiMate、Use Case 2.0、Jobs to be Done……每一派都说自己抓到了本质，每一派都有一套词汇表、一套图、一套流程。新人进来第一个反应是：这些到底是同一件事的不同说法，还是真的在干不同的事？
 - [[wiki/concepts/Software Design Three Generators|Software Design Three Generators]] — 软件设计这门学问，名词满天飞：SOLID、设计模式二十三种、DDD、六边形、洋葱、整洁架构、CQRS、事件溯源、依赖注入、分层、微服务、界限上下文、聚合根……但任何一个设计决定，最后都能归到三根独立的生成器里。
@@ -102,7 +104,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 
 ## Syntheses
 - [[wiki/syntheses/Acting Under Complexity|Acting Under Complexity]] — 这页尝试把 Cynefin、决策模式、思考工作流、mental models、critical thinking 串成一个更高层的框架：当问题复杂、不确定、争议大时，关键不是只会分析，而是知道应该如何判断并继续行动。 (#synthesis #complexity #decision-making #thinking)
-- [[wiki/syntheses/Agent System Design Space|Agent System Design Space]] — Agent System Design Space compares agent architectures by their values, context handling, tools, permissions, memory, delegation, and recovery. (#synthesis #ai #agents #architecture)
+- [[wiki/syntheses/Agent System Design Space|Agent System Design Space]] — Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, and cache economics. (#synthesis #ai #agents #architecture)
 - [[wiki/syntheses/AI Engineering Workflow|AI Engineering Workflow]] — AI Engineering Workflow connects agent mental models, workflow control, tool design, coding constraints, and requirement normalization. (#synthesis #ai #agents #workflow)
 - [[wiki/syntheses/Business Analysis to Software Design|Business Analysis to Software Design]] — Synthesis of how business modeling and software analysis become software design through domain boundaries and shared models. (#software-methodology #analysis #design)
 - [[wiki/syntheses/Decision Modes for Engineering Work|Decision Modes for Engineering Work]] — 这页尝试把管理、问题判断和软件工程方法连成一个更高层的操作框架：面对不同类型的问题，团队不该只换答案，更要换决策模式。 (#synthesis #decision-making #management #engineering)
@@ -128,6 +130,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Mobu Notes|Mobu Notes Source Guide]] — mobu/ 目前是个人知识与领域素材的大池子，适合作为 raw/domain input 层，而不是直接作为稳定 wiki 层。 (#mobu #raw #source)
 - [[wiki/sources/Modern Software Engineering Notes|Modern Software Engineering Notes]] — 这份读书笔记目前以摘录和图片为主，仍更适合作为 source note，而不是直接升格为稳定 wiki 页面。 (#book-notes #software-engineering #source)
 - [[wiki/sources/Probability Roundtable Source Guide|Probability Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担概率论的稳定母页角色。 (#probability #thinking #roundtable #source)
+- [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide|Prompt Caching Claude Code Case Study Source Guide]] — Source guide for a prompt-caching case study that frames Claude Code cache efficiency as an agent harness design problem. ( #source #ai #agents #caching #claude-code)
 - [[wiki/sources/Published Posts|Published Posts Source Guide]] — content/posts/ 是对外发布层，不直接等同于 wiki 本体。 (#hugo #posts #source)
 - [[wiki/sources/Qiaomu Best Prompt Source Guide|Qiaomu Best Prompt Source Guide]] — 这篇文章当前更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定母页。 (#article #blog #ai #llm #prompting #source)
 - [[wiki/sources/React Framework Background and Core Concepts Source Guide|React Framework Background and Core Concepts Source Guide]] — 这篇材料更适合作为 React 入门理解的 source facing note，而不是直接承担前端体系中的稳定概念母页。 (#react #frontend #web #ui #source)
@@ -136,7 +139,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #ai #cognition #causal-reasoning #source)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Ingested the GenericAgent paper: added a context information density concept and connected it to context management, harness design, and agent architecture synthesis.
+- [[wiki/hot|Hot Cache]] — Ingested a Claude Code prompt-caching case study: added Prompt Caching and KV Cache concepts and connected cache stability to context and harness design.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

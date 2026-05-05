@@ -2,19 +2,20 @@
 title: Agent System Design Space
 type: synthesis
 status: seed
-summary: Agent System Design Space compares agent architectures by their values, context handling, tools, permissions, memory, delegation, and recovery.
+summary: Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, and cache economics.
 category: syntheses
-sources: []
+sources:
+  - https://x.com/_avichawla/article/2044670188998803855
 created: 2026-05-04
 base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 1.0
-  inferred: 0.0
+  extracted: 0.92
+  inferred: 0.08
   ambiguous: 0.0
-source_count: 2
-updated: 2026-05-04
+source_count: 3
+updated: 2026-05-05T00:00:00+08:00
 aliases:
   - Agent architecture design space
   - AI agent system design space
@@ -86,6 +87,14 @@ tags:
 
 [[wiki/sources/GenericAgent Paper Source Guide]] 给这块补了一个更精确的评价词：[[wiki/concepts/Context Information Density]]。也就是说，比较 agent architecture 时，不能只问它能不能恢复历史，还要问恢复出来的历史是否真的提高下一步决策的信息密度。
 
+[[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]] 又补了另一个评价面：上下文是否 cache-stable。一个 agent 可能语义上保留了正确历史，但如果每一轮都重写 system prompt、重排 tool schema 或改变 model，它会在 runtime economics 上退化成冷缓存系统。
+
+所以 context design 至少有三层问题：
+
+- what should be visible for the next decision
+- what should be compressed or retrieved later
+- what must remain stable enough for [[wiki/concepts/Prompt Caching]] to work
+
 ### Extension surfaces
 
 skill、hook、plugin、MCP 这些看起来分散的接口，实际上都在回答同一个问题：系统如何扩展自己的能力边界。
@@ -117,6 +126,14 @@ GenericAgent 的 minimal atomic tool set 提供了一个相反方向的设计样
 
 GenericAgent 把 persistence 进一步拆成层级记忆：常驻索引、事实层、SOP 层和原始会话归档层。这个分层的关键不是“记得更多”，而是让更深层知识可检索但默认不污染当前上下文。
 
+### Cache economics
+
+Agent architecture also has an inference-economics surface: how much repeated work the system forces the model provider to redo.
+
+For long sessions, a large static foundation can be cheap after the first turn if it remains an identical prefix. The same foundation can be expensive on every turn if the harness mutates anything upstream of the cache breakpoint.
+
+This makes cache discipline a sibling of memory, tool design, and recovery rather than a billing afterthought. ^[inferred]
+
 ## 4. Why environment changes the architecture
 
 同一类 agent 设计问题，在不同环境里并不会得到同一个最优解。
@@ -141,6 +158,7 @@ GenericAgent 把 persistence 进一步拆成层级记忆：常驻索引、事实
 - 它是否有 verification / evaluation loop 来纠偏自身输出
 - 它如何隔离复杂任务和执行环境
 - 它如何记录状态，并在中断后恢复连续性
+- 它如何保持静态 prompt / tool / context 前缀稳定，避免不必要的缓存失效
 
 这样看，agent system 的差异不再只是 feature list 的差异，而是系统秩序设计的差异。
 
@@ -161,11 +179,14 @@ GenericAgent 把 persistence 进一步拆成层级记忆：常驻索引、事实
 - [[wiki/topics/Context Management]]
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/concepts/Context Information Density]]
+- [[wiki/concepts/Prompt Caching]]
+- [[wiki/concepts/KV Cache]]
 
 ## Upstream source notes
 
 - [[wiki/sources/Managed Agents Source Guide]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
+- [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 
 ## Navigation
 

@@ -2,19 +2,20 @@
 title: Context Management
 type: topic
 status: seed
-summary: Context management designs what enters, stays in, and leaves an AI agent's active context so decisions remain grounded under finite attention.
+summary: Context management designs what enters, stays in, leaves, and stays stable in an AI agent's active context under finite attention and cache constraints.
 category: topics
-sources: []
+sources:
+  - https://x.com/_avichawla/article/2044670188998803855
 created: 2026-05-04
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 1.0
-  inferred: 0.0
+  extracted: 0.93
+  inferred: 0.07
   ambiguous: 0.0
-source_count: 4
-updated: 2026-05-04
+source_count: 5
+updated: 2026-05-05T00:00:00+08:00
 aliases:
   - 上下文管理
 tags:
@@ -64,6 +65,24 @@ tags:
 
 因此，更稳定的目标不是最大化可见历史，而是最大化 [[wiki/concepts/Context Information Density]]。
 
+## Cache-stable context
+
+[[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]] adds an economic and runtime dimension to context management: the order and mutability of context affect whether repeated prompt tokens can be served from cache.
+
+The useful split is:
+
+- static prefix: system instructions, tool definitions, project context, and stable reference material
+- dynamic suffix: user turns, assistant turns, tool output, and observations
+
+If the static prefix remains byte-for-byte stable, provider-side [[wiki/concepts/Prompt Caching]] can reuse the [[wiki/concepts/KV Cache]] state for that prefix. If the harness injects timestamps, reorders tool schemas, changes tools, or rewrites upstream state, the cache can miss even when the semantic content feels equivalent.
+
+This means context management has two simultaneous goals:
+
+- preserve decision-relevant information density
+- preserve prefix identity when stable information does not need to change
+
+Those goals can conflict when a system wants to update policies, tools, or durable state mid-session. In that case, cache efficiency is not the only objective; it is one design constraint among correctness, safety, and freshness. ^[inferred]
+
 ## Reasoning implication
 
 如果接受“reasoning 主要发生在 latent-state trajectory，而不是表面 chain-of-thought”这一视角，那么上下文管理的重要性会被重新理解。
@@ -92,6 +111,7 @@ tags:
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/topics/Prompt Frequency]]
+- [[wiki/concepts/Prompt Caching]]
 
 ## Downstream synthesis
 
@@ -105,3 +125,4 @@ tags:
 - [[wiki/sources/Dive into Claude Code Source Guide]]
 - [[wiki/sources/Agent Harness Qiaomu Article Source Guide]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
+- [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]

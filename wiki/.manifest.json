@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 1,
-    "total_pages": 98
+    "total_sources_ingested": 2,
+    "total_pages": 101
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -23,6 +23,27 @@
         "wiki/sources/Agent Systems Papers Source Guide.md",
         "wiki/maps/AI Map.md",
         "wiki/syntheses/AI Engineering Workflow.md"
+      ]
+    },
+    "https://x.com/_avichawla/article/2044670188998803855": {
+      "ingested_at": "2026-05-05T00:00:00+08:00",
+      "size_bytes": 10526,
+      "modified_at": "2026-05-05T00:00:00+08:00",
+      "content_hash": "sha256:5b66b7d94d84083a56d881bfa57e7af0b51e9495894c7d0f520f10f9f7d4e6d8",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Prompt Caching.md",
+        "wiki/concepts/KV Cache.md",
+        "wiki/sources/Prompt Caching Claude Code Case Study Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/Context Management.md",
+        "wiki/topics/AI Harness.md",
+        "wiki/syntheses/Agent System Design Space.md",
+        "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md"
       ]
     }
   }

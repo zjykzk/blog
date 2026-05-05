@@ -9,8 +9,8 @@ created: 2026-04-23
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 4
-updated: 2026-04-23
+source_count: 5
+updated: 2026-05-05T00:00:00+08:00
 aliases:
   - agent engineering source cluster
   - harness workflow source guide
@@ -57,6 +57,7 @@ tags:
 - [[wiki/sources/Dive into Claude Code Source Guide]]
 - [[wiki/sources/Before the Tool Call Source Guide]]
 - [[wiki/sources/Agent Systems Papers Source Guide]]
+- [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 
 ## Main promotion destinations
 
@@ -66,6 +67,7 @@ tags:
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/syntheses/AI Engineering Workflow]]
+- [[wiki/concepts/Prompt Caching]]
 
 ## What belongs here
 
