@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-06T21:23:05+08:00
+updated: 2026-05-06T21:40:37+08:00
 aliases:
   - Wiki Log
 tags:
@@ -64,3 +64,5 @@ tags:
 - [2026-05-06T20:17:19+08:00] INGEST source="/Users/zenk/Documents/notes/20260506T201315--概念解剖-应用__concept.org" pages_updated=6 pages_created=2 mode=append
 - [2026-05-06T20:58:15+08:00] INGEST source="/Users/zenk/Documents/notes/20260506T204024--概念解剖-评价__concept.org" pages_updated=4 pages_created=2 mode=append
 - [2026-05-06T21:23:05+08:00] INGEST source="/Users/zenk/Documents/notes/20260506T211953--概念解剖-创造__concept.org" pages_updated=7 pages_created=2 mode=append
+- [2026-05-06T21:35:29+08:00] CAPTURE type=concept page="wiki/concepts/Knowledge Types.md" title="Knowledge Types"
+- [2026-05-06T21:40:37+08:00] CAPTURE type=concept page="wiki/concepts/Knowledge Types.md" title="Judgment Knowledge"

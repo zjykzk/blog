@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-06T21:23:05+08:00
+updated: 2026-05-06T21:40:37+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -115,6 +115,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Feedback Loops|Feedback Loops]] — Feedback loops are system structures where results flow back to influence future causes, creating growth, stability, or oscillation.
 - [[wiki/concepts/Harness Ratchet|Harness Ratchet]] — A harness ratchet turns repeated agent failures into durable rules, hooks, checks, or workflow changes instead of treating them as one-off bad runs. (#ai #agents #harness #feedback)
 - [[wiki/concepts/Knowledge as Network|Knowledge as Network]] — 知识没有全局层级，只有局部的序。看起来像金字塔，其实是张网。
+- [[wiki/concepts/Knowledge Types|Knowledge Types]] — 知识类型按知识在人脑和行动中的功能划分；布卢姆分类则描述对知识的掌握深度。 (#cognition #learning #concepts #taxonomy)
 - [[wiki/concepts/KV Cache|KV Cache]] — KV cache stores transformer key/value tensors so repeated prefixes or generated histories do not need full attention recomputation. ( #ai #llm #inference #caching)
 - [[wiki/concepts/Leverage Points|Leverage Points]] — 杠杆点是系统里“改一点，结果却变很多”的位置。
 - [[wiki/concepts/LLM Inference Benchmarking|LLM Inference Benchmarking]] — LLM inference benchmarking compares latency, throughput, and goodput under request shapes and service-level objectives. (#ai #llm #inference #benchmarking)
