@@ -3,14 +3,15 @@ title: Tool Routing
 type: topic
 status: growing
 category: topics
-summary: 当前笔记里关于 router / adapter 的判断，可以进一步抽成一个独立主题：工具路由不是附属细节，而是 agent 系统的核心结构设计。
-sources: []
+summary: Tool Routing designs how an agent chooses the next capability path while keeping capability selection separate from permission and execution boundaries.
+sources:
+  - https://x.com/trq212/status/2027463795355095314
 created: 2026-04-22
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 4
-updated: 2026-04-22
+source_count: 5
+updated: 2026-05-06T11:10:34+08:00
 aliases:
   - tool routing
   - router and adapter
@@ -86,6 +87,10 @@ tags:
 
 因此好的 routing 设计，重点不只是提高命中率，还在于让 capability selection、policy enforcement 和 execution translation 之间的边界保持清晰。
 
+[[wiki/sources/Seeing Like an Agent Source Guide]] adds a second routing implication: not every new capability should become a new top-level tool. Claude Code expanded action space through skills, codebase search, and a guide subagent, which let the model discover or delegate capability without increasing the always-visible tool list.
+
+That means routing also includes choosing the right exposure layer: direct tool, skill reference, search path, subagent, or no new action surface. ^[inferred]
+
 ## Downstream synthesis
 
 - [[wiki/syntheses/AI Engineering Workflow]]
@@ -94,3 +99,4 @@ tags:
 
 - `pages/llm.md`
 - [[wiki/sources/Before the Tool Call Source Guide]]
+- [[wiki/sources/Seeing Like an Agent Source Guide]]

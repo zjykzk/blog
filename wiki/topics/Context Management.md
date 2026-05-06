@@ -12,16 +12,17 @@ sources:
   - https://x.com/trq212/status/2024574133011673516
   - https://x.com/akshay_pachaar/status/2041146899319971922
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
+  - https://x.com/trq212/status/2027463795355095314
 created: 2026-05-04
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.92
-  inferred: 0.08
+  extracted: 0.91
+  inferred: 0.09
   ambiguous: 0.0
-source_count: 10
-updated: 2026-05-05T17:35:00+08:00
+source_count: 11
+updated: 2026-05-06T11:10:34+08:00
 aliases:
   - 上下文管理
 tags:
@@ -104,6 +105,10 @@ The article maps this to several harness mechanisms:
 
 This strengthens the current density view: context management is not only preserving history, but deciding when old history should leave the active reasoning surface and become retrievable state.
 
+[[wiki/sources/Seeing Like an Agent Source Guide]] adds a second progressive-disclosure path from Claude Code practice: instead of preloading RAG context, give the agent search tools so it can build context itself. As models improved, Claude Code moved from handing Claude retrieved snippets toward letting Claude search the codebase, follow skill references, and recursively discover relevant material.
+
+This reframes context management as supervised exploration, not just context selection. The harness designs which search and disclosure paths exist, while the model performs some of the context assembly. ^[inferred]
+
 ## Externalized decision context
 
 [[wiki/concepts/Context Anchoring]] adds a collaboration-level answer to context rot: do not keep feature decisions only in the chat transcript.
@@ -180,3 +185,4 @@ The Claude Code prompt-caching source sharpens this into an ordering rule: stabl
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
 - [[wiki/sources/Lost in the Middle Paper Source Guide]]
 - [[wiki/sources/AI Memory Survey Source Guide]]
+- [[wiki/sources/Seeing Like an Agent Source Guide]]

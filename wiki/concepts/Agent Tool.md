@@ -7,16 +7,17 @@ summary: Agent tools are schema-defined action surfaces that let an agent inspec
 sources:
   - https://addyosmani.com/blog/agent-harness-engineering/
   - https://x.com/akshay_pachaar/status/2041146899319971922
+  - https://x.com/trq212/status/2027463795355095314
 created: 2026-04-20
-base_confidence: 0.44
+base_confidence: 0.55
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.76
-  inferred: 0.24
+  extracted: 0.78
+  inferred: 0.22
   ambiguous: 0.0
-source_count: 4
-updated: 2026-05-05T15:10:00+08:00
+source_count: 5
+updated: 2026-05-06T11:10:34+08:00
 aliases:
   - agent tools
   - router and adapter
@@ -67,6 +68,12 @@ Addy Osmani's harness-engineering article sharpens this into two operational rul
 
 This means tool scoping is both a context-quality problem and a security boundary problem. ^[inferred]
 
+[[wiki/sources/Seeing Like an Agent Source Guide]] adds a model-fit rule: an [[wiki/concepts/Agent Tool]] should match what the model can reliably understand and use. Claude Code's question-asking tool worked better as a dedicated tool than as a parameter on a planning tool or as a markdown output convention, because the dedicated tool gave the harness structured output and let the UI block until the user answered.
+
+The same source warns that tool usefulness changes as model capability changes. Todo lists and periodic reminders helped earlier Claude Code runs, but later became constraints when stronger models could revise plans and coordinate subagents. Tool design therefore needs periodic pruning, not only addition. ^[inferred]
+
+This connects to [[wiki/concepts/Agent Action Space]]: each tool is both a capability and a choice burden.
+
 ## Note on source mismatch
 
 当前 source note 存在文件名与内容的历史错位：
@@ -83,6 +90,7 @@ This means tool scoping is both a context-quality problem and a security boundar
 - [[wiki/topics/Context Management]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Harness Ratchet]]
+- [[wiki/concepts/Agent Action Space]]
 - [[wiki/maps/AI Map]]
 
 ## Source notes
@@ -91,3 +99,4 @@ This means tool scoping is both a context-quality problem and a security boundar
 - `pages/Agent.md`
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
+- [[wiki/sources/Seeing Like an Agent Source Guide]]

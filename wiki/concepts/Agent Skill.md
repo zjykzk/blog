@@ -6,14 +6,15 @@ category: concepts
 summary: Agent Skill is a reusable capability bundle that can combine instructions, references, scripts, assets, memory, and hooks for agent work.
 sources:
   - https://x.com/trq212/status/2033949937936085378
+  - https://x.com/trq212/status/2027463795355095314
 created: 2026-05-06T10:51:47+08:00
-updated: 2026-05-06T10:51:47+08:00
+updated: 2026-05-06T11:10:34+08:00
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 provenance:
-  extracted: 0.72
-  inferred: 0.28
+  extracted: 0.74
+  inferred: 0.26
   ambiguous: 0.0
 aliases:
   - agent skills
@@ -61,6 +62,10 @@ The article's practical rule is that durable skills tend to fit cleanly into one
 
 These principles connect directly to [[wiki/topics/AI Skills Workflow]]: a strong skill is a small operating surface for context, tools, memory, verification, and guardrails, not merely a paragraph of advice. ^[inferred]
 
+[[wiki/sources/Seeing Like an Agent Source Guide]] adds why skills matter for action-space design: they can add functionality through progressive disclosure without adding another always-visible top-level tool. The model can read a skill file, follow references recursively, and discover task-specific context only when needed.
+
+This makes skills a middle layer between static prompt context and explicit tool calls. They enlarge [[wiki/concepts/Agent Action Space]] while keeping the immediate tool menu smaller. ^[inferred]
+
 ## Marketplace Implication
 
 Skills become team infrastructure when they are shared through repositories or plugin marketplaces. The article warns that scale creates a curation problem: teams need a way to notice useful skills, move them into shared distribution, and prevent redundant or low-quality skills from accumulating.
@@ -77,6 +82,8 @@ This connects to [[wiki/concepts/Encoding Team Standards]] because shared skills
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/Context Management]]
+- [[wiki/concepts/Agent Action Space]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/sources/Claude Code Skills Source Guide]]
+- [[wiki/sources/Seeing Like an Agent Source Guide]]

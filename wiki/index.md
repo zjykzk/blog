@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-06T10:51:47+08:00
+updated: 2026-05-06T11:10:34+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -81,6 +81,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 ## Concepts
 - [[wiki/concepts/Accountability|Accountability]] — Accountability means taking public, name-attached risk so society can route responsibility, equity, and leverage toward you. ( #wealth #responsibility #judgment #career)
 - [[wiki/concepts/Agent|Agent]] — Agent 的核心任务目前可以归纳为三件事： (#ai #agent #concept)
+- [[wiki/concepts/Agent Action Space|Agent Action Space]] — Agent Action Space is the set of actions an agent can perceive, choose, compose, and execute through tools, skills, subagents, and harness policy. (#ai #agents #tools #harness)
 - [[wiki/concepts/Agent Skill|Agent Skill]] — Agent Skill is a reusable capability bundle that can combine instructions, references, scripts, assets, memory, and hooks for agent work. (#ai #agents #skills #workflow)
 - [[wiki/concepts/Agent Tool|Agent Tool]] — Agent tools are schema-defined action surfaces that let an agent inspect, change, retrieve, or validate external state under harness control. (#ai #agents #tools)
 - [[wiki/concepts/AI Collaboration Scaffolding|AI Collaboration Scaffolding]] — AI collaboration scaffolding gives coding assistants onboarding context, design discussion, standards, anchors, and feedback loops so their output fits the team. (#ai #software-engineering #workflow #ai-coding)
@@ -160,6 +161,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Qiaomu Best Prompt Source Guide|Qiaomu Best Prompt Source Guide]] — 这篇文章当前更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定母页。 (#article #blog #ai #llm #prompting #source)
 - [[wiki/sources/React Framework Background and Core Concepts Source Guide|React Framework Background and Core Concepts Source Guide]] — 这篇材料更适合作为 React 入门理解的 source facing note，而不是直接承担前端体系中的稳定概念母页。 (#react #frontend #web #ui #source)
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide|Reducing Friction in AI-Assisted Development Source Guide]] — Source guide for Rahul Garg's Martin Fowler article on five patterns for reducing friction in AI-assisted development. (#source #ai-coding #software-engineering #workflow #collaboration)
+- [[wiki/sources/Seeing Like an Agent Source Guide|Seeing Like an Agent Source Guide]] — Source guide for Thariq Shihipar's Claude Code article on action-space design, tool iteration, elicitation, task coordination, search, and progressive disclosure. (#source #ai #agents #tools #claude-code)
 - [[wiki/sources/Software Methodology by Pan Jianyu|Software Methodology by Pan Jianyu]] — 这页收纳《软件方法》相关的阅读入口与当前已经稳定下来的判断。
 - [[wiki/sources/Spec-Driven Development Paper Source Guide|Spec-Driven Development Paper Source Guide]] — 这篇论文是 Deepak Babu Piskala 投稿 AIWare 2026 的 practitioner guide，把 SDD 这波被 AI coding assistant 重新点燃的旧想法梳理成三档光谱 + 四阶段流水线 + 决策框架。8 页，3 张图，零量化实验。 (#software-engineering #specs #ai-coding #paper)
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #ai #cognition #causal-reasoning #source)

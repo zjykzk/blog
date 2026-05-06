@@ -9,8 +9,8 @@ created: 2026-04-23
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 8
-updated: 2026-05-06T10:51:47+08:00
+source_count: 9
+updated: 2026-05-06T11:10:34+08:00
 aliases:
   - agent engineering source cluster
   - harness workflow source guide
@@ -62,6 +62,7 @@ tags:
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Claude Code Skills Source Guide]]
+- [[wiki/sources/Seeing Like an Agent Source Guide]]
 
 The prompt-caching guide now covers both a secondary case-study explainer and Thariq's original Claude Code article, which contributes the production-harness angle: cache-hit monitoring, stable mode tools, deferred tool loading, and cache-safe compaction.
 
@@ -72,6 +73,8 @@ Addy Osmani's harness-engineering guide contributes the operational discipline: 
 Rahul Garg's friction-reduction guide contributes the team collaboration layer: prime context, align design, anchor decisions, encode standards, and run a feedback flywheel.
 
 Thariq Shihipar's Claude Code skills guide contributes the skill-operating layer: skills can bundle references, scripts, assets, memory, setup, and on-demand hooks, while progressive disclosure keeps the always-loaded context small.
+
+Thariq Shihipar's "Seeing like an Agent" guide contributes the action-space design layer: observe model behavior, keep the top-level tool surface small, and choose between tools, skills, search, and subagents based on what the model can actually use.
 
 ## Main promotion destinations
 
@@ -86,6 +89,7 @@ Thariq Shihipar's Claude Code skills guide contributes the skill-operating layer
 - [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Agent Skill]]
+- [[wiki/concepts/Agent Action Space]]
 
 ## What belongs here
 

@@ -10,16 +10,17 @@ sources:
   - https://x.com/_avichawla/article/2044670188998803855
   - https://x.com/trq212/status/2024574133011673516
   - https://x.com/akshay_pachaar/status/2041146899319971922
+  - https://x.com/trq212/status/2027463795355095314
 created: 2026-05-04
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.93
-  inferred: 0.07
+  extracted: 0.92
+  inferred: 0.08
   ambiguous: 0.0
-source_count: 10
-updated: 2026-05-05T16:25:00+08:00
+source_count: 11
+updated: 2026-05-06T11:10:34+08:00
 aliases:
   - harness
 tags:
@@ -124,8 +125,13 @@ This matters because the same model can be moved between harnesses and expose ve
 - human decision authority：系统如何保留人类在关键节点上的最终判断权
 - information density preservation：系统如何用工具最小化、分层记忆和压缩机制，把有限上下文留给真正影响下一步决策的信息
 - cache stability：系统如何让静态 prompt 前缀、tool schema、project context 和 model choice 在会话中保持稳定，从而复用 [[wiki/concepts/Prompt Caching]]
+- action-space fit：系统如何让可见动作匹配当前模型能力、任务目标和运行环境
 
 这些维度并不是 Claude Code 独有的实现细节，而更像 agent system design 的一组通用观察面。
+
+[[wiki/sources/Seeing Like an Agent Source Guide]] strengthens this last dimension. It treats tool design as action-space construction: the harness must decide whether a capability should be exposed as a top-level tool, a skill, a search path, a subagent, or no new surface at all.
+
+The source's operational method is empirical: observe whether the model understands a tool, whether it misuses an output convention, whether reminders constrain rather than help, and whether better models can build their own context with search. ^[inferred]
 
 ## Density-preserving harness
 
@@ -220,6 +226,7 @@ This is the role of [[wiki/concepts/Harness Ratchet]]: it turns failure history 
 
 - [[wiki/concepts/Agent]]
 - [[wiki/concepts/Agent Tool]]
+- [[wiki/concepts/Agent Action Space]]
 - [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/topics/Context Management]]
@@ -238,6 +245,7 @@ This is the role of [[wiki/concepts/Harness Ratchet]]: it turns failure history 
 ## Source notes
 
 - [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]]
+- [[wiki/sources/Seeing Like an Agent Source Guide]]
 - [[wiki/sources/Dive into Claude Code Source Guide]]
 - [[wiki/sources/Before the Tool Call Source Guide]]
 - [[wiki/sources/Agent Harness Qiaomu Article Source Guide]]
