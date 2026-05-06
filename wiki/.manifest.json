@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 22,
-    "total_pages": 149
+    "total_sources_ingested": 23,
+    "total_pages": 151
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -490,6 +490,24 @@
       "pages_updated": [
         "wiki/concepts/Cognitive Engineering.md",
         "wiki/syntheses/Acting Under Complexity.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md",
+        "wiki/.manifest.json"
+      ]
+    },
+    "/Users/zenk/Documents/notes/20260506T204024--概念解剖-评价__concept.org": {
+      "ingested_at": "2026-05-06T20:58:15+08:00",
+      "size_bytes": 4782,
+      "modified_at": "2026-05-06T20:58:15+08:00",
+      "content_hash": "sha256:6fdff6863dfeff8d36dc92cc00cfe4a7009d3bf536f49b1f26b325dcdc6648d3",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Evaluation.md",
+        "wiki/sources/Evaluation Concept Anatomy Source Guide.md"
+      ],
+      "pages_updated": [
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md",
