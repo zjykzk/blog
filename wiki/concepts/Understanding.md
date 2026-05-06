@@ -10,19 +10,22 @@ tags:
   - concepts
 sources:
   - inline:understanding-cloud-2026-05-06
+  - inline:hofstadter-frame-discussion-2026-05-06
+  - https://philpapers.org/rec/HOFSAE-2
+  - https://openlibrary.org/works/OL716837W/Fluid_Concepts_and_Creative_Analogies
 aliases:
   - 理解
   - 懂了
   - 明白了
 provenance:
-  extracted: 0.76
-  inferred: 0.24
+  extracted: 0.64
+  inferred: 0.36
   ambiguous: 0.00
-base_confidence: 0.42
+base_confidence: 0.82
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 created: 2026-05-06T19:18:40+08:00
-updated: 2026-05-06T19:18:40+08:00
+updated: 2026-05-06T19:34:46+08:00
 ---
 
 # Understanding
@@ -30,6 +33,8 @@ updated: 2026-05-06T19:18:40+08:00
 理解不是拥有一句清晰定义，而是在脑中形成一团关于对象的“云”：它能横向连接相似结构，也能纵向穿梭不同抽象层级。
 
 这个视角把理解从“知道一个答案”改写成“拥有一种形状”。一个人理解得更深，通常不是因为他说出了更漂亮的定义，而是因为这团云更宽、更厚、更能被移动和重建。^[inferred]
+
+需要区分出处层级：侯世达原始思想更准确地说是 [[wiki/concepts/Analogy-Making]]、fluid concepts、概念边界流动和相似结构触发；“云”“横向相似度”“纵向抽象度”是对这些思想的中文整理，不是侯世达书里的固定术语。^[inferred]
 
 ## 两个维度
 
@@ -52,6 +57,14 @@ updated: 2026-05-06T19:18:40+08:00
 纵向抽象度就是在抽象之梯上移动：既能落到具体例子，也能上升到更一般的结构。能在多个层级上下翻爬，是理解的深度。
 
 这也解释了为什么 [[wiki/topics/Mental Models]] 有用：好的 mental model 不是术语，而是让人换层级、换角度观察同一对象的工具。^[inferred]
+
+## 侯世达取景框
+
+侯世达式的取景框可以压缩为一句话：理解新东西，不是先查定义，而是在旧经验里找到一个足够好的“像”。
+
+这个“像”不是表面相似，而是结构相似。把“公司”理解成“机器”，会让人看见部件、流程、阻塞和输出；把“公司”理解成“生物体”，会让人看见适应、边界、代谢和环境反馈。每个取景框都会照亮一部分，也会遮蔽一部分。^[inferred]
+
+因此，深理解表现为能换取景框：能提出多个类比，能说明每个类比照亮什么、遮蔽什么，并能在具体例子和抽象结构之间来回移动。^[inferred]
 
 ## 判据
 
@@ -86,6 +99,7 @@ updated: 2026-05-06T19:18:40+08:00
 ## Related
 
 - [[wiki/concepts/Concept]]
+- [[wiki/concepts/Analogy-Making]]
 - [[wiki/concepts/Knowledge as Network]]
 - [[wiki/topics/Learning Methodology]]
 - [[wiki/topics/Mental Models]]

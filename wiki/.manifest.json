@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 19,
-    "total_pages": 144
+    "total_sources_ingested": 20,
+    "total_pages": 145
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -429,6 +429,26 @@
         "wiki/topics/Learning Methodology.md",
         "wiki/topics/Mental Models.md",
         "wiki/concepts/Knowledge as Network.md",
+        "wiki/maps/Learning Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "inline:hofstadter-frame-discussion-2026-05-06": {
+      "ingested_at": "2026-05-06T19:34:46+08:00",
+      "size_bytes": 3200,
+      "modified_at": "2026-05-06T19:34:46+08:00",
+      "content_hash": "sha256:9fa585750782e1c971d4d16846393c71c9fdfcb95a97e7684ddd6f594c1263d5",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Analogy-Making.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Understanding.md",
+        "wiki/sources/Understanding as Concept Cloud Source Guide.md",
+        "wiki/topics/Mental Models.md",
         "wiki/maps/Learning Map.md",
         "wiki/index.md",
         "wiki/hot.md",

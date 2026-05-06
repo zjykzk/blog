@@ -8,12 +8,13 @@ sources:
   - https://x.com/ihtesham2005/status/2030214970353602806
   - /Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf
   - inline:understanding-cloud-2026-05-06
+  - inline:hofstadter-frame-discussion-2026-05-06
 created: 2026-04-21
-base_confidence: 0.80
+base_confidence: 0.82
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 3
-updated: 2026-05-06T19:18:40+08:00
+source_count: 4
+updated: 2026-05-06T19:34:46+08:00
 aliases:
   - 思维框架
 tags:
@@ -72,6 +73,8 @@ mental models 也可以看成 [[wiki/concepts/Understanding]] 的结构模板：
 
 但模型不是理解本身。若一个模型只能停留在术语层，不能降到具体例子，也不能升到更一般机制，它只是在云的某一层挂了一个标签。^[inferred]
 
+这也接到 [[wiki/concepts/Analogy-Making]]：mental model 的实用价值，常常在于给陌生对象提供一个可试运行的类比结构，而不是提供最终答案。^[inferred]
+
 ## Learning Use
 
 在学习一个新领域时，mental models 可以先作为“专家共享结构”被抽出来。Ihtesham Ali 的 NotebookLM 学习 workflow 里，第一步不是让 AI 总结教材，而是问“专家共享的 5 个核心 mental models 是什么”。这个问法把学习入口从材料顺序切到结构地图，适合接到 [[wiki/concepts/AI Learning Tutor Loop]]。^[inferred]
@@ -89,6 +92,7 @@ Naval Ravikant 的 "How to Get Rich" 也可以读成一组经济行动 mental mo
 - [[wiki/topics/Learnable Structure in Data]]
 - [[wiki/topics/Learning Methodology]]
 - [[wiki/concepts/Understanding]]
+- [[wiki/concepts/Analogy-Making]]
 - [[wiki/topics/Wealth Creation]]
 - [[wiki/topics/Judgment Under Leverage]]
 - [[wiki/concepts/AI Learning Tutor Loop]]

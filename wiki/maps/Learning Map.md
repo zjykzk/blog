@@ -7,11 +7,12 @@ summary: Learning Map collects learning methodology, cognition concepts, AI tuto
 tags: []
 sources:
   - inline:understanding-cloud-2026-05-06
+  - inline:hofstadter-frame-discussion-2026-05-06
 created: 2026-04-26
-base_confidence: 0.42
+base_confidence: 0.58
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-06T19:18:40+08:00
+updated: 2026-05-06T19:34:46+08:00
 aliases:
   - 学习地图
 provenance:
@@ -34,6 +35,7 @@ provenance:
 - [[wiki/concepts/Expression Three Channels]]——表达三根：编/载/解
 - [[wiki/concepts/Knowledge as Network]]——知识是网不是塔
 - [[wiki/concepts/Understanding]]——理解是由相似结构和抽象层级共同塑形的概念云
+- [[wiki/concepts/Analogy-Making]]——用熟悉结构承接陌生对象的认知动作
 - [[wiki/concepts/Cognitive Engineering]]——设计人、工具与反馈构成的认知系统
 - [[wiki/concepts/AI Learning Tutor Loop]]——用 AI 源材料系统建立知识地形、诊断理解并修补错误
 
