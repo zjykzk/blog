@@ -6,14 +6,15 @@ summary: KV cache stores transformer key/value tensors so repeated prefixes or g
 category: concepts
 sources:
   - https://x.com/_avichawla/article/2044670188998803855
+  - https://www.aleksagordic.com/blog/vllm
 created: 2026-05-05T00:00:00+08:00
-updated: 2026-05-05T00:00:00+08:00
-base_confidence: 0.44
+updated: 2026-05-06T12:17:59+08:00
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.86
-  inferred: 0.14
+  extracted: 0.88
+  inferred: 0.12
   ambiguous: 0.0
 aliases:
   - key value cache
@@ -64,6 +65,16 @@ That distinction matters for [[wiki/topics/Context Management]]:
 
 These mechanisms can support each other, but they solve different problems.
 
+## Paged serving
+
+The vLLM source adds the serving-system view of KV cache: the cache is not only a provider-side prompt prefix optimization, but also a live GPU memory object that must be allocated, indexed, reused, and freed during request scheduling.
+
+In [[wiki/concepts/Paged Attention]], the inference engine stores KV state in fixed-size blocks. Each request owns a list of blocks, and the scheduler allocates more blocks as prefill or decode work adds tokens.
+
+This makes [[wiki/concepts/KV Cache]] part of the scheduler's resource accounting: a request can run only if enough cache slots are available for its next tokens.
+
+Prefix caching then adds a second reuse path: complete token blocks can be hashed and reused across requests that share the same prefix.
+
 ## Open Questions
 
 - What cache eviction, tenant isolation, and TTL policies are used by each model provider? ^[ambiguous]
@@ -72,10 +83,14 @@ These mechanisms can support each other, but they solve different problems.
 ## Sources
 
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
+- [[wiki/sources/vLLM Inference Systems Source Guide]]
 
 ## Related
 
 - [[wiki/concepts/Prompt Caching]]
+- [[wiki/concepts/Paged Attention]]
+- [[wiki/concepts/Prefill Decode Split]]
+- [[wiki/topics/LLM Inference Systems]]
 - [[wiki/concepts/LLM]]
 - [[wiki/topics/Context Management]]
 - [[wiki/topics/AI Harness]]

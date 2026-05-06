@@ -57,3 +57,4 @@ tags:
 - [2026-05-05T17:55:00+08:00] INGEST source="https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html" pages_updated=12 pages_created=1 mode=append
 - [2026-05-06T10:51:47+08:00] INGEST source="https://x.com/trq212/status/2033949937936085378" pages_updated=6 pages_created=2 mode=append
 - [2026-05-06T11:10:34+08:00] INGEST source="https://x.com/trq212/status/2027463795355095314" pages_updated=10 pages_created=2 mode=append
+- [2026-05-06T12:17:59+08:00] INGEST source="https://www.aleksagordic.com/blog/vllm" pages_updated=6 pages_created=7 mode=append

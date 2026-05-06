@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity sharpened agent action-space design: tools, skills, search, and subagents should match observed model behavior.
+summary: Recent wiki activity added LLM inference-system structure around vLLM: paged attention, batching, P/D split, specdec, and benchmarking.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-06T11:10:34+08:00
+updated: 2026-05-06T12:17:59+08:00
 ---
 
 ## Recent Activity
 
+- Ingested Aleksa Gordic's vLLM article: added [[wiki/topics/LLM Inference Systems]], [[wiki/concepts/Paged Attention]], [[wiki/concepts/Continuous Batching]], [[wiki/concepts/Prefill Decode Split]], [[wiki/concepts/Speculative Decoding]], and [[wiki/concepts/LLM Inference Benchmarking]].
 - Ingested Thariq Shihipar's "Seeing like an Agent" article: added [[wiki/concepts/Agent Action Space]] and [[wiki/sources/Seeing Like an Agent Source Guide]], connecting tool design to elicitation, task coordination, search, skills, and subagents.
 - Ingested Thariq Shihipar's Claude Code skills article: added [[wiki/concepts/Agent Skill]] and [[wiki/sources/Claude Code Skills Source Guide]], connecting skills to progressive disclosure, scripts, hooks, memory, and marketplace curation.
-- Ingested Rahul Garg's Feedback Flywheel page: added [[wiki/concepts/Feedback Flywheel]] and connected AI collaboration metrics to artifact maintenance, harness ratchets, testing strategy, and feedback loops.
 
 ## Active Threads
 
@@ -38,6 +38,8 @@ updated: 2026-05-06T11:10:34+08:00
 - Feedback flywheel is now represented as the maintenance loop for AI collaboration: real review, regeneration, acceptance, and rework signals should update context, standards, workflows, checks, and guardrails.
 - Agent skills are now represented as folder-shaped capability bundles: references, scripts, assets, memory, configuration, and on-demand hooks can be disclosed only when the workflow needs them.
 - Agent action space is now represented as an empirical harness design problem: add, remove, or reshape tools based on whether the model can actually use them.
+- LLM inference systems are now represented as a stack: scheduler, KV-cache allocator, model executor, advanced decoding features, distributed serving layer, and benchmark loop.
+- Prefill/decode separation is now a key inference-design thread: compute-heavy prompt processing and latency-sensitive decoding need different scheduling and scaling choices.
 
 ## Key Takeaways
 
@@ -58,5 +60,6 @@ updated: 2026-05-06T11:10:34+08:00
 - Durable feature documents are a practical reset mechanism: they let teams close long AI chats and restart from a compact, decision-rich artifact.
 - AI standards should move from personal prompting skill into repository infrastructure when output quality varies by who is asking.
 - Failed AI interactions are useful evidence only if they change a durable artifact; otherwise the same collaboration failure returns as a new prompt problem.
+- Inference benchmarking should be read through SLO-aware goodput, not just raw tokens per second, because latency and throughput can optimize against each other.
 
 ## Flagged Contradictions

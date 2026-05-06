@@ -4,13 +4,18 @@ type: concept
 status: seed
 category: concepts
 summary: 当前旧笔记里与 LLM 相关的两类判断混在了一起：
-sources: []
+sources:
+  - https://www.aleksagordic.com/blog/vllm
 created: 2026-05-01
-base_confidence: 0.70
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
+provenance:
+  extracted: 0.85
+  inferred: 0.15
+  ambiguous: 0.0
 source_count: 3
-updated: 2026-05-01
+updated: 2026-05-06T12:17:59+08:00
 aliases:
   - llm
 tags:
@@ -40,12 +45,22 @@ tags:
 
 所以评估 LLM 时，不只看它能否生成新文本，还要问它是否能提出可行动的因果假设，并知道该通过什么实验生成新数据。
 
+## Runtime boundary
+
+The vLLM source adds a serving-side boundary: an LLM is not the same thing as an [[wiki/topics/LLM Inference Systems|inference system]].
+
+The model defines the transformer computation and sampling distribution, while the inference system decides scheduling, [[wiki/concepts/KV Cache]] allocation, batching, prefill/decode handling, speculative decoding, serving endpoints, and benchmark tradeoffs.
+
+That distinction matters because user-visible latency, throughput, and cost can change substantially while the underlying model weights stay the same. ^[inferred]
+
 ## Cross-links
 
 - [[wiki/concepts/Agent]]
+- [[wiki/topics/LLM Inference Systems]]
 - [[wiki/maps/AI Map]]
 
 ## Source notes
 
 - `pages/llm.md`
 - [[wiki/sources/Theory Is All You Need Source Guide]]
+- [[wiki/sources/vLLM Inference Systems Source Guide]]

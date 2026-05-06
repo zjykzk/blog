@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 17,
-    "total_pages": 135
+    "total_sources_ingested": 18,
+    "total_pages": 142
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -382,6 +382,31 @@
         "wiki/topics/Tool Routing.md",
         "wiki/concepts/Agent Skill.md",
         "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://www.aleksagordic.com/blog/vllm": {
+      "ingested_at": "2026-05-06T12:17:59+08:00",
+      "size_bytes": 379686,
+      "modified_at": "2025-08-29T00:00:00+00:00",
+      "content_hash": "sha256:7077bc0900c8d3b66f7c1999c53457ad89b5fc4b833082540893c1c0f612e10f",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/topics/LLM Inference Systems.md",
+        "wiki/concepts/Paged Attention.md",
+        "wiki/concepts/Continuous Batching.md",
+        "wiki/concepts/Prefill Decode Split.md",
+        "wiki/concepts/Speculative Decoding.md",
+        "wiki/concepts/LLM Inference Benchmarking.md",
+        "wiki/sources/vLLM Inference Systems Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/KV Cache.md",
+        "wiki/concepts/LLM.md",
         "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",

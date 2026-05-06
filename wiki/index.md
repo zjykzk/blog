@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-06T11:10:34+08:00
+updated: 2026-05-06T12:17:59+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -54,6 +54,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/Judgment Under Leverage|Judgment Under Leverage]] — Judgment under leverage is the problem of making decisions whose consequences are amplified by capital, labor, code, or media. ( #judgment #leverage #wealth #decision-making)
 - [[wiki/topics/Karpathy Guidelines|Karpathy Guidelines]] — Karpathy Guidelines are coding constraints that reduce common LLM mistakes such as hidden assumptions, over-design, broad edits, and missing verification. (#ai #coding #guidelines)
 - [[wiki/topics/Learnable Structure in Data|Learnable Structure in Data]] — 评估数据价值时，一个更稳的起点，不是先问“这里有多少信息”，而是先问：对当前模型来说，这里到底有多少结构是可学习的。 (#ai #data #training #topic)
+- [[wiki/topics/LLM Inference Systems|LLM Inference Systems]] — LLM inference systems coordinate scheduling, KV cache memory, model execution, serving, scaling, and benchmarking to return tokens efficiently. (#ai #llm #inference #systems)
 - [[wiki/topics/Learning Methodology|Learning Methodology]] — 一份自己能用、能指导动作的学习方法论。建立在两个概念之上：人是三通道进出系统；知识是网不是塔。
 - [[wiki/topics/Limits of Classification|Limits of Classification]] — 它擅长把混乱切开，却不自动提供关系、过程、演化和反馈。很多理解错误，不是因为不会分类，而是因为 把分类工具误当成了世界本身 。
 - [[wiki/topics/Mental Models|Mental Models]] — 这页聚合的是一组可以反复调用的思维工具，而不是某个单一学科知识点。 (#thinking #models #decision-making)
@@ -98,6 +99,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Component-Based Architecture|Component-Based Architecture]] — Component-based architecture organizes an interface or system as composable units with local responsibilities. (#frontend #architecture #modularity)
 - [[wiki/concepts/Concept|Concept]] — 概念不是词，而是有限生命面对连续世界时制造的边界。
 - [[wiki/concepts/Conceptual Integrity|Conceptual Integrity]] — 软件设计中的概念完整性，不是风格统一，而是一个系统里的所有部分都像从同一个头脑里长出来：用户、程序员、机器面对它时，都能感觉到这里面只有一套世界观。
+- [[wiki/concepts/Continuous Batching|Continuous Batching]] — Continuous batching lets an inference engine mix newly arrived and already-running requests at each generation step. (#ai #llm #inference #scheduling)
 - [[wiki/concepts/Context Information Density|Context Information Density]] — Context information density treats agent context quality as the ratio of decision-relevant signal to finite active context budget. (#ai #agents #context #memory)
 - [[wiki/concepts/Cynefin Framework|Cynefin Framework]] — Cynefin Framework 适合用来判断问题处在哪种上下文里，再决定应该用什么动作模式，而不是先假定所有问题都能靠一种统一方法解决。 (#framework #decision-making #management)
 - [[wiki/concepts/Declarative Programming|Declarative Programming]] — Declarative programming describes a target state or relation rather than spelling out each mutation step. (#frontend #programming #abstraction)
@@ -110,13 +112,17 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Knowledge as Network|Knowledge as Network]] — 知识没有全局层级，只有局部的序。看起来像金字塔，其实是张网。
 - [[wiki/concepts/KV Cache|KV Cache]] — KV cache stores transformer key/value tensors so repeated prefixes or generated histories do not need full attention recomputation. ( #ai #llm #inference #caching)
 - [[wiki/concepts/Leverage Points|Leverage Points]] — 杠杆点是系统里“改一点，结果却变很多”的位置。
+- [[wiki/concepts/LLM Inference Benchmarking|LLM Inference Benchmarking]] — LLM inference benchmarking compares latency, throughput, and goodput under request shapes and service-level objectives. (#ai #llm #inference #benchmarking)
 - [[wiki/concepts/LLM|LLM]] — 当前旧笔记里与 LLM 相关的两类判断混在了一起： (#ai #llm #concept)
 - [[wiki/concepts/Lost in the Middle Effect|Lost in the Middle Effect]] — The lost-in-the-middle effect is the long-context failure mode where models use information best at the beginning or end and worse in the middle. (#ai #llm #context #evaluation)
+- [[wiki/concepts/Paged Attention|Paged Attention]] — Paged attention stores KV cache in fixed-size blocks so inference servers can allocate, reuse, and evict attention state efficiently. (#ai #llm #inference #memory)
+- [[wiki/concepts/Prefill Decode Split|Prefill Decode Split]] — The prefill/decode split separates full-prompt processing from token-by-token generation because they stress GPU systems differently. (#ai #llm #inference #serving)
 - [[wiki/concepts/Prompt Caching|Prompt Caching]] — Prompt caching reuses stable prompt prefixes so repeated agent turns avoid recomputing the same system, tool, and context tokens. ( #ai #agents #context #caching)
 - [[wiki/concepts/Permissionless Leverage|Permissionless Leverage]] — Permissionless leverage uses code and media to multiply judgment without needing capital approval or labor hierarchy. ( #wealth #leverage #internet #media)
 - [[wiki/concepts/React|React]] — React is a frontend UI library centered on components, declarative rendering, and state-driven interface updates.
 - [[wiki/concepts/Software Analysis Three Generators|Software Analysis Three Generators]] — 翻书架：需求工程、用例建模、领域驱动设计、事件风暴、用户故事地图、业务流程再造、数据流图、状态机、UML 九种图、C4 模型、ArchiMate、Use Case 2.0、Jobs to be Done……每一派都说自己抓到了本质，每一派都有一套词汇表、一套图、一套流程。新人进来第一个反应是：这些到底是同一件事的不同说法，还是真的在干不同的事？
 - [[wiki/concepts/Software Design Three Generators|Software Design Three Generators]] — 软件设计这门学问，名词满天飞：SOLID、设计模式二十三种、DDD、六边形、洋葱、整洁架构、CQRS、事件溯源、依赖注入、分层、微服务、界限上下文、聚合根……但任何一个设计决定，最后都能归到三根独立的生成器里。
+- [[wiki/concepts/Speculative Decoding|Speculative Decoding]] — Speculative decoding proposes multiple cheap draft tokens and verifies them with the large model to reduce expensive decoding steps. (#ai #llm #inference #decoding)
 - [[wiki/concepts/Specific Knowledge|Specific Knowledge]] — Specific knowledge is hard-to-train knowledge built from genuine curiosity, practice, and creative or technical edge. ( #wealth #learning #skill #judgment)
 - [[wiki/concepts/State Management|State Management]] — State management controls where application state lives, how it changes, and how those changes propagate through the interface. (#frontend #architecture #state)
 - [[wiki/concepts/Verification Loop|Verification Loop]] — A verification loop gives an agent external feedback, such as tests, visual checks, or evaluators, so errors are caught before they compound. (#ai #agents #verification)
@@ -165,6 +171,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Software Methodology by Pan Jianyu|Software Methodology by Pan Jianyu]] — 这页收纳《软件方法》相关的阅读入口与当前已经稳定下来的判断。
 - [[wiki/sources/Spec-Driven Development Paper Source Guide|Spec-Driven Development Paper Source Guide]] — 这篇论文是 Deepak Babu Piskala 投稿 AIWare 2026 的 practitioner guide，把 SDD 这波被 AI coding assistant 重新点燃的旧想法梳理成三档光谱 + 四阶段流水线 + 决策框架。8 页，3 张图，零量化实验。 (#software-engineering #specs #ai-coding #paper)
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #ai #cognition #causal-reasoning #source)
+- [[wiki/sources/vLLM Inference Systems Source Guide|vLLM Inference Systems Source Guide]] — Source guide for Aleksa Gordic's vLLM article, focused on engine loops, paged attention, batching, P/D split, scaling, serving, and benchmarking. (#source #ai #llm #inference)
 
 ## Meta
 - [[wiki/hot|Hot Cache]] — Added Feedback Flywheel as the maintenance loop for AI collaboration artifacts, metrics, and guardrails.

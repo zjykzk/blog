@@ -13,8 +13,8 @@ provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
-source_count: 21
-updated: 2026-05-06T11:10:34+08:00
+source_count: 22
+updated: 2026-05-06T12:17:59+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -45,6 +45,11 @@ tags:
 - [[wiki/concepts/Lost in the Middle Effect]]
 - [[wiki/concepts/Prompt Caching]]
 - [[wiki/concepts/KV Cache]]
+- [[wiki/concepts/Paged Attention]]
+- [[wiki/concepts/Continuous Batching]]
+- [[wiki/concepts/Prefill Decode Split]]
+- [[wiki/concepts/Speculative Decoding]]
+- [[wiki/concepts/LLM Inference Benchmarking]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/Agent Skill]]
@@ -61,6 +66,7 @@ tags:
 - [[wiki/topics/Prompt Frequency]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/Learnable Structure in Data]]
+- [[wiki/topics/LLM Inference Systems]]
 
 ## Syntheses
 
@@ -91,6 +97,7 @@ tags:
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Claude Code Skills Source Guide]]
 - [[wiki/sources/Seeing Like an Agent Source Guide]]
+- [[wiki/sources/vLLM Inference Systems Source Guide]]
 
 ## Related journals
 
