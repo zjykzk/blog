@@ -10,12 +10,13 @@ sources:
   - inline:understanding-cloud-2026-05-06
   - inline:hofstadter-frame-discussion-2026-05-06
   - /Users/zenk/Documents/notes/20260506T194300--概念解剖-分析__concept.org
+  - /Users/zenk/Documents/notes/20260506T211953--概念解剖-创造__concept.org
 created: 2026-04-21
 base_confidence: 0.71
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 5
-updated: 2026-05-06T19:50:40+08:00
+source_count: 6
+updated: 2026-05-06T21:23:05+08:00
 aliases:
   - 思维框架
 tags:
@@ -82,6 +83,12 @@ mental models 也可以看成 [[wiki/concepts/Understanding]] 的结构模板：
 
 The key test is whether the decomposition remains reversible. If a model only cuts an object into labels but cannot reconnect those labels into behavior, judgment, or action, it has produced fragmentation rather than understanding. ^[inferred]
 
+## Creation Use
+
+[[wiki/concepts/Creation]] is where mental models become generative rather than descriptive. A model is not only a lens for seeing an object; it can become a reusable structure for making a new explanation, design, argument, or system. ^[inferred]
+
+The failure mode is copying the model's surface. Creative use requires bending the model under local constraints until a real new order appears.
+
 ## Learning Use
 
 在学习一个新领域时，mental models 可以先作为“专家共享结构”被抽出来。Ihtesham Ali 的 NotebookLM 学习 workflow 里，第一步不是让 AI 总结教材，而是问“专家共享的 5 个核心 mental models 是什么”。这个问法把学习入口从材料顺序切到结构地图，适合接到 [[wiki/concepts/AI Learning Tutor Loop]]。^[inferred]
@@ -99,6 +106,7 @@ Naval Ravikant 的 "How to Get Rich" 也可以读成一组经济行动 mental mo
 - [[wiki/topics/Learnable Structure in Data]]
 - [[wiki/topics/Learning Methodology]]
 - [[wiki/concepts/Analysis]]
+- [[wiki/concepts/Creation]]
 - [[wiki/concepts/Understanding]]
 - [[wiki/concepts/Analogy-Making]]
 - [[wiki/topics/Wealth Creation]]
@@ -118,3 +126,4 @@ Naval Ravikant 的 "How to Get Rich" 也可以读成一组经济行动 mental mo
 - `/Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf`
 - [[wiki/sources/Understanding as Concept Cloud Source Guide]]
 - [[wiki/sources/Analysis Concept Anatomy Source Guide]]
+- [[wiki/sources/Creation Concept Anatomy Source Guide]]

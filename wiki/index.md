@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-06T20:17:19+08:00
+updated: 2026-05-06T21:23:05+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -102,6 +102,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Component-Based Architecture|Component-Based Architecture]] — Component-based architecture organizes an interface or system as composable units with local responsibilities. (#frontend #architecture #modularity)
 - [[wiki/concepts/Concept|Concept]] — 概念不是词，而是有限生命面对连续世界时制造的边界。
 - [[wiki/concepts/Conceptual Integrity|Conceptual Integrity]] — 软件设计中的概念完整性，不是风格统一，而是一个系统里的所有部分都像从同一个头脑里长出来：用户、程序员、机器面对它时，都能感觉到这里面只有一套世界观。
+- [[wiki/concepts/Creation|Creation]] — Creation is the act of breaking an old structure and recombining materials into a new order that can be used, understood, or continued. (#thinking #concepts #practice)
 - [[wiki/concepts/Continuous Batching|Continuous Batching]] — Continuous batching lets an inference engine mix newly arrived and already-running requests at each generation step. (#ai #llm #inference #scheduling)
 - [[wiki/concepts/Context Information Density|Context Information Density]] — Context information density treats agent context quality as the ratio of decision-relevant signal to finite active context budget. (#ai #agents #context #memory)
 - [[wiki/concepts/Cynefin Framework|Cynefin Framework]] — Cynefin Framework 适合用来判断问题处在哪种上下文里，再决定应该用什么动作模式，而不是先假定所有问题都能靠一种统一方法解决。 (#framework #decision-making #management)
@@ -156,6 +157,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Application Concept Anatomy Source Guide|Application Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on application as contextual fit turning abstraction into effect. (#source #thinking #concepts)
 - [[wiki/sources/Before the Tool Call Source Guide|Before the Tool Call Source Guide]] — 这篇 arXiv 论文更适合作为单篇 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#paper #arxiv #agents #authorization #security #source)
 - [[wiki/sources/Claude Code Skills Source Guide|Claude Code Skills Source Guide]] — Source guide for Thariq Shihipar's Claude Code skills article, focused on skills as capability bundles, categories, gotchas, disclosure, hooks, and distribution. (#source #ai #agents #skills #claude-code)
+- [[wiki/sources/Creation Concept Anatomy Source Guide|Creation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on creation as difference entering durable order. (#source #thinking #concepts)
 - [[wiki/sources/Dive into Claude Code Source Guide|Dive into Claude Code Source Guide]] — 这篇 arXiv 论文更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#paper #arxiv #agents #ai #harness #source)
 - [[wiki/sources/Epiplexity Paper Notes|Epiplexity Paper Notes]] — 这页保留论文 From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence 的阅读笔记，并作为 Epiplexity 的来源层。 (#paper #ai #information-theory #source)
 - [[wiki/sources/Evaluation Concept Anatomy Source Guide|Evaluation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on evaluation as scale-shaped value judgment. (#source #thinking #concepts)

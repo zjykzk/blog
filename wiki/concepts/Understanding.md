@@ -13,6 +13,7 @@ sources:
   - inline:hofstadter-frame-discussion-2026-05-06
   - https://philpapers.org/rec/HOFSAE-2
   - https://openlibrary.org/works/OL716837W/Fluid_Concepts_and_Creative_Analogies
+  - /Users/zenk/Documents/notes/20260506T211953--概念解剖-创造__concept.org
 aliases:
   - 理解
   - 懂了
@@ -25,7 +26,7 @@ base_confidence: 0.82
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 created: 2026-05-06T19:18:40+08:00
-updated: 2026-05-06T19:34:46+08:00
+updated: 2026-05-06T21:23:05+08:00
 ---
 
 # Understanding
@@ -78,6 +79,8 @@ updated: 2026-05-06T19:34:46+08:00
 
 重新创造一个东西，意味着要在抽象之梯上下来回移动，并从中心到边缘摸清它的结构。这个过程会暴露哪些连接是真的，哪些只是会背术语。^[inferred]
 
+这与 [[wiki/concepts/Creation]] 相接：创造不是凭空冒出新奇，而是把还没有形状的可能性组织成可继续使用的新秩序。能重新创造，说明理解已经从记忆变成了生成能力。^[inferred]
+
 ### 读后是否改变云的形状
 
 一本书读完后若“空空如也”，可能不是完全没有接触信息，而是相关概念云的形状没有明显改变：没有新增相似结构，没有补上抽象层级，也没有让旧连接变密。^[inferred]
@@ -101,6 +104,7 @@ updated: 2026-05-06T19:34:46+08:00
 - [[wiki/concepts/Concept]]
 - [[wiki/concepts/Analogy-Making]]
 - [[wiki/concepts/Knowledge as Network]]
+- [[wiki/concepts/Creation]]
 - [[wiki/topics/Learning Methodology]]
 - [[wiki/topics/Mental Models]]
 - [[wiki/concepts/Cognitive Engineering]]

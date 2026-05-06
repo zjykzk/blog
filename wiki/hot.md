@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added Evaluation as a thinking concept and connected it to critical thinking, mental models, and application.
+summary: Recent wiki activity added Creation as a thinking concept and connected it to understanding, mental models, application, and analysis.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-06T20:58:15+08:00
+updated: 2026-05-06T21:23:05+08:00
 ---
 
 ## Recent Activity
 
+- Ingested the ljg-learn concept anatomy for “创造”: added [[wiki/concepts/Creation]] and connected it to [[wiki/concepts/Understanding]], [[wiki/topics/Mental Models]], [[wiki/concepts/Application]], and [[wiki/concepts/Analysis]].
 - Ingested the ljg-learn concept anatomy for “评价”: added [[wiki/concepts/Evaluation]] and connected it to [[wiki/topics/Critical Thinking]], [[wiki/topics/Mental Models]], and [[wiki/concepts/Application]].
 - Ingested the ljg-learn concept anatomy for “应用”: added [[wiki/concepts/Application]] and connected it to [[wiki/concepts/Understanding]], [[wiki/concepts/Cognitive Engineering]], and [[wiki/syntheses/Acting Under Complexity]].
-- Ingested the ljg-learn concept anatomy for “分析”: added [[wiki/concepts/Analysis]] and connected it to [[wiki/topics/Categorical Thinking]], [[wiki/topics/Mental Models]], and [[wiki/syntheses/Acting Under Complexity]].
 
 ## Active Threads
 
@@ -69,5 +69,6 @@ updated: 2026-05-06T20:58:15+08:00
 - Analysis should be judged by whether the cut can be recomposed into action; decomposition without recomposition is fragmentation.
 - Application should be judged by whether abstract knowledge survives contextual fit and produces observable effect, not by whether the right words were repeated.
 - Evaluation should be judged by whether the scale reveals the object's relevant value and direction, not by whether the output looks objective or sortable.
+- Creation should be judged by whether difference becomes durable order, not by whether something merely looks novel.
 
 ## Flagged Contradictions

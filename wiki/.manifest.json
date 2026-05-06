@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 23,
-    "total_pages": 151
+    "total_sources_ingested": 24,
+    "total_pages": 153
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -508,6 +508,27 @@
         "wiki/sources/Evaluation Concept Anatomy Source Guide.md"
       ],
       "pages_updated": [
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md",
+        "wiki/.manifest.json"
+      ]
+    },
+    "/Users/zenk/Documents/notes/20260506T211953--概念解剖-创造__concept.org": {
+      "ingested_at": "2026-05-06T21:23:05+08:00",
+      "size_bytes": 4784,
+      "modified_at": "2026-05-06T21:20:34+08:00",
+      "content_hash": "sha256:61748cfb8b21ac9278d9aa8ca5634eaf9620ebf67945c6a1eebb2ccdce226e9e",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Creation.md",
+        "wiki/sources/Creation Concept Anatomy Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Understanding.md",
+        "wiki/topics/Mental Models.md",
+        "wiki/maps/Learning Map.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md",
