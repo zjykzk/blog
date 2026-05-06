@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 21,
-    "total_pages": 147
+    "total_sources_ingested": 22,
+    "total_pages": 149
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -474,6 +474,26 @@
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"
+      ]
+    },
+    "/Users/zenk/Documents/notes/20260506T201315--概念解剖-应用__concept.org": {
+      "ingested_at": "2026-05-06T20:17:19+08:00",
+      "size_bytes": 4448,
+      "modified_at": "2026-05-06T20:15:45+08:00",
+      "content_hash": "sha256:1ecc4ba16f22d409f5d70d57c782ec2f1499cb1cae2b3787aba02b34e3bae5f7",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Application.md",
+        "wiki/sources/Application Concept Anatomy Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Cognitive Engineering.md",
+        "wiki/syntheses/Acting Under Complexity.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md",
+        "wiki/.manifest.json"
       ]
     }
   }

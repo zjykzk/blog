@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added Analysis as a thinking concept and connected it to classification, mental models, and action under complexity.
+summary: Recent wiki activity added Application as a thinking concept and connected it to understanding, cognitive engineering, and action under complexity.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-06T19:50:40+08:00
+updated: 2026-05-06T20:17:19+08:00
 ---
 
 ## Recent Activity
 
+- Ingested the ljg-learn concept anatomy for “应用”: added [[wiki/concepts/Application]] and connected it to [[wiki/concepts/Understanding]], [[wiki/concepts/Cognitive Engineering]], and [[wiki/syntheses/Acting Under Complexity]].
 - Ingested the ljg-learn concept anatomy for “分析”: added [[wiki/concepts/Analysis]] and connected it to [[wiki/topics/Categorical Thinking]], [[wiki/topics/Mental Models]], and [[wiki/syntheses/Acting Under Complexity]].
 - Ingested the follow-up discussion on Hofstadter's frame: added [[wiki/concepts/Analogy-Making]] and clarified that the “understanding cloud” is a reconstruction grounded in analogy-making and fluid concepts.
-- Ingested an inline essay on “理解”: added [[wiki/concepts/Understanding]] and connected it to [[wiki/concepts/Concept]], [[wiki/concepts/Knowledge as Network]], [[wiki/topics/Learning Methodology]], and [[wiki/topics/Mental Models]].
 
 ## Active Threads
 
@@ -67,5 +67,6 @@ updated: 2026-05-06T19:50:40+08:00
 - A concept can be known as a label without being understood as a movable cloud; durable learning should change the cloud's examples, abstractions, and links.
 - A strong understanding test is whether a learner can generate multiple analogies for the same object and name what each analogy hides.
 - Analysis should be judged by whether the cut can be recomposed into action; decomposition without recomposition is fragmentation.
+- Application should be judged by whether abstract knowledge survives contextual fit and produces observable effect, not by whether the right words were repeated.
 
 ## Flagged Contradictions

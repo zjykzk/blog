@@ -7,11 +7,12 @@ summary: 认知工程学不是单独研究'人怎么想'，而是研究如何设
 tags: []
 sources:
   - https://x.com/ihtesham2005/status/2030214970353602806
+  - /Users/zenk/Documents/notes/20260506T201315--概念解剖-应用__concept.org
 created: 2026-04-29
-base_confidence: 0.42
+base_confidence: 0.52
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-05T14:18:28+08:00
+updated: 2026-05-06T20:17:19+08:00
 aliases:
   - 认知工程学
 provenance:
@@ -45,7 +46,7 @@ provenance:
 1. **降低认知负荷**——把零散材料外部化，把工作记忆留给真正困难的判断。
 2. **提高可唤起性**——不是只存进去，而是在需要时能被快速找回、重新接入当前问题。
 3. **支持推理**——帮助比较、综合、反驳、重写，而不只是收藏和归档。
-4. **形成闭环**——输入、理解、结构化、应用、反馈、修正能够持续运转。
+4. **形成闭环**——输入、理解、结构化、[[wiki/concepts/Application]]、反馈、修正能够持续运转。
 
 所以笔记系统不是仓库，而是认知加工的基础设施。
 
@@ -72,5 +73,6 @@ provenance:
 
 - [[wiki/concepts/Cognition Three Channels]]
 - [[wiki/concepts/Knowledge as Network]]
+- [[wiki/concepts/Application]]
 - [[wiki/topics/Learning Methodology]]
 - [[wiki/concepts/AI Learning Tutor Loop]]

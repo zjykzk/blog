@@ -6,12 +6,13 @@ category: syntheses
 summary: 这页尝试把 Cynefin、决策模式、思考工作流、mental models、critical thinking 串成一个更高层的框架：当问题复杂、不确定、争议大时，关键不是只会分析，而是知道应该如何判断并继续行动。
 sources:
   - /Users/zenk/Documents/notes/20260506T194300--概念解剖-分析__concept.org
+  - /Users/zenk/Documents/notes/20260506T201315--概念解剖-应用__concept.org
 created: 2026-04-21
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 6
-updated: 2026-05-06T19:50:40+08:00
+source_count: 7
+updated: 2026-05-06T20:17:19+08:00
 aliases:
   - 在复杂性下行动
   - complexity action framework
@@ -114,6 +115,8 @@ Cynefin 的价值就在这里：
 
 这里的 [[wiki/concepts/Analysis]] 不等于无限拆解。它必须把部分、关系和约束重组回可执行判断，否则会在复杂性下变成行动拖延。^[inferred]
 
+这里的 [[wiki/concepts/Application]] 也不是把既有答案直接套进场景。复杂情境下的应用更像一次适配实验：让抽象判断进入具体约束，观察效果，再根据反馈修正。^[inferred]
+
 ## 6. Keep the loop open
 
 复杂问题的最后一条原则是：不要把结论当终局。
@@ -151,6 +154,7 @@ Cynefin 的价值就在这里：
 
 - [[wiki/concepts/Cynefin Framework]]
 - [[wiki/concepts/Analysis]]
+- [[wiki/concepts/Application]]
 
 ## Upstream topics
 

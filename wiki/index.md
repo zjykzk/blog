@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-06T19:50:40+08:00
+updated: 2026-05-06T20:17:19+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -86,6 +86,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Agent Skill|Agent Skill]] — Agent Skill is a reusable capability bundle that can combine instructions, references, scripts, assets, memory, and hooks for agent work. (#ai #agents #skills #workflow)
 - [[wiki/concepts/Agent Tool|Agent Tool]] — Agent tools are schema-defined action surfaces that let an agent inspect, change, retrieve, or validate external state under harness control. (#ai #agents #tools)
 - [[wiki/concepts/AI Collaboration Scaffolding|AI Collaboration Scaffolding]] — AI collaboration scaffolding gives coding assistants onboarding context, design discussion, standards, anchors, and feedback loops so their output fits the team. (#ai #software-engineering #workflow #ai-coding)
+- [[wiki/concepts/Application|Application]] — Application is the fit-process that lets abstract knowledge, tools, or methods become effective in a concrete situation. (#thinking #concepts #practice)
 - [[wiki/concepts/Knowledge Priming|Knowledge Priming]] — Knowledge priming gives AI coding assistants curated, versioned project context before generation so they fit local architecture and conventions. (#ai #ai-coding #context #workflow)
 - [[wiki/concepts/Design-First Collaboration|Design-First Collaboration]] — Design-first collaboration makes AI design decisions explicit through staged alignment before any implementation code is generated. (#ai #ai-coding #software-engineering #workflow)
 - [[wiki/concepts/Context Anchoring|Context Anchoring]] — Context anchoring preserves feature-level AI collaboration decisions in a living document outside the chat session. (#ai #ai-coding #context #workflow)
@@ -151,6 +152,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/AI Coding Control Limits Source Guide|AI Coding Control Limits Source Guide]] — 这篇文章更适合作为一个 source facing note 进入当前仓库，而不是直接承担稳定 topic 页角色。 (#ai-coding #software-engineering #source #complexity #productivity #security)
 - [[wiki/sources/AI Memory Survey Source Guide|AI Memory Survey Source Guide]] — Source guide for Survey on AI Memory, focused on memory theory, the 4W taxonomy, single/multi-agent memory, evaluation, and open challenges. (#paper #ai #agents #memory #survey)
 - [[wiki/sources/Analysis Concept Anatomy Source Guide|Analysis Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on analysis as reversible decomposition into actionable structure. (#source #thinking #concepts)
+- [[wiki/sources/Application Concept Anatomy Source Guide|Application Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on application as contextual fit turning abstraction into effect. (#source #thinking #concepts)
 - [[wiki/sources/Before the Tool Call Source Guide|Before the Tool Call Source Guide]] — 这篇 arXiv 论文更适合作为单篇 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#paper #arxiv #agents #authorization #security #source)
 - [[wiki/sources/Claude Code Skills Source Guide|Claude Code Skills Source Guide]] — Source guide for Thariq Shihipar's Claude Code skills article, focused on skills as capability bundles, categories, gotchas, disclosure, hooks, and distribution. (#source #ai #agents #skills #claude-code)
 - [[wiki/sources/Dive into Claude Code Source Guide|Dive into Claude Code Source Guide]] — 这篇 arXiv 论文更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#paper #arxiv #agents #ai #harness #source)
