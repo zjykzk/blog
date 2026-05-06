@@ -7,14 +7,15 @@ summary: A verification loop gives an agent external feedback, such as tests, vi
 sources:
   - https://addyosmani.com/blog/agent-harness-engineering/
   - https://x.com/akshay_pachaar/status/2041146899319971922
+  - https://martinfowler.com/articles/harness-engineering.html
 created: 2026-05-05T14:03:13+08:00
-updated: 2026-05-05T15:10:00+08:00
-base_confidence: 0.44
+updated: 2026-05-06T22:24:21+08:00
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.82
-  inferred: 0.18
+  extracted: 0.8
+  inferred: 0.2
   ambiguous: 0.0
 aliases:
   - evaluation loop
@@ -73,12 +74,19 @@ The same source also distinguishes self-verification from generator/evaluator se
 
 This connects verification to [[wiki/concepts/Harness Ratchet]]: every repeated verification failure is evidence for a new rule, hook, done condition, or workflow split.
 
+[[wiki/sources/Harness Engineering Source Guide]] sharpens the distinction between computational and inferential verification. Tests, typechecks, and scripts give computational signals; review rubrics, examples, and evaluator judgments give inferential signals when correctness cannot be fully executed.
+
+The stronger harness uses computational checks for properties that can be made executable, then reserves inferential controls for fit, maintainability, architecture, and product judgment. ^[inferred]
+
 ## Related
 
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/Context Management]]
 - [[wiki/concepts/Agent Tool]]
 - [[wiki/concepts/Harness Ratchet]]
+- [[wiki/concepts/Computational and Inferential Controls]]
+- [[wiki/concepts/Feedforward and Feedback Controls]]
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
+- [[wiki/sources/Harness Engineering Source Guide]]

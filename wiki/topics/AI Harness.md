@@ -11,16 +11,17 @@ sources:
   - https://x.com/trq212/status/2024574133011673516
   - https://x.com/akshay_pachaar/status/2041146899319971922
   - https://x.com/trq212/status/2027463795355095314
+  - https://martinfowler.com/articles/harness-engineering.html
 created: 2026-05-04
-base_confidence: 0.70
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.92
-  inferred: 0.08
+  extracted: 0.9
+  inferred: 0.1
   ambiguous: 0.0
-source_count: 11
-updated: 2026-05-06T11:10:34+08:00
+source_count: 12
+updated: 2026-05-06T22:24:21+08:00
 aliases:
   - harness
 tags:
@@ -209,6 +210,19 @@ When a failure repeats or reveals a missing boundary, the response should not ju
 
 This is the role of [[wiki/concepts/Harness Ratchet]]: it turns failure history into system structure. The caution is that the ratchet should add rules only when failures earn them, and remove rules when model or harness changes make them obsolete.
 
+## User-side harness engineering
+
+[[wiki/sources/Harness Engineering Source Guide]] adds a more developer-owned angle: a coding agent's harness is not only the vendor runtime. It also includes the context, repo conventions, templates, scripts, checks, and review practices that users place around the agent.
+
+This matters because developers can improve agent behavior without changing model weights or vendor orchestration. They can make the local environment more harnessable by exposing clearer task boundaries, stronger examples, executable checks, and reusable review criteria.
+
+The source separates two useful control axes:
+
+- [[wiki/concepts/Feedforward and Feedback Controls]]: steer the agent before action, then inspect and correct after action
+- [[wiki/concepts/Computational and Inferential Controls]]: use executable checks where possible, and explicit judgment artifacts where correctness cannot be fully executable
+
+This extends the harness ratchet. A repeated failure can become a feedforward rule, a feedback check, a computational control, an inferential rubric, or a change to the work template. ^[inferred]
+
 ## Governance implication
 
 从 `Before the Tool Call` 这类材料往上抽，一个更稳定的判断是：harness 的安全边界不应只寄托在 prompt、模型自觉或人工事后复盘上。
@@ -229,6 +243,10 @@ This is the role of [[wiki/concepts/Harness Ratchet]]: it turns failure history 
 - [[wiki/concepts/Agent Action Space]]
 - [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/Verification Loop]]
+- [[wiki/concepts/Coding Agent User Harness]]
+- [[wiki/concepts/Feedforward and Feedback Controls]]
+- [[wiki/concepts/Computational and Inferential Controls]]
+- [[wiki/concepts/Harnessability]]
 - [[wiki/topics/Context Management]]
 - [[wiki/topics/AI Memory]]
 - [[wiki/topics/Tool Routing]]
@@ -254,6 +272,7 @@ This is the role of [[wiki/concepts/Harness Ratchet]]: it turns failure history 
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
+- [[wiki/sources/Harness Engineering Source Guide]]
 - [[wiki/sources/AI Memory Survey Source Guide]]
 
 ## Navigation

@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-06T21:40:37+08:00
+updated: 2026-05-06T22:24:21+08:00
 aliases:
   - Wiki Log
 tags:
@@ -66,3 +66,4 @@ tags:
 - [2026-05-06T21:23:05+08:00] INGEST source="/Users/zenk/Documents/notes/20260506T211953--概念解剖-创造__concept.org" pages_updated=7 pages_created=2 mode=append
 - [2026-05-06T21:35:29+08:00] CAPTURE type=concept page="wiki/concepts/Knowledge Types.md" title="Knowledge Types"
 - [2026-05-06T21:40:37+08:00] CAPTURE type=concept page="wiki/concepts/Knowledge Types.md" title="Judgment Knowledge"
+- [2026-05-06T22:24:21+08:00] INGEST source="https://martinfowler.com/articles/harness-engineering.html" pages_updated=10 pages_created=5 mode=append

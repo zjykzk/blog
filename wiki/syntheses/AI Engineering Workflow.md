@@ -11,16 +11,17 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
   - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
+  - https://martinfowler.com/articles/harness-engineering.html
 created: 2026-05-04
-base_confidence: 0.70
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.91
-  inferred: 0.09
+  extracted: 0.89
+  inferred: 0.11
   ambiguous: 0.0
-source_count: 11
-updated: 2026-05-05T17:55:00+08:00
+source_count: 12
+updated: 2026-05-06T22:24:21+08:00
 aliases:
   - AI 工作流
   - Agent workflow
@@ -145,6 +146,15 @@ LLM 本身有模型内建能力，例如 extended thinking；但工程系统里�
 
 This turns AI engineering from "prompt for output" into a structured pair-programming loop.
 
+[[wiki/sources/Harness Engineering Source Guide]] adds the user-harness layer around the same loop:
+
+- make the working environment more [[wiki/concepts/Harnessability|harnessable]] by exposing context, boundaries, examples, checks, and templates
+- use [[wiki/concepts/Feedforward and Feedback Controls]] to decide what should steer the agent before action and what should inspect work afterward
+- use [[wiki/concepts/Computational and Inferential Controls]] to distinguish executable truth signals from reusable judgment artifacts
+- treat [[wiki/concepts/Coding Agent User Harness]] as the local workbench that connects collaboration scaffolding, standards, tests, and review
+
+This makes AI engineering partly an environment-design problem: the developer is not only prompting a model, but shaping the control surfaces around the model. ^[inferred]
+
 ## Why this synthesis matters
 
 如果没有这条综合链路，AI 工程容易只剩下局部技巧：
@@ -168,6 +178,10 @@ This turns AI engineering from "prompt for output" into a structured pair-progra
 - [[wiki/concepts/Context Anchoring]]
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/concepts/Feedback Flywheel]]
+- [[wiki/concepts/Coding Agent User Harness]]
+- [[wiki/concepts/Feedforward and Feedback Controls]]
+- [[wiki/concepts/Computational and Inferential Controls]]
+- [[wiki/concepts/Harnessability]]
 
 ## Upstream topics
 
@@ -181,6 +195,7 @@ This turns AI engineering from "prompt for output" into a structured pair-progra
 ## Source notes
 
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
+- [[wiki/sources/Harness Engineering Source Guide]]
 
 ## Navigation
 

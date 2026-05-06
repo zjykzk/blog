@@ -1,29 +1,29 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity expanded Knowledge Types with judgment knowledge as the ability to rank information, risk, value, and action priority in context.
+summary: Recent wiki activity added user-side harness engineering: developer-owned context, controls, checks, templates, and harnessability for coding agents.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-06T21:40:37+08:00
+updated: 2026-05-06T22:24:21+08:00
 ---
 
 ## Recent Activity
 
+- Ingested Fowler's harness engineering article: added [[wiki/concepts/Coding Agent User Harness]], [[wiki/concepts/Feedforward and Feedback Controls]], [[wiki/concepts/Computational and Inferential Controls]], and [[wiki/concepts/Harnessability]].
 - Expanded [[wiki/concepts/Knowledge Types]] with judgment knowledge: the ability to weight facts, risk, value, source reliability, and action priority under context.
 - Captured the knowledge-type discussion as [[wiki/concepts/Knowledge Types]], connecting functional knowledge categories to [[wiki/concepts/Concept]], [[wiki/concepts/Understanding]], [[wiki/concepts/Knowledge as Network]], and [[wiki/topics/Learning Methodology]].
-- Ingested the ljg-learn concept anatomy for “创造”: added [[wiki/concepts/Creation]] and connected it to [[wiki/concepts/Understanding]], [[wiki/topics/Mental Models]], [[wiki/concepts/Application]], and [[wiki/concepts/Analysis]].
-- Ingested the ljg-learn concept anatomy for “评价”: added [[wiki/concepts/Evaluation]] and connected it to [[wiki/topics/Critical Thinking]], [[wiki/topics/Mental Models]], and [[wiki/concepts/Application]].
-- Ingested the ljg-learn concept anatomy for “应用”: added [[wiki/concepts/Application]] and connected it to [[wiki/concepts/Understanding]], [[wiki/concepts/Cognitive Engineering]], and [[wiki/syntheses/Acting Under Complexity]].
 
 ## Active Threads
 
 - Software methodology is converging around the handoff from business modeling to analysis, DDD, and executable design.
 - Frontend knowledge is forming around React as a coordination model for declarative rendering, component boundaries, and state.
 - AI / Agent systems are being organized around harness, context management, tool design, memory, permissions, and reusable operational knowledge.
+- User-side harness engineering is now represented as developer control over context, rules, templates, computational checks, inferential review artifacts, and feedback loops.
+- Harnessability is now represented as a quality of tasks and codebases: agent-friendly work exposes context, boundaries, examples, executable checks, and reusable review criteria.
 - Prompt and context design now includes an explicit runtime-economics layer: stable prefixes can be reused, while prefix mutation creates cold-cache sessions.
 - Tool availability can be made cache-stable by exposing stable stubs and deferring full schema loading until search/select time.
 - Agent harness architecture now has an explicit verification thread: tests, visual checks, and evaluator loops are part of runtime behavior, not just final QA.
@@ -65,6 +65,8 @@ updated: 2026-05-06T21:40:37+08:00
 - Durable feature documents are a practical reset mechanism: they let teams close long AI chats and restart from a compact, decision-rich artifact.
 - AI standards should move from personal prompting skill into repository infrastructure when output quality varies by who is asking.
 - Failed AI interactions are useful evidence only if they change a durable artifact; otherwise the same collaboration failure returns as a new prompt problem.
+- AI coding quality should distinguish feedforward controls from feedback controls, and computational controls from inferential controls.
+- A coding agent harness is partly local workbench design: teams can improve model outcomes by shaping the environment even when they cannot change the model.
 - Inference benchmarking should be read through SLO-aware goodput, not just raw tokens per second, because latency and throughput can optimize against each other.
 - A concept can be known as a label without being understood as a movable cloud; durable learning should change the cloud's examples, abstractions, and links.
 - A strong understanding test is whether a learner can generate multiple analogies for the same object and name what each analogy hides.

@@ -7,14 +7,15 @@ summary: A harness ratchet turns repeated agent failures into durable rules, hoo
 sources:
   - https://addyosmani.com/blog/agent-harness-engineering/
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
+  - https://martinfowler.com/articles/harness-engineering.html
 created: 2026-05-05T15:10:00+08:00
-updated: 2026-05-05T17:55:00+08:00
-base_confidence: 0.44
+updated: 2026-05-06T22:24:21+08:00
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.78
-  inferred: 0.22
+  extracted: 0.76
+  inferred: 0.24
   ambiguous: 0.0
 aliases:
   - agent harness ratchet
@@ -48,6 +49,10 @@ The ratchet is strongest when every rule traces back to a real failure, not a sp
 
 The useful distinction is scope. Harness ratchet focuses on the runtime around an agent; feedback flywheel focuses on the collaboration system around AI-assisted development. ^[inferred]
 
+[[wiki/sources/Harness Engineering Source Guide]] gives the ratchet a control vocabulary. A repeated failure can be absorbed as a [[wiki/concepts/Feedforward and Feedback Controls|feedforward control]], a feedback control, a computational check, or an inferential rubric.
+
+That means the ratchet should not default to "add another instruction." Sometimes the stronger move is to add an executable test, expose a better template, or make review criteria visible to the agent and the human reviewer. ^[inferred]
+
 ## Why It Matters
 
 This turns agent engineering from prompt tweaking into feedback-driven system design.
@@ -72,5 +77,9 @@ If only the first side exists, the harness can accumulate stale rules and contex
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Agent Tool]]
 - [[wiki/concepts/Feedback Flywheel]]
+- [[wiki/concepts/Feedforward and Feedback Controls]]
+- [[wiki/concepts/Computational and Inferential Controls]]
+- [[wiki/concepts/Coding Agent User Harness]]
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
+- [[wiki/sources/Harness Engineering Source Guide]]

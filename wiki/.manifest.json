@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 24,
-    "total_pages": 153
+    "total_sources_ingested": 25,
+    "total_pages": 158
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -529,6 +529,33 @@
         "wiki/concepts/Understanding.md",
         "wiki/topics/Mental Models.md",
         "wiki/maps/Learning Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md",
+        "wiki/.manifest.json"
+      ]
+    },
+    "https://martinfowler.com/articles/harness-engineering.html": {
+      "ingested_at": "2026-05-06T22:24:21+08:00",
+      "size_bytes": 40648,
+      "modified_at": "2026-05-06T22:24:21+08:00",
+      "content_hash": "sha256:d56bf3e78f2987b12af13ddf2f98f96751ab9239276879201d48e6fc5ff1d759",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/Harness Engineering Source Guide.md",
+        "wiki/concepts/Coding Agent User Harness.md",
+        "wiki/concepts/Feedforward and Feedback Controls.md",
+        "wiki/concepts/Computational and Inferential Controls.md",
+        "wiki/concepts/Harnessability.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/AI Harness.md",
+        "wiki/syntheses/AI Engineering Workflow.md",
+        "wiki/concepts/Harness Ratchet.md",
+        "wiki/concepts/Verification Loop.md",
+        "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md",

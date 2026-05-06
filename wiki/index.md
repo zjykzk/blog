@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-06T21:40:37+08:00
+updated: 2026-05-06T22:24:21+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -86,6 +86,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Agent Skill|Agent Skill]] — Agent Skill is a reusable capability bundle that can combine instructions, references, scripts, assets, memory, and hooks for agent work. (#ai #agents #skills #workflow)
 - [[wiki/concepts/Agent Tool|Agent Tool]] — Agent tools are schema-defined action surfaces that let an agent inspect, change, retrieve, or validate external state under harness control. (#ai #agents #tools)
 - [[wiki/concepts/AI Collaboration Scaffolding|AI Collaboration Scaffolding]] — AI collaboration scaffolding gives coding assistants onboarding context, design discussion, standards, anchors, and feedback loops so their output fits the team. (#ai #software-engineering #workflow #ai-coding)
+- [[wiki/concepts/Coding Agent User Harness|Coding Agent User Harness]] — A coding agent user harness is the developer-controlled environment that shapes agent behavior through context, tools, rules, checks, and templates. (#ai #agents #harness #ai-coding)
+- [[wiki/concepts/Computational and Inferential Controls|Computational and Inferential Controls]] — Computational controls execute objective checks; inferential controls carry human or model judgment where correctness cannot be fully executable. (#ai #agents #harness #testing)
 - [[wiki/concepts/Application|Application]] — Application is the fit-process that lets abstract knowledge, tools, or methods become effective in a concrete situation. (#thinking #concepts #practice)
 - [[wiki/concepts/Knowledge Priming|Knowledge Priming]] — Knowledge priming gives AI coding assistants curated, versioned project context before generation so they fit local architecture and conventions. (#ai #ai-coding #context #workflow)
 - [[wiki/concepts/Design-First Collaboration|Design-First Collaboration]] — Design-first collaboration makes AI design decisions explicit through staged alignment before any implementation code is generated. (#ai #ai-coding #software-engineering #workflow)
@@ -113,7 +115,9 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Evaluation|Evaluation]] — Evaluation is the act of placing an object inside a scale so its value, quality, meaning, or position can appear. (#thinking #concepts #judgment)
 - [[wiki/concepts/Expression Three Channels|Expression Three Channels]] — 人向外表达，靠三根独立的生成器撑着。关掉任何一根，表达塌一块。
 - [[wiki/concepts/Feedback Loops|Feedback Loops]] — Feedback loops are system structures where results flow back to influence future causes, creating growth, stability, or oscillation.
+- [[wiki/concepts/Feedforward and Feedback Controls|Feedforward and Feedback Controls]] — Feedforward controls shape an agent before action; feedback controls inspect results after action and steer correction or future harness changes. (#ai #agents #harness #feedback)
 - [[wiki/concepts/Harness Ratchet|Harness Ratchet]] — A harness ratchet turns repeated agent failures into durable rules, hooks, checks, or workflow changes instead of treating them as one-off bad runs. (#ai #agents #harness #feedback)
+- [[wiki/concepts/Harnessability|Harnessability]] — Harnessability is how easily a task, codebase, or workflow can be surrounded by context, controls, checks, and templates for effective agent work. (#ai #agents #harness #software-engineering)
 - [[wiki/concepts/Knowledge as Network|Knowledge as Network]] — 知识没有全局层级，只有局部的序。看起来像金字塔，其实是张网。
 - [[wiki/concepts/Knowledge Types|Knowledge Types]] — 知识类型按知识在人脑和行动中的功能划分；布卢姆分类则描述对知识的掌握深度。 (#cognition #learning #concepts #taxonomy)
 - [[wiki/concepts/KV Cache|KV Cache]] — KV cache stores transformer key/value tensors so repeated prefixes or generated histories do not need full attention recomputation. ( #ai #llm #inference #caching)
@@ -164,6 +168,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Evaluation Concept Anatomy Source Guide|Evaluation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on evaluation as scale-shaped value judgment. (#source #thinking #concepts)
 - [[wiki/sources/Frontend Development Workflow Roundtable Source Guide|Frontend Development Workflow Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担前端工程方法论的稳定母页角色。 (#frontend #software-engineering #workflow #ux #source #roundtable)
 - [[wiki/sources/GenericAgent Paper Source Guide|GenericAgent Paper Source Guide]] — Source guide for the GenericAgent paper, focused on context information density, hierarchical memory, tool minimality, and self-evolution. (#papers #agents #ai #source)
+- [[wiki/sources/Harness Engineering Source Guide|Harness Engineering Source Guide]] — Source guide for Martin Fowler's harness engineering article, focused on user-owned harnesses for coding agents and their control loops. (#source #ai #agents #harness #ai-coding)
 - [[wiki/sources/How to Get Rich Source Guide|How to Get Rich Source Guide]] — Source guide for Naval Ravikant's How to Get Rich tweetstorm PDF, focused on wealth, equity, specific knowledge, accountability, leverage, and judgment. ( #source #wealth #leverage #career #judgment)
 - [[wiki/sources/Journals|Journals Source Guide]] — journals/ 是当前 vault 的时间流输入层。它们不应直接承担稳定知识页职责，但应该持续为 wiki/ 提供可回溯的来源。 (#journals #raw #source)
 - [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide|LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]] — 这篇 arXiv 论文更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#paper #arxiv #reasoning #llm #source)
@@ -186,7 +191,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/vLLM Inference Systems Source Guide|vLLM Inference Systems Source Guide]] — Source guide for Aleksa Gordic's vLLM article, focused on engine loops, paged attention, batching, P/D split, scaling, serving, and benchmarking. (#source #ai #llm #inference)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Added Feedback Flywheel as the maintenance loop for AI collaboration artifacts, metrics, and guardrails.
+- [[wiki/hot|Hot Cache]] — Ingested Fowler's harness engineering article, adding user-side harness controls and harnessability to the AI coding cluster.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

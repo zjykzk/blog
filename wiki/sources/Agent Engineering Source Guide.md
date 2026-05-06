@@ -9,8 +9,8 @@ created: 2026-04-23
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 9
-updated: 2026-05-06T11:10:34+08:00
+source_count: 10
+updated: 2026-05-06T22:24:21+08:00
 aliases:
   - agent engineering source cluster
   - harness workflow source guide
@@ -63,6 +63,7 @@ tags:
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Claude Code Skills Source Guide]]
 - [[wiki/sources/Seeing Like an Agent Source Guide]]
+- [[wiki/sources/Harness Engineering Source Guide]]
 
 The prompt-caching guide now covers both a secondary case-study explainer and Thariq's original Claude Code article, which contributes the production-harness angle: cache-hit monitoring, stable mode tools, deferred tool loading, and cache-safe compaction.
 
@@ -75,6 +76,8 @@ Rahul Garg's friction-reduction guide contributes the team collaboration layer: 
 Thariq Shihipar's Claude Code skills guide contributes the skill-operating layer: skills can bundle references, scripts, assets, memory, setup, and on-demand hooks, while progressive disclosure keeps the always-loaded context small.
 
 Thariq Shihipar's "Seeing like an Agent" guide contributes the action-space design layer: observe model behavior, keep the top-level tool surface small, and choose between tools, skills, search, and subagents based on what the model can actually use.
+
+Martin Fowler's harness-engineering guide contributes the user-side workbench layer: developers can shape coding-agent behavior through context, rules, templates, computational checks, inferential review artifacts, and feedback loops.
 
 ## Main promotion destinations
 
@@ -90,6 +93,10 @@ Thariq Shihipar's "Seeing like an Agent" guide contributes the action-space desi
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Agent Skill]]
 - [[wiki/concepts/Agent Action Space]]
+- [[wiki/concepts/Coding Agent User Harness]]
+- [[wiki/concepts/Feedforward and Feedback Controls]]
+- [[wiki/concepts/Computational and Inferential Controls]]
+- [[wiki/concepts/Harnessability]]
 
 ## What belongs here
 
