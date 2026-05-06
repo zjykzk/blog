@@ -5,6 +5,7 @@ status: seed
 category: topics
 summary: AI Skills Workflow treats skills as reusable workflows that gather, order, persist, and reload context for more stable agent behavior.
 sources:
+  - https://x.com/trq212/status/2033949937936085378
   - https://martinfowler.com/articles/reduce-friction-ai/knowledge-priming.html#ThisPatternInLattice
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
@@ -15,11 +16,11 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.78
-  inferred: 0.22
+  extracted: 0.80
+  inferred: 0.20
   ambiguous: 0.0
-source_count: 8
-updated: 2026-05-05T17:55:00+08:00
+source_count: 9
+updated: 2026-05-06T10:51:47+08:00
 aliases:
   - skills workflow
   - AI skills
@@ -42,6 +43,10 @@ tags:
 ## Why it matters
 
 这说明 skill 不是“把 prompt 存起来”，而是把一次有效协作抽成稳定工作流。
+
+[[wiki/sources/Claude Code Skills Source Guide]] adds a lower-level implementation view from Claude Code practice: a skill can be a folder containing references, scripts, assets, templates, data, configuration, memory, and on-demand hooks, not only a top-level instruction file.
+
+That turns [[wiki/concepts/Agent Skill]] into a context-engineering surface. The skill can keep the always-loaded layer small, then disclose deeper material only when the current task needs it. ^[inferred]
 
 [[wiki/concepts/Knowledge Priming]] adds a concrete example from Lattice: a `knowledge-priming` atom plus a `knowledge-priming-refiner` can interview the user, capture project identity, write it to a versioned file, and let other skills read that context automatically.
 
@@ -79,6 +84,7 @@ That turns skill design into a maintenance loop. A reusable workflow is not comp
 - 哪些判断先做
 - 哪些动作要被隔离出去
 - 哪些中间结果要被压缩后再回流
+- 哪些 references / scripts / assets 该按需展开，而不是一开始全塞进上下文
 
 ## Reasoning implication
 
@@ -105,6 +111,7 @@ That turns skill design into a maintenance loop. A reusable workflow is not comp
 - [[wiki/concepts/Context Anchoring]]
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/concepts/Feedback Flywheel]]
+- [[wiki/concepts/Agent Skill]]
 
 ## Peer topics
 
@@ -127,3 +134,4 @@ That turns skill design into a maintenance loop. A reusable workflow is not comp
 - `journals/2026_04_01.md`
 - [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
+- [[wiki/sources/Claude Code Skills Source Guide]]

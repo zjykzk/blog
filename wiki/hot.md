@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity sharpened AI-assisted development workflow around feedback flywheels, executable standards, and context anchoring.
+summary: Recent wiki activity sharpened AI agent skills as folder-shaped capability bundles with progressive disclosure, hooks, scripts, and shared curation.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-05T17:55:00+08:00
+updated: 2026-05-06T10:51:47+08:00
 ---
 
 ## Recent Activity
 
+- Ingested Thariq Shihipar's Claude Code skills article: added [[wiki/concepts/Agent Skill]] and [[wiki/sources/Claude Code Skills Source Guide]], connecting skills to progressive disclosure, scripts, hooks, memory, and marketplace curation.
 - Ingested Rahul Garg's Feedback Flywheel page: added [[wiki/concepts/Feedback Flywheel]] and connected AI collaboration metrics to artifact maintenance, harness ratchets, testing strategy, and feedback loops.
 - Ingested Rahul Garg's Encoding Team Standards page: added [[wiki/concepts/Encoding Team Standards]] and connected executable governance to AI skills, coding guidelines, testing strategy, and modern software engineering.
-- Ingested Rahul Garg's Context Anchoring page: added [[wiki/concepts/Context Anchoring]] and connected living feature documents to context management, SDD, and AI skills workflow.
 
 ## Active Threads
 
@@ -36,6 +36,7 @@ updated: 2026-05-05T17:55:00+08:00
 - Context anchoring is now represented as feature-level external memory: decisions, reasons, rejected alternatives, open questions, and state should survive outside the chat transcript.
 - Encoding team standards is now represented as executable governance: senior judgment about generation, refactoring, security, and review can live as versioned shared instructions.
 - Feedback flywheel is now represented as the maintenance loop for AI collaboration: real review, regeneration, acceptance, and rework signals should update context, standards, workflows, checks, and guardrails.
+- Agent skills are now represented as folder-shaped capability bundles: references, scripts, assets, memory, configuration, and on-demand hooks can be disclosed only when the workflow needs them.
 
 ## Key Takeaways
 

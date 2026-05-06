@@ -13,8 +13,8 @@ provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
-source_count: 19
-updated: 2026-05-05T17:55:00+08:00
+source_count: 20
+updated: 2026-05-06T10:51:47+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -47,6 +47,7 @@ tags:
 - [[wiki/concepts/KV Cache]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Harness Ratchet]]
+- [[wiki/concepts/Agent Skill]]
 
 ## Topics
 
@@ -87,6 +88,7 @@ tags:
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
+- [[wiki/sources/Claude Code Skills Source Guide]]
 
 ## Related journals
 

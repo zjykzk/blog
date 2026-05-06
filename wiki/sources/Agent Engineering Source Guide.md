@@ -9,8 +9,8 @@ created: 2026-04-23
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 7
-updated: 2026-05-05T17:05:00+08:00
+source_count: 8
+updated: 2026-05-06T10:51:47+08:00
 aliases:
   - agent engineering source cluster
   - harness workflow source guide
@@ -61,6 +61,7 @@ tags:
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
+- [[wiki/sources/Claude Code Skills Source Guide]]
 
 The prompt-caching guide now covers both a secondary case-study explainer and Thariq's original Claude Code article, which contributes the production-harness angle: cache-hit monitoring, stable mode tools, deferred tool loading, and cache-safe compaction.
 
@@ -69,6 +70,8 @@ The agent-harness anatomy guide contributes the broad component inventory: orche
 Addy Osmani's harness-engineering guide contributes the operational discipline: treat agent mistakes as harness improvement signals, then encode the lesson as rules, hooks, checks, done conditions, tool-surface changes, or workflow splits.
 
 Rahul Garg's friction-reduction guide contributes the team collaboration layer: prime context, align design, anchor decisions, encode standards, and run a feedback flywheel.
+
+Thariq Shihipar's Claude Code skills guide contributes the skill-operating layer: skills can bundle references, scripts, assets, memory, setup, and on-demand hooks, while progressive disclosure keeps the always-loaded context small.
 
 ## Main promotion destinations
 
@@ -82,6 +85,7 @@ Rahul Garg's friction-reduction guide contributes the team collaboration layer: 
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/AI Collaboration Scaffolding]]
+- [[wiki/concepts/Agent Skill]]
 
 ## What belongs here
 

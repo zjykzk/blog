@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 15,
-    "total_pages": 131
+    "total_sources_ingested": 16,
+    "total_pages": 133
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -338,6 +338,26 @@
         "wiki/concepts/Feedback Loops.md",
         "wiki/topics/Modern Software Engineering.md",
         "wiki/topics/Testing Strategy.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://x.com/trq212/status/2033949937936085378": {
+      "ingested_at": "2026-05-06T10:51:47+08:00",
+      "size_bytes": 22000,
+      "modified_at": "2026-03-17T00:00:00+00:00",
+      "content_hash": "sha256:403edd45966fdf2665872a0e7170607f1e31d34ebb55ccc4360eddd1cb521721",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Agent Skill.md",
+        "wiki/sources/Claude Code Skills Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/AI Skills Workflow.md",
+        "wiki/sources/Agent Engineering Source Guide.md",
         "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",
