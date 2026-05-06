@@ -9,12 +9,13 @@ sources:
   - /Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf
   - inline:understanding-cloud-2026-05-06
   - inline:hofstadter-frame-discussion-2026-05-06
+  - /Users/zenk/Documents/notes/20260506T194300--概念解剖-分析__concept.org
 created: 2026-04-21
-base_confidence: 0.82
+base_confidence: 0.71
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 4
-updated: 2026-05-06T19:34:46+08:00
+source_count: 5
+updated: 2026-05-06T19:50:40+08:00
 aliases:
   - 思维框架
 tags:
@@ -22,8 +23,8 @@ tags:
   - models
   - decision-making
 provenance:
-  extracted: 0.68
-  inferred: 0.32
+  extracted: 0.64
+  inferred: 0.36
   ambiguous: 0.00
 ---
 
@@ -75,6 +76,12 @@ mental models 也可以看成 [[wiki/concepts/Understanding]] 的结构模板：
 
 这也接到 [[wiki/concepts/Analogy-Making]]：mental model 的实用价值，常常在于给陌生对象提供一个可试运行的类比结构，而不是提供最终答案。^[inferred]
 
+## Analysis Use
+
+[[wiki/concepts/Analysis]] is one of the basic moves inside mental-model work: it opens a confused whole into parts, relations, and constraints, then recomposes them into a structure that can guide action. ^[inferred]
+
+The key test is whether the decomposition remains reversible. If a model only cuts an object into labels but cannot reconnect those labels into behavior, judgment, or action, it has produced fragmentation rather than understanding. ^[inferred]
+
 ## Learning Use
 
 在学习一个新领域时，mental models 可以先作为“专家共享结构”被抽出来。Ihtesham Ali 的 NotebookLM 学习 workflow 里，第一步不是让 AI 总结教材，而是问“专家共享的 5 个核心 mental models 是什么”。这个问法把学习入口从材料顺序切到结构地图，适合接到 [[wiki/concepts/AI Learning Tutor Loop]]。^[inferred]
@@ -91,6 +98,7 @@ Naval Ravikant 的 "How to Get Rich" 也可以读成一组经济行动 mental mo
 - [[wiki/topics/Probability]]
 - [[wiki/topics/Learnable Structure in Data]]
 - [[wiki/topics/Learning Methodology]]
+- [[wiki/concepts/Analysis]]
 - [[wiki/concepts/Understanding]]
 - [[wiki/concepts/Analogy-Making]]
 - [[wiki/topics/Wealth Creation]]
@@ -109,3 +117,4 @@ Naval Ravikant 的 "How to Get Rich" 也可以读成一组经济行动 mental mo
 - `mobu/读书/思维框架.md`
 - `/Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf`
 - [[wiki/sources/Understanding as Concept Cloud Source Guide]]
+- [[wiki/sources/Analysis Concept Anatomy Source Guide]]

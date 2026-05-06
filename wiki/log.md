@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-04-20
+updated: 2026-05-06T19:50:40+08:00
 aliases:
   - Wiki Log
 tags:
@@ -60,3 +60,4 @@ tags:
 - [2026-05-06T12:17:59+08:00] INGEST source="https://www.aleksagordic.com/blog/vllm" pages_updated=6 pages_created=7 mode=append
 - [2026-05-06T19:18:40+08:00] INGEST source="inline:understanding-cloud-2026-05-06" pages_updated=7 pages_created=2 mode=append
 - [2026-05-06T19:34:46+08:00] INGEST source="inline:hofstadter-frame-discussion-2026-05-06" pages_updated=7 pages_created=1 mode=append
+- [2026-05-06T19:50:40+08:00] INGEST source="/Users/zenk/Documents/notes/20260506T194300--概念解剖-分析__concept.org" pages_updated=7 pages_created=2 mode=append

@@ -3,22 +3,28 @@ title: Categorical Thinking
 type: topic
 status: draft
 category: topics
-summary: 分类思维，是先找一个划分维度，再按这个维度把混乱切成几类，从而让理解、判断和行动变得更清楚。
+summary: 分类思维是一种分析动作：先选择划分维度，再把混乱切成几类，让理解、判断和行动变得更清楚。
 tags: []
-sources: []
+sources:
+  - /Users/zenk/Documents/notes/20260506T194300--概念解剖-分析__concept.org
 created: 2026-04-27
-base_confidence: 0.37
+base_confidence: 0.32
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-04-27
+updated: 2026-05-06T19:50:40+08:00
 aliases:
   - 分类思维
   - Classification Thinking
+source_count: 1
+provenance:
+  extracted: 0.82
+  inferred: 0.18
+  ambiguous: 0.00
 ---
 
 # Categorical Thinking
 
-分类思维，是先找一个划分维度，再按这个维度把混乱切成几类，从而让理解、判断和行动变得更清楚。
+分类思维，是一种具体的 [[wiki/concepts/Analysis]]：先找一个划分维度，再按这个维度把混乱切成几类，从而让理解、判断和行动变得更清楚。
 
 它的价值不在于把世界切整齐，而在于把原本混在一起的差异显出来。
 
@@ -109,6 +115,8 @@ aliases:
 
 分类帮你切开对象，系统思考帮你再把它们连起来。一个擅长分，一个擅长看关系。
 
+这也正是分析的边界：切开之后必须能重新连回对象本身，否则分类只是在制造标签。^[inferred]
+
 ### 与批判性思维
 
 批判性思维会追问：这个分类依据是什么？有没有漏掉重要维度？是不是把连续谱硬切成了离散格子？
@@ -130,6 +138,7 @@ aliases:
 ## Related
 
 - [[wiki/maps/Classification Thinking Map]]
+- [[wiki/concepts/Analysis]]
 - [[wiki/topics/Methods of Classification]]
 - [[wiki/topics/What Makes a Good Classification]]
 - [[wiki/topics/Limits of Classification]]

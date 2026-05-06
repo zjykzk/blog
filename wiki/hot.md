@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity connected the understanding-cloud model to Hofstadter's analogy-making and fluid-concepts source trail.
+summary: Recent wiki activity added Analysis as a thinking concept and connected it to classification, mental models, and action under complexity.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-06T19:34:46+08:00
+updated: 2026-05-06T19:50:40+08:00
 ---
 
 ## Recent Activity
 
+- Ingested the ljg-learn concept anatomy for “分析”: added [[wiki/concepts/Analysis]] and connected it to [[wiki/topics/Categorical Thinking]], [[wiki/topics/Mental Models]], and [[wiki/syntheses/Acting Under Complexity]].
 - Ingested the follow-up discussion on Hofstadter's frame: added [[wiki/concepts/Analogy-Making]] and clarified that the “understanding cloud” is a reconstruction grounded in analogy-making and fluid concepts.
 - Ingested an inline essay on “理解”: added [[wiki/concepts/Understanding]] and connected it to [[wiki/concepts/Concept]], [[wiki/concepts/Knowledge as Network]], [[wiki/topics/Learning Methodology]], and [[wiki/topics/Mental Models]].
-- Ingested Aleksa Gordic's vLLM article: added [[wiki/topics/LLM Inference Systems]], [[wiki/concepts/Paged Attention]], [[wiki/concepts/Continuous Batching]], [[wiki/concepts/Prefill Decode Split]], [[wiki/concepts/Speculative Decoding]], and [[wiki/concepts/LLM Inference Benchmarking]].
 
 ## Active Threads
 
@@ -42,6 +42,7 @@ updated: 2026-05-06T19:34:46+08:00
 - Prefill/decode separation is now a key inference-design thread: compute-heavy prompt processing and latency-sensitive decoding need different scheduling and scaling choices.
 - Understanding is now represented as a cloud-shaped cognitive structure: horizontal similarity gives breadth, vertical abstraction gives depth, and teaching/rebuilding tests whether the cloud can move.
 - Hofstadter's contribution should be tracked as analogy-making and fluid concepts; the “cloud / horizontal similarity / vertical abstraction” language is a local synthesis, not a direct quotation.
+- Analysis is now represented as reversible decomposition: cut a confused whole into parts and relations, then recombine it into actionable understanding.
 
 ## Key Takeaways
 
@@ -65,5 +66,6 @@ updated: 2026-05-06T19:34:46+08:00
 - Inference benchmarking should be read through SLO-aware goodput, not just raw tokens per second, because latency and throughput can optimize against each other.
 - A concept can be known as a label without being understood as a movable cloud; durable learning should change the cloud's examples, abstractions, and links.
 - A strong understanding test is whether a learner can generate multiple analogies for the same object and name what each analogy hides.
+- Analysis should be judged by whether the cut can be recomposed into action; decomposition without recomposition is fragmentation.
 
 ## Flagged Contradictions

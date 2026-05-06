@@ -3,22 +3,28 @@ title: Classification Thinking Map
 type: map
 status: draft
 category: maps
-summary: 这一组页面围绕一个核心问题展开： 人如何通过分类把混乱切成结构，以及这种切法的价值、方法与边界是什么。
+summary: 这一组页面围绕一个核心问题展开：人如何通过分析与分类把混乱切成结构，以及这种切法的价值、方法与边界是什么。
 tags: []
-sources: []
+sources:
+  - /Users/zenk/Documents/notes/20260506T194300--概念解剖-分析__concept.org
 created: 2026-04-27
-base_confidence: 0.37
+base_confidence: 0.32
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-04-27
+updated: 2026-05-06T19:50:40+08:00
 aliases:
   - 分类思维地图
   - 分类地图
+source_count: 1
+provenance:
+  extracted: 0.82
+  inferred: 0.18
+  ambiguous: 0.00
 ---
 
 # Classification Thinking Map
 
-这一组页面围绕一个核心问题展开：**人如何通过分类把混乱切成结构，以及这种切法的价值、方法与边界是什么。**
+这一组页面围绕一个核心问题展开：**人如何通过分析与分类把混乱切成结构，以及这种切法的价值、方法与边界是什么。**
 
 ## Entry point
 
@@ -28,6 +34,8 @@ aliases:
 2. [[wiki/topics/Methods of Classification]]
 3. [[wiki/topics/What Makes a Good Classification]]
 4. [[wiki/topics/Limits of Classification]]
+
+如果要先看更底层的动作，进入 [[wiki/concepts/Analysis]]。
 
 ## Core chain
 
@@ -67,6 +75,7 @@ aliases:
 它们的关系大致是：
 
 - 分类思维：把对象切开
+- 分析：顺着对象纹理切开，并把部分关系合回可行动的理解
 - 系统思考：把被切开的对象重新连起来
 - 问题定义：决定当前到底该按什么维度切
 - 批判性思维：检查这个切法有没有错
@@ -78,6 +87,7 @@ aliases:
 ## Related
 
 - [[wiki/index]]
+- [[wiki/concepts/Analysis]]
 - [[wiki/topics/Categorical Thinking]]
 - [[wiki/topics/Methods of Classification]]
 - [[wiki/topics/What Makes a Good Classification]]
