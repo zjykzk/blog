@@ -5,16 +5,21 @@ status: draft
 category: concepts
 summary: 知识没有全局层级，只有局部的序。看起来像金字塔，其实是张网。
 tags: []
-sources: []
+sources:
+  - inline:understanding-cloud-2026-05-06
 created: 2026-04-26
-base_confidence: 0.37
+base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-04-26
+updated: 2026-05-06T19:18:40+08:00
 aliases:
   - 知识网
   - 知识不是塔
   - Knowledge is not a pyramid
+provenance:
+  extracted: 0.86
+  inferred: 0.14
+  ambiguous: 0.00
 ---
 
 # Knowledge as Network
@@ -50,9 +55,12 @@ aliases:
 - 有洞允许留着——just-in-time 补齐，不 just-in-case 全学一遍。
 - 学新东西时问："它和我已经懂的哪些连上了？"——知识网的价值在连接密度，不在节点数量。
 
+[[wiki/concepts/Understanding]] 给这条原则补了一个更细的认知形状：所谓“连上”，不只是多记一个节点，而是让某个概念云横向长出相似结构、纵向补上抽象层级。^[inferred]
+
 ## Related
 
 - [[wiki/topics/Learning Methodology]]
+- [[wiki/concepts/Understanding]]
 - [[wiki/concepts/Cognition Three Channels]]
 - [[wiki/concepts/Expression Three Channels]]
 - [[学习方法论]]

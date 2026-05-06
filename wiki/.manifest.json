@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 18,
-    "total_pages": 142
+    "total_sources_ingested": 19,
+    "total_pages": 144
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -408,6 +408,28 @@
         "wiki/concepts/KV Cache.md",
         "wiki/concepts/LLM.md",
         "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "inline:understanding-cloud-2026-05-06": {
+      "ingested_at": "2026-05-06T19:18:40+08:00",
+      "size_bytes": 4700,
+      "modified_at": "2026-05-06T19:18:40+08:00",
+      "content_hash": "sha256:2af4007b16c23e1a8df6e299a027efc34e138d6b812a8f82d4e0542236c4dec9",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Understanding.md",
+        "wiki/sources/Understanding as Concept Cloud Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Concept.md",
+        "wiki/topics/Learning Methodology.md",
+        "wiki/topics/Mental Models.md",
+        "wiki/concepts/Knowledge as Network.md",
+        "wiki/maps/Learning Map.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"

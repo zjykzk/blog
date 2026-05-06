@@ -58,3 +58,4 @@ tags:
 - [2026-05-06T10:51:47+08:00] INGEST source="https://x.com/trq212/status/2033949937936085378" pages_updated=6 pages_created=2 mode=append
 - [2026-05-06T11:10:34+08:00] INGEST source="https://x.com/trq212/status/2027463795355095314" pages_updated=10 pages_created=2 mode=append
 - [2026-05-06T12:17:59+08:00] INGEST source="https://www.aleksagordic.com/blog/vllm" pages_updated=6 pages_created=7 mode=append
+- [2026-05-06T19:18:40+08:00] INGEST source="inline:understanding-cloud-2026-05-06" pages_updated=7 pages_created=2 mode=append

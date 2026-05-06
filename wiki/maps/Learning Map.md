@@ -5,12 +5,13 @@ status: draft
 category: maps
 summary: Learning Map collects learning methodology, cognition concepts, AI tutor loops, and cross-source synthesis for durable learning practice.
 tags: []
-sources: []
+sources:
+  - inline:understanding-cloud-2026-05-06
 created: 2026-04-26
-base_confidence: 0.37
+base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-05T14:18:28+08:00
+updated: 2026-05-06T19:18:40+08:00
 aliases:
   - 学习地图
 provenance:
@@ -32,6 +33,7 @@ provenance:
 - [[wiki/concepts/Cognition Three Channels]]——认识三根：接/替/想
 - [[wiki/concepts/Expression Three Channels]]——表达三根：编/载/解
 - [[wiki/concepts/Knowledge as Network]]——知识是网不是塔
+- [[wiki/concepts/Understanding]]——理解是由相似结构和抽象层级共同塑形的概念云
 - [[wiki/concepts/Cognitive Engineering]]——设计人、工具与反馈构成的认知系统
 - [[wiki/concepts/AI Learning Tutor Loop]]——用 AI 源材料系统建立知识地形、诊断理解并修补错误
 
@@ -42,6 +44,7 @@ provenance:
 ## 相关源笔记（pages/ 与 mobu/）
 
 - [[wiki/sources/NotebookLM Learning Workflow Source Guide]]——Ihtesham Ali 的 NotebookLM 学习 workflow source guide
+- [[wiki/sources/Understanding as Concept Cloud Source Guide]]——理解之云 inline source guide
 - [[学习方法论]]（pages source note）
 - [[mobu/工具/得到高效学习方法]]
 - [[mobu/工具/认知天性]]

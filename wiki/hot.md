@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added LLM inference-system structure around vLLM: paged attention, batching, P/D split, specdec, and benchmarking.
+summary: Recent wiki activity added an understanding-as-cloud model linking concepts, learning, mental models, similarity, and abstraction.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-06T12:17:59+08:00
+updated: 2026-05-06T19:18:40+08:00
 ---
 
 ## Recent Activity
 
+- Ingested an inline essay on “理解”: added [[wiki/concepts/Understanding]] and connected it to [[wiki/concepts/Concept]], [[wiki/concepts/Knowledge as Network]], [[wiki/topics/Learning Methodology]], and [[wiki/topics/Mental Models]].
 - Ingested Aleksa Gordic's vLLM article: added [[wiki/topics/LLM Inference Systems]], [[wiki/concepts/Paged Attention]], [[wiki/concepts/Continuous Batching]], [[wiki/concepts/Prefill Decode Split]], [[wiki/concepts/Speculative Decoding]], and [[wiki/concepts/LLM Inference Benchmarking]].
 - Ingested Thariq Shihipar's "Seeing like an Agent" article: added [[wiki/concepts/Agent Action Space]] and [[wiki/sources/Seeing Like an Agent Source Guide]], connecting tool design to elicitation, task coordination, search, skills, and subagents.
-- Ingested Thariq Shihipar's Claude Code skills article: added [[wiki/concepts/Agent Skill]] and [[wiki/sources/Claude Code Skills Source Guide]], connecting skills to progressive disclosure, scripts, hooks, memory, and marketplace curation.
 
 ## Active Threads
 
@@ -40,6 +40,7 @@ updated: 2026-05-06T12:17:59+08:00
 - Agent action space is now represented as an empirical harness design problem: add, remove, or reshape tools based on whether the model can actually use them.
 - LLM inference systems are now represented as a stack: scheduler, KV-cache allocator, model executor, advanced decoding features, distributed serving layer, and benchmark loop.
 - Prefill/decode separation is now a key inference-design thread: compute-heavy prompt processing and latency-sensitive decoding need different scheduling and scaling choices.
+- Understanding is now represented as a cloud-shaped cognitive structure: horizontal similarity gives breadth, vertical abstraction gives depth, and teaching/rebuilding tests whether the cloud can move.
 
 ## Key Takeaways
 
@@ -61,5 +62,6 @@ updated: 2026-05-06T12:17:59+08:00
 - AI standards should move from personal prompting skill into repository infrastructure when output quality varies by who is asking.
 - Failed AI interactions are useful evidence only if they change a durable artifact; otherwise the same collaboration failure returns as a new prompt problem.
 - Inference benchmarking should be read through SLO-aware goodput, not just raw tokens per second, because latency and throughput can optimize against each other.
+- A concept can be known as a label without being understood as a movable cloud; durable learning should change the cloud's examples, abstractions, and links.
 
 ## Flagged Contradictions

@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-06T12:17:59+08:00
+updated: 2026-05-06T19:18:40+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -125,6 +125,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Speculative Decoding|Speculative Decoding]] — Speculative decoding proposes multiple cheap draft tokens and verifies them with the large model to reduce expensive decoding steps. (#ai #llm #inference #decoding)
 - [[wiki/concepts/Specific Knowledge|Specific Knowledge]] — Specific knowledge is hard-to-train knowledge built from genuine curiosity, practice, and creative or technical edge. ( #wealth #learning #skill #judgment)
 - [[wiki/concepts/State Management|State Management]] — State management controls where application state lives, how it changes, and how those changes propagate through the interface. (#frontend #architecture #state)
+- [[wiki/concepts/Understanding|Understanding]] — 理解不是拥有一句定义，而是在脑中形成一团可横向类比、纵向抽象、并能被重新创造的概念云。 (#cognition #learning #concepts)
 - [[wiki/concepts/Verification Loop|Verification Loop]] — A verification loop gives an agent external feedback, such as tests, visual checks, or evaluators, so errors are caught before they compound. (#ai #agents #verification)
 
 ## Syntheses
@@ -171,6 +172,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Software Methodology by Pan Jianyu|Software Methodology by Pan Jianyu]] — 这页收纳《软件方法》相关的阅读入口与当前已经稳定下来的判断。
 - [[wiki/sources/Spec-Driven Development Paper Source Guide|Spec-Driven Development Paper Source Guide]] — 这篇论文是 Deepak Babu Piskala 投稿 AIWare 2026 的 practitioner guide，把 SDD 这波被 AI coding assistant 重新点燃的旧想法梳理成三档光谱 + 四阶段流水线 + 决策框架。8 页，3 张图，零量化实验。 (#software-engineering #specs #ai-coding #paper)
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #ai #cognition #causal-reasoning #source)
+- [[wiki/sources/Understanding as Concept Cloud Source Guide|Understanding as Concept Cloud Source Guide]] — Source guide for an inline note that models understanding as a cloud shaped by horizontal similarity and vertical abstraction. (#source #cognition #learning #concepts)
 - [[wiki/sources/vLLM Inference Systems Source Guide|vLLM Inference Systems Source Guide]] — Source guide for Aleksa Gordic's vLLM article, focused on engine loops, paged attention, batching, P/D split, scaling, serving, and benchmarking. (#source #ai #llm #inference)
 
 ## Meta

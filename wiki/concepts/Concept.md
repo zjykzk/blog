@@ -5,15 +5,20 @@ status: seed
 category: concepts
 summary: 概念不是词，而是有限生命面对连续世界时制造的边界。
 tags: []
-sources: []
+sources:
+  - inline:understanding-cloud-2026-05-06
 created: 2026-05-03
-base_confidence: 0.37
+base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-03
+updated: 2026-05-06T19:18:40+08:00
 aliases:
   - 概念
   - concept
+provenance:
+  extracted: 0.84
+  inferred: 0.16
+  ambiguous: 0.00
 ---
 
 # Concept
@@ -39,6 +44,8 @@ aliases:
 世界本来连续地涌来：光、声、温度、触感、记忆、欲望混在一起。若每一刻都是绝对独特的，人就无法判断、预测和选择。
 
 概念把相似的放在一起，把不同的推开。它让“这一团经验”和“那一团经验”有了边界。
+
+从 [[wiki/concepts/Understanding]] 的角度看，概念边界不是理解的终点，而是理解云的中心结构：新经验会先寻找“差不多像”的已有结构，再沿中心、近邻、边缘展开。^[inferred]
 
 ### 压缩
 
@@ -102,6 +109,7 @@ aliases:
 ## Related
 
 - [[wiki/concepts/Knowledge as Network]]
+- [[wiki/concepts/Understanding]]
 - [[wiki/concepts/Conceptual Integrity]]
 - [[wiki/topics/Categorical Thinking]]
 - [[wiki/topics/Methods of Classification]]
@@ -111,3 +119,4 @@ aliases:
 ## 源
 
 - `~/Documents/notes/20260503T120012--追本-概念__think.org`
+- [[wiki/sources/Understanding as Concept Cloud Source Guide]]
