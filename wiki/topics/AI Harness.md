@@ -2,7 +2,7 @@
 title: AI Harness
 type: topic
 status: growing
-summary: AI Harness is the runtime order layer that connects model, context, tools, permissions, state, recovery, and cache stability into a controllable agent system.
+summary: AI Harness is the runtime order layer that connects model, context, tools, permissions, state, recovery, cache stability, and service APIs into a controllable agent system.
 category: topics
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
@@ -21,7 +21,7 @@ provenance:
   inferred: 0.1
   ambiguous: 0.0
 source_count: 12
-updated: 2026-05-06T22:24:21+08:00
+updated: 2026-05-06T22:45:47+08:00
 aliases:
   - harness
 tags:
@@ -209,6 +209,20 @@ When a failure repeats or reveals a missing boundary, the response should not ju
 - a smaller or more focused tool surface
 
 This is the role of [[wiki/concepts/Harness Ratchet]]: it turns failure history into system structure. The caution is that the ratchet should add rules only when failures earn them, and remove rules when model or harness changes make them obsolete.
+
+The same article adds two lifecycle consequences.
+
+First, a harness component is partly an encoded assumption about what the current model cannot do reliably by itself. When a stronger model removes a failure mode, the corresponding scaffold can become context noise; when the stronger model unlocks larger tasks, new scaffolding may be needed for multi-day memory, coordination, or evaluation.
+
+Second, the model and harness can co-evolve. If agent products post-train models with filesystem, bash, planning, or subagent primitives in the loop, model behavior may become partly harness-shaped rather than fully portable across runtimes. ^[inferred]
+
+## Harness as service API
+
+Addy Osmani's article also names a platform shift: agent builders are moving from raw model APIs toward Harness-as-a-Service.
+
+In that framing, the API no longer just returns completions. It provides a configurable runtime with a loop, tool execution, context policy, hooks, sandboxing, and subagent support. The developer's job shifts from inventing every loop and approval flow to configuring the runtime around domain-specific prompts, tools, checks, and context.
+
+This does not make harness engineering disappear. It moves the design surface upward: instead of asking "how do I implement an agent loop from scratch," the builder asks which runtime assumptions, tool boundaries, memory policies, and evaluator loops fit the task.
 
 ## User-side harness engineering
 

@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added user-side harness engineering: developer-owned context, controls, checks, templates, and harnessability for coding agents.
+summary: Recent wiki activity refreshed agent harness engineering with Harness-as-a-Service, model-harness co-evolution, and runtime API framing.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-06T22:24:21+08:00
+updated: 2026-05-06T22:45:47+08:00
 ---
 
 ## Recent Activity
 
+- Refreshed Addy Osmani's agent harness engineering article: added Harness-as-a-Service, model-harness co-evolution, and harness lifecycle assumptions to the AI harness cluster.
 - Ingested Fowler's harness engineering article: added [[wiki/concepts/Coding Agent User Harness]], [[wiki/concepts/Feedforward and Feedback Controls]], [[wiki/concepts/Computational and Inferential Controls]], and [[wiki/concepts/Harnessability]].
 - Expanded [[wiki/concepts/Knowledge Types]] with judgment knowledge: the ability to weight facts, risk, value, source reliability, and action priority under context.
-- Captured the knowledge-type discussion as [[wiki/concepts/Knowledge Types]], connecting functional knowledge categories to [[wiki/concepts/Concept]], [[wiki/concepts/Understanding]], [[wiki/concepts/Knowledge as Network]], and [[wiki/topics/Learning Methodology]].
 
 ## Active Threads
 
@@ -27,6 +27,7 @@ updated: 2026-05-06T22:24:21+08:00
 - Prompt and context design now includes an explicit runtime-economics layer: stable prefixes can be reused, while prefix mutation creates cold-cache sessions.
 - Tool availability can be made cache-stable by exposing stable stubs and deferring full schema loading until search/select time.
 - Agent harness architecture now has an explicit verification thread: tests, visual checks, and evaluator loops are part of runtime behavior, not just final QA.
+- Agent harness architecture now has a service-runtime thread: developers increasingly configure loops, tools, context policy, hooks, sandboxing, and subagents through harness APIs rather than building every primitive from scratch.
 - AI-assisted learning is strongest when it maps expert mental models, disagreements, and diagnostic questions before trying to accelerate content consumption.
 - Wealth creation is now represented as a system model: own scalable assets, build specific knowledge, accept accountability, use permissionless leverage, and improve judgment because leverage amplifies decisions.
 - Harness engineering is now represented as a feedback discipline: repeated agent mistakes should become durable rules, hooks, checks, done conditions, tool-surface changes, or workflow splits.
@@ -54,6 +55,7 @@ updated: 2026-05-06T22:24:21+08:00
 - Prompt caching turns context order, tool schema stability, and model continuity into concrete harness responsibilities.
 - Cache-hit rate is a production health signal for long-running agents, because low hit rates can reveal accidental prompt or tool-prefix churn.
 - Harness quality should be judged by how it manages context, tools, state, permissions, errors, and verification around the same underlying model.
+- Harness components should be audited as model assumptions: stronger models can make old scaffolding stale, while larger task horizons can require new memory, coordination, and evaluator structures.
 - AI tutor workflows should preserve the learner's responsibility to answer, fail, and repair understanding; otherwise the tool becomes a summary machine rather than a learning loop.
 - Permissionless leverage connects the reading and management clusters: code and media change the replication structure of work, but they amplify judgment rather than replacing it.
 - Context rot reframes long-context work as an active harness problem: compaction, offloading, progressive disclosure, and full reset from a handoff file are runtime design choices.

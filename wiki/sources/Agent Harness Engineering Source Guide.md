@@ -3,11 +3,11 @@ title: Agent Harness Engineering Source Guide
 type: source
 status: seed
 category: sources
-summary: Source guide for Addy Osmani's Agent Harness Engineering article, focused on harnesses as configurable runtime systems that improve through failures.
+summary: Source guide for Addy Osmani's Agent Harness Engineering article, focused on harnesses as configurable runtimes, failure ratchets, and service APIs.
 sources:
   - https://addyosmani.com/blog/agent-harness-engineering/
 created: 2026-05-05T15:10:00+08:00
-updated: 2026-05-05T15:10:00+08:00
+updated: 2026-05-06T22:45:47+08:00
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -52,6 +52,9 @@ For this wiki, the article mainly strengthens [[wiki/topics/AI Harness]], [[wiki
 - Long-horizon agent work needs planning, continuation loops, verification, and often separate generator/evaluator roles.
 - Hooks enforce constraints at lifecycle points such as before tool calls, after edits, before commits, or at session start.
 - Short `AGENTS.md`-style rulebooks are high-leverage only when each line has earned its place through a real failure or hard constraint.
+- Harness components encode assumptions about what the model cannot yet do by itself; as models change, some scaffolding should be removed and new scaffolding may become necessary.
+- Agent products are increasingly trained with harnesses in the loop, which can make models especially fluent with particular filesystem, shell, planning, or subagent primitives.
+- Harness-as-a-Service shifts agent building from raw completion APIs toward configurable runtimes with loops, tools, context management, hooks, and sandbox primitives.
 - Harness patterns converge across coding agents even when the underlying models differ.
 
 ## Promoted Knowledge
@@ -76,12 +79,19 @@ The article makes verification more operational by tying it to hooks, test suite
 
 The article frames tools as a context and security surface: each tool schema competes for model attention, and external MCP/tool descriptions are trusted prompt text.
 
+### [[wiki/syntheses/Agent System Design Space]]
+
+The article strengthens the view that harness design is a moving design space. Better models can make old scaffolding redundant, but they also open new task surfaces that need memory policy, multi-agent coordination, evaluator roles, and just-in-time tool/context assembly.
+
+The Harness-as-a-Service framing also moves harnesses from application glue into an API layer: developers increasingly configure a runtime rather than building every loop, approval flow, sandbox, and context policy from scratch.
+
 ## Open Questions
 
 - When should a harness remove old rules because the current model no longer needs them?
 - How should teams measure whether a harness rule is still useful or has become context noise?
 - Can agents analyze their own traces well enough to propose high-quality harness changes? ^[inferred]
 - What parts of harness assembly should become just-in-time and compiler-like rather than preconfigured at startup? ^[inferred]
+- How much model behavior is portable across harnesses when post-training has optimized the model around specific harness primitives? ^[inferred]
 
 ## Related
 

@@ -2,7 +2,7 @@
 title: Agent System Design Space
 type: synthesis
 status: seed
-summary: Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, and cache economics.
+summary: Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, cache economics, and runtime APIs.
 category: syntheses
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
@@ -20,7 +20,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.0
 source_count: 7
-updated: 2026-05-05T16:25:00+08:00
+updated: 2026-05-06T22:45:47+08:00
 aliases:
   - Agent architecture design space
   - AI agent system design space
@@ -167,6 +167,14 @@ This makes cache discipline a sibling of memory, tool design, and recovery rathe
 
 Thariq's Claude Code article makes this design surface operational: cache-hit rate is important enough to alert on, and cache misses can come from harness choices that look semantically harmless, such as timestamp injection, nondeterministic tool ordering, model switching, or changing a tool parameter upstream of the cache breakpoint.
 
+### Harness lifecycle and runtime APIs
+
+Addy Osmani's Agent Harness Engineering article adds a moving-surface view: every harness component encodes an assumption about what the model cannot yet do alone. When models improve, some scaffolding should be retired; when models unlock larger tasks, new scaffolding appears around memory policy, multi-agent coordination, evaluators, and dynamic tool/context assembly.
+
+The same source frames Harness-as-a-Service as a shift from model-completion APIs toward configurable agent runtimes. The loop, tools, context management, hooks, sandboxing, and subagent primitives become platform surfaces, while domain work moves into prompt, tool, memory, and verification configuration.
+
+That means agent architecture should be compared not only by mechanisms it contains, but by which mechanisms are vendor runtime defaults, which are locally configured, and which remain application-specific code. ^[inferred]
+
 ## 4. Why environment changes the architecture
 
 同一类 agent 设计问题，在不同环境里并不会得到同一个最优解。
@@ -196,6 +204,8 @@ Thariq's Claude Code article makes this design surface operational: cache-hit ra
 - 它的 memory 属于什么生命周期、内容类型、存储形式和模态
 - 多 agent 共享 memory 时如何处理 provenance、冲突和访问边界
 - 它如何保持静态 prompt / tool / context 前缀稳定，避免不必要的缓存失效
+- 它哪些 harness assumptions 应该随模型能力变化而删除、替换或升级
+- 它是在 raw model API 上自建 loop，还是在 Harness-as-a-Service runtime 上配置 domain-specific behavior
 
 这样看，agent system 的差异不再只是 feature list 的差异，而是系统秩序设计的差异。
 

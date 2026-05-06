@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-06T22:24:21+08:00
+updated: 2026-05-06T22:45:47+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -38,7 +38,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/maps/Software Design Map|Software Design Map]] — 这页把软件设计中的核心概念按层次放在一张图里。关键区分是： (#software-design #architecture #map)
 
 ## Topics
-- [[wiki/topics/AI Harness|AI Harness]] — AI Harness is the runtime order layer that connects model, context, tools, permissions, state, recovery, and cache-stable capability loading into a controllable agent system. (#ai #agents #harness #runtime)
+- [[wiki/topics/AI Harness|AI Harness]] — AI Harness is the runtime order layer that connects model, context, tools, permissions, state, recovery, cache stability, and service APIs into a controllable agent system. (#ai #agents #harness #runtime)
 - [[wiki/topics/AI Memory|AI Memory]] — AI Memory is the persistent state layer that lets agents retain, retrieve, update, and consolidate experience beyond a single context window. (#ai #agents #memory #context)
 - [[wiki/topics/AI Skills Workflow|AI Skills Workflow]] — AI Skills Workflow treats skills as reusable workflows that gather, order, persist, and reload context for more stable agent behavior. (#ai #skills #workflow)
 - [[wiki/topics/BoltDB Internals|BoltDB Internals]] — BoltDB 是一个非常适合入门数据库实现的案例：代码量相对小，但已经覆盖了页式存储、B+ 树、事务、空闲页管理、写时复制等核心机制。 (#database #storage #golang)
@@ -140,7 +140,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 
 ## Syntheses
 - [[wiki/syntheses/Acting Under Complexity|Acting Under Complexity]] — 这页尝试把 Cynefin、决策模式、思考工作流、mental models、critical thinking 串成一个更高层的框架：当问题复杂、不确定、争议大时，关键不是只会分析，而是知道应该如何判断并继续行动。 (#synthesis #complexity #decision-making #thinking)
-- [[wiki/syntheses/Agent System Design Space|Agent System Design Space]] — Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, and cache economics. (#synthesis #ai #agents #architecture)
+- [[wiki/syntheses/Agent System Design Space|Agent System Design Space]] — Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, cache economics, and runtime APIs. (#synthesis #ai #agents #architecture)
 - [[wiki/syntheses/AI Engineering Workflow|AI Engineering Workflow]] — AI Engineering Workflow connects agent mental models, workflow control, tool design, coding constraints, and requirement normalization. (#synthesis #ai #agents #workflow)
 - [[wiki/syntheses/Business Analysis to Software Design|Business Analysis to Software Design]] — Synthesis of how business modeling and software analysis become software design through domain boundaries and shared models. (#software-methodology #analysis #design)
 - [[wiki/syntheses/Decision Modes for Engineering Work|Decision Modes for Engineering Work]] — 这页尝试把管理、问题判断和软件工程方法连成一个更高层的操作框架：面对不同类型的问题，团队不该只换答案，更要换决策模式。 (#synthesis #decision-making #management #engineering)
@@ -153,7 +153,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 ## Sources
 - [[wiki/sources/Agent Engineering Source Guide|Agent Engineering Source Guide]] — 这页用于收拢“agent engineering / harness / workflow”这一类更偏工程综述与系统实践的来源材料。 (#source #ai #agents #engineering #harness)
 - [[wiki/sources/Agent Harness Anatomy Source Guide|Agent Harness Anatomy Source Guide]] — Source guide for Akshay Pachaar's agent harness thread, focused on the 12-component harness model and architecture decisions. (#source #ai #agents #harness #architecture)
-- [[wiki/sources/Agent Harness Engineering Source Guide|Agent Harness Engineering Source Guide]] — Source guide for Addy Osmani's Agent Harness Engineering article, focused on harnesses as configurable runtime systems that improve through failures. (#source #ai #agents #harness #engineering)
+- [[wiki/sources/Agent Harness Engineering Source Guide|Agent Harness Engineering Source Guide]] — Source guide for Addy Osmani's Agent Harness Engineering article, focused on harnesses as configurable runtimes, failure ratchets, and service APIs. (#source #ai #agents #harness #engineering)
 - [[wiki/sources/Agent Harness Qiaomu Article Source Guide|Agent Harness Qiaomu Article Source Guide]] — 这篇文章目前更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#article #blog #ai #agents #harness #source)
 - [[wiki/sources/Agent Systems Papers Source Guide|Agent Systems Papers Source Guide]] — Source guide collecting agent-system papers and deciding which claims should stay source-level versus move into topics and syntheses. (#papers #agents #ai #source)
 - [[wiki/sources/AI Coding Control Limits Source Guide|AI Coding Control Limits Source Guide]] — 这篇文章更适合作为一个 source facing note 进入当前仓库，而不是直接承担稳定 topic 页角色。 (#ai-coding #software-engineering #source #complexity #productivity #security)
