@@ -9,8 +9,8 @@ created: 2026-04-23
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 10
-updated: 2026-05-06T22:24:21+08:00
+source_count: 12
+updated: 2026-05-07T22:03:56+08:00
 aliases:
   - agent engineering source cluster
   - harness workflow source guide
@@ -64,6 +64,8 @@ tags:
 - [[wiki/sources/Claude Code Skills Source Guide]]
 - [[wiki/sources/Seeing Like an Agent Source Guide]]
 - [[wiki/sources/Harness Engineering Source Guide]]
+- [[wiki/sources/ADK Skill Design Patterns Source Guide]]
+- [[wiki/sources/Coding with AI Source Guide]]
 
 The prompt-caching guide now covers both a secondary case-study explainer and Thariq's original Claude Code article, which contributes the production-harness angle: cache-hit monitoring, stable mode tools, deferred tool loading, and cache-safe compaction.
 
@@ -77,7 +79,11 @@ Thariq Shihipar's Claude Code skills guide contributes the skill-operating layer
 
 Thariq Shihipar's "Seeing like an Agent" guide contributes the action-space design layer: observe model behavior, keep the top-level tool surface small, and choose between tools, skills, search, and subagents based on what the model can actually use.
 
+Google Cloud Tech and Lavi Nigam's ADK skill-pattern guide contributes the skill content-design layer: Tool Wrapper, Generator, Reviewer, Inversion, and Pipeline are five ways to structure SKILL.md logic around different agent failure modes.
+
 Martin Fowler's harness-engineering guide contributes the user-side workbench layer: developers can shape coding-agent behavior through context, rules, templates, computational checks, inferential review artifacts, and feedback loops.
+
+Chris Parsons' coding-with-AI guide contributes the trainer-role layer: production AI coding shifts senior engineering attention from approving every diff to training the harness through markdown rules, skills, checks, reset discipline, and verification surfaces.
 
 ## Main promotion destinations
 
@@ -92,11 +98,13 @@ Martin Fowler's harness-engineering guide contributes the user-side workbench la
 - [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Agent Skill]]
+- [[wiki/concepts/Agent Skill Design Patterns]]
 - [[wiki/concepts/Agent Action Space]]
 - [[wiki/concepts/Coding Agent User Harness]]
 - [[wiki/concepts/Feedforward and Feedback Controls]]
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Harnessability]]
+- [[wiki/concepts/Agentic Engineering]]
 
 ## What belongs here
 

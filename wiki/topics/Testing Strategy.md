@@ -9,16 +9,17 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
   - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
+  - https://www.chrismdp.com/coding-with-ai/
 created: 2026-04-21
-base_confidence: 0.53
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.80
   inferred: 0.20
   ambiguous: 0.0
-source_count: 6
-updated: 2026-05-05T17:55:00+08:00
+source_count: 7
+updated: 2026-05-07T22:03:56+08:00
 aliases:
   - 测试模型
 tags:
@@ -83,6 +84,10 @@ This is not a replacement for automated tests. It is a way to make review and se
 
 [[wiki/concepts/Feedback Flywheel]] adds the measurement loop: accepted output, repeated review comments, regeneration cycles, and post-merge rework should decide which tests, review instructions, standards, or guardrails need to change next.
 
+[[wiki/sources/Coding with AI Source Guide]] makes the bottleneck shift explicit: when agentic code generation becomes cheap, verification speed becomes the constraint. The game changes from "how fast can we build?" to "how fast can we tell whether this is right?"
+
+That shifts testing strategy toward review surfaces and executable gates. If verifying an AI-generated change costs almost as much as writing it manually, either the output must be presented in a more reviewable form, verification must move into an automated gate, or the task should not be delegated yet.
+
 ## Peer topics
 
 - [[wiki/topics/Testing Purpose]]
@@ -91,7 +96,9 @@ This is not a replacement for automated tests. It is a way to make review and se
 - [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/concepts/Feedback Flywheel]]
+- [[wiki/concepts/Agentic Engineering]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
+- [[wiki/sources/Coding with AI Source Guide]]
 
 ## Navigation
 

@@ -6,9 +6,10 @@ category: concepts
 summary: A coding agent user harness is the developer-controlled environment that shapes agent behavior through context, tools, rules, checks, and templates.
 sources:
   - https://martinfowler.com/articles/harness-engineering.html
+  - https://www.chrismdp.com/coding-with-ai/
 created: 2026-05-06T22:24:21+08:00
-updated: 2026-05-06T22:24:21+08:00
-base_confidence: 0.44
+updated: 2026-05-07T22:03:56+08:00
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 provenance:
@@ -62,6 +63,10 @@ If those artifacts are scattered across chat history and personal memory, the ha
 
 This gives [[wiki/concepts/Feedback Flywheel]] a concrete target: every repeated failure should improve some part of the user harness, not merely produce a better one-off prompt. ^[inferred]
 
+Chris Parsons' [[wiki/sources/Coding with AI Source Guide]] sharpens the same point into a senior-engineering role change: the experienced developer should not become the final approver for an expanding queue of agent diffs. They should train the harness by moving repeated lessons into AGENTS.md or CLAUDE.md, skill files, checks, and reusable review criteria.
+
+The practical test of the harness is whether the agent writes better code next week because the team left behind better context, rules, and verification surfaces this week.
+
 ## Related
 
 - [[wiki/topics/AI Harness]]
@@ -74,4 +79,6 @@ This gives [[wiki/concepts/Feedback Flywheel]] a concrete target: every repeated
 - [[wiki/concepts/Feedforward and Feedback Controls]]
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Harnessability]]
+- [[wiki/concepts/Agentic Engineering]]
 - [[wiki/sources/Harness Engineering Source Guide]]
+- [[wiki/sources/Coding with AI Source Guide]]

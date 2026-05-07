@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-07T18:33:29+08:00
+updated: 2026-05-07T22:03:56+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -84,6 +84,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Agent|Agent]] — Agent 的核心任务目前可以归纳为三件事： (#ai #agent #concept)
 - [[wiki/concepts/Agent Action Space|Agent Action Space]] — Agent Action Space is the set of actions an agent can perceive, choose, compose, and execute through tools, skills, subagents, and harness policy. (#ai #agents #tools #harness)
 - [[wiki/concepts/Agent Skill|Agent Skill]] — Agent Skill is a reusable capability bundle that can combine instructions, references, scripts, assets, memory, and hooks for agent work. (#ai #agents #skills #workflow)
+- [[wiki/concepts/Agent Skill Design Patterns|Agent Skill Design Patterns]] — Agent Skill Design Patterns classify SKILL.md content by the control problem it solves: knowledge, structure, review, questioning, or workflow gates. (#ai #agents #skills #workflow)
+- [[wiki/concepts/Agentic Engineering|Agentic Engineering]] — Agentic engineering is production AI coding where humans shape harnesses, checks, skills, and attention allocation instead of merely prompting or approving diffs. (#ai #agents #ai-coding #software-engineering)
 - [[wiki/concepts/Agent Tool|Agent Tool]] — Agent tools are schema-defined action surfaces that let an agent inspect, change, retrieve, or validate external state under harness control. (#ai #agents #tools)
 - [[wiki/concepts/AI Collaboration Scaffolding|AI Collaboration Scaffolding]] — AI collaboration scaffolding gives coding assistants onboarding context, design discussion, standards, anchors, and feedback loops so their output fits the team. (#ai #software-engineering #workflow #ai-coding)
 - [[wiki/concepts/Coding Agent User Harness|Coding Agent User Harness]] — A coding agent user harness is the developer-controlled environment that shapes agent behavior through context, tools, rules, checks, and templates. (#ai #agents #harness #ai-coding)
@@ -141,6 +143,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 ## Syntheses
 - [[wiki/syntheses/harness-root-ranks|Harness Root Ranks]] — Harness can be reduced to five root ranks: boundary, density, action, loop, and evolution. (#synthesis #ai #agents #harness #rank)
 - [[wiki/syntheses/Acting Under Complexity|Acting Under Complexity]] — 这页尝试把 Cynefin、决策模式、思考工作流、mental models、critical thinking 串成一个更高层的框架：当问题复杂、不确定、争议大时，关键不是只会分析，而是知道应该如何判断并继续行动。 (#synthesis #complexity #decision-making #thinking)
+- [[wiki/syntheses/Agent Skill Patterns as Human Workflow Control Structures|Agent Skill Patterns as Human Workflow Control Structures]] — Agent skill patterns translate ordinary human work controls—manuals, templates, reviews, interviews, and gates—into executable agent workflows. (#synthesis #ai #agents #workflow #skills)
 - [[wiki/syntheses/Agent System Design Space|Agent System Design Space]] — Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, cache economics, and runtime APIs. (#synthesis #ai #agents #architecture)
 - [[wiki/syntheses/AI Engineering Workflow|AI Engineering Workflow]] — AI Engineering Workflow connects agent mental models, workflow control, tool design, coding constraints, and requirement normalization. (#synthesis #ai #agents #workflow)
 - [[wiki/syntheses/Application and Creation Distinction|Application and Creation Distinction]] — Application adapts an existing abstraction to constraints; creation reorganizes materials into a new durable order. (#synthesis #thinking #learning #creativity)
@@ -158,6 +161,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Agent Harness Engineering Source Guide|Agent Harness Engineering Source Guide]] — Source guide for Addy Osmani's Agent Harness Engineering article, focused on harnesses as configurable runtimes, failure ratchets, and service APIs. (#source #ai #agents #harness #engineering)
 - [[wiki/sources/Agent Harness Qiaomu Article Source Guide|Agent Harness Qiaomu Article Source Guide]] — 这篇文章目前更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#article #blog #ai #agents #harness #source)
 - [[wiki/sources/Agent Systems Papers Source Guide|Agent Systems Papers Source Guide]] — Source guide collecting agent-system papers and deciding which claims should stay source-level versus move into topics and syntheses. (#papers #agents #ai #source)
+- [[wiki/sources/ADK Skill Design Patterns Source Guide|ADK Skill Design Patterns Source Guide]] — Source guide for Google Cloud Tech and Lavi Nigam's article on five practical SKILL.md content patterns for ADK agents. (#source #ai #agents #skills #adk)
 - [[wiki/sources/AI Coding Control Limits Source Guide|AI Coding Control Limits Source Guide]] — 这篇文章更适合作为一个 source facing note 进入当前仓库，而不是直接承担稳定 topic 页角色。 (#ai-coding #software-engineering #source #complexity #productivity #security)
 - [[wiki/sources/AI Memory Survey Source Guide|AI Memory Survey Source Guide]] — Source guide for Survey on AI Memory, focused on memory theory, the 4W taxonomy, single/multi-agent memory, evaluation, and open challenges. (#paper #ai #agents #memory #survey)
 - [[wiki/sources/Amabile Componential Theory of Creativity Source Guide|Amabile Componential Theory of Creativity Source Guide]] — Source guide for Amabile's componential theory, grounding creativity in novelty, appropriateness, domain skill, motivation, and environment. (#source #creativity #psychology #learning)
@@ -165,6 +169,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Application Concept Anatomy Source Guide|Application Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on application as contextual fit turning abstraction into effect. (#source #thinking #concepts)
 - [[wiki/sources/Before the Tool Call Source Guide|Before the Tool Call Source Guide]] — 这篇 arXiv 论文更适合作为单篇 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#paper #arxiv #agents #authorization #security #source)
 - [[wiki/sources/Claude Code Skills Source Guide|Claude Code Skills Source Guide]] — Source guide for Thariq Shihipar's Claude Code skills article, focused on skills as capability bundles, categories, gotchas, disclosure, hooks, and distribution. (#source #ai #agents #skills #claude-code)
+- [[wiki/sources/Coding with AI Source Guide|Coding with AI Source Guide]] — Source guide for Chris Parsons' 2026 Coding with AI article, focused on agentic engineering, trainer roles, harnesses, context resets, and verification bottlenecks. (#source #ai #ai-coding #agents #harness)
 - [[wiki/sources/Creation Concept Anatomy Source Guide|Creation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on creation as difference entering durable order. (#source #thinking #concepts)
 - [[wiki/sources/Csikszentmihalyi Systems Model of Creativity Source Guide|Csikszentmihalyi Systems Model of Creativity Source Guide]] — Source guide for Csikszentmihalyi's systems model, treating creativity as a relation among person, domain, field, and social recognition. (#source #creativity #psychology #systems)
 - [[wiki/sources/Dewey Reflective Inquiry Source Guide|Dewey Reflective Inquiry Source Guide]] — Source guide for Dewey's reflective thought cycle, grounding application in problem definition, hypothesis, consequence, and test. (#source #pragmatism #inquiry #thinking)
@@ -200,7 +205,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/vLLM Inference Systems Source Guide|vLLM Inference Systems Source Guide]] — Source guide for Aleksa Gordic's vLLM article, focused on engine loops, paged attention, batching, P/D split, scaling, serving, and benchmarking. (#source #ai #llm #inference)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Ingested Fowler's harness engineering article, adding user-side harness controls and harnessability to the AI coding cluster.
+- [[wiki/hot|Hot Cache]] — Ingested Chris Parsons' Coding with AI article, adding agentic engineering and trainer-role framing to the AI coding cluster.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

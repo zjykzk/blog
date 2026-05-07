@@ -7,14 +7,16 @@ summary: Agent Skill is a reusable capability bundle that can combine instructio
 sources:
   - https://x.com/trq212/status/2033949937936085378
   - https://x.com/trq212/status/2027463795355095314
+  - https://x.com/GoogleCloudTech/article/2033953579824758855
+  - https://lavinigam.com/posts/adk-skill-design-patterns/
 created: 2026-05-06T10:51:47+08:00
-updated: 2026-05-06T11:10:34+08:00
-base_confidence: 0.37
+updated: 2026-05-07T12:44:36+08:00
+base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 provenance:
-  extracted: 0.74
-  inferred: 0.26
+  extracted: 0.75
+  inferred: 0.25
   ambiguous: 0.0
 aliases:
   - agent skills
@@ -72,10 +74,19 @@ Skills become team infrastructure when they are shared through repositories or p
 
 This connects to [[wiki/concepts/Encoding Team Standards]] because shared skills can carry team judgment in a reviewable, reusable form. ^[inferred]
 
+## Content Design Patterns
+
+[[wiki/sources/ADK Skill Design Patterns Source Guide]] adds a content-architecture taxonomy for SKILL.md files. It distinguishes five recurring patterns: Tool Wrapper, Generator, Reviewer, Inversion, and Pipeline.
+
+The important shift is from file format to control problem. A skill may have the same container layout but behave differently depending on whether it is supplying domain conventions, enforcing an output template, applying a rubric, interviewing for missing context, or preserving step order with gates. ^[inferred]
+
+The article also makes the `description` field operationally important: it is the agent's routing surface for whether a skill is loaded at all. That connects skill authoring directly to [[wiki/topics/Tool Routing]]. ^[inferred]
+
 ## Open Questions
 
 - Which skill categories are most valuable for solo knowledge work versus team software engineering? ^[inferred]
 - How should a team measure whether a skill is improving outcomes rather than merely increasing context and tool surface? ^[inferred]
+- When does a composed skill become too broad and need to split into Tool Wrapper, Generator, Reviewer, Inversion, or Pipeline subskills? ^[inferred]
 
 ## Related
 
@@ -83,6 +94,8 @@ This connects to [[wiki/concepts/Encoding Team Standards]] because shared skills
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/Context Management]]
 - [[wiki/concepts/Agent Action Space]]
+- [[wiki/concepts/Agent Skill Design Patterns]]
+- [[wiki/topics/Tool Routing]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/sources/Claude Code Skills Source Guide]]

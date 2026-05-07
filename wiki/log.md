@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-06T22:45:47+08:00
+updated: 2026-05-07T22:03:56+08:00
 aliases:
   - Wiki Log
 tags:
@@ -71,5 +71,9 @@ tags:
 - [2026-05-07T00:00:00+08:00] QUERY query="『应用』和『创造』有什么区别" result_pages=4 mode=normal escalated=false
 - [2026-05-07T10:18:04+08:00] QUERY query="『不是照着做』和『让抽象结构贴合现实约束』区别是什么" result_pages=2 mode=normal escalated=false
 - [2026-05-07T10:47:40+08:00] WIKI_RESEARCH topic="应用和创造的区别" rounds=2 sources_fetched=7 pages_created=8 pages_updated=7
+- [2026-05-07T12:44:36+08:00] INGEST source="https://x.com/GoogleCloudTech/article/2033953579824758855" pages_updated=6 pages_created=2 mode=append
+- [2026-05-07T12:55:22+08:00] QUERY query="这篇文章是否和人类的常规工作流程有关系" result_pages=2 mode=normal escalated=false
+- [2026-05-07T13:57:16+08:00] CAPTURE type=synthesis page="wiki/syntheses/Agent Skill Patterns as Human Workflow Control Structures.md" title="Agent Skill Patterns as Human Workflow Control Structures"
 - [2026-05-07T10:31:25Z] QUERY query="harness有哪几根秩，参考技能ljg-rank关于秩的定义" result_pages=8 mode=normal escalated=false
 - [2026-05-07T10:33:29Z] CAPTURE type=synthesis page="wiki/syntheses/harness-root-ranks.md" title="Harness Root Ranks"
+- [2026-05-07T22:03:56+08:00] INGEST source="https://www.chrismdp.com/coding-with-ai/" pages_updated=11 pages_created=2 mode=append

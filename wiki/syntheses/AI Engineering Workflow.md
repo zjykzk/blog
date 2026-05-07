@@ -12,16 +12,17 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
   - https://martinfowler.com/articles/harness-engineering.html
+  - https://www.chrismdp.com/coding-with-ai/
 created: 2026-05-04
-base_confidence: 0.78
+base_confidence: 0.79
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.89
   inferred: 0.11
   ambiguous: 0.0
-source_count: 12
-updated: 2026-05-06T22:24:21+08:00
+source_count: 13
+updated: 2026-05-07T22:03:56+08:00
 aliases:
   - AI 工作流
   - Agent workflow
@@ -155,6 +156,10 @@ This turns AI engineering from "prompt for output" into a structured pair-progra
 
 This makes AI engineering partly an environment-design problem: the developer is not only prompting a model, but shaping the control surfaces around the model. ^[inferred]
 
+[[wiki/sources/Coding with AI Source Guide]] adds the operating-role layer around that environment. In production AI coding, the senior engineer's leverage is not to approve every diff. It is to train the harness by turning repeated surprises into markdown rules, reusable skills, verification gates, and review surfaces.
+
+That reframes [[wiki/concepts/Agentic Engineering]] as a compounding workflow: each small generation-and-verification loop should either ship a change or improve the system that will generate the next change. ^[inferred]
+
 ## Why this synthesis matters
 
 如果没有这条综合链路，AI 工程容易只剩下局部技巧：
@@ -163,6 +168,7 @@ This makes AI engineering partly an environment-design problem: the developer is
 - 只谈模型能力，不谈工具设计
 - 只谈写代码，不谈需求归一化
 - 只谈产出速度，不谈验证闭环
+- 只谈人工 review，不谈如何把 review lessons 反向写进 harness
 
 把这些内容串起来后，AI 才更像一个可设计、可约束、可复用的工程系统。
 
@@ -182,6 +188,7 @@ This makes AI engineering partly an environment-design problem: the developer is
 - [[wiki/concepts/Feedforward and Feedback Controls]]
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Harnessability]]
+- [[wiki/concepts/Agentic Engineering]]
 
 ## Upstream topics
 
@@ -196,6 +203,7 @@ This makes AI engineering partly an environment-design problem: the developer is
 
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Harness Engineering Source Guide]]
+- [[wiki/sources/Coding with AI Source Guide]]
 
 ## Navigation
 

@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 26,
-    "total_pages": 166
+    "total_sources_ingested": 28,
+    "total_pages": 173
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -587,6 +587,51 @@
         "wiki/hot.md",
         "wiki/log.md",
         "wiki/.manifest.json"
+      ]
+    },
+    "https://x.com/GoogleCloudTech/article/2033953579824758855": {
+      "ingested_at": "2026-05-07T12:44:36+08:00",
+      "size_bytes": 46843,
+      "modified_at": "2026-05-07T12:44:36+08:00",
+      "content_hash": "sha256:64e412dd7a817aac23f4a15d7c85786e2a3d1b76d20e1caef4f03d4488df9be4",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Agent Skill Design Patterns.md",
+        "wiki/sources/ADK Skill Design Patterns Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Agent Skill.md",
+        "wiki/topics/AI Skills Workflow.md",
+        "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md"
+      ]
+    },
+    "https://www.chrismdp.com/coding-with-ai/": {
+      "ingested_at": "2026-05-07T22:03:56+08:00",
+      "size_bytes": 32178,
+      "modified_at": "2026-05-01T10:51:43Z",
+      "content_hash": "sha256:270e44887a92854b6cbcfdc024514f83434a9f94759a5d0f890c7f5b30fb95bc",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Agentic Engineering.md",
+        "wiki/sources/Coding with AI Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Coding Agent User Harness.md",
+        "wiki/concepts/Harnessability.md",
+        "wiki/topics/Testing Strategy.md",
+        "wiki/topics/Context Management.md",
+        "wiki/topics/Spec-Driven Development.md",
+        "wiki/syntheses/AI Engineering Workflow.md",
+        "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
       ]
     }
   }

@@ -8,16 +8,17 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
+  - https://www.chrismdp.com/coding-with-ai/
 created: 2026-04-26
-base_confidence: 0.53
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.78
   inferred: 0.20
-  ambiguous: 0.02
-source_count: 5
-updated: 2026-05-05T17:35:00+08:00
+  ambiguous: 0.04
+source_count: 6
+updated: 2026-05-07T22:03:56+08:00
 aliases:
   - SDD
 tags:
@@ -86,10 +87,15 @@ In that sense, SDD and [[wiki/concepts/AI Collaboration Scaffolding]] share the 
 
 [[wiki/concepts/Context Anchoring]] adds the persistence side of the same move. It does not make a specification executable, but it keeps feature-level decisions, rejected alternatives, open questions, and state outside the chat so later sessions can implement against the same intent instead of reconstructing it from memory. ^[inferred]
 
+Chris Parsons' [[wiki/sources/Coding with AI Source Guide]] adds a counter-pressure: specifying every solution detail upfront for autonomous agents can recreate waterfall under a new name. His preferred formulation is to specify the problem — users, constraints, current system shape, and success criteria — while leaving solution design open enough for the agent to propose and defend options.
+
+This does not reject spec discipline entirely; it narrows the useful spec target. The strongest AI-era spec may be a problem contract plus verification criteria, not a premature implementation script. ^[inferred]
+
 ## Open questions
 
 - 从 legacy code 反向抽规约时，规约未必比代码更接近意图——这是 brownfield 的特殊挑战
 - 规约本身也会被错写。SDD 不消除歧义，只把歧义从"代码 vs 意图"转移到"规约 vs 意图"
+- 过度指定解决方案可能把 agent 变成执行详细方案的速记员，而不是参与问题求解的工程协作者 ^[ambiguous]
 - "每行代码可追溯到规约"的认证成本是否值得，取决于领域容错度
 
 ## Navigation
@@ -104,4 +110,6 @@ In that sense, SDD and [[wiki/concepts/AI Collaboration Scaffolding]] share the 
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/concepts/Context Anchoring]]
+- [[wiki/concepts/Agentic Engineering]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
+- [[wiki/sources/Coding with AI Source Guide]]

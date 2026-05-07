@@ -13,16 +13,17 @@ sources:
   - https://x.com/akshay_pachaar/status/2041146899319971922
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
   - https://x.com/trq212/status/2027463795355095314
+  - https://www.chrismdp.com/coding-with-ai/
 created: 2026-05-04
-base_confidence: 0.70
+base_confidence: 0.72
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.91
   inferred: 0.09
   ambiguous: 0.0
-source_count: 11
-updated: 2026-05-06T11:10:34+08:00
+source_count: 12
+updated: 2026-05-07T22:03:56+08:00
 aliases:
   - 上下文管理
 tags:
@@ -117,6 +118,10 @@ Rahul Garg's article argues that developers keep long AI conversations alive bec
 
 The stronger pattern is to move decision context into a living feature document. This turns old chat history into compact external state that can be loaded into a fresh session, improving [[wiki/concepts/Context Information Density]] and making resets less costly. ^[inferred]
 
+[[wiki/sources/Coding with AI Source Guide]] gives this a practitioner's reset heuristic: output quality follows a curve over context amount. Too little context yields generic output, while too much context drowns the model in stale or irrelevant detail.
+
+When an agent starts looping through useless refactors, repeating wrong assumptions, or leading the human in circles, the recommended move is to stop, discard the polluted conversation, and restart with a cleaner brief and a smaller chunk.
+
 ## Cache-stable context
 
 [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]] adds an economic and runtime dimension to context management: the order and mutability of context affect whether repeated prompt tokens can be served from cache.
@@ -165,6 +170,7 @@ The Claude Code prompt-caching source sharpens this into an ordering rule: stabl
 - [[wiki/topics/AI Memory]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/AI Skills Workflow]]
+- [[wiki/concepts/Agentic Engineering]]
 - [[wiki/topics/Prompt Frequency]]
 - [[wiki/concepts/Prompt Caching]]
 
@@ -183,6 +189,7 @@ The Claude Code prompt-caching source sharpens this into an ordering rule: stabl
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
+- [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Lost in the Middle Paper Source Guide]]
 - [[wiki/sources/AI Memory Survey Source Guide]]
 - [[wiki/sources/Seeing Like an Agent Source Guide]]

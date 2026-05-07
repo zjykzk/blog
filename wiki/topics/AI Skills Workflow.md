@@ -11,6 +11,8 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
   - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
+  - https://x.com/GoogleCloudTech/article/2033953579824758855
+  - https://lavinigam.com/posts/adk-skill-design-patterns/
 created: 2026-04-22
 base_confidence: 0.70
 lifecycle: draft
@@ -19,8 +21,8 @@ provenance:
   extracted: 0.80
   inferred: 0.20
   ambiguous: 0.0
-source_count: 9
-updated: 2026-05-06T10:51:47+08:00
+source_count: 11
+updated: 2026-05-07T12:44:36+08:00
 aliases:
   - skills workflow
   - AI skills
@@ -78,13 +80,17 @@ That turns skill design into a maintenance loop. A reusable workflow is not comp
 
 这里还有一个容易被忽略的点：workflow 的价值不只是把步骤写出来，而是在构造一个更容易产生稳定 reasoning 的执行顺序。
 
-也就是说，skill / workflow 不是单纯的 prompt 展开器，而是在安排：
+这说明 skill / workflow 不是单纯的 prompt 展开器，而是在安排：
 
 - 哪些信息先进入上下文
 - 哪些判断先做
 - 哪些动作要被隔离出去
 - 哪些中间结果要被压缩后再回流
 - 哪些 references / scripts / assets 该按需展开，而不是一开始全塞进上下文
+
+[[wiki/concepts/Agent Skill Design Patterns]] adds five concrete workflow shapes for this arrangement: Tool Wrapper controls when domain knowledge enters context, Generator controls output structure, Reviewer controls evaluation, Inversion controls when the agent is allowed to ask versus act, and Pipeline controls ordered stages with gates.
+
+This turns “write a skill” into a design choice about failure mode: missing domain knowledge, unstable output, weak review, premature assumptions, or skipped process steps each calls for a different skill shape. ^[inferred]
 
 ## Reasoning implication
 
@@ -112,6 +118,7 @@ That turns skill design into a maintenance loop. A reusable workflow is not comp
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/concepts/Agent Skill]]
+- [[wiki/concepts/Agent Skill Design Patterns]]
 
 ## Peer topics
 
@@ -135,3 +142,4 @@ That turns skill design into a maintenance loop. A reusable workflow is not comp
 - [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Claude Code Skills Source Guide]]
+- [[wiki/sources/ADK Skill Design Patterns Source Guide]]
