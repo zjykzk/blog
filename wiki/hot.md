@@ -8,11 +8,12 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-07T10:47:40+08:00
+updated: 2026-05-07T18:33:29+08:00
 ---
 
 ## Recent Activity
 
+- Captured [[wiki/syntheses/harness-root-ranks|Harness Root Ranks]]: harness can be reduced to boundary, density, action, loop, and evolution ranks rather than treated as a component list.
 - Added [[wiki/syntheses/Application and Creation Distinction]] and seven external source guides to ground the application/creation boundary in learning transfer, revised Bloom taxonomy, Dewey inquiry, Schön reflection-in-action, Simon design theory, Amabile creativity theory, and Csikszentmihalyi's systems model.
 - Refreshed Addy Osmani's agent harness engineering article: added Harness-as-a-Service, model-harness co-evolution, and harness lifecycle assumptions to the AI harness cluster.
 - Ingested Fowler's harness engineering article: added [[wiki/concepts/Coding Agent User Harness]], [[wiki/concepts/Feedforward and Feedback Controls]], [[wiki/concepts/Computational and Inferential Controls]], and [[wiki/concepts/Harnessability]].
@@ -51,6 +52,7 @@ updated: 2026-05-07T10:47:40+08:00
 
 ## Key Takeaways
 
+- Harness can be diagnosed by five root ranks: boundary, density, action, loop, and evolution.
 - Structural wiki health is currently clean across frontmatter, summaries, links, index coverage, tag cohesion, and synthesis-gap checks.
 - Long-horizon agent performance should be judged by decision-relevant information preserved under finite context, not by how much history is visible.
 - Tool minimality, hierarchical memory, and self-evolution can be read as density-preserving harness mechanisms.
