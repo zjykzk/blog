@@ -10,15 +10,19 @@ tags:
   - practice
 sources:
   - /Users/zenk/Documents/notes/20260506T211953--概念解剖-创造__concept.org
+  - https://www.hbs.edu/ris/Publication%20Files/12-096.pdf
+  - https://link.springer.com/book/10.1007/978-94-017-9085-7
+  - https://hci.stanford.edu/publications/bds/9-schon.html
+  - https://www.loc.gov/item/00063423/
 provenance:
-  extracted: 0.73
-  inferred: 0.27
+  extracted: 0.68
+  inferred: 0.32
   ambiguous: 0.00
-base_confidence: 0.32
+base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 created: 2026-05-06T21:23:05+08:00
-updated: 2026-05-06T21:23:05+08:00
+updated: 2026-05-07T10:44:00+08:00
 aliases:
   - 创造
   - creativity
@@ -50,6 +54,8 @@ Novelty alone is not creation. Noise can be new without becoming useful, meaning
 
 Creation requires difference entering order: the result must be distinct enough to matter and ordered enough to survive contact with use, interpretation, or continuation. ^[inferred]
 
+Creativity research strengthens this boundary. Amabile's componential theory defines creative output as both novel and appropriate, so mere difference is not enough. Csikszentmihalyi's systems model adds that creative work is recognized within a domain and field, not only inside the creator's private intention.
+
 This is why repetition can be part of creation. Practice, imitation, and reconstruction accumulate reusable parts that later become available for transformation.
 
 ## Relation to Understanding
@@ -63,6 +69,8 @@ From that angle, creation is a test of whether a concept cloud can move. If a le
 [[wiki/topics/Mental Models]] support creation by providing structures that can be transferred, bent, or recombined across domains.
 
 [[wiki/concepts/Application]] is adjacent but narrower: application fits an existing abstraction to a situation, while creation may change the abstraction, the situation, and the evaluation standard together. ^[inferred]
+
+[[wiki/syntheses/Application and Creation Distinction]] frames the hinge this way: if success means the method worked in the case, the center is application; if success means a new form now exists and can be used, judged, or continued, the center is creation.
 
 [[wiki/concepts/Analysis]] can prepare creation by opening a confused whole into parts and relations. Creation becomes possible when those parts can be recomposed into a different working order. ^[inferred]
 
@@ -81,6 +89,11 @@ The concept-anatomy source compresses creation into one sentence: creation is ma
 ## Related
 
 - [[wiki/sources/Creation Concept Anatomy Source Guide]]
+- [[wiki/sources/Amabile Componential Theory of Creativity Source Guide]]
+- [[wiki/sources/Csikszentmihalyi Systems Model of Creativity Source Guide]]
+- [[wiki/sources/Schon Reflective Practice Source Guide]]
+- [[wiki/sources/Revised Bloom Taxonomy Source Guide]]
+- [[wiki/syntheses/Application and Creation Distinction]]
 - [[wiki/concepts/Understanding]]
 - [[wiki/topics/Mental Models]]
 - [[wiki/concepts/Application]]

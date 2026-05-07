@@ -1,18 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity refreshed agent harness engineering with Harness-as-a-Service, model-harness co-evolution, and runtime API framing.
+summary: Recent wiki activity strengthened the application-versus-creation distinction with learning theory, creativity research, design theory, and pragmatism.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-06T22:45:47+08:00
+updated: 2026-05-07T10:47:40+08:00
 ---
 
 ## Recent Activity
 
+- Added [[wiki/syntheses/Application and Creation Distinction]] and seven external source guides to ground the application/creation boundary in learning transfer, revised Bloom taxonomy, Dewey inquiry, Schön reflection-in-action, Simon design theory, Amabile creativity theory, and Csikszentmihalyi's systems model.
 - Refreshed Addy Osmani's agent harness engineering article: added Harness-as-a-Service, model-harness co-evolution, and harness lifecycle assumptions to the AI harness cluster.
 - Ingested Fowler's harness engineering article: added [[wiki/concepts/Coding Agent User Harness]], [[wiki/concepts/Feedforward and Feedback Controls]], [[wiki/concepts/Computational and Inferential Controls]], and [[wiki/concepts/Harnessability]].
 - Expanded [[wiki/concepts/Knowledge Types]] with judgment knowledge: the ability to weight facts, risk, value, source reliability, and action priority under context.
@@ -46,6 +47,7 @@ updated: 2026-05-06T22:45:47+08:00
 - Understanding is now represented as a cloud-shaped cognitive structure: horizontal similarity gives breadth, vertical abstraction gives depth, and teaching/rebuilding tests whether the cloud can move.
 - Hofstadter's contribution should be tracked as analogy-making and fluid concepts; the “cloud / horizontal similarity / vertical abstraction” language is a local synthesis, not a direct quotation.
 - Analysis is now represented as reversible decomposition: cut a confused whole into parts and relations, then recombine it into actionable understanding.
+- Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
 

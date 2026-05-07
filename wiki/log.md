@@ -68,3 +68,6 @@ tags:
 - [2026-05-06T21:40:37+08:00] CAPTURE type=concept page="wiki/concepts/Knowledge Types.md" title="Judgment Knowledge"
 - [2026-05-06T22:24:21+08:00] INGEST source="https://martinfowler.com/articles/harness-engineering.html" pages_updated=10 pages_created=5 mode=append
 - [2026-05-06T22:45:47+08:00] INGEST source="https://addyosmani.com/blog/agent-harness-engineering/" pages_updated=6 pages_created=0 mode=append
+- [2026-05-07T00:00:00+08:00] QUERY query="『应用』和『创造』有什么区别" result_pages=4 mode=normal escalated=false
+- [2026-05-07T10:18:04+08:00] QUERY query="『不是照着做』和『让抽象结构贴合现实约束』区别是什么" result_pages=2 mode=normal escalated=false
+- [2026-05-07T10:47:40+08:00] WIKI_RESEARCH topic="应用和创造的区别" rounds=2 sources_fetched=7 pages_created=8 pages_updated=7

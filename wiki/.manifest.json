@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 25,
-    "total_pages": 158
+    "total_sources_ingested": 26,
+    "total_pages": 166
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -552,6 +552,37 @@
         "wiki/concepts/Verification Loop.md",
         "wiki/sources/Agent Engineering Source Guide.md",
         "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md",
+        "wiki/.manifest.json"
+      ]
+    },
+    "research:application-and-creation-distinction-2026-05-07": {
+      "ingested_at": "2026-05-07T10:47:40+08:00",
+      "size_bytes": 0,
+      "modified_at": "2026-05-07T10:47:40+08:00",
+      "content_hash": "sha256:39be36c960d78fb2dd66204e5b65f6c65cf8867e43538282a57c95aa6c87fe40",
+      "source_type": "research",
+      "project": null,
+      "topic": "应用和创造的区别",
+      "rounds_completed": 2,
+      "sources_fetched": 7,
+      "pages_created": [
+        "wiki/syntheses/Application and Creation Distinction.md",
+        "wiki/sources/Amabile Componential Theory of Creativity Source Guide.md",
+        "wiki/sources/Csikszentmihalyi Systems Model of Creativity Source Guide.md",
+        "wiki/sources/Revised Bloom Taxonomy Source Guide.md",
+        "wiki/sources/How People Learn Transfer Source Guide.md",
+        "wiki/sources/Dewey Reflective Inquiry Source Guide.md",
+        "wiki/sources/Schon Reflective Practice Source Guide.md",
+        "wiki/sources/Simon Sciences of the Artificial Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Application.md",
+        "wiki/concepts/Creation.md",
+        "wiki/concepts/Knowledge Types.md",
+        "wiki/maps/Learning Map.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md",
