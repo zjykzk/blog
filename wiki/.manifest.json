@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 31,
-    "total_pages": 183
+    "total_sources_ingested": 32,
+    "total_pages": 184
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -703,6 +703,31 @@
         "wiki/topics/AI Memory.md",
         "wiki/sources/Company Brain Source Guide.md",
         "wiki/maps/AI Map.md"
+      ]
+    },
+    "https://nanothoughts.substack.com/p/company-brain-part-4-action-memory": {
+      "ingested_at": "2026-05-08T22:24:16+08:00",
+      "size_bytes": 9549,
+      "modified_at": "2026-05-08T22:23:34+08:00",
+      "content_hash": "sha256:ec89bf2fdccd1c6e1527a65eb77ff4af9abeb0be75df3258d0682425f407ac18",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Action Memory.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Company Brain.md",
+        "wiki/concepts/Context Graph.md",
+        "wiki/concepts/Governed Action.md",
+        "wiki/concepts/Interaction Memory.md",
+        "wiki/hot.md",
+        "wiki/index.md",
+        "wiki/log.md",
+        "wiki/maps/AI Map.md",
+        "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/sources/Company Brain Source Guide.md",
+        "wiki/syntheses/AI Engineering Workflow.md",
+        "wiki/topics/AI Memory.md"
       ]
     }
   }

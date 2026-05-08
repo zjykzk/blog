@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-08T20:54:16+08:00
+updated: 2026-05-08T22:31:50+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -39,7 +39,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 
 ## Topics
 - [[wiki/topics/AI Harness|AI Harness]] — AI Harness is the runtime order layer that connects model, context, tools, permissions, state, recovery, cache stability, and service APIs into a controllable agent system. (#ai #agents #harness #runtime)
-- [[wiki/topics/AI Memory|AI Memory]] — AI Memory is the persistent state layer that lets agents retain, retrieve, update, and consolidate experience beyond a single context window. (#ai #agents #memory #context)
+- [[wiki/topics/AI Memory|AI Memory]] — AI Memory is the persistent state layer that lets agents and organizations retain, retrieve, update, and learn from experience beyond one context window. (#ai #agents #memory #context)
 - [[wiki/topics/AI Skills Workflow|AI Skills Workflow]] — AI Skills Workflow treats skills as reusable workflows that gather, order, persist, and reload context for more stable agent behavior. (#ai #skills #workflow)
 - [[wiki/topics/BoltDB Internals|BoltDB Internals]] — BoltDB 是一个非常适合入门数据库实现的案例：代码量相对小，但已经覆盖了页式存储、B+ 树、事务、空闲页管理、写时复制等核心机制。 (#database #storage #golang)
 - [[wiki/topics/Categorical Thinking|Categorical Thinking]] — 分类思维，是先找一个划分维度，再按这个维度把混乱切成几类，从而让理解、判断和行动变得更清楚。
@@ -89,14 +89,15 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Agent Tool|Agent Tool]] — Agent tools are schema-defined action surfaces that let an agent inspect, change, retrieve, or validate external state under harness control. (#ai #agents #tools)
 - [[wiki/concepts/AI Collaboration Scaffolding|AI Collaboration Scaffolding]] — AI collaboration scaffolding gives coding assistants onboarding context, design discussion, standards, anchors, and feedback loops so their output fits the team. (#ai #software-engineering #workflow #ai-coding)
 - [[wiki/concepts/Coding Agent User Harness|Coding Agent User Harness]] — A coding agent user harness is the developer-controlled environment that shapes agent behavior through context, tools, rules, checks, and templates. (#ai #agents #harness #ai-coding)
-- [[wiki/concepts/Company Brain|Company Brain]] — A permissioned organizational memory substrate where factual memory, interaction memory, context graphs, and governed action help work coordinate. ( #ai #agents #memory #organization)
+- [[wiki/concepts/Company Brain|Company Brain]] — A permissioned organizational memory substrate where factual, interaction, and action memory turn company context into governed work. ( #ai #agents #memory #organization)
 - [[wiki/concepts/Factual Memory|Factual Memory]] — The company ability to answer what exists, what happened, where evidence lives, who owns it, and when it changed. ( #ai #memory #organization #agents)
 - [[wiki/concepts/Interaction Memory|Interaction Memory]] — Preserves what people meant, debated, promised, assumed, and left unresolved before artifacts formalize the work. (#ai #memory #organization #coordination)
+- [[wiki/concepts/Action Memory|Action Memory]] — Action memory remembers when company work should wake up, which path should run, what guardrails apply, and what happened afterward. (#ai #memory #organization #workflow)
 - [[wiki/concepts/Organizational Ontology|Organizational Ontology]] — Interprets conversations as decisions, commitments, risks, assumptions, dependencies, and open questions. (#organization #knowledge-graph #memory #ai)
 - [[wiki/concepts/Semantic File System|Semantic File System]] — A memory layer where artifact relationships, ownership, provenance, freshness, and permissions matter as much as text. ( #ai #memory #knowledge-graph #organization)
 - [[wiki/concepts/Organizational Memory|Organizational Memory]] — Company history that can bear on present decisions as personal work becomes shared work and shared work becomes institutional memory. ( #organization #memory #ai #coordination)
 - [[wiki/concepts/Context Graph|Context Graph]] — Connects artifacts, owners, decisions, commitments, evidence, freshness, and permissions so company facts become usable reasoning context. ( #ai #memory #knowledge-graph #organization)
-- [[wiki/concepts/Governed Action|Governed Action]] — Context-aware execution that knows when to move, wait, ask, escalate, stop, or require approval. (#ai #agents #governance #workflow)
+- [[wiki/concepts/Governed Action|Governed Action]] — Context-aware execution that uses action memory to decide when to move, wait, ask, escalate, stop, or require approval. (#ai #agents #governance #workflow)
 - [[wiki/concepts/Institutional Friction|Institutional Friction]] — Coordination loss when conversations, decisions, ownership, and shared reality degrade across an organization. (#organization #coordination #management #ai)
 - [[wiki/concepts/Computational and Inferential Controls|Computational and Inferential Controls]] — Computational controls execute objective checks; inferential controls carry human or model judgment where correctness cannot be fully executable. (#ai #agents #harness #testing)
 - [[wiki/concepts/Application|Application]] — Application is the fit-process that lets abstract knowledge, tools, or methods become effective in a concrete situation. (#thinking #concepts #practice)
@@ -112,6 +113,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Business Modeling in Software|Business Modeling in Software]] — 软件中的业务建模，不是先讨论'软件怎么做'，而是先回答：目标组织为了产出业务结果，现在是怎么运作的，应该怎么改。
 - [[wiki/concepts/Cognition Three Channels|Cognition Three Channels]] — 人认识世界靠三根独立的生成器撑着。关掉任何一根，认识塌一块。
 - [[wiki/concepts/Cognitive Engineering|Cognitive Engineering]] — 认知工程学不是单独研究'人怎么想'，而是研究如何设计工具、信息结构与反馈机制，让人更容易想对、做对、协同对。
+- [[wiki/concepts/engineering-thinking|Engineering Thinking]] — Engineering thinking turns vague intent into reliable, testable, repairable, evolvable structures under real constraints. (#engineering #software-engineering #systems #judgment #feedback)
 - [[wiki/concepts/Component-Based Architecture|Component-Based Architecture]] — Component-based architecture organizes an interface or system as composable units with local responsibilities. (#frontend #architecture #modularity)
 - [[wiki/concepts/Concept|Concept]] — 概念不是词，而是有限生命面对连续世界时制造的边界。
 - [[wiki/concepts/Conceptual Integrity|Conceptual Integrity]] — 软件设计中的概念完整性，不是风格统一，而是一个系统里的所有部分都像从同一个头脑里长出来：用户、程序员、机器面对它时，都能感觉到这里面只有一套世界观。
@@ -179,7 +181,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Before the Tool Call Source Guide|Before the Tool Call Source Guide]] — 这篇 arXiv 论文更适合作为单篇 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#paper #arxiv #agents #authorization #security #source)
 - [[wiki/sources/Claude Code Skills Source Guide|Claude Code Skills Source Guide]] — Source guide for Thariq Shihipar's Claude Code skills article, focused on skills as capability bundles, categories, gotchas, disclosure, hooks, and distribution. (#source #ai #agents #skills #claude-code)
 - [[wiki/sources/Coding with AI Source Guide|Coding with AI Source Guide]] — Source guide for Chris Parsons' 2026 Coding with AI article, focused on agentic engineering, trainer roles, harnesses, context resets, and verification bottlenecks. (#source #ai #ai-coding #agents #harness)
-- [[wiki/sources/Company Brain Source Guide|Company Brain Source Guide]] — Source guide for NanoThoughts' Company Brain series, covering factual memory, interaction memory, organizational ontology, context graphs, and governed action. (#source #ai #agents #organization #memory)
+- [[wiki/sources/Company Brain Source Guide|Company Brain Source Guide]] — Source guide for NanoThoughts' Company Brain series, covering factual, interaction, and action memory as a substrate for governed agents. (#source #ai #agents #organization #memory)
 - [[wiki/sources/Creation Concept Anatomy Source Guide|Creation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on creation as difference entering durable order. (#source #thinking #concepts)
 - [[wiki/sources/Csikszentmihalyi Systems Model of Creativity Source Guide|Csikszentmihalyi Systems Model of Creativity Source Guide]] — Source guide for Csikszentmihalyi's systems model, treating creativity as a relation among person, domain, field, and social recognition. (#source #creativity #psychology #systems)
 - [[wiki/sources/Dewey Reflective Inquiry Source Guide|Dewey Reflective Inquiry Source Guide]] — Source guide for Dewey's reflective thought cycle, grounding application in problem definition, hypothesis, consequence, and test. (#source #pragmatism #inquiry #thinking)
@@ -215,7 +217,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/vLLM Inference Systems Source Guide|vLLM Inference Systems Source Guide]] — Source guide for Aleksa Gordic's vLLM article, focused on engine loops, paged attention, batching, P/D split, scaling, serving, and benchmarking. (#source #ai #llm #inference)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Ingested NanoThoughts' Company Brain Part 3, adding interaction memory and organizational ontology to the organizational memory cluster.
+- [[wiki/hot|Hot Cache]] — Ingested NanoThoughts' Company Brain Part 4, adding action memory as the operational continuity layer of the company brain.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

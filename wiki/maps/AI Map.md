@@ -14,7 +14,7 @@ provenance:
   inferred: 0.1
   ambiguous: 0.0
 source_count: 27
-updated: 2026-05-08T20:54:16+08:00
+updated: 2026-05-08T22:24:16+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -67,6 +67,7 @@ tags:
 - [[wiki/concepts/Company Brain]]
 - [[wiki/concepts/Factual Memory]]
 - [[wiki/concepts/Interaction Memory]]
+- [[wiki/concepts/Action Memory]]
 - [[wiki/concepts/Organizational Ontology]]
 - [[wiki/concepts/Semantic File System]]
 

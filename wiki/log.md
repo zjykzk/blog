@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-08T20:54:16+08:00
+updated: 2026-05-08T22:31:50+08:00
 aliases:
   - Wiki Log
 tags:
@@ -80,3 +80,5 @@ tags:
 - [2026-05-08T15:58:41+08:00] INGEST source="https://nanothoughts.substack.com/p/company-brain-why-most-companies" pages_updated=8 pages_created=6 mode=append
 - [2026-05-08T20:38:05+08:00] INGEST source="https://open.substack.com/pub/nanothoughts/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web" pages_updated=6 pages_created=2 mode=append
 - [2026-05-08T20:54:16+08:00] INGEST source="https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web" pages_updated=8 pages_created=2 mode=append
+- [2026-05-08T22:24:16+08:00] INGEST source="https://nanothoughts.substack.com/p/company-brain-part-4-action-memory" pages_updated=11 pages_created=1 mode=append
+- [2026-05-08T22:31:50+08:00] CAPTURE type=concept page="wiki/concepts/engineering-thinking.md" title="Engineering Thinking"

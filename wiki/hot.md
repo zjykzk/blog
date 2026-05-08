@@ -1,25 +1,26 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added Company Brain Part 3: interaction memory, organizational ontology, and conversation-to-context-graph interpretation.
+summary: Recent wiki activity captured Engineering Thinking as a concept for turning vague intent into reliable, verifiable, repairable, evolvable structures.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-08T20:54:16+08:00
+updated: 2026-05-08T22:31:50+08:00
 ---
 
 ## Recent Activity
 
+- Captured [[wiki/concepts/engineering-thinking|Engineering Thinking]] from the engineering roundtable: engineering thinking is structured judgment that turns vague intent into reliable, verifiable, repairable, evolvable structures under real constraints.
+- Ingested NanoThoughts' [[wiki/sources/Company Brain Source Guide|Company Brain Part 4]] article: added [[wiki/concepts/Action Memory]], clarifying procedural, trigger, execution, and outcome memory as the operational continuity layer.
 - Ingested NanoThoughts' [[wiki/sources/Company Brain Source Guide|Company Brain Part 3]] article: added [[wiki/concepts/Interaction Memory]] and [[wiki/concepts/Organizational Ontology]], strengthening the conversation-to-context-graph layer.
 - Ingested NanoThoughts' [[wiki/sources/Company Brain Source Guide|Company Brain Part 2]] article: added [[wiki/concepts/Factual Memory]] and [[wiki/concepts/Semantic File System]], strengthening the organizational memory cluster.
-- Ingested NanoThoughts' [[wiki/sources/Company Brain Source Guide|Company Brain]] article: added [[wiki/concepts/Company Brain]], [[wiki/concepts/Organizational Memory]], [[wiki/concepts/Context Graph]], [[wiki/concepts/Governed Action]], and [[wiki/concepts/Institutional Friction]].
 
 ## Active Threads
 
-- Company brain is now represented as an enterprise memory-and-action substrate: factual memory, interaction memory, context graph reasoning, and governed action must integrate before agents can safely operate on company reality. Interaction memory adds the conversation-to-ontology layer: decisions, commitments, objections, assumptions, dependencies, risks, and unresolved questions must be interpreted with permissions rather than merely transcribed.
+- Company brain is now represented as an enterprise memory-and-action substrate: factual memory, interaction memory, action memory, context graph reasoning, and governed action must integrate before agents can safely operate on company reality. Action memory adds the operational continuity layer: procedures, triggers, execution traces, outcomes, guardrails, and intentional inaction.
 - Software methodology is converging around the handoff from business modeling to analysis, DDD, and executable design.
 - Frontend knowledge is forming around React as a coordination model for declarative rendering, component boundaries, and state.
 - AI / Agent systems are being organized around harness, context management, tool design, memory, permissions, and reusable operational knowledge.
@@ -53,7 +54,9 @@ updated: 2026-05-08T20:54:16+08:00
 
 ## Key Takeaways
 
-- Company brain reframes enterprise AI from tool access over data to a permissioned memory substrate. Part 3 sharpens the interaction layer: memory must preserve what people meant, debated, promised, assumed, and left unresolved before artifacts appear.
+- Engineering thinking is now represented as structured judgment: turn vague intent into reliable reality by defining problems, respecting constraints, imagining failure, building feedback, structuring responsibility, seeing people, and preserving evolvability.
+- Company brain reframes enterprise AI from tool access over data to a permissioned memory substrate. Part 4 sharpens the action layer: memory must preserve when work should wake up, when it should stay still, which path should run, and what outcomes teach the system.
+- Action memory makes doing nothing a first-class governed action: a trusted company brain must know when to wait, ask approval, notify without mutating state, stop, or execute.
 - Organizational ontology is now the Company Brain interpretation lens: the system must decide whether conversation fragments are decisions, commitments, objections, dependencies, risks, assumptions, precedents, or open questions.
 - Harness can be diagnosed by five root ranks: boundary, density, action, loop, and evolution.
 - Structural wiki health is currently clean across frontmatter, summaries, links, index coverage, tag cohesion, and synthesis-gap checks.

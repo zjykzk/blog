@@ -3,19 +3,20 @@ title: Context Graph
 type: concept
 status: seed
 category: concepts
-summary: A context graph connects artifacts, owners, decisions, commitments, evidence, freshness, and permissions so company facts become usable reasoning context.
+summary: A context graph connects artifacts, owners, decisions, commitments, triggers, evidence, freshness, and permissions so facts can guide action.
 sources:
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
+  - https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
 created: 2026-05-08T15:58:41+08:00
-updated: 2026-05-08T20:54:16+08:00
+updated: 2026-05-08T22:24:16+08:00
 base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 provenance:
-  extracted: 0.77
-  inferred: 0.21
+  extracted: 0.78
+  inferred: 0.20
   ambiguous: 0.02
 aliases:
   - reasoning layer
@@ -58,6 +59,13 @@ Part 3 makes the context graph the target of [[wiki/concepts/Interaction Memory]
 
 The interaction layer adds people, teams, customers, projects, commitments, decisions, risks, assumptions, dependencies, and time as graph nodes or relations. This lets the company reread past interactions when later evidence changes their meaning.
 
+
+## Action Updates
+
+Part 4 extends the context graph toward [[wiki/concepts/Action Memory]]. Conditions such as churn risk, unresolved support-ticket age, discount thresholds, approaching renewals, late commitments, changed metrics, meeting promises, and agent actions needing review should wake up the relevant operating path.
+
+After action, the graph should also absorb execution and outcome traces: who approved, which handoff failed, what workaround was used, whether the customer renewed, whether technical debt was created, and whether a human correction should change future behavior.
+
 ## Metacognitive Role
 
 The article places metacognition in this layer. A company brain should notice when:
@@ -82,6 +90,7 @@ Without a context graph, companies retain searchable fragments but lose decision
 - [[wiki/concepts/Interaction Memory]]
 - [[wiki/concepts/Organizational Ontology]]
 - [[wiki/concepts/Semantic File System]]
+- [[wiki/concepts/Action Memory]]
 - [[wiki/concepts/Governed Action]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/concepts/Knowledge as Network]]

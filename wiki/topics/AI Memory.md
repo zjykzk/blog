@@ -3,20 +3,21 @@ title: AI Memory
 type: topic
 status: seed
 category: topics
-summary: AI Memory is the persistent state layer that lets agents retain, retrieve, update, and consolidate experience beyond a single context window.
+summary: AI Memory is the persistent state layer that lets agents and organizations retain, retrieve, update, and learn from experience beyond one context window.
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
+  - https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
 created: 2026-05-05T16:25:00+08:00
-updated: 2026-05-08T20:54:16+08:00
-base_confidence: 0.64
+updated: 2026-05-08T22:24:16+08:00
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.78
-  inferred: 0.20
+  extracted: 0.79
+  inferred: 0.19
   ambiguous: 0.02
 aliases:
   - agent memory
@@ -97,6 +98,8 @@ Part 2 names [[wiki/concepts/Factual Memory]] as the first layer of this company
 
 Part 3 adds [[wiki/concepts/Interaction Memory]] as a second organization-scale layer. It stores interpreted communication traces: decisions, commitments, objections, assumptions, dependencies, risks, and unresolved questions. This layer depends on [[wiki/concepts/Organizational Ontology]] because the same conversation can mean different things from product, legal, customer, sales, action, or executive lenses.
 
+Part 4 adds [[wiki/concepts/Action Memory]] as the third layer. It stores procedures, triggers, execution traces, and outcomes so company memory can notice when conditions changed, select the right path, respect guardrails, and learn from what happened after action.
+
 ## Related
 
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
@@ -110,6 +113,7 @@ Part 3 adds [[wiki/concepts/Interaction Memory]] as a second organization-scale 
 - [[wiki/concepts/Factual Memory]]
 - [[wiki/concepts/Semantic File System]]
 - [[wiki/concepts/Interaction Memory]]
+- [[wiki/concepts/Action Memory]]
 - [[wiki/concepts/Organizational Ontology]]
 - [[wiki/sources/Company Brain Source Guide]]
 - [[wiki/sources/AI Memory Survey Source Guide]]

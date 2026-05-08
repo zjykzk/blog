@@ -3,19 +3,20 @@ title: Company Brain
 type: concept
 status: seed
 category: concepts
-summary: A company brain is a permissioned organizational memory substrate where factual memory, interaction memory, context graphs, and governed action help work coordinate.
+summary: A company brain is a permissioned organizational memory substrate where factual, interaction, and action memory turn company context into governed work.
 sources:
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
+  - https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
 created: 2026-05-08T15:58:41+08:00
-updated: 2026-05-08T20:54:16+08:00
+updated: 2026-05-08T22:24:16+08:00
 base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 provenance:
-  extracted: 0.81
-  inferred: 0.17
+  extracted: 0.82
+  inferred: 0.16
   ambiguous: 0.02
 aliases:
   - company memory substrate
@@ -30,7 +31,7 @@ tags:
 
 # Company Brain
 
-A company brain is a living, permissioned model of how an organization remembers, reasons, and acts. The source argues that this is not merely company search, a document chatbot, meeting notes, or workflow automation.
+A company brain is a living, permissioned model of how an organization remembers, reasons, and acts. The source argues that this is not merely company search, a document chatbot, meeting notes, or workflow automation. Part 4 makes the action layer explicit: the company must remember when work should wake up, which path should run, and how outcomes feed back into memory.
 
 ## Core Problem
 
@@ -44,7 +45,8 @@ Across the series, a Company Brain has three progressively stronger memory/actio
 
 - **[[wiki/concepts/Factual Memory]]**: what exists, what happened, where evidence lives, who owns it, when it changed, and how things connect.
 - **[[wiki/concepts/Interaction Memory]]**: what people meant, debated, promised, assumed, and left unresolved before artifacts formalized the work.
-- **Action memory / [[wiki/concepts/Governed Action]]**: the still-developing layer that coordinates what happens next after the company remembers facts and interprets interaction meaning.
+- **[[wiki/concepts/Action Memory]]**: how the company moves; when workflows should wake up, when they should stay still, what guardrails apply, and what happened after execution.
+- **[[wiki/concepts/Governed Action]]**: the execution-governance surface that decides whether to act, wait, ask, escalate, stop, or require approval.
 
 The first article also describes the broader formula as factual memory + human communication + [[wiki/concepts/Context Graph]] and reasoning + governed action = company brain.
 
@@ -62,9 +64,18 @@ This connects to [[wiki/concepts/Organizational Memory]]: the company needs memo
 
 This layer depends on [[wiki/concepts/Organizational Ontology]]. A single meeting sentence can encode a launch plan, legal dependency, customer commitment, sales risk, action items, and a non-closed decision. The ontology decides what the system remembers.
 
+
+## Action Layer
+
+Part 4 names [[wiki/concepts/Action Memory]] as the third layer. It is partly agentic: it notices changed conditions, decides whether anything should happen, chooses a path, respects guardrails, and either acts or asks a human to act.
+
+The source breaks action memory into procedural memory, trigger memory, execution memory, and outcome memory. This makes the company remember not only the official workflow, but also when the workflow becomes relevant, what actually happened, and whether the result was successful.
+
+A key claim is that doing nothing is a first-class action. A trusted company brain must know when to wait, ask approval, notify without mutating a system, stop, or deliberately do nothing.
+
 ## Agent Implication
 
-Agents fail not only because companies lack data. The article argues that agents also fail because companies lack memory of why the data means what it means.
+Agents fail not only because companies lack data. The series argues that agents also fail when companies lack memory of why data means what it means and how work should actually proceed after the context is understood.
 
 A company brain therefore becomes part of the upstream substrate for [[wiki/topics/AI Harness]]: agents need permissions, provenance, lineage, context, interaction rationale, and escalation paths before they can safely act inside company systems. ^[inferred]
 
@@ -90,14 +101,16 @@ The author is unsure which architecture wins, but argues that companies that sta
 - Which parts of company memory should be modeled explicitly, and which should stay as provenance-linked traces?
 - How can a company brain avoid becoming an executive surveillance dashboard?
 - How should permissions and role-specific abstraction levels be represented so the same memory substrate can serve ICs, managers, CEOs, and agents?
-- How can proactive factual and interaction memory help work without making employees feel watched?
+- How can proactive factual, interaction, and action memory help work without making employees feel watched?
 - What ontology is stable enough to structure interactions but flexible enough to let the company reread its own past?
+- How can action memory capture actual operating paths without confusing useful exceptions with bad process hygiene?
 
 ## Related
 
 - [[wiki/concepts/Organizational Memory]]
 - [[wiki/concepts/Factual Memory]]
 - [[wiki/concepts/Interaction Memory]]
+- [[wiki/concepts/Action Memory]]
 - [[wiki/concepts/Organizational Ontology]]
 - [[wiki/concepts/Semantic File System]]
 - [[wiki/concepts/Institutional Friction]]

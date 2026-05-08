@@ -3,12 +3,13 @@ title: Interaction Memory
 type: concept
 status: seed
 category: concepts
-summary: Interaction memory preserves what people meant, debated, promised, assumed, and left unresolved before artifacts formalize the work.
+summary: Interaction memory preserves what people meant, debated, promised, assumed, and left unresolved before action memory decides what should happen next.
 sources:
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
+  - https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
 created: 2026-05-08T20:54:16+08:00
-updated: 2026-05-08T20:54:16+08:00
-base_confidence: 0.44
+updated: 2026-05-08T22:24:16+08:00
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 provenance:
@@ -70,7 +71,7 @@ Example role-specific questions include:
 
 Interaction memory explains what people meant, debated, promised, and left unresolved. Without it, agents remain downstream of incomplete context: they may retrieve the ticket or update the CRM without knowing the human reason the work matters.
 
-The source frames interaction memory as the bridge from memory toward action: once a company remembers facts and understands interaction meaning, it still needs [[wiki/concepts/Governed Action]] to coordinate what happens next.
+The source frames interaction memory as the bridge from memory toward action: once a company remembers facts and understands interaction meaning, it still needs [[wiki/concepts/Action Memory]] to know when work should wake up and [[wiki/concepts/Governed Action]] to decide whether to execute, ask, wait, escalate, or stop.
 
 ## Related
 
@@ -79,6 +80,7 @@ The source frames interaction memory as the bridge from memory toward action: on
 - [[wiki/concepts/Organizational Ontology]]
 - [[wiki/concepts/Context Graph]]
 - [[wiki/concepts/Organizational Memory]]
+- [[wiki/concepts/Action Memory]]
 - [[wiki/concepts/Governed Action]]
 - [[wiki/concepts/Institutional Friction]]
 - [[wiki/topics/AI Memory]]

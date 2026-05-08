@@ -3,19 +3,20 @@ title: Company Brain Source Guide
 type: source
 status: seed
 category: sources
-summary: Source guide for NanoThoughts' Company Brain series, covering factual memory, interaction memory, organizational ontology, context graphs, and governed action.
+summary: Source guide for NanoThoughts' Company Brain series, covering factual, interaction, and action memory as a substrate for governed agents.
 sources:
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
+  - https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
 created: 2026-05-08T15:58:41+08:00
-updated: 2026-05-08T20:54:16+08:00
+updated: 2026-05-08T22:24:16+08:00
 base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 provenance:
-  extracted: 0.84
-  inferred: 0.14
+  extracted: 0.85
+  inferred: 0.13
   ambiguous: 0.02
 aliases:
   - Company Brain article source guide
@@ -31,7 +32,7 @@ tags:
 
 # Company Brain Source Guide
 
-This page guides NanoThoughts' Company Brain series, currently including "Company Brain: Why Most Companies Have Data But No Memory," "Company Brain, Part 2: Factual Memory," and "Company Brain, Part 3: Interaction Memory."
+This page guides NanoThoughts' Company Brain series, currently including "Company Brain: Why Most Companies Have Data But No Memory," "Company Brain, Part 2: Factual Memory," "Company Brain, Part 3: Interaction Memory," and "Company Brain, Part 4: Action Memory."
 
 ## Source Identity
 
@@ -40,9 +41,11 @@ This page guides NanoThoughts' Company Brain series, currently including "Compan
 - Part 2 accessible extraction URL: https://nanothoughts.substack.com/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web&triedRedirect=true
 - Part 3 URL: https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
 - Part 3 accessible extraction URL: https://nanothoughts.substack.com/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web&triedRedirect=true
+- Part 4 URL: https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
+- Part 4 accessible extraction URL: https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
 - Publication: NanoThoughts on Substack
 - Main topic: organizational memory as the missing substrate for company agents and AI-native organizations
-- Extraction note: the directly fetched Substack HTML contained each article body, extracted from the embedded `body_html` field. The user-provided open.substack.com URL was preserved as the source identity for Parts 2 and 3.
+- Extraction note: the directly fetched Substack HTML contained each article body, extracted from the embedded `body_html` field. The user-provided open.substack.com URL was preserved as the source identity for Parts 2 and 3; Part 4 used the canonical NanoThoughts URL directly.
 
 ## Core Claims
 
@@ -62,6 +65,10 @@ This page guides NanoThoughts' Company Brain series, currently including "Compan
 - Organizational ontology decides whether conversation fragments are remembered as decisions, commitments, objections, escalations, dependencies, assumptions, customer pains, owners, precedents, or open questions.
 - A useful interaction memory updates the context graph, letting the company reread its own past as later evidence changes meaning.
 - Permission boundaries are central because interaction memory can either feel like surveillance or like the company stopped losing the thread.
+- Part 4 frames action memory as the third layer: memory of when workflows should wake up, when they should stay still, what path should run, and what happened after execution.
+- Action memory has four parts: procedural memory, trigger memory, execution memory, and outcome memory.
+- Doing nothing is a first-class action; a trusted company brain must know when to wait, ask approval, notify, stop, or deliberately not mutate a system.
+- The action layer closes the loop by turning successful actions into precedent, failed actions into risk memory, human corrections into signals, and workflow changes into future operating memory.
 
 ## Promotion Decisions
 
@@ -70,6 +77,7 @@ Promoted to concept pages:
 - [[wiki/concepts/Company Brain]] — the source's central construct.
 - [[wiki/concepts/Factual Memory]] — Part 2's first layer of company memory.
 - [[wiki/concepts/Interaction Memory]] — Part 3's second layer of company memory.
+- [[wiki/concepts/Action Memory]] — Part 4's third layer of company memory and the bridge from remembered context to operational continuity.
 - [[wiki/concepts/Organizational Ontology]] — the interpretation scheme that turns conversation into structured memory.
 - [[wiki/concepts/Semantic File System]] — the relationship-rich durable memory substrate contrasted with simple RAG.
 - [[wiki/concepts/Organizational Memory]] — the decision-bearing memory layer.
@@ -79,7 +87,7 @@ Promoted to concept pages:
 
 Across the series, updated existing pages:
 
-- [[wiki/topics/AI Memory]] — extended from agent memory to organization-level memory substrates, including factual memory, interaction memory, and semantic file-system structure.
+- [[wiki/topics/AI Memory]] — extended from agent memory to organization-level memory substrates, including factual memory, interaction memory, action memory, and semantic file-system structure.
 - [[wiki/topics/AI Harness]] — added company-brain context as an enterprise governance substrate for agents.
 - [[wiki/syntheses/AI Engineering Workflow]] — added organizational substrate as a layer above coding-agent workflow.
 - [[wiki/sources/Agent Engineering Source Guide]] — registered the series as an enterprise agent-source bridge.
@@ -91,7 +99,7 @@ This source extends the current AI / Agent cluster in three directions:
 
 1. From single-agent memory and context management toward organization-level memory.
 2. From central repositories and search boxes toward emergent memory across individual, team, company artifacts, and human communication.
-3. From coding-agent harnesses toward enterprise action governance across human communication, data, workflows, and agents.
+3. From coding-agent harnesses toward enterprise action memory and action governance across human communication, data, workflows, outcomes, and agents.
 
 It also connects the AI cluster to management and coordination topics because the base problem is organizational shared reality, not model capability alone. ^[inferred]
 
@@ -102,6 +110,8 @@ It also connects the AI cluster to management and coordination topics because th
 - What minimum context graph is enough to improve decisions without requiring heavyweight ontology work?
 - Which wedge wins commercially: meeting communication, enterprise search, workflow automation, or integrated operating-system capture?
 - How should agents cite organizational memory when acting on behalf of different roles?
+- Which action outcomes should become precedent, risk memory, or workflow changes?
+- How can the system model doing nothing as an auditable, intentional action rather than absence of action?
 - Which interaction ontology is stable enough for reliable memory but flexible enough to reinterpret past conversations?
 - How should raw conversation, summary, aggregate signal, and company-record status be separated?
 
@@ -111,6 +121,7 @@ It also connects the AI cluster to management and coordination topics because th
 - [[wiki/concepts/Organizational Memory]]
 - [[wiki/concepts/Factual Memory]]
 - [[wiki/concepts/Interaction Memory]]
+- [[wiki/concepts/Action Memory]]
 - [[wiki/concepts/Organizational Ontology]]
 - [[wiki/concepts/Semantic File System]]
 - [[wiki/concepts/Context Graph]]

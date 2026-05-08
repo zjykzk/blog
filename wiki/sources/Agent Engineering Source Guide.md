@@ -10,7 +10,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 13
-updated: 2026-05-08T15:58:41+08:00
+updated: 2026-05-08T22:24:16+08:00
 aliases:
   - agent engineering source cluster
   - harness workflow source guide
@@ -86,7 +86,7 @@ Martin Fowler's harness-engineering guide contributes the user-side workbench la
 
 Chris Parsons' coding-with-AI guide contributes the trainer-role layer: production AI coding shifts senior engineering attention from approving every diff to training the harness through markdown rules, skills, checks, reset discipline, and verification surfaces.
 
-NanoThoughts' company-brain guide contributes the enterprise substrate layer: agents need organizational memory, communication context, reasoning graphs, and governed action before they can safely operate on company reality.
+NanoThoughts' company-brain guide contributes the enterprise substrate layer: agents need organizational memory, communication context, action memory, reasoning graphs, and governed action before they can safely operate on company reality.
 
 ## Main promotion destinations
 
@@ -112,6 +112,7 @@ NanoThoughts' company-brain guide contributes the enterprise substrate layer: ag
 - [[wiki/concepts/Context Graph]]
 - [[wiki/concepts/Organizational Memory]]
 - [[wiki/concepts/Company Brain]]
+- [[wiki/concepts/Action Memory]]
 
 ## What belongs here
 

@@ -14,6 +14,7 @@ sources:
   - https://martinfowler.com/articles/harness-engineering.html
   - https://www.chrismdp.com/coding-with-ai/
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
+  - https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
 created: 2026-05-04
 base_confidence: 0.78
 lifecycle: draft
@@ -23,7 +24,7 @@ provenance:
   inferred: 0.13
   ambiguous: 0.01
 source_count: 13
-updated: 2026-05-08T15:58:41+08:00
+updated: 2026-05-08T22:24:16+08:00
 aliases:
   - AI 工作流
   - Agent workflow
@@ -164,7 +165,7 @@ That reframes [[wiki/concepts/Agentic Engineering]] as a compounding workflow: e
 
 [[wiki/sources/Company Brain Source Guide]] adds an organizational substrate above the coding-agent workflow. If AI work moves faster than shared company memory, teams can still lose rationale, ownership, and customer context even when local coding loops improve.
 
-That means enterprise AI engineering has to connect local harnesses to a [[wiki/concepts/Company Brain]]: factual memory, human communication, [[wiki/concepts/Context Graph|context graph]] reasoning, and [[wiki/concepts/Governed Action|governed action]]. Otherwise agents may become faster executors on fragmented organizational reality. ^[inferred]
+That means enterprise AI engineering has to connect local harnesses to a [[wiki/concepts/Company Brain]]: factual memory, interaction memory, [[wiki/concepts/Action Memory|action memory]], [[wiki/concepts/Context Graph|context graph]] reasoning, and [[wiki/concepts/Governed Action|governed action]]. Otherwise agents may become faster executors on fragmented organizational reality. ^[inferred]
 
 ## Why this synthesis matters
 
@@ -195,6 +196,7 @@ That means enterprise AI engineering has to connect local harnesses to a [[wiki/
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Harnessability]]
 - [[wiki/concepts/Agentic Engineering]]
+- [[wiki/concepts/Action Memory]]
 - [[wiki/concepts/Governed Action]]
 - [[wiki/concepts/Context Graph]]
 - [[wiki/concepts/Organizational Memory]]
