@@ -16,6 +16,7 @@ You are ingesting source documents into an Obsidian wiki. Your job is not to sum
 ## Before You Start
 
 1. Read `~/.obsidian-wiki/config` (preferred) or `.env` (fallback) to get `OBSIDIAN_VAULT_PATH`, `OBSIDIAN_SOURCES_DIR`, and `OBSIDIAN_LINK_FORMAT` (default: `wikilink`). Only read the specific variables you need — do not log, echo, or reference any other values from these files.
+   - If neither config file exists but the current repository clearly contains a wiki vault, discover the vault root by locating `.manifest.json`, `index.md`, and `log.md` together (for this repo, that is typically `wiki/`). State this assumption in the final response and proceed rather than blocking.
 2. Read `.manifest.json` at the vault root to check what's already been ingested
 3. Read `index.md` to understand current wiki content
 4. Read `log.md` to understand recent activity
@@ -77,6 +78,16 @@ Read the document(s) the user wants to ingest. In append mode, skip files the ma
 - **Images** (`.png`, `.jpg`, `.jpeg`, `.webp`, `.gif`) — *requires a vision-capable model*. Use the Read tool, which renders the image into your context. Treat screenshots, whiteboard photos, diagrams, and slide captures as first-class sources. If your model doesn't support vision, skip image sources and tell the user which files were skipped so they can re-run with a vision-capable model.
 
 Note the source path — you'll need it for provenance tracking.
+
+#### Web/X article fallback
+
+If the user provides an X/Twitter article or status URL and the original page only returns a login wall or shell HTML:
+
+1. Try a clean extraction service such as `https://r.jina.ai/http://https://<url-without-scheme>` for the original URL.
+2. If that still returns only the login page, search the web for the exact post/article ID plus title/account keywords. DuckDuckGo/Bing snippets often reveal mirrors, expanded blog versions, or canonical reposts.
+3. Prefer an accessible canonical/expanded source by the same author or organization; otherwise use a mirror only as corroborating access to the X content.
+4. Preserve the user-provided X URL as the manifest source key and source frontmatter entry. In the source-guide page, explicitly note which accessible URL(s) were used for extraction and why the X page could not be read directly.
+5. Hash the extracted accessible content for manifest `content_hash`; keep the manifest schema clean unless the wiki's schema explicitly supports extra metadata.
 
 ### Multimodal branch (images)
 
@@ -209,7 +220,7 @@ After writing pages, check that wikilinks work in both directions. If page A lin
 
 ### Step 7: Update Manifest and Special Files
 
-**`.manifest.json`** — For each source file ingested, add or update its entry:
+**`.manifest.json`** — For each source file ingested, add or update its entry. `pages_created` and `pages_updated` must reflect pages actually created or materially changed during this ingest run, not pages that were created or updated by earlier parts of the same article series or source cluster. Put series-wide context in the source-guide page instead of inflating the manifest entry.
 ```json
 {
   "ingested_at": "TIMESTAMP",
@@ -270,3 +281,5 @@ After ingesting, verify:
 ## Reference
 
 Read `references/ingest-prompts.md` for the LLM prompt templates used during extraction.
+
+Read `references/web-article-fallbacks.md` when a supplied web article URL, especially X/Twitter or Substack, is not directly readable through the first method and you need a provenance-safe fallback extraction workflow. This reference also documents the Substack direct-HTML `body_html` extraction pattern, where the article body is embedded in fetched HTML even if reader services fail or time out.

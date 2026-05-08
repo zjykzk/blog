@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "ebf0a574ea957ff3",
+        "id": "8b2abd3b6a89c41f",
         "type": "tabs",
         "children": [
           {
-            "id": "643a7efd50df968a",
+            "id": "2b3389dcad0f6d86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/Concept.md",
+                "file": "wiki/sources/Agent Engineering Source Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concept"
+              "title": "Agent Engineering Source Guide"
+            }
+          },
+          {
+            "id": "a922fdf719754b09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/concepts/Company Brain.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Company Brain"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +56,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "brain",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 455.5,
-    "collapsed": true
+    "width": 455.5
   },
   "right": {
     "id": "7eba894845c12087",
@@ -95,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/concepts/Concept.md",
+                "file": "wiki/concepts/AI Learning Tutor Loop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Concept"
+              "title": "Backlinks for AI Learning Tutor Loop"
             }
           },
           {
@@ -114,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/concepts/Concept.md",
+                "file": "wiki/concepts/AI Learning Tutor Loop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Concept"
+              "title": "Outgoing links from AI Learning Tutor Loop"
             }
           },
           {
@@ -157,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/concepts/Concept.md",
+                "file": "wiki/concepts/AI Learning Tutor Loop.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Concept"
+              "title": "Outline of AI Learning Tutor Loop"
             }
           },
           {
@@ -209,45 +223,46 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "643a7efd50df968a",
+  "active": "a922fdf719754b09",
   "lastOpenFiles": [
-    "Excalidraw/agent.excalidraw",
-    "wiki/syntheses/React UI Organization Model.md",
-    "wiki/syntheses/Business Analysis to Software Design.md",
-    "wiki/topics/Frontend Development.md",
-    "wiki/concepts/State Management.md",
-    "wiki/concepts/Component-Based Architecture.md",
-    "wiki/concepts/Declarative Programming.md",
+    "wiki/concepts/Semantic File System.md",
+    "wiki/concepts/Factual Memory.md",
+    "wiki/sources/Company Brain Source Guide.md",
+    "wiki/sources/Agent Engineering Source Guide.md",
+    "CLAUDE.md",
+    "wiki/concepts/Institutional Friction.md",
+    "wiki/concepts/Governed Action.md",
+    "wiki/concepts/Context Graph.md",
+    "wiki/concepts/Organizational Memory.md",
+    "wiki/concepts/Company Brain.md",
+    "wiki/sources/Coding with AI Source Guide.md",
+    "wiki/sources/Seeing Like an Agent Source Guide.md",
+    "wiki/sources/Qiaomu Best Prompt Source Guide.md",
+    "wiki/sources/Lost in the Middle Paper Source Guide.md",
+    "wiki/sources/Epiplexity Paper Notes.md",
+    "wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide.md",
+    "wiki/sources/How People Learn Transfer Source Guide.md",
+    "wiki/syntheses/harness-root-ranks.md",
+    "wiki/concepts/Agentic Engineering.md",
+    "wiki/concepts/Context Anchoring.md",
+    "wiki/concepts/Coding Agent User Harness.md",
+    "wiki/sources/Harness Engineering Source Guide.md",
+    "wiki/concepts/Harness Ratchet.md",
     "wiki/maps/AI Map.md",
+    "wiki/concepts/Harnessability.md",
+    "wiki/concepts/Agent Skill Design Patterns.md",
+    "skills",
     "Excalidraw/backend.excalidraw",
+    "Excalidraw/agent.excalidraw",
     "agent.excalidraw",
-    "Excalidraw/Drawing 2026-05-05 10.55.33.excalidraw.md",
-    "Excalidraw/Drawing 2026-05-05 10.57.19.excalidraw.md",
-    "wiki/hot.md",
-    "wiki/sources/GenericAgent Paper Source Guide.md",
-    "wiki/concepts/Context Information Density.md",
-    "2026-04-21.md",
-    "wiki/index.md",
-    "wiki/log.md",
-    "README.md",
     "_meta/content-index.base",
-    "wiki/topics/AI Harness.md",
-    "journals/2026_04_18.md",
     "Untitled.canvas",
     "Pasted image 20260421133444.png",
-    "wiki/concepts/Conceptual Integrity.md",
     "_meta",
-    "wiki/concepts/Concept.md",
     "skills-lock.json",
     "log/app.log",
     "log",
-    "wiki/concepts/Software Analysis Three Generators.md",
-    "wiki/maps/Software Analysis Map.md",
-    "wiki/concepts/Software Design Three Generators.md",
-    "wiki/maps/CS Map.md",
-    "wiki/topics/面向对象分析与设计.md",
     "public/posts/cs/design/how-to-split-by-responsibility/index.html",
-    "public/posts/cs/design/how-to-split-by-responsibility",
     "raw/sources/HRiwbM75WooKMuxkev3cKjqHnie.PNG",
     "raw/HRiwbM75WooKMuxkev3cKjqHnie.PNG",
     "token.png",

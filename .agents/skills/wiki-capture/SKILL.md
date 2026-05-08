@@ -47,7 +47,7 @@ Assign one of five types — this determines the target folder and tone:
 |---|---|---|
 | `synthesis` | Multi-step analysis or an answer to a specific question that required reasoning | `synthesis/` |
 | `concept` | A definition, framework, or mental model (what a thing *is*) | `concepts/` |
-| `source` | Summary of an external document, article, or resource discussed | `references/` |
+| `source` | Summary of an external document, article, or resource discussed | `sources/` |
 | `decision` | A strategic, architectural, or design choice and its rationale | `synthesis/` |
 | `session` | A complete discussion summary when the conversation spans multiple topics | `journal/` |
 
@@ -61,6 +61,8 @@ Do **not** write a summary of the conversation. Write the knowledge itself, in d
 - Yes: "X works by..."
 - Not: "We decided to use Y because..."
 - Yes: "Y is preferred over Z because [reason]. [^[inferred] if the rationale was implied, not stated explicitly]"
+
+When the captured conversation just produced a structured analytical artifact from another skill (for example a rank analysis, PRD, research synthesis, or diagram explanation), preserve the artifact's core conceptual shape while converting it into wiki prose. Do not preserve chat logistics, but do preserve the named framework, generated categories, diagnostic questions, and compact diagrams if they are the durable knowledge. If an external side artifact was also written (for example under `~/Documents/notes/`), do not treat that file as a source unless the user asked to ingest it; cite the conversation as the source and link the wiki note to existing wiki pages.
 
 Apply provenance markers per `llm-wiki`:
 - *Extracted* — explicitly stated in the conversation (no marker)
@@ -195,9 +197,15 @@ Every note must link to at least 2 existing wiki pages. Search `index.md` before
 
 **`hot.md`** — Update **Recent Activity** with what was just captured. Update **Key Takeaways** if the note introduced something worth flagging. Update `updated` timestamp.
 
-## Step 7: Confirm to User
+## Step 7: Verify and Confirm to User
 
-Report the saved path and title:
+Before confirming, run a lightweight verification pass:
+- Re-read the created note and check that required frontmatter fields exist: `title`, `category`, `tags`, `sources`, `created`, `updated`, `summary`, `provenance`, `base_confidence`, `lifecycle`, and `lifecycle_changed`.
+- Resolve every wikilink in the note against the vault; fix broken links before reporting success.
+- Check incoming links from at least `index.md`, `log.md`, or `hot.md` so the new note is not orphaned.
+- Confirm that `index.md`, `log.md`, and `hot.md` contain the new page reference and current capture timestamp.
+
+Then report the saved path and title:
 ```
 Saved to: projects/<name>/synthesis/<slug>.md
 Title: <Title>
@@ -208,7 +216,9 @@ Type: synthesis
 
 - [ ] Content rewritten as declarative knowledge (not a chat transcript)
 - [ ] Type classified correctly; target path is in the right folder
-- [ ] Frontmatter complete with title, category, tags, sources, summary, provenance
-- [ ] At least 2 wikilinks to existing pages
+- [ ] Frontmatter complete with title, category, tags, sources, summary, provenance, confidence, and lifecycle fields
+- [ ] At least 2 wikilinks to existing pages, with no broken links
+- [ ] New note has an incoming link from a tracking or related page
 - [ ] `index.md`, `log.md`, and `hot.md` updated
+- [ ] Verification pass completed before reporting success
 - [ ] Confirmed save path to user
