@@ -6,15 +6,16 @@ category: topics
 summary: AI Memory is the persistent state layer that lets agents retain, retrieve, update, and consolidate experience beyond a single context window.
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
+  - https://nanothoughts.substack.com/p/company-brain-why-most-companies
 created: 2026-05-05T16:25:00+08:00
-updated: 2026-05-05T16:25:00+08:00
-base_confidence: 0.67
+updated: 2026-05-08T15:58:41+08:00
+base_confidence: 0.52
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.82
-  inferred: 0.18
-  ambiguous: 0.0
+  extracted: 0.78
+  inferred: 0.20
+  ambiguous: 0.02
 aliases:
   - agent memory
   - LLM memory
@@ -82,6 +83,14 @@ Memory quality should not be evaluated only by recall. The survey organizes eval
 
 For agent systems, memory is successful when it improves downstream behavior under real task constraints, not when it merely stores more records. ^[inferred]
 
+## Organizational Memory Layer
+
+[[wiki/sources/Company Brain Source Guide]] extends the memory problem from individual agents to organizations. A company also needs memory that can bear on present decisions: why a customer request mattered, which tradeoffs were considered, who owned the context, and which assumptions conflicted.
+
+This adds a group-level counterpart to agent memory: [[wiki/concepts/Organizational Memory]] stores not only artifacts, but decision rationale and "who knows what" signals. For enterprise agents, this memory becomes upstream context; without it, an agent can retrieve company data while missing why the data means what it means. ^[inferred]
+
+A [[wiki/concepts/Company Brain]] can be read as organization-scale AI memory plus communication capture, [[wiki/concepts/Context Graph|context graph]] reasoning, and [[wiki/concepts/Governed Action|governed action]]. ^[inferred]
+
 ## Related
 
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
@@ -89,4 +98,8 @@ For agent systems, memory is successful when it improves downstream behavior und
 - [[wiki/topics/AI Harness]]
 - [[wiki/concepts/Context Information Density]]
 - [[wiki/syntheses/Agent System Design Space]]
+- [[wiki/concepts/Company Brain]]
+- [[wiki/concepts/Organizational Memory]]
+- [[wiki/concepts/Context Graph]]
+- [[wiki/sources/Company Brain Source Guide]]
 - [[wiki/sources/AI Memory Survey Source Guide]]

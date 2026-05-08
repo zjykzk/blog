@@ -1,24 +1,25 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added Chris Parsons' agentic engineering and trainer-role framing to the AI coding workflow cluster.
+summary: Recent wiki activity added the Company Brain cluster: organizational memory, context graphs, institutional friction, and governed action for enterprise agents.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-07T22:03:56+08:00
+updated: 2026-05-08T15:58:41+08:00
 ---
 
 ## Recent Activity
 
+- Ingested NanoThoughts' [[wiki/sources/Company Brain Source Guide|Company Brain]] article: added [[wiki/concepts/Company Brain]], [[wiki/concepts/Organizational Memory]], [[wiki/concepts/Context Graph]], [[wiki/concepts/Governed Action]], and [[wiki/concepts/Institutional Friction]].
 - Ingested Chris Parsons' [[wiki/sources/Coding with AI Source Guide|Coding with AI]] article: added [[wiki/concepts/Agentic Engineering]] and strengthened trainer-role, harness, context-reset, and verification-bottleneck links across the AI coding cluster.
 - Captured [[wiki/syntheses/harness-root-ranks|Harness Root Ranks]]: harness can be reduced to boundary, density, action, loop, and evolution ranks rather than treated as a component list.
-- Captured [[wiki/syntheses/Agent Skill Patterns as Human Workflow Control Structures]]: agent skill patterns are ordinary human work controls—manuals, templates, reviews, interviews, and gates—made executable for agents.
 
 ## Active Threads
 
+- Company brain is now represented as an enterprise memory-and-action substrate: factual memory, human communication, context graph reasoning, and governed action must integrate before agents can safely operate on company reality.
 - Software methodology is converging around the handoff from business modeling to analysis, DDD, and executable design.
 - Frontend knowledge is forming around React as a coordination model for declarative rendering, component boundaries, and state.
 - AI / Agent systems are being organized around harness, context management, tool design, memory, permissions, and reusable operational knowledge.
@@ -52,6 +53,7 @@ updated: 2026-05-07T22:03:56+08:00
 
 ## Key Takeaways
 
+- Company brain reframes enterprise AI from tool access over data to a permissioned memory substrate that preserves why facts matter and when actions require escalation.
 - Harness can be diagnosed by five root ranks: boundary, density, action, loop, and evolution.
 - Structural wiki health is currently clean across frontmatter, summaries, links, index coverage, tag cohesion, and synthesis-gap checks.
 - Long-horizon agent performance should be judged by decision-relevant information preserved under finite context, not by how much history is visible.

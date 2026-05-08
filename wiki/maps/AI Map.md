@@ -13,8 +13,8 @@ provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
-source_count: 25
-updated: 2026-05-07T22:03:56+08:00
+source_count: 26
+updated: 2026-05-08T15:58:41+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -60,6 +60,11 @@ tags:
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Harnessability]]
 - [[wiki/concepts/Agentic Engineering]]
+- [[wiki/concepts/Institutional Friction]]
+- [[wiki/concepts/Governed Action]]
+- [[wiki/concepts/Context Graph]]
+- [[wiki/concepts/Organizational Memory]]
+- [[wiki/concepts/Company Brain]]
 
 ## Topics
 
@@ -107,6 +112,7 @@ tags:
 - [[wiki/sources/Harness Engineering Source Guide]]
 - [[wiki/sources/ADK Skill Design Patterns Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
+- [[wiki/sources/Company Brain Source Guide]]
 
 ## Related journals
 

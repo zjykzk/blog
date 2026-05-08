@@ -12,16 +12,17 @@ sources:
   - https://x.com/akshay_pachaar/status/2041146899319971922
   - https://x.com/trq212/status/2027463795355095314
   - https://martinfowler.com/articles/harness-engineering.html
+  - https://nanothoughts.substack.com/p/company-brain-why-most-companies
 created: 2026-05-04
-base_confidence: 0.78
+base_confidence: 0.75
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.9
-  inferred: 0.1
-  ambiguous: 0.0
+  extracted: 0.88
+  inferred: 0.11
+  ambiguous: 0.01
 source_count: 12
-updated: 2026-05-06T22:45:47+08:00
+updated: 2026-05-08T15:58:41+08:00
 aliases:
   - harness
 tags:
@@ -250,8 +251,19 @@ This extends the harness ratchet. A repeated failure can become a feedforward ru
 
 这不意味着所有 agent 都必须采用重型 policy engine，而是说明：只要系统开始拥有真实工具能力，harness 就不能只被理解为“接线层”，还必须被理解为 governance layer。
 
+## Enterprise company-brain substrate
+
+[[wiki/sources/Company Brain Source Guide]] shifts the harness question from coding agents to enterprise agents. In that setting, tool access and indexed data are not enough; agents also need the organization's memory of why data means what it means.
+
+A [[wiki/concepts/Company Brain]] supplies part of that substrate through [[wiki/concepts/Organizational Memory]], human communication, a [[wiki/concepts/Context Graph]], and [[wiki/concepts/Governed Action]]. For harness design, this means permission checks, provenance, lineage, evidence strength, stale-context detection, and escalation paths become first-class runtime concerns. ^[inferred]
+
+This strengthens the governance reading of harness: an enterprise agent should not only ask "which tool can I call?" but also "which organizational context authorizes this action, who owns the relevant memory, and when must a human approve?" ^[inferred]
+
 ## Upstream concepts and topics
 
+- [[wiki/concepts/Company Brain]]
+- [[wiki/concepts/Context Graph]]
+- [[wiki/concepts/Governed Action]]
 - [[wiki/concepts/Agent]]
 - [[wiki/concepts/Agent Tool]]
 - [[wiki/concepts/Agent Action Space]]

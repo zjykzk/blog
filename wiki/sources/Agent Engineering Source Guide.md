@@ -9,8 +9,8 @@ created: 2026-04-23
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 12
-updated: 2026-05-07T22:03:56+08:00
+source_count: 13
+updated: 2026-05-08T15:58:41+08:00
 aliases:
   - agent engineering source cluster
   - harness workflow source guide
@@ -66,6 +66,7 @@ tags:
 - [[wiki/sources/Harness Engineering Source Guide]]
 - [[wiki/sources/ADK Skill Design Patterns Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
+- [[wiki/sources/Company Brain Source Guide]]
 
 The prompt-caching guide now covers both a secondary case-study explainer and Thariq's original Claude Code article, which contributes the production-harness angle: cache-hit monitoring, stable mode tools, deferred tool loading, and cache-safe compaction.
 
@@ -84,6 +85,8 @@ Google Cloud Tech and Lavi Nigam's ADK skill-pattern guide contributes the skill
 Martin Fowler's harness-engineering guide contributes the user-side workbench layer: developers can shape coding-agent behavior through context, rules, templates, computational checks, inferential review artifacts, and feedback loops.
 
 Chris Parsons' coding-with-AI guide contributes the trainer-role layer: production AI coding shifts senior engineering attention from approving every diff to training the harness through markdown rules, skills, checks, reset discipline, and verification surfaces.
+
+NanoThoughts' company-brain guide contributes the enterprise substrate layer: agents need organizational memory, communication context, reasoning graphs, and governed action before they can safely operate on company reality.
 
 ## Main promotion destinations
 
@@ -105,6 +108,10 @@ Chris Parsons' coding-with-AI guide contributes the trainer-role layer: producti
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Harnessability]]
 - [[wiki/concepts/Agentic Engineering]]
+- [[wiki/concepts/Governed Action]]
+- [[wiki/concepts/Context Graph]]
+- [[wiki/concepts/Organizational Memory]]
+- [[wiki/concepts/Company Brain]]
 
 ## What belongs here
 

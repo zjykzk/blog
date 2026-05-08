@@ -13,16 +13,17 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
   - https://martinfowler.com/articles/harness-engineering.html
   - https://www.chrismdp.com/coding-with-ai/
+  - https://nanothoughts.substack.com/p/company-brain-why-most-companies
 created: 2026-05-04
-base_confidence: 0.79
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.89
-  inferred: 0.11
-  ambiguous: 0.0
+  extracted: 0.86
+  inferred: 0.13
+  ambiguous: 0.01
 source_count: 13
-updated: 2026-05-07T22:03:56+08:00
+updated: 2026-05-08T15:58:41+08:00
 aliases:
   - AI 工作流
   - Agent workflow
@@ -160,6 +161,11 @@ This makes AI engineering partly an environment-design problem: the developer is
 
 That reframes [[wiki/concepts/Agentic Engineering]] as a compounding workflow: each small generation-and-verification loop should either ship a change or improve the system that will generate the next change. ^[inferred]
 
+
+[[wiki/sources/Company Brain Source Guide]] adds an organizational substrate above the coding-agent workflow. If AI work moves faster than shared company memory, teams can still lose rationale, ownership, and customer context even when local coding loops improve.
+
+That means enterprise AI engineering has to connect local harnesses to a [[wiki/concepts/Company Brain]]: factual memory, human communication, [[wiki/concepts/Context Graph|context graph]] reasoning, and [[wiki/concepts/Governed Action|governed action]]. Otherwise agents may become faster executors on fragmented organizational reality. ^[inferred]
+
 ## Why this synthesis matters
 
 如果没有这条综合链路，AI 工程容易只剩下局部技巧：
@@ -189,6 +195,10 @@ That reframes [[wiki/concepts/Agentic Engineering]] as a compounding workflow: e
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Harnessability]]
 - [[wiki/concepts/Agentic Engineering]]
+- [[wiki/concepts/Governed Action]]
+- [[wiki/concepts/Context Graph]]
+- [[wiki/concepts/Organizational Memory]]
+- [[wiki/concepts/Company Brain]]
 
 ## Upstream topics
 
@@ -204,6 +214,7 @@ That reframes [[wiki/concepts/Agentic Engineering]] as a compounding workflow: e
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Harness Engineering Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
+- [[wiki/sources/Company Brain Source Guide]]
 
 ## Navigation
 

@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 28,
-    "total_pages": 173
+    "total_sources_ingested": 29,
+    "total_pages": 179
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -626,6 +626,32 @@
         "wiki/topics/Testing Strategy.md",
         "wiki/topics/Context Management.md",
         "wiki/topics/Spec-Driven Development.md",
+        "wiki/syntheses/AI Engineering Workflow.md",
+        "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://nanothoughts.substack.com/p/company-brain-why-most-companies": {
+      "ingested_at": "2026-05-08T15:58:41+08:00",
+      "size_bytes": 14021,
+      "modified_at": "2026-05-08T15:58:41+08:00",
+      "content_hash": "sha256:d3c945766e58772557e6b221a1c0f22d904e606a5f859e7d4759142d98a5aa8d",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Company Brain.md",
+        "wiki/concepts/Organizational Memory.md",
+        "wiki/concepts/Context Graph.md",
+        "wiki/concepts/Governed Action.md",
+        "wiki/concepts/Institutional Friction.md",
+        "wiki/sources/Company Brain Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/AI Memory.md",
+        "wiki/topics/AI Harness.md",
         "wiki/syntheses/AI Engineering Workflow.md",
         "wiki/sources/Agent Engineering Source Guide.md",
         "wiki/maps/AI Map.md",

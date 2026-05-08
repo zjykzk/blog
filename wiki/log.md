@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-07T22:03:56+08:00
+updated: 2026-05-08T15:58:41+08:00
 aliases:
   - Wiki Log
 tags:
@@ -77,3 +77,4 @@ tags:
 - [2026-05-07T10:31:25Z] QUERY query="harness有哪几根秩，参考技能ljg-rank关于秩的定义" result_pages=8 mode=normal escalated=false
 - [2026-05-07T10:33:29Z] CAPTURE type=synthesis page="wiki/syntheses/harness-root-ranks.md" title="Harness Root Ranks"
 - [2026-05-07T22:03:56+08:00] INGEST source="https://www.chrismdp.com/coding-with-ai/" pages_updated=11 pages_created=2 mode=append
+- [2026-05-08T15:58:41+08:00] INGEST source="https://nanothoughts.substack.com/p/company-brain-why-most-companies" pages_updated=8 pages_created=6 mode=append

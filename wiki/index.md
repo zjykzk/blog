@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-07T22:03:56+08:00
+updated: 2026-05-08T15:58:41+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -89,6 +89,11 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Agent Tool|Agent Tool]] — Agent tools are schema-defined action surfaces that let an agent inspect, change, retrieve, or validate external state under harness control. (#ai #agents #tools)
 - [[wiki/concepts/AI Collaboration Scaffolding|AI Collaboration Scaffolding]] — AI collaboration scaffolding gives coding assistants onboarding context, design discussion, standards, anchors, and feedback loops so their output fits the team. (#ai #software-engineering #workflow #ai-coding)
 - [[wiki/concepts/Coding Agent User Harness|Coding Agent User Harness]] — A coding agent user harness is the developer-controlled environment that shapes agent behavior through context, tools, rules, checks, and templates. (#ai #agents #harness #ai-coding)
+- [[wiki/concepts/Company Brain|Company Brain]] — A permissioned organizational memory-and-action substrate that helps a company remember, reason, and coordinate work. (#ai #agents #memory #organization)
+- [[wiki/concepts/Organizational Memory|Organizational Memory]] — Stored organizational history that can bear on present decisions, including facts, rationale, relationships, and who knows what. (#organization #memory #ai #coordination)
+- [[wiki/concepts/Context Graph|Context Graph]] — Connects facts, decisions, tradeoffs, assumptions, owners, and evidence so company knowledge becomes usable reasoning context. (#ai #memory #knowledge-graph #organization)
+- [[wiki/concepts/Governed Action|Governed Action]] — Context-aware execution that knows when to move, wait, ask, escalate, stop, or require approval. (#ai #agents #governance #workflow)
+- [[wiki/concepts/Institutional Friction|Institutional Friction]] — Coordination loss when conversations, decisions, ownership, and shared reality degrade across an organization. (#organization #coordination #management #ai)
 - [[wiki/concepts/Computational and Inferential Controls|Computational and Inferential Controls]] — Computational controls execute objective checks; inferential controls carry human or model judgment where correctness cannot be fully executable. (#ai #agents #harness #testing)
 - [[wiki/concepts/Application|Application]] — Application is the fit-process that lets abstract knowledge, tools, or methods become effective in a concrete situation. (#thinking #concepts #practice)
 - [[wiki/concepts/Knowledge Priming|Knowledge Priming]] — Knowledge priming gives AI coding assistants curated, versioned project context before generation so they fit local architecture and conventions. (#ai #ai-coding #context #workflow)
@@ -170,6 +175,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Before the Tool Call Source Guide|Before the Tool Call Source Guide]] — 这篇 arXiv 论文更适合作为单篇 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#paper #arxiv #agents #authorization #security #source)
 - [[wiki/sources/Claude Code Skills Source Guide|Claude Code Skills Source Guide]] — Source guide for Thariq Shihipar's Claude Code skills article, focused on skills as capability bundles, categories, gotchas, disclosure, hooks, and distribution. (#source #ai #agents #skills #claude-code)
 - [[wiki/sources/Coding with AI Source Guide|Coding with AI Source Guide]] — Source guide for Chris Parsons' 2026 Coding with AI article, focused on agentic engineering, trainer roles, harnesses, context resets, and verification bottlenecks. (#source #ai #ai-coding #agents #harness)
+- [[wiki/sources/Company Brain Source Guide|Company Brain Source Guide]] — Source guide for NanoThoughts' Company Brain article, focused on organizational memory, context graphs, communication, and governed action. (#source #ai #agents #organization #memory)
 - [[wiki/sources/Creation Concept Anatomy Source Guide|Creation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on creation as difference entering durable order. (#source #thinking #concepts)
 - [[wiki/sources/Csikszentmihalyi Systems Model of Creativity Source Guide|Csikszentmihalyi Systems Model of Creativity Source Guide]] — Source guide for Csikszentmihalyi's systems model, treating creativity as a relation among person, domain, field, and social recognition. (#source #creativity #psychology #systems)
 - [[wiki/sources/Dewey Reflective Inquiry Source Guide|Dewey Reflective Inquiry Source Guide]] — Source guide for Dewey's reflective thought cycle, grounding application in problem definition, hypothesis, consequence, and test. (#source #pragmatism #inquiry #thinking)
