@@ -3,13 +3,14 @@ title: Company Brain Source Guide
 type: source
 status: seed
 category: sources
-summary: Source guide for NanoThoughts' Company Brain series, covering factual memory, organizational context graphs, communication memory, and governed action.
+summary: Source guide for NanoThoughts' Company Brain series, covering factual memory, interaction memory, organizational ontology, context graphs, and governed action.
 sources:
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web
+  - https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
 created: 2026-05-08T15:58:41+08:00
-updated: 2026-05-08T20:38:05+08:00
-base_confidence: 0.61
+updated: 2026-05-08T20:54:16+08:00
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 provenance:
@@ -30,16 +31,18 @@ tags:
 
 # Company Brain Source Guide
 
-This page guides NanoThoughts' Company Brain series, currently including "Company Brain: Why Most Companies Have Data But No Memory" and "Company Brain, Part 2: Factual Memory."
+This page guides NanoThoughts' Company Brain series, currently including "Company Brain: Why Most Companies Have Data But No Memory," "Company Brain, Part 2: Factual Memory," and "Company Brain, Part 3: Interaction Memory."
 
 ## Source Identity
 
 - Part 1 URL: https://nanothoughts.substack.com/p/company-brain-why-most-companies
 - Part 2 URL: https://open.substack.com/pub/nanothoughts/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web
 - Part 2 accessible extraction URL: https://nanothoughts.substack.com/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web&triedRedirect=true
+- Part 3 URL: https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
+- Part 3 accessible extraction URL: https://nanothoughts.substack.com/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web&triedRedirect=true
 - Publication: NanoThoughts on Substack
 - Main topic: organizational memory as the missing substrate for company agents and AI-native organizations
-- Extraction note: the directly fetched Substack HTML contained each article body, extracted from the embedded `body_html` field. The user-provided open.substack.com URL was preserved as the source identity for Part 2.
+- Extraction note: the directly fetched Substack HTML contained each article body, extracted from the embedded `body_html` field. The user-provided open.substack.com URL was preserved as the source identity for Parts 2 and 3.
 
 ## Core Claims
 
@@ -47,12 +50,18 @@ This page guides NanoThoughts' Company Brain series, currently including "Compan
 - AI makes this problem more visible because work can move faster while the shared context behind that work stays fragile.
 - A company brain is not company-wide search, a document chatbot, meeting notes, or ordinary workflow automation.
 - A company brain is a living, permissioned model of how an organization remembers, reasons, and acts.
-- The company brain requires four integrated layers: factual memory, human communication, context graph and reasoning, and governed action.
+- The company brain requires factual memory, interaction memory, a context graph and reasoning layer, and governed action.
 - Agents fail not only because companies lack data, but because companies lack memory of why the data means what it means.
 - Part 2 reframes factual memory as the first layer: it answers what exists, what happened, where the source is, who owns it, when it changed, and how a thing works.
 - Factual memory should emerge from individual work becoming shared work and shared work becoming institutional memory, rather than demanding that people feed a central repository.
 - Durable company memory needs provenance, permissions, ownership, freshness, source-of-truth boundaries, relationships between artifacts, and role-specific answers.
 - The source describes this durable layer as closer to a semantic file system than to simple RAG over enterprise data.
+- Part 3 frames interaction memory as the second layer: memory of what happened between people before artifacts existed.
+- Interaction memory preserves why something happened, what people meant, what they debated, what they promised, which assumptions were fragile, and what was left unresolved.
+- Transcripts and summaries are not enough because the hard problem is interpretation.
+- Organizational ontology decides whether conversation fragments are remembered as decisions, commitments, objections, escalations, dependencies, assumptions, customer pains, owners, precedents, or open questions.
+- A useful interaction memory updates the context graph, letting the company reread its own past as later evidence changes meaning.
+- Permission boundaries are central because interaction memory can either feel like surveillance or like the company stopped losing the thread.
 
 ## Promotion Decisions
 
@@ -60,15 +69,17 @@ Promoted to concept pages:
 
 - [[wiki/concepts/Company Brain]] — the source's central construct.
 - [[wiki/concepts/Factual Memory]] — Part 2's first layer of company memory.
+- [[wiki/concepts/Interaction Memory]] — Part 3's second layer of company memory.
+- [[wiki/concepts/Organizational Ontology]] — the interpretation scheme that turns conversation into structured memory.
 - [[wiki/concepts/Semantic File System]] — the relationship-rich durable memory substrate contrasted with simple RAG.
 - [[wiki/concepts/Organizational Memory]] — the decision-bearing memory layer.
-- [[wiki/concepts/Context Graph]] — the reasoning layer connecting facts, decisions, tradeoffs, and assumptions.
+- [[wiki/concepts/Context Graph]] — the reasoning layer connecting facts, decisions, tradeoffs, assumptions, commitments, and interactions.
 - [[wiki/concepts/Governed Action]] — the action-coordination layer distinct from brittle automation.
 - [[wiki/concepts/Institutional Friction]] — the organizational failure mode that motivates the source.
 
 Across the series, updated existing pages:
 
-- [[wiki/topics/AI Memory]] — extended from agent memory to organization-level memory substrates, including factual memory and semantic file-system structure.
+- [[wiki/topics/AI Memory]] — extended from agent memory to organization-level memory substrates, including factual memory, interaction memory, and semantic file-system structure.
 - [[wiki/topics/AI Harness]] — added company-brain context as an enterprise governance substrate for agents.
 - [[wiki/syntheses/AI Engineering Workflow]] — added organizational substrate as a layer above coding-agent workflow.
 - [[wiki/sources/Agent Engineering Source Guide]] — registered the series as an enterprise agent-source bridge.
@@ -76,10 +87,10 @@ Across the series, updated existing pages:
 
 ## Relationship to Existing Wiki
 
-This source extends the current AI / Agent cluster in two directions:
+This source extends the current AI / Agent cluster in three directions:
 
 1. From single-agent memory and context management toward organization-level memory.
-2. From central repositories and search boxes toward emergent memory across individual, team, and company artifacts.
+2. From central repositories and search boxes toward emergent memory across individual, team, company artifacts, and human communication.
 3. From coding-agent harnesses toward enterprise action governance across human communication, data, workflows, and agents.
 
 It also connects the AI cluster to management and coordination topics because the base problem is organizational shared reality, not model capability alone. ^[inferred]
@@ -91,12 +102,16 @@ It also connects the AI cluster to management and coordination topics because th
 - What minimum context graph is enough to improve decisions without requiring heavyweight ontology work?
 - Which wedge wins commercially: meeting communication, enterprise search, workflow automation, or integrated operating-system capture?
 - How should agents cite organizational memory when acting on behalf of different roles?
+- Which interaction ontology is stable enough for reliable memory but flexible enough to reinterpret past conversations?
+- How should raw conversation, summary, aggregate signal, and company-record status be separated?
 
 ## Related
 
 - [[wiki/concepts/Company Brain]]
 - [[wiki/concepts/Organizational Memory]]
 - [[wiki/concepts/Factual Memory]]
+- [[wiki/concepts/Interaction Memory]]
+- [[wiki/concepts/Organizational Ontology]]
 - [[wiki/concepts/Semantic File System]]
 - [[wiki/concepts/Context Graph]]
 - [[wiki/concepts/Governed Action]]

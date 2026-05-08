@@ -7,14 +7,15 @@ summary: A context graph connects artifacts, owners, decisions, commitments, evi
 sources:
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web
+  - https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
 created: 2026-05-08T15:58:41+08:00
-updated: 2026-05-08T20:38:05+08:00
-base_confidence: 0.61
+updated: 2026-05-08T20:54:16+08:00
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 provenance:
-  extracted: 0.76
-  inferred: 0.22
+  extracted: 0.77
+  inferred: 0.21
   ambiguous: 0.02
 aliases:
   - reasoning layer
@@ -51,6 +52,12 @@ This graph is not just a retrieval index. It is a structure for deciding what a 
 
 The source calls the durable version closer to a [[wiki/concepts/Semantic File System]] than to simple RAG: relationship quality determines memory quality.
 
+## Interaction Updates
+
+Part 3 makes the context graph the target of [[wiki/concepts/Interaction Memory]]. A meeting should not only produce a note; it should update the map of what the company believes, what it has promised, what remains unresolved, and what should happen next.
+
+The interaction layer adds people, teams, customers, projects, commitments, decisions, risks, assumptions, dependencies, and time as graph nodes or relations. This lets the company reread past interactions when later evidence changes their meaning.
+
 ## Metacognitive Role
 
 The article places metacognition in this layer. A company brain should notice when:
@@ -72,6 +79,8 @@ Without a context graph, companies retain searchable fragments but lose decision
 - [[wiki/concepts/Company Brain]]
 - [[wiki/concepts/Organizational Memory]]
 - [[wiki/concepts/Factual Memory]]
+- [[wiki/concepts/Interaction Memory]]
+- [[wiki/concepts/Organizational Ontology]]
 - [[wiki/concepts/Semantic File System]]
 - [[wiki/concepts/Governed Action]]
 - [[wiki/topics/AI Harness]]

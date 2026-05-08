@@ -7,14 +7,15 @@ summary: Organizational memory is company history that can bear on present decis
 sources:
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web
+  - https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
 created: 2026-05-08T15:58:41+08:00
-updated: 2026-05-08T20:38:05+08:00
-base_confidence: 0.61
+updated: 2026-05-08T20:54:16+08:00
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 provenance:
-  extracted: 0.78
-  inferred: 0.20
+  extracted: 0.79
+  inferred: 0.19
   ambiguous: 0.02
 aliases:
   - company memory
@@ -52,6 +53,12 @@ The forgotten material is often not the fact itself, but:
 
 This makes memory a decision substrate, not just storage.
 
+## Interaction Layer
+
+Part 3 adds that much organizational memory is created before artifacts exist, inside meetings, messages, emails, and customer calls. The important memory is often not the transcript itself, but the interpreted structure: commitments, objections, assumptions, dependencies, risks, decisions, and unresolved questions.
+
+This makes [[wiki/concepts/Interaction Memory]] a middle layer between factual records and [[wiki/concepts/Governed Action]]. It preserves organizational reasoning that rarely survives intact in tickets, CRM fields, or roadmap notes.
+
 ## Relation to AI Memory
 
 [[wiki/topics/AI Memory]] usually focuses on agent persistence across sessions. Organizational memory generalizes the same persistence problem to groups, roles, and company history. ^[inferred]
@@ -75,6 +82,8 @@ The source emphasizes that factual memory has to be personalized and permissione
 - [[wiki/concepts/Company Brain]]
 - [[wiki/concepts/Context Graph]]
 - [[wiki/concepts/Factual Memory]]
+- [[wiki/concepts/Interaction Memory]]
+- [[wiki/concepts/Organizational Ontology]]
 - [[wiki/concepts/Semantic File System]]
 - [[wiki/topics/AI Memory]]
 - [[wiki/topics/Context Management]]

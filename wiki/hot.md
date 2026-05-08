@@ -1,25 +1,25 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added Company Brain Part 2: factual memory, semantic file-system structure, and role-specific proactive organizational memory.
+summary: Recent wiki activity added Company Brain Part 3: interaction memory, organizational ontology, and conversation-to-context-graph interpretation.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-08T20:38:05+08:00
+updated: 2026-05-08T20:54:16+08:00
 ---
 
 ## Recent Activity
 
+- Ingested NanoThoughts' [[wiki/sources/Company Brain Source Guide|Company Brain Part 3]] article: added [[wiki/concepts/Interaction Memory]] and [[wiki/concepts/Organizational Ontology]], strengthening the conversation-to-context-graph layer.
 - Ingested NanoThoughts' [[wiki/sources/Company Brain Source Guide|Company Brain Part 2]] article: added [[wiki/concepts/Factual Memory]] and [[wiki/concepts/Semantic File System]], strengthening the organizational memory cluster.
 - Ingested NanoThoughts' [[wiki/sources/Company Brain Source Guide|Company Brain]] article: added [[wiki/concepts/Company Brain]], [[wiki/concepts/Organizational Memory]], [[wiki/concepts/Context Graph]], [[wiki/concepts/Governed Action]], and [[wiki/concepts/Institutional Friction]].
-- Ingested Chris Parsons' [[wiki/sources/Coding with AI Source Guide|Coding with AI]] article: added [[wiki/concepts/Agentic Engineering]] and strengthened trainer-role, harness, context-reset, and verification-bottleneck links across the AI coding cluster.
 
 ## Active Threads
 
-- Company brain is now represented as an enterprise memory-and-action substrate: factual memory, human communication, context graph reasoning, and governed action must integrate before agents can safely operate on company reality. Factual memory now has its own layer: provenance, permissions, ownership, freshness, source-of-truth boundaries, and role-specific answers.
+- Company brain is now represented as an enterprise memory-and-action substrate: factual memory, interaction memory, context graph reasoning, and governed action must integrate before agents can safely operate on company reality. Interaction memory adds the conversation-to-ontology layer: decisions, commitments, objections, assumptions, dependencies, risks, and unresolved questions must be interpreted with permissions rather than merely transcribed.
 - Software methodology is converging around the handoff from business modeling to analysis, DDD, and executable design.
 - Frontend knowledge is forming around React as a coordination model for declarative rendering, component boundaries, and state.
 - AI / Agent systems are being organized around harness, context management, tool design, memory, permissions, and reusable operational knowledge.
@@ -53,8 +53,8 @@ updated: 2026-05-08T20:38:05+08:00
 
 ## Key Takeaways
 
-- Company brain reframes enterprise AI from tool access over data to a permissioned memory substrate. Part 2 sharpens the factual layer: memory must answer what exists, what happened, where evidence lives, who owns it, when it changed, and whether it is safe to use.
-- Semantic file-system structure is the new Company Brain implementation lens: relationship quality, not just retrieved text, determines memory quality.
+- Company brain reframes enterprise AI from tool access over data to a permissioned memory substrate. Part 3 sharpens the interaction layer: memory must preserve what people meant, debated, promised, assumed, and left unresolved before artifacts appear.
+- Organizational ontology is now the Company Brain interpretation lens: the system must decide whether conversation fragments are decisions, commitments, objections, dependencies, risks, assumptions, precedents, or open questions.
 - Harness can be diagnosed by five root ranks: boundary, density, action, loop, and evolution.
 - Structural wiki health is currently clean across frontmatter, summaries, links, index coverage, tag cohesion, and synthesis-gap checks.
 - Long-horizon agent performance should be judged by decision-relevant information preserved under finite context, not by how much history is visible.

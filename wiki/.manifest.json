@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 30,
-    "total_pages": 181
+    "total_sources_ingested": 31,
+    "total_pages": 183
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -681,6 +681,28 @@
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"
+      ]
+    },
+    "https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web": {
+      "ingested_at": "2026-05-08T20:54:16+08:00",
+      "size_bytes": 9855,
+      "modified_at": "2026-05-08T20:54:16+08:00",
+      "content_hash": "sha256:860533fd833e5962c85f75afb42839d6bf522c5e957e2b275ac929cf0e397aa1",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Interaction Memory.md",
+        "wiki/concepts/Organizational Ontology.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Company Brain.md",
+        "wiki/concepts/Factual Memory.md",
+        "wiki/concepts/Context Graph.md",
+        "wiki/concepts/Organizational Memory.md",
+        "wiki/concepts/Governed Action.md",
+        "wiki/topics/AI Memory.md",
+        "wiki/sources/Company Brain Source Guide.md",
+        "wiki/maps/AI Map.md"
       ]
     }
   }

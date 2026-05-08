@@ -6,14 +6,15 @@ category: concepts
 summary: Factual memory is the company ability to answer what exists, what happened, where evidence lives, who owns it, and when it changed.
 sources:
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web
+  - https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
 created: 2026-05-08T20:38:05+08:00
-updated: 2026-05-08T20:38:05+08:00
-base_confidence: 0.44
+updated: 2026-05-08T20:54:16+08:00
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 provenance:
-  extracted: 0.78
-  inferred: 0.20
+  extracted: 0.80
+  inferred: 0.18
   ambiguous: 0.02
 aliases:
   - company factual memory
@@ -66,11 +67,19 @@ The same factual memory should produce different answers for different roles. An
 
 The source argues that personalization is part of memory, not decoration, because factual memory must understand who is asking, what they are allowed to know, and what they are trying to do.
 
+## Boundary with Interaction Memory
+
+Part 3 distinguishes factual memory from [[wiki/concepts/Interaction Memory]]. Factual memory remembers artifacts and facts after work becomes visible; interaction memory remembers the conversational process that created meaning before the artifact existed.
+
+This boundary matters because an artifact often compresses the real context. The ticket may say SSO is needed, while the sales conversation explains why it mattered, who made the promise, and which customer constraint created urgency.
+
 ## Related
 
 - [[wiki/concepts/Company Brain]]
 - [[wiki/concepts/Organizational Memory]]
 - [[wiki/concepts/Context Graph]]
+- [[wiki/concepts/Interaction Memory]]
+- [[wiki/concepts/Organizational Ontology]]
 - [[wiki/concepts/Semantic File System]]
 - [[wiki/topics/AI Memory]]
 - [[wiki/sources/Company Brain Source Guide]]

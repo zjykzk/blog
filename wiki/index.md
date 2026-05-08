@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-08T20:38:05+08:00
+updated: 2026-05-08T20:54:16+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -91,6 +91,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Coding Agent User Harness|Coding Agent User Harness]] — A coding agent user harness is the developer-controlled environment that shapes agent behavior through context, tools, rules, checks, and templates. (#ai #agents #harness #ai-coding)
 - [[wiki/concepts/Company Brain|Company Brain]] — A permissioned organizational memory substrate where factual memory, interaction memory, context graphs, and governed action help work coordinate. ( #ai #agents #memory #organization)
 - [[wiki/concepts/Factual Memory|Factual Memory]] — The company ability to answer what exists, what happened, where evidence lives, who owns it, and when it changed. ( #ai #memory #organization #agents)
+- [[wiki/concepts/Interaction Memory|Interaction Memory]] — Preserves what people meant, debated, promised, assumed, and left unresolved before artifacts formalize the work. (#ai #memory #organization #coordination)
+- [[wiki/concepts/Organizational Ontology|Organizational Ontology]] — Interprets conversations as decisions, commitments, risks, assumptions, dependencies, and open questions. (#organization #knowledge-graph #memory #ai)
 - [[wiki/concepts/Semantic File System|Semantic File System]] — A memory layer where artifact relationships, ownership, provenance, freshness, and permissions matter as much as text. ( #ai #memory #knowledge-graph #organization)
 - [[wiki/concepts/Organizational Memory|Organizational Memory]] — Company history that can bear on present decisions as personal work becomes shared work and shared work becomes institutional memory. ( #organization #memory #ai #coordination)
 - [[wiki/concepts/Context Graph|Context Graph]] — Connects artifacts, owners, decisions, commitments, evidence, freshness, and permissions so company facts become usable reasoning context. ( #ai #memory #knowledge-graph #organization)
@@ -177,7 +179,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Before the Tool Call Source Guide|Before the Tool Call Source Guide]] — 这篇 arXiv 论文更适合作为单篇 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#paper #arxiv #agents #authorization #security #source)
 - [[wiki/sources/Claude Code Skills Source Guide|Claude Code Skills Source Guide]] — Source guide for Thariq Shihipar's Claude Code skills article, focused on skills as capability bundles, categories, gotchas, disclosure, hooks, and distribution. (#source #ai #agents #skills #claude-code)
 - [[wiki/sources/Coding with AI Source Guide|Coding with AI Source Guide]] — Source guide for Chris Parsons' 2026 Coding with AI article, focused on agentic engineering, trainer roles, harnesses, context resets, and verification bottlenecks. (#source #ai #ai-coding #agents #harness)
-- [[wiki/sources/Company Brain Source Guide|Company Brain Source Guide]] — Source guide for NanoThoughts' Company Brain series, covering factual memory, organizational context graphs, communication memory, and governed action. (#source #ai #agents #organization #memory)
+- [[wiki/sources/Company Brain Source Guide|Company Brain Source Guide]] — Source guide for NanoThoughts' Company Brain series, covering factual memory, interaction memory, organizational ontology, context graphs, and governed action. (#source #ai #agents #organization #memory)
 - [[wiki/sources/Creation Concept Anatomy Source Guide|Creation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on creation as difference entering durable order. (#source #thinking #concepts)
 - [[wiki/sources/Csikszentmihalyi Systems Model of Creativity Source Guide|Csikszentmihalyi Systems Model of Creativity Source Guide]] — Source guide for Csikszentmihalyi's systems model, treating creativity as a relation among person, domain, field, and social recognition. (#source #creativity #psychology #systems)
 - [[wiki/sources/Dewey Reflective Inquiry Source Guide|Dewey Reflective Inquiry Source Guide]] — Source guide for Dewey's reflective thought cycle, grounding application in problem definition, hypothesis, consequence, and test. (#source #pragmatism #inquiry #thinking)
@@ -213,7 +215,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/vLLM Inference Systems Source Guide|vLLM Inference Systems Source Guide]] — Source guide for Aleksa Gordic's vLLM article, focused on engine loops, paged attention, batching, P/D split, scaling, serving, and benchmarking. (#source #ai #llm #inference)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Ingested NanoThoughts' Company Brain Part 2, adding factual memory and semantic-file-system framing to the organizational memory cluster.
+- [[wiki/hot|Hot Cache]] — Ingested NanoThoughts' Company Brain Part 3, adding interaction memory and organizational ontology to the organizational memory cluster.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

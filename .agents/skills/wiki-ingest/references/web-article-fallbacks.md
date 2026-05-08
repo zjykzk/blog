@@ -58,6 +58,18 @@ text = re.sub(r'<[^>]+>', '', text)
 text = html.unescape(text)
 ```
 
+## Repeated Substack series ingestion pattern
+
+Observed case: NanoThoughts `open.substack.com/pub/.../p/company-brain-part-2-*` and `company-brain-part-3-*` share URLs redirected to `https://nanothoughts.substack.com/p/<slug>?...&triedRedirect=true` and exposed the full article in embedded `body_html`.
+
+When ingesting a multi-part Substack series:
+
+1. Preserve each user-provided `open.substack.com` URL as its own manifest source key.
+2. Record the canonical redirected URL in the source-guide page as the accessible extraction URL.
+3. Hash the extracted readable article text, not the whole HTML shell, when that text is what was distilled.
+4. Use the series source-guide page for series-wide context, but keep each manifest entry's `pages_created` / `pages_updated` limited to pages materially changed by that specific part.
+5. If a later part mainly strengthens an existing cluster, prefer adding 1-3 durable concept pages plus targeted updates to existing pages over recreating broad series structure.
+
 ## Quality risk
 
 A mirror or expanded repost may not be byte-identical to the original social article. Treat same-author canonical pages as high-confidence; treat third-party mirrors as access aids that need explicit attribution and, when possible, corroboration.

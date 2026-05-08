@@ -6,14 +6,15 @@ category: concepts
 summary: Governed action is context-aware execution that knows when to move, wait, ask, escalate, stop, or require approval.
 sources:
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
+  - https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
 created: 2026-05-08T15:58:41+08:00
-updated: 2026-05-08T15:58:41+08:00
-base_confidence: 0.44
+updated: 2026-05-08T20:54:16+08:00
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 provenance:
-  extracted: 0.76
-  inferred: 0.22
+  extracted: 0.75
+  inferred: 0.23
   ambiguous: 0.02
 aliases:
   - action coordination
@@ -39,6 +40,12 @@ The source distinguishes governed action from normal automation:
 
 Examples include drafting a follow-up after a call creates a commitment, creating a ticket after repeated support complaints, warning leadership that teams are making inconsistent assumptions, or deciding that a refund can be processed automatically while a pricing exception needs approval.
 
+## Bridge from Interaction
+
+Part 3 frames [[wiki/concepts/Interaction Memory]] as the bridge between memory and action. Factual memory can tell what exists; interaction memory tells what people meant, debated, promised, and left unresolved.
+
+Governed action is the next requirement: once the company remembers facts and interprets interaction meaning, it still has to coordinate what happens next.
+
 ## Agent Relevance
 
 For agents, governed action answers:
@@ -57,6 +64,8 @@ Action without [[wiki/concepts/Context Graph|context]] becomes brittle automatio
 
 - [[wiki/concepts/Company Brain]]
 - [[wiki/concepts/Context Graph]]
+- [[wiki/concepts/Interaction Memory]]
+- [[wiki/concepts/Organizational Ontology]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/concepts/Feedforward and Feedback Controls]]
 - [[wiki/concepts/Computational and Inferential Controls]]
