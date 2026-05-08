@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 29,
-    "total_pages": 179
+    "total_sources_ingested": 30,
+    "total_pages": 181
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -654,6 +654,29 @@
         "wiki/topics/AI Harness.md",
         "wiki/syntheses/AI Engineering Workflow.md",
         "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://open.substack.com/pub/nanothoughts/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web": {
+      "ingested_at": "2026-05-08T20:38:05+08:00",
+      "size_bytes": 9333,
+      "modified_at": "2026-05-08T20:38:05+08:00",
+      "content_hash": "sha256:1e31206695bb9fd93c3b151c55c54320a947152e2f3bc98d66a8669a7746ec94",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Factual Memory.md",
+        "wiki/concepts/Semantic File System.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Company Brain.md",
+        "wiki/concepts/Organizational Memory.md",
+        "wiki/concepts/Context Graph.md",
+        "wiki/topics/AI Memory.md",
+        "wiki/sources/Company Brain Source Guide.md",
         "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",

@@ -3,17 +3,18 @@ title: Context Graph
 type: concept
 status: seed
 category: concepts
-summary: A context graph connects facts, decisions, tradeoffs, assumptions, owners, and evidence so company knowledge becomes usable reasoning context.
+summary: A context graph connects artifacts, owners, decisions, commitments, evidence, freshness, and permissions so company facts become usable reasoning context.
 sources:
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
+  - https://open.substack.com/pub/nanothoughts/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web
 created: 2026-05-08T15:58:41+08:00
-updated: 2026-05-08T15:58:41+08:00
-base_confidence: 0.44
+updated: 2026-05-08T20:38:05+08:00
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 provenance:
-  extracted: 0.74
-  inferred: 0.24
+  extracted: 0.76
+  inferred: 0.22
   ambiguous: 0.02
 aliases:
   - reasoning layer
@@ -30,7 +31,9 @@ tags:
 
 A context graph is the reasoning layer that turns organizational facts into a model of the company.
 
-In the source's example, a customer call connects to an opportunity, the opportunity connects to a product gap, the gap connects to an engineering tradeoff, the tradeoff connects to a roadmap decision, and the decision connects to strategy.
+In the first source's example, a customer call connects to an opportunity, the opportunity connects to a product gap, the gap connects to an engineering tradeoff, the tradeoff connects to a roadmap decision, and the decision connects to strategy.
+
+Part 2 gives a more artifact-centric chain: a customer call connects to an account, the account connects to open issues, issues connect to tickets, tickets connect to product areas, product areas connect to owners, and owners connect to decisions.
 
 ## What It Preserves
 
@@ -42,8 +45,11 @@ A context graph preserves relationships that ordinary company tools often store 
 - roadmap decisions and strategic priorities
 - owners, commitments, blockers, and follow-ups
 - evidence strength, stale context, and conflicting assumptions
+- provenance, permissions, ownership, freshness, and source-of-truth boundaries
 
 This graph is not just a retrieval index. It is a structure for deciding what a fact means in the current situation. ^[inferred]
+
+The source calls the durable version closer to a [[wiki/concepts/Semantic File System]] than to simple RAG: relationship quality determines memory quality.
 
 ## Metacognitive Role
 
@@ -65,6 +71,8 @@ Without a context graph, companies retain searchable fragments but lose decision
 
 - [[wiki/concepts/Company Brain]]
 - [[wiki/concepts/Organizational Memory]]
+- [[wiki/concepts/Factual Memory]]
+- [[wiki/concepts/Semantic File System]]
 - [[wiki/concepts/Governed Action]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/concepts/Knowledge as Network]]

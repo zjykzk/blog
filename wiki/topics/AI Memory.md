@@ -7,14 +7,15 @@ summary: AI Memory is the persistent state layer that lets agents retain, retrie
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
+  - https://open.substack.com/pub/nanothoughts/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web
 created: 2026-05-05T16:25:00+08:00
-updated: 2026-05-08T15:58:41+08:00
-base_confidence: 0.52
+updated: 2026-05-08T20:38:05+08:00
+base_confidence: 0.55
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.78
-  inferred: 0.20
+  extracted: 0.79
+  inferred: 0.19
   ambiguous: 0.02
 aliases:
   - agent memory
@@ -91,6 +92,8 @@ This adds a group-level counterpart to agent memory: [[wiki/concepts/Organizatio
 
 A [[wiki/concepts/Company Brain]] can be read as organization-scale AI memory plus communication capture, [[wiki/concepts/Context Graph|context graph]] reasoning, and [[wiki/concepts/Governed Action|governed action]]. ^[inferred]
 
+Part 2 names [[wiki/concepts/Factual Memory]] as the first layer of this company-scale memory. It is not just retrieval: it needs provenance, permissions, ownership, freshness, source-of-truth boundaries, and role-specific answers. The proposed implementation shape is closer to a [[wiki/concepts/Semantic File System]] than to a central repository or enterprise-search chatbot.
+
 ## Related
 
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
@@ -101,5 +104,7 @@ A [[wiki/concepts/Company Brain]] can be read as organization-scale AI memory pl
 - [[wiki/concepts/Company Brain]]
 - [[wiki/concepts/Organizational Memory]]
 - [[wiki/concepts/Context Graph]]
+- [[wiki/concepts/Factual Memory]]
+- [[wiki/concepts/Semantic File System]]
 - [[wiki/sources/Company Brain Source Guide]]
 - [[wiki/sources/AI Memory Survey Source Guide]]
