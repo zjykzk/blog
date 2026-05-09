@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added the Iceberg Model as a systems-thinking lens that connects events, patterns, structures, mental models, and leverage points.
+summary: Recent wiki activity added a team-level AI coding harness layer: harness must discipline human requirements, testing, self-test, and review behavior.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-09T20:15:00+08:00
+updated: 2026-05-09T20:42:04+08:00
 ---
 
 ## Recent Activity
 
+- Ingested [[wiki/sources/Team AI Coding Harness Seminar Source Guide|Team AI Coding Harness Seminar]]: added the team-discipline side of [[wiki/topics/AI Harness]], connecting human requirements clarity, TDD loops, automated checks, and review responsibility.
 - Ingested [[wiki/sources/Iceberg Model Source Guide|Iceberg Model]]: added [[wiki/concepts/Iceberg Model]] as a systems-thinking bridge from visible events to patterns, structures, mental models, and [[wiki/concepts/Leverage Points]].
 - Ingested [[wiki/sources/Life of a Token Source Guide|Life of a Token]]: added the model-internal next-token path from [[wiki/concepts/Tokenization]] through [[wiki/concepts/Transformer Residual Stream]] to [[wiki/concepts/Autoregressive Decoding]], then linked it back to [[wiki/topics/LLM Inference Systems]].
-- Captured [[wiki/syntheses/Reality-Refutable Engineering Systems|Reality-Refutable Engineering Systems]] from the engineering roundtable: mature engineering systems need learnability, appealability, and accountability so reality can challenge their models.
 
 ## Active Threads
 
@@ -78,6 +78,7 @@ updated: 2026-05-09T20:15:00+08:00
 - Memory architecture should be compared by lifecycle, content type, storage representation, and modality before debating implementation details.
 - AI coding productivity should be measured by acceptance, iteration cycles, rework, and review burden, not by time to first output or generated lines.
 - In production AI coding, the constraint has moved from code generation to verification: the central question is how fast the team can tell whether generated work is right.
+- TDD is a harness primitive for AI coding: executable acceptance gives the agent a repair signal before human review, while missing tests turn generation speed into hidden debt.
 - Reusable AI skills can be context architecture, not just command wrappers: they can collect, compress, persist, and reintroduce project context before action.
 - Skill pattern choice should be driven by the dominant failure mode: missing domain knowledge, unstable output structure, weak review, premature assumptions, or skipped gates.
 - Agent skill patterns can be read as human workflow control structures made executable: expert manuals, templates, review rubrics, discovery interviews, and SOP gates.

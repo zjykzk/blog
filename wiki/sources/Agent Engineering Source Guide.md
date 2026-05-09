@@ -9,8 +9,8 @@ created: 2026-04-23
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 13
-updated: 2026-05-08T22:24:16+08:00
+source_count: 14
+updated: 2026-05-09T20:42:04+08:00
 aliases:
   - agent engineering source cluster
   - harness workflow source guide
@@ -67,6 +67,7 @@ tags:
 - [[wiki/sources/ADK Skill Design Patterns Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Company Brain Source Guide]]
+- [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 
 The prompt-caching guide now covers both a secondary case-study explainer and Thariq's original Claude Code article, which contributes the production-harness angle: cache-hit monitoring, stable mode tools, deferred tool loading, and cache-safe compaction.
 
@@ -87,6 +88,8 @@ Martin Fowler's harness-engineering guide contributes the user-side workbench la
 Chris Parsons' coding-with-AI guide contributes the trainer-role layer: production AI coding shifts senior engineering attention from approving every diff to training the harness through markdown rules, skills, checks, reset discipline, and verification surfaces.
 
 NanoThoughts' company-brain guide contributes the enterprise substrate layer: agents need organizational memory, communication context, action memory, reasoning graphs, and governed action before they can safely operate on company reality.
+
+TechLead 少个分号's seminar recap contributes the team-discipline layer: harness must also shape human requirements, testing, self-test, and review behavior so AI generation can enter a closed verification loop.
 
 ## Main promotion destinations
 

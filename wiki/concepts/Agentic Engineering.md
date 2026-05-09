@@ -6,9 +6,10 @@ category: concepts
 summary: Agentic engineering is production AI coding where humans shape harnesses, checks, skills, and attention allocation instead of merely prompting or approving diffs.
 sources:
   - https://www.chrismdp.com/coding-with-ai/
+  - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
 created: 2026-05-07T22:03:56+08:00
-updated: 2026-05-07T22:03:56+08:00
-base_confidence: 0.44
+updated: 2026-05-09T20:42:04+08:00
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-07
 provenance:
@@ -53,6 +54,15 @@ A productive harness includes standing instructions, skill files, a [[wiki/conce
 
 This makes agentic engineering a close cousin of [[wiki/concepts/AI Collaboration Scaffolding]]: both externalize tacit collaboration knowledge into durable artifacts that future agent sessions can reuse. ^[inferred]
 
+
+## Human-side harness
+
+[[wiki/sources/Team AI Coding Harness Seminar Source Guide]] reinforces the human side of agentic engineering. The source argues that prompt rules can often constrain AI output, while getting people to clarify requirements, write tests, self-test rigorously, and review consistently is the harder organizational problem.
+
+This reframes the engineer's responsibility: the team is not only evaluating generated code, but designing the work environment that makes generated code reviewable and repairable. ^[inferred]
+
+The source also predicts that AI will compress roles that mainly translate between vague requirements, prototypes, and code. That replacement claim should stay provisional because it is a single-source seminar judgment and likely varies by product complexity, design depth, and quality responsibility. ^[ambiguous]
+
 ## Failure Modes
 
 Parsons names several recurring failure modes:
@@ -75,3 +85,4 @@ Parsons names several recurring failure modes:
 - [[wiki/topics/Context Management]]
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/sources/Coding with AI Source Guide]]
+- [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]

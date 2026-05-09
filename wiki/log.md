@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-09T20:15:00+08:00
+updated: 2026-05-09T20:42:04+08:00
 aliases:
   - Wiki Log
 tags:
@@ -85,3 +85,5 @@ tags:
 - [2026-05-08T23:09:47+08:00] CAPTURE type=synthesis page="wiki/syntheses/Reality-Refutable Engineering Systems.md" title="Reality-Refutable Engineering Systems"
 - [2026-05-09T00:00:00+08:00] INGEST source="inline:life-of-a-token-2026-05-09" pages_updated=8 pages_created=6 mode=append
 - [2026-05-09T20:15:00+08:00] INGEST source="https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf" pages_updated=10 pages_created=2 mode=append
+
+- [2026-05-09T20:42:04+08:00] INGEST source="https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg" pages_updated=10 pages_created=1 mode=append

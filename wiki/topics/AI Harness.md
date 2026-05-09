@@ -13,6 +13,7 @@ sources:
   - https://x.com/trq212/status/2027463795355095314
   - https://martinfowler.com/articles/harness-engineering.html
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
+  - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
 created: 2026-05-04
 base_confidence: 0.75
 lifecycle: draft
@@ -21,8 +22,8 @@ provenance:
   extracted: 0.88
   inferred: 0.11
   ambiguous: 0.01
-source_count: 12
-updated: 2026-05-08T15:58:41+08:00
+source_count: 13
+updated: 2026-05-09T20:42:04+08:00
 aliases:
   - harness
 tags:
@@ -50,6 +51,15 @@ AI Harness 不是模型本身，也不是某一个工具本身。它更像 agent
 
 所以 harness 更适合被理解为 runtime order layer，而不是外围工程杂项。
 
+
+## Harness as human discipline
+
+[[wiki/sources/Team AI Coding Harness Seminar Source Guide]] adds a team-level correction: harness is not only the machinery that steers model behavior; it is also the discipline that shapes how humans prepare work for the model.
+
+In that frame, the harness includes requirements clarity, coding standards, testing discipline, and review habits. The source's strongest claim is that many AI coding gains disappear because the human side fails to define tasks, write tests, or verify output, not because the model cannot produce code.
+
+This turns harness into a socio-technical control layer: it must constrain both the agent's action space and the team's handoff, acceptance, and review behavior. ^[inferred]
+
 ## What a harness actually governs
 
 一个 harness 至少在治理几类关键问题：
@@ -61,6 +71,7 @@ AI Harness 不是模型本身，也不是某一个工具本身。它更像 agent
 - 权限边界如何被设置，并在何时交还给人类决策
 - 错误如何被分类成可重试、可由模型修正、需要用户介入或直接暴露
 - verification loop 如何把测试、视觉检查或 evaluator 的反馈送回系统
+- team discipline 如何让人先定义任务、验收标准和 review 责任，再把工作交给 AI
 - 子任务是否应该被委派，以及如何隔离执行环境
 - 状态如何被记录、持久化和重建
 - memory 如何被编码、检索、更新、遗忘和固化

@@ -10,16 +10,17 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
   - https://www.chrismdp.com/coding-with-ai/
+  - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
 created: 2026-04-21
-base_confidence: 0.61
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.80
   inferred: 0.20
   ambiguous: 0.0
-source_count: 7
-updated: 2026-05-07T22:03:56+08:00
+source_count: 8
+updated: 2026-05-09T20:42:04+08:00
 aliases:
   - 测试模型
 tags:
@@ -88,6 +89,15 @@ This is not a replacement for automated tests. It is a way to make review and se
 
 That shifts testing strategy toward review surfaces and executable gates. If verifying an AI-generated change costs almost as much as writing it manually, either the output must be presented in a more reviewable form, verification must move into an automated gate, or the task should not be delegated yet.
 
+
+## AI coding needs executable acceptance
+
+[[wiki/sources/Team AI Coding Harness Seminar Source Guide]] adds a sharper team-level claim: the practical difference between professional AI coding and fragile AI coding is often whether the team can define the task and verify it with tests.
+
+The source's proposed loop is requirements → AI code → AI tests → automated test run → AI repair → human review. This makes tests the medium through which AI coding can become an automated correction loop instead of a one-shot generation event.
+
+For testing strategy, the implication is that AI productivity depends less on how much code is generated and more on how much of the acceptance boundary can be made executable before review. ^[inferred]
+
 ## Peer topics
 
 - [[wiki/topics/Testing Purpose]]
@@ -99,6 +109,7 @@ That shifts testing strategy toward review surfaces and executable gates. If ver
 - [[wiki/concepts/Agentic Engineering]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
+- [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 
 ## Navigation
 

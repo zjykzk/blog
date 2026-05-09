@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 34,
-    "total_pages": 194
+    "total_sources_ingested": 35,
+    "total_pages": 195
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -776,6 +776,29 @@
         "wiki/topics/Mental Models.md",
         "wiki/maps/Reading Map.md",
         "wiki/maps/Management Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg": {
+      "ingested_at": "2026-05-09T20:42:04+08:00",
+      "size_bytes": 3192,
+      "modified_at": "2026-05-09T20:42:04+08:00",
+      "content_hash": "sha256:22dd6c4a71f05ae0495d566b69b77cc38bc9d9372156407f95cea71d8757ba82",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/Team AI Coding Harness Seminar Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/AI Harness.md",
+        "wiki/concepts/Verification Loop.md",
+        "wiki/topics/Testing Strategy.md",
+        "wiki/concepts/Agentic Engineering.md",
+        "wiki/syntheses/AI Engineering Workflow.md",
+        "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"

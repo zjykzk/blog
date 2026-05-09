@@ -8,9 +8,10 @@ sources:
   - https://addyosmani.com/blog/agent-harness-engineering/
   - https://x.com/akshay_pachaar/status/2041146899319971922
   - https://martinfowler.com/articles/harness-engineering.html
+  - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
 created: 2026-05-05T14:03:13+08:00
-updated: 2026-05-06T22:24:21+08:00
-base_confidence: 0.61
+updated: 2026-05-09T20:42:04+08:00
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -78,6 +79,15 @@ This connects verification to [[wiki/concepts/Harness Ratchet]]: every repeated 
 
 The stronger harness uses computational checks for properties that can be made executable, then reserves inferential controls for fit, maintainability, architecture, and product judgment. ^[inferred]
 
+
+## TDD as an AI coding loop
+
+[[wiki/sources/Team AI Coding Harness Seminar Source Guide]] makes the loop concrete for team coding work: requirements → AI-generated code → AI-generated tests → automated test run → AI repair on failure → human review.
+
+The key point is that the AI cannot close the loop if the team has no executable acceptance signal. Without unit tests, API tests, or other automated checks, generated code accumulates hidden debt and review falls back to subjective confidence.
+
+This connects [[wiki/topics/Testing Strategy]] to harness design: TDD is not only a developer habit, but a way to give the agent a fast external truth signal before human review. ^[inferred]
+
 ## Related
 
 - [[wiki/topics/AI Harness]]
@@ -90,3 +100,4 @@ The stronger harness uses computational checks for properties that can be made e
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
 - [[wiki/sources/Harness Engineering Source Guide]]
+- [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]

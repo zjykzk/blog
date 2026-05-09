@@ -15,6 +15,7 @@ sources:
   - https://www.chrismdp.com/coding-with-ai/
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
   - https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
+  - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
 created: 2026-05-04
 base_confidence: 0.78
 lifecycle: draft
@@ -23,8 +24,8 @@ provenance:
   extracted: 0.86
   inferred: 0.13
   ambiguous: 0.01
-source_count: 13
-updated: 2026-05-08T22:24:16+08:00
+source_count: 14
+updated: 2026-05-09T20:42:04+08:00
 aliases:
   - AI 工作流
   - Agent workflow
@@ -167,6 +168,17 @@ That reframes [[wiki/concepts/Agentic Engineering]] as a compounding workflow: e
 
 That means enterprise AI engineering has to connect local harnesses to a [[wiki/concepts/Company Brain]]: factual memory, interaction memory, [[wiki/concepts/Action Memory|action memory]], [[wiki/concepts/Context Graph|context graph]] reasoning, and [[wiki/concepts/Governed Action|governed action]]. Otherwise agents may become faster executors on fragmented organizational reality. ^[inferred]
 
+[[wiki/sources/Team AI Coding Harness Seminar Source Guide]] adds a compact execution loop for team AI coding:
+
+1. clarify the task and acceptance boundary
+2. let AI generate implementation
+3. let AI generate or update tests
+4. run automated checks
+5. feed failures back for repair
+6. reserve human review for final judgment and risk-bearing decisions
+
+This strengthens a recurring synthesis: AI engineering is not just faster generation, but the design of a workflow where requirements, tests, automated feedback, and human review form a closed loop. ^[inferred]
+
 ## Why this synthesis matters
 
 如果没有这条综合链路，AI 工程容易只剩下局部技巧：
@@ -217,6 +229,7 @@ That means enterprise AI engineering has to connect local harnesses to a [[wiki/
 - [[wiki/sources/Harness Engineering Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Company Brain Source Guide]]
+- [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 
 ## Navigation
 

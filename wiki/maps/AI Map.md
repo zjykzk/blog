@@ -13,8 +13,8 @@ provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
-source_count: 27
-updated: 2026-05-09T00:00:00+08:00
+source_count: 28
+updated: 2026-05-09T20:42:04+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -124,6 +124,7 @@ tags:
 - [[wiki/sources/ADK Skill Design Patterns Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Company Brain Source Guide]]
+- [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 
 ## Related journals
 
