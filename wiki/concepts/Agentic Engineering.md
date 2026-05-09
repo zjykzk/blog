@@ -7,9 +7,10 @@ summary: Agentic engineering is production AI coding where humans shape harnesse
 sources:
   - https://www.chrismdp.com/coding-with-ai/
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
+  - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
 created: 2026-05-07T22:03:56+08:00
-updated: 2026-05-09T20:42:04+08:00
-base_confidence: 0.61
+updated: 2026-05-09T21:05:00+08:00
+base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-07
 provenance:
@@ -45,6 +46,8 @@ This training work includes:
 - teaching teammates the reset, context, and verification instincts needed for agent work
 
 In this view, architectural taste still matters, but it compounds into markdown, skills, tests, and harness rules rather than staying only inside one senior engineer's head. ^[inferred]
+
+The cybernetics framing sharpens this into calibration work: the engineer designs the sensor, actuator, target, and feedback path that let the system steer code changes without constant manual intervention. ^[inferred]
 
 ## Control Surface
 
@@ -86,3 +89,4 @@ Parsons names several recurring failure modes:
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
+- [[wiki/sources/Harness Engineering Is Cybernetics Source Guide]]

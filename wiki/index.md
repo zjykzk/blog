@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-09T20:42:04+08:00
+updated: 2026-05-09T21:05:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -38,7 +38,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/maps/Software Design Map|Software Design Map]] — 这页把软件设计中的核心概念按层次放在一张图里。关键区分是： (#software-design #architecture #map)
 
 ## Topics
-- [[wiki/topics/AI Harness|AI Harness]] — AI Harness is the runtime order layer that connects model, context, tools, permissions, state, recovery, cache stability, and service APIs into a controllable agent system. (#ai #agents #harness #runtime)
+- [[wiki/topics/AI Harness|AI Harness]] — AI Harness is the runtime order layer and cybernetic steering system that connects model, context, tools, permissions, state, recovery, cache stability, and feedback loops. (#ai #agents #harness #runtime)
 - [[wiki/topics/AI Memory|AI Memory]] — AI Memory is the persistent state layer that lets agents and organizations retain, retrieve, update, and learn from experience beyond one context window. (#ai #agents #memory #context)
 - [[wiki/topics/AI Skills Workflow|AI Skills Workflow]] — AI Skills Workflow treats skills as reusable workflows that gather, order, persist, and reload context for more stable agent behavior. (#ai #skills #workflow)
 - [[wiki/topics/BoltDB Internals|BoltDB Internals]] — BoltDB 是一个非常适合入门数据库实现的案例：代码量相对小，但已经覆盖了页式存储、B+ 树、事务、空闲页管理、写时复制等核心机制。 (#database #storage #golang)
@@ -198,8 +198,10 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Frontend Development Workflow Roundtable Source Guide|Frontend Development Workflow Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担前端工程方法论的稳定母页角色。 (#frontend #software-engineering #workflow #ux #source #roundtable)
 - [[wiki/sources/GenericAgent Paper Source Guide|GenericAgent Paper Source Guide]] — Source guide for the GenericAgent paper, focused on context information density, hierarchical memory, tool minimality, and self-evolution. (#papers #agents #ai #source)
 - [[wiki/sources/Harness Engineering Source Guide|Harness Engineering Source Guide]] — Source guide for Martin Fowler's harness engineering article, focused on user-owned harnesses for coding agents and their control loops. (#source #ai #agents #harness #ai-coding)
+- [[wiki/sources/Harness Engineering Is Cybernetics Source Guide|Harness Engineering Is Cybernetics Source Guide]] — Source guide for George's X article framing harness engineering as cybernetics: sensors, actuators, feedback loops, and machine-readable judgment. (#source #ai #agents #harness #cybernetics)
 - [[wiki/sources/How People Learn Transfer Source Guide|How People Learn Transfer Source Guide]] — Source guide for transfer research in How People Learn, grounding application in flexible adaptation across contexts. (#source #learning #transfer #cognition)
 - [[wiki/sources/How to Get Rich Source Guide|How to Get Rich Source Guide]] — Source guide for Naval Ravikant's How to Get Rich tweetstorm PDF, focused on wealth, equity, specific knowledge, accountability, leverage, and judgment. ( #source #wealth #leverage #career #judgment)
+- [[wiki/sources/How LLMs Actually Work Source Guide|How LLMs Actually Work Source Guide]] — Source guide for an interactive walkthrough of the LLM pipeline, from web data and tokenization through pretraining, post-training, RAG, and security. (#source #ai #llm #transformer #security)
 - [[wiki/sources/Iceberg Model Source Guide|Iceberg Model Source Guide]] — Source guide for the Donella Meadows Iceberg Model PDF, preserving provenance limits and routing its visual systems-thinking frame into concept pages. (#source #systems-thinking #mental-models)
 - [[wiki/sources/Journals|Journals Source Guide]] — journals/ 是当前 vault 的时间流输入层。它们不应直接承担稳定知识页职责，但应该持续为 wiki/ 提供可回溯的来源。 (#journals #raw #source)
 - [[wiki/sources/Life of a Token Source Guide|Life of a Token Source Guide]] — Source guide for the Life of a Token article, focused on the next-token path through tokenization, embeddings, attention, FFN, residual stream, sampling, cache, and GPU limits. (#source #ai #llm #inference #transformer)

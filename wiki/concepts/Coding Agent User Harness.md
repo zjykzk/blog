@@ -7,9 +7,10 @@ summary: A coding agent user harness is the developer-controlled environment tha
 sources:
   - https://martinfowler.com/articles/harness-engineering.html
   - https://www.chrismdp.com/coding-with-ai/
+  - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
 created: 2026-05-06T22:24:21+08:00
-updated: 2026-05-07T22:03:56+08:00
-base_confidence: 0.61
+updated: 2026-05-09T21:05:00+08:00
+base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 provenance:
@@ -67,6 +68,8 @@ Chris Parsons' [[wiki/sources/Coding with AI Source Guide]] sharpens the same po
 
 The practical test of the harness is whether the agent writes better code next week because the team left behind better context, rules, and verification surfaces this week.
 
+George's cybernetics article makes the same role shift concrete through Watt's governor and Kubernetes controllers: the worker stops direct manipulation and starts designing the control loop. In coding, that means the user harness becomes the governor around generated code: sensors, actuators, desired state, and calibration rules.
+
 ## Related
 
 - [[wiki/topics/AI Harness]]
@@ -82,3 +85,4 @@ The practical test of the harness is whether the agent writes better code next w
 - [[wiki/concepts/Agentic Engineering]]
 - [[wiki/sources/Harness Engineering Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
+- [[wiki/sources/Harness Engineering Is Cybernetics Source Guide]]

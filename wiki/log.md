@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-09T20:42:04+08:00
+updated: 2026-05-09T21:05:00+08:00
 aliases:
   - Wiki Log
 tags:
@@ -87,3 +87,4 @@ tags:
 - [2026-05-09T20:15:00+08:00] INGEST source="https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf" pages_updated=10 pages_created=2 mode=append
 
 - [2026-05-09T20:42:04+08:00] INGEST source="https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg" pages_updated=10 pages_created=1 mode=append
+- [2026-05-09T21:05:00+08:00] INGEST source="https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g" pages_updated=9 pages_created=1 mode=append

@@ -16,6 +16,7 @@ sources:
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
   - https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
+  - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
 created: 2026-05-04
 base_confidence: 0.78
 lifecycle: draft
@@ -24,8 +25,8 @@ provenance:
   extracted: 0.86
   inferred: 0.13
   ambiguous: 0.01
-source_count: 14
-updated: 2026-05-09T20:42:04+08:00
+source_count: 15
+updated: 2026-05-09T21:05:00+08:00
 aliases:
   - AI 工作流
   - Agent workflow
@@ -179,6 +180,8 @@ That means enterprise AI engineering has to connect local harnesses to a [[wiki/
 
 This strengthens a recurring synthesis: AI engineering is not just faster generation, but the design of a workflow where requirements, tests, automated feedback, and human review form a closed loop. ^[inferred]
 
+[[wiki/sources/Harness Engineering Is Cybernetics Source Guide]] gives that loop a cybernetic vocabulary: sensors, actuators, desired state, and calibration. The shared hinge is machine-readable judgment: documentation, architecture rules, tests, CI output, and review principles must tell the system what “good” means before agents can reliably repair toward it. ^[inferred]
+
 ## Why this synthesis matters
 
 如果没有这条综合链路，AI 工程容易只剩下局部技巧：
@@ -208,6 +211,7 @@ This strengthens a recurring synthesis: AI engineering is not just faster genera
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Harnessability]]
 - [[wiki/concepts/Agentic Engineering]]
+- [[wiki/sources/Harness Engineering Is Cybernetics Source Guide]]
 - [[wiki/concepts/Action Memory]]
 - [[wiki/concepts/Governed Action]]
 - [[wiki/concepts/Context Graph]]

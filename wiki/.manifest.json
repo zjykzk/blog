@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 35,
-    "total_pages": 195
+    "total_sources_ingested": 36,
+    "total_pages": 196
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -799,6 +799,28 @@
         "wiki/syntheses/AI Engineering Workflow.md",
         "wiki/sources/Agent Engineering Source Guide.md",
         "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g": {
+      "ingested_at": "2026-05-09T21:05:00+08:00",
+      "size_bytes": 2595,
+      "modified_at": "2026-03-08T06:54:00+00:00",
+      "content_hash": "sha256:a02de4011b767f676e8c5b4c5607db96860af607ec7e0b813b716a840ec6a9ed",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/Harness Engineering Is Cybernetics Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/AI Harness.md",
+        "wiki/concepts/Coding Agent User Harness.md",
+        "wiki/concepts/Verification Loop.md",
+        "wiki/concepts/Agentic Engineering.md",
+        "wiki/syntheses/AI Engineering Workflow.md",
+        "wiki/sources/Agent Engineering Source Guide.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"

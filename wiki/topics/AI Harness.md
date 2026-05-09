@@ -14,6 +14,7 @@ sources:
   - https://martinfowler.com/articles/harness-engineering.html
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
+  - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
 created: 2026-05-04
 base_confidence: 0.75
 lifecycle: draft
@@ -22,8 +23,8 @@ provenance:
   extracted: 0.88
   inferred: 0.11
   ambiguous: 0.01
-source_count: 13
-updated: 2026-05-09T20:42:04+08:00
+source_count: 14
+updated: 2026-05-09T21:05:00+08:00
 aliases:
   - harness
 tags:
@@ -36,6 +37,8 @@ tags:
 # AI Harness
 
 AI Harness 不是模型本身，也不是某一个工具本身。它更像 agent system 的运行层：把模型、上下文、工具、权限、委派和状态接起来，并给这些东西规定边界。
+
+[[wiki/sources/Harness Engineering Is Cybernetics Source Guide]] adds a cybernetic reading: a harness is a steering system. It defines what to sense, what to actuate, what target state matters, and how feedback changes the next action.
 
 ## Core idea
 
@@ -50,6 +53,8 @@ AI Harness 不是模型本身，也不是某一个工具本身。它更像 agent
 - 同样的模型，放在不同 harness 里，会得到不同的稳定性、可控性与安全性
 
 所以 harness 更适合被理解为 runtime order layer，而不是外围工程杂项。
+
+From the cybernetic angle, harness engineering shifts human work from turning the valve to designing the governor: the engineer defines feedback loops, constraints, and calibration surfaces so the agent can act inside a steerable system. ^[inferred]
 
 
 ## Harness as human discipline

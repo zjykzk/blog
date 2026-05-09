@@ -9,8 +9,9 @@ sources:
   - https://x.com/akshay_pachaar/status/2041146899319971922
   - https://martinfowler.com/articles/harness-engineering.html
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
+  - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
 created: 2026-05-05T14:03:13+08:00
-updated: 2026-05-09T20:42:04+08:00
+updated: 2026-05-09T21:05:00+08:00
 base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -80,6 +81,12 @@ This connects verification to [[wiki/concepts/Harness Ratchet]]: every repeated 
 The stronger harness uses computational checks for properties that can be made executable, then reserves inferential controls for fit, maintainability, architecture, and product judgment. ^[inferred]
 
 
+## Generation-verification asymmetry
+
+[[wiki/sources/Harness Engineering Is Cybernetics Source Guide]] adds a useful asymmetry: humans do not need to out-implement the machine; they need to out-evaluate it.
+
+The source frames this as generation being harder than verification. In harness terms, the user's work is to specify what “correct” means, expose failures as fast feedback, and judge whether the agent's direction is right. ^[inferred]
+
 ## TDD as an AI coding loop
 
 [[wiki/sources/Team AI Coding Harness Seminar Source Guide]] makes the loop concrete for team coding work: requirements → AI-generated code → AI-generated tests → automated test run → AI repair on failure → human review.
@@ -101,3 +108,4 @@ This connects [[wiki/topics/Testing Strategy]] to harness design: TDD is not onl
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
 - [[wiki/sources/Harness Engineering Source Guide]]
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
+- [[wiki/sources/Harness Engineering Is Cybernetics Source Guide]]

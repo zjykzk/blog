@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added a team-level AI coding harness layer: harness must discipline human requirements, testing, self-test, and review behavior.
+summary: Recent wiki activity added a cybernetic view of harness engineering: agents need sensors, actuators, desired state, feedback loops, and calibrated judgment.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-09T20:42:04+08:00
+updated: 2026-05-09T21:05:00+08:00
 ---
 
 ## Recent Activity
 
+- Ingested [[wiki/sources/Harness Engineering Is Cybernetics Source Guide|Harness Engineering Is Cybernetics]]: added the control-loop view of [[wiki/topics/AI Harness]], where engineers design sensors, actuators, desired state, and calibration around agentic coding.
 - Ingested [[wiki/sources/Team AI Coding Harness Seminar Source Guide|Team AI Coding Harness Seminar]]: added the team-discipline side of [[wiki/topics/AI Harness]], connecting human requirements clarity, TDD loops, automated checks, and review responsibility.
 - Ingested [[wiki/sources/Iceberg Model Source Guide|Iceberg Model]]: added [[wiki/concepts/Iceberg Model]] as a systems-thinking bridge from visible events to patterns, structures, mental models, and [[wiki/concepts/Leverage Points]].
-- Ingested [[wiki/sources/Life of a Token Source Guide|Life of a Token]]: added the model-internal next-token path from [[wiki/concepts/Tokenization]] through [[wiki/concepts/Transformer Residual Stream]] to [[wiki/concepts/Autoregressive Decoding]], then linked it back to [[wiki/topics/LLM Inference Systems]].
 
 ## Active Threads
 
@@ -23,7 +23,7 @@ updated: 2026-05-09T20:42:04+08:00
 - Systems thinking now has an explicit iceberg-model thread: recurring problems should be traced from visible events to patterns, structures, mental models, and leverage points before choosing interventions.
 - Software methodology is converging around the handoff from business modeling to analysis, DDD, and executable design.
 - Frontend knowledge is forming around React as a coordination model for declarative rendering, component boundaries, and state.
-- AI / Agent systems are being organized around harness, context management, tool design, memory, permissions, and reusable operational knowledge.
+- AI / Agent systems are being organized around harness, context management, tool design, memory, permissions, and reusable operational knowledge; the newest harness thread treats this as cybernetics, not just tooling.
 - Agentic engineering is now represented as a production AI coding discipline: senior engineers train harnesses, encode lessons into skills and rules, allocate human attention by risk, and move verification into executable gates.
 - User-side harness engineering is now represented as developer control over context, rules, templates, computational checks, inferential review artifacts, and feedback loops.
 - Harnessability is now represented as a quality of tasks and codebases: agent-friendly work exposes context, boundaries, examples, executable checks, and reusable review criteria.
@@ -54,6 +54,8 @@ updated: 2026-05-09T20:42:04+08:00
 
 ## Key Takeaways
 
+- Harness engineering can be read as cybernetics: once agents can both sense and act at the semantic codebase layer, the engineer's leverage shifts to designing the steering loop.
+- Machine-readable judgment is now a core AI engineering artifact: tests, CI, architecture docs, custom linters, golden principles, and review rubrics tell the harness what “good” means.
 - The Iceberg Model gives the systems-thinking cluster a compact diagnostic path: visible events are only the surface; repeated patterns, structures, and mental models explain why the same result returns.
 - Leverage-point work now has a clearer entry test: if an action only changes the event layer, it is probably symptom repair; if it changes structure or mental model, it may change the generator.
 - The Life of a Token trace makes LLM inference legible as two nested systems: a learned tensor program that produces logits, and ordinary control-flow software that samples, caches, schedules, validates, and serves the result.
