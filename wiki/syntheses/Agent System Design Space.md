@@ -11,6 +11,7 @@ sources:
   - https://x.com/_avichawla/article/2044670188998803855
   - https://x.com/trq212/status/2024574133011673516
   - https://x.com/akshay_pachaar/status/2041146899319971922
+  - https://x.com/hwchase17/status/2040467997022884194
 created: 2026-05-04
 base_confidence: 0.53
 lifecycle: draft
@@ -20,7 +21,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.0
 source_count: 7
-updated: 2026-05-06T22:45:47+08:00
+updated: 2026-05-09T22:17:54+08:00
 aliases:
   - Agent architecture design space
   - AI agent system design space
@@ -156,6 +157,13 @@ The same design surface includes full context resets: for long jobs, a harness m
 [[wiki/sources/AI Memory Survey Source Guide]] broadens this surface into memory architecture: lifecycle, content type, storage representation, modality, consolidation policy, and sharing policy all change what the agent can preserve and reuse.
 
 In multi-agent systems, memory also becomes a coordination substrate: agents may communicate through shared natural-language summaries, structured schemas, latent state, shared task-level experience, or step-level routing.
+
+### Learning layer and learning scope
+
+[[wiki/sources/Continual Learning for AI Agents Source Guide]] adds a learning-layer axis to the design space. An agent system can improve by updating model weights, harness code and always-on instructions, or configurable context and memory.
+
+The same axis has a scope dimension: an update may apply to the whole agent, a single user, a team, an organization, or a tenant. This makes continual learning a boundary-design problem, not only an optimization problem. ^[inferred]
+
 
 ### Cache economics
 

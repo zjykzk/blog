@@ -14,7 +14,7 @@ provenance:
   inferred: 0.1
   ambiguous: 0.0
 source_count: 28
-updated: 2026-05-09T20:42:04+08:00
+updated: 2026-05-09T22:17:54+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -39,6 +39,7 @@ tags:
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
+- [[wiki/concepts/Continual Learning for AI Agents]]
 - [[wiki/concepts/LLM]]
 - [[wiki/concepts/Next-Token Pipeline]]
 - [[wiki/concepts/Tokenization]]
@@ -125,6 +126,7 @@ tags:
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Company Brain Source Guide]]
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
+- [[wiki/sources/Continual Learning for AI Agents Source Guide]]
 
 ## Related journals
 

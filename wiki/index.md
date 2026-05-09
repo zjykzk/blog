@@ -5,7 +5,7 @@ tags:
   - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-09T21:19:58+08:00
+updated: 2026-05-09T22:17:54+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -118,6 +118,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Concept|Concept]] — 概念不是词，而是有限生命面对连续世界时制造的边界。
 - [[wiki/concepts/Conceptual Integrity|Conceptual Integrity]] — 软件设计中的概念完整性，不是风格统一，而是一个系统里的所有部分都像从同一个头脑里长出来：用户、程序员、机器面对它时，都能感觉到这里面只有一套世界观。
 - [[wiki/concepts/Creation|Creation]] — Creation is the act of breaking an old structure and recombining materials into a new order that can be used, understood, or continued. (#thinking #concepts #practice)
+- [[wiki/concepts/Continual Learning for AI Agents|Continual Learning for AI Agents]] — Agent continual learning can happen through model weights, harness code, or configurable context/memory, each with different cost, speed, scope, and inspectability. (#ai #agents #memory #harness)
 - [[wiki/concepts/Continuous Batching|Continuous Batching]] — Continuous batching lets an inference engine mix newly arrived and already-running requests at each generation step. (#ai #llm #inference #scheduling)
 - [[wiki/concepts/Context Information Density|Context Information Density]] — Context information density treats agent context quality as the ratio of decision-relevant signal to finite active context budget. (#ai #agents #context #memory)
 - [[wiki/concepts/Cynefin Framework|Cynefin Framework]] — Cynefin Framework 适合用来判断问题处在哪种上下文里，再决定应该用什么动作模式，而不是先假定所有问题都能靠一种统一方法解决。 (#framework #decision-making #management)
@@ -168,6 +169,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Decision Modes for Engineering Work|Decision Modes for Engineering Work]] — 这页尝试把管理、问题判断和软件工程方法连成一个更高层的操作框架：面对不同类型的问题，团队不该只换答案，更要换决策模式。 (#synthesis #decision-making #management #engineering)
 - [[wiki/syntheses/From User Story to Architecture|From User Story to Architecture]] — 这页综合的不是单一技巧，而是一条完整路径：需求如何从业务表达，一路变成可以实现、可以验证、可以维护的架构决策。 (#synthesis #requirements #architecture #software-engineering)
 - [[wiki/syntheses/Learning Methodology Across Sources|Learning Methodology Across Sources]] — 把 wiki 里散落在不同笔记中的学习相关结论，按 Learning Methodology 的七条原则做一次对齐。目的：看清楚哪些原则已经被多个独立来源印证、哪些还只是一家之言、哪些源之间有冲突需要再想。
+- [[wiki/syntheses/LLM Training Stages|LLM Training Stages]] — LLM training stages differ by data shape, loss signal, and behavioral target: pretraining builds capability, SFT shapes instruction following, and RL optimizes preferences. (#synthesis #ai #llm #training)
 - [[wiki/syntheses/React UI Organization Model|React UI Organization Model]] — Synthesis of React as a UI organization model combining declarative rendering, components, and state management. (#frontend #react #ui)
 - [[wiki/syntheses/Reality-Refutable Engineering Systems|Reality-Refutable Engineering Systems]] — Mature engineering systems let reality challenge their models through feedback, appeal, accountability, and redesign triggers. (#synthesis #software-engineering #systems #governance #feedback)
 - [[wiki/syntheses/Thinking and Judgment Workflow|Thinking and Judgment Workflow]] — 这页把 Mental Models 、 Critical Thinking 、 Problem Framing 串成一条更完整的思考路径：面对复杂问题时，不只是要会想，还要知道先怎么定义问题、再怎么观察、最后怎么判断。 (#synthesis #thinking #reasoning #methods)
@@ -190,6 +192,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Coding with AI Source Guide|Coding with AI Source Guide]] — Source guide for Chris Parsons' 2026 Coding with AI article, focused on agentic engineering, trainer roles, harnesses, context resets, and verification bottlenecks. (#source #ai #ai-coding #agents #harness)
 - [[wiki/sources/Company Brain Source Guide|Company Brain Source Guide]] — Source guide for NanoThoughts' Company Brain series, covering factual, interaction, and action memory as a substrate for governed agents. (#source #ai #agents #organization #memory)
 - [[wiki/sources/Creation Concept Anatomy Source Guide|Creation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on creation as difference entering durable order. (#source #thinking #concepts)
+- [[wiki/sources/Continual Learning for AI Agents Source Guide|Continual Learning for AI Agents Source Guide]] — Source guide for Harrison Chase's X article separating agent continual learning into model, harness, and context layers. (#source #ai #agents #memory #harness)
 - [[wiki/sources/Csikszentmihalyi Systems Model of Creativity Source Guide|Csikszentmihalyi Systems Model of Creativity Source Guide]] — Source guide for Csikszentmihalyi's systems model, treating creativity as a relation among person, domain, field, and social recognition. (#source #creativity #psychology #systems)
 - [[wiki/sources/Dewey Reflective Inquiry Source Guide|Dewey Reflective Inquiry Source Guide]] — Source guide for Dewey's reflective thought cycle, grounding application in problem definition, hypothesis, consequence, and test. (#source #pragmatism #inquiry #thinking)
 - [[wiki/sources/Dive into Claude Code Source Guide|Dive into Claude Code Source Guide]] — 这篇 arXiv 论文更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#paper #arxiv #agents #ai #harness #source)
@@ -202,6 +205,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/How People Learn Transfer Source Guide|How People Learn Transfer Source Guide]] — Source guide for transfer research in How People Learn, grounding application in flexible adaptation across contexts. (#source #learning #transfer #cognition)
 - [[wiki/sources/How to Get Rich Source Guide|How to Get Rich Source Guide]] — Source guide for Naval Ravikant's How to Get Rich tweetstorm PDF, focused on wealth, equity, specific knowledge, accountability, leverage, and judgment. ( #source #wealth #leverage #career #judgment)
 - [[wiki/sources/How LLMs Actually Work Source Guide|How LLMs Actually Work Source Guide]] — Source guide for an interactive walkthrough of the LLM pipeline, from web data and tokenization through pretraining, post-training, RAG, and security. (#source #ai #llm #transformer #security)
+- [[wiki/sources/How to Use LLMs Source Guide|How to Use LLMs Source Guide]] — Source guide for Karpathy's practical LLM-use walkthrough: model choice, search, deep research, documents, code, agents, voice, vision, and memory. (#source #ai #llm #workflow #tools)
 - [[wiki/sources/Iceberg Model Source Guide|Iceberg Model Source Guide]] — Source guide for the Donella Meadows Iceberg Model PDF, preserving provenance limits and routing its visual systems-thinking frame into concept pages. (#source #systems-thinking #mental-models)
 - [[wiki/sources/Journals|Journals Source Guide]] — journals/ 是当前 vault 的时间流输入层。它们不应直接承担稳定知识页职责，但应该持续为 wiki/ 提供可回溯的来源。 (#journals #raw #source)
 - [[wiki/sources/Life of a Token Source Guide|Life of a Token Source Guide]] — Source guide for the Life of a Token article, focused on the next-token path through tokenization, embeddings, attention, FFN, residual stream, sampling, cache, and GPU limits. (#source #ai #llm #inference #transformer)
@@ -234,3 +238,4 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.
 - [[wiki/Welcome|Welcome (legacy)]] — 这是历史遗留的 Obsidian 默认欢迎页，不再作为这个仓库的首页使用。
+

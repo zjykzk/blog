@@ -1,22 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured a full LLM pipeline walkthrough from web-scale data and tokenization to assistants, RAG, and security.
+summary: Recent wiki activity added the model/harness/context layer view of agent continual learning and its trace-driven update paths.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-09T21:19:58+08:00
+updated: 2026-05-09T22:17:54+08:00
 ---
 
 ## Recent Activity
 
-- Captured [[wiki/sources/How LLMs Actually Work Source Guide|How LLMs Actually Work]]: preserved a source-level walkthrough of the LLM pipeline from web-scale data curation and [[wiki/concepts/Tokenization]] through pretraining, assistant post-training, RAG, and security failure modes.
-- Ingested [[wiki/sources/Harness Engineering Is Cybernetics Source Guide|Harness Engineering Is Cybernetics]]: added the control-loop view of [[wiki/topics/AI Harness]], where engineers design sensors, actuators, desired state, and calibration around agentic coding.
-- Ingested [[wiki/sources/Team AI Coding Harness Seminar Source Guide|Team AI Coding Harness Seminar]]: added the team-discipline side of [[wiki/topics/AI Harness]], connecting human requirements clarity, TDD loops, automated checks, and review responsibility.
-- Ingested [[wiki/sources/Iceberg Model Source Guide|Iceberg Model]]: added [[wiki/concepts/Iceberg Model]] as a systems-thinking bridge from visible events to patterns, structures, mental models, and [[wiki/concepts/Leverage Points]].
+- Ingested [[wiki/sources/Continual Learning for AI Agents Source Guide|Continual Learning for AI Agents]]: added the model/harness/context layer view of agent continual learning, including trace-driven harness updates and hot-path vs background memory writes.
+- Captured [[wiki/syntheses/LLM Training Stages|LLM Training Stages]]: preserved the process-level difference between pretraining, SFT, and RL/preference optimization, including data shape, loss masking, teacher forcing, rewards, and reference-model anchoring.
+- Captured [[wiki/sources/How to Use LLMs Source Guide|How to Use LLMs]]: preserved Karpathy's practical usage workflow for choosing models, deciding when to search, using deep research, reading documents, executing code, steering coding agents, and applying voice, vision, and memory.
 
 ## Active Threads
 
@@ -55,12 +54,15 @@ updated: 2026-05-09T21:19:58+08:00
 
 ## Key Takeaways
 
+- Agent continual learning is now split into model, harness, and context layers: weights are powerful but slow and opaque; harness changes are inspectable code-level learning; context/memory updates are fast, granular, and can run in the hot path or background.
+- LLM training stages should be separated by training signal: pretraining maximizes next-token likelihood over broad text, SFT maximizes masked assistant-answer likelihood, and RL/preference optimization improves generated behavior under reward or comparison.
 - Harness engineering can be read as cybernetics: once agents can both sense and act at the semantic codebase layer, the engineer's leverage shifts to designing the steering loop.
 - Machine-readable judgment is now a core AI engineering artifact: tests, CI, architecture docs, custom linters, golden principles, and review rubrics tell the harness what “good” means.
 - The Iceberg Model gives the systems-thinking cluster a compact diagnostic path: visible events are only the surface; repeated patterns, structures, and mental models explain why the same result returns.
 - Leverage-point work now has a clearer entry test: if an action only changes the event layer, it is probably symptom repair; if it changes structure or mental model, it may change the generator.
 - The Life of a Token trace makes LLM inference legible as two nested systems: a learned tensor program that produces logits, and ordinary control-flow software that samples, caches, schedules, validates, and serves the result.
 - A full LLM assistant pipeline should be read as layered engineering: data curation, token representation, next-token pretraining, autoregressive sampling, post-training, retrieval, tool use, and security controls each solve a different control problem.
+- Practical LLM use should match the task's uncertainty source to the right layer: weights for timeless knowledge, search for stale facts, deep research for synthesis, code for exact computation, documents for reading, agents for codebase action, and memory for repeated preferences.
 - Autoregressive decoding is the causal source of output-token cost: every generated token changes the next input, while KV cache and batching only reduce repeated work around that dependency.
 - Reality-refutable engineering systems must let feedback cross the field wall, workflow wall, and power wall; otherwise feedback mechanisms become self-reinforcing interpretation loops rather than real learning.
 - Engineering thinking is now represented as structured judgment: turn vague intent into reliable reality by defining problems, respecting constraints, imagining failure, building feedback, structuring responsibility, seeing people, and preserving evolvability.
@@ -103,3 +105,4 @@ updated: 2026-05-09T21:19:58+08:00
 - Judgment knowledge is not more facts; it is the ability to decide which facts should matter for a decision.
 
 ## Flagged Contradictions
+

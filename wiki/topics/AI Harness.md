@@ -15,6 +15,7 @@ sources:
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
   - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
+  - https://x.com/hwchase17/status/2040467997022884194
 created: 2026-05-04
 base_confidence: 0.75
 lifecycle: draft
@@ -24,7 +25,7 @@ provenance:
   inferred: 0.11
   ambiguous: 0.01
 source_count: 14
-updated: 2026-05-09T21:05:00+08:00
+updated: 2026-05-09T22:17:54+08:00
 aliases:
   - harness
 tags:
@@ -150,6 +151,13 @@ This matters because the same model can be moved between harnesses and expose ve
 [[wiki/sources/Seeing Like an Agent Source Guide]] strengthens this last dimension. It treats tool design as action-space construction: the harness must decide whether a capability should be exposed as a top-level tool, a skill, a search path, a subagent, or no new surface at all.
 
 The source's operational method is empirical: observe whether the model understands a tool, whether it misuses an output convention, whether reminders constrain rather than help, and whether better models can build their own context with search. ^[inferred]
+
+## Harness-level continual learning
+
+[[wiki/sources/Continual Learning for AI Agents Source Guide]] makes harness improvement one layer of agent continual learning. In this frame, a harness can learn without changing model weights: run the agent over tasks, evaluate the results, store logs and reasoning traces, then use a coding agent to propose changes to harness code or always-on instructions.
+
+This is the operational version of [[wiki/concepts/Harness Ratchet]]: traces only become learning when they change a durable harness artifact, such as code, policy, tools, skills, or default instructions. ^[inferred]
+
 
 ## Density-preserving harness
 

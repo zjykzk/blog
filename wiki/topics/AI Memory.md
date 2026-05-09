@@ -10,8 +10,9 @@ sources:
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
   - https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
+  - https://x.com/hwchase17/status/2040467997022884194
 created: 2026-05-05T16:25:00+08:00
-updated: 2026-05-08T22:24:16+08:00
+updated: 2026-05-09T22:17:54+08:00
 base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -99,6 +100,15 @@ Part 2 names [[wiki/concepts/Factual Memory]] as the first layer of this company
 Part 3 adds [[wiki/concepts/Interaction Memory]] as a second organization-scale layer. It stores interpreted communication traces: decisions, commitments, objections, assumptions, dependencies, risks, and unresolved questions. This layer depends on [[wiki/concepts/Organizational Ontology]] because the same conversation can mean different things from product, legal, customer, sales, action, or executive lenses.
 
 Part 4 adds [[wiki/concepts/Action Memory]] as the third layer. It stores procedures, triggers, execution traces, and outcomes so company memory can notice when conditions changed, select the right path, respect guardrails, and learn from what happened after action.
+
+## Context-Level Continual Learning
+
+[[wiki/sources/Continual Learning for AI Agents Source Guide]] sharpens the boundary between memory and other learning layers. Context-level learning updates configuration outside the harness: instructions, skills, tools, user memory, team memory, org memory, or tenant memory.
+
+The source distinguishes two update timings: hot-path memory writes while the agent is working, and background consolidation jobs that process recent traces after the fact. Hot-path writes make memory immediately usable; background writes reduce interaction latency and can apply more deliberate consolidation. ^[inferred]
+
+This means AI memory design must answer not only what to store, but also when to store it, who or what scope owns it, and whether the update was explicitly requested or harness-initiated. ^[inferred]
+
 
 ## Related
 

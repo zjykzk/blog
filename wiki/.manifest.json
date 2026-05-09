@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 36,
-    "total_pages": 196
+    "total_sources_ingested": 37,
+    "total_pages": 201
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -821,6 +821,27 @@
         "wiki/concepts/Agentic Engineering.md",
         "wiki/syntheses/AI Engineering Workflow.md",
         "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://x.com/hwchase17/status/2040467997022884194": {
+      "ingested_at": "2026-05-09T22:17:54+08:00",
+      "size_bytes": 6081,
+      "modified_at": "2026-05-09T22:17:54+08:00",
+      "content_hash": "sha256:560204c3f6e383cf2a0283f19ef08445573b52a35d4e0ff6075152b140129ff7",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Continual Learning for AI Agents.md",
+        "wiki/sources/Continual Learning for AI Agents Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/AI Harness.md",
+        "wiki/topics/AI Memory.md",
+        "wiki/syntheses/Agent System Design Space.md",
+        "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"
