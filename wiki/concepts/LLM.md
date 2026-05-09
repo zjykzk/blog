@@ -3,11 +3,12 @@ title: LLM
 type: concept
 status: seed
 category: concepts
-summary: 当前旧笔记里与 LLM 相关的两类判断混在了一起：
+summary: LLMs are neural text models whose learned tensor computation must be distinguished from the external harness, serving system, and control-flow code around them.
 sources:
   - https://www.aleksagordic.com/blog/vllm
+  - inline:life-of-a-token-2026-05-09
 created: 2026-05-01
-base_confidence: 0.44
+base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -15,7 +16,7 @@ provenance:
   inferred: 0.15
   ambiguous: 0.0
 source_count: 3
-updated: 2026-05-06T12:17:59+08:00
+updated: 2026-05-09T00:00:00+08:00
 aliases:
   - llm
 tags:
@@ -53,9 +54,17 @@ The model defines the transformer computation and sampling distribution, while t
 
 That distinction matters because user-visible latency, throughput, and cost can change substantially while the underlying model weights stay the same. ^[inferred]
 
+## Model computation boundary
+
+The Life of a Token source adds a model-internal boundary: the learned part of the system is a fixed set of floating-point weights that maps token sequences through embeddings, attention, feed-forward layers, a [[wiki/concepts/Transformer Residual Stream|residual stream]], and an LM head.
+
+Surrounding operations such as sampling, stop checks, cache management, safety filtering, and output validation are ordinary control-flow software around the [[wiki/concepts/Next-Token Pipeline]]. This is the [[wiki/concepts/Neural Network Inference Boundary]].
+
 ## Cross-links
 
 - [[wiki/concepts/Agent]]
+- [[wiki/concepts/Next-Token Pipeline]]
+- [[wiki/concepts/Neural Network Inference Boundary]]
 - [[wiki/topics/LLM Inference Systems]]
 - [[wiki/maps/AI Map]]
 
@@ -64,3 +73,4 @@ That distinction matters because user-visible latency, throughput, and cost can 
 - `pages/llm.md`
 - [[wiki/sources/Theory Is All You Need Source Guide]]
 - [[wiki/sources/vLLM Inference Systems Source Guide]]
+- [[wiki/sources/Life of a Token Source Guide]]

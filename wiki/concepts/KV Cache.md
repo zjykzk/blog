@@ -7,14 +7,15 @@ category: concepts
 sources:
   - https://x.com/_avichawla/article/2044670188998803855
   - https://www.aleksagordic.com/blog/vllm
+  - inline:life-of-a-token-2026-05-09
 created: 2026-05-05T00:00:00+08:00
-updated: 2026-05-06T12:17:59+08:00
-base_confidence: 0.61
+updated: 2026-05-09T00:00:00+08:00
+base_confidence: 0.72
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.88
-  inferred: 0.12
+  extracted: 0.9
+  inferred: 0.1
   ambiguous: 0.0
 aliases:
   - key value cache
@@ -38,6 +39,8 @@ Transformer inference has two broad phases:
 - decode: generate new tokens one at a time while reading prior state
 
 During attention, each token produces query, key, and value vectors. The key and value vectors for a token are determined by the preceding token sequence; once computed for a fixed prefix, they do not need to be recomputed for the same prefix.
+
+The Life of a Token source frames this as memoization inside [[wiki/concepts/Autoregressive Decoding]]: each generated token appends new K/V rows, while prior rows remain valid because causal masking prevents future tokens from changing past attention state.
 
 The [[wiki/concepts/Prompt Caching]] source describes provider-side prompt caching as persisting those key/value tensors and indexing them by a hash of the token sequence.
 
@@ -84,12 +87,14 @@ Prefix caching then adds a second reuse path: complete token blocks can be hashe
 
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/vLLM Inference Systems Source Guide]]
+- [[wiki/sources/Life of a Token Source Guide]]
 
 ## Related
 
 - [[wiki/concepts/Prompt Caching]]
 - [[wiki/concepts/Paged Attention]]
 - [[wiki/concepts/Prefill Decode Split]]
+- [[wiki/concepts/Autoregressive Decoding]]
 - [[wiki/topics/LLM Inference Systems]]
 - [[wiki/concepts/LLM]]
 - [[wiki/topics/Context Management]]

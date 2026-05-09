@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 32,
-    "total_pages": 184
+    "total_sources_ingested": 33,
+    "total_pages": 190
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -728,6 +728,33 @@
         "wiki/sources/Company Brain Source Guide.md",
         "wiki/syntheses/AI Engineering Workflow.md",
         "wiki/topics/AI Memory.md"
+      ]
+    },
+    "inline:life-of-a-token-2026-05-09": {
+      "ingested_at": "2026-05-09T00:00:00+08:00",
+      "size_bytes": 42700,
+      "modified_at": "2026-05-09T00:00:00+08:00",
+      "content_hash": "sha256:0fbdc2e5a9f01f5e2ecf2fe622a653118f56b12f59a4a24ed9615839f871a5b8",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/Life of a Token Source Guide.md",
+        "wiki/concepts/Next-Token Pipeline.md",
+        "wiki/concepts/Tokenization.md",
+        "wiki/concepts/Transformer Residual Stream.md",
+        "wiki/concepts/Autoregressive Decoding.md",
+        "wiki/concepts/Neural Network Inference Boundary.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/LLM Inference Systems.md",
+        "wiki/concepts/KV Cache.md",
+        "wiki/concepts/Prefill Decode Split.md",
+        "wiki/concepts/Continuous Batching.md",
+        "wiki/concepts/LLM.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
       ]
     }
   }

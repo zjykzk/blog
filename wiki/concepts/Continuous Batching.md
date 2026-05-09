@@ -6,9 +6,10 @@ summary: Continuous batching lets an inference engine mix newly arrived and alre
 category: concepts
 sources:
   - https://www.aleksagordic.com/blog/vllm
+  - inline:life-of-a-token-2026-05-09
 created: 2026-05-06T12:17:59+08:00
-updated: 2026-05-06T12:17:59+08:00
-base_confidence: 0.44
+updated: 2026-05-09T00:00:00+08:00
+base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 provenance:
@@ -45,6 +46,8 @@ Custom attention kernels and [[wiki/concepts/Paged Attention]] metadata let this
 
 Without continuous batching, an engine either wastes compute on padding or waits for a fixed batch to finish before accepting more work. Continuous batching improves utilization by treating the batch as a dynamic set of token work rather than a fixed group of requests. ^[inferred]
 
+The Life of a Token source adds a hardware reason: decode often reuses the same model weights for very little per-token computation, so batching lets multiple requests amortize memory movement across more token work.
+
 The tradeoff is that scheduling becomes a first-class part of [[wiki/topics/LLM Inference Systems]]: token budgets, cache block availability, preemption, and request priority all influence which tokens run next.
 
 ## Related
@@ -52,4 +55,6 @@ The tradeoff is that scheduling becomes a first-class part of [[wiki/topics/LLM 
 - [[wiki/concepts/Paged Attention]]
 - [[wiki/concepts/Prefill Decode Split]]
 - [[wiki/concepts/LLM Inference Benchmarking]]
+- [[wiki/concepts/Autoregressive Decoding]]
 - [[wiki/sources/vLLM Inference Systems Source Guide]]
+- [[wiki/sources/Life of a Token Source Guide]]

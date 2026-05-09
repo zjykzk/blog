@@ -6,14 +6,15 @@ summary: The prefill/decode split separates full-prompt processing from token-by
 category: concepts
 sources:
   - https://www.aleksagordic.com/blog/vllm
+  - inline:life-of-a-token-2026-05-09
 created: 2026-05-06T12:17:59+08:00
-updated: 2026-05-06T12:17:59+08:00
-base_confidence: 0.44
+updated: 2026-05-09T00:00:00+08:00
+base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 provenance:
-  extracted: 0.88
-  inferred: 0.12
+  extracted: 0.9
+  inferred: 0.1
   ambiguous: 0.0
 aliases:
   - prefill and decode
@@ -30,6 +31,8 @@ tags:
 The prefill/decode split is the distinction between processing prompt tokens and generating output tokens.
 
 In prefill, the model runs over the prompt and builds [[wiki/concepts/KV Cache]] state. In decode, the model processes the newest token while reading prior KV state for the full sequence.
+
+The Life of a Token source frames this as a split between reading the known prompt and running [[wiki/concepts/Autoregressive Decoding|autoregressive decoding]]: prefill can process known input tokens together, but generated tokens must be produced one at a time because each sampled token changes the context for the next prediction.
 
 ## Different performance profiles
 
@@ -55,4 +58,6 @@ The source presents this as a way to control time-to-first-token and inter-token
 - [[wiki/concepts/Paged Attention]]
 - [[wiki/concepts/Continuous Batching]]
 - [[wiki/concepts/LLM Inference Benchmarking]]
+- [[wiki/concepts/Autoregressive Decoding]]
 - [[wiki/sources/vLLM Inference Systems Source Guide]]
+- [[wiki/sources/Life of a Token Source Guide]]

@@ -6,14 +6,15 @@ summary: LLM inference systems coordinate scheduling, KV cache memory, model exe
 category: topics
 sources:
   - https://www.aleksagordic.com/blog/vllm
+  - inline:life-of-a-token-2026-05-09
 created: 2026-05-06T12:17:59+08:00
-updated: 2026-05-06T12:17:59+08:00
-base_confidence: 0.44
+updated: 2026-05-09T00:00:00+08:00
+base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 provenance:
-  extracted: 0.88
-  inferred: 0.12
+  extracted: 0.86
+  inferred: 0.14
   ambiguous: 0.0
 aliases:
   - llm serving
@@ -42,6 +43,12 @@ At the engine level, inference repeats three actions:
 
 This loop is simple at the surface, but its behavior depends on how the system allocates [[wiki/concepts/KV Cache]] blocks, mixes prefill and decode work, and keeps request state across steps.
 
+## Model-internal token path
+
+The Life of a Token source adds the model-internal view below the serving loop: raw text becomes token IDs through [[wiki/concepts/Tokenization]], token IDs become vectors, transformer blocks update a [[wiki/concepts/Transformer Residual Stream|residual stream]], and the LM head projects the final hidden state into next-token logits.
+
+That [[wiki/concepts/Next-Token Pipeline]] is still only one step of generation. [[wiki/concepts/Autoregressive Decoding]] wraps it in a serial loop where each sampled token is appended before the next token can be predicted.
+
 ## Main design pressures
 
 High-throughput inference has to manage several tensions at once:
@@ -49,6 +56,7 @@ High-throughput inference has to manage several tensions at once:
 - [[wiki/concepts/Prefill Decode Split]]: prompt processing is usually compute-bound, while token-by-token decoding is often memory-bandwidth-bound.
 - [[wiki/concepts/Paged Attention]]: KV memory must be allocated without wasting large contiguous slabs.
 - [[wiki/concepts/Continuous Batching]]: new and old requests should share model steps without padding every sequence to the same length.
+- [[wiki/concepts/Autoregressive Decoding]]: output tokens create a causal loop-carried dependency, so decode must advance one sampled token at a time.
 - [[wiki/concepts/Speculative Decoding]]: multiple candidate tokens can be proposed and verified to reduce the number of expensive large-model steps.
 - [[wiki/concepts/LLM Inference Benchmarking]]: latency, throughput, and goodput pull the system toward different operating points.
 
@@ -68,7 +76,11 @@ That split helps keep the model execution path stable while adding web and distr
 
 ## Related
 
+- [[wiki/concepts/Next-Token Pipeline]]
+- [[wiki/concepts/Tokenization]]
+- [[wiki/concepts/Autoregressive Decoding]]
 - [[wiki/concepts/KV Cache]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/Context Management]]
 - [[wiki/sources/vLLM Inference Systems Source Guide]]
+- [[wiki/sources/Life of a Token Source Guide]]

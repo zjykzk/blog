@@ -14,7 +14,7 @@ provenance:
   inferred: 0.1
   ambiguous: 0.0
 source_count: 27
-updated: 2026-05-08T22:24:16+08:00
+updated: 2026-05-09T00:00:00+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -40,6 +40,11 @@ tags:
 - [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/concepts/LLM]]
+- [[wiki/concepts/Next-Token Pipeline]]
+- [[wiki/concepts/Tokenization]]
+- [[wiki/concepts/Transformer Residual Stream]]
+- [[wiki/concepts/Autoregressive Decoding]]
+- [[wiki/concepts/Neural Network Inference Boundary]]
 - [[wiki/concepts/Epiplexity]]
 - [[wiki/concepts/Context Information Density]]
 - [[wiki/concepts/Lost in the Middle Effect]]
@@ -114,6 +119,7 @@ tags:
 - [[wiki/sources/Claude Code Skills Source Guide]]
 - [[wiki/sources/Seeing Like an Agent Source Guide]]
 - [[wiki/sources/vLLM Inference Systems Source Guide]]
+- [[wiki/sources/Life of a Token Source Guide]]
 - [[wiki/sources/Harness Engineering Source Guide]]
 - [[wiki/sources/ADK Skill Design Patterns Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
