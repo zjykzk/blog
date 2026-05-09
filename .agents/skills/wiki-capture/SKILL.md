@@ -196,6 +196,8 @@ Body structure by type:
 
 Every note must link to at least 2 existing wiki pages. Search `index.md` before writing. If fewer than 2 related pages exist, create minimal stubs for the most important concepts referenced.
 
+**Promotable concept links:** If a source guide names a concept as "future", "promotable", or central enough to appear as a wikilink (for example `[[wiki/concepts/Foo]]`), do not leave it as a broken aspirational link. Either (a) avoid linking it and mention the future page in plain text, or (b) create a minimal concept stub with complete frontmatter, a one-sentence definition, 2+ links, and index/map coverage. Prefer (b) when the pasted source's core contribution is a named theory, framework, or mental model.
+
 ## Step 6: Update Tracking Files
 
 **`index.md`** — Add the new page under its category section.
@@ -207,6 +209,8 @@ Every note must link to at least 2 existing wiki pages. Search `index.md` before
 
 **`hot.md`** — Update **Recent Activity** with what was just captured. Update **Key Takeaways** if the note introduced something worth flagging. Update `updated` timestamp.
 
+**Relevant map pages** — If the capture clearly belongs to an existing map (for example `Learning Map`, `AI Map`, `CS Map`, or `Management Map`), add the new source/concept/synthesis there as well. This prevents captures from being technically indexed but practically invisible from the user's domain entrypoints.
+
 ## Step 7: Verify and Confirm to User
 
 Before confirming, run a lightweight verification pass:
@@ -214,6 +218,8 @@ Before confirming, run a lightweight verification pass:
 - Resolve every wikilink in the note against the vault; fix broken links before reporting success.
 - Check incoming links from at least `index.md`, `log.md`, or `hot.md` so the new note is not orphaned.
 - Confirm that `index.md`, `log.md`, and `hot.md` contain the new page reference and current capture timestamp.
+- If a related map page was updated, confirm it contains the new page reference.
+- Run the broken-link check after all supporting stubs are created, not before; a source guide plus concept stub may need a second verification pass.
 
 Then report the saved path and title:
 ```
