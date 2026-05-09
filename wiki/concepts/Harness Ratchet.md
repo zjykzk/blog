@@ -8,8 +8,9 @@ sources:
   - https://addyosmani.com/blog/agent-harness-engineering/
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
   - https://martinfowler.com/articles/harness-engineering.html
+  - https://arxiv.org/abs/2603.28052
 created: 2026-05-05T15:10:00+08:00
-updated: 2026-05-06T22:24:21+08:00
+updated: 2026-05-09T22:42:07+08:00
 base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -69,6 +70,14 @@ A good ratchet has two sides:
 - remove constraints when stronger models or better primitives make them redundant
 
 If only the first side exists, the harness can accumulate stale rules and context overhead. If only the second side exists, the system forgets the failures that shaped its reliability. ^[inferred]
+
+## Automated Ratchet Variant
+
+[[wiki/sources/Meta-Harness Paper Source Guide]] adds an automated variant of the ratchet. Meta-Harness stores candidate harness code, scores, and execution traces, then uses a coding-agent proposer to inspect prior failures and write a new harness candidate.
+
+The difference from a manual ratchet is not the learning target but the actor. The durable artifact is still harness code, context policy, retrieval logic, memory update behavior, or orchestration logic; the outer loop delegates more diagnosis and proposal work to an agent. ^[inferred]
+
+The paper's ablation is a warning for ratchet design: if failure history is compressed into scalar scores or short summaries, the proposer loses diagnostic signal. A useful ratchet needs raw enough traces for credit assignment, plus cheap validation before expensive evaluation.
 
 ## Related
 

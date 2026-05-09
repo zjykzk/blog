@@ -4,7 +4,8 @@ type: source
 status: seed
 summary: Source guide collecting agent-system papers and deciding which claims should stay source-level versus move into topics and syntheses.
 category: sources
-sources: []
+sources:
+  - https://arxiv.org/abs/2603.28052
 created: 2026-05-04
 base_confidence: 0.70
 lifecycle: draft
@@ -14,7 +15,7 @@ provenance:
   inferred: 0.19
   ambiguous: 0.0
 source_count: 5
-updated: 2026-05-05T16:25:00+08:00
+updated: 2026-05-09T22:42:07+08:00
 aliases:
   - agent papers source
   - agent systems source guide
@@ -60,10 +61,13 @@ tags:
 - [[wiki/sources/GenericAgent Paper Source Guide]]
 - [[wiki/sources/Lost in the Middle Paper Source Guide]]
 - [[wiki/sources/AI Memory Survey Source Guide]]
+- [[wiki/sources/Meta-Harness Paper Source Guide]]
 
 The Lost in the Middle paper contributes an evaluation protocol for usable long context: move the relevant evidence across the input and measure best-case versus worst-case performance, rather than treating max context length as capability.
 
 The AI Memory survey contributes a broad taxonomy and evaluation vocabulary for memory systems, especially the distinction between context, memory, knowledge, and experience.
+
+The Meta-Harness paper contributes a search-loop view of harness engineering: executable harnesses can be proposed, evaluated, logged, and evolved by a coding-agent proposer with access to prior code, scores, and traces.
 
 ## Related source guides
 
@@ -78,6 +82,7 @@ The AI Memory survey contributes a broad taxonomy and evaluation vocabulary for 
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/concepts/Context Information Density]]
 - [[wiki/concepts/Lost in the Middle Effect]]
+- [[wiki/concepts/Meta-Harness]]
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/syntheses/AI Engineering Workflow]]
 

@@ -79,6 +79,18 @@ Read the document(s) the user wants to ingest. In append mode, skip files the ma
 
 Note the source path — you'll need it for provenance tracking.
 
+#### arXiv paper extraction
+
+When the source is an arXiv URL, prefer the readable HTML when available and keep the canonical arXiv abs URL as the manifest/source key:
+
+1. Fetch `https://arxiv.org/abs/<id>` for title/authors/metadata.
+2. Fetch `https://arxiv.org/html/<id>` for readable paper text when available; if unavailable, fall back to PDF extraction.
+3. Fetch `https://arxiv.org/pdf/<id>` for canonical file size, mtime, and SHA-256 manifest hash unless the HTML is the only accessible source.
+4. In the source guide, state which representation was used for extraction and which bytes were hashed for the manifest.
+5. Preserve exact benchmark/leaderboard numbers in the source guide when they are single-paper claims; promote only the stable conceptual contribution into concept/topic/synthesis pages.
+
+See `references/arxiv-ingest.md` for a compact playbook and pitfalls.
+
 #### Web/X article fallback
 
 If the user provides an X/Twitter article or status URL and the original page only returns a login wall or shell HTML:
@@ -183,6 +195,7 @@ For each page in your plan:
 - Update the `updated` timestamp in frontmatter
 - Add the new source to the `sources` list in YAML frontmatter only
   - When checking whether a source is already present, inspect only the frontmatter `sources:` block, not the whole file body. The same URL may appear in a Source Identity or provenance note section.
+  - If an existing page has `sources: []`, replace that single-line empty list with a block list (`sources:\n  - <source>`). Do not insert a second `sources:` key above the title; duplicate YAML keys silently corrupt retrieval and validation.
   - Never append a source URL at the end of the markdown body or under `## Related`; source attribution belongs in frontmatter and, if needed, explanatory source-guide prose.
 - Resolve any contradictions between old and new information (note them if unresolvable)
 
@@ -272,6 +285,7 @@ When ingesting a directory, process sources one at a time but maintain a running
 
 After ingesting, verify:
 - [ ] Every new page has frontmatter with title, category, tags, sources
+- [ ] Every new/updated page has exactly one `sources:` key in frontmatter; pages that previously used `sources: []` were converted to a block list rather than duplicated
 - [ ] Every new page has at least 2 wikilinks to existing pages
 - [ ] No orphaned pages (pages with zero incoming links)
 - [ ] `index.md` reflects all changes

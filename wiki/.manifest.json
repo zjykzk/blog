@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 37,
-    "total_pages": 201
+    "total_sources_ingested": 38,
+    "total_pages": 203
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -845,6 +845,26 @@
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"
+      ]
+    },
+    "https://arxiv.org/abs/2603.28052": {
+      "ingested_at": "2026-05-09T22:42:07+08:00",
+      "size_bytes": 1078140,
+      "modified_at": "2026-05-09T22:39:30+08:00",
+      "content_hash": "sha256:7d9b90f53a9f4801a090f1a4acb843340cde81e4f865f97d53fff2a6a570eb73",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Meta-Harness.md",
+        "wiki/sources/Meta-Harness Paper Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/AI Harness.md",
+        "wiki/concepts/Harness Ratchet.md",
+        "wiki/syntheses/Agent System Design Space.md",
+        "wiki/topics/Context Management.md",
+        "wiki/sources/Agent Systems Papers Source Guide.md",
+        "wiki/maps/AI Map.md"
       ]
     }
   }

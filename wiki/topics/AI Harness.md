@@ -2,7 +2,7 @@
 title: AI Harness
 type: topic
 status: growing
-summary: AI Harness is the runtime order layer that connects model, context, tools, permissions, state, recovery, cache stability, and service APIs into a controllable agent system.
+summary: AI Harness is the runtime order layer and optimization surface that connects model, context, tools, permissions, state, recovery, cache stability, and feedback loops.
 category: topics
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
@@ -16,6 +16,7 @@ sources:
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
   - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
   - https://x.com/hwchase17/status/2040467997022884194
+  - https://arxiv.org/abs/2603.28052
 created: 2026-05-04
 base_confidence: 0.75
 lifecycle: draft
@@ -25,7 +26,7 @@ provenance:
   inferred: 0.11
   ambiguous: 0.01
 source_count: 14
-updated: 2026-05-09T22:17:54+08:00
+updated: 2026-05-09T22:42:07+08:00
 aliases:
   - harness
 tags:
@@ -300,6 +301,16 @@ This strengthens the governance reading of harness: an enterprise agent should n
 - [[wiki/topics/Context Management]]
 - [[wiki/topics/AI Memory]]
 - [[wiki/topics/Tool Routing]]
+
+## Automated harness optimization
+
+[[wiki/sources/Meta-Harness Paper Source Guide]] makes harness engineering itself an optimization target. Instead of treating the harness as a hand-written wrapper, Meta-Harness searches over executable harness code while the base model stays frozen.
+
+The paper's key move is to expose prior candidate source code, evaluation scores, and execution traces through a filesystem, then let a coding-agent proposer inspect that history and write the next harness candidate. This turns harness improvement into trace-driven program search rather than prompt tweaking from compressed feedback.
+
+For the AI Harness topic, the important generalization is: a harness is not only a runtime control layer; it is also a mutable artifact that can be evaluated, compared, and evolved under task feedback. ^[inferred]
+
+This strengthens the current harness-ratchet view. A human can turn repeated failures into rules and checks; an outer-loop coding agent can also search for code-level harness changes, provided traces are rich enough and validation/evaluation stay outside the proposer.
 
 ## Peer topics
 

@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-09T22:17:54+08:00
+updated: 2026-05-09T22:42:07+08:00
 aliases:
   - Wiki Log
 tags:
@@ -94,3 +94,4 @@ tags:
 - [2026-05-09T21:39:04+08:00] CAPTURE type=synthesis page="wiki/syntheses/LLM Training Stages.md" title="LLM Training Stages"
 
 - [2026-05-09T22:17:54+08:00] INGEST source="https://x.com/hwchase17/status/2040467997022884194" pages_updated=7 pages_created=2 mode=append
+- [2026-05-09T22:42:07+08:00] INGEST source="https://arxiv.org/abs/2603.28052" pages_updated=6 pages_created=2 mode=append

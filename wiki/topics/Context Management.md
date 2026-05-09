@@ -2,7 +2,7 @@
 title: Context Management
 type: topic
 status: seed
-summary: Context management designs what enters, stays in, leaves, and stays stable in an AI agent's active context under finite attention and cache constraints.
+summary: Context management designs what enters, stays in, leaves, and gets optimized in an AI agent's active context under finite attention and cache constraints.
 category: topics
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
@@ -14,6 +14,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
   - https://x.com/trq212/status/2027463795355095314
   - https://www.chrismdp.com/coding-with-ai/
+  - https://arxiv.org/abs/2603.28052
 created: 2026-05-04
 base_confidence: 0.72
 lifecycle: draft
@@ -23,7 +24,7 @@ provenance:
   inferred: 0.09
   ambiguous: 0.0
 source_count: 12
-updated: 2026-05-07T22:03:56+08:00
+updated: 2026-05-09T22:42:07+08:00
 aliases:
   - 上下文管理
 tags:
@@ -158,6 +159,14 @@ The Claude Code prompt-caching source sharpens this into an ordering rule: stabl
 - 当前上下文是否把边界说清了
 - 我们看到的表面推理文本，是否只是 reasoning 的外显痕迹
 - 压缩、裁剪、摘要这些动作，是否改变了 latent-state formation 的条件
+
+## Context policy as optimizable code
+
+[[wiki/sources/Meta-Harness Paper Source Guide]] adds a program-search angle to context management. In its experiments, harness candidates can modify prompting, retrieval, memory, state updates, and orchestration logic; the context policy is therefore not just a hand-written heuristic but part of the executable search space.
+
+This matters because context-management failures often appear only downstream: a retrieval choice, memory update, or prompt-construction rule may affect behavior many steps later. The paper argues that raw execution traces are needed to connect those delayed failures back to earlier harness decisions.
+
+So context management has two layers: design the current information surface, and design the feedback loop that can revise that surface after observing failures. ^[inferred]
 
 ## Upstream concepts
 

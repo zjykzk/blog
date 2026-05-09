@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added the model/harness/context layer view of agent continual learning and its trace-driven update paths.
+summary: Recent wiki activity added Meta-Harness as an automated, trace-driven outer loop for optimizing executable AI harnesses.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-09T22:17:54+08:00
+updated: 2026-05-09T22:42:07+08:00
 ---
 
 ## Recent Activity
 
+- Ingested [[wiki/sources/Meta-Harness Paper Source Guide|Meta-Harness]]: added automated harness optimization as trace-driven program search over executable model harnesses.
 - Ingested [[wiki/sources/Continual Learning for AI Agents Source Guide|Continual Learning for AI Agents]]: added the model/harness/context layer view of agent continual learning, including trace-driven harness updates and hot-path vs background memory writes.
-- Captured [[wiki/syntheses/LLM Training Stages|LLM Training Stages]]: preserved the process-level difference between pretraining, SFT, and RL/preference optimization, including data shape, loss masking, teacher forcing, rewards, and reference-model anchoring.
-- Captured [[wiki/sources/How to Use LLMs Source Guide|How to Use LLMs]]: preserved Karpathy's practical usage workflow for choosing models, deciding when to search, using deep research, reading documents, executing code, steering coding agents, and applying voice, vision, and memory.
+- Captured [[wiki/syntheses/LLM Training Stages|LLM Training Stages]]: preserved the process-level difference between pretraining, SFT, and RL/preference optimization.
 
 ## Active Threads
 
@@ -23,7 +23,7 @@ updated: 2026-05-09T22:17:54+08:00
 - Systems thinking now has an explicit iceberg-model thread: recurring problems should be traced from visible events to patterns, structures, mental models, and leverage points before choosing interventions.
 - Software methodology is converging around the handoff from business modeling to analysis, DDD, and executable design.
 - Frontend knowledge is forming around React as a coordination model for declarative rendering, component boundaries, and state.
-- AI / Agent systems are being organized around harness, context management, tool design, memory, permissions, and reusable operational knowledge; the newest harness thread treats this as cybernetics, not just tooling.
+- AI / Agent systems are being organized around harness, context management, tool design, memory, permissions, reusable operational knowledge, and now automated harness evolution from logged traces.
 - Agentic engineering is now represented as a production AI coding discipline: senior engineers train harnesses, encode lessons into skills and rules, allocate human attention by risk, and move verification into executable gates.
 - User-side harness engineering is now represented as developer control over context, rules, templates, computational checks, inferential review artifacts, and feedback loops.
 - Harnessability is now represented as a quality of tasks and codebases: agent-friendly work exposes context, boundaries, examples, executable checks, and reusable review criteria.
@@ -54,6 +54,7 @@ updated: 2026-05-09T22:17:54+08:00
 
 ## Key Takeaways
 
+- Automated harness optimization is now an explicit agent-system thread: a coding-agent proposer can inspect prior harness code, scores, and execution traces, then propose new harness code while evaluation remains external.
 - Agent continual learning is now split into model, harness, and context layers: weights are powerful but slow and opaque; harness changes are inspectable code-level learning; context/memory updates are fast, granular, and can run in the hot path or background.
 - LLM training stages should be separated by training signal: pretraining maximizes next-token likelihood over broad text, SFT maximizes masked assistant-answer likelihood, and RL/preference optimization improves generated behavior under reward or comparison.
 - Harness engineering can be read as cybernetics: once agents can both sense and act at the semantic codebase layer, the engineer's leverage shifts to designing the steering loop.

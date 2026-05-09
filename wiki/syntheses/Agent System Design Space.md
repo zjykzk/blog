@@ -2,7 +2,7 @@
 title: Agent System Design Space
 type: synthesis
 status: seed
-summary: Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, cache economics, and runtime APIs.
+summary: Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, cache economics, and harness evolution.
 category: syntheses
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
@@ -12,6 +12,7 @@ sources:
   - https://x.com/trq212/status/2024574133011673516
   - https://x.com/akshay_pachaar/status/2041146899319971922
   - https://x.com/hwchase17/status/2040467997022884194
+  - https://arxiv.org/abs/2603.28052
 created: 2026-05-04
 base_confidence: 0.53
 lifecycle: draft
@@ -21,7 +22,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.0
 source_count: 7
-updated: 2026-05-09T22:17:54+08:00
+updated: 2026-05-09T22:42:07+08:00
 aliases:
   - Agent architecture design space
   - AI agent system design space
@@ -228,6 +229,19 @@ That means agent architecture should be compared not only by mechanisms it conta
 
 把这些主题重新压到同一张图里之后，agent 才更像一个可比较、可设计、可解释的系统对象。
 
+### Harness evolution and optimizer agency
+
+[[wiki/sources/Meta-Harness Paper Source Guide]] adds another design surface: who or what changes the harness over time.
+
+Before this source, the design space already separated model-level learning, harness-level learning, and context/memory learning. Meta-Harness sharpens the harness-level branch by showing an outer loop where a coding-agent proposer reads previous harness code, scores, and traces, then writes new harness code while evaluation remains external.
+
+This adds two new architecture questions:
+
+- Is harness evolution manual, semi-automated, or delegated to an agentic proposer?
+- Does the proposer see raw traces and code, or only scores and compressed summaries?
+
+The second question matters because the paper's ablations suggest that raw execution traces can be the difference between superficial scoring and useful credit assignment. ^[inferred]
+
 ## Upstream topics
 
 - [[wiki/topics/AI Harness]]
@@ -242,6 +256,7 @@ That means agent architecture should be compared not only by mechanisms it conta
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Agent Tool]]
 - [[wiki/concepts/Harness Ratchet]]
+- [[wiki/concepts/Meta-Harness]]
 
 ## Upstream source notes
 
