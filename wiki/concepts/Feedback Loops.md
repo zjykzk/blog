@@ -7,15 +7,16 @@ summary: Feedback loops are system structures where results flow back to influen
 tags: []
 sources:
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
+  - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
 created: 2026-04-26
-base_confidence: 0.44
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.76
-  inferred: 0.24
+  extracted: 0.68
+  inferred: 0.32
   ambiguous: 0.0
-updated: 2026-05-05T17:55:00+08:00
+updated: 2026-05-09T20:15:00+08:00
 aliases:
   - 反馈回路
   - Feedback Loop
@@ -55,6 +56,8 @@ aliases:
 ## 为什么重要
 
 系统行为往往不是由单个动作决定，而是由回路决定。
+
+在 [[wiki/concepts/Iceberg Model]] 里，反馈回路属于把事件变成重复模式的结构层；如果不识别回路，人容易把系统行为误读成单个事件。^[inferred]
 
 所以分析问题时，关键不是只问“谁影响了谁”，而是问：
 
@@ -104,6 +107,7 @@ The delay matters. If the team waits too long to update the artifacts, the same 
 ## Related
 
 - [[wiki/topics/Thinking in Systems]]
+- [[wiki/concepts/Iceberg Model]]
 - [[wiki/topics/Problem Framing]]
 - [[wiki/topics/Learning Methodology]]
 - [[wiki/concepts/Leverage Points]]

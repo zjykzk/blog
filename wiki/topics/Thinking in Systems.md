@@ -5,12 +5,17 @@ status: draft
 category: topics
 summary: 一本关于系统视角的入门书，但真正重要的不是术语，而是一个判断翻转： 问题反复出现，优先怀疑系统结构，而不是个体意志。
 tags: []
-sources: []
+sources:
+  - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
 created: 2026-04-26
-base_confidence: 0.37
+base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-04-26
+provenance:
+  extracted: 0.72
+  inferred: 0.28
+  ambiguous: 0.00
+updated: 2026-05-09T20:15:00+08:00
 aliases:
   - Thinking in Systems: A Primer
   - 系统之美
@@ -40,9 +45,12 @@ aliases:
 1. **事件** 只是表层波动。
 2. **行为模式** 才说明某件事在重复发生。
 3. **系统结构** 才是模式的生成器。
-4. **杠杆点** 决定从哪里改最有效。
+4. **心智模型** 决定哪些结构被看成自然、合理、不可改。^[inferred]
+5. **杠杆点** 决定从哪里改最有效。
 
-所以真正的分析顺序不是“事件 -> 责任人”，而是“事件 -> 模式 -> 结构 -> 杠杆点”。
+[[wiki/concepts/Iceberg Model]] 可以作为这张地图的入口：先承认事件只是水面上的可见部分，再向下追问模式、结构和心智模型。^[inferred]
+
+所以真正的分析顺序不是“事件 -> 责任人”，而是“事件 -> 模式 -> 结构 -> 心智模型 -> 杠杆点”。
 
 ## 五个关键部件
 
@@ -143,6 +151,7 @@ Agent 的行为不是 prompt 单点决定的，而是由上下文质量、工具
 
 ## Related
 
+- [[wiki/concepts/Iceberg Model]]
 - [[wiki/concepts/Feedback Loops]]
 - [[wiki/concepts/Leverage Points]]
 - [[wiki/topics/Learning Methodology]]

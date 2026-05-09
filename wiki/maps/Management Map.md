@@ -6,12 +6,13 @@ category: maps
 summary: 这页聚合当前 vault 中与管理、决策、组织协作相关的长期知识页。
 sources:
   - /Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf
+  - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
 created: 2026-04-21
-base_confidence: 0.53
+base_confidence: 0.69
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 3
-updated: 2026-05-05T14:40:00+08:00
+source_count: 4
+updated: 2026-05-09T20:15:00+08:00
 aliases:
   - 管理地图
 tags:
@@ -34,6 +35,7 @@ tags:
 ## Concepts and frameworks
 
 - [[wiki/concepts/Cynefin Framework]]
+- [[wiki/concepts/Iceberg Model]]
 - [[wiki/topics/Mental Models]]
 - [[wiki/topics/Critical Thinking]]
 - [[wiki/concepts/Accountability]]

@@ -11,12 +11,13 @@ sources:
   - inline:hofstadter-frame-discussion-2026-05-06
   - /Users/zenk/Documents/notes/20260506T194300--概念解剖-分析__concept.org
   - /Users/zenk/Documents/notes/20260506T211953--概念解剖-创造__concept.org
+  - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
 created: 2026-04-21
-base_confidence: 0.71
+base_confidence: 0.74
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 6
-updated: 2026-05-06T21:23:05+08:00
+source_count: 7
+updated: 2026-05-09T20:15:00+08:00
 aliases:
   - 思维框架
 tags:
@@ -89,6 +90,12 @@ The key test is whether the decomposition remains reversible. If a model only cu
 
 The failure mode is copying the model's surface. Creative use requires bending the model under local constraints until a real new order appears.
 
+## Systems Use
+
+[[wiki/concepts/Iceberg Model]] is a mental model for refusing event-level explanation too early: it pushes attention from visible incidents down to repeated patterns, generating structures, and the assumptions that keep those structures in place. ^[inferred]
+
+Its useful failure check is whether it reveals a deeper mechanism or merely renames a symptom as “structure.” ^[inferred]
+
 ## Learning Use
 
 在学习一个新领域时，mental models 可以先作为“专家共享结构”被抽出来。Ihtesham Ali 的 NotebookLM 学习 workflow 里，第一步不是让 AI 总结教材，而是问“专家共享的 5 个核心 mental models 是什么”。这个问法把学习入口从材料顺序切到结构地图，适合接到 [[wiki/concepts/AI Learning Tutor Loop]]。^[inferred]
@@ -101,6 +108,7 @@ Naval Ravikant 的 "How to Get Rich" 也可以读成一组经济行动 mental mo
 
 - [[wiki/topics/Categorical Thinking]]
 - [[wiki/topics/Problem Framing]]
+- [[wiki/concepts/Iceberg Model]]
 - [[wiki/topics/Critical Thinking]]
 - [[wiki/topics/Probability]]
 - [[wiki/topics/Learnable Structure in Data]]

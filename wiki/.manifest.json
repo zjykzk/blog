@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 33,
-    "total_pages": 190
+    "total_sources_ingested": 34,
+    "total_pages": 194
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -752,6 +752,30 @@
         "wiki/concepts/Continuous Batching.md",
         "wiki/concepts/LLM.md",
         "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf": {
+      "ingested_at": "2026-05-09T20:15:00+08:00",
+      "size_bytes": 2645665,
+      "modified_at": "2026-05-09T19:43:18+08:00",
+      "content_hash": "sha256:5cc8a7dd4a11a3ec312cc27a50fba05f2f0ea250deb39c565485ce1878358009",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Iceberg Model.md",
+        "wiki/sources/Iceberg Model Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/Thinking in Systems.md",
+        "wiki/concepts/Leverage Points.md",
+        "wiki/concepts/Feedback Loops.md",
+        "wiki/topics/Problem Framing.md",
+        "wiki/topics/Mental Models.md",
+        "wiki/maps/Reading Map.md",
+        "wiki/maps/Management Map.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"

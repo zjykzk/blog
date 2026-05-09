@@ -4,13 +4,14 @@ type: topic
 status: seed
 category: topics
 summary: 这个定义虽然简单，但它迫使我们先把“预期”说清楚，而不是直接跳进解决方案。
-sources: []
+sources:
+  - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
 created: 2026-04-21
-base_confidence: 0.53
+base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 2
-updated: 2026-04-21
+source_count: 3
+updated: 2026-05-09T20:15:00+08:00
 aliases:
   - 问题定义
 tags:
@@ -44,8 +45,12 @@ tags:
 - 当前差异在哪里
 - 应该选择什么策略
 
+[[wiki/concepts/Iceberg Model]] 提醒 problem framing 不要停在事件层：如果一个“输出不符合预期”的问题反复出现，就要继续追问它背后的模式、结构和心智模型。^[inferred]
+
 ## Navigation
 
+- [[wiki/concepts/Iceberg Model]]
+- [[wiki/topics/Thinking in Systems]]
 - [[wiki/topics/User Stories]]
 - [[wiki/topics/Requirement to Architecture Mapping]]
 - `pages/问题.md`

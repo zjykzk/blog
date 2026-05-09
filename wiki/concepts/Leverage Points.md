@@ -7,11 +7,16 @@ summary: 杠杆点是系统里“改一点，结果却变很多”的位置。
 tags: []
 sources:
   - /Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf
+  - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
 created: 2026-04-26
-base_confidence: 0.37
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-05T14:40:00+08:00
+provenance:
+  extracted: 0.72
+  inferred: 0.28
+  ambiguous: 0.00
+updated: 2026-05-09T20:15:00+08:00
 aliases:
   - 杠杆点
   - High Leverage Change
@@ -27,6 +32,8 @@ aliases:
 ## 一个核心判断
 
 **越接近系统深层结构的地方，通常杠杆越大。**
+
+[[wiki/concepts/Iceberg Model]] 给这个判断一个可视化入口：事件在表层，模式、结构和心智模型在更深处；越往下，行动越难，但越可能改变生成结果的机制。^[inferred]
 
 所以：
 - 改参数，常常只能修边
@@ -111,6 +118,7 @@ aliases:
 ## Related
 
 - [[wiki/topics/Thinking in Systems]]
+- [[wiki/concepts/Iceberg Model]]
 - [[wiki/concepts/Feedback Loops]]
 - [[wiki/topics/Mental Models]]
 - [[wiki/topics/Technical Management]]

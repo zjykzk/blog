@@ -6,12 +6,13 @@ category: maps
 summary: 这页用于承接读书笔记从 raw/source 进入 wiki 的提升过程。
 sources:
   - /Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf
+  - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
 created: 2026-04-21
-base_confidence: 0.37
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 2
-updated: 2026-05-05T14:40:00+08:00
+source_count: 3
+updated: 2026-05-09T20:15:00+08:00
 aliases:
   - 读书地图
 tags:
@@ -27,6 +28,7 @@ tags:
 ## Topics
 
 - [[wiki/topics/Mental Models]]
+- [[wiki/topics/Thinking in Systems]]
 - [[wiki/topics/Critical Thinking]]
 - [[wiki/topics/Probability]]
 - [[wiki/topics/Modern Software Engineering]]
@@ -42,6 +44,7 @@ tags:
 
 ## Current source guides
 
+- [[wiki/sources/Iceberg Model Source Guide]]
 - [[wiki/sources/Modern Software Engineering Notes]]
 - [[wiki/sources/Mobu Notes]]
 - [[wiki/sources/Probability Roundtable Source Guide]]

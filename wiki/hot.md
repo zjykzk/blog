@@ -1,26 +1,26 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured Engineering Thinking as a concept for turning vague intent into reliable, verifiable, repairable, evolvable structures.
+summary: Recent wiki activity added the Iceberg Model as a systems-thinking lens that connects events, patterns, structures, mental models, and leverage points.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-08T22:31:50+08:00
+updated: 2026-05-09T20:15:00+08:00
 ---
 
 ## Recent Activity
 
-- Captured [[wiki/concepts/engineering-thinking|Engineering Thinking]] from the engineering roundtable: engineering thinking is structured judgment that turns vague intent into reliable, verifiable, repairable, evolvable structures under real constraints.
-- Ingested NanoThoughts' [[wiki/sources/Company Brain Source Guide|Company Brain Part 4]] article: added [[wiki/concepts/Action Memory]], clarifying procedural, trigger, execution, and outcome memory as the operational continuity layer.
-- Ingested NanoThoughts' [[wiki/sources/Company Brain Source Guide|Company Brain Part 3]] article: added [[wiki/concepts/Interaction Memory]] and [[wiki/concepts/Organizational Ontology]], strengthening the conversation-to-context-graph layer.
-- Ingested NanoThoughts' [[wiki/sources/Company Brain Source Guide|Company Brain Part 2]] article: added [[wiki/concepts/Factual Memory]] and [[wiki/concepts/Semantic File System]], strengthening the organizational memory cluster.
+- Ingested [[wiki/sources/Iceberg Model Source Guide|Iceberg Model]]: added [[wiki/concepts/Iceberg Model]] as a systems-thinking bridge from visible events to patterns, structures, mental models, and [[wiki/concepts/Leverage Points]].
+- Ingested [[wiki/sources/Life of a Token Source Guide|Life of a Token]]: added the model-internal next-token path from [[wiki/concepts/Tokenization]] through [[wiki/concepts/Transformer Residual Stream]] to [[wiki/concepts/Autoregressive Decoding]], then linked it back to [[wiki/topics/LLM Inference Systems]].
+- Captured [[wiki/syntheses/Reality-Refutable Engineering Systems|Reality-Refutable Engineering Systems]] from the engineering roundtable: mature engineering systems need learnability, appealability, and accountability so reality can challenge their models.
 
 ## Active Threads
 
 - Company brain is now represented as an enterprise memory-and-action substrate: factual memory, interaction memory, action memory, context graph reasoning, and governed action must integrate before agents can safely operate on company reality. Action memory adds the operational continuity layer: procedures, triggers, execution traces, outcomes, guardrails, and intentional inaction.
+- Systems thinking now has an explicit iceberg-model thread: recurring problems should be traced from visible events to patterns, structures, mental models, and leverage points before choosing interventions.
 - Software methodology is converging around the handoff from business modeling to analysis, DDD, and executable design.
 - Frontend knowledge is forming around React as a coordination model for declarative rendering, component boundaries, and state.
 - AI / Agent systems are being organized around harness, context management, tool design, memory, permissions, and reusable operational knowledge.
@@ -45,8 +45,8 @@ updated: 2026-05-08T22:31:50+08:00
 - Agent skills are now represented as folder-shaped capability bundles: references, scripts, assets, memory, configuration, and on-demand hooks can be disclosed only when the workflow needs them.
 - Skill authoring now has an explicit pattern taxonomy: Tool Wrapper, Generator, Reviewer, Inversion, and Pipeline correspond to different control problems inside the same SKILL.md container.
 - Agent action space is now represented as an empirical harness design problem: add, remove, or reshape tools based on whether the model can actually use them.
-- LLM inference systems are now represented as a stack: scheduler, KV-cache allocator, model executor, advanced decoding features, distributed serving layer, and benchmark loop.
-- Prefill/decode separation is now a key inference-design thread: compute-heavy prompt processing and latency-sensitive decoding need different scheduling and scaling choices.
+- LLM inference systems now have both a model-internal path and a serving-system path: text becomes token IDs, residual-stream updates, logits, samples, and autoregressive steps before schedulers, KV-cache allocators, batching, and serving layers shape cost and latency.
+- Prefill/decode separation is now a key inference-design thread: compute-heavy prompt processing and latency-sensitive autoregressive decoding need different scheduling and scaling choices.
 - Understanding is now represented as a cloud-shaped cognitive structure: horizontal similarity gives breadth, vertical abstraction gives depth, and teaching/rebuilding tests whether the cloud can move.
 - Hofstadter's contribution should be tracked as analogy-making and fluid concepts; the “cloud / horizontal similarity / vertical abstraction” language is a local synthesis, not a direct quotation.
 - Analysis is now represented as reversible decomposition: cut a confused whole into parts and relations, then recombine it into actionable understanding.
@@ -54,6 +54,11 @@ updated: 2026-05-08T22:31:50+08:00
 
 ## Key Takeaways
 
+- The Iceberg Model gives the systems-thinking cluster a compact diagnostic path: visible events are only the surface; repeated patterns, structures, and mental models explain why the same result returns.
+- Leverage-point work now has a clearer entry test: if an action only changes the event layer, it is probably symptom repair; if it changes structure or mental model, it may change the generator.
+- The Life of a Token trace makes LLM inference legible as two nested systems: a learned tensor program that produces logits, and ordinary control-flow software that samples, caches, schedules, validates, and serves the result.
+- Autoregressive decoding is the causal source of output-token cost: every generated token changes the next input, while KV cache and batching only reduce repeated work around that dependency.
+- Reality-refutable engineering systems must let feedback cross the field wall, workflow wall, and power wall; otherwise feedback mechanisms become self-reinforcing interpretation loops rather than real learning.
 - Engineering thinking is now represented as structured judgment: turn vague intent into reliable reality by defining problems, respecting constraints, imagining failure, building feedback, structuring responsibility, seeing people, and preserving evolvability.
 - Company brain reframes enterprise AI from tool access over data to a permissioned memory substrate. Part 4 sharpens the action layer: memory must preserve when work should wake up, when it should stay still, which path should run, and what outcomes teach the system.
 - Action memory makes doing nothing a first-class governed action: a trusted company brain must know when to wait, ask approval, notify without mutating state, stop, or execute.
