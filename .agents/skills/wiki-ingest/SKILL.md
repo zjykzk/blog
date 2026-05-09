@@ -181,7 +181,9 @@ For each page in your plan:
 - Read the current page first
 - Merge new information — don't just append
 - Update the `updated` timestamp in frontmatter
-- Add the new source to the `sources` list
+- Add the new source to the `sources` list in YAML frontmatter only
+  - When checking whether a source is already present, inspect only the frontmatter `sources:` block, not the whole file body. The same URL may appear in a Source Identity or provenance note section.
+  - Never append a source URL at the end of the markdown body or under `## Related`; source attribution belongs in frontmatter and, if needed, explanatory source-guide prose.
 - Resolve any contradictions between old and new information (note them if unresolvable)
 
 **Write a `summary:` frontmatter field** on every new page (1–2 sentences, ≤200 characters) answering "what is this page about?" for a reader who hasn't opened it. When updating an existing page whose meaning has shifted, rewrite the summary to match the new content. This field is what `wiki-query`'s cheap retrieval path reads — a missing or stale summary forces expensive full-page reads.
@@ -277,9 +279,10 @@ After ingesting, verify:
 - [ ] Source attribution is present for every new claim
 - [ ] Inferred and ambiguous claims are marked with `^[inferred]` / `^[ambiguous]`; `provenance:` frontmatter block is present on new and updated pages
 - [ ] Every new/updated page has a `summary:` frontmatter field (1–2 sentences, ≤200 chars)
+- [ ] For every source URL added this run, occurrences are either in frontmatter `sources:` or intentional source-guide prose; no bare indented source URL was accidentally appended under `## Related` or at end-of-file
 
 ## Reference
 
 Read `references/ingest-prompts.md` for the LLM prompt templates used during extraction.
 
-Read `references/web-article-fallbacks.md` when a supplied web article URL, especially X/Twitter or Substack, is not directly readable through the first method and you need a provenance-safe fallback extraction workflow. This reference also documents the Substack direct-HTML `body_html` extraction pattern, where the article body is embedded in fetched HTML even if reader services fail or time out.
+Read `references/web-article-fallbacks.md` when a supplied web article URL, especially X/Twitter, WeChat, or Substack, is not directly readable through the first method and you need a provenance-safe fallback extraction workflow. This reference documents X login-wall fallback, WeChat browser-render fallback, and Substack direct-HTML `body_html` extraction patterns.

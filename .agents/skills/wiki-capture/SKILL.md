@@ -14,11 +14,12 @@ You are preserving knowledge from the current conversation as a permanent wiki n
 
 ## Before You Start
 
-1. Read `~/.obsidian-wiki/config` (preferred) or `.env` (fallback) to get `OBSIDIAN_VAULT_PATH` and `OBSIDIAN_LINK_FORMAT` (default: `wikilink`)
+1. Read `~/.obsidian-wiki/config` (preferred) or `.env` (fallback) to get `OBSIDIAN_VAULT_PATH` and `OBSIDIAN_LINK_FORMAT` (default: `wikilink`). If both files are missing but the current repository has a canonical `wiki/` layer (for example `wiki/index.md` and `wiki/NAMING.md` exist), treat `./wiki` as `OBSIDIAN_VAULT_PATH` and continue instead of stopping.
 2. Read `$OBSIDIAN_VAULT_PATH/index.md` to understand existing wiki content (avoid duplicates)
 3. Read `$OBSIDIAN_VAULT_PATH/hot.md` if it exists — it gives context on recent activity
+4. Read `$OBSIDIAN_VAULT_PATH/NAMING.md` if it exists. Prefer its local naming and placement conventions over generic slug rules when they conflict, while still keeping capture frontmatter complete.
 
-When writing internal links in Step 5, apply the link format from `llm-wiki/SKILL.md` (Link Format section) using the `OBSIDIAN_LINK_FORMAT` value.
+When writing internal links in Step 5, apply the link format from `llm-wiki/SKILL.md` (Link Format section) using the `OBSIDIAN_LINK_FORMAT` value. If that file is unavailable, follow the local convention observed in `index.md`/`NAMING.md` (for this vault, path-qualified Obsidian wikilinks such as `[[wiki/concepts/Page Name]]`).
 
 ## Step 1: Identify What's Worth Preserving
 
@@ -37,9 +38,13 @@ Skip:
 - Exploratory back-and-forth where no conclusion was reached
 - Content that's already in the wiki
 
+If the current conversation extends an already-captured concept rather than merely repeating it, do not overwrite or duplicate the existing page. Capture the new durable layer as a synthesis that links back to the existing concept. Example: if `Engineering Thinking` already exists as a concept and the new discussion develops responsibility, appealability, feedback walls, or organizational suppression mechanisms, create a focused synthesis page rather than expanding the concept into an overlarge catch-all.
+
 If nothing material emerged, tell the user and stop.
 
 ## Step 2: Classify the Content Type
+
+When the user pastes a large external article, web page, transcript, or interactive walkthrough and asks to capture it, default to `source` unless the conversation itself added substantial original synthesis. Create a source guide that preserves the external artifact's durable claims, scope, integration decisions, and open questions; do not promote it directly into a broad concept page just because it covers many concepts.
 
 Assign one of five types — this determines the target folder and tone:
 
@@ -71,10 +76,12 @@ Apply provenance markers per `llm-wiki`:
 
 ## Step 4: Generate a Slug and Title
 
-Derive a clear, descriptive title from the content. Slugify it:
+Derive a clear, descriptive title from the content. Use the vault's local naming convention from `NAMING.md` when available. If no local convention exists, slugify it:
 - Lowercase, words separated by hyphens
 - Max 50 characters
 - Avoid dates in the slug (the frontmatter has `created`)
+
+For vaults whose `NAMING.md` says concept/topic/synthesis files use Title Case with spaces, create `Title Case.md` files rather than lowercase hyphenated slugs, even if the generic capture instruction says "slug".
 
 ## Step 5: Write the Wiki Note
 
@@ -154,6 +161,9 @@ Body structure by type:
 
 ## Key Points
 <Bulleted claims with provenance markers>
+
+## Integration Decisions
+<How this source connects to existing wiki concepts/topics/syntheses; which claims should stay source-level versus be promoted later. Use this section especially for broad external walkthroughs that touch many existing pages.>
 
 ## Open Questions
 <What it raises but doesn't answer — omit if none>

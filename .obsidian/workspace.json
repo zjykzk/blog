@@ -25,14 +25,10 @@
             "id": "a922fdf719754b09",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/concepts/Company Brain.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Company Brain"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -68,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "brain",
+                "query": "cybernetics",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 455.5
+    "width": 281.5
   },
   "right": {
     "id": "7eba894845c12087",
@@ -223,34 +219,36 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a922fdf719754b09",
+  "active": "7580ab20bfa01a4b",
   "lastOpenFiles": [
-    "wiki/concepts/Semantic File System.md",
-    "wiki/concepts/Factual Memory.md",
-    "wiki/sources/Company Brain Source Guide.md",
+    "wiki/sources/Continual Learning for AI Agents Source Guide.md",
+    "wiki/concepts/Continual Learning for AI Agents.md",
+    "wiki/syntheses/LLM Training Stages.md",
+    "wiki/sources/How to Use LLMs Source Guide.md",
+    "wiki/sources/How LLMs Actually Work Source Guide.md",
+    "wiki/sources/Harness Engineering Is Cybernetics Source Guide.md",
+    "wiki/sources/Team AI Coding Harness Seminar Source Guide.md",
+    "wiki/sources/Iceberg Model Source Guide.md",
+    "wiki/concepts/Iceberg Model.md",
+    "iceberg-model-large.png",
+    "iceberg-model-page.png",
+    "wiki/concepts/engineering-thinking.md",
+    "wiki/syntheses/Decision Modes for Engineering Work.md",
+    "wiki/syntheses/Acting Under Complexity.md",
     "wiki/sources/Agent Engineering Source Guide.md",
-    "CLAUDE.md",
-    "wiki/concepts/Institutional Friction.md",
-    "wiki/concepts/Governed Action.md",
-    "wiki/concepts/Context Graph.md",
-    "wiki/concepts/Organizational Memory.md",
-    "wiki/concepts/Company Brain.md",
-    "wiki/sources/Coding with AI Source Guide.md",
-    "wiki/sources/Seeing Like an Agent Source Guide.md",
-    "wiki/sources/Qiaomu Best Prompt Source Guide.md",
-    "wiki/sources/Lost in the Middle Paper Source Guide.md",
-    "wiki/sources/Epiplexity Paper Notes.md",
-    "wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide.md",
-    "wiki/sources/How People Learn Transfer Source Guide.md",
-    "wiki/syntheses/harness-root-ranks.md",
-    "wiki/concepts/Agentic Engineering.md",
-    "wiki/concepts/Context Anchoring.md",
-    "wiki/concepts/Coding Agent User Harness.md",
-    "wiki/sources/Harness Engineering Source Guide.md",
-    "wiki/concepts/Harness Ratchet.md",
-    "wiki/maps/AI Map.md",
-    "wiki/concepts/Harnessability.md",
-    "wiki/concepts/Agent Skill Design Patterns.md",
+    "wiki/sources/Reducing Friction in AI-Assisted Development Source Guide.md",
+    "wiki/concepts/Neural Network Inference Boundary.md",
+    "wiki/concepts/Autoregressive Decoding.md",
+    "wiki/concepts/Transformer Residual Stream.md",
+    "wiki/concepts/Tokenization.md",
+    "wiki/concepts/Next-Token Pipeline.md",
+    "wiki/sources/Life of a Token Source Guide.md",
+    "themes/devise/exampleSite/content/post/rich-content.md",
+    "themes/devise/exampleSite/content/post/placeholder-text.md",
+    "themes/devise/exampleSite/content/post/markdown-syntax.md",
+    "themes/devise/exampleSite/content/post/emoji-support.md",
+    "themes/devise/exampleSite/content/post/_index.md",
+    "themes/devise/exampleSite/content/homepage/work.md",
     "skills",
     "Excalidraw/backend.excalidraw",
     "Excalidraw/agent.excalidraw",
@@ -269,8 +267,6 @@
     "mobu/读书/modern_software_engineering-幕布图片-195155-330004.png",
     "mobu/读书/modern_software_engineering-幕布图片-147011-551432.png",
     "mobu/读书/架构师启示录-知识模型、落地方法与思维模式-幕布图片-249642-378639.png",
-    "mobu/读书/modern_software_engineering-幕布图片-745916-418737.png",
-    "mobu/读书/架构师启示录-知识模型、落地方法与思维模式-幕布图片-517680-867801.png",
-    "mobu/读书/架构师启示录-知识模型、落地方法与思维模式-幕布图片-750801-536791.png"
+    "mobu/读书/modern_software_engineering-幕布图片-745916-418737.png"
   ]
 }
