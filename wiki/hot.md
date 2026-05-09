@@ -1,24 +1,25 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added Meta-Harness as an automated, trace-driven outer loop for optimizing executable AI harnesses.
+summary: Recent wiki activity captured ICAP as a learning-engagement ladder from passive reception to interactive co-construction.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-09T22:42:07+08:00
+updated: 2026-05-09T22:55:00+08:00
 ---
 
 ## Recent Activity
 
+- Captured [[wiki/sources/ICAP Learning Framework Source Guide|ICAP Learning Framework]]: preserved the Passive → Active → Constructive → Interactive ladder for diagnosing learning by cognitive engagement.
+- Captured [[wiki/sources/Cognitive Load Theory Source Guide|Cognitive Load Theory]]: preserved working-memory bandwidth, schema formation, direct instruction, worked examples, and AI tutor/doer boundaries; added [[wiki/concepts/Cognitive Load Theory]].
 - Ingested [[wiki/sources/Meta-Harness Paper Source Guide|Meta-Harness]]: added automated harness optimization as trace-driven program search over executable model harnesses.
-- Ingested [[wiki/sources/Continual Learning for AI Agents Source Guide|Continual Learning for AI Agents]]: added the model/harness/context layer view of agent continual learning, including trace-driven harness updates and hot-path vs background memory writes.
-- Captured [[wiki/syntheses/LLM Training Stages|LLM Training Stages]]: preserved the process-level difference between pretraining, SFT, and RL/preference optimization.
 
 ## Active Threads
 
+- Learning cognition now has an ICAP-and-cognitive-load thread: instruction should manage working-memory bandwidth, then push learners from passive reception toward construction and interactive correction when prior knowledge allows.
 - Company brain is now represented as an enterprise memory-and-action substrate: factual memory, interaction memory, action memory, context graph reasoning, and governed action must integrate before agents can safely operate on company reality. Action memory adds the operational continuity layer: procedures, triggers, execution traces, outcomes, guardrails, and intentional inaction.
 - Systems thinking now has an explicit iceberg-model thread: recurring problems should be traced from visible events to patterns, structures, mental models, and leverage points before choosing interventions.
 - Software methodology is converging around the handoff from business modeling to analysis, DDD, and executable design.
@@ -54,6 +55,8 @@ updated: 2026-05-09T22:42:07+08:00
 
 ## Key Takeaways
 
+- ICAP reframes learning effort by cognitive operation: passive reception and active manipulation help early exposure, but durable learning comes from constructing new explanations and defending them in interaction.
+- Cognitive load theory reframes learning failure as a bandwidth-and-schema problem: reduce extraneous load, sequence intrinsic load, and use AI as a tutor that preserves learner effort rather than a doer that replaces it.
 - Automated harness optimization is now an explicit agent-system thread: a coding-agent proposer can inspect prior harness code, scores, and execution traces, then propose new harness code while evaluation remains external.
 - Agent continual learning is now split into model, harness, and context layers: weights are powerful but slow and opaque; harness changes are inspectable code-level learning; context/memory updates are fast, granular, and can run in the hot path or background.
 - LLM training stages should be separated by training signal: pretraining maximizes next-token likelihood over broad text, SFT maximizes masked assistant-answer likelihood, and RL/preference optimization improves generated behavior under reward or comparison.
