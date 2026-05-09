@@ -1,18 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added a cybernetic view of harness engineering: agents need sensors, actuators, desired state, feedback loops, and calibrated judgment.
+summary: Recent wiki activity captured a full LLM pipeline walkthrough from web-scale data and tokenization to assistants, RAG, and security.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-09T21:05:00+08:00
+updated: 2026-05-09T21:19:58+08:00
 ---
 
 ## Recent Activity
 
+- Captured [[wiki/sources/How LLMs Actually Work Source Guide|How LLMs Actually Work]]: preserved a source-level walkthrough of the LLM pipeline from web-scale data curation and [[wiki/concepts/Tokenization]] through pretraining, assistant post-training, RAG, and security failure modes.
 - Ingested [[wiki/sources/Harness Engineering Is Cybernetics Source Guide|Harness Engineering Is Cybernetics]]: added the control-loop view of [[wiki/topics/AI Harness]], where engineers design sensors, actuators, desired state, and calibration around agentic coding.
 - Ingested [[wiki/sources/Team AI Coding Harness Seminar Source Guide|Team AI Coding Harness Seminar]]: added the team-discipline side of [[wiki/topics/AI Harness]], connecting human requirements clarity, TDD loops, automated checks, and review responsibility.
 - Ingested [[wiki/sources/Iceberg Model Source Guide|Iceberg Model]]: added [[wiki/concepts/Iceberg Model]] as a systems-thinking bridge from visible events to patterns, structures, mental models, and [[wiki/concepts/Leverage Points]].
@@ -59,6 +60,7 @@ updated: 2026-05-09T21:05:00+08:00
 - The Iceberg Model gives the systems-thinking cluster a compact diagnostic path: visible events are only the surface; repeated patterns, structures, and mental models explain why the same result returns.
 - Leverage-point work now has a clearer entry test: if an action only changes the event layer, it is probably symptom repair; if it changes structure or mental model, it may change the generator.
 - The Life of a Token trace makes LLM inference legible as two nested systems: a learned tensor program that produces logits, and ordinary control-flow software that samples, caches, schedules, validates, and serves the result.
+- A full LLM assistant pipeline should be read as layered engineering: data curation, token representation, next-token pretraining, autoregressive sampling, post-training, retrieval, tool use, and security controls each solve a different control problem.
 - Autoregressive decoding is the causal source of output-token cost: every generated token changes the next input, while KV cache and batching only reduce repeated work around that dependency.
 - Reality-refutable engineering systems must let feedback cross the field wall, workflow wall, and power wall; otherwise feedback mechanisms become self-reinforcing interpretation loops rather than real learning.
 - Engineering thinking is now represented as structured judgment: turn vague intent into reliable reality by defining problems, respecting constraints, imagining failure, building feedback, structuring responsibility, seeing people, and preserving evolvability.
