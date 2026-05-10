@@ -14,7 +14,7 @@ created: 2026-04-26
 base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-09T23:01:29+08:00
+updated: 2026-05-10T16:21:01+08:00
 aliases:
   - 学习地图
 provenance:
@@ -42,6 +42,7 @@ provenance:
 - [[wiki/concepts/Cognitive Load Theory]]——用工作记忆带宽、外在负荷、内在负荷和图式形成解释教学设计
 - [[wiki/concepts/Cognitive Engineering]]——设计人、工具与反馈构成的认知系统
 - [[wiki/concepts/AI Learning Tutor Loop]]——用 AI 源材料系统建立知识地形、诊断理解并修补错误
+- [[wiki/concepts/Narrative]]——把事实串成可预测、可赋义、可协调、可行动的因果线索
 
 ## 跨源综合
 
@@ -55,6 +56,7 @@ provenance:
 - [[wiki/sources/Creation Concept Anatomy Source Guide]]——创造概念解剖 source guide
 - [[wiki/sources/How People Learn Transfer Source Guide]]——学习迁移与应用的外部来源
 - [[wiki/sources/Cognitive Load Theory Source Guide]]——认知负荷理论、图式形成、直接教学、范例学习与 AI tutor/doer 边界
+- [[wiki/sources/Narrative as First Principle Source Guide]]——《现代思维工具课》基本世界观中关于叙事的来源导览
 - [[wiki/sources/Amabile Componential Theory of Creativity Source Guide]]——创造力组件理论外部来源
 - [[wiki/sources/Schon Reflective Practice Source Guide]]——设计反思实践外部来源
 - `pages/学习方法论`（pages source note）

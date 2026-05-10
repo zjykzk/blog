@@ -12,7 +12,7 @@ base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 3
-updated: 2026-05-09T20:15:00+08:00
+updated: 2026-05-10T16:21:01+08:00
 aliases:
   - 读书地图
 tags:
@@ -34,6 +34,7 @@ tags:
 - [[wiki/topics/Learnable Structure in Data]]
 - [[wiki/topics/Wealth Creation]]
 - [[wiki/topics/Judgment Under Leverage]]
+- [[wiki/concepts/Narrative]]
 
 ## Syntheses
 
@@ -46,6 +47,7 @@ tags:
 - [[wiki/sources/Iceberg Model Source Guide]]
 - [[wiki/sources/Modern Software Engineering Notes]]
 - [[wiki/sources/Mobu Notes]]
+- [[wiki/sources/Narrative as First Principle Source Guide]]
 - [[wiki/sources/Probability Roundtable Source Guide]]
 - [[wiki/sources/Epiplexity Paper Notes]]
 - [[wiki/sources/How to Get Rich Source Guide]]

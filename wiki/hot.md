@@ -1,24 +1,26 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity fixed broken wikilinks and connected high-concurrency systems thinking to LLM inference serving.
+summary: Recent wiki activity captured narrative as a worldview source and thinking tool linking facts, meaning, coordination, and action.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-10T16:08:07+08:00
+updated: 2026-05-10T16:21:01+08:00
 ---
 
 ## Recent Activity
 
+- 已捕获 [[wiki/sources/Narrative as First Principle Source Guide]]，并提升 [[wiki/concepts/Narrative]] 为概念页：叙事是把被选择的事实转化为预测、赋义、协调和行动的因果线索。
 - Tag taxonomy normalized: retired broad `ai` and redundant `source` tags, created [[wiki/_meta/taxonomy]], and cleared remaining tag-cohesion lint issues.
 - Provenance and confidence lint fixes normalized base_confidence and provenance frontmatter drift across the wiki.
 - Cross-linked [[wiki/topics/High Concurrency]] and [[wiki/topics/LLM Inference Systems]] as peer systems-pressure topics after clearing broken wikilinks.
 
 ## Active Threads
 
+- 学习与认知现在加入了叙事线索：事实只有被选择、排序，并绑定成能指导预测、意义、协调和行动的因果故事后，才真正变得可用。
 - Learning cognition now has an ICAP-and-cognitive-load thread: instruction should manage working-memory bandwidth, then push learners from passive reception toward construction and interactive correction when prior knowledge allows.
 - Company brain is now represented as an enterprise memory-and-action substrate: factual memory, interaction memory, action memory, context graph reasoning, and governed action must integrate before agents can safely operate on company reality. Action memory adds the operational continuity layer: procedures, triggers, execution traces, outcomes, guardrails, and intentional inaction.
 - Systems thinking now has an explicit iceberg-model thread: recurring problems should be traced from visible events to patterns, structures, mental models, and leverage points before choosing interventions.
@@ -55,6 +57,7 @@ updated: 2026-05-10T16:08:07+08:00
 
 ## Key Takeaways
 
+- 叙事是一种行动接口：人很少直接响应事实堆，而是响应一条说明什么重要、接下来会怎样、当前正在玩什么游戏的因果线。
 - A system should be read as relations that repeatedly generate a result, not as a pile of parts; boundary, feedback, and time are what make the whole behavior visible.
 - ICAP reframes learning effort by cognitive operation: passive reception and active manipulation help early exposure, but durable learning comes from constructing new explanations and defending them in interaction.
 - Cognitive load theory reframes learning failure as a bandwidth-and-schema problem: reduce extraneous load, sequence intrinsic load, and use AI as a tutor that preserves learner effort rather than a doer that replaces it.

@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-09T23:01:29+08:00
+updated: 2026-05-10T16:21:01+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -147,6 +147,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Neural Network Inference Boundary|Neural Network Inference Boundary]] — The neural-network inference boundary separates learned tensor computation from surrounding traditional control-flow code. (#llm #inference #systems)
 - [[wiki/concepts/Lost in the Middle Effect|Lost in the Middle Effect]] — The lost-in-the-middle effect is the long-context failure mode where models use information best at the beginning or end and worse in the middle. (#llm #context #evaluation)
 - [[wiki/concepts/Meta-Harness|Meta-Harness]] — Meta-Harness searches over executable LLM harness code using a coding-agent proposer with access to prior code, scores, and traces. (#agents #harness #optimization)
+- [[wiki/concepts/Narrative|Narrative]] — 叙事是把被选择的事实串成因果线索的结构，使事实能够用于预测、赋义、协调和行动。 (#thinking #cognition #coordination)
 - [[wiki/concepts/Paged Attention|Paged Attention]] — Paged attention stores KV cache in fixed-size blocks so inference servers can allocate, reuse, and evict attention state efficiently. (#llm #inference #memory)
 - [[wiki/concepts/Prefill Decode Split|Prefill Decode Split]] — The prefill/decode split separates full-prompt processing from token-by-token generation because they stress GPU systems differently. (#llm #inference #serving)
 - [[wiki/concepts/Prompt Caching|Prompt Caching]] — Prompt caching reuses stable prompt prefixes so repeated agent turns avoid recomputing the same system, tool, and context tokens. (#agents #context #caching)
@@ -219,6 +220,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Managed Agents Source Guide|Managed Agents Source Guide]] — 这篇 Anthropic engineering article 更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#agents #harness #anthropic)
 - [[wiki/sources/Meta-Harness Paper Source Guide|Meta-Harness Paper Source Guide]] — Source guide for the Meta-Harness paper, focused on automated search over executable model harnesses using full filesystem access to code, scores, and traces. (#paper #arxiv #agents #harness)
 - [[wiki/sources/Mobu Notes|Mobu Notes Source Guide]] — mobu/ 目前是个人知识与领域素材的大池子，适合作为 raw/domain input 层，而不是直接作为稳定 wiki 层。 (#mobu #raw)
+- [[wiki/sources/Narrative as First Principle Source Guide|Narrative as First Principle Source Guide]] — 这页导览一篇把叙事视为事实、物理、意识、意义、协作与行动之间接口的世界观文章。 (#thinking #worldview #cognition #coordination)
 - [[wiki/sources/Modern Software Engineering Notes|Modern Software Engineering Notes]] — 这份读书笔记目前以摘录和图片为主，仍更适合作为 source note，而不是直接升格为稳定 wiki 页面。 (#book-notes #software-engineering)
 - [[wiki/sources/NotebookLM Learning Workflow Source Guide|NotebookLM Learning Workflow Source Guide]] — Source guide for Ihtesham Ali's NotebookLM learning workflow thread: corpus loading, mental-model prompts, disagreement mapping, and diagnostic feedback. (#learning #notebooklm #questions)
 - [[wiki/sources/Probability Roundtable Source Guide|Probability Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担概率论的稳定母页角色。 (#probability #thinking #roundtable)
