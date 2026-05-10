@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-10T16:32:29+08:00
+updated: 2026-05-10T21:43:57+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -130,6 +130,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Evaluation|Evaluation]] — Evaluation is the act of placing an object inside a scale so its value, quality, meaning, or position can appear. (#thinking #concepts #judgment)
 - [[wiki/concepts/Expression Three Channels|Expression Three Channels]] — 人向外表达，靠三根独立的生成器撑着。关掉任何一根，表达塌一块。
 - [[wiki/concepts/Feedback Loops|Feedback Loops]] — Feedback loops are system structures where results flow back to influence future causes, creating growth, stability, or oscillation.
+- [[wiki/concepts/Hard Constraint|Hard Constraint]] — 硬约束是行动无法靠愿望绕开的限制，要求人在叙事激发行动之前先盘资源、看窗口、尊重规律并承认他人能动性。 (#thinking #systems #judgment)
 - [[wiki/concepts/Heavy-Tailed Distribution|Heavy-Tailed Distribution]] — 重尾分布描述少数极端值占据巨大份额的分布结构；在财富、声望、城市、公司和风险回报中，它会让平均值失去直觉意义。 (#probability #systems-thinking #wealth #leverage)
 - [[wiki/concepts/Human Agency|Human Agency]] — 能动是人在高波动世界中主动选择目标、调用工具、制造反馈并承担结果，而不是被旧叙事和他人期待当作工具。 (#thinking #wealth #systems-thinking #judgment)
 - [[wiki/concepts/Iceberg Model|Iceberg Model]] — Iceberg Model explains visible events as the surface of deeper patterns, structures, and mental models that generate recurring system behavior. (#systems-thinking #mental-models #problem-framing)
@@ -213,6 +214,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/ICAP Learning Framework Source Guide|ICAP Learning Framework Source Guide]] — Source guide for the ICAP learning framework article, distinguishing passive, active, constructive, and interactive learning by cognitive engagement. (#learning #cognition #education)
 - [[wiki/sources/How People Learn Transfer Source Guide|How People Learn Transfer Source Guide]] — Source guide for transfer research in How People Learn, grounding application in flexible adaptation across contexts. (#learning #transfer #cognition)
 - [[wiki/sources/How to Get Rich Source Guide|How to Get Rich Source Guide]] — Source guide for Naval Ravikant's How to Get Rich tweetstorm PDF, focused on wealth, equity, specific knowledge, accountability, leverage, and judgment. (#wealth #leverage #career #judgment)
+- [[wiki/sources/Hard Constraints Source Guide|Hard Constraints Source Guide]] — 这页导览《约束：先尊重，再行动》：有效叙事必须先尊重资源、时间、规律和他人能动性等硬约束。 (#article #thinking #systems #judgment)
 - [[wiki/sources/Heavy-Tailed World Source Guide|Heavy-Tailed World Source Guide]] — 这页导览《重尾：世界服从极端值》：世界常由少数极端值、正反馈和乘法效应支配，策略应从求平均转向长板、复利与保本。 (#wealth #leverage #systems-thinking #probability)
 - [[wiki/sources/能动与稳态生存逻辑 Source Guide|能动与稳态生存逻辑 Source Guide]] — 这页导览《能动：稳态生存的观念陷阱》：旧观念来自匮乏、弱规则和简单模型，在高波动世界会限制能动性。 (#article #thinking #wealth #systems-thinking)
 - [[wiki/sources/How LLMs Actually Work Source Guide|How LLMs Actually Work Source Guide]] — Source guide for an interactive walkthrough of the LLM pipeline, from web data and tokenization through pretraining, post-training, RAG, and security. (#llm #transformer #security)

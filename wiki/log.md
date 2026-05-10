@@ -130,3 +130,5 @@ tags:
 - [2026-05-10T16:27:44+08:00] CAPTURE type=concept page="wiki/concepts/Multiplicative World.md" title="Multiplicative World"
 - [2026-05-10T16:32:29+08:00] CAPTURE type=source page="wiki/sources/能动与稳态生存逻辑 Source Guide.md" title="能动与稳态生存逻辑 Source Guide"
 - [2026-05-10T16:32:29+08:00] CAPTURE type=concept page="wiki/concepts/Human Agency.md" title="Human Agency"
+- [2026-05-10T21:43:57+08:00] CAPTURE type=source page="wiki/sources/Hard Constraints Source Guide.md" title="Hard Constraints Source Guide"
+- [2026-05-10T21:43:57+08:00] CAPTURE type=concept page="wiki/concepts/Hard Constraint.md" title="Hard Constraint"

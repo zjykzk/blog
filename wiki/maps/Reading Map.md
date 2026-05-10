@@ -12,7 +12,7 @@ base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 3
-updated: 2026-05-10T16:32:29+08:00
+updated: 2026-05-10T21:43:57+08:00
 aliases:
   - 读书地图
 tags:
@@ -38,6 +38,7 @@ tags:
 - [[wiki/concepts/Human Agency]]
 - [[wiki/topics/Judgment Under Leverage]]
 - [[wiki/concepts/Narrative]]
+- [[wiki/concepts/Hard Constraint]]
 
 ## Syntheses
 
@@ -56,6 +57,7 @@ tags:
 - [[wiki/sources/How to Get Rich Source Guide]]
 - [[wiki/sources/Heavy-Tailed World Source Guide]]
 - [[wiki/sources/能动与稳态生存逻辑 Source Guide]]
+- [[wiki/sources/Hard Constraints Source Guide]]
 
 ## Source layer
 
