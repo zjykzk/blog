@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-10T16:21:01+08:00
+updated: 2026-05-10T16:32:29+08:00
 aliases:
   - Wiki Log
 tags:
@@ -125,3 +125,8 @@ tags:
 - [2026-05-10T16:11:01+08:00] LINT issues_found=0 orphans=0 broken_links=0 stale=0 contradictions=0 prov_issues=0 missing_summary=0 fragmented_clusters=0 visibility_issues=0 promotion_candidates=0 synthesis_gaps=0 lifecycle_issues=0 index_issues=0 note="clean final verification"
 - [2026-05-10T16:21:01+08:00] CAPTURE type=source page="wiki/sources/Narrative as First Principle Source Guide.md" title="Narrative as First Principle Source Guide"
 - [2026-05-10T16:21:01+08:00] CAPTURE type=concept page="wiki/concepts/Narrative.md" title="Narrative"
+- [2026-05-10T16:27:44+08:00] CAPTURE type=source page="wiki/sources/Heavy-Tailed World Source Guide.md" title="Heavy-Tailed World Source Guide"
+- [2026-05-10T16:27:44+08:00] CAPTURE type=concept page="wiki/concepts/Heavy-Tailed Distribution.md" title="Heavy-Tailed Distribution"
+- [2026-05-10T16:27:44+08:00] CAPTURE type=concept page="wiki/concepts/Multiplicative World.md" title="Multiplicative World"
+- [2026-05-10T16:32:29+08:00] CAPTURE type=source page="wiki/sources/能动与稳态生存逻辑 Source Guide.md" title="能动与稳态生存逻辑 Source Guide"
+- [2026-05-10T16:32:29+08:00] CAPTURE type=concept page="wiki/concepts/Human Agency.md" title="Human Agency"

@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-10T16:21:01+08:00
+updated: 2026-05-10T16:32:29+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -130,6 +130,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Evaluation|Evaluation]] — Evaluation is the act of placing an object inside a scale so its value, quality, meaning, or position can appear. (#thinking #concepts #judgment)
 - [[wiki/concepts/Expression Three Channels|Expression Three Channels]] — 人向外表达，靠三根独立的生成器撑着。关掉任何一根，表达塌一块。
 - [[wiki/concepts/Feedback Loops|Feedback Loops]] — Feedback loops are system structures where results flow back to influence future causes, creating growth, stability, or oscillation.
+- [[wiki/concepts/Heavy-Tailed Distribution|Heavy-Tailed Distribution]] — 重尾分布描述少数极端值占据巨大份额的分布结构；在财富、声望、城市、公司和风险回报中，它会让平均值失去直觉意义。 (#probability #systems-thinking #wealth #leverage)
+- [[wiki/concepts/Human Agency|Human Agency]] — 能动是人在高波动世界中主动选择目标、调用工具、制造反馈并承担结果，而不是被旧叙事和他人期待当作工具。 (#thinking #wealth #systems-thinking #judgment)
 - [[wiki/concepts/Iceberg Model|Iceberg Model]] — Iceberg Model explains visible events as the surface of deeper patterns, structures, and mental models that generate recurring system behavior. (#systems-thinking #mental-models #problem-framing)
 - [[wiki/concepts/Feedforward and Feedback Controls|Feedforward and Feedback Controls]] — Feedforward controls shape an agent before action; feedback controls inspect results after action and steer correction or future harness changes. (#agents #harness #feedback)
 - [[wiki/concepts/Harness Ratchet|Harness Ratchet]] — A harness ratchet turns repeated agent failures into durable rules, hooks, checks, or workflow changes instead of treating them as one-off bad runs. (#agents #harness #feedback)
@@ -147,6 +149,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Neural Network Inference Boundary|Neural Network Inference Boundary]] — The neural-network inference boundary separates learned tensor computation from surrounding traditional control-flow code. (#llm #inference #systems)
 - [[wiki/concepts/Lost in the Middle Effect|Lost in the Middle Effect]] — The lost-in-the-middle effect is the long-context failure mode where models use information best at the beginning or end and worse in the middle. (#llm #context #evaluation)
 - [[wiki/concepts/Meta-Harness|Meta-Harness]] — Meta-Harness searches over executable LLM harness code using a coding-agent proposer with access to prior code, scores, and traces. (#agents #harness #optimization)
+- [[wiki/concepts/Multiplicative World|Multiplicative World]] — 乘法世界是回报由当前动作与既有存量共同决定的世界；它要求人从补平均短板转向寻找可复利、可放大的长板。 (#wealth #leverage #systems-thinking #career)
 - [[wiki/concepts/Narrative|Narrative]] — 叙事是把被选择的事实串成因果线索的结构，使事实能够用于预测、赋义、协调和行动。 (#thinking #cognition #coordination)
 - [[wiki/concepts/Paged Attention|Paged Attention]] — Paged attention stores KV cache in fixed-size blocks so inference servers can allocate, reuse, and evict attention state efficiently. (#llm #inference #memory)
 - [[wiki/concepts/Prefill Decode Split|Prefill Decode Split]] — The prefill/decode split separates full-prompt processing from token-by-token generation because they stress GPU systems differently. (#llm #inference #serving)
@@ -210,6 +213,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/ICAP Learning Framework Source Guide|ICAP Learning Framework Source Guide]] — Source guide for the ICAP learning framework article, distinguishing passive, active, constructive, and interactive learning by cognitive engagement. (#learning #cognition #education)
 - [[wiki/sources/How People Learn Transfer Source Guide|How People Learn Transfer Source Guide]] — Source guide for transfer research in How People Learn, grounding application in flexible adaptation across contexts. (#learning #transfer #cognition)
 - [[wiki/sources/How to Get Rich Source Guide|How to Get Rich Source Guide]] — Source guide for Naval Ravikant's How to Get Rich tweetstorm PDF, focused on wealth, equity, specific knowledge, accountability, leverage, and judgment. (#wealth #leverage #career #judgment)
+- [[wiki/sources/Heavy-Tailed World Source Guide|Heavy-Tailed World Source Guide]] — 这页导览《重尾：世界服从极端值》：世界常由少数极端值、正反馈和乘法效应支配，策略应从求平均转向长板、复利与保本。 (#wealth #leverage #systems-thinking #probability)
+- [[wiki/sources/能动与稳态生存逻辑 Source Guide|能动与稳态生存逻辑 Source Guide]] — 这页导览《能动：稳态生存的观念陷阱》：旧观念来自匮乏、弱规则和简单模型，在高波动世界会限制能动性。 (#article #thinking #wealth #systems-thinking)
 - [[wiki/sources/How LLMs Actually Work Source Guide|How LLMs Actually Work Source Guide]] — Source guide for an interactive walkthrough of the LLM pipeline, from web data and tokenization through pretraining, post-training, RAG, and security. (#llm #transformer #security)
 - [[wiki/sources/How to Use LLMs Source Guide|How to Use LLMs Source Guide]] — Source guide for Karpathy's practical LLM-use walkthrough: model choice, search, deep research, documents, code, agents, voice, vision, and memory. (#llm #workflow #tools)
 - [[wiki/sources/Iceberg Model Source Guide|Iceberg Model Source Guide]] — Source guide for the Donella Meadows Iceberg Model PDF, preserving provenance limits and routing its visual systems-thinking frame into concept pages. (#systems-thinking #mental-models)
@@ -241,7 +246,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/vLLM Inference Systems Source Guide|vLLM Inference Systems Source Guide]] — Source guide for Aleksa Gordic's vLLM article, focused on engine loops, paged attention, batching, P/D split, scaling, serving, and benchmarking. (#llm #inference)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Ingested NanoThoughts' Company Brain Part 4, adding action memory as the operational continuity layer of the company brain.
+- [[wiki/hot|Hot Cache]] — Recent captures added agency, steady-state survival logic, heavy-tail thinking, and multiplicative-world strategy to the reading and management clusters.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

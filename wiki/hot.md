@@ -1,18 +1,20 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured narrative as a worldview source and thinking tool linking facts, meaning, coordination, and action.
+summary: Recent wiki activity captured agency and steady-state survival logic as a worldview source linking scarcity, conformity, simple models, cultural lag, and high-volatility action.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-10T16:21:01+08:00
+updated: 2026-05-10T16:32:29+08:00
 ---
 
 ## Recent Activity
 
+- 已捕获 [[wiki/sources/能动与稳态生存逻辑 Source Guide]]，并新增 [[wiki/concepts/Human Agency]]：稳态生存逻辑来自资源匮乏、强从众和简单模型，在高波动世界会限制人的能动性。
+- 已捕获 [[wiki/sources/Heavy-Tailed World Source Guide]]，并新增 [[wiki/concepts/Heavy-Tailed Distribution]] 与 [[wiki/concepts/Multiplicative World]]：世界常由极端值、正反馈和乘法效应支配，行动策略应从求平均转向长板、复利与保本。
 - 已捕获 [[wiki/sources/Narrative as First Principle Source Guide]]，并提升 [[wiki/concepts/Narrative]] 为概念页：叙事是把被选择的事实转化为预测、赋义、协调和行动的因果线索。
 - Tag taxonomy normalized: retired broad `ai` and redundant `source` tags, created [[wiki/_meta/taxonomy]], and cleared remaining tag-cohesion lint issues.
 - Provenance and confidence lint fixes normalized base_confidence and provenance frontmatter drift across the wiki.
@@ -20,6 +22,8 @@ updated: 2026-05-10T16:21:01+08:00
 
 ## Active Threads
 
+- 财富创造现在加入了稳态生存逻辑的反面：匮乏、强从众和简单模型曾经适合低波动生存，但在高波动世界会限制能动性、反馈速度和乘法世界入口。
+- 财富创造现在加入了重尾世界观：极端值、正反馈、复利和乘法世界解释了为什么可复制资产、声望、资本、网络效应和个人品牌会改变职业上限。
 - 学习与认知现在加入了叙事线索：事实只有被选择、排序，并绑定成能指导预测、意义、协调和行动的因果故事后，才真正变得可用。
 - Learning cognition now has an ICAP-and-cognitive-load thread: instruction should manage working-memory bandwidth, then push learners from passive reception toward construction and interactive correction when prior knowledge allows.
 - Company brain is now represented as an enterprise memory-and-action substrate: factual memory, interaction memory, action memory, context graph reasoning, and governed action must integrate before agents can safely operate on company reality. Action memory adds the operational continuity layer: procedures, triggers, execution traces, outcomes, guardrails, and intentional inaction.
@@ -57,6 +61,8 @@ updated: 2026-05-10T16:21:01+08:00
 
 ## Key Takeaways
 
+- 能动者是调用工具的人，不是别人的工具；高波动世界要求人识别旧观念背后的匮乏、弱规则和简单模型，并用更复杂的模型进入反馈、复利和杠杆结构。
+- 重尾世界要求先看回报结构：加法世界适合补短板和保出勤，乘法世界更适合押注可复利的长板，同时用保本机制防止坏的正反馈和黑天鹅摧毁本金。
 - 叙事是一种行动接口：人很少直接响应事实堆，而是响应一条说明什么重要、接下来会怎样、当前正在玩什么游戏的因果线。
 - A system should be read as relations that repeatedly generate a result, not as a pile of parts; boundary, feedback, and time are what make the whole behavior visible.
 - ICAP reframes learning effort by cognitive operation: passive reception and active manipulation help early exposure, but durable learning comes from constructing new explanations and defending them in interaction.

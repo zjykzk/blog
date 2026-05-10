@@ -12,7 +12,7 @@ base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-05-09T20:15:00+08:00
+updated: 2026-05-10T16:32:29+08:00
 aliases:
   - 管理地图
 tags:
@@ -37,8 +37,11 @@ tags:
 - [[wiki/concepts/Iceberg Model]]
 - [[wiki/topics/Mental Models]]
 - [[wiki/topics/Critical Thinking]]
+- [[wiki/concepts/Heavy-Tailed Distribution]]
+- [[wiki/concepts/Human Agency]]
 - [[wiki/concepts/Accountability]]
 - [[wiki/concepts/Permissionless Leverage]]
+- [[wiki/concepts/Multiplicative World]]
 
 ## Syntheses
 
@@ -50,6 +53,8 @@ tags:
 
 - [[wiki/sources/Mobu Notes]]
 - [[wiki/sources/How to Get Rich Source Guide]]
+- [[wiki/sources/Heavy-Tailed World Source Guide]]
+- [[wiki/sources/能动与稳态生存逻辑 Source Guide]]
 - `mobu/管理/技术管理.md`
 - `mobu/work/资源公式.md`
 - `mobu/工具/Cynefin_Framework.md`

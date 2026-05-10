@@ -12,7 +12,7 @@ base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 3
-updated: 2026-05-10T16:21:01+08:00
+updated: 2026-05-10T16:32:29+08:00
 aliases:
   - 读书地图
 tags:
@@ -30,9 +30,12 @@ tags:
 - [[wiki/topics/Thinking in Systems]]
 - [[wiki/topics/Critical Thinking]]
 - [[wiki/topics/Probability]]
+- [[wiki/concepts/Heavy-Tailed Distribution]]
 - [[wiki/topics/Modern Software Engineering]]
 - [[wiki/topics/Learnable Structure in Data]]
 - [[wiki/topics/Wealth Creation]]
+- [[wiki/concepts/Multiplicative World]]
+- [[wiki/concepts/Human Agency]]
 - [[wiki/topics/Judgment Under Leverage]]
 - [[wiki/concepts/Narrative]]
 
@@ -51,6 +54,8 @@ tags:
 - [[wiki/sources/Probability Roundtable Source Guide]]
 - [[wiki/sources/Epiplexity Paper Notes]]
 - [[wiki/sources/How to Get Rich Source Guide]]
+- [[wiki/sources/Heavy-Tailed World Source Guide]]
+- [[wiki/sources/能动与稳态生存逻辑 Source Guide]]
 
 ## Source layer
 
