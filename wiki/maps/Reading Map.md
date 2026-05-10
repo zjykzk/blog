@@ -12,7 +12,7 @@ base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 3
-updated: 2026-05-10T21:43:57+08:00
+updated: 2026-05-10T22:20:21+08:00
 aliases:
   - 读书地图
 tags:
@@ -39,6 +39,7 @@ tags:
 - [[wiki/topics/Judgment Under Leverage]]
 - [[wiki/concepts/Narrative]]
 - [[wiki/concepts/Hard Constraint]]
+- [[wiki/concepts/Uncertainty as Meaning Fuel]]
 
 ## Syntheses
 
@@ -52,6 +53,7 @@ tags:
 - [[wiki/sources/Modern Software Engineering Notes]]
 - [[wiki/sources/Mobu Notes]]
 - [[wiki/sources/Narrative as First Principle Source Guide]]
+- [[wiki/sources/可能：不确定性是意义的燃料 Source Guide]]
 - [[wiki/sources/Probability Roundtable Source Guide]]
 - [[wiki/sources/Epiplexity Paper Notes]]
 - [[wiki/sources/How to Get Rich Source Guide]]

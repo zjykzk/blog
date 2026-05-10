@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-10T21:43:57+08:00
+updated: 2026-05-10T22:20:21+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -160,6 +160,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Software Analysis Three Generators|Software Analysis Three Generators]] — 翻书架：需求工程、用例建模、领域驱动设计、事件风暴、用户故事地图、业务流程再造、数据流图、状态机、UML 九种图、C4 模型、ArchiMate、Use Case 2.0、Jobs to be Done……每一派都说自己抓到了本质，每一派都有一套词汇表、一套图、一套流程。新人进来第一个反应是：这些到底是同一件事的不同说法，还是真的在干不同的事？
 - [[wiki/concepts/Software Design Three Generators|Software Design Three Generators]] — 软件设计这门学问，名词满天飞：SOLID、设计模式二十三种、DDD、六边形、洋葱、整洁架构、CQRS、事件溯源、依赖注入、分层、微服务、界限上下文、聚合根……但任何一个设计决定，最后都能归到三根独立的生成器里。
 - [[wiki/concepts/System|System]] — A system is a bounded set of interacting elements whose relations and feedback generate whole behavior over time. (#systems-thinking #concepts #feedback #structure)
+- [[wiki/concepts/Uncertainty as Meaning Fuel|Uncertainty as Meaning Fuel]] — 不确定性是意义的燃料：人不是只想要确定性，而是需要在可承受的不确定中完成探索、叙事、判断和行动。 (#thinking #probability #cognition #judgment)
 - [[wiki/concepts/Speculative Decoding|Speculative Decoding]] — Speculative decoding proposes multiple cheap draft tokens and verifies them with the large model to reduce expensive decoding steps. (#llm #inference #decoding)
 - [[wiki/concepts/Specific Knowledge|Specific Knowledge]] — Specific knowledge is hard-to-train knowledge built from genuine curiosity, practice, and creative or technical edge. (#wealth #learning #skill #judgment)
 - [[wiki/concepts/State Management|State Management]] — State management controls where application state lives, how it changes, and how those changes propagate through the interface. (#frontend #architecture #state)
@@ -228,6 +229,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Meta-Harness Paper Source Guide|Meta-Harness Paper Source Guide]] — Source guide for the Meta-Harness paper, focused on automated search over executable model harnesses using full filesystem access to code, scores, and traces. (#paper #arxiv #agents #harness)
 - [[wiki/sources/Mobu Notes|Mobu Notes Source Guide]] — mobu/ 目前是个人知识与领域素材的大池子，适合作为 raw/domain input 层，而不是直接作为稳定 wiki 层。 (#mobu #raw)
 - [[wiki/sources/Narrative as First Principle Source Guide|Narrative as First Principle Source Guide]] — 这页导览一篇把叙事视为事实、物理、意识、意义、协作与行动之间接口的世界观文章。 (#thinking #worldview #cognition #coordination)
+- [[wiki/sources/可能：不确定性是意义的燃料 Source Guide|可能：不确定性是意义的燃料 Source Guide]] — 这页导览《可能：不确定性是意义的燃料》：不确定性不可消灭，却能成为意义、探索、回报和行动可能性的燃料。 (#article #thinking #probability #judgment #wealth)
 - [[wiki/sources/Modern Software Engineering Notes|Modern Software Engineering Notes]] — 这份读书笔记目前以摘录和图片为主，仍更适合作为 source note，而不是直接升格为稳定 wiki 页面。 (#book-notes #software-engineering)
 - [[wiki/sources/NotebookLM Learning Workflow Source Guide|NotebookLM Learning Workflow Source Guide]] — Source guide for Ihtesham Ali's NotebookLM learning workflow thread: corpus loading, mental-model prompts, disagreement mapping, and diagnostic feedback. (#learning #notebooklm #questions)
 - [[wiki/sources/Probability Roundtable Source Guide|Probability Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担概率论的稳定母页角色。 (#probability #thinking #roundtable)

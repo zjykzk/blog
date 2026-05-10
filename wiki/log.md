@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-10T16:32:29+08:00
+updated: 2026-05-10T22:20:21+08:00
 aliases:
   - Wiki Log
 tags:
@@ -132,3 +132,5 @@ tags:
 - [2026-05-10T16:32:29+08:00] CAPTURE type=concept page="wiki/concepts/Human Agency.md" title="Human Agency"
 - [2026-05-10T21:43:57+08:00] CAPTURE type=source page="wiki/sources/Hard Constraints Source Guide.md" title="Hard Constraints Source Guide"
 - [2026-05-10T21:43:57+08:00] CAPTURE type=concept page="wiki/concepts/Hard Constraint.md" title="Hard Constraint"
+- [2026-05-10T22:20:21+08:00] CAPTURE type=source page="wiki/sources/可能：不确定性是意义的燃料 Source Guide.md" title="可能：不确定性是意义的燃料 Source Guide"
+- [2026-05-10T22:20:21+08:00] CAPTURE type=concept page="wiki/concepts/Uncertainty as Meaning Fuel.md" title="Uncertainty as Meaning Fuel"

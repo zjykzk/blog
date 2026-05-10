@@ -1,18 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured hard constraints as the reality boundary that keeps narrative, agency, and action from collapsing into wishful myth.
+summary: Recent wiki activity captured uncertainty as meaning fuel: a worldview where unknowns are managed, embraced, and converted into narrative, agency, and options.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-10T21:43:57+08:00
+updated: 2026-05-10T22:20:21+08:00
 ---
 
 ## Recent Activity
 
+- 已捕获 [[wiki/sources/可能：不确定性是意义的燃料 Source Guide]]，并新增 [[wiki/concepts/Uncertainty as Meaning Fuel]]：不确定性不是纯粹的坏东西，而是意义、叙事、探索、回报和行动可能性的燃料。
 - 已捕获 [[wiki/sources/Hard Constraints Source Guide]]，并新增 [[wiki/concepts/Hard Constraint]]：有效叙事必须先尊重资源、时间窗口、自然规律和他人能动性等现实边界。
 - 已捕获 [[wiki/sources/能动与稳态生存逻辑 Source Guide]]，并新增 [[wiki/concepts/Human Agency]]：稳态生存逻辑来自资源匮乏、强从众和简单模型，在高波动世界会限制人的能动性。
 - 已捕获 [[wiki/sources/Heavy-Tailed World Source Guide]]，并新增 [[wiki/concepts/Heavy-Tailed Distribution]] 与 [[wiki/concepts/Multiplicative World]]：世界常由极端值、正反馈和乘法效应支配，行动策略应从求平均转向长板、复利与保本。
@@ -23,6 +24,7 @@ updated: 2026-05-10T21:43:57+08:00
 
 ## Active Threads
 
+- 基本世界观现在加入“可能 / 不确定性”线索：世界无法被完全预测，意义来自在可承受的不确定中探索、判断、行动，并把未知逐步转化为确定。
 - 基本世界观现在加入“约束”线索：叙事能激发行动，但必须接受硬约束校验；成熟行动的顺序是先盘资源、看窗口、尊重规律、承认他人，再寻找路径。
 - 财富创造现在加入了稳态生存逻辑的反面：匮乏、强从众和简单模型曾经适合低波动生存，但在高波动世界会限制能动性、反馈速度和乘法世界入口。
 - 财富创造现在加入了重尾世界观：极端值、正反馈、复利和乘法世界解释了为什么可复制资产、声望、资本、网络效应和个人品牌会改变职业上限。
@@ -63,6 +65,8 @@ updated: 2026-05-10T21:43:57+08:00
 
 ## Key Takeaways
 
+- 不确定性是意义的燃料：人需要的不是绝对确定，而是在可承受的不确定中体验悬念、探索、解决、叙事和行动的张力。
+- 不确定性应先被当作信息问题处理：识别它来自混沌、计算不可约性、量子随机、模型外变化还是博弈反身性，再决定管理、拥抱或制造。
 - 这个世界不是愿望实现机，而是硬约束之网；行动前要先盘资源、看窗口、尊重规律、承认他人能动性，再让叙事服务行动。
 - 能动者是调用工具的人，不是别人的工具；高波动世界要求人识别旧观念背后的匮乏、弱规则和简单模型，并用更复杂的模型进入反馈、复利和杠杆结构。
 - 重尾世界要求先看回报结构：加法世界适合补短板和保出勤，乘法世界更适合押注可复利的长板，同时用保本机制防止坏的正反馈和黑天鹅摧毁本金。
