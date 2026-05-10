@@ -14,7 +14,7 @@ created: 2026-04-26
 base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-10T21:43:57+08:00
+updated: 2026-05-10T22:51:54+08:00
 aliases:
   - 学习地图
 provenance:
@@ -43,6 +43,7 @@ provenance:
 - [[wiki/concepts/Cognitive Engineering]]——设计人、工具与反馈构成的认知系统
 - [[wiki/concepts/AI Learning Tutor Loop]]——用 AI 源材料系统建立知识地形、诊断理解并修补错误
 - [[wiki/concepts/Narrative]]——把事实串成可预测、可赋义、可协调、可行动的因果线索
+- [[wiki/concepts/三个自我模型]]——把当下体验、角色叙事和底层预测模型区分开，解释成长为什么要改训练样本、奖励函数和更新规则
 - [[wiki/concepts/Hard Constraint]]——让叙事和行动先接受资源、时间、规律与他人能动性的现实校验
 
 ## 跨源综合
@@ -58,6 +59,7 @@ provenance:
 - [[wiki/sources/How People Learn Transfer Source Guide]]——学习迁移与应用的外部来源
 - [[wiki/sources/Cognitive Load Theory Source Guide]]——认知负荷理论、图式形成、直接教学、范例学习与 AI tutor/doer 边界
 - [[wiki/sources/Narrative as First Principle Source Guide]]——《现代思维工具课》基本世界观中关于叙事的来源导览
+- [[wiki/sources/内核 你的三个自我 Source Guide]]——《现代思维工具课》基本世界观中关于三个自我、内核更新和训练样本/奖励函数的来源导览
 - [[wiki/sources/Hard Constraints Source Guide]]——《现代思维工具课》基本世界观中关于约束、神话破除和现实校验的来源导览
 - [[wiki/sources/Amabile Componential Theory of Creativity Source Guide]]——创造力组件理论外部来源
 - [[wiki/sources/Schon Reflective Practice Source Guide]]——设计反思实践外部来源

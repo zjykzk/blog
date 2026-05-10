@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-10T22:20:21+08:00
+updated: 2026-05-10T22:51:54+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -164,6 +164,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Speculative Decoding|Speculative Decoding]] — Speculative decoding proposes multiple cheap draft tokens and verifies them with the large model to reduce expensive decoding steps. (#llm #inference #decoding)
 - [[wiki/concepts/Specific Knowledge|Specific Knowledge]] — Specific knowledge is hard-to-train knowledge built from genuine curiosity, practice, and creative or technical edge. (#wealth #learning #skill #judgment)
 - [[wiki/concepts/State Management|State Management]] — State management controls where application state lives, how it changes, and how those changes propagate through the interface. (#frontend #architecture #state)
+- [[wiki/concepts/三个自我模型|三个自我模型]] — 三个自我模型把人分为进程自我、界面自我和内核自我，用来解释为什么真正成长要改写底层预测模型和奖励函数。 (#cognition #learning #thinking #llm)
 - [[wiki/concepts/Understanding|Understanding]] — 理解不是拥有一句定义，而是在脑中形成一团可横向类比、纵向抽象、并能被重新创造的概念云。 (#cognition #learning #concepts)
 - [[wiki/concepts/Verification Loop|Verification Loop]] — A verification loop gives an agent external feedback, such as tests, visual checks, or evaluators, so errors are caught before they compound. (#agents #verification)
 
@@ -229,6 +230,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Meta-Harness Paper Source Guide|Meta-Harness Paper Source Guide]] — Source guide for the Meta-Harness paper, focused on automated search over executable model harnesses using full filesystem access to code, scores, and traces. (#paper #arxiv #agents #harness)
 - [[wiki/sources/Mobu Notes|Mobu Notes Source Guide]] — mobu/ 目前是个人知识与领域素材的大池子，适合作为 raw/domain input 层，而不是直接作为稳定 wiki 层。 (#mobu #raw)
 - [[wiki/sources/Narrative as First Principle Source Guide|Narrative as First Principle Source Guide]] — 这页导览一篇把叙事视为事实、物理、意识、意义、协作与行动之间接口的世界观文章。 (#thinking #worldview #cognition #coordination)
+- [[wiki/sources/内核 你的三个自我 Source Guide|内核：你的三个自我 Source Guide]] — 这页导览《内核：你的三个自我》：人成长的关键不是改情绪或人设，而是通过训练样本、奖励函数和反馈改写内核自我。 (#article #cognition #learning #thinking #llm)
 - [[wiki/sources/可能：不确定性是意义的燃料 Source Guide|可能：不确定性是意义的燃料 Source Guide]] — 这页导览《可能：不确定性是意义的燃料》：不确定性不可消灭，却能成为意义、探索、回报和行动可能性的燃料。 (#article #thinking #probability #judgment #wealth)
 - [[wiki/sources/Modern Software Engineering Notes|Modern Software Engineering Notes]] — 这份读书笔记目前以摘录和图片为主，仍更适合作为 source note，而不是直接升格为稳定 wiki 页面。 (#book-notes #software-engineering)
 - [[wiki/sources/NotebookLM Learning Workflow Source Guide|NotebookLM Learning Workflow Source Guide]] — Source guide for Ihtesham Ali's NotebookLM learning workflow thread: corpus loading, mental-model prompts, disagreement mapping, and diagnostic feedback. (#learning #notebooklm #questions)

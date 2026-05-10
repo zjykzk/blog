@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-10T22:20:21+08:00
+updated: 2026-05-10T22:51:54+08:00
 aliases:
   - Wiki Log
 tags:
@@ -134,3 +134,5 @@ tags:
 - [2026-05-10T21:43:57+08:00] CAPTURE type=concept page="wiki/concepts/Hard Constraint.md" title="Hard Constraint"
 - [2026-05-10T22:20:21+08:00] CAPTURE type=source page="wiki/sources/可能：不确定性是意义的燃料 Source Guide.md" title="可能：不确定性是意义的燃料 Source Guide"
 - [2026-05-10T22:20:21+08:00] CAPTURE type=concept page="wiki/concepts/Uncertainty as Meaning Fuel.md" title="Uncertainty as Meaning Fuel"
+- [2026-05-10T22:51:54+08:00] CAPTURE type=source page="wiki/sources/内核 你的三个自我 Source Guide.md" title="内核：你的三个自我 Source Guide"
+- [2026-05-10T22:51:54+08:00] CAPTURE type=concept page="wiki/concepts/三个自我模型.md" title="三个自我模型"
