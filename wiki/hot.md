@@ -8,20 +8,14 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-10T22:51:54+08:00
+updated: 2026-05-10T23:12:22+08:00
 ---
 
 ## Recent Activity
 
+- [[wiki/concepts/Additive World]] 已从 [[wiki/concepts/Multiplicative World]] 的别名中拆出为独立概念页：加法世界负责保底、补短板和稳定交付，乘法世界负责长板、复利和非线性上限。
 - 已捕获 [[wiki/sources/内核 你的三个自我 Source Guide]]，并新增 [[wiki/concepts/三个自我模型]]：真正的成长不是改情绪或人设，而是通过训练样本、奖励函数和现实反馈改写内核自我。
 - 已捕获 [[wiki/sources/可能：不确定性是意义的燃料 Source Guide]]，并新增 [[wiki/concepts/Uncertainty as Meaning Fuel]]：不确定性不是纯粹的坏东西，而是意义、叙事、探索、回报和行动可能性的燃料。
-- 已捕获 [[wiki/sources/Hard Constraints Source Guide]]，并新增 [[wiki/concepts/Hard Constraint]]：有效叙事必须先尊重资源、时间窗口、自然规律和他人能动性等现实边界。
-- 已捕获 [[wiki/sources/能动与稳态生存逻辑 Source Guide]]，并新增 [[wiki/concepts/Human Agency]]：稳态生存逻辑来自资源匮乏、强从众和简单模型，在高波动世界会限制人的能动性。
-- 已捕获 [[wiki/sources/Heavy-Tailed World Source Guide]]，并新增 [[wiki/concepts/Heavy-Tailed Distribution]] 与 [[wiki/concepts/Multiplicative World]]：世界常由极端值、正反馈和乘法效应支配，行动策略应从求平均转向长板、复利与保本。
-- 已捕获 [[wiki/sources/Narrative as First Principle Source Guide]]，并提升 [[wiki/concepts/Narrative]] 为概念页：叙事是把被选择的事实转化为预测、赋义、协调和行动的因果线索。
-- Tag taxonomy normalized: retired broad `ai` and redundant `source` tags, created [[wiki/_meta/taxonomy]], and cleared remaining tag-cohesion lint issues.
-- Provenance and confidence lint fixes normalized base_confidence and provenance frontmatter drift across the wiki.
-- Cross-linked [[wiki/topics/High Concurrency]] and [[wiki/topics/LLM Inference Systems]] as peer systems-pressure topics after clearing broken wikilinks.
 
 ## Active Threads
 
@@ -72,7 +66,7 @@ updated: 2026-05-10T22:51:54+08:00
 - 不确定性应先被当作信息问题处理：识别它来自混沌、计算不可约性、量子随机、模型外变化还是博弈反身性，再决定管理、拥抱或制造。
 - 这个世界不是愿望实现机，而是硬约束之网；行动前要先盘资源、看窗口、尊重规律、承认他人能动性，再让叙事服务行动。
 - 能动者是调用工具的人，不是别人的工具；高波动世界要求人识别旧观念背后的匮乏、弱规则和简单模型，并用更复杂的模型进入反馈、复利和杠杆结构。
-- 重尾世界要求先看回报结构：加法世界适合补短板和保出勤，乘法世界更适合押注可复利的长板，同时用保本机制防止坏的正反馈和黑天鹅摧毁本金。
+- 重尾世界要求先看回报结构：[[wiki/concepts/Additive World]] 适合补短板、保出勤和守住下限，[[wiki/concepts/Multiplicative World]] 更适合押注可复利的长板，同时用保本机制防止坏的正反馈和黑天鹅摧毁本金。
 - 叙事是一种行动接口：人很少直接响应事实堆，而是响应一条说明什么重要、接下来会怎样、当前正在玩什么游戏的因果线。
 - A system should be read as relations that repeatedly generate a result, not as a pile of parts; boundary, feedback, and time are what make the whole behavior visible.
 - ICAP reframes learning effort by cognitive operation: passive reception and active manipulation help early exposure, but durable learning comes from constructing new explanations and defending them in interaction.

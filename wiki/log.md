@@ -136,3 +136,5 @@ tags:
 - [2026-05-10T22:20:21+08:00] CAPTURE type=concept page="wiki/concepts/Uncertainty as Meaning Fuel.md" title="Uncertainty as Meaning Fuel"
 - [2026-05-10T22:51:54+08:00] CAPTURE type=source page="wiki/sources/内核 你的三个自我 Source Guide.md" title="内核：你的三个自我 Source Guide"
 - [2026-05-10T22:51:54+08:00] CAPTURE type=concept page="wiki/concepts/三个自我模型.md" title="三个自我模型"
+- [2026-05-10T23:07:11+08:00] QUERY query="什么是加法世界、乘法世界" result_pages=5 mode=normal escalated=false
+- [2026-05-10T23:12:22+08:00] WIKI_UPDATE pages_updated=4 pages_created=1 note="补充加法世界 gap：新增 Additive World 概念页，并从 Multiplicative World 拆出别名与双向链接"

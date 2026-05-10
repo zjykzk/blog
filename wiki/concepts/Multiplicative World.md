@@ -12,9 +12,9 @@ tags:
 sources:
   - conversation:2026-05-10
 created: 2026-05-10T16:27:44+08:00
-updated: 2026-05-10T16:27:44+08:00
+updated: 2026-05-10T23:12:22+08:00
 summary: >-
-  乘法世界是回报由当前动作与既有存量共同决定的世界；它要求人从补平均短板转向寻找可复利、可放大的长板。
+  乘法世界是回报由当前动作与既有存量共同决定的世界；它与加法世界相对，要求人寻找可复利、可放大的长板。
 provenance:
   extracted: 0.72
   inferred: 0.25
@@ -24,8 +24,6 @@ lifecycle: draft
 lifecycle_changed: 2026-05-10
 aliases:
   - 乘法世界
-  - 加法世界
-  - additive world
 ---
 
 # Multiplicative World
@@ -34,7 +32,7 @@ aliases:
 
 ## What It Is
 
-加法世界里，一次劳动换一次报酬，收益主要由投入次数相加而成。出租车司机每天出车、普通计件劳动、固定满分考试，都更接近这种结构。
+加法世界里，一次劳动换一次报酬，收益主要由投入次数相加而成。出租车司机每天出车、普通计件劳动、固定满分考试，都更接近 [[wiki/concepts/Additive World]]。
 
 乘法世界里，资本、品牌、网络效应、声望、代码、媒体、组织资源和可信关系会让一次动作被放大。它不是只奖励努力，而是奖励能被存量复利放大的长板。
 
@@ -53,6 +51,7 @@ aliases:
 ## Related
 
 - [[wiki/sources/Heavy-Tailed World Source Guide]]
+- [[wiki/concepts/Additive World]]
 - [[wiki/concepts/Heavy-Tailed Distribution]]
 - [[wiki/topics/Wealth Creation]]
 - [[wiki/concepts/Permissionless Leverage]]

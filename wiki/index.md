@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-10T22:51:54+08:00
+updated: 2026-05-10T23:12:22+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -81,6 +81,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 
 ## Concepts
 - [[wiki/concepts/Accountability|Accountability]] — Accountability means taking public, name-attached risk so society can route responsibility, equity, and leverage toward you. (#wealth #responsibility #judgment #career)
+- [[wiki/concepts/Additive World|Additive World]] — 加法世界是回报主要由投入次数相加而成的世界；它适合保底、补短板和稳定交付，但很难单独打开非线性上限。 (#wealth #systems-thinking #career)
 - [[wiki/concepts/Agent|Agent]] — Agent 的核心任务目前可以归纳为三件事： (#agents #concept)
 - [[wiki/concepts/Agent Action Space|Agent Action Space]] — Agent Action Space is the set of actions an agent can perceive, choose, compose, and execute through tools, skills, subagents, and harness policy. (#agents #tools #harness)
 - [[wiki/concepts/Agent Skill|Agent Skill]] — Agent Skill is a reusable capability bundle that can combine instructions, references, scripts, assets, memory, and hooks for agent work. (#agents #skills #workflow)

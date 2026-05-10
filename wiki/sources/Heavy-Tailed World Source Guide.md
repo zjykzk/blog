@@ -12,7 +12,7 @@ tags:
 sources:
   - conversation:2026-05-10
 created: 2026-05-10T16:27:44+08:00
-updated: 2026-05-10T16:27:44+08:00
+updated: 2026-05-10T23:12:22+08:00
 summary: >-
   这页导览《重尾：世界服从极端值》：世界常由少数极端值、正反馈和乘法效应支配，策略应从求平均转向长板、复利与保本。
 provenance:
@@ -55,7 +55,7 @@ aliases:
 ## Integration Decisions
 
 - [[wiki/concepts/Heavy-Tailed Distribution]] 值得提升为独立概念页，因为它是这篇文章的核心统计结构，也能连接 [[wiki/topics/Probability]]、[[wiki/topics/Thinking in Systems]] 和财富创造主题。
-- [[wiki/concepts/Multiplicative World]] 值得先建立概念种子页，因为「加法世界 / 乘法世界」是文章给出的行动翻译：不是只知道世界不平均，而是改变自己参与回报结构的方式。
+- [[wiki/concepts/Multiplicative World]] 与 [[wiki/concepts/Additive World]] 值得拆成一对概念页，因为「加法世界 / 乘法世界」是文章给出的行动翻译：不是只知道世界不平均，而是改变自己参与回报结构的方式。
 - 这篇 source guide 不直接覆盖贫富差距的政治经济学争议。文章对激进再分配、横截面与纵向收入流动性的判断应暂时保留在 source 层，后续若有更多来源再进入综合页。^[inferred]
 - 这篇材料与 [[wiki/sources/How to Get Rich Source Guide]] 互补：前者解释重尾与正反馈的世界结构，后者解释具体的财富创造公式，即特定知识、责任、杠杆和判断。
 
