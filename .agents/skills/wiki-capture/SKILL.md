@@ -67,6 +67,12 @@ Do **not** write a summary of the conversation. Write the knowledge itself, in d
 - Not: "We decided to use Y because..."
 - Yes: "Y is preferred over Z because [reason]. [^[inferred] if the rationale was implied, not stated explicitly]"
 
+### Language preservation
+
+Preserve the user's/source's primary language when writing the note body, summaries, index entries, hot-cache updates, and map descriptions. If the source material is Chinese or the user writes the capture instruction in Chinese, write the durable wiki prose in Chinese by default. English page titles may still be used when they match the vault's naming convention or avoid duplicate concepts, but the explanatory content should follow the source/user language unless the user explicitly asks otherwise.
+
+This matters because wiki-capture is not merely storing facts; it is creating a reusable reading artifact. A Chinese source captured into English forces an unnecessary second pass and breaks the user's expected reading flow.
+
 When the captured conversation just produced a structured analytical artifact from another skill (for example a rank analysis, PRD, research synthesis, or diagram explanation), preserve the artifact's core conceptual shape while converting it into wiki prose. Do not preserve chat logistics, but do preserve the named framework, generated categories, diagnostic questions, and compact diagrams if they are the durable knowledge. If an external side artifact was also written (for example under `~/Documents/notes/`), do not treat that file as a source unless the user asked to ingest it; cite the conversation as the source and link the wiki note to existing wiki pages.
 
 Apply provenance markers per `llm-wiki`:

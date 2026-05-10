@@ -89,7 +89,7 @@
     "ljg-present": {
       "source": "lijigang/ljg-skills",
       "sourceType": "github",
-      "computedHash": "f56a8e367f28a768f07067e96061da07694f054a0ee2e6d3ecc2a7a007028dbf"
+      "computedHash": "922cb68b1eb629c079a219cd0cf0fbde497b07fdb56eb5869a70c5c2d273af53"
     },
     "ljg-push": {
       "source": "lijigang/ljg-skills",
@@ -104,7 +104,7 @@
     "ljg-rank": {
       "source": "lijigang/ljg-skills",
       "sourceType": "github",
-      "computedHash": "cd20b2bd8df51cd02de54211c2281f270177669b9fdd9427be3bfa4baf475b79"
+      "computedHash": "fb24a46e563fe6efc4e3eb7c256fb3593b3ed4c788129b0bef146010de300757"
     },
     "ljg-read": {
       "source": "lijigang/ljg-skills",

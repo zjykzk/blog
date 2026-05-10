@@ -19,6 +19,8 @@ You are performing a health check on an Obsidian wiki. Your goal is to find and 
 2. Read `index.md` for the full page inventory
 3. Read `log.md` for recent activity context
 
+If `.env` is missing, do not stop if the repository clearly contains a canonical `wiki/` directory with `wiki/index.md` and `wiki/log.md`; state the fallback assumption explicitly and scan that directory. This repository uses `wiki/` as the stable knowledge layer, so `/path/to/repo/wiki` is the correct fallback when no configured vault path exists.
+
 ## Lint Checks
 
 Run these checks in order. Report findings as you go.
@@ -49,6 +51,9 @@ Find `[[wikilinks]]` that point to pages that don't exist.
 - If the target was renamed, update the link
 - If the target should exist, create it
 - If the link is wrong, remove or correct it
+- For legacy source-layer paths such as `pages/...` or `mobu/...` that are intentionally not wiki pages, prefer converting the wikilink to inline code (for example `` `pages/SDD` ``) instead of linking to the current page or fabricating a page. Only map to a stable `wiki/...` page when the old target is clearly the same knowledge object.
+- Watch for accidental self-links introduced while fixing broken links. A self-link may not be "broken", but it is usually noisy navigation. Replace it with plain text unless the self-reference is intentionally semantic.
+- After fixes, re-run link validation and report `broken_count`, `selflink_count`, and `orphan_count`; append a `LINT_FIX` log entry with counts and files modified.
 
 ### 3. Missing Frontmatter
 
@@ -80,6 +85,9 @@ Pages whose `updated` timestamp is old relative to their sources.
 **How to check:**
 - Compare page `updated` timestamps to source file modification times
 - Flag pages where sources have been modified after the page was last updated
+- Normalize ISO timestamps before comparing (`+0800` and `+08:00` are the same instant). Treat date-only values as local dates for the vault.
+
+**Operational pitfall:** if you refresh both source pages and synthesis pages in one pass, update the source pages first, then bump the dependent synthesis page `updated:` after the source-page file mtimes. Otherwise the synthesis page can immediately reappear as stale because its source pages were modified seconds later.
 
 ### 5. Contradictions
 
@@ -108,6 +116,8 @@ Check whether pages are being honest about how much of their content is inferred
 
 **How to check:**
 - For each page with a `provenance:` block or any `^[inferred]`/`^[ambiguous]` markers, count sentences/bullets and how many end with each marker
+- Count each unit exactly once: `ambiguous` takes priority over `inferred`, and `extracted = max(0, 1 - inferred - ambiguous)`. Never let extracted go negative.
+- Prefer paragraph/list-item units over naive sentence splitting when pages contain many bullets, tables, code fences, Chinese punctuation, or repeated inline markers.
 - Compute rough fractions (`extracted`, `inferred`, `ambiguous`)
 - Apply these thresholds:
   - **AMBIGUOUS > 15%**: flag as "speculation-heavy" — even 1-in-7 claims being genuinely uncertain is a signal the page needs tighter sourcing or should be moved to `synthesis/`
@@ -121,6 +131,7 @@ Check whether pages are being honest about how much of their content is inferred
 - For unsourced synthesis: add `sources:` to frontmatter or clearly label the page as synthesis
 - For hub pages with INFERRED > 20%: prioritize for re-ingestion — errors here have the widest blast radius
 - For drift: update the `provenance:` frontmatter to match the recomputed values
+- If a first-pass provenance script reports impossible fractions (for example negative extracted) or obvious false positives, do not publish the raw result as final. Correct the counting logic, re-run, and append a superseding `LINT` log entry noting that the prior same-session result was superseded.
 
 ### 8. Fragmented Tag Clusters
 
@@ -133,6 +144,11 @@ Checks whether pages that share a tag are actually linked to each other. Tags im
   - `cohesion = actual_links / (n × (n−1) / 2)`
 - Flag any tag group where cohesion < 0.15 and n ≥ 5
 
+**How to interpret:**
+- Broad umbrella tags such as `ai` and system/source-type tags such as `source` often produce low cohesion even when the wiki is healthy. Do not blindly add dozens of weak links to satisfy the metric.
+- For large clusters (roughly n > 15), prefer a taxonomy decision: split the tag into more specific sub-tags or mark it as a meta/system tag excluded from cohesion checks.
+- For smaller topical tags, run the `cross-linker` skill targeted at the fragmented tag and add only semantically meaningful links.
+
 **How to fix:**
 - Run the `cross-linker` skill targeted at the fragmented tag — it will surface and insert the missing links
 - If a tag group is large (n > 15) and still fragmented, consider splitting it into more specific sub-tags
@@ -143,7 +159,7 @@ Checks that `visibility/` tags are applied correctly and aren't silently missing
 
 **How to check:**
 
-- **Untagged PII patterns:** Grep page bodies for patterns that commonly indicate sensitive data — lines containing `password`, `api_key`, `secret`, `token`, `ssn`, `email:`, `phone:` followed by an actual value (not a field description). If a page matches and lacks `visibility/pii` or `visibility/internal`, flag it as a likely mis-classification.
+- **Untagged PII patterns:** Grep page bodies for patterns that commonly indicate sensitive data — anchored value lines such as `password: ...`, `api_key=...`, `secret: ...`, `ssn: ...`, `email: actual@example.com`, or `phone: +...`. Require a field-like key plus a plausible value; do not flag ordinary prose or concept titles such as "Token" in "Life of a Token".
 - **`visibility/pii` without `sources:`:** A page tagged `visibility/pii` should always have a `sources:` frontmatter field — if there's no provenance, there's no way to verify the classification. Flag any `visibility/pii` page missing `sources:`.
 - **Visibility tags in taxonomy:** `visibility/` tags are system tags and must **not** appear in `_meta/taxonomy.md`. If found there, flag as misconfigured — they'd be counted toward the 5-tag limit on pages that include them.
 
@@ -316,6 +332,11 @@ Concept pairs that co-occur frequently but have no synthesis page:
 | [[Caching]] × [[Consistency]] | 5 pages | Run `/wiki-synthesize` |
 | [[Testing]] × [[Observability]] | 3 pages | Run `/wiki-synthesize` |
 ```
+
+## References
+
+- `references/broken-wikilink-remediation.md` — migration-era broken link repair patterns: canonical wiki remaps vs raw/source path code spans, self-link verification, and `LINT_FIX` logging.
+- `references/lint-script-pitfalls.md` — session-derived pitfalls for timestamp comparison, provenance counting, PII false positives, and interpreting broad fragmented tags.
 
 ## After Linting
 

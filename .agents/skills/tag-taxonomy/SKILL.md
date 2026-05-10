@@ -25,10 +25,14 @@ The canonical tag vocabulary lives at `$OBSIDIAN_VAULT_PATH/_meta/taxonomy.md`. 
 
 - **Canonical tags** — the tags that should be used
 - **Aliases** — common alternatives that should be mapped to the canonical form
-- **Rules** — max 5 tags per page, lowercase/hyphenated, prefer broad over narrow
+- **Rules** — max 5 tags per page, lowercase/hyphenated, prefer specific cluster tags over umbrella tags
 - **Migration guide** — specific renames for known inconsistencies
 
 **Always read this file before tagging.** It's the source of truth.
+
+If `_meta/taxonomy.md` is missing during a tag cleanup, create it rather than proceeding ad hoc. Seed it with: rules, retired/ignored umbrella tags, common cluster tags, source-kind tags, and alias mappings. Do not include `visibility/` tags as canonical entries; document them only as reserved system tags.
+
+Session reference: `references/tag-normalization-pitfalls.md` captures the 2026-05-10 wiki cleanup pattern for retiring broad `ai`/`source` tags and avoiding lint/logging pitfalls.
 
 ## Reserved System Tags
 
@@ -111,14 +115,23 @@ When the user wants to fix the tags:
 
 ### Step 1: Run audit (above)
 
-### Step 2: Apply fixes
+### Step 2: Interpret broad low-cohesion tags before editing
+
+If tag lint or wiki-lint reports a huge fragmented cluster, decide whether the tag is a real topic cluster or an umbrella/meta tag:
+
+- Real topic cluster, small enough to be meaningfully woven: add cross-links or run `cross-linker`.
+- Umbrella tag (for example `ai`) or redundant type tag (for example `source` when pages already have `category: sources`): retire it, remove it from page frontmatter, and preserve meaning with more specific existing tags such as `agents`, `llm`, `harness`, `memory`, `context`, `inference`, `ai-coding`, `paper`, `article`, or `blog`.
+- Do not "fix" a broad tag by adding dozens of weak links; that improves the metric while degrading the graph.
+
+### Step 3: Apply fixes
 
 For each page with non-canonical tags:
 
 1. Read the page
 2. Replace alias tags with their canonical form from the taxonomy
-3. If page has > 5 tags, suggest which to drop (keep the most specific/relevant ones)
-4. Write the updated frontmatter
+3. Remove retired umbrella/type tags when their meaning is already carried by category or more specific tags
+4. If page has > 5 tags, suggest which to drop (keep the most specific/relevant ones)
+5. Write the updated frontmatter
 
 **Example:**
 
@@ -179,5 +192,12 @@ Or for normalization:
 ```
 - [TIMESTAMP] TAG_NORMALIZE tags_renamed=N pages_modified=M new_tags_added=P
 ```
+
+After changing tags in page frontmatter:
+
+- Sync display-only tag snippets in `index.md` so the inventory does not advertise retired tags.
+- Prefer line-wise index updates over a single broad multi-line regex; large `index.md` files can make greedy section regexes hang or time out.
+- Re-run the fragmented-cluster check and verify retired tags have zero remaining frontmatter uses.
+- If tag changes modify source-page mtimes, re-run stale-content checks; dependent synthesis pages may need a later `updated:` bump.
 
 **`hot.md`** — Read `$OBSIDIAN_VAULT_PATH/hot.md` (create from the template in `wiki-ingest` if missing). Update **Recent Activity** with a one-line summary — e.g. "Tag audit: normalized 14 tags across 28 pages; 2 new canonical tags added." Keep the last 3 operations. Update `updated` timestamp.
