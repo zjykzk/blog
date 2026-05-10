@@ -22,10 +22,7 @@ aliases:
 tags:
   - papers
   - agents
-  - ai
-  - source
 ---
-
 # GenericAgent Paper Source Guide
 
 This page tracks the paper *GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)*.

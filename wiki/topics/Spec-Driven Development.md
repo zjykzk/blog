@@ -10,7 +10,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
   - https://www.chrismdp.com/coding-with-ai/
 created: 2026-04-26
-base_confidence: 0.61
+base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -27,7 +27,6 @@ tags:
   - ai-coding
   - process
 ---
-
 # Spec-Driven Development
 
 Spec-Driven Development（SDD）把"代码是真相、文档是附属品"这个长期默认假设倒置：**规约是合同，代码是合同的执行副本**。合同变了，执行副本重新生成；执行副本擅自改了，CI 让构建失败。AI coding assistant 这波新工具把这个老想法重新点燃——因为 LLM 是"擅长模式补全、不会读心"的队友，模糊的上下文被放大成灾难。
@@ -101,7 +100,7 @@ This does not reject spec discipline entirely; it narrows the useful spec target
 ## Navigation
 
 - [[wiki/sources/Spec-Driven Development Paper Source Guide]]（arxiv 2602.00180 精读）
-- [[pages/SDD]]（pages/ source note，含 GitHub spec-kit）
+- `pages/SDD`（pages/ source note，含 GitHub spec-kit）
 - [[wiki/topics/User Stories]]
 - [[wiki/topics/Requirement to Architecture Mapping]]
 - [[wiki/topics/Testing Strategy]]

@@ -20,9 +20,7 @@ tags:
   - frontend
   - web
   - ui
-  - source
 ---
-
 # React Framework Background and Core Concepts Source Guide
 
 ## Current role

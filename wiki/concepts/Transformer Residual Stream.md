@@ -8,7 +8,7 @@ sources:
   - inline:life-of-a-token-2026-05-09
 created: 2026-05-09T00:00:00+08:00
 updated: 2026-05-09T00:00:00+08:00
-base_confidence: 0.44
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-09
 provenance:
@@ -19,12 +19,10 @@ aliases:
   - residual stream
   - transformer residual path
 tags:
-  - ai
   - llm
   - transformer
   - inference
 ---
-
 # Transformer Residual Stream
 
 The transformer residual stream is the running hidden representation that survives across layers while each attention or feed-forward sublayer adds an incremental update.

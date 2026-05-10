@@ -22,12 +22,10 @@ aliases:
   - coding-agent harness
   - agent workbench harness
 tags:
-  - ai
   - agents
   - harness
   - ai-coding
 ---
-
 # Coding Agent User Harness
 
 A coding agent user harness is the part of the [[wiki/topics/AI Harness]] that the developer or team can shape around a coding agent.

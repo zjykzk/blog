@@ -18,12 +18,10 @@ provenance:
 aliases:
   - specdec
 tags:
-  - ai
   - llm
   - inference
   - decoding
 ---
-
 # Speculative Decoding
 
 Speculative decoding accelerates autoregressive generation by using a cheaper proposal mechanism to draft several candidate tokens, then asking the large model to verify them in one pass.

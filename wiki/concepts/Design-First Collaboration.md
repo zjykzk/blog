@@ -19,12 +19,10 @@ aliases:
   - design-first AI collaboration
   - whiteboard before keyboard
 tags:
-  - ai
   - ai-coding
   - software-engineering
   - workflow
 ---
-
 # Design-First Collaboration
 
 Design-first collaboration is the practice of making an AI coding assistant discuss design before it writes implementation code.

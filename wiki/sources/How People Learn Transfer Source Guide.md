@@ -5,7 +5,6 @@ status: draft
 category: sources
 summary: Source guide for transfer research in How People Learn, grounding application in flexible adaptation across contexts.
 tags:
-  - source
   - learning
   - transfer
   - cognition
@@ -16,7 +15,7 @@ provenance:
   extracted: 0.84
   inferred: 0.16
   ambiguous: 0.00
-base_confidence: 0.72
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-07
 created: 2026-05-07T10:44:00+08:00
@@ -25,7 +24,6 @@ aliases:
   - transfer of learning
   - How People Learn transfer
 ---
-
 # How People Learn Transfer Source Guide
 
 This page preserves the learning-science anchor from the National Research Council's *How People Learn*.

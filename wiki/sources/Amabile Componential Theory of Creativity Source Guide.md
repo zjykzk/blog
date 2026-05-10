@@ -5,7 +5,6 @@ status: draft
 category: sources
 summary: Source guide for Amabile's componential theory, grounding creativity in novelty, appropriateness, domain skill, motivation, and environment.
 tags:
-  - source
   - creativity
   - psychology
   - learning
@@ -16,7 +15,7 @@ provenance:
   extracted: 0.82
   inferred: 0.18
   ambiguous: 0.00
-base_confidence: 0.67
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-07
 created: 2026-05-07T10:44:00+08:00
@@ -24,7 +23,6 @@ updated: 2026-05-07T10:44:00+08:00
 aliases:
   - Amabile creativity theory
 ---
-
 # Amabile Componential Theory of Creativity Source Guide
 
 This page preserves the external research anchor from Teresa M. Amabile's Harvard Business School working paper "Componential Theory of Creativity."

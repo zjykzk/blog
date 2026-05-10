@@ -9,7 +9,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
 created: 2026-04-21
-base_confidence: 0.53
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -25,7 +25,6 @@ tags:
   - software-engineering
   - methods
 ---
-
 # Modern Software Engineering
 
 这页讨论的不是某一条具体方法流派的历史，而是一个更高层的方法论总纲：如何把软件开发理解为一种经验主义、证据驱动的问题求解活动。

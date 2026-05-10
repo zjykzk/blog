@@ -20,12 +20,10 @@ aliases:
   - feature document
   - living ADR
 tags:
-  - ai
   - ai-coding
   - context
   - workflow
 ---
-
 # Context Anchoring
 
 Context anchoring is the practice of externalizing feature-level AI collaboration context into a living document outside the chat session.

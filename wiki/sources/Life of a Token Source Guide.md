@@ -8,7 +8,7 @@ sources:
   - inline:life-of-a-token-2026-05-09
 created: 2026-05-09T00:00:00+08:00
 updated: 2026-05-09T00:00:00+08:00
-base_confidence: 0.44
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-09
 provenance:
@@ -19,13 +19,10 @@ aliases:
   - Life of a Token
   - LLM Next-Token Pipeline Source Guide
 tags:
-  - source
-  - ai
   - llm
   - inference
   - transformer
 ---
-
 # Life of a Token Source Guide
 
 This page tracks the pasted article "Life of a Token: LLM's Next-Token Pipeline" as a source for the model-internal side of the AI inference cluster.

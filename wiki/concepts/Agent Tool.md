@@ -9,7 +9,7 @@ sources:
   - https://x.com/akshay_pachaar/status/2041146899319971922
   - https://x.com/trq212/status/2027463795355095314
 created: 2026-04-20
-base_confidence: 0.55
+base_confidence: 0.73
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -22,11 +22,9 @@ aliases:
   - agent tools
   - router and adapter
 tags:
-  - ai
   - agents
   - tools
 ---
-
 # Agent Tool
 
 Agent tools are the action surface exposed by an [[wiki/topics/AI Harness]] to a model. They are usually represented as schemas: names, descriptions, parameters, permissions, execution behavior, and result formatting.
@@ -68,7 +66,7 @@ Addy Osmani's harness-engineering article sharpens this into two operational rul
 
 This means tool scoping is both a context-quality problem and a security boundary problem. ^[inferred]
 
-[[wiki/sources/Seeing Like an Agent Source Guide]] adds a model-fit rule: an [[wiki/concepts/Agent Tool]] should match what the model can reliably understand and use. Claude Code's question-asking tool worked better as a dedicated tool than as a parameter on a planning tool or as a markdown output convention, because the dedicated tool gave the harness structured output and let the UI block until the user answered.
+[[wiki/sources/Seeing Like an Agent Source Guide]] adds a model-fit rule: an agent tool should match what the model can reliably understand and use. Claude Code's question-asking tool worked better as a dedicated tool than as a parameter on a planning tool or as a markdown output convention, because the dedicated tool gave the harness structured output and let the UI block until the user answered.
 
 The same source warns that tool usefulness changes as model capability changes. Todo lists and periodic reminders helped earlier Claude Code runs, but later became constraints when stronger models could revise plans and coordinate subagents. Tool design therefore needs periodic pruning, not only addition. ^[inferred]
 

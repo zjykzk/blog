@@ -8,7 +8,7 @@ tags:
 sources:
   - wiki/sources/React Framework Background and Core Concepts Source Guide.md
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-10T16:08:56+08:00
 base_confidence: 0.40
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -24,6 +24,8 @@ aliases:
 Declarative programming shifts attention from step-by-step update procedures to the desired result or state.
 
 In UI development, this means describing what the interface should look like for a given state, while the framework manages the concrete update path.
+
+Declarative style reduces manual mutation code, but it does not remove the need to model state and transitions carefully. ^[inferred]
 
 ## React connection
 

@@ -20,12 +20,10 @@ aliases:
   - harnessable
   - agent harnessability
 tags:
-  - ai
   - agents
   - harness
   - software-engineering
 ---
-
 # Harnessability
 
 Harnessability is the degree to which a task, codebase, or workflow can be effectively surrounded by a [[wiki/concepts/Coding Agent User Harness]].

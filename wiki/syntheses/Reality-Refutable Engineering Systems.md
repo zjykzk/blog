@@ -12,9 +12,9 @@ updated: 2026-05-08T23:09:47+08:00
 summary: >-
   Mature engineering systems let reality challenge their models through feedback, appeal, accountability, and redesign triggers.
 provenance:
-  extracted: 0.74
-  inferred: 0.24
-  ambiguous: 0.02
+  extracted: 0.99
+  inferred: 0.01
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-08
@@ -22,7 +22,6 @@ aliases:
   - 可被现实反驳的工程系统
   - 工程系统的可学习性、可申诉性与可追责性
 ---
-
 # Reality-Refutable Engineering Systems
 
 ## Context

@@ -19,13 +19,10 @@ aliases:
   - Martin Fowler harness engineering
   - coding agent harness engineering source guide
 tags:
-  - source
-  - ai
   - agents
   - harness
   - ai-coding
 ---
-
 # Harness Engineering Source Guide
 
 This page tracks Martin Fowler's article "Harness Engineering" as a source for the AI / agent engineering cluster.

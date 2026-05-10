@@ -20,12 +20,10 @@ aliases:
   - inferential controls
   - executable and judgment controls
 tags:
-  - ai
   - agents
   - harness
   - testing
 ---
-
 # Computational and Inferential Controls
 
 Computational and inferential controls describe two kinds of control surfaces in a coding-agent harness.

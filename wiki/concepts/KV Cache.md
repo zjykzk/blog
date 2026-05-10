@@ -21,12 +21,10 @@ aliases:
   - key value cache
   - transformer KV cache
 tags:
-  - ai
   - llm
   - inference
   - caching
 ---
-
 # KV Cache
 
 KV cache is the stored key/value state a transformer can reuse after it has already processed a token sequence.
@@ -74,7 +72,7 @@ The vLLM source adds the serving-system view of KV cache: the cache is not only 
 
 In [[wiki/concepts/Paged Attention]], the inference engine stores KV state in fixed-size blocks. Each request owns a list of blocks, and the scheduler allocates more blocks as prefill or decode work adds tokens.
 
-This makes [[wiki/concepts/KV Cache]] part of the scheduler's resource accounting: a request can run only if enough cache slots are available for its next tokens.
+This makes KV cache part of the scheduler's resource accounting: a request can run only if enough cache slots are available for its next tokens.
 
 Prefix caching then adds a second reuse path: complete token blocks can be hashed and reused across requests that share the same prefix.
 

@@ -9,7 +9,7 @@ sources:
   - https://x.com/trq212/status/2024574133011673516
 created: 2026-05-05T00:00:00+08:00
 updated: 2026-05-05T13:58:10+08:00
-base_confidence: 0.61
+base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -20,12 +20,10 @@ aliases:
   - prompt cache
   - prompt prefix caching
 tags:
-  - ai
   - agents
   - context
   - caching
 ---
-
 # Prompt Caching
 
 Prompt caching is an inference optimization and agent architecture constraint: put stable prompt material at the beginning of the request so later turns can reuse the already-computed state for that prefix.

@@ -8,7 +8,7 @@ sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
 created: 2026-05-05T16:25:00+08:00
 updated: 2026-05-05T16:25:00+08:00
-base_confidence: 0.67
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -19,12 +19,10 @@ aliases:
   - 4W Memory Taxonomy
   - When What How Which memory taxonomy
 tags:
-  - ai
   - memory
   - taxonomy
   - agents
 ---
-
 # AI Memory 4W Taxonomy
 
 The AI Memory 4W Taxonomy is a classification scheme from [[wiki/sources/AI Memory Survey Source Guide]] for comparing AI memory systems across four dimensions: When, What, How, and Which.

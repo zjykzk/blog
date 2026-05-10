@@ -20,12 +20,10 @@ aliases:
   - TTFT
   - ITL
 tags:
-  - ai
   - llm
   - inference
   - benchmarking
 ---
-
 # LLM Inference Benchmarking
 
 LLM inference benchmarking measures how a serving system trades latency against throughput under concrete workloads.

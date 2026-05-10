@@ -5,8 +5,6 @@ type: source
 status: seed
 category: sources
 tags:
-  - source
-  - ai
   - llm
   - transformer
   - security
@@ -28,7 +26,6 @@ aliases:
   - Karpathy LLM Walkthrough
   - From Text to Assistant
 ---
-
 # How LLMs Actually Work Source Guide
 
 > Source: inline paste of an interactive walkthrough titled "How LLMs Actually Work", based on Andrej Karpathy's technical deep dive.

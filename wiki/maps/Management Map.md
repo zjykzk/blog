@@ -8,7 +8,7 @@ sources:
   - /Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf
   - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
 created: 2026-04-21
-base_confidence: 0.69
+base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
@@ -20,7 +20,6 @@ tags:
   - leadership
   - map
 ---
-
 # Management Map
 
 这页聚合当前 vault 中与管理、决策、组织协作相关的长期知识页。

@@ -15,12 +15,10 @@ aliases:
   - 认知复杂度
   - 可学习结构密度
 tags:
-  - ai
   - ml
   - concept
   - information-theory
 ---
-
 # Epiplexity
 
 Epiplexity 不是在问一份数据“总共有多少信息”，而是在问：对一个算力有限的观察者来说，这份数据里到底有多少结构是可提取、可学习、可压缩的。

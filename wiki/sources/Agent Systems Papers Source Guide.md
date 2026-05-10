@@ -22,10 +22,7 @@ aliases:
 tags:
   - papers
   - agents
-  - ai
-  - source
 ---
-
 # Agent Systems Papers Source Guide
 
 ## Current role

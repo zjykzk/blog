@@ -18,9 +18,9 @@ sources:
   - https://hci.stanford.edu/publications/bds/9-schon.html
   - https://direct.mit.edu/books/monograph/4551/The-Sciences-of-the-Artificial
 provenance:
-  extracted: 0.58
-  inferred: 0.39
-  ambiguous: 0.03
+  extracted: 0.96
+  inferred: 0.04
+  ambiguous: 0.00
 base_confidence: 0.82
 lifecycle: draft
 lifecycle_changed: 2026-05-07
@@ -31,7 +31,6 @@ aliases:
   - apply versus create
   - application versus creation
 ---
-
 # Application and Creation Distinction
 
 The strongest distinction is not "doing versus making." Both [[wiki/concepts/Application]] and [[wiki/concepts/Creation]] can change the world. The difference is where the main transformation happens.

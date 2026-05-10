@@ -23,12 +23,10 @@ aliases:
   - enterprise general intelligence
   - organizational brain
 tags:
-  - ai
   - agents
   - memory
   - organization
 ---
-
 # Company Brain
 
 A company brain is a living, permissioned model of how an organization remembers, reasons, and acts. The source argues that this is not merely company search, a document chatbot, meeting notes, or workflow automation. Part 4 makes the action layer explicit: the company must remember when work should wake up, which path should run, and how outcomes feed back into memory.

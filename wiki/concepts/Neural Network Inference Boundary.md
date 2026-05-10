@@ -8,7 +8,7 @@ sources:
   - inline:life-of-a-token-2026-05-09
 created: 2026-05-09T00:00:00+08:00
 updated: 2026-05-09T00:00:00+08:00
-base_confidence: 0.44
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-09
 provenance:
@@ -19,12 +19,10 @@ aliases:
   - model runtime boundary
   - tensor program boundary
 tags:
-  - ai
   - llm
   - inference
   - systems
 ---
-
 # Neural Network Inference Boundary
 
 The neural-network inference boundary separates the learned tensor computation inside a model from the conventional software system that invokes it.

@@ -14,7 +14,7 @@ sources:
   - https://x.com/hwchase17/status/2040467997022884194
   - https://arxiv.org/abs/2603.28052
 created: 2026-05-04
-base_confidence: 0.53
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -28,11 +28,9 @@ aliases:
   - AI agent system design space
 tags:
   - synthesis
-  - ai
   - agents
   - architecture
 ---
-
 # Agent System Design Space
 
 这页把 `AI Harness`、`Context Management`、`AI Skills Workflow` 串起来，不把 agent system 看成固定架构，而把它看成一个 design-space 问题：不同系统面对的是相似约束，但会因为价值排序和部署环境不同，长出不同答案。

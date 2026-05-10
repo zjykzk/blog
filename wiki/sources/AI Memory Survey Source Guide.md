@@ -8,7 +8,7 @@ sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
 created: 2026-05-05T16:25:00+08:00
 updated: 2026-05-05T16:25:00+08:00
-base_confidence: 0.67
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -20,12 +20,10 @@ aliases:
   - AI Memory survey
 tags:
   - paper
-  - ai
   - agents
   - memory
   - survey
 ---
-
 # AI Memory Survey Source Guide
 
 This page tracks "Survey on AI Memory: Theories, Taxonomies, Evaluations, and Emerging Trends" as a source for the AI / agent memory cluster.
@@ -77,6 +75,7 @@ The survey adds memory lifecycle, content type, storage representation, modality
 
 - [[wiki/sources/Agent Systems Papers Source Guide]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
+- [[wiki/sources/Lost in the Middle Paper Source Guide]] — adjacent context-limit paper for the boundary between remembered state and active context.
 - [[wiki/topics/AI Memory]]
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/topics/Context Management]]

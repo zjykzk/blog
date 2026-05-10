@@ -2,8 +2,6 @@
 title: Continual Learning for AI Agents Source Guide
 category: sources
 tags:
-  - source
-  - ai
   - agents
   - memory
   - harness
@@ -22,7 +20,6 @@ lifecycle_changed: "2026-05-09"
 created: 2026-05-09T22:17:54+08:00
 updated: 2026-05-09T22:17:54+08:00
 ---
-
 # Continual Learning for AI Agents Source Guide
 
 ## Source Identity

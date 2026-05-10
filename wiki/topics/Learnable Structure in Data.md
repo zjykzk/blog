@@ -15,12 +15,10 @@ aliases:
   - 数据中的可学习结构
   - Data Value as Learnable Structure
 tags:
-  - ai
   - data
   - training
   - topic
 ---
-
 # Learnable Structure in Data
 
 评估数据价值时，一个更稳的起点，不是先问“这里有多少信息”，而是先问：对当前模型来说，这里到底有多少结构是可学习的。

@@ -14,7 +14,7 @@ provenance:
   extracted: 0.74
   inferred: 0.26
   ambiguous: 0.00
-base_confidence: 0.32
+base_confidence: 0.59
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 created: 2026-05-06T19:50:40+08:00
@@ -23,7 +23,6 @@ aliases:
   - 分析
   - analytic thinking
 ---
-
 # Analysis
 
 Analysis is the act of opening a whole along its own structure: distinguish its parts, relations, and constraints, then recombine them into an understanding that can guide action.

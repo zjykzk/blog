@@ -5,7 +5,6 @@ status: draft
 category: sources
 summary: Source guide for the ljg-learn concept anatomy note on analysis, focused on analysis as reversible decomposition into actionable structure.
 tags:
-  - source
   - thinking
   - concepts
 sources:
@@ -14,7 +13,7 @@ provenance:
   extracted: 0.82
   inferred: 0.18
   ambiguous: 0.00
-base_confidence: 0.32
+base_confidence: 0.59
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 created: 2026-05-06T19:50:40+08:00
@@ -22,7 +21,6 @@ updated: 2026-05-06T19:50:40+08:00
 aliases:
   - 分析概念解剖来源
 ---
-
 # Analysis Concept Anatomy Source Guide
 
 This page preserves the knowledge extracted from the `ljg-learn` concept-anatomy note on [[wiki/concepts/Analysis]].

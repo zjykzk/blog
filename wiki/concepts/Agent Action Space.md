@@ -12,19 +12,17 @@ base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 provenance:
-  extracted: 0.70
-  inferred: 0.30
-  ambiguous: 0.0
+  extracted: 0.92
+  inferred: 0.08
+  ambiguous: 0.00
 aliases:
   - action space
   - agent tool action space
 tags:
-  - ai
   - agents
   - tools
   - harness
 ---
-
 # Agent Action Space
 
 Agent action space is the set of actions a model can perceive, choose, compose, and execute through an [[wiki/topics/AI Harness]]. Thariq Shihipar's Claude Code article frames action-space design as one of the hardest parts of building an agent harness.

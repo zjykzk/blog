@@ -8,7 +8,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
 created: 2026-04-26
-base_confidence: 0.37
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 3
@@ -23,7 +23,6 @@ tags:
   - workflow
   - ux
 ---
-
 # Frontend Development Workflow
 
 Frontend development workflow 不是一条把设计稿翻译成页面的生产线，而是一套持续对齐用户任务、界面行为与系统行为的工作方法。

@@ -231,3 +231,4 @@ Engineering thinking also asks: “How can that value be reliably implemented, w
 - [[wiki/topics/Testing Strategy]]
 - [[wiki/syntheses/Decision Modes for Engineering Work]]
 - [[wiki/concepts/Cognitive Engineering]]
+- [[wiki/sources/Simon Sciences of the Artificial Source Guide]] — design theory anchor for changing existing situations into preferred ones.

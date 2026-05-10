@@ -5,7 +5,6 @@ status: draft
 category: sources
 summary: Source guide for Simon's design theory, grounding design in changing existing situations into preferred ones.
 tags:
-  - source
   - design
   - systems
   - action
@@ -14,9 +13,9 @@ sources:
   - https://designcreativetech.utexas.edu/responsibility-design-adopting-futures-oriented-mindset-support-more-responsible-design-practice
 source_url: https://direct.mit.edu/books/monograph/4551/The-Sciences-of-the-Artificial
 provenance:
-  extracted: 0.70
-  inferred: 0.27
-  ambiguous: 0.03
+  extracted: 0.90
+  inferred: 0.10
+  ambiguous: 0.00
 base_confidence: 0.66
 lifecycle: draft
 lifecycle_changed: 2026-05-07
@@ -26,7 +25,6 @@ aliases:
   - Sciences of the Artificial
   - Simon design theory
 ---
-
 # Simon Sciences of the Artificial Source Guide
 
 This page preserves the design-theory anchor from Herbert A. Simon's *The Sciences of the Artificial*.
@@ -51,4 +49,5 @@ The exact design definition is cited here through secondary accessible pages as 
 
 - [[wiki/concepts/Application]]
 - [[wiki/concepts/Creation]]
+- [[wiki/sources/Csikszentmihalyi Systems Model of Creativity Source Guide]] — paired systems-view source on how new forms become socially recognized as creative.
 - [[wiki/syntheses/Application and Creation Distinction]]

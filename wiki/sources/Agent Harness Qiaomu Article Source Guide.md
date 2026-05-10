@@ -18,12 +18,9 @@ aliases:
 tags:
   - article
   - blog
-  - ai
   - agents
   - harness
-  - source
 ---
-
 # Agent Harness Qiaomu Article Source Guide
 
 ## Current role

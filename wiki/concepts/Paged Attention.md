@@ -18,12 +18,10 @@ provenance:
 aliases:
   - paged KV cache
 tags:
-  - ai
   - llm
   - inference
   - memory
 ---
-
 # Paged Attention
 
 Paged attention is an inference-server memory design that stores [[wiki/concepts/KV Cache]] state in fixed-size blocks rather than requiring each request to own one contiguous cache region.

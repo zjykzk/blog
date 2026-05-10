@@ -23,12 +23,10 @@ aliases:
   - organizational context graph
   - company reasoning layer
 tags:
-  - ai
   - memory
   - knowledge-graph
   - organization
 ---
-
 # Context Graph
 
 A context graph is the reasoning layer that turns organizational facts into a model of the company.

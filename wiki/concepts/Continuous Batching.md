@@ -19,12 +19,10 @@ provenance:
 aliases:
   - iteration-level batching
 tags:
-  - ai
   - llm
   - inference
   - scheduling
 ---
-
 # Continuous Batching
 
 Continuous batching lets an LLM inference engine reconsider the active batch at every engine step, so new requests can join while older requests continue decoding.

@@ -67,7 +67,7 @@ aliases:
 - [[wiki/concepts/Expression Three Channels]]
 - [[wiki/concepts/Knowledge as Network]]
 - [[wiki/topics/Learning Methodology]]
-- [[学习方法论]]
+- [[wiki/topics/Learning Methodology]]
 
 ## 源
 

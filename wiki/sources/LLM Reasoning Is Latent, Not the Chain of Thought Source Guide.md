@@ -19,9 +19,7 @@ tags:
   - arxiv
   - reasoning
   - llm
-  - source
 ---
-
 # LLM Reasoning Is Latent, Not the Chain of Thought Source Guide
 
 ## Current role

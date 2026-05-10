@@ -20,12 +20,10 @@ aliases:
   - long-context positional bias
   - middle-context degradation
 tags:
-  - ai
   - llm
   - context
   - evaluation
 ---
-
 # Lost in the Middle Effect
 
 The lost-in-the-middle effect is a long-context failure mode: language models often perform best when relevant information appears at the beginning or end of the input context, and worse when the same information appears in the middle.

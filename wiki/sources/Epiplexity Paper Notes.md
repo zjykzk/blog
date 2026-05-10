@@ -16,12 +16,9 @@ aliases:
   - Epiplexity Notes
 tags:
   - paper
-  - ai
   - information-theory
-  - source
 source: https://arxiv.org/html/2601.03220
 ---
-
 # Epiplexity Paper Notes
 
 这页保留论文 *From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence* 的阅读笔记，并作为 `[[wiki/concepts/Epiplexity]]` 的来源层。

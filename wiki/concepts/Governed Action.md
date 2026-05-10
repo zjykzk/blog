@@ -22,12 +22,10 @@ aliases:
   - permissioned action
   - context-aware action
 tags:
-  - ai
   - agents
   - governance
   - workflow
 ---
-
 # Governed Action
 
 Governed action is the execution-governance surface of a [[wiki/concepts/Company Brain]]. It uses [[wiki/concepts/Action Memory]] to decide when to move, wait, ask for help, escalate, stop, require approval, or deliberately do nothing.

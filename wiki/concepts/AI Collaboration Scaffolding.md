@@ -13,7 +13,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
 created: 2026-05-05T17:05:00+08:00
 updated: 2026-05-05T17:55:00+08:00
-base_confidence: 0.44
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -24,12 +24,10 @@ aliases:
   - AI-assisted development scaffolding
   - AI collaboration patterns
 tags:
-  - ai
   - software-engineering
   - workflow
   - ai-coding
 ---
-
 # AI Collaboration Scaffolding
 
 AI collaboration scaffolding is the set of practices that makes AI coding assistants behave more like aligned teammates and less like generic code generators.

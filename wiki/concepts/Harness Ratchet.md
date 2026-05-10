@@ -11,7 +11,7 @@ sources:
   - https://arxiv.org/abs/2603.28052
 created: 2026-05-05T15:10:00+08:00
 updated: 2026-05-09T22:42:07+08:00
-base_confidence: 0.61
+base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -22,12 +22,10 @@ aliases:
   - agent harness ratchet
   - failure-to-rule loop
 tags:
-  - ai
   - agents
   - harness
   - feedback
 ---
-
 # Harness Ratchet
 
 A harness ratchet is the discipline of treating an agent mistake as a permanent signal for improving the [[wiki/topics/AI Harness]].

@@ -16,9 +16,7 @@ aliases:
 tags:
   - journals
   - raw
-  - source
 ---
-
 # Journals Source Guide
 
 `journals/` 是当前 vault 的时间流输入层。它们不应直接承担稳定知识页职责，但应该持续为 `wiki/` 提供可回溯的来源。

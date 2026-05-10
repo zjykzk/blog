@@ -23,9 +23,7 @@ tags:
   - organization
   - knowledge-graph
   - memory
-  - ai
 ---
-
 # Organizational Ontology
 
 Organizational ontology is the set of concepts and relationships a company uses to make sense of its domain and its conversations. In the Company Brain source, ontology decides whether a piece of conversation becomes a decision, commitment, objection, escalation, dependency, assumption, customer pain, owner, precedent, or open question.

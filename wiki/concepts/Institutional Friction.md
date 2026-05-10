@@ -12,9 +12,9 @@ base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 provenance:
-  extracted: 0.72
-  inferred: 0.25
-  ambiguous: 0.03
+  extracted: 0.94
+  inferred: 0.06
+  ambiguous: 0.00
 aliases:
   - organizational friction
   - coordination friction
@@ -23,9 +23,7 @@ tags:
   - organization
   - coordination
   - management
-  - ai
 ---
-
 # Institutional Friction
 
 Institutional friction is the loss of coordination that appears when conversations lose context, meetings create ambiguous follow-ups, and people leave with different versions of what was decided.

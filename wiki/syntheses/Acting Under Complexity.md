@@ -8,7 +8,7 @@ sources:
   - /Users/zenk/Documents/notes/20260506T194300--概念解剖-分析__concept.org
   - /Users/zenk/Documents/notes/20260506T201315--概念解剖-应用__concept.org
 created: 2026-04-21
-base_confidence: 0.67
+base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 7
@@ -22,11 +22,10 @@ tags:
   - decision-making
   - thinking
 provenance:
-  extracted: 0.70
-  inferred: 0.30
+  extracted: 0.97
+  inferred: 0.03
   ambiguous: 0.00
 ---
-
 # Acting Under Complexity
 
 这页尝试把 Cynefin、决策模式、思考工作流、mental models、critical thinking 串成一个更高层的框架：当问题复杂、不确定、争议大时，关键不是只会分析，而是知道应该如何判断并继续行动。

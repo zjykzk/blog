@@ -20,11 +20,9 @@ updated: 2026-05-09T00:00:00+08:00
 aliases:
   - llm
 tags:
-  - ai
   - llm
   - concept
 ---
-
 # LLM
 
 当前旧笔记里与 LLM 相关的两类判断混在了一起：

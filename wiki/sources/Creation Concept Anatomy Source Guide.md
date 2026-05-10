@@ -5,7 +5,6 @@ status: draft
 category: sources
 summary: Source guide for the ljg-learn concept anatomy note on creation as difference entering durable order.
 tags:
-  - source
   - thinking
   - concepts
 sources:
@@ -14,7 +13,7 @@ provenance:
   extracted: 0.82
   inferred: 0.18
   ambiguous: 0.00
-base_confidence: 0.32
+base_confidence: 0.59
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 created: 2026-05-06T21:23:05+08:00
@@ -22,7 +21,6 @@ updated: 2026-05-06T21:23:05+08:00
 aliases:
   - 创造概念解剖来源
 ---
-
 # Creation Concept Anatomy Source Guide
 
 This page preserves the knowledge extracted from the `ljg-learn` concept-anatomy note on [[wiki/concepts/Creation]].

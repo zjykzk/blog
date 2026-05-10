@@ -20,13 +20,10 @@ aliases:
   - Claude Code skills article
   - Thariq skills article
 tags:
-  - source
-  - ai
   - agents
   - skills
   - claude-code
 ---
-
 # Claude Code Skills Source Guide
 
 This page keeps Thariq Shihipar's *Lessons from Building Claude Code: How We Use Skills* as a source-facing note and routes its durable claims into the existing AI / Agent wiki cluster.

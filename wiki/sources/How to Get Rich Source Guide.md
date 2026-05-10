@@ -5,7 +5,6 @@ status: draft
 category: sources
 summary: Source guide for Naval Ravikant's How to Get Rich tweetstorm PDF, focused on wealth, equity, specific knowledge, accountability, leverage, and judgment.
 tags:
-  - source
   - wealth
   - leverage
   - career
@@ -25,7 +24,6 @@ base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 ---
-
 # How to Get Rich Source Guide
 
 This guide preserves the useful structure from Naval Ravikant's "How to Get Rich (without getting lucky)" PDF. The PDF is image-backed, so text was extracted by local OCR from the provided document; minor OCR uncertainty remains around punctuation and formatting. ^[ambiguous]

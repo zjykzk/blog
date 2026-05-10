@@ -18,7 +18,7 @@ provenance:
   extracted: 0.68
   inferred: 0.32
   ambiguous: 0.00
-base_confidence: 0.77
+base_confidence: 0.84
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 created: 2026-05-06T21:23:05+08:00
@@ -28,7 +28,6 @@ aliases:
   - creativity
   - creative act
 ---
-
 # Creation
 
 Creation is the act of bringing a not-yet-formed possibility into the world by breaking an old structure, reorganizing available materials, and giving the result a usable new order.

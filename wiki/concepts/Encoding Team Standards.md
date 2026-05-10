@@ -20,12 +20,10 @@ aliases:
   - AI team standards
   - executable governance
 tags:
-  - ai
   - ai-coding
   - software-engineering
   - workflow
 ---
-
 # Encoding Team Standards
 
 Encoding team standards is the practice of turning tacit engineering judgment into versioned AI instructions that execute consistently across a team.

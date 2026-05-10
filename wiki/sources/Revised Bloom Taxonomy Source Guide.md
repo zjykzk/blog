@@ -5,7 +5,6 @@ status: draft
 category: sources
 summary: Source guide for Anderson and Krathwohl's revised Bloom taxonomy, separating apply from create as cognitive process categories.
 tags:
-  - source
   - learning
   - taxonomy
   - cognition
@@ -26,7 +25,6 @@ aliases:
   - Anderson Krathwohl taxonomy
   - revised Bloom taxonomy
 ---
-
 # Revised Bloom Taxonomy Source Guide
 
 This page preserves the external learning-theory anchor from Anderson and Krathwohl's 2001 revision of Bloom's taxonomy.

@@ -8,7 +8,7 @@ sources:
   - https://www.chrismdp.com/coding-with-ai/
 created: 2026-05-07T22:03:56+08:00
 updated: 2026-05-07T22:03:56+08:00
-base_confidence: 0.44
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-07
 provenance:
@@ -19,13 +19,10 @@ aliases:
   - How I Use AI to Code
   - Chris Parsons Coding with AI
 tags:
-  - source
-  - ai
   - ai-coding
   - agents
   - harness
 ---
-
 # Coding with AI Source Guide
 
 This page tracks Chris Parsons' article "How I Use AI to Code" as a source for the AI coding and agent engineering cluster.

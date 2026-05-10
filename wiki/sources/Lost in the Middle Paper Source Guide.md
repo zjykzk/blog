@@ -20,12 +20,10 @@ aliases:
   - How Language Models Use Long Contexts
 tags:
   - paper
-  - ai
   - llm
   - context
   - evaluation
 ---
-
 # Lost in the Middle Paper Source Guide
 
 This page tracks Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni, and Percy Liang's paper "Lost in the Middle: How Language Models Use Long Contexts" as a source for the AI / context-management cluster.

@@ -5,7 +5,6 @@ status: draft
 category: sources
 summary: Source guide for Csikszentmihalyi's systems model, treating creativity as a relation among person, domain, field, and social recognition.
 tags:
-  - source
   - creativity
   - psychology
   - systems
@@ -16,7 +15,7 @@ provenance:
   extracted: 0.76
   inferred: 0.24
   ambiguous: 0.00
-base_confidence: 0.64
+base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-07
 created: 2026-05-07T10:44:00+08:00
@@ -25,7 +24,6 @@ aliases:
   - Systems Model of Creativity
   - Csikszentmihalyi creativity
 ---
-
 # Csikszentmihalyi Systems Model of Creativity Source Guide
 
 This page preserves the external research anchor from Mihaly Csikszentmihalyi's collected work on the systems model of creativity.
@@ -50,4 +48,5 @@ The accessible source is a publisher overview and table of contents, not the ful
 
 - [[wiki/concepts/Creation]]
 - [[wiki/topics/Mental Models]]
+- [[wiki/sources/Simon Sciences of the Artificial Source Guide]] — paired design-theory source for the application/creation boundary.
 - [[wiki/syntheses/Application and Creation Distinction]]

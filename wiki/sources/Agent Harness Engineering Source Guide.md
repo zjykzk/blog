@@ -19,13 +19,10 @@ aliases:
   - Addy Osmani agent harness engineering
   - Agent Harness Engineering article
 tags:
-  - source
-  - ai
   - agents
   - harness
   - engineering
 ---
-
 # Agent Harness Engineering Source Guide
 
 This page tracks Addy Osmani's April 19, 2026 article "Agent Harness Engineering" as a source for the AI / agent engineering cluster.

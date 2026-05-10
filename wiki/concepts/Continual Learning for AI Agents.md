@@ -2,7 +2,6 @@
 title: Continual Learning for AI Agents
 category: concepts
 tags:
-  - ai
   - agents
   - memory
   - harness
@@ -22,7 +21,6 @@ lifecycle_changed: "2026-05-09"
 created: 2026-05-09T22:17:54+08:00
 updated: 2026-05-09T22:17:54+08:00
 ---
-
 # Continual Learning for AI Agents
 
 Continual learning for AI agents should not be collapsed into model-weight updates. Harrison Chase's article separates learning into three layers: the [[wiki/concepts/LLM|model]], the [[wiki/topics/AI Harness|harness]], and configurable [[wiki/topics/Context Management|context]] or [[wiki/topics/AI Memory|memory]].

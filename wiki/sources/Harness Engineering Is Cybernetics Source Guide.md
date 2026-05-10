@@ -4,8 +4,6 @@ type: source
 status: draft
 category: sources
 tags:
-  - source
-  - ai
   - agents
   - harness
   - cybernetics
@@ -16,16 +14,15 @@ sources:
   - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
 summary: Source guide for George's X article framing harness engineering as cybernetics: sensors, actuators, feedback loops, and machine-readable judgment.
 provenance:
-  extracted: 0.78
-  inferred: 0.20
-  ambiguous: 0.02
+  extracted: 1.00
+  inferred: 0.00
+  ambiguous: 0.00
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-09
 created: 2026-05-09T21:05:00+08:00
 updated: 2026-05-09T21:05:00+08:00
 ---
-
 # Harness Engineering Is Cybernetics Source Guide
 
 This page tracks George's X article “Harness Engineering Is Cybernetics,” posted from `@odysseus0z` on 2026-03-08.

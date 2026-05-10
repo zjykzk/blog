@@ -109,4 +109,4 @@ aliases:
 - [[wiki/topics/What Makes a Good Classification]]
 - [[wiki/topics/Thinking in Systems]]
 - [[wiki/topics/Problem Framing]]
-- [[pages/分类的边界]]
+- `pages/分类的边界`

@@ -5,7 +5,6 @@ status: draft
 category: concepts
 summary: AI Learning Tutor Loop uses a source-grounded AI system to map a field, expose disagreements, test understanding, and repair errors.
 tags:
-  - ai
   - learning
   - tutoring
   - questions
@@ -24,7 +23,6 @@ base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 ---
-
 # AI Learning Tutor Loop
 
 AI Learning Tutor Loop 是一种把 AI 从“摘要器”改造成“源材料 tutor”的学习流程：先给 AI 足够宽的材料上下文，再让它抽取专家共享模型、领域争议、诊断问题，并用错误反馈修补理解。

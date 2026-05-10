@@ -8,7 +8,7 @@ sources:
   - inline:life-of-a-token-2026-05-09
 created: 2026-05-09T00:00:00+08:00
 updated: 2026-05-09T00:00:00+08:00
-base_confidence: 0.44
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-09
 provenance:
@@ -19,12 +19,10 @@ aliases:
   - autoregressive generation
   - token-by-token decoding
 tags:
-  - ai
   - llm
   - inference
   - decoding
 ---
-
 # Autoregressive Decoding
 
 Autoregressive decoding is the loop where an LLM samples one token, appends it to the context, and uses the enlarged context to predict the next token.

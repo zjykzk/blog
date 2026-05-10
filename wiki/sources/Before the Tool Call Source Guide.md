@@ -21,9 +21,7 @@ tags:
   - agents
   - authorization
   - security
-  - source
 ---
-
 # Before the Tool Call Source Guide
 
 ## Current role

@@ -13,16 +13,15 @@ base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.68
-  inferred: 0.32
-  ambiguous: 0.0
+  extracted: 0.94
+  inferred: 0.06
+  ambiguous: 0.00
 updated: 2026-05-09T20:15:00+08:00
 aliases:
   - 反馈回路
   - Feedback Loop
   - Positive and Negative Feedback
 ---
-
 # Feedback Loops
 
 反馈回路是系统里“结果反过来影响原因”的闭环。
@@ -112,4 +111,4 @@ The delay matters. If the team waits too long to update the artifacts, the same 
 - [[wiki/topics/Learning Methodology]]
 - [[wiki/concepts/Leverage Points]]
 - [[wiki/concepts/Feedback Flywheel]]
-- [[pages/Thinking in Systems]]
+- [[wiki/topics/Thinking in Systems]]

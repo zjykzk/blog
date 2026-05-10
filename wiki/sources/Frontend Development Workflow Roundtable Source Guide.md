@@ -19,10 +19,8 @@ tags:
   - software-engineering
   - workflow
   - ux
-  - source
   - roundtable
 ---
-
 # Frontend Development Workflow Roundtable Source Guide
 
 ## Current role

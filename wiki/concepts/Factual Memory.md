@@ -21,12 +21,10 @@ aliases:
   - enterprise factual memory
   - organizational factual memory
 tags:
-  - ai
   - memory
   - organization
   - agents
 ---
-
 # Factual Memory
 
 Factual memory is the first layer of a [[wiki/concepts/Company Brain]]: the company ability to answer what exists, what happened, where the source is, who owns it, when it changed, and how a thing works.

@@ -18,12 +18,9 @@ provenance:
 aliases:
   - Inside vLLM Source Guide
 tags:
-  - source
-  - ai
   - llm
   - inference
 ---
-
 # vLLM Inference Systems Source Guide
 
 This page tracks Aleksa Gordic's "Inside vLLM: Anatomy of a High-Throughput LLM Inference System" as a source for the AI systems cluster.

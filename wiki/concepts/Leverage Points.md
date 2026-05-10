@@ -9,12 +9,12 @@ sources:
   - /Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf
   - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
 created: 2026-04-26
-base_confidence: 0.61
+base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.72
-  inferred: 0.28
+  extracted: 0.97
+  inferred: 0.03
   ambiguous: 0.00
 updated: 2026-05-09T20:15:00+08:00
 aliases:
@@ -22,7 +22,6 @@ aliases:
   - High Leverage Change
   - Leverage Point
 ---
-
 # Leverage Points
 
 杠杆点是系统里“改一点，结果却变很多”的位置。
@@ -124,4 +123,4 @@ aliases:
 - [[wiki/topics/Technical Management]]
 - [[wiki/topics/Wealth Creation]]
 - [[wiki/concepts/Permissionless Leverage]]
-- [[pages/Thinking in Systems]]
+- [[wiki/topics/Thinking in Systems]]

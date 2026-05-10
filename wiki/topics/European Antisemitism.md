@@ -187,7 +187,7 @@ aliases:
 
 - [[wiki/topics/Thinking in Systems]]
 - [[wiki/topics/Categorical Thinking]]
-- [[pages/European Antisemitism]]
+- `pages/European Antisemitism`
 
 ## 源
 

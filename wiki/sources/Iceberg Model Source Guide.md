@@ -4,7 +4,6 @@ type: source
 status: draft
 category: sources
 tags:
-  - source
   - systems-thinking
   - mental-models
 aliases:
@@ -13,16 +12,15 @@ sources:
   - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
 summary: Source guide for the Donella Meadows Iceberg Model PDF, preserving provenance limits and routing its visual systems-thinking frame into concept pages.
 provenance:
-  extracted: 0.45
-  inferred: 0.45
-  ambiguous: 0.10
-base_confidence: 0.62
+  extracted: 0.80
+  inferred: 0.13
+  ambiguous: 0.07
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-09
 created: 2026-05-09T20:15:00+08:00
 updated: 2026-05-09T20:15:00+08:00
 ---
-
 # Iceberg Model Source Guide
 
 This page tracks the one-page PDF source at `https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf` and how it enters the wiki.

@@ -5,8 +5,6 @@ status: draft
 category: sources
 summary: Source guide for Ihtesham Ali's NotebookLM learning workflow thread: corpus loading, mental-model prompts, disagreement mapping, and diagnostic feedback.
 tags:
-  - source
-  - ai
   - learning
   - notebooklm
   - questions
@@ -24,7 +22,6 @@ base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 ---
-
 # NotebookLM Learning Workflow Source Guide
 
 This guide preserves the useful structure from Ihtesham Ali's X thread about using NotebookLM for accelerated subject learning. The original X page was not readable directly in this environment, so the source text was read through a web-indexed mirror of the same status URL.

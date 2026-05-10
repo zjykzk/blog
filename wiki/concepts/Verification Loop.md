@@ -12,7 +12,7 @@ sources:
   - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
 created: 2026-05-05T14:03:13+08:00
 updated: 2026-05-09T21:05:00+08:00
-base_confidence: 0.78
+base_confidence: 0.73
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -23,11 +23,9 @@ aliases:
   - evaluation loop
   - agent verification loop
 tags:
-  - ai
   - agents
   - verification
 ---
-
 # Verification Loop
 
 A verification loop is the part of an agent harness that gives the system feedback about whether its work is actually correct.

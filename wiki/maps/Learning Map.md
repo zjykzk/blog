@@ -11,7 +11,7 @@ sources:
   - /Users/zenk/Documents/notes/20260506T211953--概念解剖-创造__concept.org
   - research:application-and-creation-distinction-2026-05-07
 created: 2026-04-26
-base_confidence: 0.58
+base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 updated: 2026-05-09T23:01:29+08:00
@@ -22,7 +22,6 @@ provenance:
   inferred: 0.15
   ambiguous: 0.00
 ---
-
 # Learning Map
 
 学习这个领域的所有 wiki 入口。
@@ -58,17 +57,17 @@ provenance:
 - [[wiki/sources/Cognitive Load Theory Source Guide]]——认知负荷理论、图式形成、直接教学、范例学习与 AI tutor/doer 边界
 - [[wiki/sources/Amabile Componential Theory of Creativity Source Guide]]——创造力组件理论外部来源
 - [[wiki/sources/Schon Reflective Practice Source Guide]]——设计反思实践外部来源
-- [[学习方法论]]（pages source note）
-- [[mobu/工具/得到高效学习方法]]
-- [[mobu/工具/认知天性]]
-- [[mobu/工具/Cynefin_Framework]]
-- [[mobu/读书/思维框架]]
-- [[mobu/读书/如何系统思考]]
-- [[mobu/读书/考试脑科学]]
-- [[mobu/读书/问题系统读书模板]]
-- [[mobu/孩子学习/学习方法]]
-- [[mobu/孩子学习/学习能力]]
-- [[mobu/孩子学习/培养孩子管理时间]]
+- `pages/学习方法论`（pages source note）
+- `mobu/工具/得到高效学习方法`
+- `mobu/工具/认知天性`
+- `mobu/工具/Cynefin_Framework`
+- `mobu/读书/思维框架`
+- `mobu/读书/如何系统思考`
+- `mobu/读书/考试脑科学`
+- `mobu/读书/问题系统读书模板`
+- `mobu/孩子学习/学习方法`
+- `mobu/孩子学习/学习能力`
+- `mobu/孩子学习/培养孩子管理时间`
 
 ## 相关领域（可能交叉）
 

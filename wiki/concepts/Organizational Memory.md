@@ -24,10 +24,8 @@ aliases:
 tags:
   - organization
   - memory
-  - ai
   - coordination
 ---
-
 # Organizational Memory
 
 Organizational memory is stored information from an organization's history that can bear on present decisions. The article also invokes transactive memory: groups depend on knowing who knows what, not only on what has been written down.

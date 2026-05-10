@@ -9,18 +9,17 @@ sources:
   - https://x.com/ihtesham2005/status/2030214970353602806
   - /Users/zenk/Documents/notes/20260506T201315--概念解剖-应用__concept.org
 created: 2026-04-29
-base_confidence: 0.52
+base_confidence: 0.65
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 updated: 2026-05-06T20:17:19+08:00
 aliases:
   - 认知工程学
 provenance:
-  extracted: 0.70
-  inferred: 0.30
+  extracted: 1.00
+  inferred: 0.00
   ambiguous: 0.00
 ---
-
 # Cognitive Engineering
 
 认知工程学不是单独研究"人怎么想"，而是研究如何设计工具、信息结构与反馈机制，让人更容易想对、做对、协同对。

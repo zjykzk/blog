@@ -16,9 +16,7 @@ aliases:
 tags:
   - book-notes
   - software-engineering
-  - source
 ---
-
 # Modern Software Engineering Notes
 
 这份读书笔记目前以摘录和图片为主，仍更适合作为 source note，而不是直接升格为稳定 wiki 页面。

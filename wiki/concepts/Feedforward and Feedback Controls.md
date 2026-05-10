@@ -20,12 +20,10 @@ aliases:
   - feedback controls
   - agent control loops
 tags:
-  - ai
   - agents
   - harness
   - feedback
 ---
-
 # Feedforward and Feedback Controls
 
 Feedforward and feedback controls are two complementary ways to steer a coding agent inside a [[wiki/topics/AI Harness]].

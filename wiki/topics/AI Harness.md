@@ -30,12 +30,10 @@ updated: 2026-05-09T22:42:07+08:00
 aliases:
   - harness
 tags:
-  - ai
   - agents
   - harness
   - runtime
 ---
-
 # AI Harness
 
 AI Harness 不是模型本身，也不是某一个工具本身。它更像 agent system 的运行层：把模型、上下文、工具、权限、委派和状态接起来，并给这些东西规定边界。

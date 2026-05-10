@@ -2,7 +2,11 @@
 title: >-
   Harness Root Ranks
 category: synthesis
-tags: [ai, agents, harness, architecture, rank]
+tags:
+  - agents
+  - harness
+  - architecture
+  - rank
 sources:
   - conversation:2026-05-07
 created: 2026-05-07T18:33:29+08:00
@@ -10,9 +14,9 @@ updated: 2026-05-07T18:33:29+08:00
 summary: >-
   Harness can be reduced to five root ranks: boundary, density, action, loop, and evolution; these generate its components and runtime behavior.
 provenance:
-  extracted: 0.62
-  inferred: 0.38
-  ambiguous: 0.0
+  extracted: 0.86
+  inferred: 0.14
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-07
@@ -20,7 +24,6 @@ aliases:
   - harness 的秩
   - AI harness root ranks
 ---
-
 # Harness Root Ranks
 
 ## Context

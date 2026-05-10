@@ -7,7 +7,7 @@ summary: Tool Routing designs how an agent chooses the next capability path whil
 sources:
   - https://x.com/trq212/status/2027463795355095314
 created: 2026-04-22
-base_confidence: 0.70
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 5
@@ -16,11 +16,9 @@ aliases:
   - tool routing
   - router and adapter
 tags:
-  - ai
   - agents
   - tools
 ---
-
 # Tool Routing
 
 当前笔记里关于 router / adapter 的判断，可以进一步抽成一个独立主题：工具路由不是附属细节，而是 agent 系统的核心结构设计。

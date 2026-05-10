@@ -24,12 +24,10 @@ aliases:
   - agent memory
   - LLM memory
 tags:
-  - ai
   - agents
   - memory
   - context
 ---
-
 # AI Memory
 
 AI Memory is the persistence layer that lets an AI system retain historical information, retrieve it into active context, update it over time, and consolidate repeated experience into more reusable forms.

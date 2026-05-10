@@ -14,7 +14,7 @@ sources:
   - https://x.com/GoogleCloudTech/article/2033953579824758855
   - https://lavinigam.com/posts/adk-skill-design-patterns/
 created: 2026-04-22
-base_confidence: 0.70
+base_confidence: 0.75
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -27,11 +27,9 @@ aliases:
   - skills workflow
   - AI skills
 tags:
-  - ai
   - skills
   - workflow
 ---
-
 # AI Skills Workflow
 
 当前 source notes 里已经出现了一个很清楚的 workflow 雏形：

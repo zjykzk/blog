@@ -76,7 +76,7 @@ aliases:
 
 - [[wiki/concepts/Cognition Three Channels]]
 - [[wiki/topics/Learning Methodology]]
-- [[学习方法论]]
+- [[wiki/topics/Learning Methodology]]
 
 ## 源
 

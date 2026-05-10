@@ -19,11 +19,9 @@ aliases:
   - 项目/AI
   - AI Hub
 tags:
-  - ai
   - agents
   - llm-wiki
 ---
-
 # AI Map
 
 这是当前 AI / Agent / LLM 知识簇的入口页。

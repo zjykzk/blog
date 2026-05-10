@@ -8,7 +8,7 @@ sources:
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
 created: 2026-05-09T20:42:04+08:00
 updated: 2026-05-09T20:42:04+08:00
-base_confidence: 0.44
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-09
 provenance:
@@ -19,13 +19,10 @@ aliases:
   - 团队级 AI 编程 Harness 研讨会回顾
   - Harness 的几个关键点
 tags:
-  - source
-  - ai
   - agents
   - harness
   - ai-coding
 ---
-
 # Team AI Coding Harness Seminar Source Guide
 
 ## Source identity

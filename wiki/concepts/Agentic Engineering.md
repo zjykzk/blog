@@ -22,12 +22,10 @@ aliases:
   - agentic engineering practice
   - AI coding trainer role
 tags:
-  - ai
   - agents
   - ai-coding
   - software-engineering
 ---
-
 # Agentic Engineering
 
 Agentic engineering is the production practice of using coding agents with explicit verification, harness design, and human judgment allocation.

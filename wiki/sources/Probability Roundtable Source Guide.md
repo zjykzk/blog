@@ -18,9 +18,7 @@ tags:
   - probability
   - thinking
   - roundtable
-  - source
 ---
-
 # Probability Roundtable Source Guide
 
 ## Current role

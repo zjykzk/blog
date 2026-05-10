@@ -115,4 +115,4 @@ aliases:
 - [[wiki/topics/Limits of Classification]]
 - [[wiki/topics/Problem Framing]]
 - [[wiki/topics/Thinking in Systems]]
-- [[pages/什么是好的分类]]
+- `pages/什么是好的分类`

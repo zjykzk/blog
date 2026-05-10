@@ -18,12 +18,10 @@ aliases:
 tags:
   - ai-coding
   - software-engineering
-  - source
   - complexity
   - productivity
   - security
 ---
-
 # AI Coding Control Limits Source Guide
 
 ## Current role

@@ -16,7 +16,7 @@ sources:
   - https://www.chrismdp.com/coding-with-ai/
   - https://arxiv.org/abs/2603.28052
 created: 2026-05-04
-base_confidence: 0.72
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -28,11 +28,9 @@ updated: 2026-05-09T22:42:07+08:00
 aliases:
   - 上下文管理
 tags:
-  - ai
   - agents
   - context
 ---
-
 # Context Management
 
 在当前 AI / Agent 知识簇里，上下文管理已经被明确视为 agent 的核心任务之一，而不是实现细节。

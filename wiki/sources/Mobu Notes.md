@@ -16,9 +16,7 @@ aliases:
 tags:
   - mobu
   - raw
-  - source
 ---
-
 # Mobu Notes Source Guide
 
 `mobu/` 目前是个人知识与领域素材的大池子，适合作为 raw/domain input 层，而不是直接作为稳定 wiki 层。

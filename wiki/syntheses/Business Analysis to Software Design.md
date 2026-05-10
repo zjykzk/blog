@@ -14,17 +14,16 @@ sources:
   - wiki/concepts/Business Modeling in Software.md
   - wiki/topics/Software Methodology.md
 created: 2026-05-05
-updated: 2026-05-05
-summary: Synthesis of how business modeling and software analysis become software design through domain boundaries and shared models.
+updated: 2026-05-10T14:24:08+08:00
+summary: Business modeling narrows organizational reality into system responsibilities, domain models, and executable design boundaries.
 provenance:
-  extracted: 0.25
-  inferred: 0.70
+  extracted: 0.57
+  inferred: 0.38
   ambiguous: 0.05
-base_confidence: 0.37
+base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 ---
-
 # Business Analysis to Software Design
 
 ## The Connection
@@ -47,10 +46,13 @@ If analysis skips business modeling, the system may optimize a function without 
 
 DDD sits between analysis and design because it forces the same model to satisfy two pressures at once: it must still explain the business, and it must be precise enough to guide implementation. ^[inferred]
 
+The handoff can be read as a sequence of narrowing boundaries: business modeling fixes the target organization and improvement reason; software analysis fixes what the to-be-built system must take responsibility for; software design fixes internal partitions, connections, and state flow. DDD is the hinge where business language becomes a model that can survive implementation pressure. ^[inferred]
+
 ## Tensions and Trade-offs
 
 - Business modeling wants to preserve organizational context, while software design needs sharper boundaries and smaller mechanisms. ^[inferred]
 - Software analysis can overfit to existing work practice; software design can overfit to technical convenience. DDD is useful when it keeps both pressures visible. ^[inferred]
+- The same boundary word appears at multiple layers: organization boundary, system boundary, bounded context, module boundary, and transaction boundary. Confusing these layers is a common cause of analysis/design drift. ^[inferred]
 - The wiki still needs more examples showing when the pipeline should be lightweight versus formal. ^[ambiguous]
 
 ## Open Questions

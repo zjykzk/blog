@@ -14,11 +14,9 @@ updated: 2026-04-20
 aliases:
   - agent
 tags:
-  - ai
-  - agent
+  - agents
   - concept
 ---
-
 # Agent
 
 Agent 的核心任务目前可以归纳为三件事：

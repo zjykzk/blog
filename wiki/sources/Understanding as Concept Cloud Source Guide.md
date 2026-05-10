@@ -5,7 +5,6 @@ status: draft
 category: sources
 summary: Source guide for inline discussions that model understanding as a cloud and trace the frame to Hofstadter's analogy-making work.
 tags:
-  - source
   - cognition
   - learning
   - concepts
@@ -27,7 +26,6 @@ lifecycle_changed: 2026-05-06
 created: 2026-05-06T19:18:40+08:00
 updated: 2026-05-06T19:34:46+08:00
 ---
-
 # Understanding as Concept Cloud Source Guide
 
 这页保留两轮 inline 材料的入库导览：第一轮把“理解”解释为脑中关于对象的一团“云”，第二轮追问侯世达取景框及其出处。

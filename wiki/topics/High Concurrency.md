@@ -68,6 +68,7 @@ tags:
 
 - [[wiki/topics/Circuit Breaker]]
 - [[wiki/topics/Go Memory Model]]
+- [[wiki/topics/LLM Inference Systems]] — another systems-pressure case where scheduling, memory, latency, and throughput must be balanced under load.
 
 ## Navigation
 

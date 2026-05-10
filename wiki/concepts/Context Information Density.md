@@ -21,12 +21,10 @@ aliases:
   - contextual information density
   - 上下文信息密度
 tags:
-  - ai
   - agents
   - context
   - memory
 ---
-
 # Context Information Density
 
 Context information density is the design target of keeping decision-relevant information available inside a limited active context while excluding irrelevant or redundant material.

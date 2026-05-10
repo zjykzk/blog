@@ -97,3 +97,29 @@ tags:
 - [2026-05-09T22:42:07+08:00] INGEST source="https://arxiv.org/abs/2603.28052" pages_updated=6 pages_created=2 mode=append
 - [2026-05-09T23:00:43+08:00] CAPTURE type=source page="wiki/sources/Cognitive Load Theory Source Guide.md" title="Cognitive Load Theory Source Guide"
 - [2026-05-09T22:55:00+08:00] CAPTURE type=source page="wiki/sources/ICAP Learning Framework Source Guide.md" title="ICAP Learning Framework Source Guide"
+
+- [2026-05-09T23:24:53+08:00] LINT issues_found=220 orphans=0 broken_links=29 stale=19 contradictions=0 prov_issues=83 missing_summary=0 fragmented_clusters=4 visibility_issues=1 promotion_candidates=0 synthesis_gaps=0 lifecycle_issues=84
+
+- [2026-05-09T23:28:26+08:00] LINT_FIX fixed=29 category="broken_wikilinks" files_modified=16 broken_links_remaining=0 orphans_remaining=0
+- [2026-05-09T23:30:20+08:00] LINT_FIX fixed=2 category="self_wikilinks" files_modified=2 self_links_remaining=0
+- [2026-05-09T23:35:01+08:00] CROSS_LINK pages_scanned=206 links_added=2 pages_modified=2 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0 target="systems tag cluster"
+- [2026-05-09T23:35:56+08:00] CROSS_LINK pages_scanned=206 links_added=2 pages_modified=2 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0 target="systems source guides"
+- [2026-05-09T23:36:55+08:00] CROSS_LINK pages_scanned=206 links_added=1 pages_modified=1 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0 target="systems tag cluster"
+- [2026-05-09T23:37:31+08:00] LINT_REVIEW category="visibility" reviewed=1 false_positive=1 unresolved=0 note="Life of a Token title contains Token: but no credential-like value"
+- [2026-05-10T14:21:35+08:00] CAPTURE type=concept page="wiki/concepts/System.md" title="System"
+- [2026-05-10T14:23:25+08:00] CROSS_LINK pages_scanned=206 links_added=2 pages_modified=2 orphans_remaining=0 misc_affinity_updated=0 promotion_candidates=0 target="paper tag cluster"
+- [2026-05-10T14:24:45+08:00] SYNTHESIS_REFRESH pages_updated=2 pages="React UI Organization Model; Business Analysis to Software Design" reason="clear stale synthesis and fold in source-page refinements"
+- [2026-05-10T14:29:55+08:00] STALE_REFRESH pages_updated=6 pages="Component-Based Architecture; Declarative Programming; State Management; Frontend Development; Evaluation; Evaluation Concept Anatomy Source Guide" reason="source mtimes newer than updated metadata"
+- [2026-05-10T14:31:32+08:00] LINT issues_found=112 orphans=0 broken_links=0 stale=4 contradictions=0 prov_issues=38 missing_summary=0 fragmented_clusters=2 visibility_issues=2 promotion_candidates=0 synthesis_gaps=0 lifecycle_issues=66
+- [2026-05-10T14:32:02+08:00] STALE_REFRESH pages_updated=1 pages="React UI Organization Model" reason="source pages were updated during stale refresh"
+- [2026-05-10T14:33:06+08:00] LINT issues_found=87 orphans=0 broken_links=0 stale=0 contradictions=0 prov_issues=19 missing_summary=0 fragmented_clusters=2 visibility_issues=0 promotion_candidates=0 synthesis_gaps=0 lifecycle_issues=66 note="supersedes prior same-session LINT with corrected provenance/PII/stale checks"
+- [2026-05-10T15:49:39+08:00] LINT_FIX rule=12e base_confidence_drift_fixed=54 mode="--fix"
+- [2026-05-10T15:57:18+08:00] LINT_FIX rule=7 provenance_drift_fixed=19 mode="normalize-frontmatter"
+- [2026-05-10T15:57:59+08:00] LINT issues_found=2 orphans=0 broken_links=0 stale=0 contradictions=0 prov_issues=0 missing_summary=0 fragmented_clusters=2 visibility_issues=0 promotion_candidates=0 synthesis_gaps=0 lifecycle_issues=0 note="post provenance normalize verification"
+- [2026-05-10T16:02:23+08:00] TAG_NORMALIZE tags_renamed=146 pages_modified=119 new_tags_added=0 retired_tags="ai,source" taxonomy_created=true
+- [2026-05-10T16:08:07+08:00] TAG_NORMALIZE index_tags_synced=true hot_updated=true
+- [2026-05-10T16:08:44+08:00] LINT issues_found=5 orphans=0 broken_links=0 stale=5 contradictions=0 prov_issues=0 missing_summary=0 fragmented_clusters=0 visibility_issues=0 promotion_candidates=0 synthesis_gaps=0 lifecycle_issues=0 note="post tag taxonomy normalization"
+- [2026-05-10T16:09:04+08:00] STALE_REFRESH pages_updated=5 reason="source tag normalization changed React source guide mtime"
+- [2026-05-10T16:09:44+08:00] LINT issues_found=4 orphans=0 broken_links=0 stale=4 contradictions=0 prov_issues=0 missing_summary=0 fragmented_clusters=0 visibility_issues=0 promotion_candidates=0 synthesis_gaps=0 lifecycle_issues=0 index_issues=0 note="final post tag/stale verification"
+- [2026-05-10T16:10:19+08:00] STALE_REFRESH pages_updated=1 pages="React UI Organization Model" reason="dependent source pages updated moments earlier"
+- [2026-05-10T16:11:01+08:00] LINT issues_found=0 orphans=0 broken_links=0 stale=0 contradictions=0 prov_issues=0 missing_summary=0 fragmented_clusters=0 visibility_issues=0 promotion_candidates=0 synthesis_gaps=0 lifecycle_issues=0 index_issues=0 note="clean final verification"

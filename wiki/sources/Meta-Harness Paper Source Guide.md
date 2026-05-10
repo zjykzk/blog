@@ -21,11 +21,9 @@ aliases:
 tags:
   - paper
   - arxiv
-  - ai
   - agents
   - harness
 ---
-
 # Meta-Harness Paper Source Guide
 
 ## Source Identity
@@ -90,6 +88,7 @@ This paper strengthens several existing threads:
 - [[wiki/concepts/Meta-Harness]]
 - [[wiki/sources/Agent Systems Papers Source Guide]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
+- [[wiki/sources/Dive into Claude Code Source Guide]] — adjacent agentic-coding paper source for harness behavior and trace-driven work.
 - [[wiki/sources/Continual Learning for AI Agents Source Guide]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/syntheses/Agent System Design Space]]

@@ -8,7 +8,7 @@ tags:
 sources:
   - wiki/sources/React Framework Background and Core Concepts Source Guide.md
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-10T16:08:56+08:00
 base_confidence: 0.40
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -25,6 +25,8 @@ aliases:
 Component-based architecture treats components as the primary units for organizing interface complexity.
 
 The value is not only reuse. Components create local boundaries for structure, state, behavior, and composition, making a larger interface easier to reason about.
+
+Those boundaries become useful only when the component's responsibilities and state ownership are clear; otherwise componentization can hide coupling instead of reducing it. ^[inferred]
 
 ## React connection
 

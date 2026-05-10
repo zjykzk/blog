@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured ICAP as a learning-engagement ladder from passive reception to interactive co-construction.
+summary: Recent wiki activity fixed broken wikilinks and connected high-concurrency systems thinking to LLM inference serving.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-09T22:55:00+08:00
+updated: 2026-05-10T16:08:07+08:00
 ---
 
 ## Recent Activity
 
-- Captured [[wiki/sources/ICAP Learning Framework Source Guide|ICAP Learning Framework]]: preserved the Passive → Active → Constructive → Interactive ladder for diagnosing learning by cognitive engagement.
-- Captured [[wiki/sources/Cognitive Load Theory Source Guide|Cognitive Load Theory]]: preserved working-memory bandwidth, schema formation, direct instruction, worked examples, and AI tutor/doer boundaries; added [[wiki/concepts/Cognitive Load Theory]].
-- Ingested [[wiki/sources/Meta-Harness Paper Source Guide|Meta-Harness]]: added automated harness optimization as trace-driven program search over executable model harnesses.
+- Tag taxonomy normalized: retired broad `ai` and redundant `source` tags, created [[wiki/_meta/taxonomy]], and cleared remaining tag-cohesion lint issues.
+- Provenance and confidence lint fixes normalized base_confidence and provenance frontmatter drift across the wiki.
+- Cross-linked [[wiki/topics/High Concurrency]] and [[wiki/topics/LLM Inference Systems]] as peer systems-pressure topics after clearing broken wikilinks.
 
 ## Active Threads
 
@@ -55,6 +55,7 @@ updated: 2026-05-09T22:55:00+08:00
 
 ## Key Takeaways
 
+- A system should be read as relations that repeatedly generate a result, not as a pile of parts; boundary, feedback, and time are what make the whole behavior visible.
 - ICAP reframes learning effort by cognitive operation: passive reception and active manipulation help early exposure, but durable learning comes from constructing new explanations and defending them in interaction.
 - Cognitive load theory reframes learning failure as a bandwidth-and-schema problem: reduce extraneous load, sequence intrinsic load, and use AI as a tutor that preserves learner effort rather than a doer that replaces it.
 - Automated harness optimization is now an explicit agent-system thread: a coding-agent proposer can inspect prior harness code, scores, and execution traces, then propose new harness code while evaluation remains external.

@@ -8,7 +8,7 @@ sources:
   - /Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf
   - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
 created: 2026-04-21
-base_confidence: 0.61
+base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 3
@@ -20,7 +20,6 @@ tags:
   - books
   - map
 ---
-
 # Reading Map
 
 这页用于承接读书笔记从 raw/source 进入 wiki 的提升过程。

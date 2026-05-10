@@ -5,7 +5,6 @@ category: synthesis
 type: synthesis
 status: seed
 tags:
-  - ai
   - llm
   - training
   - alignment
@@ -27,7 +26,6 @@ aliases:
   - LLM 预训练 SFT RL
   - LLM Post-training
 ---
-
 # LLM Training Stages
 
 ## Context

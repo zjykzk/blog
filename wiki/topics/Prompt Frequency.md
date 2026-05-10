@@ -17,11 +17,9 @@ aliases:
   - prompt 频率
   - 高频 prompt
 tags:
-  - ai
   - llm
   - prompting
 ---
-
 # Prompt Frequency
 
 一个值得单独抽出来的判断是：在语义不变时，越接近训练语料中常见表达的 prompt，模型通常越容易发挥出能力。

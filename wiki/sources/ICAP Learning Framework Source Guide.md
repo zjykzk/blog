@@ -4,7 +4,6 @@ type: source
 status: draft
 category: sources
 tags:
-  - source
   - learning
   - cognition
   - education
@@ -25,7 +24,6 @@ base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-09
 ---
-
 # ICAP Learning Framework Source Guide
 
 > Source: pasted article, “ICAP框架：最高效的学习方法”

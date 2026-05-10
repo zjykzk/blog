@@ -17,13 +17,10 @@ aliases:
   - Decoupling the brain from the hands
 tags:
   - agents
-  - ai
   - harness
-  - source
   - anthropic
 source: https://www.anthropic.com/engineering/managed-agents
 ---
-
 # Managed Agents Source Guide
 
 ## Current role

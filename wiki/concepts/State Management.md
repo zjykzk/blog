@@ -8,7 +8,7 @@ tags:
 sources:
   - wiki/sources/React Framework Background and Core Concepts Source Guide.md
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-05-10T16:08:56+08:00
 base_confidence: 0.40
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -24,6 +24,8 @@ aliases:
 State management is the discipline of deciding where state lives, who can change it, and how those changes become visible to the rest of the system.
 
 In frontend systems, state management connects data changes to interface changes. Clear state boundaries make behavior easier to trace and reduce accidental coupling.
+
+The key design question is not only where state lives, but which component, workflow, or external system is allowed to change it and how that change becomes observable. ^[inferred]
 
 ## React connection
 

@@ -191,4 +191,4 @@ aliases:
 - [[wiki/topics/Thinking in Systems]]
 - [[wiki/topics/Problem Framing]]
 - [[wiki/topics/Mental Models]]
-- [[pages/分类的方法]]
+- `pages/分类的方法`

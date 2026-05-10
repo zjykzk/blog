@@ -5,8 +5,6 @@ type: source
 status: seed
 category: sources
 tags:
-  - source
-  - ai
   - llm
   - workflow
   - tools
@@ -28,7 +26,6 @@ aliases:
   - Karpathy LLM Usage Walkthrough
   - Practical LLM Use
 ---
-
 # How to Use LLMs Source Guide
 
 > Source: inline paste of an interactive walkthrough titled "How to Use LLMs", based on Andrej Karpathy's 2025 follow-up to his LLM deep dive.

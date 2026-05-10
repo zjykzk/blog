@@ -23,13 +23,10 @@ aliases:
   - NanoThoughts Company Brain
   - Sentra company brain source
 tags:
-  - source
-  - ai
   - agents
   - organization
   - memory
 ---
-
 # Company Brain Source Guide
 
 This page guides NanoThoughts' Company Brain series, currently including "Company Brain: Why Most Companies Have Data But No Memory," "Company Brain, Part 2: Factual Memory," "Company Brain, Part 3: Interaction Memory," and "Company Brain, Part 4: Action Memory."

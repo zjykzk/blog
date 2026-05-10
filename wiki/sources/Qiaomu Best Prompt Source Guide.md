@@ -19,12 +19,9 @@ aliases:
 tags:
   - article
   - blog
-  - ai
   - llm
   - prompting
-  - source
 ---
-
 # Qiaomu Best Prompt Source Guide
 
 ## Current role

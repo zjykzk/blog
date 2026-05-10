@@ -5,11 +5,9 @@ status: seed
 category: sources
 summary: Source guide for a Chinese article on cognitive load theory, schema formation, direct instruction, worked examples, and AI as tutor rather than doer.
 tags:
-  - source
   - learning
   - cognition
   - education
-  - ai
 sources:
   - conversation:2026-05-09
 created: 2026-05-09T23:00:43+08:00
@@ -26,7 +24,6 @@ aliases:
   - Cognitive Load Theory article
   - 因为文具多所以是差生
 ---
-
 # Cognitive Load Theory Source Guide
 
 > Source: 用户粘贴文章《认知负荷理论：因为文具多，所以是差生》（conversation capture, 2026-05-09）

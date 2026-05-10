@@ -20,12 +20,10 @@ aliases:
   - semantic memory layer
   - relationship-aware file system
 tags:
-  - ai
   - memory
   - knowledge-graph
   - organization
 ---
-
 # Semantic File System
 
 A semantic file system is the source's name for a company memory layer where artifacts are not just blobs of text. The relationships around each artifact matter as much as the artifact itself.

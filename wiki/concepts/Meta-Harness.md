@@ -19,12 +19,10 @@ aliases:
   - Meta Harness
   - model harness optimization
 tags:
-  - ai
   - agents
   - harness
   - optimization
 ---
-
 # Meta-Harness
 
 Meta-Harness is an outer-loop system for optimizing [[wiki/topics/AI Harness|AI harnesses]]. It searches over executable harness code around a frozen model rather than updating the model weights.

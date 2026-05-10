@@ -5,7 +5,6 @@ status: draft
 category: sources
 summary: Source guide for Dewey's reflective thought cycle, grounding application in problem definition, hypothesis, consequence, and test.
 tags:
-  - source
   - pragmatism
   - inquiry
   - thinking
@@ -17,7 +16,7 @@ provenance:
   extracted: 0.80
   inferred: 0.20
   ambiguous: 0.00
-base_confidence: 0.68
+base_confidence: 0.63
 lifecycle: draft
 lifecycle_changed: 2026-05-07
 created: 2026-05-07T10:44:00+08:00
@@ -26,7 +25,6 @@ aliases:
   - Dewey inquiry
   - reflective thought
 ---
-
 # Dewey Reflective Inquiry Source Guide
 
 This page preserves the pragmatist anchor from John Dewey's *How We Think*, especially Chapter 6 on the complete act of thought.

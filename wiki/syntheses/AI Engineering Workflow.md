@@ -32,11 +32,9 @@ aliases:
   - Agent workflow
 tags:
   - synthesis
-  - ai
   - agents
   - workflow
 ---
-
 # AI Engineering Workflow
 
 这页把当前 vault 里关于 Agent、LLM、工具设计、编码准则、需求映射的内容串成一条更完整的 AI 工程工作流。

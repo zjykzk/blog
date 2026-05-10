@@ -20,12 +20,10 @@ aliases:
   - AI collaboration feedback loop
   - continuous improvement loop for AI coding
 tags:
-  - ai
   - ai-coding
   - feedback
   - workflow
 ---
-
 # Feedback Flywheel
 
 Feedback flywheel is the practice of turning AI collaboration experience into updated context, standards, workflows, and guardrails.

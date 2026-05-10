@@ -22,12 +22,10 @@ aliases:
   - agent skills
   - AI skill
 tags:
-  - ai
   - agents
   - skills
   - workflow
 ---
-
 # Agent Skill
 
 An agent skill is not just a saved prompt. Thariq Shihipar's Claude Code article frames skills as folders that can contain instructions, reference files, scripts, assets, data, configuration, memory, and hooks that the agent can discover and use.

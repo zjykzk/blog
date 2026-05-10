@@ -8,12 +8,12 @@ tags: []
 sources:
   - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
 created: 2026-04-26
-base_confidence: 0.76
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.72
-  inferred: 0.28
+  extracted: 0.96
+  inferred: 0.04
   ambiguous: 0.00
 updated: 2026-05-09T20:15:00+08:00
 aliases:
@@ -21,7 +21,6 @@ aliases:
   - 系统之美
   - 系统思考
 ---
-
 # Thinking in Systems
 
 一本关于系统视角的入门书，但真正重要的不是术语，而是一个判断翻转：**问题反复出现，优先怀疑系统结构，而不是个体意志。**
@@ -158,4 +157,4 @@ Agent 的行为不是 prompt 单点决定的，而是由上下文质量、工具
 - [[wiki/topics/Mental Models]]
 - [[wiki/topics/Problem Framing]]
 - [[wiki/concepts/Epiplexity]]
-- [[pages/Thinking in Systems]]
+- `pages/Thinking in Systems`

@@ -13,7 +13,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
 created: 2026-05-05T17:05:00+08:00
 updated: 2026-05-05T17:55:00+08:00
-base_confidence: 0.44
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -24,13 +24,11 @@ aliases:
   - Patterns for Reducing Friction in AI-Assisted Development
   - reduce friction in AI-assisted development
 tags:
-  - source
   - ai-coding
   - software-engineering
   - workflow
   - collaboration
 ---
-
 # Reducing Friction in AI-Assisted Development Source Guide
 
 This page tracks Rahul Garg's Martin Fowler article "Patterns for Reducing Friction in AI-Assisted Development" as a source for the AI-assisted software engineering cluster.

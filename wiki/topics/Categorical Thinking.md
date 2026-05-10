@@ -8,7 +8,7 @@ tags: []
 sources:
   - /Users/zenk/Documents/notes/20260506T194300--概念解剖-分析__concept.org
 created: 2026-04-27
-base_confidence: 0.32
+base_confidence: 0.59
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 updated: 2026-05-06T19:50:40+08:00
@@ -21,7 +21,6 @@ provenance:
   inferred: 0.18
   ambiguous: 0.00
 ---
-
 # Categorical Thinking
 
 分类思维，是一种具体的 [[wiki/concepts/Analysis]]：先找一个划分维度，再按这个维度把混乱切成几类，从而让理解、判断和行动变得更清楚。
@@ -146,4 +145,4 @@ provenance:
 - [[wiki/topics/Problem Framing]]
 - [[wiki/topics/Critical Thinking]]
 - [[wiki/topics/Thinking in Systems]]
-- [[pages/分类思维]]
+- `pages/分类思维`

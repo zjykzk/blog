@@ -110,7 +110,7 @@ aliases:
 - [[wiki/concepts/Cognition Three Channels]]
 - [[wiki/concepts/Expression Three Channels]]
 - [[wiki/concepts/Knowledge as Network]]
-- [[pages/学习方法论]]
-- [[mobu/工具/认知天性]]
-- [[mobu/工具/得到高效学习方法]]
-- [[mobu/读书/思维框架]]
+- `pages/学习方法论`
+- `mobu/工具/认知天性`
+- `mobu/工具/得到高效学习方法`
+- `mobu/读书/思维框架`

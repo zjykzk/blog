@@ -21,12 +21,10 @@ aliases:
   - inference engine
   - high-throughput inference
 tags:
-  - ai
   - llm
   - inference
   - systems
 ---
-
 # LLM Inference Systems
 
 An LLM inference system is the runtime that turns incoming prompts into generated tokens under latency, throughput, memory, and serving constraints.
@@ -80,6 +78,7 @@ That split helps keep the model execution path stable while adding web and distr
 - [[wiki/concepts/Tokenization]]
 - [[wiki/concepts/Autoregressive Decoding]]
 - [[wiki/concepts/KV Cache]]
+- [[wiki/topics/High Concurrency]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/Context Management]]
 - [[wiki/sources/vLLM Inference Systems Source Guide]]

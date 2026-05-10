@@ -20,12 +20,10 @@ aliases:
   - prefill and decode
   - disaggregated prefill decode
 tags:
-  - ai
   - llm
   - inference
   - serving
 ---
-
 # Prefill Decode Split
 
 The prefill/decode split is the distinction between processing prompt tokens and generating output tokens.

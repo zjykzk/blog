@@ -16,9 +16,7 @@ aliases:
 tags:
   - hugo
   - posts
-  - source
 ---
-
 # Published Posts Source Guide
 
 `content/posts/` 是对外发布层，不直接等同于 wiki 本体。

@@ -1,21 +1,24 @@
 ---
 title: Agent Skill Patterns as Human Workflow Control Structures
 category: synthesis
-tags: [ai, agents, workflow, skills, systems]
+tags:
+  - agents
+  - workflow
+  - skills
+  - systems
 sources:
   - conversation:2026-05-07
 created: 2026-05-07T13:57:16+08:00
 updated: 2026-05-07T13:57:16+08:00
 summary: Agent skill patterns translate ordinary human work controls—manuals, templates, reviews, interviews, and gates—into executable agent workflows.
 provenance:
-  extracted: 0.35
-  inferred: 0.65
-  ambiguous: 0.0
+  extracted: 0.73
+  inferred: 0.27
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-07
 ---
-
 # Agent Skill Patterns as Human Workflow Control Structures
 
 ## Context

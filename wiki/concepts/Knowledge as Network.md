@@ -63,4 +63,4 @@ provenance:
 - [[wiki/concepts/Understanding]]
 - [[wiki/concepts/Cognition Three Channels]]
 - [[wiki/concepts/Expression Three Channels]]
-- [[学习方法论]]
+- [[wiki/topics/Learning Methodology]]

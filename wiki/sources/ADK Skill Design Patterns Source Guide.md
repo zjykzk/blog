@@ -9,7 +9,7 @@ sources:
   - https://lavinigam.com/posts/adk-skill-design-patterns/
 created: 2026-05-07T12:44:36+08:00
 updated: 2026-05-07T12:44:36+08:00
-base_confidence: 0.62
+base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-07
 provenance:
@@ -20,13 +20,10 @@ aliases:
   - 5 Agent Skill Design Patterns Source Guide
   - Google Cloud Tech ADK skill patterns
 tags:
-  - source
-  - ai
   - agents
   - skills
   - adk
 ---
-
 # ADK Skill Design Patterns Source Guide
 
 This source guide covers Google Cloud Tech's X article and Lavi Nigam's expanded post, "5 Agent Skill Design Patterns Every ADK Developer Should Know." The source argues that SKILL.md's shared packaging format is no longer the hard part; the hard part is content design.

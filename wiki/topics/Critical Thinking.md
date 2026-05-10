@@ -20,11 +20,10 @@ tags:
   - reasoning
   - methods
 provenance:
-  extracted: 0.78
-  inferred: 0.22
+  extracted: 1.00
+  inferred: 0.00
   ambiguous: 0.00
 ---
-
 # Critical Thinking
 
 这页聚合的是《学会提问》这类材料中最稳定、最值得反复使用的批判性思维框架。

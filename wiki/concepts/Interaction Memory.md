@@ -21,12 +21,10 @@ aliases:
   - communication memory
   - organizational interaction memory
 tags:
-  - ai
   - memory
   - organization
   - coordination
 ---
-
 # Interaction Memory
 
 Interaction memory is the second layer of a [[wiki/concepts/Company Brain]]. It preserves what happened between people before artifacts appeared: why something happened, how people expected work to be done, which constraint mattered, which assumption was fragile, and what was left unsaid.

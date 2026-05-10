@@ -20,12 +20,10 @@ aliases:
   - organizational action memory
   - operational memory
 tags:
-  - ai
   - memory
   - organization
   - workflow
 ---
-
 # Action Memory
 
 Action memory is the third layer of a [[wiki/concepts/Company Brain]]. It remembers how the company moves: when a workflow should wake up, when it should stay still, which path should run, what guardrails apply, and what happened after action.

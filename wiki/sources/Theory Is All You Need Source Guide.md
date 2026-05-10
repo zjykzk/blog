@@ -17,13 +17,10 @@ aliases:
   - Felin Holweg Theory Is All You Need
 tags:
   - paper
-  - ai
   - cognition
   - causal-reasoning
-  - source
 source: /Users/zenk/Downloads/ssrn-4737265.pdf
 ---
-
 # Theory Is All You Need Source Guide
 
 这页保留 Teppo Felin 与 Matthias Holweg 的论文 *Theory Is All You Need: AI, Human Cognition, and Causal Reasoning* 的阅读导览。

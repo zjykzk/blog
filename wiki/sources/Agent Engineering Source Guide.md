@@ -16,13 +16,10 @@ aliases:
   - harness workflow source guide
   - agent engineering sources
 tags:
-  - source
-  - ai
   - agents
   - engineering
   - harness
 ---
-
 # Agent Engineering Source Guide
 
 ## Current role

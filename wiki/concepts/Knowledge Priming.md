@@ -19,12 +19,10 @@ aliases:
   - project context priming
   - AI knowledge priming
 tags:
-  - ai
   - ai-coding
   - context
   - workflow
 ---
-
 # Knowledge Priming
 
 Knowledge priming is the practice of giving an AI coding assistant curated project context before asking it to generate code.

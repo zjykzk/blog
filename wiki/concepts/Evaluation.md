@@ -14,18 +14,17 @@ provenance:
   extracted: 0.72
   inferred: 0.28
   ambiguous: 0.00
-base_confidence: 0.32
+base_confidence: 0.59
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 created: 2026-05-06T20:58:15+08:00
-updated: 2026-05-06T20:58:15+08:00
+updated: 2026-05-10T14:24:08+08:00
 aliases:
   - 评价
   - assessment
   - appraisal
   - value judgment
 ---
-
 # Evaluation
 
 Evaluation is the act of placing an object inside a scale so its value, quality, meaning, or position can appear.

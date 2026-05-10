@@ -19,11 +19,8 @@ tags:
   - paper
   - arxiv
   - agents
-  - ai
   - harness
-  - source
 ---
-
 # Dive into Claude Code Source Guide
 
 ## Current role

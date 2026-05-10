@@ -9,7 +9,7 @@ sources:
   - https://lavinigam.com/posts/adk-skill-design-patterns/
 created: 2026-05-07T12:44:36+08:00
 updated: 2026-05-07T12:44:36+08:00
-base_confidence: 0.62
+base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-07
 provenance:
@@ -21,12 +21,10 @@ aliases:
   - ADK skill design patterns
   - skill patterns
 tags:
-  - ai
   - agents
   - skills
   - workflow
 ---
-
 # Agent Skill Design Patterns
 
 Agent skill design patterns are reusable structural templates for organizing `SKILL.md` content. The article's core claim is that the SKILL.md packaging problem is mostly solved by the shared format, while the harder problem is how to structure the logic inside the skill.

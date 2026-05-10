@@ -7,23 +7,21 @@ summary: Karpathy Guidelines are coding constraints that reduce common LLM mista
 sources:
   - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
 created: 2026-04-20
-base_confidence: 0.53
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.72
-  inferred: 0.28
-  ambiguous: 0.0
+  extracted: 0.96
+  inferred: 0.04
+  ambiguous: 0.00
 source_count: 3
 updated: 2026-05-05T17:45:00+08:00
 aliases:
   - karpathy-guidelines
 tags:
-  - ai
   - coding
   - guidelines
 ---
-
 # Karpathy Guidelines
 
 这组 guideline 的核心目的是降低 LLM 写代码时常见的失误，尤其是：默认假设、过度设计、顺手大改、以及缺少可验证目标。

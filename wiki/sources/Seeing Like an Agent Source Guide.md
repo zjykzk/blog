@@ -20,13 +20,10 @@ aliases:
   - Seeing like an Agent
   - Claude Code action space article
 tags:
-  - source
-  - ai
   - agents
   - tools
   - claude-code
 ---
-
 # Seeing Like an Agent Source Guide
 
 This page keeps Thariq Shihipar's *Lessons from Building Claude Code: Seeing like an Agent* as a source-facing note and routes its durable claims into the AI / Agent wiki cluster.

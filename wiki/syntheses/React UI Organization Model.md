@@ -13,17 +13,16 @@ sources:
   - wiki/topics/Frontend Development.md
   - wiki/sources/React Framework Background and Core Concepts Source Guide.md
 created: 2026-05-05
-updated: 2026-05-05
-summary: Synthesis of React as a UI organization model combining declarative rendering, components, and state management.
+updated: 2026-05-10T16:10:12+08:00
+summary: React organizes frontend UI complexity by combining declarative rendering, component boundaries, state flow, and workflow-level feedback.
 provenance:
-  extracted: 0.25
-  inferred: 0.70
+  extracted: 0.60
+  inferred: 0.35
   ambiguous: 0.05
-base_confidence: 0.37
+base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 ---
-
 # React UI Organization Model
 
 ## The Connection
@@ -44,10 +43,13 @@ Declarative rendering, components, and state management are not three independen
 
 Declarative rendering says the interface should be described as a target state. Components localize that description into composable units. State management defines what changes and how those changes propagate. Taken together, they create a control loop between data, UI structure, and rendered output. ^[inferred]
 
+The downstream workflow implication is that frontend development should not be reduced to translating a design mock into markup. The team has to keep user tasks, state transitions, component ownership, and system behavior aligned as the interface evolves. This is why [[wiki/topics/Frontend Development Workflow]] belongs next to the React concept cluster rather than only after implementation. ^[inferred]
+
 ## Tensions and Trade-offs
 
 - Component boundaries can clarify ownership, but they can also hide state flow if state is lifted or shared carelessly. ^[inferred]
 - Declarative UI reduces manual update logic, but it does not remove the need to model state transitions explicitly. ^[inferred]
+- A component model can improve local reasoning while making cross-component workflow harder unless state ownership and interaction contracts are made explicit. ^[inferred]
 - The current wiki has React material but little cross-framework comparison, so claims about React versus Vue or Svelte should stay tentative. ^[ambiguous]
 
 ## Open Questions
