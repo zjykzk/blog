@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-11T12:08:45+08:00
+updated: 2026-05-11T21:29:38+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -185,6 +185,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/React UI Organization Model|React UI Organization Model]] — Synthesis of React as a UI organization model combining declarative rendering, components, and state management. (#frontend #react #ui)
 - [[wiki/syntheses/Reality-Refutable Engineering Systems|Reality-Refutable Engineering Systems]] — Mature engineering systems let reality challenge their models through feedback, appeal, accountability, and redesign triggers. (#synthesis #software-engineering #systems #governance #feedback)
 - [[wiki/syntheses/Thinking and Judgment Workflow|Thinking and Judgment Workflow]] — 这页把 Mental Models 、 Critical Thinking 、 Problem Framing 串成一条更完整的思考路径：面对复杂问题时，不只是要会想，还要知道先怎么定义问题、再怎么观察、最后怎么判断。 (#synthesis #thinking #reasoning #methods)
+- [[wiki/syntheses/深度思考 高阶思维与本质理解|深度思考、高阶思维与本质理解]] — 深度思考负责下钻生成机制，高阶思维负责审查问题框架，二者经由现实校验共同逼近本质并形成深度理解。 (#thinking #learning #cognition #judgment)
 - [[wiki/syntheses/不确定性下的判断|不确定性下的判断]] — 这页尝试把 Problem Framing 、 Mental Models 、 Probability 、 Critical Thinking 串成一个更高层的判断框架：很多真正重要的决策，并不是在确定条件下做出的，而是在信息不全、对象不稳、反馈滞后时被迫推进的。 (#synthesis #thinking #judgment #decision-making)
 
 ## Sources
@@ -238,6 +239,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Modern Software Engineering Notes|Modern Software Engineering Notes]] — 这份读书笔记目前以摘录和图片为主，仍更适合作为 source note，而不是直接升格为稳定 wiki 页面。 (#book-notes #software-engineering)
 - [[wiki/sources/NotebookLM Learning Workflow Source Guide|NotebookLM Learning Workflow Source Guide]] — Source guide for Ihtesham Ali's NotebookLM learning workflow thread: corpus loading, mental-model prompts, disagreement mapping, and diagnostic feedback. (#learning #notebooklm #questions)
 - [[wiki/sources/Probability Roundtable Source Guide|Probability Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担概率论的稳定母页角色。 (#probability #thinking #roundtable)
+- [[wiki/sources/思维圆桌 Source Guide|思维圆桌 Source Guide]] — 这页导览一次关于“思维”的圆桌：思维被拆成求解机制、问题表征、认知建构、语言游戏和责任判断五条张力线。 (#thinking #cognition #judgment #roundtable)
+- [[wiki/sources/深度思考与高阶思维对话 Source Guide|深度思考与高阶思维对话 Source Guide]] — 这页保存当前对话中关于深度思考、高阶思维、本质、深度理解和训练方法的 source 层材料。 (#thinking #learning #cognition #judgment)
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide|Prompt Caching Claude Code Case Study Source Guide]] — Source guide for prompt-caching case studies that frame Claude Code cache efficiency as an agent harness design problem. (#agents #caching #claude-code)
 - [[wiki/sources/Published Posts|Published Posts Source Guide]] — content/posts/ 是对外发布层，不直接等同于 wiki 本体。 (#hugo #posts)
 - [[wiki/sources/Qiaomu Best Prompt Source Guide|Qiaomu Best Prompt Source Guide]] — 这篇文章当前更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定母页。 (#article #blog #llm #prompting)

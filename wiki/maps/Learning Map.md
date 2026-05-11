@@ -14,7 +14,7 @@ created: 2026-04-26
 base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-10T22:51:54+08:00
+updated: 2026-05-11T21:29:38+08:00
 aliases:
   - 学习地图
 provenance:
@@ -50,11 +50,14 @@ provenance:
 
 - [[wiki/syntheses/Learning Methodology Across Sources]]——七条原则在多本学习书里的印证矩阵
 - [[wiki/syntheses/Application and Creation Distinction]]——用学习理论、创造力研究、设计理论和实用主义加固“应用/创造”的边界
+- [[wiki/syntheses/深度思考 高阶思维与本质理解]]——把高阶审题、深度下钻、本质句和现实校验组织成一套可执行思考训练框架
 
 ## 相关源笔记（pages/ 与 mobu/）
 
 - [[wiki/sources/NotebookLM Learning Workflow Source Guide]]——Ihtesham Ali 的 NotebookLM 学习 workflow source guide
 - [[wiki/sources/Understanding as Concept Cloud Source Guide]]——理解之云 inline source guide
+- [[wiki/sources/思维圆桌 Source Guide]]——关于思维定义、高阶审题、问题表征、语言陷阱和责任判断的圆桌材料
+- [[wiki/sources/深度思考与高阶思维对话 Source Guide]]——当前对话中关于审题、下钻、本质句、前置知识和七天训练法的 source 层材料
 - [[wiki/sources/Creation Concept Anatomy Source Guide]]——创造概念解剖 source guide
 - [[wiki/sources/How People Learn Transfer Source Guide]]——学习迁移与应用的外部来源
 - [[wiki/sources/Cognitive Load Theory Source Guide]]——认知负荷理论、图式形成、直接教学、范例学习与 AI tutor/doer 边界

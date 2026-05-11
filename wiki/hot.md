@@ -1,18 +1,22 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity ingested Skills-Coach: agent skills can be boundary-tested, optimized, comparatively executed, and evaluated as inspectable learning surfaces.
+summary: Recent wiki activity expanded source captures so source pages preserve content rather than reducing it to summaries.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-11T12:08:45+08:00
+updated: 2026-05-11T21:29:38+08:00
 ---
 
 ## Recent Activity
 
+- 已按“source 的内容不用总结”的要求扩展 [[wiki/sources/思维圆桌 Source Guide]] 和 [[wiki/sources/深度思考与高阶思维对话 Source Guide]]：source 层保留更完整的讨论内容，综合页才负责压缩。
+- 已补充捕获 [[wiki/sources/深度思考与高阶思维对话 Source Guide]]：保存当前对话中关于高阶审题、深度下钻、本质句、前置知识和七天训练法的 source 层材料。
+- 已捕获 [[wiki/sources/思维圆桌 Source Guide]]：关于“思维”的圆桌把思维拆成求解、表征、建构、语言和责任五条张力线，强调高阶思维必须能审查给定问题。
+- 已捕获 [[wiki/syntheses/深度思考 高阶思维与本质理解]]：高阶思维负责审题，深度思考负责下钻机制，深度理解是二者经现实校验后形成的可复用结构。
 - 已摄入 [[wiki/sources/Skills-Coach Paper Source Guide]]，并新增 [[wiki/concepts/Skill Self-Evolution]]：agent skill 可以被边界任务探测、指令/代码优化、对照执行和可追溯评估，而不是只靠人工 prompt polishing。
 - 已捕获 [[wiki/sources/Memory Is State Not a Service Source Guide]]：Company Brain 的三层记忆只有作为同一份共享状态的不同视图才成立，工具各自记忆会制造局部真相。
 - [[wiki/concepts/Additive World]] 已从 [[wiki/concepts/Multiplicative World]] 的别名中拆出为独立概念页：加法世界负责保底、补短板和稳定交付，乘法世界负责长板、复利和非线性上限。
@@ -61,6 +65,9 @@ updated: 2026-05-11T12:08:45+08:00
 
 ## Key Takeaways
 
+- 提升深度思考和高阶思维可以训练为一个循环：每日问题重写、每周五层为什么、本质句压缩、反例校验和最小行动实验。
+- 思维不应只被理解为解题能力；更高阶的思维要能重新表征问题、识别语言陷阱、接受认知失衡，并在制度惯性中保留中断与判断。
+- 深度思考、高阶思维和本质理解应作为循环使用：先审查问题框架，再追问生成机制，最后用解释力、生成力、迁移力和行动反馈校验是否抓住本质。
 - Skill self-evolution makes agent skills evaluable components: a skill's boundary can be probed by generated standard/advanced/edge tasks, then improved through instruction or code variants that must pass comparative execution and traceable scoring.
 - 三个自我模型把成长问题推进到内核层：进程自我记录当下状态，界面自我维护角色叙事，内核自我由长期输入、奖励函数和预测误差更新塑形。
 - 不确定性是意义的燃料：人需要的不是绝对确定，而是在可承受的不确定中体验悬念、探索、解决、叙事和行动的张力。
