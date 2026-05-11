@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-10T23:12:22+08:00
+updated: 2026-05-11T12:08:45+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -151,6 +151,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Neural Network Inference Boundary|Neural Network Inference Boundary]] — The neural-network inference boundary separates learned tensor computation from surrounding traditional control-flow code. (#llm #inference #systems)
 - [[wiki/concepts/Lost in the Middle Effect|Lost in the Middle Effect]] — The lost-in-the-middle effect is the long-context failure mode where models use information best at the beginning or end and worse in the middle. (#llm #context #evaluation)
 - [[wiki/concepts/Meta-Harness|Meta-Harness]] — Meta-Harness searches over executable LLM harness code using a coding-agent proposer with access to prior code, scores, and traces. (#agents #harness #optimization)
+- [[wiki/concepts/Skill Self-Evolution|Skill Self-Evolution]] — Skill self-evolution improves agent skills by generating boundary tasks, optimizing instructions or code, executing comparisons, and evaluating traceable results. (#agents #skills #optimization)
 - [[wiki/concepts/Multiplicative World|Multiplicative World]] — 乘法世界是回报由当前动作与既有存量共同决定的世界；它要求人从补平均短板转向寻找可复利、可放大的长板。 (#wealth #leverage #systems-thinking #career)
 - [[wiki/concepts/Narrative|Narrative]] — 叙事是把被选择的事实串成因果线索的结构，使事实能够用于预测、赋义、协调和行动。 (#thinking #cognition #coordination)
 - [[wiki/concepts/Paged Attention|Paged Attention]] — Paged attention stores KV cache in fixed-size blocks so inference servers can allocate, reuse, and evict attention state efficiently. (#llm #inference #memory)
@@ -228,6 +229,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide|LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]] — 这篇 arXiv 论文更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#paper #arxiv #reasoning #llm)
 - [[wiki/sources/Lost in the Middle Paper Source Guide|Lost in the Middle Paper Source Guide]] — Source guide for the Lost in the Middle paper, focused on long-context positional bias and evaluation protocols for usable context. (#paper #llm #context #evaluation)
 - [[wiki/sources/Managed Agents Source Guide|Managed Agents Source Guide]] — 这篇 Anthropic engineering article 更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#agents #harness #anthropic)
+- [[wiki/sources/Memory Is State Not a Service Source Guide|Memory Is State Not a Service Source Guide]] — Source guide for NanoThoughts' Company Brain article arguing that memory must be shared inspectable state, not isolated tool-local memory services. (#article #agents #memory #organization)
 - [[wiki/sources/Meta-Harness Paper Source Guide|Meta-Harness Paper Source Guide]] — Source guide for the Meta-Harness paper, focused on automated search over executable model harnesses using full filesystem access to code, scores, and traces. (#paper #arxiv #agents #harness)
 - [[wiki/sources/Mobu Notes|Mobu Notes Source Guide]] — mobu/ 目前是个人知识与领域素材的大池子，适合作为 raw/domain input 层，而不是直接作为稳定 wiki 层。 (#mobu #raw)
 - [[wiki/sources/Narrative as First Principle Source Guide|Narrative as First Principle Source Guide]] — 这页导览一篇把叙事视为事实、物理、意识、意义、协作与行动之间接口的世界观文章。 (#thinking #worldview #cognition #coordination)
@@ -247,13 +249,14 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Simon Sciences of the Artificial Source Guide|Simon Sciences of the Artificial Source Guide]] — Source guide for Simon's design theory, grounding design in changing existing situations into preferred ones. (#design #systems #action)
 - [[wiki/sources/Software Methodology by Pan Jianyu|Software Methodology by Pan Jianyu]] — 这页收纳《软件方法》相关的阅读入口与当前已经稳定下来的判断。
 - [[wiki/sources/Spec-Driven Development Paper Source Guide|Spec-Driven Development Paper Source Guide]] — 这篇论文是 Deepak Babu Piskala 投稿 AIWare 2026 的 practitioner guide，把 SDD 这波被 AI coding assistant 重新点燃的旧想法梳理成三档光谱 + 四阶段流水线 + 决策框架。8 页，3 张图，零量化实验。 (#software-engineering #specs #ai-coding #paper)
+- [[wiki/sources/Skills-Coach Paper Source Guide|Skills-Coach Paper Source Guide]] — Source guide for the Skills-Coach paper, focused on automated skill boundary probing, training-free GRPO optimization, comparative execution, and Skill-X evaluation. (#paper #arxiv #agents #skills)
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide|Team AI Coding Harness Seminar Source Guide]] — Source guide for TechLead 少个分号's WeChat seminar recap on team-level AI coding harness, human discipline, TDD loops, and translation-layer compression. (#agents #harness #ai-coding)
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #cognition #causal-reasoning)
 - [[wiki/sources/Understanding as Concept Cloud Source Guide|Understanding as Concept Cloud Source Guide]] — Source guide for inline discussions that model understanding as a cloud and trace the frame to Hofstadter's analogy-making work. (#cognition #learning #concepts)
 - [[wiki/sources/vLLM Inference Systems Source Guide|vLLM Inference Systems Source Guide]] — Source guide for Aleksa Gordic's vLLM article, focused on engine loops, paged attention, batching, P/D split, scaling, serving, and benchmarking. (#llm #inference)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Recent captures added agency, steady-state survival logic, heavy-tail thinking, and multiplicative-world strategy to the reading and management clusters.
+- [[wiki/hot|Hot Cache]] — Recent captures added Memory Is State Not a Service to the Company Brain cluster: company memory must be shared inspectable state rather than isolated tool-local memory services.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

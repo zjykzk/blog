@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-10T22:51:54+08:00
+updated: 2026-05-11T12:08:45+08:00
 aliases:
   - Wiki Log
 tags:
@@ -138,3 +138,5 @@ tags:
 - [2026-05-10T22:51:54+08:00] CAPTURE type=concept page="wiki/concepts/三个自我模型.md" title="三个自我模型"
 - [2026-05-10T23:07:11+08:00] QUERY query="什么是加法世界、乘法世界" result_pages=5 mode=normal escalated=false
 - [2026-05-10T23:12:22+08:00] WIKI_UPDATE pages_updated=4 pages_created=1 note="补充加法世界 gap：新增 Additive World 概念页，并从 Multiplicative World 拆出别名与双向链接"
+- [2026-05-11T10:27:21+08:00] CAPTURE type=source page="wiki/sources/Memory Is State Not a Service Source Guide.md" title="Memory Is State Not a Service Source Guide"
+- [2026-05-11T12:08:45+08:00] INGEST source="https://arxiv.org/abs/2604.27488" pages_updated=9 pages_created=2 mode=append

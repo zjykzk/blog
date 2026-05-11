@@ -13,16 +13,17 @@ sources:
   - https://x.com/akshay_pachaar/status/2041146899319971922
   - https://x.com/hwchase17/status/2040467997022884194
   - https://arxiv.org/abs/2603.28052
+  - https://arxiv.org/abs/2604.27488
 created: 2026-05-04
-base_confidence: 0.78
+base_confidence: 0.80
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.90
+  extracted: 0.89
   inferred: 0.10
-  ambiguous: 0.0
-source_count: 7
-updated: 2026-05-09T22:42:07+08:00
+  ambiguous: 0.01
+source_count: 8
+updated: 2026-05-11T12:08:45+08:00
 aliases:
   - Agent architecture design space
   - AI agent system design space
@@ -240,6 +241,19 @@ This adds two new architecture questions:
 
 The second question matters because the paper's ablations suggest that raw execution traces can be the difference between superficial scoring and useful credit assignment. ^[inferred]
 
+### Skill evolution surface
+
+[[wiki/sources/Skills-Coach Paper Source Guide]] adds a narrower but practical evolution surface: skills can be optimized as modular capability packages.
+
+Compared with Meta-Harness, Skills-Coach does not search the whole harness program. It generates boundary-probing tasks from a target skill, optimizes instruction or code variants, runs comparative execution, and admits changes through traceable evaluation. This makes [[wiki/concepts/Skill Self-Evolution]] a middle layer between context updates and harness-code search. ^[inferred]
+
+This adds two more architecture questions:
+
+- Are reusable skills treated as static documentation, or as evaluated components with their own regression suite?
+- Does the system optimize skills in virtual/documentation mode, real execution mode, or both?
+
+The second question matters because virtual scoring may reward documentation signals, while real execution can expose file, command, dependency, and side-effect failures. ^[ambiguous]
+
 ## Upstream topics
 
 - [[wiki/topics/AI Harness]]
@@ -255,6 +269,7 @@ The second question matters because the paper's ablations suggest that raw execu
 - [[wiki/concepts/Agent Tool]]
 - [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/Meta-Harness]]
+- [[wiki/concepts/Skill Self-Evolution]]
 
 ## Upstream source notes
 
@@ -265,6 +280,7 @@ The second question matters because the paper's ablations suggest that raw execu
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
+- [[wiki/sources/Skills-Coach Paper Source Guide]]
 
 ## Navigation
 

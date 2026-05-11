@@ -9,15 +9,16 @@ sources:
   - https://x.com/trq212/status/2027463795355095314
   - https://x.com/GoogleCloudTech/article/2033953579824758855
   - https://lavinigam.com/posts/adk-skill-design-patterns/
+  - https://arxiv.org/abs/2604.27488
 created: 2026-05-06T10:51:47+08:00
-updated: 2026-05-07T12:44:36+08:00
-base_confidence: 0.70
+updated: 2026-05-11T12:08:45+08:00
+base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 provenance:
-  extracted: 0.75
-  inferred: 0.25
-  ambiguous: 0.0
+  extracted: 0.76
+  inferred: 0.23
+  ambiguous: 0.01
 aliases:
   - agent skills
   - AI skill
@@ -80,11 +81,20 @@ The important shift is from file format to control problem. A skill may have the
 
 The article also makes the `description` field operationally important: it is the agent's routing surface for whether a skill is loaded at all. That connects skill authoring directly to [[wiki/topics/Tool Routing]]. ^[inferred]
 
+## Capability Boundaries and Self-Evolution
+
+[[wiki/sources/Skills-Coach Paper Source Guide]] adds a behavioral optimization lens. A skill should be tested against generated standard, advanced, and boundary tasks, then improved through revised instructions, examples, constraints, or code helpers.
+
+This shifts skill quality from static readability to task coverage: a skill is not mature merely because its `Skill.md` is well written; it must survive edge cases, anomalous inputs, and real execution artifacts. ^[inferred]
+
+The paper's [[wiki/concepts/Skill Self-Evolution]] loop also makes evaluation part of skill design. If repeated failures become revised instructions or code after comparative execution, a skill becomes an inspectable learning surface rather than a frozen prompt bundle. ^[inferred]
+
 ## Open Questions
 
 - Which skill categories are most valuable for solo knowledge work versus team software engineering? ^[inferred]
 - How should a team measure whether a skill is improving outcomes rather than merely increasing context and tool surface? ^[inferred]
 - When does a composed skill become too broad and need to split into Tool Wrapper, Generator, Reviewer, Inversion, or Pipeline subskills? ^[inferred]
+- How should automatically optimized skills be reviewed before they enter shared team infrastructure? ^[inferred]
 
 ## Related
 
@@ -93,6 +103,7 @@ The article also makes the `description` field operationally important: it is th
 - [[wiki/topics/Context Management]]
 - [[wiki/concepts/Agent Action Space]]
 - [[wiki/concepts/Agent Skill Design Patterns]]
+- [[wiki/concepts/Skill Self-Evolution]]
 - [[wiki/topics/Tool Routing]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Encoding Team Standards]]

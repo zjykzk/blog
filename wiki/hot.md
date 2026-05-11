@@ -1,21 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured the three-selves model: real growth means changing the kernel self through inputs, rewards, and feedback rather than only emotions or persona.
+summary: Recent wiki activity ingested Skills-Coach: agent skills can be boundary-tested, optimized, comparatively executed, and evaluated as inspectable learning surfaces.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-10T23:12:22+08:00
+updated: 2026-05-11T12:08:45+08:00
 ---
 
 ## Recent Activity
 
+- 已摄入 [[wiki/sources/Skills-Coach Paper Source Guide]]，并新增 [[wiki/concepts/Skill Self-Evolution]]：agent skill 可以被边界任务探测、指令/代码优化、对照执行和可追溯评估，而不是只靠人工 prompt polishing。
+- 已捕获 [[wiki/sources/Memory Is State Not a Service Source Guide]]：Company Brain 的三层记忆只有作为同一份共享状态的不同视图才成立，工具各自记忆会制造局部真相。
 - [[wiki/concepts/Additive World]] 已从 [[wiki/concepts/Multiplicative World]] 的别名中拆出为独立概念页：加法世界负责保底、补短板和稳定交付，乘法世界负责长板、复利和非线性上限。
-- 已捕获 [[wiki/sources/内核 你的三个自我 Source Guide]]，并新增 [[wiki/concepts/三个自我模型]]：真正的成长不是改情绪或人设，而是通过训练样本、奖励函数和现实反馈改写内核自我。
-- 已捕获 [[wiki/sources/可能：不确定性是意义的燃料 Source Guide]]，并新增 [[wiki/concepts/Uncertainty as Meaning Fuel]]：不确定性不是纯粹的坏东西，而是意义、叙事、探索、回报和行动可能性的燃料。
 
 ## Active Threads
 
@@ -26,11 +26,11 @@ updated: 2026-05-10T23:12:22+08:00
 - 财富创造现在加入了重尾世界观：极端值、正反馈、复利和乘法世界解释了为什么可复制资产、声望、资本、网络效应和个人品牌会改变职业上限。
 - 学习与认知现在加入了叙事线索：事实只有被选择、排序，并绑定成能指导预测、意义、协调和行动的因果故事后，才真正变得可用。
 - Learning cognition now has an ICAP-and-cognitive-load thread: instruction should manage working-memory bandwidth, then push learners from passive reception toward construction and interactive correction when prior knowledge allows.
-- Company brain is now represented as an enterprise memory-and-action substrate: factual memory, interaction memory, action memory, context graph reasoning, and governed action must integrate before agents can safely operate on company reality. Action memory adds the operational continuity layer: procedures, triggers, execution traces, outcomes, guardrails, and intentional inaction.
+- Company brain is now represented as an enterprise memory-and-action substrate: factual memory, interaction memory, action memory, context graph reasoning, and governed action must integrate before agents can safely operate on company reality. The latest state-substrate layer clarifies that these memories must be three views of one inspectable, correctable, permissioned state rather than separate tool-local services.
 - Systems thinking now has an explicit iceberg-model thread: recurring problems should be traced from visible events to patterns, structures, mental models, and leverage points before choosing interventions.
 - Software methodology is converging around the handoff from business modeling to analysis, DDD, and executable design.
 - Frontend knowledge is forming around React as a coordination model for declarative rendering, component boundaries, and state.
-- AI / Agent systems are being organized around harness, context management, tool design, memory, permissions, reusable operational knowledge, and now automated harness evolution from logged traces.
+- AI / Agent systems are being organized around harness, context management, tool design, memory, permissions, reusable operational knowledge, and now both harness-level and skill-level self-evolution from logged traces or generated boundary tasks.
 - Agentic engineering is now represented as a production AI coding discipline: senior engineers train harnesses, encode lessons into skills and rules, allocate human attention by risk, and move verification into executable gates.
 - User-side harness engineering is now represented as developer control over context, rules, templates, computational checks, inferential review artifacts, and feedback loops.
 - Harnessability is now represented as a quality of tasks and codebases: agent-friendly work exposes context, boundaries, examples, executable checks, and reusable review criteria.
@@ -61,6 +61,7 @@ updated: 2026-05-10T23:12:22+08:00
 
 ## Key Takeaways
 
+- Skill self-evolution makes agent skills evaluable components: a skill's boundary can be probed by generated standard/advanced/edge tasks, then improved through instruction or code variants that must pass comparative execution and traceable scoring.
 - 三个自我模型把成长问题推进到内核层：进程自我记录当下状态，界面自我维护角色叙事，内核自我由长期输入、奖励函数和预测误差更新塑形。
 - 不确定性是意义的燃料：人需要的不是绝对确定，而是在可承受的不确定中体验悬念、探索、解决、叙事和行动的张力。
 - 不确定性应先被当作信息问题处理：识别它来自混沌、计算不可约性、量子随机、模型外变化还是博弈反身性，再决定管理、拥抱或制造。
@@ -84,7 +85,7 @@ updated: 2026-05-10T23:12:22+08:00
 - Autoregressive decoding is the causal source of output-token cost: every generated token changes the next input, while KV cache and batching only reduce repeated work around that dependency.
 - Reality-refutable engineering systems must let feedback cross the field wall, workflow wall, and power wall; otherwise feedback mechanisms become self-reinforcing interpretation loops rather than real learning.
 - Engineering thinking is now represented as structured judgment: turn vague intent into reliable reality by defining problems, respecting constraints, imagining failure, building feedback, structuring responsibility, seeing people, and preserving evolvability.
-- Company brain reframes enterprise AI from tool access over data to a permissioned memory substrate. Part 4 sharpens the action layer: memory must preserve when work should wake up, when it should stay still, which path should run, and what outcomes teach the system.
+- Company brain reframes enterprise AI from tool access over data to a permissioned memory substrate. The state-substrate claim sharpens the architecture: factual, interaction, and action memory must be shared inspectable state, or every AI tool creates its own local truth.
 - Action memory makes doing nothing a first-class governed action: a trusted company brain must know when to wait, ask approval, notify without mutating state, stop, or execute.
 - Organizational ontology is now the Company Brain interpretation lens: the system must decide whether conversation fragments are decisions, commitments, objections, dependencies, risks, assumptions, precedents, or open questions.
 - Harness can be diagnosed by five root ranks: boundary, density, action, loop, and evolution.

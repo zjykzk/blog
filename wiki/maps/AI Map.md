@@ -13,8 +13,8 @@ provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
-source_count: 28
-updated: 2026-05-09T22:42:07+08:00
+source_count: 29
+updated: 2026-05-11T12:08:45+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -39,6 +39,7 @@ tags:
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/concepts/Continual Learning for AI Agents]]
 - [[wiki/concepts/Meta-Harness]]
+- [[wiki/concepts/Skill Self-Evolution]]
 - [[wiki/concepts/LLM]]
 - [[wiki/concepts/Next-Token Pipeline]]
 - [[wiki/concepts/Tokenization]]
@@ -124,9 +125,11 @@ tags:
 - [[wiki/sources/ADK Skill Design Patterns Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Company Brain Source Guide]]
+- [[wiki/sources/Memory Is State Not a Service Source Guide]]
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 - [[wiki/sources/Continual Learning for AI Agents Source Guide]]
 - [[wiki/sources/Meta-Harness Paper Source Guide]]
+- [[wiki/sources/Skills-Coach Paper Source Guide]]
 
 ## Related journals
 

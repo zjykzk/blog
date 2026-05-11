@@ -6,16 +6,17 @@ summary: Source guide collecting agent-system papers and deciding which claims s
 category: sources
 sources:
   - https://arxiv.org/abs/2603.28052
+  - https://arxiv.org/abs/2604.27488
 created: 2026-05-04
-base_confidence: 0.70
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.81
-  inferred: 0.19
-  ambiguous: 0.0
-source_count: 5
-updated: 2026-05-09T22:42:07+08:00
+  extracted: 0.82
+  inferred: 0.17
+  ambiguous: 0.01
+source_count: 6
+updated: 2026-05-11T12:08:45+08:00
 aliases:
   - agent papers source
   - agent systems source guide
@@ -59,12 +60,15 @@ tags:
 - [[wiki/sources/Lost in the Middle Paper Source Guide]]
 - [[wiki/sources/AI Memory Survey Source Guide]]
 - [[wiki/sources/Meta-Harness Paper Source Guide]]
+- [[wiki/sources/Skills-Coach Paper Source Guide]]
 
 The Lost in the Middle paper contributes an evaluation protocol for usable long context: move the relevant evidence across the input and measure best-case versus worst-case performance, rather than treating max context length as capability.
 
 The AI Memory survey contributes a broad taxonomy and evaluation vocabulary for memory systems, especially the distinction between context, memory, knowledge, and experience.
 
 The Meta-Harness paper contributes a search-loop view of harness engineering: executable harnesses can be proposed, evaluated, logged, and evolved by a coding-agent proposer with access to prior code, scores, and traces.
+
+The Skills-Coach paper contributes a skill-level version of the same broader theme: individual skills can be probed with generated tasks, optimized through instruction or code variants, compared under execution, and retained through traceable evaluation.
 
 ## Related source guides
 
@@ -80,6 +84,7 @@ The Meta-Harness paper contributes a search-loop view of harness engineering: ex
 - [[wiki/concepts/Context Information Density]]
 - [[wiki/concepts/Lost in the Middle Effect]]
 - [[wiki/concepts/Meta-Harness]]
+- [[wiki/concepts/Skill Self-Evolution]]
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/syntheses/AI Engineering Workflow]]
 

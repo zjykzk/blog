@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 38,
-    "total_pages": 203
+    "total_sources_ingested": 39,
+    "total_pages": 205
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -865,6 +865,29 @@
         "wiki/topics/Context Management.md",
         "wiki/sources/Agent Systems Papers Source Guide.md",
         "wiki/maps/AI Map.md"
+      ]
+    },
+    "https://arxiv.org/abs/2604.27488": {
+      "ingested_at": "2026-05-11T12:08:45+08:00",
+      "size_bytes": 1147397,
+      "modified_at": "2026-05-01T00:33:03Z",
+      "content_hash": "sha256:7bd9d11c4f662e9ed4b54be3e6c130eb33e367e5641b0dea486dccbe77d90562",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Skill Self-Evolution.md",
+        "wiki/sources/Skills-Coach Paper Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Agent Skill.md",
+        "wiki/topics/AI Skills Workflow.md",
+        "wiki/concepts/Continual Learning for AI Agents.md",
+        "wiki/syntheses/Agent System Design Space.md",
+        "wiki/sources/Agent Systems Papers Source Guide.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
       ]
     }
   }

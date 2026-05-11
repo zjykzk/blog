@@ -13,16 +13,17 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
   - https://x.com/GoogleCloudTech/article/2033953579824758855
   - https://lavinigam.com/posts/adk-skill-design-patterns/
+  - https://arxiv.org/abs/2604.27488
 created: 2026-04-22
-base_confidence: 0.75
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.0
-source_count: 11
-updated: 2026-05-07T12:44:36+08:00
+  inferred: 0.19
+  ambiguous: 0.01
+source_count: 12
+updated: 2026-05-11T12:08:45+08:00
 aliases:
   - skills workflow
   - AI skills
@@ -90,6 +91,14 @@ That turns skill design into a maintenance loop. A reusable workflow is not comp
 
 This turns “write a skill” into a design choice about failure mode: missing domain knowledge, unstable output, weak review, premature assumptions, or skipped process steps each calls for a different skill shape. ^[inferred]
 
+## Evaluation-driven maintenance
+
+[[wiki/concepts/Skill Self-Evolution]] adds an explicit maintenance loop to this workflow. After a skill is written, the next question is not only whether it is reusable, but whether its capability boundaries have been probed with standard, advanced, and edge-case tasks.
+
+The Skills-Coach paper suggests a workflow where generated tasks, comparative execution, and traceable scoring decide which instruction or code changes are retained. That turns skill maintenance into a measured feedback loop rather than ad hoc prompt polishing. ^[inferred]
+
+A practical implication for wiki skill authoring is that a strong skill should make its own evaluation surface visible: expected inputs, outputs, failure modes, examples, constraints, and verification checks should be concrete enough for future tests to be generated. ^[inferred]
+
 ## Reasoning implication
 
 如果把 reasoning 看成 latent-state trajectory 的形成，那么 workflow 设计的意义就不只是“可复用”，而是“可稳定触发”。
@@ -117,6 +126,7 @@ This turns “write a skill” into a design choice about failure mode: missing 
 - [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/concepts/Agent Skill]]
 - [[wiki/concepts/Agent Skill Design Patterns]]
+- [[wiki/concepts/Skill Self-Evolution]]
 
 ## Peer topics
 
@@ -141,3 +151,4 @@ This turns “write a skill” into a design choice about failure mode: missing 
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Claude Code Skills Source Guide]]
 - [[wiki/sources/ADK Skill Design Patterns Source Guide]]
+- [[wiki/sources/Skills-Coach Paper Source Guide]]

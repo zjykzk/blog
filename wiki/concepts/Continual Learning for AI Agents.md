@@ -10,16 +10,17 @@ aliases:
   - continual learning layers
 sources:
   - https://x.com/hwchase17/status/2040467997022884194
-summary: Agent continual learning can happen through model weights, harness code, or configurable context/memory, each with different cost, speed, scope, and inspectability.
+  - https://arxiv.org/abs/2604.27488
+summary: Agent continual learning can happen through model weights, harness code, skills, or configurable context/memory, each with different cost, speed, scope, and inspectability.
 provenance:
-  extracted: 0.78
-  inferred: 0.20
+  extracted: 0.79
+  inferred: 0.19
   ambiguous: 0.02
-base_confidence: 0.37
+base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: "2026-05-09"
 created: 2026-05-09T22:17:54+08:00
-updated: 2026-05-09T22:17:54+08:00
+updated: 2026-05-11T12:08:45+08:00
 ---
 # Continual Learning for AI Agents
 
@@ -30,6 +31,7 @@ Continual learning for AI agents should not be collapsed into model-weight updat
 - **Model learning** updates the model weights. It has the highest possible impact, but is expensive, slow, not human-inspectable, and usually happens as a batch offline training job.
 - **Harness learning** updates the code, always-on instructions, or tools that power every instance of an agent. It is less fundamental than model training, but it is human-inspectable and can materially change how the agent loop behaves.
 - **Context learning** updates configuration outside the harness: files such as `AGENTS.md`, skills, tools, user memories, org memories, or tenant-specific configuration. It is usually cheaper, faster, and more granular than model or harness updates.
+- **Skill learning** is a special context/harness-adjacent case: the update changes an inspectable skill package that may include instructions, examples, references, scripts, and code helpers.
 
 The useful design move is to ask which layer should learn, not simply whether the system "has memory." ^[inferred]
 
@@ -62,6 +64,12 @@ Context learning has two timing modes:
 
 The hot-path version makes learning immediately available but can add latency and risk noisy writes. The background version preserves interaction speed but depends on a reliable consolidation job. ^[inferred]
 
+## Skill self-evolution
+
+[[wiki/sources/Skills-Coach Paper Source Guide]] adds a concrete skill-learning example. Instead of updating model weights, Skills-Coach generates boundary-probing tasks, optimizes skill instructions or code, executes original and optimized versions, and evaluates the difference.
+
+This makes skills an inspectable learning substrate: a failure can become an improved instruction, clearer example, stronger input validation, or repaired helper code, while the evaluation loop remains outside the generated change. ^[inferred]
+
 ## Design implications
 
 - Agent architecture should expose which learning layer owns a proposed improvement: retrain the model, revise the harness, or update context.
@@ -82,5 +90,7 @@ The hot-path version makes learning immediately available but can add latency an
 - [[wiki/topics/Context Management]]
 - [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/Agent Skill]]
+- [[wiki/concepts/Skill Self-Evolution]]
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/sources/Continual Learning for AI Agents Source Guide]]
+- [[wiki/sources/Skills-Coach Paper Source Guide]]
