@@ -9,8 +9,9 @@ sources:
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-2-factual-memory?utm_campaign=post&utm_medium=web
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
   - https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
+  - https://nanothoughts.substack.com/p/memory-is-state-not-a-service
 created: 2026-05-08T15:58:41+08:00
-updated: 2026-05-08T22:24:16+08:00
+updated: 2026-05-11T10:27:21+08:00
 base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-08
@@ -29,7 +30,7 @@ tags:
 ---
 # Company Brain
 
-A company brain is a living, permissioned model of how an organization remembers, reasons, and acts. The source argues that this is not merely company search, a document chatbot, meeting notes, or workflow automation. Part 4 makes the action layer explicit: the company must remember when work should wake up, which path should run, and how outcomes feed back into memory.
+A company brain is a living, permissioned model of how an organization remembers, reasons, and acts. The source argues that this is not merely company search, a document chatbot, meeting notes, workflow automation, or app-local agent memory. The later state-substrate article makes the architectural center explicit: factual memory, interaction memory, and action memory must be three views of one shared state, not three separate products.
 
 ## Core Problem
 
@@ -46,7 +47,13 @@ Across the series, a Company Brain has three progressively stronger memory/actio
 - **[[wiki/concepts/Action Memory]]**: how the company moves; when workflows should wake up, when they should stay still, what guardrails apply, and what happened after execution.
 - **[[wiki/concepts/Governed Action]]**: the execution-governance surface that decides whether to act, wait, ask, escalate, stop, or require approval.
 
-The first article also describes the broader formula as factual memory + human communication + [[wiki/concepts/Context Graph]] and reasoning + governed action = company brain.
+The first article also describes the broader formula as factual memory + human communication + [[wiki/concepts/Context Graph]] and reasoning + governed action = company brain. The state-substrate article later clarifies that these layers must be inspectable, correctable, versioned, permissioned, and portable shared state; otherwise every tool that remembers creates a local truth.
+
+## Shared State, Not Local Memory Services
+
+The state-substrate article argues that company memory should not sit inside one app API, vector index, database, meeting recorder, workflow tool, or agent scratchpad. If each AI tool remembers separately, the company still forgets because memory has split into incompatible local states.
+
+A company brain therefore has to hold not only artifacts, but also relationships, events, facts, decisions, commitments, assumptions, outcomes, provenance, permissions, history, and state changes. State changes are first-class: the system should know what became true, who now owns it, which commitment was created, what action followed, and whether the outcome changed future memory.
 
 ## Why Search Is Not Enough
 
@@ -101,6 +108,7 @@ The author is unsure which architecture wins, but argues that companies that sta
 - How should permissions and role-specific abstraction levels be represented so the same memory substrate can serve ICs, managers, CEOs, and agents?
 - How can proactive factual, interaction, and action memory help work without making employees feel watched?
 - What ontology is stable enough to structure interactions but flexible enough to let the company reread its own past?
+- Does one semantic memory substrate generalize across verticals while ontologies specialize, or do verticals require different substrates?
 - How can action memory capture actual operating paths without confusing useful exceptions with bad process hygiene?
 
 ## Related
@@ -117,3 +125,4 @@ The author is unsure which architecture wins, but argues that companies that sta
 - [[wiki/topics/AI Memory]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/sources/Company Brain Source Guide]]
+- [[wiki/sources/Memory Is State Not a Service Source Guide]]
