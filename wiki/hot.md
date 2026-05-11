@@ -8,11 +8,12 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-11T21:29:38+08:00
+updated: 2026-05-11T22:30:16+08:00
 ---
 
 ## Recent Activity
 
+- 已捕获 [[wiki/syntheses/ICAP 与知识类型的适用边界]]：ICAP 被定位为学习深度刻度，而不是所有知识的同一种学习处方；其使用需要结合知识类型、学习阶段、先验图式和认知负荷。
 - 已按“source 的内容不用总结”的要求扩展 [[wiki/sources/思维圆桌 Source Guide]] 和 [[wiki/sources/深度思考与高阶思维对话 Source Guide]]：source 层保留更完整的讨论内容，综合页才负责压缩。
 - 已补充捕获 [[wiki/sources/深度思考与高阶思维对话 Source Guide]]：保存当前对话中关于高阶审题、深度下钻、本质句、前置知识和七天训练法的 source 层材料。
 - 已捕获 [[wiki/sources/思维圆桌 Source Guide]]：关于“思维”的圆桌把思维拆成求解、表征、建构、语言和责任五条张力线，强调高阶思维必须能审查给定问题。
@@ -129,6 +130,7 @@ updated: 2026-05-11T21:29:38+08:00
 - Creation should be judged by whether difference becomes durable order, not by whether something merely looks novel.
 - Knowledge types classify what knowledge does; Bloom's taxonomy classifies how deeply a learner can work with that knowledge.
 - Judgment knowledge is not more facts; it is the ability to decide which facts should matter for a decision.
+- ICAP 适合诊断学习动作的深度：事实知识不必强行互动，概念和因果知识需要建构，程序知识还要刻意练习，判断和情境知识更依赖案例、互动与现实反馈。
 
 ## Flagged Contradictions
 

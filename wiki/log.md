@@ -144,3 +144,5 @@ tags:
 - [2026-05-11T21:19:31+08:00] CAPTURE type=source page="wiki/sources/思维圆桌 Source Guide.md" title="思维圆桌 Source Guide"
 - [2026-05-11T21:26:10+08:00] CAPTURE type=source page="wiki/sources/深度思考与高阶思维对话 Source Guide.md" title="深度思考与高阶思维对话 Source Guide"
 - [2026-05-11T21:29:38+08:00] UPDATE type=source pages="wiki/sources/思维圆桌 Source Guide.md,wiki/sources/深度思考与高阶思维对话 Source Guide.md" reason="expand source captures beyond summary per user preference"
+- [2026-05-11T22:24:44+0800] QUERY query="ICAP学习框架，对学习任何知识都是一样的吗，还是只适用于某类知识" result_pages=5 mode=normal escalated=false
+- [2026-05-11T22:30:16+0800] CAPTURE type=synthesis page="wiki/syntheses/ICAP 与知识类型的适用边界.md" title="ICAP 与知识类型的适用边界"

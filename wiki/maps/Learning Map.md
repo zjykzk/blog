@@ -14,7 +14,7 @@ created: 2026-04-26
 base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-11T21:29:38+08:00
+updated: 2026-05-11T22:30:16+08:00
 aliases:
   - 学习地图
 provenance:
@@ -49,6 +49,7 @@ provenance:
 ## 跨源综合
 
 - [[wiki/syntheses/Learning Methodology Across Sources]]——七条原则在多本学习书里的印证矩阵
+- [[wiki/syntheses/ICAP 与知识类型的适用边界]]——把 ICAP 定位为学习深度刻度，而不是所有知识的同一种学习处方，并区分事实、概念、因果、程序、判断和情境知识的用法
 - [[wiki/syntheses/Application and Creation Distinction]]——用学习理论、创造力研究、设计理论和实用主义加固“应用/创造”的边界
 - [[wiki/syntheses/深度思考 高阶思维与本质理解]]——把高阶审题、深度下钻、本质句和现实校验组织成一套可执行思考训练框架
 
