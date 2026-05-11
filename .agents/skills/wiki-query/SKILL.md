@@ -16,6 +16,8 @@ You are answering questions against a compiled Obsidian wiki, not raw source doc
 ## Before You Start
 
 1. Read `~/.obsidian-wiki/config` to get `OBSIDIAN_VAULT_PATH` (works from any project). Fall back to `.env` if you're inside the obsidian-wiki repo.
+   - If both are missing but the current project has `wiki/index.md`, treat `./wiki` as the vault path and continue. Do not stop just because the global config is absent.
+   - If multiple candidate `index.md` files exist, prefer the project-context canonical wiki root (`wiki/index.md`) over theme/example or publishing-layer files.
 2. If `$OBSIDIAN_VAULT_PATH/hot.md` exists, read it first — it gives you instant context on recent activity. If the user's question is about something ingested recently, hot.md may answer it before you even open `index.md`.
 3. Read `$OBSIDIAN_VAULT_PATH/index.md` to understand the wiki's scope and structure
 
@@ -36,7 +38,16 @@ In filtered mode, note the filter in the Step 6 log entry: `mode=filtered`.
 
 ## Retrieval Protocol
 
-**Follow the Retrieval Primitives table in `llm-wiki/SKILL.md`.** Reading is the dominant cost of this skill — use the cheapest primitive that answers the question and escalate only when it can't. Never jump straight to full-page reads.
+**Follow the Retrieval Primitives table in `llm-wiki/SKILL.md` when that file exists.** Reading is the dominant cost of this skill — use the cheapest primitive that answers the question and escalate only when it can't. Never jump straight to full-page reads.
+
+If `llm-wiki/SKILL.md` is unavailable in the current repo, use this fallback primitive order:
+1. Read `hot.md` and `index.md` only.
+2. Grep frontmatter (`title`, `tags`, `aliases`, `summary`, `lifecycle`, `updated`) for candidate discovery.
+3. Grep relevant sections in the top candidate pages with small context windows.
+4. Read only the top few candidate pages in full when section snippets are insufficient.
+5. Use broad body grep only after the targeted passes fail, and mark the query as escalated.
+
+See `references/fallback-vault-discovery.md` for session notes on absent global config / absent `llm-wiki/SKILL.md` and canonical `wiki/index.md` selection.
 
 ### Step 1: Understand the Question
 

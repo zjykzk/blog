@@ -195,6 +195,9 @@ Write conceptually: "Synced obsidian-wiki — added wiki-capture and wiki-resear
 ## Tips
 
 - **Be aggressive about merging.** If the project uses React Server Components, don't create a new page if `concepts/react-server-components.md` already exists. Update the existing one and add this project as a source.
+- **Treat post-query “补充 gaps / fill the gaps” as an update request.** If a prior `wiki-query` answer listed a concrete gap, create or update the missing stable page(s), remove aliases that now belong to the new page, add bidirectional links, update `index.md`, `hot.md`, and `log.md`, then verify retrieval paths. Do not just explain how the gap could be filled.
+- **When splitting a concept out of an alias, clean both sides.** The old page should drop the alias, link to the new concept in body/Related, and keep only aliases that really name the old concept. The new page should carry the moved alias and point back to the old page.
+- **For `hot.md`, replace Recent Activity with the latest 3 operations.** Do not merely prepend while leaving a long stale list; keep it short and update key takeaways only where the new knowledge changes a durable thread.
 - **Consult the tag taxonomy.** Read `$VAULT/_meta/taxonomy.md` if it exists, and use canonical tags.
 - **Don't copy code.** Distill the *knowledge*, not the implementation. "This project uses a debounced search pattern with 300ms delay" is useful. Pasting the actual debounce function is not.
 - **Project overview is the anchor.** The `<project-name>.md` file is what you'd read to get oriented. Make it good.

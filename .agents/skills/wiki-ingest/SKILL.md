@@ -89,7 +89,7 @@ When the source is an arXiv URL, prefer the readable HTML when available and kee
 4. In the source guide, state which representation was used for extraction and which bytes were hashed for the manifest.
 5. Preserve exact benchmark/leaderboard numbers in the source guide when they are single-paper claims; promote only the stable conceptual contribution into concept/topic/synthesis pages.
 
-See `references/arxiv-ingest.md` for a compact playbook and pitfalls.
+See `references/arxiv-ingest.md` for a compact playbook and pitfalls. If the environment lacks HTML/PDF extraction dependencies such as `bs4`, `pandoc`, `lynx`, `w3m`, or `pdftotext`, read `references/arxiv-html-stdlib-extraction.md` for a dependency-free arXiv HTML extraction fallback that still hashes the PDF bytes for the manifest.
 
 #### Web/X article fallback
 

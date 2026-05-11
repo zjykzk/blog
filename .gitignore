@@ -6,4 +6,4 @@ public
 # Amplihack runtime directories (auto-generated)
 .claude/logs/
 .claude/runtime/
-.claude
+.claude/worktrees/

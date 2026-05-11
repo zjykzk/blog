@@ -18,6 +18,7 @@ You are preserving knowledge from the current conversation as a permanent wiki n
 2. Read `$OBSIDIAN_VAULT_PATH/index.md` to understand existing wiki content (avoid duplicates)
 3. Read `$OBSIDIAN_VAULT_PATH/hot.md` if it exists — it gives context on recent activity
 4. Read `$OBSIDIAN_VAULT_PATH/NAMING.md` if it exists. Prefer its local naming and placement conventions over generic slug rules when they conflict, while still keeping capture frontmatter complete.
+5. Read `$OBSIDIAN_VAULT_PATH/_meta/taxonomy.md` if it exists. Use existing controlled tags from this file rather than inventing near-synonym tags; for source guides, prefer a concrete source-kind tag such as `article`, `paper`, or `book` plus topical tags. If a needed tag is genuinely new, add it deliberately and update the taxonomy rather than letting a one-off tag drift into the wiki. If a tag is already widely used in existing index/map/source pages but missing from taxonomy, treat that as taxonomy drift: add the tag to taxonomy and update its timestamp rather than inventing a synonym or leaving verification ambiguous.
 
 When writing internal links in Step 5, apply the link format from `llm-wiki/SKILL.md` (Link Format section) using the `OBSIDIAN_LINK_FORMAT` value. If that file is unavailable, follow the local convention observed in `index.md`/`NAMING.md` (for this vault, path-qualified Obsidian wikilinks such as `[[wiki/concepts/Page Name]]`).
 
@@ -44,7 +45,7 @@ If nothing material emerged, tell the user and stop.
 
 ## Step 2: Classify the Content Type
 
-When the user pastes a large external article, web page, transcript, or interactive walkthrough and asks to capture it, default to `source` unless the conversation itself added substantial original synthesis. Create a source guide that preserves the external artifact's durable claims, scope, integration decisions, and open questions; do not promote it directly into a broad concept page just because it covers many concepts.
+When the user pastes a large external article, web page, transcript, interactive walkthrough, or asks to preserve the source layer of a conversation, default to `source` unless the conversation itself added substantial original synthesis. Create a source guide that preserves the external artifact or conversation-source content with enough structure and detail to be reusable later; do not collapse it into a brief summary and do not promote it directly into a broad concept page just because it covers many concepts.
 
 Assign one of five types — this determines the target folder and tone:
 
@@ -52,7 +53,7 @@ Assign one of five types — this determines the target folder and tone:
 |---|---|---|
 | `synthesis` | Multi-step analysis or an answer to a specific question that required reasoning | `synthesis/` |
 | `concept` | A definition, framework, or mental model (what a thing *is*) | `concepts/` |
-| `source` | Summary of an external document, article, or resource discussed | `sources/` |
+| `source` | Source-layer preservation of an external document, article, resource, transcript, or conversation artifact, with structure and integration notes but not reduced to a short summary | `sources/` |
 | `decision` | A strategic, architectural, or design choice and its rationale | `synthesis/` |
 | `session` | A complete discussion summary when the conversation spans multiple topics | `journal/` |
 
@@ -71,9 +72,19 @@ Do **not** write a summary of the conversation. Write the knowledge itself, in d
 
 Preserve the user's/source's primary language when writing the note body, summaries, index entries, hot-cache updates, and map descriptions. If the source material is Chinese or the user writes the capture instruction in Chinese, write the durable wiki prose in Chinese by default. English page titles may still be used when they match the vault's naming convention or avoid duplicate concepts, but the explanatory content should follow the source/user language unless the user explicitly asks otherwise.
 
+If the user explicitly says “不用翻译”, “不要翻译”, or similar, treat that as a strong capture constraint: preserve the source language not only in the prose, but also in source-facing headings, summaries, aliases, map descriptions, and confirmation text. Use an English filename/title only when the vault convention or duplicate-avoidance clearly requires it; in that case, preserve the original Chinese source title as an alias and in the `> Source:` line.
+
+For Chinese source captures, prefer a Chinese source-guide title and confirmation even if some related stable concepts use English names elsewhere in the vault. If the source title contains filesystem-unfriendly punctuation such as `：` or `「」`, keep the display title/alias faithful but use a safe filename that still reads naturally (for example `内核 你的三个自我 Source Guide.md`).
+
 This matters because wiki-capture is not merely storing facts; it is creating a reusable reading artifact. A Chinese source captured into English forces an unnecessary second pass and breaks the user's expected reading flow.
 
-When the captured conversation just produced a structured analytical artifact from another skill (for example a rank analysis, PRD, research synthesis, or diagram explanation), preserve the artifact's core conceptual shape while converting it into wiki prose. Do not preserve chat logistics, but do preserve the named framework, generated categories, diagnostic questions, and compact diagrams if they are the durable knowledge. If an external side artifact was also written (for example under `~/Documents/notes/`), do not treat that file as a source unless the user asked to ingest it; cite the conversation as the source and link the wiki note to existing wiki pages.
+When the captured conversation just produced a structured analytical artifact from another skill (for example a rank analysis, PRD, research synthesis, roundtable discussion, or diagram explanation), preserve the artifact's core conceptual shape while converting it into wiki prose. Do not preserve chat logistics, but do preserve the named framework, generated categories, diagnostic questions, representative positions, durable tensions, compact diagrams, examples, and reusable templates if they are the durable knowledge. If an external side artifact was also written (for example under `~/Documents/notes/`), do not treat that file as a source unless the user asked to ingest it; cite the conversation as the source and link the wiki note to existing wiki pages.
+
+### Source-layer preservation rule
+
+When the target type is `source`, the body should preserve source-level content, not reduce the source to a short "Key Points" digest. Frontmatter still needs a concise `summary` for navigation, but the note body should keep enough of the original structure, examples, diagrams, argument flow, Q&A, or generated artifact to be useful without reopening the chat or external document. Put compression, abstraction, and cross-source conclusions in `synthesis` or `concept` pages instead.
+
+For roundtable captures, default to a `source` guide unless the user asks for a distilled synthesis. Preserve the participants' stance network, representative positions, moderator summaries, core disagreement, and ASCII frameworks as durable source material. If the user asks to ingest the roundtable or says the source content matters, keep the full discussion structure and substantive turns rather than only a stance summary. If the discussion already produced a separate synthesis page, link the roundtable source guide to that synthesis while keeping the roundtable's own source-layer content. Use a concrete `roundtable` tag when the vault taxonomy supports it; if roundtable source guides already exist but taxonomy is missing `roundtable`, treat that as taxonomy drift and add it deliberately before verification.
 
 Apply provenance markers per `llm-wiki`:
 - *Extracted* — explicitly stated in the conversation (no marker)
@@ -97,7 +108,7 @@ Create the file at the target path with required frontmatter:
 ---
 title: >-
   <Title>
-category: <synthesis|concepts|references|journal|skills>
+category: <syntheses|concepts|sources|journal|skills>
 tags: [<2-5 domain tags from taxonomy>]
 sources:
   - conversation:<ISO-date>
@@ -162,11 +173,14 @@ Body structure by type:
 
 > Source: <title or URL>
 
-## What It Covers
-<What the source is about>
+## Capture Policy
+<One or two sentences stating whether this page preserves source-level content, a generated artifact, or an external text.>
 
-## Key Points
-<Bulleted claims with provenance markers>
+## What It Covers
+<What the source is about and why it belongs in the wiki>
+
+## Preserved Content
+<Structured preservation of the source's argument flow, major sections, examples, diagrams, Q&A, or generated artifact. This should be detailed enough to revisit the source without relying on a compressed summary. Use subsections that match the source's own structure when possible.>
 
 ## Integration Decisions
 <How this source connects to existing wiki concepts/topics/syntheses; which claims should stay source-level versus be promoted later. Use this section especially for broad external walkthroughs that touch many existing pages.>
@@ -219,8 +233,11 @@ Every note must link to at least 2 existing wiki pages. Search `index.md` before
 
 ## Step 7: Verify and Confirm to User
 
+Use `references/verification-pattern.md` as a reusable starting point for the lightweight verification script; adapt paths, new note list, timestamp checks, and map checks to the current capture.
+
 Before confirming, run a lightweight verification pass:
 - Re-read the created note and check that required frontmatter fields exist: `title`, `category`, `tags`, `sources`, `created`, `updated`, `summary`, `provenance`, `base_confidence`, `lifecycle`, and `lifecycle_changed`.
+- If `_meta/taxonomy.md` exists, verify the chosen tags are controlled-vocabulary tags or deliberately added taxonomy entries; fix ad hoc tags before updating index summaries.
 - Resolve every wikilink in the note against the vault; fix broken links before reporting success.
 - Check incoming links from at least `index.md`, `log.md`, or `hot.md` so the new note is not orphaned.
 - Confirm that `index.md`, `log.md`, and `hot.md` contain the new page reference and current capture timestamp.
@@ -233,6 +250,11 @@ Saved to: projects/<name>/synthesis/<slug>.md
 Title: <Title>
 Type: synthesis
 ```
+
+## Supporting References
+
+- `references/verification-pattern.md` — lightweight verification pattern for frontmatter, taxonomy tags, wikilinks, tracking files, and map coverage.
+- `references/chinese-source-capture-promoted-concept.md` — example pattern for Chinese source captures with “不用翻译” plus a promoted central concept stub.
 
 ## Quality Checklist
 
