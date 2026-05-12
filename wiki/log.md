@@ -160,3 +160,7 @@ tags:
 - [2026-05-12T16:36:46+08:00] CAPTURE type=source page="wiki/sources/React Hooks useState useEffect Source Guide.md" title="React Hooks useState useEffect Source Guide"
 - [2026-05-12T16:51:48+08:00] CAPTURE type=source page="wiki/sources/The ICAP Framework Paper Source Guide.md" title="The ICAP Framework Paper Source Guide"
 - [2026-05-12T17:04:17+08:00] CAPTURE type=source page="wiki/sources/架构文档与图示之道 Source Guide.md" title="架构文档与图示之道 Source Guide"
+- [2026-05-12T17:58:27+0800] QUERY query="useMemo和useRef生成的对象生命周期" result_pages=3 mode=normal escalated=false
+- [2026-05-12T18:36:10+0800] QUERY query="解释下组件的生命周期，在一个生命周期内可以渲染多次吗" result_pages=2 mode=normal escalated=false
+- [2026-05-12T20:53:26+0800] QUERY query="组件什么时候mount，什么时候unmount" result_pages=2 mode=normal escalated=false
+- [2026-05-12T20:56:53+08:00] CAPTURE type=source page="wiki/sources/React Component Lifecycle Source Guide.md" title="React Component Lifecycle Source Guide"

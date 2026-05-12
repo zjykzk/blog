@@ -9,8 +9,8 @@ created: 2026-04-21
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 4
-updated: 2026-05-12T17:04:17+08:00
+source_count: 5
+updated: 2026-05-12T20:56:53+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -69,6 +69,7 @@ tags:
 - [[wiki/sources/Published Posts]]
 - [[wiki/sources/Frontend Development Workflow Roundtable Source Guide]]
 - [[wiki/sources/架构文档与图示之道 Source Guide]]
+- [[wiki/sources/React Component Lifecycle Source Guide]]
 - [[wiki/sources/React Hooks useRef useContext useMemo Source Guide]]
 - [[wiki/sources/React Hooks useState useEffect Source Guide]]
 - `content/posts/cs/arch/arch.md`

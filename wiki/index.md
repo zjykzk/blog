@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-12T17:04:17+08:00
+updated: 2026-05-12T20:56:53+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -251,6 +251,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide|Prompt Caching Claude Code Case Study Source Guide]] — Source guide for prompt-caching case studies that frame Claude Code cache efficiency as an agent harness design problem. (#agents #caching #claude-code)
 - [[wiki/sources/Published Posts|Published Posts Source Guide]] — content/posts/ 是对外发布层，不直接等同于 wiki 本体。 (#hugo #posts)
 - [[wiki/sources/Qiaomu Best Prompt Source Guide|Qiaomu Best Prompt Source Guide]] — 这篇文章当前更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定母页。 (#article #blog #llm #prompting)
+- [[wiki/sources/React Component Lifecycle Source Guide]] — 这页保存一份中文 React 组件生命周期讲解，把 mount、render/update、unmount 放在 UI 树存在关系与 Hooks 持久化结构下理解。 (#article #frontend #architecture)
 - [[wiki/sources/React Framework Background and Core Concepts Source Guide|React Framework Background and Core Concepts Source Guide]] — 这篇材料更适合作为 React 入门理解的 source facing note，而不是直接承担前端体系中的稳定概念母页。 (#react #frontend #web #ui)
 - [[wiki/sources/React Hooks useRef useContext useMemo Source Guide]] — 这页保存一份中文 React Hooks 讲解，把 useRef、useContext、useMemo 放在函数组件反复执行的共同框架下理解。 (#article #frontend #architecture)
 - [[wiki/sources/React Hooks useState useEffect Source Guide]] — 这页保存一份中文 React Hooks 讲解，把 useState 和 useEffect 放在函数组件反复执行、状态驱动渲染和渲染后副作用的框架下理解。 (#article #frontend #architecture)
