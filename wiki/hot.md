@@ -1,18 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity expanded the Harrison Chase continual-learning source guide with full source-level structure, diagrams, and trace-centered layer distinctions.
+summary: Recent wiki activity captured Harrison Chase's agent-observability article, linking traces, feedback, and learning loops across model, harness, and context.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-12T11:36:33+08:00
+updated: 2026-05-12T12:20:47+08:00
 ---
 
 ## Recent Activity
 
+- 已捕获 [[wiki/sources/Agent Observability Needs Feedback Source Guide]]：Harrison Chase 将 agent observability 从调试工具推进为学习系统，核心是把 traces 与 explicit / behavioral / generated / deterministic feedback 存在一起。
 - 已扩展 [[wiki/sources/Continual Learning for AI Agents Source Guide]]：保留 Harrison Chase 文章的 model / harness / context 三层持续学习结构、对照表、图示、热路径与后台 memory 更新模式，以及 traces 作为共同底座的判断。
 - 已捕获 [[wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide]]：直接保存 arXiv 论文层内容，覆盖 40,285 个公开 skills 的增长爆发、长度分布、冗余、供需错配与 L0-L3 安全风险。
 - 已捕获 [[wiki/sources/SkillOS Paper Source Guide]]：直接保存 arXiv 论文层内容，补齐 SkillOS 的形式化 streaming curation 设定、分组任务 GRPO 训练、实验表格、分析、局限与未来方向。
@@ -42,6 +43,7 @@ updated: 2026-05-12T11:36:33+08:00
 - Frontend knowledge is forming around React as a coordination model for declarative rendering, component boundaries, and state.
 - AI / Agent skills 现在加入 SkillOS 线索：skill repository 可以被训练过的 Curator 当作持久记忆来管理；论文层进一步说明关键训练装置是相关任务分组、复合奖励、GRPO rollout 之间的 repository path 比较，以及对 insert/update/delete 操作的长期信用分配。
 - AI / Agent systems are being organized around harness, context management, tool design, memory, permissions, reusable operational knowledge, and now both harness-level and skill-level self-evolution from logged traces or generated boundary tasks.
+- Agent observability now has a trace-plus-feedback learning-loop thread: production behavior becomes useful for model, harness, and context learning only when traces are paired with explicit, behavioral, generated, or deterministic feedback.
 - Agentic engineering is now represented as a production AI coding discipline: senior engineers train harnesses, encode lessons into skills and rules, allocate human attention by risk, and move verification into executable gates.
 - User-side harness engineering is now represented as developer control over context, rules, templates, computational checks, inferential review artifacts, and feedback loops.
 - Harnessability is now represented as a quality of tasks and codebases: agent-friendly work exposes context, boundaries, examples, executable checks, and reusable review criteria.
@@ -72,6 +74,7 @@ updated: 2026-05-12T11:36:33+08:00
 
 ## Key Takeaways
 
+- Agent observability 的关键不是只保存 trace，而是把 trace 与 feedback 绑定：trace 说明发生了什么，feedback 说明它意味着成功、失败、风险、低效还是可学习样本。
 - Agent 持续学习应先路由到正确层级：model 更新影响上限最高但慢且不可 inspect；harness 更新用 traces 改代码；context/memory 更新最快、可按 agent/user/org/team/tenant 粒度生效，但需要治理热路径写入和后台 consolidation。
 - Agent skills 作为生态层已经出现治理问题：公开 marketplace 中软件工程供给占比过高，信息检索和内容生成需求更集中，近半数 listing 存在名称级重复，约两成以外的技能涉及写入、状态改变或系统级能力，需要 canonicalization、选择性加载和最小权限控制。
 - SkillOS reframes skill memory as repository-level curation: a frozen executor acts with retrieved skills, while a trainable curator inserts, updates, and deletes compressed Markdown skills based on trajectories and delayed downstream task success.

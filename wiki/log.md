@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-12T11:36:33+08:00
+updated: 2026-05-12T12:20:47+08:00
 aliases:
   - Wiki Log
 tags:
@@ -155,3 +155,4 @@ tags:
 - [2026-05-12T10:45:54+08:00] CAPTURE type=source page="wiki/sources/SkillOS Paper Source Guide.md" title="SkillOS Paper Source Guide"
 - [2026-05-12T11:05:11+08:00] CAPTURE type=source page="wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide.md" title="Agent Skills Data-Driven Analysis Paper Source Guide"
 - [2026-05-12T11:36:33+08:00] UPDATE type=source page="wiki/sources/Continual Learning for AI Agents Source Guide.md" title="Continual Learning for AI Agents Source Guide" reason="expand Harrison Chase continual-learning source guide with full source-level article structure and diagrams"
+- [2026-05-12T12:20:47+08:00] CAPTURE type=source page="wiki/sources/Agent Observability Needs Feedback Source Guide.md" title="Agent Observability Needs Feedback Source Guide"

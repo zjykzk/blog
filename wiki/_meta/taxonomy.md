@@ -4,7 +4,7 @@ category: meta
 tags: []
 sources: []
 created: 2026-05-10T16:02:23+08:00
-updated: 2026-05-12T00:14:41+08:00
+updated: 2026-05-12T12:20:47+08:00
 summary: Controlled tag vocabulary and lint policy for the structured wiki.
 base_confidence: 0.30
 lifecycle: draft
@@ -36,6 +36,7 @@ These tags are intentionally not used as ordinary content tags because they crea
 - `harness` — agent runtime scaffolding, permissions, checks, loops, and orchestration.
 - `memory` — persistent memory, context retrieval, organizational memory, and state.
 - `context` — context-window, placement, density, anchoring, and context-management issues.
+- `feedback` — signals, loops, controls, and evaluation data that steer agent, system, or learning behavior.
 - `inference` — model serving, decoding, KV cache, batching, and latency/throughput systems.
 - `ai-coding` — coding assistants, agentic engineering, AI development workflow.
 - `training` — pretraining, SFT, RL, data, and alignment stages.

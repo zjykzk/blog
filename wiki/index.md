@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-12T11:36:33+08:00
+updated: 2026-05-12T12:20:47+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -196,6 +196,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Agent Harness Anatomy Source Guide|Agent Harness Anatomy Source Guide]] — Source guide for Akshay Pachaar's agent harness thread, focused on the 12-component harness model and architecture decisions. (#agents #harness #architecture)
 - [[wiki/sources/Agent Harness Engineering Source Guide|Agent Harness Engineering Source Guide]] — Source guide for Addy Osmani's Agent Harness Engineering article, focused on harnesses as configurable runtimes, failure ratchets, and service APIs. (#agents #harness #engineering)
 - [[wiki/sources/Agent Harness Qiaomu Article Source Guide|Agent Harness Qiaomu Article Source Guide]] — 这篇文章目前更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#article #blog #agents #harness)
+- [[wiki/sources/Agent Observability Needs Feedback Source Guide]] — Source guide for Harrison Chase's X article arguing that agent observability needs trace-linked feedback to become a learning system. (#article #agents #harness #feedback #context)
 - [[wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide|Agent Skills Data-Driven Analysis Paper Source Guide]] — Direct paper guide for a 40,285-skill marketplace measurement study covering growth bursts, length, redundancy, functional demand, and safety risks in Claude-style agent skills. (#paper #arxiv #agents #skills #software-engineering)
 - [[wiki/sources/Agent Systems Papers Source Guide|Agent Systems Papers Source Guide]] — Source guide collecting agent-system papers and deciding which claims should stay source-level versus move into topics and syntheses. (#papers #agents)
 - [[wiki/sources/ADK Skill Design Patterns Source Guide|ADK Skill Design Patterns Source Guide]] — Source guide for Google Cloud Tech and Lavi Nigam's article on five practical SKILL.md content patterns for ADK agents. (#agents #skills #adk)

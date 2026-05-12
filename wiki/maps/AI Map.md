@@ -13,8 +13,8 @@ provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
-source_count: 31
-updated: 2026-05-12T11:36:33+08:00
+source_count: 32
+updated: 2026-05-12T12:20:47+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -116,6 +116,7 @@ tags:
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
+- [[wiki/sources/Agent Observability Needs Feedback Source Guide]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Claude Code Skills Source Guide]]
 - [[wiki/sources/Seeing Like an Agent Source Guide]]
