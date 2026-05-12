@@ -159,3 +159,4 @@ tags:
 - [2026-05-12T15:50:12+08:00] CAPTURE type=source page="wiki/sources/React Hooks useRef useContext useMemo Source Guide.md" title="React Hooks useRef useContext useMemo Source Guide"
 - [2026-05-12T16:36:46+08:00] CAPTURE type=source page="wiki/sources/React Hooks useState useEffect Source Guide.md" title="React Hooks useState useEffect Source Guide"
 - [2026-05-12T16:51:48+08:00] CAPTURE type=source page="wiki/sources/The ICAP Framework Paper Source Guide.md" title="The ICAP Framework Paper Source Guide"
+- [2026-05-12T17:04:17+08:00] CAPTURE type=source page="wiki/sources/架构文档与图示之道 Source Guide.md" title="架构文档与图示之道 Source Guide"

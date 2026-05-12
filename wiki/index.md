@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-12T16:51:48+08:00
+updated: 2026-05-12T17:04:17+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -231,6 +231,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/How LLMs Actually Work Source Guide|How LLMs Actually Work Source Guide]] — Source guide for an interactive walkthrough of the LLM pipeline, from web data and tokenization through pretraining, post-training, RAG, and security. (#llm #transformer #security)
 - [[wiki/sources/How to Use LLMs Source Guide|How to Use LLMs Source Guide]] — Source guide for Karpathy's practical LLM-use walkthrough: model choice, search, deep research, documents, code, agents, voice, vision, and memory. (#llm #workflow #tools)
 - [[wiki/sources/Iceberg Model Source Guide|Iceberg Model Source Guide]] — Source guide for the Donella Meadows Iceberg Model PDF, preserving provenance limits and routing its visual systems-thinking frame into concept pages. (#systems-thinking #mental-models)
+- [[wiki/sources/架构文档与图示之道 Source Guide|架构文档与图示之道 Source Guide]] — 这页保存一份中文架构文档与图示教程，强调按受众分层、用 C4/UML/ADR 和 Docs as Code 传递架构设计思想。 (#article #software-engineering #architecture #management)
 - [[wiki/sources/Journals|Journals Source Guide]] — journals/ 是当前 vault 的时间流输入层。它们不应直接承担稳定知识页职责，但应该持续为 wiki/ 提供可回溯的来源。 (#journals #raw)
 - [[wiki/sources/Life of a Token Source Guide|Life of a Token Source Guide]] — Source guide for the Life of a Token article, focused on the next-token path through tokenization, embeddings, attention, FFN, residual stream, sampling, cache, and GPU limits. (#llm #inference #transformer)
 - [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide|LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]] — 这篇 arXiv 论文更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#paper #arxiv #reasoning #llm)
