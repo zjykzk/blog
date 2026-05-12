@@ -4,7 +4,7 @@ category: meta
 tags: []
 sources: []
 created: 2026-05-10T16:02:23+08:00
-updated: 2026-05-12T12:20:47+08:00
+updated: 2026-05-12T16:51:48+08:00
 summary: Controlled tag vocabulary and lint policy for the structured wiki.
 base_confidence: 0.30
 lifecycle: draft
@@ -61,6 +61,7 @@ These tags are intentionally not used as ordinary content tags because they crea
 - `thinking`
 - `learning`
 - `cognition`
+- `education`
 - `management`
 - `organization`
 - `judgment`

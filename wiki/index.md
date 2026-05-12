@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-12T16:36:46+08:00
+updated: 2026-05-12T16:51:48+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -222,6 +222,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Harness Engineering Source Guide|Harness Engineering Source Guide]] — Source guide for Martin Fowler's harness engineering article, focused on user-owned harnesses for coding agents and their control loops. (#agents #harness #ai-coding)
 - [[wiki/sources/Harness Engineering Is Cybernetics Source Guide|Harness Engineering Is Cybernetics Source Guide]] — Source guide for George's X article framing harness engineering as cybernetics: sensors, actuators, feedback loops, and machine-readable judgment. (#agents #harness #cybernetics)
 - [[wiki/sources/ICAP Learning Framework Source Guide|ICAP Learning Framework Source Guide]] — Source guide for the ICAP learning framework article, distinguishing passive, active, constructive, and interactive learning by cognitive engagement. (#learning #cognition #education)
+- [[wiki/sources/The ICAP Framework Paper Source Guide|The ICAP Framework Paper Source Guide]] — Chi 与 Wylie 2014 原论文 source guide，保留 ICAP 四模式、知识变化过程、实证验证、限制条件和与建构主义/认知负荷/Bloom 的比较。 (#paper #learning #cognition #education)
 - [[wiki/sources/How People Learn Transfer Source Guide|How People Learn Transfer Source Guide]] — Source guide for transfer research in How People Learn, grounding application in flexible adaptation across contexts. (#learning #transfer #cognition)
 - [[wiki/sources/How to Get Rich Source Guide|How to Get Rich Source Guide]] — Source guide for Naval Ravikant's How to Get Rich tweetstorm PDF, focused on wealth, equity, specific knowledge, accountability, leverage, and judgment. (#wealth #leverage #career #judgment)
 - [[wiki/sources/Hard Constraints Source Guide|Hard Constraints Source Guide]] — 这页导览《约束：先尊重，再行动》：有效叙事必须先尊重资源、时间、规律和他人能动性等硬约束。 (#article #thinking #systems #judgment)

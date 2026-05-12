@@ -14,7 +14,7 @@ created: 2026-04-26
 base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-12T00:14:41+08:00
+updated: 2026-05-12T16:51:48+08:00
 aliases:
   - 学习地图
 provenance:
@@ -62,6 +62,7 @@ provenance:
 - [[wiki/sources/Creation Concept Anatomy Source Guide]]——创造概念解剖 source guide
 - [[wiki/sources/How People Learn Transfer Source Guide]]——学习迁移与应用的外部来源
 - [[wiki/sources/Cognitive Load Theory Source Guide]]——认知负荷理论、图式形成、直接教学、范例学习与 AI tutor/doer 边界
+- [[wiki/sources/The ICAP Framework Paper Source Guide]]——Chi 与 Wylie 2014 原论文 source guide：四种认知参与模式、知识变化过程、实证验证、caveats 与理论比较
 - [[wiki/sources/Narrative as First Principle Source Guide]]——《现代思维工具课》基本世界观中关于叙事的来源导览
 - [[wiki/sources/内核 你的三个自我 Source Guide]]——《现代思维工具课》基本世界观中关于三个自我、内核更新和训练样本/奖励函数的来源导览
 - [[wiki/sources/Hard Constraints Source Guide]]——《现代思维工具课》基本世界观中关于约束、神话破除和现实校验的来源导览
