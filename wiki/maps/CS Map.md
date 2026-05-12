@@ -10,7 +10,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-04-21
+updated: 2026-05-12T16:36:46+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -68,6 +68,8 @@ tags:
 - [[wiki/sources/Software Methodology by Pan Jianyu]]
 - [[wiki/sources/Published Posts]]
 - [[wiki/sources/Frontend Development Workflow Roundtable Source Guide]]
+- [[wiki/sources/React Hooks useRef useContext useMemo Source Guide]]
+- [[wiki/sources/React Hooks useState useEffect Source Guide]]
 - `content/posts/cs/arch/arch.md`
 - `content/posts/cs/dist/circuit-breaker.md`
 - `content/posts/cs/golang/go-memory-model.md`

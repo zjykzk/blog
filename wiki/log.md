@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-12T12:20:47+08:00
+updated: 2026-05-12T16:36:46+08:00
 aliases:
   - Wiki Log
 tags:
@@ -156,3 +156,5 @@ tags:
 - [2026-05-12T11:05:11+08:00] CAPTURE type=source page="wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide.md" title="Agent Skills Data-Driven Analysis Paper Source Guide"
 - [2026-05-12T11:36:33+08:00] UPDATE type=source page="wiki/sources/Continual Learning for AI Agents Source Guide.md" title="Continual Learning for AI Agents Source Guide" reason="expand Harrison Chase continual-learning source guide with full source-level article structure and diagrams"
 - [2026-05-12T12:20:47+08:00] CAPTURE type=source page="wiki/sources/Agent Observability Needs Feedback Source Guide.md" title="Agent Observability Needs Feedback Source Guide"
+- [2026-05-12T15:50:12+08:00] CAPTURE type=source page="wiki/sources/React Hooks useRef useContext useMemo Source Guide.md" title="React Hooks useRef useContext useMemo Source Guide"
+- [2026-05-12T16:36:46+08:00] CAPTURE type=source page="wiki/sources/React Hooks useState useEffect Source Guide.md" title="React Hooks useState useEffect Source Guide"

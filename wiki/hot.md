@@ -1,18 +1,20 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured Harrison Chase's agent-observability article, linking traces, feedback, and learning loops across model, harness, and context.
+summary: Recent wiki activity captured Chinese React Hooks guides that frame useState/useEffect and useRef/useContext/useMemo around function-component re-execution.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-12T12:20:47+08:00
+updated: 2026-05-12T16:36:46+08:00
 ---
 
 ## Recent Activity
 
+- 已捕获 [[wiki/sources/React Hooks useState useEffect Source Guide]]：这份中文讲解把 useState 和 useEffect 放在“函数组件每次渲染都会重新执行”的共同框架下，分别对应进入渲染的状态数据和渲染后的副作用动作。
+- 已捕获 [[wiki/sources/React Hooks useRef useContext useMemo Source Guide]]：这份中文讲解把 useRef、useContext、useMemo 放在“函数组件每次渲染都会重新执行”的共同框架下，分别对应可变容器、跨层共享和计算缓存。
 - 已捕获 [[wiki/sources/Agent Observability Needs Feedback Source Guide]]：Harrison Chase 将 agent observability 从调试工具推进为学习系统，核心是把 traces 与 explicit / behavioral / generated / deterministic feedback 存在一起。
 - 已扩展 [[wiki/sources/Continual Learning for AI Agents Source Guide]]：保留 Harrison Chase 文章的 model / harness / context 三层持续学习结构、对照表、图示、热路径与后台 memory 更新模式，以及 traces 作为共同底座的判断。
 - 已捕获 [[wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide]]：直接保存 arXiv 论文层内容，覆盖 40,285 个公开 skills 的增长爆发、长度分布、冗余、供需错配与 L0-L3 安全风险。
@@ -74,6 +76,8 @@ updated: 2026-05-12T12:20:47+08:00
 
 ## Key Takeaways
 
+- React 中 useState 与 useEffect 的底层区分是：useState 提供参与渲染、会驱动 UI 更新的状态；useEffect 在渲染提交后同步外部世界，本身不触发渲染，但其中调用 setState 会触发下一次渲染。
+- React Hooks 可以从函数组件反复执行的事实出发理解：useRef 让值跨渲染保留但不触发 UI 更新，useContext 让值跨组件共享但受 Provider value 变化影响，useMemo 让渲染期间计算在依赖不变时复用。
 - Agent observability 的关键不是只保存 trace，而是把 trace 与 feedback 绑定：trace 说明发生了什么，feedback 说明它意味着成功、失败、风险、低效还是可学习样本。
 - Agent 持续学习应先路由到正确层级：model 更新影响上限最高但慢且不可 inspect；harness 更新用 traces 改代码；context/memory 更新最快、可按 agent/user/org/team/tenant 粒度生效，但需要治理热路径写入和后台 consolidation。
 - Agent skills 作为生态层已经出现治理问题：公开 marketplace 中软件工程供给占比过高，信息检索和内容生成需求更集中，近半数 listing 存在名称级重复，约两成以外的技能涉及写入、状态改变或系统级能力，需要 canonicalization、选择性加载和最小权限控制。
