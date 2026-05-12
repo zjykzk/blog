@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-12T20:56:53+08:00
+updated: 2026-05-12T21:05:21+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -208,6 +208,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Before the Tool Call Source Guide|Before the Tool Call Source Guide]] — 这篇 arXiv 论文更适合作为单篇 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#paper #arxiv #agents #authorization #security)
 - [[wiki/sources/Claude Code Skills Source Guide|Claude Code Skills Source Guide]] — Source guide for Thariq Shihipar's Claude Code skills article, focused on skills as capability bundles, categories, gotchas, disclosure, hooks, and distribution. (#agents #skills #claude-code)
 - [[wiki/sources/Coding with AI Source Guide|Coding with AI Source Guide]] — Source guide for Chris Parsons' 2026 Coding with AI article, focused on agentic engineering, trainer roles, harnesses, context resets, and verification bottlenecks. (#ai-coding #agents #harness)
+- [[wiki/sources/Compounding Engineering Source Guide]] — Source guide for an Every article arguing that AI coding compounds when reviews, failures, tests, and workflow lessons update durable context, evals, agents, and harness defaults. (#article #ai-coding #agents #harness #feedback)
 - [[wiki/sources/Cognitive Load Theory Source Guide|Cognitive Load Theory Source Guide]] — Source guide for a Chinese article on cognitive load theory, schema formation, direct instruction, worked examples, and AI as tutor rather than doer. (#learning #cognition #education)
 - [[wiki/sources/Company Brain Source Guide|Company Brain Source Guide]] — Source guide for NanoThoughts' Company Brain series, covering factual, interaction, and action memory as a substrate for governed agents. (#agents #organization #memory)
 - [[wiki/sources/Creation Concept Anatomy Source Guide|Creation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on creation as difference entering durable order. (#thinking #concepts)

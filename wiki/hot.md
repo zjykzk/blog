@@ -1,18 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured a Chinese React component lifecycle guide focused on mount, render/update, unmount, effect cleanup, and component identity.
+summary: Recent wiki activity captured a compounding engineering article focused on self-improving AI coding systems, durable context, tests, evals, reviewer agents, and feedback-driven harness updates.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-12T20:56:53+08:00
+updated: 2026-05-12T21:05:21+08:00
 ---
 
 ## Recent Activity
 
+- 已捕获 [[wiki/sources/Compounding Engineering Source Guide]]：Every 文章把 AI coding 从“一次性提速”推进为会复利的工程系统：review、failure、test、eval、agent role 和上下文规则都要更新 durable harness defaults。
 - 已捕获 [[wiki/sources/React Component Lifecycle Source Guide]]：这份中文讲解把 React 生命周期区分为 mount、render/update 和 unmount，强调生命周期是一段组件身份存在期，而不是一次函数执行。
 - 已捕获 [[wiki/sources/架构文档与图示之道 Source Guide]]：这份中文教程把架构表达拆成受众分层、四层文档金字塔、C4 图、UML 动态行为图、ADR 和 Docs as Code，强调架构师必须能按对象传递设计思想。
 - 已捕获 [[wiki/sources/The ICAP Framework Paper Source Guide]]：Chi 与 Wylie 2014 原论文把 ICAP 定义为带行为指标的认知参与理论，保留四模式、Store/Integrate/Infer/Co-Infer、实证证据、caveats 和理论比较。
@@ -48,6 +49,7 @@ updated: 2026-05-12T20:56:53+08:00
 - Frontend knowledge is forming around React as a coordination model for declarative rendering, component boundaries, and state.
 - AI / Agent skills 现在加入 SkillOS 线索：skill repository 可以被训练过的 Curator 当作持久记忆来管理；论文层进一步说明关键训练装置是相关任务分组、复合奖励、GRPO rollout 之间的 repository path 比较，以及对 insert/update/delete 操作的长期信用分配。
 - AI / Agent systems are being organized around harness, context management, tool design, memory, permissions, reusable operational knowledge, and now both harness-level and skill-level self-evolution from logged traces or generated boundary tasks.
+- AI coding now has a compounding-engineering source thread: the practical unit of improvement is not a generated diff but a durable update to tests, evals, monitoring, reviewer agents, context files, or workflow rules.
 - Agent observability now has a trace-plus-feedback learning-loop thread: production behavior becomes useful for model, harness, and context learning only when traces are paired with explicit, behavioral, generated, or deterministic feedback.
 - Agentic engineering is now represented as a production AI coding discipline: senior engineers train harnesses, encode lessons into skills and rules, allocate human attention by risk, and move verification into executable gates.
 - User-side harness engineering is now represented as developer control over context, rules, templates, computational checks, inferential review artifacts, and feedback loops.
@@ -83,6 +85,7 @@ updated: 2026-05-12T20:56:53+08:00
 - ICAP 原论文的稳妥用法是诊断链条：外显行为 → 认知参与模式 → 知识变化过程 → 知识结构变化 → 可回忆/可应用/可迁移/可共同创造；`I>C>A>P` 是模式间相对假设，不是无条件学习处方。
 - React 中 useState 与 useEffect 的底层区分是：useState 提供参与渲染、会驱动 UI 更新的状态；useEffect 在渲染提交后同步外部世界，本身不触发渲染，但其中调用 setState 会触发下一次渲染。
 - React 组件生命周期是组件从进入 UI 树到离开 UI 树的存在期；同一生命周期内可以多次 render/update，只有组件首次进入树才 mount，离开树才 unmount。
+- Compounding engineering 的判据是 work event 是否更新了 durable control surface：一次 review、bug、测试失败或设计讨论，只有沉淀成 rule、test、eval、monitor、agent role 或上下文默认值时，才会让下一次工作变快、变稳。
 - React Hooks 可以从函数组件反复执行的事实出发理解：useRef 让值跨渲染保留但不触发 UI 更新，useContext 让值跨组件共享但受 Provider value 变化影响，useMemo 让渲染期间计算在依赖不变时复用。
 - Agent observability 的关键不是只保存 trace，而是把 trace 与 feedback 绑定：trace 说明发生了什么，feedback 说明它意味着成功、失败、风险、低效还是可学习样本。
 - Agent 持续学习应先路由到正确层级：model 更新影响上限最高但慢且不可 inspect；harness 更新用 traces 改代码；context/memory 更新最快、可按 agent/user/org/team/tenant 粒度生效，但需要治理热路径写入和后台 consolidation。
