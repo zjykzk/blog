@@ -13,8 +13,8 @@ provenance:
   extracted: 0.9
   inferred: 0.1
   ambiguous: 0.0
-source_count: 29
-updated: 2026-05-11T12:08:45+08:00
+source_count: 31
+updated: 2026-05-12T11:36:33+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -129,7 +129,10 @@ tags:
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 - [[wiki/sources/Continual Learning for AI Agents Source Guide]]
 - [[wiki/sources/Meta-Harness Paper Source Guide]]
+- [[wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide]]
 - [[wiki/sources/Skills-Coach Paper Source Guide]]
+- [[wiki/sources/SkillOS Paper Source Guide]]
+- [[wiki/sources/SkillOS Source Guide]]
 
 ## Related journals
 

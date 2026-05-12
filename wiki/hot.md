@@ -1,18 +1,23 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity expanded source captures so source pages preserve content rather than reducing it to summaries.
+summary: Recent wiki activity expanded the Harrison Chase continual-learning source guide with full source-level structure, diagrams, and trace-centered layer distinctions.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-11T22:30:16+08:00
+updated: 2026-05-12T11:36:33+08:00
 ---
 
 ## Recent Activity
 
+- 已扩展 [[wiki/sources/Continual Learning for AI Agents Source Guide]]：保留 Harrison Chase 文章的 model / harness / context 三层持续学习结构、对照表、图示、热路径与后台 memory 更新模式，以及 traces 作为共同底座的判断。
+- 已捕获 [[wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide]]：直接保存 arXiv 论文层内容，覆盖 40,285 个公开 skills 的增长爆发、长度分布、冗余、供需错配与 L0-L3 安全风险。
+- 已捕获 [[wiki/sources/SkillOS Paper Source Guide]]：直接保存 arXiv 论文层内容，补齐 SkillOS 的形式化 streaming curation 设定、分组任务 GRPO 训练、实验表格、分析、局限与未来方向。
+- 已捕获 [[wiki/sources/SkillOS Source Guide]]：SkillOS 把 agent 轨迹压缩成可检索、可更新、可删除的 Markdown skills，并用分组任务、组合奖励和 GRPO 训练 Curator 管理 SkillRepo。
+- 已生成 [[wiki/concepts/Mechanism Model]] 与 [[wiki/maps/Mechanism Models Map]]：把“机制模型”沉淀为结果、变量、约束、激励、反馈、时间的诊断框架，并整理当前 wiki 中可解释稳定生成结果的模型入口。
 - 已捕获 [[wiki/syntheses/ICAP 与知识类型的适用边界]]：ICAP 被定位为学习深度刻度，而不是所有知识的同一种学习处方；其使用需要结合知识类型、学习阶段、先验图式和认知负荷。
 - 已按“source 的内容不用总结”的要求扩展 [[wiki/sources/思维圆桌 Source Guide]] 和 [[wiki/sources/深度思考与高阶思维对话 Source Guide]]：source 层保留更完整的讨论内容，综合页才负责压缩。
 - 已补充捕获 [[wiki/sources/深度思考与高阶思维对话 Source Guide]]：保存当前对话中关于高阶审题、深度下钻、本质句、前置知识和七天训练法的 source 层材料。
@@ -35,6 +40,7 @@ updated: 2026-05-11T22:30:16+08:00
 - Systems thinking now has an explicit iceberg-model thread: recurring problems should be traced from visible events to patterns, structures, mental models, and leverage points before choosing interventions.
 - Software methodology is converging around the handoff from business modeling to analysis, DDD, and executable design.
 - Frontend knowledge is forming around React as a coordination model for declarative rendering, component boundaries, and state.
+- AI / Agent skills 现在加入 SkillOS 线索：skill repository 可以被训练过的 Curator 当作持久记忆来管理；论文层进一步说明关键训练装置是相关任务分组、复合奖励、GRPO rollout 之间的 repository path 比较，以及对 insert/update/delete 操作的长期信用分配。
 - AI / Agent systems are being organized around harness, context management, tool design, memory, permissions, reusable operational knowledge, and now both harness-level and skill-level self-evolution from logged traces or generated boundary tasks.
 - Agentic engineering is now represented as a production AI coding discipline: senior engineers train harnesses, encode lessons into skills and rules, allocate human attention by risk, and move verification into executable gates.
 - User-side harness engineering is now represented as developer control over context, rules, templates, computational checks, inferential review artifacts, and feedback loops.
@@ -66,6 +72,10 @@ updated: 2026-05-11T22:30:16+08:00
 
 ## Key Takeaways
 
+- Agent 持续学习应先路由到正确层级：model 更新影响上限最高但慢且不可 inspect；harness 更新用 traces 改代码；context/memory 更新最快、可按 agent/user/org/team/tenant 粒度生效，但需要治理热路径写入和后台 consolidation。
+- Agent skills 作为生态层已经出现治理问题：公开 marketplace 中软件工程供给占比过高，信息检索和内容生成需求更集中，近半数 listing 存在名称级重复，约两成以外的技能涉及写入、状态改变或系统级能力，需要 canonicalization、选择性加载和最小权限控制。
+- SkillOS reframes skill memory as repository-level curation: a frozen executor acts with retrieved skills, while a trainable curator inserts, updates, and deletes compressed Markdown skills based on trajectories and delayed downstream task success.
+- 机制模型的最小结构是：在某种约束下，少数关键变量通过激励与反馈，随着时间累积，持续生成某个重复结果；它用于从现象描述推进到可检验、可反驳、可行动的结构诊断。
 - 提升深度思考和高阶思维可以训练为一个循环：每日问题重写、每周五层为什么、本质句压缩、反例校验和最小行动实验。
 - 思维不应只被理解为解题能力；更高阶的思维要能重新表征问题、识别语言陷阱、接受认知失衡，并在制度惯性中保留中断与判断。
 - 深度思考、高阶思维和本质理解应作为循环使用：先审查问题框架，再追问生成机制，最后用解释力、生成力、迁移力和行动反馈校验是否抓住本质。

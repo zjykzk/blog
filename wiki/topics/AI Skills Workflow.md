@@ -14,6 +14,7 @@ sources:
   - https://x.com/GoogleCloudTech/article/2033953579824758855
   - https://lavinigam.com/posts/adk-skill-design-patterns/
   - https://arxiv.org/abs/2604.27488
+  - https://x.com/neural_avb/article/2053873358853591435
 created: 2026-04-22
 base_confidence: 0.78
 lifecycle: draft
@@ -22,8 +23,8 @@ provenance:
   extracted: 0.80
   inferred: 0.19
   ambiguous: 0.01
-source_count: 12
-updated: 2026-05-11T12:08:45+08:00
+source_count: 13
+updated: 2026-05-12T10:35:38+08:00
 aliases:
   - skills workflow
   - AI skills
@@ -152,3 +153,4 @@ A practical implication for wiki skill authoring is that a strong skill should m
 - [[wiki/sources/Claude Code Skills Source Guide]]
 - [[wiki/sources/ADK Skill Design Patterns Source Guide]]
 - [[wiki/sources/Skills-Coach Paper Source Guide]]
+- [[wiki/sources/SkillOS Source Guide]]

@@ -14,7 +14,7 @@ created: 2026-04-26
 base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-11T22:30:16+08:00
+updated: 2026-05-12T00:14:41+08:00
 aliases:
   - 学习地图
 provenance:
@@ -78,6 +78,11 @@ provenance:
 - `mobu/孩子学习/学习方法`
 - `mobu/孩子学习/学习能力`
 - `mobu/孩子学习/培养孩子管理时间`
+
+## 机制模型入口
+
+- [[wiki/concepts/Mechanism Model]]——把反复结果压成结果、变量、约束、激励、反馈和时间的结构句
+- [[wiki/maps/Mechanism Models Map]]——整理系统、认知、工程、组织、AI、学习和财富中的机制模型入口
 
 ## 相关领域（可能交叉）
 

@@ -4,7 +4,7 @@ category: meta
 tags: []
 sources: []
 created: 2026-05-10T16:02:23+08:00
-updated: 2026-05-11T21:19:31+08:00
+updated: 2026-05-12T00:14:41+08:00
 summary: Controlled tag vocabulary and lint policy for the structured wiki.
 base_confidence: 0.30
 lifecycle: draft
@@ -63,6 +63,7 @@ These tags are intentionally not used as ordinary content tags because they crea
 - `management`
 - `organization`
 - `judgment`
+- `mechanism`
 - `frontend`
 - `requirements`
 - `testing`

@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-11T21:29:38+08:00
+updated: 2026-05-12T11:36:33+08:00
 aliases:
   - Wiki Log
 tags:
@@ -146,3 +146,12 @@ tags:
 - [2026-05-11T21:29:38+08:00] UPDATE type=source pages="wiki/sources/思维圆桌 Source Guide.md,wiki/sources/深度思考与高阶思维对话 Source Guide.md" reason="expand source captures beyond summary per user preference"
 - [2026-05-11T22:24:44+0800] QUERY query="ICAP学习框架，对学习任何知识都是一样的吗，还是只适用于某类知识" result_pages=5 mode=normal escalated=false
 - [2026-05-11T22:30:16+0800] CAPTURE type=synthesis page="wiki/syntheses/ICAP 与知识类型的适用边界.md" title="ICAP 与知识类型的适用边界"
+- [2026-05-11 23:47:09+0800] QUERY query="有哪些『机制模型』" result_pages=10 mode=normal escalated=true
+- [2026-05-11 23:49:26+0800] QUERY query="goon / 继续机制模型" result_pages=10 mode=normal escalated=false
+- [2026-05-11 23:59:06+0800] QUERY query="很好，请继续 / 机制模型继续深化" result_pages=5 mode=normal escalated=false
+- [2026-05-12T00:14:41+08:00] CAPTURE type=concept page="wiki/concepts/Mechanism Model.md" title="Mechanism Model"
+- [2026-05-12T00:14:41+08:00] CAPTURE type=map page="wiki/maps/Mechanism Models Map.md" title="Mechanism Models Map"
+- [2026-05-12T10:35:38+08:00] CAPTURE type=source page="wiki/sources/SkillOS Source Guide.md" title="SkillOS Source Guide"
+- [2026-05-12T10:45:54+08:00] CAPTURE type=source page="wiki/sources/SkillOS Paper Source Guide.md" title="SkillOS Paper Source Guide"
+- [2026-05-12T11:05:11+08:00] CAPTURE type=source page="wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide.md" title="Agent Skills Data-Driven Analysis Paper Source Guide"
+- [2026-05-12T11:36:33+08:00] UPDATE type=source page="wiki/sources/Continual Learning for AI Agents Source Guide.md" title="Continual Learning for AI Agents Source Guide" reason="expand Harrison Chase continual-learning source guide with full source-level article structure and diagrams"

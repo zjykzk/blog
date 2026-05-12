@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-11T21:29:38+08:00
+updated: 2026-05-12T11:36:33+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -32,6 +32,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/maps/Classification Thinking Map|Classification Thinking Map]] — 这一组页面围绕一个核心问题展开： 人如何通过分类把混乱切成结构，以及这种切法的价值、方法与边界是什么。
 - [[wiki/maps/CS Map|CS Map]] — 这页聚合当前 vault 中更偏计算机科学与软件架构的长期知识页。 (#cs #map #architecture)
 - [[wiki/maps/Learning Map|Learning Map]] — Learning Map collects learning methodology, cognition concepts, AI tutor loops, and cross-source synthesis for durable learning practice.
+- [[wiki/maps/Mechanism Models Map|Mechanism Models Map]] — 机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。 (#thinking #systems #judgment #mechanism)
 - [[wiki/maps/Management Map|Management Map]] — 这页聚合当前 vault 中与管理、决策、组织协作相关的长期知识页。 (#management #leadership #map)
 - [[wiki/maps/Reading Map|Reading Map]] — 这页用于承接读书笔记从 raw/source 进入 wiki 的提升过程。 (#reading #books #map)
 - [[wiki/maps/Software Analysis Map|Software Analysis Map]] — 这页把软件分析中的核心概念按层次放在一张图里。它基于 Software Analysis Three Generators 的三根： 组织、交换、边界 。 (#software-analysis #requirements #architecture #map)
@@ -150,6 +151,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Autoregressive Decoding|Autoregressive Decoding]] — Autoregressive decoding generates one token at a time because each newly sampled token becomes part of the context for the next step. (#llm #inference #decoding)
 - [[wiki/concepts/Neural Network Inference Boundary|Neural Network Inference Boundary]] — The neural-network inference boundary separates learned tensor computation from surrounding traditional control-flow code. (#llm #inference #systems)
 - [[wiki/concepts/Lost in the Middle Effect|Lost in the Middle Effect]] — The lost-in-the-middle effect is the long-context failure mode where models use information best at the beginning or end and worse in the middle. (#llm #context #evaluation)
+- [[wiki/concepts/Mechanism Model|Mechanism Model]] — 机制模型是把反复结果压成“结果、变量、约束、激励、反馈、时间”的结构，用来解释为什么现象会被稳定生成。 (#thinking #systems #judgment #mechanism)
 - [[wiki/concepts/Meta-Harness|Meta-Harness]] — Meta-Harness searches over executable LLM harness code using a coding-agent proposer with access to prior code, scores, and traces. (#agents #harness #optimization)
 - [[wiki/concepts/Skill Self-Evolution|Skill Self-Evolution]] — Skill self-evolution improves agent skills by generating boundary tasks, optimizing instructions or code, executing comparisons, and evaluating traceable results. (#agents #skills #optimization)
 - [[wiki/concepts/Multiplicative World|Multiplicative World]] — 乘法世界是回报由当前动作与既有存量共同决定的世界；它要求人从补平均短板转向寻找可复利、可放大的长板。 (#wealth #leverage #systems-thinking #career)
@@ -194,6 +196,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Agent Harness Anatomy Source Guide|Agent Harness Anatomy Source Guide]] — Source guide for Akshay Pachaar's agent harness thread, focused on the 12-component harness model and architecture decisions. (#agents #harness #architecture)
 - [[wiki/sources/Agent Harness Engineering Source Guide|Agent Harness Engineering Source Guide]] — Source guide for Addy Osmani's Agent Harness Engineering article, focused on harnesses as configurable runtimes, failure ratchets, and service APIs. (#agents #harness #engineering)
 - [[wiki/sources/Agent Harness Qiaomu Article Source Guide|Agent Harness Qiaomu Article Source Guide]] — 这篇文章目前更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#article #blog #agents #harness)
+- [[wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide|Agent Skills Data-Driven Analysis Paper Source Guide]] — Direct paper guide for a 40,285-skill marketplace measurement study covering growth bursts, length, redundancy, functional demand, and safety risks in Claude-style agent skills. (#paper #arxiv #agents #skills #software-engineering)
 - [[wiki/sources/Agent Systems Papers Source Guide|Agent Systems Papers Source Guide]] — Source guide collecting agent-system papers and deciding which claims should stay source-level versus move into topics and syntheses. (#papers #agents)
 - [[wiki/sources/ADK Skill Design Patterns Source Guide|ADK Skill Design Patterns Source Guide]] — Source guide for Google Cloud Tech and Lavi Nigam's article on five practical SKILL.md content patterns for ADK agents. (#agents #skills #adk)
 - [[wiki/sources/AI Coding Control Limits Source Guide|AI Coding Control Limits Source Guide]] — 这篇文章更适合作为一个 source facing note 进入当前仓库，而不是直接承担稳定 topic 页角色。 (#ai-coding #software-engineering #complexity #productivity #security)
@@ -254,6 +257,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Software Methodology by Pan Jianyu|Software Methodology by Pan Jianyu]] — 这页收纳《软件方法》相关的阅读入口与当前已经稳定下来的判断。
 - [[wiki/sources/Spec-Driven Development Paper Source Guide|Spec-Driven Development Paper Source Guide]] — 这篇论文是 Deepak Babu Piskala 投稿 AIWare 2026 的 practitioner guide，把 SDD 这波被 AI coding assistant 重新点燃的旧想法梳理成三档光谱 + 四阶段流水线 + 决策框架。8 页，3 张图，零量化实验。 (#software-engineering #specs #ai-coding #paper)
 - [[wiki/sources/Skills-Coach Paper Source Guide|Skills-Coach Paper Source Guide]] — Source guide for the Skills-Coach paper, focused on automated skill boundary probing, training-free GRPO optimization, comparative execution, and Skill-X evaluation. (#paper #arxiv #agents #skills)
+- [[wiki/sources/SkillOS Paper Source Guide]] — Direct paper guide for SkillOS, preserving its formal streaming curation setting, grouped-task GRPO recipe, benchmark results, analyses, limitations, and future directions. (#paper #arxiv #agents #skills #training)
+- [[wiki/sources/SkillOS Source Guide]] — Source guide for AVB's SkillOS article: experiences become reusable skills through a trainable curator, grouped task rollouts, and delayed RL rewards. (#article #agents #skills #memory #training)
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide|Team AI Coding Harness Seminar Source Guide]] — Source guide for TechLead 少个分号's WeChat seminar recap on team-level AI coding harness, human discipline, TDD loops, and translation-layer compression. (#agents #harness #ai-coding)
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #cognition #causal-reasoning)
 - [[wiki/sources/Understanding as Concept Cloud Source Guide|Understanding as Concept Cloud Source Guide]] — Source guide for inline discussions that model understanding as a cloud and trace the frame to Hofstadter's analogy-making work. (#cognition #learning #concepts)
