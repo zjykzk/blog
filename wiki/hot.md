@@ -14,6 +14,7 @@ updated: 2026-05-13T23:20:00+08:00
 ## Recent Activity
 - Captured [[wiki/syntheses/Quality Engineering Three Generators|Quality Engineering Three Generators]] as a software-quality synthesis: quality engineering reduces to clear commitments, visible deviations, and correction loops, mapped to BDD/contracts/SLOs, CI/testing/monitoring, and postmortems/error budgets.
 
+- 已新增 [[wiki/syntheses/Knowledge System Construction]]：把“如何构建知识体系”整理成问题牵引、知识成网、隐性知识外化、知识资产化、工作流嵌入、共同体语境和知识审计的闭环。
 - 已捕获 [[wiki/sources/从知识堆积到结构化记忆 Source Guide]]：这篇中文文章把 LLM Wiki、Obsidian-Wiki、GBrain 与 Skillify 放进同一条 Agent 知识管理主线，强调从知识堆积走向可维护、可渐进披露、可图谱化的结构化记忆。
 - 已捕获 [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide]]：arXiv 2605.03354 把 agent memory 的 write-manage-read loop 下钻到 circuit 层，指出 routing/control 可能早于 content extraction/grounding 成熟，并用 stage-level circuit signatures 诊断 silent failures。
 - 已捕获 [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]]：arXiv 2601.12560v1 把 agentic AI 组织成 POMDP-style control loop、六维 architecture taxonomy、workflow graph orchestration，以及 CLASSic evaluation。
@@ -21,6 +22,7 @@ updated: 2026-05-13T23:20:00+08:00
 - 已扩展 [[wiki/concepts/Agent]]、[[wiki/topics/AI Harness]] 与 [[wiki/syntheses/Agent System Design Space]]：强化“agent = governed control loop”而不是“model + tools”的系统视角。
 ## Active Threads
 
+- 知识体系构建现在有一条知识管理线索：个人 wiki 不只是资料仓库，而是经历、概念、链接、复用、输出和审计组成的持续认知系统。
 - Agent memory now has a circuit-diagnosis thread: end-to-end memory accuracy hides whether failure happened in Write, Manage, or Read; stage-local internal signatures may turn memory observability from logs into operation-level diagnosis.
 - Agent systems now have a stronger control-loop thread: perception, memory update, planning, action, feedback, and state transition must be governed by harness boundaries rather than left as implicit model behavior.
 - Agent architecture now has a taxonomy thread: core components, cognitive architecture, learning, multi-agent systems, environments, and evaluation/safety are coupled design surfaces, not independent features.

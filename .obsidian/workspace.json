@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/架构一致性.md",
+                "file": "wiki/concepts/Prefill Decode Split.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "架构一致性"
+              "title": "Prefill Decode Split"
+            }
+          },
+          {
+            "id": "563d95f9033203d1",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -74,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/concepts/架构一致性.md",
+                "file": "wiki/concepts/Prefill Decode Split.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 架构一致性"
+              "title": "Outgoing links from Prefill Decode Split"
             }
           },
           {
@@ -209,8 +218,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a5fd56c06f3d8cb7",
+  "active": "a9f87afd1bd3f1b1",
   "lastOpenFiles": [
+    "wiki/syntheses/Quality Engineering Three Generators.md",
+    "wiki/syntheses/Knowledge System Construction.md",
+    "wiki/sources/从知识堆积到结构化记忆 Source Guide.md",
+    "wiki/maps/AI Map.md",
+    "wiki/topics/Mental Models.md",
+    "wiki/index.md",
+    "wiki/maps/Reading Map.md",
+    "wiki/concepts/架构一致性.md",
     "wiki/sources/What Happens Inside Agent Memory Paper Source Guide.md",
     "wiki/sources/Agentic Artificial Intelligence Paper Source Guide.md",
     "wiki/concepts/Workflow Graph Orchestration.md",
@@ -225,19 +242,11 @@
     "wiki/sources/思维圆桌 Source Guide.md",
     "mobu/读书/架构师启示录-知识模型、落地方法与思维模式-幕布图片-249642-378639.png",
     "wiki/concepts/重构层次.md",
-    "wiki/concepts/架构一致性.md",
     "wiki/topics/架构落地方法.md",
     "wiki/concepts/架构知识模型.md",
     "wiki/concepts/架构认知框架.md",
     "mobu/读书/架构师启示录-知识模型、落地方法与思维模式.md",
     "wiki/sources/React Component Lifecycle Source Guide.md",
-    "wiki/sources/SkillOS Paper Source Guide.md",
-    "wiki/sources/Compounding Engineering Source Guide.md",
-    "wiki/sources/React Framework Background and Core Concepts Source Guide.md",
-    "mobu/薛兆丰经济学.md",
-    "mobu/逻辑新引.md",
-    "Excalidraw/Drawing 2026-05-12 18.29.42.excalidraw.md",
-    "wiki/maps/Mechanism Models Map.md",
     "wiki/_meta",
     "iceberg-model-large.png",
     "iceberg-model-page.png",
