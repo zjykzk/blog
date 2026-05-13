@@ -2,7 +2,7 @@
 title: AI Harness
 type: topic
 status: growing
-summary: AI Harness is the runtime order layer and optimization surface that connects model, context, tools, permissions, state, recovery, cache stability, and feedback loops.
+summary: AI Harness is the runtime order layer and optimization surface that governs model, context, tools, permissions, state, memory, recovery, and feedback loops.
 category: topics
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
@@ -17,6 +17,7 @@ sources:
   - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
   - https://x.com/hwchase17/status/2040467997022884194
   - https://arxiv.org/abs/2603.28052
+  - https://arxiv.org/abs/2603.07670
 created: 2026-05-04
 base_confidence: 0.75
 lifecycle: draft
@@ -25,8 +26,8 @@ provenance:
   extracted: 0.88
   inferred: 0.11
   ambiguous: 0.01
-source_count: 14
-updated: 2026-05-09T22:42:07+08:00
+source_count: 13
+updated: 2026-05-13T09:59:22+08:00
 aliases:
   - harness
 tags:
@@ -174,6 +175,20 @@ GenericAgent 的做法是把四件事放在同一个设计原则下：
 [[wiki/sources/AI Memory Survey Source Guide]] gives this density-preserving role a broader memory architecture vocabulary. A harness can separate index from content, consolidate recent traces into reusable skills or reflections, and coordinate specialized buffers before acting.
 
 That means memory is not simply "more context later." It is a harness-governed state layer whose lifecycle, content type, storage form, and modality should match the agent's task. ^[inferred]
+
+## Memory Harness
+
+[[wiki/sources/Memory for Autonomous LLM Agents Source Guide]] makes memory a harness-governed subsystem. The harness is responsible for more than exposing a vector store: it must govern write filtering, retrieval gating, contradiction detection, deletion, access scope, latency budget, and memory-operation observability.
+
+The paper's production guidance maps directly to harness design:
+
+- write path: filtering, canonicalization, deduplication, priority scoring, metadata tagging
+- read path: two-stage retrieval, retrieval-or-not gating, token budgeting, and high-frequency caches
+- drift handling: temporal versioning, source attribution, contradiction detection, and consolidation sweeps
+- governance: encryption, PII redaction, retention policy, access scoping, and deletion across every tier
+- debugging: logs for writes, reads, updates, deletes, replay tools, and memory diffs
+
+This extends [[wiki/concepts/Harness Ratchet]]: repeated failures should not only become prompts, tests, or hooks; some should become memory-policy changes or memory regression tests. ^[inferred]
 
 ## Cache-stable harness
 
@@ -332,6 +347,8 @@ This strengthens the current harness-ratchet view. A human can turn repeated fai
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
 - [[wiki/sources/Harness Engineering Source Guide]]
+- [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]]
+
 - [[wiki/sources/AI Memory Survey Source Guide]]
 
 ## Navigation

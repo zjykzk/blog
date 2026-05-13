@@ -2,7 +2,7 @@
 title: Context Management
 type: topic
 status: seed
-summary: Context management designs what enters, stays in, leaves, and gets optimized in an AI agent's active context under finite attention and cache constraints.
+summary: Context management designs what enters, stays in, leaves, and gets optimized in an AI agent's active context under finite attention, memory, and cache constraints.
 category: topics
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
@@ -15,16 +15,17 @@ sources:
   - https://x.com/trq212/status/2027463795355095314
   - https://www.chrismdp.com/coding-with-ai/
   - https://arxiv.org/abs/2603.28052
+  - https://arxiv.org/abs/2603.07670
 created: 2026-05-04
 base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.91
-  inferred: 0.09
+  extracted: 0.90
+  inferred: 0.10
   ambiguous: 0.0
-source_count: 12
-updated: 2026-05-09T22:42:07+08:00
+source_count: 11
+updated: 2026-05-13T09:59:22+08:00
 aliases:
   - 上下文管理
 tags:
@@ -121,6 +122,14 @@ The stronger pattern is to move decision context into a living feature document.
 
 When an agent starts looping through useless refactors, repeating wrong assumptions, or leading the human in circles, the recommended move is to stop, discard the polluted conversation, and restart with a cleaner brief and a smaller chunk.
 
+## Long Context Is Not Memory
+
+[[wiki/sources/Memory for Autonomous LLM Agents Source Guide]] adds a sharper boundary: extending context windows can delay memory pressure, but it does not solve persistent cross-session storage, selective retrieval from months of history, structured organization, deletion, or access control.
+
+The paper also names two context-resident memory failure modes. **Summarization drift** gradually drops low-frequency but high-importance facts through repeated compression. **Attentional dilution** means that even when a fact remains inside a long context, the model may fail to focus on it.
+
+This reinforces the existing density view: the goal is not to maximize visible history, but to decide which memory records deserve to become current working context for this step.
+
 ## Cache-stable context
 
 [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]] adds an economic and runtime dimension to context management: the order and mutability of context affect whether repeated prompt tokens can be served from cache.
@@ -198,5 +207,7 @@ So context management has two layers: design the current information surface, an
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Lost in the Middle Paper Source Guide]]
+- [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]]
+
 - [[wiki/sources/AI Memory Survey Source Guide]]
 - [[wiki/sources/Seeing Like an Agent Source Guide]]

@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-13T00:06:14+08:00
+updated: 2026-05-13T09:59:22+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -82,6 +82,9 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Agent Memory Evaluation Stack|Agent Memory Evaluation Stack]] — Agent Memory Evaluation Stack evaluates memory through task effectiveness, memory quality, efficiency, and governance rather than recall alone. (#agents #memory)
+- [[wiki/concepts/Agent Memory Mechanism Families|Agent Memory Mechanism Families]] — Agent Memory Mechanism Families compares context compression, retrieval stores, reflection, hierarchical virtual memory, learned control, and parametric memory. (#agents #memory)
+- [[wiki/concepts/Agent Memory Write-Manage-Read Loop|Agent Memory Write-Manage-Read Loop]] — Agent Memory Write-Manage-Read Loop models memory as read, update, and management operations coupled to perception, action, feedback, and goals. (#agents #memory)
 - [[wiki/concepts/Accountability|Accountability]] — Accountability means taking public, name-attached risk so society can route responsibility, equity, and leverage toward you. (#wealth #responsibility #judgment #career)
 - [[wiki/concepts/Additive World|Additive World]] — 加法世界是回报主要由投入次数相加而成的世界；它适合保底、补短板和稳定交付，但很难单独打开非线性上限。 (#wealth #systems-thinking #career)
 - [[wiki/concepts/Agent|Agent]] — Agent 的核心任务目前可以归纳为三件事： (#agents #concept)
@@ -206,6 +209,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Agent Systems Papers Source Guide|Agent Systems Papers Source Guide]] — Source guide collecting agent-system papers and deciding which claims should stay source-level versus move into topics and syntheses. (#papers #agents)
 - [[wiki/sources/ADK Skill Design Patterns Source Guide|ADK Skill Design Patterns Source Guide]] — Source guide for Google Cloud Tech and Lavi Nigam's article on five practical SKILL.md content patterns for ADK agents. (#agents #skills #adk)
 - [[wiki/sources/AI Coding Control Limits Source Guide|AI Coding Control Limits Source Guide]] — 这篇文章更适合作为一个 source facing note 进入当前仓库，而不是直接承担稳定 topic 页角色。 (#ai-coding #software-engineering #complexity #productivity #security)
+- [[wiki/sources/Memory for Autonomous LLM Agents Source Guide|Memory for Autonomous LLM Agents Source Guide]] — Source guide for arXiv 2603.07670 on autonomous LLM-agent memory mechanisms, evaluation, applications, engineering realities, and open frontiers. (#paper #agents #memory #survey)
 - [[wiki/sources/AI Memory Survey Source Guide|AI Memory Survey Source Guide]] — Source guide for Survey on AI Memory, focused on memory theory, the 4W taxonomy, single/multi-agent memory, evaluation, and open challenges. (#paper #agents #memory #survey)
 - [[wiki/sources/Amabile Componential Theory of Creativity Source Guide|Amabile Componential Theory of Creativity Source Guide]] — Source guide for Amabile's componential theory, grounding creativity in novelty, appropriateness, domain skill, motivation, and environment. (#creativity #psychology #learning)
 - [[wiki/sources/Analysis Concept Anatomy Source Guide|Analysis Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on analysis as reversible decomposition into actionable structure. (#thinking #concepts)

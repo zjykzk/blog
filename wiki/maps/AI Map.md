@@ -4,17 +4,18 @@ type: map
 status: growing
 summary: Entry point for the AI, Agent, and LLM knowledge cluster, linking concepts, topics, syntheses, and source guides.
 category: maps
-sources: []
+sources:
+  - https://arxiv.org/abs/2603.07670
 created: 2026-05-04
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.9
-  inferred: 0.1
+  extracted: 0.90
+  inferred: 0.10
   ambiguous: 0.0
-source_count: 33
-updated: 2026-05-12T21:05:21+08:00
+source_count: 1
+updated: 2026-05-13T09:59:22+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -36,6 +37,9 @@ tags:
 - [[wiki/concepts/Context Anchoring]]
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/concepts/Feedback Flywheel]]
+- [[wiki/concepts/Agent Memory Write-Manage-Read Loop]]
+- [[wiki/concepts/Agent Memory Mechanism Families]]
+- [[wiki/concepts/Agent Memory Evaluation Stack]]
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/concepts/Continual Learning for AI Agents]]
 - [[wiki/concepts/Meta-Harness]]
@@ -112,6 +116,7 @@ tags:
 - [[wiki/sources/Theory Is All You Need Source Guide]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
 - [[wiki/sources/Lost in the Middle Paper Source Guide]]
+- [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]]
 - [[wiki/sources/AI Memory Survey Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]

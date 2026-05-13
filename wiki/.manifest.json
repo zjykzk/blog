@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 47,
-    "total_pages": 247
+    "total_sources_ingested": 48,
+    "total_pages": 251
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -1014,6 +1014,30 @@
       "pages_created": [],
       "pages_updated": [
         "wiki/sources/架构师启示录 Source Guide.md"
+      ]
+    },
+    "https://arxiv.org/abs/2603.07670": {
+      "ingested_at": "2026-05-13T01:59:22Z",
+      "size_bytes": 313563,
+      "modified_at": "2026-03-10T01:26:40Z",
+      "content_hash": "sha256:ca7d6c5dfb712921da92542454e07af2a09751d61811e76a29066e89dd57cc51",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Agent Memory Write-Manage-Read Loop.md",
+        "wiki/concepts/Agent Memory Mechanism Families.md",
+        "wiki/concepts/Agent Memory Evaluation Stack.md",
+        "wiki/sources/Memory for Autonomous LLM Agents Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/AI Memory.md",
+        "wiki/topics/Context Management.md",
+        "wiki/topics/AI Harness.md",
+        "wiki/syntheses/Agent System Design Space.md",
+        "wiki/sources/Agent Systems Papers Source Guide.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md"
       ]
     }
   }

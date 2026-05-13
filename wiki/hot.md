@@ -1,24 +1,24 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured a compounding engineering article focused on self-improving AI coding systems, durable context, tests, evals, reviewer agents, and feedback-driven harness updates.
+summary: Recent wiki activity captured an arXiv survey on autonomous LLM-agent memory as write–manage–read loops, mechanism families, evaluation stacks, and production governance.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-13T00:06:14+08:00
+updated: 2026-05-13T09:59:22+08:00
 ---
 
 ## Recent Activity
 
-- 已摄入 [[wiki/sources/架构师启示录 Source Guide]]：这组幕布读书笔记把架构师工作组织成“思维模式、落地方法、知识模型”三维框架，并补充需求矩阵、业务架构、应用/数据/技术架构、实现一致性和维护反馈回路。
-- 已新增 [[wiki/concepts/架构认知框架]]、[[wiki/concepts/架构知识模型]]、[[wiki/topics/架构落地方法]]、[[wiki/concepts/架构一致性]]、[[wiki/concepts/重构层次]]：架构被重新表达为从客户价值到代码实现的双向追溯系统，而不是单次设计活动。
-- 已更新 [[wiki/topics/Requirement to Architecture Mapping]]、[[wiki/concepts/Business Modeling in Software]]、[[wiki/concepts/Feedback Loops]] 与软件架构相关地图：补入需求二维矩阵、业务架构桥梁、敏捷负反馈、事件-行为-结构维护视角。
-
+- 已捕获 [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]]：arXiv 2603.07670 把 autonomous LLM-agent memory 明确建模为 write–manage–read feedback loop，并系统整理机制族、评估栈、应用场景、工程现实与开放问题。
+- 已新增 [[wiki/concepts/Agent Memory Write-Manage-Read Loop]]、[[wiki/concepts/Agent Memory Mechanism Families]]、[[wiki/concepts/Agent Memory Evaluation Stack]]：把论文中的可复用结构提升为 agent memory 设计词汇。
+- 已扩展 [[wiki/topics/AI Memory]]、[[wiki/topics/AI Harness]]、[[wiki/topics/Context Management]] 与 [[wiki/syntheses/Agent System Design Space]]：强化“long context is not memory”、memory harness、observability、governance 和 agentic utility 评估线索。
 ## Active Threads
 
+- Memory now has a write-manage-read thread: durable agent memory must be designed as a managed feedback loop with write filters, retrieval policy, contradiction handling, deletion, observability, and regression tests.
 - 基本世界观现在加入“内核 / 三个自我”线索：进程自我是运行日志，界面自我是叙事接口，内核自我是预测模型、先验假设和更新规则。
 - 基本世界观现在加入“可能 / 不确定性”线索：世界无法被完全预测，意义来自在可承受的不确定中探索、判断、行动，并把未知逐步转化为确定。
 - 基本世界观现在加入“约束”线索：叙事能激发行动，但必须接受硬约束校验；成熟行动的顺序是先盘资源、看窗口、尊重规律、承认他人，再寻找路径。
@@ -63,6 +63,8 @@ updated: 2026-05-13T00:06:14+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- Long context is not memory: larger windows do not by themselves provide cross-session persistence, selective retrieval, structured organization, deletion, access control, or agentic utility.
 
 - 架构师启示录补充了软件架构方法论主线：架构不是从技术开始，而是从客户价值和企业战略传递到业务架构、应用/数据/技术架构和代码实现，再通过一致性检查从实现层反向追溯。
 - 架构文档的核心不是“把技术细节写全”，而是把同一设计翻译给不同受众：高管要价值、ROI 和风险，产品要影响和时间，开发要接口与结构，运维要部署和稳定性，新人要上手路径。

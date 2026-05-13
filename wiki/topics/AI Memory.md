@@ -3,7 +3,7 @@ title: AI Memory
 type: topic
 status: seed
 category: topics
-summary: AI Memory is the persistent state layer that lets agents and organizations retain, retrieve, update, and learn from experience beyond one context window.
+summary: AI Memory is the persistent state layer that lets agents retain, manage, retrieve, forget, and evaluate experience beyond one context window.
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
   - https://nanothoughts.substack.com/p/company-brain-why-most-companies
@@ -11,14 +11,15 @@ sources:
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
   - https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
   - https://x.com/hwchase17/status/2040467997022884194
+  - https://arxiv.org/abs/2603.07670
 created: 2026-05-05T16:25:00+08:00
-updated: 2026-05-09T22:17:54+08:00
+updated: 2026-05-13T09:59:22+08:00
 base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.79
-  inferred: 0.19
+  extracted: 0.81
+  inferred: 0.17
   ambiguous: 0.02
 aliases:
   - agent memory
@@ -85,6 +86,22 @@ Memory quality should not be evaluated only by recall. The survey organizes eval
 
 For agent systems, memory is successful when it improves downstream behavior under real task constraints, not when it merely stores more records. ^[inferred]
 
+## Agent Memory as a Managed Feedback Loop
+
+[[wiki/sources/Memory for Autonomous LLM Agents Source Guide]] sharpens the operational model: memory is a write–manage–read loop coupled to perception, action, and feedback, not a passive append-only log.
+
+The write side must filter, canonicalize, deduplicate, score priority, resolve contradictions, and delete when appropriate. The read side must decide whether retrieval is needed, reformulate queries when the immediate input is a poor query, rerank records, and budget context tokens.
+
+This makes [[wiki/concepts/Agent Memory Write-Manage-Read Loop]] a central design model for long-running agents. A memory system fails not only when it forgets, but also when it writes the wrong thing, retrieves stale evidence, or keeps a false reflection alive.
+
+## Mechanism Families and Evaluation
+
+The same paper groups memory mechanisms into [[wiki/concepts/Agent Memory Mechanism Families]]: context-resident compression, retrieval stores, reflective memory, hierarchical virtual context, policy-learned control, and parametric memory.
+
+Its evaluation lesson is that recall is not enough. [[wiki/concepts/Agent Memory Evaluation Stack]] asks whether memory improves task outcomes, preserves memory quality, stays efficient, and obeys governance requirements.
+
+This reinforces a practical rule: long context is not memory. Long context enlarges working memory, but it does not by itself provide cross-session persistence, structured organization, selective retrieval, deletion, access control, or regression-tested memory behavior.
+
 ## Organizational Memory Layer
 
 [[wiki/sources/Company Brain Source Guide]] extends the memory problem from individual agents to organizations. A company also needs memory that can bear on present decisions: why a customer request mattered, which tradeoffs were considered, who owned the context, and which assumptions conflicted.
@@ -109,6 +126,11 @@ This means AI memory design must answer not only what to store, but also when to
 
 
 ## Related
+
+- [[wiki/concepts/Agent Memory Write-Manage-Read Loop]]
+- [[wiki/concepts/Agent Memory Mechanism Families]]
+- [[wiki/concepts/Agent Memory Evaluation Stack]]
+- [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]]
 
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/topics/Context Management]]

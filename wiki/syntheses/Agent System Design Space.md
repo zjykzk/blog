@@ -2,7 +2,7 @@
 title: Agent System Design Space
 type: synthesis
 status: seed
-summary: Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, cache economics, and harness evolution.
+summary: Agent System Design Space compares agent architectures by values, context, tools, permissions, memory control, delegation, recovery, cache economics, and harness evolution.
 category: syntheses
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
@@ -14,16 +14,17 @@ sources:
   - https://x.com/hwchase17/status/2040467997022884194
   - https://arxiv.org/abs/2603.28052
   - https://arxiv.org/abs/2604.27488
+  - https://arxiv.org/abs/2603.07670
 created: 2026-05-04
 base_confidence: 0.80
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.89
-  inferred: 0.10
+  extracted: 0.88
+  inferred: 0.11
   ambiguous: 0.01
-source_count: 8
-updated: 2026-05-11T12:08:45+08:00
+source_count: 10
+updated: 2026-05-13T09:59:22+08:00
 aliases:
   - Agent architecture design space
   - AI agent system design space
@@ -158,6 +159,19 @@ The same design surface includes full context resets: for long jobs, a harness m
 
 In multi-agent systems, memory also becomes a coordination substrate: agents may communicate through shared natural-language summaries, structured schemas, latent state, shared task-level experience, or step-level routing.
 
+### Memory control and evaluation
+
+[[wiki/sources/Memory for Autonomous LLM Agents Source Guide]] adds a more operational memory design surface. Memory architecture is not only lifecycle/content/storage/modality; it also has a control policy: heuristic rules, prompted self-control through memory tools, or learned policies that optimize store/retrieve/update/summarize/discard actions.
+
+This creates several architecture questions:
+
+- Is memory an append-only transcript, a curated state layer, or a learned controller?
+- Which records stay in active context, external retrieval stores, structured databases, archives, executable skill repositories, or model weights?
+- How are stale records, contradictions, privacy boundaries, and deletion handled?
+- Does evaluation measure passive recall, or downstream agentic utility under task, cost, and governance constraints?
+
+The paper's [[wiki/concepts/Agent Memory Evaluation Stack]] makes memory comparable across task effectiveness, memory quality, efficiency, and governance. This means a memory design that improves recall but triples latency or fails deletion compliance may not be a better agent architecture.
+
 ### Learning layer and learning scope
 
 [[wiki/sources/Continual Learning for AI Agents Source Guide]] adds a learning-layer axis to the design space. An agent system can improve by updating model weights, harness code and always-on instructions, or configurable context and memory.
@@ -261,6 +275,10 @@ The second question matters because virtual scoring may reward documentation sig
 - [[wiki/topics/AI Memory]]
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/concepts/Context Information Density]]
+- [[wiki/concepts/Agent Memory Write-Manage-Read Loop]]
+- [[wiki/concepts/Agent Memory Mechanism Families]]
+- [[wiki/concepts/Agent Memory Evaluation Stack]]
+
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/concepts/Lost in the Middle Effect]]
 - [[wiki/concepts/Prompt Caching]]
@@ -276,6 +294,8 @@ The second question matters because virtual scoring may reward documentation sig
 - [[wiki/sources/Managed Agents Source Guide]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
 - [[wiki/sources/Lost in the Middle Paper Source Guide]]
+- [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]]
+
 - [[wiki/sources/AI Memory Survey Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]

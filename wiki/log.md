@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-13T00:06:14+08:00
+updated: 2026-05-13T09:59:22+08:00
 aliases:
   - Wiki Log
 tags:
@@ -166,3 +166,5 @@ tags:
 - [2026-05-12T20:56:53+08:00] CAPTURE type=source page="wiki/sources/React Component Lifecycle Source Guide.md" title="React Component Lifecycle Source Guide"
 - [2026-05-12T21:05:21+08:00] CAPTURE type=source page="wiki/sources/Compounding Engineering Source Guide.md" title="Compounding Engineering Source Guide"
 - [2026-05-13T00:06:14+08:00] INGEST source="mobu/读书/架构师启示录-知识模型、落地方法与思维模式*" pages_updated=9 pages_created=6 mode=append
+
+- [2026-05-13T09:59:22+08:00] INGEST source="https://arxiv.org/abs/2603.07670" pages_updated=8 pages_created=4 mode=append
