@@ -10,7 +10,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 5
-updated: 2026-05-12T20:56:53+08:00
+updated: 2026-05-13T00:06:14+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -58,6 +58,11 @@ tags:
 - [[wiki/topics/Spec-Driven Development]]
 - [[wiki/topics/Modern Software Engineering]]
 - [[wiki/topics/Software Development Thought Lineage]]
+- [[wiki/concepts/重构层次]]
+- [[wiki/concepts/架构一致性]]
+- [[wiki/topics/架构落地方法]]
+- [[wiki/concepts/架构知识模型]]
+- [[wiki/concepts/架构认知框架]]
 
 ## Syntheses
 
@@ -69,6 +74,7 @@ tags:
 - [[wiki/sources/Published Posts]]
 - [[wiki/sources/Frontend Development Workflow Roundtable Source Guide]]
 - [[wiki/sources/架构文档与图示之道 Source Guide]]
+- [[wiki/sources/架构师启示录 Source Guide]]
 - [[wiki/sources/React Component Lifecycle Source Guide]]
 - [[wiki/sources/React Hooks useRef useContext useMemo Source Guide]]
 - [[wiki/sources/React Hooks useState useEffect Source Guide]]

@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 39,
-    "total_pages": 205
+    "total_sources_ingested": 47,
+    "total_pages": 247
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -888,6 +888,132 @@
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"
+      ]
+    },
+    "mobu/读书/架构师启示录-知识模型、落地方法与思维模式.md": {
+      "ingested_at": "2026-05-13T00:06:14+08:00",
+      "size_bytes": 16850,
+      "modified_at": "2026-04-20T13:14:06+08:00",
+      "content_hash": "sha256:81e37e3c8639d8a875af55db9de10dd7bbd3c1f83f59d42c9b9098d7a628a77b",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/架构师启示录 Source Guide.md",
+        "wiki/concepts/架构认知框架.md",
+        "wiki/concepts/架构知识模型.md",
+        "wiki/topics/架构落地方法.md",
+        "wiki/concepts/架构一致性.md",
+        "wiki/concepts/重构层次.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/Requirement to Architecture Mapping.md",
+        "wiki/concepts/Business Modeling in Software.md",
+        "wiki/concepts/Feedback Loops.md",
+        "wiki/maps/CS Map.md",
+        "wiki/maps/Reading Map.md",
+        "wiki/maps/Software Design Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "mobu/读书/架构师启示录-知识模型、落地方法与思维模式_第8章及以后章节.md": {
+      "ingested_at": "2026-05-13T00:06:14+08:00",
+      "size_bytes": 5527,
+      "modified_at": "2026-04-20T13:14:06+08:00",
+      "content_hash": "sha256:8e31265b8210b9b439c56c08abe54e574bf430113bbb157e37103f3de6ec832c",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/架构师启示录 Source Guide.md",
+        "wiki/concepts/架构认知框架.md",
+        "wiki/concepts/架构知识模型.md",
+        "wiki/topics/架构落地方法.md",
+        "wiki/concepts/架构一致性.md",
+        "wiki/concepts/重构层次.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/Requirement to Architecture Mapping.md",
+        "wiki/concepts/Business Modeling in Software.md",
+        "wiki/concepts/Feedback Loops.md",
+        "wiki/maps/CS Map.md",
+        "wiki/maps/Reading Map.md",
+        "wiki/maps/Software Design Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "mobu/读书/架构师启示录-知识模型、落地方法与思维模式-幕布图片-750801-536791.png": {
+      "ingested_at": "2026-05-13T00:06:14+08:00",
+      "size_bytes": 74425,
+      "modified_at": "2026-04-20T13:14:06+08:00",
+      "content_hash": "sha256:e6251544b187212c694389e61d26feb8655b01434681dfd01e8c1f942e7a6f9a",
+      "source_type": "image",
+      "project": null,
+      "pages_created": [],
+      "pages_updated": [
+        "wiki/sources/架构师启示录 Source Guide.md"
+      ]
+    },
+    "mobu/读书/架构师启示录-知识模型、落地方法与思维模式-幕布图片-517680-867801.png": {
+      "ingested_at": "2026-05-13T00:06:14+08:00",
+      "size_bytes": 120738,
+      "modified_at": "2026-04-20T13:14:06+08:00",
+      "content_hash": "sha256:efc125a992cb3c9051b89aa531ed640b56bbd195d92ab506ba23d5482a049446",
+      "source_type": "image",
+      "project": null,
+      "pages_created": [],
+      "pages_updated": [
+        "wiki/sources/架构师启示录 Source Guide.md"
+      ]
+    },
+    "mobu/读书/架构师启示录-知识模型、落地方法与思维模式-幕布图片-249642-378639.png": {
+      "ingested_at": "2026-05-13T00:06:14+08:00",
+      "size_bytes": 209586,
+      "modified_at": "2026-04-20T13:14:06+08:00",
+      "content_hash": "sha256:2db4ab01f84837d4fcfc1db4b3d112b62bb380145e7bf49f804b68d53b36ca99",
+      "source_type": "image",
+      "project": null,
+      "pages_created": [],
+      "pages_updated": [
+        "wiki/sources/架构师启示录 Source Guide.md"
+      ]
+    },
+    "mobu/读书/架构师启示录-知识模型、落地方法与思维模式_第8章及以后章节-幕布图片-431917-555334.png": {
+      "ingested_at": "2026-05-13T00:06:14+08:00",
+      "size_bytes": 37985,
+      "modified_at": "2026-04-20T13:14:06+08:00",
+      "content_hash": "sha256:0282b010b72189c5348116d0d92b2758fceac6845c9d7a8dc1071d765f5dc3fe",
+      "source_type": "image",
+      "project": null,
+      "pages_created": [],
+      "pages_updated": [
+        "wiki/sources/架构师启示录 Source Guide.md"
+      ]
+    },
+    "mobu/读书/架构师启示录-知识模型、落地方法与思维模式_第8章及以后章节-幕布图片-870892-880202.png": {
+      "ingested_at": "2026-05-13T00:06:14+08:00",
+      "size_bytes": 65895,
+      "modified_at": "2026-04-20T13:14:06+08:00",
+      "content_hash": "sha256:afd663eea964f5f1df9950205052776a71f03a149a4cf4db014e96e1014e049c",
+      "source_type": "image",
+      "project": null,
+      "pages_created": [],
+      "pages_updated": [
+        "wiki/sources/架构师启示录 Source Guide.md"
+      ]
+    },
+    "mobu/读书/架构师启示录-知识模型、落地方法与思维模式_第8章及以后章节-幕布图片-385820-68140.png": {
+      "ingested_at": "2026-05-13T00:06:14+08:00",
+      "size_bytes": 201552,
+      "modified_at": "2026-04-20T13:14:06+08:00",
+      "content_hash": "sha256:e63aa2cc7a3b156e3e890c9831692e48e570f6a2f0bd30678edeb811326f02a7",
+      "source_type": "image",
+      "project": null,
+      "pages_created": [],
+      "pages_updated": [
+        "wiki/sources/架构师启示录 Source Guide.md"
       ]
     }
   }

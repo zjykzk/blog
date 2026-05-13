@@ -8,6 +8,8 @@ tags: []
 sources:
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
   - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
+  - mobu/读书/架构师启示录-知识模型、落地方法与思维模式.md
+  - mobu/读书/架构师启示录-知识模型、落地方法与思维模式_第8章及以后章节.md
 created: 2026-04-26
 base_confidence: 0.61
 lifecycle: draft
@@ -16,7 +18,7 @@ provenance:
   extracted: 0.94
   inferred: 0.06
   ambiguous: 0.00
-updated: 2026-05-09T20:15:00+08:00
+updated: 2026-05-13T00:06:14+08:00
 aliases:
   - 反馈回路
   - Feedback Loop
@@ -98,6 +100,12 @@ KPI -> 行为选择 -> 文化固化 -> 强化 KPI 的现实合理性 -> 更强 K
 [[wiki/concepts/Feedback Flywheel]] is a concrete software-engineering feedback loop: AI collaboration produces outputs, reviews, corrections, accepted work, and rework; those signals update priming documents, context anchors, standards, workflows, checks, and guardrails.
 
 The delay matters. If the team waits too long to update the artifacts, the same AI mistakes repeat. If the team updates after every isolated event, the system can accumulate noisy rules. ^[inferred]
+
+### 架构演进与系统维护
+
+《架构师启示录》把敏捷理解为一种负反馈：尽快知道当前进度和目标之间的差距，然后据此调整行动。DevOps 则减少研发、QA、运维之间的信息差，让反馈更快进入交付链路。
+
+在系统维护中，笔记还把系统问题分为事件、行为、结构三个层次：事件是负载变高，行为是负载在某类情况下持续变高，结构才是产生这些事件和行为的根因。这使反馈回路不只是一个抽象系统概念，也成为架构演进和故障分析的方法。
 
 ## 一个判断句
 

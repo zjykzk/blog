@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-12T21:05:21+08:00
+updated: 2026-05-13T00:06:14+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -65,6 +65,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/Problem Framing|Problem Framing]] — 这个定义虽然简单，但它迫使我们先把“预期”说清楚，而不是直接跳进解决方案。 (#thinking #problem-solving #methods)
 - [[wiki/topics/Prompt Frequency|Prompt Frequency]] — 一个值得单独抽出来的判断是：在语义不变时，越接近训练语料中常见表达的 prompt，模型通常越容易发挥出能力。 (#llm #prompting)
 - [[wiki/topics/Requirement to Architecture Mapping|Requirement to Architecture Mapping]] — 这个主题页沉淀的是：如何把用户故事、PRD、free form requirement 先归一化，再稳定映射到分层架构。 (#architecture #requirements #mapping)
+- [[wiki/topics/架构落地方法|架构落地方法]] — 架构落地方法描述架构如何从需求分析、业务架构、应用/数据/技术架构走向实现和维护。 (#architecture #software-engineering #requirements)
 - [[wiki/topics/Resource Formula|Resource Formula]] — 当前笔记里的核心想法很短，但值得保留成一个主题种子： (#planning #resources #work)
 - [[wiki/topics/Software Development Thought Lineage|Software Development Thought Lineage]] — 这页关心的核心问题，不是某一条具体方法怎么落地，也不是现代软件工程的总定义，而是：不同软件开发思想是如何在历史上一个接一个出现、彼此修正，并逐步形成今天这组主流方法栈的。 (#software-engineering #methodology #history #development)
 - [[wiki/topics/Software Methodology|Software Methodology]] — 这里的'软件方法'，特指潘加宇《软件方法》所代表的那条建模与分析主线：不是先列功能，而是先锁定组织改进，再逐步收缩到系统边界，最后把责任落实到对象与代码。
@@ -120,6 +121,10 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Component-Based Architecture|Component-Based Architecture]] — Component-based architecture organizes an interface or system as composable units with local responsibilities. (#frontend #architecture #modularity)
 - [[wiki/concepts/Concept|Concept]] — 概念不是词，而是有限生命面对连续世界时制造的边界。
 - [[wiki/concepts/Conceptual Integrity|Conceptual Integrity]] — 软件设计中的概念完整性，不是风格统一，而是一个系统里的所有部分都像从同一个头脑里长出来：用户、程序员、机器面对它时，都能感觉到这里面只有一套世界观。
+- [[wiki/concepts/架构认知框架|架构认知框架]] — 架构认知框架把架构师工作放进思维模式、落地方法、知识模型三维空间中理解。 (#architecture #software-engineering #thinking)
+- [[wiki/concepts/架构知识模型|架构知识模型]] — 架构知识模型把架构活动理解为信息交换、元素规则编排与持续演进的模型网络。 (#architecture #software-engineering #systems-thinking)
+- [[wiki/concepts/架构一致性|架构一致性]] — 架构一致性要求代码实现、技术架构、数据架构、应用架构、业务架构、战略和客户价值能互相追溯。 (#architecture #software-engineering #traceability)
+- [[wiki/concepts/重构层次|重构层次]] — 重构层次把重构分为认知、模型、架构和代码四层，强调技术重构背后常常是理解重构。 (#architecture #software-engineering #refactoring)
 - [[wiki/concepts/Creation|Creation]] — Creation is the act of breaking an old structure and recombining materials into a new order that can be used, understood, or continued. (#thinking #concepts #practice)
 - [[wiki/concepts/Continual Learning for AI Agents|Continual Learning for AI Agents]] — Agent continual learning can happen through model weights, harness code, or configurable context/memory, each with different cost, speed, scope, and inspectability. (#agents #memory #harness)
 - [[wiki/concepts/Continuous Batching|Continuous Batching]] — Continuous batching lets an inference engine mix newly arrived and already-running requests at each generation step. (#llm #inference #scheduling)
@@ -233,6 +238,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/How to Use LLMs Source Guide|How to Use LLMs Source Guide]] — Source guide for Karpathy's practical LLM-use walkthrough: model choice, search, deep research, documents, code, agents, voice, vision, and memory. (#llm #workflow #tools)
 - [[wiki/sources/Iceberg Model Source Guide|Iceberg Model Source Guide]] — Source guide for the Donella Meadows Iceberg Model PDF, preserving provenance limits and routing its visual systems-thinking frame into concept pages. (#systems-thinking #mental-models)
 - [[wiki/sources/架构文档与图示之道 Source Guide|架构文档与图示之道 Source Guide]] — 这页保存一份中文架构文档与图示教程，强调按受众分层、用 C4/UML/ADR 和 Docs as Code 传递架构设计思想。 (#article #software-engineering #architecture #management)
+- [[wiki/sources/架构师启示录 Source Guide]] — 这页保存《架构师启示录》相关幕布读书笔记，重点是架构认知框架、知识模型、落地方法、实现与维护。 (#book-notes #architecture #software-engineering)
 - [[wiki/sources/Journals|Journals Source Guide]] — journals/ 是当前 vault 的时间流输入层。它们不应直接承担稳定知识页职责，但应该持续为 wiki/ 提供可回溯的来源。 (#journals #raw)
 - [[wiki/sources/Life of a Token Source Guide|Life of a Token Source Guide]] — Source guide for the Life of a Token article, focused on the next-token path through tokenization, embeddings, attention, FFN, residual stream, sampling, cache, and GPU limits. (#llm #inference #transformer)
 - [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide|LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]] — 这篇 arXiv 论文更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#paper #arxiv #reasoning #llm)

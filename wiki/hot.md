@@ -8,31 +8,14 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-12T21:05:21+08:00
+updated: 2026-05-13T00:06:14+08:00
 ---
 
 ## Recent Activity
 
-- 已捕获 [[wiki/sources/Compounding Engineering Source Guide]]：Every 文章把 AI coding 从“一次性提速”推进为会复利的工程系统：review、failure、test、eval、agent role 和上下文规则都要更新 durable harness defaults。
-- 已捕获 [[wiki/sources/React Component Lifecycle Source Guide]]：这份中文讲解把 React 生命周期区分为 mount、render/update 和 unmount，强调生命周期是一段组件身份存在期，而不是一次函数执行。
-- 已捕获 [[wiki/sources/架构文档与图示之道 Source Guide]]：这份中文教程把架构表达拆成受众分层、四层文档金字塔、C4 图、UML 动态行为图、ADR 和 Docs as Code，强调架构师必须能按对象传递设计思想。
-- 已捕获 [[wiki/sources/The ICAP Framework Paper Source Guide]]：Chi 与 Wylie 2014 原论文把 ICAP 定义为带行为指标的认知参与理论，保留四模式、Store/Integrate/Infer/Co-Infer、实证证据、caveats 和理论比较。
-- 已捕获 [[wiki/sources/React Hooks useState useEffect Source Guide]]：这份中文讲解把 useState 和 useEffect 放在“函数组件每次渲染都会重新执行”的共同框架下，分别对应进入渲染的状态数据和渲染后的副作用动作。
-- 已捕获 [[wiki/sources/React Hooks useRef useContext useMemo Source Guide]]：这份中文讲解把 useRef、useContext、useMemo 放在“函数组件每次渲染都会重新执行”的共同框架下，分别对应可变容器、跨层共享和计算缓存。
-- 已捕获 [[wiki/sources/Agent Observability Needs Feedback Source Guide]]：Harrison Chase 将 agent observability 从调试工具推进为学习系统，核心是把 traces 与 explicit / behavioral / generated / deterministic feedback 存在一起。
-- 已扩展 [[wiki/sources/Continual Learning for AI Agents Source Guide]]：保留 Harrison Chase 文章的 model / harness / context 三层持续学习结构、对照表、图示、热路径与后台 memory 更新模式，以及 traces 作为共同底座的判断。
-- 已捕获 [[wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide]]：直接保存 arXiv 论文层内容，覆盖 40,285 个公开 skills 的增长爆发、长度分布、冗余、供需错配与 L0-L3 安全风险。
-- 已捕获 [[wiki/sources/SkillOS Paper Source Guide]]：直接保存 arXiv 论文层内容，补齐 SkillOS 的形式化 streaming curation 设定、分组任务 GRPO 训练、实验表格、分析、局限与未来方向。
-- 已捕获 [[wiki/sources/SkillOS Source Guide]]：SkillOS 把 agent 轨迹压缩成可检索、可更新、可删除的 Markdown skills，并用分组任务、组合奖励和 GRPO 训练 Curator 管理 SkillRepo。
-- 已生成 [[wiki/concepts/Mechanism Model]] 与 [[wiki/maps/Mechanism Models Map]]：把“机制模型”沉淀为结果、变量、约束、激励、反馈、时间的诊断框架，并整理当前 wiki 中可解释稳定生成结果的模型入口。
-- 已捕获 [[wiki/syntheses/ICAP 与知识类型的适用边界]]：ICAP 被定位为学习深度刻度，而不是所有知识的同一种学习处方；其使用需要结合知识类型、学习阶段、先验图式和认知负荷。
-- 已按“source 的内容不用总结”的要求扩展 [[wiki/sources/思维圆桌 Source Guide]] 和 [[wiki/sources/深度思考与高阶思维对话 Source Guide]]：source 层保留更完整的讨论内容，综合页才负责压缩。
-- 已补充捕获 [[wiki/sources/深度思考与高阶思维对话 Source Guide]]：保存当前对话中关于高阶审题、深度下钻、本质句、前置知识和七天训练法的 source 层材料。
-- 已捕获 [[wiki/sources/思维圆桌 Source Guide]]：关于“思维”的圆桌把思维拆成求解、表征、建构、语言和责任五条张力线，强调高阶思维必须能审查给定问题。
-- 已捕获 [[wiki/syntheses/深度思考 高阶思维与本质理解]]：高阶思维负责审题，深度思考负责下钻机制，深度理解是二者经现实校验后形成的可复用结构。
-- 已摄入 [[wiki/sources/Skills-Coach Paper Source Guide]]，并新增 [[wiki/concepts/Skill Self-Evolution]]：agent skill 可以被边界任务探测、指令/代码优化、对照执行和可追溯评估，而不是只靠人工 prompt polishing。
-- 已捕获 [[wiki/sources/Memory Is State Not a Service Source Guide]]：Company Brain 的三层记忆只有作为同一份共享状态的不同视图才成立，工具各自记忆会制造局部真相。
-- [[wiki/concepts/Additive World]] 已从 [[wiki/concepts/Multiplicative World]] 的别名中拆出为独立概念页：加法世界负责保底、补短板和稳定交付，乘法世界负责长板、复利和非线性上限。
+- 已摄入 [[wiki/sources/架构师启示录 Source Guide]]：这组幕布读书笔记把架构师工作组织成“思维模式、落地方法、知识模型”三维框架，并补充需求矩阵、业务架构、应用/数据/技术架构、实现一致性和维护反馈回路。
+- 已新增 [[wiki/concepts/架构认知框架]]、[[wiki/concepts/架构知识模型]]、[[wiki/topics/架构落地方法]]、[[wiki/concepts/架构一致性]]、[[wiki/concepts/重构层次]]：架构被重新表达为从客户价值到代码实现的双向追溯系统，而不是单次设计活动。
+- 已更新 [[wiki/topics/Requirement to Architecture Mapping]]、[[wiki/concepts/Business Modeling in Software]]、[[wiki/concepts/Feedback Loops]] 与软件架构相关地图：补入需求二维矩阵、业务架构桥梁、敏捷负反馈、事件-行为-结构维护视角。
 
 ## Active Threads
 
@@ -45,7 +28,7 @@ updated: 2026-05-12T21:05:21+08:00
 - Learning cognition now has an ICAP-and-cognitive-load thread: instruction should manage working-memory bandwidth, then push learners from passive reception toward construction and interactive correction when prior knowledge allows.
 - Company brain is now represented as an enterprise memory-and-action substrate: factual memory, interaction memory, action memory, context graph reasoning, and governed action must integrate before agents can safely operate on company reality. The latest state-substrate layer clarifies that these memories must be three views of one inspectable, correctable, permissioned state rather than separate tool-local services.
 - Systems thinking now has an explicit iceberg-model thread: recurring problems should be traced from visible events to patterns, structures, mental models, and leverage points before choosing interventions.
-- Software methodology is converging around the handoff from business modeling to analysis, DDD, and executable design.
+- Software methodology is converging around the handoff from business modeling to analysis, architecture knowledge models, application/data/technology architecture, implementation consistency, and executable design.
 - Frontend knowledge is forming around React as a coordination model for declarative rendering, component boundaries, and state.
 - AI / Agent skills 现在加入 SkillOS 线索：skill repository 可以被训练过的 Curator 当作持久记忆来管理；论文层进一步说明关键训练装置是相关任务分组、复合奖励、GRPO rollout 之间的 repository path 比较，以及对 insert/update/delete 操作的长期信用分配。
 - AI / Agent systems are being organized around harness, context management, tool design, memory, permissions, reusable operational knowledge, and now both harness-level and skill-level self-evolution from logged traces or generated boundary tasks.
@@ -81,6 +64,7 @@ updated: 2026-05-12T21:05:21+08:00
 
 ## Key Takeaways
 
+- 架构师启示录补充了软件架构方法论主线：架构不是从技术开始，而是从客户价值和企业战略传递到业务架构、应用/数据/技术架构和代码实现，再通过一致性检查从实现层反向追溯。
 - 架构文档的核心不是“把技术细节写全”，而是把同一设计翻译给不同受众：高管要价值、ROI 和风险，产品要影响和时间，开发要接口与结构，运维要部署和稳定性，新人要上手路径。
 - ICAP 原论文的稳妥用法是诊断链条：外显行为 → 认知参与模式 → 知识变化过程 → 知识结构变化 → 可回忆/可应用/可迁移/可共同创造；`I>C>A>P` 是模式间相对假设，不是无条件学习处方。
 - React 中 useState 与 useEffect 的底层区分是：useState 提供参与渲染、会驱动 UI 更新的状态；useEffect 在渲染提交后同步外部世界，本身不触发渲染，但其中调用 setState 会触发下一次渲染。
