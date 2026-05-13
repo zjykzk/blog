@@ -1,18 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured arXiv 2601.12560v1 as an agentic AI architecture survey: control loops, taxonomy, workflow graphs, and CLASSic evaluation.
+summary: Recent wiki activity captured a Chinese source guide comparing LLM Wiki, Obsidian-Wiki, GBrain, Skillify, and agent knowledge management.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-13T10:38:00+08:00
+updated: 2026-05-13T16:50:00+08:00
 ---
 
 ## Recent Activity
 
+- 已捕获 [[wiki/sources/从知识堆积到结构化记忆 Source Guide]]：这篇中文文章把 LLM Wiki、Obsidian-Wiki、GBrain 与 Skillify 放进同一条 Agent 知识管理主线，强调从知识堆积走向可维护、可渐进披露、可图谱化的结构化记忆。
 - 已捕获 [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide]]：arXiv 2605.03354 把 agent memory 的 write-manage-read loop 下钻到 circuit 层，指出 routing/control 可能早于 content extraction/grounding 成熟，并用 stage-level circuit signatures 诊断 silent failures。
 - 已捕获 [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]]：arXiv 2601.12560v1 把 agentic AI 组织成 POMDP-style control loop、六维 architecture taxonomy、workflow graph orchestration，以及 CLASSic evaluation。
 - 已新增 [[wiki/concepts/Agentic Control Loop]]、[[wiki/concepts/Agentic AI Architecture Taxonomy]]、[[wiki/concepts/Agent Evaluation CLASSic Framework]]、[[wiki/concepts/Workflow Graph Orchestration]]：把论文中的可复用架构词汇提升为 wiki 概念页。
@@ -71,6 +72,7 @@ updated: 2026-05-13T10:38:00+08:00
 
 ## Key Takeaways
 
+- Agent 知识管理的关键路径是把原始资料、历史对话、事实知识和经验规则从“堆积”转成结构化记忆：轻量场景可用 LLM Wiki / Obsidian-Wiki 的 Markdown 编译层，大规模场景需要 GBrain 式混合检索、整页披露和 typed graph 关系。
 - Agent memory 的关键风险不只是“记不住”，而是 routing 可以先于 content 成熟：小模型可能会输出合法的 add/update/delete/none 决策，却还不能可靠抽取和 grounding 真实内容，因此 memory 评估需要 stage-level diagnosis。
 - Agent should be read as a controllable system loop: tool use is only one surface; observation, memory, planning, permission, feedback, recovery, and stop conditions are equally architectural.
 - Harness quality can be evaluated by how it makes the agent loop inspectable, constrained, recoverable, and auditable across real environments.

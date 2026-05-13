@@ -171,3 +171,4 @@ tags:
 - [2026-05-13T10:37:07+08:00] INGEST source="https://arxiv.org/abs/2601.12560v1" pages_updated=7 pages_created=5 mode=append
 - [2026-05-13T10:38:00+08:00] CAPTURE type=source page="wiki/sources/What Happens Inside Agent Memory Paper Source Guide.md" title="What Happens Inside Agent Memory Paper Source Guide"
 - [2026-05-13T11:10:03+08:00] QUERY query="如何构建知识体系" result_pages=7 mode=normal escalated=false
+- [2026-05-13T16:50:00+08:00] CAPTURE type=source page="wiki/sources/从知识堆积到结构化记忆 Source Guide.md" title="从知识堆积到结构化记忆 Source Guide"
