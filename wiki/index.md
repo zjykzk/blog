@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-13T10:38:00+08:00
+updated: 2026-05-13T23:20:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -186,6 +186,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Workflow Graph Orchestration|Workflow Graph Orchestration]] — Workflow Graph Orchestration models agent work as explicit state-machine or graph traversal so control, persistence, guard nodes, and recovery stay inspectable. (#agents #orchestration #workflow)
 
 ## Syntheses
+- [[wiki/syntheses/Quality Engineering Three Generators|Quality Engineering Three Generators]] — 质量工程可以压缩为三根生成器：承诺清楚、偏差显形、修正闭环；行业实践分别落在规格契约、测试监控和复盘改进上。 (#software-engineering #testing #requirements #feedback)
 - [[wiki/syntheses/harness-root-ranks|Harness Root Ranks]] — Harness can be reduced to five root ranks: boundary, density, action, loop, and evolution. (#synthesis #agents #harness #rank)
 - [[wiki/syntheses/Acting Under Complexity|Acting Under Complexity]] — 这页尝试把 Cynefin、决策模式、思考工作流、mental models、critical thinking 串成一个更高层的框架：当问题复杂、不确定、争议大时，关键不是只会分析，而是知道应该如何判断并继续行动。 (#synthesis #complexity #decision-making #thinking)
 - [[wiki/syntheses/Agent Skill Patterns as Human Workflow Control Structures|Agent Skill Patterns as Human Workflow Control Structures]] — Agent skill patterns translate ordinary human work controls—manuals, templates, reviews, interviews, and gates—into executable agent workflows. (#synthesis #agents #workflow #skills)

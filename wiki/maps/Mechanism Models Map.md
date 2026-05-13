@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-05-12T00:14:41+08:00
+updated: 2026-05-13T23:20:00+08:00
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -90,6 +90,7 @@ aliases:
 - [[wiki/syntheses/Reality-Refutable Engineering Systems]]：成熟工程系统允许现实通过反馈、申诉、问责和重设计触发器反驳自己的模型。
 - [[wiki/topics/Modern Software Engineering]]：现代软件工程是一种经验主义、证据驱动的问题求解活动，而不是单纯流程仪式。
 - [[wiki/topics/Testing Strategy]]：测试通过分层、质量门和 AI 时代验证机制增加对变化正确性的信心。
+- [[wiki/syntheses/Quality Engineering Three Generators]]：质量工程通过“承诺清楚、偏差显形、修正闭环”控制系统承诺和真实结果之间的偏离。
 - [[wiki/concepts/Conceptual Integrity]]：系统所有部分像从同一个世界观中长出来，用户、程序员和机器面对的是同一套概念结构。
 - [[wiki/concepts/Software Analysis Three Generators]]：软件分析可压到组织、交换、边界三根生成器。
 - [[wiki/concepts/Software Design Three Generators]]：软件设计可压到责任、协作、抗变三根生成器。

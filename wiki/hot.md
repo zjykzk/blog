@@ -8,10 +8,11 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-13T16:50:00+08:00
+updated: 2026-05-13T23:20:00+08:00
 ---
 
 ## Recent Activity
+- Captured [[wiki/syntheses/Quality Engineering Three Generators|Quality Engineering Three Generators]] as a software-quality synthesis: quality engineering reduces to clear commitments, visible deviations, and correction loops, mapped to BDD/contracts/SLOs, CI/testing/monitoring, and postmortems/error budgets.
 
 - 已捕获 [[wiki/sources/从知识堆积到结构化记忆 Source Guide]]：这篇中文文章把 LLM Wiki、Obsidian-Wiki、GBrain 与 Skillify 放进同一条 Agent 知识管理主线，强调从知识堆积走向可维护、可渐进披露、可图谱化的结构化记忆。
 - 已捕获 [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide]]：arXiv 2605.03354 把 agent memory 的 write-manage-read loop 下钻到 circuit 层，指出 routing/control 可能早于 content extraction/grounding 成熟，并用 stage-level circuit signatures 诊断 silent failures。
@@ -71,6 +72,7 @@ updated: 2026-05-13T16:50:00+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- Quality engineering can be diagnosed through three questions: what did the system promise, how quickly and truthfully does deviation surface, and whether each deviation changes the system so it is harder to repeat.
 
 - Agent 知识管理的关键路径是把原始资料、历史对话、事实知识和经验规则从“堆积”转成结构化记忆：轻量场景可用 LLM Wiki / Obsidian-Wiki 的 Markdown 编译层，大规模场景需要 GBrain 式混合检索、整页披露和 typed graph 关系。
 - Agent memory 的关键风险不只是“记不住”，而是 routing 可以先于 content 成熟：小模型可能会输出合法的 add/update/delete/none 决策，却还不能可靠抽取和 grounding 真实内容，因此 memory 评估需要 stage-level diagnosis。
