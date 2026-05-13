@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured a Chinese source guide comparing LLM Wiki, Obsidian-Wiki, GBrain, Skillify, and agent knowledge management.
+summary: Recent wiki activity captured how use cases express behavior contracts and connect to UI, API, domain, persistence, tests, and task management.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-13T23:20:00+08:00
+updated: 2026-05-14T00:29:01+08:00
 ---
 
 ## Recent Activity
+- 已捕获 [[wiki/sources/Use Case 开发管理 Source Guide|Use Case 开发管理 Source Guide]]：把 Use Case 定义为系统行为契约，并说明它如何作为枢纽关联 UI、API、应用服务、领域模型、数据库、测试和开发任务。
+- 已新增 [[wiki/syntheses/Requirements Expression Beyond Use Cases|Requirements Expression Beyond Use Cases]]：明确用例只适合捕获系统对外行为，质量属性、约束、业务规则、数据、界面、集成和运维需求应分别用质量场景、约束清单、规则表、概念模型、原型、接口契约和运行治理要求表达。
 - Captured [[wiki/syntheses/Quality Engineering Three Generators|Quality Engineering Three Generators]] as a software-quality synthesis: quality engineering reduces to clear commitments, visible deviations, and correction loops, mapped to BDD/contracts/SLOs, CI/testing/monitoring, and postmortems/error budgets.
 
 - 已新增 [[wiki/syntheses/Knowledge System Construction]]：把“如何构建知识体系”整理成问题牵引、知识成网、隐性知识外化、知识资产化、工作流嵌入、共同体语境和知识审计的闭环。
@@ -74,6 +76,8 @@ updated: 2026-05-13T23:20:00+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- Use Case 管用户目标与系统行为；UI、API、数据库、测试和任务拆分管这个行为如何可见、可调用、可执行、可持久化和可验证。
+- 用例表达的是执行者与系统之间一次可完成的价值交换；不能构成交换的需求，应按质量属性、约束、业务规则、数据、界面、集成和运维治理分别选择可验证表达形式。
 - Quality engineering can be diagnosed through three questions: what did the system promise, how quickly and truthfully does deviation surface, and whether each deviation changes the system so it is harder to repeat.
 
 - Agent 知识管理的关键路径是把原始资料、历史对话、事实知识和经验规则从“堆积”转成结构化记忆：轻量场景可用 LLM Wiki / Obsidian-Wiki 的 Markdown 编译层，大规模场景需要 GBrain 式混合检索、整页披露和 typed graph 关系。

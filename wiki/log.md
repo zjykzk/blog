@@ -175,3 +175,5 @@ tags:
 - [2026-05-13T16:50:00+08:00] CAPTURE type=source page="wiki/sources/从知识堆积到结构化记忆 Source Guide.md" title="从知识堆积到结构化记忆 Source Guide"
 - [2026-05-13T11:18:00+08:00] CAPTURE type=synthesis page="wiki/syntheses/Knowledge System Construction.md" title="Knowledge System Construction"
 - [2026-05-13T23:20:00+08:00] CAPTURE type=synthesis page="wiki/syntheses/Quality Engineering Three Generators.md" title="Quality Engineering Three Generators"
+- [2026-05-14T00:28:21+08:00] CAPTURE type=synthesis page="wiki/syntheses/Requirements Expression Beyond Use Cases.md" title="Requirements Expression Beyond Use Cases"
+- [2026-05-14T00:29:01+08:00] CAPTURE type=source page="wiki/sources/Use Case 开发管理 Source Guide.md" title="Use Case 开发管理 Source Guide"

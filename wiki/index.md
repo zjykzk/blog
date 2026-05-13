@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-13T23:20:00+08:00
+updated: 2026-05-14T00:29:01+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -187,6 +187,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 
 ## Syntheses
 - [[wiki/syntheses/Quality Engineering Three Generators|Quality Engineering Three Generators]] — 质量工程可以压缩为三根生成器：承诺清楚、偏差显形、修正闭环；行业实践分别落在规格契约、测试监控和复盘改进上。 (#software-engineering #testing #requirements #feedback)
+- [[wiki/syntheses/Requirements Expression Beyond Use Cases|Requirements Expression Beyond Use Cases]] — 用例适合捕获系统对外行为；其他需求应按质量属性、约束、业务规则、数据、界面、集成和运维关注点分别表达。 (#requirements #software-engineering #architecture)
 - [[wiki/syntheses/harness-root-ranks|Harness Root Ranks]] — Harness can be reduced to five root ranks: boundary, density, action, loop, and evolution. (#synthesis #agents #harness #rank)
 - [[wiki/syntheses/Acting Under Complexity|Acting Under Complexity]] — 这页尝试把 Cynefin、决策模式、思考工作流、mental models、critical thinking 串成一个更高层的框架：当问题复杂、不确定、争议大时，关键不是只会分析，而是知道应该如何判断并继续行动。 (#synthesis #complexity #decision-making #thinking)
 - [[wiki/syntheses/Agent Skill Patterns as Human Workflow Control Structures|Agent Skill Patterns as Human Workflow Control Structures]] — Agent skill patterns translate ordinary human work controls—manuals, templates, reviews, interviews, and gates—into executable agent workflows. (#synthesis #agents #workflow #skills)
@@ -287,6 +288,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/SkillOS Paper Source Guide]] — Direct paper guide for SkillOS, preserving its formal streaming curation setting, grouped-task GRPO recipe, benchmark results, analyses, limitations, and future directions. (#paper #arxiv #agents #skills #training)
 - [[wiki/sources/SkillOS Source Guide]] — Source guide for AVB's SkillOS article: experiences become reusable skills through a trainable curator, grouped task rollouts, and delayed RL rewards. (#article #agents #skills #memory #training)
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide|Team AI Coding Harness Seminar Source Guide]] — Source guide for TechLead 少个分号's WeChat seminar recap on team-level AI coding harness, human discipline, TDD loops, and translation-layer compression. (#agents #harness #ai-coding)
+- [[wiki/sources/Use Case 开发管理 Source Guide|Use Case 开发管理 Source Guide]] — 这页保存一份关于 Use Case 如何定义行为契约，并关联 UI、API、应用服务、领域模型、数据库、测试和开发任务的中文讲解。 (#requirements #software-engineering #architecture #testing)
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #cognition #causal-reasoning)
 - [[wiki/sources/Understanding as Concept Cloud Source Guide|Understanding as Concept Cloud Source Guide]] — Source guide for inline discussions that model understanding as a cloud and trace the frame to Hofstadter's analogy-making work. (#cognition #learning #concepts)
 - [[wiki/sources/vLLM Inference Systems Source Guide|vLLM Inference Systems Source Guide]] — Source guide for Aleksa Gordic's vLLM article, focused on engine loops, paged attention, batching, P/D split, scaling, serving, and benchmarking. (#llm #inference)
