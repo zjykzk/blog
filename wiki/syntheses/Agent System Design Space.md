@@ -2,7 +2,7 @@
 title: Agent System Design Space
 type: synthesis
 status: seed
-summary: Agent System Design Space compares agent architectures by values, context, tools, permissions, memory control, delegation, recovery, cache economics, and harness evolution.
+summary: Agent System Design Space compares agent architectures by values, control loops, context, tools, permissions, memory, orchestration, evaluation, and harness evolution.
 category: syntheses
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
@@ -15,16 +15,17 @@ sources:
   - https://arxiv.org/abs/2603.28052
   - https://arxiv.org/abs/2604.27488
   - https://arxiv.org/abs/2603.07670
+  - https://arxiv.org/abs/2601.12560v1
 created: 2026-05-04
-base_confidence: 0.80
+base_confidence: 0.82
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.88
-  inferred: 0.11
+  extracted: 0.87
+  inferred: 0.12
   ambiguous: 0.01
-source_count: 10
-updated: 2026-05-13T09:59:22+08:00
+source_count: 11
+updated: 2026-05-13T10:37:07+08:00
 aliases:
   - Agent architecture design space
   - AI agent system design space
@@ -71,6 +72,13 @@ tags:
 ## 3. The main design surfaces
 
 如果把 agent 当成一个系统而不是一个提示词技巧，那么至少有几块设计面必须被单独看待。
+
+
+### Control-loop architecture
+
+[[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]] adds a formal anchor for this design space: agent systems can be viewed as POMDP-like control loops over state, observation, memory, tool/action space, and policy. This makes the central architecture question less "which agent framework is best" and more "which parts of the loop are explicit, inspectable, constrained, and recoverable." ^[inferred]
+
+The paper's [[wiki/concepts/Agentic AI Architecture Taxonomy]] also compresses many existing wiki threads into six dimensions: core components, cognitive architecture, learning, multi-agent systems, environments, and evaluation/safety. This taxonomy is useful as a checklist, but the design-space page keeps the stronger claim that these dimensions need a [[wiki/topics/AI Harness]] to become governed runtime behavior rather than a feature catalog. ^[inferred]
 
 ### Permission and approval boundary
 
@@ -230,6 +238,11 @@ That means agent architecture should be compared not only by mechanisms it conta
 - 它是在 raw model API 上自建 loop，还是在 Harness-as-a-Service runtime 上配置 domain-specific behavior
 
 这样看，agent system 的差异不再只是 feature list 的差异，而是系统秩序设计的差异。
+
+
+[[wiki/concepts/Agent Evaluation CLASSic Framework]] adds a deployment-oriented evaluation lens: Cost, Latency, Accuracy, Security, and Stability. This matters because an agent architecture can improve reasoning depth while making latency, cost, prompt-injection risk, or retry-loop stability worse.
+
+That turns evaluation into a tradeoff surface: a design should not be judged only by success rate, but by success under compute budget, response-time constraints, permission boundaries, recovery behavior, and failure severity. ^[inferred]
 
 ## Why this synthesis matters
 

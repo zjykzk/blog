@@ -77,7 +77,19 @@ Read the document(s) the user wants to ingest. In append mode, skip files the ma
 - Web clippings — markdown files from Obsidian Web Clipper
 - **Images** (`.png`, `.jpg`, `.jpeg`, `.webp`, `.gif`) — *requires a vision-capable model*. Use the Read tool, which renders the image into your context. Treat screenshots, whiteboard photos, diagrams, and slide captures as first-class sources. If your model doesn't support vision, skip image sources and tell the user which files were skipped so they can re-run with a vision-capable model.
 
-Note the source path — you'll need it for provenance tracking.
+#### Prefix-based source clusters
+
+When the user names a path that is not an actual directory but search/file lookup reports "similar paths" with the same prefix, treat it as a source cluster rather than failing. This happens with Mobu/幕布 exports such as `mobu/读书/Book Title` where the real files are `Book Title.md`, `Book Title_第8章及以后章节.md`, and related `Book Title-幕布图片-*.png` files.
+
+Use this workflow:
+1. Search the parent directory for files matching the requested basename plus `*`.
+2. Include both text/markdown source files and image attachments whose filenames share the prefix.
+3. Preserve each matched file as its own manifest source key with its own SHA-256 hash, size, mtime, and `source_type` (`document` or `image`).
+4. Create or update one source guide for the cluster, and list the individual source files in that guide's Source Identity section.
+5. For image attachments, run vision extraction/transcription when available; do not silently ignore them just because the markdown file embeds them.
+6. If a tool wrapper fails when called from inside a generic code runner, call the file/search/read tool directly instead of nesting it inside the runner.
+
+Note the source path(s) — you'll need them for provenance tracking.
 
 #### arXiv paper extraction
 

@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-13T09:59:22+08:00
+updated: 2026-05-13T10:37:07+08:00
 aliases:
   - Wiki Log
 tags:
@@ -168,3 +168,6 @@ tags:
 - [2026-05-13T00:06:14+08:00] INGEST source="mobu/读书/架构师启示录-知识模型、落地方法与思维模式*" pages_updated=9 pages_created=6 mode=append
 
 - [2026-05-13T09:59:22+08:00] INGEST source="https://arxiv.org/abs/2603.07670" pages_updated=8 pages_created=4 mode=append
+- [2026-05-13T10:37:07+08:00] INGEST source="https://arxiv.org/abs/2601.12560v1" pages_updated=7 pages_created=5 mode=append
+- [2026-05-13T10:38:00+08:00] CAPTURE type=source page="wiki/sources/What Happens Inside Agent Memory Paper Source Guide.md" title="What Happens Inside Agent Memory Paper Source Guide"
+- [2026-05-13T11:10:03+08:00] QUERY query="如何构建知识体系" result_pages=7 mode=normal escalated=false

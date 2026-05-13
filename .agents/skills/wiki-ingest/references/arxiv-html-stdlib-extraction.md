@@ -50,3 +50,4 @@ def extract(html):
 - Do not hash the cleaned text if the PDF is available; manifest hash should represent canonical source bytes.
 - Do not promote single-paper benchmark numbers into global concepts as stable facts; keep exact values in the source guide and promote only the durable conceptual contribution.
 - If HTML text extraction creates noisy line breaks, use it for evidence gathering, then write clean wiki prose rather than preserving extraction artifacts.
+- arXiv HTML may include page UI/reporting boilerplate such as `Content selection saved. Describe the issue below:` near the title. Treat this as extraction noise, not paper content; exclude it from source-guide claims and promoted wiki pages.

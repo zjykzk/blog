@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-13T09:59:22+08:00
+updated: 2026-05-13T10:38:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -87,11 +87,14 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Agent Memory Write-Manage-Read Loop|Agent Memory Write-Manage-Read Loop]] — Agent Memory Write-Manage-Read Loop models memory as read, update, and management operations coupled to perception, action, feedback, and goals. (#agents #memory)
 - [[wiki/concepts/Accountability|Accountability]] — Accountability means taking public, name-attached risk so society can route responsibility, equity, and leverage toward you. (#wealth #responsibility #judgment #career)
 - [[wiki/concepts/Additive World|Additive World]] — 加法世界是回报主要由投入次数相加而成的世界；它适合保底、补短板和稳定交付，但很难单独打开非线性上限。 (#wealth #systems-thinking #career)
-- [[wiki/concepts/Agent|Agent]] — Agent 的核心任务目前可以归纳为三件事： (#agents #concept)
+- [[wiki/concepts/Agent|Agent]] — Agent is a control-loop system that uses perception, memory, planning, tools, and feedback to act in an environment over time. (#agents #concept)
 - [[wiki/concepts/Agent Action Space|Agent Action Space]] — Agent Action Space is the set of actions an agent can perceive, choose, compose, and execute through tools, skills, subagents, and harness policy. (#agents #tools #harness)
 - [[wiki/concepts/Agent Skill|Agent Skill]] — Agent Skill is a reusable capability bundle that can combine instructions, references, scripts, assets, memory, and hooks for agent work. (#agents #skills #workflow)
 - [[wiki/concepts/Agent Skill Design Patterns|Agent Skill Design Patterns]] — Agent Skill Design Patterns classify SKILL.md content by the control problem it solves: knowledge, structure, review, questioning, or workflow gates. (#agents #skills #workflow)
 - [[wiki/concepts/Agentic Engineering|Agentic Engineering]] — Agentic engineering is production AI coding where humans shape harnesses, checks, skills, and attention allocation instead of merely prompting or approving diffs. (#agents #ai-coding #software-engineering)
+- [[wiki/concepts/Agent Evaluation CLASSic Framework|Agent Evaluation CLASSic Framework]] — Agent Evaluation CLASSic Framework evaluates agent systems by cost, latency, accuracy, security, and stability instead of static answer quality alone. (#agents #evaluation #safety)
+- [[wiki/concepts/Agentic AI Architecture Taxonomy|Agentic AI Architecture Taxonomy]] — Agentic AI Architecture Taxonomy decomposes agent systems into core components, cognitive architecture, learning, multi-agent systems, environments, and evaluation. (#agents #architecture #taxonomy)
+- [[wiki/concepts/Agentic Control Loop|Agentic Control Loop]] — Agentic Control Loop models an LLM agent as perception, memory update, planning, action, execution feedback, and repeated state transition. (#agents #architecture #control-loop)
 - [[wiki/concepts/Agent Tool|Agent Tool]] — Agent tools are schema-defined action surfaces that let an agent inspect, change, retrieve, or validate external state under harness control. (#agents #tools)
 - [[wiki/concepts/AI Collaboration Scaffolding|AI Collaboration Scaffolding]] — AI collaboration scaffolding gives coding assistants onboarding context, design discussion, standards, anchors, and feedback loops so their output fits the team. (#software-engineering #workflow #ai-coding)
 - [[wiki/concepts/Coding Agent User Harness|Coding Agent User Harness]] — A coding agent user harness is the developer-controlled environment that shapes agent behavior through context, tools, rules, checks, and templates. (#agents #harness #ai-coding)
@@ -180,6 +183,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Understanding|Understanding]] — 理解不是拥有一句定义，而是在脑中形成一团可横向类比、纵向抽象、并能被重新创造的概念云。 (#cognition #learning #concepts)
 - [[wiki/concepts/Verification Loop|Verification Loop]] — A verification loop gives an agent external feedback, such as tests, visual checks, or evaluators, so errors are caught before they compound. (#agents #verification)
 
+- [[wiki/concepts/Workflow Graph Orchestration|Workflow Graph Orchestration]] — Workflow Graph Orchestration models agent work as explicit state-machine or graph traversal so control, persistence, guard nodes, and recovery stay inspectable. (#agents #orchestration #workflow)
+
 ## Syntheses
 - [[wiki/syntheses/harness-root-ranks|Harness Root Ranks]] — Harness can be reduced to five root ranks: boundary, density, action, loop, and evolution. (#synthesis #agents #harness #rank)
 - [[wiki/syntheses/Acting Under Complexity|Acting Under Complexity]] — 这页尝试把 Cynefin、决策模式、思考工作流、mental models、critical thinking 串成一个更高层的框架：当问题复杂、不确定、争议大时，关键不是只会分析，而是知道应该如何判断并继续行动。 (#synthesis #complexity #decision-making #thinking)
@@ -206,10 +211,12 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Agent Harness Qiaomu Article Source Guide|Agent Harness Qiaomu Article Source Guide]] — 这篇文章目前更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#article #blog #agents #harness)
 - [[wiki/sources/Agent Observability Needs Feedback Source Guide]] — Source guide for Harrison Chase's X article arguing that agent observability needs trace-linked feedback to become a learning system. (#article #agents #harness #feedback #context)
 - [[wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide|Agent Skills Data-Driven Analysis Paper Source Guide]] — Direct paper guide for a 40,285-skill marketplace measurement study covering growth bursts, length, redundancy, functional demand, and safety risks in Claude-style agent skills. (#paper #arxiv #agents #skills #software-engineering)
+- [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide|Agentic Artificial Intelligence Paper Source Guide]] — Source guide for arXiv 2601.12560v1 on agentic AI architectures, taxonomy, control loops, multi-agent orchestration, evaluation, safety, and open challenges. (#paper #arxiv #agents #architecture)
 - [[wiki/sources/Agent Systems Papers Source Guide|Agent Systems Papers Source Guide]] — Source guide collecting agent-system papers and deciding which claims should stay source-level versus move into topics and syntheses. (#papers #agents)
 - [[wiki/sources/ADK Skill Design Patterns Source Guide|ADK Skill Design Patterns Source Guide]] — Source guide for Google Cloud Tech and Lavi Nigam's article on five practical SKILL.md content patterns for ADK agents. (#agents #skills #adk)
 - [[wiki/sources/AI Coding Control Limits Source Guide|AI Coding Control Limits Source Guide]] — 这篇文章更适合作为一个 source facing note 进入当前仓库，而不是直接承担稳定 topic 页角色。 (#ai-coding #software-engineering #complexity #productivity #security)
 - [[wiki/sources/Memory for Autonomous LLM Agents Source Guide|Memory for Autonomous LLM Agents Source Guide]] — Source guide for arXiv 2603.07670 on autonomous LLM-agent memory mechanisms, evaluation, applications, engineering realities, and open frontiers. (#paper #agents #memory #survey)
+- [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide|What Happens Inside Agent Memory Paper Source Guide]] — Source guide for arXiv 2605.03354 on circuit-level analysis of agent memory failures, control-before-content asymmetry, shared memory hubs, and stage-level diagnostics. (#paper #arxiv #agents #memory #harness)
 - [[wiki/sources/AI Memory Survey Source Guide|AI Memory Survey Source Guide]] — Source guide for Survey on AI Memory, focused on memory theory, the 4W taxonomy, single/multi-agent memory, evaluation, and open challenges. (#paper #agents #memory #survey)
 - [[wiki/sources/Amabile Componential Theory of Creativity Source Guide|Amabile Componential Theory of Creativity Source Guide]] — Source guide for Amabile's componential theory, grounding creativity in novelty, appropriateness, domain skill, motivation, and environment. (#creativity #psychology #learning)
 - [[wiki/sources/Analysis Concept Anatomy Source Guide|Analysis Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on analysis as reversible decomposition into actionable structure. (#thinking #concepts)
@@ -282,7 +289,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/vLLM Inference Systems Source Guide|vLLM Inference Systems Source Guide]] — Source guide for Aleksa Gordic's vLLM article, focused on engine loops, paged attention, batching, P/D split, scaling, serving, and benchmarking. (#llm #inference)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Recent captures added Memory Is State Not a Service to the Company Brain cluster: company memory must be shared inspectable state rather than isolated tool-local memory services.
+- [[wiki/hot|Hot Cache]] — Recent captures added the Agentic Artificial Intelligence survey: agent systems are control loops governed by architecture taxonomy, workflow graphs, and CLASSic evaluation.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

@@ -12,8 +12,9 @@ sources:
   - https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
   - https://x.com/hwchase17/status/2040467997022884194
   - https://arxiv.org/abs/2603.07670
+  - https://arxiv.org/abs/2605.03354v2
 created: 2026-05-05T16:25:00+08:00
-updated: 2026-05-13T09:59:22+08:00
+updated: 2026-05-13T10:38:00+08:00
 base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -125,12 +126,23 @@ The source distinguishes two update timings: hot-path memory writes while the ag
 This means AI memory design must answer not only what to store, but also when to store it, who or what scope owns it, and whether the update was explicitly requested or harness-initiated. ^[inferred]
 
 
+## Circuit-Level Memory Diagnostics
+
+[[wiki/sources/What Happens Inside Agent Memory Paper Source Guide]] adds a mechanistic layer beneath the external write–manage–read loop. The paper traces Qwen-3 memory-stage circuits across mem0 and A-MEM and reports that Manage routing becomes detectable before Write/Read content extraction and grounding.
+
+The practical distinction is important for agent memory design: a small model may emit legal add/update/delete/none decisions before it can reliably represent the content those decisions are supposed to manage. That means routing competence must not be treated as proof of memory competence.
+
+The source also reframes memory observability. A final wrong answer may come from a Write failure, a Manage failure, or a Read failure, and ordinary end-to-end accuracy hides this distinction. Circuit-level or stage-level diagnostics are useful because they try to localize the responsible operation rather than only measuring aggregate recall. ^[inferred]
+
+The paper's numeric claims remain source-level: the reported 76.2% unsupervised localization accuracy, the 0.6B/4B emergence boundary, and the late-layer shared hub all come from one Qwen-3/transcoder setup.
+
 ## Related
 
 - [[wiki/concepts/Agent Memory Write-Manage-Read Loop]]
 - [[wiki/concepts/Agent Memory Mechanism Families]]
 - [[wiki/concepts/Agent Memory Evaluation Stack]]
 - [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]]
+- [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide]]
 
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/topics/Context Management]]

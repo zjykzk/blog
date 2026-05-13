@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 48,
-    "total_pages": 251
+    "total_sources_ingested": 50,
+    "total_pages": 257
   },
   "sources": {
     "https://arxiv.org/abs/2604.17091": {
@@ -1038,6 +1038,48 @@
         "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md"
+      ]
+    },
+    "https://arxiv.org/abs/2601.12560v1": {
+      "ingested_at": "2026-05-13T02:37:07Z",
+      "size_bytes": 1681154,
+      "modified_at": "2026-01-21T02:15:23Z",
+      "content_hash": "sha256:afd746da626d5615691aeeb4248675269b00074cbdc58e2fcbc815d803fe0056",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Agentic Control Loop.md",
+        "wiki/concepts/Agentic AI Architecture Taxonomy.md",
+        "wiki/concepts/Agent Evaluation CLASSic Framework.md",
+        "wiki/concepts/Workflow Graph Orchestration.md",
+        "wiki/sources/Agentic Artificial Intelligence Paper Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Agent.md",
+        "wiki/topics/AI Harness.md",
+        "wiki/syntheses/Agent System Design Space.md",
+        "wiki/sources/Agent Systems Papers Source Guide.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md"
+      ]
+    },
+    "https://arxiv.org/abs/2605.03354v2": {
+      "ingested_at": "2026-05-13T10:38:00+08:00",
+      "size_bytes": 96010,
+      "modified_at": "2026-05-13T10:38:00+08:00",
+      "content_hash": "sha256:9b3b6863311a292f3e075b6c542d74f143db320cf6f3dd4a6e357fe017e636ee",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/What Happens Inside Agent Memory Paper Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/AI Memory.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
       ]
     }
   }

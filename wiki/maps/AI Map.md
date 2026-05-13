@@ -6,6 +6,7 @@ summary: Entry point for the AI, Agent, and LLM knowledge cluster, linking conce
 category: maps
 sources:
   - https://arxiv.org/abs/2603.07670
+  - https://arxiv.org/abs/2601.12560v1
 created: 2026-05-04
 base_confidence: 0.70
 lifecycle: draft
@@ -13,9 +14,9 @@ lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.90
   inferred: 0.10
-  ambiguous: 0.0
-source_count: 1
-updated: 2026-05-13T09:59:22+08:00
+  ambiguous: 0.00
+source_count: 2
+updated: 2026-05-13T10:38:00+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -30,6 +31,10 @@ tags:
 ## Concepts
 
 - [[wiki/concepts/Agent]]
+- [[wiki/concepts/Workflow Graph Orchestration]]
+- [[wiki/concepts/Agent Evaluation CLASSic Framework]]
+- [[wiki/concepts/Agentic AI Architecture Taxonomy]]
+- [[wiki/concepts/Agentic Control Loop]]
 - [[wiki/concepts/Agent Tool]]
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Knowledge Priming]]
@@ -109,6 +114,7 @@ tags:
 - `pages/llm.md`
 - `pages/karpathy-guidelines.md`
 - [[wiki/sources/Agent Systems Papers Source Guide]]
+- [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]]
 - [[wiki/sources/Dive into Claude Code Source Guide]]
 - [[wiki/sources/Before the Tool Call Source Guide]]
 - [[wiki/sources/Qiaomu Best Prompt Source Guide]]
@@ -117,6 +123,7 @@ tags:
 - [[wiki/sources/GenericAgent Paper Source Guide]]
 - [[wiki/sources/Lost in the Middle Paper Source Guide]]
 - [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]]
+- [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide]]
 - [[wiki/sources/AI Memory Survey Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]

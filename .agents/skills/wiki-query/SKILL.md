@@ -48,6 +48,8 @@ If `llm-wiki/SKILL.md` is unavailable in the current repo, use this fallback pri
 5. Use broad body grep only after the targeted passes fail, and mark the query as escalated.
 
 See `references/fallback-vault-discovery.md` for session notes on absent global config / absent `llm-wiki/SKILL.md` and canonical `wiki/index.md` selection.
+See `references/inventory-and-map-queries.md` for handling broad inventory/map-style questions where the requested class may not have an exact page title.
+See `references/conceptual-follow-up-queries.md` for same-session conceptual follow-ups where previously consulted pages should seed candidate ranking while still logging each query.
 
 ### Step 1: Understand the Question
 
@@ -125,6 +127,8 @@ Compose your answer from wiki content:
 - If the wiki has contradictions, present both sides
 - If the wiki doesn't cover something, say so explicitly
 - Suggest which sources might fill the gap
+
+For taxonomy or inventory questions such as "有哪些 X", "what models/frameworks do I have", or "find the cluster around X", do not stop at exact title matches. Build a candidate inventory from `index.md`, frontmatter summaries, and a narrow body grep; then synthesize the answer as a map of related pages grouped by the generative question they answer. If the query term is not itself a page, say so and recommend a canonical map/concept page only after showing the discovered cluster.
 
 **Page trust annotations:** For every page cited in your answer, check its `lifecycle` frontmatter and compute `is_stale = (today − updated) > 90 days`. Annotate risky pages inline so the user knows which citations to verify:
 

@@ -1,22 +1,29 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured an arXiv survey on autonomous LLM-agent memory as write–manage–read loops, mechanism families, evaluation stacks, and production governance.
+summary: Recent wiki activity captured arXiv 2601.12560v1 as an agentic AI architecture survey: control loops, taxonomy, workflow graphs, and CLASSic evaluation.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-13T09:59:22+08:00
+updated: 2026-05-13T10:38:00+08:00
 ---
 
 ## Recent Activity
 
-- 已捕获 [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]]：arXiv 2603.07670 把 autonomous LLM-agent memory 明确建模为 write–manage–read feedback loop，并系统整理机制族、评估栈、应用场景、工程现实与开放问题。
-- 已新增 [[wiki/concepts/Agent Memory Write-Manage-Read Loop]]、[[wiki/concepts/Agent Memory Mechanism Families]]、[[wiki/concepts/Agent Memory Evaluation Stack]]：把论文中的可复用结构提升为 agent memory 设计词汇。
-- 已扩展 [[wiki/topics/AI Memory]]、[[wiki/topics/AI Harness]]、[[wiki/topics/Context Management]] 与 [[wiki/syntheses/Agent System Design Space]]：强化“long context is not memory”、memory harness、observability、governance 和 agentic utility 评估线索。
+- 已捕获 [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide]]：arXiv 2605.03354 把 agent memory 的 write-manage-read loop 下钻到 circuit 层，指出 routing/control 可能早于 content extraction/grounding 成熟，并用 stage-level circuit signatures 诊断 silent failures。
+- 已捕获 [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]]：arXiv 2601.12560v1 把 agentic AI 组织成 POMDP-style control loop、六维 architecture taxonomy、workflow graph orchestration，以及 CLASSic evaluation。
+- 已新增 [[wiki/concepts/Agentic Control Loop]]、[[wiki/concepts/Agentic AI Architecture Taxonomy]]、[[wiki/concepts/Agent Evaluation CLASSic Framework]]、[[wiki/concepts/Workflow Graph Orchestration]]：把论文中的可复用架构词汇提升为 wiki 概念页。
+- 已扩展 [[wiki/concepts/Agent]]、[[wiki/topics/AI Harness]] 与 [[wiki/syntheses/Agent System Design Space]]：强化“agent = governed control loop”而不是“model + tools”的系统视角。
 ## Active Threads
+
+- Agent memory now has a circuit-diagnosis thread: end-to-end memory accuracy hides whether failure happened in Write, Manage, or Read; stage-local internal signatures may turn memory observability from logs into operation-level diagnosis.
+- Agent systems now have a stronger control-loop thread: perception, memory update, planning, action, feedback, and state transition must be governed by harness boundaries rather than left as implicit model behavior.
+- Agent architecture now has a taxonomy thread: core components, cognitive architecture, learning, multi-agent systems, environments, and evaluation/safety are coupled design surfaces, not independent features.
+- Workflow graph orchestration is now represented as a production control pattern: explicit state machines, guard nodes, checkpoints, and approvals can reduce open-ended chat-loop failure modes.
+- CLASSic evaluation adds a deployment lens: cost, latency, accuracy, security, and stability must be compared together because deeper reasoning can worsen economics, delay, prompt-injection exposure, or loop stability.
 
 - Memory now has a write-manage-read thread: durable agent memory must be designed as a managed feedback loop with write filters, retrieval policy, contradiction handling, deletion, observability, and regression tests.
 - 基本世界观现在加入“内核 / 三个自我”线索：进程自我是运行日志，界面自我是叙事接口，内核自我是预测模型、先验假设和更新规则。
@@ -63,6 +70,11 @@ updated: 2026-05-13T09:59:22+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- Agent memory 的关键风险不只是“记不住”，而是 routing 可以先于 content 成熟：小模型可能会输出合法的 add/update/delete/none 决策，却还不能可靠抽取和 grounding 真实内容，因此 memory 评估需要 stage-level diagnosis。
+- Agent should be read as a controllable system loop: tool use is only one surface; observation, memory, planning, permission, feedback, recovery, and stop conditions are equally architectural.
+- Harness quality can be evaluated by how it makes the agent loop inspectable, constrained, recoverable, and auditable across real environments.
+- Agent evaluation must include failure shape and deployment tradeoffs, not only benchmark success rate.
 
 - Long context is not memory: larger windows do not by themselves provide cross-session persistence, selective retrieval, structured organization, deletion, access control, or agentic utility.
 
@@ -145,4 +157,3 @@ updated: 2026-05-13T09:59:22+08:00
 - ICAP 适合诊断学习动作的深度：事实知识不必强行互动，概念和因果知识需要建构，程序知识还要刻意练习，判断和情境知识更依赖案例、互动与现实反馈。
 
 ## Flagged Contradictions
-

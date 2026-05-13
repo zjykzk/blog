@@ -2,7 +2,7 @@
 title: AI Harness
 type: topic
 status: growing
-summary: AI Harness is the runtime order layer and optimization surface that governs model, context, tools, permissions, state, memory, recovery, and feedback loops.
+summary: AI Harness is the runtime order layer that governs agent perception, context, tools, permissions, memory, workflow graphs, recovery, evaluation, and feedback loops.
 category: topics
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
@@ -18,16 +18,17 @@ sources:
   - https://x.com/hwchase17/status/2040467997022884194
   - https://arxiv.org/abs/2603.28052
   - https://arxiv.org/abs/2603.07670
+  - https://arxiv.org/abs/2601.12560v1
 created: 2026-05-04
-base_confidence: 0.75
+base_confidence: 0.80
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.88
-  inferred: 0.11
+  extracted: 0.87
+  inferred: 0.12
   ambiguous: 0.01
-source_count: 13
-updated: 2026-05-13T09:59:22+08:00
+source_count: 14
+updated: 2026-05-13T10:37:07+08:00
 aliases:
   - harness
 tags:
@@ -131,6 +132,15 @@ This matters because the same model can be moved between harnesses and expose ve
 - 状态如何被记录、恢复与重建
 
 从这个角度看，harness 不是外围工程细节，而是塑造 reasoning、稳定性与可控性的运行层。
+
+
+## Agentic architecture layer
+
+[[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]] adds a survey-level architecture frame: an agent is a control loop over partial observation, memory update, planning, action, execution feedback, and environmental state transition. That means harness design is not merely wrapper code; it shapes the loop's observation channel, memory policy, action space, permission boundary, feedback routing, and stop conditions.
+
+The paper's six-part [[wiki/concepts/Agentic AI Architecture Taxonomy]] also gives a useful checklist for harness scope: core components, cognitive architecture, learning, multi-agent coordination, environment, and evaluation/safety. In wiki terms, these are not separate feature categories. They are coupled runtime surfaces that determine whether [[wiki/concepts/Agent]] behavior remains controllable under real deployment constraints. ^[inferred]
+
+[[wiki/concepts/Workflow Graph Orchestration]] sharpens the control side: explicit workflow graphs and state machines make permissible transitions, checkpoints, guard nodes, and approval steps inspectable. This is a harness answer to the same failure modes the paper names: hallucination in action, infinite loops, latency blowups, prompt injection, and unstable recovery. ^[inferred]
 
 ## Design dimensions
 
