@@ -188,6 +188,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 ## Syntheses
 - [[wiki/syntheses/Quality Engineering Three Generators|Quality Engineering Three Generators]] — 质量工程可以压缩为三根生成器：承诺清楚、偏差显形、修正闭环；行业实践分别落在规格契约、测试监控和复盘改进上。 (#software-engineering #testing #requirements #feedback)
 - [[wiki/syntheses/Requirements Expression Beyond Use Cases|Requirements Expression Beyond Use Cases]] — 用例适合捕获系统对外行为；其他需求应按质量属性、约束、业务规则、数据、界面、集成和运维关注点分别表达。 (#requirements #software-engineering #architecture)
+- [[wiki/syntheses/Use Cases as AI Coding Traceability Anchors|Use Cases as AI Coding Traceability Anchors]] — 用例在 AI 编程中的核心价值，是把业务目标、系统边界、模块职责、代码位置和验收标准串成可执行追踪链。 (#requirements #ai-coding #software-engineering #architecture #testing)
 - [[wiki/syntheses/harness-root-ranks|Harness Root Ranks]] — Harness can be reduced to five root ranks: boundary, density, action, loop, and evolution. (#synthesis #agents #harness #rank)
 - [[wiki/syntheses/Acting Under Complexity|Acting Under Complexity]] — 这页尝试把 Cynefin、决策模式、思考工作流、mental models、critical thinking 串成一个更高层的框架：当问题复杂、不确定、争议大时，关键不是只会分析，而是知道应该如何判断并继续行动。 (#synthesis #complexity #decision-making #thinking)
 - [[wiki/syntheses/Agent Skill Patterns as Human Workflow Control Structures|Agent Skill Patterns as Human Workflow Control Structures]] — Agent skill patterns translate ordinary human work controls—manuals, templates, reviews, interviews, and gates—into executable agent workflows. (#synthesis #agents #workflow #skills)

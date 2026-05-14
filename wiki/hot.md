@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured how use cases express behavior contracts and connect to UI, API, domain, persistence, tests, and task management.
+summary: Recent wiki activity captured use cases as AI coding traceability anchors from business goals to code locations and tests.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-14T00:29:01+08:00
+updated: 2026-05-14T00:58:10+08:00
 ---
 
 ## Recent Activity
+- 已新增 [[wiki/syntheses/Use Cases as AI Coding Traceability Anchors|Use Cases as AI Coding Traceability Anchors]]：把用例定位为 AI 编程中的追踪锚点，从业务目标、系统边界、系统用例和用例规约一路连接到模块职责、代码位置和测试验收。
 - 已捕获 [[wiki/sources/Use Case 开发管理 Source Guide|Use Case 开发管理 Source Guide]]：把 Use Case 定义为系统行为契约，并说明它如何作为枢纽关联 UI、API、应用服务、领域模型、数据库、测试和开发任务。
 - 已新增 [[wiki/syntheses/Requirements Expression Beyond Use Cases|Requirements Expression Beyond Use Cases]]：明确用例只适合捕获系统对外行为，质量属性、约束、业务规则、数据、界面、集成和运维需求应分别用质量场景、约束清单、规则表、概念模型、原型、接口契约和运行治理要求表达。
 - Captured [[wiki/syntheses/Quality Engineering Three Generators|Quality Engineering Three Generators]] as a software-quality synthesis: quality engineering reduces to clear commitments, visible deviations, and correction loops, mapped to BDD/contracts/SLOs, CI/testing/monitoring, and postmortems/error budgets.
@@ -76,6 +77,7 @@ updated: 2026-05-14T00:29:01+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- AI 编程中的用例价值在于 traceability spine：业务用例帮助识别跨系统边界，系统用例定义待开发系统的行为契约，用例规约提供行为细节，代码映射表帮助定位文件，验收测试证明修改正确。
 - Use Case 管用户目标与系统行为；UI、API、数据库、测试和任务拆分管这个行为如何可见、可调用、可执行、可持久化和可验证。
 - 用例表达的是执行者与系统之间一次可完成的价值交换；不能构成交换的需求，应按质量属性、约束、业务规则、数据、界面、集成和运维治理分别选择可验证表达形式。
 - Quality engineering can be diagnosed through three questions: what did the system promise, how quickly and truthfully does deviation surface, and whether each deviation changes the system so it is harder to repeat.
