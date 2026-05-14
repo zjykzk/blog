@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured use cases as AI coding traceability anchors from business goals to code locations and tests.
+summary: Recent wiki activity expanded the learning-method source guide with an AI learning flow that balances high compression with long-term retention.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-14T00:58:10+08:00
+updated: 2026-05-14T12:00:10+08:00
 ---
 
 ## Recent Activity
+- 已更新 [[wiki/sources/表征 图式 心智模型和解释框架 Source Guide|表征、图式、心智模型和解释框架 Source Guide]]：补充 AI 学习流程的保持策略——先用 AI 高压缩建地图，再用原文锚点、主动回忆、间隔复习、输出迁移和错误反馈把结构变成长期知识。
 - 已新增 [[wiki/syntheses/Use Cases as AI Coding Traceability Anchors|Use Cases as AI Coding Traceability Anchors]]：把用例定位为 AI 编程中的追踪锚点，从业务目标、系统边界、系统用例和用例规约一路连接到模块职责、代码位置和测试验收。
 - 已捕获 [[wiki/sources/Use Case 开发管理 Source Guide|Use Case 开发管理 Source Guide]]：把 Use Case 定义为系统行为契约，并说明它如何作为枢纽关联 UI、API、应用服务、领域模型、数据库、测试和开发任务。
 - 已新增 [[wiki/syntheses/Requirements Expression Beyond Use Cases|Requirements Expression Beyond Use Cases]]：明确用例只适合捕获系统对外行为，质量属性、约束、业务规则、数据、界面、集成和运维需求应分别用质量场景、约束清单、规则表、概念模型、原型、接口契约和运行治理要求表达。
@@ -39,6 +40,7 @@ updated: 2026-05-14T00:58:10+08:00
 - 财富创造现在加入了稳态生存逻辑的反面：匮乏、强从众和简单模型曾经适合低波动生存，但在高波动世界会限制能动性、反馈速度和乘法世界入口。
 - 财富创造现在加入了重尾世界观：极端值、正反馈、复利和乘法世界解释了为什么可复制资产、声望、资本、网络效应和个人品牌会改变职业上限。
 - 学习与认知现在加入了叙事线索：事实只有被选择、排序，并绑定成能指导预测、意义、协调和行动的因果故事后，才真正变得可用。
+- 学习与认知现在加入“表征—图式—心智模型—解释框架”线索：学习不是收藏信息，而是把材料压缩成可识别、可推演、可迁移、可判断的内在地图。
 - Learning cognition now has an ICAP-and-cognitive-load thread: instruction should manage working-memory bandwidth, then push learners from passive reception toward construction and interactive correction when prior knowledge allows.
 - Company brain is now represented as an enterprise memory-and-action substrate: factual memory, interaction memory, action memory, context graph reasoning, and governed action must integrate before agents can safely operate on company reality. The latest state-substrate layer clarifies that these memories must be three views of one inspectable, correctable, permissioned state rather than separate tool-local services.
 - Systems thinking now has an explicit iceberg-model thread: recurring problems should be traced from visible events to patterns, structures, mental models, and leverage points before choosing interventions.
@@ -140,6 +142,7 @@ updated: 2026-05-14T00:58:10+08:00
 - Cache-hit rate is a production health signal for long-running agents, because low hit rates can reveal accidental prompt or tool-prefix churn.
 - Harness quality should be judged by how it manages context, tools, state, permissions, errors, and verification around the same underlying model.
 - Harness components should be audited as model assumptions: stronger models can make old scaffolding stale, while larger task horizons can require new memory, coordination, and evaluator structures.
+- 真正学习的对象不是信息点，而是可压缩结构：表征点亮地图，图式识别局面，心智模型运行机制，解释框架比较整类现象的解释力；AI 学习应先压缩建图，再通过反压缩、检索练习、间隔复习、应用和反馈完成长期保持。
 - AI tutor workflows should preserve the learner's responsibility to answer, fail, and repair understanding; otherwise the tool becomes a summary machine rather than a learning loop.
 - Permissionless leverage connects the reading and management clusters: code and media change the replication structure of work, but they amplify judgment rather than replacing it.
 - Context rot reframes long-context work as an active harness problem: compaction, offloading, progressive disclosure, and full reset from a handoff file are runtime design choices.
