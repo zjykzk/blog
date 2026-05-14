@@ -181,3 +181,4 @@ tags:
 - [2026-05-14T10:53:14+08:00] CAPTURE type=source page="wiki/sources/表征 图式 心智模型和解释框架 Source Guide.md" title="表征、图式、心智模型和解释框架 Source Guide"
 - [2026-05-14T11:07:48+08:00] UPDATE type=source page="wiki/sources/表征 图式 心智模型和解释框架 Source Guide.md" reason="add applicability boundary across theory, judgment, procedural, factual, perceptual, and experiential learning materials"
 - [2026-05-14T12:00:10+08:00] UPDATE type=source page="wiki/sources/表征 图式 心智模型和解释框架 Source Guide.md" reason="add AI learning flow for balancing high compression with long-term retention, recall, spacing, application, and feedback"
+- [2026-05-14T12:32:46+08:00] CAPTURE type=source page="wiki/sources/综合调研 在没有教科书的地方挖掘真知 Source Guide.md" title="综合调研：在没有教科书的地方挖掘真知 Source Guide"

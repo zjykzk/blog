@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity expanded the learning-method source guide with an AI learning flow that balances high compression with long-term retention.
+summary: Recent wiki activity captured a source guide on 综合调研 as learning beyond textbooks through positioning, structured, and generative research.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-14T12:00:10+08:00
+updated: 2026-05-14T12:32:46+08:00
 ---
 
 ## Recent Activity
+- 已捕获 [[wiki/sources/综合调研 在没有教科书的地方挖掘真知 Source Guide|综合调研：在没有教科书的地方挖掘真知 Source Guide]]：保存一篇中文文章对综合调研的分层说明——定位式调研读懂对象，结构化调研读懂争论，生成式调研读出新问题。
 - 已更新 [[wiki/sources/表征 图式 心智模型和解释框架 Source Guide|表征、图式、心智模型和解释框架 Source Guide]]：补充 AI 学习流程的保持策略——先用 AI 高压缩建地图，再用原文锚点、主动回忆、间隔复习、输出迁移和错误反馈把结构变成长期知识。
 - 已新增 [[wiki/syntheses/Use Cases as AI Coding Traceability Anchors|Use Cases as AI Coding Traceability Anchors]]：把用例定位为 AI 编程中的追踪锚点，从业务目标、系统边界、系统用例和用例规约一路连接到模块职责、代码位置和测试验收。
 - 已捕获 [[wiki/sources/Use Case 开发管理 Source Guide|Use Case 开发管理 Source Guide]]：把 Use Case 定义为系统行为契约，并说明它如何作为枢纽关联 UI、API、应用服务、领域模型、数据库、测试和开发任务。
@@ -26,6 +27,7 @@ updated: 2026-05-14T12:00:10+08:00
 - 已扩展 [[wiki/concepts/Agent]]、[[wiki/topics/AI Harness]] 与 [[wiki/syntheses/Agent System Design Space]]：强化“agent = governed control loop”而不是“model + tools”的系统视角。
 ## Active Threads
 
+- 综合调研现在补强了学习与知识体系主线：知识工作者要从标准答案转向半熟知识，通过定位式、结构化和生成式调研，把材料之间的关系写成可行动判断。
 - 知识体系构建现在有一条知识管理线索：个人 wiki 不只是资料仓库，而是经历、概念、链接、复用、输出和审计组成的持续认知系统。
 - Agent memory now has a circuit-diagnosis thread: end-to-end memory accuracy hides whether failure happened in Write, Manage, or Read; stage-local internal signatures may turn memory observability from logs into operation-level diagnosis.
 - Agent systems now have a stronger control-loop thread: perception, memory update, planning, action, feedback, and state transition must be governed by harness boundaries rather than left as implicit model behavior.
@@ -142,6 +144,7 @@ updated: 2026-05-14T12:00:10+08:00
 - Cache-hit rate is a production health signal for long-running agents, because low hit rates can reveal accidental prompt or tool-prefix churn.
 - Harness quality should be judged by how it manages context, tools, state, permissions, errors, and verification around the same underlying model.
 - Harness components should be audited as model assumptions: stronger models can make old scaffolding stale, while larger task horizons can require new memory, coordination, and evaluator structures.
+- 综合调研的三个层级是学习教科书外知识的递进：初级定位当前科学理解，中级结构化领域争论，高级从材料之间读出新问题和微原创。
 - 真正学习的对象不是信息点，而是可压缩结构：表征点亮地图，图式识别局面，心智模型运行机制，解释框架比较整类现象的解释力；AI 学习应先压缩建图，再通过反压缩、检索练习、间隔复习、应用和反馈完成长期保持。
 - AI tutor workflows should preserve the learner's responsibility to answer, fail, and repair understanding; otherwise the tool becomes a summary machine rather than a learning loop.
 - Permissionless leverage connects the reading and management clusters: code and media change the replication structure of work, but they amplify judgment rather than replacing it.
