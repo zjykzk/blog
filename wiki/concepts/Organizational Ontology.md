@@ -7,14 +7,14 @@ summary: Organizational ontology is the set of concepts and relationships a comp
 sources:
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
 created: 2026-05-08T20:54:16+08:00
-updated: 2026-05-08T20:54:16+08:00
+updated: 2026-05-15T21:33:01+08:00
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 provenance:
-  extracted: 0.72
-  inferred: 0.25
-  ambiguous: 0.03
+  extracted: 0.93
+  inferred: 0.07
+  ambiguous: 0.00
 aliases:
   - company ontology
   - interaction ontology

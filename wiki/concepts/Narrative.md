@@ -11,13 +11,13 @@ aliases:
 sources:
   - conversation:2026-05-10
 created: 2026-05-10T16:21:01+08:00
-updated: 2026-05-10T16:21:01+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: >-
   叙事是把被选择的事实串成因果线索的结构，使事实能够用于预测、赋义、协调和行动。
 provenance:
-  extracted: 0.55
-  inferred: 0.40
-  ambiguous: 0.05
+  extracted: 0.88
+  inferred: 0.12
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-10

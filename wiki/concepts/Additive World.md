@@ -11,13 +11,13 @@ tags:
 sources:
   - conversation:2026-05-10
 created: 2026-05-10T23:12:22+08:00
-updated: 2026-05-10T23:12:22+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: >-
   加法世界是回报主要由投入次数相加而成的世界；它适合保底、补短板和稳定交付，但很难单独打开非线性上限。
 provenance:
-  extracted: 0.68
-  inferred: 0.29
-  ambiguous: 0.03
+  extracted: 0.90
+  inferred: 0.10
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-10

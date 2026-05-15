@@ -8,13 +8,13 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-05-15T20:50:29+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
-  extracted: 0.50
-  inferred: 0.47
-  ambiguous: 0.03
+  extracted: 1.00
+  inferred: 0.00
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-12

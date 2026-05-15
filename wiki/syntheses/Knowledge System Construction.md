@@ -8,12 +8,12 @@ tags: [learning, cognition, management, organization]
 sources:
   - conversation:2026-05-13
 created: 2026-05-13T11:18:00+08:00
-updated: 2026-05-13T11:18:00+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: >-
   知识体系构建把问题牵引、知识成网、隐性知识外化、知识资产化、共同体实践和定期审计组织成一个持续更新的认知系统。
 provenance:
-  extracted: 0.62
-  inferred: 0.38
+  extracted: 0.87
+  inferred: 0.13
   ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft

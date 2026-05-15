@@ -9,16 +9,16 @@ tags:
 sources:
   - conversation:2026-05-11
 created: 2026-05-11T22:30:16+08:00
-updated: 2026-05-11T22:30:16+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: ICAP 可以作为通用的学习深度刻度，但不能作为所有知识的同一种学习处方；它需要和知识类型、学习阶段、先验图式与认知负荷一起使用。
 aliases:
   - ICAP 适用边界
   - ICAP 与知识类型
   - ICAP 学习框架适用范围
 provenance:
-  extracted: 0.62
-  inferred: 0.36
-  ambiguous: 0.02
+  extracted: 0.90
+  inferred: 0.10
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-11

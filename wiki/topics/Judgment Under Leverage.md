@@ -12,14 +12,14 @@ tags:
 sources:
   - /Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf
 created: 2026-05-05T14:40:00+08:00
-updated: 2026-05-05T14:40:00+08:00
+updated: 2026-05-15T21:33:01+08:00
 aliases:
   - leveraged judgment
   - judgment leverage
 provenance:
-  extracted: 0.68
-  inferred: 0.30
-  ambiguous: 0.02
+  extracted: 0.89
+  inferred: 0.11
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-05

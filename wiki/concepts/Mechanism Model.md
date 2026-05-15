@@ -8,13 +8,13 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-05-12T00:14:41+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: >-
   机制模型是把反复结果压成“结果、变量、约束、激励、反馈、时间”的结构，用来解释为什么现象会被稳定生成。
 provenance:
-  extracted: 0.56
-  inferred: 0.42
-  ambiguous: 0.02
+  extracted: 1.00
+  inferred: 0.00
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-12

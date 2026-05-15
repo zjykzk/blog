@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-14T00:29:01+08:00
+updated: 2026-05-15T21:33:01+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -26,6 +26,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - New durable knowledge belongs under `wiki/`, not legacy note areas.
 - Use [[wiki/NAMING]] for naming and placement rules.
 - [[wiki/Welcome]] is legacy context, not the homepage.
+- [[wiki/_meta/taxonomy|Tag Taxonomy]] defines the controlled tag vocabulary and lint policy.
 
 ## Maps
 - [[wiki/maps/AI Map|AI Map]] — Entry point for the AI, Agent, and LLM knowledge cluster, linking concepts, topics, syntheses, and source guides. (#agents #llm-wiki)

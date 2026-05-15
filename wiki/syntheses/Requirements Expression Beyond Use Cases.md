@@ -8,13 +8,13 @@ tags: [requirements, software-engineering, architecture]
 sources:
   - conversation:2026-05-14
 created: 2026-05-14T00:28:21+08:00
-updated: 2026-05-14T00:28:21+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: >-
   用例适合捕获系统对外行为；其他需求应按质量属性、约束、业务规则、数据、界面、集成和运维关注点分别表达。
 provenance:
-  extracted: 0.35
-  inferred: 0.60
-  ambiguous: 0.05
+  extracted: 1.00
+  inferred: 0.00
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-14

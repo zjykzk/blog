@@ -12,13 +12,13 @@ tags:
 sources:
   - conversation:2026-05-10
 created: 2026-05-10T16:27:44+08:00
-updated: 2026-05-10T23:12:22+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: >-
   乘法世界是回报由当前动作与既有存量共同决定的世界；它与加法世界相对，要求人寻找可复利、可放大的长板。
 provenance:
-  extracted: 0.72
-  inferred: 0.25
-  ambiguous: 0.03
+  extracted: 0.93
+  inferred: 0.07
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-10

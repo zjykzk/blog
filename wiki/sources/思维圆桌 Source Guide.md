@@ -8,13 +8,13 @@ tags: [thinking, cognition, judgment, roundtable]
 sources:
   - conversation:2026-05-11
 created: 2026-05-11T21:19:31+08:00
-updated: 2026-05-11T21:29:38+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: >-
   这页导览一次关于“思维”的圆桌：思维被拆成求解机制、问题表征、认知建构、语言游戏和责任判断五条张力线。
 provenance:
-  extracted: 0.78
-  inferred: 0.19
-  ambiguous: 0.03
+  extracted: 1.00
+  inferred: 0.00
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-11

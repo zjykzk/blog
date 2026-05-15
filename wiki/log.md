@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-13T10:37:07+08:00
+updated: 2026-05-15T21:19:51+08:00
 aliases:
   - Wiki Log
 tags:
@@ -188,3 +188,5 @@ tags:
 - [2026-05-15T20:48:22+0800] CAPTURE type=source page="wiki/sources/设计模式 设计原则与系统思维 Source Guide.md" title="设计模式、设计原则与系统思维 Source Guide"
 - [2026-05-15T20:53:47+0800] CAPTURE type=synthesis page="wiki/syntheses/软件设计作为系统诊断.md" title="软件设计作为系统诊断"
 - [2026-05-15T20:56:12+08:00] UPDATE type=source page="wiki/sources/表征 图式 心智模型和解释框架 Source Guide.md" reason="append ljg-qa extraction chain generated from the learning compression source guide"
+- [2026-05-15T21:28:17+08:00] LINT issues_found=35 orphans=1 broken_links=0 stale=4 contradictions=0 prov_issues=24 missing_summary=0 fragmented_clusters=4 visibility_issues=1 promotion_candidates=0 synthesis_gaps=0 lifecycle_issues=0
+- [2026-05-15T21:35:01+08:00] LINT_FIX broken_count=0 selflink_count=0 orphan_count=0 stale=0 visibility_issues=0 prov_issues=0 files_modified=27

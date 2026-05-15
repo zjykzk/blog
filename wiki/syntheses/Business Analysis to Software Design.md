@@ -14,7 +14,7 @@ sources:
   - wiki/concepts/Business Modeling in Software.md
   - wiki/topics/Software Methodology.md
 created: 2026-05-05
-updated: 2026-05-10T14:24:08+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: Business modeling narrows organizational reality into system responsibilities, domain models, and executable design boundaries.
 provenance:
   extracted: 0.57

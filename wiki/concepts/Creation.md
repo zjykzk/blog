@@ -15,14 +15,14 @@ sources:
   - https://hci.stanford.edu/publications/bds/9-schon.html
   - https://www.loc.gov/item/00063423/
 provenance:
-  extracted: 0.68
-  inferred: 0.32
+  extracted: 0.89
+  inferred: 0.11
   ambiguous: 0.00
 base_confidence: 0.84
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 created: 2026-05-06T21:23:05+08:00
-updated: 2026-05-07T10:44:00+08:00
+updated: 2026-05-15T21:33:01+08:00
 aliases:
   - 创造
   - creativity

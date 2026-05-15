@@ -17,7 +17,7 @@ base_confidence: 0.74
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 7
-updated: 2026-05-09T20:15:00+08:00
+updated: 2026-05-15T21:33:01+08:00
 aliases:
   - 思维框架
 tags:
@@ -25,8 +25,8 @@ tags:
   - models
   - decision-making
 provenance:
-  extracted: 0.64
-  inferred: 0.36
+  extracted: 0.85
+  inferred: 0.15
   ambiguous: 0.00
 ---
 

@@ -8,13 +8,13 @@ tags: [software-engineering, architecture, systems, thinking, mechanism]
 sources:
   - conversation:2026-05-15
 created: 2026-05-15T20:46:02+08:00
-updated: 2026-05-15T20:50:29+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: >-
   这页保存一段关于设计模式、设计原则、Iceberg Model、信息流和状态流转关系的中文教学对话，重点是把软件设计概念放进系统思维的层级结构中理解。
 provenance:
-  extracted: 0.72
-  inferred: 0.25
-  ambiguous: 0.03
+  extracted: 1.00
+  inferred: 0.00
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-15

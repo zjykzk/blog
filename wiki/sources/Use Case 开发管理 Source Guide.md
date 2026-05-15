@@ -6,12 +6,12 @@ tags: [requirements, software-engineering, architecture, testing]
 sources:
   - conversation:2026-05-14
 created: 2026-05-14T00:29:01+08:00
-updated: 2026-05-14T00:29:01+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: >-
   这页保存一份关于 Use Case 如何定义行为契约，并关联 UI、API、应用服务、领域模型、数据库、测试和开发任务的中文讲解。
 provenance:
-  extracted: 0.78
-  inferred: 0.22
+  extracted: 1.00
+  inferred: 0.00
   ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft

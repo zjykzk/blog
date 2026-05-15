@@ -12,13 +12,13 @@ aliases:
 sources:
   - conversation:2026-05-10
 created: 2026-05-10T22:20:21+08:00
-updated: 2026-05-10T22:20:21+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: >-
   不确定性是意义的燃料：人不是只想要确定性，而是需要在可承受的不确定中完成探索、叙事、判断和行动。
 provenance:
-  extracted: 0.68
-  inferred: 0.29
-  ambiguous: 0.03
+  extracted: 0.89
+  inferred: 0.11
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-10

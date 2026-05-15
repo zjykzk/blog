@@ -6,13 +6,13 @@ tags: [software-engineering, testing, requirements, feedback]
 sources:
   - conversation:2026-05-13
 created: 2026-05-13T23:20:00+08:00
-updated: 2026-05-13T23:20:00+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: >-
   质量工程可以压缩为三根生成器：说清承诺、显形偏差、形成修正闭环；软件行业最佳实践分别落在规格契约、测试监控和复盘改进上。
 provenance:
-  extracted: 0.72
-  inferred: 0.25
-  ambiguous: 0.03
+  extracted: 0.93
+  inferred: 0.07
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-13

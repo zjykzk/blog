@@ -11,11 +11,11 @@ base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.74
-  inferred: 0.23
-  ambiguous: 0.03
+  extracted: 0.96
+  inferred: 0.04
+  ambiguous: 0.00
 source_count: 1
-updated: 2026-05-13T10:37:07+08:00
+updated: 2026-05-15T21:33:01+08:00
 aliases:
   - agent
   - LLM agent

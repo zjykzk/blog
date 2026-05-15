@@ -4,7 +4,7 @@ category: meta
 tags: []
 sources: []
 created: 2026-05-10T16:02:23+08:00
-updated: 2026-05-12T16:51:48+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: Controlled tag vocabulary and lint policy for the structured wiki.
 base_confidence: 0.30
 lifecycle: draft
@@ -20,7 +20,7 @@ This file defines tag policy for the structured wiki.
 - Use at most 5 content tags per page.
 - Prefer specific cluster tags over umbrella tags.
 - Category already encodes page type, so avoid redundant type tags when possible.
-- Reserved `visibility/` tags are system tags and are managed outside this taxonomy.
+- Reserved sensitivity tags are system tags and are managed outside this taxonomy.
 
 ## Retired / ignored umbrella tags
 

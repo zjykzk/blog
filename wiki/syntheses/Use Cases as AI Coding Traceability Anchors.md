@@ -8,13 +8,13 @@ tags: [requirements, ai-coding, software-engineering, architecture, testing]
 sources:
   - conversation:2026-05-14
 created: 2026-05-14T00:58:10+08:00
-updated: 2026-05-14T00:58:10+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: >-
   用例在 AI 编程中的核心价值，是把业务目标、系统边界、模块职责、代码位置和验收标准串成可执行追踪链。
 provenance:
-  extracted: 0.72
-  inferred: 0.25
-  ambiguous: 0.03
+  extracted: 1.00
+  inferred: 0.00
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-14

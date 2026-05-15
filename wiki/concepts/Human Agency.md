@@ -12,13 +12,13 @@ tags:
 sources:
   - conversation:2026-05-10
 created: 2026-05-10T16:32:29+08:00
-updated: 2026-05-10T16:32:29+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: >-
   能动是人在高波动世界中主动选择目标、调用工具、制造反馈并承担结果，而不是被旧叙事和他人期待当作工具。
 provenance:
-  extracted: 0.70
-  inferred: 0.28
-  ambiguous: 0.02
+  extracted: 0.93
+  inferred: 0.07
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-10

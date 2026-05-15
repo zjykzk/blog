@@ -6,13 +6,13 @@ tags: [systems-thinking, concepts, feedback, structure]
 sources:
   - conversation:2026-05-10
 created: 2026-05-10T14:21:35+08:00
-updated: 2026-05-10T14:21:35+08:00
+updated: 2026-05-15T21:33:01+08:00
 summary: >-
   A system is a bounded set of interacting elements whose relations and feedback generate whole behavior over time.
 provenance:
-  extracted: 0.72
-  inferred: 0.28
-  ambiguous: 0.0
+  extracted: 0.92
+  inferred: 0.08
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-10
