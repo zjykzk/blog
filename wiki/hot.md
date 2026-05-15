@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added a synthesis framing software design as systems diagnosis across code events, recurring patterns, structures, mental models, information flow, and state transition.
+summary: Recent wiki activity appended a QA extraction chain to the learning compression source guide while preserving recent software-design diagnosis captures.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-15T20:50:29+08:00
+updated: 2026-05-15T20:56:12+08:00
 ---
 
 ## Recent Activity
+- 已更新 [[wiki/sources/表征 图式 心智模型和解释框架 Source Guide|表征、图式、心智模型和解释框架 Source Guide]]：追加 `ljg-qa` 问答提取链，把“学习即压缩”的论证拆成从故事为何不够学，到 AI 如何帮而不害，再到读完应追问可迁移结构的 9 个问题。
 - 已新增 [[wiki/syntheses/软件设计作为系统诊断]]：把设计原则、设计模式、Iceberg Model、信息流和状态流转综合成一套软件设计诊断框架，从代码事件下潜到结构和杠杆点。
 - 已捕获 [[wiki/sources/设计模式 设计原则与系统思维 Source Guide|设计模式、设计原则与系统思维 Source Guide]]：保留一段中文教学对话的原始问题链，说明设计原则/模式如何映射到 Iceberg Model，并区分信息流与状态流转。
 - 已捕获 [[wiki/sources/综合调研 在没有教科书的地方挖掘真知 Source Guide|综合调研：在没有教科书的地方挖掘真知 Source Guide]]：保存一篇中文文章对综合调研的分层说明——定位式调研读懂对象，结构化调研读懂争论，生成式调研读出新问题。
@@ -44,7 +45,7 @@ updated: 2026-05-15T20:50:29+08:00
 - 财富创造现在加入了稳态生存逻辑的反面：匮乏、强从众和简单模型曾经适合低波动生存，但在高波动世界会限制能动性、反馈速度和乘法世界入口。
 - 财富创造现在加入了重尾世界观：极端值、正反馈、复利和乘法世界解释了为什么可复制资产、声望、资本、网络效应和个人品牌会改变职业上限。
 - 学习与认知现在加入了叙事线索：事实只有被选择、排序，并绑定成能指导预测、意义、协调和行动的因果故事后，才真正变得可用。
-- 学习与认知现在加入“表征—图式—心智模型—解释框架”线索：学习不是收藏信息，而是把材料压缩成可识别、可推演、可迁移、可判断的内在地图。
+- 学习与认知现在加入“表征—图式—心智模型—解释框架”线索：学习不是收藏信息，而是把材料压缩成可识别、可推演、可迁移、可判断的内在地图；QA 提取链进一步把这条线索压成可复述的问题路径。
 - Learning cognition now has an ICAP-and-cognitive-load thread: instruction should manage working-memory bandwidth, then push learners from passive reception toward construction and interactive correction when prior knowledge allows.
 - Company brain is now represented as an enterprise memory-and-action substrate: factual memory, interaction memory, action memory, context graph reasoning, and governed action must integrate before agents can safely operate on company reality. The latest state-substrate layer clarifies that these memories must be three views of one inspectable, correctable, permissioned state rather than separate tool-local services.
 - Systems thinking now has an explicit iceberg-model thread: recurring problems should be traced from visible events to patterns, structures, mental models, and leverage points before choosing interventions.

@@ -187,3 +187,4 @@ tags:
 - [2026-05-15T20:43:09+0800] QUERY query="信息流和状态流转的区别是什么" result_pages=5 mode=normal escalated=false
 - [2026-05-15T20:48:22+0800] CAPTURE type=source page="wiki/sources/设计模式 设计原则与系统思维 Source Guide.md" title="设计模式、设计原则与系统思维 Source Guide"
 - [2026-05-15T20:53:47+0800] CAPTURE type=synthesis page="wiki/syntheses/软件设计作为系统诊断.md" title="软件设计作为系统诊断"
+- [2026-05-15T20:56:12+08:00] UPDATE type=source page="wiki/sources/表征 图式 心智模型和解释框架 Source Guide.md" reason="append ljg-qa extraction chain generated from the learning compression source guide"
