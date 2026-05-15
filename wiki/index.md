@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-15T21:33:01+08:00
+updated: 2026-05-15T22:34:43+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -188,6 +188,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 
 ## Syntheses
 - [[wiki/syntheses/软件设计作为系统诊断|软件设计作为系统诊断]] — 软件设计可以被看作系统诊断：从代码事件下潜到重复模式、生成结构和心智模型，再用原则、模式、信息流和状态流转定位高杠杆改造点。 (#software-engineering #architecture #systems #thinking #mechanism)
+- [[wiki/syntheses/信息流与状态流转设计原则]] — 信息流设计回答事实如何传播、被谁相信并影响判断；状态流转设计回答对象如何沿合法路径变化、保持不变量并在失败后恢复。 (#software-engineering #architecture #systems #feedback #mechanism)
 - [[wiki/syntheses/Quality Engineering Three Generators|Quality Engineering Three Generators]] — 质量工程可以压缩为三根生成器：承诺清楚、偏差显形、修正闭环；行业实践分别落在规格契约、测试监控和复盘改进上。 (#software-engineering #testing #requirements #feedback)
 - [[wiki/syntheses/Requirements Expression Beyond Use Cases|Requirements Expression Beyond Use Cases]] — 用例适合捕获系统对外行为；其他需求应按质量属性、约束、业务规则、数据、界面、集成和运维关注点分别表达。 (#requirements #software-engineering #architecture)
 - [[wiki/syntheses/Use Cases as AI Coding Traceability Anchors|Use Cases as AI Coding Traceability Anchors]] — 用例在 AI 编程中的核心价值，是把业务目标、系统边界、模块职责、代码位置和验收标准串成可执行追踪链。 (#requirements #ai-coding #software-engineering #architecture #testing)
@@ -211,6 +212,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/不确定性下的判断|不确定性下的判断]] — 这页尝试把 Problem Framing 、 Mental Models 、 Probability 、 Critical Thinking 串成一个更高层的判断框架：很多真正重要的决策，并不是在确定条件下做出的，而是在信息不全、对象不稳、反馈滞后时被迫推进的。 (#synthesis #thinking #judgment #decision-making)
 
 ## Sources
+- [[wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide|配置 钩子 代码库与技能放置决策 Source Guide]] — 这页保存一棵判断树：固定指令、可靠自动化、代码库规范和手动技能分别应该放在哪里。 (#agents #harness #skills #llm-wiki)
 - [[wiki/sources/Agent Engineering Source Guide|Agent Engineering Source Guide]] — 这页用于收拢“agent engineering / harness / workflow”这一类更偏工程综述与系统实践的来源材料。 (#agents #engineering #harness)
 - [[wiki/sources/Agent Harness Anatomy Source Guide|Agent Harness Anatomy Source Guide]] — Source guide for Akshay Pachaar's agent harness thread, focused on the 12-component harness model and architecture decisions. (#agents #harness #architecture)
 - [[wiki/sources/Agent Harness Engineering Source Guide|Agent Harness Engineering Source Guide]] — Source guide for Addy Osmani's Agent Harness Engineering article, focused on harnesses as configurable runtimes, failure ratchets, and service APIs. (#agents #harness #engineering)
@@ -229,6 +231,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Analysis Concept Anatomy Source Guide|Analysis Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on analysis as reversible decomposition into actionable structure. (#thinking #concepts)
 - [[wiki/sources/Application Concept Anatomy Source Guide|Application Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on application as contextual fit turning abstraction into effect. (#thinking #concepts)
 - [[wiki/sources/Before the Tool Call Source Guide|Before the Tool Call Source Guide]] — 这篇 arXiv 论文更适合作为单篇 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#paper #arxiv #agents #authorization #security)
+- [[wiki/sources/Chatham House Rule Source Guide|Chatham House Rule Source Guide]] — Source guide for Chatham House’s official meeting rule that separates usable information from speaker attribution. (#article #management #organization #judgment)
 - [[wiki/sources/Claude Code Skills Source Guide|Claude Code Skills Source Guide]] — Source guide for Thariq Shihipar's Claude Code skills article, focused on skills as capability bundles, categories, gotchas, disclosure, hooks, and distribution. (#agents #skills #claude-code)
 - [[wiki/sources/Coding with AI Source Guide|Coding with AI Source Guide]] — Source guide for Chris Parsons' 2026 Coding with AI article, focused on agentic engineering, trainer roles, harnesses, context resets, and verification bottlenecks. (#ai-coding #agents #harness)
 - [[wiki/sources/Compounding Engineering Source Guide]] — Source guide for an Every article arguing that AI coding compounds when reviews, failures, tests, and workflow lessons update durable context, evals, agents, and harness defaults. (#article #ai-coding #agents #harness #feedback)
@@ -263,6 +266,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Journals|Journals Source Guide]] — journals/ 是当前 vault 的时间流输入层。它们不应直接承担稳定知识页职责，但应该持续为 wiki/ 提供可回溯的来源。 (#journals #raw)
 - [[wiki/sources/Life of a Token Source Guide|Life of a Token Source Guide]] — Source guide for the Life of a Token article, focused on the next-token path through tokenization, embeddings, attention, FFN, residual stream, sampling, cache, and GPU limits. (#llm #inference #transformer)
 - [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide|LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]] — 这篇 arXiv 论文更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#paper #arxiv #reasoning #llm)
+- [[wiki/sources/LLM Wiki Source Guide]] — Source guide for Karpathy's LLM Wiki idea file: a persistent, LLM-maintained Markdown wiki that compiles raw sources into cumulative, cross-linked knowledge. (#article #llm #agents #memory #llm-wiki)
 - [[wiki/sources/Lost in the Middle Paper Source Guide|Lost in the Middle Paper Source Guide]] — Source guide for the Lost in the Middle paper, focused on long-context positional bias and evaluation protocols for usable context. (#paper #llm #context #evaluation)
 - [[wiki/sources/Managed Agents Source Guide|Managed Agents Source Guide]] — 这篇 Anthropic engineering article 更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#agents #harness #anthropic)
 - [[wiki/sources/Memory Is State Not a Service Source Guide|Memory Is State Not a Service Source Guide]] — Source guide for NanoThoughts' Company Brain article arguing that memory must be shared inspectable state, not isolated tool-local memory services. (#article #agents #memory #organization)

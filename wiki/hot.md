@@ -1,17 +1,21 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity appended a QA extraction chain to the learning compression source guide while preserving recent software-design diagnosis captures.
+summary: Recent wiki activity captured the Chatham House Rule as a meeting protocol that protects attribution while allowing information use.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-15T20:56:12+08:00
+updated: 2026-05-15T22:36:42+08:00
 ---
 
 ## Recent Activity
+- Captured [[wiki/sources/Chatham House Rule Source Guide|Chatham House Rule Source Guide]]: Chatham House Rule separates information use from speaker attribution, creating a meeting protocol for candid discussion without turning all content into total secrecy.
+- 2026-05-15T22:33:09+08:00 — Captured [[wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide|配置/钩子/代码库/技能放置决策]] as a source guide for deciding whether a behavior belongs in config, hook, codebase, or skill.
+- Captured [[wiki/sources/LLM Wiki Source Guide]]: Karpathy's LLM Wiki pattern frames personal/team knowledge bases as persistent Markdown artifacts compiled by an LLM from raw sources, with schema-guided ingest, query, lint, index, and log operations.
+- 已新增 [[wiki/syntheses/信息流与状态流转设计原则]]：把命令、事件、状态、查询、状态机、CQRS、事件驱动、Saga、Outbox/Inbox 和幂等补偿整理成一套软件运行时结构设计原则。
 - 已更新 [[wiki/sources/表征 图式 心智模型和解释框架 Source Guide|表征、图式、心智模型和解释框架 Source Guide]]：追加 `ljg-qa` 问答提取链，把“学习即压缩”的论证拆成从故事为何不够学，到 AI 如何帮而不害，再到读完应追问可迁移结构的 9 个问题。
 - 已新增 [[wiki/syntheses/软件设计作为系统诊断]]：把设计原则、设计模式、Iceberg Model、信息流和状态流转综合成一套软件设计诊断框架，从代码事件下潜到结构和杠杆点。
 - 已捕获 [[wiki/sources/设计模式 设计原则与系统思维 Source Guide|设计模式、设计原则与系统思维 Source Guide]]：保留一段中文教学对话的原始问题链，说明设计原则/模式如何映射到 Iceberg Model，并区分信息流与状态流转。
@@ -30,6 +34,8 @@ updated: 2026-05-15T20:56:12+08:00
 - 已扩展 [[wiki/concepts/Agent]]、[[wiki/topics/AI Harness]] 与 [[wiki/syntheses/Agent System Design Space]]：强化“agent = governed control loop”而不是“model + tools”的系统视角。
 ## Active Threads
 
+- LLM Wiki now has a primary-source guide: raw sources remain immutable, the LLM-maintained wiki becomes the compiled knowledge layer, and schema/index/log files turn knowledge maintenance into an agent workflow.
+- 软件设计与系统思维现在进一步分出运行时结构线索：信息流解决事实传播和可信来源，状态流转解决合法迁移、不变量、一致性、幂等和补偿。
 - 综合调研现在补强了学习与知识体系主线：知识工作者要从标准答案转向半熟知识，通过定位式、结构化和生成式调研，把材料之间的关系写成可行动判断。
 - 知识体系构建现在有一条知识管理线索：个人 wiki 不只是资料仓库，而是经历、概念、链接、复用、输出和审计组成的持续认知系统。
 - Agent memory now has a circuit-diagnosis thread: end-to-end memory accuracy hides whether failure happened in Write, Manage, or Read; stage-local internal signatures may turn memory observability from logs into operation-level diagnosis.
@@ -86,6 +92,9 @@ updated: 2026-05-15T20:56:12+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- Chatham House Rule is an attribution-control mechanism: information may circulate, but names, affiliations, and identifying details should not; this changes speech incentives and feedback quality in sensitive meetings.
+- LLM Wiki differs from ordinary RAG by compiling source knowledge into a maintained Markdown layer: cross-references, contradictions, summaries, and syntheses are updated once and reused, instead of being rediscovered on every query.
+- 信息流与状态流转设计的核心区分是：命令表达意图，事件表达事实，状态表达结果，查询表达读取；状态不应被随意赋值，而应通过合法迁移、幂等、一致性边界和审计记录推进。
 - AI 编程中的用例价值在于 traceability spine：业务用例帮助识别跨系统边界，系统用例定义待开发系统的行为契约，用例规约提供行为细节，代码映射表帮助定位文件，验收测试证明修改正确。
 - Use Case 管用户目标与系统行为；UI、API、数据库、测试和任务拆分管这个行为如何可见、可调用、可执行、可持久化和可验证。
 - 用例表达的是执行者与系统之间一次可完成的价值交换；不能构成交换的需求，应按质量属性、约束、业务规则、数据、界面、集成和运维治理分别选择可验证表达形式。

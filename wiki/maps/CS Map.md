@@ -10,7 +10,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 5
-updated: 2026-05-13T23:20:00+08:00
+updated: 2026-05-15T21:04:58+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -54,6 +54,7 @@ tags:
 - [[wiki/topics/Frontend Development Workflow]]
 - [[wiki/topics/Testing Strategy]]
 - [[wiki/syntheses/Quality Engineering Three Generators]]
+- [[wiki/syntheses/信息流与状态流转设计原则]]
 - [[wiki/topics/Testing Purpose]]
 - [[wiki/topics/Problem Framing]]
 - [[wiki/topics/Spec-Driven Development]]

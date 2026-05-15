@@ -42,6 +42,7 @@ These tags are intentionally not used as ordinary content tags because they crea
 - `training` — pretraining, SFT, RL, data, and alignment stages.
 - `tools` — agent tool surfaces, routing, selection, and action space.
 - `skills` — reusable agent skill/workflow bundles.
+- `llm-wiki` — LLM-maintained Markdown wiki architecture, source capture, index/log/hot workflows, and durable knowledge compilation.
 
 ## Source-kind tags
 

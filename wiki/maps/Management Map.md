@@ -12,7 +12,7 @@ base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-05-10T22:20:21+08:00
+updated: 2026-05-15T22:36:42+08:00
 aliases:
   - 管理地图
 tags:
@@ -52,6 +52,7 @@ tags:
 
 ## Source layer
 
+- [[wiki/sources/Chatham House Rule Source Guide]]
 - [[wiki/sources/Mobu Notes]]
 - [[wiki/sources/How to Get Rich Source Guide]]
 - [[wiki/sources/Heavy-Tailed World Source Guide]]

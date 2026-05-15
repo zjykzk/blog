@@ -16,7 +16,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 2
-updated: 2026-05-13T10:38:00+08:00
+updated: 2026-05-15T22:33:09+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -134,6 +134,7 @@ tags:
 - [[wiki/sources/Claude Code Skills Source Guide]]
 - [[wiki/sources/Seeing Like an Agent Source Guide]]
 - [[wiki/sources/vLLM Inference Systems Source Guide]]
+- [[wiki/sources/LLM Wiki Source Guide]]
 - [[wiki/sources/Life of a Token Source Guide]]
 - [[wiki/sources/Harness Engineering Source Guide]]
 - [[wiki/sources/ADK Skill Design Patterns Source Guide]]
@@ -167,3 +168,6 @@ tags:
 
 - 把 skills 相关内容继续拆成 method / workflow / harness 等更细的主题页。
 - 从 journals 中抽取稳定判断，回填到 topic / concept 页面。
+
+## Source Guides
+- [[wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide|配置/钩子/代码库/技能放置决策]] — 判断一个行为应放进项目配置、hook、代码库还是 skill。
