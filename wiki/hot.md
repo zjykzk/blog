@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured the Chatham House Rule as a meeting protocol that protects attribution while allowing information use.
+summary: Recent wiki activity captured a roundtable on clear expression as a relation-specific way to make understanding usable, checkable, and accountable.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-15T22:36:42+08:00
+updated: 2026-05-15T23:34:56+08:00
 ---
 
 ## Recent Activity
+- 已捕获 [[wiki/sources/表达清晰圆桌 Source Guide|表达清晰圆桌 Source Guide]]：这次圆桌把表达清晰定义为在当前关系中让该被理解的东西以合适方式被理解，并让误解、错误和责任有机会被发现。
 - Captured [[wiki/sources/Chatham House Rule Source Guide|Chatham House Rule Source Guide]]: Chatham House Rule separates information use from speaker attribution, creating a meeting protocol for candid discussion without turning all content into total secrecy.
 - 2026-05-15T22:33:09+08:00 — Captured [[wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide|配置/钩子/代码库/技能放置决策]] as a source guide for deciding whether a behavior belongs in config, hook, codebase, or skill.
 - Captured [[wiki/sources/LLM Wiki Source Guide]]: Karpathy's LLM Wiki pattern frames personal/team knowledge bases as persistent Markdown artifacts compiled by an LLM from raw sources, with schema-guided ingest, query, lint, index, and log operations.
@@ -92,6 +93,7 @@ updated: 2026-05-15T22:36:42+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- 表达清晰不是“立刻懂”或“说得顺”，而是在特定场景、目的、时间压力和责任关系中，让相关的人以合理成本形成足以感受、判断、行动、追问或校验的理解，同时不故意遮蔽事实、责任、边界和复杂性。
 - Chatham House Rule is an attribution-control mechanism: information may circulate, but names, affiliations, and identifying details should not; this changes speech incentives and feedback quality in sensitive meetings.
 - LLM Wiki differs from ordinary RAG by compiling source knowledge into a maintained Markdown layer: cross-references, contradictions, summaries, and syntheses are updated once and reused, instead of being rediscovered on every query.
 - 信息流与状态流转设计的核心区分是：命令表达意图，事件表达事实，状态表达结果，查询表达读取；状态不应被随意赋值，而应通过合法迁移、幂等、一致性边界和审计记录推进。

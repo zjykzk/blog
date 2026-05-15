@@ -14,7 +14,7 @@ created: 2026-04-26
 base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-13T11:18:00+08:00
+updated: 2026-05-15T23:34:56+08:00
 aliases:
   - 学习地图
 provenance:
@@ -59,6 +59,7 @@ provenance:
 - [[wiki/sources/NotebookLM Learning Workflow Source Guide]]——Ihtesham Ali 的 NotebookLM 学习 workflow source guide
 - [[wiki/sources/Understanding as Concept Cloud Source Guide]]——理解之云 inline source guide
 - [[wiki/sources/思维圆桌 Source Guide]]——关于思维定义、高阶审题、问题表征、语言陷阱和责任判断的圆桌材料
+- [[wiki/sources/表达清晰圆桌 Source Guide]]——关于表达清晰、理解路径、反自欺、复杂性、责任链和可检验性的圆桌材料
 - [[wiki/sources/深度思考与高阶思维对话 Source Guide]]——当前对话中关于审题、下钻、本质句、前置知识和七天训练法的 source 层材料
 - [[wiki/sources/Creation Concept Anatomy Source Guide]]——创造概念解剖 source guide
 - [[wiki/sources/How People Learn Transfer Source Guide]]——学习迁移与应用的外部来源

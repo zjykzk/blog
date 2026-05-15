@@ -194,3 +194,4 @@ tags:
 - [2026-05-15T21:35:01+08:00] LINT_FIX broken_count=0 selflink_count=0 orphan_count=0 stale=0 visibility_issues=0 prov_issues=0 files_modified=27
 - [2026-05-15T22:33:09+08:00] CAPTURE type=source page="wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide.md" title="配置 钩子 代码库与技能放置决策 Source Guide"
 - [2026-05-15T22:36:42+08:00] CAPTURE type=source page="wiki/sources/Chatham House Rule Source Guide.md" title="Chatham House Rule Source Guide"
+- [2026-05-15T23:34:56+08:00] CAPTURE type=source page="wiki/sources/表达清晰圆桌 Source Guide.md" title="表达清晰圆桌 Source Guide"
