@@ -69,6 +69,10 @@ For direct PDF paper links, follow `references/pdf-paper-source-capture.md`: dow
 
 When the user pastes a complete web article, blog post, essay, newsletter, or practitioner report directly into chat, default to a detailed `source` guide unless the conversation itself adds substantial independent synthesis. Preserve the article's argument flow, opening anecdote, named method, examples, playbook, reported metrics, and closing recommendations. In `Integration Decisions`, separate source-reported claims (especially productivity metrics or company-specific outcomes) from stable wiki concepts, and prefer linking to existing concepts/topics/syntheses rather than creating a duplicate concept page for a memorable phrase. Follow `references/article-source-capture.md` for the compact pattern.
 
+### Direct URL source-capture pattern
+
+When the user invokes wiki-capture with a plain URL, fetch the URL with a tool and preserve the fetched artifact as source-level material rather than reconstructing it from memory or from existing wiki pages. Search for exact title, URL, author, and central phrases before writing. If an existing source guide covers a secondary explanation, commentary, or comparative interpretation of the same object, create a companion primary-source guide and cross-link the layers instead of overwriting or collapsing them. Include the fetched URL in frontmatter `sources:` and in the `> Source:` line, update taxonomy if an already-used tag is missing, and update the relevant map as well as `index.md`, `log.md`, and `hot.md`. Follow `references/direct-url-source-capture.md` for the detailed pattern.
+
 ### X article fallback and existing-page expansion pattern
 
 When the capture target is an X/Twitter article or long post, prefer the normal authenticated X tool path if available. If `xurl` is missing, unauthenticated, rate-limited, or incomplete, use the browser-rendered page: extract `article.innerText`, inspect `pbs.twimg.com/media/...` images with OCR/vision when they contain diagrams, and preserve the diagrams/tables in the source guide. See `references/x-article-capture-fallback.md` for the detailed fallback. If a source guide for the same X URL already exists, expand or correct that page rather than creating a duplicate; then update `index.md`, `log.md`, `hot.md`, and the relevant map as an update.
@@ -90,6 +94,8 @@ This pattern is especially useful for Chinese conceptual explorations such as �
 When a wiki-query or teaching exchange develops through several user follow-up questions into a coherent tutorial, capture the durable explanation even if no external source was pasted. Default to a `source` guide when the value is the teaching sequence itself: concrete examples, mental models, contrasts, and common misconceptions.
 
 Use this especially when adjacent source guides already exist but the conversation fills a missing layer. For example, after React Hooks source guides, a follow-up exchange about component lifecycle should become a companion source guide that preserves mount, render/update, unmount, key identity, and effect cleanup as a reusable explanation rather than overwriting the existing hooks pages.
+
+If the user asks to “保留原始记录”, “保留原始问题链”, “keep the original record”, or similar during a conversational teaching capture, preserve a compact source-level record inside the note before the polished structure: include the exact question ladder, the central answer spine for each turn, and any memorable comparison tables or minimal diagrams. Do not dump the whole transcript, but do not flatten the teaching sequence into only a synthesis either.
 
 Follow `references/conversational-teaching-follow-up-capture.md` for the compact pattern. If preceding wiki-query answers already appended `QUERY` entries to `log.md`, leave them and append the `CAPTURE` entry afterward; they are part of the same knowledge flow, not noise to delete.
 
@@ -294,6 +300,8 @@ Type: synthesis
 - `references/verification-pattern.md` — lightweight verification pattern for frontmatter, taxonomy tags, wikilinks, tracking files, and map coverage.
 - `references/conversational-teaching-follow-up-capture.md` — pattern for turning multi-turn explanatory follow-ups after wiki-query into companion source guides without flattening them into short summaries.
 - `references/article-source-capture.md` — pattern for preserving pasted web articles, essays, newsletters, and practitioner reports as detailed source guides while keeping metrics and single-source claims source-level.
+- `references/direct-url-source-capture.md` — pattern for capturing a plain URL by fetching the primary source, preserving source-level structure, distinguishing primary versus secondary source guides, updating taxonomy/map/tracking files, and verifying the capture.
+- `references/access-blocked-url-capture.md` — fallback for URL captures blocked by Cloudflare, bot detection, timeouts, or otherwise inaccessible bodies; use official snippets/metadata only with explicit access-limit disclosure and lower confidence.
 - `references/pdf-paper-source-capture.md` — fallback workflow for direct PDF paper/report captures, including temp-venv `pypdf` extraction when `pdfinfo`/`pdftotext` are unavailable or Python is PEP-668 managed.
 - `references/inline-tutorial-source-capture.md` — pattern for preserving inline tutorials, walkthroughs, code explanations, and comparison tables as source-layer artifacts, especially when the user says “不用翻译”.
 - `references/long-course-source-capture.md` — pattern for preserving long pasted course chapters, lecture notes, architecture-methodology lessons, and workshop handouts without reducing them to a short digest.
