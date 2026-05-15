@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured a source guide on 综合调研 as learning beyond textbooks through positioning, structured, and generative research.
+summary: Recent wiki activity added a synthesis framing software design as systems diagnosis across code events, recurring patterns, structures, mental models, information flow, and state transition.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-14T12:32:46+08:00
+updated: 2026-05-15T20:50:29+08:00
 ---
 
 ## Recent Activity
+- 已新增 [[wiki/syntheses/软件设计作为系统诊断]]：把设计原则、设计模式、Iceberg Model、信息流和状态流转综合成一套软件设计诊断框架，从代码事件下潜到结构和杠杆点。
+- 已捕获 [[wiki/sources/设计模式 设计原则与系统思维 Source Guide|设计模式、设计原则与系统思维 Source Guide]]：保留一段中文教学对话的原始问题链，说明设计原则/模式如何映射到 Iceberg Model，并区分信息流与状态流转。
 - 已捕获 [[wiki/sources/综合调研 在没有教科书的地方挖掘真知 Source Guide|综合调研：在没有教科书的地方挖掘真知 Source Guide]]：保存一篇中文文章对综合调研的分层说明——定位式调研读懂对象，结构化调研读懂争论，生成式调研读出新问题。
 - 已更新 [[wiki/sources/表征 图式 心智模型和解释框架 Source Guide|表征、图式、心智模型和解释框架 Source Guide]]：补充 AI 学习流程的保持策略——先用 AI 高压缩建地图，再用原文锚点、主动回忆、间隔复习、输出迁移和错误反馈把结构变成长期知识。
 - 已新增 [[wiki/syntheses/Use Cases as AI Coding Traceability Anchors|Use Cases as AI Coding Traceability Anchors]]：把用例定位为 AI 编程中的追踪锚点，从业务目标、系统边界、系统用例和用例规约一路连接到模块职责、代码位置和测试验收。
@@ -46,6 +48,8 @@ updated: 2026-05-14T12:32:46+08:00
 - Learning cognition now has an ICAP-and-cognitive-load thread: instruction should manage working-memory bandwidth, then push learners from passive reception toward construction and interactive correction when prior knowledge allows.
 - Company brain is now represented as an enterprise memory-and-action substrate: factual memory, interaction memory, action memory, context graph reasoning, and governed action must integrate before agents can safely operate on company reality. The latest state-substrate layer clarifies that these memories must be three views of one inspectable, correctable, permissioned state rather than separate tool-local services.
 - Systems thinking now has an explicit iceberg-model thread: recurring problems should be traced from visible events to patterns, structures, mental models, and leverage points before choosing interventions.
+- 软件设计与系统思维现在有一条桥接线索：设计模式更接近 Iceberg Model 的模式层，设计原则更接近结构层判断；信息流处理事实如何变成可用认知，状态流转处理对象如何沿时间合法变化。
+- 软件设计作为系统诊断的可操作顺序是：先识别代码事件，再判断是否有重复模式，再用设计原则诊断生成结构，最后在边界、依赖、信息流、状态流转和反馈回路上寻找杠杆点。
 - Software methodology is converging around the handoff from business modeling to analysis, architecture knowledge models, application/data/technology architecture, implementation consistency, and executable design.
 - Frontend knowledge is forming around React as a coordination model for declarative rendering, component boundaries, and state.
 - AI / Agent skills 现在加入 SkillOS 线索：skill repository 可以被训练过的 Curator 当作持久记忆来管理；论文层进一步说明关键训练装置是相关任务分组、复合奖励、GRPO rollout 之间的 repository path 比较，以及对 insert/update/delete 操作的长期信用分配。
@@ -173,5 +177,7 @@ updated: 2026-05-14T12:32:46+08:00
 - Knowledge types classify what knowledge does; Bloom's taxonomy classifies how deeply a learner can work with that knowledge.
 - Judgment knowledge is not more facts; it is the ability to decide which facts should matter for a decision.
 - ICAP 适合诊断学习动作的深度：事实知识不必强行互动，概念和因果知识需要建构，程序知识还要刻意练习，判断和情境知识更依赖案例、互动与现实反馈。
+- 设计原则与设计模式可以放进 Iceberg Model 诊断：事件层看到某段代码用了什么模式，模式层看到反复设计问题，结构层用原则判断职责/边界/依赖/流转，心智模型层追问设计者相信什么是好软件。
+- 信息流与状态流转的最小区别是：信息流让事实被观察、传递、理解并影响判断；状态流转让对象从状态 A 经规则触发变成状态 B 并保持不变量。
 
 ## Flagged Contradictions

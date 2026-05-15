@@ -186,6 +186,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Workflow Graph Orchestration|Workflow Graph Orchestration]] — Workflow Graph Orchestration models agent work as explicit state-machine or graph traversal so control, persistence, guard nodes, and recovery stay inspectable. (#agents #orchestration #workflow)
 
 ## Syntheses
+- [[wiki/syntheses/软件设计作为系统诊断|软件设计作为系统诊断]] — 软件设计可以被看作系统诊断：从代码事件下潜到重复模式、生成结构和心智模型，再用原则、模式、信息流和状态流转定位高杠杆改造点。 (#software-engineering #architecture #systems #thinking #mechanism)
 - [[wiki/syntheses/Quality Engineering Three Generators|Quality Engineering Three Generators]] — 质量工程可以压缩为三根生成器：承诺清楚、偏差显形、修正闭环；行业实践分别落在规格契约、测试监控和复盘改进上。 (#software-engineering #testing #requirements #feedback)
 - [[wiki/syntheses/Requirements Expression Beyond Use Cases|Requirements Expression Beyond Use Cases]] — 用例适合捕获系统对外行为；其他需求应按质量属性、约束、业务规则、数据、界面、集成和运维关注点分别表达。 (#requirements #software-engineering #architecture)
 - [[wiki/syntheses/Use Cases as AI Coding Traceability Anchors|Use Cases as AI Coding Traceability Anchors]] — 用例在 AI 编程中的核心价值，是把业务目标、系统边界、模块职责、代码位置和验收标准串成可执行追踪链。 (#requirements #ai-coding #software-engineering #architecture #testing)
@@ -255,6 +256,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/How LLMs Actually Work Source Guide|How LLMs Actually Work Source Guide]] — Source guide for an interactive walkthrough of the LLM pipeline, from web data and tokenization through pretraining, post-training, RAG, and security. (#llm #transformer #security)
 - [[wiki/sources/How to Use LLMs Source Guide|How to Use LLMs Source Guide]] — Source guide for Karpathy's practical LLM-use walkthrough: model choice, search, deep research, documents, code, agents, voice, vision, and memory. (#llm #workflow #tools)
 - [[wiki/sources/Iceberg Model Source Guide|Iceberg Model Source Guide]] — Source guide for the Donella Meadows Iceberg Model PDF, preserving provenance limits and routing its visual systems-thinking frame into concept pages. (#systems-thinking #mental-models)
+- [[wiki/sources/设计模式 设计原则与系统思维 Source Guide|设计模式、设计原则与系统思维 Source Guide]] — 保存一段中文教学对话，保留设计模式/设计原则、Iceberg Model、信息流与状态流转之间关系的原始问题链和结构化解释。 (#software-engineering #architecture #systems #thinking #mechanism)
 - [[wiki/sources/架构文档与图示之道 Source Guide|架构文档与图示之道 Source Guide]] — 这页保存一份中文架构文档与图示教程，强调按受众分层、用 C4/UML/ADR 和 Docs as Code 传递架构设计思想。 (#article #software-engineering #architecture #management)
 - [[wiki/sources/架构师启示录 Source Guide]] — 这页保存《架构师启示录》相关幕布读书笔记，重点是架构认知框架、知识模型、落地方法、实现与维护。 (#book-notes #architecture #software-engineering)
 - [[wiki/sources/Journals|Journals Source Guide]] — journals/ 是当前 vault 的时间流输入层。它们不应直接承担稳定知识页职责，但应该持续为 wiki/ 提供可回溯的来源。 (#journals #raw)

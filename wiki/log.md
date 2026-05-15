@@ -182,3 +182,8 @@ tags:
 - [2026-05-14T11:07:48+08:00] UPDATE type=source page="wiki/sources/表征 图式 心智模型和解释框架 Source Guide.md" reason="add applicability boundary across theory, judgment, procedural, factual, perceptual, and experiential learning materials"
 - [2026-05-14T12:00:10+08:00] UPDATE type=source page="wiki/sources/表征 图式 心智模型和解释框架 Source Guide.md" reason="add AI learning flow for balancing high compression with long-term retention, recall, spacing, application, and feedback"
 - [2026-05-14T12:32:46+08:00] CAPTURE type=source page="wiki/sources/综合调研 在没有教科书的地方挖掘真知 Source Guide.md" title="综合调研：在没有教科书的地方挖掘真知 Source Guide"
+- [2026-05-15T17:48:18+0800] QUERY query="设计模式和设计原则区别" result_pages=4 mode=normal escalated=false
+- [2026-05-15T20:33:52+0800] QUERY query="设计模式和设计原则区别与 Iceberg Model 的联系" result_pages=4 mode=normal escalated=false
+- [2026-05-15T20:43:09+0800] QUERY query="信息流和状态流转的区别是什么" result_pages=5 mode=normal escalated=false
+- [2026-05-15T20:48:22+0800] CAPTURE type=source page="wiki/sources/设计模式 设计原则与系统思维 Source Guide.md" title="设计模式、设计原则与系统思维 Source Guide"
+- [2026-05-15T20:53:47+0800] CAPTURE type=synthesis page="wiki/syntheses/软件设计作为系统诊断.md" title="软件设计作为系统诊断"
