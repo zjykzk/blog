@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-15T22:36:42+08:00
+updated: 2026-05-17T22:18:34+08:00
 aliases:
   - Wiki Log
 tags:
@@ -195,3 +195,4 @@ tags:
 - [2026-05-15T22:33:09+08:00] CAPTURE type=source page="wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide.md" title="配置 钩子 代码库与技能放置决策 Source Guide"
 - [2026-05-15T22:36:42+08:00] CAPTURE type=source page="wiki/sources/Chatham House Rule Source Guide.md" title="Chatham House Rule Source Guide"
 - [2026-05-15T23:34:56+08:00] CAPTURE type=source page="wiki/sources/表达清晰圆桌 Source Guide.md" title="表达清晰圆桌 Source Guide"
+- [2026-05-17T22:18:34+08:00] CAPTURE type=source page="wiki/sources/Structured-Prompt-Driven Development Source Guide.md" title="Structured-Prompt-Driven Development Source Guide"

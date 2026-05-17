@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-15T22:34:43+08:00
+updated: 2026-05-17T22:18:34+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -295,6 +295,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Simon Sciences of the Artificial Source Guide|Simon Sciences of the Artificial Source Guide]] — Source guide for Simon's design theory, grounding design in changing existing situations into preferred ones. (#design #systems #action)
 - [[wiki/sources/Software Methodology by Pan Jianyu|Software Methodology by Pan Jianyu]] — 这页收纳《软件方法》相关的阅读入口与当前已经稳定下来的判断。
 - [[wiki/sources/Spec-Driven Development Paper Source Guide|Spec-Driven Development Paper Source Guide]] — 这篇论文是 Deepak Babu Piskala 投稿 AIWare 2026 的 practitioner guide，把 SDD 这波被 AI coding assistant 重新点燃的旧想法梳理成三档光谱 + 四阶段流水线 + 决策框架。8 页，3 张图，零量化实验。 (#software-engineering #specs #ai-coding #paper)
+- [[wiki/sources/Structured-Prompt-Driven Development Source Guide|Structured-Prompt-Driven Development Source Guide]] — Source guide for Thoughtworks' SPDD article, preserving REASONS Canvas, prompt/code sync workflow, billing example, fit boundaries, and Q&A caveats. (#article #software-engineering #ai-coding #architecture #testing)
 - [[wiki/sources/Skills-Coach Paper Source Guide|Skills-Coach Paper Source Guide]] — Source guide for the Skills-Coach paper, focused on automated skill boundary probing, training-free GRPO optimization, comparative execution, and Skill-X evaluation. (#paper #arxiv #agents #skills)
 - [[wiki/sources/SkillOS Paper Source Guide]] — Direct paper guide for SkillOS, preserving its formal streaming curation setting, grouped-task GRPO recipe, benchmark results, analyses, limitations, and future directions. (#paper #arxiv #agents #skills #training)
 - [[wiki/sources/SkillOS Source Guide]] — Source guide for AVB's SkillOS article: experiences become reusable skills through a trainable curator, grouped task rollouts, and delayed RL rewards. (#article #agents #skills #memory #training)

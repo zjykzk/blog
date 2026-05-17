@@ -10,7 +10,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 5
-updated: 2026-05-15T21:04:58+08:00
+updated: 2026-05-17T22:18:34+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -80,6 +80,7 @@ tags:
 - [[wiki/sources/React Component Lifecycle Source Guide]]
 - [[wiki/sources/React Hooks useRef useContext useMemo Source Guide]]
 - [[wiki/sources/React Hooks useState useEffect Source Guide]]
+- [[wiki/sources/Structured-Prompt-Driven Development Source Guide]]
 - `content/posts/cs/arch/arch.md`
 - `content/posts/cs/dist/circuit-breaker.md`
 - `content/posts/cs/golang/go-memory-model.md`
