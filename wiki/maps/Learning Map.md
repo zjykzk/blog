@@ -14,7 +14,7 @@ created: 2026-04-26
 base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-15T23:34:56+08:00
+updated: 2026-05-17T08:39:47+08:00
 aliases:
   - 学习地图
 provenance:
@@ -53,6 +53,7 @@ provenance:
 - [[wiki/syntheses/ICAP 与知识类型的适用边界]]——把 ICAP 定位为学习深度刻度，而不是所有知识的同一种学习处方，并区分事实、概念、因果、程序、判断和情境知识的用法
 - [[wiki/syntheses/Application and Creation Distinction]]——用学习理论、创造力研究、设计理论和实用主义加固“应用/创造”的边界
 - [[wiki/syntheses/深度思考 高阶思维与本质理解]]——把高阶审题、深度下钻、本质句和现实校验组织成一套可执行思考训练框架
+- [[wiki/syntheses/成就感驱动与行动动力结构]]——把成就感放进行动奖励、反馈周期、价值感外包和内核奖励函数的结构里理解
 
 ## 相关源笔记（pages/ 与 mobu/）
 
@@ -60,6 +61,7 @@ provenance:
 - [[wiki/sources/Understanding as Concept Cloud Source Guide]]——理解之云 inline source guide
 - [[wiki/sources/思维圆桌 Source Guide]]——关于思维定义、高阶审题、问题表征、语言陷阱和责任判断的圆桌材料
 - [[wiki/sources/表达清晰圆桌 Source Guide]]——关于表达清晰、理解路径、反自欺、复杂性、责任链和可检验性的圆桌材料
+- [[wiki/sources/面向 LLM 的清晰表达 Source Guide]]——关于如何向 LLM 显式化任务、对象、标准、边界和输出形式，降低模型猜测成本的中文教学材料
 - [[wiki/sources/深度思考与高阶思维对话 Source Guide]]——当前对话中关于审题、下钻、本质句、前置知识和七天训练法的 source 层材料
 - [[wiki/sources/Creation Concept Anatomy Source Guide]]——创造概念解剖 source guide
 - [[wiki/sources/How People Learn Transfer Source Guide]]——学习迁移与应用的外部来源

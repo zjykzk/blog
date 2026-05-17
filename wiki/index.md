@@ -208,6 +208,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/React UI Organization Model|React UI Organization Model]] — Synthesis of React as a UI organization model combining declarative rendering, components, and state management. (#frontend #react #ui)
 - [[wiki/syntheses/Reality-Refutable Engineering Systems|Reality-Refutable Engineering Systems]] — Mature engineering systems let reality challenge their models through feedback, appeal, accountability, and redesign triggers. (#synthesis #software-engineering #systems #governance #feedback)
 - [[wiki/syntheses/Thinking and Judgment Workflow|Thinking and Judgment Workflow]] — 这页把 Mental Models 、 Critical Thinking 、 Problem Framing 串成一条更完整的思考路径：面对复杂问题时，不只是要会想，还要知道先怎么定义问题、再怎么观察、最后怎么判断。 (#synthesis #thinking #reasoning #methods)
+- [[wiki/syntheses/成就感驱动与行动动力结构|成就感驱动与行动动力结构]] — 成就感可以作为行动奖励，但如果成为唯一燃料，就会让行动动力、价值感和短期反馈过度绑定。 (#thinking #cognition #learning #feedback #mechanism)
 - [[wiki/syntheses/深度思考 高阶思维与本质理解|深度思考、高阶思维与本质理解]] — 深度思考负责下钻生成机制，高阶思维负责审查问题框架，二者经由现实校验共同逼近本质并形成深度理解。 (#thinking #learning #cognition #judgment)
 - [[wiki/syntheses/不确定性下的判断|不确定性下的判断]] — 这页尝试把 Problem Framing 、 Mental Models 、 Probability 、 Critical Thinking 串成一个更高层的判断框架：很多真正重要的决策，并不是在确定条件下做出的，而是在信息不全、对象不稳、反馈滞后时被迫推进的。 (#synthesis #thinking #judgment #decision-making)
 
@@ -246,6 +247,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Evaluation Concept Anatomy Source Guide|Evaluation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on evaluation as scale-shaped value judgment. (#thinking #concepts)
 - [[wiki/sources/Frontend Development Workflow Roundtable Source Guide|Frontend Development Workflow Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担前端工程方法论的稳定母页角色。 (#frontend #software-engineering #workflow #ux #roundtable)
 - [[wiki/sources/表达清晰圆桌 Source Guide|表达清晰圆桌 Source Guide]] — 这页保存一次关于“表达清晰到底是什么意思”的圆桌：清晰是在当前关系中让该被理解的东西以合适方式被理解，并让误解、错误和责任有机会被发现。 (#thinking #cognition #judgment #roundtable)
+- [[wiki/sources/面向 LLM 的清晰表达 Source Guide|面向 LLM 的清晰表达 Source Guide]] — 这页保存一段中文教学对话：面向 LLM 的清晰表达是显式化任务、对象、标准、边界和输出形式，让模型少猜且结果可验收。 (#llm #context #thinking #learning)
 - [[wiki/sources/GenericAgent Paper Source Guide|GenericAgent Paper Source Guide]] — Source guide for the GenericAgent paper, focused on context information density, hierarchical memory, tool minimality, and self-evolution. (#papers #agents)
 - [[wiki/sources/Harness Engineering Source Guide|Harness Engineering Source Guide]] — Source guide for Martin Fowler's harness engineering article, focused on user-owned harnesses for coding agents and their control loops. (#agents #harness #ai-coding)
 - [[wiki/sources/Harness Engineering Is Cybernetics Source Guide|Harness Engineering Is Cybernetics Source Guide]] — Source guide for George's X article framing harness engineering as cybernetics: sensors, actuators, feedback loops, and machine-readable judgment. (#agents #harness #cybernetics)
@@ -277,6 +279,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/内核 你的三个自我 Source Guide|内核：你的三个自我 Source Guide]] — 这页导览《内核：你的三个自我》：人成长的关键不是改情绪或人设，而是通过训练样本、奖励函数和反馈改写内核自我。 (#article #cognition #learning #thinking #llm)
 - [[wiki/sources/可能：不确定性是意义的燃料 Source Guide|可能：不确定性是意义的燃料 Source Guide]] — 这页导览《可能：不确定性是意义的燃料》：不确定性不可消灭，却能成为意义、探索、回报和行动可能性的燃料。 (#article #thinking #probability #judgment #wealth)
 - [[wiki/sources/Modern Software Engineering Notes|Modern Software Engineering Notes]] — 这份读书笔记目前以摘录和图片为主，仍更适合作为 source note，而不是直接升格为稳定 wiki 页面。 (#book-notes #software-engineering)
+- [[wiki/sources/NotebookLM 产品化 RAG 技术路径 Source Guide|NotebookLM 产品化 RAG 技术路径 Source Guide]] — 这页保存一篇中文文章对 NotebookLM 技术路径的推断：它是被文档理解、多索引、检索排序、上下文工程和引用追溯产品化后的高阶 RAG。 (#article #llm #memory #context #llm-wiki)
 - [[wiki/sources/NotebookLM Learning Workflow Source Guide|NotebookLM Learning Workflow Source Guide]] — Source guide for Ihtesham Ali's NotebookLM learning workflow thread: corpus loading, mental-model prompts, disagreement mapping, and diagnostic feedback. (#learning #notebooklm #questions)
 - [[wiki/sources/Probability Roundtable Source Guide|Probability Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担概率论的稳定母页角色。 (#probability #thinking #roundtable)
 - [[wiki/sources/思维圆桌 Source Guide|思维圆桌 Source Guide]] — 这页导览一次关于“思维”的圆桌：思维被拆成求解机制、问题表征、认知建构、语言游戏和责任判断五条张力线。 (#thinking #cognition #judgment #roundtable)
@@ -304,6 +307,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/SkillOS Source Guide]] — Source guide for AVB's SkillOS article: experiences become reusable skills through a trainable curator, grouped task rollouts, and delayed RL rewards. (#article #agents #skills #memory #training)
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide|Team AI Coding Harness Seminar Source Guide]] — Source guide for TechLead 少个分号's WeChat seminar recap on team-level AI coding harness, human discipline, TDD loops, and translation-layer compression. (#agents #harness #ai-coding)
 - [[wiki/sources/Use Case 开发管理 Source Guide|Use Case 开发管理 Source Guide]] — 这页保存一份关于 Use Case 如何定义行为契约，并关联 UI、API、应用服务、领域模型、数据库、测试和开发任务的中文讲解。 (#requirements #software-engineering #architecture #testing)
+- [[wiki/sources/Use Case 协作与追踪矩阵 Source Guide|Use Case 协作与追踪矩阵 Source Guide]] — 这页保存 Use Case 从产品初版、业务校验、RD 领域建模、UI/API 设计、QA 验收到开发任务追踪矩阵的协作流程。 (#requirements #software-engineering #architecture #testing)
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #cognition #causal-reasoning)
 - [[wiki/sources/Understanding as Concept Cloud Source Guide|Understanding as Concept Cloud Source Guide]] — Source guide for inline discussions that model understanding as a cloud and trace the frame to Hofstadter's analogy-making work. (#cognition #learning #concepts)
 - [[wiki/sources/vLLM Inference Systems Source Guide|vLLM Inference Systems Source Guide]] — Source guide for Aleksa Gordic's vLLM article, focused on engine loops, paged attention, batching, P/D split, scaling, serving, and benchmarking. (#llm #inference)
@@ -314,4 +318,3 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.
 - [[wiki/Welcome|Welcome ( legacy)]] — 这是历史遗留的 Obsidian 默认欢迎页，不再作为这个仓库的首页使用。
-

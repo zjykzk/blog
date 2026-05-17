@@ -9,7 +9,7 @@ created: 2026-05-02
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-14T00:29:01+08:00
+updated: 2026-05-16T00:23:43+08:00
 aliases:
   - 软件分析地图
   - 软件分析核心概念地图
@@ -361,6 +361,7 @@ CRUD 可以出现在实现和管理后台里，但不应在分析阶段冒充核
 - [[wiki/concepts/Software Analysis Three Generators]]
 - [[wiki/syntheses/Requirements Expression Beyond Use Cases]]
 - [[wiki/sources/Use Case 开发管理 Source Guide]]
+- [[wiki/sources/Use Case 协作与追踪矩阵 Source Guide]]
 - [[wiki/syntheses/Use Cases as AI Coding Traceability Anchors]]
 - [[wiki/maps/Software Design Map]]
 - [[wiki/concepts/Software Design Three Generators]]

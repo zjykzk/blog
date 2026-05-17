@@ -31,8 +31,8 @@ tags:
 
 如果要区分它和相邻页面：
 
-- `[[wiki/topics/Software Development Thought Lineage]]` 关心不同思想如何历史演化、彼此修正
-- `[[wiki/topics/Software Methodology]]` 关心潘加宇《软件方法》那条具体的建模与分析主线
+- [[wiki/topics/Software Development Thought Lineage]] 关心不同思想如何历史演化、彼此修正
+- [[wiki/topics/Software Methodology]] 关心潘加宇《软件方法》那条具体的建模与分析主线
 - 本页关心的是统摄这些实践的上位视角
 
 当前已有笔记里，现代软件工程最核心的一句定义种子是：

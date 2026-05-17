@@ -14,6 +14,10 @@ updated: 2026-05-17T22:44:01+08:00
 ## Recent Activity
 - Captured [[wiki/sources/SPDD Abstraction First Source Guide]], [[wiki/sources/SPDD Alignment Source Guide]], and [[wiki/sources/SPDD Iterative Review Source Guide]]: the SPDD human-skill layer now has source guides for design-before-generation, intent locking, and prompt/code review loops.
 - Captured [[wiki/sources/Structured-Prompt-Driven Development Source Guide|Structured-Prompt-Driven Development Source Guide]]: Thoughtworks' SPDD workflow treats structured prompts as maintained delivery artifacts, using REASONS Canvas, prompt/code sync, staged review, generated tests, and decision-memory ambitions to govern AI coding.
+- 已捕获 [[wiki/sources/NotebookLM 产品化 RAG 技术路径 Source Guide]]：这篇中文文章把 NotebookLM 拆成产品化高阶 RAG，重点是 source 管理、文档理解、多粒度 chunk、多索引、retrieval/ranking、context engineering、source grounding 与 LLM Wiki 的知识沉淀分层。
+- 已新增 [[wiki/syntheses/成就感驱动与行动动力结构]]：把“做事动力来自成就感”分析为行动奖励、价值感外包、反馈周期和内核奖励函数之间的结构问题。
+- 已捕获 [[wiki/sources/Use Case 协作与追踪矩阵 Source Guide|Use Case 协作与追踪矩阵 Source Guide]]：这段中文教学把 Use Case 协作整理成从产品初版、业务校验、RD 领域建模、UI/API 设计、QA 验收到开发任务追踪矩阵的一条链路。
+- 已捕获 [[wiki/sources/面向 LLM 的清晰表达 Source Guide|面向 LLM 的清晰表达 Source Guide]]：这段中文教学把对 LLM 的清晰表达定义为显式化任务、对象、目标读者、判断标准、边界、输出形式和不确定性处理，让模型少猜且结果可验收。
 - 已捕获 [[wiki/sources/表达清晰圆桌 Source Guide|表达清晰圆桌 Source Guide]]：这次圆桌把表达清晰定义为在当前关系中让该被理解的东西以合适方式被理解，并让误解、错误和责任有机会被发现。
 - Captured [[wiki/sources/Chatham House Rule Source Guide|Chatham House Rule Source Guide]]: Chatham House Rule separates information use from speaker attribution, creating a meeting protocol for candid discussion without turning all content into total secrecy.
 - 2026-05-15T22:33:09+08:00 — Captured [[wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide|配置/钩子/代码库/技能放置决策]] as a source guide for deciding whether a behavior belongs in config, hook, codebase, or skill.
@@ -39,7 +43,9 @@ updated: 2026-05-17T22:44:01+08:00
 
 - AI coding now has an SPDD thread: prompts can become versioned delivery artifacts rather than disposable chat instructions, with business intent, domain model, architecture, operations, norms, and safeguards kept in sync with code.
 - SPDD's human-review layer is now split into three reusable lenses: abstraction-first review checks domain model and boundaries before generation; alignment review locks scope, vocabulary, acceptance, dependencies, and constraints; iterative review keeps prompt and code synchronized through functional validation and deep code review.
+- 学习与成长现在加入成就感驱动线索：成就感是有效正反馈，但如果成为唯一行动燃料，会把自我价值、短期成果和外部认可绑在一起；更稳的动力结构要把奖励扩展到长期方向、内部标准和可重复行动机制。
 - LLM Wiki now has a primary-source guide: raw sources remain immutable, the LLM-maintained wiki becomes the compiled knowledge layer, and schema/index/log files turn knowledge maintenance into an agent workflow.
+- NotebookLM 技术路径现在补上一条产品化 RAG 线索：它的可信感不只是“上传文件后回答”，而是 source 管理、文档理解、多索引、retrieval/ranking、上下文工程和引用追溯被黑盒化为产品默认能力；LLM Wiki 则在此之上解决知识结构持续沉淀。
 - 软件设计与系统思维现在进一步分出运行时结构线索：信息流解决事实传播和可信来源，状态流转解决合法迁移、不变量、一致性、幂等和补偿。
 - 综合调研现在补强了学习与知识体系主线：知识工作者要从标准答案转向半熟知识，通过定位式、结构化和生成式调研，把材料之间的关系写成可行动判断。
 - 知识体系构建现在有一条知识管理线索：个人 wiki 不只是资料仓库，而是经历、概念、链接、复用、输出和审计组成的持续认知系统。
@@ -99,6 +105,10 @@ updated: 2026-05-17T22:44:01+08:00
 ## Key Takeaways
 - SPDD extends spec-driven development into a prompt-governed workflow: REASONS Canvas captures intent/design/execution/governance, behavior changes update prompt before code, refactors sync code back to prompt, and human review remains responsible for business intent.
 - SPDD review quality depends on distinct gates: abstraction prevents shapeless generation, alignment prevents solving the wrong problem, and iterative review prevents generated code from drifting away from the prompt artifact.
+- NotebookLM 类产品可以理解为产品化高阶 RAG：低配 RAG 只暴露分块、向量化和检索，产品化 RAG 把文档理解、多粒度索引、检索排序、上下文组织和 source grounding 收进系统内部，让用户只关心 sources、问题和可核查引用。
+- 成就感适合做行动奖励，不适合做唯一燃料；成熟动力系统是在有成果时借成就感加速，在低反馈阶段仍能靠长期方向、内部标准和行动结构继续推进。
+- Use Case 协作的关键不是产品一次写完需求，而是用同一个用例 ID 和场景编号，把业务目标、领域模型、UI、API、测试和开发任务连成可追踪链路，并让各层设计反向修正用例。
+- 面向 LLM 的清晰表达不是“模型能不能读懂自然语言”，而是把隐含意图、上下文、标准、边界和输出形式显式化，让模型不靠猜也能完成任务，并让结果可以检查。
 - 表达清晰不是“立刻懂”或“说得顺”，而是在特定场景、目的、时间压力和责任关系中，让相关的人以合理成本形成足以感受、判断、行动、追问或校验的理解，同时不故意遮蔽事实、责任、边界和复杂性。
 - Chatham House Rule is an attribution-control mechanism: information may circulate, but names, affiliations, and identifying details should not; this changes speech incentives and feedback quality in sensitive meetings.
 - LLM Wiki differs from ordinary RAG by compiling source knowledge into a maintained Markdown layer: cross-references, contradictions, summaries, and syntheses are updated once and reused, instead of being rediscovered on every query.
