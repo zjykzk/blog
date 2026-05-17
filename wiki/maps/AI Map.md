@@ -16,7 +16,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 2
-updated: 2026-05-17T22:18:34+08:00
+updated: 2026-05-17T22:44:01+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -144,6 +144,9 @@ tags:
 - [[wiki/sources/Memory Is State Not a Service Source Guide]]
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 - [[wiki/sources/Structured-Prompt-Driven Development Source Guide]]
+- [[wiki/sources/SPDD Abstraction First Source Guide]]
+- [[wiki/sources/SPDD Alignment Source Guide]]
+- [[wiki/sources/SPDD Iterative Review Source Guide]]
 - [[wiki/sources/Continual Learning for AI Agents Source Guide]]
 - [[wiki/sources/Meta-Harness Paper Source Guide]]
 - [[wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide]]

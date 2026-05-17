@@ -14,7 +14,7 @@ sources:
   - https://martinfowler.com/articles/structured-prompt-driven/
   - conversation:2026-05-17
 created: 2026-05-17T22:18:34+08:00
-updated: 2026-05-17T22:18:34+08:00
+updated: 2026-05-17T22:44:01+08:00
 summary: >-
   Source guide for Thoughtworks' SPDD article, preserving REASONS Canvas, prompt/code sync workflow, billing example, fit boundaries, and Q&A caveats.
 provenance:
@@ -184,9 +184,9 @@ The reported outcome for the example includes high intent alignment, implementat
 
 The article identifies three human skills required for effective SPDD:
 
-- **Abstraction first:** define objects, collaborations, boundaries, and design before code generation.
-- **Alignment:** make scope, non-scope, standards, and hard constraints explicit before implementation.
-- **Iterative review:** treat AI output as a controlled engineering loop, not a one-shot draft.
+- **Abstraction first:** define objects, collaborations, boundaries, and design before code generation. See [[wiki/sources/SPDD Abstraction First Source Guide]].
+- **Alignment:** make scope, non-scope, standards, and hard constraints explicit before implementation. See [[wiki/sources/SPDD Alignment Source Guide]].
+- **Iterative review:** treat AI output as a controlled engineering loop, not a one-shot draft. See [[wiki/sources/SPDD Iterative Review Source Guide]].
 
 The human role shifts from typing code toward modelling, framing, reviewing intent, and maintaining the workflow.
 
@@ -266,6 +266,9 @@ It also connects to [[wiki/syntheses/Use Cases as AI Coding Traceability Anchors
 
 - [[wiki/topics/Spec-Driven Development]]
 - [[wiki/sources/Spec-Driven Development Paper Source Guide]]
+- [[wiki/sources/SPDD Abstraction First Source Guide]]
+- [[wiki/sources/SPDD Alignment Source Guide]]
+- [[wiki/sources/SPDD Iterative Review Source Guide]]
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Design-First Collaboration]]

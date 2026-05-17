@@ -196,3 +196,6 @@ tags:
 - [2026-05-15T22:36:42+08:00] CAPTURE type=source page="wiki/sources/Chatham House Rule Source Guide.md" title="Chatham House Rule Source Guide"
 - [2026-05-15T23:34:56+08:00] CAPTURE type=source page="wiki/sources/表达清晰圆桌 Source Guide.md" title="表达清晰圆桌 Source Guide"
 - [2026-05-17T22:18:34+08:00] CAPTURE type=source page="wiki/sources/Structured-Prompt-Driven Development Source Guide.md" title="Structured-Prompt-Driven Development Source Guide"
+- [2026-05-17T22:44:01+08:00] CAPTURE type=source page="wiki/sources/SPDD Abstraction First Source Guide.md" title="SPDD Abstraction First Source Guide"
+- [2026-05-17T22:44:01+08:00] CAPTURE type=source page="wiki/sources/SPDD Alignment Source Guide.md" title="SPDD Alignment Source Guide"
+- [2026-05-17T22:44:01+08:00] CAPTURE type=source page="wiki/sources/SPDD Iterative Review Source Guide.md" title="SPDD Iterative Review Source Guide"

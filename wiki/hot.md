@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured SPDD as a governed AI coding workflow where structured prompts become versioned delivery artifacts synchronized with code.
+summary: Recent wiki activity expanded SPDD with companion guides for abstraction-first design, alignment gates, and iterative review loops.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-17T22:18:34+08:00
+updated: 2026-05-17T22:44:01+08:00
 ---
 
 ## Recent Activity
+- Captured [[wiki/sources/SPDD Abstraction First Source Guide]], [[wiki/sources/SPDD Alignment Source Guide]], and [[wiki/sources/SPDD Iterative Review Source Guide]]: the SPDD human-skill layer now has source guides for design-before-generation, intent locking, and prompt/code review loops.
 - Captured [[wiki/sources/Structured-Prompt-Driven Development Source Guide|Structured-Prompt-Driven Development Source Guide]]: Thoughtworks' SPDD workflow treats structured prompts as maintained delivery artifacts, using REASONS Canvas, prompt/code sync, staged review, generated tests, and decision-memory ambitions to govern AI coding.
 - 已捕获 [[wiki/sources/表达清晰圆桌 Source Guide|表达清晰圆桌 Source Guide]]：这次圆桌把表达清晰定义为在当前关系中让该被理解的东西以合适方式被理解，并让误解、错误和责任有机会被发现。
 - Captured [[wiki/sources/Chatham House Rule Source Guide|Chatham House Rule Source Guide]]: Chatham House Rule separates information use from speaker attribution, creating a meeting protocol for candid discussion without turning all content into total secrecy.
@@ -37,6 +38,7 @@ updated: 2026-05-17T22:18:34+08:00
 ## Active Threads
 
 - AI coding now has an SPDD thread: prompts can become versioned delivery artifacts rather than disposable chat instructions, with business intent, domain model, architecture, operations, norms, and safeguards kept in sync with code.
+- SPDD's human-review layer is now split into three reusable lenses: abstraction-first review checks domain model and boundaries before generation; alignment review locks scope, vocabulary, acceptance, dependencies, and constraints; iterative review keeps prompt and code synchronized through functional validation and deep code review.
 - LLM Wiki now has a primary-source guide: raw sources remain immutable, the LLM-maintained wiki becomes the compiled knowledge layer, and schema/index/log files turn knowledge maintenance into an agent workflow.
 - 软件设计与系统思维现在进一步分出运行时结构线索：信息流解决事实传播和可信来源，状态流转解决合法迁移、不变量、一致性、幂等和补偿。
 - 综合调研现在补强了学习与知识体系主线：知识工作者要从标准答案转向半熟知识，通过定位式、结构化和生成式调研，把材料之间的关系写成可行动判断。
@@ -96,6 +98,7 @@ updated: 2026-05-17T22:18:34+08:00
 
 ## Key Takeaways
 - SPDD extends spec-driven development into a prompt-governed workflow: REASONS Canvas captures intent/design/execution/governance, behavior changes update prompt before code, refactors sync code back to prompt, and human review remains responsible for business intent.
+- SPDD review quality depends on distinct gates: abstraction prevents shapeless generation, alignment prevents solving the wrong problem, and iterative review prevents generated code from drifting away from the prompt artifact.
 - 表达清晰不是“立刻懂”或“说得顺”，而是在特定场景、目的、时间压力和责任关系中，让相关的人以合理成本形成足以感受、判断、行动、追问或校验的理解，同时不故意遮蔽事实、责任、边界和复杂性。
 - Chatham House Rule is an attribution-control mechanism: information may circulate, but names, affiliations, and identifying details should not; this changes speech incentives and feedback quality in sensitive meetings.
 - LLM Wiki differs from ordinary RAG by compiling source knowledge into a maintained Markdown layer: cross-references, contradictions, summaries, and syntheses are updated once and reused, instead of being rediscovered on every query.
