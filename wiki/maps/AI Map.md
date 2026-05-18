@@ -7,6 +7,7 @@ category: maps
 sources:
   - https://arxiv.org/abs/2603.07670
   - https://arxiv.org/abs/2601.12560v1
+  - https://arxiv.org/abs/2605.07358v1
 created: 2026-05-04
 base_confidence: 0.70
 lifecycle: draft
@@ -15,8 +16,8 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 2
-updated: 2026-05-17T22:44:01+08:00
+source_count: 3
+updated: 2026-05-18T15:01:48+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -152,6 +153,7 @@ tags:
 - [[wiki/sources/Continual Learning for AI Agents Source Guide]]
 - [[wiki/sources/Meta-Harness Paper Source Guide]]
 - [[wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide]]
+- [[wiki/sources/Agent Skills Survey Paper Source Guide]]
 - [[wiki/sources/Skills-Coach Paper Source Guide]]
 - [[wiki/sources/SkillOS Paper Source Guide]]
 - [[wiki/sources/SkillOS Source Guide]]

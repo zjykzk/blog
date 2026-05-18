@@ -206,3 +206,4 @@ tags:
 - [2026-05-17T22:44:01+08:00] CAPTURE type=source page="wiki/sources/SPDD Alignment Source Guide.md" title="SPDD Alignment Source Guide"
 - [2026-05-17T22:44:01+08:00] CAPTURE type=source page="wiki/sources/SPDD Iterative Review Source Guide.md" title="SPDD Iterative Review Source Guide"
 - [2026-05-17T23:35:07+08:00] CAPTURE type=source page="wiki/sources/Principles of Mechanical Sympathy Source Guide.md" title="Principles of Mechanical Sympathy Source Guide"
+- [2026-05-18T15:01:48+08:00] INGEST source="https://arxiv.org/abs/2605.07358v1" pages_updated=6 pages_created=1 mode=append

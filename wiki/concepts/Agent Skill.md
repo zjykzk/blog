@@ -10,8 +10,9 @@ sources:
   - https://x.com/GoogleCloudTech/article/2033953579824758855
   - https://lavinigam.com/posts/adk-skill-design-patterns/
   - https://arxiv.org/abs/2604.27488
+  - https://arxiv.org/abs/2605.07358v1
 created: 2026-05-06T10:51:47+08:00
-updated: 2026-05-11T12:08:45+08:00
+updated: 2026-05-18T15:01:48+08:00
 base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-06
@@ -78,6 +79,14 @@ This connects to [[wiki/concepts/Encoding Team Standards]] because shared skills
 [[wiki/sources/ADK Skill Design Patterns Source Guide]] adds a content-architecture taxonomy for SKILL.md files. It distinguishes five recurring patterns: Tool Wrapper, Generator, Reviewer, Inversion, and Pipeline.
 
 The important shift is from file format to control problem. A skill may have the same container layout but behave differently depending on whether it is supplying domain conventions, enforcing an output template, applying a rubric, interviewing for missing context, or preserving step order with gates. ^[inferred]
+
+## Lifecycle View
+
+[[wiki/sources/Agent Skills Survey Paper Source Guide]] adds a field-level lifecycle frame. A skill is not only a reusable instruction bundle; it is an artifact that must be represented, acquired, retrieved or selected, and later evolved.
+
+The survey's formal view describes a skill as a bounded procedural artifact with a root instruction document, optional auxiliary resources, and applicability conditions. That strengthens the local definition: a skill has both a **body** that tells the agent how to act and a **routing boundary** that decides when the body should enter the workflow.
+
+The lifecycle view also makes cleanup part of the concept. Skill systems can grow by adding new files, but mature skill infrastructure must also validate, revise, merge, deprecate, and retire skills as tasks, APIs, tools, and safety constraints change. ^[inferred]
 
 The article also makes the `description` field operationally important: it is the agent's routing surface for whether a skill is loaded at all. That connects skill authoring directly to [[wiki/topics/Tool Routing]]. ^[inferred]
 

@@ -1,10 +1,29 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 50,
-    "total_pages": 257
+    "total_sources_ingested": 51,
+    "total_pages": 258
   },
   "sources": {
+    "https://arxiv.org/abs/2605.07358v1": {
+      "ingested_at": "2026-05-18T15:01:48+08:00",
+      "size_bytes": 6703935,
+      "modified_at": "2026-05-18T15:01:29+08:00",
+      "content_hash": "sha256:6e4ebad02076f68387cf953c19e93214910ed587dc7faf86d82fc9cf963226a2",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/Agent Skills Survey Paper Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Agent Skill.md",
+        "wiki/topics/AI Skills Workflow.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     "https://arxiv.org/abs/2604.17091": {
       "ingested_at": "2026-05-04T04:24:22Z",
       "size_bytes": 2539633,

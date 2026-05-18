@@ -15,6 +15,7 @@ sources:
   - https://lavinigam.com/posts/adk-skill-design-patterns/
   - https://arxiv.org/abs/2604.27488
   - https://x.com/neural_avb/article/2053873358853591435
+  - https://arxiv.org/abs/2605.07358v1
 created: 2026-04-22
 base_confidence: 0.78
 lifecycle: draft
@@ -23,8 +24,8 @@ provenance:
   extracted: 0.80
   inferred: 0.19
   ambiguous: 0.01
-source_count: 13
-updated: 2026-05-12T10:35:38+08:00
+source_count: 14
+updated: 2026-05-18T15:01:48+08:00
 aliases:
   - skills workflow
   - AI skills
@@ -99,6 +100,17 @@ This turns “write a skill” into a design choice about failure mode: missing 
 The Skills-Coach paper suggests a workflow where generated tasks, comparative execution, and traceable scoring decide which instruction or code changes are retained. That turns skill maintenance into a measured feedback loop rather than ad hoc prompt polishing. ^[inferred]
 
 A practical implication for wiki skill authoring is that a strong skill should make its own evaluation surface visible: expected inputs, outputs, failure modes, examples, constraints, and verification checks should be concrete enough for future tests to be generated. ^[inferred]
+
+## Lifecycle Architecture
+
+[[wiki/sources/Agent Skills Survey Paper Source Guide]] turns the workflow view into a full lifecycle:
+
+1. **Representation**: a skill is packaged as a root instruction document, optional auxiliary resources, and trigger or applicability conditions.
+2. **Acquisition**: skills can come from expert writing, execution traces, current task requirements, or external corpora.
+3. **Retrieval and selection**: the system must find candidate skills, then decide which one or which composition should run under current state, cost, latency, safety, and user constraints.
+4. **Evolution**: deployed skills need revision, validation, policy coupling, repository governance, drift handling, rollback, and retirement.
+
+This adds a useful test for workflow design: a strong skill is not finished when it first works. It should expose enough metadata to be found, enough boundaries to be selected safely, enough evidence to be evaluated, and enough versioning context to be changed or retired later. ^[inferred]
 
 ## Reasoning implication
 

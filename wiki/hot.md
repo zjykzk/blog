@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added a Perplexity source guide on designing agent skills as eval-driven, progressively loaded context packages.
+summary: Recent wiki activity added a direct arXiv survey guide on agent skills as lifecycle-managed procedural artifacts.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-18T14:34:14+08:00
+updated: 2026-05-18T15:01:48+08:00
 ---
 
 ## Recent Activity
+- Captured [[wiki/sources/Agent Skills Survey Paper Source Guide|Agent Skills Survey Paper Source Guide]]: arXiv 2605.07358 organizes agent skills into representation, acquisition, retrieval/selection, and evolution, highlighting resource-aware routing, governance, drift, rollback, and causal diagnosis as core skill-system problems.
 - Captured [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide|Designing, Refining, and Maintaining Agent Skills at Perplexity Source Guide]]: Perplexity frames agent skills as costly, progressively loaded context packages whose descriptions, bodies, hierarchies, evals, and gotchas must be maintained as a production routing system.
 - Captured [[wiki/sources/Principles of Mechanical Sympathy Source Guide|Principles of Mechanical Sympathy Source Guide]]: Caer Sanders' Martin Fowler article frames hardware-aware software design through predictable memory access, cache-line false sharing, single-writer ownership, natural batching, and observability-before-optimization.
 - Captured [[wiki/sources/SPDD Abstraction First Source Guide]], [[wiki/sources/SPDD Alignment Source Guide]], and [[wiki/sources/SPDD Iterative Review Source Guide]]: the SPDD human-skill layer now has source guides for design-before-generation, intent locking, and prompt/code review loops.
