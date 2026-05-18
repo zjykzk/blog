@@ -155,6 +155,7 @@ tags:
 - [[wiki/sources/Skills-Coach Paper Source Guide]]
 - [[wiki/sources/SkillOS Paper Source Guide]]
 - [[wiki/sources/SkillOS Source Guide]]
+- [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]]
 
 ## Related journals
 

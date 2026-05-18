@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added a mechanical-sympathy source guide connecting hardware-aware performance to concurrency, inference serving, batching, and observability.
+summary: Recent wiki activity added a Perplexity source guide on designing agent skills as eval-driven, progressively loaded context packages.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-17T23:35:07+08:00
+updated: 2026-05-18T14:34:14+08:00
 ---
 
 ## Recent Activity
+- Captured [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide|Designing, Refining, and Maintaining Agent Skills at Perplexity Source Guide]]: Perplexity frames agent skills as costly, progressively loaded context packages whose descriptions, bodies, hierarchies, evals, and gotchas must be maintained as a production routing system.
 - Captured [[wiki/sources/Principles of Mechanical Sympathy Source Guide|Principles of Mechanical Sympathy Source Guide]]: Caer Sanders' Martin Fowler article frames hardware-aware software design through predictable memory access, cache-line false sharing, single-writer ownership, natural batching, and observability-before-optimization.
 - Captured [[wiki/sources/SPDD Abstraction First Source Guide]], [[wiki/sources/SPDD Alignment Source Guide]], and [[wiki/sources/SPDD Iterative Review Source Guide]]: the SPDD human-skill layer now has source guides for design-before-generation, intent locking, and prompt/code review loops.
 - Captured [[wiki/sources/Structured-Prompt-Driven Development Source Guide|Structured-Prompt-Driven Development Source Guide]]: Thoughtworks' SPDD workflow treats structured prompts as maintained delivery artifacts, using REASONS Canvas, prompt/code sync, staged review, generated tests, and decision-memory ambitions to govern AI coding.
@@ -105,6 +106,7 @@ updated: 2026-05-17T23:35:07+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- Agent skill design should be treated as context-routing engineering: each skill imposes an always-on index cost, so descriptions need eval-backed activation boundaries, bodies need high-signal gotchas, and large material should load progressively through references, scripts, and assets.
 - SPDD extends spec-driven development into a prompt-governed workflow: REASONS Canvas captures intent/design/execution/governance, behavior changes update prompt before code, refactors sync code back to prompt, and human review remains responsible for business intent.
 - SPDD review quality depends on distinct gates: abstraction prevents shapeless generation, alignment prevents solving the wrong problem, and iterative review prevents generated code from drifting away from the prompt artifact.
 - Mechanical sympathy connects low-level hardware behavior to architecture choices: sequential access, avoiding false sharing, single-writer actors, and greedy natural batching are useful only when profiling and service-level goals show the performance constraint.

@@ -20,6 +20,8 @@ tags:
 
 # LLM Wiki Log
 
+- [2026-05-18T14:34:14+08:00] CAPTURE type=source page="wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide.md" title="Designing, Refining, and Maintaining Agent Skills at Perplexity Source Guide"
+
 ## 2026-04-20 | bootstrap
 
 - 建立 `wiki/` 作为稳定知识层入口。

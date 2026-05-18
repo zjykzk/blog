@@ -4,7 +4,7 @@ category: meta
 tags: []
 sources: []
 created: 2026-05-10T16:02:23+08:00
-updated: 2026-05-15T21:33:01+08:00
+updated: 2026-05-18T14:34:14+08:00
 summary: Controlled tag vocabulary and lint policy for the structured wiki.
 base_confidence: 0.30
 lifecycle: draft
@@ -43,6 +43,7 @@ These tags are intentionally not used as ordinary content tags because they crea
 - `tools` — agent tool surfaces, routing, selection, and action space.
 - `skills` — reusable agent skill/workflow bundles.
 - `llm-wiki` — LLM-maintained Markdown wiki architecture, source capture, index/log/hot workflows, and durable knowledge compilation.
+- `workflow` — ordered work procedures, reusable process designs, gates, and operational loops.
 
 ## Source-kind tags
 
