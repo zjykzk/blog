@@ -8,7 +8,7 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-18T15:01:48+08:00
+updated: 2026-05-18T22:25:02+08:00
 ---
 
 ## Recent Activity
@@ -107,6 +107,8 @@ updated: 2026-05-18T15:01:48+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 推理可以被沉淀为结构映射模型：用已知结构照亮未知结构，关键不在表面相似，而在关系迁移、约束检验和边界意识。
 - Agent skill design should be treated as context-routing engineering: each skill imposes an always-on index cost, so descriptions need eval-backed activation boundaries, bodies need high-signal gotchas, and large material should load progressively through references, scripts, and assets.
 - SPDD extends spec-driven development into a prompt-governed workflow: REASONS Canvas captures intent/design/execution/governance, behavior changes update prompt before code, refactors sync code back to prompt, and human review remains responsible for business intent.
 - SPDD review quality depends on distinct gates: abstraction prevents shapeless generation, alignment prevents solving the wrong problem, and iterative review prevents generated code from drifting away from the prompt artifact.

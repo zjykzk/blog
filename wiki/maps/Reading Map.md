@@ -14,7 +14,7 @@ base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 3
-updated: 2026-05-13T00:06:14+08:00
+updated: 2026-05-18T22:25:02+08:00
 aliases:
   - 读书地图
 tags:
@@ -25,6 +25,10 @@ tags:
 # Reading Map
 
 这页用于承接读书笔记从 raw/source 进入 wiki 的提升过程。
+
+## Concepts
+
+- [[wiki/concepts/Reasoning as Structure Mapping]] — 把推理理解为关系保持的结构映射，用来检查隐喻、类比和模型是否产生可靠判断。
 
 ## Topics
 
