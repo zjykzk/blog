@@ -9,8 +9,8 @@ created: 2026-04-21
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 5
-updated: 2026-05-17T22:44:01+08:00
+source_count: 6
+updated: 2026-05-17T23:35:07+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -36,6 +36,7 @@ tags:
 - [[wiki/topics/High Concurrency]]
 - [[wiki/topics/Circuit Breaker]]
 - [[wiki/topics/Go Memory Model]]
+- [[wiki/sources/Principles of Mechanical Sympathy Source Guide]] — hardware-aware performance principles: predictable memory access, cache-line contention, single-writer ownership, and batching.
 
 ## Databases
 
@@ -84,6 +85,7 @@ tags:
 - [[wiki/sources/SPDD Abstraction First Source Guide]]
 - [[wiki/sources/SPDD Alignment Source Guide]]
 - [[wiki/sources/SPDD Iterative Review Source Guide]]
+- [[wiki/sources/Principles of Mechanical Sympathy Source Guide]]
 - `content/posts/cs/arch/arch.md`
 - `content/posts/cs/dist/circuit-breaker.md`
 - `content/posts/cs/golang/go-memory-model.md`

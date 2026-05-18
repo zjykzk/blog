@@ -203,3 +203,4 @@ tags:
 - [2026-05-17T22:44:01+08:00] CAPTURE type=source page="wiki/sources/SPDD Abstraction First Source Guide.md" title="SPDD Abstraction First Source Guide"
 - [2026-05-17T22:44:01+08:00] CAPTURE type=source page="wiki/sources/SPDD Alignment Source Guide.md" title="SPDD Alignment Source Guide"
 - [2026-05-17T22:44:01+08:00] CAPTURE type=source page="wiki/sources/SPDD Iterative Review Source Guide.md" title="SPDD Iterative Review Source Guide"
+- [2026-05-17T23:35:07+08:00] CAPTURE type=source page="wiki/sources/Principles of Mechanical Sympathy Source Guide.md" title="Principles of Mechanical Sympathy Source Guide"

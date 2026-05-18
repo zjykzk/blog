@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity expanded SPDD with companion guides for abstraction-first design, alignment gates, and iterative review loops.
+summary: Recent wiki activity added a mechanical-sympathy source guide connecting hardware-aware performance to concurrency, inference serving, batching, and observability.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-17T22:44:01+08:00
+updated: 2026-05-17T23:35:07+08:00
 ---
 
 ## Recent Activity
+- Captured [[wiki/sources/Principles of Mechanical Sympathy Source Guide|Principles of Mechanical Sympathy Source Guide]]: Caer Sanders' Martin Fowler article frames hardware-aware software design through predictable memory access, cache-line false sharing, single-writer ownership, natural batching, and observability-before-optimization.
 - Captured [[wiki/sources/SPDD Abstraction First Source Guide]], [[wiki/sources/SPDD Alignment Source Guide]], and [[wiki/sources/SPDD Iterative Review Source Guide]]: the SPDD human-skill layer now has source guides for design-before-generation, intent locking, and prompt/code review loops.
 - Captured [[wiki/sources/Structured-Prompt-Driven Development Source Guide|Structured-Prompt-Driven Development Source Guide]]: Thoughtworks' SPDD workflow treats structured prompts as maintained delivery artifacts, using REASONS Canvas, prompt/code sync, staged review, generated tests, and decision-memory ambitions to govern AI coding.
 - 已捕获 [[wiki/sources/NotebookLM 产品化 RAG 技术路径 Source Guide]]：这篇中文文章把 NotebookLM 拆成产品化高阶 RAG，重点是 source 管理、文档理解、多粒度 chunk、多索引、retrieval/ranking、context engineering、source grounding 与 LLM Wiki 的知识沉淀分层。
@@ -41,6 +42,7 @@ updated: 2026-05-17T22:44:01+08:00
 - 已扩展 [[wiki/concepts/Agent]]、[[wiki/topics/AI Harness]] 与 [[wiki/syntheses/Agent System Design Space]]：强化“agent = governed control loop”而不是“model + tools”的系统视角。
 ## Active Threads
 
+- CS/performance now has a mechanical-sympathy thread: high-concurrency and inference systems should be read through memory locality, cache-line contention, write ownership, batching strategy, and measured SLO impact rather than only through abstract request counts.
 - AI coding now has an SPDD thread: prompts can become versioned delivery artifacts rather than disposable chat instructions, with business intent, domain model, architecture, operations, norms, and safeguards kept in sync with code.
 - SPDD's human-review layer is now split into three reusable lenses: abstraction-first review checks domain model and boundaries before generation; alignment review locks scope, vocabulary, acceptance, dependencies, and constraints; iterative review keeps prompt and code synchronized through functional validation and deep code review.
 - 学习与成长现在加入成就感驱动线索：成就感是有效正反馈，但如果成为唯一行动燃料，会把自我价值、短期成果和外部认可绑在一起；更稳的动力结构要把奖励扩展到长期方向、内部标准和可重复行动机制。
@@ -105,6 +107,7 @@ updated: 2026-05-17T22:44:01+08:00
 ## Key Takeaways
 - SPDD extends spec-driven development into a prompt-governed workflow: REASONS Canvas captures intent/design/execution/governance, behavior changes update prompt before code, refactors sync code back to prompt, and human review remains responsible for business intent.
 - SPDD review quality depends on distinct gates: abstraction prevents shapeless generation, alignment prevents solving the wrong problem, and iterative review prevents generated code from drifting away from the prompt artifact.
+- Mechanical sympathy connects low-level hardware behavior to architecture choices: sequential access, avoiding false sharing, single-writer actors, and greedy natural batching are useful only when profiling and service-level goals show the performance constraint.
 - NotebookLM 类产品可以理解为产品化高阶 RAG：低配 RAG 只暴露分块、向量化和检索，产品化 RAG 把文档理解、多粒度索引、检索排序、上下文组织和 source grounding 收进系统内部，让用户只关心 sources、问题和可核查引用。
 - 成就感适合做行动奖励，不适合做唯一燃料；成熟动力系统是在有成果时借成就感加速，在低反馈阶段仍能靠长期方向、内部标准和行动结构继续推进。
 - Use Case 协作的关键不是产品一次写完需求，而是用同一个用例 ID 和场景编号，把业务目标、领域模型、UI、API、测试和开发任务连成可追踪链路，并让各层设计反向修正用例。
