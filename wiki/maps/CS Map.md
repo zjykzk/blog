@@ -37,6 +37,7 @@ tags:
 - [[wiki/topics/Circuit Breaker]]
 - [[wiki/topics/Go Memory Model]]
 - [[wiki/sources/Principles of Mechanical Sympathy Source Guide]] — hardware-aware performance principles: predictable memory access, cache-line contention, single-writer ownership, and batching.
+- [[wiki/sources/Law of Leaky Abstractions Source Guide]] — abstraction-boundary principle: useful high-level models eventually expose lower-layer behavior at edge cases.
 - [[wiki/sources/Galls Law Source Guide]] — software-systems growth principle: complex working systems should evolve from simple working systems.
 
 ## Databases
@@ -87,6 +88,7 @@ tags:
 - [[wiki/sources/SPDD Alignment Source Guide]]
 - [[wiki/sources/SPDD Iterative Review Source Guide]]
 - [[wiki/sources/Principles of Mechanical Sympathy Source Guide]]
+- [[wiki/sources/Law of Leaky Abstractions Source Guide]]
 - [[wiki/sources/Galls Law Source Guide]]
 - `content/posts/cs/arch/arch.md`
 - `content/posts/cs/dist/circuit-breaker.md`
