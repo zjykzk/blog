@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-18T22:25:02+08:00
+updated: 2026-05-19T00:00:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -249,6 +249,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Epiplexity Paper Notes|Epiplexity Paper Notes]] — 这页保留论文 From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence 的阅读笔记，并作为 Epiplexity 的来源层。 (#paper #information-theory)
 - [[wiki/sources/Evaluation Concept Anatomy Source Guide|Evaluation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on evaluation as scale-shaped value judgment. (#thinking #concepts)
 - [[wiki/sources/Frontend Development Workflow Roundtable Source Guide|Frontend Development Workflow Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担前端工程方法论的稳定母页角色。 (#frontend #software-engineering #workflow #ux #roundtable)
+- [[wiki/sources/Galls Law Source Guide|Gall's Law Source Guide]] — Source guide preserving Gall's Law as a software-systems principle: complex working systems evolve from simple working systems. (#book #software-engineering #architecture #systems)
 - [[wiki/sources/表达清晰圆桌 Source Guide|表达清晰圆桌 Source Guide]] — 这页保存一次关于“表达清晰到底是什么意思”的圆桌：清晰是在当前关系中让该被理解的东西以合适方式被理解，并让误解、错误和责任有机会被发现。 (#thinking #cognition #judgment #roundtable)
 - [[wiki/sources/面向 LLM 的清晰表达 Source Guide|面向 LLM 的清晰表达 Source Guide]] — 这页保存一段中文教学对话：面向 LLM 的清晰表达是显式化任务、对象、标准、边界和输出形式，让模型少猜且结果可验收。 (#llm #context #thinking #learning)
 - [[wiki/sources/GenericAgent Paper Source Guide|GenericAgent Paper Source Guide]] — Source guide for the GenericAgent paper, focused on context information density, hierarchical memory, tool minimality, and self-evolution. (#papers #agents)

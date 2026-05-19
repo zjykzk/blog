@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-05-15T21:33:01+08:00
+updated: 2026-05-19T00:00:00+08:00
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -96,6 +96,7 @@ aliases:
 - [[wiki/concepts/Software Design Three Generators]]：软件设计可压到责任、协作、抗变三根生成器。
 - [[wiki/syntheses/软件设计作为系统诊断]]：把软件设计视为从代码事件下潜到重复模式、生成结构、心智模型和杠杆点的系统诊断。
 - [[wiki/sources/设计模式 设计原则与系统思维 Source Guide]]：把设计原则/设计模式放进 Iceberg Model 的层级中，并区分信息流与状态流转这两类软件系统生成机制。
+- [[wiki/sources/Galls Law Source Guide]]：把复杂系统能否工作追溯到是否从一个已经工作的简单系统演化而来。
 
 适用问题：为什么越改越难？为什么测试没有带来信心？为什么需求变化其实是早期问题定义失败的延迟暴露？
 

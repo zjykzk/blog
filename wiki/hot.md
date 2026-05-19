@@ -8,10 +8,11 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-18T22:25:02+08:00
+updated: 2026-05-19T00:00:00+08:00
 ---
 
 ## Recent Activity
+- Captured [[wiki/sources/Galls Law Source Guide|Gall's Law Source Guide]]: Gall’s Law frames working complexity as something that evolves from a simple working core, favoring MVPs, monolith-first architecture, feedback-tested increments, and simplification before adding rules to broken systems.
 - Captured [[wiki/sources/Agent Skills Survey Paper Source Guide|Agent Skills Survey Paper Source Guide]]: arXiv 2605.07358 organizes agent skills into representation, acquisition, retrieval/selection, and evolution, highlighting resource-aware routing, governance, drift, rollback, and causal diagnosis as core skill-system problems.
 - Captured [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide|Designing, Refining, and Maintaining Agent Skills at Perplexity Source Guide]]: Perplexity frames agent skills as costly, progressively loaded context packages whose descriptions, bodies, hierarchies, evals, and gotchas must be maintained as a production routing system.
 - Captured [[wiki/sources/Principles of Mechanical Sympathy Source Guide|Principles of Mechanical Sympathy Source Guide]]: Caer Sanders' Martin Fowler article frames hardware-aware software design through predictable memory access, cache-line false sharing, single-writer ownership, natural batching, and observability-before-optimization.
@@ -108,6 +109,7 @@ updated: 2026-05-18T22:25:02+08:00
 
 ## Key Takeaways
 
+- Gall’s Law gives software architecture a growth rule: working complexity should evolve from a simple working core, not from a speculative big-bang design.
 - 推理可以被沉淀为结构映射模型：用已知结构照亮未知结构，关键不在表面相似，而在关系迁移、约束检验和边界意识。
 - Agent skill design should be treated as context-routing engineering: each skill imposes an always-on index cost, so descriptions need eval-backed activation boundaries, bodies need high-signal gotchas, and large material should load progressively through references, scripts, and assets.
 - SPDD extends spec-driven development into a prompt-governed workflow: REASONS Canvas captures intent/design/execution/governance, behavior changes update prompt before code, refactors sync code back to prompt, and human review remains responsible for business intent.
