@@ -9,8 +9,10 @@ tags:
   - cognition
 sources:
   - conversation:2026-05-18
+  - /Users/zenk/Documents/notes/20260408T203540--概念解剖-推理__concept.org
+  - conversation:2026-05-19
 created: 2026-05-18T22:25:02+08:00
-updated: 2026-05-18T22:25:02+08:00
+updated: 2026-05-19T22:35:35+08:00
 summary: 推理可以理解为结构之间的关系保持映射：用一个已知结构照亮未知结构，并检查这种照亮是否保住了约束。
 provenance:
   extracted: 0.62
@@ -122,5 +124,7 @@ Reasoning = source structure + target structure + relation mapping + constraint 
 - [[wiki/concepts/Analysis]]
 - [[wiki/topics/Critical Thinking]]
 - [[wiki/syntheses/Thinking and Judgment Workflow]]
+- [[wiki/sources/推理概念解剖 Source Guide]]
+- [[wiki/sources/推理证明与未知问答 Source Guide]]
 - [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]]
 - [[wiki/sources/Theory Is All You Need Source Guide]]

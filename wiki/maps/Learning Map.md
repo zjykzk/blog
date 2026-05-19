@@ -14,7 +14,7 @@ created: 2026-04-26
 base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-17T08:39:47+08:00
+updated: 2026-05-19T22:35:35+08:00
 aliases:
   - 学习地图
 provenance:
@@ -64,6 +64,8 @@ provenance:
 - [[wiki/sources/面向 LLM 的清晰表达 Source Guide]]——关于如何向 LLM 显式化任务、对象、标准、边界和输出形式，降低模型猜测成本的中文教学材料
 - [[wiki/sources/深度思考与高阶思维对话 Source Guide]]——当前对话中关于审题、下钻、本质句、前置知识和七天训练法的 source 层材料
 - [[wiki/sources/Creation Concept Anatomy Source Guide]]——创造概念解剖 source guide
+- [[wiki/sources/推理概念解剖 Source Guide]]——推理概念解剖 source guide：推理是沿关系纹路从前提和迹象走向可回溯结论的过程
+- [[wiki/sources/推理证明与未知问答 Source Guide]]——推理教学追问 source guide：未知是受约束判断空位，证明是公开化、规则化、可回查的推理
 - [[wiki/sources/How People Learn Transfer Source Guide]]——学习迁移与应用的外部来源
 - [[wiki/sources/Cognitive Load Theory Source Guide]]——认知负荷理论、图式形成、直接教学、范例学习与 AI tutor/doer 边界
 - [[wiki/sources/The ICAP Framework Paper Source Guide]]——Chi 与 Wylie 2014 原论文 source guide：四种认知参与模式、知识变化过程、实证验证、caveats 与理论比较

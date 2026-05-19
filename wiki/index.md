@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-19T00:00:00+08:00
+updated: 2026-05-19T22:35:35+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -288,6 +288,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/NotebookLM Learning Workflow Source Guide|NotebookLM Learning Workflow Source Guide]] — Source guide for Ihtesham Ali's NotebookLM learning workflow thread: corpus loading, mental-model prompts, disagreement mapping, and diagnostic feedback. (#learning #notebooklm #questions)
 - [[wiki/sources/Probability Roundtable Source Guide|Probability Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担概率论的稳定母页角色。 (#probability #thinking #roundtable)
 - [[wiki/sources/Principles of Mechanical Sympathy Source Guide|Principles of Mechanical Sympathy Source Guide]] — Source guide for Caer Sanders' Martin Fowler article on mechanical sympathy: predictable memory access, cache lines, single writers, batching, and observability. (#article #software-engineering #systems #architecture #inference)
+- [[wiki/sources/推理概念解剖 Source Guide|推理概念解剖 Source Guide]] — 这页保存一份中文概念解剖笔记：推理是沿着事物关系纹路，从已有前提、迹象和概念切分走向可回溯结论的过程。 (#thinking #reasoning #cognition)
+- [[wiki/sources/推理证明与未知问答 Source Guide|推理证明与未知问答 Source Guide]] — 这页保存一段中文教学问答：推理是从已知到受约束未知的路径，证明是公开化、规则化、可回查的推理。 (#thinking #reasoning #cognition #learning)
 - [[wiki/sources/思维圆桌 Source Guide|思维圆桌 Source Guide]] — 这页导览一次关于“思维”的圆桌：思维被拆成求解机制、问题表征、认知建构、语言游戏和责任判断五条张力线。 (#thinking #cognition #judgment #roundtable)
 - [[wiki/sources/深度思考与高阶思维对话 Source Guide|深度思考与高阶思维对话 Source Guide]] — 这页保存当前对话中关于深度思考、高阶思维、本质、深度理解和训练方法的 source 层材料。 (#thinking #learning #cognition #judgment)
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide|Prompt Caching Claude Code Case Study Source Guide]] — Source guide for prompt-caching case studies that frame Claude Code cache efficiency as an agent harness design problem. (#agents #caching #claude-code)

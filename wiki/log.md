@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-19T00:00:00+08:00
+updated: 2026-05-19T22:35:35+08:00
 aliases:
   - Wiki Log
 tags:
@@ -20,6 +20,10 @@ tags:
 
 # LLM Wiki Log
 
+- [2026-05-19T22:35:35+08:00] CAPTURE type=source page="wiki/sources/推理证明与未知问答 Source Guide.md" title="推理证明与未知问答 Source Guide"
+- [2026-05-19T22:31:55+08:00] QUERY query="推理中的未知指的是什么" result_pages=2 mode=normal escalated=false
+- [2026-05-19T19:38:01+08:00] QUERY query="推理和证明有什么关系" result_pages=4 mode=normal escalated=true
+- [2026-05-19T19:27:35+08:00] CAPTURE type=source page="wiki/sources/推理概念解剖 Source Guide.md" title="推理概念解剖 Source Guide"
 - [2026-05-19T00:00:00+08:00] CAPTURE type=source page="wiki/sources/Law of Leaky Abstractions Source Guide.md" title="Law of Leaky Abstractions Source Guide"
 - [2026-05-19T00:00:00+08:00] CAPTURE type=source page="wiki/sources/Galls Law Source Guide.md" title="Gall's Law Source Guide"
 - [2026-05-18T14:34:14+08:00] CAPTURE type=source page="wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide.md" title="Designing, Refining, and Maintaining Agent Skills at Perplexity Source Guide"
