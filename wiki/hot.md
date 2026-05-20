@@ -1,14 +1,14 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added a direct arXiv survey guide on agent skills as lifecycle-managed procedural artifacts.
+summary: Recent wiki activity added a Chinese source guide on reasoning ability training through definition, causal modeling, counterexamples, prediction, and review.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-19T22:35:35+08:00
+updated: 2026-05-20T21:34:36+08:00
 ---
 
 ## Recent Activity
@@ -114,7 +114,7 @@ updated: 2026-05-19T22:35:35+08:00
 
 - Leaky abstractions give software design a boundary rule: high-level tools are productive only while their hidden lower layers do not dominate correctness, performance, or reliability.
 - Gall’s Law gives software architecture a growth rule: working complexity should evolve from a simple working core, not from a speculative big-bang design.
-- 推理可以被沉淀为结构映射模型：用已知结构照亮未知结构，关键不在表面相似，而在关系迁移、约束检验和边界意识；概念解剖来源进一步补上前提、概念命名、关系规则、结论置信度和证据回查的推理通道；后续问答进一步明确“未知”是受约束的判断空位，“证明”是可复查的推理。
+- 推理可以被沉淀为结构映射模型：用已知结构照亮未知结构，关键不在表面相似，而在关系迁移、约束检验和边界意识；概念解剖来源进一步补上前提、概念命名、关系规则、结论置信度和证据回查的推理通道；后续问答进一步明确“未知”是受约束的判断空位，“证明”是可复查的推理；训练层则把推理能力落实为清晰定义、因果建模、反例意识和现实反馈。
 - Agent skill design should be treated as context-routing engineering: each skill imposes an always-on index cost, so descriptions need eval-backed activation boundaries, bodies need high-signal gotchas, and large material should load progressively through references, scripts, and assets.
 - SPDD extends spec-driven development into a prompt-governed workflow: REASONS Canvas captures intent/design/execution/governance, behavior changes update prompt before code, refactors sync code back to prompt, and human review remains responsible for business intent.
 - SPDD review quality depends on distinct gates: abstraction prevents shapeless generation, alignment prevents solving the wrong problem, and iterative review prevents generated code from drifting away from the prompt artifact.
