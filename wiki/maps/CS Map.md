@@ -9,8 +9,8 @@ created: 2026-04-21
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 6
-updated: 2026-05-21T15:20:50+08:00
+source_count: 7
+updated: 2026-05-22T01:47:51+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -26,6 +26,7 @@ tags:
 ## Distributed systems
 
 - [[wiki/topics/Circuit Breaker]]
+- [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]] — CAP theorem source guide：在网络分区下，一致性和可用性不能同时获得强保证；实际设计要看操作级一致性、延迟和失败模式。
 
 ## Go
 
@@ -43,6 +44,7 @@ tags:
 ## Databases
 
 - [[wiki/topics/BoltDB Internals]]
+- [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]] — distributed database trade-off source guide：网络分区下强一致与强可用不能同时保证，数据库选择应回到延迟、失败模式和操作级一致性。
 - [[wiki/sources/Doris 写入与 Routine Load Source Guide|Doris 写入与 Routine Load Source Guide]] — Doris 写入路径 source guide：从 Stream/Broker/Routine Load 选择，下钻到 Routine Load Task、Kafka offset、Rowset、事务和 publish version。
 
 ## Architecture and methods
