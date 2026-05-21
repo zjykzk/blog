@@ -125,6 +125,7 @@ tags:
 - [[wiki/sources/GenericAgent Paper Source Guide]]
 - [[wiki/sources/Lost in the Middle Paper Source Guide]]
 - [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]]
+- [[wiki/sources/Memory in the Age of AI Agents Paper Source Guide]]
 - [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide]]
 - [[wiki/sources/AI Memory Survey Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
