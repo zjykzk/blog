@@ -10,7 +10,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 6
-updated: 2026-05-19T00:00:00+08:00
+updated: 2026-05-21T15:20:50+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -43,6 +43,7 @@ tags:
 ## Databases
 
 - [[wiki/topics/BoltDB Internals]]
+- [[wiki/sources/Doris 写入与 Routine Load Source Guide|Doris 写入与 Routine Load Source Guide]] — Doris 写入路径 source guide：从 Stream/Broker/Routine Load 选择，下钻到 Routine Load Task、Kafka offset、Rowset、事务和 publish version。
 
 ## Architecture and methods
 

@@ -8,10 +8,12 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-20T21:34:36+08:00
+updated: 2026-05-21T15:20:50+08:00
 ---
 
 ## Recent Activity
+
+- 2026-05-21T15:20:50+08:00 — 已捕获 [[wiki/sources/Doris 写入与 Routine Load Source Guide|Doris 写入与 Routine Load Source Guide]]：保留当前会话中关于 Doris 写入方式、Routine Load、Task 执行时序和内部 Rowset/事务/版本发布链路的中文教学材料。
 - 已捕获 [[wiki/sources/推理证明与未知问答 Source Guide|推理证明与未知问答 Source Guide]]：这段教学问答把推理、证明和未知串成一条结构线：推理从已知材料生成受约束的未知判断，证明则把推理链公开化、规则化、可回查。
 - 已捕获 [[wiki/sources/推理概念解剖 Source Guide|推理概念解剖 Source Guide]]：这份中文概念解剖把推理定义为沿事物关系纹路，从事实、前提和迹象，经由概念命名、关系规则、推演比较、置信度和证据回查，走向可回溯结论。
 - Captured [[wiki/sources/Law of Leaky Abstractions Source Guide|Law of Leaky Abstractions Source Guide]]: the Law of Leaky Abstractions frames abstractions as useful but imperfect models whose edge cases expose lower layers such as SQL, garbage collection, memory layout, networks, and distributed failure.

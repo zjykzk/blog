@@ -217,3 +217,4 @@ tags:
 - [2026-05-18T15:01:48+08:00] INGEST source="https://arxiv.org/abs/2605.07358v1" pages_updated=6 pages_created=1 mode=append
 - [2026-05-18T21:53:13+0800] QUERY query="推理" result_pages=8 mode=normal escalated=false
 - [2026-05-18T22:25:02+08:00] CAPTURE type=concept page="wiki/concepts/Reasoning as Structure Mapping.md" title="Reasoning as Structure Mapping"
+- [2026-05-21T15:20:50+08:00] CAPTURE type=source page="wiki/sources/Doris 写入与 Routine Load Source Guide.md" title="Doris 写入与 Routine Load Source Guide"

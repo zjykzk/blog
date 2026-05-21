@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-20T21:34:36+08:00
+updated: 2026-05-21T15:20:50+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -214,6 +214,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/不确定性下的判断|不确定性下的判断]] — 这页尝试把 Problem Framing 、 Mental Models 、 Probability 、 Critical Thinking 串成一个更高层的判断框架：很多真正重要的决策，并不是在确定条件下做出的，而是在信息不全、对象不稳、反馈滞后时被迫推进的。 (#synthesis #thinking #judgment #decision-making)
 
 ## Sources
+- [[wiki/sources/Doris 写入与 Routine Load Source Guide|Doris 写入与 Routine Load Source Guide]] — 这页保留 Doris 2.1 写入方式、Routine Load 原理、Task 时序，以及内部 Rowset、事务和版本发布链路。 (#database #systems #software-engineering #architecture)
 - [[wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide|配置 钩子 代码库与技能放置决策 Source Guide]] — 这页保存一棵判断树：固定指令、可靠自动化、代码库规范和手动技能分别应该放在哪里。 (#agents #harness #skills #llm-wiki)
 - [[wiki/sources/Agent Engineering Source Guide|Agent Engineering Source Guide]] — 这页用于收拢“agent engineering / harness / workflow”这一类更偏工程综述与系统实践的来源材料。 (#agents #engineering #harness)
 - [[wiki/sources/Agent Harness Anatomy Source Guide|Agent Harness Anatomy Source Guide]] — Source guide for Akshay Pachaar's agent harness thread, focused on the 12-component harness model and architecture decisions. (#agents #harness #architecture)
