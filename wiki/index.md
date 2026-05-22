@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-23T01:34:12+08:00
+updated: 2026-05-23T01:52:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -262,7 +262,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/表达清晰圆桌 Source Guide|表达清晰圆桌 Source Guide]] — 这页保存一次关于“表达清晰到底是什么意思”的圆桌：清晰是在当前关系中让该被理解的东西以合适方式被理解，并让误解、错误和责任有机会被发现。 (#thinking #cognition #judgment #roundtable)
 - [[wiki/sources/面向 LLM 的清晰表达 Source Guide|面向 LLM 的清晰表达 Source Guide]] — 这页保存一段中文教学对话：面向 LLM 的清晰表达是显式化任务、对象、标准、边界和输出形式，让模型少猜且结果可验收。 (#llm #context #thinking #learning)
 - [[wiki/sources/GenericAgent Paper Source Guide|GenericAgent Paper Source Guide]] — Source guide for the GenericAgent paper, focused on context information density, hierarchical memory, tool minimality, and self-evolution. (#papers #agents)
-- [[wiki/sources/Harness Engineering Source Guide|Harness Engineering Source Guide]] — Source guide for Martin Fowler's harness engineering article, focused on user-owned harnesses for coding agents and their control loops. (#agents #harness #ai-coding)
+- [[wiki/sources/Harness Engineering Source Guide|Harness Engineering Source Guide]] — Source guide for Birgitta Böckeler's Martin Fowler article on user-owned coding-agent harnesses: guides, sensors, deterministic checks, inferential review, templates, and harnessability. (#article #agents #harness #ai-coding)
 - [[wiki/sources/Harness Engineering Is Cybernetics Source Guide|Harness Engineering Is Cybernetics Source Guide]] — Source guide for George's X article framing harness engineering as cybernetics: sensors, actuators, feedback loops, and machine-readable judgment. (#agents #harness #cybernetics)
 - [[wiki/sources/ICAP Learning Framework Source Guide|ICAP Learning Framework Source Guide]] — Source guide for the ICAP learning framework article, distinguishing passive, active, constructive, and interactive learning by cognitive engagement. (#learning #cognition #education)
 - [[wiki/sources/刻意练习 天赋的作用究竟是什么 Source Guide|刻意练习：天赋的作用究竟是什么 Source Guide]] — 这页保存一篇中文文章对刻意练习、天赋、专家表现、风格形成和成长路径的说明：练习是误差压缩，天赋是敏感度与可塑性。 (#article #learning #cognition #education #thinking)

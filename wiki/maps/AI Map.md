@@ -17,7 +17,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 3
-updated: 2026-05-22T23:32:41+08:00
+updated: 2026-05-23T01:52:00+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -142,7 +142,7 @@ tags:
 - [[wiki/sources/LLM Wiki Source Guide]]
 - [[wiki/sources/NotebookLM 产品化 RAG 技术路径 Source Guide]]
 - [[wiki/sources/Life of a Token Source Guide]]
-- [[wiki/sources/Harness Engineering Source Guide]]
+- [[wiki/sources/Harness Engineering Source Guide]] — Birgitta Böckeler's Martin Fowler article on user-owned coding-agent harnesses, with guides, sensors, deterministic checks, inferential review, lifecycle timing, regulation categories, templates, and harnessability.
 - [[wiki/sources/ADK Skill Design Patterns Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Compounding Engineering Source Guide]]
