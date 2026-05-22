@@ -14,7 +14,7 @@ created: 2026-04-26
 base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-23T01:11:08+08:00
+updated: 2026-05-23T01:34:12+08:00
 aliases:
   - 学习地图
 provenance:
@@ -68,6 +68,7 @@ provenance:
 - [[wiki/sources/推理证明与未知问答 Source Guide]]——推理教学追问 source guide：未知是受约束判断空位，证明是公开化、规则化、可回查的推理
 - [[wiki/sources/推理能力训练 Source Guide]]——推理能力训练 source guide：用概念清晰、因果建模、反例意识、预测和复盘训练判断校准能力
 - [[wiki/sources/拥抱和桥接 知识迁移 Source Guide]]——中文课程材料：用拥抱建立近迁移的情境触发，用桥接把场景提纯成可复用心智模型
+- [[wiki/sources/刻意练习 天赋的作用究竟是什么 Source Guide]]——中文文章：把刻意练习解释为误差压缩技术，把天赋解释为敏感度、可塑性、奖励函数和环境选择能力
 - [[wiki/sources/How People Learn Transfer Source Guide]]——学习迁移与应用的外部来源
 - [[wiki/sources/Cognitive Load Theory Source Guide]]——认知负荷理论、图式形成、直接教学、范例学习与 AI tutor/doer 边界
 - [[wiki/sources/The ICAP Framework Paper Source Guide]]——Chi 与 Wylie 2014 原论文 source guide：四种认知参与模式、知识变化过程、实证验证、caveats 与理论比较

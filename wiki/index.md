@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-23T01:11:08+08:00
+updated: 2026-05-23T01:34:12+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -265,6 +265,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Harness Engineering Source Guide|Harness Engineering Source Guide]] — Source guide for Martin Fowler's harness engineering article, focused on user-owned harnesses for coding agents and their control loops. (#agents #harness #ai-coding)
 - [[wiki/sources/Harness Engineering Is Cybernetics Source Guide|Harness Engineering Is Cybernetics Source Guide]] — Source guide for George's X article framing harness engineering as cybernetics: sensors, actuators, feedback loops, and machine-readable judgment. (#agents #harness #cybernetics)
 - [[wiki/sources/ICAP Learning Framework Source Guide|ICAP Learning Framework Source Guide]] — Source guide for the ICAP learning framework article, distinguishing passive, active, constructive, and interactive learning by cognitive engagement. (#learning #cognition #education)
+- [[wiki/sources/刻意练习 天赋的作用究竟是什么 Source Guide|刻意练习：天赋的作用究竟是什么 Source Guide]] — 这页保存一篇中文文章对刻意练习、天赋、专家表现、风格形成和成长路径的说明：练习是误差压缩，天赋是敏感度与可塑性。 (#article #learning #cognition #education #thinking)
 - [[wiki/sources/拥抱和桥接 知识迁移 Source Guide|拥抱和桥接：知识迁移 Source Guide]] — 这页保存一篇中文课程材料对知识迁移、惰性知识、低路/高路迁移，以及拥抱与桥接教学策略的说明。 (#article #learning #cognition #education #thinking)
 - [[wiki/sources/The ICAP Framework Paper Source Guide|The ICAP Framework Paper Source Guide]] — Chi 与 Wylie 2014 原论文 source guide，保留 ICAP 四模式、知识变化过程、实证验证、限制条件和与建构主义/认知负荷/Bloom 的比较。 (#paper #learning #cognition #education)
 - [[wiki/sources/表征 图式 心智模型和解释框架 Source Guide|表征、图式、心智模型和解释框架 Source Guide]] — 这页保存一篇中文学习方法文章：真正的学习不是收藏信息，而是把材料压缩成表征、图式、心智模型和解释框架。 (#article #learning #cognition #thinking)

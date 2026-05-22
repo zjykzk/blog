@@ -1,18 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured a Chinese source guide on knowledge transfer through hugging, bridging, and scene-based learning.
+summary: Recent wiki activity captured a Chinese source guide on deliberate practice, talent, expert performance, and style formation.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-23T01:11:08+08:00
+updated: 2026-05-23T01:34:12+08:00
 ---
 
 ## Recent Activity
 
+- 2026-05-23T01:34:12+08:00 — 已捕获 [[wiki/sources/刻意练习 天赋的作用究竟是什么 Source Guide|刻意练习：天赋的作用究竟是什么 Source Guide]]：保留一篇中文文章对刻意练习、天赋、专家表现、风格形成和成长路径的说明。
 - 2026-05-23T01:11:08+08:00 — 已捕获 [[wiki/sources/拥抱和桥接 知识迁移 Source Guide|拥抱和桥接：知识迁移 Source Guide]]：保留一篇中文课程材料对知识迁移、惰性知识、低路/高路迁移，以及用拥抱和桥接训练学以致用的说明。
 - 2026-05-22T23:32:41+08:00 — 已捕获 [[wiki/sources/组织角色与 AI 适配 Source Guide|组织角色与 AI 适配 Source Guide]]：保留一次关于组织定义、七类组织角色功能，以及 AI 最适合承担认知后勤、反馈雷达和知识型执行辅助的中文圆桌式讨论。
 - 2026-05-22T21:13:00+08:00 — Updated [[wiki/sources/Dive into Claude Code Source Guide|Dive into Claude Code Source Guide]]: expands the arXiv paper capture with Claude Code's five values, thirteen design principles, query loop, permission layers, context shapers, subagent boundaries, OpenClaw comparison, and future agent-system directions.
@@ -123,6 +124,7 @@ updated: 2026-05-23T01:11:08+08:00
 
 ## Key Takeaways
 
+- 刻意练习可以理解为误差压缩技术：成熟训练体系、专业导师、高分辨率目标、即时反馈和学习区把时间转化为控制力；天赋则是影响每次更新利率的敏感度与可塑性参数。
 - 场景是知识从“记住”走向“会用”的接口：它提供触发器、现实约束和深层结构对比；拥抱让知识落地，桥接让知识出圈。
 - AI 在组织中最稳妥的初始位置不是最终治理者，而是认知后勤、专业助理和反馈雷达：信息多、规则清、反馈快、后果可逆、输出可检查的工作最适合 AI。
 - Claude Code's architecture is useful as an agent-system design-space case: the simple model-tool loop is only one layer, while permission policy, context economy, tool orchestration, subagent isolation, persistence, recovery, and extension surfaces carry much of the real system behavior.
