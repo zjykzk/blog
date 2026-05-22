@@ -1,18 +1,20 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added a Hyrum's Law source guide on observable behavior, de facto contracts, and compatibility risk.
+summary: Recent wiki activity captured a roundtable-style framework for organization roles and where AI best fits inside organizations.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-22T02:02:00+08:00
+updated: 2026-05-22T23:32:41+08:00
 ---
 
 ## Recent Activity
 
+- 2026-05-22T23:32:41+08:00 — 已捕获 [[wiki/sources/组织角色与 AI 适配 Source Guide|组织角色与 AI 适配 Source Guide]]：保留一次关于组织定义、七类组织角色功能，以及 AI 最适合承担认知后勤、反馈雷达和知识型执行辅助的中文圆桌式讨论。
+- 2026-05-22T21:13:00+08:00 — Updated [[wiki/sources/Dive into Claude Code Source Guide|Dive into Claude Code Source Guide]]: expands the arXiv paper capture with Claude Code's five values, thirteen design principles, query loop, permission layers, context shapers, subagent boundaries, OpenClaw comparison, and future agent-system directions.
 - 2026-05-22T02:02:00+08:00 — Captured [[wiki/sources/Hyrums Law Source Guide|Hyrum's Law Source Guide]]: preserves the chapter on observable behavior becoming de facto API contract, with JSON ordering, Windows compatibility, browser quirks, unordered-list, timestamp-format, and deprecation examples.
 - 2026-05-22T01:47:51+08:00 — Captured [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]]: preserves the CAP theorem chapter on consistency, availability, partition tolerance, CP/AP database examples, tunable Cassandra consistency levels, and Kleppmann's delay-sensitivity critique.
 - 2026-05-21T15:20:50+08:00 — 已捕获 [[wiki/sources/Doris 写入与 Routine Load Source Guide|Doris 写入与 Routine Load Source Guide]]：保留当前会话中关于 Doris 写入方式、Routine Load、Task 执行时序和内部 Rowset/事务/版本发布链路的中文教学材料。
@@ -120,6 +122,8 @@ updated: 2026-05-22T02:02:00+08:00
 
 ## Key Takeaways
 
+- AI 在组织中最稳妥的初始位置不是最终治理者，而是认知后勤、专业助理和反馈雷达：信息多、规则清、反馈快、后果可逆、输出可检查的工作最适合 AI。
+- Claude Code's architecture is useful as an agent-system design-space case: the simple model-tool loop is only one layer, while permission policy, context economy, tool orchestration, subagent isolation, persistence, recovery, and extension surfaces carry much of the real system behavior.
 - Hyrum's Law gives API evolution a compatibility rule: at sufficient scale, the effective contract includes observed behavior, not only documented promises, so changes need deprecation and telemetry discipline.
 - CAP is most useful when read as a partition-time design constraint, not a database label: real systems need operation-level choices about consistency, availability, latency, and failure degradation.
 

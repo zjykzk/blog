@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-22T02:02:00+08:00
+updated: 2026-05-22T23:32:41+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -252,7 +252,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Csikszentmihalyi Systems Model of Creativity Source Guide|Csikszentmihalyi Systems Model of Creativity Source Guide]] — Source guide for Csikszentmihalyi's systems model, treating creativity as a relation among person, domain, field, and social recognition. (#creativity #psychology #systems)
 - [[wiki/sources/Dewey Reflective Inquiry Source Guide|Dewey Reflective Inquiry Source Guide]] — Source guide for Dewey's reflective thought cycle, grounding application in problem definition, hypothesis, consequence, and test. (#pragmatism #inquiry #thinking)
 - [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide|Designing, Refining, and Maintaining Agent Skills at Perplexity Source Guide]] — Perplexity's source guide treats agent skills as costly, progressively loaded context packages that need routing descriptions, evals, hierarchy, and gotchas. (#article #agents #skills #workflow #context)
-- [[wiki/sources/Dive into Claude Code Source Guide|Dive into Claude Code Source Guide]] — 这篇 arXiv 论文更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#paper #arxiv #agents #harness)
+- [[wiki/sources/Dive into Claude Code Source Guide|Dive into Claude Code Source Guide]] — Direct arXiv source guide for Claude Code as an agent-system design-space case, preserving its values, principles, harness architecture, OpenClaw comparison, and future directions. (#paper #arxiv #agents #harness #ai-coding)
 - [[wiki/sources/Epiplexity Paper Notes|Epiplexity Paper Notes]] — 这页保留论文 From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence 的阅读笔记，并作为 Epiplexity 的来源层。 (#paper #information-theory)
 - [[wiki/sources/Evaluation Concept Anatomy Source Guide|Evaluation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on evaluation as scale-shaped value judgment. (#thinking #concepts)
 - [[wiki/sources/Frontend Development Workflow Roundtable Source Guide|Frontend Development Workflow Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担前端工程方法论的稳定母页角色。 (#frontend #software-engineering #workflow #ux #roundtable)
@@ -294,6 +294,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Modern Software Engineering Notes|Modern Software Engineering Notes]] — 这份读书笔记目前以摘录和图片为主，仍更适合作为 source note，而不是直接升格为稳定 wiki 页面。 (#book-notes #software-engineering)
 - [[wiki/sources/NotebookLM 产品化 RAG 技术路径 Source Guide|NotebookLM 产品化 RAG 技术路径 Source Guide]] — 这页保存一篇中文文章对 NotebookLM 技术路径的推断：它是被文档理解、多索引、检索排序、上下文工程和引用追溯产品化后的高阶 RAG。 (#article #llm #memory #context #llm-wiki)
 - [[wiki/sources/NotebookLM Learning Workflow Source Guide|NotebookLM Learning Workflow Source Guide]] — Source guide for Ihtesham Ali's NotebookLM learning workflow thread: corpus loading, mental-model prompts, disagreement mapping, and diagnostic feedback. (#learning #notebooklm #questions)
+- [[wiki/sources/组织角色与 AI 适配 Source Guide|组织角色与 AI 适配 Source Guide]] — 这页保存一次关于组织定义、七类组织角色功能，以及 AI 最适合承担认知后勤、反馈雷达和知识型执行辅助的中文圆桌式讨论。 (#roundtable #organization #management #agents #workflow)
 - [[wiki/sources/Probability Roundtable Source Guide|Probability Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担概率论的稳定母页角色。 (#probability #thinking #roundtable)
 - [[wiki/sources/Principles of Mechanical Sympathy Source Guide|Principles of Mechanical Sympathy Source Guide]] — Source guide for Caer Sanders' Martin Fowler article on mechanical sympathy: predictable memory access, cache lines, single writers, batching, and observability. (#article #software-engineering #systems #architecture #inference)
 - [[wiki/sources/推理概念解剖 Source Guide|推理概念解剖 Source Guide]] — 这页保存一份中文概念解剖笔记：推理是沿着事物关系纹路，从已有前提、迹象和概念切分走向可回溯结论的过程。 (#thinking #reasoning #cognition)

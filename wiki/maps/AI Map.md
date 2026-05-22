@@ -17,7 +17,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 3
-updated: 2026-05-20T04:11:49+08:00
+updated: 2026-05-22T23:32:41+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -161,6 +161,7 @@ tags:
 - [[wiki/sources/SkillOS Paper Source Guide]]
 - [[wiki/sources/SkillOS Source Guide]]
 - [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]]
+- [[wiki/sources/组织角色与 AI 适配 Source Guide]]
 
 - [[wiki/sources/Agentic-First Source Guide]]
 

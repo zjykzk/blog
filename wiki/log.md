@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-19T22:35:35+08:00
+updated: 2026-05-22T23:32:41+08:00
 aliases:
   - Wiki Log
 tags:
@@ -20,6 +20,8 @@ tags:
 
 # LLM Wiki Log
 
+- [2026-05-22T23:32:41+08:00] CAPTURE type=source page="wiki/sources/组织角色与 AI 适配 Source Guide.md" title="组织角色与 AI 适配 Source Guide"
+- [2026-05-22T21:13:00+08:00] UPDATE type=source page="wiki/sources/Dive into Claude Code Source Guide.md" title="Dive into Claude Code Source Guide" reason="expand arXiv paper source guide with architecture outline, design principles, OpenClaw comparison, and integration decisions"
 - [2026-05-22T20:57:55+08:00] LINT_REVIEW category="fragmented_tags" reviewed=9 auto_fixed=0 taxonomy_updated=true note="software-engineering, learning, judgment, architecture, cognition, systems are broad routing labels; paper, article, arxiv are source-kind labels; do not add weak links automatically"
 - [2026-05-22T20:52:59+08:00] LINT_FIX rule=12e base_confidence_drift_fixed=80 confidence_drift=0 lifecycle_issues=0 prov_issues=1 fragmented_clusters=9 files_modified=80 note="remaining provenance issue is a hub-page inferred-content review item; fragmented clusters are broad/meta tags"
 - [2026-05-22T20:48:48+08:00] LINT_FIX broken_count=0 selflink_count=0 orphan_count=0 stale=0 missing_frontmatter=0 missing_summary=0 index_issues=0 prov_issues=1 files_modified=10
