@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-22T23:32:41+08:00
+updated: 2026-05-23T01:11:08+08:00
 aliases:
   - Wiki Log
 tags:
@@ -20,6 +20,7 @@ tags:
 
 # LLM Wiki Log
 
+- [2026-05-23T01:11:08+08:00] CAPTURE type=source page="wiki/sources/拥抱和桥接 知识迁移 Source Guide.md" title="拥抱和桥接：知识迁移 Source Guide"
 - [2026-05-22T23:32:41+08:00] CAPTURE type=source page="wiki/sources/组织角色与 AI 适配 Source Guide.md" title="组织角色与 AI 适配 Source Guide"
 - [2026-05-22T21:13:00+08:00] UPDATE type=source page="wiki/sources/Dive into Claude Code Source Guide.md" title="Dive into Claude Code Source Guide" reason="expand arXiv paper source guide with architecture outline, design principles, OpenClaw comparison, and integration decisions"
 - [2026-05-22T20:57:55+08:00] LINT_REVIEW category="fragmented_tags" reviewed=9 auto_fixed=0 taxonomy_updated=true note="software-engineering, learning, judgment, architecture, cognition, systems are broad routing labels; paper, article, arxiv are source-kind labels; do not add weak links automatically"
