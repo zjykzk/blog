@@ -9,8 +9,8 @@ created: 2026-04-23
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 16
-updated: 2026-05-20T04:11:49+08:00
+source_count: 17
+updated: 2026-05-23T01:59:29+08:00
 aliases:
   - agent engineering source cluster
   - harness workflow source guide
@@ -61,6 +61,7 @@ tags:
 - [[wiki/sources/Claude Code Skills Source Guide]]
 - [[wiki/sources/Seeing Like an Agent Source Guide]]
 - [[wiki/sources/Harness Engineering Source Guide]]
+- [[wiki/sources/Maintainability Sensors for Coding Agents Source Guide]]
 - [[wiki/sources/ADK Skill Design Patterns Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Company Brain Source Guide]]
@@ -83,6 +84,8 @@ Thariq Shihipar's "Seeing like an Agent" guide contributes the action-space desi
 Google Cloud Tech and Lavi Nigam's ADK skill-pattern guide contributes the skill content-design layer: Tool Wrapper, Generator, Reviewer, Inversion, and Pipeline are five ways to structure SKILL.md logic around different agent failure modes.
 
 Martin Fowler's harness-engineering guide contributes the user-side workbench layer: developers can shape coding-agent behavior through context, rules, templates, computational checks, inferential review artifacts, and feedback loops.
+
+Böckeler's maintainability-sensors follow-up contributes the practical maintainability layer: linting, dependency rules, coupling data, and AI modularity review are different sensors with different timing, signal quality, and human-judgment requirements.
 
 Chris Parsons' coding-with-AI guide contributes the trainer-role layer: production AI coding shifts senior engineering attention from approving every diff to training the harness through markdown rules, skills, checks, reset discipline, and verification surfaces.
 
