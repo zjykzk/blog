@@ -1,18 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity expanded the Harness Engineering source guide with user-owned coding-agent controls, sensors, templates, and harnessability.
+summary: Recent wiki activity captured a Chinese source guide on tacit knowledge, indwelling, AI skillization, and new tacit competence.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-23T01:52:00+08:00
+updated: 2026-05-23T01:58:00+08:00
 ---
 
 ## Recent Activity
 
+- 2026-05-23T01:58:00+08:00 — 已捕获 [[wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide|默会知识：AI 永远都不可能替代的技能 Source Guide]]：保留一篇中文文章对默会知识、现场内居、AI 可训练边界，以及个人在 AI 时代如何积累新默会的说明。
 - 2026-05-23T01:52:00+08:00 — Updated [[wiki/sources/Harness Engineering Source Guide|Harness Engineering Source Guide]]: expands Birgitta Böckeler's Martin Fowler article capture with guides, sensors, computational and inferential controls, lifecycle timing, regulation categories, harness templates, and human judgment.
 - 2026-05-23T01:34:12+08:00 — 已捕获 [[wiki/sources/刻意练习 天赋的作用究竟是什么 Source Guide|刻意练习：天赋的作用究竟是什么 Source Guide]]：保留一篇中文文章对刻意练习、天赋、专家表现、风格形成和成长路径的说明。
 - 2026-05-23T01:11:08+08:00 — 已捕获 [[wiki/sources/拥抱和桥接 知识迁移 Source Guide|拥抱和桥接：知识迁移 Source Guide]]：保留一篇中文课程材料对知识迁移、惰性知识、低路/高路迁移，以及用拥抱和桥接训练学以致用的说明。
@@ -64,6 +65,7 @@ updated: 2026-05-23T01:52:00+08:00
 - CS/performance now has a mechanical-sympathy thread: high-concurrency and inference systems should be read through memory locality, cache-line contention, write ownership, batching strategy, and measured SLO impact rather than only through abstract request counts.
 - AI coding now has an SPDD thread: prompts can become versioned delivery artifacts rather than disposable chat instructions, with business intent, domain model, architecture, operations, norms, and safeguards kept in sync with code.
 - SPDD's human-review layer is now split into three reusable lenses: abstraction-first review checks domain model and boundaries before generation; alignment review locks scope, vocabulary, acceptance, dependencies, and constraints; iterative review keeps prompt and code synchronized through functional validation and deep code review.
+- 学习与成长现在加入默会知识线索：真正的会做来自现场内居、情境判断、复杂模式识别、集体默契和具身经验；AI 可以吃掉可记录外圈，但人仍要在高情境、高例外、高责任位置积累新默会。
 - 学习与成长现在加入成就感驱动线索：成就感是有效正反馈，但如果成为唯一行动燃料，会把自我价值、短期成果和外部认可绑在一起；更稳的动力结构要把奖励扩展到长期方向、内部标准和可重复行动机制。
 - LLM Wiki now has a primary-source guide: raw sources remain immutable, the LLM-maintained wiki becomes the compiled knowledge layer, and schema/index/log files turn knowledge maintenance into an agent workflow.
 - NotebookLM 技术路径现在补上一条产品化 RAG 线索：它的可信感不只是“上传文件后回答”，而是 source 管理、文档理解、多索引、retrieval/ranking、上下文工程和引用追溯被黑盒化为产品默认能力；LLM Wiki 则在此之上解决知识结构持续沉淀。
@@ -125,6 +127,7 @@ updated: 2026-05-23T01:52:00+08:00
 
 ## Key Takeaways
 
+- 默会知识提醒 AI 时代的能力边界：能写进流程和 skill 的是显性层，真正难替代的是现场内居形成的火候、分寸、集体默契和责任判断；可写出的流程应变成杠杆，人的精力应转向下一层新默会。
 - Harness engineering for coding-agent users is a control-system practice: combine guides before action, sensors after action, deterministic checks where possible, inferential review where necessary, and templates that make codebases more harnessable.
 - 刻意练习可以理解为误差压缩技术：成熟训练体系、专业导师、高分辨率目标、即时反馈和学习区把时间转化为控制力；天赋则是影响每次更新利率的敏感度与可塑性参数。
 - 场景是知识从“记住”走向“会用”的接口：它提供触发器、现实约束和深层结构对比；拥抱让知识落地，桥接让知识出圈。

@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-23T01:52:00+08:00
+updated: 2026-05-23T01:58:00+08:00
 aliases:
   - Wiki Log
 tags:
@@ -20,6 +20,7 @@ tags:
 
 # LLM Wiki Log
 
+- [2026-05-23T01:58:00+08:00] CAPTURE type=source page="wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide.md" title="默会知识：AI 永远都不可能替代的技能 Source Guide"
 - [2026-05-23T01:52:00+08:00] UPDATE type=source page="wiki/sources/Harness Engineering Source Guide.md" title="Harness Engineering Source Guide" reason="expand Martin Fowler article source guide with guides, sensors, computational and inferential controls, timing, regulation categories, templates, and open questions"
 - [2026-05-23T01:34:12+08:00] CAPTURE type=source page="wiki/sources/刻意练习 天赋的作用究竟是什么 Source Guide.md" title="刻意练习：天赋的作用究竟是什么 Source Guide"
 - [2026-05-23T01:11:08+08:00] CAPTURE type=source page="wiki/sources/拥抱和桥接 知识迁移 Source Guide.md" title="拥抱和桥接：知识迁移 Source Guide"

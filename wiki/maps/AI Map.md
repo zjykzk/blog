@@ -161,6 +161,7 @@ tags:
 - [[wiki/sources/SkillOS Paper Source Guide]]
 - [[wiki/sources/SkillOS Source Guide]]
 - [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]]
+- [[wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide]]
 - [[wiki/sources/组织角色与 AI 适配 Source Guide]]
 
 - [[wiki/sources/Agentic-First Source Guide]]
