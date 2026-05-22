@@ -9,8 +9,8 @@ created: 2026-04-21
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 7
-updated: 2026-05-22T01:47:51+08:00
+source_count: 8
+updated: 2026-05-22T02:02:00+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -39,6 +39,7 @@ tags:
 - [[wiki/topics/Go Memory Model]]
 - [[wiki/sources/Principles of Mechanical Sympathy Source Guide]] — hardware-aware performance principles: predictable memory access, cache-line contention, single-writer ownership, and batching.
 - [[wiki/sources/Law of Leaky Abstractions Source Guide]] — abstraction-boundary principle: useful high-level models eventually expose lower-layer behavior at edge cases.
+- [[wiki/sources/Hyrums Law Source Guide|Hyrum's Law Source Guide]] — API-evolution principle: observable behavior becomes de facto contract once enough users depend on it.
 - [[wiki/sources/Galls Law Source Guide]] — software-systems growth principle: complex working systems should evolve from simple working systems.
 
 ## Databases
@@ -92,6 +93,7 @@ tags:
 - [[wiki/sources/SPDD Iterative Review Source Guide]]
 - [[wiki/sources/Principles of Mechanical Sympathy Source Guide]]
 - [[wiki/sources/Law of Leaky Abstractions Source Guide]]
+- [[wiki/sources/Hyrums Law Source Guide|Hyrum's Law Source Guide]]
 - [[wiki/sources/Galls Law Source Guide]]
 - `content/posts/cs/arch/arch.md`
 - `content/posts/cs/dist/circuit-breaker.md`

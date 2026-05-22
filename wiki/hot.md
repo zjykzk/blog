@@ -1,18 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity added a CAP theorem source guide on distributed consistency, availability, partition tolerance, database trade-offs, and CAP critique.
+summary: Recent wiki activity added a Hyrum's Law source guide on observable behavior, de facto contracts, and compatibility risk.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-22T01:47:51+08:00
+updated: 2026-05-22T02:02:00+08:00
 ---
 
 ## Recent Activity
 
+- 2026-05-22T02:02:00+08:00 — Captured [[wiki/sources/Hyrums Law Source Guide|Hyrum's Law Source Guide]]: preserves the chapter on observable behavior becoming de facto API contract, with JSON ordering, Windows compatibility, browser quirks, unordered-list, timestamp-format, and deprecation examples.
 - 2026-05-22T01:47:51+08:00 — Captured [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]]: preserves the CAP theorem chapter on consistency, availability, partition tolerance, CP/AP database examples, tunable Cassandra consistency levels, and Kleppmann's delay-sensitivity critique.
 - 2026-05-21T15:20:50+08:00 — 已捕获 [[wiki/sources/Doris 写入与 Routine Load Source Guide|Doris 写入与 Routine Load Source Guide]]：保留当前会话中关于 Doris 写入方式、Routine Load、Task 执行时序和内部 Rowset/事务/版本发布链路的中文教学材料。
 - 已捕获 [[wiki/sources/推理证明与未知问答 Source Guide|推理证明与未知问答 Source Guide]]：这段教学问答把推理、证明和未知串成一条结构线：推理从已知材料生成受约束的未知判断，证明则把推理链公开化、规则化、可回查。
@@ -115,6 +116,7 @@ updated: 2026-05-22T01:47:51+08:00
 
 ## Key Takeaways
 
+- Hyrum's Law gives API evolution a compatibility rule: at sufficient scale, the effective contract includes observed behavior, not only documented promises, so changes need deprecation and telemetry discipline.
 - CAP is most useful when read as a partition-time design constraint, not a database label: real systems need operation-level choices about consistency, availability, latency, and failure degradation.
 
 - Leaky abstractions give software design a boundary rule: high-level tools are productive only while their hidden lower layers do not dominate correctness, performance, or reliability.

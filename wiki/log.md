@@ -20,6 +20,7 @@ tags:
 
 # LLM Wiki Log
 
+- [2026-05-22T02:02:00+08:00] CAPTURE type=source page="wiki/sources/Hyrums Law Source Guide.md" title="Hyrum's Law Source Guide"
 - [2026-05-22T01:47:51+08:00] CAPTURE type=source page="wiki/sources/CAP Theorem Source Guide.md" title="CAP Theorem Source Guide"
 - [2026-05-21T14:52:00+08:00] CAPTURE type=source page="wiki/sources/Memory in the Age of AI Agents Paper Source Guide.md" title="Memory in the Age of AI Agents Paper Source Guide"
 - [2026-05-20T21:34:36+08:00] CAPTURE type=source page="wiki/sources/推理能力训练 Source Guide.md" title="推理能力训练 Source Guide"
