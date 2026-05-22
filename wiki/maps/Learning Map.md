@@ -14,7 +14,7 @@ created: 2026-04-26
 base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-23T02:06:00+08:00
+updated: 2026-05-23T02:14:22+08:00
 aliases:
   - 学习地图
 provenance:
@@ -40,6 +40,7 @@ provenance:
 - [[wiki/concepts/Creation]]——把未成形的可能性组织成可继续使用的新秩序
 - [[wiki/concepts/Analogy-Making]]——用熟悉结构承接陌生对象的认知动作
 - [[wiki/concepts/Cognitive Load Theory]]——用工作记忆带宽、外在负荷、内在负荷和图式形成解释教学设计
+- [[wiki/concepts/Autonomy-Supportive Parenting]]——通过温暖、边界、选择、责任和渐进退出，帮助孩子把规则内化成自己的理由
 - [[wiki/concepts/Cognitive Engineering]]——设计人、工具与反馈构成的认知系统
 - [[wiki/concepts/AI Learning Tutor Loop]]——用 AI 源材料系统建立知识地形、诊断理解并修补错误
 - [[wiki/concepts/Narrative]]——把事实串成可预测、可赋义、可协调、可行动的因果线索
@@ -68,6 +69,8 @@ provenance:
 - [[wiki/sources/推理证明与未知问答 Source Guide]]——推理教学追问 source guide：未知是受约束判断空位，证明是公开化、规则化、可回查的推理
 - [[wiki/sources/推理能力训练 Source Guide]]——推理能力训练 source guide：用概念清晰、因果建模、反例意识、预测和复盘训练判断校准能力
 - [[wiki/sources/可取以及不可取的困难 Source Guide]]——中文文章：区分可取困难与不可取困难，把学习状态解释为安全感、好奇心、适度压力、运动、睡眠和具身认知共同调节的系统
+- [[wiki/sources/人力资本 信号筛选和社交资本 Source Guide]]——中文文章：把学校教育拆成人力资本、信号筛选和社交资本三种功能，并区分小学、初中、高中和大学的功能重心
+- [[wiki/sources/自主支持 献祭式教育终结者 Source Guide]]——中文文章：用自主支持、心理控制、过度养育和渐进退出解释为什么孩子不是父母作品
 - [[wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide]]——中文文章：把默会知识解释为现场内居、复杂模式识别、情境判断、集体默契和具身经验，并讨论 AI 时代的新默会积累
 - [[wiki/sources/拥抱和桥接 知识迁移 Source Guide]]——中文课程材料：用拥抱建立近迁移的情境触发，用桥接把场景提纯成可复用心智模型
 - [[wiki/sources/刻意练习 天赋的作用究竟是什么 Source Guide]]——中文文章：把刻意练习解释为误差压缩技术，把天赋解释为敏感度、可塑性、奖励函数和环境选择能力

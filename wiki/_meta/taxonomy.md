@@ -4,7 +4,7 @@ category: meta
 tags: []
 sources: []
 created: 2026-05-10T16:02:23+08:00
-updated: 2026-05-22T01:47:51+08:00
+updated: 2026-05-23T02:14:22+08:00
 summary: Controlled tag vocabulary and lint policy for the structured wiki.
 base_confidence: 0.30
 lifecycle: draft
@@ -70,6 +70,7 @@ These tags are coarse routing labels. If cohesion lint flags a large cluster her
 - `learning`
 - `cognition`
 - `education`
+- `psychology`
 - `management`
 - `organization`
 - `judgment`

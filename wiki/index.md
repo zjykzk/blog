@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-23T02:06:00+08:00
+updated: 2026-05-23T02:14:22+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -122,6 +122,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Analysis|Analysis]] — Analysis opens a whole along its own structure, identifies parts and relations, then recomposes them into actionable understanding. (#thinking #concepts #reasoning)
 - [[wiki/concepts/Reasoning as Structure Mapping|Reasoning as Structure Mapping]] — 推理可以理解为结构之间的关系保持映射：用一个已知结构照亮未知结构，并检查这种照亮是否保住了约束。 (#thinking #reasoning #cognition)
 - [[wiki/concepts/Business Modeling in Software|Business Modeling in Software]] — 软件中的业务建模，不是先讨论'软件怎么做'，而是先回答：目标组织为了产出业务结果，现在是怎么运作的，应该怎么改。
+- [[wiki/concepts/Autonomy-Supportive Parenting|Autonomy-Supportive Parenting]] — Autonomy-supportive parenting helps children internalize rules as their own reasons through warmth, boundaries, choice, responsibility, and gradual withdrawal. (#learning #cognition #education #psychology)
 - [[wiki/concepts/Cognitive Load Theory|Cognitive Load Theory]] — Cognitive Load Theory explains learning as schema formation constrained by limited working-memory bandwidth and affected by intrinsic and extraneous load. (#learning #cognition #education #psychology)
 - [[wiki/concepts/Cognition Three Channels|Cognition Three Channels]] — 人认识世界靠三根独立的生成器撑着。关掉任何一根，认识塌一块。
 - [[wiki/concepts/Cognitive Engineering|Cognitive Engineering]] — 认知工程学不是单独研究'人怎么想'，而是研究如何设计工具、信息结构与反馈机制，让人更容易想对、做对、协同对。
@@ -267,6 +268,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Maintainability Sensors for Coding Agents Source Guide|Maintainability Sensors for Coding Agents Source Guide]] — Source guide for Birgitta Böckeler's Martin Fowler follow-up on maintainability sensors for coding agents: linting, dependency rules, coupling data, and AI modularity review. (#article #agents #harness #ai-coding #software-engineering)
 - [[wiki/sources/ICAP Learning Framework Source Guide|ICAP Learning Framework Source Guide]] — Source guide for the ICAP learning framework article, distinguishing passive, active, constructive, and interactive learning by cognitive engagement. (#learning #cognition #education)
 - [[wiki/sources/可取以及不可取的困难 Source Guide|可取以及不可取的困难 Source Guide]] — 这页保存一篇中文文章对可取困难、学习唤醒度、睡眠运动、具身认知和运动员式学习流程的说明。 (#article #learning #cognition #education #thinking)
+- [[wiki/sources/人力资本 信号筛选和社交资本 Source Guide|人力资本、信号筛选和社交资本 Source Guide]] — 这页保存一篇中文文章对学校教育三种功能的说明：人力资本、信号筛选和社交资本，并区分小学、初中、高中和大学的功能重心。 (#article #learning #cognition #education #judgment)
+- [[wiki/sources/自主支持 献祭式教育终结者 Source Guide|自主支持：献祭式教育终结者 Source Guide]] — 这页保存一篇中文文章对自主支持型养育、心理控制、过度养育、边际效益递减和父母渐进退出机制的说明。 (#article #learning #cognition #education #psychology)
 - [[wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide|默会知识：AI 永远都不可能替代的技能 Source Guide]] — 这页保存一篇中文文章对默会知识、现场内居、AI 可训练边界，以及个人在 AI 时代如何积累新默会的说明。 (#article #learning #cognition #agents #skills)
 - [[wiki/sources/刻意练习 天赋的作用究竟是什么 Source Guide|刻意练习：天赋的作用究竟是什么 Source Guide]] — 这页保存一篇中文文章对刻意练习、天赋、专家表现、风格形成和成长路径的说明：练习是误差压缩，天赋是敏感度与可塑性。 (#article #learning #cognition #education #thinking)
 - [[wiki/sources/拥抱和桥接 知识迁移 Source Guide|拥抱和桥接：知识迁移 Source Guide]] — 这页保存一篇中文课程材料对知识迁移、惰性知识、低路/高路迁移，以及拥抱与桥接教学策略的说明。 (#article #learning #cognition #education #thinking)

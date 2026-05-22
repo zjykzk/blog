@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-23T02:06:00+08:00
+updated: 2026-05-23T02:14:22+08:00
 aliases:
   - Wiki Log
 tags:
@@ -20,6 +20,9 @@ tags:
 
 # LLM Wiki Log
 
+- [2026-05-23T02:14:22+08:00] CAPTURE type=concept page="wiki/concepts/Autonomy-Supportive Parenting.md" title="Autonomy-Supportive Parenting"
+- [2026-05-23T02:14:22+08:00] CAPTURE type=source page="wiki/sources/自主支持 献祭式教育终结者 Source Guide.md" title="自主支持：献祭式教育终结者 Source Guide"
+- [2026-05-23T02:14:22+08:00] CAPTURE type=source page="wiki/sources/人力资本 信号筛选和社交资本 Source Guide.md" title="人力资本、信号筛选和社交资本 Source Guide"
 - [2026-05-23T02:06:00+08:00] CAPTURE type=source page="wiki/sources/可取以及不可取的困难 Source Guide.md" title="可取以及不可取的困难 Source Guide"
 - [2026-05-23T01:59:29+08:00] CAPTURE type=source page="wiki/sources/Maintainability Sensors for Coding Agents Source Guide.md" title="Maintainability Sensors for Coding Agents Source Guide"
 - [2026-05-23T01:58:00+08:00] CAPTURE type=source page="wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide.md" title="默会知识：AI 永远都不可能替代的技能 Source Guide"
