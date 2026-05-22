@@ -9,7 +9,7 @@ sources:
   - https://x.com/ihtesham2005/status/2030214970353602806
   - /Users/zenk/Documents/notes/20260506T201315--概念解剖-应用__concept.org
 created: 2026-04-29
-base_confidence: 0.65
+base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 updated: 2026-05-06T20:17:19+08:00

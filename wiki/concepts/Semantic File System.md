@@ -9,7 +9,7 @@ sources:
   - https://nanothoughts.substack.com/p/memory-is-state-not-a-service
 created: 2026-05-08T20:38:05+08:00
 updated: 2026-05-11T10:27:21+08:00
-base_confidence: 0.44
+base_confidence: 0.61
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 provenance:

@@ -8,7 +8,7 @@ sources:
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
 created: 2026-05-09T20:42:04+08:00
 updated: 2026-05-09T20:42:04+08:00
-base_confidence: 0.37
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-09
 provenance:

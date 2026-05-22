@@ -8,7 +8,7 @@ tags: []
 sources:
   - /Users/zenk/Documents/notes/20260506T194300--概念解剖-分析__concept.org
 created: 2026-04-27
-base_confidence: 0.59
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 updated: 2026-05-06T19:50:40+08:00

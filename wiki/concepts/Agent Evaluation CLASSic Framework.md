@@ -8,7 +8,7 @@ sources:
   - https://arxiv.org/abs/2601.12560v1
 created: 2026-05-13T10:37:07+08:00
 updated: 2026-05-13T10:37:07+08:00
-base_confidence: 0.57
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: "2026-05-13"
 provenance:

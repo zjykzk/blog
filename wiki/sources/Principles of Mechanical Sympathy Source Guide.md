@@ -19,7 +19,7 @@ provenance:
   extracted: 0.91
   inferred: 0.09
   ambiguous: 0.0
-base_confidence: 0.44
+base_confidence: 0.60
 lifecycle: draft
 lifecycle_changed: 2026-05-17
 aliases:

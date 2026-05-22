@@ -9,7 +9,7 @@ sources:
   - https://arxiv.org/abs/2601.12560v1
   - https://arxiv.org/abs/2605.07358v1
 created: 2026-05-04
-base_confidence: 0.70
+base_confidence: 1.00
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -17,7 +17,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 3
-updated: 2026-05-18T15:01:48+08:00
+updated: 2026-05-20T04:11:49+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -102,6 +102,8 @@ tags:
 
 ## Syntheses
 
+- [[wiki/syntheses/AI 时代开发岗位分层与协作]]
+- [[wiki/syntheses/大语言模型时代知识图谱的角色转变]]
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/syntheses/Agent System Design Space]]
 
@@ -159,6 +161,8 @@ tags:
 - [[wiki/sources/SkillOS Paper Source Guide]]
 - [[wiki/sources/SkillOS Source Guide]]
 - [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]]
+
+- [[wiki/sources/Agentic-First Source Guide]]
 
 ## Related journals
 

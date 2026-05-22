@@ -75,6 +75,7 @@ tags:
 
 ## Syntheses
 
+- [[wiki/syntheses/AI 时代开发岗位分层与协作]] — AI 时代开发岗位会分层为探索闭环、系统 owner 责任和被压缩的执行交付。
 - [[wiki/syntheses/From User Story to Architecture]]
 
 ## Source layer

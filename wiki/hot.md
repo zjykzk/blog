@@ -16,6 +16,10 @@ updated: 2026-05-22T02:02:00+08:00
 - 2026-05-22T02:02:00+08:00 — Captured [[wiki/sources/Hyrums Law Source Guide|Hyrum's Law Source Guide]]: preserves the chapter on observable behavior becoming de facto API contract, with JSON ordering, Windows compatibility, browser quirks, unordered-list, timestamp-format, and deprecation examples.
 - 2026-05-22T01:47:51+08:00 — Captured [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]]: preserves the CAP theorem chapter on consistency, availability, partition tolerance, CP/AP database examples, tunable Cassandra consistency levels, and Kleppmann's delay-sensitivity critique.
 - 2026-05-21T15:20:50+08:00 — 已捕获 [[wiki/sources/Doris 写入与 Routine Load Source Guide|Doris 写入与 Routine Load Source Guide]]：保留当前会话中关于 Doris 写入方式、Routine Load、Task 执行时序和内部 Rowset/事务/版本发布链路的中文教学材料。
+- 2026-05-21T14:52:00+08:00 — Captured [[wiki/sources/Memory in the Age of AI Agents Paper Source Guide|Memory in the Age of AI Agents Paper Source Guide]]: arXiv 2512.13564 organizes agent memory by forms, functions, and dynamics, then surveys benchmarks, frameworks, and frontiers such as memory generation, automated management, RL, multimodal memory, shared memory, and trustworthy memory.
+- 2026-05-20T21:34:36+08:00 — 已捕获 [[wiki/sources/推理能力训练 Source Guide|推理能力训练 Source Guide]]：这份中文材料把推理能力训练压成清晰定义、因果建模、反例意识和反馈闭环，并给出每日判断拆解、预测和复盘路线。
+- 2026-05-20T04:11:49+08:00 — Captured [[wiki/sources/Agentic-First Source Guide]], preserving James Pritchard's argument that agentic-first systems need agent-navigable platforms, mode-aware context, and edit-time guardrails.
+- 已新增 [[wiki/syntheses/AI 时代开发岗位分层与协作]]：AI 降低代码生成成本后，开发岗位会分层为 AI-native builder、系统 owner 和被压缩的执行型开发；合作规则是实验代码可以快，生产边界必须慢。
 - 已捕获 [[wiki/sources/推理证明与未知问答 Source Guide|推理证明与未知问答 Source Guide]]：这段教学问答把推理、证明和未知串成一条结构线：推理从已知材料生成受约束的未知判断，证明则把推理链公开化、规则化、可回查。
 - 已捕获 [[wiki/sources/推理概念解剖 Source Guide|推理概念解剖 Source Guide]]：这份中文概念解剖把推理定义为沿事物关系纹路，从事实、前提和迹象，经由概念命名、关系规则、推演比较、置信度和证据回查，走向可回溯结论。
 - Captured [[wiki/sources/Law of Leaky Abstractions Source Guide|Law of Leaky Abstractions Source Guide]]: the Law of Leaky Abstractions frames abstractions as useful but imperfect models whose edge cases expose lower layers such as SQL, garbage collection, memory layout, networks, and distributed failure.
@@ -119,6 +123,11 @@ updated: 2026-05-22T02:02:00+08:00
 - Hyrum's Law gives API evolution a compatibility rule: at sufficient scale, the effective contract includes observed behavior, not only documented promises, so changes need deprecation and telemetry discipline.
 - CAP is most useful when read as a partition-time design constraint, not a database label: real systems need operation-level choices about consistency, availability, latency, and failure degradation.
 
+- Agent memory can be read through three orthogonal lenses: forms ask what carries memory, functions ask why the agent needs it, and dynamics ask how it forms, evolves, and is retrieved over time.
+
+- Agentic-first workflow design treats architecture, context, and validation placement as performance levers for agents, not just implementation details.
+
+- AI 时代开发岗位的高价区会从“写代码”上移到“驾驭代码生产”：AI-native builder 负责把模糊问题快速推到真实反馈里，系统 owner 负责让经过验证的变化以可维护、可回滚、可观测的方式进入主系统。
 - Leaky abstractions give software design a boundary rule: high-level tools are productive only while their hidden lower layers do not dominate correctness, performance, or reliability.
 - Gall’s Law gives software architecture a growth rule: working complexity should evolve from a simple working core, not from a speculative big-bang design.
 - 推理可以被沉淀为结构映射模型：用已知结构照亮未知结构，关键不在表面相似，而在关系迁移、约束检验和边界意识；概念解剖来源进一步补上前提、概念命名、关系规则、结论置信度和证据回查的推理通道；后续问答进一步明确“未知”是受约束的判断空位，“证明”是可复查的推理；训练层则把推理能力落实为清晰定义、因果建模、反例意识和现实反馈。

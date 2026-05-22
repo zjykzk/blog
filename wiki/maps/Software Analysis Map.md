@@ -359,8 +359,10 @@ CRUD 可以出现在实现和管理后台里，但不应在分析阶段冒充核
 ## Related
 
 - [[wiki/concepts/Software Analysis Three Generators]]
+- [[wiki/concepts/Use Case]]
 - [[wiki/syntheses/Requirements Expression Beyond Use Cases]]
 - [[wiki/sources/Use Case 开发管理 Source Guide]]
+- [[wiki/sources/Use Case concept graph]]
 - [[wiki/sources/Use Case 协作与追踪矩阵 Source Guide]]
 - [[wiki/syntheses/Use Cases as AI Coding Traceability Anchors]]
 - [[wiki/maps/Software Design Map]]

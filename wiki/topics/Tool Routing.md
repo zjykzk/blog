@@ -7,7 +7,7 @@ summary: Tool Routing designs how an agent chooses the next capability path whil
 sources:
   - https://x.com/trq212/status/2027463795355095314
 created: 2026-04-22
-base_confidence: 0.37
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 5

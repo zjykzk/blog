@@ -13,7 +13,7 @@ sources:
   - https://arxiv.org/abs/2605.07358v1
 created: 2026-05-06T10:51:47+08:00
 updated: 2026-05-18T15:01:48+08:00
-base_confidence: 0.76
+base_confidence: 0.84
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 provenance:

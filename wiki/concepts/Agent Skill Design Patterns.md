@@ -33,13 +33,13 @@ The useful design axis is not “what files does a skill contain?” but “what
 
 ## Five Patterns
 
-| Pattern | Control problem | Typical resources | Use when |
-| --- | --- | --- | --- |
-| Tool Wrapper | Put domain conventions behind an on-demand context surface | `references/` | The agent must apply a library, SDK, internal system, or team convention consistently. |
-| Generator | Make output shape repeatable | `assets/` plus `references/` | The output must follow a fixed template, style guide, or document structure. |
-| Reviewer | Separate evaluation criteria from review protocol | `references/` | Code, content, or artifacts need checklist-based scoring and severity grouping. |
-| Inversion | Prevent premature generation by making the agent interview first | often `assets/` | The agent needs missing user context before useful action is possible. |
-| Pipeline | Preserve ordered execution with explicit gates | `references/`, `assets/`, and sometimes `scripts/` | The workflow has dependent stages where skipping validation would corrupt the result. |
+| Pattern      | Control problem                                                  | Typical resources                                  | Use when                                                                               |
+| ------------ | ---------------------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Tool Wrapper | Put domain conventions behind an on-demand context surface       | `references/`                                      | The agent must apply a library, SDK, internal system, or team convention consistently. |
+| Generator    | Make output shape repeatable                                     | `assets/` plus `references/`                       | The output must follow a fixed template, style guide, or document structure.           |
+| Reviewer     | Separate evaluation criteria from review protocol                | `references/`                                      | Code, content, or artifacts need checklist-based scoring and severity grouping.        |
+| Inversion    | Prevent premature generation by making the agent interview first | often `assets/`                                    | The agent needs missing user context before useful action is possible.                 |
+| Pipeline     | Preserve ordered execution with explicit gates                   | `references/`, `assets/`, and sometimes `scripts/` | The workflow has dependent stages where skipping validation would corrupt the result.  |
 
 ## Pattern Logic
 

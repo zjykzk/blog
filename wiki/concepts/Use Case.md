@@ -1,8 +1,24 @@
 ---
 title: Use Case
+category: concepts
 type: concept
 status: growing
-updated: 2026-05-16
+tags:
+  - requirements
+  - software-analysis
+  - software-engineering
+sources:
+  - conversation:2026-05-16
+created: 2026-05-16T00:00:00+08:00
+updated: 2026-05-16T00:00:00+08:00
+summary: Use Case defines a bounded actor-system interaction that delivers meaningful value, with checks for boundary, actor, goal, scope, and traceability.
+provenance:
+  extracted: 1.00
+  inferred: 0.00
+  ambiguous: 0.00
+base_confidence: 0.42
+lifecycle: draft
+lifecycle_changed: 2026-05-16
 aliases:
   - 用例
   - 系统用例

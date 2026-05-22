@@ -15,10 +15,10 @@ created: 2026-05-18T22:25:02+08:00
 updated: 2026-05-19T22:35:35+08:00
 summary: 推理可以理解为结构之间的关系保持映射：用一个已知结构照亮未知结构，并检查这种照亮是否保住了约束。
 provenance:
-  extracted: 0.62
-  inferred: 0.38
+  extracted: 0.94
+  inferred: 0.06
   ambiguous: 0.00
-base_confidence: 0.42
+base_confidence: 0.73
 lifecycle: draft
 lifecycle_changed: 2026-05-18
 aliases:

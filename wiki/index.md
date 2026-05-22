@@ -178,6 +178,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Software Design Three Generators|Software Design Three Generators]] — 软件设计这门学问，名词满天飞：SOLID、设计模式二十三种、DDD、六边形、洋葱、整洁架构、CQRS、事件溯源、依赖注入、分层、微服务、界限上下文、聚合根……但任何一个设计决定，最后都能归到三根独立的生成器里。
 - [[wiki/concepts/System|System]] — A system is a bounded set of interacting elements whose relations and feedback generate whole behavior over time. (#systems-thinking #concepts #feedback #structure)
 - [[wiki/concepts/Uncertainty as Meaning Fuel|Uncertainty as Meaning Fuel]] — 不确定性是意义的燃料：人不是只想要确定性，而是需要在可承受的不确定中完成探索、叙事、判断和行动。 (#thinking #probability #cognition #judgment)
+- [[wiki/concepts/Use Case|Use Case]] — Use Case defines a bounded actor-system interaction that delivers meaningful value, with checks for boundary, actor, goal, scope, and traceability. (#requirements #software-analysis #software-engineering)
 - [[wiki/concepts/Speculative Decoding|Speculative Decoding]] — Speculative decoding proposes multiple cheap draft tokens and verifies them with the large model to reduce expensive decoding steps. (#llm #inference #decoding)
 - [[wiki/concepts/Specific Knowledge|Specific Knowledge]] — Specific knowledge is hard-to-train knowledge built from genuine curiosity, practice, and creative or technical edge. (#wealth #learning #skill #judgment)
 - [[wiki/concepts/State Management|State Management]] — State management controls where application state lives, how it changes, and how those changes propagate through the interface. (#frontend #architecture #state)
@@ -188,6 +189,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Workflow Graph Orchestration|Workflow Graph Orchestration]] — Workflow Graph Orchestration models agent work as explicit state-machine or graph traversal so control, persistence, guard nodes, and recovery stay inspectable. (#agents #orchestration #workflow)
 
 ## Syntheses
+- [[wiki/syntheses/AI 时代开发岗位分层与协作|AI 时代开发岗位分层与协作]] — AI 降低代码生成成本后，开发岗位会分层为探索闭环、系统责任和执行交付；AI-native builder 与系统 owner 分别承担速度和长期性。 (#software-engineering #ai-coding #architecture #management #judgment)
+- [[wiki/syntheses/大语言模型时代知识图谱的角色转变|大语言模型时代知识图谱的角色转变]] — 这篇课程综述草稿讨论知识图谱在 LLM 时代从结构化知识表示转向 GraphRAG、可信生成和知识治理基础设施。 (#论文 #知识图谱 #大语言模型 #GraphRAG)
 - [[wiki/syntheses/软件设计作为系统诊断|软件设计作为系统诊断]] — 软件设计可以被看作系统诊断：从代码事件下潜到重复模式、生成结构和心智模型，再用原则、模式、信息流和状态流转定位高杠杆改造点。 (#software-engineering #architecture #systems #thinking #mechanism)
 - [[wiki/syntheses/信息流与状态流转设计原则]] — 信息流设计回答事实如何传播、被谁相信并影响判断；状态流转设计回答对象如何沿合法路径变化、保持不变量并在失败后恢复。 (#software-engineering #architecture #systems #feedback #mechanism)
 - [[wiki/syntheses/Quality Engineering Three Generators|Quality Engineering Three Generators]] — 质量工程可以压缩为三根生成器：承诺清楚、偏差显形、修正闭环；行业实践分别落在规格契约、测试监控和复盘改进上。 (#software-engineering #testing #requirements #feedback)
@@ -217,6 +220,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]] — Source guide preserving a CAP theorem chapter on consistency, availability, partition tolerance, database examples, and Kleppmann's critique. (#book #distributed-systems #database #systems #architecture)
 - [[wiki/sources/Doris 写入与 Routine Load Source Guide|Doris 写入与 Routine Load Source Guide]] — 这页保留 Doris 2.1 写入方式、Routine Load 原理、Task 时序，以及内部 Rowset、事务和版本发布链路。 (#database #systems #software-engineering #architecture)
 - [[wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide|配置 钩子 代码库与技能放置决策 Source Guide]] — 这页保存一棵判断树：固定指令、可靠自动化、代码库规范和手动技能分别应该放在哪里。 (#agents #harness #skills #llm-wiki)
+- [[wiki/sources/Agentic-First Source Guide]] — Source guide for James Pritchard's Agentic-First article, focused on agent-navigable platforms, mode-aware context, edit-time guardrails, and process-level automation. (#article #agents #harness #ai-coding #context)
 - [[wiki/sources/Agent Engineering Source Guide|Agent Engineering Source Guide]] — 这页用于收拢“agent engineering / harness / workflow”这一类更偏工程综述与系统实践的来源材料。 (#agents #engineering #harness)
 - [[wiki/sources/Agent Harness Anatomy Source Guide|Agent Harness Anatomy Source Guide]] — Source guide for Akshay Pachaar's agent harness thread, focused on the 12-component harness model and architecture decisions. (#agents #harness #architecture)
 - [[wiki/sources/Agent Harness Engineering Source Guide|Agent Harness Engineering Source Guide]] — Source guide for Addy Osmani's Agent Harness Engineering article, focused on harnesses as configurable runtimes, failure ratchets, and service APIs. (#agents #harness #engineering)
@@ -320,6 +324,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/SkillOS Source Guide]] — Source guide for AVB's SkillOS article: experiences become reusable skills through a trainable curator, grouped task rollouts, and delayed RL rewards. (#article #agents #skills #memory #training)
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide|Team AI Coding Harness Seminar Source Guide]] — Source guide for TechLead 少个分号's WeChat seminar recap on team-level AI coding harness, human discipline, TDD loops, and translation-layer compression. (#agents #harness #ai-coding)
 - [[wiki/sources/Use Case 开发管理 Source Guide|Use Case 开发管理 Source Guide]] — 这页保存一份关于 Use Case 如何定义行为契约，并关联 UI、API、应用服务、领域模型、数据库、测试和开发任务的中文讲解。 (#requirements #software-engineering #architecture #testing)
+- [[wiki/sources/Use Case concept graph|Use Case Concept Graph]] — Use Case Concept Graph preserves a compact diagram of use case relations among stakeholder, actor, scope, level, and trigger. (#requirements #software-analysis #diagram)
 - [[wiki/sources/Use Case 协作与追踪矩阵 Source Guide|Use Case 协作与追踪矩阵 Source Guide]] — 这页保存 Use Case 从产品初版、业务校验、RD 领域建模、UI/API 设计、QA 验收到开发任务追踪矩阵的协作流程。 (#requirements #software-engineering #architecture #testing)
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #cognition #causal-reasoning)
 - [[wiki/sources/Understanding as Concept Cloud Source Guide|Understanding as Concept Cloud Source Guide]] — Source guide for inline discussions that model understanding as a cloud and trace the frame to Hofstadter's analogy-making work. (#cognition #learning #concepts)

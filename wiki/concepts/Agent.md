@@ -7,7 +7,7 @@ summary: Agent is a control-loop system that uses perception, memory, planning, 
 sources:
   - https://arxiv.org/abs/2601.12560v1
 created: 2026-04-20
-base_confidence: 0.57
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:

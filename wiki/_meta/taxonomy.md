@@ -47,6 +47,8 @@ These tags are intentionally not used as ordinary content tags because they crea
 
 ## Source-kind tags
 
+These tags describe source genre rather than semantic neighborhood, so low graph cohesion is expected and should not trigger automatic cross-linking.
+
 - `roundtable`
 - `paper`
 - `article`
@@ -56,6 +58,8 @@ These tags are intentionally not used as ordinary content tags because they crea
 - `book`
 
 ## Broad non-AI domains currently used
+
+These tags are coarse routing labels. If cohesion lint flags a large cluster here, prefer splitting into more specific tags or linking through maps/syntheses rather than adding weak page-to-page links.
 
 - `software-engineering`
 - `distributed-systems`
@@ -76,6 +80,12 @@ These tags are intentionally not used as ordinary content tags because they crea
 - `testing`
 - `wealth`
 - `probability`
+
+## Cohesion lint exclusions
+
+- Source-kind tags such as `paper`, `article`, and `arxiv` are genre labels, not topical clusters.
+- Broad domain tags with more than 15 pages should be reviewed through taxonomy or map pages before any cross-linking pass.
+- Automatic fixes should only add links for small topical clusters where the relationship is semantically specific.
 
 ## Alias mappings
 

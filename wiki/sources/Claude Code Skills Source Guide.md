@@ -8,7 +8,7 @@ sources:
   - https://x.com/trq212/status/2033949937936085378
 created: 2026-05-06T10:51:47+08:00
 updated: 2026-05-06T10:51:47+08:00
-base_confidence: 0.37
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 provenance:

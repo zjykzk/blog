@@ -40,6 +40,7 @@ tags:
 
 ## Navigation
 
+- [[wiki/concepts/Use Case]]
 - [[wiki/topics/面向对象分析与设计]]
 - [[wiki/topics/Requirement to Architecture Mapping]]
 - `pages/用户故事.md`

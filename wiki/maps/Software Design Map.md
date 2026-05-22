@@ -8,7 +8,7 @@ sources:
   - mobu/读书/架构师启示录-知识模型、落地方法与思维模式.md
   - mobu/读书/架构师启示录-知识模型、落地方法与思维模式_第8章及以后章节.md
 created: 2026-05-03
-base_confidence: 0.37
+base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 updated: 2026-05-19T00:00:00+08:00

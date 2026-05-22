@@ -8,7 +8,7 @@ sources:
   - /Users/zenk/Downloads/How to Get Rich (without getting lucky).pdf
   - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
 created: 2026-04-21
-base_confidence: 0.53
+base_confidence: 0.73
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4

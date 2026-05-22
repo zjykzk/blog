@@ -9,8 +9,8 @@ created: 2026-04-23
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 15
-updated: 2026-05-09T21:05:00+08:00
+source_count: 16
+updated: 2026-05-20T04:11:49+08:00
 aliases:
   - agent engineering source cluster
   - harness workflow source guide
@@ -66,6 +66,7 @@ tags:
 - [[wiki/sources/Company Brain Source Guide]]
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 - [[wiki/sources/Harness Engineering Is Cybernetics Source Guide]]
+- [[wiki/sources/Agentic-First Source Guide]]
 
 The prompt-caching guide now covers both a secondary case-study explainer and Thariq's original Claude Code article, which contributes the production-harness angle: cache-hit monitoring, stable mode tools, deferred tool loading, and cache-safe compaction.
 
@@ -90,6 +91,8 @@ NanoThoughts' company-brain guide contributes the enterprise substrate layer: ag
 TechLead 少个分号's seminar recap contributes the team-discipline layer: harness must also shape human requirements, testing, self-test, and review behavior so AI generation can enter a closed verification loop.
 
 George's harness-cybernetics article contributes the control-loop analogy: harness engineering is the move from direct code manipulation to designing sensors, actuators, desired state, and calibration rules around agentic coding.
+
+James Pritchard's Agentic-First article contributes the platform-and-process layer: agent performance depends on file-oriented architecture, mode-aware context, edit-time validation, and moving human oversight to boundaries instead of preserving legacy workflow checkpoints.
 
 ## Main promotion destinations
 

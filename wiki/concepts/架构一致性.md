@@ -19,7 +19,7 @@ sources:
   - mobu/读书/架构师启示录-知识模型、落地方法与思维模式_第8章及以后章节-幕布图片-385820-68140.png
 created: 2026-05-13
 updated: 2026-05-13T00:06:14+08:00
-base_confidence: 0.62
+base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-13
 provenance:

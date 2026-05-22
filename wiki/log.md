@@ -20,10 +20,16 @@ tags:
 
 # LLM Wiki Log
 
+- [2026-05-22T20:57:55+08:00] LINT_REVIEW category="fragmented_tags" reviewed=9 auto_fixed=0 taxonomy_updated=true note="software-engineering, learning, judgment, architecture, cognition, systems are broad routing labels; paper, article, arxiv are source-kind labels; do not add weak links automatically"
+- [2026-05-22T20:52:59+08:00] LINT_FIX rule=12e base_confidence_drift_fixed=80 confidence_drift=0 lifecycle_issues=0 prov_issues=1 fragmented_clusters=9 files_modified=80 note="remaining provenance issue is a hub-page inferred-content review item; fragmented clusters are broad/meta tags"
+- [2026-05-22T20:48:48+08:00] LINT_FIX broken_count=0 selflink_count=0 orphan_count=0 stale=0 missing_frontmatter=0 missing_summary=0 index_issues=0 prov_issues=1 files_modified=10
+- [2026-05-22T20:42:18+08:00] LINT issues_found=107 orphans=3 broken_links=0 stale=2 contradictions=0 prov_issues=3 missing_summary=2 fragmented_clusters=9 visibility_issues=0 promotion_candidates=0 synthesis_gaps=0 lifecycle_issues=84
 - [2026-05-22T02:02:00+08:00] CAPTURE type=source page="wiki/sources/Hyrums Law Source Guide.md" title="Hyrum's Law Source Guide"
 - [2026-05-22T01:47:51+08:00] CAPTURE type=source page="wiki/sources/CAP Theorem Source Guide.md" title="CAP Theorem Source Guide"
 - [2026-05-21T14:52:00+08:00] CAPTURE type=source page="wiki/sources/Memory in the Age of AI Agents Paper Source Guide.md" title="Memory in the Age of AI Agents Paper Source Guide"
+- [2026-05-21T00:39:08+08:00] QUERY query="以上内容和当前的harness中的实践有什么不同吗" result_pages=6 mode=normal escalated=false
 - [2026-05-20T21:34:36+08:00] CAPTURE type=source page="wiki/sources/推理能力训练 Source Guide.md" title="推理能力训练 Source Guide"
+- [2026-05-19T23:51:12+08:00] CAPTURE type=synthesis page="wiki/syntheses/AI 时代开发岗位分层与协作.md" title="AI 时代开发岗位分层与协作"
 - [2026-05-19T22:35:35+08:00] CAPTURE type=source page="wiki/sources/推理证明与未知问答 Source Guide.md" title="推理证明与未知问答 Source Guide"
 - [2026-05-19T22:31:55+08:00] QUERY query="推理中的未知指的是什么" result_pages=2 mode=normal escalated=false
 - [2026-05-19T19:38:01+08:00] QUERY query="推理和证明有什么关系" result_pages=4 mode=normal escalated=true
@@ -219,4 +225,6 @@ tags:
 - [2026-05-18T15:01:48+08:00] INGEST source="https://arxiv.org/abs/2605.07358v1" pages_updated=6 pages_created=1 mode=append
 - [2026-05-18T21:53:13+0800] QUERY query="推理" result_pages=8 mode=normal escalated=false
 - [2026-05-18T22:25:02+08:00] CAPTURE type=concept page="wiki/concepts/Reasoning as Structure Mapping.md" title="Reasoning as Structure Mapping"
+- [2026-05-20T04:11:49+08:00] CAPTURE type=source page="wiki/sources/Agentic-First Source Guide.md" title="Agentic-First Source Guide"
+
 - [2026-05-21T15:20:50+08:00] CAPTURE type=source page="wiki/sources/Doris 写入与 Routine Load Source Guide.md" title="Doris 写入与 Routine Load Source Guide"

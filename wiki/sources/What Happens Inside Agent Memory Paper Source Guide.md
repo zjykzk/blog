@@ -9,7 +9,7 @@ sources:
   - https://arxiv.org/pdf/2605.03354v2
 created: 2026-05-13T10:38:00+08:00
 updated: 2026-05-13T10:38:00+08:00
-base_confidence: 0.66
+base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-05-13
 provenance:

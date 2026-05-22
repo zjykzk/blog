@@ -17,7 +17,7 @@ sources:
   - https://arxiv.org/abs/2603.28052
   - https://arxiv.org/abs/2603.07670
 created: 2026-05-04
-base_confidence: 0.78
+base_confidence: 0.84
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:

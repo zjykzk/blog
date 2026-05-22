@@ -10,7 +10,7 @@ sources:
   - inline:life-of-a-token-2026-05-09
 created: 2026-05-05T00:00:00+08:00
 updated: 2026-05-09T00:00:00+08:00
-base_confidence: 0.72
+base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:

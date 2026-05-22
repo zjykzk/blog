@@ -8,7 +8,7 @@ tags: []
 sources:
   - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
 created: 2026-04-26
-base_confidence: 0.37
+base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
