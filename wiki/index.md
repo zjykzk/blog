@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-23T01:59:29+08:00
+updated: 2026-05-23T02:06:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -266,6 +266,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Harness Engineering Is Cybernetics Source Guide|Harness Engineering Is Cybernetics Source Guide]] — Source guide for George's X article framing harness engineering as cybernetics: sensors, actuators, feedback loops, and machine-readable judgment. (#agents #harness #cybernetics)
 - [[wiki/sources/Maintainability Sensors for Coding Agents Source Guide|Maintainability Sensors for Coding Agents Source Guide]] — Source guide for Birgitta Böckeler's Martin Fowler follow-up on maintainability sensors for coding agents: linting, dependency rules, coupling data, and AI modularity review. (#article #agents #harness #ai-coding #software-engineering)
 - [[wiki/sources/ICAP Learning Framework Source Guide|ICAP Learning Framework Source Guide]] — Source guide for the ICAP learning framework article, distinguishing passive, active, constructive, and interactive learning by cognitive engagement. (#learning #cognition #education)
+- [[wiki/sources/可取以及不可取的困难 Source Guide|可取以及不可取的困难 Source Guide]] — 这页保存一篇中文文章对可取困难、学习唤醒度、睡眠运动、具身认知和运动员式学习流程的说明。 (#article #learning #cognition #education #thinking)
 - [[wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide|默会知识：AI 永远都不可能替代的技能 Source Guide]] — 这页保存一篇中文文章对默会知识、现场内居、AI 可训练边界，以及个人在 AI 时代如何积累新默会的说明。 (#article #learning #cognition #agents #skills)
 - [[wiki/sources/刻意练习 天赋的作用究竟是什么 Source Guide|刻意练习：天赋的作用究竟是什么 Source Guide]] — 这页保存一篇中文文章对刻意练习、天赋、专家表现、风格形成和成长路径的说明：练习是误差压缩，天赋是敏感度与可塑性。 (#article #learning #cognition #education #thinking)
 - [[wiki/sources/拥抱和桥接 知识迁移 Source Guide|拥抱和桥接：知识迁移 Source Guide]] — 这页保存一篇中文课程材料对知识迁移、惰性知识、低路/高路迁移，以及拥抱与桥接教学策略的说明。 (#article #learning #cognition #education #thinking)

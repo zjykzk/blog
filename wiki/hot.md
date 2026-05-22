@@ -1,18 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured a Martin Fowler source guide on maintainability sensors for coding agents, plus recent learning and AI harness sources.
+summary: Recent wiki activity captured a Chinese source guide on desirable difficulties, learning state, sleep, exercise, and embodied cognition.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-23T01:59:29+08:00
+updated: 2026-05-23T02:06:00+08:00
 ---
 
 ## Recent Activity
 
+- 2026-05-23T02:06:00+08:00 — 已捕获 [[wiki/sources/可取以及不可取的困难 Source Guide|可取以及不可取的困难 Source Guide]]：保留一篇中文文章对可取困难、学习唤醒度、睡眠运动、具身认知和运动员式学习流程的说明。
 - 2026-05-23T01:59:29+08:00 — Captured [[wiki/sources/Maintainability Sensors for Coding Agents Source Guide|Maintainability Sensors for Coding Agents Source Guide]]: preserves Birgitta Böckeler's Martin Fowler follow-up on maintainability sensors for coding agents, including linting, dependency rules, coupling data, and AI modularity review.
 - 2026-05-23T01:58:00+08:00 — 已捕获 [[wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide|默会知识：AI 永远都不可能替代的技能 Source Guide]]：保留一篇中文文章对默会知识、现场内居、AI 可训练边界，以及个人在 AI 时代如何积累新默会的说明。
 - 2026-05-23T01:52:00+08:00 — Updated [[wiki/sources/Harness Engineering Source Guide|Harness Engineering Source Guide]]: expands Birgitta Böckeler's Martin Fowler article capture with guides, sensors, computational and inferential controls, lifecycle timing, regulation categories, harness templates, and human judgment.
@@ -66,6 +67,7 @@ updated: 2026-05-23T01:59:29+08:00
 - CS/performance now has a mechanical-sympathy thread: high-concurrency and inference systems should be read through memory locality, cache-line contention, write ownership, batching strategy, and measured SLO impact rather than only through abstract request counts.
 - AI coding now has an SPDD thread: prompts can become versioned delivery artifacts rather than disposable chat instructions, with business intent, domain model, architecture, operations, norms, and safeguards kept in sync with code.
 - SPDD's human-review layer is now split into three reusable lenses: abstraction-first review checks domain model and boundaries before generation; alignment review locks scope, vocabulary, acceptance, dependencies, and constraints; iterative review keeps prompt and code synchronized through functional validation and deep code review.
+- 学习与成长现在加入可取困难线索：学习需要阻力，但阻力应来自提取、间隔、交错和内容加工，而不是疲劳、恐惧、羞辱、睡眠剥夺和外部威胁。
 - 学习与成长现在加入默会知识线索：真正的会做来自现场内居、情境判断、复杂模式识别、集体默契和具身经验；AI 可以吃掉可记录外圈，但人仍要在高情境、高例外、高责任位置积累新默会。
 - 学习与成长现在加入成就感驱动线索：成就感是有效正反馈，但如果成为唯一行动燃料，会把自我价值、短期成果和外部认可绑在一起；更稳的动力结构要把奖励扩展到长期方向、内部标准和可重复行动机制。
 - LLM Wiki now has a primary-source guide: raw sources remain immutable, the LLM-maintained wiki becomes the compiled knowledge layer, and schema/index/log files turn knowledge maintenance into an agent workflow.
@@ -128,6 +130,7 @@ updated: 2026-05-23T01:59:29+08:00
 
 ## Key Takeaways
 
+- 可取困难给学习状态一条边界：安全感、好奇心和适度压力能提高学习，提取/间隔/交错能制造有益阻力；睡眠剥夺、高压恐惧和羞辱只是在增加外在负荷。
 - 默会知识提醒 AI 时代的能力边界：能写进流程和 skill 的是显性层，真正难替代的是现场内居形成的火候、分寸、集体默契和责任判断；可写出的流程应变成杠杆，人的精力应转向下一层新默会。
 - Maintainability sensors make AI coding debt visible before it compounds: linting and dependency rules provide fast computational feedback, coupling data highlights review risk, and AI modularity review adds semantic interpretation that still needs human judgment.
 - Harness engineering for coding-agent users is a control-system practice: combine guides before action, sensors after action, deterministic checks where possible, inferential review where necessary, and templates that make codebases more harnessable.
