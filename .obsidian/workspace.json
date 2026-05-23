@@ -13,25 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/Prefill Decode Split.md",
+                "file": "wiki/syntheses/harness-root-ranks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prefill Decode Split"
+              "title": "harness-root-ranks"
             }
           },
           {
             "id": "563d95f9033203d1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/syntheses/软件设计作为系统诊断.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "软件设计作为系统诊断"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "my-ai-adoption-journey",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 562.5
+    "width": 370.5
   },
   "right": {
     "id": "7eba894845c12087",
@@ -104,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/concepts/AI Learning Tutor Loop.md",
+                "file": "wiki/topics/Learning Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AI Learning Tutor Loop"
+              "title": "Backlinks for Learning Methodology"
             }
           },
           {
@@ -123,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/concepts/Prefill Decode Split.md",
+                "file": "wiki/topics/Learning Methodology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Prefill Decode Split"
+              "title": "Outgoing links from Learning Methodology"
             }
           },
           {
@@ -196,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -218,50 +223,51 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a9f87afd1bd3f1b1",
+  "active": "563d95f9033203d1",
   "lastOpenFiles": [
-    "wiki/syntheses/Quality Engineering Three Generators.md",
+    "wiki/syntheses/大语言模型时代知识图谱的角色转变.md",
+    "wiki/syntheses/不确定性下的判断.md",
+    "wiki/syntheses/ICAP 与知识类型的适用边界.md",
+    "wiki/syntheses/Human Agency × Narrative.md",
     "wiki/syntheses/Knowledge System Construction.md",
-    "wiki/sources/从知识堆积到结构化记忆 Source Guide.md",
-    "wiki/maps/AI Map.md",
-    "wiki/topics/Mental Models.md",
+    "wiki/syntheses/Learning Methodology Across Sources.md",
+    "wiki/syntheses/Learning Methodology × Mental Models.md",
+    "wiki/syntheses/Agentic Engineering × Verification Loop.md",
+    "wiki/syntheses/AI Memory × Context Graph.md",
+    "wiki/syntheses/Permissionless Leverage × Wealth Creation.md",
+    "wiki/syntheses/AI Harness × Testing Strategy.md",
+    "wiki/syntheses/Coding Agent User Harness × Verification Loop.md",
+    "wiki/syntheses/Agent Skill × Context Management.md",
+    "Excalidraw/agent.excalidraw.md",
     "wiki/index.md",
-    "wiki/maps/Reading Map.md",
-    "wiki/concepts/架构一致性.md",
-    "wiki/sources/What Happens Inside Agent Memory Paper Source Guide.md",
-    "wiki/sources/Agentic Artificial Intelligence Paper Source Guide.md",
-    "wiki/concepts/Workflow Graph Orchestration.md",
-    "wiki/concepts/Agent Evaluation CLASSic Framework.md",
-    "wiki/concepts/Agentic AI Architecture Taxonomy.md",
-    "wiki/concepts/Agentic Control Loop.md",
-    "wiki/sources/Memory for Autonomous LLM Agents Source Guide.md",
-    "wiki/concepts/Agent Memory Evaluation Stack.md",
-    "wiki/concepts/Agent Memory Mechanism Families.md",
-    "wiki/concepts/Agent Memory Write-Manage-Read Loop.md",
-    "wiki/sources/架构师启示录 Source Guide.md",
+    "wiki/maps/Learning Map.md",
+    "wiki/topics/Learning Methodology.md",
+    "wiki/syntheses/harness-root-ranks.md",
     "wiki/sources/思维圆桌 Source Guide.md",
+    "wiki/sources/拥抱和桥接 知识迁移 Source Guide.md",
+    "wiki/sources/推理概念解剖 Source Guide.md",
+    "wiki/sources/推理能力训练 Source Guide.md",
+    "wiki/sources/面向 LLM 的清晰表达 Source Guide.md",
+    "wiki/sources/刻意练习 天赋的作用究竟是什么 Source Guide.md",
+    "wiki/concepts/Autonomy-Supportive Parenting.md",
+    "wiki/sources/自主支持 献祭式教育终结者 Source Guide.md",
+    "wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide.md.tmp.60422.b5c4872b1fcd",
+    "wiki/hot.md.tmp.60422.7f5b972d6ec5",
+    "wiki/sources/Untitled.canvas",
+    "wiki/hot.md.tmp.15389.0349d693a23e",
+    "wiki/log.md.tmp.15389.150f6abaafef",
+    "wiki/index.md.tmp.15389.5e2cbb347d3b",
+    "wiki/hot.md.tmp.15389.167c1ddbe7ba",
+    "raw/sources/HRiwbM75WooKMuxkev3cKjqHnie.PNG",
+    "_meta/content-index.base",
     "mobu/读书/架构师启示录-知识模型、落地方法与思维模式-幕布图片-249642-378639.png",
-    "wiki/concepts/重构层次.md",
-    "wiki/topics/架构落地方法.md",
-    "wiki/concepts/架构知识模型.md",
-    "wiki/concepts/架构认知框架.md",
-    "mobu/读书/架构师启示录-知识模型、落地方法与思维模式.md",
-    "wiki/sources/React Component Lifecycle Source Guide.md",
     "wiki/_meta",
     "iceberg-model-large.png",
     "iceberg-model-page.png",
     "skills",
     "Excalidraw/backend.excalidraw",
-    "Excalidraw/agent.excalidraw",
-    "agent.excalidraw",
-    "_meta/content-index.base",
     "Untitled.canvas",
     "Pasted image 20260421133444.png",
-    "_meta",
-    "skills-lock.json",
-    "log/app.log",
-    "log",
-    "raw/sources/HRiwbM75WooKMuxkev3cKjqHnie.PNG",
     "raw/HRiwbM75WooKMuxkev3cKjqHnie.PNG",
     "token.png",
     "mobu/读书/modern_software_engineering-幕布图片-195155-330004.png",

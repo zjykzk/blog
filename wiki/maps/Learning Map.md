@@ -4,7 +4,8 @@ type: map
 status: draft
 category: maps
 summary: Learning Map collects learning methodology, cognition concepts, AI tutor loops, and cross-source synthesis for durable learning practice.
-tags: []
+tags:
+  - learning
 sources:
   - inline:understanding-cloud-2026-05-06
   - inline:hofstadter-frame-discussion-2026-05-06
@@ -20,7 +21,7 @@ aliases:
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
+  ambiguous: 0
 ---
 # Learning Map
 
