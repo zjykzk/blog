@@ -97,6 +97,8 @@ This connects [[wiki/topics/Testing Strategy]] to harness design: TDD is not onl
 
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/Context Management]]
+- [[wiki/syntheses/Coding Agent User Harness × Verification Loop]] — synthesis
+- [[wiki/syntheses/Agentic Engineering × Verification Loop]] — synthesis
 - [[wiki/concepts/Agent Tool]]
 - [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/Computational and Inferential Controls]]

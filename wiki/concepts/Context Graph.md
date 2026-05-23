@@ -83,6 +83,8 @@ Without a context graph, companies retain searchable fragments but lose decision
 ## Related
 
 - [[wiki/concepts/Company Brain]]
+- [[wiki/topics/AI Memory]]
+- [[wiki/syntheses/AI Memory × Context Graph]] — synthesis
 - [[wiki/concepts/Organizational Memory]]
 - [[wiki/concepts/Factual Memory]]
 - [[wiki/concepts/Interaction Memory]]

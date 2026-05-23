@@ -66,5 +66,6 @@ This links directly to [[wiki/concepts/Leverage Points]]: a career can be redesi
 - [[wiki/concepts/Specific Knowledge]]
 - [[wiki/concepts/Accountability]]
 - [[wiki/concepts/Permissionless Leverage]]
+- [[wiki/syntheses/Permissionless Leverage × Wealth Creation]] — synthesis
 - [[wiki/topics/Judgment Under Leverage]]
 - [[wiki/concepts/Leverage Points]]

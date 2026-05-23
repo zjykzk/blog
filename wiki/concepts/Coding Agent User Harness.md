@@ -77,6 +77,7 @@ George's cybernetics article makes the same role shift concrete through Watt's g
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/concepts/Context Anchoring]]
 - [[wiki/concepts/Verification Loop]]
+- [[wiki/syntheses/Coding Agent User Harness × Verification Loop]] — synthesis
 - [[wiki/concepts/Feedforward and Feedback Controls]]
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Harnessability]]

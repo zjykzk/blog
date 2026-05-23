@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-23T02:14:22+08:00
+updated: 2026-05-23T02:28:40+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -202,6 +202,10 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Agent Skill Patterns as Human Workflow Control Structures|Agent Skill Patterns as Human Workflow Control Structures]] — Agent skill patterns translate ordinary human work controls—manuals, templates, reviews, interviews, and gates—into executable agent workflows. (#synthesis #agents #workflow #skills)
 - [[wiki/syntheses/Agent System Design Space|Agent System Design Space]] — Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, cache economics, and runtime APIs. (#synthesis #agents #architecture)
 - [[wiki/syntheses/AI Engineering Workflow|AI Engineering Workflow]] — AI Engineering Workflow connects agent mental models, workflow control, tool design, coding constraints, and requirement normalization. (#synthesis #agents #workflow)
+- [[wiki/syntheses/AI Harness × Testing Strategy|AI Harness × Testing Strategy]] — In AI coding, testing strategy becomes harness design: tests are runtime feedback surfaces, not only post-implementation QA. (#agents #harness #testing #software-engineering)
+- [[wiki/syntheses/AI Memory × Context Graph|AI Memory × Context Graph]] — AI memory becomes organizationally useful when remembered items are placed in a context graph of owners, evidence, freshness, and permissions. (#agents #memory #organization)
+- [[wiki/syntheses/Agent Skill × Context Management|Agent Skill × Context Management]] — Skills are context-routing devices: they add capability by making task-specific context loadable only when the workflow needs it. (#agents #skills #context #workflow)
+- [[wiki/syntheses/Agentic Engineering × Verification Loop|Agentic Engineering × Verification Loop]] — Agentic engineering shifts engineering effort from generating code to designing verification loops that make generated work safe to accept. (#agents #ai-coding #testing #software-engineering)
 - [[wiki/syntheses/Application and Creation Distinction|Application and Creation Distinction]] — Application adapts an existing abstraction to constraints; creation reorganizes materials into a new durable order. (#synthesis #thinking #learning #creativity)
 - [[wiki/syntheses/Business Analysis to Software Design|Business Analysis to Software Design]] — Synthesis of how business modeling and software analysis become software design through domain boundaries and shared models. (#software-methodology #analysis #design)
 - [[wiki/syntheses/Decision Modes for Engineering Work|Decision Modes for Engineering Work]] — 这页尝试把管理、问题判断和软件工程方法连成一个更高层的操作框架：面对不同类型的问题，团队不该只换答案，更要换决策模式。 (#synthesis #decision-making #management #engineering)
@@ -209,12 +213,16 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/ICAP 与知识类型的适用边界|ICAP 与知识类型的适用边界]] — ICAP 可以作为通用的学习深度刻度，但不能作为所有知识的同一种学习处方；它需要和知识类型、学习阶段、先验图式与认知负荷一起使用。 (#learning #cognition)
 - [[wiki/syntheses/Learning Methodology Across Sources|Learning Methodology Across Sources]] — 把 wiki 里散落在不同笔记中的学习相关结论，按 Learning Methodology 的七条原则做一次对齐。目的：看清楚哪些原则已经被多个独立来源印证、哪些还只是一家之言、哪些源之间有冲突需要再想。
 - [[wiki/syntheses/Knowledge System Construction|Knowledge System Construction]] — 知识体系构建把问题牵引、知识成网、隐性知识外化、知识资产化、共同体实践和定期审计组织成一个持续更新的认知系统。 (#learning #cognition #management #organization)
+- [[wiki/syntheses/Learning Methodology × Mental Models|Learning Methodology × Mental Models]] — Learning methodology turns durable learning into mental-model construction, not information collection or summary consumption. (#learning #cognition #thinking)
 - [[wiki/syntheses/LLM Training Stages|LLM Training Stages]] — LLM training stages differ by data shape, loss signal, and behavioral target: pretraining builds capability, SFT shapes instruction following, and RL optimizes preferences. (#synthesis #llm #training)
 - [[wiki/syntheses/React UI Organization Model|React UI Organization Model]] — Synthesis of React as a UI organization model combining declarative rendering, components, and state management. (#frontend #react #ui)
 - [[wiki/syntheses/Reality-Refutable Engineering Systems|Reality-Refutable Engineering Systems]] — Mature engineering systems let reality challenge their models through feedback, appeal, accountability, and redesign triggers. (#synthesis #software-engineering #systems #governance #feedback)
 - [[wiki/syntheses/Thinking and Judgment Workflow|Thinking and Judgment Workflow]] — 这页把 Mental Models 、 Critical Thinking 、 Problem Framing 串成一条更完整的思考路径：面对复杂问题时，不只是要会想，还要知道先怎么定义问题、再怎么观察、最后怎么判断。 (#synthesis #thinking #reasoning #methods)
 - [[wiki/syntheses/成就感驱动与行动动力结构|成就感驱动与行动动力结构]] — 成就感可以作为行动奖励，但如果成为唯一燃料，就会让行动动力、价值感和短期反馈过度绑定。 (#thinking #cognition #learning #feedback #mechanism)
 - [[wiki/syntheses/深度思考 高阶思维与本质理解|深度思考、高阶思维与本质理解]] — 深度思考负责下钻生成机制，高阶思维负责审查问题框架，二者经由现实校验共同逼近本质并形成深度理解。 (#thinking #learning #cognition #judgment)
+- [[wiki/syntheses/Coding Agent User Harness × Verification Loop|Coding Agent User Harness × Verification Loop]] — A user harness becomes useful when verification signals enter the loop early enough to steer agents and update durable controls. (#agents #harness #ai-coding #testing)
+- [[wiki/syntheses/Human Agency × Narrative|Human Agency × Narrative]] — Agency needs narrative to organize action, but mature agency must also test and revise the narratives that direct it. (#thinking #cognition #judgment)
+- [[wiki/syntheses/Permissionless Leverage × Wealth Creation|Permissionless Leverage × Wealth Creation]] — Permissionless leverage is the scaling mechanism that lets wealth creation escape rented time, but it only amplifies judgment. (#wealth #leverage #career #judgment)
 - [[wiki/syntheses/不确定性下的判断|不确定性下的判断]] — 这页尝试把 Problem Framing 、 Mental Models 、 Probability 、 Critical Thinking 串成一个更高层的判断框架：很多真正重要的决策，并不是在确定条件下做出的，而是在信息不全、对象不稳、反馈滞后时被迫推进的。 (#synthesis #thinking #judgment #decision-making)
 
 ## Sources

@@ -55,6 +55,7 @@ lifecycle_changed: 2026-05-10
 
 - [[wiki/sources/Narrative as First Principle Source Guide]]
 - [[wiki/topics/Mental Models]]
+- [[wiki/syntheses/Human Agency × Narrative]] — synthesis
 - [[wiki/topics/Critical Thinking]]
 - [[wiki/topics/Probability]]
 - [[wiki/concepts/Feedback Loops]]

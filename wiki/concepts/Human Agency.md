@@ -58,5 +58,6 @@ aliases:
 - [[wiki/sources/能动与稳态生存逻辑 Source Guide]]
 - [[wiki/topics/Wealth Creation]]
 - [[wiki/concepts/Multiplicative World]]
+- [[wiki/syntheses/Human Agency × Narrative]] — synthesis
 - [[wiki/topics/Mental Models]]
 - [[wiki/syntheses/Acting Under Complexity]]

@@ -51,6 +51,7 @@ It also connects to [[wiki/topics/Thinking in Systems]] because the key variable
 ## Related
 
 - [[wiki/topics/Wealth Creation]]
+- [[wiki/syntheses/Permissionless Leverage × Wealth Creation]] — synthesis
 - [[wiki/topics/Judgment Under Leverage]]
 - [[wiki/concepts/Specific Knowledge]]
 - [[wiki/concepts/Leverage Points]]

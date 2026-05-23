@@ -152,6 +152,7 @@ The paper's numeric claims remain source-level: the reported 76.2% unsupervised 
 - [[wiki/concepts/Company Brain]]
 - [[wiki/concepts/Organizational Memory]]
 - [[wiki/concepts/Context Graph]]
+- [[wiki/syntheses/AI Memory × Context Graph]] — synthesis
 - [[wiki/concepts/Factual Memory]]
 - [[wiki/concepts/Semantic File System]]
 - [[wiki/concepts/Interaction Memory]]

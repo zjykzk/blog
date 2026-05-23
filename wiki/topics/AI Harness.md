@@ -110,6 +110,7 @@ This matters because the same model can be moved between harnesses and expose ve
 - 能不能让工具在正确边界内被调用
 - 能不能把高风险动作重新交给人判断
 - 能不能用 [[wiki/concepts/Verification Loop]] 在错误扩散前获得外部反馈
+- [[wiki/syntheses/AI Harness × Testing Strategy]] — synthesis
 - 能不能在需要时隔离子任务与执行环境
 - 能不能在会话中断之后恢复足够连续的状态
 

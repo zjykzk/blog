@@ -113,6 +113,7 @@ Naval Ravikant 的 "How to Get Rich" 也可以读成一组经济行动 mental mo
 - [[wiki/topics/Probability]]
 - [[wiki/topics/Learnable Structure in Data]]
 - [[wiki/topics/Learning Methodology]]
+- [[wiki/syntheses/Learning Methodology × Mental Models]] — synthesis
 - [[wiki/concepts/Analysis]]
 - [[wiki/concepts/Creation]]
 - [[wiki/concepts/Understanding]]

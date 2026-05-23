@@ -110,6 +110,7 @@ The paper's [[wiki/concepts/Skill Self-Evolution]] loop also makes evaluation pa
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/Context Management]]
+- [[wiki/syntheses/Agent Skill × Context Management]] — synthesis
 - [[wiki/concepts/Agent Action Space]]
 - [[wiki/concepts/Agent Skill Design Patterns]]
 - [[wiki/concepts/Skill Self-Evolution]]

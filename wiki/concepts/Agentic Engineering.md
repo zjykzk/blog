@@ -81,6 +81,7 @@ Parsons names several recurring failure modes:
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Agent Skill]]
 - [[wiki/concepts/Verification Loop]]
+- [[wiki/syntheses/Agentic Engineering × Verification Loop]] — synthesis
 - [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/topics/Testing Strategy]]
 - [[wiki/topics/Context Management]]

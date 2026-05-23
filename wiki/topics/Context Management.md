@@ -185,6 +185,7 @@ So context management has two layers: design the current information surface, an
 - [[wiki/topics/Tool Routing]]
 - [[wiki/topics/AI Memory]]
 - [[wiki/topics/AI Harness]]
+- [[wiki/syntheses/Agent Skill × Context Management]] — synthesis
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/concepts/Agentic Engineering]]
 - [[wiki/topics/Prompt Frequency]]

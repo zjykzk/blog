@@ -107,6 +107,7 @@ For testing strategy, the implication is that AI productivity depends less on ho
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/concepts/Agentic Engineering]]
+- [[wiki/syntheses/AI Harness × Testing Strategy]] — synthesis
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]

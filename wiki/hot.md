@@ -1,18 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured autonomy-supportive parenting as a source guide and concept, plus recent education sources.
+summary: Recent wiki activity synthesized eight cross-cutting pages across agent harnesses, memory, learning, wealth, and agency.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-23T02:14:22+08:00
+updated: 2026-05-23T02:28:40+08:00
 ---
 
 ## Recent Activity
 
+- 2026-05-23T02:28:40+08:00 — Synthesized 8 cross-cutting pages: [[wiki/syntheses/Agent Skill × Context Management]], [[wiki/syntheses/Coding Agent User Harness × Verification Loop]], [[wiki/syntheses/AI Harness × Testing Strategy]], [[wiki/syntheses/Permissionless Leverage × Wealth Creation]], [[wiki/syntheses/Human Agency × Narrative]], [[wiki/syntheses/AI Memory × Context Graph]], [[wiki/syntheses/Agentic Engineering × Verification Loop]], and [[wiki/syntheses/Learning Methodology × Mental Models]].
 - 2026-05-23T02:14:22+08:00 — 已捕获 [[wiki/sources/自主支持 献祭式教育终结者 Source Guide|自主支持：献祭式教育终结者 Source Guide]] 并新增 [[wiki/concepts/Autonomy-Supportive Parenting|Autonomy-Supportive Parenting]]：保留自主支持型养育、心理控制、过度养育、边际效益递减和父母渐进退出机制。
 - 2026-05-23T02:14:22+08:00 — 已捕获 [[wiki/sources/人力资本 信号筛选和社交资本 Source Guide|人力资本、信号筛选和社交资本 Source Guide]]：保留一篇中文文章对学校教育三种功能的说明：人力资本、信号筛选和社交资本，并区分小学、初中、高中和大学的功能重心。
 - 2026-05-23T02:06:00+08:00 — 已捕获 [[wiki/sources/可取以及不可取的困难 Source Guide|可取以及不可取的困难 Source Guide]]：保留一篇中文文章对可取困难、学习唤醒度、睡眠运动、具身认知和运动员式学习流程的说明。
@@ -80,6 +81,8 @@ updated: 2026-05-23T02:14:22+08:00
 - 综合调研现在补强了学习与知识体系主线：知识工作者要从标准答案转向半熟知识，通过定位式、结构化和生成式调研，把材料之间的关系写成可行动判断。
 - 知识体系构建现在有一条知识管理线索：个人 wiki 不只是资料仓库，而是经历、概念、链接、复用、输出和审计组成的持续认知系统。
 - Agent memory now has a circuit-diagnosis thread: end-to-end memory accuracy hides whether failure happened in Write, Manage, or Read; stage-local internal signatures may turn memory observability from logs into operation-level diagnosis.
+- Agent systems now have a stronger synthesis layer: skills are context-routing devices, user harnesses become useful through verification loops, and testing strategy becomes runtime feedback design for AI coding.
+- Agent memory now has a graph-governance thread: memory becomes organizationally useful only when remembered items connect to owners, evidence, freshness, permissions, decisions, and action paths.
 - Agent systems now have a stronger control-loop thread: perception, memory update, planning, action, feedback, and state transition must be governed by harness boundaries rather than left as implicit model behavior.
 - Agent architecture now has a taxonomy thread: core components, cognitive architecture, learning, multi-agent systems, environments, and evaluation/safety are coupled design surfaces, not independent features.
 - Workflow graph orchestration is now represented as a production control pattern: explicit state machines, guard nodes, checkpoints, and approvals can reduce open-ended chat-loop failure modes.
@@ -261,5 +264,18 @@ updated: 2026-05-23T02:14:22+08:00
 - ICAP 适合诊断学习动作的深度：事实知识不必强行互动，概念和因果知识需要建构，程序知识还要刻意练习，判断和情境知识更依赖案例、互动与现实反馈。
 - 设计原则与设计模式可以放进 Iceberg Model 诊断：事件层看到某段代码用了什么模式，模式层看到反复设计问题，结构层用原则判断职责/边界/依赖/流转，心智模型层追问设计者相信什么是好软件。
 - 信息流与状态流转的最小区别是：信息流让事实被观察、传递、理解并影响判断；状态流转让对象从状态 A 经规则触发变成状态 B 并保持不变量。
+
+## Skipped Synthesis Candidates
+
+- [[wiki/concepts/Company Brain]] × [[wiki/topics/AI Memory]] — co-occurs in 11 pages; likely wants a broader organization-memory synthesis.
+- [[wiki/concepts/Factual Memory]] × [[wiki/concepts/Interaction Memory]] — co-occurs in 11 pages; close subcluster of Company Brain.
+- [[wiki/concepts/Context Graph]] × [[wiki/concepts/Semantic File System]] — co-occurs in 11 pages; overlaps with AI Memory × Context Graph.
+- [[wiki/topics/Mental Models]] × [[wiki/topics/Wealth Creation]] — co-occurs in 10 pages; useful career-judgment synthesis candidate.
+- [[wiki/topics/Judgment Under Leverage]] × [[wiki/topics/Wealth Creation]] — co-occurs in 10 pages; likely wealth decision-quality synthesis.
+- [[wiki/concepts/Agent Skill]] × [[wiki/topics/Tool Routing]] — co-occurs in 10 pages; overlaps with Agent Skill × Context Management.
+- [[wiki/concepts/Verification Loop]] × [[wiki/topics/Tool Routing]] — co-occurs in 9 pages; could explain tool-call truth signals.
+- [[wiki/concepts/Harnessability]] × [[wiki/concepts/Verification Loop]] — co-occurs in 9 pages; could explain testable work environments.
+- [[wiki/topics/Software Methodology]] × [[wiki/topics/面向对象分析与设计]] — co-occurs in 8 pages; software-analysis cluster candidate.
+- [[wiki/concepts/KV Cache]] × [[wiki/topics/LLM Inference Systems]] — co-occurs in 8 pages; inference-system performance candidate.
 
 ## Flagged Contradictions
