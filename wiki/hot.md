@@ -8,11 +8,12 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-23T02:28:40+08:00
+updated: 2026-05-24T00:02:57+08:00
 ---
 
 ## Recent Activity
 
+- 2026-05-24T00:02:57+08:00 — 已捕获 [[wiki/sources/概念 因果 规律 机制与知识 Source Guide|概念、因果、规律、机制与知识 Source Guide]]：保留一段中文教学对话，区分概念节点、因果生成关系、规律稳定概括、机制内部解释和知识网络。
 - 2026-05-23T02:28:40+08:00 — Synthesized 8 cross-cutting pages: [[wiki/syntheses/Agent Skill × Context Management]], [[wiki/syntheses/Coding Agent User Harness × Verification Loop]], [[wiki/syntheses/AI Harness × Testing Strategy]], [[wiki/syntheses/Permissionless Leverage × Wealth Creation]], [[wiki/syntheses/Human Agency × Narrative]], [[wiki/syntheses/AI Memory × Context Graph]], [[wiki/syntheses/Agentic Engineering × Verification Loop]], and [[wiki/syntheses/Learning Methodology × Mental Models]].
 - 2026-05-23T02:14:22+08:00 — 已捕获 [[wiki/sources/自主支持 献祭式教育终结者 Source Guide|自主支持：献祭式教育终结者 Source Guide]] 并新增 [[wiki/concepts/Autonomy-Supportive Parenting|Autonomy-Supportive Parenting]]：保留自主支持型养育、心理控制、过度养育、边际效益递减和父母渐进退出机制。
 - 2026-05-23T02:14:22+08:00 — 已捕获 [[wiki/sources/人力资本 信号筛选和社交资本 Source Guide|人力资本、信号筛选和社交资本 Source Guide]]：保留一篇中文文章对学校教育三种功能的说明：人力资本、信号筛选和社交资本，并区分小学、初中、高中和大学的功能重心。
@@ -137,6 +138,7 @@ updated: 2026-05-23T02:28:40+08:00
 
 ## Key Takeaways
 
+- 因果、规律和机制的区别可以压成三层：因果是条件下的生成关系，规律是生成关系稳定显现后的概括，机制是生成关系的内部路径；应用不是规律本身，而是利用规律和机制行动。
 - 自主支持型养育的关键不是让孩子听话，而是让孩子同意：规则、边界和后果仍然存在，但父母要用理由、选择、责任和支持替代内疚、羞耻、撤回关爱和情感绑架。
 - 学校教育不是单一知识传输器，而是人力资本、信号筛选和社交资本的混合体；小学重打底，高中重排序，大学重社会沙盒，错配场域会伤害学习和好奇心。
 - 可取困难给学习状态一条边界：安全感、好奇心和适度压力能提高学习，提取/间隔/交错能制造有益阻力；睡眠剥夺、高压恐惧和羞辱只是在增加外在负荷。

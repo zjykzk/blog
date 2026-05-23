@@ -20,6 +20,7 @@ tags:
 
 # LLM Wiki Log
 
+- [2026-05-24T00:02:57+08:00] CAPTURE type=source page="wiki/sources/概念 因果 规律 机制与知识 Source Guide.md" title="概念、因果、规律、机制与知识 Source Guide"
 - [2026-05-23T02:28:40+08:00] WIKI_SYNTHESIZE pages_scanned=301 synthesis_created=8 candidates_skipped=10
 - [2026-05-23T02:14:22+08:00] CAPTURE type=concept page="wiki/concepts/Autonomy-Supportive Parenting.md" title="Autonomy-Supportive Parenting"
 - [2026-05-23T02:14:22+08:00] CAPTURE type=source page="wiki/sources/自主支持 献祭式教育终结者 Source Guide.md" title="自主支持：献祭式教育终结者 Source Guide"

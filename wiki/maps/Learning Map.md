@@ -69,6 +69,7 @@ provenance:
 - [[wiki/sources/推理概念解剖 Source Guide]]——推理概念解剖 source guide：推理是沿关系纹路从前提和迹象走向可回溯结论的过程
 - [[wiki/sources/推理证明与未知问答 Source Guide]]——推理教学追问 source guide：未知是受约束判断空位，证明是公开化、规则化、可回查的推理
 - [[wiki/sources/推理能力训练 Source Guide]]——推理能力训练 source guide：用概念清晰、因果建模、反例意识、预测和复盘训练判断校准能力
+- [[wiki/sources/概念 因果 规律 机制与知识 Source Guide]]——中文教学对话：把概念、因果、规律、机制和知识区分为节点、生成关系、稳定概括、内部路径和可迁移网络
 - [[wiki/sources/可取以及不可取的困难 Source Guide]]——中文文章：区分可取困难与不可取困难，把学习状态解释为安全感、好奇心、适度压力、运动、睡眠和具身认知共同调节的系统
 - [[wiki/sources/人力资本 信号筛选和社交资本 Source Guide]]——中文文章：把学校教育拆成人力资本、信号筛选和社交资本三种功能，并区分小学、初中、高中和大学的功能重心
 - [[wiki/sources/自主支持 献祭式教育终结者 Source Guide]]——中文文章：用自主支持、心理控制、过度养育和渐进退出解释为什么孩子不是父母作品
