@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-23T02:28:40+08:00
+updated: 2026-05-24T16:54:50+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -255,6 +255,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Coding with AI Source Guide|Coding with AI Source Guide]] — Source guide for Chris Parsons' 2026 Coding with AI article, focused on agentic engineering, trainer roles, harnesses, context resets, and verification bottlenecks. (#ai-coding #agents #harness)
 - [[wiki/sources/Compounding Engineering Source Guide]] — Source guide for an Every article arguing that AI coding compounds when reviews, failures, tests, and workflow lessons update durable context, evals, agents, and harness defaults. (#article #ai-coding #agents #harness #feedback)
 - [[wiki/sources/概念 因果 规律 机制与知识 Source Guide|概念、因果、规律、机制与知识 Source Guide]] — 这页保存一段中文教学对话：概念提供节点，因果提供生成关系，规律概括稳定显现，机制解释内部路径，知识把它们组织成可迁移网络。 (#thinking #cognition #learning #mechanism)
+- [[wiki/sources/知识结构 认知结构与概念地图问答 Source Guide|知识结构、认知结构与概念地图问答 Source Guide]] — 这页保存一段中文教学问答：知识结构组织知识关系，认知结构组织解释、判断、行动和更新；概念地图适合捕获前者，也能作为后者的入口。 (#thinking #learning #cognition #mechanism)
 - [[wiki/sources/Cognitive Load Theory Source Guide|Cognitive Load Theory Source Guide]] — Source guide for a Chinese article on cognitive load theory, schema formation, direct instruction, worked examples, and AI as tutor rather than doer. (#learning #cognition #education)
 - [[wiki/sources/Company Brain Source Guide|Company Brain Source Guide]] — Source guide for NanoThoughts' Company Brain series, covering factual, interaction, and action memory as a substrate for governed agents. (#agents #organization #memory)
 - [[wiki/sources/Creation Concept Anatomy Source Guide|Creation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on creation as difference entering durable order. (#thinking #concepts)

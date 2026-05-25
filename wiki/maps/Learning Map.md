@@ -15,7 +15,7 @@ created: 2026-04-26
 base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-23T02:14:22+08:00
+updated: 2026-05-24T16:54:50+08:00
 aliases:
   - 学习地图
 provenance:
@@ -80,6 +80,7 @@ provenance:
 - [[wiki/sources/Cognitive Load Theory Source Guide]]——认知负荷理论、图式形成、直接教学、范例学习与 AI tutor/doer 边界
 - [[wiki/sources/The ICAP Framework Paper Source Guide]]——Chi 与 Wylie 2014 原论文 source guide：四种认知参与模式、知识变化过程、实证验证、caveats 与理论比较
 - [[wiki/sources/表征 图式 心智模型和解释框架 Source Guide]]——《学习学的是什么》来源导览：真正学习是把材料压缩成表征、图式、心智模型和解释框架
+- [[wiki/sources/知识结构 认知结构与概念地图问答 Source Guide]]——中文教学问答：区分知识结构、认知结构和概念地图的捕获边界，把概念地图定位为知识结构强工具和认知结构入口工具
 - [[wiki/sources/综合调研 在没有教科书的地方挖掘真知 Source Guide]]——《综合调研：在没有教科书的地方挖掘真知》来源导览：定位式调研读懂对象，结构化调研读懂争论，生成式调研读出新问题
 - [[wiki/sources/Narrative as First Principle Source Guide]]——《现代思维工具课》基本世界观中关于叙事的来源导览
 - [[wiki/sources/内核 你的三个自我 Source Guide]]——《现代思维工具课》基本世界观中关于三个自我、内核更新和训练样本/奖励函数的来源导览
