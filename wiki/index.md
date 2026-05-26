@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-24T16:54:50+08:00
+updated: 2026-05-26T16:06:31+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -239,6 +239,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide|Agent Skills Data-Driven Analysis Paper Source Guide]] — Direct paper guide for a 40,285-skill marketplace measurement study covering growth bursts, length, redundancy, functional demand, and safety risks in Claude-style agent skills. (#paper #arxiv #agents #skills #software-engineering)
 - [[wiki/sources/Agent Skills Survey Paper Source Guide|Agent Skills Survey Paper Source Guide]] — Direct paper guide for the agent-skills survey, preserving its lifecycle taxonomy, resource taxonomy, retrieval/selection framing, evolution risks, and research agenda. (#paper #arxiv #survey #agents #skills)
 - [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide|Agentic Artificial Intelligence Paper Source Guide]] — Source guide for arXiv 2601.12560v1 on agentic AI architectures, taxonomy, control loops, multi-agent orchestration, evaluation, safety, and open challenges. (#paper #arxiv #agents #architecture)
+- [[wiki/sources/Bayes-Consistent Agentic Orchestration Paper River Source Guide|Bayes-Consistent Agentic Orchestration Paper River Source Guide]] — Paper-river source guide for arXiv 2605.00742v2, tracing agent orchestration from tool action toward Bayesian cost-aware control. (#paper #arxiv #agents #harness #probability)
 - [[wiki/sources/Agent Systems Papers Source Guide|Agent Systems Papers Source Guide]] — Source guide collecting agent-system papers and deciding which claims should stay source-level versus move into topics and syntheses. (#papers #agents)
 - [[wiki/sources/ADK Skill Design Patterns Source Guide|ADK Skill Design Patterns Source Guide]] — Source guide for Google Cloud Tech and Lavi Nigam's article on five practical SKILL.md content patterns for ADK agents. (#agents #skills #adk)
 - [[wiki/sources/AI Coding Control Limits Source Guide|AI Coding Control Limits Source Guide]] — 这篇文章更适合作为一个 source facing note 进入当前仓库，而不是直接承担稳定 topic 页角色。 (#ai-coding #software-engineering #complexity #productivity #security)
@@ -255,6 +256,11 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Coding with AI Source Guide|Coding with AI Source Guide]] — Source guide for Chris Parsons' 2026 Coding with AI article, focused on agentic engineering, trainer roles, harnesses, context resets, and verification bottlenecks. (#ai-coding #agents #harness)
 - [[wiki/sources/Compounding Engineering Source Guide]] — Source guide for an Every article arguing that AI coding compounds when reviews, failures, tests, and workflow lessons update durable context, evals, agents, and harness defaults. (#article #ai-coding #agents #harness #feedback)
 - [[wiki/sources/概念 因果 规律 机制与知识 Source Guide|概念、因果、规律、机制与知识 Source Guide]] — 这页保存一段中文教学对话：概念提供节点，因果提供生成关系，规律概括稳定显现，机制解释内部路径，知识把它们组织成可迁移网络。 (#thinking #cognition #learning #mechanism)
+- [[wiki/sources/知识论的秩 Source Guide|知识论的秩 Source Guide]] — 这页保存“知识论的秩”生成稿：知识由世界阻力、心智取形和公共追问三根线构成，并通过负反馈环压低错觉和运气。 (#thinking #cognition #reasoning #mechanism #judgment)
+- [[wiki/sources/知识图谱的秩 Source Guide|知识图谱的秩 Source Guide]] — 这页保存“知识图谱的秩”生成稿：知识图谱由钉住对象、织出关系和沿路追问三根线构成。 (#knowledge-graph #thinking #mechanism #llm-wiki)
+- [[wiki/sources/知识论概念解剖 Source Guide|知识论概念解剖 Source Guide]] — 这页保存“知识论”概念解剖稿：从定义、历史、辩证、现象、语言、形式、存在、美感和元反思切开知识论。 (#thinking #cognition #reasoning #judgment #mechanism)
+- [[wiki/sources/知识论圆桌 Source Guide|知识论圆桌 Source Guide]] — 这页保存一次知识论圆桌：知识被拆成真理对象、经验结构、批判程序和信任分配之间的张力网络。 (#roundtable #thinking #cognition #reasoning #judgment)
+- [[wiki/sources/知识结构概念解剖 Source Guide|知识结构概念解剖 Source Guide]] — 这页保存“知识结构”概念解剖稿：知识结构不是目录，而是节点、关系、权重、场景触发和可重组路径构成的活网。 (#thinking #learning #cognition #mechanism #systems)
 - [[wiki/sources/知识结构 认知结构与概念地图问答 Source Guide|知识结构、认知结构与概念地图问答 Source Guide]] — 这页保存一段中文教学问答：知识结构组织知识关系，认知结构组织解释、判断、行动和更新；概念地图适合捕获前者，也能作为后者的入口。 (#thinking #learning #cognition #mechanism)
 - [[wiki/sources/Cognitive Load Theory Source Guide|Cognitive Load Theory Source Guide]] — Source guide for a Chinese article on cognitive load theory, schema formation, direct instruction, worked examples, and AI as tutor rather than doer. (#learning #cognition #education)
 - [[wiki/sources/Company Brain Source Guide|Company Brain Source Guide]] — Source guide for NanoThoughts' Company Brain series, covering factual, interaction, and action memory as a substrate for governed agents. (#agents #organization #memory)
@@ -348,6 +354,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Theory Is All You Need Source Guide|Theory Is All You Need Source Guide]] — 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。 (#paper #cognition #causal-reasoning)
 - [[wiki/sources/Understanding as Concept Cloud Source Guide|Understanding as Concept Cloud Source Guide]] — Source guide for inline discussions that model understanding as a cloud and trace the frame to Hofstadter's analogy-making work. (#cognition #learning #concepts)
 - [[wiki/sources/vLLM Inference Systems Source Guide|vLLM Inference Systems Source Guide]] — Source guide for Aleksa Gordic's vLLM article, focused on engine loops, paged attention, batching, P/D split, scaling, serving, and benchmarking. (#llm #inference)
+- [[wiki/sources/光速不变与相对性原则问答 Source Guide|光速不变与相对性原则问答 Source Guide]] — 中文物理教学问答：光速不变为何成为公设、相对性原则如何约束物理规律、非惯性系为何需要惯性力。 (#learning #cognition #physics #reasoning)
 
 ## Meta
 - [[wiki/hot|Hot Cache]] — Recent captures added the Agentic Artificial Intelligence survey: agent systems are control loops governed by architecture taxonomy, workflow graphs, and CLASSic evaluation.

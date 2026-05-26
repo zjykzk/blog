@@ -17,7 +17,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 3
-updated: 2026-05-23T01:59:29+08:00
+updated: 2026-05-26T16:06:31+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -141,6 +141,7 @@ tags:
 - [[wiki/sources/vLLM Inference Systems Source Guide]]
 - [[wiki/sources/LLM Wiki Source Guide]]
 - [[wiki/sources/NotebookLM 产品化 RAG 技术路径 Source Guide]]
+- [[wiki/sources/知识图谱的秩 Source Guide]] — 知识图谱由钉住对象、织出关系和沿路追问构成，可作为 GraphRAG 与结构化知识治理的基础框架。
 - [[wiki/sources/Life of a Token Source Guide]]
 - [[wiki/sources/Harness Engineering Source Guide]] — Birgitta Böckeler's Martin Fowler article on user-owned coding-agent harnesses, with guides, sensors, deterministic checks, inferential review, lifecycle timing, regulation categories, templates, and harnessability.
 - [[wiki/sources/Maintainability Sensors for Coding Agents Source Guide]] — Birgitta Böckeler's Martin Fowler follow-up on maintainability sensors for coding agents: linting, dependency rules, coupling data, and AI modularity review.

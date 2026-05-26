@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-05-19T00:00:00+08:00
+updated: 2026-05-26T16:06:31+08:00
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -64,6 +64,11 @@ aliases:
 
 - [[wiki/syntheses/深度思考 高阶思维与本质理解]]：高阶思维负责审题，深度思考负责沿生成机制下钻，深度理解负责形成可解释、可迁移、可行动的结构。
 - [[wiki/sources/概念 因果 规律 机制与知识 Source Guide]]：把机制定位为因果的内部解释，把规律定位为因果稳定显现后的概括，并区分因果成立、因果出现与规律成立。
+- [[wiki/sources/知识论的秩 Source Guide]]：把知识论解释为世界阻力、心智取形和公共追问构成的负反馈环，用来压低自洽幻觉、原始刺激和任意相信。
+- [[wiki/sources/知识论概念解剖 Source Guide]]：把知识论解释为信念取得资格的机制：信念必须被世界约束、理由结构、公共追问和可错边界共同筛选。
+- [[wiki/sources/知识论圆桌 Source Guide]]：把知识论解释为对象性、可错性和可信任性之间的动态平衡，尤其强调怀疑、证据和信任分配的反馈环。
+- [[wiki/sources/知识结构概念解剖 Source Guide]]：把知识结构解释为节点、关系、权重、场景触发和可重组路径组成的调用机制。
+- [[wiki/sources/知识图谱的秩 Source Guide]]：把知识图谱解释为钉住对象、织出关系和沿路追问之间互相修正的反馈环。
 - [[wiki/concepts/Analysis]]：分析不是拆碎，而是沿对象自身结构切开，并能重新组合成行动理解。
 - [[wiki/concepts/Understanding]]：理解不是拥有一句定义，而是形成一团能类比、抽象、迁移和重建的概念云。
 - [[wiki/topics/Problem Framing]]：先审查问题边界、目标和前提，避免在错误问题里高效求解。

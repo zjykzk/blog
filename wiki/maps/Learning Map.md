@@ -15,7 +15,7 @@ created: 2026-04-26
 base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-24T16:54:50+08:00
+updated: 2026-05-26T14:07:23+08:00
 aliases:
   - 学习地图
 provenance:
@@ -68,8 +68,12 @@ provenance:
 - [[wiki/sources/Creation Concept Anatomy Source Guide]]——创造概念解剖 source guide
 - [[wiki/sources/推理概念解剖 Source Guide]]——推理概念解剖 source guide：推理是沿关系纹路从前提和迹象走向可回溯结论的过程
 - [[wiki/sources/推理证明与未知问答 Source Guide]]——推理教学追问 source guide：未知是受约束判断空位，证明是公开化、规则化、可回查的推理
+- [[wiki/sources/光速不变与相对性原则问答 Source Guide]]——中文物理教学问答：从光速不变、公设来源、相对性原则讲到非惯性参考系
 - [[wiki/sources/推理能力训练 Source Guide]]——推理能力训练 source guide：用概念清晰、因果建模、反例意识、预测和复盘训练判断校准能力
 - [[wiki/sources/概念 因果 规律 机制与知识 Source Guide]]——中文教学对话：把概念、因果、规律、机制和知识区分为节点、生成关系、稳定概括、内部路径和可迁移网络
+- [[wiki/sources/知识论的秩 Source Guide]]——把知识论压成世界阻力、心智取形和公共追问三根生成器，并用负反馈环解释知识如何压低错觉和运气
+- [[wiki/sources/知识论概念解剖 Source Guide]]——从定义、历史、辩证、现象、语言、形式、存在、美感和元反思切开知识论，把它理解为信念取得资格的过程
+- [[wiki/sources/知识论圆桌 Source Guide]]——把知识论展开成真理对象、经验结构、批判程序和信任分配之间的圆桌张力网络
 - [[wiki/sources/可取以及不可取的困难 Source Guide]]——中文文章：区分可取困难与不可取困难，把学习状态解释为安全感、好奇心、适度压力、运动、睡眠和具身认知共同调节的系统
 - [[wiki/sources/人力资本 信号筛选和社交资本 Source Guide]]——中文文章：把学校教育拆成人力资本、信号筛选和社交资本三种功能，并区分小学、初中、高中和大学的功能重心
 - [[wiki/sources/自主支持 献祭式教育终结者 Source Guide]]——中文文章：用自主支持、心理控制、过度养育和渐进退出解释为什么孩子不是父母作品
@@ -80,6 +84,7 @@ provenance:
 - [[wiki/sources/Cognitive Load Theory Source Guide]]——认知负荷理论、图式形成、直接教学、范例学习与 AI tutor/doer 边界
 - [[wiki/sources/The ICAP Framework Paper Source Guide]]——Chi 与 Wylie 2014 原论文 source guide：四种认知参与模式、知识变化过程、实证验证、caveats 与理论比较
 - [[wiki/sources/表征 图式 心智模型和解释框架 Source Guide]]——《学习学的是什么》来源导览：真正学习是把材料压缩成表征、图式、心智模型和解释框架
+- [[wiki/sources/知识结构概念解剖 Source Guide]]——把知识结构理解为节点、关系、权重、场景触发和可重组路径构成的活网，强调知识要能被问题场景调用
 - [[wiki/sources/知识结构 认知结构与概念地图问答 Source Guide]]——中文教学问答：区分知识结构、认知结构和概念地图的捕获边界，把概念地图定位为知识结构强工具和认知结构入口工具
 - [[wiki/sources/综合调研 在没有教科书的地方挖掘真知 Source Guide]]——《综合调研：在没有教科书的地方挖掘真知》来源导览：定位式调研读懂对象，结构化调研读懂争论，生成式调研读出新问题
 - [[wiki/sources/Narrative as First Principle Source Guide]]——《现代思维工具课》基本世界观中关于叙事的来源导览

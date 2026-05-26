@@ -8,12 +8,18 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-24T16:54:50+08:00
+updated: 2026-05-26T16:06:31+08:00
 ---
 
 ## Recent Activity
+- 2026-05-26T16:06:31+08:00 — 已捕获 [[wiki/sources/知识图谱的秩 Source Guide|知识图谱的秩 Source Guide]]：保留“知识图谱的秩”生成稿，把知识图谱压成钉住对象、织出关系和沿路追问三根生成器。
+- Captured [[wiki/sources/光速不变与相对性原则问答 Source Guide]] — 中文物理教学问答：从光速不变、公设来源、相对性原则到非惯性参考系。
 
 - 2026-05-24T16:54:50+08:00 — 已捕获 [[wiki/sources/知识结构 认知结构与概念地图问答 Source Guide|知识结构、认知结构与概念地图问答 Source Guide]]：保留一段中文教学问答，区分知识结构、认知结构和概念地图的捕获边界。
+- 2026-05-24T16:47:28+08:00 — 已捕获 [[wiki/sources/知识论圆桌 Source Guide|知识论圆桌 Source Guide]]：保留一次知识论圆桌，把知识拆成真理对象、经验结构、批判程序和信任分配之间的张力网络。
+- 2026-05-24T16:46:35+08:00 — 已捕获 [[wiki/sources/知识结构概念解剖 Source Guide|知识结构概念解剖 Source Guide]]：保留“知识结构”概念解剖稿，把知识结构理解为节点、关系、权重、场景触发和可重组路径组成的活网。
+- 2026-05-24T15:56:29+08:00 — 已捕获 [[wiki/sources/知识论概念解剖 Source Guide|知识论概念解剖 Source Guide]]：保留“知识论”概念解剖稿，把知识论理解为信念在世界约束、理由结构、公共追问和可错边界中取得资格。
+- 2026-05-24T15:45:49+08:00 — 已捕获 [[wiki/sources/知识论的秩 Source Guide|知识论的秩 Source Guide]]：保留“知识论的秩”生成稿，把知识压成世界阻力、心智取形和公共追问三根线，以及压低错觉与运气的负反馈环。
 - 2026-05-24T00:02:57+08:00 — 已捕获 [[wiki/sources/概念 因果 规律 机制与知识 Source Guide|概念、因果、规律、机制与知识 Source Guide]]：保留一段中文教学对话，区分概念节点、因果生成关系、规律稳定概括、机制内部解释和知识网络。
 - 2026-05-23T02:28:40+08:00 — Synthesized 8 cross-cutting pages: [[wiki/syntheses/Agent Skill × Context Management]], [[wiki/syntheses/Coding Agent User Harness × Verification Loop]], [[wiki/syntheses/AI Harness × Testing Strategy]], [[wiki/syntheses/Permissionless Leverage × Wealth Creation]], [[wiki/syntheses/Human Agency × Narrative]], [[wiki/syntheses/AI Memory × Context Graph]], [[wiki/syntheses/Agentic Engineering × Verification Loop]], and [[wiki/syntheses/Learning Methodology × Mental Models]].
 - 2026-05-23T02:14:22+08:00 — 已捕获 [[wiki/sources/自主支持 献祭式教育终结者 Source Guide|自主支持：献祭式教育终结者 Source Guide]] 并新增 [[wiki/concepts/Autonomy-Supportive Parenting|Autonomy-Supportive Parenting]]：保留自主支持型养育、心理控制、过度养育、边际效益递减和父母渐进退出机制。
@@ -138,8 +144,12 @@ updated: 2026-05-24T16:54:50+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- 知识图谱的秩不是“节点加边”，而是指认、牵连、追问三件事彼此咬住：对象给知识落点，关系给知识成网，追问让知识沿路径生成新答案。
+- 光速不变在狭义相对论中是公设而非普通速度叠加的结论；它由相对性原则、麦克斯韦方程和以太实验失败共同推动，并要求用洛伦兹变换改写时空与速度叠加。
 
 - 概念地图是捕获知识结构的强工具，因为它擅长表达概念、分类、关系、模型和问题结构；若加入 judged-by、updated-by、偏误、反馈和更新规则，它也能成为认知结构图的入口，但不能单独覆盖情绪权重、价值排序和行动复盘。
+- 知识结构不是目录、大纲或静态树，而是节点、关系、权重、场景触发和可重组路径组成的活网；它的价值不在保存更多材料，而在问题出现时让知识互相叫得动、接得上、走得通。
+- 知识论可以从三层保存：rank 层把它压成世界阻力、心智取形和公共追问三根生成器；概念解剖层把它理解为信念取得资格的过程；圆桌层把它展开为对象性、可错性和可信任性之间的张力网络。
 - 因果、规律和机制的区别可以压成三层：因果是条件下的生成关系，规律是生成关系稳定显现后的概括，机制是生成关系的内部路径；应用不是规律本身，而是利用规律和机制行动。
 - 自主支持型养育的关键不是让孩子听话，而是让孩子同意：规则、边界和后果仍然存在，但父母要用理由、选择、责任和支持替代内疚、羞耻、撤回关爱和情感绑架。
 - 学校教育不是单一知识传输器，而是人力资本、信号筛选和社交资本的混合体；小学重打底，高中重排序，大学重社会沙盒，错配场域会伤害学习和好奇心。
