@@ -10,7 +10,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 8
-updated: 2026-05-27T00:36:31+08:00
+updated: 2026-05-27T00:43:06+0800
 aliases:
   - Computer Science Map
 tags:
@@ -98,6 +98,7 @@ tags:
 - [[wiki/sources/Law of Leaky Abstractions Source Guide]]
 - [[wiki/sources/Hyrums Law Source Guide|Hyrum's Law Source Guide]]
 - [[wiki/sources/Galls Law Source Guide]]
+- [[wiki/sources/Second-System Effect Source Guide]]
 - `content/posts/cs/arch/arch.md`
 - `content/posts/cs/dist/circuit-breaker.md`
 - `content/posts/cs/golang/go-memory-model.md`

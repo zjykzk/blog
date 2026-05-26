@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-27T00:36:31+08:00
+updated: 2026-05-27T00:43:06+0800
 aliases:
   - Wiki Log
 tags:
@@ -253,5 +253,6 @@ tags:
 - [2026-05-26T23:04:40+0800] QUERY query="状态管理除了 useMem&useState，还有别的吗" result_pages=4 mode=normal escalated=false
 - [2026-05-26T23:08:03+0800] QUERY query="展开下复杂全局状态/高频细粒度更新" result_pages=3 mode=normal escalated=false
 - [2026-05-26T23:12:07+0800] QUERY query="『全局』是什么范围" result_pages=3 mode=normal escalated=false
-- [2026-05-27T00:36:31+08:00] UPDATE type=source page="wiki/sources/web_chunk.md" title="Web Chunk Source Guide" reason="expand bundler explanation as module graph to chunks/assets transform"
 - [2026-05-27T00:37:25+0800] CAPTURE type=source page="wiki/sources/React 状态范围与复杂全局状态 Source Guide.md" title="React 状态范围与复杂全局状态 Source Guide"
+- [2026-05-27T00:41:19+08:00] UPDATE type=source page="wiki/sources/web_chunk.md" title="Web Chunk Source Guide" reason="expand bundler explanation as module graph to chunks/assets transform"
+- [2026-05-27T00:43:06+0800] CAPTURE type=source page="wiki/sources/Second-System Effect Source Guide.md" title="Second-System Effect Source Guide"

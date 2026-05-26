@@ -9,7 +9,7 @@ sources:
   - conversation:2026-05-26
   - conversation:2026-05-27
 created: 2026-05-26T23:02:15+08:00
-updated: 2026-05-27T00:36:31+08:00
+updated: 2026-05-27T00:41:19+08:00
 summary: >-
   这页保存一份中文前端构建讲解：bundler 把源码模块图转换成浏览器可加载的 chunks/assets，loadable 只是提供代码分割信号。
 provenance:

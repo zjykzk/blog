@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-27T00:36:31+08:00
+updated: 2026-05-27T00:43:06+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -338,6 +338,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide|Reducing Friction in AI-Assisted Development Source Guide]] — Source guide for Rahul Garg's Martin Fowler article on five patterns for reducing friction in AI-assisted development. (#ai-coding #software-engineering #workflow #collaboration)
 - [[wiki/sources/Revised Bloom Taxonomy Source Guide|Revised Bloom Taxonomy Source Guide]] — Source guide for Anderson and Krathwohl's revised Bloom taxonomy, separating apply from create as cognitive process categories. (#learning #taxonomy #cognition)
 - [[wiki/sources/Seeing Like an Agent Source Guide|Seeing Like an Agent Source Guide]] — Source guide for Thariq Shihipar's Claude Code article on action-space design, tool iteration, elicitation, task coordination, search, and progressive disclosure. (#agents #tools #claude-code)
+- [[wiki/sources/Second-System Effect Source Guide]] — Source guide preserving Fred Brooks's Second-System Effect as a warning that successful lean first systems are often followed by overengineered successors. (#book #software-engineering #architecture #systems)
 - [[wiki/sources/Schon Reflective Practice Source Guide|Schon Reflective Practice Source Guide]] — Source guide for Schön's reflection-in-action, showing professional design as a conversation with materials and surprising consequences. (#design #practice #learning)
 - [[wiki/sources/Simon Sciences of the Artificial Source Guide|Simon Sciences of the Artificial Source Guide]] — Source guide for Simon's design theory, grounding design in changing existing situations into preferred ones. (#design #systems #action)
 - [[wiki/sources/Software Methodology by Pan Jianyu|Software Methodology by Pan Jianyu]] — 这页收纳《软件方法》相关的阅读入口与当前已经稳定下来的判断。
