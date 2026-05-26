@@ -10,7 +10,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 8
-updated: 2026-05-22T02:02:00+08:00
+updated: 2026-05-27T00:36:31+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -83,11 +83,13 @@ tags:
 - [[wiki/sources/Software Methodology by Pan Jianyu]]
 - [[wiki/sources/Published Posts]]
 - [[wiki/sources/Frontend Development Workflow Roundtable Source Guide]]
+- [[wiki/sources/web_chunk|Web Chunk Source Guide]] — 前端构建 source guide：说明 bundler 如何从 module graph 切出 chunk 并输出 asset，同时区分 loadable、dynamic import、module、chunk、asset、bundle。
 - [[wiki/sources/架构文档与图示之道 Source Guide]]
 - [[wiki/sources/架构师启示录 Source Guide]]
 - [[wiki/sources/React Component Lifecycle Source Guide]]
 - [[wiki/sources/React Hooks useRef useContext useMemo Source Guide]]
 - [[wiki/sources/React Hooks useState useEffect Source Guide]]
+- [[wiki/sources/React 状态范围与复杂全局状态 Source Guide]]
 - [[wiki/sources/Structured-Prompt-Driven Development Source Guide]]
 - [[wiki/sources/SPDD Abstraction First Source Guide]]
 - [[wiki/sources/SPDD Alignment Source Guide]]

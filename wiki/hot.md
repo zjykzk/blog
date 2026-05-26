@@ -8,11 +8,15 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-26T16:06:31+08:00
+updated: 2026-05-27T00:36:31+08:00
 ---
 
 ## Recent Activity
+- 2026-05-27T00:36:31+08:00 — 已更新 [[wiki/sources/web_chunk|Web Chunk Source Guide]]：补充 bundler 的角色，说明它如何从入口递归分析 import/export、建立 module graph、切出 chunks 并输出浏览器可请求的 assets。
+- 2026-05-27T00:37:25+0800 — 已捕获 [[wiki/sources/React 状态范围与复杂全局状态 Source Guide]]：保留一段中文 React 状态管理追问，把 Hook 选择、复杂全局状态、高频细粒度更新和“全局”范围压成状态边界判断。
+- 2026-05-26T23:02:15+08:00 — 已捕获 [[wiki/sources/web_chunk|Web Chunk Source Guide]]：保留一份中文前端构建讲解，说明 chunk 由 bundler 根据 module graph 和 dynamic import 分割生成，而不是由 loadable 自己生成。
 - 2026-05-26T16:06:31+08:00 — 已捕获 [[wiki/sources/知识图谱的秩 Source Guide|知识图谱的秩 Source Guide]]：保留“知识图谱的秩”生成稿，把知识图谱压成钉住对象、织出关系和沿路追问三根生成器。
+- 2026-05-26T14:03:46+08:00 — Captured [[wiki/sources/Bayes-Consistent Agentic Orchestration Paper River Source Guide|Bayes-Consistent Agentic Orchestration Paper River Source Guide]]: preserves a paper-river reading of arXiv 2605.00742v2, tracing agent orchestration from tool use to Bayesian cost-aware control.
 - Captured [[wiki/sources/光速不变与相对性原则问答 Source Guide]] — 中文物理教学问答：从光速不变、公设来源、相对性原则到非惯性参考系。
 
 - 2026-05-24T16:54:50+08:00 — 已捕获 [[wiki/sources/知识结构 认知结构与概念地图问答 Source Guide|知识结构、认知结构与概念地图问答 Source Guide]]：保留一段中文教学问答，区分知识结构、认知结构和概念地图的捕获边界。
@@ -75,6 +79,7 @@ updated: 2026-05-26T16:06:31+08:00
 - 已扩展 [[wiki/concepts/Agent]]、[[wiki/topics/AI Harness]] 与 [[wiki/syntheses/Agent System Design Space]]：强化“agent = governed control loop”而不是“model + tools”的系统视角。
 ## Active Threads
 
+- Agent orchestration now has a Bayesian-control thread: tool calls, model routing, clarification, stopping, and escalation should be treated as cost-sensitive actions over task-level belief, not only as prompt or workflow heuristics.
 - CS/performance now has a mechanical-sympathy thread: high-concurrency and inference systems should be read through memory locality, cache-line contention, write ownership, batching strategy, and measured SLO impact rather than only through abstract request counts.
 - AI coding now has an SPDD thread: prompts can become versioned delivery artifacts rather than disposable chat instructions, with business intent, domain model, architecture, operations, norms, and safeguards kept in sync with code.
 - SPDD's human-review layer is now split into three reusable lenses: abstraction-first review checks domain model and boundaries before generation; alignment review locks scope, vocabulary, acceptance, dependencies, and constraints; iterative review keeps prompt and code synchronized through functional validation and deep code review.
@@ -144,7 +149,11 @@ updated: 2026-05-26T16:06:31+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- bundler 不是简单拼接文件，而是把源码 module graph 转换成浏览器可加载的 chunks/assets；动态 `import()` 是分割信号，`loadable` 或 `React.lazy` 只是组件层包装。
+- React 状态管理的关键不是先选 Hook 或状态库，而是先判断状态边界：状态是否驱动 UI、是否跨组件共享、是否高频变化、是否需要细粒度订阅，以及“全局”到底相对于哪个组件树、页面、应用或服务端边界成立。
+- 前端 `chunk` 是 bundler 根据 module graph、entry、dynamic import 和分包配置生成的模块组；`loadable` 只是在 React 组件层包装动态 import，真正输出 asset 和 runtime 映射的是构建工具。
 - 知识图谱的秩不是“节点加边”，而是指认、牵连、追问三件事彼此咬住：对象给知识落点，关系给知识成网，追问让知识沿路径生成新答案。
+- Bayes-consistent agentic orchestration separates prediction from decision: LLMs and tools provide evidence, while the harness/control layer maintains belief, utility, cost, and value of information to decide whether to answer, ask, search, route, escalate, or stop.
 - 光速不变在狭义相对论中是公设而非普通速度叠加的结论；它由相对性原则、麦克斯韦方程和以太实验失败共同推动，并要求用洛伦兹变换改写时空与速度叠加。
 
 - 概念地图是捕获知识结构的强工具，因为它擅长表达概念、分类、关系、模型和问题结构；若加入 judged-by、updated-by、偏误、反馈和更新规则，它也能成为认知结构图的入口，但不能单独覆盖情绪权重、价值排序和行动复盘。

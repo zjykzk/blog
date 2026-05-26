@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-26T16:06:31+08:00
+updated: 2026-05-27T00:36:31+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -333,6 +333,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/React Framework Background and Core Concepts Source Guide|React Framework Background and Core Concepts Source Guide]] — 这篇材料更适合作为 React 入门理解的 source facing note，而不是直接承担前端体系中的稳定概念母页。 (#react #frontend #web #ui)
 - [[wiki/sources/React Hooks useRef useContext useMemo Source Guide]] — 这页保存一份中文 React Hooks 讲解，把 useRef、useContext、useMemo 放在函数组件反复执行的共同框架下理解。 (#article #frontend #architecture)
 - [[wiki/sources/React Hooks useState useEffect Source Guide]] — 这页保存一份中文 React Hooks 讲解，把 useState 和 useEffect 放在函数组件反复执行、状态驱动渲染和渲染后副作用的框架下理解。 (#article #frontend #architecture)
+- [[wiki/sources/React 状态范围与复杂全局状态 Source Guide]] — 这页保存一段中文 React 状态管理追问：从 Hook 选择推进到复杂全局状态、高频细粒度更新和“全局”范围判断。 (#article #frontend #architecture)
+- [[wiki/sources/web_chunk|Web Chunk Source Guide]] — 这页保存一份中文前端构建讲解：bundler 把源码 module graph 转换成 chunks/assets，loadable 只是提供代码分割信号。 (#frontend #architecture #software-engineering)
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide|Reducing Friction in AI-Assisted Development Source Guide]] — Source guide for Rahul Garg's Martin Fowler article on five patterns for reducing friction in AI-assisted development. (#ai-coding #software-engineering #workflow #collaboration)
 - [[wiki/sources/Revised Bloom Taxonomy Source Guide|Revised Bloom Taxonomy Source Guide]] — Source guide for Anderson and Krathwohl's revised Bloom taxonomy, separating apply from create as cognitive process categories. (#learning #taxonomy #cognition)
 - [[wiki/sources/Seeing Like an Agent Source Guide|Seeing Like an Agent Source Guide]] — Source guide for Thariq Shihipar's Claude Code article on action-space design, tool iteration, elicitation, task coordination, search, and progressive disclosure. (#agents #tools #claude-code)

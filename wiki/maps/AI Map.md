@@ -17,7 +17,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 3
-updated: 2026-05-26T16:06:31+08:00
+updated: 2026-05-26T17:56:21+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -118,6 +118,7 @@ tags:
 - `pages/karpathy-guidelines.md`
 - [[wiki/sources/Agent Systems Papers Source Guide]]
 - [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]]
+- [[wiki/sources/Bayes-Consistent Agentic Orchestration Paper River Source Guide]]
 - [[wiki/sources/Dive into Claude Code Source Guide]]
 - [[wiki/sources/Before the Tool Call Source Guide]]
 - [[wiki/sources/Qiaomu Best Prompt Source Guide]]
