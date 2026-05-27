@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-27T00:43:06+0800
+updated: 2026-05-27T00:49:30+0800
 aliases:
   - Wiki Log
 tags:
@@ -256,3 +256,4 @@ tags:
 - [2026-05-27T00:37:25+0800] CAPTURE type=source page="wiki/sources/React 状态范围与复杂全局状态 Source Guide.md" title="React 状态范围与复杂全局状态 Source Guide"
 - [2026-05-27T00:41:19+08:00] UPDATE type=source page="wiki/sources/web_chunk.md" title="Web Chunk Source Guide" reason="expand bundler explanation as module graph to chunks/assets transform"
 - [2026-05-27T00:43:06+0800] CAPTURE type=source page="wiki/sources/Second-System Effect Source Guide.md" title="Second-System Effect Source Guide"
+- [2026-05-27T00:49:30+0800] CAPTURE type=source page="wiki/sources/Fallacies of Distributed Computing Source Guide.md" title="Fallacies of Distributed Computing Source Guide"

@@ -10,7 +10,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 8
-updated: 2026-05-27T00:43:06+0800
+updated: 2026-05-27T00:49:30+0800
 aliases:
   - Computer Science Map
 tags:
@@ -27,6 +27,7 @@ tags:
 
 - [[wiki/topics/Circuit Breaker]]
 - [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]] — CAP theorem source guide：在网络分区下，一致性和可用性不能同时获得强保证；实际设计要看操作级一致性、延迟和失败模式。
+- [[wiki/sources/Fallacies of Distributed Computing Source Guide]] — distributed-systems checklist：不要假设网络可靠、零延迟、无限带宽、安全、拓扑静态、单一管理员、传输免费或同构。
 
 ## Go
 
@@ -99,6 +100,7 @@ tags:
 - [[wiki/sources/Hyrums Law Source Guide|Hyrum's Law Source Guide]]
 - [[wiki/sources/Galls Law Source Guide]]
 - [[wiki/sources/Second-System Effect Source Guide]]
+- [[wiki/sources/Fallacies of Distributed Computing Source Guide]]
 - `content/posts/cs/arch/arch.md`
 - `content/posts/cs/dist/circuit-breaker.md`
 - `content/posts/cs/golang/go-memory-model.md`

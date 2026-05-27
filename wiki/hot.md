@@ -8,10 +8,11 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-27T00:43:06+0800
+updated: 2026-05-27T00:49:30+0800
 ---
 
 ## Recent Activity
+- 2026-05-27T00:49:30+0800 — Captured [[wiki/sources/Fallacies of Distributed Computing Source Guide]]: preserves the eight network fallacies as a defensive design checklist for distributed systems, including the Amazon SimpleDB failure example.
 - 2026-05-27T00:43:06+0800 — Captured [[wiki/sources/Second-System Effect Source Guide]]: preserves Fred Brooks's warning that successful lean first systems can be followed by overengineered, feature-bloated successors.
 - 2026-05-27T00:41:19+08:00 — 已更新 [[wiki/sources/web_chunk|Web Chunk Source Guide]]：补充 bundler 的角色，说明它如何从入口递归分析 import/export、建立 module graph、切出 chunks 并输出浏览器可请求的 assets。
 - 2026-05-27T00:37:25+0800 — 已捕获 [[wiki/sources/React 状态范围与复杂全局状态 Source Guide]]：保留一段中文 React 状态管理追问，把 Hook 选择、复杂全局状态、高频细粒度更新和“全局”范围压成状态边界判断。
@@ -150,6 +151,7 @@ updated: 2026-05-27T00:43:06+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- The Fallacies of Distributed Computing turn network non-ideality into a design checklist: reliability, latency, bandwidth, security, topology, administration, transport cost, and heterogeneity must be handled explicitly rather than hidden behind local-call thinking.
 - Second-System Effect warns that success with a lean first system can create overconfidence: the successor tries to include every deferred feature, edge case, and abstraction, turning validated simplicity into overengineered complexity.
 - bundler 不是简单拼接文件，而是把源码 module graph 转换成浏览器可加载的 chunks/assets；动态 `import()` 是分割信号，`loadable` 或 `React.lazy` 只是组件层包装。
 - React 状态管理的关键不是先选 Hook 或状态库，而是先判断状态边界：状态是否驱动 UI、是否跨组件共享、是否高频变化、是否需要细粒度订阅，以及“全局”到底相对于哪个组件树、页面、应用或服务端边界成立。
