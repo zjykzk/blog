@@ -17,7 +17,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 3
-updated: 2026-05-28T19:37:07+0800
+updated: 2026-05-28T20:28:50+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -170,6 +170,7 @@ tags:
 - [[wiki/sources/组织角色与 AI 适配 Source Guide]]
 
 - [[wiki/sources/Agentic-First Source Guide]]
+- [[wiki/sources/AI 软件工程问答 Source Guide]] — 中文问答链：把 AI 软件工程解释为从人脑主回路迁移到 AI 中心产线、确定性裁判、分治协调和隐性知识蒸馏的工程化路径。
 
 ## Related journals
 

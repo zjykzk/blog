@@ -10,7 +10,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 8
-updated: 2026-05-27T00:49:30+0800
+updated: 2026-05-28T20:28:50+0800
 aliases:
   - Computer Science Map
 tags:
@@ -101,6 +101,7 @@ tags:
 - [[wiki/sources/Galls Law Source Guide]]
 - [[wiki/sources/Second-System Effect Source Guide]]
 - [[wiki/sources/Fallacies of Distributed Computing Source Guide]]
+- [[wiki/sources/AI 软件工程问答 Source Guide]] — 中文问答链：从软件工程未彻底工程化出发，推导 AI 中心产线、确定性验证、分治结构和隐性知识蒸馏的落地路径。
 - `content/posts/cs/arch/arch.md`
 - `content/posts/cs/dist/circuit-breaker.md`
 - `content/posts/cs/golang/go-memory-model.md`
