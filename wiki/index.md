@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-28T12:35:55+0800
+updated: 2026-05-28T19:37:07+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -232,6 +232,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Agentic-First Source Guide]] — Source guide for James Pritchard's Agentic-First article, focused on agent-navigable platforms, mode-aware context, edit-time guardrails, and process-level automation. (#article #agents #harness #ai-coding #context)
 - [[wiki/sources/Agent Engineering Source Guide|Agent Engineering Source Guide]] — 这页用于收拢“agent engineering / harness / workflow”这一类更偏工程综述与系统实践的来源材料。 (#agents #engineering #harness)
 - [[wiki/sources/Agent Harness Anatomy Source Guide|Agent Harness Anatomy Source Guide]] — Source guide for Akshay Pachaar's agent harness thread, focused on the 12-component harness model and architecture decisions. (#agents #harness #architecture)
+- [[wiki/sources/Agent Harness Engineering Survey Source Guide]] — Source guide for the Agent Harness Engineering survey, preserving its binding-constraint thesis, ETCLOVG taxonomy, project mapping, tradeoffs, and open research agenda. (#paper #agents #harness #architecture #systems)
 - [[wiki/sources/Agent Harness Engineering Source Guide|Agent Harness Engineering Source Guide]] — Source guide for Addy Osmani's Agent Harness Engineering article, focused on harnesses as configurable runtimes, failure ratchets, and service APIs. (#agents #harness #engineering)
 - [[wiki/sources/Agent Harness Qiaomu Article Source Guide|Agent Harness Qiaomu Article Source Guide]] — 这篇文章目前更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#article #blog #agents #harness)
 - [[wiki/sources/Agent Observability Needs Feedback Source Guide]] — Source guide for Harrison Chase's X article arguing that agent observability needs trace-linked feedback to become a learning system. (#article #agents #harness #feedback #context)

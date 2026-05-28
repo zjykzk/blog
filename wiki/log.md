@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-28T12:35:55+0800
+updated: 2026-05-28T19:37:07+0800
 aliases:
   - Wiki Log
 tags:
@@ -20,6 +20,7 @@ tags:
 
 # LLM Wiki Log
 
+- [2026-05-28T19:37:07+0800] CAPTURE type=source page="wiki/sources/Agent Harness Engineering Survey Source Guide.md" title="Agent Harness Engineering Survey Source Guide"
 - [2026-05-28T12:35:55+0800] CAPTURE type=source page="wiki/sources/快思考慢思考物理机制问答 Source Guide.md" title="快思考慢思考物理机制问答 Source Guide"
 - [2026-05-26T16:06:31+08:00] CAPTURE type=source page="wiki/sources/知识图谱的秩 Source Guide.md" title="知识图谱的秩 Source Guide"
 - [2026-05-26T14:03:46+08:00] CAPTURE type=source page="wiki/sources/Bayes-Consistent Agentic Orchestration Paper River Source Guide.md" title="Bayes-Consistent Agentic Orchestration Paper River Source Guide"

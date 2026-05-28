@@ -17,7 +17,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 3
-updated: 2026-05-27T23:47:19+0800
+updated: 2026-05-28T19:37:07+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -133,6 +133,7 @@ tags:
 - [[wiki/sources/AI Memory Survey Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
+- [[wiki/sources/Agent Harness Engineering Survey Source Guide]] — primary PDF survey arguing that agent reliability is often constrained by the harness and organizing the field with the ETCLOVG taxonomy.
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
 - [[wiki/sources/Agent Observability Needs Feedback Source Guide]]
 - [[wiki/sources/从知识堆积到结构化记忆 Source Guide]]
