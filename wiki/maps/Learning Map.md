@@ -56,6 +56,7 @@ provenance:
 - [[wiki/syntheses/Application and Creation Distinction]]——用学习理论、创造力研究、设计理论和实用主义加固“应用/创造”的边界
 - [[wiki/syntheses/深度思考 高阶思维与本质理解]]——把高阶审题、深度下钻、本质句和现实校验组织成一套可执行思考训练框架
 - [[wiki/syntheses/成就感驱动与行动动力结构]]——把成就感放进行动奖励、反馈周期、价值感外包和内核奖励函数的结构里理解
+- [[wiki/syntheses/总结式读书的认知损失]]——从表征、图式、心智模型和解释性理解说明总结不能替代原书的认知建构过程
 
 ## 相关源笔记（pages/ 与 mobu/）
 

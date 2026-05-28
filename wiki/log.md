@@ -23,6 +23,8 @@ tags:
 - [2026-05-28T20:28:50+0800] CAPTURE type=source page="wiki/sources/AI 软件工程问答 Source Guide.md" title="AI 软件工程问答 Source Guide"
 - [2026-05-28T19:37:07+0800] CAPTURE type=source page="wiki/sources/Agent Harness Engineering Survey Source Guide.md" title="Agent Harness Engineering Survey Source Guide"
 - [2026-05-28T12:35:55+0800] CAPTURE type=source page="wiki/sources/快思考慢思考物理机制问答 Source Guide.md" title="快思考慢思考物理机制问答 Source Guide"
+- [2026-05-27T23:47:19+0800] CAPTURE type=source page="wiki/sources/Humans and Agents in Software Engineering Loops Source Guide.md" title="Humans and Agents in Software Engineering Loops Source Guide"
+- [2026-05-27T23:13:01+0800] CAPTURE type=synthesis page="wiki/syntheses/总结式读书的认知损失.md" title="总结式读书的认知损失"
 - [2026-05-26T16:06:31+08:00] CAPTURE type=source page="wiki/sources/知识图谱的秩 Source Guide.md" title="知识图谱的秩 Source Guide"
 - [2026-05-26T14:03:46+08:00] CAPTURE type=source page="wiki/sources/Bayes-Consistent Agentic Orchestration Paper River Source Guide.md" title="Bayes-Consistent Agentic Orchestration Paper River Source Guide"
 - [2026-05-24T16:47:28+08:00] CAPTURE type=source page="wiki/sources/知识论圆桌 Source Guide.md" title="知识论圆桌 Source Guide"
@@ -260,4 +262,5 @@ tags:
 - [2026-05-27T00:41:19+08:00] UPDATE type=source page="wiki/sources/web_chunk.md" title="Web Chunk Source Guide" reason="expand bundler explanation as module graph to chunks/assets transform"
 - [2026-05-27T00:43:06+0800] CAPTURE type=source page="wiki/sources/Second-System Effect Source Guide.md" title="Second-System Effect Source Guide"
 - [2026-05-27T00:49:30+0800] CAPTURE type=source page="wiki/sources/Fallacies of Distributed Computing Source Guide.md" title="Fallacies of Distributed Computing Source Guide"
+- [2026-05-27T23:20:00+08:00] QUERY query="ai开发中什么时候需要新增一个skill" result_pages=7 mode=normal escalated=false
 - [2026-05-28T23:40:45+0800] UPDATE type=source page="wiki/sources/Maintainability Sensors for Coding Agents Source Guide.md" title="Maintainability Sensors for Coding Agents Source Guide" reason="capture completed regression-testing section and updated conclusion from Martin Fowler article"

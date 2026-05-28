@@ -59,7 +59,6 @@ provenance:
 
 ## Related
 
-- [[wiki/topics/Learning Methodology]]
 - [[wiki/concepts/Understanding]]
 - [[wiki/concepts/Cognition Three Channels]]
 - [[wiki/concepts/Expression Three Channels]]

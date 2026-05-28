@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/syntheses/软件设计作为系统诊断.md",
+                "file": "wiki/syntheses/harness-root-ranks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "软件设计作为系统诊断"
+              "title": "harness-root-ranks"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "LLM-Harness",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -223,34 +224,36 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "563d95f9033203d1",
+  "active": "a5fd56c06f3d8cb7",
   "lastOpenFiles": [
-    "wiki/syntheses/大语言模型时代知识图谱的角色转变.md",
-    "wiki/syntheses/不确定性下的判断.md",
-    "wiki/syntheses/ICAP 与知识类型的适用边界.md",
-    "wiki/syntheses/Human Agency × Narrative.md",
-    "wiki/syntheses/Knowledge System Construction.md",
-    "wiki/syntheses/Learning Methodology Across Sources.md",
-    "wiki/syntheses/Learning Methodology × Mental Models.md",
-    "wiki/syntheses/Agentic Engineering × Verification Loop.md",
-    "wiki/syntheses/AI Memory × Context Graph.md",
-    "wiki/syntheses/Permissionless Leverage × Wealth Creation.md",
-    "wiki/syntheses/AI Harness × Testing Strategy.md",
-    "wiki/syntheses/Coding Agent User Harness × Verification Loop.md",
-    "wiki/syntheses/Agent Skill × Context Management.md",
-    "Excalidraw/agent.excalidraw.md",
+    "wiki/sources/AI 软件工程问答 Source Guide.md",
+    "ai.png",
+    "wiki/sources/Agent Harness Engineering Survey Source Guide.md",
+    "wiki/sources/快思考慢思考物理机制问答 Source Guide.md",
+    "wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide.md",
+    "wiki/sources/Humans and Agents in Software Engineering Loops Source Guide.md",
+    "wiki/maps/AI Map.md",
+    "_meta/content-index.base",
+    "AGENTS.md",
+    "wiki/syntheses/总结式读书的认知损失.md",
+    "wiki/topics/Mental Models.md",
+    "themes/devise/exampleSite/content/homepage/work.md",
     "wiki/index.md",
-    "wiki/maps/Learning Map.md",
-    "wiki/topics/Learning Methodology.md",
-    "wiki/syntheses/harness-root-ranks.md",
-    "wiki/sources/思维圆桌 Source Guide.md",
-    "wiki/sources/拥抱和桥接 知识迁移 Source Guide.md",
-    "wiki/sources/推理概念解剖 Source Guide.md",
-    "wiki/sources/推理能力训练 Source Guide.md",
-    "wiki/sources/面向 LLM 的清晰表达 Source Guide.md",
-    "wiki/sources/刻意练习 天赋的作用究竟是什么 Source Guide.md",
-    "wiki/concepts/Autonomy-Supportive Parenting.md",
-    "wiki/sources/自主支持 献祭式教育终结者 Source Guide.md",
+    "wiki/sources/Fallacies of Distributed Computing Source Guide.md",
+    "wiki/sources/Second-System Effect Source Guide.md",
+    "wiki/sources/React 状态范围与复杂全局状态 Source Guide.md",
+    "wiki/sources/web_chunk.md",
+    "wiki/sources/知识图谱的秩 Source Guide.md",
+    "wiki/sources/从知识堆积到结构化记忆 Source Guide.md",
+    "wiki/syntheses/大语言模型时代知识图谱的角色转变.md",
+    "wiki/sources/Bayes-Consistent Agentic Orchestration Paper River Source Guide.md",
+    "wiki/sources/Life of a Token Source Guide.md",
+    "wiki/sources/光速不变与相对性原则问答 Source Guide.md",
+    "wiki/concepts/Tokenization.md",
+    "wiki/concepts/Neural Network Inference Boundary.md",
+    "wiki/concepts/Next-Token Pipeline.md",
+    "wiki/sources/How LLMs Actually Work Source Guide.md",
+    "Excalidraw/agent.excalidraw.md",
     "wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide.md.tmp.60422.b5c4872b1fcd",
     "wiki/hot.md.tmp.60422.7f5b972d6ec5",
     "wiki/sources/Untitled.canvas",
@@ -259,7 +262,6 @@
     "wiki/index.md.tmp.15389.5e2cbb347d3b",
     "wiki/hot.md.tmp.15389.167c1ddbe7ba",
     "raw/sources/HRiwbM75WooKMuxkev3cKjqHnie.PNG",
-    "_meta/content-index.base",
     "mobu/读书/架构师启示录-知识模型、落地方法与思维模式-幕布图片-249642-378639.png",
     "wiki/_meta",
     "iceberg-model-large.png",
@@ -271,7 +273,6 @@
     "raw/HRiwbM75WooKMuxkev3cKjqHnie.PNG",
     "token.png",
     "mobu/读书/modern_software_engineering-幕布图片-195155-330004.png",
-    "mobu/读书/modern_software_engineering-幕布图片-147011-551432.png",
-    "mobu/读书/modern_software_engineering-幕布图片-745916-418737.png"
+    "mobu/读书/modern_software_engineering-幕布图片-147011-551432.png"
   ]
 }

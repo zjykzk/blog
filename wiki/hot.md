@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured knowledge-structure, cognitive-structure, learning, and agent-system material across source guides and syntheses.
+summary: Recent wiki activity captured learning, software design, and agent-system material across source guides and syntheses.
 tags: []
 sources: []
 created: 2026-05-04
@@ -16,6 +16,8 @@ updated: 2026-05-28T23:40:45+0800
 - 2026-05-28T20:28:50+0800 — 已捕获 [[wiki/sources/AI 软件工程问答 Source Guide]]：保留一篇中文长文的 ljg-qa 问答链，把软件工程未彻底工程化、大模型作为认知引擎、AI 中心闭环、确定性裁判、分治继承和隐性知识蒸馏串成一条论证。
 - 2026-05-28T19:37:07+0800 — Captured [[wiki/sources/Agent Harness Engineering Survey Source Guide]]: preserves the Agent Harness Engineering survey's binding-constraint thesis, ETCLOVG seven-layer taxonomy, ecosystem mapping, tradeoffs, and open research agenda.
 - 2026-05-28T12:35:55+0800 — 已捕获 [[wiki/sources/快思考慢思考物理机制问答 Source Guide]]：保留一段中文教学问答，把《思考，快与慢》的系统 1 / 系统 2 从功能机制下钻到神经通路、前额叶、工作记忆和冲突监测。
+- 2026-05-27T23:47:19+0800 — Captured [[wiki/sources/Humans and Agents in Software Engineering Loops Source Guide]]: preserves Kief Morris's Martin Fowler article on humans outside, in, and on agentic software engineering loops.
+- 2026-05-27T23:13:01+0800 — 已新增 [[wiki/syntheses/总结式读书的认知损失]]：从表征、图式、心智模型和解释性理解说明为什么只听读别人总结好的书会削弱可迁移理解。
 - 2026-05-27T00:49:30+0800 — Captured [[wiki/sources/Fallacies of Distributed Computing Source Guide]]: preserves the eight network fallacies as a defensive design checklist for distributed systems, including the Amazon SimpleDB failure example.
 - 2026-05-27T00:43:06+0800 — Captured [[wiki/sources/Second-System Effect Source Guide]]: preserves Fred Brooks's warning that successful lean first systems can be followed by overengineered, feature-bloated successors.
 - 2026-05-27T00:41:19+08:00 — 已更新 [[wiki/sources/web_chunk|Web Chunk Source Guide]]：补充 bundler 的角色，说明它如何从入口递归分析 import/export、建立 module graph、切出 chunks 并输出浏览器可请求的 assets。
@@ -85,6 +87,7 @@ updated: 2026-05-28T23:40:45+0800
 - 已扩展 [[wiki/concepts/Agent]]、[[wiki/topics/AI Harness]] 与 [[wiki/syntheses/Agent System Design Space]]：强化“agent = governed control loop”而不是“model + tools”的系统视角。
 ## Active Threads
 
+- Agentic software engineering now has an on-the-loop thread: humans create leverage by improving specs, checks, harnesses, feedback signals, and workflow controls rather than only approving or fixing generated artifacts.
 - Agent orchestration now has a Bayesian-control thread: tool calls, model routing, clarification, stopping, and escalation should be treated as cost-sensitive actions over task-level belief, not only as prompt or workflow heuristics.
 - CS/performance now has a mechanical-sympathy thread: high-concurrency and inference systems should be read through memory locality, cache-line contention, write ownership, batching strategy, and measured SLO impact rather than only through abstract request counts.
 - AI coding now has an SPDD thread: prompts can become versioned delivery artifacts rather than disposable chat instructions, with business intent, domain model, architecture, operations, norms, and safeguards kept in sync with code.
@@ -159,6 +162,8 @@ updated: 2026-05-28T23:40:45+0800
 - AI 软件工程问答链提出一个强判断：AI 编程的范式跃迁不在于 Copilot 式局部提速，而在于把 AI 放进中心产线，并用确定性裁判、闭环反馈、分治结构和场景驱动的隐性知识蒸馏把概率性认知压成工程可靠性。
 - Agent harness engineering can be organized as ETCLOVG: execution, tooling, context, lifecycle, observability, verification, and governance. The survey's strongest claim is that long-horizon agent reliability is often a property of the model-harness pair, not the model alone.
 - 快思考/慢思考可作为认知机制模型：系统 1 通过感知、记忆、情绪和习惯网络快速并行生成候选答案；系统 2 通过前额叶控制、工作记忆、冲突监测和抑制控制进行缓慢审查，但它有注意力和代谢成本。
+- Humans on the loop is a stronger agentic-engineering stance than merely humans in the loop: the human improves the harness, workflow, checks, and feedback surfaces so future agent outputs improve systematically.
+- 总结式读书的损失不是少了信息，而是少了建构过程：学习者的表征变薄，图式借用他人，心智模型不可运行，解释性理解停留在可复述结论。
 - The Fallacies of Distributed Computing turn network non-ideality into a design checklist: reliability, latency, bandwidth, security, topology, administration, transport cost, and heterogeneity must be handled explicitly rather than hidden behind local-call thinking.
 - Second-System Effect warns that success with a lean first system can create overconfidence: the successor tries to include every deferred feature, edge case, and abstraction, turning validated simplicity into overengineered complexity.
 - bundler 不是简单拼接文件，而是把源码 module graph 转换成浏览器可加载的 chunks/assets；动态 `import()` 是分割信号，`loadable` 或 `React.lazy` 只是组件层包装。
