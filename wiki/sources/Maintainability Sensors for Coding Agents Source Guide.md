@@ -12,8 +12,8 @@ tags:
 sources:
   - https://martinfowler.com/articles/sensors-for-coding-agents.html
 created: 2026-05-23T01:59:29+08:00
-updated: 2026-05-23T01:59:29+08:00
-summary: Source guide for Birgitta Böckeler's Martin Fowler article on maintainability sensors for coding agents, covering linting, dependency rules, coupling data, and AI modularity review.
+updated: 2026-05-28T23:40:45+0800
+summary: Source guide for Birgitta Böckeler's Martin Fowler article on maintainability sensors for coding agents, covering linting, dependency rules, coupling, AI modularity review, and regression testing.
 provenance:
   extracted: 0.88
   inferred: 0.12
@@ -29,7 +29,7 @@ aliases:
 ---
 # Maintainability Sensors for Coding Agents Source Guide
 
-> Source: Birgitta Böckeler, “Maintainability sensors for coding agents,” Martin Fowler, 2026-05-20, https://martinfowler.com/articles/sensors-for-coding-agents.html
+> Source: Birgitta Böckeler, “Maintainability sensors for coding agents,” Martin Fowler, 2026-05-27, https://martinfowler.com/articles/sensors-for-coding-agents.html
 
 ## Capture Policy
 
@@ -50,6 +50,8 @@ The source uses an internal analytics dashboard for community managers as its te
 Böckeler rebuilt an existing application from scratch with AI to observe how maintainability sensors behaved when the agent received relatively little explicit quality guidance. This made the experiment sensor-centered: instead of asking whether a strong prompt could prevent problems, it asked what feedback surfaces could reveal and steer problems as the codebase grew.
 
 The work used Cursor, Claude Code, and OpenCode. The article mentions Claude Sonnet for much of the work, Claude Opus for analysis, and Cursor composer-2 for implementation.
+
+The article was published in stages: basic linting on 2026-05-19, dependency rules/coupling data/AI modularity review on 2026-05-20, and the regression-testing section plus conclusion on 2026-05-27.
 
 ### Sensor landscape
 
@@ -121,6 +123,30 @@ The AI modularity review found several maintainability concerns:
 
 The article's key distinction is that modularity is partly semantic. Dependency rules and coupling metrics can expose structure, but they cannot fully decide whether structure is appropriate. AI review can act as periodic design cleanup or maintainability garbage collection, especially when grounded in deterministic data and followed by human judgment.
 
+### The test suite as a regression sensor
+
+The 2026-05-27 completion adds tests as a maintainability sensor. In this frame, tests are not only design aids or executable specifications; they are regression sensors that tell the agent when a change has broken behavior that previously worked.
+
+A failing pre-existing test should force a decision: the implementation accidentally broke wanted behavior, or the intended behavior changed and the test must change with the specification. The article does not claim the agent will always make the right decision, but a good regression suite increases the chance that the question appears before the breakage reaches production.
+
+The article separates two risks in AI-generated test suites:
+
+- Coverage does not prove test effectiveness.
+- AI-generated tests can encode faulty behavior, although this article focuses on test effectiveness rather than test correctness.
+
+The source lists several tools for making test suites more trustworthy:
+
+- Coverage shows which code is executed by tests.
+- Property-based testing generates input combinations from properties.
+- Fuzz testing throws malformed or unexpected inputs at the system.
+- Mutation testing introduces small code changes and checks whether tests fail.
+
+In the dashboard experiment, coverage and mutation testing were the relevant tools. The article's concrete example is a `mappers.ts` helper with high coverage but no unit tests. An acceptance test executed the code, so coverage looked healthy, but mutation testing found surviving mutants. The lesson is that execution is not the same as assertion strength: a test can touch a line without checking the behavior that line contributes.
+
+AI was useful for analyzing mutation-testing hotspots and planning where to improve tests. Böckeler also had AI generate a small query script for Stryker's large JSON report, giving the agent a CLI surface for summary, file, hotspot, and test-effectiveness queries. This is a practical harness pattern: when a tool emits too much data for the context window, build a narrower query interface so the agent can inspect the signal without loading the whole artifact.
+
+Mutation testing is resource-intensive, so the article used it manually and incrementally rather than continuously. Its value is highest where AI has generated many acceptance-style tests that create coverage but may have weak assertions.
+
 ### Overall takeaways from the source
 
 The article's final position is balanced:
@@ -128,10 +154,14 @@ The article's final position is balanced:
 - Dependency rules are useful live guardrails for structural direction.
 - Computational sensors are necessary but insufficient for modularity.
 - LLM-based review can add semantic interpretation where metrics alone are too shallow.
+- Coverage is a weak proxy for regression protection; mutation testing can expose missing assertions in AI-generated test suites.
+- Large sensor outputs often need their own query surfaces so agents can consume evidence without overwhelming context.
 - Human review remains necessary because some coupling, layering, and modularity decisions depend on context.
 - Without maintainability sensors, coding agents can accumulate inadvertent technical debt faster than teams notice.
 
 For this wiki, the source makes maintainability a concrete subcase of [[wiki/concepts/Computational and Inferential Controls]]. Linting, dependency rules, and coupling metrics are computational sensors; AI modularity review is an inferential sensor; human review decides when the sensor output is a true design issue versus an acceptable trade-off.
+
+The completed article also connects maintainability sensors directly to [[wiki/topics/Testing Strategy]] and [[wiki/concepts/Verification Loop]]: tests, coverage, and mutation testing are not final QA rituals but feedback surfaces inside a broader coding-agent harness. ^[inferred]
 
 ## Integration Decisions
 
@@ -143,9 +173,10 @@ The source strengthens these existing pages:
 - [[wiki/concepts/Feedforward and Feedback Controls]] — lint messages and dependency-rule errors become feedback that can steer agent self-correction.
 - [[wiki/concepts/Verification Loop]] — maintainability checks can run inside the agent loop, pre-commit, CI, or periodic drift review.
 - [[wiki/concepts/Harnessability]] — typed code, clear folders, dependency boundaries, scripts, and reviewable suppressions make a codebase easier to harness.
-- [[wiki/topics/Testing Strategy]] — maintainability sensors broaden “testing” beyond functional checks into structural and modularity feedback.
+- [[wiki/topics/Testing Strategy]] — maintainability sensors broaden “testing” beyond functional checks into structural, modularity, and regression-effectiveness feedback.
+- [[wiki/concepts/Harness Ratchet]] — repeated sensor findings should become durable thresholds, custom messages, query scripts, or review prompts rather than one-off admonitions.
 
-Claims about specific tools should remain source-level unless corroborated by other sources. ESLint, dependency-cruiser, Semgrep, mutation testing, coupling analyzers, and AI modularity reviews are examples of sensor categories, not a universal stack. ^[inferred]
+Claims about specific tools should remain source-level unless corroborated by other sources. ESLint, dependency-cruiser, Semgrep, Stryker mutation testing, coupling analyzers, and AI modularity reviews are examples of sensor categories, not a universal stack. ^[inferred]
 
 ## Open Questions
 
@@ -154,6 +185,8 @@ Claims about specific tools should remain source-level unless corroborated by ot
 - How should suppressions be governed so agents do not normalize real design debt?
 - When should coupling data trigger automatic agent action, human review, or no action?
 - How often should AI modularity review run before it becomes expensive design theater?
+- How should teams validate AI-generated tests for correctness, not only regression effectiveness?
+- Which mutation-testing thresholds are useful enough for routine AI-coding workflows without making the feedback loop too slow?
 
 ## Related
 

@@ -147,7 +147,7 @@ tags:
 - [[wiki/sources/Life of a Token Source Guide]]
 - [[wiki/sources/Harness Engineering Source Guide]] — Birgitta Böckeler's Martin Fowler article on user-owned coding-agent harnesses, with guides, sensors, deterministic checks, inferential review, lifecycle timing, regulation categories, templates, and harnessability.
 - [[wiki/sources/Humans and Agents in Software Engineering Loops Source Guide]] — Kief Morris's Martin Fowler article distinguishing humans outside, in, and on agentic software engineering loops.
-- [[wiki/sources/Maintainability Sensors for Coding Agents Source Guide]] — Birgitta Böckeler's Martin Fowler follow-up on maintainability sensors for coding agents: linting, dependency rules, coupling data, and AI modularity review.
+- [[wiki/sources/Maintainability Sensors for Coding Agents Source Guide]] — Birgitta Böckeler's Martin Fowler follow-up on maintainability sensors for coding agents: linting, dependency rules, coupling data, AI modularity review, and regression testing with coverage/mutation signals.
 - [[wiki/sources/ADK Skill Design Patterns Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Compounding Engineering Source Guide]]

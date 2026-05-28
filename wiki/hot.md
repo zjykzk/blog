@@ -8,10 +8,11 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-28T20:28:50+0800
+updated: 2026-05-28T23:40:45+0800
 ---
 
 ## Recent Activity
+- 2026-05-28T23:40:45+0800 — Updated [[wiki/sources/Maintainability Sensors for Coding Agents Source Guide]]: adds the completed Martin Fowler article's regression-sensor section, including coverage limits, mutation testing, Stryker report querying, and the conclusion that sensors improve review but do not remove human judgment.
 - 2026-05-28T20:28:50+0800 — 已捕获 [[wiki/sources/AI 软件工程问答 Source Guide]]：保留一篇中文长文的 ljg-qa 问答链，把软件工程未彻底工程化、大模型作为认知引擎、AI 中心闭环、确定性裁判、分治继承和隐性知识蒸馏串成一条论证。
 - 2026-05-28T19:37:07+0800 — Captured [[wiki/sources/Agent Harness Engineering Survey Source Guide]]: preserves the Agent Harness Engineering survey's binding-constraint thesis, ETCLOVG seven-layer taxonomy, ecosystem mapping, tradeoffs, and open research agenda.
 - 2026-05-28T12:35:55+0800 — 已捕获 [[wiki/sources/快思考慢思考物理机制问答 Source Guide]]：保留一段中文教学问答，把《思考，快与慢》的系统 1 / 系统 2 从功能机制下钻到神经通路、前额叶、工作记忆和冲突监测。
@@ -154,6 +155,7 @@ updated: 2026-05-28T20:28:50+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- Maintainability sensors now include regression effectiveness, not only structural cleanliness: coverage shows execution, mutation testing probes assertion strength, and large reports may need query tools so agents can use sensor output without flooding context.
 - AI 软件工程问答链提出一个强判断：AI 编程的范式跃迁不在于 Copilot 式局部提速，而在于把 AI 放进中心产线，并用确定性裁判、闭环反馈、分治结构和场景驱动的隐性知识蒸馏把概率性认知压成工程可靠性。
 - Agent harness engineering can be organized as ETCLOVG: execution, tooling, context, lifecycle, observability, verification, and governance. The survey's strongest claim is that long-horizon agent reliability is often a property of the model-harness pair, not the model alone.
 - 快思考/慢思考可作为认知机制模型：系统 1 通过感知、记忆、情绪和习惯网络快速并行生成候选答案；系统 2 通过前额叶控制、工作记忆、冲突监测和抑制控制进行缓慢审查，但它有注意力和代谢成本。

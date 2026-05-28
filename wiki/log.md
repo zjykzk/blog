@@ -260,3 +260,4 @@ tags:
 - [2026-05-27T00:41:19+08:00] UPDATE type=source page="wiki/sources/web_chunk.md" title="Web Chunk Source Guide" reason="expand bundler explanation as module graph to chunks/assets transform"
 - [2026-05-27T00:43:06+0800] CAPTURE type=source page="wiki/sources/Second-System Effect Source Guide.md" title="Second-System Effect Source Guide"
 - [2026-05-27T00:49:30+0800] CAPTURE type=source page="wiki/sources/Fallacies of Distributed Computing Source Guide.md" title="Fallacies of Distributed Computing Source Guide"
+- [2026-05-28T23:40:45+0800] UPDATE type=source page="wiki/sources/Maintainability Sensors for Coding Agents Source Guide.md" title="Maintainability Sensors for Coding Agents Source Guide" reason="capture completed regression-testing section and updated conclusion from Martin Fowler article"
