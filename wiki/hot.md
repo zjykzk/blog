@@ -8,10 +8,11 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-27T00:49:30+0800
+updated: 2026-05-28T12:35:55+0800
 ---
 
 ## Recent Activity
+- 2026-05-28T12:35:55+0800 — 已捕获 [[wiki/sources/快思考慢思考物理机制问答 Source Guide]]：保留一段中文教学问答，把《思考，快与慢》的系统 1 / 系统 2 从功能机制下钻到神经通路、前额叶、工作记忆和冲突监测。
 - 2026-05-27T00:49:30+0800 — Captured [[wiki/sources/Fallacies of Distributed Computing Source Guide]]: preserves the eight network fallacies as a defensive design checklist for distributed systems, including the Amazon SimpleDB failure example.
 - 2026-05-27T00:43:06+0800 — Captured [[wiki/sources/Second-System Effect Source Guide]]: preserves Fred Brooks's warning that successful lean first systems can be followed by overengineered, feature-bloated successors.
 - 2026-05-27T00:41:19+08:00 — 已更新 [[wiki/sources/web_chunk|Web Chunk Source Guide]]：补充 bundler 的角色，说明它如何从入口递归分析 import/export、建立 module graph、切出 chunks 并输出浏览器可请求的 assets。
@@ -151,6 +152,7 @@ updated: 2026-05-27T00:49:30+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- 快思考/慢思考可作为认知机制模型：系统 1 通过感知、记忆、情绪和习惯网络快速并行生成候选答案；系统 2 通过前额叶控制、工作记忆、冲突监测和抑制控制进行缓慢审查，但它有注意力和代谢成本。
 - The Fallacies of Distributed Computing turn network non-ideality into a design checklist: reliability, latency, bandwidth, security, topology, administration, transport cost, and heterogeneity must be handled explicitly rather than hidden behind local-call thinking.
 - Second-System Effect warns that success with a lean first system can create overconfidence: the successor tries to include every deferred feature, edge case, and abstraction, turning validated simplicity into overengineered complexity.
 - bundler 不是简单拼接文件，而是把源码 module graph 转换成浏览器可加载的 chunks/assets；动态 `import()` 是分割信号，`loadable` 或 `React.lazy` 只是组件层包装。

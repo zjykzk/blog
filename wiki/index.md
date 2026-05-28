@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-27T00:49:30+0800
+updated: 2026-05-28T12:35:55+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -325,6 +325,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/推理概念解剖 Source Guide|推理概念解剖 Source Guide]] — 这页保存一份中文概念解剖笔记：推理是沿着事物关系纹路，从已有前提、迹象和概念切分走向可回溯结论的过程。 (#thinking #reasoning #cognition)
 - [[wiki/sources/推理证明与未知问答 Source Guide|推理证明与未知问答 Source Guide]] — 这页保存一段中文教学问答：推理是从已知到受约束未知的路径，证明是公开化、规则化、可回查的推理。 (#thinking #reasoning #cognition #learning)
 - [[wiki/sources/推理能力训练 Source Guide|推理能力训练 Source Guide]] — 这页保存一份中文推理能力训练材料：推理能力来自清晰定义、因果建模、反例意识和反馈闭环，并通过判断拆解、预测和复盘训练。 (#thinking #reasoning #learning #judgment #article)
+- [[wiki/sources/快思考慢思考物理机制问答 Source Guide|快思考慢思考物理机制问答 Source Guide]] — 这页保存一段关于《思考，快与慢》中系统 1、系统 2 及其神经物理机制的中文教学问答。 (#thinking #cognition #psychology #mechanism)
 - [[wiki/sources/思维圆桌 Source Guide|思维圆桌 Source Guide]] — 这页导览一次关于“思维”的圆桌：思维被拆成求解机制、问题表征、认知建构、语言游戏和责任判断五条张力线。 (#thinking #cognition #judgment #roundtable)
 - [[wiki/sources/深度思考与高阶思维对话 Source Guide|深度思考与高阶思维对话 Source Guide]] — 这页保存当前对话中关于深度思考、高阶思维、本质、深度理解和训练方法的 source 层材料。 (#thinking #learning #cognition #judgment)
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide|Prompt Caching Claude Code Case Study Source Guide]] — Source guide for prompt-caching case studies that frame Claude Code cache efficiency as an agent harness design problem. (#agents #caching #claude-code)

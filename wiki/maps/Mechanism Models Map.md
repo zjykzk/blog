@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-05-26T16:06:31+08:00
+updated: 2026-05-28T12:35:55+0800
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -151,6 +151,7 @@ aliases:
 这一组模型解释理解、迁移、认知负荷和学习停滞如何生成。
 
 - [[wiki/concepts/Cognitive Load Theory]]：学习受工作记忆带宽、内在负荷、外在负荷和图式形成约束。
+- [[wiki/sources/快思考慢思考物理机制问答 Source Guide]]：把系统 1 / 系统 2 解释为两类认知控制模式：快速并行的模式识别与联想生成，以及前额叶主导的注意控制、工作记忆和冲突监测。
 - [[wiki/syntheses/ICAP 与知识类型的适用边界]]：ICAP 是学习深度刻度，需要结合知识类型、学习阶段、先验图式和认知负荷使用。
 - [[wiki/concepts/AI Learning Tutor Loop]]：AI tutor 应先建立知识地形、暴露分歧、诊断理解，再修补错误。
 - [[wiki/concepts/Knowledge as Network]]：知识不是塔，而是局部有序的网。
