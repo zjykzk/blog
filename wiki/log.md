@@ -264,3 +264,4 @@ tags:
 - [2026-05-27T00:49:30+0800] CAPTURE type=source page="wiki/sources/Fallacies of Distributed Computing Source Guide.md" title="Fallacies of Distributed Computing Source Guide"
 - [2026-05-27T23:20:00+08:00] QUERY query="ai开发中什么时候需要新增一个skill" result_pages=7 mode=normal escalated=false
 - [2026-05-28T23:40:45+0800] UPDATE type=source page="wiki/sources/Maintainability Sensors for Coding Agents Source Guide.md" title="Maintainability Sensors for Coding Agents Source Guide" reason="capture completed regression-testing section and updated conclusion from Martin Fowler article"
+- [2026-05-29T17:04:21+0800] CAPTURE type=synthesis page="wiki/syntheses/Tool and Skill Boundary in Agent Harnesses.md" title="Tool and Skill Boundary in Agent Harnesses"

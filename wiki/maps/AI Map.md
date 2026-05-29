@@ -104,6 +104,7 @@ tags:
 
 - [[wiki/syntheses/AI 时代开发岗位分层与协作]]
 - [[wiki/syntheses/大语言模型时代知识图谱的角色转变]]
+- [[wiki/syntheses/Tool and Skill Boundary in Agent Harnesses]] — distinguishes executable tool capabilities from skill-level business SOPs inside an agent harness.
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/syntheses/Agent System Design Space]]
 
