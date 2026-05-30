@@ -269,3 +269,4 @@ tags:
 - [2026-05-28T23:40:45+0800] UPDATE type=source page="wiki/sources/Maintainability Sensors for Coding Agents Source Guide.md" title="Maintainability Sensors for Coding Agents Source Guide" reason="capture completed regression-testing section and updated conclusion from Martin Fowler article"
 - [2026-05-29T17:04:21+0800] CAPTURE type=synthesis page="wiki/syntheses/Tool and Skill Boundary in Agent Harnesses.md" title="Tool and Skill Boundary in Agent Harnesses"
 - [2026-05-29T22:20:57+0800] CAPTURE type=source page="wiki/sources/大模型时代软件工程的本质与演进 Source Guide.md" title="大模型时代软件工程的本质与演进 Source Guide"
+- [2026-05-30T23:29:58+0800] CAPTURE type=source page="wiki/sources/学会提问 Source Guide.md" title="学会提问 Source Guide"

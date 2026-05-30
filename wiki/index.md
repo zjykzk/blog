@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-28T19:37:07+0800
+updated: 2026-05-30T23:29:58+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -285,6 +285,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Hyrums Law Source Guide|Hyrum's Law Source Guide]] — Source guide preserving Hyrum's Law: once enough users observe a system, even undocumented behavior can become a dependency. (#book #software-engineering #architecture #systems)
 - [[wiki/sources/Law of Leaky Abstractions Source Guide|Law of Leaky Abstractions Source Guide]] — Source guide preserving the Law of Leaky Abstractions: useful abstractions inevitably expose underlying complexity at edge cases. (#book #software-engineering #architecture #systems)
 - [[wiki/sources/表达清晰圆桌 Source Guide|表达清晰圆桌 Source Guide]] — 这页保存一次关于“表达清晰到底是什么意思”的圆桌：清晰是在当前关系中让该被理解的东西以合适方式被理解，并让误解、错误和责任有机会被发现。 (#thinking #cognition #judgment #roundtable)
+- [[wiki/sources/学会提问 Source Guide|学会提问 Source Guide]] — 保留《学会提问》读书笔记中的批判性思维问题链：论题、结论、词义、假设、谬误、证据、替代原因、数据、省略信息和灰度结论。 (#book #thinking #reasoning #learning #judgment)
 - [[wiki/sources/面向 LLM 的清晰表达 Source Guide|面向 LLM 的清晰表达 Source Guide]] — 这页保存一段中文教学对话：面向 LLM 的清晰表达是显式化任务、对象、标准、边界和输出形式，让模型少猜且结果可验收。 (#llm #context #thinking #learning)
 - [[wiki/sources/GenericAgent Paper Source Guide|GenericAgent Paper Source Guide]] — Source guide for the GenericAgent paper, focused on context information density, hierarchical memory, tool minimality, and self-evolution. (#papers #agents)
 - [[wiki/sources/Harness Engineering Source Guide|Harness Engineering Source Guide]] — Source guide for Birgitta Böckeler's Martin Fowler article on user-owned coding-agent harnesses: guides, sensors, deterministic checks, inferential review, templates, and harnessability. (#article #agents #harness #ai-coding)

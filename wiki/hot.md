@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured learning, software design, and agent-system material across source guides and syntheses.
+summary: Recent wiki activity captured learning, reasoning, software design, and agent-system material across source guides and syntheses.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-30T18:30:04+0800
+updated: 2026-05-30T23:29:58+0800
 ---
 
 ## Recent Activity
+- 2026-05-30T23:29:58+0800 — 已捕获 [[wiki/sources/学会提问 Source Guide]]：保留《学会提问》读书笔记中的批判性思维问题链，从论题、词义、假设、谬误到证据、替代原因、数据和省略信息。
 - 2026-05-30T18:30:04+0800 — 已捕获 [[wiki/sources/高难度沟通 Source Guide]]：保留《高难度沟通》读书笔记，把冲突、争取和推进场景拆成真实目标、情绪管理、情感需求和双向推进对话。
 - 2026-05-30T18:11:07+0800 — 已捕获 [[wiki/sources/Grokking Simplicity Taming FP Source Guide]]：保留《Grokking Simplicity》函数式编程读书笔记，把代码复杂度拆成 action、calculation、data、时间线、分层和响应式架构。
 - 2026-05-30T17:35:01+0800 — 已捕获 [[wiki/sources/软件工程中的稳定性治理的秩 Source Guide]]：保留“软件工程中的稳定性治理的秩”生成稿，把稳定性治理压成变化入口、故障传染和回拉能力三根生成器。
@@ -164,6 +165,7 @@ updated: 2026-05-30T18:30:04+0800
 
 ## Key Takeaways
 - 高难度沟通的关键不是赢得争论，而是守住真实目标、管理双方情绪、满足必要情感需求，并用中性开场、积极聆听和归责推进对话。
+- 《学会提问》给批判性思维一条可操作的问题链：先识别论题和结论，再检查词义、隐含假设、论证谬误、证据质量、替代原因、数据误导、省略信息，最后形成有条件的灰度结论。
 - 函数式编程可以作为代码复杂度治理方法：尽量从 action 中抽取 calculation，用不可变 data 降低时间依赖，再用 timeline、分层和响应式结构显式管理顺序与触发。
 - 稳定性治理的三根生成器是变化入口、故障传染和回拉能力：测试、灰度、熔断、隔离、可观测、回滚和值班复盘都应看它们到底压住哪根线。
 - 软件工程可以从“问题定义、知识传递与应用”理解：代码只是有损表示，真正的系统生命线在领域模型、团队隐性理论、架构一致性和运行期弹性认知网络；AI 生成代码如果无人掌握其理论，会加速系统认知死亡。

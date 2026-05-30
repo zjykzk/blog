@@ -13,8 +13,8 @@ created: 2026-04-21
 base_confidence: 0.80
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 3
-updated: 2026-05-30T18:30:04+0800
+source_count: 4
+updated: 2026-05-30T23:29:58+0800
 aliases:
   - 读书地图
 tags:
@@ -63,6 +63,7 @@ tags:
 - [[wiki/sources/Narrative as First Principle Source Guide]]
 - [[wiki/sources/可能：不确定性是意义的燃料 Source Guide]]
 - [[wiki/sources/Probability Roundtable Source Guide]]
+- [[wiki/sources/学会提问 Source Guide]]
 - [[wiki/sources/Epiplexity Paper Notes]]
 - [[wiki/sources/How to Get Rich Source Guide]]
 - [[wiki/sources/Heavy-Tailed World Source Guide]]
