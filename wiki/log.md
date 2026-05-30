@@ -20,6 +20,7 @@ tags:
 
 # LLM Wiki Log
 
+- [2026-05-30T18:30:04+0800] CAPTURE type=source page="wiki/sources/高难度沟通 Source Guide.md" title="高难度沟通 Source Guide"
 - [2026-05-30T18:11:07+0800] CAPTURE type=source page="wiki/sources/Grokking Simplicity Taming FP Source Guide.md" title="Grokking Simplicity Taming FP Source Guide"
 - [2026-05-30T17:35:01+0800] CAPTURE type=source page="wiki/sources/软件工程中的稳定性治理的秩 Source Guide.md" title="软件工程中的稳定性治理的秩 Source Guide"
 - [2026-05-28T20:28:50+0800] CAPTURE type=source page="wiki/sources/AI 软件工程问答 Source Guide.md" title="AI 软件工程问答 Source Guide"

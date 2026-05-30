@@ -14,7 +14,7 @@ base_confidence: 0.80
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 3
-updated: 2026-05-30T18:11:07+0800
+updated: 2026-05-30T18:30:04+0800
 aliases:
   - 读书地图
 tags:
@@ -68,11 +68,13 @@ tags:
 - [[wiki/sources/Heavy-Tailed World Source Guide]]
 - [[wiki/sources/能动与稳态生存逻辑 Source Guide]]
 - [[wiki/sources/Hard Constraints Source Guide]]
+- [[wiki/sources/高难度沟通 Source Guide]] — 《高难度沟通》读书笔记：真实目标、情绪管理、情感需求和双向推进对话。
 - [[wiki/sources/Grokking Simplicity Taming FP Source Guide]] — 《Grokking Simplicity》函数式编程读书笔记：action / calculation / data、timeline、分层和响应式架构。
 - [[wiki/sources/架构师启示录 Source Guide]]
 
 ## Source layer
 
+- `mobu/读书/高难度沟通.md`
 - `mobu/读书/grokking_simplicity：taming_fp.md`
 - `mobu/读书/modern_software_engineering.md`
 - `mobu/读书/思维框架.md`

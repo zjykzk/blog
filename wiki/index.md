@@ -303,6 +303,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/综合调研 在没有教科书的地方挖掘真知 Source Guide|综合调研：在没有教科书的地方挖掘真知 Source Guide]] — 这页保存一篇中文文章对综合调研的分层说明：定位式调研读懂对象，结构化调研读懂争论，生成式调研读出新问题。 (#article #learning #cognition #thinking #judgment)
 - [[wiki/sources/How People Learn Transfer Source Guide|How People Learn Transfer Source Guide]] — Source guide for transfer research in How People Learn, grounding application in flexible adaptation across contexts. (#learning #transfer #cognition)
 - [[wiki/sources/How to Get Rich Source Guide|How to Get Rich Source Guide]] — Source guide for Naval Ravikant's How to Get Rich tweetstorm PDF, focused on wealth, equity, specific knowledge, accountability, leverage, and judgment. (#wealth #leverage #career #judgment)
+- [[wiki/sources/高难度沟通 Source Guide]] — 这页保存《高难度沟通》读书笔记：用真实目标、情绪管理、情感需求和双向推进，把冲突、争取和推进场景转成可行动对话。 (#book #management #organization #judgment #thinking)
 - [[wiki/sources/Hard Constraints Source Guide|Hard Constraints Source Guide]] — 这页导览《约束：先尊重，再行动》：有效叙事必须先尊重资源、时间、规律和他人能动性等硬约束。 (#article #thinking #systems #judgment)
 - [[wiki/sources/Heavy-Tailed World Source Guide|Heavy-Tailed World Source Guide]] — 这页导览《重尾：世界服从极端值》：世界常由少数极端值、正反馈和乘法效应支配，策略应从求平均转向长板、复利与保本。 (#wealth #leverage #systems-thinking #probability)
 - [[wiki/sources/能动与稳态生存逻辑 Source Guide|能动与稳态生存逻辑 Source Guide]] — 这页导览《能动：稳态生存的观念陷阱》：旧观念来自匮乏、弱规则和简单模型，在高波动世界会限制能动性。 (#article #thinking #wealth #systems-thinking)

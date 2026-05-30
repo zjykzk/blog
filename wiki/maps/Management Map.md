@@ -12,7 +12,7 @@ base_confidence: 0.73
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-05-22T23:32:41+08:00
+updated: 2026-05-30T18:30:04+0800
 aliases:
   - 管理地图
 tags:
@@ -54,6 +54,7 @@ tags:
 
 - [[wiki/sources/组织角色与 AI 适配 Source Guide]]
 - [[wiki/sources/Chatham House Rule Source Guide]]
+- [[wiki/sources/高难度沟通 Source Guide]] — 高压沟通 source guide：用真实目标、情绪管理、情感需求和双向推进处理冲突、争取与推进。
 - [[wiki/sources/Mobu Notes]]
 - [[wiki/sources/How to Get Rich Source Guide]]
 - [[wiki/sources/Heavy-Tailed World Source Guide]]
