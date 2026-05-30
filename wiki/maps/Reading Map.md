@@ -14,7 +14,7 @@ base_confidence: 0.80
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 3
-updated: 2026-05-18T22:25:02+08:00
+updated: 2026-05-30T18:11:07+0800
 aliases:
   - 读书地图
 tags:
@@ -68,10 +68,12 @@ tags:
 - [[wiki/sources/Heavy-Tailed World Source Guide]]
 - [[wiki/sources/能动与稳态生存逻辑 Source Guide]]
 - [[wiki/sources/Hard Constraints Source Guide]]
+- [[wiki/sources/Grokking Simplicity Taming FP Source Guide]] — 《Grokking Simplicity》函数式编程读书笔记：action / calculation / data、timeline、分层和响应式架构。
 - [[wiki/sources/架构师启示录 Source Guide]]
 
 ## Source layer
 
+- `mobu/读书/grokking_simplicity：taming_fp.md`
 - `mobu/读书/modern_software_engineering.md`
 - `mobu/读书/思维框架.md`
 - `mobu/读书/学会提问.md`

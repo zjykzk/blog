@@ -8,10 +8,11 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-30T17:35:01+0800
+updated: 2026-05-30T18:11:07+0800
 ---
 
 ## Recent Activity
+- 2026-05-30T18:11:07+0800 — 已捕获 [[wiki/sources/Grokking Simplicity Taming FP Source Guide]]：保留《Grokking Simplicity》函数式编程读书笔记，把代码复杂度拆成 action、calculation、data、时间线、分层和响应式架构。
 - 2026-05-30T17:35:01+0800 — 已捕获 [[wiki/sources/软件工程中的稳定性治理的秩 Source Guide]]：保留“软件工程中的稳定性治理的秩”生成稿，把稳定性治理压成变化入口、故障传染和回拉能力三根生成器。
 - 2026-05-29T22:20:57+0800 — 已捕获 [[wiki/sources/大模型时代软件工程的本质与演进 Source Guide]]：保留一篇中文长文，把软件工程解释为问题定义、知识传递与应用，并提出 AI 时代“无理论代码”的认知风险。
 - 2026-05-29T17:04:21+0800 — Captured [[wiki/syntheses/Tool and Skill Boundary in Agent Harnesses]]: distinguishes tools as executable environment capabilities from skills as business-semantic SOPs that guide tool use.
@@ -161,6 +162,7 @@ updated: 2026-05-30T17:35:01+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- 函数式编程可以作为代码复杂度治理方法：尽量从 action 中抽取 calculation，用不可变 data 降低时间依赖，再用 timeline、分层和响应式结构显式管理顺序与触发。
 - 稳定性治理的三根生成器是变化入口、故障传染和回拉能力：测试、灰度、熔断、隔离、可观测、回滚和值班复盘都应看它们到底压住哪根线。
 - 软件工程可以从“问题定义、知识传递与应用”理解：代码只是有损表示，真正的系统生命线在领域模型、团队隐性理论、架构一致性和运行期弹性认知网络；AI 生成代码如果无人掌握其理论，会加速系统认知死亡。
 - Tool and skill descriptions both guide model selection, but they sit on different harness layers: tools execute bounded external operations, while skills load the business workflow that decides how to use capabilities.

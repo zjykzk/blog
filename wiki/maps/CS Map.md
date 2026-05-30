@@ -10,7 +10,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 8
-updated: 2026-05-30T17:35:01+0800
+updated: 2026-05-30T18:11:07+0800
 aliases:
   - Computer Science Map
 tags:
@@ -102,6 +102,7 @@ tags:
 - [[wiki/sources/Galls Law Source Guide]]
 - [[wiki/sources/Second-System Effect Source Guide]]
 - [[wiki/sources/Fallacies of Distributed Computing Source Guide]]
+- [[wiki/sources/Grokking Simplicity Taming FP Source Guide]] — 函数式编程读书笔记：用 action、calculation、data、timeline、分层和响应式架构治理代码复杂度。
 - [[wiki/sources/AI 软件工程问答 Source Guide]] — 中文问答链：从软件工程未彻底工程化出发，推导 AI 中心产线、确定性验证、分治结构和隐性知识蒸馏的落地路径。
 - [[wiki/sources/大模型时代软件工程的本质与演进 Source Guide]] — 中文长文：从需求工程、Naur、DDD、Brooks、Lehman、Woods 到 AI “无理论代码”，论证软件工程是问题定义、知识传递与应用。
 - `content/posts/cs/arch/arch.md`
