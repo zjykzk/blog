@@ -20,6 +20,7 @@ tags:
 
 # LLM Wiki Log
 
+- [2026-05-30T17:35:01+0800] CAPTURE type=source page="wiki/sources/软件工程中的稳定性治理的秩 Source Guide.md" title="软件工程中的稳定性治理的秩 Source Guide"
 - [2026-05-28T20:28:50+0800] CAPTURE type=source page="wiki/sources/AI 软件工程问答 Source Guide.md" title="AI 软件工程问答 Source Guide"
 - [2026-05-28T19:37:07+0800] CAPTURE type=source page="wiki/sources/Agent Harness Engineering Survey Source Guide.md" title="Agent Harness Engineering Survey Source Guide"
 - [2026-05-28T12:35:55+0800] CAPTURE type=source page="wiki/sources/快思考慢思考物理机制问答 Source Guide.md" title="快思考慢思考物理机制问答 Source Guide"

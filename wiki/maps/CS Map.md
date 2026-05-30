@@ -10,7 +10,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 8
-updated: 2026-05-28T20:28:50+0800
+updated: 2026-05-30T17:35:01+0800
 aliases:
   - Computer Science Map
 tags:
@@ -62,6 +62,7 @@ tags:
 - [[wiki/topics/Frontend Development Workflow]]
 - [[wiki/topics/Testing Strategy]]
 - [[wiki/syntheses/Quality Engineering Three Generators]]
+- [[wiki/sources/软件工程中的稳定性治理的秩 Source Guide]] — 稳定性治理 source guide：把运行期可靠性压成变化入口、故障传染和回拉能力三根生成器。
 - [[wiki/syntheses/信息流与状态流转设计原则]]
 - [[wiki/topics/Testing Purpose]]
 - [[wiki/topics/Problem Framing]]

@@ -263,6 +263,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/概念 因果 规律 机制与知识 Source Guide|概念、因果、规律、机制与知识 Source Guide]] — 这页保存一段中文教学对话：概念提供节点，因果提供生成关系，规律概括稳定显现，机制解释内部路径，知识把它们组织成可迁移网络。 (#thinking #cognition #learning #mechanism)
 - [[wiki/sources/知识论的秩 Source Guide|知识论的秩 Source Guide]] — 这页保存“知识论的秩”生成稿：知识由世界阻力、心智取形和公共追问三根线构成，并通过负反馈环压低错觉和运气。 (#thinking #cognition #reasoning #mechanism #judgment)
 - [[wiki/sources/知识图谱的秩 Source Guide|知识图谱的秩 Source Guide]] — 这页保存“知识图谱的秩”生成稿：知识图谱由钉住对象、织出关系和沿路追问三根线构成。 (#knowledge-graph #thinking #mechanism #llm-wiki)
+- [[wiki/sources/软件工程中的稳定性治理的秩 Source Guide|软件工程中的稳定性治理的秩 Source Guide]] — 这页保存“软件工程中的稳定性治理的秩”生成稿：稳定性治理由变化入口、故障传染和回拉能力三根生成器构成。 (#software-engineering #systems #architecture #testing #mechanism)
 - [[wiki/sources/知识论概念解剖 Source Guide|知识论概念解剖 Source Guide]] — 这页保存“知识论”概念解剖稿：从定义、历史、辩证、现象、语言、形式、存在、美感和元反思切开知识论。 (#thinking #cognition #reasoning #judgment #mechanism)
 - [[wiki/sources/知识论圆桌 Source Guide|知识论圆桌 Source Guide]] — 这页保存一次知识论圆桌：知识被拆成真理对象、经验结构、批判程序和信任分配之间的张力网络。 (#roundtable #thinking #cognition #reasoning #judgment)
 - [[wiki/sources/知识结构概念解剖 Source Guide|知识结构概念解剖 Source Guide]] — 这页保存“知识结构”概念解剖稿：知识结构不是目录，而是节点、关系、权重、场景触发和可重组路径构成的活网。 (#thinking #learning #cognition #mechanism #systems)
