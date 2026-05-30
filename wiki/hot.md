@@ -8,10 +8,11 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-29T17:04:21+0800
+updated: 2026-05-29T22:20:57+0800
 ---
 
 ## Recent Activity
+- 2026-05-29T22:20:57+0800 — 已捕获 [[wiki/sources/大模型时代软件工程的本质与演进 Source Guide]]：保留一篇中文长文，把软件工程解释为问题定义、知识传递与应用，并提出 AI 时代“无理论代码”的认知风险。
 - 2026-05-29T17:04:21+0800 — Captured [[wiki/syntheses/Tool and Skill Boundary in Agent Harnesses]]: distinguishes tools as executable environment capabilities from skills as business-semantic SOPs that guide tool use.
 - 2026-05-28T23:40:45+0800 — Updated [[wiki/sources/Maintainability Sensors for Coding Agents Source Guide]]: adds the completed Martin Fowler article's regression-sensor section, including coverage limits, mutation testing, Stryker report querying, and the conclusion that sensors improve review but do not remove human judgment.
 - 2026-05-28T20:28:50+0800 — 已捕获 [[wiki/sources/AI 软件工程问答 Source Guide]]：保留一篇中文长文的 ljg-qa 问答链，把软件工程未彻底工程化、大模型作为认知引擎、AI 中心闭环、确定性裁判、分治继承和隐性知识蒸馏串成一条论证。
@@ -159,6 +160,7 @@ updated: 2026-05-29T17:04:21+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- 软件工程可以从“问题定义、知识传递与应用”理解：代码只是有损表示，真正的系统生命线在领域模型、团队隐性理论、架构一致性和运行期弹性认知网络；AI 生成代码如果无人掌握其理论，会加速系统认知死亡。
 - Tool and skill descriptions both guide model selection, but they sit on different harness layers: tools execute bounded external operations, while skills load the business workflow that decides how to use capabilities.
 - Maintainability sensors now include regression effectiveness, not only structural cleanliness: coverage shows execution, mutation testing probes assertion strength, and large reports may need query tools so agents can use sensor output without flooding context.
 - AI 软件工程问答链提出一个强判断：AI 编程的范式跃迁不在于 Copilot 式局部提速，而在于把 AI 放进中心产线，并用确定性裁判、闭环反馈、分治结构和场景驱动的隐性知识蒸馏把概率性认知压成工程可靠性。

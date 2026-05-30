@@ -172,6 +172,7 @@ tags:
 
 - [[wiki/sources/Agentic-First Source Guide]]
 - [[wiki/sources/AI 软件工程问答 Source Guide]] — 中文问答链：把 AI 软件工程解释为从人脑主回路迁移到 AI 中心产线、确定性裁判、分治协调和隐性知识蒸馏的工程化路径。
+- [[wiki/sources/大模型时代软件工程的本质与演进 Source Guide]] — 中文长文：把 LLM 代码生成放进软件工程的知识传递本质中，提出“无理论代码”和架构理论守护者风险框架。
 
 ## Related journals
 
