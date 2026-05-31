@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-28T19:37:07+0800
+updated: 2026-05-31T11:35:17+0800
 aliases:
   - Wiki Log
 tags:
@@ -20,6 +20,7 @@ tags:
 
 # LLM Wiki Log
 
+- [2026-05-31T11:35:17+0800] CAPTURE type=source page="wiki/sources/GEPA Paper River Source Guide.md" title="GEPA Paper River Source Guide"
 - [2026-05-30T18:30:04+0800] CAPTURE type=source page="wiki/sources/高难度沟通 Source Guide.md" title="高难度沟通 Source Guide"
 - [2026-05-30T18:11:07+0800] CAPTURE type=source page="wiki/sources/Grokking Simplicity Taming FP Source Guide.md" title="Grokking Simplicity Taming FP Source Guide"
 - [2026-05-30T17:35:01+0800] CAPTURE type=source page="wiki/sources/软件工程中的稳定性治理的秩 Source Guide.md" title="软件工程中的稳定性治理的秩 Source Guide"

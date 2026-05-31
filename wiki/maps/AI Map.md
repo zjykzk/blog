@@ -17,7 +17,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 3
-updated: 2026-05-28T20:28:50+0800
+updated: 2026-05-31T11:35:17+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -161,6 +161,7 @@ tags:
 - [[wiki/sources/SPDD Iterative Review Source Guide]]
 - [[wiki/sources/Continual Learning for AI Agents Source Guide]]
 - [[wiki/sources/Meta-Harness Paper Source Guide]]
+- [[wiki/sources/GEPA Paper River Source Guide]] — GEPA 论文倒读法：把 prompt/agent 优化从自动 prompt 搜索、DSPy/MIPROv2 多模块优化、TextGrad/GRPO 反馈路线推进到轨迹反思和 Pareto 进化。
 - [[wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide]]
 - [[wiki/sources/Agent Skills Survey Paper Source Guide]]
 - [[wiki/sources/Skills-Coach Paper Source Guide]]

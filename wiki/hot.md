@@ -8,10 +8,11 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-30T23:29:58+0800
+updated: 2026-05-31T11:35:17+0800
 ---
 
 ## Recent Activity
+- 2026-05-31T11:35:17+0800 — 已捕获 [[wiki/sources/GEPA Paper River Source Guide]]：保留 GEPA 论文倒读法，把自动 prompt 搜索、多模块 LM 程序优化、TextGrad/GRPO 和 GEPA 的轨迹反思 + Pareto 进化串成问题演化线。
 - 2026-05-30T23:29:58+0800 — 已捕获 [[wiki/sources/学会提问 Source Guide]]：保留《学会提问》读书笔记中的批判性思维问题链，从论题、词义、假设、谬误到证据、替代原因、数据和省略信息。
 - 2026-05-30T18:30:04+0800 — 已捕获 [[wiki/sources/高难度沟通 Source Guide]]：保留《高难度沟通》读书笔记，把冲突、争取和推进场景拆成真实目标、情绪管理、情感需求和双向推进对话。
 - 2026-05-30T18:11:07+0800 — 已捕获 [[wiki/sources/Grokking Simplicity Taming FP Source Guide]]：保留《Grokking Simplicity》函数式编程读书笔记，把代码复杂度拆成 action、calculation、data、时间线、分层和响应式架构。
@@ -164,6 +165,7 @@ updated: 2026-05-30T23:29:58+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- GEPA 这条问题线的关键转折是：复杂 AI 系统的失败轨迹不应过早压成 scalar reward；执行轨迹、评估轨迹和文字反馈可以成为 prompt、skill、tool description 和 harness artifact 的优化燃料。
 - 高难度沟通的关键不是赢得争论，而是守住真实目标、管理双方情绪、满足必要情感需求，并用中性开场、积极聆听和归责推进对话。
 - 《学会提问》给批判性思维一条可操作的问题链：先识别论题和结论，再检查词义、隐含假设、论证谬误、证据质量、替代原因、数据误导、省略信息，最后形成有条件的灰度结论。
 - 函数式编程可以作为代码复杂度治理方法：尽量从 action 中抽取 calculation，用不可变 data 降低时间依赖，再用 timeline、分层和响应式结构显式管理顺序与触发。

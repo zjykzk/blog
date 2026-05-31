@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-30T23:29:58+0800
+updated: 2026-05-31T11:35:17+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -281,6 +281,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Frontend Development Workflow Roundtable Source Guide|Frontend Development Workflow Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担前端工程方法论的稳定母页角色。 (#frontend #software-engineering #workflow #ux #roundtable)
 - [[wiki/sources/Fallacies of Distributed Computing Source Guide]] — Source guide preserving the eight distributed-computing fallacies as a checklist against assuming reliable, zero-latency, infinite, secure, static, centrally administered, free, homogeneous networks. (#book #distributed-systems #architecture #systems #software-engineering)
 - [[wiki/sources/Galls Law Source Guide|Gall's Law Source Guide]] — Source guide preserving Gall's Law as a software-systems principle: complex working systems evolve from simple working systems. (#book #software-engineering #architecture #systems)
+- [[wiki/sources/GEPA Paper River Source Guide]] — 保留 GEPA 论文倒读法：从 APE、APO、DSPy、MIPROv2、TextGrad/GRPO 到 GEPA，说明 AI 系统优化如何从分数搜索转向轨迹反思与 Pareto 进化。 (#paper #arxiv #agents #skills #optimization)
 - [[wiki/sources/Grokking Simplicity Taming FP Source Guide]] — 这页保存《Grokking Simplicity》函数式编程读书笔记：用 action、calculation、data、时间线、分层和响应式架构降低代码复杂度。 (#book #software-engineering #architecture #systems #testing)
 - [[wiki/sources/Hyrums Law Source Guide|Hyrum's Law Source Guide]] — Source guide preserving Hyrum's Law: once enough users observe a system, even undocumented behavior can become a dependency. (#book #software-engineering #architecture #systems)
 - [[wiki/sources/Law of Leaky Abstractions Source Guide|Law of Leaky Abstractions Source Guide]] — Source guide preserving the Law of Leaky Abstractions: useful abstractions inevitably expose underlying complexity at edge cases. (#book #software-engineering #architecture #systems)

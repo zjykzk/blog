@@ -4,7 +4,7 @@ category: meta
 tags: []
 sources: []
 created: 2026-05-10T16:02:23+08:00
-updated: 2026-05-26T16:06:31+08:00
+updated: 2026-05-31T11:35:17+0800
 summary: Controlled tag vocabulary and lint policy for the structured wiki.
 base_confidence: 0.30
 lifecycle: draft
@@ -42,6 +42,7 @@ These tags are intentionally not used as ordinary content tags because they crea
 - `training` — pretraining, SFT, RL, data, and alignment stages.
 - `tools` — agent tool surfaces, routing, selection, and action space.
 - `skills` — reusable agent skill/workflow bundles.
+- `optimization` — optimization loops, prompt/text evolution, search, scoring, and artifact improvement for AI systems.
 - `llm-wiki` — LLM-maintained Markdown wiki architecture, source capture, index/log/hot workflows, and durable knowledge compilation.
 - `workflow` — ordered work procedures, reusable process designs, gates, and operational loops.
 
