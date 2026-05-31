@@ -271,3 +271,5 @@ tags:
 - [2026-05-29T17:04:21+0800] CAPTURE type=synthesis page="wiki/syntheses/Tool and Skill Boundary in Agent Harnesses.md" title="Tool and Skill Boundary in Agent Harnesses"
 - [2026-05-29T22:20:57+0800] CAPTURE type=source page="wiki/sources/大模型时代软件工程的本质与演进 Source Guide.md" title="大模型时代软件工程的本质与演进 Source Guide"
 - [2026-05-30T23:29:58+0800] CAPTURE type=source page="wiki/sources/学会提问 Source Guide.md" title="学会提问 Source Guide"
+- [2026-05-31T14:58:26+0800] QUERY query="自进化 已经实现的 agent 有哪些？" result_pages=9 mode=normal escalated=true
+- [2026-05-31T15:02:10+0800] CAPTURE type=map page="wiki/maps/Self-Evolving Agents Map.md" title="Self-Evolving Agents Map"

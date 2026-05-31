@@ -30,6 +30,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 
 ## Maps
 - [[wiki/maps/AI Map|AI Map]] — Entry point for the AI, Agent, and LLM knowledge cluster, linking concepts, topics, syntheses, and source guides. (#agents #llm-wiki)
+- [[wiki/maps/Self-Evolving Agents Map|Self-Evolving Agents Map]] — 自进化 agent 地图按学习发生的层次组织已实现系统：运行时认知、技能、技能仓库、harness 代码和记忆基线。 (#agents #harness #skills #memory #optimization)
 - [[wiki/maps/Classification Thinking Map|Classification Thinking Map]] — 这一组页面围绕一个核心问题展开： 人如何通过分类把混乱切成结构，以及这种切法的价值、方法与边界是什么。
 - [[wiki/maps/CS Map|CS Map]] — 这页聚合当前 vault 中更偏计算机科学与软件架构的长期知识页。 (#cs #map #architecture)
 - [[wiki/maps/Learning Map|Learning Map]] — Learning Map collects learning methodology, cognition concepts, AI tutor loops, and cross-source synthesis for durable learning practice.

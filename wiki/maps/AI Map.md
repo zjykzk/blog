@@ -100,6 +100,10 @@ tags:
 - [[wiki/topics/Learnable Structure in Data]]
 - [[wiki/topics/LLM Inference Systems]]
 
+## Maps
+
+- [[wiki/maps/Self-Evolving Agents Map]] — 自进化 agent 地图按学习层次组织运行时认知、技能、技能仓库、harness 代码和记忆基线系统。
+
 ## Syntheses
 
 - [[wiki/syntheses/AI 时代开发岗位分层与协作]]
