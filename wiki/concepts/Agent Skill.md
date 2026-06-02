@@ -12,7 +12,7 @@ sources:
   - https://arxiv.org/abs/2604.27488
   - https://arxiv.org/abs/2605.07358v1
 created: 2026-05-06T10:51:47+08:00
-updated: 2026-05-18T15:01:48+08:00
+updated: 2026-06-01T16:18:53+0800
 base_confidence: 0.84
 lifecycle: draft
 lifecycle_changed: 2026-05-06
@@ -98,6 +98,12 @@ This shifts skill quality from static readability to task coverage: a skill is n
 
 The paper's [[wiki/concepts/Skill Self-Evolution]] loop also makes evaluation part of skill design. If repeated failures become revised instructions or code after comparative execution, a skill becomes an inspectable learning surface rather than a frozen prompt bundle. ^[inferred]
 
+## Person-Grounded Skills
+
+[[wiki/sources/COLLEAGUE.SKILL Paper Source Guide]] adds the person-grounded case. A skill can be distilled from traces of a person or role, but the useful target is not identity replacement. The artifact should preserve selected capability, mental models, behavior boundaries, correction history, provenance, and lifecycle state.
+
+This strengthens the distinction between craft and persona. In a colleague setting, the highest-value artifact is often the expert's review judgment, escalation thresholds, and decision heuristics; surface style is a separate behavior track that may be invoked, corrected, or withheld independently. ^[inferred]
+
 ## Open Questions
 
 - Which skill categories are most valuable for solo knowledge work versus team software engineering? ^[inferred]
@@ -119,3 +125,4 @@ The paper's [[wiki/concepts/Skill Self-Evolution]] loop also makes evaluation pa
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/sources/Claude Code Skills Source Guide]]
 - [[wiki/sources/Seeing Like an Agent Source Guide]]
+- [[wiki/sources/COLLEAGUE.SKILL Paper Source Guide]]

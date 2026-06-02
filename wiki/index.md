@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-05-31T11:35:17+0800
+updated: 2026-06-01T16:18:53+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -242,6 +242,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/从知识堆积到结构化记忆 Source Guide|从知识堆积到结构化记忆 Source Guide]] — 这页保存一篇中文文章对 LLM Wiki、Obsidian-Wiki、GBrain 与 Skillify 的比较，重点是 Agent 知识管理从堆积走向结构化记忆。 (#article #agents #memory #skills #harness)
 - [[wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide|Agent Skills Data-Driven Analysis Paper Source Guide]] — Direct paper guide for a 40,285-skill marketplace measurement study covering growth bursts, length, redundancy, functional demand, and safety risks in Claude-style agent skills. (#paper #arxiv #agents #skills #software-engineering)
 - [[wiki/sources/Agent Skills Survey Paper Source Guide|Agent Skills Survey Paper Source Guide]] — Direct paper guide for the agent-skills survey, preserving its lifecycle taxonomy, resource taxonomy, retrieval/selection framing, evolution risks, and research agenda. (#paper #arxiv #survey #agents #skills)
+- [[wiki/sources/COLLEAGUE.SKILL Paper Source Guide|COLLEAGUE.SKILL Paper Source Guide]] — Direct paper guide for COLLEAGUE.SKILL, preserving its person-grounded trace-to-skill artifact model, dual tracks, correction lifecycle, deployment surface, and evaluation limits. (#paper #arxiv #agents #skills #workflow)
 - [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide|Agentic Artificial Intelligence Paper Source Guide]] — Source guide for arXiv 2601.12560v1 on agentic AI architectures, taxonomy, control loops, multi-agent orchestration, evaluation, safety, and open challenges. (#paper #arxiv #agents #architecture)
 - [[wiki/sources/Bayes-Consistent Agentic Orchestration Paper River Source Guide|Bayes-Consistent Agentic Orchestration Paper River Source Guide]] — Paper-river source guide for arXiv 2605.00742v2, tracing agent orchestration from tool action toward Bayesian cost-aware control. (#paper #arxiv #agents #harness #probability)
 - [[wiki/sources/Agent Systems Papers Source Guide|Agent Systems Papers Source Guide]] — Source guide collecting agent-system papers and deciding which claims should stay source-level versus move into topics and syntheses. (#papers #agents)

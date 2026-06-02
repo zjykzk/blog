@@ -25,7 +25,7 @@ provenance:
   inferred: 0.19
   ambiguous: 0.01
 source_count: 14
-updated: 2026-05-18T15:01:48+08:00
+updated: 2026-06-01T16:18:53+0800
 aliases:
   - skills workflow
   - AI skills
@@ -112,6 +112,10 @@ A practical implication for wiki skill authoring is that a strong skill should m
 
 This adds a useful test for workflow design: a strong skill is not finished when it first works. It should expose enough metadata to be found, enough boundaries to be selected safely, enough evidence to be evaluated, and enough versioning context to be changed or retired later. ^[inferred]
 
+[[wiki/sources/COLLEAGUE.SKILL Paper Source Guide]] adds a person-grounded lifecycle layer. When a skill is distilled from human traces, the workflow must separate capability from bounded behavior, expose provenance and source limits, allow natural-language correction, preserve rollback points, and support deletion or controlled distribution.
+
+This makes governance part of skill workflow design. A human-trace skill is not mature merely because it sounds like the source person; it must make the extracted craft inspectable, editable, and bounded against identity replacement. ^[inferred]
+
 ## Reasoning implication
 
 如果把 reasoning 看成 latent-state trajectory 的形成，那么 workflow 设计的意义就不只是“可复用”，而是“可稳定触发”。
@@ -163,6 +167,7 @@ This adds a useful test for workflow design: a strong skill is not finished when
 - [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Claude Code Skills Source Guide]]
+- [[wiki/sources/COLLEAGUE.SKILL Paper Source Guide]]
 - [[wiki/sources/ADK Skill Design Patterns Source Guide]]
 - [[wiki/sources/Skills-Coach Paper Source Guide]]
 - [[wiki/sources/SkillOS Source Guide]]

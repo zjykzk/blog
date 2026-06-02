@@ -17,7 +17,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 3
-updated: 2026-05-31T11:35:17+0800
+updated: 2026-06-01T16:18:53+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -144,6 +144,7 @@ tags:
 - [[wiki/sources/从知识堆积到结构化记忆 Source Guide]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Claude Code Skills Source Guide]]
+- [[wiki/sources/COLLEAGUE.SKILL Paper Source Guide]] — primary paper guide for person-grounded trace-to-skill distillation, including dual capability/behavior tracks, correction lifecycle, rollback, and deployment boundaries.
 - [[wiki/sources/Seeing Like an Agent Source Guide]]
 - [[wiki/sources/vLLM Inference Systems Source Guide]]
 - [[wiki/sources/LLM Wiki Source Guide]]

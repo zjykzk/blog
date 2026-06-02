@@ -8,10 +8,11 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-31T15:02:10+0800
+updated: 2026-06-01T16:18:53+0800
 ---
 
 ## Recent Activity
+- 2026-06-01T16:18:53+0800 — Captured [[wiki/sources/COLLEAGUE.SKILL Paper Source Guide]]: preserves arXiv 2605.31264's person-grounded trace-to-skill artifact model, including dual capability/behavior tracks, correction lifecycle, rollback, deployment counters, and evaluation limits.
 - 2026-05-31T15:02:10+0800 — 已新增 [[wiki/maps/Self-Evolving Agents Map]]：按学习发生层次整理已实现自进化 agent 系统，包括 AutoAgent、GenericAgent、Skills-Coach、Hermes、SkillOS、Meta-Harness、Voyager、Reflexion 与记忆基线。
 - 2026-05-31T11:35:17+0800 — 已捕获 [[wiki/sources/GEPA Paper River Source Guide]]：保留 GEPA 论文倒读法，把自动 prompt 搜索、多模块 LM 程序优化、TextGrad/GRPO 和 GEPA 的轨迹反思 + Pareto 进化串成问题演化线。
 - 2026-05-30T23:29:58+0800 — 已捕获 [[wiki/sources/学会提问 Source Guide]]：保留《学会提问》读书笔记中的批判性思维问题链，从论题、词义、假设、谬误到证据、替代原因、数据和省略信息。
@@ -166,6 +167,7 @@ updated: 2026-05-31T15:02:10+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- COLLEAGUE.SKILL adds a governance-heavy skill pattern: when a skill is distilled from human traces, the important artifact is not a persona imitation but a readable, correctable, rollbackable package that separates craft from behavior and exposes provenance.
 - 自进化 agent 应先按学习层级区分：运行时认知与记忆、单个 skill、skill repository、harness code 和模型权重是不同更新表面；成熟系统通常把轨迹反馈变成可检查的技能、记忆或 harness 资产，而不是只说“有 memory”。
 - GEPA 这条问题线的关键转折是：复杂 AI 系统的失败轨迹不应过早压成 scalar reward；执行轨迹、评估轨迹和文字反馈可以成为 prompt、skill、tool description 和 harness artifact 的优化燃料。
 - 高难度沟通的关键不是赢得争论，而是守住真实目标、管理双方情绪、满足必要情感需求，并用中性开场、积极聆听和归责推进对话。
