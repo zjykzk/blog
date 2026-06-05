@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured learning, reasoning, software design, and agent-system material across source guides and syntheses.
+summary: Recent wiki activity captured AI bubble judgment, learning, reasoning, software design, and agent-system material across source guides and syntheses.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-01T16:18:53+0800
+updated: 2026-06-05T12:28:56+0800
 ---
 
 ## Recent Activity
+- 2026-06-05T12:28:56+0800 — 已捕获 [[wiki/syntheses/AI 泡沫判断的结构]]：把“AI 投资人说 AI 泡沫很大”拆成技术真实、资产价格过热和泡沫破裂后的价值残留，并强调“留下什么”是区分姿态和模型的关键问题。
 - 2026-06-01T16:18:53+0800 — Captured [[wiki/sources/COLLEAGUE.SKILL Paper Source Guide]]: preserves arXiv 2605.31264's person-grounded trace-to-skill artifact model, including dual capability/behavior tracks, correction lifecycle, rollback, deployment counters, and evaluation limits.
 - 2026-05-31T15:02:10+0800 — 已新增 [[wiki/maps/Self-Evolving Agents Map]]：按学习发生层次整理已实现自进化 agent 系统，包括 AutoAgent、GenericAgent、Skills-Coach、Hermes、SkillOS、Meta-Harness、Voyager、Reflexion 与记忆基线。
 - 2026-05-31T11:35:17+0800 — 已捕获 [[wiki/sources/GEPA Paper River Source Guide]]：保留 GEPA 论文倒读法，把自动 prompt 搜索、多模块 LM 程序优化、TextGrad/GRPO 和 GEPA 的轨迹反思 + Pareto 进化串成问题演化线。

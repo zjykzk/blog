@@ -274,3 +274,4 @@ tags:
 - [2026-05-31T14:58:26+0800] QUERY query="自进化 已经实现的 agent 有哪些？" result_pages=9 mode=normal escalated=true
 - [2026-05-31T15:02:10+0800] CAPTURE type=map page="wiki/maps/Self-Evolving Agents Map.md" title="Self-Evolving Agents Map"
 - [2026-06-01T16:18:53+0800] CAPTURE type=source page="wiki/sources/COLLEAGUE.SKILL Paper Source Guide.md" title="COLLEAGUE.SKILL Paper Source Guide"
+- [2026-06-05T12:28:56+0800] CAPTURE type=synthesis page="wiki/syntheses/AI 泡沫判断的结构.md" title="AI 泡沫判断的结构"

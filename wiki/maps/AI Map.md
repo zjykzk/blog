@@ -17,7 +17,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 3
-updated: 2026-06-01T16:18:53+0800
+updated: 2026-06-05T12:28:56+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -106,6 +106,7 @@ tags:
 
 ## Syntheses
 
+- [[wiki/syntheses/AI 泡沫判断的结构]] — 区分 AI 技术真实、资产价格过热与泡沫破裂后的价值残留。
 - [[wiki/syntheses/AI 时代开发岗位分层与协作]]
 - [[wiki/syntheses/大语言模型时代知识图谱的角色转变]]
 - [[wiki/syntheses/Tool and Skill Boundary in Agent Harnesses]] — distinguishes executable tool capabilities from skill-level business SOPs inside an agent harness.

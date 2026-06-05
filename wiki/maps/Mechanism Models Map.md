@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-05-30T17:35:01+0800
+updated: 2026-06-05T12:28:56+0800
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -165,6 +165,7 @@ aliases:
 
 这一组模型解释回报结构、资产、风险和能动性如何改变人生策略。
 
+- [[wiki/syntheses/AI 泡沫判断的结构]]：用泡沫破裂后的价值残留来区分技术真实、资产价格过热和叙事幻觉。
 - [[wiki/concepts/Heavy-Tailed Distribution]]：少数极端值占据巨大份额，平均值会失去直觉意义。
 - [[wiki/concepts/Additive World]]：回报主要由投入次数相加，适合保底、补短板和稳定交付。
 - [[wiki/concepts/Multiplicative World]]：回报由当前动作与既有存量共同决定，要求寻找可复利、可放大的长板。

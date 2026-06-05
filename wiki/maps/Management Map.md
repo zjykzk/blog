@@ -12,7 +12,7 @@ base_confidence: 0.73
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-05-30T18:30:04+0800
+updated: 2026-06-05T12:28:56+0800
 aliases:
   - 管理地图
 tags:
@@ -46,6 +46,7 @@ tags:
 
 ## Syntheses
 
+- [[wiki/syntheses/AI 泡沫判断的结构]] — 用“泡沫破裂后什么留下”测试 AI 投资判断是否从市场姿态进入结构模型。
 - [[wiki/syntheses/Decision Modes for Engineering Work]]
 - [[wiki/syntheses/Thinking and Judgment Workflow]]
 - [[wiki/syntheses/Acting Under Complexity]]

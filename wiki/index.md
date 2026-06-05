@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-06-01T16:18:53+0800
+updated: 2026-06-05T12:28:56+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -191,6 +191,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Workflow Graph Orchestration|Workflow Graph Orchestration]] — Workflow Graph Orchestration models agent work as explicit state-machine or graph traversal so control, persistence, guard nodes, and recovery stay inspectable. (#agents #orchestration #workflow)
 
 ## Syntheses
+- [[wiki/syntheses/AI 泡沫判断的结构|AI 泡沫判断的结构]] — AI 泡沫判断要区分技术真实、资产价格过热和泡沫破裂后的价值残留，关键是哪些能力会穿越周期。 (#llm #judgment #wealth #mechanism)
 - [[wiki/syntheses/AI 时代开发岗位分层与协作|AI 时代开发岗位分层与协作]] — AI 降低代码生成成本后，开发岗位会分层为探索闭环、系统责任和执行交付；AI-native builder 与系统 owner 分别承担速度和长期性。 (#software-engineering #ai-coding #architecture #management #judgment)
 - [[wiki/syntheses/大语言模型时代知识图谱的角色转变|大语言模型时代知识图谱的角色转变]] — 这篇课程综述草稿讨论知识图谱在 LLM 时代从结构化知识表示转向 GraphRAG、可信生成和知识治理基础设施。 (#论文 #知识图谱 #大语言模型 #GraphRAG)
 - [[wiki/syntheses/软件设计作为系统诊断|软件设计作为系统诊断]] — 软件设计可以被看作系统诊断：从代码事件下潜到重复模式、生成结构和心智模型，再用原则、模式、信息流和状态流转定位高杠杆改造点。 (#software-engineering #architecture #systems #thinking #mechanism)
