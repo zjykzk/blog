@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-05-31T11:35:17+0800
+updated: 2026-06-11T10:00:26+08:00
 aliases:
   - Wiki Log
 tags:
@@ -19,8 +19,17 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-06-11T10:00:26+08:00] CAPTURE type=source page="wiki/sources/发现和定义问题 Source Guide.md" title="发现和定义问题 Source Guide"
+- [2026-06-10T21:35:12+08:00] CAPTURE type=source page="wiki/sources/Memory-as-a-Tool Paper River Source Guide.md" title="Memory-as-a-Tool Paper River Source Guide"
+- [2026-06-09T14:38:26+08:00] INGEST source="https://arxiv.org/abs/2605.23023" pages_updated=6 pages_created=2 mode=append
+- [2026-06-09T14:38:22+08:00] WIKI_SYNTHESIZE pages_scanned=346 synthesis_created=3 candidates_skipped=25
+- [2026-06-09T11:13:29+08:00] LINT_FIX rule=7 provenance_hub_review_fixed=2 prov_issues_remaining=0 stale=0 files_modified=3 note="normalized provenance markers on Agent Skill and Understanding; updated provenance frontmatter and verified no stale regressions"
+- [2026-06-09T10:56:14+08:00] LINT_FIX broken_count=0 selflink_count=0 orphan_count=0 stale_refreshed=9 missing_frontmatter_fixed=1 missing_summary_fixed=1 index_issues_fixed=1 base_confidence_drift_fixed=101 files_modified=107
+- [2026-06-09T10:38:35.717207+08:00] LINT issues_found=176 orphans=1 broken_links=0 stale=9 contradictions=0 prov_issues=2 missing_summary=1 fragmented_clusters=9 visibility_issues=0 promotion_candidates=0 synthesis_gaps=28 lifecycle_issues=124 index_issues=1
 
+- [2026-06-09T10:20:40+08:00] INGEST source="inline:laws-of-software-engineering-unintended-consequences-2026-06-09" pages_updated=5 pages_created=2 mode=append
 - [2026-05-31T11:35:17+0800] CAPTURE type=source page="wiki/sources/GEPA Paper River Source Guide.md" title="GEPA Paper River Source Guide"
+- [2026-05-31T01:02:27+0800] LINT issues_found=35 orphans=1 broken_links=0 stale=1 contradictions=0 prov_issues=19 missing_summary=1 fragmented_clusters=10 visibility_issues=0 promotion_candidates=0 synthesis_gaps=0 lifecycle_issues=2
 - [2026-05-30T18:30:04+0800] CAPTURE type=source page="wiki/sources/高难度沟通 Source Guide.md" title="高难度沟通 Source Guide"
 - [2026-05-30T18:11:07+0800] CAPTURE type=source page="wiki/sources/Grokking Simplicity Taming FP Source Guide.md" title="Grokking Simplicity Taming FP Source Guide"
 - [2026-05-30T17:35:01+0800] CAPTURE type=source page="wiki/sources/软件工程中的稳定性治理的秩 Source Guide.md" title="软件工程中的稳定性治理的秩 Source Guide"
@@ -271,6 +280,7 @@ tags:
 - [2026-05-29T17:04:21+0800] CAPTURE type=synthesis page="wiki/syntheses/Tool and Skill Boundary in Agent Harnesses.md" title="Tool and Skill Boundary in Agent Harnesses"
 - [2026-05-29T22:20:57+0800] CAPTURE type=source page="wiki/sources/大模型时代软件工程的本质与演进 Source Guide.md" title="大模型时代软件工程的本质与演进 Source Guide"
 - [2026-05-30T23:29:58+0800] CAPTURE type=source page="wiki/sources/学会提问 Source Guide.md" title="学会提问 Source Guide"
+- [2026-05-30T21:00:40+0800] LINT issues_found=72 orphans=1 broken_links=0 stale=1 contradictions=0 prov_issues=11 missing_summary=0 fragmented_clusters=10 visibility_issues=0 promotion_candidates=0 synthesis_gaps=0 lifecycle_issues=49
 - [2026-05-31T14:58:26+0800] QUERY query="自进化 已经实现的 agent 有哪些？" result_pages=9 mode=normal escalated=true
 - [2026-05-31T15:02:10+0800] CAPTURE type=map page="wiki/maps/Self-Evolving Agents Map.md" title="Self-Evolving Agents Map"
 - [2026-06-01T16:18:53+0800] CAPTURE type=source page="wiki/sources/COLLEAGUE.SKILL Paper Source Guide.md" title="COLLEAGUE.SKILL Paper Source Guide"

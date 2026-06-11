@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-06-05T12:28:56+0800
+updated: 2026-06-11T10:00:26+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -77,6 +77,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/Testing Strategy|Testing Strategy]] — Testing Strategy combines test layering, test purpose, and AI-era quality gates to increase confidence in software changes. (#testing #quality #software-engineering)
 - [[wiki/topics/Thinking in Systems|Thinking in Systems]] — 系统视角把反复出现的问题从事件层推进到模式、结构、心智模型和杠杆点。 (#systems-thinking #feedback #mental-models)
 - [[wiki/topics/Tool Routing|Tool Routing]] — 当前笔记里关于 router / adapter 的判断，可以进一步抽成一个独立主题：工具路由不是附属细节，而是 agent 系统的核心结构设计。 (#agents #tools)
+- [[wiki/topics/TRAE Agent Capability Preparation Plan|TRAE Agent Capability Preparation Plan]] — TRAE Agent 能力准备计划围绕 AI Coding Agent 的架构、上下文、模型路由、验证闭环、指标和实验体系组织面试准备。 (#ai-coding #agents #context-engineering #career)
 - [[wiki/topics/UML Diagrams in Software Development|UML Diagrams in Software Development]] — UML 图不是一套必须全画的仪式，而是一组在不同开发环节回答不同问题的建模工具。
 - [[wiki/topics/User Stories|User Stories]] — 用户故事的价值，不在于写出一个固定格式，而在于把“谁、想做什么、为什么”表达清楚，并让需求能继续往设计与实现层面流动。 (#product #requirements #software-engineering)
 - [[wiki/topics/What Makes a Good Classification|What Makes a Good Classification]] — 好的分类，不是最整齐的分类，也不是看起来最像“标准答案”的分类，而是 最能支持理解、判断和行动的分类 。
@@ -158,6 +159,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Knowledge Types|Knowledge Types]] — 知识类型按知识在人脑和行动中的功能划分；布卢姆分类则描述对知识的掌握深度。 (#cognition #learning #concepts #taxonomy)
 - [[wiki/concepts/KV Cache|KV Cache]] — KV cache stores transformer key/value tensors so repeated prefixes or generated histories do not need full attention recomputation. (#llm #inference #caching)
 - [[wiki/concepts/Leverage Points|Leverage Points]] — 杠杆点是系统里“改一点，结果却变很多”的位置。
+- [[wiki/concepts/Law of Unintended Consequences]] — The Law of Unintended Consequences warns that interventions in complex systems can create benefits, side effects, or perverse results not predicted by the original plan. (#software-engineering #systems #complexity #feedback)
 - [[wiki/concepts/LLM Inference Benchmarking|LLM Inference Benchmarking]] — LLM inference benchmarking compares latency, throughput, and goodput under request shapes and service-level objectives. (#llm #inference #benchmarking)
 - [[wiki/concepts/LLM|LLM]] — LLMs are neural text models whose learned tensor computation must be distinguished from the external harness, serving system, and control-flow code around them. (#llm #concept)
 - [[wiki/concepts/Next-Token Pipeline|Next-Token Pipeline]] — The next-token pipeline turns text into token IDs, vectors, contextual hidden states, logits, probabilities, and finally one sampled output token. (#llm #inference #transformer)
@@ -189,6 +191,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Verification Loop|Verification Loop]] — A verification loop gives an agent external feedback, such as tests, visual checks, or evaluators, so errors are caught before they compound. (#agents #verification)
 
 - [[wiki/concepts/Workflow Graph Orchestration|Workflow Graph Orchestration]] — Workflow Graph Orchestration models agent work as explicit state-machine or graph traversal so control, persistence, guard nodes, and recovery stay inspectable. (#agents #orchestration #workflow)
+- [[wiki/concepts/Human-LLM Co-Planning Interaction Space|Human-LLM Co-Planning Interaction Space]] — Human-LLM Co-Planning Interaction Space classifies plan steering by mode, scope, and edit level so humans can choose between control, effort, and rewrite risk. (#agents #orchestration #human-in-the-loop)
 
 ## Syntheses
 - [[wiki/syntheses/AI 泡沫判断的结构|AI 泡沫判断的结构]] — AI 泡沫判断要区分技术真实、资产价格过热和泡沫破裂后的价值残留，关键是哪些能力会穿越周期。 (#llm #judgment #wealth #mechanism)
@@ -229,11 +232,16 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Permissionless Leverage × Wealth Creation|Permissionless Leverage × Wealth Creation]] — Permissionless leverage is the scaling mechanism that lets wealth creation escape rented time, but it only amplifies judgment. (#wealth #leverage #career #judgment)
 - [[wiki/syntheses/不确定性下的判断|不确定性下的判断]] — 这页尝试把 Problem Framing 、 Mental Models 、 Probability 、 Critical Thinking 串成一个更高层的判断框架：很多真正重要的决策，并不是在确定条件下做出的，而是在信息不全、对象不稳、反馈滞后时被迫推进的。 (#synthesis #thinking #judgment #decision-making)
 
+- [[wiki/syntheses/Verification Loop × Feedback Flywheel|Verification Loop × Feedback Flywheel]] — Verification loops catch local task errors; feedback flywheels convert those signals into durable improvements to context, standards, workflows, and guardrails. (#agents #feedback #ai-coding #workflow)
+- [[wiki/syntheses/Agent Skill × Harness Ratchet|Agent Skill × Harness Ratchet]] — Skills become ratchet surfaces when repeated agent failures are converted into revised instructions, examples, constraints, scripts, or evaluable helper code. (#agents #skills #harness #feedback)
+- [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
+
 ## Sources
 - [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]] — Source guide preserving a CAP theorem chapter on consistency, availability, partition tolerance, database examples, and Kleppmann's critique. (#book #distributed-systems #database #systems #architecture)
 - [[wiki/sources/Doris 写入与 Routine Load Source Guide|Doris 写入与 Routine Load Source Guide]] — 这页保留 Doris 2.1 写入方式、Routine Load 原理、Task 时序，以及内部 Rowset、事务和版本发布链路。 (#database #systems #software-engineering #architecture)
 - [[wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide|配置 钩子 代码库与技能放置决策 Source Guide]] — 这页保存一棵判断树：固定指令、可靠自动化、代码库规范和手动技能分别应该放在哪里。 (#agents #harness #skills #llm-wiki)
 - [[wiki/sources/拆解 让复杂问题变清晰 Source Guide|拆解：让复杂问题变清晰 Source Guide]] — 这页保存一篇中文问题拆解文章：复杂问题之所以压人，是因为它以混沌形态出现；拆解通过技术、框架和结构化思维把问题转成可处理的小结构。 (#article #thinking #reasoning #learning #mechanism)
+- [[wiki/sources/发现和定义问题 Source Guide|发现和定义问题 Source Guide]] — 这页保存一篇中文文章对“发现和定义问题”的方法论说明：从 Problem 到 Issue，经过发现异常、确认本质、定义议题和对齐共识。 (#article #thinking #reasoning #management #mechanism)
 - [[wiki/sources/Agentic-First Source Guide]] — Source guide for James Pritchard's Agentic-First article, focused on agent-navigable platforms, mode-aware context, edit-time guardrails, and process-level automation. (#article #agents #harness #ai-coding #context)
 - [[wiki/sources/Agent Engineering Source Guide|Agent Engineering Source Guide]] — 这页用于收拢“agent engineering / harness / workflow”这一类更偏工程综述与系统实践的来源材料。 (#agents #engineering #harness)
 - [[wiki/sources/Agent Harness Anatomy Source Guide|Agent Harness Anatomy Source Guide]] — Source guide for Akshay Pachaar's agent harness thread, focused on the 12-component harness model and architecture decisions. (#agents #harness #architecture)
@@ -255,6 +263,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Memory for Autonomous LLM Agents Source Guide|Memory for Autonomous LLM Agents Source Guide]] — Source guide for arXiv 2603.07670 on autonomous LLM-agent memory mechanisms, evaluation, applications, engineering realities, and open frontiers. (#paper #agents #memory #survey)
 - [[wiki/sources/Memory in the Age of AI Agents Paper Source Guide|Memory in the Age of AI Agents Paper Source Guide]] — Source guide for arXiv 2512.13564 on agent memory forms, functions, dynamics, resources, and future frontiers. (#paper #arxiv #agents #memory #survey)
 - [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide|What Happens Inside Agent Memory Paper Source Guide]] — Source guide for arXiv 2605.03354 on circuit-level analysis of agent memory failures, control-before-content asymmetry, shared memory hubs, and stage-level diagnostics. (#paper #arxiv #agents #memory #harness)
+- [[wiki/sources/Memory-as-a-Tool Paper River Source Guide]] — 保留 Memory-as-a-Tool 论文倒读法：从 CoT、Self-Refine、Reflexion、MemGPT、MemLLM 到 Memory-R1，说明反馈如何从一次性修正变成可复用记忆原则。 (#paper #arxiv #agents #memory #feedback)
 - [[wiki/sources/AI Memory Survey Source Guide|AI Memory Survey Source Guide]] — Source guide for Survey on AI Memory, focused on memory theory, the 4W taxonomy, single/multi-agent memory, evaluation, and open challenges. (#paper #agents #memory #survey)
 - [[wiki/sources/Amabile Componential Theory of Creativity Source Guide|Amabile Componential Theory of Creativity Source Guide]] — Source guide for Amabile's componential theory, grounding creativity in novelty, appropriateness, domain skill, motivation, and environment. (#creativity #psychology #learning)
 - [[wiki/sources/Analysis Concept Anatomy Source Guide|Analysis Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on analysis as reversible decomposition into actionable structure. (#thinking #concepts)
@@ -289,6 +298,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Grokking Simplicity Taming FP Source Guide]] — 这页保存《Grokking Simplicity》函数式编程读书笔记：用 action、calculation、data、时间线、分层和响应式架构降低代码复杂度。 (#book #software-engineering #architecture #systems #testing)
 - [[wiki/sources/Hyrums Law Source Guide|Hyrum's Law Source Guide]] — Source guide preserving Hyrum's Law: once enough users observe a system, even undocumented behavior can become a dependency. (#book #software-engineering #architecture #systems)
 - [[wiki/sources/Law of Leaky Abstractions Source Guide|Law of Leaky Abstractions Source Guide]] — Source guide preserving the Law of Leaky Abstractions: useful abstractions inevitably expose underlying complexity at edge cases. (#book #software-engineering #architecture #systems)
+- [[wiki/sources/Law of Unintended Consequences Source Guide]] — Source guide preserving a Laws of Software Engineering chapter on unintended consequences, including benefit, drawback, and perverse-result categories. (#book #software-engineering #systems #complexity)
 - [[wiki/sources/表达清晰圆桌 Source Guide|表达清晰圆桌 Source Guide]] — 这页保存一次关于“表达清晰到底是什么意思”的圆桌：清晰是在当前关系中让该被理解的东西以合适方式被理解，并让误解、错误和责任有机会被发现。 (#thinking #cognition #judgment #roundtable)
 - [[wiki/sources/学会提问 Source Guide|学会提问 Source Guide]] — 保留《学会提问》读书笔记中的批判性思维问题链：论题、结论、词义、假设、谬误、证据、替代原因、数据、省略信息和灰度结论。 (#book #thinking #reasoning #learning #judgment)
 - [[wiki/sources/面向 LLM 的清晰表达 Source Guide|面向 LLM 的清晰表达 Source Guide]] — 这页保存一段中文教学对话：面向 LLM 的清晰表达是显式化任务、对象、标准、边界和输出形式，让模型少猜且结果可验收。 (#llm #context #thinking #learning)
@@ -296,6 +306,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Harness Engineering Source Guide|Harness Engineering Source Guide]] — Source guide for Birgitta Böckeler's Martin Fowler article on user-owned coding-agent harnesses: guides, sensors, deterministic checks, inferential review, templates, and harnessability. (#article #agents #harness #ai-coding)
 - [[wiki/sources/Harness Engineering Is Cybernetics Source Guide|Harness Engineering Is Cybernetics Source Guide]] — Source guide for George's X article framing harness engineering as cybernetics: sensors, actuators, feedback loops, and machine-readable judgment. (#agents #harness #cybernetics)
 - [[wiki/sources/Humans and Agents in Software Engineering Loops Source Guide|Humans and Agents in Software Engineering Loops Source Guide]] — Source guide for Kief Morris's Martin Fowler article on humans outside, in, and on agentic software engineering loops. (#article #agents #harness #ai-coding #software-engineering)
+- [[wiki/sources/Human-LLM Collaborative Planning Paper Source Guide|Human-LLM Collaborative Planning Paper Source Guide]] — Direct paper guide for AMBIPOM and human-LLM co-planning, preserving its mode-scope-level design space, user-study findings, benchmark, limitations, and harness implications. (#paper #arxiv #agents #orchestration #human-in-the-loop)
 - [[wiki/sources/Maintainability Sensors for Coding Agents Source Guide|Maintainability Sensors for Coding Agents Source Guide]] — Source guide for Birgitta Böckeler's Martin Fowler follow-up on maintainability sensors for coding agents: linting, dependency rules, coupling data, AI modularity review, and regression testing. (#article #agents #harness #ai-coding #software-engineering)
 - [[wiki/sources/ICAP Learning Framework Source Guide|ICAP Learning Framework Source Guide]] — Source guide for the ICAP learning framework article, distinguishing passive, active, constructive, and interactive learning by cognitive engagement. (#learning #cognition #education)
 - [[wiki/sources/可取以及不可取的困难 Source Guide|可取以及不可取的困难 Source Guide]] — 这页保存一篇中文文章对可取困难、学习唤醒度、睡眠运动、具身认知和运动员式学习流程的说明。 (#article #learning #cognition #education #thinking)
@@ -377,7 +388,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/光速不变与相对性原则问答 Source Guide|光速不变与相对性原则问答 Source Guide]] — 中文物理教学问答：光速不变为何成为公设、相对性原则如何约束物理规律、非惯性系为何需要惯性力。 (#learning #cognition #physics #reasoning)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Recent captures added the Agentic Artificial Intelligence survey: agent systems are control loops governed by architecture taxonomy, workflow graphs, and CLASSic evaluation.
+- [[wiki/hot|Hot Cache]] — Recent activity ingested AMBIPOM and added human-LLM co-planning as a plan-steering control surface for orchestrated multi-agent systems.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

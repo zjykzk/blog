@@ -1,103 +1,30 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured a Chinese article on problem decomposition, connecting analysis, problem framing, systems thinking, and mechanism-model practice.
+summary: Recent wiki activity captured Chinese source articles on problem decomposition and on discovering/defining problems as a Problem-to-Issue chain.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-10T22:43:22+08:00
+updated: 2026-06-11T10:00:26+08:00
 ---
 
 ## Recent Activity
-- 2026-06-05T12:28:56+0800 — 已捕获 [[wiki/syntheses/AI 泡沫判断的结构]]：把“AI 投资人说 AI 泡沫很大”拆成技术真实、资产价格过热和泡沫破裂后的价值残留，并强调“留下什么”是区分姿态和模型的关键问题。
+- 2026-06-11T10:00:26+08:00 — 已捕获 [[wiki/sources/发现和定义问题 Source Guide]]：把一篇中文旧文保存为 source 层素材，保留 Problem/Issue 区分、发现异常、确认本质、定义议题、对齐共识、两个天坑和高阶提问工具，并接到 [[wiki/topics/Problem Framing]]、[[wiki/topics/Critical Thinking]]、[[wiki/maps/Management Map]] 与 [[wiki/maps/Learning Map]]。
 - 2026-06-10T22:43:22+08:00 — 已捕获 [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]：把“复杂问题为什么让人卡住”保存为 source 层文章，保留 MECE、六种维度、逻辑树、横向展开/纵向深挖、四层次原因分析法和三步行动建议，并接到 [[wiki/concepts/Analysis]]、[[wiki/topics/Problem Framing]] 与 [[wiki/maps/Classification Thinking Map]]。
-- 2026-06-01T16:18:53+0800 — Captured [[wiki/sources/COLLEAGUE.SKILL Paper Source Guide]]: preserves arXiv 2605.31264's person-grounded trace-to-skill artifact model, including dual capability/behavior tracks, correction lifecycle, rollback, deployment counters, and evaluation limits.
-- 2026-05-31T15:02:10+0800 — 已新增 [[wiki/maps/Self-Evolving Agents Map]]：按学习发生层次整理已实现自进化 agent 系统，包括 AutoAgent、GenericAgent、Skills-Coach、Hermes、SkillOS、Meta-Harness、Voyager、Reflexion 与记忆基线。
-- 2026-05-31T11:35:17+0800 — 已捕获 [[wiki/sources/GEPA Paper River Source Guide]]：保留 GEPA 论文倒读法，把自动 prompt 搜索、多模块 LM 程序优化、TextGrad/GRPO 和 GEPA 的轨迹反思 + Pareto 进化串成问题演化线。
-- 2026-05-30T23:29:58+0800 — 已捕获 [[wiki/sources/学会提问 Source Guide]]：保留《学会提问》读书笔记中的批判性思维问题链，从论题、词义、假设、谬误到证据、替代原因、数据和省略信息。
-- 2026-05-30T18:30:04+0800 — 已捕获 [[wiki/sources/高难度沟通 Source Guide]]：保留《高难度沟通》读书笔记，把冲突、争取和推进场景拆成真实目标、情绪管理、情感需求和双向推进对话。
-- 2026-05-30T18:11:07+0800 — 已捕获 [[wiki/sources/Grokking Simplicity Taming FP Source Guide]]：保留《Grokking Simplicity》函数式编程读书笔记，把代码复杂度拆成 action、calculation、data、时间线、分层和响应式架构。
-- 2026-05-30T17:35:01+0800 — 已捕获 [[wiki/sources/软件工程中的稳定性治理的秩 Source Guide]]：保留“软件工程中的稳定性治理的秩”生成稿，把稳定性治理压成变化入口、故障传染和回拉能力三根生成器。
-- 2026-05-29T22:20:57+0800 — 已捕获 [[wiki/sources/大模型时代软件工程的本质与演进 Source Guide]]：保留一篇中文长文，把软件工程解释为问题定义、知识传递与应用，并提出 AI 时代“无理论代码”的认知风险。
-- 2026-05-29T17:04:21+0800 — Captured [[wiki/syntheses/Tool and Skill Boundary in Agent Harnesses]]: distinguishes tools as executable environment capabilities from skills as business-semantic SOPs that guide tool use.
-- 2026-05-28T23:40:45+0800 — Updated [[wiki/sources/Maintainability Sensors for Coding Agents Source Guide]]: adds the completed Martin Fowler article's regression-sensor section, including coverage limits, mutation testing, Stryker report querying, and the conclusion that sensors improve review but do not remove human judgment.
-- 2026-05-28T20:28:50+0800 — 已捕获 [[wiki/sources/AI 软件工程问答 Source Guide]]：保留一篇中文长文的 ljg-qa 问答链，把软件工程未彻底工程化、大模型作为认知引擎、AI 中心闭环、确定性裁判、分治继承和隐性知识蒸馏串成一条论证。
-- 2026-05-28T19:37:07+0800 — Captured [[wiki/sources/Agent Harness Engineering Survey Source Guide]]: preserves the Agent Harness Engineering survey's binding-constraint thesis, ETCLOVG seven-layer taxonomy, ecosystem mapping, tradeoffs, and open research agenda.
-- 2026-05-28T12:35:55+0800 — 已捕获 [[wiki/sources/快思考慢思考物理机制问答 Source Guide]]：保留一段中文教学问答，把《思考，快与慢》的系统 1 / 系统 2 从功能机制下钻到神经通路、前额叶、工作记忆和冲突监测。
-- 2026-05-27T23:47:19+0800 — Captured [[wiki/sources/Humans and Agents in Software Engineering Loops Source Guide]]: preserves Kief Morris's Martin Fowler article on humans outside, in, and on agentic software engineering loops.
-- 2026-05-27T23:13:01+0800 — 已新增 [[wiki/syntheses/总结式读书的认知损失]]：从表征、图式、心智模型和解释性理解说明为什么只听读别人总结好的书会削弱可迁移理解。
-- 2026-05-27T00:49:30+0800 — Captured [[wiki/sources/Fallacies of Distributed Computing Source Guide]]: preserves the eight network fallacies as a defensive design checklist for distributed systems, including the Amazon SimpleDB failure example.
-- 2026-05-27T00:43:06+0800 — Captured [[wiki/sources/Second-System Effect Source Guide]]: preserves Fred Brooks's warning that successful lean first systems can be followed by overengineered, feature-bloated successors.
-- 2026-05-27T00:41:19+08:00 — 已更新 [[wiki/sources/web_chunk|Web Chunk Source Guide]]：补充 bundler 的角色，说明它如何从入口递归分析 import/export、建立 module graph、切出 chunks 并输出浏览器可请求的 assets。
-- 2026-05-27T00:37:25+0800 — 已捕获 [[wiki/sources/React 状态范围与复杂全局状态 Source Guide]]：保留一段中文 React 状态管理追问，把 Hook 选择、复杂全局状态、高频细粒度更新和“全局”范围压成状态边界判断。
-- 2026-05-26T23:02:15+08:00 — 已捕获 [[wiki/sources/web_chunk|Web Chunk Source Guide]]：保留一份中文前端构建讲解，说明 chunk 由 bundler 根据 module graph 和 dynamic import 分割生成，而不是由 loadable 自己生成。
-- 2026-05-26T16:06:31+08:00 — 已捕获 [[wiki/sources/知识图谱的秩 Source Guide|知识图谱的秩 Source Guide]]：保留“知识图谱的秩”生成稿，把知识图谱压成钉住对象、织出关系和沿路追问三根生成器。
-- 2026-05-26T14:03:46+08:00 — Captured [[wiki/sources/Bayes-Consistent Agentic Orchestration Paper River Source Guide|Bayes-Consistent Agentic Orchestration Paper River Source Guide]]: preserves a paper-river reading of arXiv 2605.00742v2, tracing agent orchestration from tool use to Bayesian cost-aware control.
-- Captured [[wiki/sources/光速不变与相对性原则问答 Source Guide]] — 中文物理教学问答：从光速不变、公设来源、相对性原则到非惯性参考系。
+- 2026-06-10T21:35:12+08:00 — 已捕获 [[wiki/sources/Memory-as-a-Tool Paper River Source Guide]]：把 CoT、Self-Refine、Reflexion、MemGPT、MemLLM 与 Memory-R1 串成“反馈如何从一次性修正变成可复用 guideline memory”的问题线，并接到 [[wiki/topics/AI Memory]] 与 [[wiki/maps/Self-Evolving Agents Map]]。
+- 2026-06-09T14:38:26+08:00 — 已摄入 [[wiki/sources/Human-LLM Collaborative Planning Paper Source Guide]] 并新增 [[wiki/concepts/Human-LLM Co-Planning Interaction Space]]：把 multi-agent plan steering 拆成 mode、scope、level 三轴，并接到 [[wiki/topics/AI Harness]] 与 [[wiki/concepts/Workflow Graph Orchestration]]。
+- 2026-06-09T10:20:40+08:00 — 已摄入 [[wiki/sources/Law of Unintended Consequences Source Guide]] 并新增 [[wiki/concepts/Law of Unintended Consequences]]：把复杂系统变更中的意外收益、副作用和反向结果接到软件工程、系统思维与 Hyrum's Law。
+- 2026-06-05T12:28:56+0800 — 已捕获 [[wiki/syntheses/AI 泡沫判断的结构]]：把“AI 投资人说 AI 泡沫很大”拆成技术真实、资产价格过热和泡沫破裂后的价值残留，并强调“留下什么”是区分姿态和模型的关键问题。
 
-- 2026-05-24T16:54:50+08:00 — 已捕获 [[wiki/sources/知识结构 认知结构与概念地图问答 Source Guide|知识结构、认知结构与概念地图问答 Source Guide]]：保留一段中文教学问答，区分知识结构、认知结构和概念地图的捕获边界。
-- 2026-05-24T16:47:28+08:00 — 已捕获 [[wiki/sources/知识论圆桌 Source Guide|知识论圆桌 Source Guide]]：保留一次知识论圆桌，把知识拆成真理对象、经验结构、批判程序和信任分配之间的张力网络。
-- 2026-05-24T16:46:35+08:00 — 已捕获 [[wiki/sources/知识结构概念解剖 Source Guide|知识结构概念解剖 Source Guide]]：保留“知识结构”概念解剖稿，把知识结构理解为节点、关系、权重、场景触发和可重组路径组成的活网。
-- 2026-05-24T15:56:29+08:00 — 已捕获 [[wiki/sources/知识论概念解剖 Source Guide|知识论概念解剖 Source Guide]]：保留“知识论”概念解剖稿，把知识论理解为信念在世界约束、理由结构、公共追问和可错边界中取得资格。
-- 2026-05-24T15:45:49+08:00 — 已捕获 [[wiki/sources/知识论的秩 Source Guide|知识论的秩 Source Guide]]：保留“知识论的秩”生成稿，把知识压成世界阻力、心智取形和公共追问三根线，以及压低错觉与运气的负反馈环。
-- 2026-05-24T00:02:57+08:00 — 已捕获 [[wiki/sources/概念 因果 规律 机制与知识 Source Guide|概念、因果、规律、机制与知识 Source Guide]]：保留一段中文教学对话，区分概念节点、因果生成关系、规律稳定概括、机制内部解释和知识网络。
-- 2026-05-23T02:28:40+08:00 — Synthesized 8 cross-cutting pages: [[wiki/syntheses/Agent Skill × Context Management]], [[wiki/syntheses/Coding Agent User Harness × Verification Loop]], [[wiki/syntheses/AI Harness × Testing Strategy]], [[wiki/syntheses/Permissionless Leverage × Wealth Creation]], [[wiki/syntheses/Human Agency × Narrative]], [[wiki/syntheses/AI Memory × Context Graph]], [[wiki/syntheses/Agentic Engineering × Verification Loop]], and [[wiki/syntheses/Learning Methodology × Mental Models]].
-- 2026-05-23T02:14:22+08:00 — 已捕获 [[wiki/sources/自主支持 献祭式教育终结者 Source Guide|自主支持：献祭式教育终结者 Source Guide]] 并新增 [[wiki/concepts/Autonomy-Supportive Parenting|Autonomy-Supportive Parenting]]：保留自主支持型养育、心理控制、过度养育、边际效益递减和父母渐进退出机制。
-- 2026-05-23T02:14:22+08:00 — 已捕获 [[wiki/sources/人力资本 信号筛选和社交资本 Source Guide|人力资本、信号筛选和社交资本 Source Guide]]：保留一篇中文文章对学校教育三种功能的说明：人力资本、信号筛选和社交资本，并区分小学、初中、高中和大学的功能重心。
-- 2026-05-23T02:06:00+08:00 — 已捕获 [[wiki/sources/可取以及不可取的困难 Source Guide|可取以及不可取的困难 Source Guide]]：保留一篇中文文章对可取困难、学习唤醒度、睡眠运动、具身认知和运动员式学习流程的说明。
-- 2026-05-23T01:59:29+08:00 — Captured [[wiki/sources/Maintainability Sensors for Coding Agents Source Guide|Maintainability Sensors for Coding Agents Source Guide]]: preserves Birgitta Böckeler's Martin Fowler follow-up on maintainability sensors for coding agents, including linting, dependency rules, coupling data, and AI modularity review.
-- 2026-05-23T01:58:00+08:00 — 已捕获 [[wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide|默会知识：AI 永远都不可能替代的技能 Source Guide]]：保留一篇中文文章对默会知识、现场内居、AI 可训练边界，以及个人在 AI 时代如何积累新默会的说明。
-- 2026-05-23T01:52:00+08:00 — Updated [[wiki/sources/Harness Engineering Source Guide|Harness Engineering Source Guide]]: expands Birgitta Böckeler's Martin Fowler article capture with guides, sensors, computational and inferential controls, lifecycle timing, regulation categories, harness templates, and human judgment.
-- 2026-05-23T01:34:12+08:00 — 已捕获 [[wiki/sources/刻意练习 天赋的作用究竟是什么 Source Guide|刻意练习：天赋的作用究竟是什么 Source Guide]]：保留一篇中文文章对刻意练习、天赋、专家表现、风格形成和成长路径的说明。
-- 2026-05-23T01:11:08+08:00 — 已捕获 [[wiki/sources/拥抱和桥接 知识迁移 Source Guide|拥抱和桥接：知识迁移 Source Guide]]：保留一篇中文课程材料对知识迁移、惰性知识、低路/高路迁移，以及用拥抱和桥接训练学以致用的说明。
-- 2026-05-22T23:32:41+08:00 — 已捕获 [[wiki/sources/组织角色与 AI 适配 Source Guide|组织角色与 AI 适配 Source Guide]]：保留一次关于组织定义、七类组织角色功能，以及 AI 最适合承担认知后勤、反馈雷达和知识型执行辅助的中文圆桌式讨论。
-- 2026-05-22T21:13:00+08:00 — Updated [[wiki/sources/Dive into Claude Code Source Guide|Dive into Claude Code Source Guide]]: expands the arXiv paper capture with Claude Code's five values, thirteen design principles, query loop, permission layers, context shapers, subagent boundaries, OpenClaw comparison, and future agent-system directions.
-- 2026-05-22T02:02:00+08:00 — Captured [[wiki/sources/Hyrums Law Source Guide|Hyrum's Law Source Guide]]: preserves the chapter on observable behavior becoming de facto API contract, with JSON ordering, Windows compatibility, browser quirks, unordered-list, timestamp-format, and deprecation examples.
-- 2026-05-22T01:47:51+08:00 — Captured [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]]: preserves the CAP theorem chapter on consistency, availability, partition tolerance, CP/AP database examples, tunable Cassandra consistency levels, and Kleppmann's delay-sensitivity critique.
-- 2026-05-21T15:20:50+08:00 — 已捕获 [[wiki/sources/Doris 写入与 Routine Load Source Guide|Doris 写入与 Routine Load Source Guide]]：保留当前会话中关于 Doris 写入方式、Routine Load、Task 执行时序和内部 Rowset/事务/版本发布链路的中文教学材料。
-- 2026-05-21T14:52:00+08:00 — Captured [[wiki/sources/Memory in the Age of AI Agents Paper Source Guide|Memory in the Age of AI Agents Paper Source Guide]]: arXiv 2512.13564 organizes agent memory by forms, functions, and dynamics, then surveys benchmarks, frameworks, and frontiers such as memory generation, automated management, RL, multimodal memory, shared memory, and trustworthy memory.
-- 2026-05-20T21:34:36+08:00 — 已捕获 [[wiki/sources/推理能力训练 Source Guide|推理能力训练 Source Guide]]：这份中文材料把推理能力训练压成清晰定义、因果建模、反例意识和反馈闭环，并给出每日判断拆解、预测和复盘路线。
-- 2026-05-20T04:11:49+08:00 — Captured [[wiki/sources/Agentic-First Source Guide]], preserving James Pritchard's argument that agentic-first systems need agent-navigable platforms, mode-aware context, and edit-time guardrails.
-- 已新增 [[wiki/syntheses/AI 时代开发岗位分层与协作]]：AI 降低代码生成成本后，开发岗位会分层为 AI-native builder、系统 owner 和被压缩的执行型开发；合作规则是实验代码可以快，生产边界必须慢。
-- 已捕获 [[wiki/sources/推理证明与未知问答 Source Guide|推理证明与未知问答 Source Guide]]：这段教学问答把推理、证明和未知串成一条结构线：推理从已知材料生成受约束的未知判断，证明则把推理链公开化、规则化、可回查。
-- 已捕获 [[wiki/sources/推理概念解剖 Source Guide|推理概念解剖 Source Guide]]：这份中文概念解剖把推理定义为沿事物关系纹路，从事实、前提和迹象，经由概念命名、关系规则、推演比较、置信度和证据回查，走向可回溯结论。
-- Captured [[wiki/sources/Law of Leaky Abstractions Source Guide|Law of Leaky Abstractions Source Guide]]: the Law of Leaky Abstractions frames abstractions as useful but imperfect models whose edge cases expose lower layers such as SQL, garbage collection, memory layout, networks, and distributed failure.
-- Captured [[wiki/sources/Galls Law Source Guide|Gall's Law Source Guide]]: Gall’s Law frames working complexity as something that evolves from a simple working core, favoring MVPs, monolith-first architecture, feedback-tested increments, and simplification before adding rules to broken systems.
-- Captured [[wiki/sources/Agent Skills Survey Paper Source Guide|Agent Skills Survey Paper Source Guide]]: arXiv 2605.07358 organizes agent skills into representation, acquisition, retrieval/selection, and evolution, highlighting resource-aware routing, governance, drift, rollback, and causal diagnosis as core skill-system problems.
-- Captured [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide|Designing, Refining, and Maintaining Agent Skills at Perplexity Source Guide]]: Perplexity frames agent skills as costly, progressively loaded context packages whose descriptions, bodies, hierarchies, evals, and gotchas must be maintained as a production routing system.
-- Captured [[wiki/sources/Principles of Mechanical Sympathy Source Guide|Principles of Mechanical Sympathy Source Guide]]: Caer Sanders' Martin Fowler article frames hardware-aware software design through predictable memory access, cache-line false sharing, single-writer ownership, natural batching, and observability-before-optimization.
-- Captured [[wiki/sources/SPDD Abstraction First Source Guide]], [[wiki/sources/SPDD Alignment Source Guide]], and [[wiki/sources/SPDD Iterative Review Source Guide]]: the SPDD human-skill layer now has source guides for design-before-generation, intent locking, and prompt/code review loops.
-- Captured [[wiki/sources/Structured-Prompt-Driven Development Source Guide|Structured-Prompt-Driven Development Source Guide]]: Thoughtworks' SPDD workflow treats structured prompts as maintained delivery artifacts, using REASONS Canvas, prompt/code sync, staged review, generated tests, and decision-memory ambitions to govern AI coding.
-- 已捕获 [[wiki/sources/NotebookLM 产品化 RAG 技术路径 Source Guide]]：这篇中文文章把 NotebookLM 拆成产品化高阶 RAG，重点是 source 管理、文档理解、多粒度 chunk、多索引、retrieval/ranking、context engineering、source grounding 与 LLM Wiki 的知识沉淀分层。
-- 已新增 [[wiki/syntheses/成就感驱动与行动动力结构]]：把“做事动力来自成就感”分析为行动奖励、价值感外包、反馈周期和内核奖励函数之间的结构问题。
-- 已捕获 [[wiki/sources/Use Case 协作与追踪矩阵 Source Guide|Use Case 协作与追踪矩阵 Source Guide]]：这段中文教学把 Use Case 协作整理成从产品初版、业务校验、RD 领域建模、UI/API 设计、QA 验收到开发任务追踪矩阵的一条链路。
-- 已捕获 [[wiki/sources/面向 LLM 的清晰表达 Source Guide|面向 LLM 的清晰表达 Source Guide]]：这段中文教学把对 LLM 的清晰表达定义为显式化任务、对象、目标读者、判断标准、边界、输出形式和不确定性处理，让模型少猜且结果可验收。
-- 已捕获 [[wiki/sources/表达清晰圆桌 Source Guide|表达清晰圆桌 Source Guide]]：这次圆桌把表达清晰定义为在当前关系中让该被理解的东西以合适方式被理解，并让误解、错误和责任有机会被发现。
-- Captured [[wiki/sources/Chatham House Rule Source Guide|Chatham House Rule Source Guide]]: Chatham House Rule separates information use from speaker attribution, creating a meeting protocol for candid discussion without turning all content into total secrecy.
-- 2026-05-15T22:33:09+08:00 — Captured [[wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide|配置/钩子/代码库/技能放置决策]] as a source guide for deciding whether a behavior belongs in config, hook, codebase, or skill.
-- Captured [[wiki/sources/LLM Wiki Source Guide]]: Karpathy's LLM Wiki pattern frames personal/team knowledge bases as persistent Markdown artifacts compiled by an LLM from raw sources, with schema-guided ingest, query, lint, index, and log operations.
-- 已新增 [[wiki/syntheses/信息流与状态流转设计原则]]：把命令、事件、状态、查询、状态机、CQRS、事件驱动、Saga、Outbox/Inbox 和幂等补偿整理成一套软件运行时结构设计原则。
-- 已更新 [[wiki/sources/表征 图式 心智模型和解释框架 Source Guide|表征、图式、心智模型和解释框架 Source Guide]]：追加 `ljg-qa` 问答提取链，把“学习即压缩”的论证拆成从故事为何不够学，到 AI 如何帮而不害，再到读完应追问可迁移结构的 9 个问题。
-- 已新增 [[wiki/syntheses/软件设计作为系统诊断]]：把设计原则、设计模式、Iceberg Model、信息流和状态流转综合成一套软件设计诊断框架，从代码事件下潜到结构和杠杆点。
-- 已捕获 [[wiki/sources/设计模式 设计原则与系统思维 Source Guide|设计模式、设计原则与系统思维 Source Guide]]：保留一段中文教学对话的原始问题链，说明设计原则/模式如何映射到 Iceberg Model，并区分信息流与状态流转。
-- 已捕获 [[wiki/sources/综合调研 在没有教科书的地方挖掘真知 Source Guide|综合调研：在没有教科书的地方挖掘真知 Source Guide]]：保存一篇中文文章对综合调研的分层说明——定位式调研读懂对象，结构化调研读懂争论，生成式调研读出新问题。
-- 已更新 [[wiki/sources/表征 图式 心智模型和解释框架 Source Guide|表征、图式、心智模型和解释框架 Source Guide]]：补充 AI 学习流程的保持策略——先用 AI 高压缩建地图，再用原文锚点、主动回忆、间隔复习、输出迁移和错误反馈把结构变成长期知识。
-- 已新增 [[wiki/syntheses/Use Cases as AI Coding Traceability Anchors|Use Cases as AI Coding Traceability Anchors]]：把用例定位为 AI 编程中的追踪锚点，从业务目标、系统边界、系统用例和用例规约一路连接到模块职责、代码位置和测试验收。
-- 已捕获 [[wiki/sources/Use Case 开发管理 Source Guide|Use Case 开发管理 Source Guide]]：把 Use Case 定义为系统行为契约，并说明它如何作为枢纽关联 UI、API、应用服务、领域模型、数据库、测试和开发任务。
-- 已新增 [[wiki/syntheses/Requirements Expression Beyond Use Cases|Requirements Expression Beyond Use Cases]]：明确用例只适合捕获系统对外行为，质量属性、约束、业务规则、数据、界面、集成和运维需求应分别用质量场景、约束清单、规则表、概念模型、原型、接口契约和运行治理要求表达。
-- Captured [[wiki/syntheses/Quality Engineering Three Generators|Quality Engineering Three Generators]] as a software-quality synthesis: quality engineering reduces to clear commitments, visible deviations, and correction loops, mapped to BDD/contracts/SLOs, CI/testing/monitoring, and postmortems/error budgets.
-
-- 已新增 [[wiki/syntheses/Knowledge System Construction]]：把“如何构建知识体系”整理成问题牵引、知识成网、隐性知识外化、知识资产化、工作流嵌入、共同体语境和知识审计的闭环。
-- 已捕获 [[wiki/sources/从知识堆积到结构化记忆 Source Guide]]：这篇中文文章把 LLM Wiki、Obsidian-Wiki、GBrain 与 Skillify 放进同一条 Agent 知识管理主线，强调从知识堆积走向可维护、可渐进披露、可图谱化的结构化记忆。
-- 已捕获 [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide]]：arXiv 2605.03354 把 agent memory 的 write-manage-read loop 下钻到 circuit 层，指出 routing/control 可能早于 content extraction/grounding 成熟，并用 stage-level circuit signatures 诊断 silent failures。
-- 已捕获 [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]]：arXiv 2601.12560v1 把 agentic AI 组织成 POMDP-style control loop、六维 architecture taxonomy、workflow graph orchestration，以及 CLASSic evaluation。
-- 已新增 [[wiki/concepts/Agentic Control Loop]]、[[wiki/concepts/Agentic AI Architecture Taxonomy]]、[[wiki/concepts/Agent Evaluation CLASSic Framework]]、[[wiki/concepts/Workflow Graph Orchestration]]：把论文中的可复用架构词汇提升为 wiki 概念页。
-- 已扩展 [[wiki/concepts/Agent]]、[[wiki/topics/AI Harness]] 与 [[wiki/syntheses/Agent System Design Space]]：强化“agent = governed control loop”而不是“model + tools”的系统视角。
 ## Active Threads
 
+- Agent memory now has a feedback-guideline thread: self-correction and reflection are useful but often local; Memory-as-a-Tool turns rubric feedback into readable guideline files that can be retrieved on future tasks, with governance pressure around naming, provenance, conflict resolution, forgetting, and regression tests.
+- Agent orchestration now has a human co-planning thread: explicit plan DAGs can be steered through semantic/global feedback, targeted subgraph feedback, direct manipulation, and LLM-assisted structural edits, but verification and boundary integration become the real bottleneck.
+- Agent feedback maintenance now has a two-level structure: verification loops close current tasks, harness ratchets harden the runtime, and feedback flywheels update broader team context, standards, skills, and workflows.
+- Software-systems change now has an unintended-consequences thread: fixes, features, policies, UI simplification, and logging should be treated as interventions whose second-order effects need monitoring, rollback, and post-change learning.
 - Agentic software engineering now has an on-the-loop thread: humans create leverage by improving specs, checks, harnesses, feedback signals, and workflow controls rather than only approving or fixing generated artifacts.
 - Agent orchestration now has a Bayesian-control thread: tool calls, model routing, clarification, stopping, and escalation should be treated as cost-sensitive actions over task-level belief, not only as prompt or workflow heuristics.
 - CS/performance now has a mechanical-sympathy thread: high-concurrency and inference systems should be read through memory locality, cache-line contention, write ownership, batching strategy, and measured SLO impact rather than only through abstract request counts.
@@ -169,7 +96,11 @@ updated: 2026-06-10T22:43:22+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- “发现和定义问题”的关键转换是从 Problem 到 Issue：先看见异常，再确认是否是真问题、根因和值得解决的问题，最后用目标值、现状值、衡量指标和相关方共识把它变成可行动议题。
 - 问题拆解的实用入口是先把模糊问题写成一句话，再选维度横向展开，最后对最可疑分支纵向追问；它和分析、问题定义、批判性思维、系统思维共同构成从混沌到行动的路径。
+- Feedback is becoming a durable memory surface: a critique loop compounds only when its lesson is distilled into a governed artifact, such as a guideline file, skill update, harness rule, or team standard.
+- Human-LLM co-planning should be evaluated as effort-control-risk allocation: global feedback is cheap but risky to verify, targeted feedback limits blast radius but stresses boundary contracts, direct manipulation is precise but costly, and LLM-assisted merge/split gives bounded structural leverage.
+- Law of Unintended Consequences gives change management a systems rule: significant interventions can create happy surprises, harmful side effects, or perverse results, so release practice must observe both direct success and second-order harm.
 - COLLEAGUE.SKILL adds a governance-heavy skill pattern: when a skill is distilled from human traces, the important artifact is not a persona imitation but a readable, correctable, rollbackable package that separates craft from behavior and exposes provenance.
 - 自进化 agent 应先按学习层级区分：运行时认知与记忆、单个 skill、skill repository、harness code 和模型权重是不同更新表面；成熟系统通常把轨迹反馈变成可检查的技能、记忆或 harness 资产，而不是只说“有 memory”。
 - GEPA 这条问题线的关键转折是：复杂 AI 系统的失败轨迹不应过早压成 scalar reward；执行轨迹、评估轨迹和文字反馈可以成为 prompt、skill、tool description 和 harness artifact 的优化燃料。

@@ -11,7 +11,7 @@ created: 2026-04-27
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-10T22:43:22+08:00
+updated: 2026-06-11T10:00:26+08:00
 aliases:
   - 分类思维地图
   - 分类地图
@@ -37,6 +37,8 @@ provenance:
 如果要先看更底层的动作，进入 [[wiki/concepts/Analysis]]。
 
 如果要看面向真实问题的操作型文章，进入 [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]：它把“混沌问题”拆成技术、框架和结构化思维三层，并用 MECE、逻辑树、横向展开、纵向深挖和追问为什么作为入门动作。
+
+如果要看问题定义链，进入 [[wiki/sources/发现和定义问题 Source Guide]]：它把“被发现的麻烦”与“被定义好的问题”区分开，并用发现异常、确认本质、定义议题、对齐共识推进到可行动 Issue。
 
 ## Core chain
 
