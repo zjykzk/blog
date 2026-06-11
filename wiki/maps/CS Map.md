@@ -4,13 +4,17 @@ type: map
 status: growing
 category: maps
 summary: 这页聚合当前 vault 中更偏计算机科学与软件架构的长期知识页。
+provenance:
+  extracted: 0.95
+  inferred: 0.05
+  ambiguous: 0.00
 sources: []
 created: 2026-04-21
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 8
-updated: 2026-05-30T18:11:07+0800
+updated: 2026-06-11T17:49:52+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -27,6 +31,7 @@ tags:
 
 - [[wiki/topics/Circuit Breaker]]
 - [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]] — CAP theorem source guide：在网络分区下，一致性和可用性不能同时获得强保证；实际设计要看操作级一致性、延迟和失败模式。
+- [[wiki/sources/DORA Metrics Source Guide]]
 - [[wiki/sources/Fallacies of Distributed Computing Source Guide]] — distributed-systems checklist：不要假设网络可靠、零延迟、无限带宽、安全、拓扑静态、单一管理员、传输免费或同构。
 
 ## Go
@@ -62,6 +67,7 @@ tags:
 - [[wiki/topics/Frontend Development Workflow]]
 - [[wiki/topics/Testing Strategy]]
 - [[wiki/syntheses/Quality Engineering Three Generators]]
+- [[wiki/concepts/DORA Metrics]] — software delivery performance metrics that pair throughput with instability so teams can improve delivery systems without treating speed and stability as tradeoffs.
 - [[wiki/sources/软件工程中的稳定性治理的秩 Source Guide]] — 稳定性治理 source guide：把运行期可靠性压成变化入口、故障传染和回拉能力三根生成器。
 - [[wiki/syntheses/信息流与状态流转设计原则]]
 - [[wiki/topics/Testing Purpose]]
@@ -101,6 +107,7 @@ tags:
 - [[wiki/sources/Hyrums Law Source Guide|Hyrum's Law Source Guide]]
 - [[wiki/sources/Galls Law Source Guide]]
 - [[wiki/sources/Second-System Effect Source Guide]]
+- [[wiki/sources/DORA Metrics Source Guide]]
 - [[wiki/sources/Fallacies of Distributed Computing Source Guide]]
 - [[wiki/sources/Grokking Simplicity Taming FP Source Guide]] — 函数式编程读书笔记：用 action、calculation、data、timeline、分层和响应式架构治理代码复杂度。
 - [[wiki/sources/AI 软件工程问答 Source Guide]] — 中文问答链：从软件工程未彻底工程化出发，推导 AI 中心产线、确定性验证、分治结构和隐性知识蒸馏的落地路径。

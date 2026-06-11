@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 51,
-    "total_pages": 258
+    "total_sources_ingested": 52,
+    "total_pages": 260
   },
   "sources": {
     "https://arxiv.org/abs/2605.07358v1": {
@@ -1096,6 +1096,26 @@
       "pages_updated": [
         "wiki/topics/AI Memory.md",
         "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://dora.dev/guides/dora-metrics/": {
+      "ingested_at": "2026-06-11T17:49:52+08:00",
+      "size_bytes": 19454,
+      "modified_at": "2026-06-10T13:45:27+00:00",
+      "content_hash": "sha256:00f7a12f296db54df7006f19badcfe668819c30fc50d386c471fe55531bcdff1",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/DORA Metrics.md",
+        "wiki/sources/DORA Metrics Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/Modern Software Engineering.md",
+        "wiki/syntheses/Quality Engineering Three Generators.md",
+        "wiki/maps/CS Map.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"

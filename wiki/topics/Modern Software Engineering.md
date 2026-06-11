@@ -8,16 +8,17 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/
   - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
+  - https://dora.dev/guides/dora-metrics/
 created: 2026-04-21
-base_confidence: 0.78
+base_confidence: 0.55
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.84
-  inferred: 0.16
-  ambiguous: 0.0
-source_count: 5
-updated: 2026-05-05T17:55:00+08:00
+  extracted: 0.82
+  inferred: 0.18
+  ambiguous: 0.00
+source_count: 6
+updated: 2026-06-11T17:49:52+08:00
 aliases:
   - 软件工程
   - modern software engineering
@@ -62,6 +63,14 @@ This fits the modern software engineering view because AI-assisted development s
 [[wiki/concepts/Encoding Team Standards]] adds a second modern software engineering angle: AI collaboration quality should be improved by systems, not only by individual skill. Treating instructions as repository infrastructure makes team standards visible, reviewable, and improvable through the same feedback loops as code, tests, lint rules, and CI pipelines.
 
 [[wiki/concepts/Feedback Flywheel]] makes the empirical loop explicit: AI collaboration should be measured by review burden, iteration cycles, first-pass acceptance, and post-merge rework, then those signals should update the artifacts that guide future AI work.
+
+## Software delivery performance
+
+[[wiki/concepts/DORA Metrics]] adds an application-level measurement layer to the empirical view of software engineering. The five metrics split delivery performance into throughput — change lead time, deployment frequency, and failed deployment recovery time — and instability — change fail rate and deployment rework rate.
+
+The important methodological point is that DORA Metrics are not local productivity counters. They measure whether the whole delivery system can move changes safely and recover from failure, so they belong next to feedback, observability, retrospectives, and improvement loops. ^[inferred]
+
+DORA also warns that metrics should not become goals or cross-team competitions. For [[wiki/topics/Modern Software Engineering]], that makes measurement a problem-framing device: use metrics to expose constraints and learn, not to replace judgment. ^[inferred]
 
 ## Navigation
 

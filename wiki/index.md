@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-06-11T10:00:26+08:00
+updated: 2026-06-11T17:49:52+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -142,6 +142,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Context Information Density|Context Information Density]] — Context information density treats agent context quality as the ratio of decision-relevant signal to finite active context budget. (#agents #context #memory)
 - [[wiki/concepts/Cynefin Framework|Cynefin Framework]] — Cynefin Framework 适合用来判断问题处在哪种上下文里，再决定应该用什么动作模式，而不是先假定所有问题都能靠一种统一方法解决。 (#framework #decision-making #management)
 - [[wiki/concepts/Declarative Programming|Declarative Programming]] — Declarative programming describes a target state or relation rather than spelling out each mutation step. (#frontend #programming #abstraction)
+- [[wiki/concepts/DORA Metrics|DORA Metrics]] — DORA Metrics measure software delivery through throughput and instability, using five application-level signals to guide improvement without turning metrics into goals. (#software-engineering #metrics #feedback #devops)
 - [[wiki/concepts/Domain-Driven Design|Domain-Driven Design]] — DDD 不是一组面向对象技巧，也不是“把数据库表包装成实体类”。它更像一座折算器：先锁定软件要贴合的那段业务现实，再用共享语言和清晰边界，把这段现实压成可演化的软件结构。
 - [[wiki/concepts/Economic Bubble|Economic Bubble]] — An economic bubble is not simply an expensive asset. It is a price structure where market value has detached from the real support beneath it, and continues rising mainly because people believe...
 - [[wiki/concepts/Epiplexity|Epiplexity]] — Epiplexity 不是在问一份数据“总共有多少信息”，而是在问：对一个算力有限的观察者来说，这份数据里到底有多少结构是可提取、可学习、可压缩的。 (#ml #concept #information-theory)
@@ -238,6 +239,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 
 ## Sources
 - [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]] — Source guide preserving a CAP theorem chapter on consistency, availability, partition tolerance, database examples, and Kleppmann's critique. (#book #distributed-systems #database #systems #architecture)
+- [[wiki/sources/DORA Metrics Source Guide|DORA Metrics Source Guide]] — Source guide for DORA's guide to five software delivery performance metrics, their throughput/instability split, pitfalls, and improvement loop. (#article #software-engineering #metrics #devops #feedback)
 - [[wiki/sources/Doris 写入与 Routine Load Source Guide|Doris 写入与 Routine Load Source Guide]] — 这页保留 Doris 2.1 写入方式、Routine Load 原理、Task 时序，以及内部 Rowset、事务和版本发布链路。 (#database #systems #software-engineering #architecture)
 - [[wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide|配置 钩子 代码库与技能放置决策 Source Guide]] — 这页保存一棵判断树：固定指令、可靠自动化、代码库规范和手动技能分别应该放在哪里。 (#agents #harness #skills #llm-wiki)
 - [[wiki/sources/拆解 让复杂问题变清晰 Source Guide|拆解：让复杂问题变清晰 Source Guide]] — 这页保存一篇中文问题拆解文章：复杂问题之所以压人，是因为它以混沌形态出现；拆解通过技术、框架和结构化思维把问题转成可处理的小结构。 (#article #thinking #reasoning #learning #mechanism)
@@ -388,7 +390,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/光速不变与相对性原则问答 Source Guide|光速不变与相对性原则问答 Source Guide]] — 中文物理教学问答：光速不变为何成为公设、相对性原则如何约束物理规律、非惯性系为何需要惯性力。 (#learning #cognition #physics #reasoning)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Recent activity ingested AMBIPOM and added human-LLM co-planning as a plan-steering control surface for orchestrated multi-agent systems.
+- [[wiki/hot|Hot Cache]] — Recent activity ingested DORA Metrics as a delivery-system feedback frame connecting throughput, instability, batch size, and anti-Goodhart metric use.
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

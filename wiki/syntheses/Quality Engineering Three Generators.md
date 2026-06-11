@@ -5,17 +5,19 @@ category: syntheses
 tags: [software-engineering, testing, requirements, feedback]
 sources:
   - conversation:2026-05-13
+  - https://dora.dev/guides/dora-metrics/
 created: 2026-05-13T23:20:00+08:00
-updated: 2026-05-15T21:33:01+08:00
+updated: 2026-06-11T17:49:52+08:00
 summary: >-
   质量工程可以压缩为三根生成器：说清承诺、显形偏差、形成修正闭环；软件行业最佳实践分别落在规格契约、测试监控和复盘改进上。
 provenance:
-  extracted: 0.93
-  inferred: 0.07
+  extracted: 0.88
+  inferred: 0.12
   ambiguous: 0.00
-base_confidence: 0.42
+base_confidence: 0.68
 lifecycle: draft
 lifecycle_changed: 2026-05-13
+source_count: 2
 type: synthesis
 status: draft
 aliases:
@@ -63,8 +65,12 @@ aliases:
 - **持续集成**：Martin Fowler 对 CI 的经典描述是，开发者频繁集成到 mainline，自动构建和测试每次集成，并立即修复失败。CI 的核心不是工具，而是把集成问题从后期爆炸提前到每次小变更。
 - **测试自动化**：DORA 将测试自动化列为提升软件交付和组织表现的 DevOps 能力。自动化测试让反馈更快、更可重复，也减少手工回归的延迟和随机性。
 - **测试金字塔**：Fowler 的 Test Pyramid 建议底部放大量快速、便宜、容易定位问题的单元测试；中间放较少的服务/API/集成测试；顶部只保留少量端到端或 UI 测试。它和 [[wiki/topics/Testing Strategy]]、[[wiki/topics/Testing Purpose]] 相连：测试不是追求数量，而是增加对变化正确性的信心。
-- **主干开发和小批量变更**：DORA 将 trunk-based development 和 small batch work 视为减少集成摩擦、缩短 lead time、加快反馈循环的实践。变更越小，偏差越容易定位。
+- **主干开发和小批量变更**：DORA 将 trunk-based development 和 small batch work 视为减少集成摩擦、缩短 lead time、加快反馈循环的实践。[[wiki/concepts/DORA Metrics]] 进一步把这种交付能力显形为 change lead time、deployment frequency 和 failed deployment recovery time。变更越小，偏差越容易定位。
 - **监控与可观测性**：Google SRE 的监控章节提出四个黄金信号：latency、traffic、errors、saturation。告警应面向用户症状，并且每个 page 都应该 actionable。DORA 也把 monitoring and observability 视为让团队调试生产系统、给开发者快速反馈的能力。
+
+[[wiki/concepts/DORA Metrics]] gives this synthesis a delivery-performance measurement surface: throughput metrics expose whether changes can move, while instability metrics expose whether movement damages production.
+
+That means DORA Metrics sit mostly under “偏差显形”, but they only become quality engineering when connected to “修正闭环”：teams should baseline, discuss friction, identify the main bottleneck, make a plan, do the work, check progress, and repeat. Metrics without the improvement loop are dashboards; metrics with the loop become control signals. ^[inferred]
 
 ### 3. 修正闭环：复盘、回归测试、错误预算和交付改进
 
@@ -104,6 +110,7 @@ aliases:
 - Google SRE Book: Monitoring Distributed Systems — 四个黄金信号、症状优先、actionable paging 支撑偏差显形。
 - Google SRE Book: Postmortem Culture — 无责复盘、follow-up actions、事故知识库支撑修正闭环。
 - DORA DevOps Capabilities — 测试自动化、主干开发、持续交付、监控与学习文化支撑高绩效软件交付。
+- DORA Metrics Guide — 五个软件交付指标把吞吐量和不稳定性显形，并提醒团队避免 Goodhart 化、跨上下文比较和只测量不改进。
 - Martin Fowler: Continuous Integration — 频繁集成、自动构建、自测试构建和快速修复支撑早反馈。
 - Martin Fowler: Test Pyramid / Practical Test Pyramid — 分层自动化测试以低成本、快反馈提升信心。
 - Cucumber: Better Gherkin — 行为示例和 declarative scenarios 帮助团队形成共同理解。
@@ -113,6 +120,7 @@ aliases:
 
 - [[wiki/topics/Modern Software Engineering]]
 - [[wiki/topics/Testing Strategy]]
+- [[wiki/concepts/DORA Metrics]]
 - [[wiki/topics/Testing Purpose]]
 - [[wiki/topics/Requirement to Architecture Mapping]]
 - [[wiki/topics/User Stories]]
