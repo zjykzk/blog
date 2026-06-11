@@ -7,16 +7,17 @@ aliases:
   - Software Delivery Performance Metrics
 sources:
   - https://dora.dev/guides/dora-metrics/
-summary: DORA Metrics measure software delivery through throughput and instability, using five application-level signals to guide improvement without turning metrics into goals.
+  - https://dora.dev/insights/dora-metrics-history/
+summary: DORA Metrics measure software delivery through a historically evolving five-signal model of throughput and instability.
 provenance:
-  extracted: 0.82
-  inferred: 0.18
+  extracted: 0.84
+  inferred: 0.16
   ambiguous: 0.00
-base_confidence: 0.62
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-06-11
 created: 2026-06-11T17:49:52+08:00
-updated: 2026-06-11T17:49:52+08:00
+updated: 2026-06-11T22:29:33+08:00
 type: concept
 status: draft
 ---
@@ -73,6 +74,19 @@ The DORA guide recommends improving the metrics by reducing batch size and runni
 
 This makes DORA Metrics a delivery-system feedback loop, not a standalone dashboard. ^[inferred]
 
+## Historical Evolution
+
+DORA's software delivery metrics evolved as the research program refined what it meant to measure technology performance:
+
+- In 2014, DORA began with deployment frequency, lead time for changes, mean time to recover, and change fail rate, but change fail rate did not statistically join the other variables into a single latent construct of IT performance.
+- By 2015, the model stabilized into throughput and stability: deployment frequency and lead time for throughput; MTTR and change fail rate for stability.
+- In 2018, DORA added availability and renamed the broader frame from IT performance to Software Delivery and Operational performance.
+- In 2021, availability expanded into reliability, covering broader operational concerns such as latency, performance, and scalability.
+- In 2023, MTTR / time to restore service became **failed deployment recovery time** so the metric specifically measured recovery from production changes that caused impairment, not all operational outages.
+- In 2024, DORA added **deployment rework rate** because change fail rate also acted as a proxy for rework burden.
+
+This history matters because the metrics are not merely names on a dashboard. They encode a boundary decision about which failures belong to software delivery performance and which belong to wider operational reliability. ^[inferred]
+
 ## Open Questions
 
 - How should teams choose leading indicators that predict DORA improvement without creating local gaming incentives? ^[inferred]
@@ -81,6 +95,7 @@ This makes DORA Metrics a delivery-system feedback loop, not a standalone dashbo
 ## Sources
 
 - [[wiki/sources/DORA Metrics Source Guide]] — DORA guide to the current five software delivery performance metrics.
+- [[wiki/sources/DORA Metrics History Source Guide]] — DORA article tracing the metrics from IT performance through SDO performance, reliability, failed deployment recovery time, and the 2024 deployment rework rate addition.
 
 ## Related
 

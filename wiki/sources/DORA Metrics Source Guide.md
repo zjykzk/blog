@@ -16,7 +16,7 @@ base_confidence: 0.62
 lifecycle: draft
 lifecycle_changed: 2026-06-11
 created: 2026-06-11T17:49:52+08:00
-updated: 2026-06-11T17:49:52+08:00
+updated: 2026-06-11T22:29:33+08:00
 type: source
 status: draft
 ---
@@ -120,6 +120,7 @@ This source created [[wiki/concepts/DORA Metrics]]. It also strengthens [[wiki/t
 ## Related
 
 - [[wiki/concepts/DORA Metrics]]
+- [[wiki/sources/DORA Metrics History Source Guide]]
 - [[wiki/topics/Modern Software Engineering]]
 - [[wiki/syntheses/Quality Engineering Three Generators]]
 - [[wiki/topics/Testing Strategy]]

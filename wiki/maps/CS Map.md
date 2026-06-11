@@ -32,6 +32,7 @@ tags:
 - [[wiki/topics/Circuit Breaker]]
 - [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]] — CAP theorem source guide：在网络分区下，一致性和可用性不能同时获得强保证；实际设计要看操作级一致性、延迟和失败模式。
 - [[wiki/sources/DORA Metrics Source Guide]]
+- [[wiki/sources/DORA Metrics History Source Guide]] — DORA history article source guide: traces the metric model from IT performance to SDO performance, reliability, failed deployment recovery time, and 2024 deployment rework rate.
 - [[wiki/sources/Fallacies of Distributed Computing Source Guide]] — distributed-systems checklist：不要假设网络可靠、零延迟、无限带宽、安全、拓扑静态、单一管理员、传输免费或同构。
 
 ## Go
@@ -67,7 +68,7 @@ tags:
 - [[wiki/topics/Frontend Development Workflow]]
 - [[wiki/topics/Testing Strategy]]
 - [[wiki/syntheses/Quality Engineering Three Generators]]
-- [[wiki/concepts/DORA Metrics]] — software delivery performance metrics that pair throughput with instability so teams can improve delivery systems without treating speed and stability as tradeoffs.
+- [[wiki/concepts/DORA Metrics]] — software delivery performance metrics that pair throughput with instability so teams can improve delivery systems without treating speed and stability as tradeoffs; the history source shows how the boundary evolved from IT performance through reliability and recovery definitions.
 - [[wiki/sources/软件工程中的稳定性治理的秩 Source Guide]] — 稳定性治理 source guide：把运行期可靠性压成变化入口、故障传染和回拉能力三根生成器。
 - [[wiki/syntheses/信息流与状态流转设计原则]]
 - [[wiki/topics/Testing Purpose]]

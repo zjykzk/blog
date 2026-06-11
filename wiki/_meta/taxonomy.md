@@ -4,7 +4,7 @@ category: meta
 tags: []
 sources: []
 created: 2026-05-10T16:02:23+08:00
-updated: 2026-05-31T11:35:17+0800
+updated: 2026-06-11T22:29:33+0800
 summary: Controlled tag vocabulary and lint policy for the structured wiki.
 base_confidence: 0.30
 lifecycle: draft
@@ -64,6 +64,8 @@ These tags are coarse routing labels. If cohesion lint flags a large cluster her
 
 - `knowledge-graph`
 - `software-engineering`
+- `metrics` — measurement systems, operational indicators, delivery/performance metrics, and metric-governance concerns.
+- `devops` — DevOps practices, DORA research, delivery/operations integration, and deployment-system improvement.
 - `distributed-systems`
 - `database`
 - `architecture`

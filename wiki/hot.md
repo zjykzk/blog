@@ -1,24 +1,25 @@
 ---
 title: Hot Cache
 category: meta
-summary: DORA Metrics were ingested as a delivery-system feedback frame connecting throughput, instability, batch size, and anti-Goodhart metric use.
+summary: DORA Metrics now have both current-guide and historical source layers, showing their evolution from IT performance into five throughput/instability signals.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-11T17:49:52+0800
+updated: 2026-06-11T22:29:33+0800
 ---
 
 ## Recent Activity
+- 2026-06-11T22:29:33+0800 — 已捕获 [[wiki/sources/DORA Metrics History Source Guide]] 并更新 [[wiki/concepts/DORA Metrics]]：把 DORA 指标从 2014 IT performance、2018 SDO performance、2021 reliability、2023 failed deployment recovery time 到 2024 deployment rework rate 的演化保存为 source 层材料。
 - 2026-06-11T17:49:52+0800 — 已摄入 [[wiki/sources/DORA Metrics Source Guide]] 并新增 [[wiki/concepts/DORA Metrics]]：把 DORA 五个软件交付指标拆成 throughput 与 instability，并接到 [[wiki/topics/Modern Software Engineering]]、[[wiki/syntheses/Quality Engineering Three Generators]] 与 [[wiki/maps/CS Map]]。
 - 2026-06-11T10:00:26+08:00 — 已捕获 [[wiki/sources/发现和定义问题 Source Guide]]：把一篇中文旧文保存为 source 层素材，保留 Problem/Issue 区分、发现异常、确认本质、定义议题、对齐共识、两个天坑和高阶提问工具，并接到 [[wiki/topics/Problem Framing]]、[[wiki/topics/Critical Thinking]]、[[wiki/maps/Management Map]] 与 [[wiki/maps/Learning Map]]。
 - 2026-06-10T22:43:22+08:00 — 已捕获 [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]：把“复杂问题为什么让人卡住”保存为 source 层文章，保留 MECE、六种维度、逻辑树、横向展开/纵向深挖、四层次原因分析法和三步行动建议，并接到 [[wiki/concepts/Analysis]]、[[wiki/topics/Problem Framing]] 与 [[wiki/maps/Classification Thinking Map]]。
 
 ## Active Threads
 
-- Software delivery performance now has a DORA metrics thread: change lead time, deployment frequency, recovery time, change fail rate, and deployment rework rate should be read as application-level feedback signals, not cross-team ranking targets.
+- Software delivery performance now has a DORA metrics thread: change lead time, deployment frequency, failed deployment recovery time, change fail rate, and deployment rework rate should be read as historically refined application-level feedback signals, not cross-team ranking targets.
 - Agent memory now has a feedback-guideline thread: self-correction and reflection are useful but often local; Memory-as-a-Tool turns rubric feedback into readable guideline files that can be retrieved on future tasks, with governance pressure around naming, provenance, conflict resolution, forgetting, and regression tests.
 - Agent orchestration now has a human co-planning thread: explicit plan DAGs can be steered through semantic/global feedback, targeted subgraph feedback, direct manipulation, and LLM-assisted structural edits, but verification and boundary integration become the real bottleneck.
 - Agent feedback maintenance now has a two-level structure: verification loops close current tasks, harness ratchets harden the runtime, and feedback flywheels update broader team context, standards, skills, and workflows.
@@ -94,7 +95,7 @@ updated: 2026-06-11T17:49:52+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
-- DORA Metrics are useful when they expose the delivery system: throughput says whether changes can move, instability says whether movement causes damage, and the improvement loop prevents metrics from becoming Goodhart targets.
+- DORA Metrics are useful when they expose the delivery system: their history shows repeated boundary refinement from IT performance to SDO performance, reliability, failed deployment recovery time, and deployment rework rate; their current use should expose constraints without becoming Goodhart targets.
 - “发现和定义问题”的关键转换是从 Problem 到 Issue：先看见异常，再确认是否是真问题、根因和值得解决的问题，最后用目标值、现状值、衡量指标和相关方共识把它变成可行动议题。
 - 问题拆解的实用入口是先把模糊问题写成一句话，再选维度横向展开，最后对最可疑分支纵向追问；它和分析、问题定义、批判性思维、系统思维共同构成从混沌到行动的路径。
 - Feedback is becoming a durable memory surface: a critique loop compounds only when its lesson is distilled into a governed artifact, such as a guideline file, skill update, harness rule, or team standard.

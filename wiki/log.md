@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-06-11T17:49:52+0800
+updated: 2026-06-11T22:29:33+0800
 aliases:
   - Wiki Log
 tags:
@@ -19,6 +19,7 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-06-11T22:29:33+0800] CAPTURE type=source page="wiki/sources/DORA Metrics History Source Guide.md" title="DORA Metrics History Source Guide"
 - [2026-06-11T17:49:52+0800] INGEST source="https://dora.dev/guides/dora-metrics/" pages_updated=6 pages_created=2 mode=append
 - [2026-06-11T10:00:26+08:00] CAPTURE type=source page="wiki/sources/发现和定义问题 Source Guide.md" title="发现和定义问题 Source Guide"
 - [2026-06-10T21:35:12+08:00] CAPTURE type=source page="wiki/sources/Memory-as-a-Tool Paper River Source Guide.md" title="Memory-as-a-Tool Paper River Source Guide"
