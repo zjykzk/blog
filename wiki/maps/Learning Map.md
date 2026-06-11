@@ -15,7 +15,7 @@ created: 2026-04-26
 base_confidence: 0.76
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-28T12:35:55+0800
+updated: 2026-06-10T22:43:22+08:00
 aliases:
   - 学习地图
 provenance:
@@ -71,6 +71,7 @@ provenance:
 - [[wiki/sources/推理证明与未知问答 Source Guide]]——推理教学追问 source guide：未知是受约束判断空位，证明是公开化、规则化、可回查的推理
 - [[wiki/sources/光速不变与相对性原则问答 Source Guide]]——中文物理教学问答：从光速不变、公设来源、相对性原则讲到非惯性参考系
 - [[wiki/sources/推理能力训练 Source Guide]]——推理能力训练 source guide：用概念清晰、因果建模、反例意识、预测和复盘训练判断校准能力
+- [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]——中文问题拆解文章：用 MECE、维度选择、逻辑树、横向展开和纵向追问，把复杂问题转成可行动的小结构
 - [[wiki/sources/快思考慢思考物理机制问答 Source Guide]]——中文教学问答：把《思考，快与慢》的系统 1 / 系统 2 从功能机制下钻到神经通路、前额叶、工作记忆和冲突监测
 - [[wiki/sources/概念 因果 规律 机制与知识 Source Guide]]——中文教学对话：把概念、因果、规律、机制和知识区分为节点、生成关系、稳定概括、内部路径和可迁移网络
 - [[wiki/sources/知识论的秩 Source Guide]]——把知识论压成世界阻力、心智取形和公共追问三根生成器，并用负反馈环解释知识如何压低错觉和运气

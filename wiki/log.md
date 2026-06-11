@@ -275,3 +275,4 @@ tags:
 - [2026-05-31T15:02:10+0800] CAPTURE type=map page="wiki/maps/Self-Evolving Agents Map.md" title="Self-Evolving Agents Map"
 - [2026-06-01T16:18:53+0800] CAPTURE type=source page="wiki/sources/COLLEAGUE.SKILL Paper Source Guide.md" title="COLLEAGUE.SKILL Paper Source Guide"
 - [2026-06-05T12:28:56+0800] CAPTURE type=synthesis page="wiki/syntheses/AI 泡沫判断的结构.md" title="AI 泡沫判断的结构"
+- [2026-06-10T22:43:22+08:00] CAPTURE type=source page="wiki/sources/拆解 让复杂问题变清晰 Source Guide.md" title="拆解：让复杂问题变清晰 Source Guide"

@@ -11,7 +11,7 @@ created: 2026-04-27
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-06T19:50:40+08:00
+updated: 2026-06-10T22:43:22+08:00
 aliases:
   - 分类思维地图
   - 分类地图
@@ -35,6 +35,8 @@ provenance:
 4. [[wiki/topics/Limits of Classification]]
 
 如果要先看更底层的动作，进入 [[wiki/concepts/Analysis]]。
+
+如果要看面向真实问题的操作型文章，进入 [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]：它把“混沌问题”拆成技术、框架和结构化思维三层，并用 MECE、逻辑树、横向展开、纵向深挖和追问为什么作为入门动作。
 
 ## Core chain
 
@@ -78,6 +80,7 @@ provenance:
 - 系统思考：把被切开的对象重新连起来
 - 问题定义：决定当前到底该按什么维度切
 - 批判性思维：检查这个切法有没有错
+- 问题拆解：先用维度把混沌问题外显，再用追问和反馈寻找根因
 
 ## One-sentence compression
 
@@ -91,3 +94,4 @@ provenance:
 - [[wiki/topics/Methods of Classification]]
 - [[wiki/topics/What Makes a Good Classification]]
 - [[wiki/topics/Limits of Classification]]
+- [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]

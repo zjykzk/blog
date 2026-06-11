@@ -1,18 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured AI bubble judgment, learning, reasoning, software design, and agent-system material across source guides and syntheses.
+summary: Recent wiki activity captured a Chinese article on problem decomposition, connecting analysis, problem framing, systems thinking, and mechanism-model practice.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-05T12:28:56+0800
+updated: 2026-06-10T22:43:22+08:00
 ---
 
 ## Recent Activity
 - 2026-06-05T12:28:56+0800 — 已捕获 [[wiki/syntheses/AI 泡沫判断的结构]]：把“AI 投资人说 AI 泡沫很大”拆成技术真实、资产价格过热和泡沫破裂后的价值残留，并强调“留下什么”是区分姿态和模型的关键问题。
+- 2026-06-10T22:43:22+08:00 — 已捕获 [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]：把“复杂问题为什么让人卡住”保存为 source 层文章，保留 MECE、六种维度、逻辑树、横向展开/纵向深挖、四层次原因分析法和三步行动建议，并接到 [[wiki/concepts/Analysis]]、[[wiki/topics/Problem Framing]] 与 [[wiki/maps/Classification Thinking Map]]。
 - 2026-06-01T16:18:53+0800 — Captured [[wiki/sources/COLLEAGUE.SKILL Paper Source Guide]]: preserves arXiv 2605.31264's person-grounded trace-to-skill artifact model, including dual capability/behavior tracks, correction lifecycle, rollback, deployment counters, and evaluation limits.
 - 2026-05-31T15:02:10+0800 — 已新增 [[wiki/maps/Self-Evolving Agents Map]]：按学习发生层次整理已实现自进化 agent 系统，包括 AutoAgent、GenericAgent、Skills-Coach、Hermes、SkillOS、Meta-Harness、Voyager、Reflexion 与记忆基线。
 - 2026-05-31T11:35:17+0800 — 已捕获 [[wiki/sources/GEPA Paper River Source Guide]]：保留 GEPA 论文倒读法，把自动 prompt 搜索、多模块 LM 程序优化、TextGrad/GRPO 和 GEPA 的轨迹反思 + Pareto 进化串成问题演化线。
@@ -168,6 +169,7 @@ updated: 2026-06-05T12:28:56+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- 问题拆解的实用入口是先把模糊问题写成一句话，再选维度横向展开，最后对最可疑分支纵向追问；它和分析、问题定义、批判性思维、系统思维共同构成从混沌到行动的路径。
 - COLLEAGUE.SKILL adds a governance-heavy skill pattern: when a skill is distilled from human traces, the important artifact is not a persona imitation but a readable, correctable, rollbackable package that separates craft from behavior and exposes provenance.
 - 自进化 agent 应先按学习层级区分：运行时认知与记忆、单个 skill、skill repository、harness code 和模型权重是不同更新表面；成熟系统通常把轨迹反馈变成可检查的技能、记忆或 harness 资产，而不是只说“有 memory”。
 - GEPA 这条问题线的关键转折是：复杂 AI 系统的失败轨迹不应过早压成 scalar reward；执行轨迹、评估轨迹和文字反馈可以成为 prompt、skill、tool description 和 harness artifact 的优化燃料。
