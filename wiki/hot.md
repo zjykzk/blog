@@ -1,24 +1,35 @@
 ---
 title: Hot Cache
 category: meta
-summary: DORA Metrics now have both current-guide and historical source layers, showing their evolution from IT performance into five throughput/instability signals.
+summary: Recent wiki activity captured two concept pages: one distinguishing论理词 from范畴词, and one making LLM collaboration stages explicit.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-11T22:29:33+0800
+updated: 2026-06-18T00:12:11+0800
 ---
 
 ## Recent Activity
+- 2026-06-18T00:12:11+0800 — 已捕获 [[wiki/concepts/LLM 协作思维阶段]]：把 Exploring、Brainstorming、Deciding、Implementing 四种复杂问题协作阶段沉淀为面向 LLM 的任务路由信号。
+- 2026-06-18T00:12:11+0800 — 已捕获 [[wiki/concepts/论理词与范畴词]]：区分负责连接判断关系的论理词与承载思想对象、价值和解释坐标的范畴词。
+- 2026-06-17T01:12:00+0800 — 已捕获 [[wiki/sources/可计算性问答 Source Guide]]：保存 CFG、递归可枚举语言、μ-递归函数、λ 演算、图灵机和可计算性边界的中文教学问答。
+- 2026-06-17T01:02:44+0800 — 已捕获 [[wiki/concepts/可计算性模型]]：把 CFG、递归可枚举语言、μ-递归函数、λ 演算、图灵机和可计算实数整理成一条“有限符号系统如何刻画通用计算”的概念链。
+- 2026-06-13T18:20:57+0800 — 已捕获 [[wiki/sources/AI 工程化不是提效 是换主回路 QA Source Guide]]：保留 ljg-qa 对《软件工程真正降临》的 10 问链，把核心判断压成“AI 工程化不是提效，而是把软件生产主回路从人脑迁移到可验证的认知产线”。
+- 2026-06-13T18:08:13+0800 — 已捕获 [[wiki/sources/软件工程真正降临 Source Guide]]：保留中文长文对 AI 软件工程范式的完整推演，强调软件工程长期未完成“能源换高阶智能”，大模型补上认知引擎后仍必须经由确定性裁判、闭环优先、分治继承和场景驱动隐性知识蒸馏走向工程可靠。
+- 2026-06-13T10:44:58+0800 — 已捕获 [[wiki/sources/四层次原因分析法 Source Guide]]：保存中文方法文章对线性问题原因分析的四层路径，强调先 MECE 拆问题，再用数据验证直接原因，继续追流程漏洞，最后才做人因与管理设计分析。
+- 2026-06-11T23:51:41+0800 — 已捕获 [[wiki/syntheses/类和对象结构图的建模作用]]：把“类和对象结构图解决什么问题”沉淀为 OOAD 责任结构解释，说明它如何连接领域概念、责任边界、对象协作、类图/序列图校验与可演化设计。
+- 2026-06-11T22:36:02+0800 — 已捕获 [[wiki/sources/Raw Experience to Skill Consumption Paper Source Guide]]：把 model-generated agent skills 生命周期研究保存为 source guide，保留 experience generation、skill extraction、skill consumption、25% 负迁移、15.8% 文本裁判反转、三维 utility rubric 和 meta-skill guided extraction。
 - 2026-06-11T22:29:33+0800 — 已捕获 [[wiki/sources/DORA Metrics History Source Guide]] 并更新 [[wiki/concepts/DORA Metrics]]：把 DORA 指标从 2014 IT performance、2018 SDO performance、2021 reliability、2023 failed deployment recovery time 到 2024 deployment rework rate 的演化保存为 source 层材料。
 - 2026-06-11T17:49:52+0800 — 已摄入 [[wiki/sources/DORA Metrics Source Guide]] 并新增 [[wiki/concepts/DORA Metrics]]：把 DORA 五个软件交付指标拆成 throughput 与 instability，并接到 [[wiki/topics/Modern Software Engineering]]、[[wiki/syntheses/Quality Engineering Three Generators]] 与 [[wiki/maps/CS Map]]。
-- 2026-06-11T10:00:26+08:00 — 已捕获 [[wiki/sources/发现和定义问题 Source Guide]]：把一篇中文旧文保存为 source 层素材，保留 Problem/Issue 区分、发现异常、确认本质、定义议题、对齐共识、两个天坑和高阶提问工具，并接到 [[wiki/topics/Problem Framing]]、[[wiki/topics/Critical Thinking]]、[[wiki/maps/Management Map]] 与 [[wiki/maps/Learning Map]]。
-- 2026-06-10T22:43:22+08:00 — 已捕获 [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]：把“复杂问题为什么让人卡住”保存为 source 层文章，保留 MECE、六种维度、逻辑树、横向展开/纵向深挖、四层次原因分析法和三步行动建议，并接到 [[wiki/concepts/Analysis]]、[[wiki/topics/Problem Framing]] 与 [[wiki/maps/Classification Thinking Map]]。
+- 2026-06-11T11:00:54+0800 — 已捕获 [[wiki/sources/SkillOpt Paper Source Guide]]：把 SkillOpt 原论文保存为 primary source guide，保留 bounded text edits、held-out validation gate、rejected-edit buffer、slow/meta update、52/52 主结果、跨 harness 迁移和训练成本限制，并与 [[wiki/sources/SkillOpt Paper River Source Guide]] 分层。
 
 ## Active Threads
 
+- LLM 协作现在加入思维阶段显性化线索：Exploring 要原理和类比，Brainstorming 要广度，Deciding 要 trade-off 和单一建议，Implementing 要精确产物与验证。
+- 语言与推理现在加入论理词线索：论理词是判断关系的逻辑关节，范畴词是思想系统的承重点；二者混淆会把概念节点误当成推理连接。
+- CS/可计算性现在加入形式语言与通用计算线索：CFG 描述语法识别能力，递归可枚举语言描述半判定，μ-递归函数、λ 演算和图灵机从不同符号系统刻画同一类可计算过程。
 - Software delivery performance now has a DORA metrics thread: change lead time, deployment frequency, failed deployment recovery time, change fail rate, and deployment rework rate should be read as historically refined application-level feedback signals, not cross-team ranking targets.
 - Agent memory now has a feedback-guideline thread: self-correction and reflection are useful but often local; Memory-as-a-Tool turns rubric feedback into readable guideline files that can be retrieved on future tasks, with governance pressure around naming, provenance, conflict resolution, forgetting, and regression tests.
 - Agent orchestration now has a human co-planning thread: explicit plan DAGs can be steered through semantic/global feedback, targeted subgraph feedback, direct manipulation, and LLM-assisted structural edits, but verification and boundary integration become the real bottleneck.
@@ -95,7 +106,17 @@ updated: 2026-06-11T22:29:33+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- 论理词不是普通连接词，而是推理关系的显影剂：它标记因果、转折、条件、解释、举例和总结等关系；理、欲、求、仁、道则更像思想范畴，负责提供论证对象和价值坐标。
+- LLM 协作的质量取决于阶段匹配：探索阶段要解释和类比，头脑风暴阶段要发散，决策阶段要权衡并收束，执行阶段要精确实现和验证。
+- 可计算性模型的关键区分是“程序文本是否合法”和“程序语义能算什么”：CFG 位于语法识别层，图灵完备位于通用计算层；经典模型处理有限符号串，因此只能计算可计算实数而不是任意实数。
+- “AI 工程化不是提效，是换主回路”这条 Q-A 链把长文推演压成 10 个钉子：软件长期卡在人脑高阶认知主回路，大模型补上认知引擎，但可靠性必须靠确定性裁判、小闭环、分治结构和场景化隐性知识蒸馏一起压出来。
+- 软件工程真正降临的 source 推演把 AI 编程的核心从“更快写代码”改写为“能源驱动的认知产线”：大模型补上高阶认知引擎，但只有外接确定性裁判、闭合反馈、继承分治结构，并把专家隐性知识蒸馏成场景规则，才能从概率生成走向工程可靠。
+- 四层次原因分析法适合线性、因果明确的问题：What 层用 MECE 找到可追因子问题，Why 层用可测量证据验证直接原因，流程层修补系统防御漏洞，人因层先检查流程防错、能力匹配和激励机制，避免用“态度差”替代管理设计。
+- 类和对象结构图不是代码类清单，而是 OOAD 中的责任结构图：它把业务世界压成稳定责任容器及其关系，让类图提供静态骨架、序列图验证运行时协作，并用责任边界诊断可演化性。
+- Agent skill extraction 的关键不是写出“看起来像好文档”的 skill，而是写出具体失败机制、触发条件和可执行补救动作；论文报告文本裁判在高差距 pair 上只有 15.8% 选中真正高效 skill。
 - DORA Metrics are useful when they expose the delivery system: their history shows repeated boundary refinement from IT performance to SDO performance, reliability, failed deployment recovery time, and deployment rework rate; their current use should expose constraints without becoming Goodhart targets.
+- SkillOpt 原论文的关键不是“会反思的技能”，而是把 skill 文档当成可训练外部状态：小步文本编辑、验证闸门、失败编辑记忆和慢更新一起决定哪些规矩进入未来默认行为。
+- SkillOpt 把 skill self-evolution 从“生成一个更好技能”推进到“治理一次技能变更”：先做失败根因分析，再比较候选修改，最后用前后验证决定是否让改动进入未来默认行为。
 - “发现和定义问题”的关键转换是从 Problem 到 Issue：先看见异常，再确认是否是真问题、根因和值得解决的问题，最后用目标值、现状值、衡量指标和相关方共识把它变成可行动议题。
 - 问题拆解的实用入口是先把模糊问题写成一句话，再选维度横向展开，最后对最可疑分支纵向追问；它和分析、问题定义、批判性思维、系统思维共同构成从混沌到行动的路径。
 - Feedback is becoming a durable memory surface: a critique loop compounds only when its lesson is distilled into a governed artifact, such as a guideline file, skill update, harness rule, or team standard.

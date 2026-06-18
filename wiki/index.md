@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-06-11T22:29:33+0800
+updated: 2026-06-18T00:12:11+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -142,6 +142,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Context Information Density|Context Information Density]] — Context information density treats agent context quality as the ratio of decision-relevant signal to finite active context budget. (#agents #context #memory)
 - [[wiki/concepts/Cynefin Framework|Cynefin Framework]] — Cynefin Framework 适合用来判断问题处在哪种上下文里，再决定应该用什么动作模式，而不是先假定所有问题都能靠一种统一方法解决。 (#framework #decision-making #management)
 - [[wiki/concepts/Declarative Programming|Declarative Programming]] — Declarative programming describes a target state or relation rather than spelling out each mutation step. (#frontend #programming #abstraction)
+- [[wiki/concepts/可计算性模型|可计算性模型]] — CFG、递归可枚举语言、μ-递归函数、λ 演算和图灵机分别说明语法识别、半判定与通用计算的边界。 ( #cs #computation #formal-language)
 - [[wiki/concepts/DORA Metrics|DORA Metrics]] — DORA Metrics measure software delivery through a historically evolving five-signal model of throughput and instability. (#software-engineering #metrics #feedback #devops)
 - [[wiki/concepts/Domain-Driven Design|Domain-Driven Design]] — DDD 不是一组面向对象技巧，也不是“把数据库表包装成实体类”。它更像一座折算器：先锁定软件要贴合的那段业务现实，再用共享语言和清晰边界，把这段现实压成可演化的软件结构。
 - [[wiki/concepts/Economic Bubble|Economic Bubble]] — An economic bubble is not simply an expensive asset. It is a price structure where market value has detached from the real support beneath it, and continues rising mainly because people believe...
@@ -189,6 +190,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/State Management|State Management]] — State management controls where application state lives, how it changes, and how those changes propagate through the interface. (#frontend #architecture #state)
 - [[wiki/concepts/三个自我模型|三个自我模型]] — 三个自我模型把人分为进程自我、界面自我和内核自我，用来解释为什么真正成长要改写底层预测模型和奖励函数。 (#cognition #learning #thinking #llm)
 - [[wiki/concepts/Understanding|Understanding]] — 理解不是拥有一句定义，而是在脑中形成一团可横向类比、纵向抽象、并能被重新创造的概念云。 (#cognition #learning #concepts)
+- [[wiki/concepts/LLM 协作思维阶段]] — LLM 协作应显性化人类处于探索、头脑风暴、决策还是执行阶段，以匹配解释、发散、权衡或精确执行。 (#llm #thinking #workflow #context)
+- [[wiki/concepts/论理词与范畴词]] — 论理词标记判断之间的推理关系；范畴词承载思想系统中的核心对象、价值和解释坐标。 (#thinking #reasoning #cognition #language)
 - [[wiki/concepts/Verification Loop|Verification Loop]] — A verification loop gives an agent external feedback, such as tests, visual checks, or evaluators, so errors are caught before they compound. (#agents #verification)
 
 - [[wiki/concepts/Workflow Graph Orchestration|Workflow Graph Orchestration]] — Workflow Graph Orchestration models agent work as explicit state-machine or graph traversal so control, persistence, guard nodes, and recovery stay inspectable. (#agents #orchestration #workflow)
@@ -215,6 +218,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Agentic Engineering × Verification Loop|Agentic Engineering × Verification Loop]] — Agentic engineering shifts engineering effort from generating code to designing verification loops that make generated work safe to accept. (#agents #ai-coding #testing #software-engineering)
 - [[wiki/syntheses/Application and Creation Distinction|Application and Creation Distinction]] — Application adapts an existing abstraction to constraints; creation reorganizes materials into a new durable order. (#synthesis #thinking #learning #creativity)
 - [[wiki/syntheses/Business Analysis to Software Design|Business Analysis to Software Design]] — Synthesis of how business modeling and software analysis become software design through domain boundaries and shared models. (#software-methodology #analysis #design)
+- [[wiki/syntheses/类和对象结构图的建模作用]] — 类和对象结构图不是代码类清单，而是把业务世界压成稳定责任容器及其关系，用来承接领域理解、对象协作、边界设计和可演化实现。 (#software-engineering #architecture #requirements #systems)
 - [[wiki/syntheses/Decision Modes for Engineering Work|Decision Modes for Engineering Work]] — 这页尝试把管理、问题判断和软件工程方法连成一个更高层的操作框架：面对不同类型的问题，团队不该只换答案，更要换决策模式。 (#synthesis #decision-making #management #engineering)
 - [[wiki/syntheses/From User Story to Architecture|From User Story to Architecture]] — 这页综合的不是单一技巧，而是一条完整路径：需求如何从业务表达，一路变成可以实现、可以验证、可以维护的架构决策。 (#synthesis #requirements #architecture #software-engineering)
 - [[wiki/syntheses/ICAP 与知识类型的适用边界|ICAP 与知识类型的适用边界]] — ICAP 可以作为通用的学习深度刻度，但不能作为所有知识的同一种学习处方；它需要和知识类型、学习阶段、先验图式与认知负荷一起使用。 (#learning #cognition)
@@ -244,6 +248,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Doris 写入与 Routine Load Source Guide|Doris 写入与 Routine Load Source Guide]] — 这页保留 Doris 2.1 写入方式、Routine Load 原理、Task 时序，以及内部 Rowset、事务和版本发布链路。 (#database #systems #software-engineering #architecture)
 - [[wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide|配置 钩子 代码库与技能放置决策 Source Guide]] — 这页保存一棵判断树：固定指令、可靠自动化、代码库规范和手动技能分别应该放在哪里。 (#agents #harness #skills #llm-wiki)
 - [[wiki/sources/拆解 让复杂问题变清晰 Source Guide|拆解：让复杂问题变清晰 Source Guide]] — 这页保存一篇中文问题拆解文章：复杂问题之所以压人，是因为它以混沌形态出现；拆解通过技术、框架和结构化思维把问题转成可处理的小结构。 (#article #thinking #reasoning #learning #mechanism)
+- [[wiki/sources/可计算性问答 Source Guide|可计算性问答 Source Guide]] — 保存一段关于 CFG、递归可枚举语言、μ-递归函数、λ 演算、图灵机和可计算性边界的中文教学问答。 ( #cs #computation #formal-language #learning)
+- [[wiki/sources/四层次原因分析法 Source Guide|四层次原因分析法 Source Guide]] — 这页保存一篇中文方法文章对“四层次原因分析法”的说明：先拆问题，再验证直接原因，继续追流程漏洞，最后分析人因与管理设计。 (#article #thinking #reasoning #mechanism #management)
 - [[wiki/sources/发现和定义问题 Source Guide|发现和定义问题 Source Guide]] — 这页保存一篇中文文章对“发现和定义问题”的方法论说明：从 Problem 到 Issue，经过发现异常、确认本质、定义议题和对齐共识。 (#article #thinking #reasoning #management #mechanism)
 - [[wiki/sources/Agentic-First Source Guide]] — Source guide for James Pritchard's Agentic-First article, focused on agent-navigable platforms, mode-aware context, edit-time guardrails, and process-level automation. (#article #agents #harness #ai-coding #context)
 - [[wiki/sources/Agent Engineering Source Guide|Agent Engineering Source Guide]] — 这页用于收拢“agent engineering / harness / workflow”这一类更偏工程综述与系统实践的来源材料。 (#agents #engineering #harness)
@@ -257,11 +263,14 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Agent Skills Survey Paper Source Guide|Agent Skills Survey Paper Source Guide]] — Direct paper guide for the agent-skills survey, preserving its lifecycle taxonomy, resource taxonomy, retrieval/selection framing, evolution risks, and research agenda. (#paper #arxiv #survey #agents #skills)
 - [[wiki/sources/COLLEAGUE.SKILL Paper Source Guide|COLLEAGUE.SKILL Paper Source Guide]] — Direct paper guide for COLLEAGUE.SKILL, preserving its person-grounded trace-to-skill artifact model, dual tracks, correction lifecycle, deployment surface, and evaluation limits. (#paper #arxiv #agents #skills #workflow)
 - [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide|Agentic Artificial Intelligence Paper Source Guide]] — Source guide for arXiv 2601.12560v1 on agentic AI architectures, taxonomy, control loops, multi-agent orchestration, evaluation, safety, and open challenges. (#paper #arxiv #agents #architecture)
+- [[wiki/sources/贝尔曼方程与大模型意识圆桌 Source Guide|贝尔曼方程与大模型意识圆桌 Source Guide]] — 保存一场围绕贝尔曼方程、大模型意识、主体性、功能价值、状态连续性和 AI 身份分叉的圆桌讨论。 ( #llm #agents #cognition #reinforcement-learning #consciousness)
 - [[wiki/sources/Bayes-Consistent Agentic Orchestration Paper River Source Guide|Bayes-Consistent Agentic Orchestration Paper River Source Guide]] — Paper-river source guide for arXiv 2605.00742v2, tracing agent orchestration from tool action toward Bayesian cost-aware control. (#paper #arxiv #agents #harness #probability)
 - [[wiki/sources/Agent Systems Papers Source Guide|Agent Systems Papers Source Guide]] — Source guide collecting agent-system papers and deciding which claims should stay source-level versus move into topics and syntheses. (#papers #agents)
 - [[wiki/sources/ADK Skill Design Patterns Source Guide|ADK Skill Design Patterns Source Guide]] — Source guide for Google Cloud Tech and Lavi Nigam's article on five practical SKILL.md content patterns for ADK agents. (#agents #skills #adk)
 - [[wiki/sources/AI Coding Control Limits Source Guide|AI Coding Control Limits Source Guide]] — 这篇文章更适合作为一个 source facing note 进入当前仓库，而不是直接承担稳定 topic 页角色。 (#ai-coding #software-engineering #complexity #productivity #security)
+- [[wiki/sources/AI 工程化不是提效 是换主回路 QA Source Guide|AI 工程化不是提效，是换主回路 QA Source Guide]] — 保留 ljg-qa 对《软件工程真正降临》的问答链：AI 工程化的关键不是提效，而是把软件生产主回路从人脑迁移到可验证的 AI 认知产线。 (#article #agents #ai-coding #software-engineering #mechanism)
 - [[wiki/sources/AI 软件工程问答 Source Guide|AI 软件工程问答 Source Guide]] — 这页保存一篇中文长文的 ljg-qa 问答链：软件工程为何未彻底工程化、AI 如何成为认知引擎，以及 AI 产线如何通过闭环、分治和隐性知识蒸馏走向可靠。 (#article #agents #ai-coding #software-engineering #architecture)
+- [[wiki/sources/软件工程真正降临 Source Guide|软件工程真正降临 Source Guide]] — 保留一篇中文长文对 AI 软件工程范式的完整推演：从软件工程未彻底工程化，到 AI 中心产线、确定性裁判、分治继承和隐性知识蒸馏。 (#article #agents #ai-coding #software-engineering #mechanism)
 - [[wiki/sources/大模型时代软件工程的本质与演进 Source Guide|大模型时代软件工程的本质与演进 Source Guide]] — 保留一篇中文长文：软件工程是问题定义、知识传递与应用；AI 代码生成会放大“无理论代码”风险，资深工程师要守住架构理论。 (#article #software-engineering #ai-coding #architecture #cognition)
 - [[wiki/sources/Memory for Autonomous LLM Agents Source Guide|Memory for Autonomous LLM Agents Source Guide]] — Source guide for arXiv 2603.07670 on autonomous LLM-agent memory mechanisms, evaluation, applications, engineering realities, and open frontiers. (#paper #agents #memory #survey)
 - [[wiki/sources/Memory in the Age of AI Agents Paper Source Guide|Memory in the Age of AI Agents Paper Source Guide]] — Source guide for arXiv 2512.13564 on agent memory forms, functions, dynamics, resources, and future frontiers. (#paper #arxiv #agents #memory #survey)
@@ -298,6 +307,9 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Fallacies of Distributed Computing Source Guide]] — Source guide preserving the eight distributed-computing fallacies as a checklist against assuming reliable, zero-latency, infinite, secure, static, centrally administered, free, homogeneous networks. (#book #distributed-systems #architecture #systems #software-engineering)
 - [[wiki/sources/Galls Law Source Guide|Gall's Law Source Guide]] — Source guide preserving Gall's Law as a software-systems principle: complex working systems evolve from simple working systems. (#book #software-engineering #architecture #systems)
 - [[wiki/sources/GEPA Paper River Source Guide]] — 保留 GEPA 论文倒读法：从 APE、APO、DSPy、MIPROv2、TextGrad/GRPO 到 GEPA，说明 AI 系统优化如何从分数搜索转向轨迹反思与 Pareto 进化。 (#paper #arxiv #agents #skills #optimization)
+- [[wiki/sources/SkillOpt Paper River Source Guide]] — 保留 SkillOpt 论文倒读法：从 ReAct、Reflexion、文本优化、GEPA 与技能库路线，说明 agent skill 自进化如何从生成技能推进到治理技能改动。 (#paper #arxiv #agents #skills #optimization)
+- [[wiki/sources/SkillOpt Paper Source Guide]] — Primary paper guide for SkillOpt's controllable text-space optimizer, preserving bounded skill edits, held-out gating, rejected-edit memory, slow/meta update, experiments, transfer, and limitations. (#paper #arxiv #agents #skills #optimization)
+- [[wiki/sources/Raw Experience to Skill Consumption Paper Source Guide]] — Primary paper guide for a lifecycle study of model-generated agent skills, preserving experience generation, extraction, consumption, negative transfer, utility rubrics, and meta-skill guidance. (#paper #arxiv #agents #skills #feedback)
 - [[wiki/sources/Grokking Simplicity Taming FP Source Guide]] — 这页保存《Grokking Simplicity》函数式编程读书笔记：用 action、calculation、data、时间线、分层和响应式架构降低代码复杂度。 (#book #software-engineering #architecture #systems #testing)
 - [[wiki/sources/Hyrums Law Source Guide|Hyrum's Law Source Guide]] — Source guide preserving Hyrum's Law: once enough users observe a system, even undocumented behavior can become a dependency. (#book #software-engineering #architecture #systems)
 - [[wiki/sources/Law of Leaky Abstractions Source Guide|Law of Leaky Abstractions Source Guide]] — Source guide preserving the Law of Leaky Abstractions: useful abstractions inevitably expose underlying complexity at edge cases. (#book #software-engineering #architecture #systems)

@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-06-11T22:36:02+0800
+updated: 2026-06-18T00:12:11+0800
 aliases:
   - Wiki Log
 tags:
@@ -19,9 +19,18 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-06-18T00:12:11+0800] CAPTURE type=concept page="wiki/concepts/LLM 协作思维阶段.md" title="LLM 协作思维阶段"
+- [2026-06-18T00:12:11+0800] CAPTURE type=concept page="wiki/concepts/论理词与范畴词.md" title="论理词与范畴词"
+- [2026-06-17T01:12:00+0800] CAPTURE type=source page="wiki/sources/可计算性问答 Source Guide.md" title="可计算性问答 Source Guide"
+- [2026-06-17T01:02:44+0800] CAPTURE type=concept page="wiki/concepts/可计算性模型.md" title="可计算性模型"
+- [2026-06-13T18:20:57+0800] CAPTURE type=source page="wiki/sources/AI 工程化不是提效 是换主回路 QA Source Guide.md" title="AI 工程化不是提效，是换主回路 QA Source Guide"
+- [2026-06-13T18:08:13+0800] CAPTURE type=source page="wiki/sources/软件工程真正降临 Source Guide.md" title="软件工程真正降临 Source Guide"
+- [2026-06-13T10:44:58+0800] CAPTURE type=source page="wiki/sources/四层次原因分析法 Source Guide.md" title="四层次原因分析法 Source Guide"
 - [2026-06-11T22:36:02+0800] CAPTURE type=source page="wiki/sources/Raw Experience to Skill Consumption Paper Source Guide.md" title="Raw Experience to Skill Consumption Paper Source Guide"
 - [2026-06-11T22:29:33+0800] CAPTURE type=source page="wiki/sources/DORA Metrics History Source Guide.md" title="DORA Metrics History Source Guide"
 - [2026-06-11T17:49:52+0800] INGEST source="https://dora.dev/guides/dora-metrics/" pages_updated=6 pages_created=2 mode=append
+- [2026-06-11T11:00:54+0800] CAPTURE type=source page="wiki/sources/SkillOpt Paper Source Guide.md" title="SkillOpt Paper Source Guide"
+- [2026-06-11T10:39:52+0800] CAPTURE type=source page="wiki/sources/SkillOpt Paper River Source Guide.md" title="SkillOpt Paper River Source Guide"
 - [2026-06-11T10:00:26+08:00] CAPTURE type=source page="wiki/sources/发现和定义问题 Source Guide.md" title="发现和定义问题 Source Guide"
 - [2026-06-10T21:35:12+08:00] CAPTURE type=source page="wiki/sources/Memory-as-a-Tool Paper River Source Guide.md" title="Memory-as-a-Tool Paper River Source Guide"
 - [2026-06-09T14:38:26+08:00] INGEST source="https://arxiv.org/abs/2605.23023" pages_updated=6 pages_created=2 mode=append
@@ -289,3 +298,6 @@ tags:
 - [2026-06-01T16:18:53+0800] CAPTURE type=source page="wiki/sources/COLLEAGUE.SKILL Paper Source Guide.md" title="COLLEAGUE.SKILL Paper Source Guide"
 - [2026-06-05T12:28:56+0800] CAPTURE type=synthesis page="wiki/syntheses/AI 泡沫判断的结构.md" title="AI 泡沫判断的结构"
 - [2026-06-10T22:43:22+08:00] CAPTURE type=source page="wiki/sources/拆解 让复杂问题变清晰 Source Guide.md" title="拆解：让复杂问题变清晰 Source Guide"
+- [2026-06-11T23:46:48+0800] QUERY query="面向对象分析与设计中，类和对象结构图，解决什么问题" result_pages=3 mode=normal escalated=false
+- [2026-06-11T23:51:41+0800] CAPTURE type=synthesis page="wiki/syntheses/类和对象结构图的建模作用.md" title="类和对象结构图的建模作用"
+- [2026-06-18T00:10:43+0800] CAPTURE type=source page="wiki/sources/贝尔曼方程与大模型意识圆桌 Source Guide.md" title="贝尔曼方程与大模型意识圆桌 Source Guide"
