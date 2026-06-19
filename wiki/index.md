@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-06-19T09:30:54+0800
+updated: 2026-06-19T10:40:26+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -41,6 +41,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/maps/Software Design Map|Software Design Map]] — 这页把软件设计中的核心概念按层次放在一张图里。关键区分是： (#software-design #architecture #map)
 
 ## Topics
+- [[wiki/topics/Dimensional Modeling]] — Dimensional modeling organizes analytic data around business processes, declared grain, dimensions, and facts so BI queries stay understandable and performant. (#database #data-warehouse #modeling)
 - [[wiki/topics/AI Harness|AI Harness]] — AI Harness is the runtime order layer and cybernetic steering system that connects model, context, tools, permissions, state, recovery, cache stability, and feedback loops. (#agents #harness #runtime)
 - [[wiki/topics/AI Memory|AI Memory]] — AI Memory is the persistent state layer that lets agents and organizations retain, retrieve, update, and learn from experience beyond one context window. (#agents #memory #context)
 - [[wiki/topics/AI Skills Workflow|AI Skills Workflow]] — AI Skills Workflow treats skills as reusable workflows that gather, order, persist, and reload context for more stable agent behavior. (#skills #workflow)
@@ -85,6 +86,12 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Dimensional Design Grain]] — Grain is the binding declaration of what one fact-table row represents, constraining all legal dimensions and facts. (#database #data-warehouse #modeling)
+- [[wiki/concepts/Fact Table]] — A fact table stores process measurements plus dimensional keys at a declared grain. (#database #data-warehouse #modeling)
+- [[wiki/concepts/Dimension Table]] — A dimension table supplies descriptive context, labels, filters, and groupings for facts. (#database #data-warehouse #modeling)
+- [[wiki/concepts/Slowly Changing Dimension]] — SCD techniques decide whether dimension attributes preserve, overwrite, or expose historical and current values. (#database #data-warehouse #modeling)
+- [[wiki/concepts/Conformed Dimension]] — A conformed dimension is shared consistently across fact tables so separate processes can be compared or drilled across. (#database #data-warehouse #modeling)
+- [[wiki/concepts/Data Warehouse Bus Matrix]] — The bus matrix maps business processes against shared dimensions to plan an integrated Kimball-style warehouse. (#database #data-warehouse #architecture)
 - [[wiki/concepts/Codebase Retrieval Index|Codebase Retrieval Index]] — Codebase retrieval indexes combine semantic search, exact pattern search, freshness tracking, and access proof so coding agents can find useful code in large repositories. (#agents #ai-coding #retrieval #context)
 - [[wiki/concepts/Agent Memory Evaluation Stack|Agent Memory Evaluation Stack]] — Agent Memory Evaluation Stack evaluates memory through task effectiveness, memory quality, efficiency, and governance rather than recall alone. (#agents #memory)
 - [[wiki/concepts/Agent Memory Mechanism Families|Agent Memory Mechanism Families]] — Agent Memory Mechanism Families compares context compression, retrieval stores, reflection, hierarchical virtual memory, learned control, and parametric memory. (#agents #memory)
@@ -244,6 +251,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
+- [[wiki/sources/Kimball Dimensional Modeling Techniques Source Guide]] — Kimball Group 2013 catalog of dimensional modeling concepts, fact tables, dimensions, conformance, SCD, hierarchies, and special schemas. (#database #data-warehouse #modeling)
 - [[wiki/sources/Cursor Codebase Indexing Source Guide|Cursor Codebase Indexing Source Guide]] — Source guide preserving Manthan Gupta's X article on Cursor's semantic/vector and sparse n-gram codebase indexing pipeline, Merkle sync, access proofs, Turbopuffer namespaces, and dynamic context discovery. (#article #agents #ai-coding #retrieval #context)
 - [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]] — Source guide preserving a CAP theorem chapter on consistency, availability, partition tolerance, database examples, and Kleppmann's critique. (#book #distributed-systems #database #systems #architecture)
 - [[wiki/sources/DORA Metrics Source Guide|DORA Metrics Source Guide]] — Source guide for DORA's guide to five software delivery performance metrics, their throughput/instability split, pitfalls, and improvement loop. (#article #software-engineering #metrics #devops #feedback)
