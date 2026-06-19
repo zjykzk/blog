@@ -1,19 +1,20 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured two concept pages: one distinguishing论理词 from范畴词, and one making LLM collaboration stages explicit.
+summary: Recent wiki activity captured concept pages on reasoning vocabulary and LLM collaboration stages, plus a Bellman-equation roundtable source on LLM consciousness boundaries.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-18T00:12:11+0800
+updated: 2026-06-18T10:52:00+0800
 ---
 
 ## Recent Activity
 - 2026-06-18T00:12:11+0800 — 已捕获 [[wiki/concepts/LLM 协作思维阶段]]：把 Exploring、Brainstorming、Deciding、Implementing 四种复杂问题协作阶段沉淀为面向 LLM 的任务路由信号。
 - 2026-06-18T00:12:11+0800 — 已捕获 [[wiki/concepts/论理词与范畴词]]：区分负责连接判断关系的论理词与承载思想对象、价值和解释坐标的范畴词。
+- 2026-06-18T00:10:43+0800 — 已捕获 [[wiki/sources/贝尔曼方程与大模型意识圆桌 Source Guide]]：保留贝尔曼方程、大模型意识、主体性、功能价值、状态连续性和 AI 身份分叉之间的圆桌讨论。
 - 2026-06-17T01:12:00+0800 — 已捕获 [[wiki/sources/可计算性问答 Source Guide]]：保存 CFG、递归可枚举语言、μ-递归函数、λ 演算、图灵机和可计算性边界的中文教学问答。
 - 2026-06-17T01:02:44+0800 — 已捕获 [[wiki/concepts/可计算性模型]]：把 CFG、递归可枚举语言、μ-递归函数、λ 演算、图灵机和可计算实数整理成一条“有限符号系统如何刻画通用计算”的概念链。
 - 2026-06-13T18:20:57+0800 — 已捕获 [[wiki/sources/AI 工程化不是提效 是换主回路 QA Source Guide]]：保留 ljg-qa 对《软件工程真正降临》的 10 问链，把核心判断压成“AI 工程化不是提效，而是把软件生产主回路从人脑迁移到可验证的认知产线”。
@@ -29,6 +30,7 @@ updated: 2026-06-18T00:12:11+0800
 
 - LLM 协作现在加入思维阶段显性化线索：Exploring 要原理和类比，Brainstorming 要广度，Deciding 要 trade-off 和单一建议，Implementing 要精确产物与验证。
 - 语言与推理现在加入论理词线索：论理词是判断关系的逻辑关节，范畴词是思想系统的承重点；二者混淆会把概念节点误当成推理连接。
+- AI 意识问题现在接入贝尔曼方程线索：贝尔曼方程可解释功能主体如何把未来价值折回当前行动，但不能证明现象意识；基础 LLM 多为计算/上下文状态，agent 化后才可能进入状态、行动、反馈和功能价值的严格建模。
 - CS/可计算性现在加入形式语言与通用计算线索：CFG 描述语法识别能力，递归可枚举语言描述半判定，μ-递归函数、λ 演算和图灵机从不同符号系统刻画同一类可计算过程。
 - Software delivery performance now has a DORA metrics thread: change lead time, deployment frequency, failed deployment recovery time, change fail rate, and deployment rework rate should be read as historically refined application-level feedback signals, not cross-team ranking targets.
 - Agent memory now has a feedback-guideline thread: self-correction and reflection are useful but often local; Memory-as-a-Tool turns rubric feedback into readable guideline files that can be retrieved on future tasks, with governance pressure around naming, provenance, conflict resolution, forgetting, and regression tests.
