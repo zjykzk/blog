@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-06-18T00:12:11+0800
+updated: 2026-06-19T08:24:07+0800
 aliases:
   - Wiki Log
 tags:
@@ -19,6 +19,7 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-06-19T08:24:07+0800] CAPTURE type=synthesis page="wiki/syntheses/LLM Serving Request Structure.md" title="LLM Serving Request Structure"
 - [2026-06-18T00:12:11+0800] CAPTURE type=concept page="wiki/concepts/LLM 协作思维阶段.md" title="LLM 协作思维阶段"
 - [2026-06-18T00:12:11+0800] CAPTURE type=concept page="wiki/concepts/论理词与范畴词.md" title="论理词与范畴词"
 - [2026-06-17T01:12:00+0800] CAPTURE type=source page="wiki/sources/可计算性问答 Source Guide.md" title="可计算性问答 Source Guide"

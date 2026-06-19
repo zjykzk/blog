@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-06-18T00:12:11+0800
+updated: 2026-06-19T08:24:07+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -226,6 +226,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Knowledge System Construction|Knowledge System Construction]] — 知识体系构建把问题牵引、知识成网、隐性知识外化、知识资产化、共同体实践和定期审计组织成一个持续更新的认知系统。 (#learning #cognition #management #organization)
 - [[wiki/syntheses/Learning Methodology × Mental Models|Learning Methodology × Mental Models]] — Learning methodology turns durable learning into mental-model construction, not information collection or summary consumption. (#learning #cognition #thinking)
 - [[wiki/syntheses/LLM Training Stages|LLM Training Stages]] — LLM training stages differ by data shape, loss signal, and behavioral target: pretraining builds capability, SFT shapes instruction following, and RL optimizes preferences. (#synthesis #llm #training)
+- [[wiki/syntheses/LLM Serving Request Structure|LLM Serving Request Structure]] — LLM serving 把请求组织成可调度的 token 工作流：GPU 利用率来自 batching，请求边界靠 batch slot、attention 元数据、KV block 和 role 模板维持。 (#llm #inference #serving #systems)
 - [[wiki/syntheses/React UI Organization Model|React UI Organization Model]] — Synthesis of React as a UI organization model combining declarative rendering, components, and state management. (#frontend #react #ui)
 - [[wiki/syntheses/Reality-Refutable Engineering Systems|Reality-Refutable Engineering Systems]] — Mature engineering systems let reality challenge their models through feedback, appeal, accountability, and redesign triggers. (#synthesis #software-engineering #systems #governance #feedback)
 - [[wiki/syntheses/Thinking and Judgment Workflow|Thinking and Judgment Workflow]] — 这页把 Mental Models 、 Critical Thinking 、 Problem Framing 串成一条更完整的思考路径：面对复杂问题时，不只是要会想，还要知道先怎么定义问题、再怎么观察、最后怎么判断。 (#synthesis #thinking #reasoning #methods)

@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured concept pages on reasoning vocabulary and LLM collaboration stages, plus a Bellman-equation roundtable source on LLM consciousness boundaries.
+summary: Recent wiki activity captured LLM serving request structure, reasoning vocabulary, LLM collaboration stages, and source-level conversations on LLM consciousness boundaries.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-18T10:52:00+0800
+updated: 2026-06-19T08:24:07+0800
 ---
 
 ## Recent Activity
+- 2026-06-19T08:24:07+0800 — 已捕获 [[wiki/syntheses/LLM Serving Request Structure]]：把 LLM serving 中 GPU batching、请求身份隔离、KV cache block 映射和 chat message role 模板化串成一套请求结构模型。
 - 2026-06-18T00:12:11+0800 — 已捕获 [[wiki/concepts/LLM 协作思维阶段]]：把 Exploring、Brainstorming、Deciding、Implementing 四种复杂问题协作阶段沉淀为面向 LLM 的任务路由信号。
 - 2026-06-18T00:12:11+0800 — 已捕获 [[wiki/concepts/论理词与范畴词]]：区分负责连接判断关系的论理词与承载思想对象、价值和解释坐标的范畴词。
 - 2026-06-18T00:10:43+0800 — 已捕获 [[wiki/sources/贝尔曼方程与大模型意识圆桌 Source Guide]]：保留贝尔曼方程、大模型意识、主体性、功能价值、状态连续性和 AI 身份分叉之间的圆桌讨论。
@@ -28,6 +29,7 @@ updated: 2026-06-18T10:52:00+0800
 
 ## Active Threads
 
+- LLM inference systems now have a request-structure thread: GPU 利用率来自把多个小 decode step 合成 batch，请求隔离靠 batch slot、sequence offset、attention metadata、KV cache block table 和 chat template 共同维持。
 - LLM 协作现在加入思维阶段显性化线索：Exploring 要原理和类比，Brainstorming 要广度，Deciding 要 trade-off 和单一建议，Implementing 要精确产物与验证。
 - 语言与推理现在加入论理词线索：论理词是判断关系的逻辑关节，范畴词是思想系统的承重点；二者混淆会把概念节点误当成推理连接。
 - AI 意识问题现在接入贝尔曼方程线索：贝尔曼方程可解释功能主体如何把未来价值折回当前行动，但不能证明现象意识；基础 LLM 多为计算/上下文状态，agent 化后才可能进入状态、行动、反馈和功能价值的严格建模。
@@ -108,6 +110,7 @@ updated: 2026-06-18T10:52:00+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- LLM serving 的关键不是单个模型调用，而是把小粒度、自回归、动态长度的 token 工作重排成 GPU 能吃满的 batch；同时用 batch slot、attention 边界、KV block table 和 role 模板保持请求与对话语义不混淆。
 - 论理词不是普通连接词，而是推理关系的显影剂：它标记因果、转折、条件、解释、举例和总结等关系；理、欲、求、仁、道则更像思想范畴，负责提供论证对象和价值坐标。
 - LLM 协作的质量取决于阶段匹配：探索阶段要解释和类比，头脑风暴阶段要发散，决策阶段要权衡并收束，执行阶段要精确实现和验证。
 - 可计算性模型的关键区分是“程序文本是否合法”和“程序语义能算什么”：CFG 位于语法识别层，图灵完备位于通用计算层；经典模型处理有限符号串，因此只能计算可计算实数而不是任意实数。
