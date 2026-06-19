@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-06-19T08:24:07+0800
+updated: 2026-06-19T08:37:57+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -319,7 +319,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/学会提问 Source Guide|学会提问 Source Guide]] — 保留《学会提问》读书笔记中的批判性思维问题链：论题、结论、词义、假设、谬误、证据、替代原因、数据、省略信息和灰度结论。 (#book #thinking #reasoning #learning #judgment)
 - [[wiki/sources/面向 LLM 的清晰表达 Source Guide|面向 LLM 的清晰表达 Source Guide]] — 这页保存一段中文教学对话：面向 LLM 的清晰表达是显式化任务、对象、标准、边界和输出形式，让模型少猜且结果可验收。 (#llm #context #thinking #learning)
 - [[wiki/sources/GenericAgent Paper Source Guide|GenericAgent Paper Source Guide]] — Source guide for the GenericAgent paper, focused on context information density, hierarchical memory, tool minimality, and self-evolution. (#papers #agents)
-- [[wiki/sources/Harness Engineering Source Guide|Harness Engineering Source Guide]] — Source guide for Birgitta Böckeler's Martin Fowler article on user-owned coding-agent harnesses: guides, sensors, deterministic checks, inferential review, templates, and harnessability. (#article #agents #harness #ai-coding)
+- [[wiki/sources/Harness Engineering Source Guide|Harness Engineering Source Guide]] — Source guide for Birgitta Böckeler's Martin Fowler article on user-owned coding-agent harnesses: prompt/context/harness scope, guides, sensors, deterministic checks, inferential review, regulation categories, templates, harnessability, and human judgment. (#article #agents #harness #ai-coding)
 - [[wiki/sources/Harness Engineering Is Cybernetics Source Guide|Harness Engineering Is Cybernetics Source Guide]] — Source guide for George's X article framing harness engineering as cybernetics: sensors, actuators, feedback loops, and machine-readable judgment. (#agents #harness #cybernetics)
 - [[wiki/sources/Humans and Agents in Software Engineering Loops Source Guide|Humans and Agents in Software Engineering Loops Source Guide]] — Source guide for Kief Morris's Martin Fowler article on humans outside, in, and on agentic software engineering loops. (#article #agents #harness #ai-coding #software-engineering)
 - [[wiki/sources/Human-LLM Collaborative Planning Paper Source Guide|Human-LLM Collaborative Planning Paper Source Guide]] — Direct paper guide for AMBIPOM and human-LLM co-planning, preserving its mode-scope-level design space, user-study findings, benchmark, limitations, and harness implications. (#paper #arxiv #agents #orchestration #human-in-the-loop)

@@ -3,11 +3,11 @@ title: Harness Engineering Source Guide
 type: source
 status: growing
 category: sources
-summary: Source guide for Birgitta Böckeler's Martin Fowler article on user-owned harness engineering for coding agents, combining guides, sensors, timing, regulation categories, templates, and human judgment.
+summary: Source guide for Birgitta Böckeler's Martin Fowler article on user-owned harness engineering for coding agents, combining prompt/context/harness scope, guides, sensors, regulation categories, templates, and human judgment.
 sources:
   - https://martinfowler.com/articles/harness-engineering.html
 created: 2026-05-06T22:24:21+08:00
-updated: 2026-05-23T01:52:00+08:00
+updated: 2026-06-19T08:37:57+0800
 base_confidence: 0.48
 lifecycle: draft
 lifecycle_changed: 2026-05-06
@@ -40,6 +40,14 @@ The article argues that coding-agent users should not treat an agent as a sealed
 
 The article narrows the broader “model plus harness” framing. The model and vendor-built coding-agent harness already exist inside the tool. The user's leverage sits in the outer harness that the team builds around that agent: repository conventions, instructions, executable checks, feedback loops, and templates that make generated work more trustworthy.
 
+A compact form of the source's model is:
+
+```text
+Agent = Model + Harness
+```
+
+The model supplies token generation and learned reasoning; the harness supplies the surrounding regulatory structure that constrains, informs, senses, and corrects that reasoning. The image attached to the source places prompt engineering inside context engineering, and context engineering inside harness engineering: prompt engineering asks what to ask, context engineering asks what to send the model, and harness engineering asks how the whole coding-agent system operates.
+
 For this wiki, the source's durable contribution is a concrete control model for [[wiki/concepts/Coding Agent User Harness]]: harness engineering combines feedforward guidance, feedback sensing, deterministic checks, inferential review, lifecycle timing, regulation categories, reusable templates, and human accountability.
 
 ## Preserved Content
@@ -52,7 +60,12 @@ The article uses a steering-loop model:
 - **Sensors / feedback controls** inspect results after the agent acts. Examples include code-review agents, linters, static analysis, structural tests, coverage checks, mutation testing, browser checks, logs, runtime SLO monitoring, dead-code analysis, dependency scanning, response-quality sampling, and log-anomaly review.
 - The human steers both sides: they choose what guidance to encode, what sensors to add, when to trust agent self-correction, and when to intervene.
 
-The source warns against one-sided control. Feedback without guidance can create repeated avoidable errors. Guidance without feedback leaves the team unable to tell whether the agent followed the guidance. The useful harness combines both.
+The article warns against one-sided control. Feedback without guidance can create repeated avoidable errors. Guidance without feedback leaves the team unable to tell whether the agent followed the guidance. The useful harness combines both.
+
+The source also frames these two sides as two primary functions of a harness:
+
+- **Increasing probability:** feedforward controls make first-attempt success more likely by giving the agent the right rails before it acts.
+- **Self-correction:** feedback controls provide sensors that let the agent detect and repair errors before the human reviewer sees them.
 
 This maps directly to [[wiki/concepts/Feedforward and Feedback Controls]]: feedforward narrows the action before generation; feedback makes deviations visible after generation and can enter the agent's self-correction loop.
 
@@ -113,6 +126,8 @@ A maintainability harness governs internal code quality. Many maintainability is
 - dependency risk;
 - dead code.
 
+The source highlights custom linter messages as especially powerful when they are written for agent correction rather than only human diagnosis. A generic failure says that something is wrong; an agent-oriented linter can say which project rule was violated and how to repair it, such as moving logic to the service layer after a module-boundary violation. This functions as a “positive prompt injection”: the sensor output becomes corrective instruction inside the agent loop.
+
 LLM-based review may help with semantic maintainability concerns such as over-engineering or weak test value, but the article treats those as less deterministic than executable checks.
 
 #### Architecture fitness harness
@@ -135,6 +150,8 @@ This category connects harness engineering to architecture governance. The harne
 #### Behaviour harness
 
 A behaviour harness governs whether the application does the right thing functionally. The article treats this as the least solved area. Current approaches include specifications, AI-generated tests, coverage tools, mutation testing, approved fixtures, manual testing, browser-based feedback, logs, and response-quality sampling, but the article does not claim these fully solve functional confidence.
+
+The central failure mode is circular validation: if the agent misunderstands the requirement, it can generate tests that pass while confirming the same misunderstanding. Behaviour harnesses therefore need a ground-truth surface the agent cannot silently rewrite, such as approved fixtures, manually verified functional specifications, examples, golden files, or acceptance checks owned by humans.
 
 This matters because AI-generated code can satisfy syntactic or structural checks while still solving the wrong behavior. Behaviour harnesses need better specification, example, test, and observation structures before teams can delegate more confidently.
 
@@ -178,6 +195,12 @@ The article includes several framing sidebars:
 ### Role of the human
 
 The article keeps the human in the loop, but not as an all-purpose manual reviewer. Humans supply judgment, taste, accountability, organizational context, and trade-off awareness. Harnesses can externalize some of this knowledge into rules, tests, templates, and sensors, but they cannot remove all human judgment.
+
+The source names three human contributions that a harness cannot fully automate:
+
+- **Social accountability:** the human's name, reputation, and responsibility remain attached to the commit and its consequences.
+- **Organizational memory:** humans know why trade-offs, exceptions, and technical debt were accepted in a particular business context.
+- **Aesthetic disgust:** humans notice maintainability smells that may still “work,” such as a 500-line function whose shape violates taste, comprehensibility, or future-change expectations.
 
 The goal is to focus human attention where it matters most: ambiguous trade-offs, product intent, accountability, architectural judgment, and decisions that cannot be reduced to deterministic checks.
 
