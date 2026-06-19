@@ -76,6 +76,7 @@ tags:
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Harnessability]]
 - [[wiki/concepts/Agentic Engineering]]
+- [[wiki/concepts/Codebase Retrieval Index]]
 - [[wiki/concepts/Institutional Friction]]
 - [[wiki/concepts/Governed Action]]
 - [[wiki/concepts/Context Graph]]
@@ -142,6 +143,7 @@ tags:
 - [[wiki/sources/Agent Harness Engineering Survey Source Guide]] — primary PDF survey arguing that agent reliability is often constrained by the harness and organizing the field with the ETCLOVG taxonomy.
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
 - [[wiki/sources/Agent Observability Needs Feedback Source Guide]]
+- [[wiki/sources/Cursor Codebase Indexing Source Guide]] — Manthan Gupta X article on Cursor codebase indexing: semantic/vector search, sparse n-gram regex search, Merkle sync/proofs, Turbopuffer namespaces, and dynamic context discovery.
 - [[wiki/sources/从知识堆积到结构化记忆 Source Guide]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Claude Code Skills Source Guide]]

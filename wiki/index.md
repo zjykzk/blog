@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-06-19T08:37:57+0800
+updated: 2026-06-19T09:30:54+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -85,6 +85,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Codebase Retrieval Index|Codebase Retrieval Index]] — Codebase retrieval indexes combine semantic search, exact pattern search, freshness tracking, and access proof so coding agents can find useful code in large repositories. (#agents #ai-coding #retrieval #context)
 - [[wiki/concepts/Agent Memory Evaluation Stack|Agent Memory Evaluation Stack]] — Agent Memory Evaluation Stack evaluates memory through task effectiveness, memory quality, efficiency, and governance rather than recall alone. (#agents #memory)
 - [[wiki/concepts/Agent Memory Mechanism Families|Agent Memory Mechanism Families]] — Agent Memory Mechanism Families compares context compression, retrieval stores, reflection, hierarchical virtual memory, learned control, and parametric memory. (#agents #memory)
 - [[wiki/concepts/Agent Memory Write-Manage-Read Loop|Agent Memory Write-Manage-Read Loop]] — Agent Memory Write-Manage-Read Loop models memory as read, update, and management operations coupled to perception, action, feedback, and goals. (#agents #memory)
@@ -243,6 +244,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
+- [[wiki/sources/Cursor Codebase Indexing Source Guide|Cursor Codebase Indexing Source Guide]] — Source guide preserving Manthan Gupta's X article on Cursor's semantic/vector and sparse n-gram codebase indexing pipeline, Merkle sync, access proofs, Turbopuffer namespaces, and dynamic context discovery. (#article #agents #ai-coding #retrieval #context)
 - [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]] — Source guide preserving a CAP theorem chapter on consistency, availability, partition tolerance, database examples, and Kleppmann's critique. (#book #distributed-systems #database #systems #architecture)
 - [[wiki/sources/DORA Metrics Source Guide|DORA Metrics Source Guide]] — Source guide for DORA's guide to five software delivery performance metrics, their throughput/instability split, pitfalls, and improvement loop. (#article #software-engineering #metrics #devops #feedback)
 - [[wiki/sources/DORA Metrics History Source Guide|DORA Metrics History Source Guide]] — Source guide preserving DORA's account of how software delivery metrics evolved from IT performance to the 2024 five-metric throughput/instability model. (#article #software-engineering #metrics #devops #feedback)

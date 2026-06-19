@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 52,
-    "total_pages": 260
+    "total_sources_ingested": 53,
+    "total_pages": 262
   },
   "sources": {
     "https://arxiv.org/abs/2605.07358v1": {
@@ -1116,6 +1116,24 @@
         "wiki/topics/Modern Software Engineering.md",
         "wiki/syntheses/Quality Engineering Three Generators.md",
         "wiki/maps/CS Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://x.com/manthanguptaa/article/2067096080886698364": {
+      "ingested_at": "2026-06-19T09:30:54+0800",
+      "size_bytes": 884,
+      "modified_at": "2026-06-19T09:30:54+0800",
+      "content_hash": "sha256:3a3486307e4769909e3725360d6a3647f9b76fc193115bed01cb4e80e8ce299f",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Codebase Retrieval Index.md",
+        "wiki/sources/Cursor Codebase Indexing Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"

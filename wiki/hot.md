@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity updated the Harness Engineering source guide and captured LLM serving request structure, reasoning vocabulary, and LLM collaboration stages.
+summary: Recent wiki activity added Cursor codebase indexing as a source guide and concept, alongside the latest harness and LLM serving captures.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-19T08:37:57+0800
+updated: 2026-06-19T09:30:54+0800
 ---
 
 ## Recent Activity
+- 2026-06-19T09:30:54+0800 — Ingested [[wiki/sources/Cursor Codebase Indexing Source Guide]] and added [[wiki/concepts/Codebase Retrieval Index]]: Cursor code search is modeled as a two-index retrieval system combining semantic vectors, local sparse n-gram exact search, Merkle sync/proofs, namespace reuse, and file-backed dynamic context.
 - 2026-06-19T08:37:57+0800 — 已更新 [[wiki/sources/Harness Engineering Source Guide]]：补入 prompt/context/harness 三层嵌套、Agent = Model + Harness、custom linter 作为正向 prompt injection、行为 harness 的循环验证风险，以及人类责任/组织记忆/审美厌恶角色。
 - 2026-06-19T08:24:07+0800 — 已捕获 [[wiki/syntheses/LLM Serving Request Structure]]：把 LLM serving 中 GPU batching、请求身份隔离、KV cache block 映射和 chat message role 模板化串成一套请求结构模型。
 - 2026-06-18T00:12:11+0800 — 已捕获 [[wiki/concepts/LLM 协作思维阶段]]：把 Exploring、Brainstorming、Deciding、Implementing 四种复杂问题协作阶段沉淀为面向 LLM 的任务路由信号。
@@ -30,6 +31,7 @@ updated: 2026-06-19T08:37:57+0800
 
 ## Active Threads
 
+- AI coding retrieval now has a codebase-indexing thread: semantic vector search and exact sparse n-gram search solve different agent failures, while Merkle trees handle sync/access proof and file-backed context keeps large retrieval outputs out of the prompt until needed.
 - Harness engineering now has a sharper scope hierarchy: prompt engineering asks what to ask, context engineering asks what to send the model, and harness engineering governs the whole coding-agent system through feedforward guides, feedback sensors, templates, ground-truth fixtures, and human accountability.
 - LLM inference systems now have a request-structure thread: GPU 利用率来自把多个小 decode step 合成 batch，请求隔离靠 batch slot、sequence offset、attention metadata、KV cache block table 和 chat template 共同维持。
 - LLM 协作现在加入思维阶段显性化线索：Exploring 要原理和类比，Brainstorming 要广度，Deciding 要 trade-off 和单一建议，Implementing 要精确产物与验证。
@@ -112,6 +114,7 @@ updated: 2026-06-19T08:37:57+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- Cursor-style codebase indexing shows that agent retrieval quality is a systems problem: meaning, exactness, freshness, permission proof, namespace economics, and context delivery must be designed together rather than delegated to one vector store.
 - Harness engineering is the wider control layer around coding agents: context engineering decides what to send the model, but harness engineering adds guides, sensors, templates, ground-truth fixtures, and human accountability so quality shifts left before line-by-line review.
 - LLM serving 的关键不是单个模型调用，而是把小粒度、自回归、动态长度的 token 工作重排成 GPU 能吃满的 batch；同时用 batch slot、attention 边界、KV block table 和 role 模板保持请求与对话语义不混淆。
 - 论理词不是普通连接词，而是推理关系的显影剂：它标记因果、转折、条件、解释、举例和总结等关系；理、欲、求、仁、道则更像思想范畴，负责提供论证对象和价值坐标。
