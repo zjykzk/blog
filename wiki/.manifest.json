@@ -1,10 +1,27 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 56,
-    "total_pages": 380
+    "total_sources_ingested": 57,
+    "total_pages": 382
   },
   "sources": {
+    "inline:buddhist-awakening-correction-2026-06-21": {
+      "ingested_at": "2026-06-21T13:45:05+0800",
+      "size_bytes": 3680,
+      "modified_at": "2026-06-21T13:45:05+0800",
+      "content_hash": "sha256:f031e15a3d2fce638b2b6aaaf504525379996901fe7909b5b93cc9d574a2ca7c",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/佛家觉悟结构.md",
+        "wiki/sources/佛家觉悟结构 Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     "https://arxiv.org/abs/2605.07358v1": {
       "ingested_at": "2026-05-18T15:01:48+08:00",
       "size_bytes": 6703935,
