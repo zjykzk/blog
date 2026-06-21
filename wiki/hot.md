@@ -1,23 +1,25 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured 佛家觉悟结构 as a cognition-first frame: action becomes clearer only after seeing through ignorance, self-clinging, craving, and conditioned arising.
+summary: Recent wiki activity captured Zima Blue as a self-return and no-self synthesis connecting infinite possibility, chosen finitude, becoming, attachment, and Buddhist cessation.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-21T13:45:05+0800
+updated: 2026-06-21T19:49:20+0800
 ---
 
 ## Recent Activity
+- 2026-06-21T19:49:20+0800 — 已捕获 [[wiki/syntheses/Zima Blue 自我回归与无我]]：把《Zima Blue》整理为从无限可能性回到有限自我、再被佛法追问无我的寓言，区分成为、选择、执著和止息。
 - 2026-06-21T13:45:05+0800 — 已摄入 [[wiki/sources/佛家觉悟结构 Source Guide]] 并新增 [[wiki/concepts/佛家觉悟结构]]：保留原始中文 source，把佛家底层问题整理为“怎么看见”而非“做什么”，并区分苦、无常、无我、缘起、解悟/证悟、戒定慧与具体行动。
 - 2026-06-21T13:32:21+0800 — 已捕获 [[wiki/sources/Agentic Reasoning for LLMs Paper Source Guide]]：保留 arXiv 2601.12538v1 的论文阅读和 QA 链，把 agentic reasoning 理解为推理从静态答题转向行动、反馈、记忆、自我进化和多智能体协作的控制循环。
 - 2026-06-19T21:44:08+0800 — 已捕获 [[wiki/concepts/生产资料与生产要素]]：把“生产资料”和“生产要素”整理为一组分析生产系统的双视角，前者看物质条件与控制权，后者看投入组合、效率来源和分配机制。
 
 ## Active Threads
 
+- 基本世界观现在加入 Zima Blue 线索：无限可能本身不能生成自我；自我需要承认来源、限制和责任，而佛法会进一步把“真实自我”拆成因缘和合，并把最终转折读作“成为”冲动的止息。
 - 基本世界观现在加入佛家觉悟结构线索：最底层不是先选择行动，而是破无明、看见苦、无常、无我和缘起；行动随后才从自我证明转为在清明、慈悲和因缘中的处理。
 - Agentic reasoning now has a source-level roadmap thread: the key shift is from static prompt-internal reasoning to reasoning that controls action, observes feedback, updates memory, and coordinates agents across foundational, self-evolving, and collective layers.
 - 生产系统分析现在加入生产资料/生产要素双视角：生产资料追问谁控制生产所需的工具、对象和基础设施，生产要素追问劳动、资本、技术、管理、数据、算力和平台如何组合成产出、效率与分配。
@@ -105,6 +107,7 @@ updated: 2026-06-21T13:45:05+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- Zima Blue 的关键不是“退回低级”，而是穿过无限升级后停止用宏大作品证明自我；存在主义读法强调主动选择有限自我，佛法读法进一步指出连这个“我”也是因缘链生成的临时结构。
 - 佛家觉悟结构把“选择”本身重新审查：没有觉悟时，许多选择只是业力、习气、恐惧和贪欲的自动反应；有了正见并经由戒定慧训练后，选择才更可能成为清明、慈悲和自由的行动。
 - Agentic reasoning expands the responsibility chain: once reasoning chooses tools, writes memory, adapts future behavior, or coordinates agents, evaluation must cover action consequences, state updates, attribution, and governance rather than final-answer correctness alone.
 - 生产资料与生产要素的差别，不只是名词范围不同：生产资料主要看生产发生所必需的物质条件及其控制权，生产要素主要看一个生产系统由哪些投入组合成产出、效率、增长和分配。

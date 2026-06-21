@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-06-13T18:20:57+0800
+updated: 2026-06-21T19:49:20+0800
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -163,6 +163,7 @@ aliases:
 - [[wiki/concepts/Knowledge as Network]]：知识不是塔，而是局部有序的网。
 - [[wiki/concepts/Cognition Three Channels]]：认识依赖接收、替代经验和想象推演三根生成器。
 - [[wiki/concepts/三个自我模型]]：成长要改写内核自我的预测模型、先验假设和更新规则。
+- [[wiki/syntheses/Zima Blue 自我回归与无我]]：把无限可能、有限自我、因缘生成和“成为”冲动的止息连成一条自我机制分析。
 
 适用问题：为什么我以为懂了但不会用？为什么输入很多却没有结构？为什么 AI 如果只代做会破坏学习反馈？
 

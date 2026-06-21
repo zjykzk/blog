@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-06-21T13:45:05+0800
+updated: 2026-06-21T19:49:20+0800
 aliases:
   - Wiki Log
 tags:
@@ -19,6 +19,7 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-06-21T19:49:20+0800] CAPTURE type=synthesis page="wiki/syntheses/Zima Blue 自我回归与无我.md" title="Zima Blue 自我回归与无我"
 - [2026-06-21T13:45:05+0800] INGEST source="inline:buddhist-awakening-correction-2026-06-21" pages_updated=3 pages_created=2 mode=append
 - [2026-06-21T13:32:21+0800] CAPTURE type=source page="wiki/sources/Agentic Reasoning for LLMs Paper Source Guide.md" title="Agentic Reasoning for LLMs Paper Source Guide"
 - [2026-06-19T21:44:08+0800] CAPTURE type=concept page="wiki/concepts/生产资料与生产要素.md" title="生产资料与生产要素"

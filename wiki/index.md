@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-06-21T13:45:05+0800
+updated: 2026-06-21T19:49:20+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -210,6 +210,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 ## Syntheses
 - [[wiki/syntheses/AI 泡沫判断的结构|AI 泡沫判断的结构]] — AI 泡沫判断要区分技术真实、资产价格过热和泡沫破裂后的价值残留，关键是哪些能力会穿越周期。 (#llm #judgment #wealth #mechanism)
 - [[wiki/syntheses/AI 时代开发岗位分层与协作|AI 时代开发岗位分层与协作]] — AI 降低代码生成成本后，开发岗位会分层为探索闭环、系统责任和执行交付；AI-native builder 与系统 owner 分别承担速度和长期性。 (#software-engineering #ai-coding #architecture #management #judgment)
+- [[wiki/syntheses/Zima Blue 自我回归与无我|Zima Blue 自我回归与无我]] — Zima Blue 可被读作从无限可能性回到有限自我、再被佛法追问无我的寓言：成为、选择、执著和止息在其中层层展开。 (#thinking #cognition #judgment #mechanism)
 - [[wiki/syntheses/大语言模型时代知识图谱的角色转变|大语言模型时代知识图谱的角色转变]] — 这篇课程综述草稿讨论知识图谱在 LLM 时代从结构化知识表示转向 GraphRAG、可信生成和知识治理基础设施。 (#论文 #知识图谱 #大语言模型 #GraphRAG)
 - [[wiki/syntheses/软件设计作为系统诊断|软件设计作为系统诊断]] — 软件设计可以被看作系统诊断：从代码事件下潜到重复模式、生成结构和心智模型，再用原则、模式、信息流和状态流转定位高杠杆改造点。 (#software-engineering #architecture #systems #thinking #mechanism)
 - [[wiki/syntheses/信息流与状态流转设计原则]] — 信息流设计回答事实如何传播、被谁相信并影响判断；状态流转设计回答对象如何沿合法路径变化、保持不变量并在失败后恢复。 (#software-engineering #architecture #systems #feedback #mechanism)
