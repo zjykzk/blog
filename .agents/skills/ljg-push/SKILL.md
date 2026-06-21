@@ -54,19 +54,17 @@ REPO_URL="git@github.com:lijigang/ljg-skills.git"
 
 ## 自动转换的范围
 
-md 分支同步时自动替换的字符串：
+md 分支同步时自动转换（2026-06-12 起含 org 文件本体）：
 
+- *org 文件本体*：skill 内每个 `.org` 文件（assets/ 除外）转成同名 `.md` 并删除原件——org 头块→YAML frontmatter（含 `---` 围栏，`filetags`→`tags`）、`*` 标题→`#` 标题（层级保留）、`#+ATTR_*` 行删除、`[[file:x]]`→`![](x)`、`#+begin_src`→``` 围栏。其他 .md 文件里对被改名文件的引用同步全局改写
 - 文件扩展引用：`__qa.org` → `__qa.md`、`__paper.org` → `__paper.md` 等（denote 命名约定）
-- 模板引用：`template.org` → `template.md`
 - 关键词：`org-mode` → `markdown`、`Org-mode` → `Markdown`
+- org 式格式指令：`加粗用 *bold*（单星号）…` → `加粗用 **bold**（双星号）`、`标题层级从 * 开始` → `从 # 开始`、`Org 文件头` → `Markdown 文件头`、行首 `#+title:` 等 8 个示例键 → YAML 键行
 
-*不会自动转换* 的内容（脚本不动，需要手工维护）：
+*仍不自动转换*（按需手工）：
 
-- `*bold*` → `**bold**`：在 markdown 文件里 `*bold*` 是斜体，自动替换会破坏文档自身格式
-- org 头 `#+title:` `#+date:` → YAML frontmatter：太复杂，留人工
-- 文件本体重命名：如 `references/template.org` 文件 → `references/template.md`
-
-碰到这些差异，脚本推完 md 分支后会列出 *仍有差异* 的文件清单，给一个 review checklist。
+- 正文里的 `*bold*` 标记：markdown 里 `*x*` 是斜体，盲替会破坏文档自身格式
+- SKILL.md 示例块里转出的 YAML 键行不带 `---` 围栏（已知整容项，不影响语义）
 
 ## Voice Notification
 
@@ -106,7 +104,7 @@ User: /ljg-push --dry-run
 - *脚本前提是 git credentials 已配好*（ssh key 或 PAT）—— ljg-push 不处理认证，认证失败时直接报错
 - *master 必须先推*——md 分支的 markdown 化基于 master 的 org 版本做转换。反过来推会破坏顺序
 - *untracked 杂物（如 `assets/measure.js`）会被 rsync 同步到 repo*——如果不想推，先在本地删掉，或加进 `.gitignore`
-- *自动 markdown 化只动字符串*——`*bold*` 和 org 头不动。md 分支的复杂差异（如 ljg-paper 的 `template.org` → `template.md`）需要继刚手工维护
+- *org 文件本体已自动转换（2026-06-12 起）*——template.org 等会被转成 .md 并删除原件，每次推送重新生成（rsync --delete 冲掉也无妨，幂等）。遗留手工项只剩正文里的 `*bold*` 标记。新增带复杂构件的 org reference 文件后，先 `--dry-run` 或沙盒跑一遍 mdize 看转换效果
 - *脚本会自动 bump patch version 在 plugin.json + marketplace.json*——如果你想 bump minor / major，先手动改完再跑脚本，脚本只追加 patch
 - *如果 md 分支的远端比本地新（继刚另一台机器推过）*，脚本会 `pull --rebase` 失败时尝试一次 `reset --hard origin/md` 重新应用——这会丢弃本地未推的 md 分支 commit。脚本前会提示
 - *搬迁记录*：repo 历史曾在 `~/.claude.backup-20260502/ljg-skills-repo/`（路径名带 backup 是历史遗留），2026-05-02 搬到 `~/code/ljg-skills/`
