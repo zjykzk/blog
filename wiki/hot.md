@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured production materials and production factors as paired lenses for control conditions, factor combination, efficiency, and distribution.
+summary: Recent wiki activity captured agentic reasoning as the shift from static answer generation to action, feedback, memory, learning, and coordination.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-19T21:44:08+0800
+updated: 2026-06-21T13:32:21+0800
 ---
 
 ## Recent Activity
+- 2026-06-21T13:32:21+0800 — 已捕获 [[wiki/sources/Agentic Reasoning for LLMs Paper Source Guide]]：保留 arXiv 2601.12538v1 的论文阅读和 QA 链，把 agentic reasoning 理解为推理从静态答题转向行动、反馈、记忆、自我进化和多智能体协作的控制循环。
 - 2026-06-19T21:44:08+0800 — 已捕获 [[wiki/concepts/生产资料与生产要素]]：把“生产资料”和“生产要素”整理为一组分析生产系统的双视角，前者看物质条件与控制权，后者看投入组合、效率来源和分配机制。
 - 2026-06-19T10:40:26+0800 — 已摄入 [[wiki/sources/Kimball Dimensional Modeling Techniques Source Guide]]：新增 [[wiki/topics/Dimensional Modeling]]、[[wiki/concepts/Fact Table]]、[[wiki/concepts/Dimension Table]]、[[wiki/concepts/Slowly Changing Dimension]]、[[wiki/concepts/Conformed Dimension]] 和 [[wiki/concepts/Data Warehouse Bus Matrix]]，把 Kimball 维度建模压成业务过程、粒度、事实、维度、历史和企业集成六个结构点。
 - 2026-06-19T09:30:54+0800 — Ingested [[wiki/sources/Cursor Codebase Indexing Source Guide]] and added [[wiki/concepts/Codebase Retrieval Index]]: Cursor code search is modeled as a two-index retrieval system combining semantic vectors, local sparse n-gram exact search, Merkle sync/proofs, namespace reuse, and file-backed dynamic context.
@@ -33,6 +34,7 @@ updated: 2026-06-19T21:44:08+0800
 
 ## Active Threads
 
+- Agentic reasoning now has a source-level roadmap thread: the key shift is from static prompt-internal reasoning to reasoning that controls action, observes feedback, updates memory, and coordinates agents across foundational, self-evolving, and collective layers.
 - 生产系统分析现在加入生产资料/生产要素双视角：生产资料追问谁控制生产所需的工具、对象和基础设施，生产要素追问劳动、资本、技术、管理、数据、算力和平台如何组合成产出、效率与分配。
 - Database/data-warehouse now has a dimensional-modeling thread: analytic schema design should begin from business process and declared grain, then use fact tables, dimension tables, conformed dimensions, SCD rules, and bus matrices to keep BI query semantics stable.
 - AI coding retrieval now has a codebase-indexing thread: semantic vector search and exact sparse n-gram search solve different agent failures, while Merkle trees handle sync/access proof and file-backed context keeps large retrieval outputs out of the prompt until needed.
@@ -118,6 +120,7 @@ updated: 2026-06-19T21:44:08+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- Agentic reasoning expands the responsibility chain: once reasoning chooses tools, writes memory, adapts future behavior, or coordinates agents, evaluation must cover action consequences, state updates, attribution, and governance rather than final-answer correctness alone.
 - 生产资料与生产要素的差别，不只是名词范围不同：生产资料主要看生产发生所必需的物质条件及其控制权，生产要素主要看一个生产系统由哪些投入组合成产出、效率、增长和分配。
 - Kimball dimensional modeling treats grain as the binding contract: if the row meaning is unclear, fact additivity, dimension validity, SCD history, aggregate navigation, and cross-process drilling all become unreliable.
 - Cursor-style codebase indexing shows that agent retrieval quality is a systems problem: meaning, exactness, freshness, permission proof, namespace economics, and context delivery must be designed together rather than delegated to one vector store.

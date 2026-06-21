@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-06-19T21:44:08+0800
+updated: 2026-06-21T13:32:21+0800
 aliases:
   - Wiki Log
 tags:
@@ -19,6 +19,7 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-06-21T13:32:21+0800] CAPTURE type=source page="wiki/sources/Agentic Reasoning for LLMs Paper Source Guide.md" title="Agentic Reasoning for LLMs Paper Source Guide"
 - [2026-06-19T21:44:08+0800] CAPTURE type=concept page="wiki/concepts/生产资料与生产要素.md" title="生产资料与生产要素"
 - [2026-04-29] LINT issues_found=21 orphans=0 broken_links=0 stale=0 contradictions=0 prov_issues=0 missing_summary=0 long_summary=1 fragmented_clusters=20 visibility_issues=0 promotion_candidates=0 synthesis_gaps=0 lifecycle_issues=0 index_issues=0 note="380 pages scanned; only findings are 1 over-length summary and broad routing-tag clusters (known/by-design)"
 - [2026-06-19T10:40:26+0800] INGEST source="https://www.kimballgroup.com/wp-content/uploads/2013/08/2013.09-Kimball-Dimensional-Modeling-Techniques11.pdf" pages_updated=4 pages_created=8 mode=append

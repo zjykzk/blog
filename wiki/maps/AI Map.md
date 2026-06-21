@@ -7,6 +7,7 @@ category: maps
 sources:
   - https://arxiv.org/abs/2603.07670
   - https://arxiv.org/abs/2601.12560v1
+  - https://arxiv.org/abs/2601.12538
   - https://arxiv.org/abs/2605.07358v1
   - https://arxiv.org/abs/2605.23023
 created: 2026-05-04
@@ -17,8 +18,8 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 4
-updated: 2026-06-19T09:30:54+0800
+source_count: 5
+updated: 2026-06-21T13:32:21+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -128,6 +129,7 @@ tags:
 - `pages/karpathy-guidelines.md`
 - [[wiki/sources/Agent Systems Papers Source Guide]]
 - [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]]
+- [[wiki/sources/Agentic Reasoning for LLMs Paper Source Guide]] — arXiv 2601.12538v1 source guide for agentic reasoning as action-coupled reasoning across foundational, self-evolving, and collective layers.
 - [[wiki/sources/Bayes-Consistent Agentic Orchestration Paper River Source Guide]]
 - [[wiki/sources/Human-LLM Collaborative Planning Paper Source Guide]] — AMBIPOM paper guide for human steering of multi-agent plan DAGs through mode, scope, and edit-level interactions.
 - [[wiki/sources/Dive into Claude Code Source Guide]]
