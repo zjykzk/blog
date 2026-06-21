@@ -9,7 +9,7 @@ sources:
   - https://open.substack.com/pub/nanothoughts/p/company-brain-part-3-interaction?utm_campaign=post&utm_medium=web
 created: 2026-05-08T20:38:05+08:00
 updated: 2026-05-08T20:54:16+08:00
-base_confidence: 0.61
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 provenance:

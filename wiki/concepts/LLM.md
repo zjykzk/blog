@@ -8,7 +8,7 @@ sources:
   - https://www.aleksagordic.com/blog/vllm
   - inline:life-of-a-token-2026-05-09
 created: 2026-05-01
-base_confidence: 0.57
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:

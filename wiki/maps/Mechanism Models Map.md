@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-06-11T10:00:26+08:00
+updated: 2026-06-13T18:20:57+0800
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -74,6 +74,7 @@ aliases:
 - [[wiki/topics/Problem Framing]]：先审查问题边界、目标和前提，避免在错误问题里高效求解。
 - [[wiki/topics/Mental Models]]：把经验压成可复用的判断结构，但需要现实反馈校验。
 - [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]：把复杂问题从混沌状态转成可处理结构，先横向展开，再纵向追问近因、系统/流程原因和人的原因。
+- [[wiki/sources/四层次原因分析法 Source Guide]]：把线性问题原因分析推进为四层路径：先切出可追因子问题，再用数据验证直接原因，继续追系统流程漏洞，最后才做人因与管理设计分析。
 - [[wiki/sources/发现和定义问题 Source Guide]]：把模糊异常转成 Problem，再确认根因、价值和可变性，最后定义为可衡量且可共识的 Issue。
 
 适用问题：我是否抓住本质？这个解释能不能解释多个现象？它能不能迁移到新场景？
@@ -100,6 +101,8 @@ aliases:
 - [[wiki/topics/Testing Strategy]]：测试通过分层、质量门和 AI 时代验证机制增加对变化正确性的信心。
 - [[wiki/syntheses/Quality Engineering Three Generators]]：质量工程通过“承诺清楚、偏差显形、修正闭环”控制系统承诺和真实结果之间的偏离。
 - [[wiki/sources/软件工程中的稳定性治理的秩 Source Guide]]：把稳定性治理解释为变化入口、故障传染和回拉能力三根生成器的反馈环。
+- [[wiki/sources/AI 工程化不是提效 是换主回路 QA Source Guide]]：用问答链把 AI 工程化解释为从人脑主回路迁移到确定性裁判约束下的认知产线。
+- [[wiki/sources/软件工程真正降临 Source Guide]]：把 AI 软件工程解释为能源换高阶智能、确定性裁判、闭环反馈、分治继承和隐性知识蒸馏共同生成工程可靠性的机制。
 - [[wiki/concepts/Conceptual Integrity]]：系统所有部分像从同一个世界观中长出来，用户、程序员和机器面对的是同一套概念结构。
 - [[wiki/concepts/Software Analysis Three Generators]]：软件分析可压到组织、交换、边界三根生成器。
 - [[wiki/concepts/Software Design Three Generators]]：软件设计可压到责任、协作、抗变三根生成器。

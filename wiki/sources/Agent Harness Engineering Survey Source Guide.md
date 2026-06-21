@@ -15,7 +15,7 @@ provenance:
   extracted: 0.91
   inferred: 0.08
   ambiguous: 0.01
-base_confidence: 0.42
+base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-28
 aliases:
@@ -24,7 +24,6 @@ aliases:
   - ETCLOVG Survey
   - Awesome-Agent-Harness
 ---
-
 # Agent Harness Engineering Survey Source Guide
 
 > Source: Junjie Li et al., "Agent Harness Engineering: A Survey", under review as submission to TMLR, PDF at https://picrew.github.io/LLM-Harness/main.pdf

@@ -13,7 +13,7 @@ sources:
   - /Users/zenk/Documents/notes/20260506T211953--概念解剖-创造__concept.org
   - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
 created: 2026-04-21
-base_confidence: 0.74
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 7
@@ -29,7 +29,6 @@ provenance:
   inferred: 0.15
   ambiguous: 0.00
 ---
-
 # Mental Models
 
 这页聚合的是一组可以反复调用的思维工具，而不是某个单一学科知识点。

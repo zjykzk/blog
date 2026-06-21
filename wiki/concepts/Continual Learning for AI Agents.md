@@ -16,7 +16,7 @@ provenance:
   extracted: 0.79
   inferred: 0.19
   ambiguous: 0.02
-base_confidence: 0.70
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: "2026-05-09"
 created: 2026-05-09T22:17:54+08:00

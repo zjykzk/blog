@@ -9,7 +9,7 @@ sources:
   - https://arxiv.org/abs/2604.14228
 created: 2026-04-22T00:00:00+08:00
 updated: 2026-05-22T21:13:00+08:00
-base_confidence: 0.62
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 1

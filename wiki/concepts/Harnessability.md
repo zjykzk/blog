@@ -9,7 +9,7 @@ sources:
   - https://www.chrismdp.com/coding-with-ai/
 created: 2026-05-06T22:24:21+08:00
 updated: 2026-05-07T22:03:56+08:00
-base_confidence: 0.61
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 provenance:

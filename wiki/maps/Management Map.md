@@ -12,7 +12,7 @@ base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-06-11T10:00:26+08:00
+updated: 2026-06-13T18:08:13+0800
 aliases:
   - 管理地图
 tags:
@@ -54,8 +54,10 @@ tags:
 ## Source layer
 
 - [[wiki/sources/组织角色与 AI 适配 Source Guide]]
+- [[wiki/sources/软件工程真正降临 Source Guide]] — 中文长文：把 AI 时代研发组织重构为继承分治边界的认知产线，强调分工协调总线、产线设计师和认知边界守卫。
 - [[wiki/sources/Chatham House Rule Source Guide]]
 - [[wiki/sources/高难度沟通 Source Guide]] — 高压沟通 source guide：用真实目标、情绪管理、情感需求和双向推进处理冲突、争取与推进。
+- [[wiki/sources/四层次原因分析法 Source Guide]] — 中文方法文章：分析线性问题时先拆问题和验证直接原因，再追流程漏洞，最后把人因放回流程防错、能力匹配和激励机制中处理。
 - [[wiki/sources/发现和定义问题 Source Guide]] — 中文问题定义文章：把组织中的异常信号转成可衡量、可共识、可行动的 Issue，强调目标对齐和系统性失明风险。
 - [[wiki/sources/Mobu Notes]]
 - [[wiki/sources/How to Get Rich Source Guide]]

@@ -8,7 +8,7 @@ sources:
   - /Users/zenk/Documents/notes/20260506T194300--概念解剖-分析__concept.org
   - /Users/zenk/Documents/notes/20260506T201315--概念解剖-应用__concept.org
 created: 2026-04-21
-base_confidence: 0.53
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 7

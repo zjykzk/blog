@@ -19,11 +19,10 @@ provenance:
   extracted: 0.66
   inferred: 0.28
   ambiguous: 0.06
-base_confidence: 0.62
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-31
 ---
-
 # GEPA Paper River Source Guide
 
 > Source: GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning, plus the generated paper-river note at `/Users/zenk/Documents/notes/20260531T111953--paper-river-gepa-reflective-prompt-evolution__paper_river.org`.

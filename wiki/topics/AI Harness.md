@@ -2,7 +2,7 @@
 title: AI Harness
 type: topic
 status: growing
-summary: AI Harness is the runtime order layer that governs agent perception, context, tools, permissions, memory, workflow graphs, recovery, evaluation, and feedback loops.
+summary: AI Harness is the runtime order layer that governs agent perception, context, tools, permissions, memory, workflow graphs, human steering, recovery, evaluation, and feedback loops.
 category: topics
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
@@ -19,16 +19,17 @@ sources:
   - https://arxiv.org/abs/2603.28052
   - https://arxiv.org/abs/2603.07670
   - https://arxiv.org/abs/2601.12560v1
+  - https://arxiv.org/abs/2605.23023
 created: 2026-05-04
-base_confidence: 0.80
+base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.87
   inferred: 0.12
   ambiguous: 0.01
-source_count: 14
-updated: 2026-05-13T10:37:07+08:00
+source_count: 15
+updated: 2026-06-09T14:38:26+08:00
 aliases:
   - harness
 tags:
@@ -142,6 +143,14 @@ This matters because the same model can be moved between harnesses and expose ve
 The paper's six-part [[wiki/concepts/Agentic AI Architecture Taxonomy]] also gives a useful checklist for harness scope: core components, cognitive architecture, learning, multi-agent coordination, environment, and evaluation/safety. In wiki terms, these are not separate feature categories. They are coupled runtime surfaces that determine whether [[wiki/concepts/Agent]] behavior remains controllable under real deployment constraints. ^[inferred]
 
 [[wiki/concepts/Workflow Graph Orchestration]] sharpens the control side: explicit workflow graphs and state machines make permissible transitions, checkpoints, guard nodes, and approval steps inspectable. This is a harness answer to the same failure modes the paper names: hallucination in action, infinite loops, latency blowups, prompt injection, and unstable recovery. ^[inferred]
+
+## Human steering over plans
+
+[[wiki/sources/Human-LLM Collaborative Planning Paper Source Guide]] adds a human-steering surface to harness design: in orchestrated multi-agent systems, the plan itself can become an inspectable and editable runtime artifact. AMBIPOM represents plans as DAGs whose nodes are agent-executable subtasks and whose edges encode data dependencies, then lets users steer through global feedback, targeted subgraph feedback, direct manipulation, and LLM-assisted merge/split operations.
+
+This reframes human-in-the-loop control: the human is not merely approving a final output, but supervising the process layer where decomposition, agent assignment, data dependencies, execution traces, and boundary contracts are visible. ^[inferred]
+
+The paper also sharpens a harness failure mode: richer editing lowers authoring effort but shifts burden to verification and integration. A co-planning harness therefore needs edit preview, boundary compatibility checks, orphan-node detection, I/O mismatch warnings, and domain-specific output inspection panels, not only a stronger planner model.
 
 ## Design dimensions
 

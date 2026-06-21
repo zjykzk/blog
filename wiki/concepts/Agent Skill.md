@@ -12,14 +12,14 @@ sources:
   - https://arxiv.org/abs/2604.27488
   - https://arxiv.org/abs/2605.07358v1
 created: 2026-05-06T10:51:47+08:00
-updated: 2026-06-01T16:18:53+0800
-base_confidence: 0.84
+updated: 2026-06-09T14:38:22+08:00
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 provenance:
-  extracted: 0.76
-  inferred: 0.23
-  ambiguous: 0.01
+  extracted: 0.85
+  inferred: 0.15
+  ambiguous: 0.00
 aliases:
   - agent skills
   - AI skill
@@ -32,7 +32,7 @@ tags:
 
 An agent skill is not just a saved prompt. Thariq Shihipar's Claude Code article frames skills as folders that can contain instructions, reference files, scripts, assets, data, configuration, memory, and hooks that the agent can discover and use.
 
-That makes a skill a reusable capability bundle: it can shape context, provide executable helpers, preserve local knowledge, and activate workflow-specific guardrails. ^[inferred]
+That makes a skill a reusable capability bundle: it can shape context, provide executable helpers, preserve local knowledge, and activate workflow-specific guardrails.
 
 ## Durable Skill Shapes
 
@@ -78,7 +78,7 @@ This connects to [[wiki/concepts/Encoding Team Standards]] because shared skills
 
 [[wiki/sources/ADK Skill Design Patterns Source Guide]] adds a content-architecture taxonomy for SKILL.md files. It distinguishes five recurring patterns: Tool Wrapper, Generator, Reviewer, Inversion, and Pipeline.
 
-The important shift is from file format to control problem. A skill may have the same container layout but behave differently depending on whether it is supplying domain conventions, enforcing an output template, applying a rubric, interviewing for missing context, or preserving step order with gates. ^[inferred]
+The important shift is from file format to control problem. A skill may have the same container layout but behave differently depending on whether it is supplying domain conventions, enforcing an output template, applying a rubric, interviewing for missing context, or preserving step order with gates.
 
 ## Lifecycle View
 
@@ -86,7 +86,7 @@ The important shift is from file format to control problem. A skill may have the
 
 The survey's formal view describes a skill as a bounded procedural artifact with a root instruction document, optional auxiliary resources, and applicability conditions. That strengthens the local definition: a skill has both a **body** that tells the agent how to act and a **routing boundary** that decides when the body should enter the workflow.
 
-The lifecycle view also makes cleanup part of the concept. Skill systems can grow by adding new files, but mature skill infrastructure must also validate, revise, merge, deprecate, and retire skills as tasks, APIs, tools, and safety constraints change. ^[inferred]
+The lifecycle view also makes cleanup part of the concept. Skill systems can grow by adding new files, but mature skill infrastructure must also validate, revise, merge, deprecate, and retire skills as tasks, APIs, tools, and safety constraints change.
 
 The article also makes the `description` field operationally important: it is the agent's routing surface for whether a skill is loaded at all. That connects skill authoring directly to [[wiki/topics/Tool Routing]]. ^[inferred]
 
@@ -94,15 +94,15 @@ The article also makes the `description` field operationally important: it is th
 
 [[wiki/sources/Skills-Coach Paper Source Guide]] adds a behavioral optimization lens. A skill should be tested against generated standard, advanced, and boundary tasks, then improved through revised instructions, examples, constraints, or code helpers.
 
-This shifts skill quality from static readability to task coverage: a skill is not mature merely because its `Skill.md` is well written; it must survive edge cases, anomalous inputs, and real execution artifacts. ^[inferred]
+This shifts skill quality from static readability to task coverage: a skill is not mature merely because its `Skill.md` is well written; it must survive edge cases, anomalous inputs, and real execution artifacts.
 
-The paper's [[wiki/concepts/Skill Self-Evolution]] loop also makes evaluation part of skill design. If repeated failures become revised instructions or code after comparative execution, a skill becomes an inspectable learning surface rather than a frozen prompt bundle. ^[inferred]
+The paper's [[wiki/concepts/Skill Self-Evolution]] loop also makes evaluation part of skill design. If repeated failures become revised instructions or code after comparative execution, a skill becomes an inspectable learning surface rather than a frozen prompt bundle.
 
 ## Person-Grounded Skills
 
 [[wiki/sources/COLLEAGUE.SKILL Paper Source Guide]] adds the person-grounded case. A skill can be distilled from traces of a person or role, but the useful target is not identity replacement. The artifact should preserve selected capability, mental models, behavior boundaries, correction history, provenance, and lifecycle state.
 
-This strengthens the distinction between craft and persona. In a colleague setting, the highest-value artifact is often the expert's review judgment, escalation thresholds, and decision heuristics; surface style is a separate behavior track that may be invoked, corrected, or withheld independently. ^[inferred]
+This strengthens the distinction between craft and persona. In a colleague setting, the highest-value artifact is often the expert's review judgment, escalation thresholds, and decision heuristics; surface style is a separate behavior track that may be invoked, corrected, or withheld independently.
 
 ## Open Questions
 
@@ -126,3 +126,4 @@ This strengthens the distinction between craft and persona. In a colleague setti
 - [[wiki/sources/Claude Code Skills Source Guide]]
 - [[wiki/sources/Seeing Like an Agent Source Guide]]
 - [[wiki/sources/COLLEAGUE.SKILL Paper Source Guide]]
+- [[wiki/syntheses/Agent Skill × Harness Ratchet]] — synthesis

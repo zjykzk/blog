@@ -6,14 +6,15 @@ summary: Workflow Graph Orchestration models agent work as explicit state-machin
 category: concepts
 sources:
   - https://arxiv.org/abs/2601.12560v1
+  - https://arxiv.org/abs/2605.23023
 created: 2026-05-13T10:37:07+08:00
-updated: 2026-05-13T10:37:07+08:00
+updated: 2026-06-09T14:38:26+08:00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: "2026-05-13"
 provenance:
-  extracted: 0.78
-  inferred: 0.20
+  extracted: 0.80
+  inferred: 0.18
   ambiguous: 0.02
 aliases:
   - graph based orchestration
@@ -23,6 +24,7 @@ tags:
   - agents
   - orchestration
   - workflow
+source_count: 2
 ---
 # Workflow Graph Orchestration
 
@@ -36,6 +38,14 @@ Workflow Graph Orchestration 是把 agent 执行建模为显式 workflow graph �
 - guard nodes 和 approval steps 让高风险动作回到权限边界
 - workflow boundary 降低 runaway loop 的动作空间
 - 显式 graph 让 debug、observability 和 evaluation 更容易落地
+
+## Human Steering Layer
+
+[[wiki/sources/Human-LLM Collaborative Planning Paper Source Guide]] adds a process-supervision angle: when a multi-agent plan is represented as a DAG, the graph becomes not only an execution object but also a human steering surface. Users can intervene by semantic feedback, direct graph manipulation, targeted subgraph replanning, or high-level structural operations such as merge and split.
+
+The paper's three-axis space connects workflow graphs to [[wiki/concepts/Human-LLM Co-Planning Interaction Space]]: mode decides whether the human edits structure or intent, scope decides whether changes affect the full plan or a selected subgraph, and level decides whether the edit is atomic or compositional. This makes graph orchestration a collaboration protocol rather than only a runtime control structure. ^[inferred]
+
+The main design warning is that targeted subgraph revisions preserve local stability but introduce boundary-integration risk: the edited subgraph must still match the unchanged plan's input/output contracts.
 
 ## Relation to Harness
 

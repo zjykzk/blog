@@ -8,7 +8,7 @@ tags: []
 sources:
   - inline:understanding-cloud-2026-05-06
 created: 2026-05-03
-base_confidence: 0.42
+base_confidence: 0.32
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 updated: 2026-05-06T19:18:40+08:00
@@ -20,7 +20,6 @@ provenance:
   inferred: 0.16
   ambiguous: 0.00
 ---
-
 # Concept
 
 概念不是词，而是有限生命面对连续世界时制造的边界。

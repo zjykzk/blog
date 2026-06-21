@@ -10,7 +10,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
   - https://www.chrismdp.com/coding-with-ai/
 created: 2026-04-26
-base_confidence: 0.76
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:

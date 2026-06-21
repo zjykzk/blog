@@ -19,7 +19,7 @@ provenance:
   extracted: 0.91
   inferred: 0.09
   ambiguous: 0.0
-base_confidence: 0.60
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-17
 aliases:
@@ -27,7 +27,6 @@ aliases:
   - Martin Fowler mechanical sympathy principles
   - Caer Sanders mechanical sympathy
 ---
-
 # Principles of Mechanical Sympathy Source Guide
 
 > Source: Caer Sanders, "Principles of Mechanical Sympathy", Martin Fowler, https://martinfowler.com/articles/mechanical-sympathy-principles.html

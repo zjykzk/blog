@@ -10,7 +10,7 @@ sources:
   - https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
 created: 2026-05-08T15:58:41+08:00
 updated: 2026-05-08T22:24:16+08:00
-base_confidence: 0.78
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 provenance:

@@ -3,19 +3,22 @@ title: Thinking in Systems
 type: topic
 status: draft
 category: topics
-summary: 一本关于系统视角的入门书，但真正重要的不是术语，而是一个判断翻转： 问题反复出现，优先怀疑系统结构，而不是个体意志。
+summary: >-
+  系统视角把反复问题和干预后果放进事件、模式、结构、反馈、延迟和心智模型中理解。
+
 tags: []
 sources:
   - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
+  - inline:laws-of-software-engineering-unintended-consequences-2026-06-09
 created: 2026-04-26
 base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.96
-  inferred: 0.04
+  extracted: 0.91
+  inferred: 0.09
   ambiguous: 0.00
-updated: 2026-05-09T20:15:00+08:00
+updated: 2026-06-09T10:20:40+08:00
 aliases:
   - Thinking in Systems: A Primer
   - 系统之美
@@ -139,6 +142,12 @@ Agent 的行为不是 prompt 单点决定的，而是由上下文质量、工具
 6. 这个系统真正优化的目标是什么？
 7. 我现在改的是参数，还是规则、信息流、目标函数？
 
+## 干预与意外后果
+
+[[wiki/concepts/Law of Unintended Consequences]] 给系统思考补上一条干预侧提醒：看见结构不等于完全控制结构。复杂系统包含依赖、反馈、延迟和人的适应行为，所以一个设计良好的改变仍可能生成意外收益、副作用，甚至让原问题更严重。
+
+因此，系统干预应该被当成可观察、可回滚、可学习的实验，而不是一次性命令。^[inferred]
+
 ## 边界
 
 系统视角很强，但不是万能钥匙。
@@ -152,6 +161,7 @@ Agent 的行为不是 prompt 单点决定的，而是由上下文质量、工具
 
 - [[wiki/concepts/Iceberg Model]]
 - [[wiki/concepts/Feedback Loops]]
+- [[wiki/concepts/Law of Unintended Consequences]]
 - [[wiki/concepts/Leverage Points]]
 - [[wiki/topics/Learning Methodology]]
 - [[wiki/topics/Mental Models]]

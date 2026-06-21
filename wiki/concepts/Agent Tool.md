@@ -9,7 +9,7 @@ sources:
   - https://x.com/akshay_pachaar/status/2041146899319971922
   - https://x.com/trq212/status/2027463795355095314
 created: 2026-04-20
-base_confidence: 0.78
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:

@@ -8,7 +8,7 @@ tags: []
 sources:
   - inline:understanding-cloud-2026-05-06
 created: 2026-04-26
-base_confidence: 0.42
+base_confidence: 0.32
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 updated: 2026-05-06T19:18:40+08:00
@@ -21,7 +21,6 @@ provenance:
   inferred: 0.14
   ambiguous: 0.00
 ---
-
 # Knowledge as Network
 
 知识没有全局层级，只有局部的序。看起来像金字塔，其实是张网。

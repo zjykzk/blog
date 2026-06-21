@@ -11,32 +11,13 @@
             "id": "a9f87afd1bd3f1b1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/syntheses/harness-root-ranks.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "harness-root-ranks"
-            }
-          },
-          {
-            "id": "563d95f9033203d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/syntheses/harness-root-ranks.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "harness-root-ranks"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "LLM-Harness",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -224,36 +204,39 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a5fd56c06f3d8cb7",
+  "active": "7580ab20bfa01a4b",
   "lastOpenFiles": [
-    "wiki/sources/AI 软件工程问答 Source Guide.md",
+    "content/posts/cs/dist/buffer.md",
+    "wiki/maps/Self-Evolving Agents Map.md",
+    "wiki/concepts/生产资料与生产要素.md",
+    "wiki/sources/Kimball Dimensional Modeling Techniques Source Guide.md",
+    "wiki/concepts/Data Warehouse Bus Matrix.md",
+    "wiki/concepts/Conformed Dimension.md",
+    "wiki/concepts/Slowly Changing Dimension.md",
+    "wiki/concepts/Dimension Table.md",
+    "wiki/concepts/Fact Table.md",
+    "wiki/concepts/Dimensional Design Grain.md",
+    "wiki/topics/Dimensional Modeling.md",
+    "wiki/concepts/Codebase Retrieval Index.md",
+    "wiki/sources/Cursor Codebase Indexing Source Guide.md",
+    "wiki/syntheses/LLM Serving Request Structure.md",
+    "wiki/topics/面向对象分析与设计.md",
+    "wiki/sources/贝尔曼方程与大模型意识圆桌 Source Guide.md",
+    "wiki/concepts/LLM 协作思维阶段.md",
+    "wiki/concepts/论理词与范畴词.md",
+    "wiki/concepts/Software Analysis Three Generators.md",
+    "wiki/sources/Software Methodology by Pan Jianyu.md",
+    "wiki/maps/CS Map.md",
+    "wiki/log.md",
+    "wiki/sources/可计算性问答 Source Guide.md",
+    "wiki/concepts/可计算性模型.md",
+    "wiki/hot.md",
+    "wiki/maps/Mechanism Models Map.md",
+    "wiki/syntheses/上海招聘市场40岁以上程序员求职分析.html",
+    "mobu/读书/modern_software_engineering-幕布图片-195155-330004.png",
+    "mobu/读书/modern_software_engineering-幕布图片-147011-551432.png",
     "ai.png",
-    "wiki/sources/Agent Harness Engineering Survey Source Guide.md",
-    "wiki/sources/快思考慢思考物理机制问答 Source Guide.md",
-    "wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide.md",
-    "wiki/sources/Humans and Agents in Software Engineering Loops Source Guide.md",
-    "wiki/maps/AI Map.md",
     "_meta/content-index.base",
-    "AGENTS.md",
-    "wiki/syntheses/总结式读书的认知损失.md",
-    "wiki/topics/Mental Models.md",
-    "themes/devise/exampleSite/content/homepage/work.md",
-    "wiki/index.md",
-    "wiki/sources/Fallacies of Distributed Computing Source Guide.md",
-    "wiki/sources/Second-System Effect Source Guide.md",
-    "wiki/sources/React 状态范围与复杂全局状态 Source Guide.md",
-    "wiki/sources/web_chunk.md",
-    "wiki/sources/知识图谱的秩 Source Guide.md",
-    "wiki/sources/从知识堆积到结构化记忆 Source Guide.md",
-    "wiki/syntheses/大语言模型时代知识图谱的角色转变.md",
-    "wiki/sources/Bayes-Consistent Agentic Orchestration Paper River Source Guide.md",
-    "wiki/sources/Life of a Token Source Guide.md",
-    "wiki/sources/光速不变与相对性原则问答 Source Guide.md",
-    "wiki/concepts/Tokenization.md",
-    "wiki/concepts/Neural Network Inference Boundary.md",
-    "wiki/concepts/Next-Token Pipeline.md",
-    "wiki/sources/How LLMs Actually Work Source Guide.md",
-    "Excalidraw/agent.excalidraw.md",
     "wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide.md.tmp.60422.b5c4872b1fcd",
     "wiki/hot.md.tmp.60422.7f5b972d6ec5",
     "wiki/sources/Untitled.canvas",
@@ -267,12 +250,9 @@
     "iceberg-model-large.png",
     "iceberg-model-page.png",
     "skills",
-    "Excalidraw/backend.excalidraw",
     "Untitled.canvas",
     "Pasted image 20260421133444.png",
     "raw/HRiwbM75WooKMuxkev3cKjqHnie.PNG",
-    "token.png",
-    "mobu/读书/modern_software_engineering-幕布图片-195155-330004.png",
-    "mobu/读书/modern_software_engineering-幕布图片-147011-551432.png"
+    "token.png"
   ]
 }

@@ -3,11 +3,14 @@ title: Modern Software Engineering
 type: topic
 status: seed
 category: topics
-summary: 这页讨论的不是某一条具体方法流派的历史，而是一个更高层的方法论总纲：如何把软件开发理解为一种经验主义、证据驱动的问题求解活动。
+summary: >-
+  Modern Software Engineering treats software development as empirical, evidence-driven problem solving under change, feedback, AI collaboration, and unintended consequences.
+
 sources:
   - https://martinfowler.com/articles/reduce-friction-ai/
   - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
+  - inline:laws-of-software-engineering-unintended-consequences-2026-06-09
   - https://dora.dev/guides/dora-metrics/
 created: 2026-04-21
 base_confidence: 0.55
@@ -17,7 +20,7 @@ provenance:
   extracted: 0.82
   inferred: 0.18
   ambiguous: 0.00
-source_count: 6
+source_count: 5
 updated: 2026-06-11T17:49:52+08:00
 aliases:
   - 软件工程
@@ -63,6 +66,12 @@ This fits the modern software engineering view because AI-assisted development s
 [[wiki/concepts/Encoding Team Standards]] adds a second modern software engineering angle: AI collaboration quality should be improved by systems, not only by individual skill. Treating instructions as repository infrastructure makes team standards visible, reviewable, and improvable through the same feedback loops as code, tests, lint rules, and CI pipelines.
 
 [[wiki/concepts/Feedback Flywheel]] makes the empirical loop explicit: AI collaboration should be measured by review burden, iteration cycles, first-pass acceptance, and post-merge rework, then those signals should update the artifacts that guide future AI work.
+
+## Change as empirical intervention
+
+[[wiki/concepts/Law of Unintended Consequences]] strengthens the empirical reading of software engineering: a change is not only an implementation step, but an intervention in a complex socio-technical system.
+
+A feature, fix, logging change, security policy, or UI simplification can produce unexpected benefits, side effects, or perverse results. That means mature engineering practice needs release discipline, rollback paths, observability, and post-change learning, not only pre-change design confidence. ^[inferred]
 
 ## Software delivery performance
 

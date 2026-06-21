@@ -13,13 +13,13 @@ sources:
   - wiki/concepts/Verification Loop
   - wiki/sources/Coding with AI Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-05-23T02:28:40+08:00
+updated: 2026-06-09T10:56:14+08:00
 summary: In AI coding, testing strategy becomes harness design: tests are runtime feedback surfaces, not only post-implementation QA.
 provenance:
   extracted: 0.22
   inferred: 0.70
   ambiguous: 0.08
-base_confidence: 0.78
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-23
 ---

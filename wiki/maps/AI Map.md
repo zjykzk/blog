@@ -8,16 +8,17 @@ sources:
   - https://arxiv.org/abs/2603.07670
   - https://arxiv.org/abs/2601.12560v1
   - https://arxiv.org/abs/2605.07358v1
+  - https://arxiv.org/abs/2605.23023
 created: 2026-05-04
-base_confidence: 1.00
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 3
-updated: 2026-06-05T12:28:56+0800
+source_count: 4
+updated: 2026-06-19T09:30:54+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -33,6 +34,7 @@ tags:
 
 - [[wiki/concepts/Agent]]
 - [[wiki/concepts/Workflow Graph Orchestration]]
+- [[wiki/concepts/Human-LLM Co-Planning Interaction Space]]
 - [[wiki/concepts/Agent Evaluation CLASSic Framework]]
 - [[wiki/concepts/Agentic AI Architecture Taxonomy]]
 - [[wiki/concepts/Agentic Control Loop]]
@@ -100,6 +102,7 @@ tags:
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/Learnable Structure in Data]]
 - [[wiki/topics/LLM Inference Systems]]
+- [[wiki/topics/TRAE Agent Capability Preparation Plan]] — 面向 AI Coding Agent 能力优化岗位的架构、上下文、调度、模型、验证和评估准备路线。
 
 ## Maps
 
@@ -126,6 +129,7 @@ tags:
 - [[wiki/sources/Agent Systems Papers Source Guide]]
 - [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]]
 - [[wiki/sources/Bayes-Consistent Agentic Orchestration Paper River Source Guide]]
+- [[wiki/sources/Human-LLM Collaborative Planning Paper Source Guide]] — AMBIPOM paper guide for human steering of multi-agent plan DAGs through mode, scope, and edit-level interactions.
 - [[wiki/sources/Dive into Claude Code Source Guide]]
 - [[wiki/sources/Before the Tool Call Source Guide]]
 - [[wiki/sources/Qiaomu Best Prompt Source Guide]]
@@ -137,6 +141,7 @@ tags:
 - [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]]
 - [[wiki/sources/Memory in the Age of AI Agents Paper Source Guide]]
 - [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide]]
+- [[wiki/sources/Memory-as-a-Tool Paper River Source Guide]] — 论文倒读法：把反馈从 CoT/Self-Refine/Reflexion 的一次性修正推进到文件化 guideline memory。
 - [[wiki/sources/AI Memory Survey Source Guide]]
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
@@ -170,6 +175,9 @@ tags:
 - [[wiki/sources/Continual Learning for AI Agents Source Guide]]
 - [[wiki/sources/Meta-Harness Paper Source Guide]]
 - [[wiki/sources/GEPA Paper River Source Guide]] — GEPA 论文倒读法：把 prompt/agent 优化从自动 prompt 搜索、DSPy/MIPROv2 多模块优化、TextGrad/GRPO 反馈路线推进到轨迹反思和 Pareto 进化。
+- [[wiki/sources/SkillOpt Paper River Source Guide]] — SkillOpt 论文倒读法：把 skill 自进化从轨迹反思和技能库路线推进到失败根因、候选选择和改动前后验证。
+- [[wiki/sources/SkillOpt Paper Source Guide]] — SkillOpt 原论文 source guide：把 agent skill 当成可训练外部状态，用 bounded text edits、held-out gate、rejected-edit buffer 和 slow/meta update 训练 compact best_skill.md。
+- [[wiki/sources/Raw Experience to Skill Consumption Paper Source Guide]] — 生命周期研究：把 model-generated skills 从 raw trajectories 到 extraction 再到 consumption 逐段评估，强调负迁移、文本裁判失效和 utility-grounded meta-skill rubric。
 - [[wiki/sources/Agent Skills Data-Driven Analysis Paper Source Guide]]
 - [[wiki/sources/Agent Skills Survey Paper Source Guide]]
 - [[wiki/sources/Skills-Coach Paper Source Guide]]
@@ -180,7 +188,9 @@ tags:
 - [[wiki/sources/组织角色与 AI 适配 Source Guide]]
 
 - [[wiki/sources/Agentic-First Source Guide]]
+- [[wiki/sources/AI 工程化不是提效 是换主回路 QA Source Guide]] — ljg-qa 问答链：用 10 个问题把 AI 工程化压成“换主回路”而不是 Copilot 式提效。
 - [[wiki/sources/AI 软件工程问答 Source Guide]] — 中文问答链：把 AI 软件工程解释为从人脑主回路迁移到 AI 中心产线、确定性裁判、分治协调和隐性知识蒸馏的工程化路径。
+- [[wiki/sources/软件工程真正降临 Source Guide]] — 中文长文：把大模型定位为“能源换高阶智能”的认知引擎，并推导 AI 中心产线、确定性裁判、闭环优先、分工协调总线和场景驱动隐性知识蒸馏。
 - [[wiki/sources/大模型时代软件工程的本质与演进 Source Guide]] — 中文长文：把 LLM 代码生成放进软件工程的知识传递本质中，提出“无理论代码”和架构理论守护者风险框架。
 
 ## Related journals

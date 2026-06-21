@@ -9,7 +9,7 @@ created: 2026-05-02
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-16T00:23:43+08:00
+updated: 2026-06-11T23:51:41+0800
 aliases:
   - 软件分析地图
   - 软件分析核心概念地图
@@ -134,6 +134,7 @@ mindmap
       领域模型
         统一语言
         领域概念
+        类和对象结构图
         业务规则
         状态变化
         不变量
@@ -374,3 +375,7 @@ CRUD 可以出现在实现和管理后台里，但不应在分析阶段冒充核
 - [[wiki/topics/User Stories]]
 - [[wiki/topics/面向对象分析与设计]]
 - [[wiki/maps/CS Map]]
+
+## Related Syntheses
+
+- [[wiki/syntheses/类和对象结构图的建模作用]] — 说明领域分析中的类和对象结构图如何把系统行为下沉为内部责任结构。

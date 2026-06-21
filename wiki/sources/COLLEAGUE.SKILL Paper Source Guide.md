@@ -16,14 +16,13 @@ provenance:
   extracted: 0.78
   inferred: 0.20
   ambiguous: 0.02
-base_confidence: 0.42
+base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-06-01
 aliases:
   - COLLEAGUE.SKILL
   - Automated AI Skill Generation via Expert Knowledge Distillation
 ---
-
 # COLLEAGUE.SKILL Paper Source Guide
 
 > Source: "COLLEAGUE.SKILL: Automated AI Skill Generation via Expert Knowledge Distillation", arXiv:2605.31264, submitted 2026-05-29.

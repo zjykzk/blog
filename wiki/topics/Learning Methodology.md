@@ -10,7 +10,7 @@ sources:
   - https://x.com/ihtesham2005/status/2030214970353602806
   - inline:understanding-cloud-2026-05-06
 created: 2026-04-26
-base_confidence: 0.58
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 updated: 2026-05-06T19:18:40+08:00
@@ -23,7 +23,6 @@ provenance:
   inferred: 0.22
   ambiguous: 0
 ---
-
 # Learning Methodology
 
 一份自己能用、能指导动作的学习方法论。建立在两个概念之上：人是三通道进出系统；知识是网不是塔。

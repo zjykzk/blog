@@ -7,7 +7,7 @@ summary: Feedback flywheel turns AI collaboration experience into updated contex
 sources:
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
 created: 2026-05-05T17:55:00+08:00
-updated: 2026-05-05T17:55:00+08:00
+updated: 2026-06-09T14:38:22+08:00
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -104,3 +104,5 @@ This strengthens [[wiki/topics/AI Skills Workflow]] because a skill system shoul
 - [[wiki/topics/Testing Strategy]]
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
+- [[wiki/syntheses/Verification Loop × Feedback Flywheel]] — synthesis
+- [[wiki/syntheses/Harness Ratchet × Feedback Flywheel]] — synthesis

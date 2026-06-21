@@ -13,13 +13,13 @@ sources:
   - wiki/concepts/Harness Ratchet
   - wiki/sources/Harness Engineering Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-05-23T02:28:40+08:00
+updated: 2026-06-09T10:56:14+08:00
 summary: A user harness becomes useful when verification signals enter the loop early enough to steer agents and update durable controls.
 provenance:
   extracted: 0.22
   inferred: 0.70
   ambiguous: 0.08
-base_confidence: 0.75
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-23
 ---

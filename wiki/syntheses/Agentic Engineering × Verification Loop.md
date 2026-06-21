@@ -12,7 +12,7 @@ sources:
   - wiki/sources/Compounding Engineering Source Guide
   - wiki/sources/Agentic-First Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-05-23T02:28:40+08:00
+updated: 2026-06-09T10:56:14+08:00
 summary: Agentic engineering shifts engineering effort from generating code to designing verification loops that make generated work safe to accept.
 provenance:
   extracted: 0.22

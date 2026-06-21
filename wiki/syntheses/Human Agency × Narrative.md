@@ -13,7 +13,7 @@ sources:
   - wiki/sources/Hard Constraints Source Guide
   - wiki/sources/内核 你的三个自我 Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-05-23T02:28:40+08:00
+updated: 2026-06-09T10:56:14+08:00
 summary: Agency needs narrative to organize action, but mature agency must also test and revise the narratives that direct it.
 provenance:
   extracted: 0.22

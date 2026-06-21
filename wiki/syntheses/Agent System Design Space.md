@@ -2,7 +2,7 @@
 title: Agent System Design Space
 type: synthesis
 status: seed
-summary: Agent System Design Space compares agent architectures by values, control loops, context, tools, permissions, memory, orchestration, evaluation, and harness evolution.
+summary: Agent System Design Space compares agent architectures by values, control loops, context, tools, permissions, memory, orchestration, human steering, evaluation, and harness evolution.
 category: syntheses
 sources:
   - https://baijia.online/homepage/survey/Survey%20on%20AI%20Memory.pdf
@@ -16,16 +16,17 @@ sources:
   - https://arxiv.org/abs/2604.27488
   - https://arxiv.org/abs/2603.07670
   - https://arxiv.org/abs/2601.12560v1
+  - https://arxiv.org/abs/2605.23023
 created: 2026-05-04
-base_confidence: 0.89
+base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.87
   inferred: 0.12
   ambiguous: 0.01
-source_count: 11
-updated: 2026-05-13T10:37:07+08:00
+source_count: 12
+updated: 2026-06-09T14:38:26+08:00
 aliases:
   - Agent architecture design space
   - AI agent system design space
@@ -137,6 +138,14 @@ skill、hook、plugin、MCP 这些看起来分散的接口，实际上都在回�
 GenericAgent 的 minimal atomic tool set 提供了一个相反方向的设计样本：有时更少的工具反而能降低 prompt overhead 和 action-space ambiguity，让能力通过组合产生，而不是通过枚举接口产生。
 
 The harness-engineering source adds a trust-boundary warning: tool and MCP descriptions are injected into the model's prompt surface, so extension is not only capability expansion. It is also prompt-surface expansion and should be treated as a security and context-design decision.
+
+### Human steering and co-planning
+
+[[wiki/sources/Human-LLM Collaborative Planning Paper Source Guide]] adds a design surface that sits between orchestration and governance: how humans steer explicit multi-agent plans. Its [[wiki/concepts/Human-LLM Co-Planning Interaction Space]] distinguishes mode, scope, and edit level, showing that human intervention is not one mechanism but a family of control moves with different cost and risk.
+
+The central trade-off is effort-control-risk: global feedback is cheap to author but expensive to verify, targeted feedback limits rewrite blast radius but must preserve boundary contracts, direct manipulation is precise but laborious, and LLM-assisted structural operations provide leverage while still needing preview and validation. ^[inferred]
+
+This means an agent system design space should include not only whether a planner exists, but how plan changes become reviewable, integrable, executable, and reversible. ^[inferred]
 
 ### Delegation and isolation
 

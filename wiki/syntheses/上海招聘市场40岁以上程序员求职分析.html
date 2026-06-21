@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>上海招聘市场40岁以上程序员求职分析：研究设计与假设生成简报</title>
+  <style>
+    :root {
+      --bg: #f7f7f4;
+      --paper: #ffffff;
+      --text: #202124;
+      --muted: #666b73;
+      --border: #deded8;
+      --accent: #2f5f8f;
+      --accent-soft: #eef5fb;
+      --warn: #8a5a00;
+      --warn-bg: #fff7df;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.75;
+    }
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 48px 20px 80px;
+    }
+    article {
+      background: var(--paper);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 44px;
+      box-shadow: 0 18px 48px rgba(0, 0, 0, 0.06);
+    }
+    h1 {
+      margin: 0 0 14px;
+      font-size: 32px;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+    }
+    h2 {
+      margin: 42px 0 14px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--accent);
+      font-size: 22px;
+    }
+    h3 {
+      margin: 28px 0 10px;
+      font-size: 18px;
+    }
+    p { margin: 12px 0; }
+    ul, ol { padding-left: 1.5em; }
+    li { margin: 6px 0; }
+    .meta {
+      color: var(--muted);
+      margin-bottom: 28px;
+      font-size: 14px;
+    }
+    .callout {
+      border-left: 4px solid var(--accent);
+      background: var(--accent-soft);
+      padding: 14px 18px;
+      border-radius: 10px;
+      margin: 22px 0;
+    }
+    .warning {
+      border-left-color: var(--warn);
+      background: var(--warn-bg);
+      color: #3d2b00;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 18px 0 28px;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      vertical-align: top;
+    }
+    th {
+      background: #f1f3f4;
+      text-align: left;
+      color: #333;
+    }
+    code {
+      background: #f1f3f4;
+      padding: 0.1em 0.35em;
+      border-radius: 5px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    .source-list li { margin-bottom: 10px; }
+    @media print {
+      body { background: #fff; }
+      main { padding: 0; max-width: none; }
+      article { box-shadow: none; border: none; border-radius: 0; }
+    }
+  </style>
+</head>
+<body>
+<main>
+<article>
+  <h1>上海招聘市场40岁以上程序员求职分析：研究设计与假设生成简报</h1>
+  <div class="meta">类型：研究设计 / 假设生成简报 · 定位：非歧视证明、非司法结论</div>
+
+  <div class="callout warning">
+    <strong>证据定位：</strong>本文讨论的是“待检验的独立年龄效应”和“年龄相关筛选迹象”。现有材料不足以证明上海40岁以上程序员存在系统性年龄歧视。
+  </div>
+
+  <h2>一、执行摘要</h2>
+  <p>本简报讨论上海招聘市场中40岁以上程序员求职可能面临的年龄相关筛选迹象，并提出可检验的研究设计。本文不主张已经证明存在系统性年龄歧视，也不把观察到的岗位偏好、求职反馈或行业叙事直接等同于违法歧视。更稳妥的表述是：在上海互联网、软件外包、企业数字化与AI应用岗位中，40岁以上程序员可能面对一种待检验的独立年龄效应。该效应可能来自企业对薪资、技术栈、管理适配、加班可用性、团队年龄结构、学习速度、稳定性和岗位生命周期的综合判断。</p>
+  <p>研究核心问题是：当技能、薪资期望、工作经历、教育背景、最近项目经验和求职行为相近时，年龄是否仍会独立影响程序员获得面试、进入下一轮、收到offer或被压价的概率？若存在影响，它主要发生在简历筛选阶段、面试阶段、薪酬谈判阶段，还是岗位匹配阶段？</p>
+  <p>建议采用多方法研究：招聘广告文本分析、真实求职者纵向追踪、企业访谈、招聘平台数据分析，以及严格合规的简历对应实验。所有实验必须最小化对企业和真实候选人的干扰，避免伪造身份造成实际录用流程损害，并接受伦理审查或等价的风险评估。</p>
+
+  <h2>二、研究问题</h2>
+  <ul>
+    <li><strong>RQ1：</strong>在控制技能、经验、薪资期望、学历、行业背景、最近项目、求职活跃度后，40岁以上程序员是否更难获得面试机会？</li>
+    <li><strong>RQ2：</strong>若出现年龄相关筛选迹象，它来自岗位要求本身，还是来自招聘方对年龄的推断？</li>
+    <li><strong>RQ3：</strong>不同岗位类型是否存在差异？例如后端、前端、测试、运维、架构、技术管理、AI工程、外包驻场、传统企业信息化岗位。</li>
+    <li><strong>RQ4：</strong>40岁以上程序员的求职结果是否更受薪资预期、技术栈更新、管理经历、最近失业时长和行业转型影响？</li>
+    <li><strong>RQ5：</strong>哪些求职策略可能降低年龄信号的负面影响，例如突出近期项目、业务成果、技术深度、稳定交付、行业经验或顾问型定位？</li>
+  </ul>
+
+  <h2>三、研究范围</h2>
+  <p>地域范围为上海市及以上海为主要工作地的远程、混合、外包和驻场岗位。人群范围为40岁以上、有软件开发或相关技术经验的求职者，包括开发、测试、运维、数据、架构、技术管理和企业信息化岗位。比较组可设为28—35岁、35—39岁和40岁以上候选人。</p>
+  <p>本文不研究所有白领岗位，也不直接判断单个企业是否违法。本文关注市场层面的招聘机制、候选人策略和可检验假设。</p>
+
+  <h2>四、证据基础</h2>
+  <p><strong>第一类证据是公开招聘广告。</strong>BOSS直聘、猎聘、前程无忧、智联招聘、拉勾等平台的岗位标题、年限要求、薪资区间、技术栈、软性要求和隐含年龄信号。</p>
+  <p><strong>第二类证据是宏观与行业资料。</strong>国家统计局、上海市统计局、人力资源和社会保障部门公开数据；上海软件和信息服务业、互联网、外包、人工智能相关行业报告。</p>
+  <p><strong>第三类证据是国际实证研究。</strong>年龄歧视与招聘筛选的对应实验、审计研究和劳动经济学研究，可作为方法参考，不能直接替代上海本地证据。</p>
+  <p><strong>第四类证据是一手数据。</strong>真实求职者投递记录、简历版本、面试反馈、薪资谈判结果、离职时长、技能栈更新记录。</p>
+  <p><strong>第五类证据是访谈资料。</strong>候选人、HR、猎头、技术负责人和外包供应商访谈。</p>
+  <p>不可访问或未验证的微信公众号文章、社群截图、匿名爆料和求职帖，只能作为未验证线索，用来生成访谈问题或搜索关键词，不能作为事实结论或统计证据。</p>
+
+  <h2>五、证据边界</h2>
+  <p>本简报是研究设计和假设生成文件，不是司法结论、合规审计报告或歧视事实认定。</p>
+  <p>公开岗位广告很少直接写明年龄限制。即使出现“年轻团队”“抗压强”“适应快节奏”等表述，也只能视为可能的年龄相关筛选迹象，不能单独证明年龄歧视。</p>
+  <p>求职者个人经历有解释价值，但容易受样本选择、记忆偏差、行业周期、薪资期望、技术栈过时、简历质量、求职渠道、失业时长和面试表现影响。单个案例不能推出整体市场规律。</p>
+  <p>平台岗位数据也有局限：岗位重复发布、虚假岗位、外包转包、薪资区间不实、算法推荐差异、企业隐藏筛选条件，都会影响判断。</p>
+  <p>因此，本文所有结论均以“待检验”“可能”“迹象”“假设”表述，不把相关性写成因果性。</p>
+
+  <h2>六、初步发现与可观察迹象</h2>
+  <p><strong>第一，上海技术岗位可能存在强烈的经验—成本权衡。</strong>40岁以上程序员通常经验更长，但薪资预期更高。企业若招聘的是中低复杂度执行岗，可能偏好更低成本候选人。这不必然是年龄歧视，也可能是岗位价值与薪酬预算错配。</p>
+  <p><strong>第二，部分岗位强调“快速迭代”“高强度交付”“年轻团队”“服从安排”“驻场稳定”等要求。</strong>这些词不等于年龄限制，但可能成为筛选年龄的代理信号。</p>
+  <p><strong>第三，技术栈更新可能影响筛选。</strong>若候选人近期项目仍集中在传统Java单体、旧式管理系统或维护型工作，而岗位要求云原生、微服务、AI工具链、数据工程或前端工程化，招聘方可能把技术错配误读为年龄问题。</p>
+  <p><strong>第四，管理经历可能产生双重影响。</strong>技术管理经验有助于竞争架构、Tech Lead、交付负责人岗位，却可能削弱纯编码岗位匹配度。企业可能担心候选人“不愿做执行”“难以管理”或“稳定性不足”。</p>
+  <p><strong>第五，市场周期是重要背景。</strong>若互联网扩张放缓、外包岗位压价、AI工具改变初中级岗位需求，40岁以上程序员的求职困难可能被放大，但原因未必全是年龄。</p>
+
+  <h2>七、机制模型</h2>
+  <p>可把求职结果拆成四层机制。</p>
+  <ol>
+    <li><strong>岗位侧需求：</strong>预算、技术栈、业务阶段、团队结构、交付压力和用工形式。</li>
+    <li><strong>候选人信号：</strong>年龄、毕业年份、工作年限、薪资期望、最近项目、管理经历、技术栈、行业经验和求职状态。</li>
+    <li><strong>招聘方解释：</strong>招聘方可能把年龄解释为成本高、学习慢、加班少、难管理、稳定性差，也可能解释为经验深、风险低、能带人、能解决复杂问题。</li>
+    <li><strong>筛选结果：</strong>是否被搜索到、是否被约面、是否进入下一轮、是否收到offer、是否被压价、是否被建议转管理或外包。</li>
+  </ol>
+  <p>研究目标是识别年龄在这些变量之外是否仍有独立影响。</p>
+
+  <h2>八、假设与所需数据</h2>
+  <table>
+    <thead>
+      <tr><th>假设</th><th>内容</th><th>所需数据</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>H1</td><td>在控制技能、薪资、学历、项目经验和求职活跃度后，40岁以上候选人的面试率低于相近候选人。</td><td>年龄、简历内容、投递岗位、投递时间、薪资期望、技术栈、学历、项目年限、面试邀请结果。</td></tr>
+      <tr><td>H2</td><td>年龄相关筛选迹象在中低复杂度开发岗强于架构、专家、技术管理和行业解决方案岗位。</td><td>岗位分类、岗位复杂度、职级、薪资区间、岗位职责、候选人年龄、各阶段转化率。</td></tr>
+      <tr><td>H3</td><td>薪资期望解释部分年龄差异，但不能完全解释全部差异。</td><td>候选人期望薪资、岗位预算、历史薪资、面试邀请、offer薪资、谈判记录。</td></tr>
+      <tr><td>H4</td><td>最近三年项目经验越新，年龄相关筛选迹象越弱。</td><td>项目时间线、技术栈新旧程度、GitHub或作品集、项目业务价值、面试反馈。</td></tr>
+      <tr><td>H5</td><td>管理经历对纯开发岗可能是负信号，对技术负责人或交付负责人岗位是正信号。</td><td>管理年限、带队规模、岗位类型、面试评价、录用结果。</td></tr>
+      <tr><td>H6</td><td>岗位广告中的“年轻团队”“抗压”“高强度”“快速迭代”等词，与40岁以上候选人较低转化率相关。</td><td>岗位文本、关键词标注、候选人年龄组、投递结果、企业类型、岗位薪资。</td></tr>
+      <tr><td>H7</td><td>外包、驻场和传统企业信息化岗位的年龄筛选机制不同于互联网产品公司。</td><td>企业类型、用工形式、项目周期、客户行业、岗位等级、候选人转化率。</td></tr>
+    </tbody>
+  </table>
+
+  <h2>九、混杂因素清单</h2>
+  <p>必须显式控制以下混杂因素：技术栈新旧、最近项目质量、薪资期望、学历、学校层次、英语能力、行业经验、管理经历、失业时长、简历质量、求职渠道、投递频率、岗位层级、公司规模、企业类型、外包或自研、劳动合同形式、是否接受降薪、是否接受加班、通勤距离、面试表达能力、作品集质量、宏观招聘周期、平台算法推荐、猎头筛选偏好。</p>
+
+  <h2>十、推荐实证设计</h2>
+  <p><strong>第一，招聘广告文本分析。</strong>抓取上海技术岗位，标注岗位类型、薪资、年限、技术栈和年龄代理词，建立岗位层面的风险地图。</p>
+  <p><strong>第二，求职者纵向追踪。</strong>招募不同年龄段程序员，记录8—12周投递、沟通、面试、反馈和offer数据。用相同模板记录过程，减少回忆偏差。</p>
+  <p><strong>第三，访谈研究。</strong>访谈HR、猎头、技术负责人和求职者，理解筛选逻辑。访谈不用于证明比例，只用于解释机制。</p>
+  <p><strong>第四，准实验比较。</strong>比较同一候选人不同简历版本的转化差异，但不得伪造实质性经历。</p>
+  <p><strong>第五，简历对应实验。</strong>只有在合规和伦理审查通过后才执行。实验可控制技能和经历，仅改变毕业年份、工作年限呈现方式或年龄可推断信息，观察初筛差异。</p>
+
+  <h2>十一、简历实验伦理保障</h2>
+  <p>简历实验必须遵守以下条件。</p>
+  <ul>
+    <li>不得占用真实候选人的offer名额。</li>
+    <li>不得进入深度面试、笔试或背调阶段。</li>
+    <li>企业发出进一步邀约后，应尽快礼貌退出。</li>
+    <li>不得虚构可被用于实际雇佣的身份文件、学历证书、工作证明或联系方式。</li>
+    <li>不得向企业提交恶意信息或造成业务成本。</li>
+    <li>实验规模应最小化，优先使用公开岗位和初筛结果。</li>
+    <li>研究者应保存退出记录，评估对招聘方的时间成本。</li>
+    <li>若机构条件允许，应经过伦理审查；若没有正式IRB，也应形成书面风险评估、数据最小化方案和退出机制。</li>
+    <li>所有个人数据应去标识化。不得公开企业或个人可识别信息，除非数据本身已公开且引用符合平台规则。</li>
+  </ul>
+
+  <h2>十二、局限与反方解释</h2>
+  <p>反方解释必须认真对待。40岁以上程序员求职困难可能主要来自薪资错配、岗位层级收缩、技术栈陈旧、管理与执行岗不匹配、市场下行、简历表达不佳或平台推荐机制，而非独立年龄效应。</p>
+  <p>另一个反方解释是幸存者偏差：仍在求职市场中的40岁以上程序员，可能本身处于转型、失业或行业错配状态，不能代表全部同龄技术人员。许多资深程序员可能已转向管理、创业、顾问、架构、甲方数字化、国企信息化或非公开招聘渠道。</p>
+  <p>因此，研究必须区分“年龄本身的独立影响”和“随年龄累积而来的职业路径差异”。</p>
+
+  <h2>十三、AI披露</h2>
+  <p>本简报由AI辅助整理和撰写，用于形成研究设计、变量框架和假设清单。文中不包含未验证的一手统计结论。所有实证判断仍需通过后续数据采集、人工核验和方法审查完成。</p>
+
+  <h2>十四、来源清单</h2>
+  <ol class="source-list">
+    <li>国家统计局，公开劳动就业与人口统计数据：<a href="https://www.stats.gov.cn/">https://www.stats.gov.cn/</a></li>
+    <li>上海市统计局，上海统计年鉴与就业相关数据：<a href="https://tjj.sh.gov.cn/">https://tjj.sh.gov.cn/</a></li>
+    <li>人力资源和社会保障部，劳动就业与人力资源市场公开信息：<a href="https://www.mohrss.gov.cn/">https://www.mohrss.gov.cn/</a></li>
+    <li>Neumark, D., Burn, I., & Button, P. “Is It Harder for Older Workers to Find Jobs? New and Improved Evidence from a Field Experiment.” <em>Journal of Political Economy</em>, 2019. DOI: 10.1086/701029。</li>
+    <li>Lahey, J. N. “Age, Women, and Hiring: An Experimental Study.” <em>Journal of Human Resources</em>, 2008。</li>
+    <li>Riach, P. A., & Rich, J. “Field Experiments of Discrimination in the Market Place.” <em>The Economic Journal</em>, 2002。</li>
+    <li>OECD, ageing and employment policy materials：<a href="https://www.oecd.org/employment/">https://www.oecd.org/employment/</a></li>
+    <li>招聘平台公开岗位信息：BOSS直聘、猎聘、前程无忧、智联招聘、拉勾。仅可作为待采集数据源，不能在未抽样核验前当作结论。</li>
+    <li>微信公众号、求职社群、论坛帖和截图：仅作为未验证线索，不作为事实证据或统计来源。</li>
+  </ol>
+</article>
+</main>
+</body>
+</html>

@@ -10,8 +10,8 @@ sources:
   - https://martinfowler.com/articles/harness-engineering.html
   - https://arxiv.org/abs/2603.28052
 created: 2026-05-05T15:10:00+08:00
-updated: 2026-05-09T22:42:07+08:00
-base_confidence: 0.83
+updated: 2026-06-09T14:38:22+08:00
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -90,3 +90,5 @@ The paper's ablation is a warning for ratchet design: if failure history is comp
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
 - [[wiki/sources/Harness Engineering Source Guide]]
+- [[wiki/syntheses/Agent Skill × Harness Ratchet]] — synthesis
+- [[wiki/syntheses/Harness Ratchet × Feedback Flywheel]] — synthesis

@@ -33,8 +33,13 @@ stateDiagram-v2
 	UserCase --> Scope: 通过...确定系统边界
 	UserCase --> PrimaryActor: 实现...目标
 	UserCase --> Level: 通过...确定目标时间跨度
-	
 	UserCase --> Trigger: 由...发起
+	UserCase --> Preconditions: ...前置条件
+	mss: Main Success Scenario
+	UserCase --> mss: 成功路径
+	UserCase --> Extension: ...定义失败场景
+	mss --> Step: 由...构成
+	Extension --> Step: 由...构成
 	
 	Scope --> Business: 组织行为
 	Scope --> System: 系统行为

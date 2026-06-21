@@ -13,13 +13,13 @@ sources:
   - wiki/concepts/Multiplicative World
   - wiki/concepts/Specific Knowledge
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-05-23T02:28:40+08:00
+updated: 2026-06-09T10:56:14+08:00
 summary: Permissionless leverage is the scaling mechanism that lets wealth creation escape rented time, but it only amplifies judgment.
 provenance:
   extracted: 0.24
   inferred: 0.68
   ambiguous: 0.08
-base_confidence: 0.57
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-23
 ---

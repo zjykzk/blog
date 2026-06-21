@@ -21,14 +21,13 @@ provenance:
   extracted: 0.86
   inferred: 0.12
   ambiguous: 0.02
-base_confidence: 0.55
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-17
 aliases:
   - SPDD Source Guide
   - Structured Prompt-Driven Development
 ---
-
 # Structured-Prompt-Driven Development Source Guide
 
 > Source: [Structured-Prompt-Driven Development (SPDD)](https://martinfowler.com/articles/structured-prompt-driven/), Wei Zhang and Jessie Jie Xia, MartinFowler.com, 2026-04-28; Q&A added 2026-05-04.

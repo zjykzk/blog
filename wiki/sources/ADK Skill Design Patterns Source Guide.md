@@ -9,7 +9,7 @@ sources:
   - https://lavinigam.com/posts/adk-skill-design-patterns/
 created: 2026-05-07T12:44:36+08:00
 updated: 2026-05-07T12:44:36+08:00
-base_confidence: 0.53
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-07
 provenance:

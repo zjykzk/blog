@@ -12,7 +12,7 @@ sources:
   - wiki/concepts/Understanding
   - wiki/sources/NotebookLM Learning Workflow Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-05-23T02:28:40+08:00
+updated: 2026-06-09T10:56:14+08:00
 summary: Learning methodology turns durable learning into mental-model construction, not information collection or summary consumption.
 provenance:
   extracted: 0.22

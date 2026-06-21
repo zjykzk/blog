@@ -12,7 +12,7 @@ sources:
   - https://www.chrismdp.com/coding-with-ai/
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
 created: 2026-04-21
-base_confidence: 0.78
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -28,7 +28,6 @@ tags:
   - quality
   - software-engineering
 ---
-
 # Testing Strategy
 
 测试策略至少有两个互补视角：

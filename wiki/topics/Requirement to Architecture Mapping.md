@@ -8,7 +8,7 @@ sources:
   - mobu/读书/架构师启示录-知识模型、落地方法与思维模式.md
   - mobu/读书/架构师启示录-知识模型、落地方法与思维模式_第8章及以后章节.md
 created: 2026-05-01
-base_confidence: 0.53
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 3
@@ -21,7 +21,6 @@ tags:
   - requirements
   - mapping
 ---
-
 # Requirement to Architecture Mapping
 
 这个主题页沉淀的是：如何把用户故事、PRD、free-form requirement 先归一化，再稳定映射到分层架构。

@@ -16,7 +16,7 @@ provenance:
   extracted: 0.91
   inferred: 0.08
   ambiguous: 0.01
-base_confidence: 0.56
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-15
 aliases:
@@ -24,7 +24,6 @@ aliases:
   - Karpathy LLM Wiki
   - Personal knowledge bases using LLMs
 ---
-
 # LLM Wiki Source Guide
 
 > Source: Andrej Karpathy, "LLM Wiki", raw gist, https://gist.githubusercontent.com/karpathy/442a6bf555914893e9891c11519de94f/raw/ac46de1ad27f92b28ac95459c782c07f6b8c964a/llm-wiki.md

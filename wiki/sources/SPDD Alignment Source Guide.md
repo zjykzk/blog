@@ -21,14 +21,13 @@ provenance:
   extracted: 0.87
   inferred: 0.11
   ambiguous: 0.02
-base_confidence: 0.55
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-17
 aliases:
   - Alignment
   - SPDD Alignment
 ---
-
 # SPDD Alignment Source Guide
 
 > Source: [Alignment](https://martinfowler.com/articles/structured-prompt-driven/alignment.html), Wei Zhang and Jessie Jie Xia, MartinFowler.com, part of Structured-Prompt-Driven Development.

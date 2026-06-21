@@ -8,7 +8,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
 created: 2026-04-26
-base_confidence: 0.61
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 3

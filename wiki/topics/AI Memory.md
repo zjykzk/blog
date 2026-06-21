@@ -14,8 +14,8 @@ sources:
   - https://arxiv.org/abs/2603.07670
   - https://arxiv.org/abs/2605.03354v2
 created: 2026-05-05T16:25:00+08:00
-updated: 2026-05-13T10:38:00+08:00
-base_confidence: 0.85
+updated: 2026-06-10T21:35:12+08:00
+base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -125,6 +125,14 @@ The source distinguishes two update timings: hot-path memory writes while the ag
 
 This means AI memory design must answer not only what to store, but also when to store it, who or what scope owns it, and whether the update was explicitly requested or harness-initiated. ^[inferred]
 
+## Feedback Guideline Memory
+
+[[wiki/sources/Memory-as-a-Tool Paper River Source Guide]] adds a feedback-specific memory pattern. Self-correction methods such as Self-Refine and Reflexion make current answers better, but their feedback signal often remains local to the current task or episode.
+
+Memory-as-a-Tool treats rubric feedback as something that can be distilled into readable guideline files. The agent pays the cost of critique once, writes an abstract principle into a memory file, and later retrieves the relevant principle before answering a similar task. This makes memory less like a raw history store and more like a working manual that accumulates tested behavioral rules. ^[inferred]
+
+The design pressure shifts from storage to governance: guideline memory needs naming, provenance, merge/split rules, conflict resolution, forgetting, and regression tests so bad abstractions do not become durable errors. ^[inferred]
+
 
 ## Circuit-Level Memory Diagnostics
 
@@ -143,6 +151,7 @@ The paper's numeric claims remain source-level: the reported 76.2% unsupervised 
 - [[wiki/concepts/Agent Memory Evaluation Stack]]
 - [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]]
 - [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide]]
+- [[wiki/sources/Memory-as-a-Tool Paper River Source Guide]]
 
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/topics/Context Management]]

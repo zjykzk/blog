@@ -21,14 +21,13 @@ provenance:
   extracted: 0.88
   inferred: 0.10
   ambiguous: 0.02
-base_confidence: 0.55
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-17
 aliases:
   - Abstraction First
   - SPDD Abstraction First
 ---
-
 # SPDD Abstraction First Source Guide
 
 > Source: [Abstraction first](https://martinfowler.com/articles/structured-prompt-driven/abstraction-first.html), Wei Zhang and Jessie Jie Xia, MartinFowler.com, part of Structured-Prompt-Driven Development.

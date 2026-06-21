@@ -18,7 +18,7 @@ sources:
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
   - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
 created: 2026-05-04
-base_confidence: 0.78
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:

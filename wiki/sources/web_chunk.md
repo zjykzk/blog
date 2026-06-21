@@ -16,7 +16,7 @@ provenance:
   extracted: 0.93
   inferred: 0.07
   ambiguous: 0.00
-base_confidence: 0.46
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-26
 type: source
@@ -26,7 +26,6 @@ aliases:
   - 前端 Chunk
   - Bundler Chunk
 ---
-
 # Web Chunk Source Guide
 
 > Source: conversation:2026-05-26; conversation:2026-05-27

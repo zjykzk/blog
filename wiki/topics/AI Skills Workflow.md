@@ -17,7 +17,7 @@ sources:
   - https://x.com/neural_avb/article/2053873358853591435
   - https://arxiv.org/abs/2605.07358v1
 created: 2026-04-22
-base_confidence: 0.78
+base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:

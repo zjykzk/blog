@@ -21,13 +21,12 @@ provenance:
   extracted: 0.58
   inferred: 0.42
   ambiguous: 0.00
-base_confidence: 0.82
+base_confidence: 0.32
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 created: 2026-05-06T19:34:46+08:00
 updated: 2026-05-06T19:34:46+08:00
 ---
-
 # Analogy-Making
 
 Analogy-making is the cognitive act of understanding a new situation by mapping it onto familiar structures.

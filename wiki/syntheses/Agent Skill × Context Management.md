@@ -13,13 +13,13 @@ sources:
   - wiki/sources/Claude Code Skills Source Guide
   - wiki/sources/Agent Skills Survey Paper Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-05-23T02:28:40+08:00
+updated: 2026-06-09T10:56:14+08:00
 summary: Skills are context-routing devices: they add capability by making task-specific context loadable only when the workflow needs it.
 provenance:
   extracted: 0.20
   inferred: 0.72
   ambiguous: 0.08
-base_confidence: 0.84
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-23
 ---

@@ -18,7 +18,7 @@ provenance:
   extracted: 0.70
   inferred: 0.30
   ambiguous: 0.00
-base_confidence: 0.76
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 created: 2026-05-06T20:17:19+08:00
@@ -28,7 +28,6 @@ aliases:
   - applying knowledge
   - practical application
 ---
-
 # Application
 
 Application is the process by which abstract knowledge, a method, a tool, or a rule is fitted to a concrete situation so it can produce an observable effect.

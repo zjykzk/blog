@@ -15,14 +15,13 @@ provenance:
   extracted: 0.88
   inferred: 0.11
   ambiguous: 0.01
-base_confidence: 0.44
+base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-18
 aliases:
   - Designing, Refining, and Maintaining Agent Skills at Perplexity
   - Perplexity agent skills guide
 ---
-
 # Designing, Refining, and Maintaining Agent Skills at Perplexity Source Guide
 
 > Source: Designing, Refining, and Maintaining Agent Skills at Perplexity — https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity

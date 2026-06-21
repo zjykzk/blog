@@ -13,7 +13,7 @@ sources:
   - wiki/concepts/Organizational Memory
   - wiki/concepts/Semantic File System
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-05-23T02:28:40+08:00
+updated: 2026-06-09T10:56:14+08:00
 summary: AI memory becomes organizationally useful when remembered items are placed in a context graph of owners, evidence, freshness, and permissions.
 provenance:
   extracted: 0.22
