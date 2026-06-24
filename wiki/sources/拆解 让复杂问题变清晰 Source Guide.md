@@ -5,13 +5,14 @@ category: sources
 tags: [article, thinking, reasoning, learning, mechanism]
 sources:
   - conversation:2026-06-10
+  - inline:five-thinking-modes-three-layer-architecture-2026-06-23
 created: 2026-06-10T22:43:22+08:00
-updated: 2026-06-10T22:43:22+08:00
+updated: 2026-06-23T14:35:24Z
 summary: >-
   这页保存一篇中文问题拆解文章：复杂问题之所以压人，是因为它以混沌形态出现；拆解通过技术、框架和结构化思维把问题转成可处理的小结构。
 provenance:
-  extracted: 0.92
-  inferred: 0.08
+  extracted: 0.88
+  inferred: 0.12
   ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
@@ -142,7 +143,7 @@ aliases:
 
 文章中的“四层次原因分析法”值得后续观察：如果未来还有更多来源讨论“现象、近因、流程系统、人的原因”这条链路，可以提升为独立概念或放入 [[wiki/maps/Mechanism Models Map]] 的操作模板区。^[inferred]
 
-“结构化思维是四大思维的落地操作界面”是文章自身的强判断，但目前仍应作为 source-level claim 保留，避免直接推广成 wiki 的全局定义。^[inferred]
+“结构化思维是四大思维的落地操作界面”已经被 [[wiki/sources/五大思维三层架构 Source Guide]] 进一步展开为 [[wiki/concepts/五大思维三层架构]]：结构化思维是内核，系统/逻辑提供方向和规则，创造/批判提供突破和检验。这个判断现在可以在“问题拆解与问题解决”范围内作为可复用模型使用，但仍不应无条件泛化到所有认知场景。^[inferred]
 
 ## Open Questions
 
@@ -159,3 +160,5 @@ aliases:
 - [[wiki/concepts/Mechanism Model]]
 - [[wiki/maps/Classification Thinking Map]]
 - [[wiki/maps/Mechanism Models Map]]
+- [[wiki/concepts/五大思维三层架构]]
+- [[wiki/sources/五大思维三层架构 Source Guide]]

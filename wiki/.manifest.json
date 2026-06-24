@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 57,
-    "total_pages": 382
+    "total_sources_ingested": 59,
+    "total_pages": 392
   },
   "sources": {
     "inline:buddhist-awakening-correction-2026-06-21": {
@@ -1216,6 +1216,54 @@
       ],
       "pages_updated": [
         "wiki/maps/CS Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "inline:five-thinking-modes-three-layer-architecture-2026-06-23": {
+      "ingested_at": "2026-06-23T15:02:00Z",
+      "size_bytes": 15204,
+      "modified_at": "2026-06-23T15:02:00Z",
+      "content_hash": "sha256:4445b7779527a7555806ca7d1a9262d62baff7e4da356ec2e736c0a0748c0a3a",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/五大思维三层架构 Source Guide.md",
+        "wiki/concepts/五大思维三层架构.md"
+      ],
+      "pages_updated": [
+        "wiki/syntheses/Thinking and Judgment Workflow.md",
+        "wiki/topics/Thinking in Systems.md",
+        "wiki/topics/Critical Thinking.md",
+        "wiki/topics/Categorical Thinking.md",
+        "wiki/concepts/Analysis.md",
+        "wiki/maps/Classification Thinking Map.md",
+        "wiki/sources/拆解 让复杂问题变清晰 Source Guide.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md",
+        "wiki/.manifest.json"
+      ]
+    },
+    "/Users/zenk/study/wiki/wiki/sources/问题解决的终极模型：思维、方法与问题的“铁三角”如何共同进化.md": {
+      "ingested_at": "2026-06-23T14:47:59Z",
+      "size_bytes": 33643,
+      "modified_at": "2026-06-23T15:13:02.798542Z",
+      "content_hash": "sha256:c7580f7dc1549603f53da09af61bc85f5aeab3f2a47cc6dfbd5df197c314114b",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/问题解决的终极模型：思维、方法与问题的“铁三角”如何共同进化.md",
+        "wiki/sources/问题解决铁三角 Source Guide.md",
+        "wiki/concepts/问题解决铁三角.md",
+        "wiki/concepts/方法论双循环.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/五大思维三层架构.md",
+        "wiki/topics/Problem Framing.md",
+        "wiki/topics/Mental Models.md",
+        "wiki/maps/Classification Thinking Map.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"

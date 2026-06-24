@@ -19,7 +19,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 5
-updated: 2026-06-21T13:32:21+0800
+updated: 2026-06-24T12:01:01+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -115,6 +115,8 @@ tags:
 - [[wiki/syntheses/AI 时代开发岗位分层与协作]]
 - [[wiki/syntheses/大语言模型时代知识图谱的角色转变]]
 - [[wiki/syntheses/Tool and Skill Boundary in Agent Harnesses]] — distinguishes executable tool capabilities from skill-level business SOPs inside an agent harness.
+- [[wiki/syntheses/Agent Skill Implementation Landscape]] — compares skill packages, function tools, MCP/tool servers, and enterprise plugins as different implementation layers for agent capability extension.
+- [[wiki/syntheses/Coding Agent Debugging Skills as Evidence Gates]] — treats high-frequency coding skills as evidence gates, responsibility ledgers, and feedback loops for AI coding work.
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/syntheses/Agent System Design Space]]
 
@@ -185,7 +187,7 @@ tags:
 - [[wiki/sources/Skills-Coach Paper Source Guide]]
 - [[wiki/sources/SkillOS Paper Source Guide]]
 - [[wiki/sources/SkillOS Source Guide]]
-- [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]]
+- [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]] — Perplexity skill lifecycle guide; updated with deterministic-vs-inferential boundary and workflow-catalyst arc.
 - [[wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide]]
 - [[wiki/sources/组织角色与 AI 适配 Source Guide]]
 

@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-06-21T19:49:20+0800
+updated: 2026-06-24T12:01:01+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -31,7 +31,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 ## Maps
 - [[wiki/maps/AI Map|AI Map]] — Entry point for the AI, Agent, and LLM knowledge cluster, linking concepts, topics, syntheses, and source guides. (#agents #llm-wiki)
 - [[wiki/maps/Self-Evolving Agents Map|Self-Evolving Agents Map]] — 自进化 agent 地图按学习发生的层次组织已实现系统：运行时认知、技能、技能仓库、harness 代码和记忆基线。 (#agents #harness #skills #memory #optimization)
-- [[wiki/maps/Classification Thinking Map|Classification Thinking Map]] — 这一组页面围绕一个核心问题展开： 人如何通过分类把混乱切成结构，以及这种切法的价值、方法与边界是什么。
+- [[wiki/maps/Classification Thinking Map|Classification Thinking Map]] — 这一组页面围绕人如何通过分析、分类和结构化协作把混乱切成结构，并连接系统、逻辑、创造与批判思维。
 - [[wiki/maps/CS Map|CS Map]] — 这页聚合当前 vault 中更偏计算机科学与软件架构的长期知识页。 (#cs #map #architecture)
 - [[wiki/maps/Learning Map|Learning Map]] — Learning Map collects learning methodology, cognition concepts, AI tutor loops, and cross-source synthesis for durable learning practice.
 - [[wiki/maps/Mechanism Models Map|Mechanism Models Map]] — 机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。 (#thinking #systems #judgment #mechanism)
@@ -46,10 +46,10 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/AI Memory|AI Memory]] — AI Memory is the persistent state layer that lets agents and organizations retain, retrieve, update, and learn from experience beyond one context window. (#agents #memory #context)
 - [[wiki/topics/AI Skills Workflow|AI Skills Workflow]] — AI Skills Workflow treats skills as reusable workflows that gather, order, persist, and reload context for more stable agent behavior. (#skills #workflow)
 - [[wiki/topics/BoltDB Internals|BoltDB Internals]] — BoltDB 是一个非常适合入门数据库实现的案例：代码量相对小，但已经覆盖了页式存储、B+ 树、事务、空闲页管理、写时复制等核心机制。 (#database #storage #golang)
-- [[wiki/topics/Categorical Thinking|Categorical Thinking]] — 分类思维，是先找一个划分维度，再按这个维度把混乱切成几类，从而让理解、判断和行动变得更清楚。
+- [[wiki/topics/Categorical Thinking|Categorical Thinking]] — 分类思维选择维度并切开对象，是结构化思维中最基础的操作动作之一。
 - [[wiki/topics/Circuit Breaker|Circuit Breaker]] — Circuit Breaker 是分布式系统里的保护机制：当下游服务已经过载或不可用时，不再继续把请求打过去，而是主动快速失败，避免故障扩大。 (#distributed-systems #resilience #architecture)
 - [[wiki/topics/Context Management|Context Management]] — Context management designs what enters, stays in, leaves, and stays stable in an AI agent's active context under finite attention, ordering, and cache constraints. (#agents #context)
-- [[wiki/topics/Critical Thinking|Critical Thinking]] — 这页聚合的是《学会提问》这类材料中最稳定、最值得反复使用的批判性思维框架。 (#thinking #reasoning #methods)
+- [[wiki/topics/Critical Thinking|Critical Thinking]] — 批判性思维用问题链审查前提、证据、反例和论证漏洞，是五大思维架构中的质量守门层。 (#thinking #reasoning #methods)
 - [[wiki/topics/European Antisemitism|European Antisemitism]] — 欧洲反犹主义之所以长期存在，不是因为犹太人有什么共同本质，而是因为他们在很多历史结构里反复处在一种容易被区分、被排斥、被掠夺、被甩锅的位置。它不是一条不变的偏见，而是一套会不断换语言的社会机制：中世纪更多借宗教敌意和制度隔离维持，近代更多借民族主义、经济焦虑和阴谋论升级，到了纳粹主义时期则被推进成国家机器。
 - [[wiki/topics/Frontend Development|Frontend Development]] — Frontend development organizes user-interface behavior, state, rendering, and interaction into maintainable software. (#frontend #software #ui)
 - [[wiki/topics/Frontend Development Workflow|Frontend Development Workflow]] — Frontend development workflow 不是一条把设计稿翻译成页面的生产线，而是一套持续对齐用户任务、界面行为与系统行为的工作方法。 (#frontend #software-engineering #workflow #ux)
@@ -76,7 +76,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/Technical Management|Technical Management]] — 这页聚合的是技术管理里比较稳定、可反复使用的判断，而不是具体某次团队事件。 (#management #leadership #engineering)
 - [[wiki/topics/Testing Purpose|Testing Purpose]] — 测试的直接目的，不是追求某个表面指标，而是增加对代码正确性的信心。 (#testing #quality #software-engineering)
 - [[wiki/topics/Testing Strategy|Testing Strategy]] — Testing Strategy combines test layering, test purpose, and AI-era quality gates to increase confidence in software changes. (#testing #quality #software-engineering)
-- [[wiki/topics/Thinking in Systems|Thinking in Systems]] — 系统视角把反复出现的问题从事件层推进到模式、结构、心智模型和杠杆点。 (#systems-thinking #feedback #mental-models)
+- [[wiki/topics/Thinking in Systems|Thinking in Systems]] — 系统视角把反复问题放进边界、要素、连接、反馈、延迟、目标和杠杆点中理解。 (#systems-thinking #feedback #mental-models)
 - [[wiki/topics/Tool Routing|Tool Routing]] — 当前笔记里关于 router / adapter 的判断，可以进一步抽成一个独立主题：工具路由不是附属细节，而是 agent 系统的核心结构设计。 (#agents #tools)
 - [[wiki/topics/TRAE Agent Capability Preparation Plan|TRAE Agent Capability Preparation Plan]] — TRAE Agent 能力准备计划围绕 AI Coding Agent 的架构、上下文、模型路由、验证闭环、指标和实验体系组织面试准备。 (#ai-coding #agents #context-engineering #career)
 - [[wiki/topics/UML Diagrams in Software Development|UML Diagrams in Software Development]] — UML 图不是一套必须全画的仪式，而是一组在不同开发环节回答不同问题的建模工具。
@@ -130,6 +130,9 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/AI Learning Tutor Loop|AI Learning Tutor Loop]] — AI Learning Tutor Loop uses a source-grounded AI system to map a field, expose disagreements, test understanding, and repair errors. (#learning #tutoring #questions)
 - [[wiki/concepts/Analogy-Making|Analogy-Making]] — Analogy-making is the cognitive act of understanding a new situation by mapping it onto familiar structures. (#cognition #concepts #thinking)
 - [[wiki/concepts/Analysis|Analysis]] — Analysis opens a whole along its own structure, identifies parts and relations, then recomposes them into actionable understanding. (#thinking #concepts #reasoning)
+- [[wiki/concepts/五大思维三层架构|五大思维三层架构]] — 五大思维三层架构把结构化思维视为操作界面，系统/逻辑提供方向和规则，创造/批判提供突破和检验。 (#thinking #reasoning #problem-solving #mechanism)
+- [[wiki/concepts/问题解决铁三角|问题解决铁三角]] — 问题解决铁三角把思维模式、方法论与具体问题看作共同进化系统，而不是工具套用流程。 (#thinking #problem-solving #methodology #mechanism)
+- [[wiki/concepts/方法论双循环|方法论双循环]] — 方法论双循环把方法论分为解决问题的结构线和升级工具的框架线，使交付与能力成长同时发生。 (#methodology #problem-solving #feedback #thinking #mechanism)
 - [[wiki/concepts/Reasoning as Structure Mapping|Reasoning as Structure Mapping]] — 推理可以理解为结构之间的关系保持映射：用一个已知结构照亮未知结构，并检查这种照亮是否保住了约束。 (#thinking #reasoning #cognition)
 - [[wiki/concepts/Business Modeling in Software|Business Modeling in Software]] — 软件中的业务建模，不是先讨论'软件怎么做'，而是先回答：目标组织为了产出业务结果，现在是怎么运作的，应该怎么改。
 - [[wiki/concepts/Autonomy-Supportive Parenting|Autonomy-Supportive Parenting]] — Autonomy-supportive parenting helps children internalize rules as their own reasons through warmth, boundaries, choice, responsibility, and gradual withdrawal. (#learning #cognition #education #psychology)
@@ -221,6 +224,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Acting Under Complexity|Acting Under Complexity]] — 这页尝试把 Cynefin、决策模式、思考工作流、mental models、critical thinking 串成一个更高层的框架：当问题复杂、不确定、争议大时，关键不是只会分析，而是知道应该如何判断并继续行动。 (#synthesis #complexity #decision-making #thinking)
 - [[wiki/syntheses/Agent Skill Patterns as Human Workflow Control Structures|Agent Skill Patterns as Human Workflow Control Structures]] — Agent skill patterns translate ordinary human work controls—manuals, templates, reviews, interviews, and gates—into executable agent workflows. (#synthesis #agents #workflow #skills)
 - [[wiki/syntheses/Tool and Skill Boundary in Agent Harnesses|Tool and Skill Boundary in Agent Harnesses]] — Agent harnesses separate executable tool capabilities from skill-level business SOPs; both are selected through descriptions, but they operate at different layers. (#agents #harness #tools #skills #workflow)
+- [[wiki/syntheses/Agent Skill Implementation Landscape|Agent Skill Implementation Landscape]] — Agent skill 是按需加载的操作知识包；行业实践可分为知识包、工具函数、协议服务和企业插件四类实现路线。 (#agents #skills #tools #context #workflow)
+- [[wiki/syntheses/Coding Agent Debugging Skills as Evidence Gates|Coding Agent Debugging Skills as Evidence Gates]] — 高频编码 skill 把 debugging、TDD、架构、并发、浏览器测试和框架范式压成证据门禁、责任账本与反馈回路。 (#agents #skills #ai-coding #debugging #verification #software-engineering)
 - [[wiki/syntheses/Agent System Design Space|Agent System Design Space]] — Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, cache economics, and runtime APIs. (#synthesis #agents #architecture)
 - [[wiki/syntheses/AI Engineering Workflow|AI Engineering Workflow]] — AI Engineering Workflow connects agent mental models, workflow control, tool design, coding constraints, and requirement normalization. (#synthesis #agents #workflow)
 - [[wiki/syntheses/AI Harness × Testing Strategy|AI Harness × Testing Strategy]] — In AI coding, testing strategy becomes harness design: tests are runtime feedback surfaces, not only post-implementation QA. (#agents #harness #testing #software-engineering)
@@ -240,7 +245,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/LLM Serving Request Structure|LLM Serving Request Structure]] — LLM serving 把请求组织成可调度的 token 工作流：GPU 利用率来自 batching，请求边界靠 batch slot、attention 元数据、KV block 和 role 模板维持。 (#llm #inference #serving #systems)
 - [[wiki/syntheses/React UI Organization Model|React UI Organization Model]] — Synthesis of React as a UI organization model combining declarative rendering, components, and state management. (#frontend #react #ui)
 - [[wiki/syntheses/Reality-Refutable Engineering Systems|Reality-Refutable Engineering Systems]] — Mature engineering systems let reality challenge their models through feedback, appeal, accountability, and redesign triggers. (#synthesis #software-engineering #systems #governance #feedback)
-- [[wiki/syntheses/Thinking and Judgment Workflow|Thinking and Judgment Workflow]] — 这页把 Mental Models 、 Critical Thinking 、 Problem Framing 串成一条更完整的思考路径：面对复杂问题时，不只是要会想，还要知道先怎么定义问题、再怎么观察、最后怎么判断。 (#synthesis #thinking #reasoning #methods)
+- [[wiki/syntheses/Thinking and Judgment Workflow|Thinking and Judgment Workflow]] — 这页把问题定义、模型切换、五大思维协作和批判性审查串成一条可执行的思考与判断工作流。 (#synthesis #thinking #reasoning #methods)
 - [[wiki/syntheses/成就感驱动与行动动力结构|成就感驱动与行动动力结构]] — 成就感可以作为行动奖励，但如果成为唯一燃料，就会让行动动力、价值感和短期反馈过度绑定。 (#thinking #cognition #learning #feedback #mechanism)
 - [[wiki/syntheses/深度思考 高阶思维与本质理解|深度思考、高阶思维与本质理解]] — 深度思考负责下钻生成机制，高阶思维负责审查问题框架，二者经由现实校验共同逼近本质并形成深度理解。 (#thinking #learning #cognition #judgment)
 - [[wiki/syntheses/总结式读书的认知损失]] — 只听读别人总结好的书会替代学习者自己的表征、图式、心智模型和解释性建构，使知识停留在可复述结论而非可迁移理解。 (#learning #cognition #thinking)
@@ -262,6 +267,9 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Doris 写入与 Routine Load Source Guide|Doris 写入与 Routine Load Source Guide]] — 这页保留 Doris 2.1 写入方式、Routine Load 原理、Task 时序，以及内部 Rowset、事务和版本发布链路。 (#database #systems #software-engineering #architecture)
 - [[wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide|配置 钩子 代码库与技能放置决策 Source Guide]] — 这页保存一棵判断树：固定指令、可靠自动化、代码库规范和手动技能分别应该放在哪里。 (#agents #harness #skills #llm-wiki)
 - [[wiki/sources/拆解 让复杂问题变清晰 Source Guide|拆解：让复杂问题变清晰 Source Guide]] — 这页保存一篇中文问题拆解文章：复杂问题之所以压人，是因为它以混沌形态出现；拆解通过技术、框架和结构化思维把问题转成可处理的小结构。 (#article #thinking #reasoning #learning #mechanism)
+- [[wiki/sources/五大思维三层架构 Source Guide|五大思维三层架构 Source Guide]] — 这页保存一篇中文文章：把系统、逻辑、结构化、创造性、批判性五大思维组织成内核—中间层—外层的协作架构。 (#article #thinking #reasoning #learning #mechanism)
+- [[wiki/sources/问题解决铁三角 Source Guide|问题解决铁三角 Source Guide]] — 这页保留《问题解决的终极模型》PDF：问题解决是思维模式、方法论与具体问题共同进化的铁三角。 (#article #thinking #problem-solving #methodology #mechanism)
+- [[wiki/sources/问题解决的终极模型：思维、方法与问题的“铁三角”如何共同进化|问题解决的终极模型：思维、方法与问题的“铁三角”如何共同进化]] — PDF 抽取后的 Markdown source 文件，作为问题解决铁三角摄入的 source key。 (#article #thinking #problem-solving #methodology #source)
 - [[wiki/sources/可计算性问答 Source Guide|可计算性问答 Source Guide]] — 保存一段关于 CFG、递归可枚举语言、μ-递归函数、λ 演算、图灵机和可计算性边界的中文教学问答。 ( #cs #computation #formal-language #learning)
 - [[wiki/sources/四层次原因分析法 Source Guide|四层次原因分析法 Source Guide]] — 这页保存一篇中文方法文章对“四层次原因分析法”的说明：先拆问题，再验证直接原因，继续追流程漏洞，最后分析人因与管理设计。 (#article #thinking #reasoning #mechanism #management)
 - [[wiki/sources/发现和定义问题 Source Guide|发现和定义问题 Source Guide]] — 这页保存一篇中文文章对“发现和定义问题”的方法论说明：从 Problem 到 Issue，经过发现异常、确认本质、定义议题和对齐共识。 (#article #thinking #reasoning #management #mechanism)
@@ -314,7 +322,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Continual Learning for AI Agents Source Guide|Continual Learning for AI Agents Source Guide]] — Source guide for Harrison Chase's X article separating agent continual learning into model, harness, and context layers. (#agents #memory #harness)
 - [[wiki/sources/Csikszentmihalyi Systems Model of Creativity Source Guide|Csikszentmihalyi Systems Model of Creativity Source Guide]] — Source guide for Csikszentmihalyi's systems model, treating creativity as a relation among person, domain, field, and social recognition. (#creativity #psychology #systems)
 - [[wiki/sources/Dewey Reflective Inquiry Source Guide|Dewey Reflective Inquiry Source Guide]] — Source guide for Dewey's reflective thought cycle, grounding application in problem definition, hypothesis, consequence, and test. (#pragmatism #inquiry #thinking)
-- [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide|Designing, Refining, and Maintaining Agent Skills at Perplexity Source Guide]] — Perplexity's source guide treats agent skills as costly, progressively loaded context packages that need routing descriptions, evals, hierarchy, and gotchas. (#article #agents #skills #workflow #context)
+- [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide|Designing, Refining, and Maintaining Agent Skills at Perplexity Source Guide]] — Perplexity's source guide treats skills as costly progressive context packages that balance deterministic scripts, LLM judgment, routing evals, and workflow arcs. (#article #agents #skills #workflow #context)
 - [[wiki/sources/Dive into Claude Code Source Guide|Dive into Claude Code Source Guide]] — Direct arXiv source guide for Claude Code as an agent-system design-space case, preserving its values, principles, harness architecture, OpenClaw comparison, and future directions. (#paper #arxiv #agents #harness #ai-coding)
 - [[wiki/sources/Epiplexity Paper Notes|Epiplexity Paper Notes]] — 这页保留论文 From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence 的阅读笔记，并作为 Epiplexity 的来源层。 (#paper #information-theory)
 - [[wiki/sources/Evaluation Concept Anatomy Source Guide|Evaluation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on evaluation as scale-shaped value judgment. (#thinking #concepts)

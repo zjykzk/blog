@@ -10,15 +10,16 @@ tags:
   - reasoning
 sources:
   - /Users/zenk/Documents/notes/20260506T194300--概念解剖-分析__concept.org
+  - inline:five-thinking-modes-three-layer-architecture-2026-06-23
 provenance:
-  extracted: 0.74
-  inferred: 0.26
+  extracted: 0.72
+  inferred: 0.28
   ambiguous: 0.00
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 created: 2026-05-06T19:50:40+08:00
-updated: 2026-05-06T19:50:40+08:00
+updated: 2026-06-23T14:35:24Z
 aliases:
   - 分析
   - analytic thinking
@@ -58,6 +59,8 @@ When analysis is isolated from synthesis, it can become sterile fragmentation. W
 
 [[wiki/topics/Critical Thinking]] audits analysis by asking whether the cut, assumptions, evidence, and omitted alternatives are trustworthy.
 
+[[wiki/concepts/五大思维三层架构]] gives this analysis loop an operating-system metaphor: systems thinking decides the field of view, logical thinking guards the inference rules, creative thinking opens new cuts, critical thinking tests the cut, and structured thinking keeps translating those inputs into concrete decomposition and recomposition moves. ^[inferred]
+
 ## Failure Modes
 
 - Cutting too coarsely leaves only slogans.
@@ -77,4 +80,6 @@ The concept-anatomy source compresses analysis into one sentence: analysis is no
 - [[wiki/topics/Thinking in Systems]]
 - [[wiki/topics/Problem Framing]]
 - [[wiki/topics/Critical Thinking]]
+- [[wiki/concepts/五大思维三层架构]]
+- [[wiki/sources/五大思维三层架构 Source Guide]]
 - [[wiki/syntheses/Acting Under Complexity]]

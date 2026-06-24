@@ -16,6 +16,7 @@ sources:
   - https://arxiv.org/abs/2604.27488
   - https://x.com/neural_avb/article/2053873358853591435
   - https://arxiv.org/abs/2605.07358v1
+  - https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity
 created: 2026-04-22
 base_confidence: 0.44
 lifecycle: draft
@@ -24,8 +25,8 @@ provenance:
   extracted: 0.80
   inferred: 0.19
   ambiguous: 0.01
-source_count: 14
-updated: 2026-06-01T16:18:53+0800
+source_count: 15
+updated: 2026-06-24T12:01:01+0800
 aliases:
   - skills workflow
   - AI skills
@@ -131,6 +132,23 @@ This makes governance part of skill workflow design. A human-trace skill is not 
 
 所以 workflow 设计其实在回答一个更深的问题：我们是在怎样安排一个 agent 的思考条件，而不只是安排它的执行步骤。
 
+## Workflow Catalyst Arc
+
+[[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]] adds a useful distinction between one-shot tools and workflow catalysts.
+
+A one-shot tool creates a process breakpoint: it emits a report, JSON payload, check result, or draft, then leaves the human to bridge the next step. A workflow-catalyst skill turns that output into the agent's next context input. Diagnosis can feed repair planning; readiness checks can feed `AGENTS.md` drafting; repeated review failures can feed new gotchas, tests, scripts, or guardrails.
+
+This changes the design target from “can the agent run the helper?” to “does the helper create the next action arc?” A strong skill therefore designs the handoff between deterministic execution and LLM interpretation: scripts provide stable observations, while the model explains what those observations imply and chooses the next bounded action. ^[inferred]
+
+The practical workflow arc is:
+
+1. trigger the skill from a real task situation;
+2. load the smallest useful context;
+3. run deterministic scripts or mandatory checks where sameness matters;
+4. let the LLM interpret results under the skill's constraints;
+5. produce the next artifact, plan, code change, question, or verification step;
+6. feed the outcome back into gotchas, evals, references, or harness rules when it reveals a reusable pattern. ^[inferred]
+
 ## Upstream topics
 
 - [[wiki/topics/Requirement to Architecture Mapping]]
@@ -144,6 +162,7 @@ This makes governance part of skill workflow design. A human-trace skill is not 
 - [[wiki/concepts/Agent Skill]]
 - [[wiki/concepts/Agent Skill Design Patterns]]
 - [[wiki/concepts/Skill Self-Evolution]]
+- [[wiki/concepts/Computational and Inferential Controls]]
 
 ## Peer topics
 
@@ -171,3 +190,4 @@ This makes governance part of skill workflow design. A human-trace skill is not 
 - [[wiki/sources/ADK Skill Design Patterns Source Guide]]
 - [[wiki/sources/Skills-Coach Paper Source Guide]]
 - [[wiki/sources/SkillOS Source Guide]]
+- [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]]

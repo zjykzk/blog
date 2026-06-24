@@ -10,15 +10,16 @@ tags: []
 sources:
   - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
   - inline:laws-of-software-engineering-unintended-consequences-2026-06-09
+  - inline:five-thinking-modes-three-layer-architecture-2026-06-23
 created: 2026-04-26
 base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.91
-  inferred: 0.09
+  extracted: 0.88
+  inferred: 0.12
   ambiguous: 0.00
-updated: 2026-06-09T10:20:40+08:00
+updated: 2026-06-23T14:35:24Z
 aliases:
   - Thinking in Systems: A Primer
   - 系统之美
@@ -142,6 +143,12 @@ Agent 的行为不是 prompt 单点决定的，而是由上下文质量、工具
 6. 这个系统真正优化的目标是什么？
 7. 我现在改的是参数，还是规则、信息流、目标函数？
 
+## 在五大思维中的位置
+
+[[wiki/concepts/五大思维三层架构]] 把系统思维放在结构化思维的中间层：它不是直接替代拆解动作，而是先给拆解提供方向。系统思维要求先问边界、要素、连接、反馈、延迟、目标和功能，防止结构化思维只在局部做漂亮分类，却漏掉真正生成问题的关系网络。
+
+因此，系统思维在问题解决里更像“广角镜”：它决定应该把哪些对象放进分析框架、哪些关系不能切断、哪些结果可能由反馈和延迟生成。结构化思维再把这些对象和关系转成图、树、流程或清单。^[inferred]
+
 ## 干预与意外后果
 
 [[wiki/concepts/Law of Unintended Consequences]] 给系统思考补上一条干预侧提醒：看见结构不等于完全控制结构。复杂系统包含依赖、反馈、延迟和人的适应行为，所以一个设计良好的改变仍可能生成意外收益、副作用，甚至让原问题更严重。
@@ -166,5 +173,7 @@ Agent 的行为不是 prompt 单点决定的，而是由上下文质量、工具
 - [[wiki/topics/Learning Methodology]]
 - [[wiki/topics/Mental Models]]
 - [[wiki/topics/Problem Framing]]
+- [[wiki/concepts/五大思维三层架构]]
+- [[wiki/sources/五大思维三层架构 Source Guide]]
 - [[wiki/concepts/Epiplexity]]
 - `pages/Thinking in Systems`

@@ -12,12 +12,13 @@ sources:
   - /Users/zenk/Documents/notes/20260506T194300--概念解剖-分析__concept.org
   - /Users/zenk/Documents/notes/20260506T211953--概念解剖-创造__concept.org
   - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
+  - /Users/zenk/study/wiki/wiki/sources/问题解决的终极模型：思维、方法与问题的“铁三角”如何共同进化.md
 created: 2026-04-21
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 7
-updated: 2026-05-15T21:33:01+08:00
+updated: 2026-06-23T14:47:59Z
 aliases:
   - 思维框架
 tags:
@@ -99,6 +100,12 @@ Its useful failure check is whether it reveals a deeper mechanism or merely rena
 
 在学习一个新领域时，mental models 可以先作为“专家共享结构”被抽出来。Ihtesham Ali 的 NotebookLM 学习 workflow 里，第一步不是让 AI 总结教材，而是问“专家共享的 5 个核心 mental models 是什么”。这个问法把学习入口从材料顺序切到结构地图，适合接到 [[wiki/concepts/AI Learning Tutor Loop]]。^[inferred]
 
+## Framework Thinking Use
+
+[[wiki/concepts/方法论双循环]] 把 mental models 放进一条成长链：显性的框架先作为工具被使用；反复使用后，它内化为思维框架；再往上，人形成框架思维，能主动选择、裁剪、组合和创造框架。
+
+这补充了本页的边界：mental model 的成熟使用不是“记住更多模型”，而是知道当前问题结构是否真的需要这个模型，以及模型在何处需要被修改或放下。^[inferred]
+
 ## Wealth Use
 
 Naval Ravikant 的 "How to Get Rich" 也可以读成一组经济行动 mental models：区分 wealth / money / status，区分 renting time / owning equity，区分 permissioned leverage / [[wiki/concepts/Permissionless Leverage]]，以及把 leverage 视为 [[wiki/topics/Judgment Under Leverage]] 的放大器。^[inferred]
@@ -107,6 +114,8 @@ Naval Ravikant 的 "How to Get Rich" 也可以读成一组经济行动 mental mo
 
 - [[wiki/topics/Categorical Thinking]]
 - [[wiki/topics/Problem Framing]]
+- [[wiki/concepts/问题解决铁三角]]
+- [[wiki/concepts/方法论双循环]]
 - [[wiki/concepts/Iceberg Model]]
 - [[wiki/topics/Critical Thinking]]
 - [[wiki/topics/Probability]]

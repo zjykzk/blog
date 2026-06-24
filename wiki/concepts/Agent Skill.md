@@ -11,8 +11,9 @@ sources:
   - https://lavinigam.com/posts/adk-skill-design-patterns/
   - https://arxiv.org/abs/2604.27488
   - https://arxiv.org/abs/2605.07358v1
+  - https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity
 created: 2026-05-06T10:51:47+08:00
-updated: 2026-06-09T14:38:22+08:00
+updated: 2026-06-24T12:01:01+0800
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-06
@@ -90,6 +91,16 @@ The lifecycle view also makes cleanup part of the concept. Skill systems can gro
 
 The article also makes the `description` field operationally important: it is the agent's routing surface for whether a skill is loaded at all. That connects skill authoring directly to [[wiki/topics/Tool Routing]]. ^[inferred]
 
+## Determinism and Judgment Boundary
+
+[[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]] sharpens a skill's responsibility boundary: a skill should decide which parts of work must be deterministic and which parts should remain inferential.
+
+Hard rules, repeated calculations, formatting constraints, and safety or verification gates belong in scripts, templates, checkers, or mandatory `SKILL.md` steps. Context interpretation, trade-off analysis, conversation, synthesis, exception handling, and generation remain LLM work.
+
+This makes a skill a boundary object between [[wiki/concepts/Computational and Inferential Controls]]: deterministic components supply the skeleton of repeatability, while model reasoning supplies adaptive fit to the current situation. ^[inferred]
+
+The same source also frames a mature skill as a workflow catalyst rather than a one-shot tool. The skill should make intermediate outputs actionable by the agent: a diagnostic report should become repair context, a check result should become a plan, and a repeated failure should become a candidate gotcha, test, script, or harness update. ^[inferred]
+
 ## Capability Boundaries and Self-Evolution
 
 [[wiki/sources/Skills-Coach Paper Source Guide]] adds a behavioral optimization lens. A skill should be tested against generated standard, advanced, and boundary tasks, then improved through revised instructions, examples, constraints, or code helpers.
@@ -123,7 +134,9 @@ This strengthens the distinction between craft and persona. In a colleague setti
 - [[wiki/topics/Tool Routing]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Encoding Team Standards]]
+- [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/sources/Claude Code Skills Source Guide]]
 - [[wiki/sources/Seeing Like an Agent Source Guide]]
+- [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]]
 - [[wiki/sources/COLLEAGUE.SKILL Paper Source Guide]]
 - [[wiki/syntheses/Agent Skill × Harness Ratchet]] — synthesis

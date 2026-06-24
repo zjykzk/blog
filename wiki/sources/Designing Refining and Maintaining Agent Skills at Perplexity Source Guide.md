@@ -8,9 +8,9 @@ tags: [article, agents, skills, workflow, context]
 sources:
   - https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity
 created: 2026-05-18T14:34:14+08:00
-updated: 2026-05-18T14:34:14+08:00
+updated: 2026-06-24T12:01:01+0800
 summary: >-
-  Perplexity's guide treats agent skills as costly, progressively loaded context packages that should be designed, evaluated, and maintained through routing tests and gotchas.
+  Perplexity's guide treats agent skills as costly, progressively loaded context packages that balance deterministic scripts with LLM judgment and turn workflows into action arcs.
 provenance:
   extracted: 0.88
   inferred: 0.11
@@ -200,11 +200,49 @@ The stable concepts to promote into broader pages are:
 
 The source complements but does not replace [[wiki/sources/Claude Code Skills Source Guide]], which focuses on Claude Code practice, or [[wiki/sources/ADK Skill Design Patterns Source Guide]], which classifies skill content patterns. Perplexity's distinctive contribution is the explicit cost/routing/eval discipline for production skill lifecycle management.
 
+## 2026-06-24 Capture Delta: Determinism, Judgment, and Workflow Arc
+
+这次补充材料把文章中的 skill 设计逻辑进一步压成一条边界原则：好的 agent skill 不是让 LLM 自由发挥，也不是把所有步骤硬编码成脚本，而是明确划分“什么必须确定”和“什么应该留给智能”。
+
+### 明确代理不应决定什么
+
+重复、可计算、硬规则和格式约束不应交给 LLM 临场判断。它们更适合进入 `scripts/`、模板、校验器、固定流程或不可跳过的 gate。
+
+这条原则的价值在于消除同一输入下的波动：如果一件事需要稳定复现，skill 应该把它变成确定性执行面，而不是每次让模型重新解释。它强化了 [[wiki/concepts/Computational and Inferential Controls]] 的分工：computational controls 负责可执行正确性，inferential controls 只处理无法完全形式化的判断。
+
+### 明确代理应当决定什么
+
+复杂语境解释、创作、对话、异常处理、权衡和生成不适合全部写死。skill 应该给出目标、约束、证据标准和上下文资源，让 LLM 在具体环境中选择合适动作。
+
+这条原则把 skill 从“脚本包装器”推进到“智能边界设计”：脚本提供骨架，模型负责把骨架接入当前问题、代码库和用户意图。^[inferred]
+
+### 制定宪法，而非建议
+
+`SKILL.md` 中的关键规则应像宪法一样约束 agent，而不是写成容易被“帮用户省事”绕开的建议。尤其是安全、验证、顺序、询问前置、禁止跳步和成功标准，应写成 mandatory gate。
+
+这不是削弱 agent 的灵活性，而是用硬边界保护灵活性：越能确定哪些地方不可协商，模型就越能在剩余空间内安全地发挥。^[inferred]
+
+### 技能作为工作流弧度的催化剂
+
+补充材料中的 “catalyst for workflow” 强调 skill 的输出不应停在一次性报告。一个强 skill 会把诊断结果、脚本输出、用户回答或中间 artifact 转成 agent 下一步行动的上下文输入。
+
+普通工具形成断点：脚本吐出 JSON、日志或检查项后，人工仍要解释、查资料、写修复方案。workflow catalyst 形成闭环：skill 规定 agent 如何读取这些结果，并把它们接到后续动作，例如生成 `AGENTS.md`、起草修复计划、补测试或更新规则。
+
+因此，skill 的设计对象不是单次命令，而是一条 action arc：触发 → 装载上下文 → 确定性检查 → LLM 解释 → 产出下一步 artifact → 验证或回写经验。^[inferred]
+
+### 信息到生产力的转化
+
+传统 tribal knowledge 只是静态信息；agent skill 把它变成可调用、可执行、可版本化、可维护的生产力表面。
+
+这也是为什么 skill 不等同于文档：文档告诉人如何做，skill 让 agent 能在任务中自动加载这套做法，调用脚本、读取模板、遵守 gate，并把结果继续交给下一步工作流。^[inferred]
+
 ## Open Questions
 
 - Which parts of Perplexity's budgets, such as 100-token descriptions and 5,000-token bodies, transfer across other agent harnesses and which are runtime-specific?
 - How should a team measure cross-skill interference after adding one new skill?
 - When should gotchas remain appended inside a skill, and when should repeated gotchas trigger a split into a new skill, script, or global rule?
+- How should a skill author decide which parts belong in deterministic scripts versus LLM judgment without overfitting one current workflow?
+- What artifact shape best preserves a workflow arc so a skill's diagnostic output naturally becomes the agent's next action input?
 
 ## Related
 

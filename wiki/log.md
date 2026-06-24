@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-06-21T19:49:20+0800
+updated: 2026-06-24T12:01:01+0800
 aliases:
   - Wiki Log
 tags:
@@ -19,7 +19,12 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-06-24T12:01:01+0800] UPDATE type=source page="wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide.md" title="Designing, Refining, and Maintaining Agent Skills at Perplexity Source Guide" reason="preserve deterministic-vs-inferential skill design boundary, constitutional gates, and workflow-catalyst action arc"
+- [2026-06-23T14:47:59Z] INGEST source="/Users/zenk/study/wiki/wiki/sources/问题解决的终极模型：思维、方法与问题的“铁三角”如何共同进化.md" pages_updated=7 pages_created=4 mode=append
+- [2026-06-23T14:35:24Z] INGEST source="inline:five-thinking-modes-three-layer-architecture-2026-06-23" pages_updated=8 pages_created=2 mode=append
+- [2026-06-23T00:47:58+0800] CAPTURE type=synthesis page="wiki/syntheses/Coding Agent Debugging Skills as Evidence Gates.md" title="Coding Agent Debugging Skills as Evidence Gates"
 - [2026-06-21T19:49:20+0800] CAPTURE type=synthesis page="wiki/syntheses/Zima Blue 自我回归与无我.md" title="Zima Blue 自我回归与无我"
+- [2026-06-21T15:34:41+0800] CAPTURE type=synthesis page="wiki/syntheses/Agent Skill Implementation Landscape.md" title="Agent Skill Implementation Landscape"
 - [2026-06-21T13:45:05+0800] INGEST source="inline:buddhist-awakening-correction-2026-06-21" pages_updated=3 pages_created=2 mode=append
 - [2026-06-21T13:32:21+0800] CAPTURE type=source page="wiki/sources/Agentic Reasoning for LLMs Paper Source Guide.md" title="Agentic Reasoning for LLMs Paper Source Guide"
 - [2026-06-19T21:44:08+0800] CAPTURE type=concept page="wiki/concepts/生产资料与生产要素.md" title="生产资料与生产要素"
