@@ -235,6 +235,8 @@ title 是这篇笔记的*灵魂句*——读者扫一眼就知道这篇论文带
 
 确保拿到：标题、作者、摘要、核心方法、结果。
 
+**arXiv 论文优先补抓 source package**：除了 PDF/HTML，尽量下载 `https://arxiv.org/e-print/{paper-id}` 并解压读主 `.tex`。TeX 源能给出更准的作者、caption、figure 文件名、实验描述和数字，避免 PDF 文本层把公式/图注/换行抽坏。遇到 PDF 图表数字不清时，把 source 里的 PDF figure 用 `magick -density 200 figure.pdf -quality 90 figure.png` 转成 PNG，再用视觉工具读轴、方法和关键数值。详细流程见 `references/arxiv-source-figure-extraction.md`。
+
 如果论文有一张承载全文核心思路的总览图（overview / architecture diagram，通常是 Figure 1），提取并保存到 `~/Documents/notes/images/`，文件名 `{identifier}--paper-{简短标题}-overview.png`。
 
 判断标准：这张图让人一看就抓住论文在做什么。不是所有论文都有——没有就跳过，不要硬找。

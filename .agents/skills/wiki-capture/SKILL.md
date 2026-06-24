@@ -74,6 +74,7 @@ Worth preserving:
 - Clear explanations of a concept that took effort to arrive at
 - Key facts from an external source discussed in the conversation
 - Explicit knowledge supplied alongside the `/wiki-capture` invocation itself. Treat the user's invocation payload as first-class source material, not just an instruction to run the skill. If the payload introduces a framework, vocabulary, checklist, or principle, capture it as its own concept/synthesis when appropriate.
+- Session-generated durable artifacts, especially outputs from skills such as `ljg-paper` and `ljg-qa` written under `~/Documents/notes/`. When the user invokes wiki-capture after creating these artifacts, treat the generated Org files and the original source URL as source material for a finished wiki page rather than summarizing the chat transcript.
 
 Skip:
 - Logistics, scheduling, pleasantries
@@ -84,18 +85,20 @@ If nothing material emerged, tell the user and stop.
 
 ### Duplicate-source update rule
 
-When the invocation supplies material for a source/topic that already has a matching wiki page, update the existing page instead of creating a duplicate. This is especially common for article excerpts, screenshots, or rewritten summaries of a source already represented in `wiki/sources/`.
+When the invocation supplies material for a source/topic that already has a matching wiki page, update the existing page instead of creating a duplicate. This is especially common for article excerpts, screenshots, rewritten summaries, or user-supplied distilled notes about an article already represented in `wiki/sources/`.
 
 Procedure:
-- Search `index.md` and likely source titles before choosing a path.
-- If a matching source guide exists, preserve only the new deltas: missing framing, diagrams, terminology, failure modes, examples, or stronger wording.
+- Search `index.md` and likely source titles before choosing a path. Also search distinctive terms from the invocation payload, not only the exact article title; user-provided summaries may omit the URL or official title.
+- If a matching source guide exists, preserve only the new deltas: missing framing, diagrams, terminology, failure modes, examples, stronger wording, or a newly explicit interpretive frame.
+- Treat the invocation payload itself as source material. If it introduces a stable frame that belongs beyond the source guide, also patch the nearest existing concept/topic/synthesis pages instead of creating duplicate pages.
 - Update that page's `updated` timestamp and summary if the scope changed.
 - Update the existing `index.md` entry rather than adding a second entry.
+- Update relevant map pages only with minimal targeted edits when the changed page belongs to an established cluster.
 - Add a `log.md` `UPDATE type=source` entry rather than `CAPTURE` when no new page is created.
 - Update `hot.md` Recent Activity / Active Threads / Key Takeaways when the delta changes the current working understanding.
 - In the confirmation, say `Type: source update` and list the updated page, not a newly saved path.
 
-This avoids one-session-one-source duplication while still preserving the new material.
+This avoids one-session-one-source duplication while still preserving new material and propagating stable deltas into the surrounding wiki graph.
 
 ## Step 2: Classify the Content Type
 
@@ -246,7 +249,11 @@ Every note must link to at least 2 existing wiki pages. Search `index.md` before
 
 ## Step 6: Update Tracking Files
 
+**Dirty working tree guard** — Before editing shared tracking files, inspect whether `index.md`, `log.md`, `hot.md`, relevant map pages, or manifests already contain unrelated uncommitted edits. If they do, preserve those edits in the working tree but keep the current capture logically separable: make only the minimal new entries needed for this capture, avoid rewriting or reordering unrelated recent entries, and mention that shared files contain pre-existing dirty changes if the user asks to commit. This prevents a later focused commit from accidentally bundling another session's capture.
+
 **`index.md`** — Add the new page under its category section.
+
+**Relevant map pages** — If the new page belongs to an established cluster with a map page already present in `index.md` (for example AI/Agent pages under `wiki/maps/AI Map.md`), add the page to that map's relevant section as well. This is especially important for source guides created from paper-reading or QA artifacts, because the map is the user's main entry point back into the knowledge cluster.
 
 **`log.md`** — Append:
 ```

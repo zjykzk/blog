@@ -33,19 +33,26 @@ user_invocable: true
 
 按 `Workflows/Extract.md` 的步骤执行。
 
+### 来源选择
+
+如果用户只调用 `/ljg-qa` 或技能而没有另给 URL / PDF / 文本，但当前会话刚刚生成过论文笔记、文章笔记或阅读产物，默认把最近一次生成的成品笔记作为来源，不要反问。先读取该文件，再抽 Q 链。
+
+如果来源是一篇刚由 `ljg-paper` 生成的论文笔记，优先抽取其中的命题、论证骨架、边界、博导审稿和启发，而不是重新下载论文；这样 Q-A 会继承已经打磨过的故事线，也避免把综述论文重新压成目录式 FAQ。
+
 ## 设计参考
 
 Q 怎么提、A 怎么收口的具体模式见 `References/QuestionDesign.md`。
 
 ## Voice Notification
 
-执行 workflow 时：
+执行 workflow 时，先发本地通知，再把固定提示打印出来。不要在 `terminal` 前台命令里使用 shell 级后台符号 `&`；Hermes 会拦截这种写法。通知失败也不要阻断任务。
 
 ```bash
 curl -s -X POST http://localhost:31337/notify \
   -H "Content-Type: application/json" \
   -d '{"message": "Running Extract in ljg-qa"}' \
-  > /dev/null 2>&1 &
+  >/dev/null 2>&1 || true
+printf 'Running **Extract** in **ljg-qa**...\n'
 ```
 
 输出文本：

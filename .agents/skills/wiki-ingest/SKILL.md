@@ -83,6 +83,8 @@ In raw mode, each file in `OBSIDIAN_VAULT_PATH/_raw/` (or `OBSIDIAN_RAW_DIR`) is
 ### Step 1: Read the Source
 
 Read the source(s) the user wants to ingest. In append mode, skip files the manifest says are already ingested and unchanged. Supported formats:
+
+**PDF source preservation:** If the user asks to extract a PDF into Markdown, or corrects the ingest by saying the PDF should be saved as an md source / source key should point to the md, create a source-level Markdown file under `sources/` and make that Markdown file the manifest source key. If they ask to preserve layout (e.g. “保持排版”), use layout-preserving extraction when available and fenced `text` blocks per page so Markdown does not collapse spacing. See `references/pdf-source-preservation.md` for the exact pattern and manifest update checklist.
 - Markdown (`.md`) — read directly
 - Text (`.txt`) — read directly
 - PDF (`.pdf`) — use the Read tool with page ranges. For **academic papers** (arXiv/conference), see *Academic papers* below — re-read figure- and equation-dense pages with vision so the architecture diagram, key equations, and results tables aren't lost.
@@ -117,6 +119,12 @@ Common chat export shapes:
 
 When the source is a **web URL** (`/ingest-url <url>`, "add this URL", "ingest this link", "save this page", or a pasted link), the flow is different: detect the current project, fetch with `defuddle`/`WebFetch`, then file the page into the detected project's `references/` folder or fall back to `misc/` with affinity scoring for later promotion. **Read `references/url-sources.md` and follow it** — it covers project detection, clean extraction, dedup, slug generation, project-vs-misc frontmatter, affinity scoring, stub handling on fetch failure, and the `INGEST_URL` log/manifest format. The rest of this skill (config, trust boundary, QMD refresh) still applies.
 
+### Local long-form article PDFs
+
+When a local PDF is a long-form article or essay rather than an academic paper, treat it like a preserved source, not just a summarization target. Extract the text layer and create/update a `sources/<topic> Source Guide.md` that preserves the source-level content in the body under `## Preserved Content` or `## Original Source`, then create/update separate concept/topic/synthesis pages for durable ideas. For Chinese article PDFs, keep the source guide and distilled pages in Chinese unless the user asks otherwise.
+
+If the Read tool refuses the PDF because extraction exceeds the safety limit, use a local text extraction path (for example `pdftotext` if available, or a Python PDF library from the terminal environment) to write a temporary markdown/text file with page markers, then ingest that extracted text. Do not record missing extraction dependencies as durable constraints; report only if all extraction paths fail.
+
 **Exception: direct document URLs.** If the URL ends in a document extension, especially `.pdf`, treat it as a document source after downloading it to a temporary file, not as a generic web article/misc page. Compute size and SHA-256 from the downloaded bytes, extract the text layer (for PDFs, use `pdftotext` when available or a Python PDF library fallback), and write the source key in `.manifest.json` as the original URL. For non-academic technical/reference PDFs, use a source guide plus distilled concept/topic pages rather than the academic paper deep-dive template unless the document is actually a research paper with load-bearing figures/equations.
 
 ### Multimodal branch (images)
@@ -131,6 +139,23 @@ When the source is an image, your extraction job is interpretive — you're read
 Vision is interpretive by nature, so image-derived pages will skew heavily toward `^[inferred]`. That's expected — the provenance markers exist precisely to surface this. Don't pretend an image's "meaning" was extracted when you really inferred it.
 
 For PDFs that are mostly images (scanned docs, slide decks exported to PDF), use `Read pages: "N"` to pull specific pages and treat each page as an image source.
+
+### PDF source preservation as Markdown
+
+When ingesting a user-provided PDF that should remain a durable source, prefer creating an extracted Markdown source file under the vault's `sources/` directory and then use that Markdown file as the manifest/source key for distilled pages. Do not leave the source key pointing at a transient `~/Downloads/*.pdf` path when the user asks to save the extracted source.
+
+Recommended flow:
+
+1. Extract the PDF text to `wiki/sources/<title>.md` (or the resolved vault `sources/` path) with frontmatter recording `source_pdf: <absolute original PDF path>`, `source_type: pdf_text_extract`, `extraction_mode`, and any preservation flags.
+2. Update all distilled pages' `sources:` entries to point at the extracted Markdown source, not the original PDF.
+3. Move the manifest entry from the PDF path to the extracted Markdown path; recompute `size_bytes`, `modified_at`, and `content_hash` from the Markdown bytes. Keep the original PDF path only in the extracted Markdown frontmatter.
+4. Update `log.md` and `index.md` so the created-page counts and source entry reflect the extracted Markdown source.
+
+Formatting pitfalls:
+
+- If the user says to preserve layout/排版, use layout-aware extraction when available (for example `pypdf` `extract_text(extraction_mode="layout")`) and put the body in fenced `text` blocks so spaces and line breaks survive Markdown rendering.
+- If the user says not to paginate/不要分页, remove artificial `## Page N` headings and use one continuous body block; keep only source-level metadata that notes `pagination_removed: true`.
+- If the PDF contains diagrams/images and the user asks to copy them as ASCII/assic, inspect the rendered pages, then transcribe each meaningful diagram into an ASCII block placed at the corresponding location in the extracted source. Keep this as a textual surrogate; do not invent missing diagram content.
 
 ### Long-PDF preprocessing — PageIndex (optional — requires `PAGEINDEX_REPO` in `.env`)
 
@@ -430,6 +455,20 @@ Record QMD refresh in the final report as one of:
 - `QMD skipped: QMD_WIKI_COLLECTION unset`
 - `QMD skipped: qmd CLI unavailable`
 - `QMD failed: <short error summary>`
+
+## Handling Inline Sources with Source Preservation
+
+When the user pastes text directly into the chat and invokes `wiki-ingest`, treat the pasted text as an inline source, not just as material to summarize. For this user's wiki, source-level preservation is the default for pasted long-form material, especially Chinese articles, even if the user did not explicitly say "保留source". If the user explicitly asks for a terse summary only, follow that instead.
+
+1. Create a stable source key in the manifest, e.g. `inline:<short-topic-slug>-<YYYY-MM-DD>`.
+2. Compute `size_bytes` and `content_hash` from the exact pasted UTF-8 source text so future append-mode checks can reason about this input. If you normalize the preserved body for readability, still make clear which text/hash basis you used in the final report.
+3. Create or update a `wiki/sources/<topic> Source Guide.md` page that preserves the source-level content in the body, usually under `## Preserved Content` or `## Original Source`, while adding concise source-level takeaways and links to distilled pages.
+4. If the content contains a durable concept, model, or synthesis, create/update the appropriate `concepts/`, `topics/`, or `syntheses/` page separately. Do not make the source guide carry all long-term conceptual weight.
+5. If pasted article images appear only as empty tracking placeholders (for example 1px `data:image/svg+xml` blobs), do not invent the missing diagram. Record that the pasted image was an unreadable placeholder and preserve/ingest the surrounding text.
+6. Update `index.md`, `log.md`, `hot.md`, and `.manifest.json` as with file/URL ingests. The manifest should list both the preserved source guide and the distilled page(s).
+7. Keep the source language. For Chinese pasted source, write the source guide and capture confirmation in Chinese unless the user asks otherwise.
+
+This pattern is especially important for the user's wiki: source pages may keep required frontmatter summaries, but their bodies should not compress the source into a brief summary. Preserve source-level content first, then distill durable concepts separately.
 
 ## Handling Multiple Sources
 
