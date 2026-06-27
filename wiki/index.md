@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-06-24T12:01:01+0800
+updated: 2026-06-27T02:24:55+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -135,11 +135,13 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/方法论双循环|方法论双循环]] — 方法论双循环把方法论分为解决问题的结构线和升级工具的框架线，使交付与能力成长同时发生。 (#methodology #problem-solving #feedback #thinking #mechanism)
 - [[wiki/concepts/Reasoning as Structure Mapping|Reasoning as Structure Mapping]] — 推理可以理解为结构之间的关系保持映射：用一个已知结构照亮未知结构，并检查这种照亮是否保住了约束。 (#thinking #reasoning #cognition)
 - [[wiki/concepts/Business Modeling in Software|Business Modeling in Software]] — 软件中的业务建模，不是先讨论'软件怎么做'，而是先回答：目标组织为了产出业务结果，现在是怎么运作的，应该怎么改。
+- [[wiki/concepts/业务隐含复杂度]] — 业务隐含复杂度说明软件难点常藏在规则、状态、例外、权责、历史和变化中；开发者要把它们转成清晰的软件模型。 (#software-engineering #requirements #architecture #complexity)
 - [[wiki/concepts/Autonomy-Supportive Parenting|Autonomy-Supportive Parenting]] — Autonomy-supportive parenting helps children internalize rules as their own reasons through warmth, boundaries, choice, responsibility, and gradual withdrawal. (#learning #cognition #education #psychology)
 - [[wiki/concepts/Cognitive Load Theory|Cognitive Load Theory]] — Cognitive Load Theory explains learning as schema formation constrained by limited working-memory bandwidth and affected by intrinsic and extraneous load. (#learning #cognition #education #psychology)
 - [[wiki/concepts/Cognition Three Channels|Cognition Three Channels]] — 人认识世界靠三根独立的生成器撑着。关掉任何一根，认识塌一块。
 - [[wiki/concepts/Cognitive Engineering|Cognitive Engineering]] — 认知工程学不是单独研究'人怎么想'，而是研究如何设计工具、信息结构与反馈机制，让人更容易想对、做对、协同对。
 - [[wiki/concepts/engineering-thinking|Engineering Thinking]] — Engineering thinking turns vague intent into reliable, testable, repairable, evolvable structures under real constraints. (#engineering #software-engineering #systems #judgment #feedback)
+- [[wiki/concepts/工程复杂度共同结构]] — 工程复杂度共同结构把所有工程共有的难题压缩为目标、约束、分解、接口、反馈和演化六个问题。 (#engineering #systems #complexity #feedback #architecture)
 - [[wiki/concepts/Component-Based Architecture|Component-Based Architecture]] — Component-based architecture organizes an interface or system as composable units with local responsibilities. (#frontend #architecture #modularity)
 - [[wiki/concepts/Concept|Concept]] — 概念不是词，而是有限生命面对连续世界时制造的边界。
 - [[wiki/concepts/Conceptual Integrity|Conceptual Integrity]] — 软件设计中的概念完整性，不是风格统一，而是一个系统里的所有部分都像从同一个头脑里长出来：用户、程序员、机器面对它时，都能感觉到这里面只有一套世界观。
@@ -159,6 +161,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Economic Bubble|Economic Bubble]] — An economic bubble is not simply an expensive asset. It is a price structure where market value has detached from the real support beneath it, and continues rising mainly because people believe...
 - [[wiki/concepts/Epiplexity|Epiplexity]] — Epiplexity 不是在问一份数据“总共有多少信息”，而是在问：对一个算力有限的观察者来说，这份数据里到底有多少结构是可提取、可学习、可压缩的。 (#ml #concept #information-theory)
 - [[wiki/concepts/Evaluation|Evaluation]] — Evaluation is the act of placing an object inside a scale so its value, quality, meaning, or position can appear. (#thinking #concepts #judgment)
+- [[wiki/concepts/Evidence Question Decomposition|Evidence Question Decomposition]] — Evidence question decomposition turns a broad judgment into checkable questions with evidence anchors, answers, failure types, and repair actions. (#thinking #judgment #evaluation #mechanism #feedback)
 - [[wiki/concepts/Expression Three Channels|Expression Three Channels]] — 人向外表达，靠三根独立的生成器撑着。关掉任何一根，表达塌一块。
 - [[wiki/concepts/Feedback Loops|Feedback Loops]] — Feedback loops are system structures where results flow back to influence future causes, creating growth, stability, or oscillation.
 - [[wiki/concepts/Hard Constraint|Hard Constraint]] — 硬约束是行动无法靠愿望绕开的限制，要求人在叙事激发行动之前先盘资源、看窗口、尊重规律并承认他人能动性。 (#thinking #systems #judgment)

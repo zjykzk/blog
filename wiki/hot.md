@@ -1,17 +1,20 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity sharpened agent-skill design around deterministic scripts, LLM judgment, constitutional gates, and workflow-catalyst arcs.
+summary: Recent wiki activity captured engineering complexity as the shared structure of goals, constraints, decomposition, interfaces, feedback, and evolution.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-24T12:01:01+0800
+updated: 2026-06-27T02:24:55+0800
 ---
 
 ## Recent Activity
+- 2026-06-27T02:24:55+0800 — 已捕获 [[wiki/concepts/工程复杂度共同结构]]：把所有工程共有的复杂度压缩为目标、约束、分解、接口、反馈和演化六个问题。
+- 2026-06-27T02:24:07+0800 — 已捕获 [[wiki/concepts/Evidence Question Decomposition]]：把“要看的证据拆到能问、能答、能追责的粒度”整理为总评、维度、原子问题、证据锚点、错因类型和修复动作组成的判断责任链。
+- 2026-06-27T02:00:56+0800 — 已捕获 [[wiki/concepts/业务隐含复杂度]]：把“软件开发最难的是业务中隐含的复杂度”整理为规则、状态、例外、权责、历史和变化进入软件模型的概念页。
 - 2026-06-24T12:01:01+0800 — 更新 [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]]，补入 skill 设计中的确定性/智能边界、宪法式 gate，以及 workflow catalyst/action arc 视角；同步回填 [[wiki/concepts/Agent Skill]] 与 [[wiki/topics/AI Skills Workflow]]。
 - 2026-06-23T14:47:59Z — 已摄入 [[wiki/sources/问题解决铁三角 Source Guide]]，新增 [[wiki/concepts/问题解决铁三角]] 与 [[wiki/concepts/方法论双循环]]：把问题解决整理为思维模式、方法论和具体问题共同进化的铁三角。
 - 2026-06-23T14:35:24Z — 已摄入 [[wiki/sources/五大思维三层架构 Source Guide]] 并新增 [[wiki/concepts/五大思维三层架构]]：把系统、逻辑、结构化、创造性、批判性五大思维组织成内核—中间层—外层的协作架构。
@@ -19,6 +22,9 @@ updated: 2026-06-24T12:01:01+0800
 
 ## Active Threads
 
+- 工程方法现在加入共同复杂度线索：所有工程都要在有限资源、局部认知、持续变化和必然失败中处理目标、约束、分解、接口、反馈和演化，而软件工程只是其中一种表现形式。
+- 判断与评审现在加入证据问题分解线索：不要直接问“好不好 / 对不对 / 靠不靠谱”，而是把总评拆成可问、可答、可追责的检查点，并让每个失败都能指向证据、错因和修法。
+- 软件分析现在加入业务隐含复杂度线索：需求短句背后常藏规则、状态、例外、权责、历史和变化；开发工作要先把这些隐含结构转成领域模型、状态机、权限边界、工作流和工程可靠性设计。
 - 问题解决现在加入铁三角线索：具体问题触发方法论，方法论调用并锤炼思维模式；结构线加深对问题的认识，框架线把实践沉淀成框架、思维框架和框架思维。
 - 问题拆解现在加入五大思维协作架构：结构化思维是操作界面，系统思维提供边界和关联，逻辑思维提供推理规则，创造性思维打开新维度，批判性思维负责证据和反例守门。
 - 基本世界观现在加入 Zima Blue 线索：无限可能本身不能生成自我；自我需要承认来源、限制和责任，而佛法会进一步把“真实自我”拆成因缘和合，并把最终转折读作“成为”冲动的止息。
@@ -112,6 +118,9 @@ updated: 2026-06-24T12:01:01+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- 所有工程共有的底层难题不是“东西很多”，而是如何把目标放进约束、把系统切成边界、让接口协作、让反馈校验设计，并让结构进入时间后仍能演化。
+- 好判断不是更漂亮的总评，而是更硬的责任链：总评要先拆成维度，维度要拆成可回答问题，问题要挂证据，失败要能定位错因并导出修法。
+- 软件开发中的“业务复杂”不是业务方说得多，而是现实规则没有天然以代码友好形式出现；成熟开发要把业务语言转成软件模型，再用工程手段可靠执行。
 - 问题解决不是工具套用，而是一个共同进化系统：真实问题检验方法论，方法论在结构线中逼近问题结构，在框架线中升级认知工具，最终反向训练思维模式。
 - 五大思维不是并列工具清单，而是一套问题解决操作系统：结构化思维把系统、逻辑、创造和批判的输入落成分类、分层、关系图、因果链、证据表和方案输出；离开其他四种思维，它又会变成机械拆分。
 - 高频 coding skill 的共同底层不是“更会写代码”，而是把 agent 的行动资格变成证据门禁：没有 loop 不准想，没有 root cause 不准修，没有 failing public-interface test 不准写行为实现，没有 fresh verification 不准说完成。

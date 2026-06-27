@@ -9,7 +9,7 @@ created: 2026-05-02
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-11T23:51:41+0800
+updated: 2026-06-27T02:00:56+0800
 aliases:
   - 软件分析地图
   - 软件分析核心概念地图
@@ -369,6 +369,7 @@ CRUD 可以出现在实现和管理后台里，但不应在分析阶段冒充核
 - [[wiki/maps/Software Design Map]]
 - [[wiki/concepts/Software Design Three Generators]]
 - [[wiki/concepts/Domain-Driven Design]]
+- [[wiki/concepts/业务隐含复杂度]]
 - [[wiki/concepts/Business Modeling in Software]]
 - [[wiki/topics/Software Methodology]]
 - [[wiki/topics/Requirement to Architecture Mapping]]

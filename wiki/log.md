@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-06-24T12:01:01+0800
+updated: 2026-06-27T02:24:55+0800
 aliases:
   - Wiki Log
 tags:
@@ -19,6 +19,9 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-06-27T02:24:55+0800] CAPTURE type=concept page="wiki/concepts/工程复杂度共同结构.md" title="工程复杂度共同结构"
+- [2026-06-27T02:24:07+0800] CAPTURE type=concept page="wiki/concepts/Evidence Question Decomposition.md" title="Evidence Question Decomposition"
+- [2026-06-27T02:00:56+0800] CAPTURE type=concept page="wiki/concepts/业务隐含复杂度.md" title="业务隐含复杂度"
 - [2026-06-24T12:01:01+0800] UPDATE type=source page="wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide.md" title="Designing, Refining, and Maintaining Agent Skills at Perplexity Source Guide" reason="preserve deterministic-vs-inferential skill design boundary, constitutional gates, and workflow-catalyst action arc"
 - [2026-06-23T14:47:59Z] INGEST source="/Users/zenk/study/wiki/wiki/sources/问题解决的终极模型：思维、方法与问题的“铁三角”如何共同进化.md" pages_updated=7 pages_created=4 mode=append
 - [2026-06-23T14:35:24Z] INGEST source="inline:five-thinking-modes-three-layer-architecture-2026-06-23" pages_updated=8 pages_created=2 mode=append
