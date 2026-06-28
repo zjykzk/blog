@@ -1,0 +1,102 @@
+{
+  "schema": {
+    "schemaVersion": 2,
+    "sequences": {
+      "com.tldraw.store": 5,
+      "com.tldraw.asset": 1,
+      "com.tldraw.camera": 1,
+      "com.tldraw.document": 2,
+      "com.tldraw.instance": 26,
+      "com.tldraw.instance_page_state": 5,
+      "com.tldraw.page": 1,
+      "com.tldraw.instance_presence": 6,
+      "com.tldraw.pointer": 1,
+      "com.tldraw.shape": 4,
+      "com.tldraw.user": 1,
+      "com.tldraw.asset.image": 6,
+      "com.tldraw.asset.video": 5,
+      "com.tldraw.asset.bookmark": 2,
+      "com.tldraw.shape.group": 0,
+      "com.tldraw.shape.text": 4,
+      "com.tldraw.shape.bookmark": 2,
+      "com.tldraw.shape.draw": 4,
+      "com.tldraw.shape.geo": 11,
+      "com.tldraw.shape.note": 12,
+      "com.tldraw.shape.line": 5,
+      "com.tldraw.shape.frame": 1,
+      "com.tldraw.shape.arrow": 8,
+      "com.tldraw.shape.highlight": 3,
+      "com.tldraw.shape.embed": 4,
+      "com.tldraw.shape.image": 5,
+      "com.tldraw.shape.video": 4,
+      "com.tldraw.binding.arrow": 1
+    }
+  },
+  "store": {
+    "page:oVVVf0ER4MSQe4xzKjoUE": {
+      "meta": {},
+      "id": "page:oVVVf0ER4MSQe4xzKjoUE",
+      "name": "agent.excalidraw",
+      "index": "a22pKxaV",
+      "typeName": "page"
+    },
+    "user:IPx21B5rNBp4h5n6mL6k1": {
+      "name": "",
+      "color": "#9D5BD2",
+      "imageUrl": "",
+      "meta": {},
+      "id": "user:IPx21B5rNBp4h5n6mL6k1",
+      "typeName": "user"
+    },
+    "document:document": {
+      "gridSize": 10,
+      "name": "",
+      "meta": {},
+      "id": "document:document",
+      "typeName": "document"
+    },
+    "asset:agent-excalidraw": {
+      "id": "asset:agent-excalidraw",
+      "typeName": "asset",
+      "type": "image",
+      "props": {
+        "name": "agent-excalidraw.jpg",
+        "src": "/page-assets/oVVVf0ER4MSQe4xzKjoUE/agent-excalidraw.jpg",
+        "w": 1800,
+        "h": 1292,
+        "fileSize": 102890,
+        "mimeType": "image/jpeg",
+        "isAnimated": false
+      },
+      "meta": {
+        "sourceDocument": "Excalidraw/agent.excalidraw.md"
+      }
+    },
+    "shape:agent-excalidraw": {
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {
+        "sourceDocument": "Excalidraw/agent.excalidraw.md"
+      },
+      "id": "shape:agent-excalidraw",
+      "type": "image",
+      "props": {
+        "w": 1200,
+        "h": 861,
+        "assetId": "asset:agent-excalidraw",
+        "playing": true,
+        "url": "",
+        "crop": null,
+        "flipX": false,
+        "flipY": false,
+        "altText": "agent.excalidraw.md rendered in Cowart"
+      },
+      "parentId": "page:oVVVf0ER4MSQe4xzKjoUE",
+      "index": "a1",
+      "typeName": "shape"
+    }
+  }
+}

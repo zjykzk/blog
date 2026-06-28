@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/sources/问题解决的终极模型：思维、方法与问题的“铁三角”如何共同进化.md",
+                "file": "wiki/concepts/工程复杂度共同结构.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "问题解决的终极模型：思维、方法与问题的“铁三角”如何共同进化"
+              "title": "工程复杂度共同结构"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "工程复杂",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -210,9 +211,16 @@
   },
   "active": "a9f87afd1bd3f1b1",
   "lastOpenFiles": [
+    "wiki/concepts/思维模式与思维框架.md",
+    "wiki/sources/AI 什么都能写与软件价值重心转移 Source Guide.md",
+    "canvas/cowart-view-state.json.45486.tmp",
+    "wiki/hot.md",
+    "wiki/sources/问题解决的终极模型：思维、方法与问题的“铁三角”如何共同进化.md",
+    "wiki/concepts/工程复杂度共同结构.md",
+    "wiki/concepts/Evidence Question Decomposition.md",
+    "wiki/concepts/业务隐含复杂度.md",
     "wiki/sources/问题解决铁三角 Source Guide.md",
     "wiki/syntheses/软件设计作为系统诊断.md",
-    "wiki/sources/问题解决的终极模型：思维、方法与问题的“铁三角”如何共同进化.md",
     "wiki/sources/知识结构 认知结构与概念地图问答 Source Guide.md",
     "wiki/sources/架构师启示录 Source Guide.md",
     "wiki/sources/推理能力训练 Source Guide.md",
@@ -224,7 +232,6 @@
     "wiki/concepts/问题解决铁三角.md",
     "wiki/NAMING.md",
     "wiki/concepts/五大思维三层架构.md",
-    "canvas/cowart-view-state.json.45486.tmp",
     "canvas/pages/oVVVf0ER4MSQe4xzKjoUE/assets/agent-excalidraw.jpg",
     "canvas/pages/oVVVf0ER4MSQe4xzKjoUE/assets/agent-excalidraw.png",
     "canvas/pages/oVVVf0ER4MSQe4xzKjoUE/assets",
@@ -243,12 +250,6 @@
     "wiki/syntheses/Coding Agent Debugging Skills as Evidence Gates.md",
     "wiki/concepts/佛家觉悟结构.md",
     "wiki/syntheses/Zima Blue 自我回归与无我.md",
-    "wiki/syntheses/Agent Skill Implementation Landscape.md",
-    "wiki/syntheses/Agent Skill Patterns as Human Workflow Control Structures.md",
-    "wiki/sources/Agent Skills Survey Paper Source Guide.md",
-    "wiki/concepts/Agent Skill.md",
-    "wiki/concepts/Skill Self-Evolution.md",
-    "wiki/syntheses/Agent Skill × Context Management.md",
     "mobu/读书/modern_software_engineering-幕布图片-195155-330004.png",
     "mobu/读书/modern_software_engineering-幕布图片-147011-551432.png",
     "ai.png",

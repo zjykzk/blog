@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-06-27T02:24:55+0800
+updated: 2026-06-28T18:05:00+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -133,6 +133,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/五大思维三层架构|五大思维三层架构]] — 五大思维三层架构把结构化思维视为操作界面，系统/逻辑提供方向和规则，创造/批判提供突破和检验。 (#thinking #reasoning #problem-solving #mechanism)
 - [[wiki/concepts/问题解决铁三角|问题解决铁三角]] — 问题解决铁三角把思维模式、方法论与具体问题看作共同进化系统，而不是工具套用流程。 (#thinking #problem-solving #methodology #mechanism)
 - [[wiki/concepts/方法论双循环|方法论双循环]] — 方法论双循环把方法论分为解决问题的结构线和升级工具的框架线，使交付与能力成长同时发生。 (#methodology #problem-solving #feedback #thinking #mechanism)
+- [[wiki/concepts/思维模式与思维框架|思维模式与思维框架]] — 思维模式是默认认知倾向，思维框架是可切换的分析结构；前者决定怎么看，后者帮助怎么拆。 (#thinking #cognition #methodology #problem-solving)
 - [[wiki/concepts/Reasoning as Structure Mapping|Reasoning as Structure Mapping]] — 推理可以理解为结构之间的关系保持映射：用一个已知结构照亮未知结构，并检查这种照亮是否保住了约束。 (#thinking #reasoning #cognition)
 - [[wiki/concepts/Business Modeling in Software|Business Modeling in Software]] — 软件中的业务建模，不是先讨论'软件怎么做'，而是先回答：目标组织为了产出业务结果，现在是怎么运作的，应该怎么改。
 - [[wiki/concepts/业务隐含复杂度]] — 业务隐含复杂度说明软件难点常藏在规则、状态、例外、权责、历史和变化中；开发者要把它们转成清晰的软件模型。 (#software-engineering #requirements #architecture #complexity)

@@ -74,6 +74,7 @@ Worth preserving:
 - Clear explanations of a concept that took effort to arrive at
 - Key facts from an external source discussed in the conversation
 - Explicit knowledge supplied alongside the `/wiki-capture` invocation itself. Treat the user's invocation payload as first-class source material, not just an instruction to run the skill. If the payload introduces a framework, vocabulary, checklist, or principle, capture it as its own concept/synthesis when appropriate.
+- Long article/excerpt payloads supplied inline with the invocation. When the user pastes a substantial external article, capture it as a `source` guide by default, preserve its cases, named claims, numbers, and tensions as source-reported claims, and avoid flattening it into a short synthesis unless the user explicitly asks for synthesis.
 - Session-generated durable artifacts, especially outputs from skills such as `ljg-paper` and `ljg-qa` written under `~/Documents/notes/`. When the user invokes wiki-capture after creating these artifacts, treat the generated Org files and the original source URL as source material for a finished wiki page rather than summarizing the chat transcript.
 
 Skip:
@@ -253,7 +254,7 @@ Every note must link to at least 2 existing wiki pages. Search `index.md` before
 
 **`index.md`** — Add the new page under its category section.
 
-**Relevant map pages** — If the new page belongs to an established cluster with a map page already present in `index.md` (for example AI/Agent pages under `wiki/maps/AI Map.md`), add the page to that map's relevant section as well. This is especially important for source guides created from paper-reading or QA artifacts, because the map is the user's main entry point back into the knowledge cluster.
+**Relevant map pages** — If the new page belongs to an established cluster with a map page already present in `index.md` (for example AI/Agent pages under `wiki/maps/AI Map.md`), add the page to that map's relevant section as well. When a source naturally bridges established clusters, update each relevant map with a minimal entry rather than choosing only one (for example an AI software-engineering source may belong in both the AI map and the CS/software-engineering map). This is especially important for source guides created from paper-reading, QA artifacts, or long pasted articles, because the maps are the user's main entry points back into the knowledge cluster.
 
 **`log.md`** — Append:
 ```

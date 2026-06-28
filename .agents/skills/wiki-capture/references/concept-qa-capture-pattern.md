@@ -46,4 +46,13 @@ Full capture still updates the normal vault tracking files:
 - append a `CAPTURE type=concept` row to `log.md`
 - add a recent activity line and, if useful, an active-thread/key-takeaway entry to `hot.md`
 
+## Iterative concept-chain captures
+
+When the user invokes `wiki-capture` repeatedly during one conceptual thread, treat the captures as a growing concept chain, not isolated pages.
+
+- If a new concept extends or generalizes an earlier captured concept from the same session, link them both ways when appropriate: add the new page to the earlier page's `Related`, and include the earlier page in the new page's `Related`.
+- Preserve existing uncommitted tracking entries from previous captures. Re-read dirty shared files before patching, then append only the minimal new `index.md`, `log.md`, `hot.md`, and map entries for the current capture.
+- Do not reorder, rewrite, or collapse neighboring recent entries unless the current capture explicitly updates their substance.
+- In the confirmation, mention when shared tracking files already contained pre-existing dirty changes and that the current capture was kept logically separable.
+
 If `QMD_WIKI_COLLECTION` is unset, report `QMD skipped: QMD_WIKI_COLLECTION unset`; do not treat that as a failure.

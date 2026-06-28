@@ -1,0 +1,598 @@
+{
+  "schema": {
+    "schemaVersion": 2,
+    "sequences": {
+      "com.tldraw.store": 5,
+      "com.tldraw.asset": 1,
+      "com.tldraw.camera": 1,
+      "com.tldraw.document": 2,
+      "com.tldraw.instance": 26,
+      "com.tldraw.instance_page_state": 5,
+      "com.tldraw.page": 1,
+      "com.tldraw.instance_presence": 6,
+      "com.tldraw.pointer": 1,
+      "com.tldraw.shape": 4,
+      "com.tldraw.user": 1,
+      "com.tldraw.asset.image": 6,
+      "com.tldraw.asset.video": 5,
+      "com.tldraw.asset.bookmark": 2,
+      "com.tldraw.shape.group": 0,
+      "com.tldraw.shape.text": 4,
+      "com.tldraw.shape.bookmark": 2,
+      "com.tldraw.shape.draw": 4,
+      "com.tldraw.shape.geo": 11,
+      "com.tldraw.shape.note": 12,
+      "com.tldraw.shape.line": 5,
+      "com.tldraw.shape.frame": 1,
+      "com.tldraw.shape.arrow": 8,
+      "com.tldraw.shape.highlight": 3,
+      "com.tldraw.shape.embed": 4,
+      "com.tldraw.shape.image": 5,
+      "com.tldraw.shape.video": 4,
+      "com.tldraw.binding.arrow": 1
+    }
+  },
+  "store": {
+    "shape:ku88uLKtmzjoodUjJTwUG": {
+      "x": 300,
+      "y": 285,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:ku88uLKtmzjoodUjJTwUG",
+      "type": "arrow",
+      "props": {
+        "kind": "arc",
+        "elbowMidPoint": 0.5,
+        "dash": "draw",
+        "size": "m",
+        "fill": "none",
+        "color": "black",
+        "labelColor": "black",
+        "bend": 0,
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": 65
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "font": "draw",
+        "scale": 1
+      },
+      "parentId": "page:page",
+      "index": "aAI4UYal",
+      "typeName": "shape"
+    },
+    "shape:EvbADG76x0ol4gZiVVOpg": {
+      "x": 105,
+      "y": 68.80078125,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:EvbADG76x0ol4gZiVVOpg",
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 468.640625,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": true,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "attrs": {
+            "dir": "auto"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "dir": "auto"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Wiki 知识架构：从来源到知识网络再到发布"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "parentId": "page:page",
+      "index": "a4z8mwHG",
+      "typeName": "shape"
+    },
+    "shape:no59PLKPhQzyPUMa5nhic": {
+      "x": 55,
+      "y": 145,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:no59PLKPhQzyPUMa5nhic",
+      "type": "geo",
+      "props": {
+        "w": 490,
+        "h": 125,
+        "geo": "rectangle",
+        "dash": "draw",
+        "growY": 0,
+        "url": "",
+        "scale": 1,
+        "color": "black",
+        "labelColor": "black",
+        "fill": "none",
+        "size": "m",
+        "font": "draw",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        }
+      },
+      "parentId": "page:page",
+      "index": "a1jmtmFV",
+      "typeName": "shape"
+    },
+    "shape:eBnEvPFC0P4P5g9hLhaO6": {
+      "x": 55,
+      "y": 365,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:eBnEvPFC0P4P5g9hLhaO6",
+      "type": "geo",
+      "props": {
+        "w": 490,
+        "h": 300,
+        "geo": "rectangle",
+        "dash": "draw",
+        "growY": 0,
+        "url": "",
+        "scale": 1,
+        "color": "black",
+        "labelColor": "black",
+        "fill": "none",
+        "size": "m",
+        "font": "draw",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        }
+      },
+      "parentId": "page:page",
+      "index": "a2ab9qvV",
+      "typeName": "shape"
+    },
+    "shape:SivW0r9vGvIk2vSmGFD5z": {
+      "x": 80,
+      "y": 138.80078125,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:SivW0r9vGvIk2vSmGFD5z",
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 337,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": true,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "attrs": {
+            "dir": "auto"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "dir": "auto"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "① 来源 / 迁移输入"
+                },
+                {
+                  "type": "hardBreak",
+                  "attrs": {
+                    "dir": "auto"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "raw/ · pages/ · mobu/"
+                },
+                {
+                  "type": "hardBreak",
+                  "attrs": {
+                    "dir": "auto"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "logseq/ · journals/"
+                },
+                {
+                  "type": "hardBreak",
+                  "attrs": {
+                    "dir": "auto"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "原始材料、旧笔记、会话与摘录"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "parentId": "page:page",
+      "index": "a8NXdDjV",
+      "typeName": "shape"
+    },
+    "user:IPx21B5rNBp4h5n6mL6k1": {
+      "name": "",
+      "color": "#9D5BD2",
+      "imageUrl": "",
+      "meta": {},
+      "id": "user:IPx21B5rNBp4h5n6mL6k1",
+      "typeName": "user"
+    },
+    "shape:Atz-lNVVFBs4Pe-JKn1JC": {
+      "x": 55,
+      "y": 720,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:Atz-lNVVFBs4Pe-JKn1JC",
+      "type": "geo",
+      "props": {
+        "w": 490,
+        "h": 180,
+        "geo": "rectangle",
+        "dash": "draw",
+        "growY": 0,
+        "url": "",
+        "scale": 1,
+        "color": "black",
+        "labelColor": "black",
+        "fill": "none",
+        "size": "m",
+        "font": "draw",
+        "align": "middle",
+        "verticalAlign": "middle",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        }
+      },
+      "parentId": "page:page",
+      "index": "a7fXW38V",
+      "typeName": "shape"
+    },
+    "shape:4bnq3e3_356QxSp9peDQd": {
+      "x": 80,
+      "y": 723.80078125,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:4bnq3e3_356QxSp9peDQd",
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 381.234375,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": true,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "attrs": {
+            "dir": "auto"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "dir": "auto"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "③ 发布 / 展示层"
+                },
+                {
+                  "type": "hardBreak",
+                  "attrs": {
+                    "dir": "auto"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "content/posts/ → Hugo 构建"
+                },
+                {
+                  "type": "hardBreak",
+                  "attrs": {
+                    "dir": "auto"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "layouts + themes + static"
+                },
+                {
+                  "type": "hardBreak",
+                  "attrs": {
+                    "dir": "auto"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "→ public/"
+                },
+                {
+                  "type": "hardBreak",
+                  "attrs": {
+                    "dir": "auto"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "发布仅是投影；wiki/ 是长期知识源"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "parentId": "page:page",
+      "index": "aCuUPHFG",
+      "typeName": "shape"
+    },
+    "page:page": {
+      "meta": {},
+      "id": "page:page",
+      "name": "Page 1",
+      "index": "a1",
+      "typeName": "page"
+    },
+    "document:document": {
+      "gridSize": 10,
+      "name": "",
+      "meta": {},
+      "id": "document:document",
+      "typeName": "document"
+    },
+    "shape:EV1CWMqz8qS0RDakDF33k": {
+      "x": 300,
+      "y": 678,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:EV1CWMqz8qS0RDakDF33k",
+      "type": "arrow",
+      "props": {
+        "kind": "arc",
+        "elbowMidPoint": 0.5,
+        "dash": "draw",
+        "size": "m",
+        "fill": "none",
+        "color": "black",
+        "labelColor": "black",
+        "bend": 0,
+        "start": {
+          "x": 0,
+          "y": 0
+        },
+        "end": {
+          "x": 0,
+          "y": 34
+        },
+        "arrowheadStart": "none",
+        "arrowheadEnd": "arrow",
+        "richText": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph"
+            }
+          ]
+        },
+        "labelPosition": 0.5,
+        "font": "draw",
+        "scale": 1
+      },
+      "parentId": "page:page",
+      "index": "aBSbCsZV",
+      "typeName": "shape"
+    },
+    "shape:AWp-JcAhoOex3QmniDNu_": {
+      "x": 80,
+      "y": 363.80078125,
+      "rotation": 0,
+      "isLocked": false,
+      "opacity": 1,
+      "meta": {},
+      "id": "shape:AWp-JcAhoOex3QmniDNu_",
+      "type": "text",
+      "props": {
+        "color": "black",
+        "size": "m",
+        "w": 398.015625,
+        "font": "draw",
+        "textAlign": "start",
+        "autoSize": true,
+        "scale": 1,
+        "richText": {
+          "type": "doc",
+          "attrs": {
+            "dir": "auto"
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "dir": "auto"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "② 规范化知识核心 wiki/"
+                },
+                {
+                  "type": "hardBreak",
+                  "attrs": {
+                    "dir": "auto"
+                  }
+                },
+                {
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://index.md",
+                        "target": "_blank",
+                        "rel": "noopener noreferrer nofollow",
+                        "class": null,
+                        "title": null
+                      }
+                    }
+                  ],
+                  "text": "index.md"
+                },
+                {
+                  "type": "text",
+                  "text": " — 唯一主页"
+                },
+                {
+                  "type": "hardBreak",
+                  "attrs": {
+                    "dir": "auto"
+                  }
+                },
+                {
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://NAMING.md",
+                        "target": "_blank",
+                        "rel": "noopener noreferrer nofollow",
+                        "class": null,
+                        "title": null
+                      }
+                    }
+                  ],
+                  "text": "NAMING.md"
+                },
+                {
+                  "type": "text",
+                  "text": " — 命名、放置与治理"
+                },
+                {
+                  "type": "hardBreak",
+                  "attrs": {
+                    "dir": "auto"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "maps/ — 领域入口与导航"
+                },
+                {
+                  "type": "hardBreak",
+                  "attrs": {
+                    "dir": "auto"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "concepts/ — 稳定概念，一页一概念"
+                },
+                {
+                  "type": "hardBreak",
+                  "attrs": {
+                    "dir": "auto"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "topics/ — 长期主题与实践"
+                },
+                {
+                  "type": "hardBreak",
+                  "attrs": {
+                    "dir": "auto"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "syntheses/ — 跨来源综合"
+                },
+                {
+                  "type": "hardBreak",
+                  "attrs": {
+                    "dir": "auto"
+                  }
+                },
+                {
+                  "type": "text",
+                  "text": "sources/ — 原始材料的结构化导览"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "parentId": "page:page",
+      "index": "aDbY18DV",
+      "typeName": "shape"
+    }
+  }
+}

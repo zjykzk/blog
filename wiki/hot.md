@@ -8,10 +8,11 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-28T17:06:04+0800
+updated: 2026-06-28T18:05:00+0800
 ---
 
 ## Recent Activity
+- 2026-06-28T18:05:00+0800 — 已捕获 [[wiki/concepts/思维模式与思维框架]]：把“默认怎么看问题”的思维模式与“怎么拆问题”的思维框架区分开，并接入问题解决与结构化思维线索。
 - 2026-06-28T17:06:04+0800 — 已捕获 [[wiki/sources/AI 什么都能写与软件价值重心转移 Source Guide]]：把 db9、技术栈迁移、遗留系统重写、知识工程和企业维护争议整理为 AI 让代码变便宜、让知识与判断变贵的 source guide。
 - 2026-06-27T02:24:55+0800 — 已捕获 [[wiki/concepts/工程复杂度共同结构]]：把所有工程共有的复杂度压缩为目标、约束、分解、接口、反馈和演化六个问题。
 - 2026-06-27T02:24:07+0800 — 已捕获 [[wiki/concepts/Evidence Question Decomposition]]：把“要看的证据拆到能问、能答、能追责的粒度”整理为总评、维度、原子问题、证据锚点、错因类型和修复动作组成的判断责任链。
@@ -28,6 +29,7 @@ updated: 2026-06-28T17:06:04+0800
 - 判断与评审现在加入证据问题分解线索：不要直接问“好不好 / 对不对 / 靠不靠谱”，而是把总评拆成可问、可答、可追责的检查点，并让每个失败都能指向证据、错因和修法。
 - 软件分析现在加入业务隐含复杂度线索：需求短句背后常藏规则、状态、例外、权责、历史和变化；开发工作要先把这些隐含结构转成领域模型、状态机、权限边界、工作流和工程可靠性设计。
 - 问题解决现在加入铁三角线索：具体问题触发方法论，方法论调用并锤炼思维模式；结构线加深对问题的认识，框架线把实践沉淀成框架、思维框架和框架思维。
+- 思维训练现在补上一条基础区分：思维模式是长期稳定的默认认知倾向，思维框架是可切换的分析工具；框架应由模式选择，并通过反复使用反向训练模式。
 - 问题拆解现在加入五大思维协作架构：结构化思维是操作界面，系统思维提供边界和关联，逻辑思维提供推理规则，创造性思维打开新维度，批判性思维负责证据和反例守门。
 - 基本世界观现在加入 Zima Blue 线索：无限可能本身不能生成自我；自我需要承认来源、限制和责任，而佛法会进一步把“真实自我”拆成因缘和合，并把最终转折读作“成为”冲动的止息。
 - Agent skills now have an implementation landscape thread: skill packages carry operational knowledge, function tools carry executable action surfaces, MCP/tool servers carry cross-system protocol boundaries, and enterprise plugins carry service/API governance.

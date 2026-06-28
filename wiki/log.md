@@ -319,3 +319,4 @@ tags:
 - [2026-06-11T23:46:48+0800] QUERY query="面向对象分析与设计中，类和对象结构图，解决什么问题" result_pages=3 mode=normal escalated=false
 - [2026-06-11T23:51:41+0800] CAPTURE type=synthesis page="wiki/syntheses/类和对象结构图的建模作用.md" title="类和对象结构图的建模作用"
 - [2026-06-18T00:10:43+0800] CAPTURE type=source page="wiki/sources/贝尔曼方程与大模型意识圆桌 Source Guide.md" title="贝尔曼方程与大模型意识圆桌 Source Guide"
+- [2026-06-28T18:05:00+0800] CAPTURE type=concept page="wiki/concepts/思维模式与思维框架.md" title="思维模式与思维框架"
