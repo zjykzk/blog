@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured engineering complexity as the shared structure of goals, constraints, decomposition, interfaces, feedback, and evolution.
+summary: Recent wiki activity captured how AI lowers software implementation, migration, and rewrite costs while shifting value toward knowledge, specs, harnesses, judgment, and responsibility.
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-27T02:24:55+0800
+updated: 2026-06-28T17:06:04+0800
 ---
 
 ## Recent Activity
+- 2026-06-28T17:06:04+0800 — 已捕获 [[wiki/sources/AI 什么都能写与软件价值重心转移 Source Guide]]：把 db9、技术栈迁移、遗留系统重写、知识工程和企业维护争议整理为 AI 让代码变便宜、让知识与判断变贵的 source guide。
 - 2026-06-27T02:24:55+0800 — 已捕获 [[wiki/concepts/工程复杂度共同结构]]：把所有工程共有的复杂度压缩为目标、约束、分解、接口、反馈和演化六个问题。
 - 2026-06-27T02:24:07+0800 — 已捕获 [[wiki/concepts/Evidence Question Decomposition]]：把“要看的证据拆到能问、能答、能追责的粒度”整理为总评、维度、原子问题、证据锚点、错因类型和修复动作组成的判断责任链。
 - 2026-06-27T02:00:56+0800 — 已捕获 [[wiki/concepts/业务隐含复杂度]]：把“软件开发最难的是业务中隐含的复杂度”整理为规则、状态、例外、权责、历史和变化进入软件模型的概念页。
@@ -22,6 +23,7 @@ updated: 2026-06-27T02:24:55+0800
 
 ## Active Threads
 
+- AI 软件工程现在加入“代码变便宜、知识与判断变贵”的线索：当语言、框架、数据库、迁移和重写不再形成同等锁定时，价值从亲手实现转向 specification、业务知识、harness 前馈/反馈、行为兼容验证和最终责任判断。
 - 工程方法现在加入共同复杂度线索：所有工程都要在有限资源、局部认知、持续变化和必然失败中处理目标、约束、分解、接口、反馈和演化，而软件工程只是其中一种表现形式。
 - 判断与评审现在加入证据问题分解线索：不要直接问“好不好 / 对不对 / 靠不靠谱”，而是把总评拆成可问、可答、可追责的检查点，并让每个失败都能指向证据、错因和修法。
 - 软件分析现在加入业务隐含复杂度线索：需求短句背后常藏规则、状态、例外、权责、历史和变化；开发工作要先把这些隐含结构转成领域模型、状态机、权限边界、工作流和工程可靠性设计。
@@ -118,6 +120,7 @@ updated: 2026-06-27T02:24:55+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- AI “什么都能写”并不意味着工程价值消失，而是实现动作的稀缺性下降；真正稀缺的是把现实问题还原成 specification、把隐含业务知识转成可验证行为、用 harness 约束生成，并对上线后的系统后果负责。
 - 所有工程共有的底层难题不是“东西很多”，而是如何把目标放进约束、把系统切成边界、让接口协作、让反馈校验设计，并让结构进入时间后仍能演化。
 - 好判断不是更漂亮的总评，而是更硬的责任链：总评要先拆成维度，维度要拆成可回答问题，问题要挂证据，失败要能定位错因并导出修法。
 - 软件开发中的“业务复杂”不是业务方说得多，而是现实规则没有天然以代码友好形式出现；成熟开发要把业务语言转成软件模型，再用工程手段可靠执行。

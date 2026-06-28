@@ -122,6 +122,7 @@ tags:
 - [[wiki/sources/AI 软件工程问答 Source Guide]] — 中文问答链：从软件工程未彻底工程化出发，推导 AI 中心产线、确定性验证、分治结构和隐性知识蒸馏的落地路径。
 - [[wiki/sources/软件工程真正降临 Source Guide]] — 中文长文：从经典工程史和控制论推导软件工程的 AI 中心产线化路径，强调确定性裁判、小闭环、分治单元和产线设计师。
 - [[wiki/sources/大模型时代软件工程的本质与演进 Source Guide]] — 中文长文：从需求工程、Naur、DDD、Brooks、Lehman、Woods 到 AI “无理论代码”，论证软件工程是问题定义、知识传递与应用。
+- [[wiki/sources/AI 什么都能写与软件价值重心转移 Source Guide]] — 中文长文：把 db9、技术栈迁移、遗留系统重写和企业维护争议串成“代码变便宜，知识与判断变贵”的 AI 软件工程线索。
 - `content/posts/cs/arch/arch.md`
 - `content/posts/cs/dist/circuit-breaker.md`
 - `content/posts/cs/golang/go-memory-model.md`

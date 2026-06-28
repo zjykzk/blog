@@ -19,6 +19,7 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-06-28T17:06:04+0800] CAPTURE type=source page="wiki/sources/AI 什么都能写与软件价值重心转移 Source Guide.md" title="AI 什么都能写与软件价值重心转移 Source Guide"
 - [2026-06-27T02:24:55+0800] CAPTURE type=concept page="wiki/concepts/工程复杂度共同结构.md" title="工程复杂度共同结构"
 - [2026-06-27T02:24:07+0800] CAPTURE type=concept page="wiki/concepts/Evidence Question Decomposition.md" title="Evidence Question Decomposition"
 - [2026-06-27T02:00:56+0800] CAPTURE type=concept page="wiki/concepts/业务隐含复杂度.md" title="业务隐含复杂度"
