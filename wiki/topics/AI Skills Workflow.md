@@ -17,16 +17,17 @@ sources:
   - https://x.com/neural_avb/article/2053873358853591435
   - https://arxiv.org/abs/2605.07358v1
   - https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity
+  - https://engineering.block.xyz/blog/3-principles-for-designing-agent-skills
 created: 2026-04-22
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.80
-  inferred: 0.19
+  extracted: 0.81
+  inferred: 0.18
   ambiguous: 0.01
-source_count: 15
-updated: 2026-06-24T12:01:01+0800
+source_count: 16
+updated: 2026-07-04T13:49:20+0800
 aliases:
   - skills workflow
   - AI skills
@@ -136,6 +137,8 @@ This makes governance part of skill workflow design. A human-trace skill is not 
 
 [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]] adds a useful distinction between one-shot tools and workflow catalysts.
 
+[[wiki/sources/Block Agent Skills Design Principles Source Guide]] independently names this as "design for the arc." Block's Repo Readiness example starts with a deterministic score, but the skill is valuable because the score becomes conversational context for explanation, AGENTS.md drafting, remediation, and re-running the check.
+
 A one-shot tool creates a process breakpoint: it emits a report, JSON payload, check result, or draft, then leaves the human to bridge the next step. A workflow-catalyst skill turns that output into the agent's next context input. Diagnosis can feed repair planning; readiness checks can feed `AGENTS.md` drafting; repeated review failures can feed new gotchas, tests, scripts, or guardrails.
 
 This changes the design target from “can the agent run the helper?” to “does the helper create the next action arc?” A strong skill therefore designs the handoff between deterministic execution and LLM interpretation: scripts provide stable observations, while the model explains what those observations imply and chooses the next bounded action. ^[inferred]
@@ -191,3 +194,4 @@ The practical workflow arc is:
 - [[wiki/sources/Skills-Coach Paper Source Guide]]
 - [[wiki/sources/SkillOS Source Guide]]
 - [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]]
+- [[wiki/sources/Block Agent Skills Design Principles Source Guide]]

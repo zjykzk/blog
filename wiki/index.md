@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-07-03T21:45:37+0800
+updated: 2026-07-04T13:49:20+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -336,6 +336,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Csikszentmihalyi Systems Model of Creativity Source Guide|Csikszentmihalyi Systems Model of Creativity Source Guide]] — Source guide for Csikszentmihalyi's systems model, treating creativity as a relation among person, domain, field, and social recognition. (#creativity #psychology #systems)
 - [[wiki/sources/Dewey Reflective Inquiry Source Guide|Dewey Reflective Inquiry Source Guide]] — Source guide for Dewey's reflective thought cycle, grounding application in problem definition, hypothesis, consequence, and test. (#pragmatism #inquiry #thinking)
 - [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide|Designing, Refining, and Maintaining Agent Skills at Perplexity Source Guide]] — Perplexity's source guide treats skills as costly progressive context packages that balance deterministic scripts, LLM judgment, routing evals, and workflow arcs. (#article #agents #skills #workflow #context)
+- [[wiki/sources/Block Agent Skills Design Principles Source Guide|Block Agent Skills Design Principles Source Guide]] — Block's engineering post frames agent skills as executable tribal knowledge with deterministic scripts, agent judgment zones, constitutional constraints, and action arcs. (#article #agents #skills #workflow #ai-coding)
 - [[wiki/sources/Dive into Claude Code Source Guide|Dive into Claude Code Source Guide]] — Direct arXiv source guide for Claude Code as an agent-system design-space case, preserving its values, principles, harness architecture, OpenClaw comparison, and future directions. (#paper #arxiv #agents #harness #ai-coding)
 - [[wiki/sources/Epiplexity Paper Notes|Epiplexity Paper Notes]] — 这页保留论文 From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence 的阅读笔记，并作为 Epiplexity 的来源层。 (#paper #information-theory)
 - [[wiki/sources/Evaluation Concept Anatomy Source Guide|Evaluation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on evaluation as scale-shaped value judgment. (#thinking #concepts)

@@ -6,13 +6,14 @@ category: concepts
 summary: Computational controls execute objective checks; inferential controls carry human or model judgment where correctness cannot be fully executable.
 sources:
   - https://martinfowler.com/articles/harness-engineering.html
+  - https://engineering.block.xyz/blog/3-principles-for-designing-agent-skills
 created: 2026-05-06T22:24:21+08:00
-updated: 2026-05-06T22:24:21+08:00
+updated: 2026-07-04T13:49:20+0800
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 provenance:
-  extracted: 0.78
+  extracted: 0.80
   inferred: 0.22
   ambiguous: 0.0
 aliases:
@@ -63,6 +64,10 @@ When a property can be checked computationally, executable feedback is usually s
 
 This links [[wiki/topics/Testing Strategy]] with [[wiki/concepts/Encoding Team Standards]]: tests cover executable truth, while standards and rubrics preserve senior judgment that cannot yet be reduced to a test.
 
+[[wiki/sources/Block Agent Skills Design Principles Source Guide]] applies this split at the skill level. In Block's Repo Readiness skill, scoring is a computational control: binary checks and fixed point values live in a script. Explanation, prioritization, AGENTS.md drafting, and conversation remain inferential agent work.
+
+The resulting skill architecture asks two questions for every responsibility: does this need same-input/same-output reproducibility, or does it need context-sensitive intelligence? Reproducibility belongs in scripts, templates, and hard rules; contextual fit belongs in model reasoning under a constitution. ^[inferred]
+
 ## Related
 
 - [[wiki/topics/AI Harness]]
@@ -72,3 +77,4 @@ This links [[wiki/topics/Testing Strategy]] with [[wiki/concepts/Encoding Team S
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/concepts/Feedforward and Feedback Controls]]
 - [[wiki/sources/Harness Engineering Source Guide]]
+- [[wiki/sources/Block Agent Skills Design Principles Source Guide]]

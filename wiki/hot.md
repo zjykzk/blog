@@ -1,23 +1,24 @@
 ---
 title: Hot Cache
 category: meta
-summary: Vibe 时代的软件工程已摄入：AI 让代码生成变便宜后，软件工程重心转向意图、验证、复杂度、安全网和团队门禁。
+summary: Block agent skill 设计原则已摄入：好的 skill 要区分确定性脚本、模型判断、宪法式约束和后续行动弧。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-07-03T21:45:37+0800
+updated: 2026-07-04T13:49:20+0800
 ---
 
 ## Recent Activity
+- 2026-07-04T13:49:20+0800 — 已摄入 [[wiki/sources/Block Agent Skills Design Principles Source Guide]]：Block 把 agent skill 设计压成确定性边界、模型判断区、宪法式约束和 action arc。
 - 2026-07-03T21:45:37+0800 — 已摄入 [[wiki/sources/Vibe 时代的软件工程]]：保留本地 PDF 全文抽取，并新增 [[wiki/concepts/Vibe Coding]] 与 [[wiki/concepts/Verification Gap]]。
 - 2026-07-03T21:41:34+0800 — 已捕获 [[wiki/syntheses/丝绸之路中的宗教组织力量]]：把《丝绸之路》中的宗教整理为随商路流动、生成信任、服务帝国合法性并组织冲突的跨大陆秩序力量。
-- 2026-07-03T14:07:01+08:00 — 已捕获 [[wiki/concepts/囚徒困境]]：把囚徒困境整理为信息隔离、承诺缺失、背叛诱惑和合作风险共同生成集体次优的机制模型。
 
 ## Active Threads
 
+- Agent skill 现在加入 Block 的 skill marketplace 线索：团队 runbook、API 风格、feature flag 实验、oncall 调查和 repo readiness 可以变成版本控制的 executable tribal knowledge。
 - AI 软件工程现在加入 Vibe 时代线索：代码生成成本下降后，工程瓶颈从“写”转向“验”，关键结构是意图规格、委托粒度、验证鸿沟、复杂度控制、安全网和自动化门禁。
 - 世界史阅读现在加入宗教组织力量线索：《丝绸之路》里的宗教不是单独精神史，而是贸易信任、帝国合法性、身份边界、冲突动员和文化混合共同作用的网络机制。
 - 机制模型现在补上一条合作困境线索：囚徒困境不是“人性自私”的道德故事，而是局部理性、信息隔离、承诺缺失和背叛收益共同生成集体次优的结构。
@@ -121,6 +122,7 @@ updated: 2026-07-03T21:45:37+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- 好的 agent skill 不是把所有事情交给模型，而是先切责任边界：可重复的评分、命令、SQL、命名和格式进入脚本/模板/硬规则；解释、生成、优先级和对话留给 agent；`SKILL.md` 像宪法一样限制有害的“热心”。
 - Vibe coding 的真正风险不是“AI 写代码”，而是生成速度超过验证速度；软件工程在这里重新显形为把意图说清、把复杂度切开、把正确性接进可执行反馈回路的能力。
 - 《丝绸之路》中的宗教应放进流动网络里读：它随商路传播，又反过来降低陌生交易成本、支撑帝国统治、定义共同体边界，并把现实利益转成可动员的神圣叙事。
 - 囚徒困境的杠杆点不在劝人善良，而在让合作变得安全：增加可见性、承诺、惩罚、重复关系、补偿机制和反馈，使局部激励重新对齐整体收益。

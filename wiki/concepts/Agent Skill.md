@@ -12,14 +12,15 @@ sources:
   - https://arxiv.org/abs/2604.27488
   - https://arxiv.org/abs/2605.07358v1
   - https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity
+  - https://engineering.block.xyz/blog/3-principles-for-designing-agent-skills
 created: 2026-05-06T10:51:47+08:00
-updated: 2026-06-24T12:01:01+0800
+updated: 2026-07-04T13:49:20+0800
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 provenance:
-  extracted: 0.85
-  inferred: 0.15
+  extracted: 0.86
+  inferred: 0.14
   ambiguous: 0.00
 aliases:
   - agent skills
@@ -97,9 +98,15 @@ The article also makes the `description` field operationally important: it is th
 
 Hard rules, repeated calculations, formatting constraints, and safety or verification gates belong in scripts, templates, checkers, or mandatory `SKILL.md` steps. Context interpretation, trade-off analysis, conversation, synthesis, exception handling, and generation remain LLM work.
 
+[[wiki/sources/Block Agent Skills Design Principles Source Guide]] makes the same boundary operational through Block's Repo Readiness skill: scoring moved into a bash script with binary checks and fixed point values, while the agent explains failures, drafts tailored follow-up artifacts, and recommends priorities.
+
+Block's formulation is a compact skill-design test: if a decision must be reproducible across runs or teams, remove it from the model; if it requires context interpretation, creation, or conversation, leave it to the agent under explicit constraints.
+
 This makes a skill a boundary object between [[wiki/concepts/Computational and Inferential Controls]]: deterministic components supply the skeleton of repeatability, while model reasoning supplies adaptive fit to the current situation. ^[inferred]
 
 The same source also frames a mature skill as a workflow catalyst rather than a one-shot tool. The skill should make intermediate outputs actionable by the agent: a diagnostic report should become repair context, a check result should become a plan, and a repeated failure should become a candidate gotcha, test, script, or harness update. ^[inferred]
+
+Block calls this "design for the arc": for diagnostic, investigation, review, or readiness skills, the first output should become the agent's next input so the user can ask for explanation, remediation, or re-checking in the same session.
 
 ## Capability Boundaries and Self-Evolution
 
@@ -138,5 +145,6 @@ This strengthens the distinction between craft and persona. In a colleague setti
 - [[wiki/sources/Claude Code Skills Source Guide]]
 - [[wiki/sources/Seeing Like an Agent Source Guide]]
 - [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]]
+- [[wiki/sources/Block Agent Skills Design Principles Source Guide]]
 - [[wiki/sources/COLLEAGUE.SKILL Paper Source Guide]]
 - [[wiki/syntheses/Agent Skill × Harness Ratchet]] — synthesis

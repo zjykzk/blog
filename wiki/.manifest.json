@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 60,
-    "total_pages": 395
+    "total_sources_ingested": 61,
+    "total_pages": 396
   },
   "sources": {
     "inline:buddhist-awakening-correction-2026-06-21": {
@@ -1288,6 +1288,30 @@
         "wiki/topics/Spec-Driven Development.md",
         "wiki/maps/CS Map.md",
         "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://engineering.block.xyz/blog/3-principles-for-designing-agent-skills": {
+      "ingested_at": "2026-07-04T13:49:20+0800",
+      "source_url": "https://engineering.block.xyz/blog/3-principles-for-designing-agent-skills",
+      "size_bytes": 47374,
+      "modified_at": "2026-07-04T13:47:41+0800",
+      "content_hash": "sha256:f1b06fc3d8f0740de7547bbc841f338a0505fadfbd436cf58d94c821b3a3e2ba",
+      "source_type": "url",
+      "stub": false,
+      "project": null,
+      "promotion_status": "sources",
+      "pages_created": [
+        "wiki/sources/Block Agent Skills Design Principles Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Agent Skill.md",
+        "wiki/topics/AI Skills Workflow.md",
+        "wiki/concepts/Computational and Inferential Controls.md",
+        "wiki/concepts/Encoding Team Standards.md",
+        "wiki/sources/Agent Engineering Source Guide.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"

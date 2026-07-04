@@ -9,8 +9,8 @@ created: 2026-04-23
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 17
-updated: 2026-05-23T01:59:29+08:00
+source_count: 18
+updated: 2026-07-04T13:49:20+0800
 aliases:
   - agent engineering source cluster
   - harness workflow source guide
@@ -68,6 +68,7 @@ tags:
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 - [[wiki/sources/Harness Engineering Is Cybernetics Source Guide]]
 - [[wiki/sources/Agentic-First Source Guide]]
+- [[wiki/sources/Block Agent Skills Design Principles Source Guide]]
 
 The prompt-caching guide now covers both a secondary case-study explainer and Thariq's original Claude Code article, which contributes the production-harness angle: cache-hit monitoring, stable mode tools, deferred tool loading, and cache-safe compaction.
 
@@ -96,6 +97,8 @@ TechLead 少个分号's seminar recap contributes the team-discipline layer: har
 George's harness-cybernetics article contributes the control-loop analogy: harness engineering is the move from direct code manipulation to designing sensors, actuators, desired state, and calibration rules around agentic coding.
 
 James Pritchard's Agentic-First article contributes the platform-and-process layer: agent performance depends on file-oriented architecture, mode-aware context, edit-time validation, and moving human oversight to boundaries instead of preserving legacy workflow checkpoints.
+
+Angie Jones's Block Engineering article contributes the skill-marketplace and skill-constitution layer: internal tribal knowledge becomes version-controlled agent skills, deterministic scoring and commands move into scripts, and `SKILL.md` constrains the agent's helpfulness while leaving interpretation and follow-up action to the model.
 
 ## Main promotion destinations
 

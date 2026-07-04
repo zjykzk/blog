@@ -6,8 +6,9 @@ category: concepts
 summary: Encoding team standards turns tacit engineering judgment into versioned AI instructions that execute consistently across the team.
 sources:
   - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
+  - https://engineering.block.xyz/blog/3-principles-for-designing-agent-skills
 created: 2026-05-05T17:45:00+08:00
-updated: 2026-05-05T17:45:00+08:00
+updated: 2026-07-04T13:49:20+0800
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -76,6 +77,10 @@ A personal prompt is a productivity trick. A prompt or skill in the repository i
 
 When standards live in the repo, they gain the same operational properties as other shared artifacts: changes are tracked, improvements happen through pull requests, drift is visible, and ownership becomes collective.
 
+[[wiki/sources/Block Agent Skills Design Principles Source Guide]] extends this from standards instructions to a full skills marketplace. Block describes oncall runbooks, API style guides, feature-flag procedures, investigation workflows, and readiness checks as version-controlled skills that any engineer can install and any supporting agent can execute.
+
+This reframes tribal knowledge as executable infrastructure: documentation becomes useful not only when humans read it, but when an agent can load it, follow it, and turn the result into the next workflow step. ^[inferred]
+
 The closest connection to [[wiki/concepts/Context Anchoring]] is maintenance: both patterns move important AI collaboration state out of individual chats and into versioned artifacts that can survive session boundaries. ^[inferred]
 
 ## Calibration
@@ -101,3 +106,4 @@ Refiners let teams customize defaults through guided interviews, producing a ver
 - [[wiki/topics/Testing Strategy]]
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
+- [[wiki/sources/Block Agent Skills Design Principles Source Guide]]
