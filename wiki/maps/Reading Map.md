@@ -14,7 +14,7 @@ base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-05-30T23:29:58+0800
+updated: 2026-07-03T21:41:34+0800
 aliases:
   - 读书地图
 tags:
@@ -51,6 +51,7 @@ tags:
 
 ## Syntheses
 
+- [[wiki/syntheses/丝绸之路中的宗教组织力量]] — 把《丝绸之路》中的宗教读成贸易信任、帝国合法性、身份边界、冲突动员和文化混合的组织力量。
 - [[wiki/syntheses/Thinking and Judgment Workflow]]
 - [[wiki/syntheses/Acting Under Complexity]]
 - [[wiki/syntheses/不确定性下的判断]]
