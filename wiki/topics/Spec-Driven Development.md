@@ -9,6 +9,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/design-first-collaboration.html
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
   - https://www.chrismdp.com/coding-with-ai/
+  - wiki/sources/Vibe 时代的软件工程.md
 created: 2026-04-26
 base_confidence: 0.44
 lifecycle: draft
@@ -18,7 +19,7 @@ provenance:
   inferred: 0.20
   ambiguous: 0.04
 source_count: 6
-updated: 2026-05-07T22:03:56+08:00
+updated: 2026-07-03T21:45:37+0800
 aliases:
   - SDD
 tags:
@@ -90,6 +91,10 @@ Chris Parsons' [[wiki/sources/Coding with AI Source Guide]] adds a counter-press
 
 This does not reject spec discipline entirely; it narrows the useful spec target. The strongest AI-era spec may be a problem contract plus verification criteria, not a premature implementation script. ^[inferred]
 
+[[wiki/sources/Vibe 时代的软件工程]] reinforces the lightweight version of spec discipline through the formula "prompt as specification": a usable request should include goal, constraints, context, and acceptance criteria before code generation. This is less than full Spec-as-Source, but it is enough to reduce model guessing and make [[wiki/concepts/Verification Gap]] tractable.
+
+The source also warns against over-large delegation. A spec that cannot be validated at its chosen grain becomes a code dump prompt, not an engineering contract. ^[inferred]
+
 ## Open questions
 
 - 从 legacy code 反向抽规约时，规约未必比代码更接近意图——这是 brownfield 的特殊挑战
@@ -110,5 +115,8 @@ This does not reject spec discipline entirely; it narrows the useful spec target
 - [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/concepts/Context Anchoring]]
 - [[wiki/concepts/Agentic Engineering]]
+- [[wiki/concepts/Vibe Coding]]
+- [[wiki/concepts/Verification Gap]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
+- [[wiki/sources/Vibe 时代的软件工程]]

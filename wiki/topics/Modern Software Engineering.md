@@ -12,6 +12,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
   - inline:laws-of-software-engineering-unintended-consequences-2026-06-09
   - https://dora.dev/guides/dora-metrics/
+  - wiki/sources/Vibe 时代的软件工程.md
 created: 2026-04-21
 base_confidence: 0.55
 lifecycle: draft
@@ -21,7 +22,7 @@ provenance:
   inferred: 0.18
   ambiguous: 0.00
 source_count: 5
-updated: 2026-06-11T17:49:52+08:00
+updated: 2026-07-03T21:45:37+0800
 aliases:
   - 软件工程
   - modern software engineering
@@ -81,6 +82,14 @@ The important methodological point is that DORA Metrics are not local productivi
 
 DORA also warns that metrics should not become goals or cross-team competitions. For [[wiki/topics/Modern Software Engineering]], that makes measurement a problem-framing device: use metrics to expose constraints and learn, not to replace judgment. ^[inferred]
 
+## Vibe-era bottleneck shift
+
+[[wiki/sources/Vibe 时代的软件工程]] adds a compact AI-era restatement of the empirical view: when [[wiki/concepts/Vibe Coding]] makes code generation cheap, software engineering does not disappear; it becomes more visibly about problem understanding, complexity control, and verification.
+
+The source names [[wiki/concepts/Verification Gap]] as the new center of gravity: generated code can arrive at machine speed, but intent clarification, risk judgment, behavior validation, and maintainability review still move through human and institutional feedback loops.
+
+This strengthens the page's core thesis: modern software engineering should be judged by the quality of its evidence loops and recovery structures, not by local implementation throughput. ^[inferred]
+
 ## Navigation
 
 - [[wiki/topics/面向对象分析与设计]]
@@ -90,5 +99,8 @@ DORA also warns that metrics should not become goals or cross-team competitions.
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/concepts/Feedback Flywheel]]
+- [[wiki/concepts/Vibe Coding]]
+- [[wiki/concepts/Verification Gap]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
+- [[wiki/sources/Vibe 时代的软件工程]]
 - `pages/软件工程.md`

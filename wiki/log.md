@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-06-27T02:24:55+0800
+updated: 2026-07-03T21:45:37+0800
 aliases:
   - Wiki Log
 tags:
@@ -19,6 +19,12 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-07-03T21:45:37+0800] INGEST source="/Users/zenk/study/wiki/wiki/sources/Vibe 时代的软件工程.md" pages_updated=9 pages_created=3 mode=append
+- [2026-07-03T21:41:34+0800] CAPTURE type=synthesis page="wiki/syntheses/丝绸之路中的宗教组织力量.md" title="《丝绸之路》中的宗教组织力量"
+- [2026-07-03T14:07:01+08:00] CAPTURE type=concept page="wiki/concepts/囚徒困境.md" title="囚徒困境"
+- [2026-07-01T00:58:59+0800] CAPTURE type=topic page="wiki/topics/Classification Procedure.md" title="Classification Procedure"
+- [2026-06-30T18:22:54+0800] CAPTURE type=concept page="wiki/concepts/Agent Loop Human Judgment Positions.md" title="Agent Loop Human Judgment Positions"
+- [2026-06-28T17:44:58+0800] LINT issues_found=4 orphans=0 broken_links=0 stale=0 contradictions=0 prov_issues=0 missing_summary=1 long_summary=1 fragmented_clusters=10 visibility_issues=0 promotion_candidates=0 synthesis_gaps=22 lifecycle_issues=1 relationship_issues=0 index_issues=0 note="397 pages scanned; one raw PDF extract (问题解决的终极模型) missing full schema (frontmatter/summary/lifecycle/base_confidence); 1 over-length summary; fragmented clusters are known broad routing tags + #roundtable (by-design); 22 synthesis gaps are opportunities not errors"
 - [2026-06-28T17:06:04+0800] CAPTURE type=source page="wiki/sources/AI 什么都能写与软件价值重心转移 Source Guide.md" title="AI 什么都能写与软件价值重心转移 Source Guide"
 - [2026-06-27T02:24:55+0800] CAPTURE type=concept page="wiki/concepts/工程复杂度共同结构.md" title="工程复杂度共同结构"
 - [2026-06-27T02:24:07+0800] CAPTURE type=concept page="wiki/concepts/Evidence Question Decomposition.md" title="Evidence Question Decomposition"
@@ -320,3 +326,7 @@ tags:
 - [2026-06-11T23:51:41+0800] CAPTURE type=synthesis page="wiki/syntheses/类和对象结构图的建模作用.md" title="类和对象结构图的建模作用"
 - [2026-06-18T00:10:43+0800] CAPTURE type=source page="wiki/sources/贝尔曼方程与大模型意识圆桌 Source Guide.md" title="贝尔曼方程与大模型意识圆桌 Source Guide"
 - [2026-06-28T18:05:00+0800] CAPTURE type=concept page="wiki/concepts/思维模式与思维框架.md" title="思维模式与思维框架"
+- [2026-06-29T14:56:37Z] QUERY query="大模型幻觉的本质原因是什么" result_pages=6 mode=normal escalated=false
+- [2026-06-29T15:01:35Z] QUERY query="约束有了为什么还需要校验" result_pages=5 mode=normal escalated=false
+- [2026-06-29T15:08:02Z] QUERY query="不用约束可以吗" result_pages=2 mode=normal escalated=false
+- [2026-06-29T15:31:36Z] QUERY query="从语义空间解释下" result_pages=5 mode=normal escalated=false

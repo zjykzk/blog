@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 59,
-    "total_pages": 392
+    "total_sources_ingested": 60,
+    "total_pages": 395
   },
   "sources": {
     "inline:buddhist-awakening-correction-2026-06-21": {
@@ -1264,6 +1264,30 @@
         "wiki/topics/Problem Framing.md",
         "wiki/topics/Mental Models.md",
         "wiki/maps/Classification Thinking Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "/Users/zenk/study/wiki/wiki/sources/Vibe 时代的软件工程.md": {
+      "ingested_at": "2026-07-03T21:45:37+0800",
+      "size_bytes": 117152,
+      "modified_at": "2026-07-03T21:48:09+08:00",
+      "content_hash": "sha256:7fff5d10d5769ec78c98d52ea6994c691105d1bea6c60c2d36055a8e661269e3",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/Vibe 时代的软件工程.md",
+        "wiki/concepts/Vibe Coding.md",
+        "wiki/concepts/Verification Gap.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/Modern Software Engineering.md",
+        "wiki/concepts/Agentic Engineering.md",
+        "wiki/topics/Testing Strategy.md",
+        "wiki/topics/Spec-Driven Development.md",
+        "wiki/maps/CS Map.md",
+        "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"

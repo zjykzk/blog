@@ -11,6 +11,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
   - https://www.chrismdp.com/coding-with-ai/
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
+  - wiki/sources/Vibe 时代的软件工程.md
 created: 2026-04-21
 base_confidence: 0.44
 lifecycle: draft
@@ -20,7 +21,7 @@ provenance:
   inferred: 0.20
   ambiguous: 0.0
 source_count: 8
-updated: 2026-05-09T20:42:04+08:00
+updated: 2026-07-03T21:45:37+0800
 aliases:
   - 测试模型
 tags:
@@ -97,6 +98,14 @@ The source's proposed loop is requirements → AI code → AI tests → automate
 
 For testing strategy, the implication is that AI productivity depends less on how much code is generated and more on how much of the acceptance boundary can be made executable before review. ^[inferred]
 
+## Verification gap as testing pressure
+
+[[wiki/sources/Vibe 时代的软件工程]] gives this testing strategy an explicit bottleneck name: [[wiki/concepts/Verification Gap]]. AI can make implementation arrive faster than humans can understand and validate it, so each test layer should be read as a filter that raises confidence rather than as a ritual coverage target.
+
+The source also frames tests as executable specifications in AI work. A failing test can give the model a concrete target, but test assertions must remain under human responsibility or human review; otherwise the generator can satisfy the gate by weakening the gate.
+
+That makes property tests and characterization tests especially important in Vibe-era work: the former attacks broad input spaces with invariants, while the latter freezes legacy behavior before AI-assisted change.
+
 ## Peer topics
 
 - [[wiki/topics/Testing Purpose]]
@@ -106,10 +115,13 @@ For testing strategy, the implication is that AI productivity depends less on ho
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/concepts/Agentic Engineering]]
+- [[wiki/concepts/Vibe Coding]]
+- [[wiki/concepts/Verification Gap]]
 - [[wiki/syntheses/AI Harness × Testing Strategy]] — synthesis
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
+- [[wiki/sources/Vibe 时代的软件工程]]
 
 ## Navigation
 

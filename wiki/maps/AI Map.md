@@ -19,7 +19,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 5
-updated: 2026-06-24T12:01:01+0800
+updated: 2026-07-03T21:45:37+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -36,6 +36,7 @@ tags:
 - [[wiki/concepts/Agent]]
 - [[wiki/concepts/Workflow Graph Orchestration]]
 - [[wiki/concepts/Human-LLM Co-Planning Interaction Space]]
+- [[wiki/concepts/Agent Loop Human Judgment Positions]] — 人在 agent loop 中的结构性位置：定义价值、切任务边界、设置否决、硬门禁、持久状态、人工门、理解校准和循环复盘。
 - [[wiki/concepts/Agent Evaluation CLASSic Framework]]
 - [[wiki/concepts/Agentic AI Architecture Taxonomy]]
 - [[wiki/concepts/Agentic Control Loop]]
@@ -79,6 +80,8 @@ tags:
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Harnessability]]
 - [[wiki/concepts/Agentic Engineering]]
+- [[wiki/concepts/Vibe Coding]] — AI coding 协作谱系中最放飞的一端，适合低风险易验证区域，但会放大验证责任。
+- [[wiki/concepts/Verification Gap]] — 生成速度与验证速度之间的差距，是 AI coding 转向工程纪律的关键压力。
 - [[wiki/concepts/Codebase Retrieval Index]]
 - [[wiki/concepts/Institutional Friction]]
 - [[wiki/concepts/Governed Action]]
@@ -173,6 +176,7 @@ tags:
 - [[wiki/sources/Memory Is State Not a Service Source Guide]]
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 - [[wiki/sources/Structured-Prompt-Driven Development Source Guide]]
+- [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源：围绕 Vibe coding、验证鸿沟、意图-生成-验证循环、复杂度和团队门禁组织 AI 软件工程入门。
 - [[wiki/sources/SPDD Abstraction First Source Guide]]
 - [[wiki/sources/SPDD Alignment Source Guide]]
 - [[wiki/sources/SPDD Iterative Review Source Guide]]

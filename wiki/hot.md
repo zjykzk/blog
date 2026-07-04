@@ -1,29 +1,28 @@
 ---
 title: Hot Cache
 category: meta
-summary: Recent wiki activity captured how AI lowers software implementation, migration, and rewrite costs while shifting value toward knowledge, specs, harnesses, judgment, and responsibility.
+summary: Vibe 时代的软件工程已摄入：AI 让代码生成变便宜后，软件工程重心转向意图、验证、复杂度、安全网和团队门禁。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-28T18:05:00+0800
+updated: 2026-07-03T21:45:37+0800
 ---
 
 ## Recent Activity
-- 2026-06-28T18:05:00+0800 — 已捕获 [[wiki/concepts/思维模式与思维框架]]：把“默认怎么看问题”的思维模式与“怎么拆问题”的思维框架区分开，并接入问题解决与结构化思维线索。
-- 2026-06-28T17:06:04+0800 — 已捕获 [[wiki/sources/AI 什么都能写与软件价值重心转移 Source Guide]]：把 db9、技术栈迁移、遗留系统重写、知识工程和企业维护争议整理为 AI 让代码变便宜、让知识与判断变贵的 source guide。
-- 2026-06-27T02:24:55+0800 — 已捕获 [[wiki/concepts/工程复杂度共同结构]]：把所有工程共有的复杂度压缩为目标、约束、分解、接口、反馈和演化六个问题。
-- 2026-06-27T02:24:07+0800 — 已捕获 [[wiki/concepts/Evidence Question Decomposition]]：把“要看的证据拆到能问、能答、能追责的粒度”整理为总评、维度、原子问题、证据锚点、错因类型和修复动作组成的判断责任链。
-- 2026-06-27T02:00:56+0800 — 已捕获 [[wiki/concepts/业务隐含复杂度]]：把“软件开发最难的是业务中隐含的复杂度”整理为规则、状态、例外、权责、历史和变化进入软件模型的概念页。
-- 2026-06-24T12:01:01+0800 — 更新 [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]]，补入 skill 设计中的确定性/智能边界、宪法式 gate，以及 workflow catalyst/action arc 视角；同步回填 [[wiki/concepts/Agent Skill]] 与 [[wiki/topics/AI Skills Workflow]]。
-- 2026-06-23T14:47:59Z — 已摄入 [[wiki/sources/问题解决铁三角 Source Guide]]，新增 [[wiki/concepts/问题解决铁三角]] 与 [[wiki/concepts/方法论双循环]]：把问题解决整理为思维模式、方法论和具体问题共同进化的铁三角。
-- 2026-06-23T14:35:24Z — 已摄入 [[wiki/sources/五大思维三层架构 Source Guide]] 并新增 [[wiki/concepts/五大思维三层架构]]：把系统、逻辑、结构化、创造性、批判性五大思维组织成内核—中间层—外层的协作架构。
-- 2026-06-23T00:47:58+0800 — 已捕获 [[wiki/syntheses/Coding Agent Debugging Skills as Evidence Gates]]：把高频 coding skills 整理为证据门禁、责任账本和反馈回路，覆盖 systematic debugging、verification、diagnosing bugs、architecture deepening、Go concurrency、webapp testing、React/Next.js 规则和 TDD。
+- 2026-07-03T21:45:37+0800 — 已摄入 [[wiki/sources/Vibe 时代的软件工程]]：保留本地 PDF 全文抽取，并新增 [[wiki/concepts/Vibe Coding]] 与 [[wiki/concepts/Verification Gap]]。
+- 2026-07-03T21:41:34+0800 — 已捕获 [[wiki/syntheses/丝绸之路中的宗教组织力量]]：把《丝绸之路》中的宗教整理为随商路流动、生成信任、服务帝国合法性并组织冲突的跨大陆秩序力量。
+- 2026-07-03T14:07:01+08:00 — 已捕获 [[wiki/concepts/囚徒困境]]：把囚徒困境整理为信息隔离、承诺缺失、背叛诱惑和合作风险共同生成集体次优的机制模型。
 
 ## Active Threads
 
+- AI 软件工程现在加入 Vibe 时代线索：代码生成成本下降后，工程瓶颈从“写”转向“验”，关键结构是意图规格、委托粒度、验证鸿沟、复杂度控制、安全网和自动化门禁。
+- 世界史阅读现在加入宗教组织力量线索：《丝绸之路》里的宗教不是单独精神史，而是贸易信任、帝国合法性、身份边界、冲突动员和文化混合共同作用的网络机制。
+- 机制模型现在补上一条合作困境线索：囚徒困境不是“人性自私”的道德故事，而是局部理性、信息隔离、承诺缺失和背叛收益共同生成集体次优的结构。
+- 分类思维现在补上一条操作流程线索：分类不是先列类别，而是先写清对象和目的，再从样本中寻找维度、设定判别标准，并用不同处理策略验证这个切法是否真的有用。
+- Agent loop 现在补上一条 human judgment positions 线索：人不必在每一步操作位上，但必须在价值定义、任务切分、否决机制、硬门禁、状态设计、人工入口、理解校准和循环修正这些结构点上保留责任。
 - AI 软件工程现在加入“代码变便宜、知识与判断变贵”的线索：当语言、框架、数据库、迁移和重写不再形成同等锁定时，价值从亲手实现转向 specification、业务知识、harness 前馈/反馈、行为兼容验证和最终责任判断。
 - 工程方法现在加入共同复杂度线索：所有工程都要在有限资源、局部认知、持续变化和必然失败中处理目标、约束、分解、接口、反馈和演化，而软件工程只是其中一种表现形式。
 - 判断与评审现在加入证据问题分解线索：不要直接问“好不好 / 对不对 / 靠不靠谱”，而是把总评拆成可问、可答、可追责的检查点，并让每个失败都能指向证据、错因和修法。
@@ -122,6 +121,11 @@ updated: 2026-06-28T18:05:00+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- Vibe coding 的真正风险不是“AI 写代码”，而是生成速度超过验证速度；软件工程在这里重新显形为把意图说清、把复杂度切开、把正确性接进可执行反馈回路的能力。
+- 《丝绸之路》中的宗教应放进流动网络里读：它随商路传播，又反过来降低陌生交易成本、支撑帝国统治、定义共同体边界，并把现实利益转成可动员的神圣叙事。
+- 囚徒困境的杠杆点不在劝人善良，而在让合作变得安全：增加可见性、承诺、惩罚、重复关系、补偿机制和反馈，使局部激励重新对齐整体收益。
+- 分类的硬标准不是“分得整齐”，而是分类之后能否更准确地理解原因、更清楚地判断优先级、更稳定地采取行动；更有穿透力的分类通常按生成机制切，而不是按表面现象切。
+- 好的 agent loop 不是把人赶出去，而是把人从重复操作位挪到判断杠杆位：机器负责转，人负责定向、设闸、留门、校准理解和修正循环。
 - AI “什么都能写”并不意味着工程价值消失，而是实现动作的稀缺性下降；真正稀缺的是把现实问题还原成 specification、把隐含业务知识转成可验证行为、用 harness 约束生成，并对上线后的系统后果负责。
 - 所有工程共有的底层难题不是“东西很多”，而是如何把目标放进约束、把系统切成边界、让接口协作、让反馈校验设计，并让结构进入时间后仍能演化。
 - 好判断不是更漂亮的总评，而是更硬的责任链：总评要先拆成维度，维度要拆成可回答问题，问题要挂证据，失败要能定位错因并导出修法。

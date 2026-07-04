@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-06-28T18:05:00+0800
+updated: 2026-07-03T21:45:37+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -47,6 +47,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/AI Skills Workflow|AI Skills Workflow]] — AI Skills Workflow treats skills as reusable workflows that gather, order, persist, and reload context for more stable agent behavior. (#skills #workflow)
 - [[wiki/topics/BoltDB Internals|BoltDB Internals]] — BoltDB 是一个非常适合入门数据库实现的案例：代码量相对小，但已经覆盖了页式存储、B+ 树、事务、空闲页管理、写时复制等核心机制。 (#database #storage #golang)
 - [[wiki/topics/Categorical Thinking|Categorical Thinking]] — 分类思维选择维度并切开对象，是结构化思维中最基础的操作动作之一。
+- [[wiki/topics/Classification Procedure|Classification Procedure]] — 分类流程把分类从“列类别”改成一套目标牵引的操作：先确定对象和用途，再选维度、划边界、验行动差异。 (#thinking #reasoning #judgment)
 - [[wiki/topics/Circuit Breaker|Circuit Breaker]] — Circuit Breaker 是分布式系统里的保护机制：当下游服务已经过载或不可用时，不再继续把请求打过去，而是主动快速失败，避免故障扩大。 (#distributed-systems #resilience #architecture)
 - [[wiki/topics/Context Management|Context Management]] — Context management designs what enters, stays in, leaves, and stays stable in an AI agent's active context under finite attention, ordering, and cache constraints. (#agents #context)
 - [[wiki/topics/Critical Thinking|Critical Thinking]] — 批判性思维用问题链审查前提、证据、反例和论证漏洞，是五大思维架构中的质量守门层。 (#thinking #reasoning #methods)
@@ -186,6 +187,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Neural Network Inference Boundary|Neural Network Inference Boundary]] — The neural-network inference boundary separates learned tensor computation from surrounding traditional control-flow code. (#llm #inference #systems)
 - [[wiki/concepts/Lost in the Middle Effect|Lost in the Middle Effect]] — The lost-in-the-middle effect is the long-context failure mode where models use information best at the beginning or end and worse in the middle. (#llm #context #evaluation)
 - [[wiki/concepts/Mechanism Model|Mechanism Model]] — 机制模型是把反复结果压成“结果、变量、约束、激励、反馈、时间”的结构，用来解释为什么现象会被稳定生成。 (#thinking #systems #judgment #mechanism)
+- [[wiki/concepts/囚徒困境]] — 囚徒困境说明在缺少信任、承诺、惩罚、重复和信息透明时，个体理性的局部最优会共同生成集体次优。 (#systems-thinking #mechanism #judgment #cooperation)
 - [[wiki/concepts/Meta-Harness|Meta-Harness]] — Meta-Harness searches over executable LLM harness code using a coding-agent proposer with access to prior code, scores, and traces. (#agents #harness #optimization)
 - [[wiki/concepts/Skill Self-Evolution|Skill Self-Evolution]] — Skill self-evolution improves agent skills by generating boundary tasks, optimizing instructions or code, executing comparisons, and evaluating traceable results. (#agents #skills #optimization)
 - [[wiki/concepts/Multiplicative World|Multiplicative World]] — 乘法世界是回报由当前动作与既有存量共同决定的世界；它要求人从补平均短板转向寻找可复利、可放大的长板。 (#wealth #leverage #systems-thinking #career)
@@ -213,8 +215,13 @@ This is the navigation hub and full page inventory for the structured wiki layer
 
 - [[wiki/concepts/Workflow Graph Orchestration|Workflow Graph Orchestration]] — Workflow Graph Orchestration models agent work as explicit state-machine or graph traversal so control, persistence, guard nodes, and recovery stay inspectable. (#agents #orchestration #workflow)
 - [[wiki/concepts/Human-LLM Co-Planning Interaction Space|Human-LLM Co-Planning Interaction Space]] — Human-LLM Co-Planning Interaction Space classifies plan steering by mode, scope, and edit level so humans can choose between control, effort, and rewrite risk. (#agents #orchestration #human-in-the-loop)
+- [[wiki/concepts/Agent Loop Human Judgment Positions|Agent Loop Human Judgment Positions]] — Agent loop human judgment positions locate human responsibility at value definition, task boundaries, veto design, hard gates, persistent state, human doors, understanding calibration, and loop repair. (#agents #harness #judgment #ai-coding #software-engineering)
+
+- [[wiki/concepts/Vibe Coding|Vibe Coding]] — Vibe Coding 是 AI coding 中从补全到放飞的一条协作谱系；它让代码生成变便宜，也把验证责任推到中心。 (#ai-coding #software-engineering #agents)
+- [[wiki/concepts/Verification Gap|Verification Gap]] — 验证鸿沟描述 AI 生成代码速度与人类/组织验证速度之间扩大的差距，是 Vibe 时代软件工程的新瓶颈。 (#ai-coding #verification #software-engineering #quality)
 
 ## Syntheses
+- [[wiki/syntheses/丝绸之路中的宗教组织力量]] — 《丝绸之路》中的宗教不是孤立信仰，而是随商路流动、生成信任、服务帝国合法性并组织冲突的跨大陆秩序力量。 (#history #religion #trade #systems)
 - [[wiki/syntheses/AI 泡沫判断的结构|AI 泡沫判断的结构]] — AI 泡沫判断要区分技术真实、资产价格过热和泡沫破裂后的价值残留，关键是哪些能力会穿越周期。 (#llm #judgment #wealth #mechanism)
 - [[wiki/syntheses/AI 时代开发岗位分层与协作|AI 时代开发岗位分层与协作]] — AI 降低代码生成成本后，开发岗位会分层为探索闭环、系统责任和执行交付；AI-native builder 与系统 owner 分别承担速度和长期性。 (#software-engineering #ai-coding #architecture #management #judgment)
 - [[wiki/syntheses/Zima Blue 自我回归与无我|Zima Blue 自我回归与无我]] — Zima Blue 可被读作从无限可能性回到有限自我、再被佛法追问无我的寓言：成为、选择、执著和止息在其中层层展开。 (#thinking #cognition #judgment #mechanism)
@@ -263,6 +270,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
+- [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源：用成本结构、验证鸿沟、意图-生成-验证循环、复杂度、测试、版本控制和团队门禁解释 Vibe 时代的软件工程。 (#software-engineering #ai-coding #article)
 - [[wiki/sources/Kimball Dimensional Modeling Techniques Source Guide]] — Kimball Group 2013 catalog of dimensional modeling concepts, fact tables, dimensions, conformance, SCD, hierarchies, and special schemas. (#database #data-warehouse #modeling)
 - [[wiki/sources/Cursor Codebase Indexing Source Guide|Cursor Codebase Indexing Source Guide]] — Source guide preserving Manthan Gupta's X article on Cursor's semantic/vector and sparse n-gram codebase indexing pipeline, Merkle sync, access proofs, Turbopuffer namespaces, and dynamic context discovery. (#article #agents #ai-coding #retrieval #context)
 - [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]] — Source guide preserving a CAP theorem chapter on consistency, availability, partition tolerance, database examples, and Kleppmann's critique. (#book #distributed-systems #database #systems #architecture)

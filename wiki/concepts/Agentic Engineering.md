@@ -8,8 +8,9 @@ sources:
   - https://www.chrismdp.com/coding-with-ai/
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
   - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
+  - wiki/sources/Vibe 时代的软件工程.md
 created: 2026-05-07T22:03:56+08:00
-updated: 2026-05-09T21:05:00+08:00
+updated: 2026-07-03T21:45:37+0800
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-07
@@ -31,6 +32,8 @@ tags:
 Agentic engineering is the production practice of using coding agents with explicit verification, harness design, and human judgment allocation.
 
 Chris Parsons contrasts it with vibe coding: vibe coding looks at generated output without seriously checking it, while agentic engineering makes a measured call about which diffs need human eyes and which can be checked by tests, type checkers, automated gates, or other review surfaces.
+
+[[wiki/sources/Vibe 时代的软件工程]] sharpens that contrast by placing [[wiki/concepts/Vibe Coding]] on a spectrum from completion to pair work, delegation, and hands-off acceptance. Agentic engineering starts where that spectrum needs responsibility: someone must decide the acceptable delegation grain, the verification path, and the rollback boundary.
 
 ## Core Shift
 
@@ -82,6 +85,8 @@ Parsons names several recurring failure modes:
 - [[wiki/concepts/Agent Skill]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/syntheses/Agentic Engineering × Verification Loop]] — synthesis
+- [[wiki/concepts/Vibe Coding]]
+- [[wiki/concepts/Verification Gap]]
 - [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/topics/Testing Strategy]]
 - [[wiki/topics/Context Management]]
@@ -89,3 +94,4 @@ Parsons names several recurring failure modes:
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 - [[wiki/sources/Harness Engineering Is Cybernetics Source Guide]]
+- [[wiki/sources/Vibe 时代的软件工程]]
