@@ -10,6 +10,8 @@ sources:
   - https://arxiv.org/abs/2601.12538
   - https://arxiv.org/abs/2605.07358v1
   - https://arxiv.org/abs/2605.23023
+  - https://www.langchain.com/blog/the-art-of-loop-engineering
+  - https://arxiv.org/pdf/2601.01743
 created: 2026-05-04
 base_confidence: 0.67
 lifecycle: draft
@@ -18,8 +20,8 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 5
-updated: 2026-07-03T21:45:37+0800
+source_count: 7
+updated: 2026-07-05T12:25:46+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -34,12 +36,16 @@ tags:
 ## Concepts
 
 - [[wiki/concepts/Agent]]
+- [[wiki/concepts/Agent Transformer]] — 把 agent 形式化为 policy、memory、tools、verifiers、environment 的控制回路，而不是裸模型。
 - [[wiki/concepts/Workflow Graph Orchestration]]
 - [[wiki/concepts/Human-LLM Co-Planning Interaction Space]]
 - [[wiki/concepts/Agent Loop Human Judgment Positions]] — 人在 agent loop 中的结构性位置：定义价值、切任务边界、设置否决、硬门禁、持久状态、人工门、理解校准和循环复盘。
 - [[wiki/concepts/Agent Evaluation CLASSic Framework]]
+- [[wiki/concepts/Agent Evaluation Metric Vector]] — 用成功率、成本、工具正确性、恢复率、循环率、安全违规和人工介入等轨迹指标评估 agent。
 - [[wiki/concepts/Agentic AI Architecture Taxonomy]]
 - [[wiki/concepts/Agentic Control Loop]]
+- [[wiki/concepts/Loop Engineering]] — 把 agent 执行、验证、事件触发和 trace-driven 改进叠成生产级 agent 系统的循环工程。
+- [[wiki/concepts/Event-Driven Agent Loop]] — 用 cron、webhook、schedule 或 channel 把 agent 接入业务生态并自动唤醒。
 - [[wiki/concepts/Agent Tool]]
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Knowledge Priming]]
@@ -80,6 +86,7 @@ tags:
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Harnessability]]
 - [[wiki/concepts/Agentic Engineering]]
+- [[wiki/concepts/Agentic Coding Unknowns]] — prompt-map 与 codebase-territory 之间的缺口；需要通过 blind spot pass、prototype、interview、reference、notes 和 quiz 被提前暴露。
 - [[wiki/concepts/Vibe Coding]] — AI coding 协作谱系中最放飞的一端，适合低风险易验证区域，但会放大验证责任。
 - [[wiki/concepts/Verification Gap]] — 生成速度与验证速度之间的差距，是 AI coding 转向工程纪律的关键压力。
 - [[wiki/concepts/Codebase Retrieval Index]]
@@ -134,6 +141,7 @@ tags:
 - `pages/karpathy-guidelines.md`
 - [[wiki/sources/Agent Systems Papers Source Guide]]
 - [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]]
+- [[wiki/sources/AI Agent Systems Architectures Applications and Evaluation Paper Source Guide]] — arXiv 2601.01743 source guide for agent architectures, infrastructure, evaluation metrics, and application domains.
 - [[wiki/sources/Agentic Reasoning for LLMs Paper Source Guide]] — arXiv 2601.12538v1 source guide for agentic reasoning as action-coupled reasoning across foundational, self-evolving, and collective layers.
 - [[wiki/sources/Bayes-Consistent Agentic Orchestration Paper River Source Guide]]
 - [[wiki/sources/Human-LLM Collaborative Planning Paper Source Guide]] — AMBIPOM paper guide for human steering of multi-agent plan DAGs through mode, scope, and edit-level interactions.
@@ -175,6 +183,7 @@ tags:
 - [[wiki/sources/Company Brain Source Guide]]
 - [[wiki/sources/Memory Is State Not a Service Source Guide]]
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
+- [[wiki/sources/The Art of Loop Engineering Source Guide]] — LangChain 文章：agent 生产力价值来自多层循环叠加，而不只是模型能力。
 - [[wiki/sources/Structured-Prompt-Driven Development Source Guide]]
 - [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源：围绕 Vibe coding、验证鸿沟、意图-生成-验证循环、复杂度和团队门禁组织 AI 软件工程入门。
 - [[wiki/sources/SPDD Abstraction First Source Guide]]

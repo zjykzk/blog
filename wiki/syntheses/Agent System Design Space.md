@@ -17,6 +17,7 @@ sources:
   - https://arxiv.org/abs/2603.07670
   - https://arxiv.org/abs/2601.12560v1
   - https://arxiv.org/abs/2605.23023
+  - https://arxiv.org/pdf/2601.01743
 created: 2026-05-04
 base_confidence: 0.57
 lifecycle: draft
@@ -25,8 +26,8 @@ provenance:
   extracted: 0.87
   inferred: 0.12
   ambiguous: 0.01
-source_count: 12
-updated: 2026-06-09T14:38:26+08:00
+source_count: 13
+updated: 2026-07-05T12:25:46+0800
 aliases:
   - Agent architecture design space
   - AI agent system design space
@@ -78,6 +79,8 @@ tags:
 ### Control-loop architecture
 
 [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]] adds a formal anchor for this design space: agent systems can be viewed as POMDP-like control loops over state, observation, memory, tool/action space, and policy. This makes the central architecture question less "which agent framework is best" and more "which parts of the loop are explicit, inspectable, constrained, and recoverable." ^[inferred]
+
+[[wiki/sources/AI Agent Systems Architectures Applications and Evaluation Paper Source Guide]] adds a complementary [[wiki/concepts/Agent Transformer]] formalization: `A = (πθ, M, T, V, E)`, where the policy core is only one element in a loop with memory, tools, verifiers, and environment feedback. This makes the design-space question sharper: which layer actually owns memory retrieval, action validation, side-effect execution, and state update?
 
 The paper's [[wiki/concepts/Agentic AI Architecture Taxonomy]] also compresses many existing wiki threads into six dimensions: core components, cognitive architecture, learning, multi-agent systems, environments, and evaluation/safety. This taxonomy is useful as a checklist, but the design-space page keeps the stronger claim that these dimensions need a [[wiki/topics/AI Harness]] to become governed runtime behavior rather than a feature catalog. ^[inferred]
 
@@ -252,6 +255,8 @@ That means agent architecture should be compared not only by mechanisms it conta
 [[wiki/concepts/Agent Evaluation CLASSic Framework]] adds a deployment-oriented evaluation lens: Cost, Latency, Accuracy, Security, and Stability. This matters because an agent architecture can improve reasoning depth while making latency, cost, prompt-injection risk, or retry-loop stability worse.
 
 That turns evaluation into a tradeoff surface: a design should not be judged only by success rate, but by success under compute budget, response-time constraints, permission boundaries, recovery behavior, and failure severity. ^[inferred]
+
+[[wiki/concepts/Agent Evaluation Metric Vector]] makes that tradeoff measurable at trajectory level: success, reward, completion time, trajectory length, tokens, cost, tool-call count, tool-selection accuracy, argument accuracy, execution success, recovery rate, valid-action rate, loop rate, robustness, variance, violation rate, and intervention rate should be reported together. This prevents a system from hiding brittle retry loops, high tool cost, or unsafe side effects behind a single benchmark success number.
 
 ## Why this synthesis matters
 

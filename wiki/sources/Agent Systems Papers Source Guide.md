@@ -9,6 +9,7 @@ sources:
   - https://arxiv.org/abs/2604.27488
   - https://arxiv.org/abs/2603.07670
   - https://arxiv.org/abs/2601.12560v1
+  - https://arxiv.org/pdf/2601.01743
 created: 2026-05-04
 base_confidence: 0.67
 lifecycle: draft
@@ -17,8 +18,8 @@ provenance:
   extracted: 0.84
   inferred: 0.15
   ambiguous: 0.01
-source_count: 4
-updated: 2026-05-13T10:37:07+08:00
+source_count: 5
+updated: 2026-07-05T12:25:46+0800
 aliases:
   - agent papers source
   - agent systems source guide
@@ -65,6 +66,7 @@ tags:
 - [[wiki/sources/Meta-Harness Paper Source Guide]]
 - [[wiki/sources/Skills-Coach Paper Source Guide]]
 - [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]]
+- [[wiki/sources/AI Agent Systems Architectures Applications and Evaluation Paper Source Guide]]
 
 The Lost in the Middle paper contributes an evaluation protocol for usable long context: move the relevant evidence across the input and measure best-case versus worst-case performance, rather than treating max context length as capability.
 
@@ -77,6 +79,8 @@ The Meta-Harness paper contributes a search-loop view of harness engineering: ex
 The Skills-Coach paper contributes a skill-level version of the same broader theme: individual skills can be probed with generated tasks, optimized through instruction or code variants, compared under execution, and retained through traceable evaluation.
 
 The Agentic Artificial Intelligence paper contributes an architecture-level survey frame: POMDP-style agentic control loop, six-dimensional architecture taxonomy, workflow-graph orchestration, and CLASSic evaluation across cost, latency, accuracy, security, and stability.
+
+The AI Agent Systems survey contributes a policy–memory–tool–verifier–environment abstraction for [[wiki/concepts/Agent Transformer]], a trace-first infrastructure view of sandboxing/schema/permission/logging layers, and a trajectory-level [[wiki/concepts/Agent Evaluation Metric Vector]].
 
 ## Related source guides
 
@@ -100,6 +104,8 @@ The Agentic Artificial Intelligence paper contributes an architecture-level surv
 - [[wiki/concepts/Agent Evaluation CLASSic Framework]]
 - [[wiki/concepts/Agentic AI Architecture Taxonomy]]
 - [[wiki/concepts/Agentic Control Loop]]
+- [[wiki/concepts/Agent Transformer]]
+- [[wiki/concepts/Agent Evaluation Metric Vector]]
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/syntheses/AI Engineering Workflow]]
 

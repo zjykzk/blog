@@ -1,24 +1,29 @@
 ---
 title: Hot Cache
 category: meta
-summary: 已捕获姓氏名与字：姓氏合流反映身份系统从宗法贵族秩序向国家户籍秩序转变。
+summary: 已捕获 Zawinski's Law：成功软件会在用户、产品与平台化压力下持续吸收相邻功能，直到焦点被复杂度稀释。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-07-05T16:46:13+0800
+updated: 2026-07-05T17:55:03+0800
 ---
 
 ## Recent Activity
+- 2026-07-05T17:55:03+0800 — 已捕获 [[wiki/sources/Zawinskis Law Source Guide]]：把 feature creep 理解为成功软件在用户停留、产品竞争和平台化压力下不断吸收相邻工作流的演化机制。
 - 2026-07-05T16:46:13+0800 — 已捕获 [[wiki/concepts/姓氏名与字]]：把姓、氏、名、字分别放回血缘、宗族分支、个人本名和成年社会称呼的身份系统中理解。
-- 2026-07-04T13:49:20+0800 — 已摄入 [[wiki/sources/Block Agent Skills Design Principles Source Guide]]：Block 把 agent skill 设计压成确定性边界、模型判断区、宪法式约束和 action arc。
-- 2026-07-03T21:45:37+0800 — 已摄入 [[wiki/sources/Vibe 时代的软件工程]]：保留本地 PDF 全文抽取，并新增 [[wiki/concepts/Vibe Coding]] 与 [[wiki/concepts/Verification Gap]]。
-- 2026-07-03T21:41:34+0800 — 已捕获 [[wiki/syntheses/丝绸之路中的宗教组织力量]]：把《丝绸之路》中的宗教整理为随商路流动、生成信任、服务帝国合法性并组织冲突的跨大陆秩序力量。
+- 2026-07-05T13:22:43+0800 — 已捕获 [[wiki/concepts/幂律分布与正态分布]]：把正态分布的加法机制、中心代表性与幂律分布的乘法机制、正反馈和尾部支配区分开。
+- 2026-07-05T12:25:46+0800 — 已摄入 [[wiki/sources/AI Agent Systems Architectures Applications and Evaluation Paper Source Guide]]：新增 [[wiki/concepts/Agent Transformer]] 与 [[wiki/concepts/Agent Evaluation Metric Vector]]，并把 agent infrastructure 连接到 [[wiki/topics/AI Harness]]。
+- 2026-07-04T23:00:06+0800 — 已摄入 [[wiki/sources/The Art of Loop Engineering Source Guide]]：LangChain 把 agent 落地拆成 [[wiki/concepts/Loop Engineering]]，并新增 [[wiki/concepts/Event-Driven Agent Loop]]。
+- 2026-07-04T16:59:13+0800 — 已摄入 [[wiki/sources/Agentic Coding Unknowns Source Guide]]：Fable 文章把 agentic coding 的瓶颈定义为发现 prompt-map 与 codebase-territory 之间的 unknowns，并新增 [[wiki/concepts/Agentic Coding Unknowns]]。
 
 ## Active Threads
 
+- Agent architecture 现在加入 Agent Transformer 线索：agent 不是裸模型，而是 `πθ + memory + tools + verifiers + environment` 的控制回路；harness 的责任是把 schema、sandbox、permission、audit log、observability 和 evaluation loop 接成可治理网关。
+- Agent loop 现在加入 Loop Engineering 线索：生产级 agent 不只是“模型调用工具”，而是执行循环、验证循环、事件触发循环和 trace-driven hill climbing 循环的叠加；价值开始在外层循环中复利。
+- Agentic coding 现在加入 unknown discovery 线索：更强模型把瓶颈推向人类如何暴露已知/未知/隐性/未意识到的 unknowns；blind spot pass、prototype、interview、reference、implementation notes、explainer 和 quiz 都是把未知变成 map 的 artifact。
 - Agent skill 现在加入 Block 的 skill marketplace 线索：团队 runbook、API 风格、feature flag 实验、oncall 调查和 repo readiness 可以变成版本控制的 executable tribal knowledge。
 - AI 软件工程现在加入 Vibe 时代线索：代码生成成本下降后，工程瓶颈从“写”转向“验”，关键结构是意图规格、委托粒度、验证鸿沟、复杂度控制、安全网和自动化门禁。
 - 世界史阅读现在加入宗教组织力量线索：《丝绸之路》里的宗教不是单独精神史，而是贸易信任、帝国合法性、身份边界、冲突动员和文化混合共同作用的网络机制。
@@ -49,6 +54,8 @@ updated: 2026-07-05T16:46:13+0800
 - AI 意识问题现在接入贝尔曼方程线索：贝尔曼方程可解释功能主体如何把未来价值折回当前行动，但不能证明现象意识；基础 LLM 多为计算/上下文状态，agent 化后才可能进入状态、行动、反馈和功能价值的严格建模。
 - CS/可计算性现在加入形式语言与通用计算线索：CFG 描述语法识别能力，递归可枚举语言描述半判定，μ-递归函数、λ 演算和图灵机从不同符号系统刻画同一类可计算过程。
 - Software delivery performance now has a DORA metrics thread: change lead time, deployment frequency, failed deployment recovery time, change fail rate, and deployment rework rate should be read as historically refined application-level feedback signals, not cross-team ranking targets.
+- Software design now has a feature-creep/platformization thread: Zawinski's Law explains how focused tools that win user time are pressured to absorb adjacent workflows, increasing interface, codebase, and conceptual complexity.
+- 概率与系统思维现在加入分布机制线索：正态分布更像多因素加法叠加后的中心波动，幂律分布更像优势经正反馈和乘法机制放大后的尾部支配；工程治理要据此从平均优化转向关键少数和杠杆点。
 - Agent memory now has a feedback-guideline thread: self-correction and reflection are useful but often local; Memory-as-a-Tool turns rubric feedback into readable guideline files that can be retrieved on future tasks, with governance pressure around naming, provenance, conflict resolution, forgetting, and regression tests.
 - Agent orchestration now has a human co-planning thread: explicit plan DAGs can be steered through semantic/global feedback, targeted subgraph feedback, direct manipulation, and LLM-assisted structural edits, but verification and boundary integration become the real bottleneck.
 - Agent feedback maintenance now has a two-level structure: verification loops close current tasks, harness ratchets harden the runtime, and feedback flywheels update broader team context, standards, skills, and workflows.
@@ -125,6 +132,8 @@ updated: 2026-07-05T16:46:13+0800
 
 ## Key Takeaways
 - 姓氏合流不是秦统一当天废止某个制度，而是春秋战国旧贵族宗法秩序松动、秦汉郡县户籍国家强化后，身份标记从“血缘祖源 + 贵族分支”压缩成固定家族名；“字”则是礼法社会为成年交往提供的尊称缓冲层。
+- Agent 评估不能只看 success rate：还要报告 token/cost、completion time、tool-call count、tool selection/argument/execution correctness、recovery rate、valid-action rate、loop rate、robustness、violation rate 和 human intervention；否则成功率会掩盖重试、成本、安全和可复现性问题。
+- Loop engineering 的关键不是多套 LangChain API，而是把 agent 变成多层反馈系统：内层执行，验证层卡质量，事件层接入业务生态，外层用 traces 改 prompt、tool、grader、memory、skill 或模型。
 - 好的 agent skill 不是把所有事情交给模型，而是先切责任边界：可重复的评分、命令、SQL、命名和格式进入脚本/模板/硬规则；解释、生成、优先级和对话留给 agent；`SKILL.md` 像宪法一样限制有害的“热心”。
 - Vibe coding 的真正风险不是“AI 写代码”，而是生成速度超过验证速度；软件工程在这里重新显形为把意图说清、把复杂度切开、把正确性接进可执行反馈回路的能力。
 - 《丝绸之路》中的宗教应放进流动网络里读：它随商路传播，又反过来降低陌生交易成本、支撑帝国统治、定义共同体边界，并把现实利益转成可动员的神圣叙事。
@@ -181,6 +190,7 @@ updated: 2026-07-05T16:46:13+0800
 - 总结式读书的损失不是少了信息，而是少了建构过程：学习者的表征变薄，图式借用他人，心智模型不可运行，解释性理解停留在可复述结论。
 - The Fallacies of Distributed Computing turn network non-ideality into a design checklist: reliability, latency, bandwidth, security, topology, administration, transport cost, and heterogeneity must be handled explicitly rather than hidden behind local-call thinking.
 - Second-System Effect warns that success with a lean first system can create overconfidence: the successor tries to include every deferred feature, edge case, and abstraction, turning validated simplicity into overengineered complexity.
+- Zawinski's Law frames feature creep as a product-evolution pressure: once users live inside a tool, the tool is pulled toward mail/chat/sharing/integration/platform behavior, and the hard engineering judgment is deciding which adjacent features preserve focus and which create sprawl.
 - bundler 不是简单拼接文件，而是把源码 module graph 转换成浏览器可加载的 chunks/assets；动态 `import()` 是分割信号，`loadable` 或 `React.lazy` 只是组件层包装。
 - React 状态管理的关键不是先选 Hook 或状态库，而是先判断状态边界：状态是否驱动 UI、是否跨组件共享、是否高频变化、是否需要细粒度订阅，以及“全局”到底相对于哪个组件树、页面、应用或服务端边界成立。
 - 前端 `chunk` 是 bundler 根据 module graph、entry、dynamic import 和分包配置生成的模块组；`loadable` 只是在 React 组件层包装动态 import，真正输出 asset 和 runtime 映射的是构建工具。
@@ -260,6 +270,7 @@ updated: 2026-07-05T16:46:13+0800
 - 这个世界不是愿望实现机，而是硬约束之网；行动前要先盘资源、看窗口、尊重规律、承认他人能动性，再让叙事服务行动。
 - 能动者是调用工具的人，不是别人的工具；高波动世界要求人识别旧观念背后的匮乏、弱规则和简单模型，并用更复杂的模型进入反馈、复利和杠杆结构。
 - 重尾世界要求先看回报结构：[[wiki/concepts/Additive World]] 适合补短板、保出勤和守住下限，[[wiki/concepts/Multiplicative World]] 更适合押注可复利的长板，同时用保本机制防止坏的正反馈和黑天鹅摧毁本金。
+- 正态分布与幂律分布的实用分界，不是图像形状，而是差异是否会被反馈放大；不会被放大的变量适合看均值和方差，会被放大的变量则要看尾部、极端值和关键杠杆点。
 - 叙事是一种行动接口：人很少直接响应事实堆，而是响应一条说明什么重要、接下来会怎样、当前正在玩什么游戏的因果线。
 - A system should be read as relations that repeatedly generate a result, not as a pile of parts; boundary, feedback, and time are what make the whole behavior visible.
 - ICAP reframes learning effort by cognitive operation: passive reception and active manipulation help early exposure, but durable learning comes from constructing new explanations and defending them in interaction.

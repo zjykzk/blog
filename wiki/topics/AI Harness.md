@@ -20,6 +20,8 @@ sources:
   - https://arxiv.org/abs/2603.07670
   - https://arxiv.org/abs/2601.12560v1
   - https://arxiv.org/abs/2605.23023
+  - https://www.langchain.com/blog/the-art-of-loop-engineering
+  - https://arxiv.org/pdf/2601.01743
 created: 2026-05-04
 base_confidence: 0.57
 lifecycle: draft
@@ -28,8 +30,8 @@ provenance:
   extracted: 0.87
   inferred: 0.12
   ambiguous: 0.01
-source_count: 15
-updated: 2026-06-09T14:38:26+08:00
+source_count: 17
+updated: 2026-07-05T12:25:46+0800
 aliases:
   - harness
 tags:
@@ -59,6 +61,10 @@ AI Harness 不是模型本身，也不是某一个工具本身。它更像 agent
 
 From the cybernetic angle, harness engineering shifts human work from turning the valve to designing the governor: the engineer defines feedback loops, constraints, and calibration surfaces so the agent can act inside a steerable system. ^[inferred]
 
+[[wiki/sources/The Art of Loop Engineering Source Guide]] sharpens this with [[wiki/concepts/Loop Engineering]]: production agent value comes from stacking the basic agent loop with a [[wiki/concepts/Verification Loop]], an [[wiki/concepts/Event-Driven Agent Loop]], and an outer hill-climbing loop that uses traces to improve prompts, tools, graders, memory, skills, or even model weights. In this framing, the harness is the place where those loops are wired together. ^[inferred]
+
+[[wiki/sources/AI Agent Systems Architectures Applications and Evaluation Paper Source Guide]] adds a survey-level infrastructure frame: practical agent systems wrap the model policy in sandboxed tool execution, identity and permission enforcement, schema validation, policy gates, audit logs, caching, observability traces, and learning/evaluation loops. This reinforces that harness behavior is a property of the whole gateway around the model, not the model call alone.
+
 
 ## Harness as human discipline
 
@@ -79,10 +85,13 @@ This turns harness into a socio-technical control layer: it must constrain both 
 - 权限边界如何被设置，并在何时交还给人类决策
 - 错误如何被分类成可重试、可由模型修正、需要用户介入或直接暴露
 - verification loop 如何把测试、视觉检查或 evaluator 的反馈送回系统
+- event-driven loop 如何用 cron、webhook、channel 或 schedule 把 agent 接入业务生态
+- hill-climbing loop 如何把 traces、grader feedback 和 tool-call 历史转成 prompt、tool、grader、memory 或 skill 改进
 - team discipline 如何让人先定义任务、验收标准和 review 责任，再把工作交给 AI
 - 子任务是否应该被委派，以及如何隔离执行环境
 - 状态如何被记录、持久化和重建
 - memory 如何被编码、检索、更新、遗忘和固化
+- schema validation、sandboxing、policy gates、audit logs 和 observability traces 如何把 tool action 变成可执行、可审计、可学习的系统事件
 
 把这些放在一起看，harness 的职责就不只是“把模型接到工具上”，而是在塑造 agent 的可运行秩序。
 

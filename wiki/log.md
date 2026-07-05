@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-07-05T16:46:13+0800
+updated: 2026-07-05T17:55:03+0800
 aliases:
   - Wiki Log
 tags:
@@ -19,7 +19,12 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-07-05T17:55:03+0800] CAPTURE type=source page="wiki/sources/Zawinskis Law Source Guide.md" title="Zawinski's Law Source Guide"
 - [2026-07-05T16:46:13+0800] CAPTURE type=concept page="wiki/concepts/姓氏名与字.md" title="姓氏名与字"
+- [2026-07-05T13:22:43+0800] CAPTURE type=concept page="wiki/concepts/幂律分布与正态分布.md" title="幂律分布与正态分布"
+- [2026-07-05T12:25:46+0800] INGEST source="https://arxiv.org/pdf/2601.01743" pages_updated=8 pages_created=3 mode=append
+- [2026-07-04T23:00:06+0800] INGEST_URL url="https://www.langchain.com/blog/the-art-of-loop-engineering" page="wiki/sources/The Art of Loop Engineering Source Guide.md" pages_updated=7 pages_created=3 mode=append
+- [2026-07-04T16:59:13+0800] INGEST source="https://x.com/trq212/article/2073100352921215386" pages_updated=6 pages_created=2 mode=append
 - [2026-07-04T13:49:20+0800] INGEST_URL url="https://engineering.block.xyz/blog/3-principles-for-designing-agent-skills" page="wiki/sources/Block Agent Skills Design Principles Source Guide.md" pages_updated=7 pages_created=1 mode=append
 - [2026-07-03T21:45:37+0800] INGEST source="/Users/zenk/study/wiki/wiki/sources/Vibe 时代的软件工程.md" pages_updated=9 pages_created=3 mode=append
 - [2026-07-03T21:41:34+0800] CAPTURE type=synthesis page="wiki/syntheses/丝绸之路中的宗教组织力量.md" title="《丝绸之路》中的宗教组织力量"

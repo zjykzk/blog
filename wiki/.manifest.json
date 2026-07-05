@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 61,
-    "total_pages": 396
+    "total_sources_ingested": 64,
+    "total_pages": 404
   },
   "sources": {
     "inline:buddhist-awakening-correction-2026-06-21": {
@@ -1312,6 +1312,76 @@
         "wiki/concepts/Computational and Inferential Controls.md",
         "wiki/concepts/Encoding Team Standards.md",
         "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://x.com/trq212/article/2073100352921215386": {
+      "ingested_at": "2026-07-04T16:59:13+0800",
+      "size_bytes": 12668,
+      "modified_at": "2026-07-04T16:59:13+0800",
+      "content_hash": "sha256:8edcb59d4b02e5f462a86c82846e7be8427d34bc8fc2030b978aca192ce9a104",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/Agentic Coding Unknowns Source Guide.md",
+        "wiki/concepts/Agentic Coding Unknowns.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/AI Skills Workflow.md",
+        "wiki/concepts/Agentic Engineering.md",
+        "wiki/sources/Agent Engineering Source Guide.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://www.langchain.com/blog/the-art-of-loop-engineering": {
+      "ingested_at": "2026-07-04T23:00:06+0800",
+      "source_url": "https://www.langchain.com/blog/the-art-of-loop-engineering",
+      "size_bytes": 7207,
+      "modified_at": "2026-07-04T23:00:06+0800",
+      "content_hash": "sha256:7259f74b2863768265f3f65992bc7f6fb4ac5fc64b73448052ad7e04cdb98a2f",
+      "source_type": "url",
+      "stub": false,
+      "project": null,
+      "promotion_status": "sources",
+      "pages_created": [
+        "wiki/sources/The Art of Loop Engineering Source Guide.md",
+        "wiki/concepts/Loop Engineering.md",
+        "wiki/concepts/Event-Driven Agent Loop.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Agentic Engineering.md",
+        "wiki/concepts/Verification Loop.md",
+        "wiki/topics/AI Harness.md",
+        "wiki/concepts/Continual Learning for AI Agents.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://arxiv.org/pdf/2601.01743": {
+      "ingested_at": "2026-07-05T12:25:46+0800",
+      "size_bytes": 50093204,
+      "modified_at": "2026-07-05T12:25:46+0800",
+      "content_hash": "sha256:e4cb99f0dd5ec704740fdb692e72c449159bf9e2183c75c2cabb34c30a730d01",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/AI Agent Systems Architectures Applications and Evaluation Paper Source Guide.md",
+        "wiki/concepts/Agent Transformer.md",
+        "wiki/concepts/Agent Evaluation Metric Vector.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/AI Harness.md",
+        "wiki/syntheses/Agent System Design Space.md",
+        "wiki/sources/Agent Systems Papers Source Guide.md",
+        "wiki/concepts/Agent Evaluation CLASSic Framework.md",
+        "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"
