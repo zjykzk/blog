@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: Block agent skill 设计原则已摄入：好的 skill 要区分确定性脚本、模型判断、宪法式约束和后续行动弧。
+summary: 已捕获姓氏名与字：姓氏合流反映身份系统从宗法贵族秩序向国家户籍秩序转变。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-07-04T13:49:20+0800
+updated: 2026-07-05T16:46:13+0800
 ---
 
 ## Recent Activity
+- 2026-07-05T16:46:13+0800 — 已捕获 [[wiki/concepts/姓氏名与字]]：把姓、氏、名、字分别放回血缘、宗族分支、个人本名和成年社会称呼的身份系统中理解。
 - 2026-07-04T13:49:20+0800 — 已摄入 [[wiki/sources/Block Agent Skills Design Principles Source Guide]]：Block 把 agent skill 设计压成确定性边界、模型判断区、宪法式约束和 action arc。
 - 2026-07-03T21:45:37+0800 — 已摄入 [[wiki/sources/Vibe 时代的软件工程]]：保留本地 PDF 全文抽取，并新增 [[wiki/concepts/Vibe Coding]] 与 [[wiki/concepts/Verification Gap]]。
 - 2026-07-03T21:41:34+0800 — 已捕获 [[wiki/syntheses/丝绸之路中的宗教组织力量]]：把《丝绸之路》中的宗教整理为随商路流动、生成信任、服务帝国合法性并组织冲突的跨大陆秩序力量。
@@ -21,6 +22,7 @@ updated: 2026-07-04T13:49:20+0800
 - Agent skill 现在加入 Block 的 skill marketplace 线索：团队 runbook、API 风格、feature flag 实验、oncall 调查和 repo readiness 可以变成版本控制的 executable tribal knowledge。
 - AI 软件工程现在加入 Vibe 时代线索：代码生成成本下降后，工程瓶颈从“写”转向“验”，关键结构是意图规格、委托粒度、验证鸿沟、复杂度控制、安全网和自动化门禁。
 - 世界史阅读现在加入宗教组织力量线索：《丝绸之路》里的宗教不是单独精神史，而是贸易信任、帝国合法性、身份边界、冲突动员和文化混合共同作用的网络机制。
+- 历史称谓现在加入姓氏名与字线索：姓/氏区分依赖宗法贵族结构，名/字区分依赖礼法尊卑结构；秦统一是姓氏合流的加速器，汉代后基本成为固定家族名。
 - 机制模型现在补上一条合作困境线索：囚徒困境不是“人性自私”的道德故事，而是局部理性、信息隔离、承诺缺失和背叛收益共同生成集体次优的结构。
 - 分类思维现在补上一条操作流程线索：分类不是先列类别，而是先写清对象和目的，再从样本中寻找维度、设定判别标准，并用不同处理策略验证这个切法是否真的有用。
 - Agent loop 现在补上一条 human judgment positions 线索：人不必在每一步操作位上，但必须在价值定义、任务切分、否决机制、硬门禁、状态设计、人工入口、理解校准和循环修正这些结构点上保留责任。
@@ -122,6 +124,7 @@ updated: 2026-07-04T13:49:20+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- 姓氏合流不是秦统一当天废止某个制度，而是春秋战国旧贵族宗法秩序松动、秦汉郡县户籍国家强化后，身份标记从“血缘祖源 + 贵族分支”压缩成固定家族名；“字”则是礼法社会为成年交往提供的尊称缓冲层。
 - 好的 agent skill 不是把所有事情交给模型，而是先切责任边界：可重复的评分、命令、SQL、命名和格式进入脚本/模板/硬规则；解释、生成、优先级和对话留给 agent；`SKILL.md` 像宪法一样限制有害的“热心”。
 - Vibe coding 的真正风险不是“AI 写代码”，而是生成速度超过验证速度；软件工程在这里重新显形为把意图说清、把复杂度切开、把正确性接进可执行反馈回路的能力。
 - 《丝绸之路》中的宗教应放进流动网络里读：它随商路传播，又反过来降低陌生交易成本、支撑帝国统治、定义共同体边界，并把现实利益转成可动员的神圣叙事。

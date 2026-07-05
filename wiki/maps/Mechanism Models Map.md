@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-06-21T19:49:20+0800
+updated: 2026-07-05T16:46:13+0800
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -87,6 +87,7 @@ aliases:
 - [[wiki/concepts/Hard Constraint]]：行动必须先通过资源、时间、规律和他人能动性的现实校验。
 - [[wiki/concepts/Human Agency]]：能动不是情绪宣言，而是在约束中主动选择目标、调用工具、制造反馈并承担结果。
 - [[wiki/concepts/Narrative]]：叙事把事实组织成能预测、赋义、协调和行动的因果线；叙事也可能遮蔽真实结构。
+- [[wiki/concepts/姓氏名与字]]：把古代称谓放进血缘、宗族分支、礼法尊卑和国家户籍治理的身份机制中理解。
 - [[wiki/concepts/Cynefin Framework]]：先判断上下文类型，再决定是分类处理、专家诊断、实验探测，还是先行动再感知。
 
 适用问题：真实结构是什么？关键变量是哪几个？这个系统实际奖励什么？哪个反馈在放大问题？

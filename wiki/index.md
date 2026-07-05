@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-07-04T13:49:20+0800
+updated: 2026-07-05T16:46:13+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -212,6 +212,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/论理词与范畴词]] — 论理词标记判断之间的推理关系；范畴词承载思想系统中的核心对象、价值和解释坐标。 (#thinking #reasoning #cognition #language)
 - [[wiki/concepts/Verification Loop|Verification Loop]] — A verification loop gives an agent external feedback, such as tests, visual checks, or evaluators, so errors are caught before they compound. (#agents #verification)
 - [[wiki/concepts/生产资料与生产要素]] — 生产资料用于看清生产所依赖的物质条件和控制权；生产要素用于拆解生产系统的投入组合、效率来源和分配机制。 (#wealth #systems #mechanism #thinking)
+- [[wiki/concepts/姓氏名与字]] — 姓、氏、名、字分别对应血缘祖源、宗族分支、个人本名和成年社会称呼；姓氏合流反映宗法贵族秩序向国家户籍秩序转变。 (#history #culture #identity #mechanism)
 
 - [[wiki/concepts/Workflow Graph Orchestration|Workflow Graph Orchestration]] — Workflow Graph Orchestration models agent work as explicit state-machine or graph traversal so control, persistence, guard nodes, and recovery stay inspectable. (#agents #orchestration #workflow)
 - [[wiki/concepts/Human-LLM Co-Planning Interaction Space|Human-LLM Co-Planning Interaction Space]] — Human-LLM Co-Planning Interaction Space classifies plan steering by mode, scope, and edit level so humans can choose between control, effort, and rewrite risk. (#agents #orchestration #human-in-the-loop)
