@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-07-05T17:55:03+0800
+updated: 2026-07-07T21:07:28+08:00
 aliases:
   - Wiki Log
 tags:
@@ -337,3 +337,4 @@ tags:
 - [2026-06-29T15:01:35Z] QUERY query="约束有了为什么还需要校验" result_pages=5 mode=normal escalated=false
 - [2026-06-29T15:08:02Z] QUERY query="不用约束可以吗" result_pages=2 mode=normal escalated=false
 - [2026-06-29T15:31:36Z] QUERY query="从语义空间解释下" result_pages=5 mode=normal escalated=false
+- [2026-07-07T21:07:28+08:00] CAPTURE type=source page="wiki/sources/Codex Maxxing for Long Running Work Source Guide.md" title="Codex-maxxing for Long-running Work Source Guide"

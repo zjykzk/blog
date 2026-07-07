@@ -12,6 +12,7 @@ sources:
   - https://arxiv.org/abs/2605.23023
   - https://www.langchain.com/blog/the-art-of-loop-engineering
   - https://arxiv.org/pdf/2601.01743
+  - https://cdn.openai.com/pdf/8a9f00cf-d379-4e20-b06f-dd7ba5196a11/OAI_WhitePaper_Codex-maxxing26.pdf
 created: 2026-05-04
 base_confidence: 0.67
 lifecycle: draft
@@ -20,8 +21,8 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 7
-updated: 2026-07-05T12:25:46+0800
+source_count: 8
+updated: 2026-07-07T21:07:28+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -205,6 +206,7 @@ tags:
 - [[wiki/sources/组织角色与 AI 适配 Source Guide]]
 
 - [[wiki/sources/Agentic-First Source Guide]]
+- [[wiki/sources/Codex Maxxing for Long Running Work Source Guide]] — OpenAI 白皮书：Codex-maxxing 把长期线程、memory vault、steering、remote control、thread automation、strong goals 和 side panel 接成持续工作循环。
 - [[wiki/sources/AI 工程化不是提效 是换主回路 QA Source Guide]] — ljg-qa 问答链：用 10 个问题把 AI 工程化压成“换主回路”而不是 Copilot 式提效。
 - [[wiki/sources/AI 软件工程问答 Source Guide]] — 中文问答链：把 AI 软件工程解释为从人脑主回路迁移到 AI 中心产线、确定性裁判、分治协调和隐性知识蒸馏的工程化路径。
 - [[wiki/sources/软件工程真正降临 Source Guide]] — 中文长文：把大模型定位为“能源换高阶智能”的认知引擎，并推导 AI 中心产线、确定性裁判、闭环优先、分工协调总线和场景驱动隐性知识蒸馏。

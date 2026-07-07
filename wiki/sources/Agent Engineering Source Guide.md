@@ -9,8 +9,8 @@ created: 2026-04-23
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 18
-updated: 2026-07-04T13:49:20+0800
+source_count: 19
+updated: 2026-07-07T21:07:28+08:00
 aliases:
   - agent engineering source cluster
   - harness workflow source guide
@@ -69,6 +69,7 @@ tags:
 - [[wiki/sources/Harness Engineering Is Cybernetics Source Guide]]
 - [[wiki/sources/Agentic-First Source Guide]]
 - [[wiki/sources/Block Agent Skills Design Principles Source Guide]]
+- [[wiki/sources/Codex Maxxing for Long Running Work Source Guide]]
 
 The prompt-caching guide now covers both a secondary case-study explainer and Thariq's original Claude Code article, which contributes the production-harness angle: cache-hit monitoring, stable mode tools, deferred tool loading, and cache-safe compaction.
 
@@ -99,6 +100,8 @@ George's harness-cybernetics article contributes the control-loop analogy: harne
 James Pritchard's Agentic-First article contributes the platform-and-process layer: agent performance depends on file-oriented architecture, mode-aware context, edit-time validation, and moving human oversight to boundaries instead of preserving legacy workflow checkpoints.
 
 Angie Jones's Block Engineering article contributes the skill-marketplace and skill-constitution layer: internal tribal knowledge becomes version-controlled agent skills, deterministic scoring and commands move into scripts, and `SKILL.md` constrains the agent's helpfulness while leaving interpretation and follow-up action to the model.
+
+OpenAI's Codex-maxxing white paper contributes the long-running-work product layer: durable threads give work a home, memory vaults make rolling context reviewable, steering and remote control keep humans at judgment points, thread automations wake the same context on a cadence, strong goals provide done criteria, and side panels turn artifacts into the next loop's context.
 
 ## Main promotion destinations
 

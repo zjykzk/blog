@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-07-05T17:55:03+0800
+updated: 2026-07-07T21:07:28+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -294,6 +294,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/发现和定义问题 Source Guide|发现和定义问题 Source Guide]] — 这页保存一篇中文文章对“发现和定义问题”的方法论说明：从 Problem 到 Issue，经过发现异常、确认本质、定义议题和对齐共识。 (#article #thinking #reasoning #management #mechanism)
 - [[wiki/sources/Agentic-First Source Guide]] — Source guide for James Pritchard's Agentic-First article, focused on agent-navigable platforms, mode-aware context, edit-time guardrails, and process-level automation. (#article #agents #harness #ai-coding #context)
 - [[wiki/sources/Agent Engineering Source Guide|Agent Engineering Source Guide]] — 这页用于收拢“agent engineering / harness / workflow”这一类更偏工程综述与系统实践的来源材料。 (#agents #engineering #harness)
+- [[wiki/sources/Codex Maxxing for Long Running Work Source Guide|Codex-maxxing for Long-running Work Source Guide]] — OpenAI 白皮书把 Codex 从一次性 prompt 工具转成可持续推进、可审查、可恢复、可唤醒的工作循环。 (#agents #harness #workflow #memory #ai-coding)
 - [[wiki/sources/Agent Harness Anatomy Source Guide|Agent Harness Anatomy Source Guide]] — Source guide for Akshay Pachaar's agent harness thread, focused on the 12-component harness model and architecture decisions. (#agents #harness #architecture)
 - [[wiki/sources/Agent Harness Engineering Survey Source Guide]] — Source guide for the Agent Harness Engineering survey, preserving its binding-constraint thesis, ETCLOVG taxonomy, project mapping, tradeoffs, and open research agenda. (#paper #agents #harness #architecture #systems)
 - [[wiki/sources/Agent Harness Engineering Source Guide|Agent Harness Engineering Source Guide]] — Source guide for Addy Osmani's Agent Harness Engineering article, focused on harnesses as configurable runtimes, failure ratchets, and service APIs. (#agents #harness #engineering)
