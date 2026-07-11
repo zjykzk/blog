@@ -12,12 +12,12 @@ sources:
   - wiki/concepts/Understanding
   - wiki/sources/NotebookLM Learning Workflow Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-06-09T10:56:14+08:00
+updated: 2026-07-12T00:07:31+0800
 summary: Learning methodology turns durable learning into mental-model construction, not information collection or summary consumption.
 provenance:
-  extracted: 0.22
-  inferred: 0.70
-  ambiguous: 0.08
+  extracted: 0.66
+  inferred: 0.34
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-23
@@ -48,16 +48,16 @@ Summaries, highlights, and explanations are useful only if they become internal 
 
 ## Tensions and Trade-offs
 
-- **Compression vs. distortion**: mental models simplify reality, but overcompression can hide exceptions and mechanisms.
-- **AI assistance vs. learner agency**: AI can map a domain quickly, but the learner must still answer, fail, retrieve, apply, and revise.
-- **Memorization vs. transfer**: facts matter, but durable use requires relations and conditions for applying them.
-- **Model confidence vs. model testing**: a clear model can feel true before it survives examples, edge cases, and action feedback.
+- **Compression vs. distortion**: mental models simplify reality, but overcompression can hide exceptions and mechanisms. ^[inferred]
+- **AI assistance vs. learner agency**: AI can map a domain quickly, but the learner must still answer, fail, retrieve, apply, and revise. ^[inferred]
+- **Memorization vs. transfer**: facts matter, but durable use requires relations and conditions for applying them. ^[inferred]
+- **Model confidence vs. model testing**: a clear model can feel true before it survives examples, edge cases, and action feedback. ^[inferred]
 
 ## Open Questions
 
-- Which learning practices most reliably turn source material into transferable mental models?
-- How can AI tutors detect when a learner is repeating a model label without owning the structure?
-- When should learning prioritize more examples, more abstraction, or more feedback?
+- Which learning practices most reliably turn source material into transferable mental models? ^[inferred]
+- How can AI tutors detect when a learner is repeating a model label without owning the structure? ^[inferred]
+- When should learning prioritize more examples, more abstraction, or more feedback? ^[inferred]
 
 ## Related
 

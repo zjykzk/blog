@@ -5,7 +5,7 @@ tags: [article, thinking, problem-solving, methodology, mechanism]
 sources:
   - /Users/zenk/study/wiki/wiki/sources/问题解决的终极模型：思维、方法与问题的“铁三角”如何共同进化.md
 created: 2026-06-23T14:47:59Z
-updated: 2026-06-23T14:47:59Z
+updated: 2026-07-11T23:53:54+0800
 summary: 这页保留《问题解决的终极模型》PDF：问题解决是思维模式、方法论与具体问题共同进化的铁三角。
 relationships:
   - target: "[[wiki/concepts/问题解决铁三角]]"

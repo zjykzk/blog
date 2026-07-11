@@ -13,12 +13,12 @@ sources:
   - wiki/sources/Claude Code Skills Source Guide
   - wiki/sources/Agent Skills Survey Paper Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-06-09T10:56:14+08:00
+updated: 2026-07-12T00:07:31+0800
 summary: Skills are context-routing devices: they add capability by making task-specific context loadable only when the workflow needs it.
 provenance:
-  extracted: 0.20
-  inferred: 0.72
-  ambiguous: 0.08
+  extracted: 0.64
+  inferred: 0.36
+  ambiguous: 0.00
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-23
@@ -33,7 +33,7 @@ This makes skill design a context-management problem. A good skill gives the age
 
 ## Where They Co-occur
 
-The pair appears across the AI and agent cluster:
+The pair appears across the AI and agent cluster: ^[inferred]
 
 - [[wiki/concepts/Agent Action Space]] treats skills as a way to enlarge action space without exposing every top-level tool.
 - [[wiki/concepts/Agentic Engineering]] frames production AI coding as shaping harnesses, checks, skills, and attention allocation.
@@ -50,16 +50,16 @@ This reframes the `description` field, folder structure, reference files, and sc
 
 ## Tensions and Trade-offs
 
-- **Capability vs. context density**: richer skills can help difficult tasks, but every always-loaded instruction competes with task-specific evidence.
-- **Progressive disclosure vs. discoverability**: deeply nested references keep context small, but the agent must know when and how to fetch them.
-- **General skill vs. narrow skill**: broad skills reduce routing burden but mix failure modes; narrow skills route cleanly but increase catalog and selection complexity.
-- **Static authoring vs. self-evolution**: automatically revised skills can adapt from traces, but shared teams still need review before new rules enter durable context.
+- **Capability vs. context density**: richer skills can help difficult tasks, but every always-loaded instruction competes with task-specific evidence. ^[inferred]
+- **Progressive disclosure vs. discoverability**: deeply nested references keep context small, but the agent must know when and how to fetch them. ^[inferred]
+- **General skill vs. narrow skill**: broad skills reduce routing burden but mix failure modes; narrow skills route cleanly but increase catalog and selection complexity. ^[inferred]
+- **Static authoring vs. self-evolution**: automatically revised skills can adapt from traces, but shared teams still need review before new rules enter durable context. ^[inferred]
 
 ## Open Questions
 
-- What metrics show that a skill improved context density rather than merely increasing available instructions?
-- How should teams test skill activation boundaries against false positives and false negatives?
-- When should related skills be composed, and when should they remain separate to protect routing clarity?
+- What metrics show that a skill improved context density rather than merely increasing available instructions? ^[inferred]
+- How should teams test skill activation boundaries against false positives and false negatives? ^[inferred]
+- When should related skills be composed, and when should they remain separate to protect routing clarity? ^[inferred]
 
 ## Related
 

@@ -13,9 +13,9 @@ updated: 2026-06-01T16:18:53+0800
 summary: >-
   Direct paper guide for COLLEAGUE.SKILL, preserving its person-grounded trace-to-skill artifact model, dual tracks, lifecycle, deployment surface, and evaluation limits.
 provenance:
-  extracted: 0.78
-  inferred: 0.20
-  ambiguous: 0.02
+  extracted: 0.99
+  inferred: 0.01
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-06-01

@@ -13,12 +13,12 @@ sources:
   - wiki/concepts/Verification Loop
   - wiki/sources/Coding with AI Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-06-09T10:56:14+08:00
+updated: 2026-07-12T00:07:31+0800
 summary: In AI coding, testing strategy becomes harness design: tests are runtime feedback surfaces, not only post-implementation QA.
 provenance:
-  extracted: 0.22
-  inferred: 0.70
-  ambiguous: 0.08
+  extracted: 0.64
+  inferred: 0.36
+  ambiguous: 0.00
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-23
@@ -33,7 +33,7 @@ In AI-assisted development, these are no longer separate concerns. Tests become 
 
 ## Where They Co-occur
 
-This pair appears in the AI coding and quality cluster:
+This pair appears in the AI coding and quality cluster: ^[inferred]
 
 - [[wiki/concepts/Verification Loop]] treats tests, visual checks, and evaluators as feedback surfaces inside the harness.
 - [[wiki/concepts/Computational and Inferential Controls]] separates executable checks from semantic review.
@@ -52,16 +52,16 @@ Therefore the AI-era testing question is not only “what should be tested?” b
 
 ## Tensions and Trade-offs
 
-- **Executable truth vs. product judgment**: tests can assert behavior but may not reveal whether the right problem was solved.
-- **Early feedback vs. maintenance burden**: moving checks earlier improves repair loops but increases local harness complexity.
-- **Agent-generated tests vs. independent verification**: agents can create tests quickly, but tests generated from the same misunderstanding may certify the wrong behavior.
-- **Coverage vs. confidence**: AI-generated code can increase lines and tests without increasing real assurance.
+- **Executable truth vs. product judgment**: tests can assert behavior but may not reveal whether the right problem was solved. ^[inferred]
+- **Early feedback vs. maintenance burden**: moving checks earlier improves repair loops but increases local harness complexity. ^[inferred]
+- **Agent-generated tests vs. independent verification**: agents can create tests quickly, but tests generated from the same misunderstanding may certify the wrong behavior. ^[inferred]
+- **Coverage vs. confidence**: AI-generated code can increase lines and tests without increasing real assurance. ^[inferred]
 
 ## Open Questions
 
-- Which testing layers should be mandatory before an AI agent is allowed to modify production code?
-- How should teams separate tests that guide generation from tests that independently verify acceptance?
-- Can test failures be mined automatically into better prompts, rules, or harness sensors without overfitting?
+- Which testing layers should be mandatory before an AI agent is allowed to modify production code? ^[inferred]
+- How should teams separate tests that guide generation from tests that independently verify acceptance? ^[inferred]
+- Can test failures be mined automatically into better prompts, rules, or harness sensors without overfitting? ^[inferred]
 
 ## Related
 

@@ -22,7 +22,7 @@ provenance:
   inferred: 0.18
   ambiguous: 0.00
 source_count: 5
-updated: 2026-07-03T21:45:37+0800
+updated: 2026-07-11T23:53:54+0800
 aliases:
   - 软件工程
   - modern software engineering

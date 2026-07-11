@@ -16,12 +16,12 @@ sources:
   - wiki/sources/Agent Engineering Source Guide.md
   - wiki/sources/GEPA Paper River Source Guide.md
 created: 2026-06-09T14:38:22+08:00
-updated: 2026-06-09T14:38:22+08:00
+updated: 2026-07-12T00:07:31+0800
 summary: Skills become ratchet surfaces when repeated agent failures are converted into revised instructions, examples, constraints, scripts, or evaluable helper code.
 provenance:
-  extracted: 0.25
-  inferred: 0.70
-  ambiguous: 0.05
+  extracted: 0.59
+  inferred: 0.41
+  ambiguous: 0.00
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-06-09
@@ -39,7 +39,7 @@ This makes a skill more than documentation. It becomes one of the places where a
 
 They co-occur in [[wiki/concepts/Skill Self-Evolution]], [[wiki/concepts/Continual Learning for AI Agents]], and source guides about Skills-Coach, GEPA, LLM Wiki, agent engineering, and structured memory.
 
-The common situation is a workflow that repeatedly needs the same operational judgment: when to use a tool, how to format an output, what edge cases to check, when to ask for clarification, or how to recover from failure.
+The common situation is a workflow that repeatedly needs the same operational judgment: when to use a tool, how to format an output, what edge cases to check, when to ask for clarification, or how to recover from failure. ^[inferred]
 
 ## Cross-cutting Insight
 
@@ -47,11 +47,15 @@ A harness ratchet does not always need to modify harness code. If the failure is
 
 That creates a useful placement rule: put universal runtime constraints into the harness; put reusable workflow judgment into skills; put project-local facts into repository context or memory. ^[inferred]
 
+The skill itself should preserve a second boundary: repeated calculations, fixed scoring, formatting constraints, and mandatory gates move into scripts or checkers, while interpretation, exception handling, and synthesis remain model work. This prevents a ratchet from hardening probabilistic judgment into an unreliable instruction while still making reproducible parts executable. ^[inferred]
+
+“Design for the arc” extends the ratchet beyond one invocation: a diagnostic result becomes repair context, a failed check becomes a plan input, and a recurring failure becomes a candidate gotcha, test, script, or harness change. The skill is therefore both an execution surface and a routing point into the next improvement loop. ^[inferred]
+
 ## Tensions and Trade-offs
 
-- Skills are easier to update than harness code, but they add routing and context overhead.
-- A skill can preserve learned judgment, but if it accumulates every failure as another warning, it becomes noisy and harder to route.
-- Automated skill evolution can propose improvements, but those changes still need a [[wiki/concepts/Verification Loop]] before entering shared use.
+- Skills are easier to update than harness code, but they add routing and context overhead. ^[inferred]
+- A skill can preserve learned judgment, but if it accumulates every failure as another warning, it becomes noisy and harder to route. ^[inferred]
+- Automated skill evolution can propose improvements, but those changes still need a [[wiki/concepts/Verification Loop]] before entering shared use. ^[inferred]
 
 ## Open Questions
 

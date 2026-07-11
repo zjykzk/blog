@@ -14,7 +14,7 @@ sources:
   - wiki/concepts/Business Modeling in Software.md
   - wiki/topics/Software Methodology.md
 created: 2026-05-05
-updated: 2026-06-09T10:56:14+08:00
+updated: 2026-07-11T23:51:59+0800
 summary: Business modeling narrows organizational reality into system responsibilities, domain models, and executable design boundaries.
 provenance:
   extracted: 0.57
@@ -48,6 +48,8 @@ DDD sits between analysis and design because it forces the same model to satisfy
 
 The handoff can be read as a sequence of narrowing boundaries: business modeling fixes the target organization and improvement reason; software analysis fixes what the to-be-built system must take responsibility for; software design fixes internal partitions, connections, and state flow. DDD is the hinge where business language becomes a model that can survive implementation pressure. ^[inferred]
 
+The pipeline is incomplete if the resulting code only preserves machine behavior. [[wiki/concepts/Code Expression for Human Understanding]] adds the maintenance-facing handoff: implementation should keep intent, responsibility, constraints, state change, and failure modes legible to the humans who must verify and evolve the model. ^[inferred]
+
 ## Tensions and Trade-offs
 
 - Business modeling wants to preserve organizational context, while software design needs sharper boundaries and smaller mechanisms. ^[inferred]
@@ -67,5 +69,6 @@ The handoff can be read as a sequence of narrowing boundaries: business modeling
 - [[wiki/concepts/Software Analysis Three Generators]]
 - [[wiki/concepts/Domain-Driven Design]]
 - [[wiki/concepts/Software Design Three Generators]]
+- [[wiki/concepts/Code Expression for Human Understanding]]
 - [[wiki/topics/Software Methodology]]
 - [[wiki/syntheses/From User Story to Architecture]]

@@ -10,8 +10,8 @@ updated: 2026-06-27T02:24:07+0800
 summary: >-
   Evidence question decomposition turns a broad judgment into checkable questions with evidence anchors, answers, failure types, and repair actions.
 provenance:
-  extracted: 0.74
-  inferred: 0.26
+  extracted: 0.97
+  inferred: 0.03
   ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft

@@ -17,12 +17,12 @@ sources:
   - wiki/sources/Compounding Engineering Source Guide.md
   - wiki/sources/Agent Harness Engineering Survey Source Guide.md
 created: 2026-06-09T14:38:22+08:00
-updated: 2026-06-09T14:38:22+08:00
+updated: 2026-07-12T00:07:31+0800
 summary: Verification loops catch local task errors; feedback flywheels convert those signals into durable improvements to context, standards, workflows, and guardrails.
 provenance:
-  extracted: 0.25
-  inferred: 0.70
-  ambiguous: 0.05
+  extracted: 0.66
+  inferred: 0.34
+  ambiguous: 0.00
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-06-09
@@ -48,11 +48,15 @@ The useful unit is not just a passed test or accepted diff. The useful unit is a
 
 A verification loop without a flywheel can catch the same mistake forever. A flywheel without verification has weak evidence and may update standards based on anecdotes. Together they form a two-level learning architecture: local feedback protects the current change; accumulated feedback improves the next run. ^[inferred]
 
+[[wiki/concepts/Loop Engineering]] makes the two levels operational. An inner grader loop checks the current output against deterministic tests or a semantic rubric and returns repair feedback; an outer trace-analysis loop examines repeated tool calls, grader failures, and human corrections, then proposes changes to prompts, tools, memory, skills, or grader configuration. ^[inferred]
+
+The outer loop must retain diagnostic traces rather than only pass rates. A scalar score says that the system failed; the sequence of actions and feedback indicates which durable surface should change. ^[inferred]
+
 ## Tensions and Trade-offs
 
 - Fast verification favors cheap checks, but useful flywheel updates need enough diagnostic detail to identify recurring failure classes. ^[inferred]
-- Updating artifacts after every failure creates rule bloat; waiting too long lets the same failures repeat.
-- Deterministic checks are stronger for executable truth conditions, while review comments and evaluator output are necessary for product fit, maintainability, and architecture judgment.
+- Updating artifacts after every failure creates rule bloat; waiting too long lets the same failures repeat. ^[inferred]
+- Deterministic checks are stronger for executable truth conditions, while review comments and evaluator output are necessary for product fit, maintainability, and architecture judgment. ^[inferred]
 
 ## Open Questions
 

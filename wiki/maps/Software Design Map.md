@@ -11,7 +11,7 @@ created: 2026-05-03
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-07-05T17:55:03+0800
+updated: 2026-07-11T23:46:22+0800
 aliases:
   - 软件设计地图
   - 软件设计核心概念地图
@@ -24,6 +24,8 @@ tags:
 # Software Design Map
 
 这页把软件设计中的核心概念按层次放在一张图里。关键区分是：
+
+代码设计不只要形成机器可执行的结构，也要形成维护者能够读出意图、责任、约束和失败模式的 [[wiki/concepts/Code Expression for Human Understanding|面向人理解的代码表达]]。
 
 - `基础设计原则`：指导局部设计判断的原则，例如 SOLID、KISS、DRY。
 - `设计方法论`：组织一整套设计活动的方法，例如 DDD、Clean Architecture、Hexagonal Architecture。

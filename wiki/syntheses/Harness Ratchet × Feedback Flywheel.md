@@ -15,12 +15,12 @@ sources:
   - wiki/sources/Agent Harness Engineering Survey Source Guide.md
   - wiki/sources/LLM Wiki Source Guide.md
 created: 2026-06-09T14:38:22+08:00
-updated: 2026-06-09T14:38:22+08:00
+updated: 2026-07-12T00:07:31+0800
 summary: Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system.
 provenance:
-  extracted: 0.25
-  inferred: 0.70
-  ambiguous: 0.05
+  extracted: 0.62
+  inferred: 0.38
+  ambiguous: 0.00
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-06-09
@@ -36,7 +36,7 @@ lifecycle_changed: 2026-06-09
 
 They co-occur in [[wiki/concepts/Feedforward and Feedback Controls]], [[wiki/concepts/AI Collaboration Scaffolding]], and source guides about compounding engineering, LLM Wiki, and agent harness engineering.
 
-The recurring context is maintenance after real AI-assisted work: review comments, failed tests, repeated regeneration, post-merge rework, and agent trace data.
+The recurring context is maintenance after real AI-assisted work: review comments, failed tests, repeated regeneration, post-merge rework, and agent trace data. ^[inferred]
 
 ## Cross-cutting Insight
 
@@ -46,9 +46,9 @@ A mature AI engineering system needs both. If all learning goes into the harness
 
 ## Tensions and Trade-offs
 
-- Harness changes can be enforceable but may be too rigid for judgment-heavy work.
-- Flywheel updates can preserve judgment but may remain advisory unless translated into executable checks or routed skills.
-- Both loops can accumulate stale rules; both need pruning, ownership, and evidence thresholds.
+- Harness changes can be enforceable but may be too rigid for judgment-heavy work. ^[inferred]
+- Flywheel updates can preserve judgment but may remain advisory unless translated into executable checks or routed skills. ^[inferred]
+- Both loops can accumulate stale rules; both need pruning, ownership, and evidence thresholds. ^[inferred]
 
 ## Open Questions
 

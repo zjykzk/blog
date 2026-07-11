@@ -13,12 +13,12 @@ sources:
   - wiki/concepts/Harness Ratchet
   - wiki/sources/Harness Engineering Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-06-09T10:56:14+08:00
+updated: 2026-07-12T00:07:31+0800
 summary: A user harness becomes useful when verification signals enter the loop early enough to steer agents and update durable controls.
 provenance:
-  extracted: 0.22
-  inferred: 0.70
-  ambiguous: 0.08
+  extracted: 0.65
+  inferred: 0.35
+  ambiguous: 0.00
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-23
@@ -33,7 +33,7 @@ Their connection is operational: a user harness without verification is mostly g
 
 ## Where They Co-occur
 
-The pair appears in pages about agentic engineering, controls, harness ratchets, and source guides for coding-agent practice:
+The pair appears in pages about agentic engineering, controls, harness ratchets, and source guides for coding-agent practice: ^[inferred]
 
 - [[wiki/concepts/Agentic Engineering]] shifts senior engineers from prompting toward training harnesses.
 - [[wiki/concepts/Computational and Inferential Controls]] separates executable checks from semantic judgment.
@@ -50,16 +50,16 @@ A coding-agent user harness compounds when verification output changes durable c
 
 ## Tensions and Trade-offs
 
-- **Fast checks vs. deep judgment**: tests and linters can run early and often, while product fit, architecture, and maintainability may require slower inferential review.
-- **Agent self-correction vs. human authority**: agents can repair failing tests, but humans must still own ambiguous trade-offs and high-risk acceptance.
-- **More sensors vs. feedback overload**: too many failing checks can bury the useful signal and push agents into local compliance rather than good design.
-- **One-off review vs. harness ratchet**: review comments are cheap in the moment but expensive if they never become reusable controls.
+- **Fast checks vs. deep judgment**: tests and linters can run early and often, while product fit, architecture, and maintainability may require slower inferential review. ^[inferred]
+- **Agent self-correction vs. human authority**: agents can repair failing tests, but humans must still own ambiguous trade-offs and high-risk acceptance. ^[inferred]
+- **More sensors vs. feedback overload**: too many failing checks can bury the useful signal and push agents into local compliance rather than good design. ^[inferred]
+- **One-off review vs. harness ratchet**: review comments are cheap in the moment but expensive if they never become reusable controls. ^[inferred]
 
 ## Open Questions
 
-- Which verification signals should be fed back to the agent automatically, and which should stop for human review?
-- How should teams measure whether a verification loop reduces review burden rather than moving it into tool maintenance?
-- When does a harness sensor encourage overfitting to local checks instead of improving real quality?
+- Which verification signals should be fed back to the agent automatically, and which should stop for human review? ^[inferred]
+- How should teams measure whether a verification loop reduces review burden rather than moving it into tool maintenance? ^[inferred]
+- When does a harness sensor encourage overfitting to local checks instead of improving real quality? ^[inferred]
 
 ## Related
 

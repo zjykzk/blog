@@ -13,12 +13,12 @@ sources:
   - wiki/sources/Hard Constraints Source Guide
   - wiki/sources/内核 你的三个自我 Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-06-09T10:56:14+08:00
+updated: 2026-07-12T00:07:31+0800
 summary: Agency needs narrative to organize action, but mature agency must also test and revise the narratives that direct it.
 provenance:
-  extracted: 0.22
-  inferred: 0.70
-  ambiguous: 0.08
+  extracted: 0.66
+  inferred: 0.34
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-23
@@ -52,16 +52,16 @@ Mature agency is narrative authorship under constraint. It is not “believe any
 
 ## Tensions and Trade-offs
 
-- **Motivation vs. distortion**: strong narratives mobilize action, but can hide evidence and uncertainty.
-- **Identity vs. adaptability**: stable stories help people persist, but old identities can block updating when the environment changes.
-- **Meaning vs. constraints**: narrative gives hardship meaning, but can also romanticize ignoring resource, timing, or social limits.
-- **Coordination vs. control**: shared stories enable group action, but can turn people into instruments of institutional or family scripts.
+- **Motivation vs. distortion**: strong narratives mobilize action, but can hide evidence and uncertainty. ^[inferred]
+- **Identity vs. adaptability**: stable stories help people persist, but old identities can block updating when the environment changes. ^[inferred]
+- **Meaning vs. constraints**: narrative gives hardship meaning, but can also romanticize ignoring resource, timing, or social limits. ^[inferred]
+- **Coordination vs. control**: shared stories enable group action, but can turn people into instruments of institutional or family scripts. ^[inferred]
 
 ## Open Questions
 
-- How can a person tell whether a motivating narrative is reality-refutable or self-sealing?
-- What practices help people rewrite inherited narratives without losing continuity and responsibility?
-- How should education preserve useful narratives while protecting agency from external control?
+- How can a person tell whether a motivating narrative is reality-refutable or self-sealing? ^[inferred]
+- What practices help people rewrite inherited narratives without losing continuity and responsibility? ^[inferred]
+- How should education preserve useful narratives while protecting agency from external control? ^[inferred]
 
 ## Related
 

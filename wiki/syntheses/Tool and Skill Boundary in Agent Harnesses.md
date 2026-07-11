@@ -7,12 +7,12 @@ tags: [agents, harness, tools, skills, workflow]
 sources:
   - conversation:2026-05-29
 created: 2026-05-29T17:04:21+0800
-updated: 2026-05-29T17:04:21+0800
+updated: 2026-07-12T00:07:31+0800
 summary: Agent harnesses separate executable tool capabilities from skill-level business SOPs; both are selected through descriptions, but they operate at different layers.
 provenance:
-  extracted: 0.72
-  inferred: 0.25
-  ambiguous: 0.03
+  extracted: 0.77
+  inferred: 0.23
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-29
@@ -26,7 +26,7 @@ aliases:
 
 Agent harnesses often expose both tools and skills to an LLM-facing agent. They can look similar from the outside because both have names, descriptions, and activation rules, and the model uses those descriptions to decide what to use next.
 
-The important distinction is not whether the model saw a description. The distinction is what layer of the agent system the described object controls.
+The important distinction is not whether the model saw a description. The distinction is what layer of the agent system the described object controls. ^[inferred]
 
 ## Finding / Decision
 
@@ -36,7 +36,7 @@ Tools answer: what can the agent do to the world?
 
 Skills answer: how should the agent perform this kind of work?
 
-This makes the clean boundary:
+This makes the clean boundary: ^[inferred]
 
 | Layer | Tool | Skill |
 |---|---|---|
@@ -54,7 +54,7 @@ A tool description decides whether the model should make a direct tool call and 
 
 A skill description decides whether the agent should load a task-specific method. After loading, the skill changes the agent's operating procedure: what to inspect first, what output structure to produce, which references or scripts to prefer, what risks to avoid, and how to verify success.
 
-So a typical flow is:
+So a typical flow is: ^[inferred]
 
 ```text
 user request
@@ -64,24 +64,24 @@ user request
   -> tools perform the external actions
 ```
 
-This also explains why skill is not just a saved prompt. A useful skill packages domain meaning, sequence, validation, and local conventions. It can include scripts and templates, but the skill's main value is the business workflow that chooses when and how those assets matter.
+This also explains why skill is not just a saved prompt. A useful skill packages domain meaning, sequence, validation, and local conventions. It can include scripts and templates, but the skill's main value is the business workflow that chooses when and how those assets matter. ^[inferred]
 
-Tools can still carry some domain semantics. A finance lookup tool, weather tool, ticket-creation MCP tool, or image-generation tool is not a completely neutral primitive. But that semantics remains interface semantics: the tool defines a bounded operation the agent can execute. It does not usually define the full business SOP for a task.
+Tools can still carry some domain semantics. A finance lookup tool, weather tool, ticket-creation MCP tool, or image-generation tool is not a completely neutral primitive. But that semantics remains interface semantics: the tool defines a bounded operation the agent can execute. It does not usually define the full business SOP for a task. ^[inferred]
 
 ## Implications
 
-Harness design should avoid mixing the layers.
+Harness design should avoid mixing the layers. ^[inferred]
 
-If a behavior is mostly about external action, authorization, and IO, it belongs closer to the tool layer. Its design questions are schema, permission, sandboxing, reliability, observability, and error handling.
+If a behavior is mostly about external action, authorization, and IO, it belongs closer to the tool layer. Its design questions are schema, permission, sandboxing, reliability, observability, and error handling. ^[inferred]
 
-If a behavior is mostly about task judgment, ordering, domain conventions, output shape, and verification criteria, it belongs closer to the skill layer. Its design questions are activation boundary, workflow sequence, reference loading, examples, failure modes, and maintenance.
+If a behavior is mostly about task judgment, ordering, domain conventions, output shape, and verification criteria, it belongs closer to the skill layer. Its design questions are activation boundary, workflow sequence, reference loading, examples, failure modes, and maintenance. ^[inferred]
 
-This distinction also clarifies evaluation:
+This distinction also clarifies evaluation: ^[inferred]
 
-- tool quality is judged by whether the operation is safe, clear, bounded, reliable, and easy for the model to call correctly;
-- skill quality is judged by whether the right workflow activates at the right time and improves task outcomes without polluting context.
+- tool quality is judged by whether the operation is safe, clear, bounded, reliable, and easy for the model to call correctly; ^[inferred]
+- skill quality is judged by whether the right workflow activates at the right time and improves task outcomes without polluting context. ^[inferred]
 
-For mature harnesses, both layers interact. A skill can instruct the agent to use certain tools, and a tool can expose a capability that makes a skill practical. But collapsing them into one concept hides the most important design choice: whether the agent needs a new action surface or a better procedure for using existing surfaces.
+For mature harnesses, both layers interact. A skill can instruct the agent to use certain tools, and a tool can expose a capability that makes a skill practical. But collapsing them into one concept hides the most important design choice: whether the agent needs a new action surface or a better procedure for using existing surfaces. ^[inferred]
 
 ## Related
 

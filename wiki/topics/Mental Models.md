@@ -18,7 +18,7 @@ base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 7
-updated: 2026-06-23T14:47:59Z
+updated: 2026-07-11T23:53:54+0800
 aliases:
   - 思维框架
 tags:

@@ -10,9 +10,9 @@ sources:
   - https://x.com/manthanguptaa/article/2067096080886698364
 summary: Codebase retrieval indexes combine semantic search, exact pattern search, freshness tracking, and access proof so coding agents can find useful code in large repositories.
 provenance:
-  extracted: 0.66
-  inferred: 0.34
-  ambiguous: 0.0
+  extracted: 0.98
+  inferred: 0.02
+  ambiguous: 0.00
 base_confidence: 0.45
 lifecycle: draft
 lifecycle_changed: 2026-06-19

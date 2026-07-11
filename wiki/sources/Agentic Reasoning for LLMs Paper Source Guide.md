@@ -14,9 +14,9 @@ updated: 2026-06-21T13:32:21+0800
 summary: >-
   Source guide for arXiv 2601.12538, treating agentic reasoning as reasoning joined to action, feedback, memory, learning, and multi-agent coordination.
 provenance:
-  extracted: 0.70
-  inferred: 0.28
-  ambiguous: 0.02
+  extracted: 0.94
+  inferred: 0.06
+  ambiguous: 0.00
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-06-21

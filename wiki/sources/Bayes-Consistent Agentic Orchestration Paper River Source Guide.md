@@ -13,9 +13,9 @@ base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-26
 provenance:
-  extracted: 0.74
-  inferred: 0.22
-  ambiguous: 0.04
+  extracted: 0.94
+  inferred: 0.06
+  ambiguous: 0.00
 aliases:
   - Agentic AI Orchestration Should Be Bayes-Consistent Paper River
   - Bayes-consistent orchestration paper river

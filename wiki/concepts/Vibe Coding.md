@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-03
 tier: supporting
 created: 2026-07-03T21:45:37+0800
-updated: 2026-07-03T21:45:37+0800
+updated: 2026-07-11T23:53:54+0800
 ---
 # Vibe Coding
 

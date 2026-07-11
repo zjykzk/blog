@@ -13,12 +13,12 @@ sources:
   - wiki/concepts/Organizational Memory
   - wiki/concepts/Semantic File System
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-06-09T10:56:14+08:00
+updated: 2026-07-12T00:07:31+0800
 summary: AI memory becomes organizationally useful when remembered items are placed in a context graph of owners, evidence, freshness, and permissions.
 provenance:
-  extracted: 0.22
-  inferred: 0.70
-  ambiguous: 0.08
+  extracted: 0.64
+  inferred: 0.36
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-23
@@ -33,7 +33,7 @@ Their connection is that memory without graph structure is recall, while graph-s
 
 ## Where They Co-occur
 
-The pair appears in the company-brain cluster:
+The pair appears in the company-brain cluster: ^[inferred]
 
 - [[wiki/concepts/Company Brain]] treats organizational memory as a permissioned substrate for agents.
 - [[wiki/concepts/Factual Memory]] asks what exists, what happened, where evidence lives, who owns it, and when it changed.
@@ -52,16 +52,16 @@ This makes the context graph a memory-quality layer. It turns memory from stored
 
 ## Tensions and Trade-offs
 
-- **Recall vs. governance**: raw memory can retrieve relevant text, but governed memory must know who can see it and whether it is still valid.
-- **Completeness vs. freshness**: remembering everything can preserve history while obscuring what is current.
-- **Local tool memory vs. shared state**: isolated tools can remember their own truth, while the organization needs one inspectable, correctable substrate.
-- **Automation vs. accountability**: graph memory can enable action, but action requires ownership, approval, and audit trails.
+- **Recall vs. governance**: raw memory can retrieve relevant text, but governed memory must know who can see it and whether it is still valid. ^[inferred]
+- **Completeness vs. freshness**: remembering everything can preserve history while obscuring what is current. ^[inferred]
+- **Local tool memory vs. shared state**: isolated tools can remember their own truth, while the organization needs one inspectable, correctable substrate. ^[inferred]
+- **Automation vs. accountability**: graph memory can enable action, but action requires ownership, approval, and audit trails. ^[inferred]
 
 ## Open Questions
 
-- Which graph edge types are essential before an AI memory can safely drive organizational action?
-- How should stale or contradicted memories be surfaced without overwhelming users?
-- When should memory retrieval return text, a graph path, or an explicit uncertainty/permission warning?
+- Which graph edge types are essential before an AI memory can safely drive organizational action? ^[inferred]
+- How should stale or contradicted memories be surfaced without overwhelming users? ^[inferred]
+- When should memory retrieval return text, a graph path, or an explicit uncertainty/permission warning? ^[inferred]
 
 ## Related
 

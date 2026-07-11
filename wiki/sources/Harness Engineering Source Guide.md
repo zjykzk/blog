@@ -3,11 +3,11 @@ title: Harness Engineering Source Guide
 type: source
 status: growing
 category: sources
-summary: Source guide for Birgitta Böckeler's Martin Fowler article on user-owned harness engineering for coding agents, combining prompt/context/harness scope, guides, sensors, regulation categories, templates, and human judgment.
+summary: Source guide to Birgitta Böckeler’s user-owned harness engineering model for coding agents: context, guides, sensors, controls, templates, and human judgment.
 sources:
   - https://martinfowler.com/articles/harness-engineering.html
 created: 2026-05-06T22:24:21+08:00
-updated: 2026-06-19T08:37:57+0800
+updated: 2026-07-11T23:53:54+0800
 base_confidence: 0.48
 lifecycle: draft
 lifecycle_changed: 2026-05-06

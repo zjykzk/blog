@@ -12,12 +12,12 @@ sources:
   - wiki/sources/Compounding Engineering Source Guide
   - wiki/sources/Agentic-First Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-06-09T10:56:14+08:00
+updated: 2026-07-12T00:07:31+0800
 summary: Agentic engineering shifts engineering effort from generating code to designing verification loops that make generated work safe to accept.
 provenance:
-  extracted: 0.22
-  inferred: 0.70
-  ambiguous: 0.08
+  extracted: 0.58
+  inferred: 0.42
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-23
@@ -32,7 +32,7 @@ Their connection is the AI-era bottleneck shift: when generation becomes cheap, 
 
 ## Where They Co-occur
 
-This pair appears in pages and sources about production AI coding:
+This pair appears in pages and sources about production AI coding: ^[inferred]
 
 - [[wiki/concepts/Coding Agent User Harness]] defines the developer-owned environment around the coding agent.
 - [[wiki/sources/Coding with AI Source Guide]] argues that senior developers become harness trainers.
@@ -48,16 +48,16 @@ A team becomes agentic when its verification loops are strong enough that genera
 
 ## Tensions and Trade-offs
 
-- **Generation speed vs. acceptance speed**: faster code generation can increase queue pressure if verification does not improve.
-- **Human attention vs. automated gates**: humans should focus on ambiguous trade-offs, but must first make enough checks executable to avoid drowning in routine review.
-- **Local task success vs. harness learning**: a fix that passes once is less valuable than a repeated failure that becomes a new durable check.
-- **Evaluator agents vs. independent truth**: AI review can help, but must be grounded in tests, traces, requirements, or human judgment.
+- **Generation speed vs. acceptance speed**: faster code generation can increase queue pressure if verification does not improve. ^[inferred]
+- **Human attention vs. automated gates**: humans should focus on ambiguous trade-offs, but must first make enough checks executable to avoid drowning in routine review. ^[inferred]
+- **Local task success vs. harness learning**: a fix that passes once is less valuable than a repeated failure that becomes a new durable check. ^[inferred]
+- **Evaluator agents vs. independent truth**: AI review can help, but must be grounded in tests, traces, requirements, or human judgment. ^[inferred]
 
 ## Open Questions
 
-- What fraction of a team's review comments can become executable or semi-executable harness checks?
-- Which verification failures should update tests, which should update skills, and which should update requirements?
-- How should teams measure agentic engineering maturity without counting generated lines?
+- What fraction of a team's review comments can become executable or semi-executable harness checks? ^[inferred]
+- Which verification failures should update tests, which should update skills, and which should update requirements? ^[inferred]
+- How should teams measure agentic engineering maturity without counting generated lines? ^[inferred]
 
 ## Related
 

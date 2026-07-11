@@ -11,7 +11,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 3
-updated: 2026-06-23T14:35:24Z
+updated: 2026-07-12T00:07:31+0800
 aliases:
   - 思考与判断工作流
 tags:
@@ -20,14 +20,14 @@ tags:
   - reasoning
   - methods
 provenance:
-  extracted: 0.68
-  inferred: 0.32
+  extracted: 0.67
+  inferred: 0.33
   ambiguous: 0.00
 ---
 
 # Thinking and Judgment Workflow
 
-这页把 `Mental Models`、`Critical Thinking`、`Problem Framing` 串成一条更完整的思考路径：面对复杂问题时，不只是要会想，还要知道先怎么定义问题、再怎么观察、最后怎么判断。
+这页把 `Mental Models`、`Critical Thinking`、`Problem Framing` 串成一条更完整的思考路径：面对复杂问题时，不只是要会想，还要知道先怎么定义问题、再怎么观察、最后怎么判断。 ^[inferred]
 
 ## Start by framing the problem correctly
 
@@ -42,7 +42,7 @@ provenance:
 - 谁是相关角色
 - 障碍在哪里
 
-如果这一步没做清楚，后面使用再多框架和提问技巧，都可能是在错误问题上打转。
+如果这一步没做清楚，后面使用再多框架和提问技巧，都可能是在错误问题上打转。 ^[inferred]
 
 参考：[[wiki/topics/Problem Framing]]
 
@@ -54,7 +54,7 @@ provenance:
 
 ## Use mental models to widen the search space
 
-当问题被初步定义之后，下一步不是立刻选答案，而是扩大观察角度。
+当问题被初步定义之后，下一步不是立刻选答案，而是扩大观察角度。 ^[inferred]
 
 Mental models 的价值就在这里：
 
@@ -64,7 +64,7 @@ Mental models 的价值就在这里：
 - 逆向思维帮助你从失败路径反推
 - 奥卡姆剃刀帮助你先试更简单解释
 
-也就是说，mental models 主要解决的是：不要让自己只剩下一种看法。
+也就是说，mental models 主要解决的是：不要让自己只剩下一种看法。 ^[inferred]
 
 这里还可以再往前一步：概率思维不是单纯给你一个数字，而是在提醒你检查几个更关键的问题：
 
@@ -73,7 +73,7 @@ Mental models 的价值就在这里：
 - 你现在是在做可重复场景判断，还是在处理一次性事件
 - 这个结论是帮助你行动，还是只是制造了伪确定感
 
-所以在思考工作流里，概率思维不只负责“扩大视角”，还负责给判断加刻度：避免把感觉误当事实，也避免把数字误当真理。
+所以在思考工作流里，概率思维不只负责“扩大视角”，还负责给判断加刻度：避免把感觉误当事实，也避免把数字误当真理。 ^[inferred]
 
 参考：[[wiki/topics/Mental Models]]、[[wiki/topics/Probability]]
 
@@ -92,39 +92,39 @@ Critical thinking 的作用，是进一步追问：
 - 数据是否可能误导
 - 是否省略了关键信息
 
-这一步的价值是：不让“看起来合理”直接滑成“值得相信”。
+这一步的价值是：不让“看起来合理”直接滑成“值得相信”。 ^[inferred]
 
 参考：[[wiki/topics/Critical Thinking]]
 
 ## A practical sequence
 
-把三者连起来，可以形成一个稳定工作流：
+把三者连起来，可以形成一个稳定工作流： ^[inferred]
 
-1. 先定义问题，而不是先抢答案
-2. 再用系统思维确认边界、要素、连接、反馈和目标
-3. 用结构化思维把混乱外化成分类、层次、逻辑树或流程图
-4. 用 mental models 与创造性思维扩大观察角度，提出新维度和新假设
-5. 用 probability thinking 与逻辑思维检查对象、边界、因果链和判断刻度
-6. 用 critical thinking 过滤论证质量，寻找反例、漏洞和证据不足
-7. 最后形成临时结论，并保留修正空间
+1. 先定义问题，而不是先抢答案 ^[inferred]
+2. 再用系统思维确认边界、要素、连接、反馈和目标 ^[inferred]
+3. 用结构化思维把混乱外化成分类、层次、逻辑树或流程图 ^[inferred]
+4. 用 mental models 与创造性思维扩大观察角度，提出新维度和新假设 ^[inferred]
+5. 用 probability thinking 与逻辑思维检查对象、边界、因果链和判断刻度 ^[inferred]
+6. 用 critical thinking 过滤论证质量，寻找反例、漏洞和证据不足 ^[inferred]
+7. 最后形成临时结论，并保留修正空间 ^[inferred]
 
 ## Why this synthesis matters
 
-这几个主题单独看都成立，但串起来后，才形成一条真正可执行的认知链：
+这几个主题单独看都成立，但串起来后，才形成一条真正可执行的认知链： ^[inferred]
 
-- Problem Framing 负责定义问题
-- Thinking in Systems 负责给出全局方向
-- Structured Thinking / Analysis 负责把思考转成可执行结构
-- Mental Models 和创造性思维负责扩展视角
-- Probability 与逻辑思维负责约束判断刻度和推理规则
-- Critical Thinking 负责审查论证
+- Problem Framing 负责定义问题 ^[inferred]
+- Thinking in Systems 负责给出全局方向 ^[inferred]
+- Structured Thinking / Analysis 负责把思考转成可执行结构 ^[inferred]
+- Mental Models 和创造性思维负责扩展视角 ^[inferred]
+- Probability 与逻辑思维负责约束判断刻度和推理规则 ^[inferred]
+- Critical Thinking 负责审查论证 ^[inferred]
 
-少任一环，判断质量都会下降：
+少任一环，判断质量都会下降： ^[inferred]
 
-- 没有问题定义，容易答非所问
-- 没有模型切换，容易被单一路径锁住
-- 没有概率刻度，容易在感觉与伪精确之间来回滑动
-- 没有批判性审查，容易接受貌似合理的结论
+- 没有问题定义，容易答非所问 ^[inferred]
+- 没有模型切换，容易被单一路径锁住 ^[inferred]
+- 没有概率刻度，容易在感觉与伪精确之间来回滑动 ^[inferred]
+- 没有批判性审查，容易接受貌似合理的结论 ^[inferred]
 
 ## Upstream topics
 

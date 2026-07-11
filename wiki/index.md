@@ -142,6 +142,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Reasoning as Structure Mapping|Reasoning as Structure Mapping]] — 推理可以理解为结构之间的关系保持映射：用一个已知结构照亮未知结构，并检查这种照亮是否保住了约束。 (#thinking #reasoning #cognition)
 - [[wiki/concepts/Business Modeling in Software|Business Modeling in Software]] — 软件中的业务建模，不是先讨论'软件怎么做'，而是先回答：目标组织为了产出业务结果，现在是怎么运作的，应该怎么改。
 - [[wiki/concepts/业务隐含复杂度]] — 业务隐含复杂度说明软件难点常藏在规则、状态、例外、权责、历史和变化中；开发者要把它们转成清晰的软件模型。 (#software-engineering #requirements #architecture #complexity)
+- [[wiki/concepts/Code Expression for Human Understanding]] — 面向人理解的代码表达，把代码从语法动作提升为意图、责任、约束、状态变化、失败模式和图示关系的组合表达。 (#software-engineering #architecture #communication #cognition)
 - [[wiki/concepts/Autonomy-Supportive Parenting|Autonomy-Supportive Parenting]] — Autonomy-supportive parenting helps children internalize rules as their own reasons through warmth, boundaries, choice, responsibility, and gradual withdrawal. (#learning #cognition #education #psychology)
 - [[wiki/concepts/Cognitive Load Theory|Cognitive Load Theory]] — Cognitive Load Theory explains learning as schema formation constrained by limited working-memory bandwidth and affected by intrinsic and extraneous load. (#learning #cognition #education #psychology)
 - [[wiki/concepts/Cognition Three Channels|Cognition Three Channels]] — 人认识世界靠三根独立的生成器撑着。关掉任何一根，认识塌一块。

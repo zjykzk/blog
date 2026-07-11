@@ -13,12 +13,12 @@ sources:
   - wiki/concepts/Multiplicative World
   - wiki/concepts/Specific Knowledge
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-06-09T10:56:14+08:00
+updated: 2026-07-12T00:07:31+0800
 summary: Permissionless leverage is the scaling mechanism that lets wealth creation escape rented time, but it only amplifies judgment.
 provenance:
-  extracted: 0.24
-  inferred: 0.68
-  ambiguous: 0.08
+  extracted: 0.68
+  inferred: 0.32
+  ambiguous: 0.00
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-23
@@ -52,16 +52,16 @@ The non-obvious move is to treat permissionless leverage as a **selection amplif
 
 ## Tensions and Trade-offs
 
-- **Low barrier vs. high signal**: anyone can publish code or media, so differentiation shifts toward taste, judgment, trust, and compounding reputation.
-- **Replication vs. ownership**: media reach is not automatically equity; durable wealth usually requires owning an asset or business model around the replicated work.
-- **Freedom vs. status games**: permissionless channels can liberate builders from institutions, but also pull them into metrics, attention, and comparison traps.
-- **Speed vs. compounding trust**: internet leverage rewards fast iteration, while long-term games require consistent integrity and quality.
+- **Low barrier vs. high signal**: anyone can publish code or media, so differentiation shifts toward taste, judgment, trust, and compounding reputation. ^[inferred]
+- **Replication vs. ownership**: media reach is not automatically equity; durable wealth usually requires owning an asset or business model around the replicated work. ^[inferred]
+- **Freedom vs. status games**: permissionless channels can liberate builders from institutions, but also pull them into metrics, attention, and comparison traps. ^[inferred]
+- **Speed vs. compounding trust**: internet leverage rewards fast iteration, while long-term games require consistent integrity and quality. ^[inferred]
 
 ## Open Questions
 
-- How does AI-generated code and media change the scarcity of permissionless leverage?
-- When does media leverage become wealth creation rather than status accumulation?
-- What forms of ownership best convert permissionless reach into durable wealth?
+- How does AI-generated code and media change the scarcity of permissionless leverage? ^[inferred]
+- When does media leverage become wealth creation rather than status accumulation? ^[inferred]
+- What forms of ownership best convert permissionless reach into durable wealth? ^[inferred]
 
 ## Related
 

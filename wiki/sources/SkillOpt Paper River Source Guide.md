@@ -10,9 +10,9 @@ updated: 2026-06-11T10:39:52+0800
 summary: >-
   保留 SkillOpt 论文倒读法：从 ReAct、Reflexion、文本优化、GEPA 与技能库路线，说明 agent skill 自进化如何从生成技能推进到治理技能改动。
 provenance:
-  extracted: 0.55
-  inferred: 0.38
-  ambiguous: 0.07
+  extracted: 0.92
+  inferred: 0.08
+  ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-06-11

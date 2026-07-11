@@ -19,6 +19,12 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-07-12T00:08:22+0800] LINT_PROVENANCE marker_reviewed_pages=23 marker_updated_pages=22 inferred_markers_added=285 provenance_blocks_recomputed=23 remaining_provenance_drift=0 ambiguous_markers_added=0 qmd="skipped: QMD_WIKI_COLLECTION unset"
+- [2026-07-12T00:01:37+0800] LINT_CORRECTION provenance_ratio_fixes_kept=9 provenance_ratio_fixes_reverted=23 remaining_provenance_marker_reviews=23 reason="semantic audit found missing claim-level markers; preserve prior ratios until marker-first review"
+- [2026-07-11T23:59:22+0800] LINT_FIX schema_fixed=1 orphans_rescued=1 index_entries_added=1 stale_refreshed=15 summaries_shortened=1 provenance_blocks_normalized=32 remaining_confidence_drift_candidates=267 qmd="skipped: QMD_WIKI_COLLECTION unset"
+- [2026-07-11T23:46:22+0800] LINT issues_found=322 orphans=1 broken_links=0 stale=15 contradictions=1 prov_issues=32 missing_summary=1 long_summary=1 fragmented_clusters=14 visibility_issues=0 promotion_candidates=0 synthesis_gaps=21 lifecycle_issues=269 relationship_issues=0 index_issues=1 note="421 pages scanned; 267 lifecycle issues are base_confidence drift candidates computed from frontmatter source strings without richer source_id metadata; 1 source extract lacks full schema; 14 fragmented clusters are mostly broad routing/source-kind tags"
+- [2026-07-10T20:16:00+0800] CAPTURE type=concept page="wiki/concepts/Executable Specification.md" title="Executable Specification"
+- [2026-07-10T20:15:07+08:00] CAPTURE type=synthesis page="wiki/syntheses/产品行业核心概念地图.md" title="产品行业核心概念地图"
 - [2026-07-05T17:55:03+0800] CAPTURE type=source page="wiki/sources/Zawinskis Law Source Guide.md" title="Zawinski's Law Source Guide"
 - [2026-07-05T16:46:13+0800] CAPTURE type=concept page="wiki/concepts/姓氏名与字.md" title="姓氏名与字"
 - [2026-07-05T13:22:43+0800] CAPTURE type=concept page="wiki/concepts/幂律分布与正态分布.md" title="幂律分布与正态分布"

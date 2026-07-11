@@ -16,9 +16,9 @@ updated: 2026-06-10T21:35:12+08:00
 summary: >-
   保留 Memory-as-a-Tool 论文倒读法：从 CoT、Self-Refine、Reflexion、MemGPT、MemLLM 到 Memory-R1，说明反馈如何从一次性修正变成可复用记忆原则。
 provenance:
-  extracted: 0.64
-  inferred: 0.30
-  ambiguous: 0.06
+  extracted: 0.93
+  inferred: 0.06
+  ambiguous: 0.01
 base_confidence: 0.39
 lifecycle: draft
 lifecycle_changed: 2026-06-10
