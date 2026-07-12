@@ -13,8 +13,9 @@ sources:
   - https://x.com/hwchase17/status/2040467997022884194
   - https://arxiv.org/abs/2603.07670
   - https://arxiv.org/abs/2605.03354v2
+  - inline:ai-coding-information-theory-cheer-2026-07-12
 created: 2026-05-05T16:25:00+08:00
-updated: 2026-06-10T21:35:12+08:00
+updated: 2026-07-12T23:19:18+0800
 base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -86,6 +87,10 @@ Memory quality should not be evaluated only by recall. The survey organizes eval
 - cost, latency, capacity, and privacy constraints
 
 For agent systems, memory is successful when it improves downstream behavior under real task constraints, not when it merely stores more records. ^[inferred]
+
+[[wiki/sources/AI Coding 信息论框架 Source Guide]] sharpens this into a density-and-calibration rule: memory should retrieve a small amount of task-relevant, current project truth rather than maximize recalled history. Error records, architecture decisions, business conventions, and preference boundaries can reduce future guessing; stale APIs, superseded practices, and raw activity logs can dilute context or push the model toward an obsolete project prior. ^[inferred]
+
+Forgetting and version governance are therefore correctness mechanisms, not only storage optimizations. ^[inferred]
 
 ## Agent Memory as a Managed Feedback Loop
 
@@ -169,3 +174,5 @@ The paper's numeric claims remain source-level: the reported 76.2% unsupervised 
 - [[wiki/concepts/Organizational Ontology]]
 - [[wiki/sources/Company Brain Source Guide]]
 - [[wiki/sources/AI Memory Survey Source Guide]]
+- [[wiki/concepts/AI Coding Information-Theoretic Framework]]
+- [[wiki/sources/AI Coding 信息论框架 Source Guide]]

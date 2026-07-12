@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 65,
-    "total_pages": 406
+    "total_sources_ingested": 66,
+    "total_pages": 408
   },
   "sources": {
     "inline:buddhist-awakening-correction-2026-06-21": {
@@ -1400,6 +1400,30 @@
       ],
       "pages_updated": [
         "wiki/concepts/Executable Specification.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "inline:ai-coding-information-theory-cheer-2026-07-12": {
+      "ingested_at": "2026-07-12T23:19:18+0800",
+      "size_bytes": 11752,
+      "modified_at": "2026-07-12T23:19:18+0800",
+      "content_hash": "sha256:72129b125720e8941572841a599f274843bd647690d3a626cf9e76179b137dd0",
+      "hash_basis": "preserved source guide UTF-8 bytes",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/AI Coding 信息论框架 Source Guide.md",
+        "wiki/concepts/AI Coding Information-Theoretic Framework.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Context Information Density.md",
+        "wiki/topics/Context Management.md",
+        "wiki/topics/AI Memory.md",
+        "wiki/topics/AI Harness.md",
+        "wiki/syntheses/AI Engineering Workflow.md",
         "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",

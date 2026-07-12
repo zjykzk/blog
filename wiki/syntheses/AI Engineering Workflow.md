@@ -17,6 +17,7 @@ sources:
   - https://nanothoughts.substack.com/p/company-brain-part-4-action-memory
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
   - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
+  - inline:ai-coding-information-theory-cheer-2026-07-12
 created: 2026-05-04
 base_confidence: 0.44
 lifecycle: draft
@@ -26,7 +27,7 @@ provenance:
   inferred: 0.13
   ambiguous: 0.01
 source_count: 15
-updated: 2026-05-09T21:05:00+08:00
+updated: 2026-07-12T23:19:18+0800
 aliases:
   - AI 工作流
   - Agent workflow
@@ -149,6 +150,8 @@ LLM 本身有模型内建能力，例如 extended thinking；但工程系统里�
 
 This turns AI engineering from "prompt for output" into a structured pair-programming loop.
 
+[[wiki/concepts/AI Coding Information-Theoretic Framework]] supplies a diagnostic gate for the whole workflow. Before changing prompts or adding retrieval, identify whether the failure is a coverage problem—too much output uncertainty remains—or a completion-direction problem—the model is confidently filling private-business gaps with generic priors. The first calls for tighter scope and higher-mutual-information task context; the second calls for project rules, code retrieval, executable checks, review, and human escalation. ^[inferred]
+
 [[wiki/sources/Harness Engineering Source Guide]] adds the user-harness layer around the same loop:
 
 - make the working environment more [[wiki/concepts/Harnessability|harnessable]] by exposing context, boundaries, examples, checks, and templates
@@ -209,6 +212,7 @@ This strengthens a recurring synthesis: AI engineering is not just faster genera
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Harnessability]]
 - [[wiki/concepts/Agentic Engineering]]
+- [[wiki/concepts/AI Coding Information-Theoretic Framework]]
 - [[wiki/sources/Harness Engineering Is Cybernetics Source Guide]]
 - [[wiki/concepts/Action Memory]]
 - [[wiki/concepts/Governed Action]]
@@ -232,6 +236,7 @@ This strengthens a recurring synthesis: AI engineering is not just faster genera
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Company Brain Source Guide]]
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
+- [[wiki/sources/AI Coding 信息论框架 Source Guide]]
 
 ## Navigation
 

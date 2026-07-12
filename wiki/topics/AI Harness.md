@@ -22,6 +22,7 @@ sources:
   - https://arxiv.org/abs/2605.23023
   - https://www.langchain.com/blog/the-art-of-loop-engineering
   - https://arxiv.org/pdf/2601.01743
+  - inline:ai-coding-information-theory-cheer-2026-07-12
 created: 2026-05-04
 base_confidence: 0.57
 lifecycle: draft
@@ -31,7 +32,7 @@ provenance:
   inferred: 0.12
   ambiguous: 0.01
 source_count: 17
-updated: 2026-07-05T12:25:46+0800
+updated: 2026-07-12T23:19:18+0800
 aliases:
   - harness
 tags:
@@ -94,6 +95,10 @@ This turns harness into a socio-technical control layer: it must constrain both 
 - schema validation、sandboxing、policy gates、audit logs 和 observability traces 如何把 tool action 变成可执行、可审计、可学习的系统事件
 
 把这些放在一起看，harness 的职责就不只是“把模型接到工具上”，而是在塑造 agent 的可运行秩序。
+
+[[wiki/concepts/AI Coding Information-Theoretic Framework]] adds a two-layer explanation for this order. At the coverage layer, planning, retrieval, examples, and task boundaries reduce how much the model must guess. At the completion layer, code search, tests, runtime feedback, review, and project rules keep the remaining guesses aligned with private business constraints rather than generic model priors. ^[inferred]
+
+In this view, a harness is an iterative information-correction system: each action exposes more of reality, each verifier converts part of that reality into a machine-readable constraint, and escalation returns information gaps that automation cannot recover to a human decision-maker. ^[inferred]
 
 Addy Osmani's harness-engineering article adds a useful implementation-level inventory: prompts, repo rule files, skills, tools, MCP servers, filesystem, sandbox, browser, subagent orchestration, lifecycle hooks, observability, cost metering, and recovery paths are all harness surface.
 
@@ -340,6 +345,7 @@ This strengthens the governance reading of harness: an enterprise agent should n
 - [[wiki/concepts/Feedforward and Feedback Controls]]
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Harnessability]]
+- [[wiki/concepts/AI Coding Information-Theoretic Framework]]
 - [[wiki/topics/Context Management]]
 - [[wiki/topics/AI Memory]]
 - [[wiki/topics/Tool Routing]]
@@ -379,6 +385,7 @@ This strengthens the current harness-ratchet view. A human can turn repeated fai
 - [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]]
 
 - [[wiki/sources/AI Memory Survey Source Guide]]
+- [[wiki/sources/AI Coding 信息论框架 Source Guide]]
 
 ## Navigation
 

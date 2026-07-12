@@ -6,6 +6,7 @@ summary: Context information density treats agent context quality as the ratio o
 category: concepts
 sources:
   - https://arxiv.org/abs/2307.03172
+  - inline:ai-coding-information-theory-cheer-2026-07-12
 created: 2026-05-04
 provenance:
   extracted: 0.80
@@ -15,7 +16,7 @@ base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: 2026-05-04
 source_count: 2
-updated: 2026-05-05T15:45:00+08:00
+updated: 2026-07-12T23:19:18+0800
 aliases:
   - context information density maximization
   - contextual information density
@@ -44,6 +45,10 @@ Completeness and conciseness are structurally in tension. Adding more material m
 [[wiki/sources/Lost in the Middle Paper Source Guide]] adds a third constraint: positional usability. A fact can be present, relevant, and still underused if it sits in a low-utility region of a long context.
 
 This is why density cannot be measured only by counting relevant tokens. It also depends on whether those tokens are placed where the model can retrieve and apply them. ^[inferred]
+
+[[wiki/sources/AI Coding 信息论框架 Source Guide]] gives this principle an information-theoretic interpretation: useful context increases mutual information with the target output, while redundant, stale, conflicting, or wrong context consumes attention without reliably shrinking the model's remaining guess space. Its practical proxy is not context size but $I(X;Y)/|Context|$. Because real task distributions are not directly measurable, this ratio is an engineering lens rather than an operational metric. ^[inferred]
+
+The same source separates low density from wrong direction. Low-density context mainly dilutes attention; incorrect or obsolete context can also push the model toward a false project prior, making confident errors more likely. ^[inferred]
 
 ## Agent design implications
 
@@ -78,3 +83,5 @@ It also gives [[wiki/syntheses/Agent System Design Space]] a stronger evaluation
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/sources/GenericAgent Paper Source Guide]]
 - [[wiki/sources/Lost in the Middle Paper Source Guide]]
+- [[wiki/concepts/AI Coding Information-Theoretic Framework]]
+- [[wiki/sources/AI Coding 信息论框架 Source Guide]]

@@ -16,6 +16,7 @@ sources:
   - https://www.chrismdp.com/coding-with-ai/
   - https://arxiv.org/abs/2603.28052
   - https://arxiv.org/abs/2603.07670
+  - inline:ai-coding-information-theory-cheer-2026-07-12
 created: 2026-05-04
 base_confidence: 0.57
 lifecycle: draft
@@ -25,7 +26,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.0
 source_count: 11
-updated: 2026-05-13T09:59:22+08:00
+updated: 2026-07-12T23:19:18+0800
 aliases:
   - 上下文管理
 tags:
@@ -77,6 +78,10 @@ Akshay Pachaar's harness overview sharpens this point: context management is one
 这解释了为什么“多塞一点上下文”不总是更安全。上下文越长，position bias、无关信息稀释和 effective context length 收缩会一起把关键信息挤出可用注意力范围。
 
 因此，更稳定的目标不是最大化可见历史，而是最大化 [[wiki/concepts/Context Information Density]]。
+
+[[wiki/concepts/AI Coding Information-Theoretic Framework]] further separates two jobs that are often collapsed into “add context.” The coverage layer reduces $H(Y\mid X)$ by supplying task-specific constraints; the completion layer calibrates whether the model fills remaining gaps with rules that match the private project rather than generic public-code priors. A long prompt can improve the first while still failing the second. ^[inferred]
+
+This distinction also explains why incorrect context is worse than merely verbose context. Verbosity lowers effective density, but stale docs and conflicting rules can make the model more confident in the wrong project distribution. ^[inferred]
 
 ## Positional robustness
 
@@ -212,3 +217,4 @@ So context management has two layers: design the current information surface, an
 
 - [[wiki/sources/AI Memory Survey Source Guide]]
 - [[wiki/sources/Seeing Like an Agent Source Guide]]
+- [[wiki/sources/AI Coding 信息论框架 Source Guide]]

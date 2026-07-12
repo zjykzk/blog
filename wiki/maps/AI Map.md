@@ -23,7 +23,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 9
-updated: 2026-07-12T14:12:03+0800
+updated: 2026-07-12T23:19:18+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -71,6 +71,7 @@ tags:
 - [[wiki/concepts/Neural Network Inference Boundary]]
 - [[wiki/concepts/Epiplexity]]
 - [[wiki/concepts/Context Information Density]]
+- [[wiki/concepts/AI Coding Information-Theoretic Framework]] — 用覆盖层判断模型还要猜多少，用填补层判断剩余空白是否被符合私有业务的规则填补。
 - [[wiki/concepts/Lost in the Middle Effect]]
 - [[wiki/concepts/Prompt Caching]]
 - [[wiki/concepts/KV Cache]]
@@ -214,6 +215,7 @@ tags:
 - [[wiki/sources/Codex Maxxing for Long Running Work Source Guide]] — OpenAI 白皮书：Codex-maxxing 把长期线程、memory vault、steering、remote control、thread automation、strong goals 和 side panel 接成持续工作循环。
 - [[wiki/sources/AI 工程化不是提效 是换主回路 QA Source Guide]] — ljg-qa 问答链：用 10 个问题把 AI 工程化压成“换主回路”而不是 Copilot 式提效。
 - [[wiki/sources/AI 软件工程问答 Source Guide]] — 中文问答链：把 AI 软件工程解释为从人脑主回路迁移到 AI 中心产线、确定性裁判、分治协调和隐性知识蒸馏的工程化路径。
+- [[wiki/sources/AI Coding 信息论框架 Source Guide]] — Cheer 用熵、互信息与模型先验/业务真实约束错配统一解释 Prompt、历史业务、记忆、Agent 自动化和 Harness Engineering。
 - [[wiki/sources/软件工程真正降临 Source Guide]] — 中文长文：把大模型定位为“能源换高阶智能”的认知引擎，并推导 AI 中心产线、确定性裁判、闭环优先、分工协调总线和场景驱动隐性知识蒸馏。
 - [[wiki/sources/大模型时代软件工程的本质与演进 Source Guide]] — 中文长文：把 LLM 代码生成放进软件工程的知识传递本质中，提出“无理论代码”和架构理论守护者风险框架。
 - [[wiki/sources/AI 什么都能写与软件价值重心转移 Source Guide]] — 中文长文：从 db9、技术栈迁移、遗留系统重写和企业维护争议说明 AI 让软件价值重心从代码实现转向知识、规格、harness、判断和责任。

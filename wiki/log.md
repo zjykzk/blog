@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-07-12T14:12:03+0800
+updated: 2026-07-12T23:19:18+0800
 aliases:
   - Wiki Log
 tags:
@@ -19,6 +19,7 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-07-12T23:19:18+0800] INGEST source="inline:ai-coding-information-theory-cheer-2026-07-12" pages_updated=7 pages_created=2 mode=append
 - [2026-07-12T14:12:03+0800] CAPTURE type=concept page="wiki/concepts/Dependency-Ordered Decision Making.md" title="Dependency-Ordered Decision Making"
 - [2026-07-12T00:30:14+0800] INGEST source="https://arxiv.org/pdf/2606.21894" pages_updated=5 pages_created=2 mode=append
 - [2026-07-12T00:08:22+0800] LINT_PROVENANCE marker_reviewed_pages=23 marker_updated_pages=22 inferred_markers_added=285 provenance_blocks_recomputed=23 remaining_provenance_drift=0 ambiguous_markers_added=0 qmd="skipped: QMD_WIKI_COLLECTION unset"
