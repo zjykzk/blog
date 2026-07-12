@@ -224,6 +224,16 @@ Append to `log.md`. This `log.md` append is the *only* write this skill performs
 - [TIMESTAMP] QUERY query="the user's question" result_pages=N mode=normal|index_only|filtered escalated=true|false
 ```
 
+## Conversational Follow-Up Mode
+
+When the user asks a short follow-up that clearly refines the immediately previous wiki-query answer (for example, "为什么还需要 X", "不用 X 可以吗", "那 X 和 Y 的区别呢"), treat it as a continuation of the same retrieval thread:
+
+- Reuse the prior candidate/page set when it still covers the concept; do not restart from broad full-vault retrieval unless the follow-up introduces a new topic.
+- Prefer targeted section reads or already-consulted pages over opening new full pages.
+- Still append the Step 6 `QUERY` log entry for the follow-up.
+- Answer in the user's language and keep the shape conversational: lead with the direct conceptual distinction, then cite the consulted pages. Avoid reprinting the full prior framework unless the follow-up requires it.
+- Good pattern for conceptual drill-downs: `direct answer → structural reason → when it holds / fails → compact formula or analogy → pages consulted → gaps`.
+
 ## Answer Format
 
 Structure answers like this:

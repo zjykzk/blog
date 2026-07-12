@@ -260,6 +260,10 @@ title 是这篇笔记的*灵魂句*——读者扫一眼就知道这篇论文带
 
 **arXiv 论文优先补抓 source package**：除了 PDF/HTML，尽量下载 `https://arxiv.org/e-print/{paper-id}` 并解压读主 `.tex`。TeX 源能给出更准的作者、caption、figure 文件名、实验描述和数字，避免 PDF 文本层把公式/图注/换行抽坏。遇到 PDF 图表数字不清时，把 source 里的 PDF figure 用 `magick -density 200 figure.pdf -quality 90 figure.png` 转成 PNG，再用视觉工具读轴、方法和关键数值。详细流程见 `references/arxiv-source-figure-extraction.md`。
 
+**PDF 文本提取依赖的稳妥路径**：如果系统没有 `pdftotext`，不要直接 `pip install --user pypdf` 到系统 Python；在 macOS/Homebrew Python 上这常被 PEP 668 拦住。改用论文临时目录里的本地 venv：`python3 -m venv .venv && . .venv/bin/activate && python -m pip install -q pypdf`，再用 `pypdf.PdfReader` 抽文本。这个 venv 是任务局部依赖，读完论文后无需写入项目或全局环境。
+
+**本地 PDF 总览图提取**：如果 PDF 没有可抽取的 embedded images（例如矢量图，工具报告 `images 0`），不要放弃总览图。渲染可能含 Figure 1 的页面为 PNG，用视觉检查定位图和 caption，再用 `magick page.png -crop WIDTHxHEIGHT+X+Y +repage` 裁到 `~/Documents/notes/images/{identifier}--paper-{简短标题}-overview.png`，最后再视觉验证裁剪没有切掉标签或 caption。详细流程见 `references/local-pdf-overview-extraction.md`。
+
 如果论文有一张承载全文核心思路的总览图（overview / architecture diagram，通常是 Figure 1），提取并保存到 `~/Documents/notes/images/`，文件名 `{identifier}--paper-{简短标题}-overview.png`。
 
 判断标准：这张图让人一看就抓住论文在做什么。不是所有论文都有——没有就跳过，不要硬找。

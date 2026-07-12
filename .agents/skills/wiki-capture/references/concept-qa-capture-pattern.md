@@ -12,9 +12,11 @@ Use this pattern when a user invokes `wiki-capture` after a short explanatory Q&
 
 Prefer `type=concept` when the result defines what something is and how it relates to adjacent concepts.
 
+Prefer `type=topic` when the user asked an operational “how to” question and the durable artifact is a reusable procedure, workflow, or method page rather than a single concept definition. This is especially true when an existing topic/map cluster already exists for that domain; extend the cluster with a topic page instead of forcing the content into `concepts/`.
+
 Write the page as declarative knowledge in the source/user language. For Chinese explanatory discussions, write Chinese wiki prose and confirm in Chinese.
 
-Useful sections:
+Useful concept sections:
 
 - `# <Concept Pair / Concept Name>`
 - `## What It Is` — definition and core distinction
@@ -22,6 +24,16 @@ Useful sections:
 - `## Concept Cluster` — adjacent concepts and relation chains
 - `## When to Use` — which analytic lens to apply when
 - `## Related` — links to at least two existing pages
+
+Useful topic/procedure sections:
+
+- `# <Procedure / Method Name>`
+- `## Core Formula` — compact operating model if one emerged
+- `## Principle` — the main decision rule behind the method
+- `## Operating Flow` — numbered reusable workflow
+- `## Quality Checks` — how to tell the method worked
+- `## Common Failure Modes` — predictable mistakes and boundaries
+- `## Related` — existing map/topic/concept links
 
 ## Good transformation
 
