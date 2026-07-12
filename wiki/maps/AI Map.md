@@ -22,7 +22,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 8
-updated: 2026-07-07T21:07:28+08:00
+updated: 2026-07-12T14:12:03+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -51,6 +51,7 @@ tags:
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Knowledge Priming]]
 - [[wiki/concepts/Design-First Collaboration]]
+- [[wiki/concepts/Dependency-Ordered Decision Making]] — 按决策依赖稳定上游节点，每轮用用户反馈重算后续分支，并在共享理解确认前阻止过早执行。
 - [[wiki/concepts/Context Anchoring]]
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/concepts/Feedback Flywheel]]

@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-07-07T21:07:28+08:00
+updated: 2026-07-12T14:12:03+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -128,6 +128,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Application|Application]] — Application is the fit-process that lets abstract knowledge, tools, or methods become effective in a concrete situation. (#thinking #concepts #practice)
 - [[wiki/concepts/Knowledge Priming|Knowledge Priming]] — Knowledge priming gives AI coding assistants curated, versioned project context before generation so they fit local architecture and conventions. (#ai-coding #context #workflow)
 - [[wiki/concepts/Design-First Collaboration|Design-First Collaboration]] — Design-first collaboration makes AI design decisions explicit through staged alignment before any implementation code is generated. (#ai-coding #software-engineering #workflow)
+- [[wiki/concepts/Dependency-Ordered Decision Making|Dependency-Ordered Decision Making]] — 先稳定上游前提，再用单步反馈剪枝和约束下游选择，避免伪问题、冲突决策与成片返工。 (#agents #decision-making #workflow #human-in-the-loop #ai-coding)
 - [[wiki/concepts/Context Anchoring|Context Anchoring]] — Context anchoring preserves feature-level AI collaboration decisions in a living document outside the chat session. (#ai-coding #context #workflow)
 - [[wiki/concepts/Encoding Team Standards|Encoding Team Standards]] — Encoding team standards turns tacit engineering judgment into versioned AI instructions that execute consistently across the team. (#ai-coding #software-engineering #workflow)
 - [[wiki/concepts/Feedback Flywheel|Feedback Flywheel]] — Feedback flywheel turns AI collaboration experience into updated context, standards, workflows, and guardrails. (#ai-coding #feedback #workflow)

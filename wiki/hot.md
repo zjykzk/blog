@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: 已捕获 Codex-maxxing 白皮书：长期 agent 工作需要 durable thread、memory、工具表面、steering、automation、strong goal 和 artifact loop。
+summary: 已捕获依赖驱动的逐项决策：先稳定上游前提，再用单步反馈剪枝下游选择，并以共享理解确认阻止过早执行。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-07-07T21:07:28+08:00
+updated: 2026-07-12T14:12:03+0800
 ---
 
 ## Recent Activity
+- 2026-07-12T14:12:03+0800 — 已捕获 [[wiki/concepts/Dependency-Ordered Decision Making]]：把 grilling 中的逐项追问解释为带反馈和回溯的决策拓扑排序，区分事实调查、专业建议与用户裁决。
 - 2026-07-07T21:07:28+08:00 — 已捕获 [[wiki/sources/Codex Maxxing for Long Running Work Source Guide]]：OpenAI 白皮书把 Codex-maxxing 定义为从单次 prompt 转向 durable thread、memory vault、steering、thread automation、strong goal 和 artifact-as-context 的长期工作循环。
 - 2026-07-05T17:55:03+0800 — 已捕获 [[wiki/sources/Zawinskis Law Source Guide]]：把 feature creep 理解为成功软件在用户停留、产品竞争和平台化压力下不断吸收相邻工作流的演化机制。
 - 2026-07-05T16:46:13+0800 — 已捕获 [[wiki/concepts/姓氏名与字]]：把姓、氏、名、字分别放回血缘、宗族分支、个人本名和成年社会称呼的身份系统中理解。
@@ -22,6 +23,7 @@ updated: 2026-07-07T21:07:28+08:00
 
 ## Active Threads
 
+- Agent planning 现在加入决策依赖线索：高影响计划不应把问题平铺成静态问卷，而应先稳定目标与约束，再让每轮反馈删除、约束或打开后续分支；事实由 Agent 调查，关键取舍由用户裁决。
 - Agent architecture 现在加入 Agent Transformer 线索：agent 不是裸模型，而是 `πθ + memory + tools + verifiers + environment` 的控制回路；harness 的责任是把 schema、sandbox、permission、audit log、observability 和 evaluation loop 接成可治理网关。
 - Codex-maxxing 现在加入 long-running work 线索：生产级 coding agent 不只是更会回答 prompt，而是要有 durable thread、reviewable memory、工具/权限表面、运行中 steering、周期性唤醒、strong goal 和 artifact-context loop。
 - Agent loop 现在加入 Loop Engineering 线索：生产级 agent 不只是“模型调用工具”，而是执行循环、验证循环、事件触发循环和 trace-driven hill climbing 循环的叠加；价值开始在外层循环中复利。
@@ -133,6 +135,7 @@ updated: 2026-07-07T21:07:28+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- 依赖驱动的逐项决策解决的不是“问题太多”，而是“决定会传播”：上游先定会把返工变成剪枝，单步反馈会把静态问卷变成闭环设计，用户确认则把共享理解变成进入执行的阶段门。
 - Codex-maxxing 的核心不是“让 Codex 自动做更多”，而是把一次性对话改造成责任循环：工作有线程承载，context 进入可 review 的 memory，工具接触真实表面，人保留批准和不可逆动作，automation 唤醒同一上下文，artifact 又成为下一轮指令。
 - 姓氏合流不是秦统一当天废止某个制度，而是春秋战国旧贵族宗法秩序松动、秦汉郡县户籍国家强化后，身份标记从“血缘祖源 + 贵族分支”压缩成固定家族名；“字”则是礼法社会为成年交往提供的尊称缓冲层。
 - Agent 评估不能只看 success rate：还要报告 token/cost、completion time、tool-call count、tool selection/argument/execution correctness、recovery rate、valid-action rate、loop rate、robustness、violation rate 和 human intervention；否则成功率会掩盖重试、成本、安全和可复现性问题。
