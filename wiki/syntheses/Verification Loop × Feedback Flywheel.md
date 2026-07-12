@@ -71,4 +71,5 @@ The outer loop must retain diagnostic traces rather than only pass rates. A scal
 - [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/Feedforward and Feedback Controls]]
 - [[wiki/concepts/Agentic Engineering]]
+- [[wiki/concepts/Loop Engineering]]
 - [[wiki/syntheses/Coding Agent User Harness × Verification Loop]]

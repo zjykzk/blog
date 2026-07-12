@@ -69,6 +69,7 @@ tags:
 - [[wiki/sources/Harness Engineering Is Cybernetics Source Guide]]
 - [[wiki/sources/Agentic-First Source Guide]]
 - [[wiki/sources/Block Agent Skills Design Principles Source Guide]]
+- [[wiki/sources/Agentic Coding Unknowns Source Guide]]
 - [[wiki/sources/Codex Maxxing for Long Running Work Source Guide]]
 
 The prompt-caching guide now covers both a secondary case-study explainer and Thariq's original Claude Code article, which contributes the production-harness angle: cache-hit monitoring, stable mode tools, deferred tool loading, and cache-safe compaction.
@@ -101,6 +102,8 @@ James Pritchard's Agentic-First article contributes the platform-and-process lay
 
 Angie Jones's Block Engineering article contributes the skill-marketplace and skill-constitution layer: internal tribal knowledge becomes version-controlled agent skills, deterministic scoring and commands move into scripts, and `SKILL.md` constrains the agent's helpfulness while leaving interpretation and follow-up action to the model.
 
+Thariq Shihipar's Fable unknowns article contributes the human uncertainty-discovery layer: the user improves long-horizon agent work by surfacing the gap between prompt-map and codebase-territory through blind spot passes, prototypes, interviews, references, plans, implementation notes, explainers, and quizzes.
+
 OpenAI's Codex-maxxing white paper contributes the long-running-work product layer: durable threads give work a home, memory vaults make rolling context reviewable, steering and remote control keep humans at judgment points, thread automations wake the same context on a cadence, strong goals provide done criteria, and side panels turn artifacts into the next loop's context.
 
 ## Main promotion destinations
@@ -121,6 +124,7 @@ OpenAI's Codex-maxxing white paper contributes the long-running-work product lay
 - [[wiki/concepts/Coding Agent User Harness]]
 - [[wiki/concepts/Feedforward and Feedback Controls]]
 - [[wiki/concepts/Computational and Inferential Controls]]
+- [[wiki/concepts/Agentic Coding Unknowns]]
 - [[wiki/concepts/Harnessability]]
 - [[wiki/concepts/Agentic Engineering]]
 - [[wiki/concepts/Governed Action]]

@@ -70,6 +70,7 @@ tags:
 - [[wiki/topics/User Stories]]
 - [[wiki/topics/Frontend Development Workflow]]
 - [[wiki/topics/Testing Strategy]]
+- [[wiki/concepts/Executable Specification]] — 可执行规格把需求意图压成机器可检查承诺，并区分规格是否对准真实需求的 validation 与实现是否满足规格的 verification。
 - [[wiki/concepts/Vibe Coding]] — Vibe coding 让代码生成成本下降，但也把理解、验证和责任边界推到工程中心。
 - [[wiki/concepts/Verification Gap]] — AI 代码生成速度与人类/组织验证速度之间的差距，是 Vibe 时代的软件工程瓶颈。
 - [[wiki/syntheses/Quality Engineering Three Generators]]

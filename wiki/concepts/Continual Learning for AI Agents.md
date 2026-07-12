@@ -11,6 +11,7 @@ aliases:
 sources:
   - https://x.com/hwchase17/status/2040467997022884194
   - https://arxiv.org/abs/2604.27488
+  - https://www.langchain.com/blog/the-art-of-loop-engineering
 summary: Agent continual learning can happen through model weights, harness code, skills, or configurable context/memory, each with different cost, speed, scope, and inspectability.
 provenance:
   extracted: 0.79
@@ -20,7 +21,7 @@ base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: "2026-05-09"
 created: 2026-05-09T22:17:54+08:00
-updated: 2026-05-11T12:08:45+08:00
+updated: 2026-07-04T23:00:06+0800
 ---
 # Continual Learning for AI Agents
 
@@ -54,6 +55,10 @@ The source describes execution traces as the substrate for all three learning pa
 - context learning can extract insights from recent traces and write them back into agent-, user-, team-, org-, or tenant-level memory.
 
 This connects continual learning to [[wiki/concepts/Harness Ratchet]]: repeated failures become durable changes only when traces are converted into code, rules, skills, or memory rather than left as chat history. ^[inferred]
+
+[[wiki/sources/The Art of Loop Engineering Source Guide]] describes the same trace-driven pattern as a hill climbing loop. An analysis agent reviews execution traces, tool calls, and grader feedback, then files or proposes changes to prompts, tools, or grader configuration. The important structural move is that the outer loop reaches inward and modifies the inner [[wiki/concepts/Loop Engineering|agent loops]], rather than merely retrying the same task.
+
+The article also broadens the target of improvement: prompt and tool configuration are the simplest surfaces, but trace or eval outcomes can also improve memory, retrieved skills, and, for open-weight teams, RL fine-tuning signals.
 
 ## Context update modes
 
@@ -89,6 +94,7 @@ This makes skills an inspectable learning substrate: a failure can become an imp
 - [[wiki/topics/AI Memory]]
 - [[wiki/topics/Context Management]]
 - [[wiki/concepts/Harness Ratchet]]
+- [[wiki/concepts/Loop Engineering]]
 - [[wiki/concepts/Agent Skill]]
 - [[wiki/concepts/Skill Self-Evolution]]
 - [[wiki/syntheses/Agent System Design Space]]

@@ -84,6 +84,7 @@ aliases:
 这一组模型最接近“拆机制”的操作模板。
 
 - [[wiki/concepts/Mechanism Model]]：用结果、变量、约束、激励、反馈和时间把混乱叙事压成结构句。
+- [[wiki/concepts/囚徒困境]]：说明在信息隔离、承诺缺失和背叛诱惑下，个体理性的局部最优如何共同生成集体次优。
 - [[wiki/concepts/Hard Constraint]]：行动必须先通过资源、时间、规律和他人能动性的现实校验。
 - [[wiki/concepts/Human Agency]]：能动不是情绪宣言，而是在约束中主动选择目标、调用工具、制造反馈并承担结果。
 - [[wiki/concepts/Narrative]]：叙事把事实组织成能预测、赋义、协调和行动的因果线；叙事也可能遮蔽真实结构。
@@ -174,6 +175,7 @@ aliases:
 
 - [[wiki/syntheses/AI 泡沫判断的结构]]：用泡沫破裂后的价值残留来区分技术真实、资产价格过热和叙事幻觉。
 - [[wiki/concepts/Heavy-Tailed Distribution]]：少数极端值占据巨大份额，平均值会失去直觉意义。
+- [[wiki/concepts/幂律分布与正态分布]]：用加法机制、乘法机制和反馈放大区分中心波动世界与尾部支配世界。
 - [[wiki/concepts/Additive World]]：回报主要由投入次数相加，适合保底、补短板和稳定交付。
 - [[wiki/concepts/Multiplicative World]]：回报由当前动作与既有存量共同决定，要求寻找可复利、可放大的长板。
 - [[wiki/concepts/Permissionless Leverage]]：代码和媒体让判断不经资本或层级许可也能被复制放大。

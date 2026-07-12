@@ -13,17 +13,15 @@ updated: 2026-07-12T14:12:03+0800
 
 ## Recent Activity
 - 2026-07-12T14:12:03+0800 — 已捕获 [[wiki/concepts/Dependency-Ordered Decision Making]]：把 grilling 中的逐项追问解释为带反馈和回溯的决策拓扑排序，区分事实调查、专业建议与用户裁决。
-- 2026-07-07T21:07:28+08:00 — 已捕获 [[wiki/sources/Codex Maxxing for Long Running Work Source Guide]]：OpenAI 白皮书把 Codex-maxxing 定义为从单次 prompt 转向 durable thread、memory vault、steering、thread automation、strong goal 和 artifact-as-context 的长期工作循环。
-- 2026-07-05T17:55:03+0800 — 已捕获 [[wiki/sources/Zawinskis Law Source Guide]]：把 feature creep 理解为成功软件在用户停留、产品竞争和平台化压力下不断吸收相邻工作流的演化机制。
-- 2026-07-05T16:46:13+0800 — 已捕获 [[wiki/concepts/姓氏名与字]]：把姓、氏、名、字分别放回血缘、宗族分支、个人本名和成年社会称呼的身份系统中理解。
-- 2026-07-05T13:22:43+0800 — 已捕获 [[wiki/concepts/幂律分布与正态分布]]：把正态分布的加法机制、中心代表性与幂律分布的乘法机制、正反馈和尾部支配区分开。
-- 2026-07-05T12:25:46+0800 — 已摄入 [[wiki/sources/AI Agent Systems Architectures Applications and Evaluation Paper Source Guide]]：新增 [[wiki/concepts/Agent Transformer]] 与 [[wiki/concepts/Agent Evaluation Metric Vector]]，并把 agent infrastructure 连接到 [[wiki/topics/AI Harness]]。
-- 2026-07-04T23:00:06+0800 — 已摄入 [[wiki/sources/The Art of Loop Engineering Source Guide]]：LangChain 把 agent 落地拆成 [[wiki/concepts/Loop Engineering]]，并新增 [[wiki/concepts/Event-Driven Agent Loop]]。
-- 2026-07-04T16:59:13+0800 — 已摄入 [[wiki/sources/Agentic Coding Unknowns Source Guide]]：Fable 文章把 agentic coding 的瓶颈定义为发现 prompt-map 与 codebase-territory 之间的 unknowns，并新增 [[wiki/concepts/Agentic Coding Unknowns]]。
+- 2026-07-12T00:30:14+0800 — 已摄入 [[wiki/sources/Skills for the Future Software Profession Paper Source Guide]]：实现变便宜后，未来工程师要负责可执行 V&V、可信 agent pipeline，并用 [[wiki/concepts/Cognitive Debt]] 追踪组织理解的流失。
+- 2026-07-10T20:16:00+0800 — 已捕获 [[wiki/concepts/Executable Specification]]：可执行规格把模糊意图转成机器可检查承诺，并用 scikit-learn object-dtype 字符串标签例子区分 validation 与 verification。
+- 2026-07-10T20:15:07+08:00 — 已捕获 [[wiki/syntheses/产品行业核心概念地图]]：把产品行业 100 个核心概念组织成用户场景、问题定义、价值定位、设计交付、数据验证、增长、商业模式和战略组织的闭环。
 
 ## Active Threads
 
 - Agent planning 现在加入决策依赖线索：高影响计划不应把问题平铺成静态问卷，而应先稳定目标与约束，再让每轮反馈删除、约束或打开后续分支；事实由 Agent 调查，关键取舍由用户裁决。
+- AI 软件工程现在加入认知债务线索：agent 生成的代码即使局部正确，人和组织仍可能逐步失去对需求意图、架构边界和设计理由的理解；责任不能只落在生成质量，也要落在可持续理解。
+- 产品方法现在加入核心概念地图线索：产品不是功能集合，而是从用户场景、问题定义、价值定位、产品设计、需求交付、数据验证、增长运营、商业模式到组织战略的连续判断系统。
 - Agent architecture 现在加入 Agent Transformer 线索：agent 不是裸模型，而是 `πθ + memory + tools + verifiers + environment` 的控制回路；harness 的责任是把 schema、sandbox、permission、audit log、observability 和 evaluation loop 接成可治理网关。
 - Codex-maxxing 现在加入 long-running work 线索：生产级 coding agent 不只是更会回答 prompt，而是要有 durable thread、reviewable memory、工具/权限表面、运行中 steering、周期性唤醒、strong goal 和 artifact-context loop。
 - Agent loop 现在加入 Loop Engineering 线索：生产级 agent 不只是“模型调用工具”，而是执行循环、验证循环、事件触发循环和 trace-driven hill climbing 循环的叠加；价值开始在外层循环中复利。
@@ -36,6 +34,7 @@ updated: 2026-07-12T14:12:03+0800
 - 分类思维现在补上一条操作流程线索：分类不是先列类别，而是先写清对象和目的，再从样本中寻找维度、设定判别标准，并用不同处理策略验证这个切法是否真的有用。
 - Agent loop 现在补上一条 human judgment positions 线索：人不必在每一步操作位上，但必须在价值定义、任务切分、否决机制、硬门禁、状态设计、人工入口、理解校准和循环修正这些结构点上保留责任。
 - AI 软件工程现在加入“代码变便宜、知识与判断变贵”的线索：当语言、框架、数据库、迁移和重写不再形成同等锁定时，价值从亲手实现转向 specification、业务知识、harness 前馈/反馈、行为兼容验证和最终责任判断。
+- AI 软件工程现在加入可执行规格线索：规格不是文档愿望，而是机器可检查的承诺；validation 检查规格是否对准真实需求，verification 检查实现是否满足规格。
 - 工程方法现在加入共同复杂度线索：所有工程都要在有限资源、局部认知、持续变化和必然失败中处理目标、约束、分解、接口、反馈和演化，而软件工程只是其中一种表现形式。
 - 判断与评审现在加入证据问题分解线索：不要直接问“好不好 / 对不对 / 靠不靠谱”，而是把总评拆成可问、可答、可追责的检查点，并让每个失败都能指向证据、错因和修法。
 - 软件分析现在加入业务隐含复杂度线索：需求短句背后常藏规则、状态、例外、权责、历史和变化；开发工作要先把这些隐含结构转成领域模型、状态机、权限边界、工作流和工程可靠性设计。
@@ -136,12 +135,15 @@ updated: 2026-07-12T14:12:03+0800
 
 ## Key Takeaways
 - 依赖驱动的逐项决策解决的不是“问题太多”，而是“决定会传播”：上游先定会把返工变成剪枝，单步反馈会把静态问卷变成闭环设计，用户确认则把共享理解变成进入执行的阶段门。
+- 当实现不再是主瓶颈，工程师的核心责任会向上游和外层迁移：把需求压成可执行 V&V，设计可诊断、可恢复的 agent pipeline，并确保组织在系统演化后仍能解释和承担它。
+- 产品行业的核心不是“做功能”，而是持续判断谁在什么场景下遇到什么问题、这个问题值不值得解决、如何用最小代价验证，并让用户价值、商业价值和组织能力形成闭环。
 - Codex-maxxing 的核心不是“让 Codex 自动做更多”，而是把一次性对话改造成责任循环：工作有线程承载，context 进入可 review 的 memory，工具接触真实表面，人保留批准和不可逆动作，automation 唤醒同一上下文，artifact 又成为下一轮指令。
 - 姓氏合流不是秦统一当天废止某个制度，而是春秋战国旧贵族宗法秩序松动、秦汉郡县户籍国家强化后，身份标记从“血缘祖源 + 贵族分支”压缩成固定家族名；“字”则是礼法社会为成年交往提供的尊称缓冲层。
 - Agent 评估不能只看 success rate：还要报告 token/cost、completion time、tool-call count、tool selection/argument/execution correctness、recovery rate、valid-action rate、loop rate、robustness、violation rate 和 human intervention；否则成功率会掩盖重试、成本、安全和可复现性问题。
 - Loop engineering 的关键不是多套 LangChain API，而是把 agent 变成多层反馈系统：内层执行，验证层卡质量，事件层接入业务生态，外层用 traces 改 prompt、tool、grader、memory、skill 或模型。
 - 好的 agent skill 不是把所有事情交给模型，而是先切责任边界：可重复的评分、命令、SQL、命名和格式进入脚本/模板/硬规则；解释、生成、优先级和对话留给 agent；`SKILL.md` 像宪法一样限制有害的“热心”。
 - Vibe coding 的真正风险不是“AI 写代码”，而是生成速度超过验证速度；软件工程在这里重新显形为把意图说清、把复杂度切开、把正确性接进可执行反馈回路的能力。
+- 可执行规格的核心作用是把“我希望它对”变成“我知道怎么判定它对”；测试通过只说明实现按测试被 verified，不自动说明测试本身已经 validated 了真实需求。
 - 《丝绸之路》中的宗教应放进流动网络里读：它随商路传播，又反过来降低陌生交易成本、支撑帝国统治、定义共同体边界，并把现实利益转成可动员的神圣叙事。
 - 囚徒困境的杠杆点不在劝人善良，而在让合作变得安全：增加可见性、承诺、惩罚、重复关系、补偿机制和反馈，使局部激励重新对齐整体收益。
 - 分类的硬标准不是“分得整齐”，而是分类之后能否更准确地理解原因、更清楚地判断优先级、更稳定地采取行动；更有穿透力的分类通常按生成机制切，而不是按表面现象切。

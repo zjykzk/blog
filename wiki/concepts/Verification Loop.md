@@ -10,8 +10,9 @@ sources:
   - https://martinfowler.com/articles/harness-engineering.html
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
   - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
+  - https://www.langchain.com/blog/the-art-of-loop-engineering
 created: 2026-05-05T14:03:13+08:00
-updated: 2026-06-09T14:38:22+08:00
+updated: 2026-07-04T23:00:06+0800
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -78,6 +79,10 @@ This connects verification to [[wiki/concepts/Harness Ratchet]]: every repeated 
 
 The stronger harness uses computational checks for properties that can be made executable, then reserves inferential controls for fit, maintainability, architecture, and product judgment. ^[inferred]
 
+[[wiki/sources/The Art of Loop Engineering Source Guide]] gives the same loop a LangChain vocabulary: a grader checks the agent output against a rubric and, if it fails, sends the feedback back to the model. The grader can be deterministic or agentic, with LLM-as-judge as a common semantic evaluator.
+
+The article also names the production trade-off: verification increases latency and token cost, but is often worth it when quality matters more than speed. In the docs-agent example, the grader checks link resolution, CI status, and whether the diff stayed within the requested scope.
+
 
 ## Generation-verification asymmetry
 
@@ -96,6 +101,7 @@ This connects [[wiki/topics/Testing Strategy]] to harness design: TDD is not onl
 ## Related
 
 - [[wiki/topics/AI Harness]]
+- [[wiki/concepts/Executable Specification]]
 - [[wiki/topics/Context Management]]
 - [[wiki/syntheses/Coding Agent User Harness × Verification Loop]] — synthesis
 - [[wiki/syntheses/Agentic Engineering × Verification Loop]] — synthesis
@@ -110,3 +116,5 @@ This connects [[wiki/topics/Testing Strategy]] to harness design: TDD is not onl
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 - [[wiki/sources/Harness Engineering Is Cybernetics Source Guide]]
 - [[wiki/syntheses/Verification Loop × Feedback Flywheel]] — synthesis
+- [[wiki/concepts/Loop Engineering]]
+- [[wiki/sources/The Art of Loop Engineering Source Guide]]

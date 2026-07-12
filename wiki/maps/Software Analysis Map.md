@@ -9,7 +9,7 @@ created: 2026-05-02
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-27T02:00:56+0800
+updated: 2026-07-10T20:15:07+08:00
 aliases:
   - 软件分析地图
   - 软件分析核心概念地图
@@ -379,4 +379,5 @@ CRUD 可以出现在实现和管理后台里，但不应在分析阶段冒充核
 
 ## Related Syntheses
 
+- [[wiki/syntheses/产品行业核心概念地图]] — 把产品行业概念放入从用户场景、问题定义、价值定位、需求交付到数据验证、增长、商业模式和组织战略的闭环中。
 - [[wiki/syntheses/类和对象结构图的建模作用]] — 说明领域分析中的类和对象结构图如何把系统行为下沉为内部责任结构。

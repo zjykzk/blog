@@ -18,6 +18,7 @@ sources:
   - https://arxiv.org/abs/2605.07358v1
   - https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity
   - https://engineering.block.xyz/blog/3-principles-for-designing-agent-skills
+  - https://x.com/trq212/article/2073100352921215386
 created: 2026-04-22
 base_confidence: 0.44
 lifecycle: draft
@@ -26,8 +27,8 @@ provenance:
   extracted: 0.81
   inferred: 0.18
   ambiguous: 0.01
-source_count: 16
-updated: 2026-07-04T13:49:20+0800
+source_count: 17
+updated: 2026-07-04T16:59:13+0800
 aliases:
   - skills workflow
   - AI skills
@@ -152,6 +153,14 @@ The practical workflow arc is:
 5. produce the next artifact, plan, code change, question, or verification step;
 6. feed the outcome back into gotchas, evals, references, or harness rules when it reveals a reusable pattern. ^[inferred]
 
+## Unknown Discovery Workflow
+
+[[wiki/sources/Agentic Coding Unknowns Source Guide]] adds a user-side workflow for finding the gap between a prompt-map and the real codebase-territory. The source frames this gap as [[wiki/concepts/Agentic Coding Unknowns]]: known knowns, known unknowns, unknown knowns, and unknown unknowns.
+
+The workflow implication is that skillful agentic coding is not only giving clearer instructions. It is choosing the cheapest artifact that can expose the current uncertainty class: blind spot passes for unknown unknowns, brainstorms and prototypes for unknown knowns, interviews for architecture-changing ambiguities, references when language is too weak, implementation notes for mid-run deviations, and quizzes or explainers for post-run understanding.
+
+This turns many “prompting techniques” into a staged discovery system. A skill or session brief can explicitly ask the agent to inspect the territory, surface blind spots, prototype alternatives, interview the user, log deviations, and package what was learned so the next run starts from a better map. ^[inferred]
+
 ## Upstream topics
 
 - [[wiki/topics/Requirement to Architecture Mapping]]
@@ -195,3 +204,4 @@ The practical workflow arc is:
 - [[wiki/sources/SkillOS Source Guide]]
 - [[wiki/sources/Designing Refining and Maintaining Agent Skills at Perplexity Source Guide]]
 - [[wiki/sources/Block Agent Skills Design Principles Source Guide]]
+- [[wiki/sources/Agentic Coding Unknowns Source Guide]]

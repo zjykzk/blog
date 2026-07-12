@@ -170,6 +170,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Epiplexity|Epiplexity]] — Epiplexity 不是在问一份数据“总共有多少信息”，而是在问：对一个算力有限的观察者来说，这份数据里到底有多少结构是可提取、可学习、可压缩的。 (#ml #concept #information-theory)
 - [[wiki/concepts/Evaluation|Evaluation]] — Evaluation is the act of placing an object inside a scale so its value, quality, meaning, or position can appear. (#thinking #concepts #judgment)
 - [[wiki/concepts/Evidence Question Decomposition|Evidence Question Decomposition]] — Evidence question decomposition turns a broad judgment into checkable questions with evidence anchors, answers, failure types, and repair actions. (#thinking #judgment #evaluation #mechanism #feedback)
+- [[wiki/concepts/Executable Specification|Executable Specification]] — Executable specification turns intent into machine-checkable commitments, separating validation of the spec from verification of the implementation. (#software-engineering #specs #testing #ai-coding #verification)
+- [[wiki/concepts/Cognitive Debt|Cognitive Debt]] — Cognitive debt is the loss of human and organizational understanding of software intent, architecture, and rationale as agents generate and maintain more artifacts. ( #software-engineering #ai-coding #architecture #knowledge #responsibility)
 - [[wiki/concepts/Expression Three Channels|Expression Three Channels]] — 人向外表达，靠三根独立的生成器撑着。关掉任何一根，表达塌一块。
 - [[wiki/concepts/Feedback Loops|Feedback Loops]] — Feedback loops are system structures where results flow back to influence future causes, creating growth, stability, or oscillation.
 - [[wiki/concepts/Hard Constraint|Hard Constraint]] — 硬约束是行动无法靠愿望绕开的限制，要求人在叙事激发行动之前先盘资源、看窗口、尊重规律并承认他人能动性。 (#thinking #systems #judgment)
@@ -239,6 +241,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/信息流与状态流转设计原则]] — 信息流设计回答事实如何传播、被谁相信并影响判断；状态流转设计回答对象如何沿合法路径变化、保持不变量并在失败后恢复。 (#software-engineering #architecture #systems #feedback #mechanism)
 - [[wiki/syntheses/Quality Engineering Three Generators|Quality Engineering Three Generators]] — 质量工程可以压缩为三根生成器：承诺清楚、偏差显形、修正闭环；行业实践分别落在规格契约、测试监控和复盘改进上。 (#software-engineering #testing #requirements #feedback)
 - [[wiki/syntheses/Requirements Expression Beyond Use Cases|Requirements Expression Beyond Use Cases]] — 用例适合捕获系统对外行为；其他需求应按质量属性、约束、业务规则、数据、界面、集成和运维关注点分别表达。 (#requirements #software-engineering #architecture)
+- [[wiki/syntheses/产品行业核心概念地图]] — 产品行业的核心概念可以组织成从用户场景、问题定义、价值定位、设计交付、数据验证到增长、商业模式和战略组织的闭环。 (#product #requirements #business #growth #strategy)
 - [[wiki/syntheses/Use Cases as AI Coding Traceability Anchors|Use Cases as AI Coding Traceability Anchors]] — 用例在 AI 编程中的核心价值，是把业务目标、系统边界、模块职责、代码位置和验收标准串成可执行追踪链。 (#requirements #ai-coding #software-engineering #architecture #testing)
 - [[wiki/syntheses/harness-root-ranks|Harness Root Ranks]] — Harness can be reduced to five root ranks: boundary, density, action, loop, and evolution. (#synthesis #agents #harness #rank)
 - [[wiki/syntheses/Acting Under Complexity|Acting Under Complexity]] — 这页尝试把 Cynefin、决策模式、思考工作流、mental models、critical thinking 串成一个更高层的框架：当问题复杂、不确定、争议大时，关键不是只会分析，而是知道应该如何判断并继续行动。 (#synthesis #complexity #decision-making #thinking)
@@ -279,6 +282,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
+- [[wiki/sources/Skills for the Future Software Profession Paper Source Guide|Skills for the Future Software Profession Paper Source Guide]] — Position paper shifting future software engineering from code production toward executable V&V, agentic workflow architecture, and stewardship against cognitive debt. ( #paper #arxiv #software-engineering #ai-coding #verification)
 - [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源：用成本结构、验证鸿沟、意图-生成-验证循环、复杂度、测试、版本控制和团队门禁解释 Vibe 时代的软件工程。 (#software-engineering #ai-coding #article)
 - [[wiki/sources/Kimball Dimensional Modeling Techniques Source Guide]] — Kimball Group 2013 catalog of dimensional modeling concepts, fact tables, dimensions, conformance, SCD, hierarchies, and special schemas. (#database #data-warehouse #modeling)
 - [[wiki/sources/Cursor Codebase Indexing Source Guide|Cursor Codebase Indexing Source Guide]] — Source guide preserving Manthan Gupta's X article on Cursor's semantic/vector and sparse n-gram codebase indexing pipeline, Merkle sync, access proofs, Turbopuffer namespaces, and dynamic context discovery. (#article #agents #ai-coding #retrieval #context)

@@ -10,7 +10,7 @@ sources:
   - https://github.com/scikit-learn/scikit-learn/issues/15534
   - https://github.com/scikit-learn/scikit-learn/pull/15535
 created: 2026-07-10T20:16:00+0800
-updated: 2026-07-10T20:16:00+0800
+updated: 2026-07-12T00:30:14+0800
 summary: >-
   Executable specification turns intent into machine-checkable commitments, separating validation of the spec from verification of the implementation.
 provenance:
@@ -125,6 +125,12 @@ SpecRover 论文把这个例子用作 code intent extraction 的动机：它从 
 
 真实 scikit-learn PR #15535 采用了更局部的修法：在 clustering metrics 的 `check_clusterings` 调用 `check_array` 时传入 `dtype=None`，让标签校验保留类别语义，而不是把标签误当数值特征。这个差异说明，可执行规格还会帮助工程师判断责任层级：修在调用点，还是修在通用工具函数。
 
+## Specification Inference and Drift
+
+[[wiki/sources/Skills for the Future Software Profession Paper Source Guide]] 把可执行规格放进 agentic software engineering 的主流程：当 agent 能从文档、issue、代码和测试中推断规格时，人类的稀缺能力不再只是“把规格写出来”，而是判断推断结果是否忠实于用户意图、是否足够完整，以及 assurance level 是否匹配风险。
+
+这会产生两类独立校验：一类检查实现是否满足规格，另一类检查推断规格是否仍与实现和真实意图一致。代码、测试和规格会各自演化，因此开发环境需要持续暴露三者之间的 drift 与冲突，而不是把任一方默认当作唯一真相。
+
 ## When to Use
 
 可执行规格适合所有“生成容易、验收困难”的地方：AI coding、需求评审、接口设计、权限、账务、数据导出、合规、安全、长期维护和多团队协作。
@@ -153,4 +159,6 @@ SpecRover 论文把这个例子用作 code intent extraction 的动机：它从 
 - [[wiki/concepts/Evidence Question Decomposition]]
 - [[wiki/topics/Testing Strategy]]
 - [[wiki/concepts/Verification Gap]]
+- [[wiki/concepts/Cognitive Debt]]
+- [[wiki/sources/Skills for the Future Software Profession Paper Source Guide]]
 - [[wiki/syntheses/Agentic Engineering × Verification Loop]]

@@ -32,9 +32,10 @@ provenance:
 如果你第一次进入这组内容，建议按这个顺序走： ^[inferred]
 
 1. [[wiki/topics/Categorical Thinking]]
-2. [[wiki/topics/Methods of Classification]]
-3. [[wiki/topics/What Makes a Good Classification]]
-4. [[wiki/topics/Limits of Classification]]
+2. [[wiki/topics/Classification Procedure]]
+3. [[wiki/topics/Methods of Classification]]
+4. [[wiki/topics/What Makes a Good Classification]]
+5. [[wiki/topics/Limits of Classification]]
 
 如果要先看更底层的动作，进入 [[wiki/concepts/Analysis]]。 ^[inferred]
 
@@ -60,19 +61,25 @@ provenance:
 
 回答：什么是分类思维，它为什么重要。
 
-### 2. 方法库
+### 2. 操作流程
+
+- [[wiki/topics/Classification Procedure]]
+
+回答：面对一团对象时，如何从对象、目标、维度、边界和用途出发，做出能支持行动的分类。 ^[inferred]
+
+### 3. 方法库
 
 - [[wiki/topics/Methods of Classification]]
 
 回答：常见的分类方法有哪些，它们各自适合什么任务。
 
-### 3. 评价标准
+### 4. 评价标准
 
 - [[wiki/topics/What Makes a Good Classification]]
 
 回答：什么样的分类算好，应该如何检查一个分类是否真正有效。
 
-### 4. 边界与反面
+### 5. 边界与反面
 
 - [[wiki/topics/Limits of Classification]]
 
@@ -109,6 +116,7 @@ provenance:
 - [[wiki/index]]
 - [[wiki/concepts/Analysis]]
 - [[wiki/topics/Categorical Thinking]]
+- [[wiki/topics/Classification Procedure]]
 - [[wiki/topics/Methods of Classification]]
 - [[wiki/topics/What Makes a Good Classification]]
 - [[wiki/topics/Limits of Classification]]

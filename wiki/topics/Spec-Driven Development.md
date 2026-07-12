@@ -109,6 +109,7 @@ The source also warns against over-large delegation. A spec that cannot be valid
 - [[wiki/topics/User Stories]]
 - [[wiki/topics/Requirement to Architecture Mapping]]
 - [[wiki/topics/Testing Strategy]]
+- [[wiki/concepts/Executable Specification]]
 - [[wiki/topics/Modern Software Engineering]]
 - [[wiki/syntheses/From User Story to Architecture]]
 - [[wiki/concepts/AI Collaboration Scaffolding]]

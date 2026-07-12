@@ -20,6 +20,7 @@ tags:
 
 # LLM Wiki Log
 - [2026-07-12T14:12:03+0800] CAPTURE type=concept page="wiki/concepts/Dependency-Ordered Decision Making.md" title="Dependency-Ordered Decision Making"
+- [2026-07-12T00:30:14+0800] INGEST source="https://arxiv.org/pdf/2606.21894" pages_updated=5 pages_created=2 mode=append
 - [2026-07-12T00:08:22+0800] LINT_PROVENANCE marker_reviewed_pages=23 marker_updated_pages=22 inferred_markers_added=285 provenance_blocks_recomputed=23 remaining_provenance_drift=0 ambiguous_markers_added=0 qmd="skipped: QMD_WIKI_COLLECTION unset"
 - [2026-07-12T00:01:37+0800] LINT_CORRECTION provenance_ratio_fixes_kept=9 provenance_ratio_fixes_reverted=23 remaining_provenance_marker_reviews=23 reason="semantic audit found missing claim-level markers; preserve prior ratios until marker-first review"
 - [2026-07-11T23:59:22+0800] LINT_FIX schema_fixed=1 orphans_rescued=1 index_entries_added=1 stale_refreshed=15 summaries_shortened=1 provenance_blocks_normalized=32 remaining_confidence_drift_candidates=267 qmd="skipped: QMD_WIKI_COLLECTION unset"

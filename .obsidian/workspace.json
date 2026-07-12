@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/工程复杂度共同结构.md",
+                "file": "wiki/syntheses/不确定性下的判断.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "工程复杂度共同结构"
+              "title": "不确定性下的判断"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "工程复杂",
+                "query": "Spec-D",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -211,53 +210,53 @@
   },
   "active": "a9f87afd1bd3f1b1",
   "lastOpenFiles": [
-    "wiki/concepts/思维模式与思维框架.md",
-    "wiki/sources/AI 什么都能写与软件价值重心转移 Source Guide.md",
+    "tmp_extract_sources.py",
+    "wiki/syntheses/LLM Training Stages.md",
+    "wiki/topics/AI Skills Workflow.md",
+    "wiki/topics/Spec-Driven Development.md",
+    "wiki/concepts/AI Collaboration Scaffolding.md",
+    "wiki/sources/Agent Engineering Source Guide.md",
+    "wiki/sources/Skills for the Future Software Profession Paper Source Guide.md",
+    "wiki/concepts/Executable Specification.md",
+    "wiki/sources/Agentic Coding Unknowns Source Guide.md",
+    "wiki/concepts/Dependency-Ordered Decision Making.md",
+    "wiki/concepts/Cognitive Debt.md",
+    "wiki/attachments/skills-future-software-profession-fig1.png",
+    "wiki/syntheses/产品行业核心概念地图.md",
+    "wiki/sources/Codex Maxxing for Long Running Work Source Guide.md",
+    "wiki/sources/Zawinskis Law Source Guide.md",
+    "wiki/concepts/姓氏名与字.md",
+    "wiki/concepts/Agentic Coding Unknowns.md",
+    "wiki/concepts/Verification Loop.md",
+    "wiki/concepts/幂律分布与正态分布.md",
+    "wiki/sources/ADK Skill Design Patterns Source Guide.md",
+    "wiki/concepts/Agent Evaluation Metric Vector.md",
+    "wiki/concepts/Agent Transformer.md",
+    "wiki/sources/AI Agent Systems Architectures Applications and Evaluation Paper Source Guide.md",
+    "wiki/attachments/ai-agent-systems-fig10.png",
+    "wiki/attachments/ai-agent-systems-fig3.png",
+    "wiki/attachments/ai-agent-systems-fig1.png",
+    "wiki/attachments",
+    "wiki/concepts/Loop Engineering.md",
+    "wiki/concepts/Event-Driven Agent Loop.md",
+    "wiki/sources/The Art of Loop Engineering Source Guide.md",
+    "wiki/sources/Block Agent Skills Design Principles Source Guide.md",
+    "schema.graphql",
+    "schema.graphsql",
+    "scripts/graphql_introspection_to_sdl.py",
+    "scripts",
     "canvas/cowart-view-state.json.45486.tmp",
-    "wiki/hot.md",
-    "wiki/sources/问题解决的终极模型：思维、方法与问题的“铁三角”如何共同进化.md",
-    "wiki/concepts/工程复杂度共同结构.md",
-    "wiki/concepts/Evidence Question Decomposition.md",
-    "wiki/concepts/业务隐含复杂度.md",
-    "wiki/sources/问题解决铁三角 Source Guide.md",
-    "wiki/syntheses/软件设计作为系统诊断.md",
-    "wiki/sources/知识结构 认知结构与概念地图问答 Source Guide.md",
-    "wiki/sources/架构师启示录 Source Guide.md",
-    "wiki/sources/推理能力训练 Source Guide.md",
-    "wiki/sources/快思考慢思考物理机制问答 Source Guide.md",
-    "wiki/sources/四层次原因分析法 Source Guide.md",
-    "wiki/sources/光速不变与相对性原则问答 Source Guide.md",
-    "wiki/sources/五大思维三层架构 Source Guide.md",
-    "wiki/concepts/方法论双循环.md",
-    "wiki/concepts/问题解决铁三角.md",
-    "wiki/NAMING.md",
-    "wiki/concepts/五大思维三层架构.md",
     "canvas/pages/oVVVf0ER4MSQe4xzKjoUE/assets/agent-excalidraw.jpg",
     "canvas/pages/oVVVf0ER4MSQe4xzKjoUE/assets/agent-excalidraw.png",
     "canvas/pages/oVVVf0ER4MSQe4xzKjoUE/assets",
     "canvas/assets/agent-excalidraw.svg",
     "canvas/assets",
-    "Excalidraw/agent.excalidraw.md",
-    "Excalidraw/Drawing 2026-06-22 20.55.52.excalidraw.md",
-    "wiki/sources/佛家觉悟结构 Source Guide.md",
     "canvas/pages/oVVVf0ER4MSQe4xzKjoUE/cowart-canvas.json",
     "canvas/pages/oVVVf0ER4MSQe4xzKjoUE",
-    "canvas/pages/page/cowart-canvas.json",
-    "canvas/pages/page",
-    "canvas/pages/manifest.json",
-    "canvas/pages",
-    "canvas/cowart-view-state.json",
-    "wiki/syntheses/Coding Agent Debugging Skills as Evidence Gates.md",
-    "wiki/concepts/佛家觉悟结构.md",
-    "wiki/syntheses/Zima Blue 自我回归与无我.md",
     "mobu/读书/modern_software_engineering-幕布图片-195155-330004.png",
     "mobu/读书/modern_software_engineering-幕布图片-147011-551432.png",
     "ai.png",
     "wiki/sources/Untitled.canvas",
-    "raw/sources/HRiwbM75WooKMuxkev3cKjqHnie.PNG",
-    "mobu/读书/架构师启示录-知识模型、落地方法与思维模式-幕布图片-249642-378639.png",
-    "iceberg-model-large.png",
-    "iceberg-model-page.png",
     "Untitled.canvas"
   ]
 }

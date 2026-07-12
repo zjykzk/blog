@@ -9,8 +9,10 @@ sources:
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
   - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
   - wiki/sources/Vibe 时代的软件工程.md
+  - https://x.com/trq212/article/2073100352921215386
+  - https://www.langchain.com/blog/the-art-of-loop-engineering
 created: 2026-05-07T22:03:56+08:00
-updated: 2026-07-03T21:45:37+0800
+updated: 2026-07-04T23:00:06+0800
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-07
@@ -56,6 +58,8 @@ Agentic engineering treats [[wiki/topics/AI Harness|harness]] design as part of 
 
 A productive harness includes standing instructions, skill files, a [[wiki/concepts/Verification Loop]], and a [[wiki/concepts/Feedback Flywheel]]. When an agent gets stuck on a recurring issue, the failure should be treated as missing context or missing harness structure before it is treated as a prompt wording problem.
 
+[[wiki/sources/The Art of Loop Engineering Source Guide]] names this harness work [[wiki/concepts/Loop Engineering]]: stack the basic agent loop with verification, event-driven triggers, and trace-driven improvement so production value comes from the loops around the model, not only from model capability.
+
 This makes agentic engineering a close cousin of [[wiki/concepts/AI Collaboration Scaffolding]]: both externalize tacit collaboration knowledge into durable artifacts that future agent sessions can reuse. ^[inferred]
 
 
@@ -66,6 +70,14 @@ This makes agentic engineering a close cousin of [[wiki/concepts/AI Collaboratio
 This reframes the engineer's responsibility: the team is not only evaluating generated code, but designing the work environment that makes generated code reviewable and repairable. ^[inferred]
 
 The source also predicts that AI will compress roles that mainly translate between vague requirements, prototypes, and code. That replacement claim should stay provisional because it is a single-source seminar judgment and likely varies by product complexity, design depth, and quality responsibility. ^[ambiguous]
+
+## Unknown Discovery
+
+[[wiki/sources/Agentic Coding Unknowns Source Guide]] adds a pre-verification responsibility to agentic engineering. Before a generated diff can be verified, the human-agent pair has to discover where the prompt-map does not match the codebase-territory.
+
+The article names these gaps as [[wiki/concepts/Agentic Coding Unknowns]]. They include explicit requirements, unresolved questions, tacit taste that only appears through prototypes, and hidden constraints the user has not considered. This makes a blind spot pass, prototype, interview, reference, implementation plan, implementation notes file, explainer, or quiz part of engineering control, not merely collaboration style. ^[inferred]
+
+The practical shift is that humans are responsible for steering uncertainty, not only judging output. If instructions are too rigid, the agent may follow a bad path after implementation evidence suggests a pivot. If they are too vague, the agent may replace local fit with generic best practice.
 
 ## Failure Modes
 
@@ -84,14 +96,19 @@ Parsons names several recurring failure modes:
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Agent Skill]]
 - [[wiki/concepts/Verification Loop]]
+- [[wiki/concepts/Loop Engineering]]
+- [[wiki/concepts/Event-Driven Agent Loop]]
 - [[wiki/syntheses/Agentic Engineering × Verification Loop]] — synthesis
 - [[wiki/concepts/Vibe Coding]]
 - [[wiki/concepts/Verification Gap]]
 - [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/topics/Testing Strategy]]
 - [[wiki/topics/Context Management]]
+- [[wiki/concepts/Agentic Coding Unknowns]]
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 - [[wiki/sources/Harness Engineering Is Cybernetics Source Guide]]
 - [[wiki/sources/Vibe 时代的软件工程]]
+- [[wiki/sources/Agentic Coding Unknowns Source Guide]]
+- [[wiki/sources/The Art of Loop Engineering Source Guide]]

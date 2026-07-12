@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 64,
-    "total_pages": 404
+    "total_sources_ingested": 65,
+    "total_pages": 406
   },
   "sources": {
     "inline:buddhist-awakening-correction-2026-06-21": {
@@ -1381,6 +1381,25 @@
         "wiki/syntheses/Agent System Design Space.md",
         "wiki/sources/Agent Systems Papers Source Guide.md",
         "wiki/concepts/Agent Evaluation CLASSic Framework.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "https://arxiv.org/pdf/2606.21894": {
+      "ingested_at": "2026-07-12T00:30:14+0800",
+      "size_bytes": 460302,
+      "modified_at": "2026-06-24T00:32:12+0000",
+      "content_hash": "sha256:98ead4790d95d80f5a448862af9a222c22496c3a9c6fb69b9c29875ae76d0057",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/Skills for the Future Software Profession Paper Source Guide.md",
+        "wiki/concepts/Cognitive Debt.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Executable Specification.md",
         "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",

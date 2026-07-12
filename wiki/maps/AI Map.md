@@ -13,6 +13,7 @@ sources:
   - https://www.langchain.com/blog/the-art-of-loop-engineering
   - https://arxiv.org/pdf/2601.01743
   - https://cdn.openai.com/pdf/8a9f00cf-d379-4e20-b06f-dd7ba5196a11/OAI_WhitePaper_Codex-maxxing26.pdf
+  - https://arxiv.org/pdf/2606.21894
 created: 2026-05-04
 base_confidence: 0.67
 lifecycle: draft
@@ -21,7 +22,7 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 8
+source_count: 9
 updated: 2026-07-12T14:12:03+0800
 aliases:
   - 项目/AI
@@ -79,6 +80,8 @@ tags:
 - [[wiki/concepts/Speculative Decoding]]
 - [[wiki/concepts/LLM Inference Benchmarking]]
 - [[wiki/concepts/Verification Loop]]
+- [[wiki/concepts/Executable Specification]] — 把意图转成机器可检查承诺，是 AI coding 中 verification loop 能获得稳定真值信号的前提。
+- [[wiki/concepts/Cognitive Debt]] — AI 生成更多软件制品后，人和组织逐渐失去对意图、架构与设计理由的理解。
 - [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/Agent Skill]]
 - [[wiki/concepts/Agent Skill Design Patterns]]
@@ -142,6 +145,7 @@ tags:
 - `pages/llm.md`
 - `pages/karpathy-guidelines.md`
 - [[wiki/sources/Agent Systems Papers Source Guide]]
+- [[wiki/sources/Skills for the Future Software Profession Paper Source Guide]] — 未来软件工程师的三项核心责任：可执行 V&V、agentic pipeline 架构与认知债务治理。
 - [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]]
 - [[wiki/sources/AI Agent Systems Architectures Applications and Evaluation Paper Source Guide]] — arXiv 2601.01743 source guide for agent architectures, infrastructure, evaluation metrics, and application domains.
 - [[wiki/sources/Agentic Reasoning for LLMs Paper Source Guide]] — arXiv 2601.12538v1 source guide for agentic reasoning as action-coupled reasoning across foundational, self-evolving, and collective layers.
