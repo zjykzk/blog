@@ -347,3 +347,4 @@ tags:
 - [2026-06-29T15:08:02Z] QUERY query="不用约束可以吗" result_pages=2 mode=normal escalated=false
 - [2026-06-29T15:31:36Z] QUERY query="从语义空间解释下" result_pages=5 mode=normal escalated=false
 - [2026-07-07T21:07:28+08:00] CAPTURE type=source page="wiki/sources/Codex Maxxing for Long Running Work Source Guide.md" title="Codex-maxxing for Long-running Work Source Guide"
+- [2026-07-12T23:37:47+0800] CAPTURE type=synthesis page="wiki/syntheses/AGENTS.md as Repository Operation Contract.md" title="AGENTS.md as Repository Operation Contract"

@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-07-12T14:12:03+0800
+updated: 2026-07-12T23:37:47+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -233,6 +233,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Verification Gap|Verification Gap]] — 验证鸿沟描述 AI 生成代码速度与人类/组织验证速度之间扩大的差距，是 Vibe 时代软件工程的新瓶颈。 (#ai-coding #verification #software-engineering #quality)
 
 ## Syntheses
+- [[wiki/syntheses/AGENTS.md as Repository Operation Contract]] — AGENTS.md 是仓库面向编码智能体的最小操作契约，用导航、命令、边界和完成证据降低高代价的不确定性，并把强制约束交给自动化机制。 (#agents #ai-coding #software-engineering #harness #context)
 - [[wiki/syntheses/丝绸之路中的宗教组织力量]] — 《丝绸之路》中的宗教不是孤立信仰，而是随商路流动、生成信任、服务帝国合法性并组织冲突的跨大陆秩序力量。 (#history #religion #trade #systems)
 - [[wiki/syntheses/AI 泡沫判断的结构|AI 泡沫判断的结构]] — AI 泡沫判断要区分技术真实、资产价格过热和泡沫破裂后的价值残留，关键是哪些能力会穿越周期。 (#llm #judgment #wealth #mechanism)
 - [[wiki/syntheses/AI 时代开发岗位分层与协作|AI 时代开发岗位分层与协作]] — AI 降低代码生成成本后，开发岗位会分层为探索闭环、系统责任和执行交付；AI-native builder 与系统 owner 分别承担速度和长期性。 (#software-engineering #ai-coding #architecture #management #judgment)

@@ -23,7 +23,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 9
-updated: 2026-07-12T23:19:18+0800
+updated: 2026-07-12T23:37:47+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -127,6 +127,7 @@ tags:
 
 ## Syntheses
 
+- [[wiki/syntheses/AGENTS.md as Repository Operation Contract]] — 把 AGENTS.md 定位为编码智能体的最小仓库操作契约，并区分上下文指导与自动化强制。
 - [[wiki/syntheses/AI 泡沫判断的结构]] — 区分 AI 技术真实、资产价格过热与泡沫破裂后的价值残留。
 - [[wiki/syntheses/AI 时代开发岗位分层与协作]]
 - [[wiki/syntheses/大语言模型时代知识图谱的角色转变]]

@@ -8,16 +8,18 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-07-12T23:19:18+0800
+updated: 2026-07-12T23:37:47+0800
 ---
 
 ## Recent Activity
+- 2026-07-12T23:37:47+0800 — 已捕获 [[wiki/syntheses/AGENTS.md as Repository Operation Contract]]：AGENTS.md 不是项目百科或提示词合集，而是仓库面向编码智能体的最小操作契约；导航、命令、边界和 Done 常驻，强制约束进入 CI、hook、sandbox 与权限机制。
 - 2026-07-12T23:19:18+0800 — 已摄入 [[wiki/sources/AI Coding 信息论框架 Source Guide]]：把 AI Coding 失败拆成“还要猜多少”的覆盖层与“按哪套规则猜”的填补层，并把 Context、Memory、RAG、Harness 放进同一信息坐标系。
 - 2026-07-12T14:12:03+0800 — 已捕获 [[wiki/concepts/Dependency-Ordered Decision Making]]：把 grilling 中的逐项追问解释为带反馈和回溯的决策拓扑排序，区分事实调查、专业建议与用户裁决。
 - 2026-07-12T00:30:14+0800 — 已摄入 [[wiki/sources/Skills for the Future Software Profession Paper Source Guide]]：实现变便宜后，未来工程师要负责可执行 V&V、可信 agent pipeline，并用 [[wiki/concepts/Cognitive Debt]] 追踪组织理解的流失。
 
 ## Active Threads
 
+- Agent harness 现在加入 AGENTS.md 操作契约线索：常驻上下文只保存高代价、不可轻易发现的仓库决策知识；局部规则按目录下沉，多步骤流程按需加载，机器可判定的硬约束进入自动化治理。
 - AI Coding 现在加入信息论诊断线索：Prompt、RAG、Memory 与 Harness 不应按“提供了多少信息”判断，而要区分它们是在降低剩余猜测空间，还是在校准模型填补私有业务空白的方向。
 - Agent planning 现在加入决策依赖线索：高影响计划不应把问题平铺成静态问卷，而应先稳定目标与约束，再让每轮反馈删除、约束或打开后续分支；事实由 Agent 调查，关键取舍由用户裁决。
 - AI 软件工程现在加入认知债务线索：agent 生成的代码即使局部正确，人和组织仍可能逐步失去对需求意图、架构边界和设计理由的理解；责任不能只落在生成质量，也要落在可持续理解。
@@ -135,6 +137,7 @@ updated: 2026-07-12T23:19:18+0800
 
 ## Key Takeaways
 
+- AGENTS.md 的质量不由篇幅决定，而由它是否用最少常驻上下文减少探索、失败命令、架构越界和验证遗漏决定；文档负责让 Agent 知道，自动化机制负责让系统不会错。
 - 低熵不等于正确：模型可以稳定、内部一致地遵循公开代码先验，却违反当前仓库的私有业务约束。
 - Harness 的核心信息作用，是通过执行、验证、反馈和人机升级让真实约束反复进入生成循环，而不是一次性堆满上下文。
 - 依赖驱动的逐项决策解决的不是“问题太多”，而是“决定会传播”：上游先定会把返工变成剪枝，单步反馈会把静态问卷变成闭环设计，用户确认则把共享理解变成进入执行的阶段门。
