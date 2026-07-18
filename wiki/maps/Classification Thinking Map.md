@@ -13,7 +13,7 @@ created: 2026-04-27
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-07-12T00:07:31+0800
+updated: 2026-07-15T00:52:22+0800
 aliases:
   - 分类思维地图
   - 分类地图
@@ -40,6 +40,8 @@ provenance:
 如果要先看更底层的动作，进入 [[wiki/concepts/Analysis]]。 ^[inferred]
 
 如果要看面向真实问题的操作型文章，进入 [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]：它把“混沌问题”拆成技术、框架和结构化思维三层，并用 MECE、逻辑树、横向展开、纵向深挖和追问为什么作为入门动作。
+
+如果要区分“分析时怎样拆问题”和“表达时怎样收结论”，进入 [[wiki/concepts/Logic Tree and Pyramid Principle]]：逻辑树向下打开待验证分支，金字塔原理向上归纳核心主张，再按读者理解路径组织理由和细节。
 
 如果要看线性问题的原因分析路径，进入 [[wiki/sources/四层次原因分析法 Source Guide]]：它把原因分析拆成 What 切块、Why 直接原因、流程漏洞和人因设计四层，并强调第一层 MECE、第二层数据验证、第三层修系统、第四层先问管理是否给了人不犯错的条件。
 
@@ -102,6 +104,7 @@ provenance:
 - 问题定义：决定当前到底该按什么维度切 ^[inferred]
 - 批判性思维：检查这个切法有没有错 ^[inferred]
 - 问题拆解：先用维度把混沌问题外显，再用追问和反馈寻找根因 ^[inferred]
+- 逻辑树与金字塔原理：共享层级结构，但前者服务于问题探索，后者服务于结论交付 ^[inferred]
 - 证据问题分解：把总评拆成能问、能答、能追责的检查点 ^[inferred]
 - 五大思维三层架构：把分类、分层、关联和验证动作放入系统、逻辑、创造、批判协同循环 ^[inferred]
 - 问题解决铁三角：让分类和结构化分析进入真实问题、方法论复盘和思维能力锤炼的共同进化闭环 ^[inferred]
@@ -121,6 +124,7 @@ provenance:
 - [[wiki/topics/What Makes a Good Classification]]
 - [[wiki/topics/Limits of Classification]]
 - [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]
+- [[wiki/concepts/Logic Tree and Pyramid Principle]]
 - [[wiki/sources/四层次原因分析法 Source Guide]]
 - [[wiki/concepts/Evidence Question Decomposition]]
 - [[wiki/concepts/五大思维三层架构]]

@@ -348,3 +348,8 @@ tags:
 - [2026-06-29T15:31:36Z] QUERY query="从语义空间解释下" result_pages=5 mode=normal escalated=false
 - [2026-07-07T21:07:28+08:00] CAPTURE type=source page="wiki/sources/Codex Maxxing for Long Running Work Source Guide.md" title="Codex-maxxing for Long-running Work Source Guide"
 - [2026-07-12T23:37:47+0800] CAPTURE type=synthesis page="wiki/syntheses/AGENTS.md as Repository Operation Contract.md" title="AGENTS.md as Repository Operation Contract"
+- [2026-07-14T22:15:56+0800] QUERY query="逻辑树" result_pages=3 mode=normal escalated=false
+- [2026-07-14T22:18:54+0800] QUERY query="这个和金字塔原理的内容是否一致" result_pages=4 mode=normal escalated=false
+- [2026-07-15T00:52:22+0800] CAPTURE type=concept page="wiki/concepts/Logic Tree and Pyramid Principle.md" title="Logic Tree and Pyramid Principle"
+- [2026-07-15T00:53:20+0800] QUERY query="工程思维" result_pages=2 mode=normal escalated=false
+- [2026-07-16T02:03:04+0800] CAPTURE type=synthesis page="wiki/syntheses/偏好之外 节日回应与人的形成.md" title="偏好之外：节日、回应与人的形成"

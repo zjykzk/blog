@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-07-12T23:37:47+0800
+updated: 2026-07-16T02:03:04+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -136,6 +136,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/AI Learning Tutor Loop|AI Learning Tutor Loop]] — AI Learning Tutor Loop uses a source-grounded AI system to map a field, expose disagreements, test understanding, and repair errors. (#learning #tutoring #questions)
 - [[wiki/concepts/Analogy-Making|Analogy-Making]] — Analogy-making is the cognitive act of understanding a new situation by mapping it onto familiar structures. (#cognition #concepts #thinking)
 - [[wiki/concepts/Analysis|Analysis]] — Analysis opens a whole along its own structure, identifies parts and relations, then recomposes them into actionable understanding. (#thinking #concepts #reasoning)
+- [[wiki/concepts/Logic Tree and Pyramid Principle|Logic Tree and Pyramid Principle]] — 逻辑树向下拆问题以发现答案，金字塔原理向上收结论以交付答案；二者共享父子层级、同层分组和上下统摄结构。 (#thinking #reasoning #workflow)
 - [[wiki/concepts/五大思维三层架构|五大思维三层架构]] — 五大思维三层架构把结构化思维视为操作界面，系统/逻辑提供方向和规则，创造/批判提供突破和检验。 (#thinking #reasoning #problem-solving #mechanism)
 - [[wiki/concepts/问题解决铁三角|问题解决铁三角]] — 问题解决铁三角把思维模式、方法论与具体问题看作共同进化系统，而不是工具套用流程。 (#thinking #problem-solving #methodology #mechanism)
 - [[wiki/concepts/方法论双循环|方法论双循环]] — 方法论双循环把方法论分为解决问题的结构线和升级工具的框架线，使交付与能力成长同时发生。 (#methodology #problem-solving #feedback #thinking #mechanism)
@@ -233,6 +234,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Verification Gap|Verification Gap]] — 验证鸿沟描述 AI 生成代码速度与人类/组织验证速度之间扩大的差距，是 Vibe 时代软件工程的新瓶颈。 (#ai-coding #verification #software-engineering #quality)
 
 ## Syntheses
+- [[wiki/syntheses/偏好之外 节日回应与人的形成|偏好之外：节日、回应与人的形成]] — 节日把连续时间变成可纪念、可同步、可回应的生命结构；成熟回应以真实、痛苦、托付、给予、承诺、潜能和有限性为对象。 (#thinking #cognition #judgment #reasoning)
 - [[wiki/syntheses/AGENTS.md as Repository Operation Contract]] — AGENTS.md 是仓库面向编码智能体的最小操作契约，用导航、命令、边界和完成证据降低高代价的不确定性，并把强制约束交给自动化机制。 (#agents #ai-coding #software-engineering #harness #context)
 - [[wiki/syntheses/丝绸之路中的宗教组织力量]] — 《丝绸之路》中的宗教不是孤立信仰，而是随商路流动、生成信任、服务帝国合法性并组织冲突的跨大陆秩序力量。 (#history #religion #trade #systems)
 - [[wiki/syntheses/AI 泡沫判断的结构|AI 泡沫判断的结构]] — AI 泡沫判断要区分技术真实、资产价格过热和泡沫破裂后的价值残留，关键是哪些能力会穿越周期。 (#llm #judgment #wealth #mechanism)

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/syntheses/不确定性下的判断.md",
+                "file": "wiki/sources/拆解 让复杂问题变清晰 Source Guide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "不确定性下的判断"
+              "title": "拆解 让复杂问题变清晰 Source Guide"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Spec-D",
+                "query": "思维框架",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -210,6 +211,24 @@
   },
   "active": "a9f87afd1bd3f1b1",
   "lastOpenFiles": [
+    "wiki/syntheses/偏好之外 节日回应与人的形成.md",
+    "wiki/concepts/Logic Tree and Pyramid Principle.md",
+    "wiki/sources/四层次原因分析法 Source Guide.md",
+    "wiki/concepts/Iceberg Model.md",
+    "wiki/concepts/Feedback Loops.md",
+    "Excalidraw/agent.excalidraw.md",
+    "wiki/syntheses/AGENTS.md as Repository Operation Contract.md",
+    "wiki/sources/AI Coding 信息论框架 Source Guide.md",
+    "wiki/concepts/AI Coding Information-Theoretic Framework.md",
+    "Excalidraw/Drawing 2026-07-12 23.17.23.excalidraw.md",
+    "Excalidraw/Drawing 2026-06-22 20.55.52.excalidraw.md",
+    "Excalidraw/backend.excalidraw.md",
+    "wiki/sources/拥抱和桥接 知识迁移 Source Guide.md",
+    "wiki/concepts/AI Learning Tutor Loop.md",
+    "wiki/topics/Learning Methodology.md",
+    "wiki/syntheses/ICAP 与知识类型的适用边界.md",
+    "wiki/maps/Mechanism Models Map.md",
+    "wiki/syntheses/不确定性下的判断.md",
     "tmp_extract_sources.py",
     "wiki/syntheses/LLM Training Stages.md",
     "wiki/topics/AI Skills Workflow.md",
@@ -219,28 +238,11 @@
     "wiki/sources/Skills for the Future Software Profession Paper Source Guide.md",
     "wiki/concepts/Executable Specification.md",
     "wiki/sources/Agentic Coding Unknowns Source Guide.md",
-    "wiki/concepts/Dependency-Ordered Decision Making.md",
-    "wiki/concepts/Cognitive Debt.md",
     "wiki/attachments/skills-future-software-profession-fig1.png",
-    "wiki/syntheses/产品行业核心概念地图.md",
-    "wiki/sources/Codex Maxxing for Long Running Work Source Guide.md",
-    "wiki/sources/Zawinskis Law Source Guide.md",
-    "wiki/concepts/姓氏名与字.md",
-    "wiki/concepts/Agentic Coding Unknowns.md",
-    "wiki/concepts/Verification Loop.md",
-    "wiki/concepts/幂律分布与正态分布.md",
-    "wiki/sources/ADK Skill Design Patterns Source Guide.md",
-    "wiki/concepts/Agent Evaluation Metric Vector.md",
-    "wiki/concepts/Agent Transformer.md",
-    "wiki/sources/AI Agent Systems Architectures Applications and Evaluation Paper Source Guide.md",
     "wiki/attachments/ai-agent-systems-fig10.png",
     "wiki/attachments/ai-agent-systems-fig3.png",
     "wiki/attachments/ai-agent-systems-fig1.png",
     "wiki/attachments",
-    "wiki/concepts/Loop Engineering.md",
-    "wiki/concepts/Event-Driven Agent Loop.md",
-    "wiki/sources/The Art of Loop Engineering Source Guide.md",
-    "wiki/sources/Block Agent Skills Design Principles Source Guide.md",
     "schema.graphql",
     "schema.graphsql",
     "scripts/graphql_introspection_to_sdl.py",
@@ -252,7 +254,6 @@
     "canvas/assets/agent-excalidraw.svg",
     "canvas/assets",
     "canvas/pages/oVVVf0ER4MSQe4xzKjoUE/cowart-canvas.json",
-    "canvas/pages/oVVVf0ER4MSQe4xzKjoUE",
     "mobu/读书/modern_software_engineering-幕布图片-195155-330004.png",
     "mobu/读书/modern_software_engineering-幕布图片-147011-551432.png",
     "ai.png",
