@@ -14,7 +14,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 8
-updated: 2026-07-03T21:45:37+0800
+updated: 2026-07-18T20:14:53+0800
 aliases:
   - Computer Science Map
 tags:
@@ -91,6 +91,7 @@ tags:
 
 ## Syntheses
 
+- [[wiki/syntheses/Programming Language Three Operations|编程语言的秩：压缩、裁决与展开]] — 用压缩、裁决、展开三道工序解释语言抽象、类型检查、编译运行与范式差异。
 - [[wiki/syntheses/AI 时代开发岗位分层与协作]] — AI 时代开发岗位会分层为探索闭环、系统 owner 责任和被压缩的执行交付。
 - [[wiki/syntheses/From User Story to Architecture]]
 - [[wiki/syntheses/类和对象结构图的建模作用]] — OOAD 中类和对象结构图的核心作用是把业务世界压成责任容器及其关系，而不是提前列代码类清单。
