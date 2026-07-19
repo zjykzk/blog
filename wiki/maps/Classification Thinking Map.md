@@ -45,6 +45,8 @@ provenance:
 
 如果要把“拆出要素”继续推进到“找到最小生成骨架”，进入 [[wiki/syntheses/Rank Reduction as Generative Model Discovery|降秩方法的底层原理与有效边界]]：它用逐层下沉、合并、删除、反生成和清单外预测区分分类盒与真正能运行的解释模型。
 
+如果要区分“知识分类”和“知识形式化路径”，进入 [[wiki/concepts/Knowledge Formalization Gradient]]：它把经验、日常语言、概念方法、领域理论、形式模型、数学逻辑放成抽象梯度，并提醒这不是学科高低排序。
+
 如果要看线性问题的原因分析路径，进入 [[wiki/sources/四层次原因分析法 Source Guide]]：它把原因分析拆成 What 切块、Why 直接原因、流程漏洞和人因设计四层，并强调第一层 MECE、第二层数据验证、第三层修系统、第四层先问管理是否给了人不犯错的条件。
 
 如果要看问题定义链，进入 [[wiki/sources/发现和定义问题 Source Guide]]：它把“被发现的麻烦”与“被定义好的问题”区分开，并用发现异常、确认本质、定义议题、对齐共识推进到可行动 Issue。
@@ -127,6 +129,7 @@ provenance:
 - [[wiki/topics/Limits of Classification]]
 - [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]
 - [[wiki/concepts/Logic Tree and Pyramid Principle]]
+- [[wiki/concepts/Knowledge Formalization Gradient]]
 - [[wiki/sources/四层次原因分析法 Source Guide]]
 - [[wiki/concepts/Evidence Question Decomposition]]
 - [[wiki/concepts/五大思维三层架构]]

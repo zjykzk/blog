@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;700&display=swap');
+
+  :root {
+    --bg: #F5F2ED;
+    --green: #C4B5A0;
+    --pink: #8B5E3C;
+    --yellow: #FFF200;
+    --ink: #2D2926;
+    --ink-light: #5C5350;
+    --white: #FFFDF8;
+    --serif: 'DM Serif Display', 'KingHwa_OldSong', Georgia, 'Noto Serif SC', serif;
+    --sans: 'DM Sans', 'KingHwa_OldSong', -apple-system, 'PingFang SC', system-ui, sans-serif;
+    --mono: 'SF Mono', 'Menlo', monospace;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; background: var(--bg); }
+
+  .page {
+    width: 1080px;
+    min-height: 1480px;
+    background: var(--bg);
+    position: relative;
+    overflow: hidden;
+    color: var(--ink);
+  }
+
+  .page > .grain {
+    position: absolute;
+    inset: 0;
+    filter: url(#noise);
+    opacity: 0.04;
+    pointer-events: none;
+    z-index: 100;
+  }
+
+  mark { background: rgba(255,242,0,0.45); color: inherit; padding: 4px 8px; }
+
+  .colophon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 60px 36px;
+    border-top: 1px solid rgba(45,41,38,0.08);
+    position: relative;
+    z-index: 2;
+  }
+
+  .colophon .who {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .colophon .who img {
+    width: 40px; height: 40px;
+    border-radius: 50%; object-fit: cover;
+  }
+
+  .colophon .who span {
+    font: 400 24px/1 var(--sans);
+    color: var(--ink-light);
+  }
+
+  .colophon .info-source {
+    font: 400 22px/1 var(--mono);
+    color: var(--ink-light);
+  }
+
+  .sheet {
+    position: relative;
+    z-index: 1;
+    padding: 54px 60px 22px;
+  }
+
+  .ref {
+    font: 500 23px/1.2 var(--mono);
+    color: var(--ink-light);
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+
+  .title-row {
+    display: grid;
+    grid-template-columns: 1fr 346px;
+    gap: 34px;
+    align-items: end;
+    margin-top: 28px;
+  }
+
+  h1 {
+    font: 400 104px/0.96 var(--serif);
+    letter-spacing: 0;
+    color: var(--ink);
+  }
+
+  .subtitle {
+    font: 500 34px/1.45 var(--sans);
+    color: var(--ink-light);
+    padding-bottom: 10px;
+  }
+
+  .diagram {
+    position: relative;
+    width: 930px;
+    height: 930px;
+    margin: 48px 0 0 88px;
+  }
+
+  .ring {
+    position: absolute;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    border: 2px solid rgba(45, 41, 38, 0.16);
+  }
+
+  .r1 {
+    inset: 0;
+    background: #E7DDCE;
+    box-shadow: 0 34px 70px -36px rgba(139,94,60,0.38);
+  }
+
+  .r2 {
+    inset: 72px;
+    background: #EFE7DC;
+  }
+
+  .r3 {
+    inset: 142px;
+    background: #F5EFE6;
+  }
+
+  .r4 {
+    inset: 212px;
+    background: #FFF8EC;
+  }
+
+  .r5 {
+    inset: 282px;
+    background: #F4EBDD;
+  }
+
+  .r6 {
+    inset: 350px;
+    background: #E2D0B6;
+    border-color: rgba(139,94,60,0.38);
+  }
+
+  .center {
+    position: absolute;
+    inset: 414px;
+    border-radius: 50%;
+    background: var(--ink);
+    color: var(--white);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    box-shadow: inset 0 0 0 2px rgba(255,253,248,0.14), 0 18px 44px -24px rgba(139,94,60,0.58);
+  }
+
+  .center strong {
+    font: 700 38px/1.12 var(--sans);
+  }
+
+  .center span {
+    display: block;
+    margin-top: 8px;
+    font: 500 21px/1.2 var(--mono);
+    color: rgba(255,253,248,0.70);
+  }
+
+  .arc-label {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 350px;
+    margin-left: -175px;
+    text-align: center;
+    transform-origin: 50% 50%;
+    font: 700 31px/1.18 var(--sans);
+    color: var(--ink);
+  }
+
+  .arc-label small {
+    display: block;
+    margin-top: 7px;
+    font: 500 20px/1.25 var(--mono);
+    color: var(--ink-light);
+  }
+
+  .l1 { transform: rotate(-90deg) translateY(-424px) rotate(90deg); }
+  .l2 { transform: rotate(-38deg) translateY(-353px) rotate(38deg); }
+  .l3 { transform: rotate(19deg) translateY(-285px) rotate(-19deg); }
+  .l4 { transform: rotate(78deg) translateY(-214px) rotate(-78deg); }
+  .l5 { transform: rotate(155deg) translateY(-145px) rotate(-155deg); width: 300px; margin-left: -150px; }
+  .l6 { transform: rotate(220deg) translateY(-78px) rotate(-220deg); width: 250px; margin-left: -125px; }
+
+  .axis {
+    position: absolute;
+    left: 62px;
+    top: 724px;
+    width: 290px;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+    font: 500 25px/1 var(--mono);
+    color: var(--pink);
+  }
+
+  .axis::before {
+    content: "";
+    display: inline-block;
+    width: 126px;
+    height: 2px;
+    margin-right: 14px;
+    margin-bottom: 7px;
+    background: var(--pink);
+  }
+
+  .side-note {
+    position: absolute;
+    right: 38px;
+    top: 534px;
+    width: 248px;
+    padding: 28px 26px;
+    background: var(--ink);
+    color: var(--white);
+    border-radius: 2px;
+    box-shadow: 0 24px 55px -34px rgba(139,94,60,0.72);
+  }
+
+  .side-note .k {
+    font: 500 22px/1 var(--mono);
+    color: rgba(255,253,248,0.64);
+  }
+
+  .side-note p {
+    margin-top: 14px;
+    font: 500 33px/1.27 var(--sans);
+  }
+
+  .legend {
+    display: grid;
+    grid-template-columns: 1.45fr 1fr;
+    gap: 34px;
+    margin-top: 40px;
+    align-items: start;
+  }
+
+  .sentence {
+    border-top: 3px solid var(--pink);
+    padding-top: 22px;
+    font: 400 47px/1.23 var(--serif);
+  }
+
+  .notes {
+    display: grid;
+    gap: 15px;
+    padding-top: 4px;
+  }
+
+  .note {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 16px;
+    align-items: baseline;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(45,41,38,0.11);
+  }
+
+  .note b {
+    font: 500 23px/1 var(--mono);
+    color: var(--pink);
+  }
+
+  .note span {
+    font: 500 28px/1.38 var(--sans);
+    color: var(--ink-light);
+  }
+
+  .ghost {
+    position: absolute;
+    right: -28px;
+    top: 111px;
+    font: 400 210px/1 var(--serif);
+    color: rgba(139,94,60,0.055);
+    writing-mode: vertical-rl;
+    z-index: 0;
+  }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute">
+  <filter id="noise">
+    <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+  </filter>
+</svg>
+<div class="page">
+  <div class="grain"></div>
+  <div class="ghost">语言</div>
+  <main class="sheet">
+    <div class="ref">REF-LANGPHIL / KNOWLEDGE RINGS</div>
+    <section class="title-row">
+      <h1>知识的<br>形式化梯度</h1>
+      <div class="subtitle">这不是学科高低排序，而是从生活经验走向可检验形式的路径。</div>
+    </section>
+
+    <section class="diagram" aria-label="知识形式化梯度同心层图">
+      <div class="ring r1"></div>
+      <div class="ring r2"></div>
+      <div class="ring r3"></div>
+      <div class="ring r4"></div>
+      <div class="ring r5"></div>
+      <div class="ring r6"></div>
+      <div class="center"><div><strong>数学<br>逻辑</strong><span>FORM</span></div></div>
+
+      <div class="arc-label l1">经验与生活世界<small>practice / life-world</small></div>
+      <div class="arc-label l2">日常语言与叙事<small>ordinary language</small></div>
+      <div class="arc-label l3">概念、范畴、定义<small>meaning boundary</small></div>
+      <div class="arc-label l4">解释、观察、实验<small>methods of inquiry</small></div>
+      <div class="arc-label l5">领域理论<small>human / social / natural</small></div>
+      <div class="arc-label l6">形式模型<small>symbols / abstraction</small></div>
+
+      <div class="axis">FORMALIZATION</div>
+      <aside class="side-note">
+        <div class="k">KEY IDEA</div>
+        <p>语言稳定意义；方法组织证据；形式系统压缩歧义。</p>
+      </aside>
+    </section>
+
+    <section class="legend">
+      <div class="sentence">不是所有知识都应变成数学；但越靠近内核，越要求符号、定义、推理可以被重复检查。</div>
+      <div class="notes">
+        <div class="note"><b>OUT</b><span>外层保留情境、身体、历史和实践差异。</span></div>
+        <div class="note"><b>MID</b><span>中层用语言、概念和方法组织可讨论的对象。</span></div>
+        <div class="note"><b>IN</b><span>内层用公理、规则、模型和证明压缩歧义。</span></div>
+      </div>
+    </section>
+  </main>
+  <div class="colophon">
+    <div class="who">
+      <img src="file:///Users/zenk/study/wiki/.agents/skills/ljg-card/assets/logo.png" alt="">
+      <span>李继刚</span>
+    </div>
+    <span class="info-source">参考：《简明语言哲学》；Wittgenstein / Carnap / Quine</span>
+  </div>
+</div>
+</body>
+</html>

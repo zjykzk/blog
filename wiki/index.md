@@ -185,6 +185,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Harness Ratchet|Harness Ratchet]] — A harness ratchet turns repeated agent failures into durable rules, hooks, checks, or workflow changes instead of treating them as one-off bad runs. (#agents #harness #feedback)
 - [[wiki/concepts/Harnessability|Harnessability]] — Harnessability is how easily a task, codebase, or workflow can be surrounded by context, controls, checks, and templates for effective agent work. (#agents #harness #software-engineering)
 - [[wiki/concepts/Knowledge as Network|Knowledge as Network]] — 知识没有全局层级，只有局部的序。看起来像金字塔，其实是张网。
+- [[wiki/concepts/Knowledge Formalization Gradient|Knowledge Formalization Gradient]] — 知识的形式化梯度描述知识从生活经验、日常语言、概念方法和领域理论逐步走向形式模型、数学与逻辑的抽象路径。 (#thinking #cognition #learning #reasoning #systems)
 - [[wiki/concepts/Knowledge Types|Knowledge Types]] — 知识类型按知识在人脑和行动中的功能划分；布卢姆分类则描述对知识的掌握深度。 (#cognition #learning #concepts #taxonomy)
 - [[wiki/concepts/KV Cache|KV Cache]] — KV cache stores transformer key/value tensors so repeated prefixes or generated histories do not need full attention recomputation. (#llm #inference #caching)
 - [[wiki/concepts/Leverage Points|Leverage Points]] — 杠杆点是系统里“改一点，结果却变很多”的位置。
