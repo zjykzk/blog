@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-07-05T16:46:13+0800
+updated: 2026-07-19T22:00:16+0800
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -63,6 +63,7 @@ aliases:
 这一组模型用于把“解释”压成可迁移结构。
 
 - [[wiki/syntheses/深度思考 高阶思维与本质理解]]：高阶思维负责审题，深度思考负责沿生成机制下钻，深度理解负责形成可解释、可迁移、可行动的结构。
+- [[wiki/syntheses/Rank Reduction as Generative Model Discovery|降秩方法的底层原理与有效边界]]：把降秩解释为最小生成模型发现：逐层下沉产生候选，合并与删除压缩骨架，反生成、外推和变更测试负责证伪，结构同构防止表达模板压扁真实关系。
 - [[wiki/sources/概念 因果 规律 机制与知识 Source Guide]]：把机制定位为因果的内部解释，把规律定位为因果稳定显现后的概括，并区分因果成立、因果出现与规律成立。
 - [[wiki/sources/知识论的秩 Source Guide]]：把知识论解释为世界阻力、心智取形和公共追问构成的负反馈环，用来压低自洽幻觉、原始刺激和任意相信。
 - [[wiki/sources/知识论概念解剖 Source Guide]]：把知识论解释为信念取得资格的机制：信念必须被世界约束、理由结构、公共追问和可错边界共同筛选。

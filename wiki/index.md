@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-07-18T20:14:53+0800
+updated: 2026-07-19T22:00:16+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -234,6 +234,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Verification Gap|Verification Gap]] — 验证鸿沟描述 AI 生成代码速度与人类/组织验证速度之间扩大的差距，是 Vibe 时代软件工程的新瓶颈。 (#ai-coding #verification #software-engineering #quality)
 
 ## Syntheses
+- [[wiki/syntheses/Rank Reduction as Generative Model Discovery|降秩方法的底层原理与有效边界]] — 降秩把复杂领域建模为由少数隐藏机制生成的现象空间，再用逐层下沉、消融、反生成、外推和结构同构寻找最小解释骨架。 ( #thinking #reasoning #mechanism #skills #judgment)
 - [[wiki/syntheses/Programming Language Three Operations|编程语言的秩：压缩、裁决与展开]] — 编程语言把人的意图压成符号，用规则裁定符号的去路，再把符号展开成机器事件；抽象是保留任务相关结构的有损压缩机制。 ( #software-engineering #systems #thinking #mechanism)
 - [[wiki/syntheses/偏好之外 节日回应与人的形成|偏好之外：节日、回应与人的形成]] — 节日把连续时间变成可纪念、可同步、可回应的生命结构；成熟回应以真实、痛苦、托付、给予、承诺、潜能和有限性为对象。 (#thinking #cognition #judgment #reasoning)
 - [[wiki/syntheses/AGENTS.md as Repository Operation Contract]] — AGENTS.md 是仓库面向编码智能体的最小操作契约，用导航、命令、边界和完成证据降低高代价的不确定性，并把强制约束交给自动化机制。 (#agents #ai-coding #software-engineering #harness #context)
