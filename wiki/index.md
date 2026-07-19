@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-07-19T22:00:16+0800
+updated: 2026-07-20T04:29:25+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -133,6 +133,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Encoding Team Standards|Encoding Team Standards]] — Encoding team standards turns tacit engineering judgment into versioned AI instructions that execute consistently across the team. (#ai-coding #software-engineering #workflow)
 - [[wiki/concepts/Feedback Flywheel|Feedback Flywheel]] — Feedback flywheel turns AI collaboration experience into updated context, standards, workflows, and guardrails. (#ai-coding #feedback #workflow)
 - [[wiki/concepts/AI Memory 4W Taxonomy|AI Memory 4W Taxonomy]] — The AI Memory 4W Taxonomy classifies memory by when it persists, what it stores, how it is represented, and which modalities it handles. (#memory #taxonomy #agents)
+- [[wiki/concepts/Temporal Memory Validity|Temporal Memory Validity]] — Temporal memory validity distinguishes current state, history, transitions, and corrections through valid time, record time, and supersession. ( #agents #memory #context #data)
 - [[wiki/concepts/AI Learning Tutor Loop|AI Learning Tutor Loop]] — AI Learning Tutor Loop uses a source-grounded AI system to map a field, expose disagreements, test understanding, and repair errors. (#learning #tutoring #questions)
 - [[wiki/concepts/Analogy-Making|Analogy-Making]] — Analogy-making is the cognitive act of understanding a new situation by mapping it onto familiar structures. (#cognition #concepts #thinking)
 - [[wiki/concepts/Analysis|Analysis]] — Analysis opens a whole along its own structure, identifies parts and relations, then recomposes them into actionable understanding. (#thinking #concepts #reasoning)
@@ -160,6 +161,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/重构层次|重构层次]] — 重构层次把重构分为认知、模型、架构和代码四层，强调技术重构背后常常是理解重构。 (#architecture #software-engineering #refactoring)
 - [[wiki/concepts/Creation|Creation]] — Creation is the act of breaking an old structure and recombining materials into a new order that can be used, understood, or continued. (#thinking #concepts #practice)
 - [[wiki/concepts/Continual Learning for AI Agents|Continual Learning for AI Agents]] — Agent continual learning can happen through model weights, harness code, or configurable context/memory, each with different cost, speed, scope, and inspectability. (#agents #memory #harness)
+- [[wiki/concepts/Verifier Hierarchy|Verifier Hierarchy]] — Verifier hierarchy compares self-assessment, model judges, human review, execution feedback, and formal checks by independence and reality grounding. ( #agents #feedback #optimization #testing)
 - [[wiki/concepts/Continuous Batching|Continuous Batching]] — Continuous batching lets an inference engine mix newly arrived and already-running requests at each generation step. (#llm #inference #scheduling)
 - [[wiki/concepts/Context Information Density|Context Information Density]] — Context information density treats agent context quality as the ratio of decision-relevant signal to finite active context budget. (#agents #context #memory)
 - [[wiki/concepts/AI Coding Information-Theoretic Framework|AI Coding Information-Theoretic Framework]] — 用覆盖层与填补层区分 AI Coding 的两类失败：上下文还留下多少猜测空间，以及模型是否用符合私有业务的方向填补这些空白。 (#ai-coding #context #harness #memory #mechanism)
@@ -235,6 +237,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Verification Gap|Verification Gap]] — 验证鸿沟描述 AI 生成代码速度与人类/组织验证速度之间扩大的差距，是 Vibe 时代软件工程的新瓶颈。 (#ai-coding #verification #software-engineering #quality)
 
 ## Syntheses
+- [[wiki/syntheses/AI Agent Three Paradoxes|AI Agent 三重悖论]] — 记忆选择、推理脚手架与自我改进验证器相互依赖；成熟 Agent 需要让三者共同接受外部现实、独立验证与回滚约束。 ( #synthesis #agents #memory #harness #feedback)
 - [[wiki/syntheses/Rank Reduction as Generative Model Discovery|降秩方法的底层原理与有效边界]] — 降秩把复杂领域建模为由少数隐藏机制生成的现象空间，再用逐层下沉、消融、反生成、外推和结构同构寻找最小解释骨架。 ( #thinking #reasoning #mechanism #skills #judgment)
 - [[wiki/syntheses/Programming Language Three Operations|编程语言的秩：压缩、裁决与展开]] — 编程语言把人的意图压成符号，用规则裁定符号的去路，再把符号展开成机器事件；抽象是保留任务相关结构的有损压缩机制。 ( #software-engineering #systems #thinking #mechanism)
 - [[wiki/syntheses/偏好之外 节日回应与人的形成|偏好之外：节日、回应与人的形成]] — 节日把连续时间变成可纪念、可同步、可回应的生命结构；成熟回应以真实、痛苦、托付、给予、承诺、潜能和有限性为对象。 (#thinking #cognition #judgment #reasoning)
@@ -326,6 +329,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/ADK Skill Design Patterns Source Guide|ADK Skill Design Patterns Source Guide]] — Source guide for Google Cloud Tech and Lavi Nigam's article on five practical SKILL.md content patterns for ADK agents. (#agents #skills #adk)
 - [[wiki/sources/AI Coding Control Limits Source Guide|AI Coding Control Limits Source Guide]] — 这篇文章更适合作为一个 source facing note 进入当前仓库，而不是直接承担稳定 topic 页角色。 (#ai-coding #software-engineering #complexity #productivity #security)
 - [[wiki/sources/AI Coding 信息论框架 Source Guide|AI Coding 信息论框架 Source Guide]] — Cheer 从熵、条件熵、互信息与交叉熵出发，解释 Prompt、上下文、历史业务、记忆、Agent 自动化与 Harness Engineering 的共同信息约束。 (#article #ai-coding #context #harness #memory)
+- [[wiki/sources/AI Agent 三重悖论 Source Guide|AI Agent 三重悖论 Source Guide]] — 保留一篇 AI 生成的中文综述原文：用记忆、推理与自我进化三重悖论解释 Agent 成熟的循环依赖，并标明论文数字与产品机制仍需一手核验。 ( #article #agents #memory #harness #optimization)
 - [[wiki/sources/AI 工程化不是提效 是换主回路 QA Source Guide|AI 工程化不是提效，是换主回路 QA Source Guide]] — 保留 ljg-qa 对《软件工程真正降临》的问答链：AI 工程化的关键不是提效，而是把软件生产主回路从人脑迁移到可验证的 AI 认知产线。 (#article #agents #ai-coding #software-engineering #mechanism)
 - [[wiki/sources/AI 软件工程问答 Source Guide|AI 软件工程问答 Source Guide]] — 这页保存一篇中文长文的 ljg-qa 问答链：软件工程为何未彻底工程化、AI 如何成为认知引擎，以及 AI 产线如何通过闭环、分治和隐性知识蒸馏走向可靠。 (#article #agents #ai-coding #software-engineering #architecture)
 - [[wiki/sources/软件工程真正降临 Source Guide|软件工程真正降临 Source Guide]] — 保留一篇中文长文对 AI 软件工程范式的完整推演：从软件工程未彻底工程化，到 AI 中心产线、确定性裁判、分治继承和隐性知识蒸馏。 (#article #agents #ai-coding #software-engineering #mechanism)

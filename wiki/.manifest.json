@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 66,
-    "total_pages": 408
+    "total_sources_ingested": 67,
+    "total_pages": 412
   },
   "sources": {
     "inline:buddhist-awakening-correction-2026-06-21": {
@@ -1424,6 +1424,32 @@
         "wiki/topics/AI Memory.md",
         "wiki/topics/AI Harness.md",
         "wiki/syntheses/AI Engineering Workflow.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "inline:ai-agent-three-paradoxes-2026-07-20": {
+      "ingested_at": "2026-07-20T04:29:25+0800",
+      "size_bytes": 21469,
+      "modified_at": "2026-07-20T04:29:25+0800",
+      "content_hash": "sha256:5c734aba808c2dd034b34923ccfd9dabd1746ecf9aea746c5f41f00115bf3ce1",
+      "hash_basis": "preserved source guide UTF-8 bytes",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/AI Agent 三重悖论 Source Guide.md",
+        "wiki/concepts/Temporal Memory Validity.md",
+        "wiki/concepts/Verifier Hierarchy.md",
+        "wiki/syntheses/AI Agent Three Paradoxes.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/AI Memory.md",
+        "wiki/topics/AI Harness.md",
+        "wiki/concepts/Continual Learning for AI Agents.md",
+        "wiki/concepts/Verification Loop.md",
+        "wiki/maps/Self-Evolving Agents Map.md",
         "wiki/maps/AI Map.md",
         "wiki/index.md",
         "wiki/hot.md",

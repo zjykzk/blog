@@ -59,8 +59,10 @@ tags:
 - [[wiki/concepts/Agent Memory Write-Manage-Read Loop]]
 - [[wiki/concepts/Agent Memory Mechanism Families]]
 - [[wiki/concepts/Agent Memory Evaluation Stack]]
+- [[wiki/concepts/Temporal Memory Validity]] — 用有效时间、记录时间和 supersession 区分当前状态、历史状态、过渡与纠正，避免旧事实以“幽灵记忆”污染当前回答。
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/concepts/Continual Learning for AI Agents]]
+- [[wiki/concepts/Verifier Hierarchy]] — 按评估器独立性与现实接地程度比较自评、模型裁判、人类判断、执行反馈和形式验证。
 - [[wiki/concepts/Meta-Harness]]
 - [[wiki/concepts/Skill Self-Evolution]]
 - [[wiki/concepts/LLM]]
@@ -136,6 +138,7 @@ tags:
 - [[wiki/syntheses/Coding Agent Debugging Skills as Evidence Gates]] — treats high-frequency coding skills as evidence gates, responsibility ledgers, and feedback loops for AI coding work.
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/syntheses/Agent System Design Space]]
+- [[wiki/syntheses/AI Agent Three Paradoxes|AI Agent 三重悖论]] — 把记忆选择、推理脚手架与自我改进验证器放进同一个循环依赖模型，并把外部接地视为共同破局点。
 
 ## Source notes
 
@@ -166,6 +169,7 @@ tags:
 - [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide]]
 - [[wiki/sources/Memory-as-a-Tool Paper River Source Guide]] — 论文倒读法：把反馈从 CoT/Self-Refine/Reflexion 的一次性修正推进到文件化 guideline memory。
 - [[wiki/sources/AI Memory Survey Source Guide]]
+- [[wiki/sources/AI Agent 三重悖论 Source Guide]] — AI 生成的中文二手综述；保留记忆、推理、自我进化三重悖论原文，并明确论文数字与产品机制需回到一手来源核验。
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Survey Source Guide]] — primary PDF survey arguing that agent reliability is often constrained by the harness and organizing the field with the ETCLOVG taxonomy.

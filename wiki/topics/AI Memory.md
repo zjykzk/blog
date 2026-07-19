@@ -14,15 +14,16 @@ sources:
   - https://arxiv.org/abs/2603.07670
   - https://arxiv.org/abs/2605.03354v2
   - inline:ai-coding-information-theory-cheer-2026-07-12
+  - inline:ai-agent-three-paradoxes-2026-07-20
 created: 2026-05-05T16:25:00+08:00
-updated: 2026-07-12T23:19:18+0800
-base_confidence: 0.57
+updated: 2026-07-20T04:29:25+0800
+base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.81
-  inferred: 0.17
-  ambiguous: 0.02
+  extracted: 0.78
+  inferred: 0.19
+  ambiguous: 0.03
 aliases:
   - agent memory
   - LLM memory
@@ -92,6 +93,18 @@ For agent systems, memory is successful when it improves downstream behavior und
 
 Forgetting and version governance are therefore correctness mechanisms, not only storage optimizations. ^[inferred]
 
+## Adaptive and Temporal Memory Control
+
+[[wiki/sources/AI Agent 三重悖论 Source Guide]] adds two useful failure questions while remaining a low-confidence, AI-generated secondary source.
+
+First, memory policy is task-dependent. Early exploration may benefit from minimal retrieval, repeated work may need reusable strategy, a stuck agent may need query reformulation, and a long-running agent may need consolidation and pruning. This suggests that fixed top-k retrieval is only one policy inside a broader controller that decides whether to retrieve, how to query, which abstraction level to expose, and how much context to spend. ^[inferred]
+
+Second, relevance is not enough when facts change over time. [[wiki/concepts/Temporal Memory Validity]] distinguishes current state, historical state, transition events, and corrections. A system can preserve every true record and still answer incorrectly if it retrieves past and present facts as equally valid now. ^[inferred]
+
+This gives forgetting a more precise meaning: a record may be removed physically, excluded from current-state reconstruction, or simply withheld from the active context while remaining retrievable as history. ^[inferred]
+
+The source attributes specific adaptive-memory and temporal-memory results to MemCon and A-TMA, but those papers and figures have not been independently verified here. ^[ambiguous]
+
 ## Agent Memory as a Managed Feedback Loop
 
 [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]] sharpens the operational model: memory is a write–manage–read loop coupled to perception, action, and feedback, not a passive append-only log.
@@ -154,9 +167,11 @@ The paper's numeric claims remain source-level: the reported 76.2% unsupervised 
 - [[wiki/concepts/Agent Memory Write-Manage-Read Loop]]
 - [[wiki/concepts/Agent Memory Mechanism Families]]
 - [[wiki/concepts/Agent Memory Evaluation Stack]]
+- [[wiki/concepts/Temporal Memory Validity]]
 - [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]]
 - [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide]]
 - [[wiki/sources/Memory-as-a-Tool Paper River Source Guide]]
+- [[wiki/sources/AI Agent 三重悖论 Source Guide]]
 
 - [[wiki/concepts/AI Memory 4W Taxonomy]]
 - [[wiki/topics/Context Management]]

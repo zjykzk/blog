@@ -11,15 +11,16 @@ sources:
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
   - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
   - https://www.langchain.com/blog/the-art-of-loop-engineering
+  - inline:ai-agent-three-paradoxes-2026-07-20
 created: 2026-05-05T14:03:13+08:00
-updated: 2026-07-04T23:00:06+0800
-base_confidence: 0.44
+updated: 2026-07-20T04:29:25+0800
+base_confidence: 0.79
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.8
-  inferred: 0.2
-  ambiguous: 0.0
+  extracted: 0.74
+  inferred: 0.23
+  ambiguous: 0.03
 aliases:
   - evaluation loop
   - agent verification loop
@@ -90,6 +91,21 @@ The article also names the production trade-off: verification increases latency 
 
 The source frames this as generation being harder than verification. In harness terms, the user's work is to specify what “correct” means, expose failures as fast feedback, and judge whether the agent's direction is right. ^[inferred]
 
+## Verifier independence and grounding
+
+[[wiki/concepts/Verifier Hierarchy]] adds a distinction that becomes critical when the verification loop is also an improvement loop.
+
+A verifier can differ along two axes:
+
+- **independence**: whether it shares the generator's incentives, context, mutable artifacts, and blind spots;
+- **grounding**: whether its judgment rests on self-description, another model's rubric, human review, real execution, or formal constraints.
+
+Self-checking is useful for cheap local correction, but it should not alone authorize durable changes to shared memory, skills, harness code, or model weights. The larger the blast radius, the more the loop should rely on held-out evidence, external execution, independent mutation rights, and rollback. ^[inferred]
+
+This also exposes a limit of deterministic checks: a test can be strongly grounded in execution while still validating the wrong specification. [[wiki/concepts/Executable Specification]] must itself be validated against the real goal. ^[inferred]
+
+The source that motivates this extension is AI-generated and its claimed recursive-self-improvement survey has not been read directly, so the specific verifier pyramid remains provisional. ^[ambiguous]
+
 ## TDD as an AI coding loop
 
 [[wiki/sources/Team AI Coding Harness Seminar Source Guide]] makes the loop concrete for team coding work: requirements → AI-generated code → AI-generated tests → automated test run → AI repair on failure → human review.
@@ -102,6 +118,7 @@ This connects [[wiki/topics/Testing Strategy]] to harness design: TDD is not onl
 
 - [[wiki/topics/AI Harness]]
 - [[wiki/concepts/Executable Specification]]
+- [[wiki/concepts/Verifier Hierarchy]]
 - [[wiki/topics/Context Management]]
 - [[wiki/syntheses/Coding Agent User Harness × Verification Loop]] — synthesis
 - [[wiki/syntheses/Agentic Engineering × Verification Loop]] — synthesis
@@ -118,3 +135,4 @@ This connects [[wiki/topics/Testing Strategy]] to harness design: TDD is not onl
 - [[wiki/syntheses/Verification Loop × Feedback Flywheel]] — synthesis
 - [[wiki/concepts/Loop Engineering]]
 - [[wiki/sources/The Art of Loop Engineering Source Guide]]
+- [[wiki/sources/AI Agent 三重悖论 Source Guide]]

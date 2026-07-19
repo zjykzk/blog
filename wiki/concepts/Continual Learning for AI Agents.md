@@ -12,16 +12,17 @@ sources:
   - https://x.com/hwchase17/status/2040467997022884194
   - https://arxiv.org/abs/2604.27488
   - https://www.langchain.com/blog/the-art-of-loop-engineering
+  - inline:ai-agent-three-paradoxes-2026-07-20
 summary: Agent continual learning can happen through model weights, harness code, skills, or configurable context/memory, each with different cost, speed, scope, and inspectability.
 provenance:
-  extracted: 0.79
-  inferred: 0.19
-  ambiguous: 0.02
-base_confidence: 0.44
+  extracted: 0.73
+  inferred: 0.23
+  ambiguous: 0.04
+base_confidence: 0.80
 lifecycle: draft
 lifecycle_changed: "2026-05-09"
 created: 2026-05-09T22:17:54+08:00
-updated: 2026-07-04T23:00:06+0800
+updated: 2026-07-20T04:29:25+0800
 ---
 # Continual Learning for AI Agents
 
@@ -82,11 +83,30 @@ This makes skills an inspectable learning substrate: a failure can become an imp
 - [[wiki/concepts/Agent Skill|Skills]] are a context-learning surface when they can be updated independently of the harness.
 - [[wiki/syntheses/Agent System Design Space]] should include learning scope: agent-wide, user-specific, team-level, org-level, or tenant-level.
 
+## Verifier strength should match update scope
+
+[[wiki/sources/AI Agent 三重悖论 Source Guide]] adds a second axis to the learning-layer question: **how strong and independent must the verifier be before an update becomes durable?**
+
+The more persistent and widely scoped the update, the stronger its acceptance gate should be:
+
+| Proposed update | Minimum useful evidence | Additional safeguards |
+|---|---|---|
+| Current answer revision | Self-check, tool result, or targeted judge | Preserve uncertainty and user correction |
+| Session or user memory | Source trace and conflict check | Temporal validity, delete/correct path |
+| Shared skill or prompt | Comparative execution on representative tasks | Held-out gate, diff review, rollback |
+| Harness code | End-to-end task evaluation and failure traces | Sandbox, permission review, canary, rollback |
+| Model weights | Broad held-out evaluation and external task feedback | Regression suites, safety review, staged deployment |
+
+This is the role of [[wiki/concepts/Verifier Hierarchy]]: self-assessment is a low-cost signal, but it should not alone authorize high-blast-radius changes. ^[inferred]
+
+The source frames this as a recursive-self-improvement bottleneck, but its cited 2026 survey and quantitative claims have not been verified directly. ^[ambiguous]
+
 ## Open questions
 
 - How should a harness decide whether an observed failure deserves a model update, harness patch, skill revision, or memory write? ^[inferred]
 - Which memory updates are safe enough for the hot path, and which should wait for offline consolidation? ^[inferred]
 - How should teams prevent context-level learning from accumulating stale or contradictory instructions? ^[inferred]
+- How should verifier independence and grounding scale with the durability, scope, and irreversibility of an update? ^[inferred]
 
 ## Related
 
@@ -97,6 +117,8 @@ This makes skills an inspectable learning substrate: a failure can become an imp
 - [[wiki/concepts/Loop Engineering]]
 - [[wiki/concepts/Agent Skill]]
 - [[wiki/concepts/Skill Self-Evolution]]
+- [[wiki/concepts/Verifier Hierarchy]]
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/sources/Continual Learning for AI Agents Source Guide]]
 - [[wiki/sources/Skills-Coach Paper Source Guide]]
+- [[wiki/sources/AI Agent 三重悖论 Source Guide]]

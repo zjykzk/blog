@@ -356,3 +356,4 @@ tags:
 - [2026-07-16T02:03:04+0800] CAPTURE type=synthesis page="wiki/syntheses/偏好之外 节日回应与人的形成.md" title="偏好之外：节日、回应与人的形成"
 - [2026-07-19T22:00:16+0800] CAPTURE type=synthesis page="wiki/syntheses/Rank Reduction as Generative Model Discovery.md" title="降秩方法的底层原理与有效边界"
 - [2026-07-19T22:12:59+0800] CAPTURE type=concept page="wiki/concepts/Knowledge Formalization Gradient.md" title="Knowledge Formalization Gradient"
+- [2026-07-20T04:29:25+0800] INGEST source="inline:ai-agent-three-paradoxes-2026-07-20" pages_updated=9 pages_created=4 mode=append

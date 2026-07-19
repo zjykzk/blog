@@ -23,16 +23,17 @@ sources:
   - https://www.langchain.com/blog/the-art-of-loop-engineering
   - https://arxiv.org/pdf/2601.01743
   - inline:ai-coding-information-theory-cheer-2026-07-12
+  - inline:ai-agent-three-paradoxes-2026-07-20
 created: 2026-05-04
-base_confidence: 0.57
+base_confidence: 0.82
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.87
-  inferred: 0.12
-  ambiguous: 0.01
-source_count: 17
-updated: 2026-07-12T23:19:18+0800
+  extracted: 0.84
+  inferred: 0.14
+  ambiguous: 0.02
+source_count: 19
+updated: 2026-07-20T04:29:25+0800
 aliases:
   - harness
 tags:
@@ -135,6 +136,21 @@ This matters because the same model can be moved between harnesses and expose ve
 - 它在约束什么
 - 它在保护什么
 - 它在失败之后如何恢复
+
+[[wiki/sources/AI Agent 三重悖论 Source Guide]] adds an important caution: harnesses compensate for model limitations, but every compensating layer also introduces a new failure surface. Planners can propagate a bad decomposition, subagents can lose intent at handoff boundaries, evaluators can reward the wrong proxy, and recovery loops can hide repeated failure behind cost and retries.
+
+The practical rule is not “less harness is always better.” It is that each planner, memory layer, subagent, tool abstraction, and judge should earn its place through ablation against end-to-end outcomes. ^[inferred]
+
+A harness-complexity budget should therefore compare:
+
+- task success and robustness gained;
+- latency, tokens, and tool calls added;
+- new permission and attack surfaces;
+- coordination and state-synchronization failures;
+- how easily traces localize the failing layer;
+- whether a simpler single-agent or deterministic workflow performs as well.
+
+The source's claims about a 27-study failure taxonomy and multi-agent coordination costs remain secondary and require primary-source verification. ^[ambiguous]
 
 ## Reasoning implication
 
@@ -341,6 +357,7 @@ This strengthens the governance reading of harness: an enterprise agent should n
 - [[wiki/concepts/Agent Action Space]]
 - [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/Verification Loop]]
+- [[wiki/concepts/Verifier Hierarchy]]
 - [[wiki/concepts/Coding Agent User Harness]]
 - [[wiki/concepts/Feedforward and Feedback Controls]]
 - [[wiki/concepts/Computational and Inferential Controls]]
@@ -383,9 +400,9 @@ This strengthens the current harness-ratchet view. A human can turn repeated fai
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
 - [[wiki/sources/Harness Engineering Source Guide]]
 - [[wiki/sources/Memory for Autonomous LLM Agents Source Guide]]
-
 - [[wiki/sources/AI Memory Survey Source Guide]]
 - [[wiki/sources/AI Coding 信息论框架 Source Guide]]
+- [[wiki/sources/AI Agent 三重悖论 Source Guide]]
 
 ## Navigation
 

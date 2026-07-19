@@ -1,29 +1,24 @@
 ---
 title: Hot Cache
 category: meta
-summary: 知识的形式化梯度把经验、日常语言、概念方法、领域理论、形式模型、数学逻辑组织成从生活世界到可检验形式的抽象路径。
+summary: AI Agent 三重悖论把记忆选择、推理脚手架和自我改进验证器放进同一循环，并用时间有效性与验证器独立性指出共同治理条件。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-07-19T22:12:59+0800
+updated: 2026-07-20T04:29:25+0800
 ---
 
 ## Recent Activity
+- 2026-07-20T04:29:25+0800 — 已摄入 [[wiki/sources/AI Agent 三重悖论 Source Guide]]：保留 AI 生成长文原文，并将可迁移结构沉淀为 [[wiki/syntheses/AI Agent Three Paradoxes|AI Agent 三重悖论]]、[[wiki/concepts/Temporal Memory Validity]] 与 [[wiki/concepts/Verifier Hierarchy]]。
 - 2026-07-19T22:12:59+0800 — 已捕获 [[wiki/concepts/Knowledge Formalization Gradient|Knowledge Formalization Gradient]]：知识的形式化梯度不是完整学科分类，也不是高低排序，而是从经验与生活世界，经日常语言、概念方法、领域理论和形式模型，走向数学与逻辑的抽象路径。
 - 2026-07-19T22:00:16+0800 — 已捕获 [[wiki/syntheses/Rank Reduction as Generative Model Discovery|降秩方法的底层原理与有效边界]]：降秩不是总结重点，而是发现最小解释性生成模型；逐层下沉产生候选，消融与反生成压紧骨架，外推和变更测试让模型承担失败风险。
-- 2026-07-18T20:14:53+0800 — 已捕获 [[wiki/syntheses/Programming Language Three Operations|编程语言的秩：压缩、裁决与展开]]：编程语言用压缩、裁决、展开三道工序连接人的意图与机器事件，并把抽象明确为任务保真的有损压缩机制。
-- 2026-07-16T02:03:04+0800 — 已捕获 [[wiki/syntheses/偏好之外 节日回应与人的形成]]：节日不只是偏好许可，而是共同时间、意义复现和有限生命的回应结构；值得回应之物需要通过真实、伤害、责任半径、不可替代性与不可逆性检验。
-- 2026-07-15T00:52:22+0800 — 已捕获 [[wiki/concepts/Logic Tree and Pyramid Principle]]：逻辑树与金字塔原理共享层级结构，但逻辑树向下拆问题以发现答案，金字塔向上收结论以交付答案。
-- 2026-07-12T23:37:47+0800 — 已捕获 [[wiki/syntheses/AGENTS.md as Repository Operation Contract]]：AGENTS.md 不是项目百科或提示词合集，而是仓库面向编码智能体的最小操作契约；导航、命令、边界和 Done 常驻，强制约束进入 CI、hook、sandbox 与权限机制。
-- 2026-07-12T23:19:18+0800 — 已摄入 [[wiki/sources/AI Coding 信息论框架 Source Guide]]：把 AI Coding 失败拆成“还要猜多少”的覆盖层与“按哪套规则猜”的填补层，并把 Context、Memory、RAG、Harness 放进同一信息坐标系。
-- 2026-07-12T14:12:03+0800 — 已捕获 [[wiki/concepts/Dependency-Ordered Decision Making]]：把 grilling 中的逐项追问解释为带反馈和回溯的决策拓扑排序，区分事实调查、专业建议与用户裁决。
-- 2026-07-12T00:30:14+0800 — 已摄入 [[wiki/sources/Skills for the Future Software Profession Paper Source Guide]]：实现变便宜后，未来工程师要负责可执行 V&V、可信 agent pipeline，并用 [[wiki/concepts/Cognitive Debt]] 追踪组织理解的流失。
 
 ## Active Threads
 
+- Agent 成熟现在加入三重悖论线索：记忆要动态选择并治理时间有效性，推理脚手架要证明收益大于新增故障面，自我改进的验证器强度应随更新的持久性、作用域和不可逆性提升。
 - 分类与知识体系现在加入形式化梯度线索：把“经验、日常语言、概念方法、领域理论、形式模型、数学逻辑”画成图时，应明确它是抽象化/形式化路径，不是所有学科的完整分类或价值排序。
 - 机制模型现在加入降秩方法论线索：理解复杂领域不是罗列关键要素，而是从现象池逐层追到候选生成器，再用合并、删除、反生成、清单外预测和 hard-to-vary 测试寻找当前边界下的最小解释骨架；高风险判断还应保留竞争模型与验证台账。
 - 编程语言现在加入三道工序线索：抽象把多个具体实例压成保留任务相关结构的参数化表达，语言规则裁定其合法去路，编译器、解释器和运行时再把它展开成受资源与时间约束的机器事件。
@@ -147,6 +142,7 @@ updated: 2026-07-19T22:12:59+0800
 
 ## Key Takeaways
 
+- AI Agent 的记忆、推理和自我改进都是元控制问题：闭环内部能力越强，越需要来源、时间、环境执行、独立验证与回滚把系统重新接到可反驳的现实。
 - 降秩有效，不是因为它预先知道本质，而是因为它逐步剥夺解释的任意性：现象池限制选材，递归下沉限制抽象跳跃，消融限制冗余，反生成限制有损概括，外推限制事后编故事，结构同构限制模板误判。
 - 抽象和压缩不是并列关系：抽象通过舍掉与任务无关的差异、保留共同结构并留下参数插口来产生压缩；压缩若不能重新展开成具体行为，就只是概括，若误删影响结果的差异，就会变成坏抽象或抽象泄漏。
 - 节日最深的功能不是提供快乐，而是把均质时间切成可纪念、可同步、可复现意义的章节；值得回应不等于外部要求都应服从，而要检验真实痛苦、托付与承诺、责任半径、不可替代性和不可逆时间窗口。
