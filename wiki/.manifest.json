@@ -1456,5 +1456,27 @@
         "wiki/log.md"
       ]
     }
-  }
+  },
+  "research": [
+    {
+      "type": "research",
+      "topic": "面向产品经理的催眠与潜意识经典教材",
+      "researched_at": "2026-08-02T11:03:05+0800",
+      "rounds_completed": 3,
+      "sources_fetched": 18,
+      "pages_created": [
+        "wiki/concepts/Hypnosis Suggestion and Nonconscious Processing.md",
+        "wiki/syntheses/Hypnosis and Unconscious Curriculum for Product Managers.md",
+        "wiki/sources/Clinical Hypnosis Classic Texts Source Guide.md",
+        "wiki/sources/Unconscious Mind Classic Texts Source Guide.md",
+        "wiki/sources/Behavioral Product Design and Ethics Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md",
+        "wiki/.manifest.json"
+      ]
+    }
+  ]
 }

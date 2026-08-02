@@ -87,6 +87,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Hypnosis Suggestion and Nonconscious Processing|Hypnosis, Suggestion, and Nonconscious Processing]] — 催眠是聚焦注意、降低外围觉察并提高暗示反应能力的过程；“潜意识”应拆成自动加工、隐性学习、动机和精神动力等不同模型。 ( #psychology #hypnosis #cognition #product #behavioral-design)
 - [[wiki/concepts/Dimensional Design Grain]] — Grain is the binding declaration of what one fact-table row represents, constraining all legal dimensions and facts. (#database #data-warehouse #modeling)
 - [[wiki/concepts/Fact Table]] — A fact table stores process measurements plus dimensional keys at a declared grain. (#database #data-warehouse #modeling)
 - [[wiki/concepts/Dimension Table]] — A dimension table supplies descriptive context, labels, filters, and groupings for facts. (#database #data-warehouse #modeling)
@@ -237,6 +238,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Verification Gap|Verification Gap]] — 验证鸿沟描述 AI 生成代码速度与人类/组织验证速度之间扩大的差距，是 Vibe 时代软件工程的新瓶颈。 (#ai-coding #verification #software-engineering #quality)
 
 ## Syntheses
+- [[wiki/syntheses/Hypnosis and Unconscious Curriculum for Product Managers|面向产品经理的催眠与潜意识经典教材]] — 从去魅、竞争理论和现代无意识出发，把经典教材转译为用户研究、行为设计、产品实验与伦理红队的 8 周学习路线。 ( #product #psychology #hypnosis #behavioral-design #ethics)
 - [[wiki/syntheses/AI Agent Three Paradoxes|AI Agent 三重悖论]] — 记忆选择、推理脚手架与自我改进验证器相互依赖；成熟 Agent 需要让三者共同接受外部现实、独立验证与回滚约束。 ( #synthesis #agents #memory #harness #feedback)
 - [[wiki/syntheses/Rank Reduction as Generative Model Discovery|降秩方法的底层原理与有效边界]] — 降秩把复杂领域建模为由少数隐藏机制生成的现象空间，再用逐层下沉、消融、反生成、外推和结构同构寻找最小解释骨架。 ( #thinking #reasoning #mechanism #skills #judgment)
 - [[wiki/syntheses/Programming Language Three Operations|编程语言的秩：压缩、裁决与展开]] — 编程语言把人的意图压成符号，用规则裁定符号的去路，再把符号展开成机器事件；抽象是保留任务相关结构的有损压缩机制。 ( #software-engineering #systems #thinking #mechanism)
@@ -292,6 +294,9 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
+- [[wiki/sources/Clinical Hypnosis Classic Texts Source Guide|催眠经典教材导览]] — 汇总催眠理论、研究、临床实践与历史经典，保留状态论、解离论和社会认知论的竞争解释。 ( #books #psychology #hypnosis #research)
+- [[wiki/sources/Unconscious Mind Classic Texts Source Guide|潜意识经典教材导览]] — 从精神动力性无意识到适应性无意识、自动加工、行动归因和判断偏差的经典阅读谱系。 ( #books #psychology #cognition #decision-making)
+- [[wiki/sources/Behavioral Product Design and Ethics Source Guide|行为产品设计与伦理导览]] — 把注意、期待和自动加工转译为行为诊断与选择架构，并以透明、拒绝、撤回和长期用户利益约束产品影响。 ( #product #behavioral-design #ethics #dark-patterns)
 - [[wiki/sources/Skills for the Future Software Profession Paper Source Guide|Skills for the Future Software Profession Paper Source Guide]] — Position paper shifting future software engineering from code production toward executable V&V, agentic workflow architecture, and stewardship against cognitive debt. ( #paper #arxiv #software-engineering #ai-coding #verification)
 - [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源：用成本结构、验证鸿沟、意图-生成-验证循环、复杂度、测试、版本控制和团队门禁解释 Vibe 时代的软件工程。 (#software-engineering #ai-coding #article)
 - [[wiki/sources/Kimball Dimensional Modeling Techniques Source Guide]] — Kimball Group 2013 catalog of dimensional modeling concepts, fact tables, dimensions, conformance, SCD, hierarchies, and special schemas. (#database #data-warehouse #modeling)
