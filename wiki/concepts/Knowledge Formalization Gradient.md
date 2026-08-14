@@ -80,6 +80,7 @@ aliases:
 
 ## Related
 
+- [[wiki/concepts/Formalization]]
 - [[wiki/concepts/Knowledge as Network]]
 - [[wiki/concepts/Knowledge Types]]
 - [[wiki/topics/What Makes a Good Classification]]

@@ -14,7 +14,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 8
-updated: 2026-07-18T20:14:53+0800
+updated: 2026-08-12T23:17:18+0800
 aliases:
   - Computer Science Map
 tags:
@@ -36,6 +36,11 @@ tags:
 ## Go
 
 - [[wiki/topics/Go Memory Model]]
+
+## Formal languages and language structure
+
+- [[wiki/concepts/Formalization]] — 形式化把意义空间中的对象、区别、规则和判定条件固定下来，使任务能被稳定委托、机械执行与重复检查。
+- [[wiki/concepts/Knowledge Formalization Gradient]] — 从经验、日常语言和概念逐步走向形式模型、数学与逻辑的抽象路径。
 
 ## Performance and systems
 

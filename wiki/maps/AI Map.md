@@ -23,7 +23,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 9
-updated: 2026-07-12T23:37:47+0800
+updated: 2026-08-12T23:17:18+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -173,6 +173,7 @@ tags:
 - [[wiki/sources/Prompt Caching Claude Code Case Study Source Guide]]
 - [[wiki/sources/Agent Harness Anatomy Source Guide]]
 - [[wiki/sources/Agent Harness Engineering Survey Source Guide]] — primary PDF survey arguing that agent reliability is often constrained by the harness and organizing the field with the ETCLOVG taxonomy.
+- [[wiki/sources/Code as Agent Harness Paper Source Guide]] — arXiv 2605.18747 survey framing code as the executable, inspectable, and stateful medium for agent reasoning, action, memory, verification, and coordination.
 - [[wiki/sources/Agent Harness Engineering Source Guide]]
 - [[wiki/sources/Agent Observability Needs Feedback Source Guide]]
 - [[wiki/sources/Cursor Codebase Indexing Source Guide]] — Manthan Gupta X article on Cursor codebase indexing: semantic/vector search, sparse n-gram regex search, Merkle sync/proofs, Turbopuffer namespaces, and dynamic context discovery.

@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-07-20T04:29:25+0800
+updated: 2026-08-12T23:17:18+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -185,6 +185,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Human Agency|Human Agency]] — 能动是人在高波动世界中主动选择目标、调用工具、制造反馈并承担结果，而不是被旧叙事和他人期待当作工具。 (#thinking #wealth #systems-thinking #judgment)
 - [[wiki/concepts/Iceberg Model|Iceberg Model]] — Iceberg Model explains visible events as the surface of deeper patterns, structures, and mental models that generate recurring system behavior. (#systems-thinking #mental-models #problem-framing)
 - [[wiki/concepts/Feedforward and Feedback Controls|Feedforward and Feedback Controls]] — Feedforward controls shape an agent before action; feedback controls inspect results after action and steer correction or future harness changes. (#agents #harness #feedback)
+- [[wiki/concepts/Formalization|Formalization]] — 形式化把依赖背景和临场理解的问题改写成对象、表示、规则与判定条件明确的结构，使推理能够被稳定委托、执行和检查。 ( #thinking #reasoning #formal-language #software-engineering #verification)
 - [[wiki/concepts/Harness Ratchet|Harness Ratchet]] — A harness ratchet turns repeated agent failures into durable rules, hooks, checks, or workflow changes instead of treating them as one-off bad runs. (#agents #harness #feedback)
 - [[wiki/concepts/Harnessability|Harnessability]] — Harnessability is how easily a task, codebase, or workflow can be surrounded by context, controls, checks, and templates for effective agent work. (#agents #harness #software-engineering)
 - [[wiki/concepts/Knowledge as Network|Knowledge as Network]] — 知识没有全局层级，只有局部的序。看起来像金字塔，其实是张网。
@@ -319,6 +320,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Codex Maxxing for Long Running Work Source Guide|Codex-maxxing for Long-running Work Source Guide]] — OpenAI 白皮书把 Codex 从一次性 prompt 工具转成可持续推进、可审查、可恢复、可唤醒的工作循环。 (#agents #harness #workflow #memory #ai-coding)
 - [[wiki/sources/Agent Harness Anatomy Source Guide|Agent Harness Anatomy Source Guide]] — Source guide for Akshay Pachaar's agent harness thread, focused on the 12-component harness model and architecture decisions. (#agents #harness #architecture)
 - [[wiki/sources/Agent Harness Engineering Survey Source Guide]] — Source guide for the Agent Harness Engineering survey, preserving its binding-constraint thesis, ETCLOVG taxonomy, project mapping, tradeoffs, and open research agenda. (#paper #agents #harness #architecture #systems)
+- [[wiki/sources/Code as Agent Harness Paper Source Guide|Code as Agent Harness Paper Source Guide]] — arXiv 2605.18747 source guide：代码作为可执行、可检视、有状态的媒介，支撑 Agent 推理、行动、记忆、验证与多 Agent 协作。 ( #paper #arxiv #agents #harness #reasoning)
 - [[wiki/sources/Agent Harness Engineering Source Guide|Agent Harness Engineering Source Guide]] — Source guide for Addy Osmani's Agent Harness Engineering article, focused on harnesses as configurable runtimes, failure ratchets, and service APIs. (#agents #harness #engineering)
 - [[wiki/sources/Agent Harness Qiaomu Article Source Guide|Agent Harness Qiaomu Article Source Guide]] — 这篇文章目前更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 topic 页。 (#article #blog #agents #harness)
 - [[wiki/sources/Agent Observability Needs Feedback Source Guide]] — Source guide for Harrison Chase's X article arguing that agent observability needs trace-linked feedback to become a learning system. (#article #agents #harness #feedback #context)
