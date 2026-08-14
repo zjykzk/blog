@@ -357,4 +357,5 @@ tags:
 - [2026-07-19T22:00:16+0800] CAPTURE type=synthesis page="wiki/syntheses/Rank Reduction as Generative Model Discovery.md" title="降秩方法的底层原理与有效边界"
 - [2026-07-19T22:12:59+0800] CAPTURE type=concept page="wiki/concepts/Knowledge Formalization Gradient.md" title="Knowledge Formalization Gradient"
 - [2026-07-20T04:29:25+0800] INGEST source="inline:ai-agent-three-paradoxes-2026-07-20" pages_updated=9 pages_created=4 mode=append
+- [2026-07-25T19:17:29+0800] CAPTURE type=concept page="wiki/concepts/Nutrients Calories and Human Energy Storage.md" title="营养素、热量与人体能量储存"
 - [2026-08-02T11:03:05+0800] WIKI_RESEARCH topic="面向产品经理的催眠与潜意识经典教材" rounds=3 sources_fetched=18 pages_created=5

@@ -207,6 +207,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Skill Self-Evolution|Skill Self-Evolution]] — Skill self-evolution improves agent skills by generating boundary tasks, optimizing instructions or code, executing comparisons, and evaluating traceable results. (#agents #skills #optimization)
 - [[wiki/concepts/Multiplicative World|Multiplicative World]] — 乘法世界是回报由当前动作与既有存量共同决定的世界；它要求人从补平均短板转向寻找可复利、可放大的长板。 (#wealth #leverage #systems-thinking #career)
 - [[wiki/concepts/Narrative|Narrative]] — 叙事是把被选择的事实串成因果线索的结构，使事实能够用于预测、赋义、协调和行动。 (#thinking #cognition #coordination)
+- [[wiki/concepts/Nutrients Calories and Human Energy Storage|营养素、热量与人体能量储存]] — 营养素是人体获得的物质，热量是其中可供能成分携带的能量；人体以 ATP、糖原和脂肪形成即时、短期与长期储能层级。 ( #systems #mechanism)
 - [[wiki/concepts/Paged Attention|Paged Attention]] — Paged attention stores KV cache in fixed-size blocks so inference servers can allocate, reuse, and evict attention state efficiently. (#llm #inference #memory)
 - [[wiki/concepts/Prefill Decode Split|Prefill Decode Split]] — The prefill/decode split separates full-prompt processing from token-by-token generation because they stress GPU systems differently. (#llm #inference #serving)
 - [[wiki/concepts/Prompt Caching|Prompt Caching]] — Prompt caching reuses stable prompt prefixes so repeated agent turns avoid recomputing the same system, tool, and context tokens. (#agents #context #caching)
