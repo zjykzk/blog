@@ -87,6 +87,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Doris Join Shuffle Strategy|Doris Join Shuffle Strategy]] — Doris 的 Join 分两层选型：先定算法（Hash/Nest Loop），再定分布（Broadcast/Shuffle/Bucket Shuffle/Colocate），网络代价从 N×T(R) 降到 0；Runtime Filter 再动态裁掉大表探测前的行数。 (#database #doris #olap #join #query-optimization)
 - [[wiki/concepts/Hypnosis Suggestion and Nonconscious Processing|Hypnosis, Suggestion, and Nonconscious Processing]] — 催眠是聚焦注意、降低外围觉察并提高暗示反应能力的过程；“潜意识”应拆成自动加工、隐性学习、动机和精神动力等不同模型。 ( #psychology #hypnosis #cognition #product #behavioral-design)
 - [[wiki/concepts/Dimensional Design Grain]] — Grain is the binding declaration of what one fact-table row represents, constraining all legal dimensions and facts. (#database #data-warehouse #modeling)
 - [[wiki/concepts/Fact Table]] — A fact table stores process measurements plus dimensional keys at a declared grain. (#database #data-warehouse #modeling)

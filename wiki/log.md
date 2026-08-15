@@ -19,6 +19,7 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-08-14T00:00:00+0800] CAPTURE type=concept page="wiki/concepts/Doris Join Shuffle Strategy.md" title="Doris Join Shuffle Strategy"
 - [2026-08-12T23:17:18+0800] CAPTURE type=concept page="wiki/concepts/Formalization.md" title="Formalization"
 - [2026-08-12T23:17:18+0800] CAPTURE type=source page="wiki/sources/Code as Agent Harness Paper Source Guide.md" title="Code as Agent Harness Paper Source Guide"
 - [2026-07-18T20:14:53+0800] CAPTURE type=synthesis page="wiki/syntheses/Programming Language Three Operations.md" title="编程语言的秩：压缩、裁决与展开"

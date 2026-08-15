@@ -62,6 +62,7 @@ tags:
 - [[wiki/topics/BoltDB Internals]]
 - [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]] — distributed database trade-off source guide：网络分区下强一致与强可用不能同时保证，数据库选择应回到延迟、失败模式和操作级一致性。
 - [[wiki/sources/Doris 写入与 Routine Load Source Guide|Doris 写入与 Routine Load Source Guide]] — Doris 写入路径 source guide：从 Stream/Broker/Routine Load 选择，下钻到 Routine Load Task、Kafka offset、Rowset、事务和 publish version。
+- [[wiki/concepts/Doris Join Shuffle Strategy|Doris Join Shuffle Strategy]] — Doris Join 两层选型（Hash/Nest Loop 算法 + Broadcast/Shuffle/Bucket Shuffle/Colocate 分布）的网络代价模型、Colocation Group 对齐条件与 Runtime Filter 机制。
 
 ## Architecture and methods
 
