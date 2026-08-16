@@ -23,11 +23,11 @@ aliases:
   - Formalization
 relationships:
   - target: "[[wiki/concepts/Knowledge Formalization Gradient]]"
-    type: grounds
+    type: related_to
   - target: "[[wiki/concepts/Executable Specification]]"
-    type: enables
+    type: related_to
   - target: "[[wiki/concepts/Verification Loop]]"
-    type: enables
+    type: related_to
 ---
 
 # Formalization

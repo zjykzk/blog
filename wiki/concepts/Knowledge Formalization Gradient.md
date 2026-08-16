@@ -10,9 +10,9 @@ updated: 2026-07-19T22:12:59+0800
 summary: >-
   知识的形式化梯度描述知识从生活经验、日常语言、概念方法和领域理论逐步走向形式模型、数学与逻辑的抽象路径。
 provenance:
-  extracted: 0.66
-  inferred: 0.30
-  ambiguous: 0.04
+  extracted: 0.95
+  inferred: 0.05
+  ambiguous: 0.00
 base_confidence: 0.56
 lifecycle: draft
 lifecycle_changed: 2026-07-19

@@ -18,19 +18,19 @@ updated: 2026-08-02T11:03:05+08:00
 summary: >-
   催眠是聚焦注意、降低外围觉察并提高暗示反应能力的过程；“潜意识”则应拆成自动加工、隐性学习、动机和精神动力等不同模型。
 provenance:
-  extracted: 0.66
-  inferred: 0.30
-  ambiguous: 0.04
+  extracted: 0.96
+  inferred: 0.04
+  ambiguous: 0.00
 base_confidence: 0.82
 lifecycle: draft
 lifecycle_changed: 2026-08-02
 relationships:
   - target: "[[wiki/syntheses/Hypnosis and Unconscious Curriculum for Product Managers]]"
-    type: supports
+    type: related_to
   - target: "[[wiki/concepts/Cognitive Load Theory]]"
-    type: related
+    type: related_to
   - target: "[[wiki/topics/User Stories]]"
-    type: applied-in
+    type: related_to
 ---
 
 # Hypnosis, Suggestion, and Nonconscious Processing

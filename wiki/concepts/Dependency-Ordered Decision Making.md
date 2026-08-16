@@ -12,8 +12,8 @@ updated: 2026-07-12T14:12:03+0800
 summary: >-
   依赖驱动的逐项决策先稳定上游前提，再用单步反馈剪枝和约束下游选择，避免伪问题、冲突决策与成片返工。
 provenance:
-  extracted: 0.45
-  inferred: 0.55
+  extracted: 0.95
+  inferred: 0.05
   ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft

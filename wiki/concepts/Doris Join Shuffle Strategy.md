@@ -38,7 +38,7 @@ dim_shop（Build）:         orders（Probe）逐行:
   shop_id=5 → {...}          shop_id=2 → 命中       → 输出 ✅
 ```
 
-「探测」= 拿大表每一行去哈希表里查匹配。问题在于探测开始前大表已经被全量扫上来了，`shop_id=9` 这类注定丢弃的行，磁盘 I/O 和传输已经白白发生——这正是 [[Runtime Filter]]（见下）的介入点。
+「探测」= 拿大表每一行去哈希表里查匹配。问题在于探测开始前大表已经被全量扫上来了，`shop_id=9` 这类注定丢弃的行，磁盘 I/O 和传输已经白白发生——这正是 [[wiki/concepts/Doris Join Shuffle Strategy#Runtime Filter|Runtime Filter]]（见下）的介入点。
 
 ### Nest Loop Join
 

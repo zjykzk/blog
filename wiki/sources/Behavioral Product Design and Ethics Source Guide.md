@@ -20,17 +20,17 @@ updated: 2026-08-02T11:03:05+08:00
 summary: >-
   把催眠与无意识研究转译为行为诊断、选择架构和产品实验，同时以透明、同意、可撤回和用户长期利益划定影响与操控的边界。
 provenance:
-  extracted: 0.72
-  inferred: 0.25
-  ambiguous: 0.03
+  extracted: 0.98
+  inferred: 0.02
+  ambiguous: 0.00
 base_confidence: 0.84
 lifecycle: draft
 lifecycle_changed: 2026-08-02
 relationships:
   - target: "[[wiki/concepts/Hypnosis Suggestion and Nonconscious Processing]]"
-    type: applies
+    type: uses
   - target: "[[wiki/syntheses/Hypnosis and Unconscious Curriculum for Product Managers]]"
-    type: informs
+    type: related_to
   - target: "[[wiki/syntheses/产品行业核心概念地图]]"
     type: extends
 ---

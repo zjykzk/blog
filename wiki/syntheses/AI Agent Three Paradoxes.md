@@ -7,9 +7,9 @@ summary: AI Agent 三重悖论把记忆选择、推理脚手架和自我改进�
 sources:
   - inline:ai-agent-three-paradoxes-2026-07-20
 provenance:
-  extracted: 0.38
-  inferred: 0.56
-  ambiguous: 0.06
+  extracted: 0.81
+  inferred: 0.16
+  ambiguous: 0.03
 base_confidence: 0.32
 lifecycle: draft
 lifecycle_changed: 2026-07-20

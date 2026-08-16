@@ -29,9 +29,9 @@ lifecycle: draft
 lifecycle_changed: 2026-08-02
 relationships:
   - target: "[[wiki/concepts/Hypnosis Suggestion and Nonconscious Processing]]"
-    type: informs
+    type: related_to
   - target: "[[wiki/syntheses/Hypnosis and Unconscious Curriculum for Product Managers]]"
-    type: informs
+    type: related_to
 ---
 
 # Unconscious Mind Classic Texts Source Guide

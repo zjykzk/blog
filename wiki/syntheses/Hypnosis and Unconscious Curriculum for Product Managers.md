@@ -22,19 +22,19 @@ updated: 2026-08-02T11:03:05+08:00
 summary: >-
   面向产品经理的催眠、无意识加工与行为设计经典教材路线：先去魅和理解竞争理论，再转译为研究、交互、实验与伦理审计。
 provenance:
-  extracted: 0.58
-  inferred: 0.39
-  ambiguous: 0.03
+  extracted: 0.99
+  inferred: 0.01
+  ambiguous: 0.00
 base_confidence: 0.86
 lifecycle: draft
 lifecycle_changed: 2026-08-02
 relationships:
   - target: "[[wiki/concepts/Hypnosis Suggestion and Nonconscious Processing]]"
-    type: synthesizes
+    type: derived_from
   - target: "[[wiki/syntheses/产品行业核心概念地图]]"
     type: extends
   - target: "[[wiki/concepts/Cognitive Load Theory]]"
-    type: related
+    type: related_to
 ---
 
 # Hypnosis and Unconscious Curriculum for Product Managers

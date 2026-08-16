@@ -18,9 +18,9 @@ updated: 2026-08-16T16:29:01+0800
 summary: >-
   学习判断"同一类"不是查表归档，而是在表示空间里、由归纳偏置引导、被评价信号裁定，去发现一条"什么变了也不改变答案"的不变性/等价关系。
 provenance:
-  extracted: 0.5
-  inferred: 0.47
-  ambiguous: 0.03
+  extracted: 0.96
+  inferred: 0.00
+  ambiguous: 0.04
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-08-16

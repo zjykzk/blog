@@ -25,9 +25,9 @@ aliases:
   - 代码从答卷变骨架
 relationships:
   - target: "[[wiki/topics/AI Harness]]"
-    type: supports
+    type: related_to
   - target: "[[wiki/concepts/Formalization]]"
-    type: exemplifies
+    type: implements
   - target: "[[wiki/concepts/Verification Loop]]"
     type: extends
 ---

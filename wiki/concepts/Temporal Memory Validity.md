@@ -7,9 +7,9 @@ summary: Temporal memory validity distinguishes when a fact was recorded from wh
 sources:
   - inline:ai-agent-three-paradoxes-2026-07-20
 provenance:
-  extracted: 0.56
-  inferred: 0.39
-  ambiguous: 0.05
+  extracted: 0.81
+  inferred: 0.17
+  ambiguous: 0.02
 base_confidence: 0.32
 lifecycle: draft
 lifecycle_changed: 2026-07-20

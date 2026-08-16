@@ -18,8 +18,8 @@ updated: 2026-08-16T16:29:01+0800
 summary: >-
   搜索与学习是"元能力"：它们不装载领域答案，只装载产生答案的过程，因此能随算力任意扩展；其本质是同一台用算力驱动"生成→评估→改进"的发现引擎。
 provenance:
-  extracted: 0.55
-  inferred: 0.42
+  extracted: 0.86
+  inferred: 0.11
   ambiguous: 0.03
 base_confidence: 0.44
 lifecycle: draft
