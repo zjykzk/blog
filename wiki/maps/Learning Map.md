@@ -40,6 +40,8 @@ provenance:
 - [[wiki/concepts/Application]]——让抽象知识在具体约束中产生效果
 - [[wiki/concepts/Creation]]——把未成形的可能性组织成可继续使用的新秩序
 - [[wiki/concepts/Analogy-Making]]——用熟悉结构承接陌生对象的认知动作
+- [[wiki/concepts/Search and Learning as Meta-Methods]]——搜索与学习是同一台"生成→评估→改进"的发现引擎；人把这台引擎的算力预付在演化与文化里
+- [[wiki/concepts/Class as Learned Invariance]]——学习判断"同一类"是发现一条"什么变了也不改变答案"的不变性；划对了叫抽象，划错了叫过拟合
 - [[wiki/concepts/Cognitive Load Theory]]——用工作记忆带宽、外在负荷、内在负荷和图式形成解释教学设计
 - [[wiki/concepts/Autonomy-Supportive Parenting]]——通过温暖、边界、选择、责任和渐进退出，帮助孩子把规则内化成自己的理由
 - [[wiki/concepts/Cognitive Engineering]]——设计人、工具与反馈构成的认知系统
@@ -70,6 +72,7 @@ provenance:
 - [[wiki/sources/推理概念解剖 Source Guide]]——推理概念解剖 source guide：推理是沿关系纹路从前提和迹象走向可回溯结论的过程
 - [[wiki/sources/推理证明与未知问答 Source Guide]]——推理教学追问 source guide：未知是受约束判断空位，证明是公开化、规则化、可回查的推理
 - [[wiki/sources/光速不变与相对性原则问答 Source Guide]]——中文物理教学问答：从光速不变、公设来源、相对性原则讲到非惯性参考系
+- [[wiki/sources/The Bitter Lesson Source Guide]]——Rich Sutton 经典短文：能随算力扩展的通用方法（search、learning）长期压过内置人类知识，并主张只内置能发现复杂性的元方法
 - [[wiki/sources/推理能力训练 Source Guide]]——推理能力训练 source guide：用概念清晰、因果建模、反例意识、预测和复盘训练判断校准能力
 - [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]——中文问题拆解文章：用 MECE、维度选择、逻辑树、横向展开和纵向追问，把复杂问题转成可行动的小结构
 - [[wiki/sources/发现和定义问题 Source Guide]]——中文问题定义文章：用 Problem/Issue 区分和“发现异常→确认本质→定义议题→对齐共识”把模糊麻烦转成可行动议题

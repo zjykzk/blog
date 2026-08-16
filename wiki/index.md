@@ -87,6 +87,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Search and Learning as Meta-Methods|Search and Learning as Meta-Methods]] — 搜索与学习是元能力：不装载领域答案，只装载产生答案的过程，因此能随算力任意扩展；本质是同一台"生成→评估→改进"的发现引擎，人则把这台引擎的算力预付在演化与文化里。 (#training #cognition #llm #learning)
+- [[wiki/concepts/Class as Learned Invariance|Class as Learned Invariance]] — 学习判断"同一类"不是查表归档，而是在表示空间里、由归纳偏置引导、被评价信号裁定，发现一条"什么变了也不改变答案"的不变性；划对了叫抽象，划错了叫过拟合。 (#training #cognition #learning #llm)
 - [[wiki/concepts/Doris Join Shuffle Strategy|Doris Join Shuffle Strategy]] — Doris 的 Join 分两层选型：先定算法（Hash/Nest Loop），再定分布（Broadcast/Shuffle/Bucket Shuffle/Colocate），网络代价从 N×T(R) 降到 0；Runtime Filter 再动态裁掉大表探测前的行数。 (#database #doris #olap #join #query-optimization)
 - [[wiki/concepts/Hypnosis Suggestion and Nonconscious Processing|Hypnosis, Suggestion, and Nonconscious Processing]] — 催眠是聚焦注意、降低外围觉察并提高暗示反应能力的过程；“潜意识”应拆成自动加工、隐性学习、动机和精神动力等不同模型。 ( #psychology #hypnosis #cognition #product #behavioral-design)
 - [[wiki/concepts/Dimensional Design Grain]] — Grain is the binding declaration of what one fact-table row represents, constraining all legal dimensions and facts. (#database #data-warehouse #modeling)
@@ -471,6 +473,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/SkillOS Paper Source Guide]] — Direct paper guide for SkillOS, preserving its formal streaming curation setting, grouped-task GRPO recipe, benchmark results, analyses, limitations, and future directions. (#paper #arxiv #agents #skills #training)
 - [[wiki/sources/SkillOS Source Guide]] — Source guide for AVB's SkillOS article: experiences become reusable skills through a trainable curator, grouped task rollouts, and delayed RL rewards. (#article #agents #skills #memory #training)
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide|Team AI Coding Harness Seminar Source Guide]] — Source guide for TechLead 少个分号's WeChat seminar recap on team-level AI coding harness, human discipline, TDD loops, and translation-layer compression. (#agents #harness #ai-coding)
+- [[wiki/sources/The Bitter Lesson Source Guide|The Bitter Lesson Source Guide]] — Source guide for Rich Sutton's 2019 essay arguing that general methods scaling with computation — search and learning — beat built-in human knowledge in the long run. (#training #llm #cognition #article)
 - [[wiki/sources/Use Case 开发管理 Source Guide|Use Case 开发管理 Source Guide]] — 这页保存一份关于 Use Case 如何定义行为契约，并关联 UI、API、应用服务、领域模型、数据库、测试和开发任务的中文讲解。 (#requirements #software-engineering #architecture #testing)
 - [[wiki/sources/Use Case concept graph|Use Case Concept Graph]] — Use Case Concept Graph preserves a compact diagram of use case relations among stakeholder, actor, scope, level, and trigger. (#requirements #software-analysis #diagram)
 - [[wiki/sources/Use Case 协作与追踪矩阵 Source Guide|Use Case 协作与追踪矩阵 Source Guide]] — 这页保存 Use Case 从产品初版、业务校验、RD 领域建模、UI/API 设计、QA 验收到开发任务追踪矩阵的协作流程。 (#requirements #software-engineering #architecture #testing)

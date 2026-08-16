@@ -19,6 +19,9 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-08-16T16:29:01+0800] CAPTURE type=concept page="wiki/concepts/Search and Learning as Meta-Methods.md" title="Search and Learning as Meta-Methods"
+- [2026-08-16T16:29:01+0800] CAPTURE type=concept page="wiki/concepts/Class as Learned Invariance.md" title="Class as Learned Invariance"
+- [2026-08-16T16:29:01+0800] CAPTURE type=source page="wiki/sources/The Bitter Lesson Source Guide.md" title="The Bitter Lesson Source Guide"
 - [2026-08-14T00:00:00+0800] CAPTURE type=concept page="wiki/concepts/Doris Join Shuffle Strategy.md" title="Doris Join Shuffle Strategy"
 - [2026-08-12T23:17:18+0800] CAPTURE type=concept page="wiki/concepts/Formalization.md" title="Formalization"
 - [2026-08-12T23:17:18+0800] CAPTURE type=source page="wiki/sources/Code as Agent Harness Paper Source Guide.md" title="Code as Agent Harness Paper Source Guide"

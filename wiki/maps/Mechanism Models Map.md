@@ -165,6 +165,8 @@ aliases:
 - [[wiki/concepts/AI Learning Tutor Loop]]：AI tutor 应先建立知识地形、暴露分歧、诊断理解，再修补错误。
 - [[wiki/concepts/Knowledge as Network]]：知识不是塔，而是局部有序的网。
 - [[wiki/concepts/Cognition Three Channels]]：认识依赖接收、替代经验和想象推演三根生成器。
+- [[wiki/concepts/Search and Learning as Meta-Methods]]：把学习与搜索压成同一台"空间 + 评价信号 + 迭代"的发现引擎，用算力驱动"生成→评估→改进"持续逼近目标。
+- [[wiki/concepts/Class as Learned Invariance]]：把"判断同一类"解释为发现一条由归纳偏置引导、评价信号裁定的不变性/等价关系，过拟合即学到错误的等价关系。
 - [[wiki/concepts/三个自我模型]]：成长要改写内核自我的预测模型、先验假设和更新规则。
 - [[wiki/syntheses/Zima Blue 自我回归与无我]]：把无限可能、有限自我、因缘生成和“成为”冲动的止息连成一条自我机制分析。
 

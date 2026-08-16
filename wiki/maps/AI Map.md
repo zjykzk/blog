@@ -65,6 +65,8 @@ tags:
 - [[wiki/concepts/Verifier Hierarchy]] — 按评估器独立性与现实接地程度比较自评、模型裁判、人类判断、执行反馈和形式验证。
 - [[wiki/concepts/Meta-Harness]]
 - [[wiki/concepts/Skill Self-Evolution]]
+- [[wiki/concepts/Search and Learning as Meta-Methods]] — search 与 learning 是能随算力任意扩展的元能力，本质是同一台"生成→评估→改进"的发现引擎。
+- [[wiki/concepts/Class as Learned Invariance]] — 学习判断"同一类"是发现一条不变性/等价关系，而非查表归档；过拟合即学到错误的等价关系。
 - [[wiki/concepts/LLM]]
 - [[wiki/concepts/Next-Token Pipeline]]
 - [[wiki/concepts/Tokenization]]
@@ -196,6 +198,7 @@ tags:
 - [[wiki/sources/Company Brain Source Guide]]
 - [[wiki/sources/Memory Is State Not a Service Source Guide]]
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
+- [[wiki/sources/The Bitter Lesson Source Guide]] — Rich Sutton 1997/2019 经典短文：能随算力扩展的通用方法（search、learning）长期压过内置的人类知识。
 - [[wiki/sources/The Art of Loop Engineering Source Guide]] — LangChain 文章：agent 生产力价值来自多层循环叠加，而不只是模型能力。
 - [[wiki/sources/Structured-Prompt-Driven Development Source Guide]]
 - [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源：围绕 Vibe coding、验证鸿沟、意图-生成-验证循环、复杂度和团队门禁组织 AI 软件工程入门。

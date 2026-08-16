@@ -8,10 +8,11 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-08-12T23:17:18+0800
+updated: 2026-08-16T16:29:01+0800
 ---
 
 ## Recent Activity
+- 2026-08-16T16:29:01+0800 — 已捕获 [[wiki/concepts/Search and Learning as Meta-Methods|Search and Learning as Meta-Methods]] 与 [[wiki/concepts/Class as Learned Invariance|Class as Learned Invariance]]，并整理 [[wiki/sources/The Bitter Lesson Source Guide|The Bitter Lesson]]：search/learning 是能随算力任意扩展的元能力，本质是同一台"生成→评估→改进"的发现引擎；人把算力预付在演化与文化，个体坐享其成；学习判断"同一类"则是发现一条由归纳偏置引导、评价信号裁定的不变性/等价关系。
 - 2026-08-14T00:00:00+0800 — 已捕获 [[wiki/concepts/Doris Join Shuffle Strategy|Doris Join Shuffle Strategy]]：Doris 的 Join 执行分两层——先定算法（Hash/Nest Loop），再定数据分布（Broadcast/Shuffle/Bucket Shuffle/Colocate），网络代价从 N×T(R) 递减到 0；Colocate 依赖 Colocation Group 与逐分区分桶对齐，Runtime Filter 再动态裁掉大表探测前的行数。
 - 2026-08-12T23:17:18+0800 — 已捕获 [[wiki/concepts/Formalization|形式化]]，并整理 [[wiki/sources/Code as Agent Harness Paper Source Guide|Code as Agent Harness]]：形式化是可靠委托的翻译层；代码把形式结构进一步变成可执行、可检视、有状态的 Agent 工作对象。
 - 2026-08-02T11:03:05+0800 — 已研究并整理 [[wiki/syntheses/Hypnosis and Unconscious Curriculum for Product Managers|面向产品经理的催眠与潜意识经典教材]]：以 10 本不同作者的催眠核心书单为起点，连接现代无意识、行为设计、视频课程与暗黑模式伦理。
@@ -22,6 +23,7 @@ updated: 2026-08-12T23:17:18+0800
 
 ## Active Threads
 
+- Bitter Lesson 现在为学习与 AI 加上一条元能力主线：能随算力任意扩展的只有 search 与 learning，因为它们装载的是"发现答案的过程"而非答案本身；两者是同一台"空间 + 评价信号 + 迭代"的发现引擎在不同空间/时间尺度上的投影，学习本身就是一种搜索。人个体的"省搜索、靠先验"并不违反 Bitter Lesson——那场大规模搜索预付在演化与文化里，个体只是继承压缩结果，并多出一手"重构空间"的创造能力。由此进一步得到分类观：学习判断"同一类"不是查表归档，而是在表示空间里、由归纳偏置引导、被评价信号裁定，发现一条"什么变了也不改变答案"的不变性；划对了叫抽象，划错了叫过拟合。
 - 数据库与查询优化现在加入 Doris Join 选型线索：分布式 Join 要分两层看——单机算法（Hash vs Nest Loop）和跨节点数据分布（Broadcast/Shuffle/Bucket Shuffle/Colocate）；真正的性能杠杆在第二层，网络代价从 N×T(R) 一路降到 0，而越快的策略（Colocate）对分桶键、桶数和逐分区对齐的约束越硬、调度越刚性。Runtime Filter 与谓词下推是正交的两种剪枝：前者在执行期把 Join 对象的实际 Key 范围反向告知扫描端，后者在规划期把已知条件提前做。
 - 形式化与 Agent harness 现在连成一条线：先把意义空间中的重要区别压成对象、表示、规则和判定条件，才能稳定委托；代码再用执行、trace、状态与测试把这些形式结构接进闭环，但规格是否对准现实仍需 validation 与人类判断。
 - 产品方法现在加入催眠与非意识加工线索：催眠应被理解为聚焦注意、外围觉察降低与暗示反应增强的过程；“潜意识”要拆成自动加工、隐性学习、适应性无意识和精神动力模型。产品应用必须经过目标归属、透明性、拒绝与撤回、脆弱性和长期结果审计。
