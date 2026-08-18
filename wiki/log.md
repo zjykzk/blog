@@ -19,6 +19,7 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-08-16T22:37:52+0800] CAPTURE type=synthesis page="wiki/syntheses/Euclid as a Case of Formalization's Limits.md" title="Euclid as a Case of Formalization's Limits"
 - [2026-08-16T16:29:01+0800] CAPTURE type=concept page="wiki/concepts/Search and Learning as Meta-Methods.md" title="Search and Learning as Meta-Methods"
 - [2026-08-16T16:29:01+0800] CAPTURE type=concept page="wiki/concepts/Class as Learned Invariance.md" title="Class as Learned Invariance"
 - [2026-08-16T16:29:01+0800] CAPTURE type=source page="wiki/sources/The Bitter Lesson Source Guide.md" title="The Bitter Lesson Source Guide"
@@ -365,6 +366,12 @@ tags:
 - [2026-07-20T04:29:25+0800] INGEST source="inline:ai-agent-three-paradoxes-2026-07-20" pages_updated=9 pages_created=4 mode=append
 - [2026-07-25T19:17:29+0800] CAPTURE type=concept page="wiki/concepts/Nutrients Calories and Human Energy Storage.md" title="营养素、热量与人体能量储存"
 - [2026-08-02T11:03:05+0800] WIKI_RESEARCH topic="面向产品经理的催眠与潜意识经典教材" rounds=3 sources_fetched=18 pages_created=5
+- [2026-08-15T11:10:48+0800] QUERY query="有哪些世界模型" result_pages=4 mode=normal escalated=false
+- [2026-08-15T11:20:41+0800] CAPTURE type=concept page="wiki/concepts/Nature of a Question.md" title="Nature of a Question"
+- [2026-08-15T11:51:31+0800] QUERY query="AI agent领域，建议怎么学习" result_pages=9 mode=normal escalated=false
+- [2026-08-15T22:44:31+0800] CAPTURE type=synthesis page="wiki/syntheses/AI Agent Engineering Learning Path.md" title="AI Agent Engineering Learning Path"
+- [2026-08-16T17:13:51+0800] CAPTURE type=source page="wiki/sources/The Art of Doing Science and Engineering Source Guide.md" title="The Art of Doing Science and Engineering Source Guide"
+- [2026-08-16T17:13:51+0800] CAPTURE type=synthesis page="wiki/syntheses/From Senior Engineer to Tech Leader.md" title="From Senior Engineer to Tech Leader"
 - [2026-08-16T18:30:00+0800] LINT issues_found=23 orphans=0 broken_links=1 stale=236 contradictions=0 prov_issues=4 missing_summary=0 fragmented_clusters=0 visibility_issues=0 promotion_candidates=0 synthesis_gaps=4 relationship_issues=18 note="report-only; stale=all draft (no verified stale); frag clusters all broad-domain tags excluded per taxonomy; prov drift re-accumulated since 2026-05-10 normalize"
 - [2026-08-16T18:45:00+0800] LINT_FIX broken_links_fixed=1 page="Doris Join Shuffle Strategy (Runtime Filter -> same-page heading anchor)" relationship_types_fixed=18 pages=8 note="non-vocabulary types (grounds/enables/supports/related/applied-in/applies/informs/exemplifies/operationalizes/develops/synthesizes) mapped to allowed set"
 - [2026-08-16T18:46:00+0800] LINT_FIX rule=7 provenance_drift_fixed=12 mode="normalize-frontmatter" note="recomputed marker-based fractions; only 12 genuine drifts>0.20 (prior report of 39 was denominator artifact)"

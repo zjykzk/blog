@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-07-19T22:00:16+0800
+updated: 2026-08-15T11:20:41+0800
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -72,6 +72,7 @@ aliases:
 - [[wiki/sources/知识图谱的秩 Source Guide]]：把知识图谱解释为钉住对象、织出关系和沿路追问之间互相修正的反馈环。
 - [[wiki/concepts/Analysis]]：分析不是拆碎，而是沿对象自身结构切开，并能重新组合成行动理解。
 - [[wiki/concepts/Understanding]]：理解不是拥有一句定义，而是形成一团能类比、抽象、迁移和重建的概念云。
+- [[wiki/concepts/Nature of a Question]]：把问题解释为现实、认知模型与行动之间的裂口，并从差距、受阻、不确定与选择说明问题如何生成。
 - [[wiki/topics/Problem Framing]]：先审查问题边界、目标和前提，避免在错误问题里高效求解。
 - [[wiki/topics/Mental Models]]：把经验压成可复用的判断结构，但需要现实反馈校验。
 - [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]：把复杂问题从混沌状态转成可处理结构，先横向展开，再纵向追问近因、系统/流程原因和人的原因。

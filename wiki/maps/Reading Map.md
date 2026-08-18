@@ -14,7 +14,7 @@ base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-07-03T21:41:34+0800
+updated: 2026-08-16T17:13:51+0800
 aliases:
   - 读书地图
 tags:
@@ -51,6 +51,7 @@ tags:
 
 ## Syntheses
 
+- [[wiki/syntheses/From Senior Engineer to Tech Leader]] — 把汉明的 Learning to Learn 转成高级工程师走向 Tech Leader 的系统、团队和方向三问。
 - [[wiki/syntheses/丝绸之路中的宗教组织力量]] — 把《丝绸之路》中的宗教读成贸易信任、帝国合法性、身份边界、冲突动员和文化混合的组织力量。
 - [[wiki/syntheses/Thinking and Judgment Workflow]]
 - [[wiki/syntheses/Acting Under Complexity]]
@@ -58,6 +59,7 @@ tags:
 
 ## Current source guides
 
+- [[wiki/sources/The Art of Doing Science and Engineering Source Guide]] — 《科学与工程的艺术》：技术细节会过时，长期能力是选择重要问题、学习基础结构并修正思维风格。
 - [[wiki/sources/Iceberg Model Source Guide]]
 - [[wiki/sources/Modern Software Engineering Notes]]
 - [[wiki/sources/Mobu Notes]]

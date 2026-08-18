@@ -15,7 +15,7 @@ created: 2026-04-26
 base_confidence: 0.32
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-11T10:00:26+08:00
+updated: 2026-08-16T17:13:51+0800
 aliases:
   - 学习地图
 provenance:
@@ -52,6 +52,7 @@ provenance:
 
 ## 跨源综合
 
+- [[wiki/syntheses/From Senior Engineer to Tech Leader]]——把 Learning to Learn 转成高级工程师的系统演进、团队能力扩散和技术投资三条长期问题
 - [[wiki/syntheses/Learning Methodology Across Sources]]——七条原则在多本学习书里的印证矩阵
 - [[wiki/syntheses/Knowledge System Construction]]——把问题牵引、知识成网、SECI、知识资产化、CODE、实践共同体和知识审计合成一套知识体系构建闭环
 - [[wiki/syntheses/ICAP 与知识类型的适用边界]]——把 ICAP 定位为学习深度刻度，而不是所有知识的同一种学习处方，并区分事实、概念、因果、程序、判断和情境知识的用法
@@ -62,6 +63,7 @@ provenance:
 
 ## 相关源笔记（pages/ 与 mobu/）
 
+- [[wiki/sources/The Art of Doing Science and Engineering Source Guide]]——汉明用教育/训练、知识半衰期、系统工程和重要问题解释为什么要学会学习
 - [[wiki/sources/NotebookLM Learning Workflow Source Guide]]——Ihtesham Ali 的 NotebookLM 学习 workflow source guide
 - [[wiki/sources/Understanding as Concept Cloud Source Guide]]——理解之云 inline source guide
 - [[wiki/sources/思维圆桌 Source Guide]]——关于思维定义、高阶审题、问题表征、语言陷阱和责任判断的圆桌材料

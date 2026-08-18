@@ -1,18 +1,22 @@
 ---
 title: Hot Cache
 category: meta
-summary: 形式化通过固定对象、表示、规则与判定条件减少委托中的自由解释；代码再把形式结构变成可执行、可检视、有状态的 Agent 运行媒介。
+summary: 高级工程师走向 Tech Leader，需要把 Learning to Learn 扩展到系统、团队和技术投资：让架构可演进、判断可扩散、方向可校准。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-08-16T16:29:01+0800
+updated: 2026-08-16T22:37:52+0800
 ---
 
 ## Recent Activity
+- 2026-08-16T22:37:52+0800 — 已捕获 [[wiki/syntheses/Euclid as a Case of Formalization's Limits|Euclid as a Case of Formalization's Limits]]：把 [[wiki/concepts/Formalization|形式化]] 的"必然有外部"判断放到数学史上检验——欧几里得这个最完整的形式化，把视觉直觉、语义指称、刚体运动和平行公设四类东西留在圈外；前三类是系统内部的裂缝（靠图形和经验偷偷补上），第四类是现实对应（空间是否为平只是选择），而两千年后掀翻数学与物理的希尔伯特公理化和非欧几何，恰恰从这些圈外剩余长出。
+- 2026-08-16T17:13:51+0800 — 已整理 [[wiki/sources/The Art of Doing Science and Engineering Source Guide|The Art of Doing Science and Engineering]]，并综合为 [[wiki/syntheses/From Senior Engineer to Tech Leader|From Senior Engineer to Tech Leader]]：Learning to Learn 不是多学知识，而是在技术过时、问题变化和系统演化中持续修正选题、架构、团队判断与技术投资。
 - 2026-08-16T16:29:01+0800 — 已捕获 [[wiki/concepts/Search and Learning as Meta-Methods|Search and Learning as Meta-Methods]] 与 [[wiki/concepts/Class as Learned Invariance|Class as Learned Invariance]]，并整理 [[wiki/sources/The Bitter Lesson Source Guide|The Bitter Lesson]]：search/learning 是能随算力任意扩展的元能力，本质是同一台"生成→评估→改进"的发现引擎；人把算力预付在演化与文化，个体坐享其成；学习判断"同一类"则是发现一条由归纳偏置引导、评价信号裁定的不变性/等价关系。
+- 2026-08-15T22:44:31+0800 — 已捕获 [[wiki/syntheses/AI Agent Engineering Learning Path|AI Agent Engineering Learning Path]]：用一个持续演化的 Repo Task Agent 串起 12 周实践，学习顺序是单 Agent 控制循环、工具与安全执行、生命周期、可观测与评测、context、memory、Skill，最后用基线决定是否引入多 Agent。
+- 2026-08-15T11:20:41+0800 — 已捕获 [[wiki/concepts/Nature of a Question|Nature of a Question]]：问题不只是“缺少答案”，而是主体能设想多种可能，却发现当前现实与认知模型不足以可靠决定下一步；提问的作用是把这一模型—行动缺口显化。
 - 2026-08-14T00:00:00+0800 — 已捕获 [[wiki/concepts/Doris Join Shuffle Strategy|Doris Join Shuffle Strategy]]：Doris 的 Join 执行分两层——先定算法（Hash/Nest Loop），再定数据分布（Broadcast/Shuffle/Bucket Shuffle/Colocate），网络代价从 N×T(R) 递减到 0；Colocate 依赖 Colocation Group 与逐分区分桶对齐，Runtime Filter 再动态裁掉大表探测前的行数。
 - 2026-08-12T23:17:18+0800 — 已捕获 [[wiki/concepts/Formalization|形式化]]，并整理 [[wiki/sources/Code as Agent Harness Paper Source Guide|Code as Agent Harness]]：形式化是可靠委托的翻译层；代码把形式结构进一步变成可执行、可检视、有状态的 Agent 工作对象。
 - 2026-08-02T11:03:05+0800 — 已研究并整理 [[wiki/syntheses/Hypnosis and Unconscious Curriculum for Product Managers|面向产品经理的催眠与潜意识经典教材]]：以 10 本不同作者的催眠核心书单为起点，连接现代无意识、行为设计、视频课程与暗黑模式伦理。
@@ -23,9 +27,12 @@ updated: 2026-08-16T16:29:01+0800
 
 ## Active Threads
 
+- 技术领导力现在加入汉明的 Learning to Learn 线索：高级工程师的成长不是扩大个人解题量，而是同时经营三个系统问题——架构能否低成本应对变化，团队能否在没有个人审批时维持判断质量，技术投入能否连接业务结果并接受反馈修正。
 - Bitter Lesson 现在为学习与 AI 加上一条元能力主线：能随算力任意扩展的只有 search 与 learning，因为它们装载的是"发现答案的过程"而非答案本身；两者是同一台"空间 + 评价信号 + 迭代"的发现引擎在不同空间/时间尺度上的投影，学习本身就是一种搜索。人个体的"省搜索、靠先验"并不违反 Bitter Lesson——那场大规模搜索预付在演化与文化里，个体只是继承压缩结果，并多出一手"重构空间"的创造能力。由此进一步得到分类观：学习判断"同一类"不是查表归档，而是在表示空间里、由归纳偏置引导、被评价信号裁定，发现一条"什么变了也不改变答案"的不变性；划对了叫抽象，划错了叫过拟合。
+- Agent 学习现在形成一条工程主线：先手写可停止、可追踪的单 Agent loop，再用 ETCLOVG 补齐 execution、tooling、context、lifecycle、observability、verification 和 governance；记忆与多 Agent 只有在固定任务集上证明净收益后才进入系统。
+- 问题与提问现在加入一条更底层的生成机制：现实—预期差距先造成行动受阻，再显化为不确定与选择；大模型可以帮助暴露假设、比较解释和寻找证据，但目标与价值选择仍由主体承担。
 - 数据库与查询优化现在加入 Doris Join 选型线索：分布式 Join 要分两层看——单机算法（Hash vs Nest Loop）和跨节点数据分布（Broadcast/Shuffle/Bucket Shuffle/Colocate）；真正的性能杠杆在第二层，网络代价从 N×T(R) 一路降到 0，而越快的策略（Colocate）对分桶键、桶数和逐分区对齐的约束越硬、调度越刚性。Runtime Filter 与谓词下推是正交的两种剪枝：前者在执行期把 Join 对象的实际 Key 范围反向告知扫描端，后者在规划期把已知条件提前做。
-- 形式化与 Agent harness 现在连成一条线：先把意义空间中的重要区别压成对象、表示、规则和判定条件，才能稳定委托；代码再用执行、trace、状态与测试把这些形式结构接进闭环，但规格是否对准现实仍需 validation 与人类判断。
+- 形式化与 Agent harness 现在连成一条线：先把意义空间中的重要区别压成对象、表示、规则和判定条件，才能稳定委托；代码再用执行、trace、状态与测试把这些形式结构接进闭环，但规格是否对准现实仍需 validation 与人类判断。形式化本身则必然有一个"外部"：欧几里得这个最完整的形式化案例说明，视觉直觉、语义指称、刚体运动被当作不言自明而排除在公理外（系统内部裂缝），平行公设则把"空间是否为平"这个现实选择排除在外（现实对应）；审视任何成熟形式系统时，最有价值的问题不是"内部推得对不对"，而是"它把什么当成当然、从而排除在系统之外"——那些被排除的选择既是盲区，也是下一次突破的入口。
 - 产品方法现在加入催眠与非意识加工线索：催眠应被理解为聚焦注意、外围觉察降低与暗示反应增强的过程；“潜意识”要拆成自动加工、隐性学习、适应性无意识和精神动力模型。产品应用必须经过目标归属、透明性、拒绝与撤回、脆弱性和长期结果审计。
 - 身体机制现在加入营养与储能线索：营养素是物质，热量是能量计量；人体并不储存“热”，而是把化学能分配到 ATP、糖原和甘油三酯，并在禁食或运动时改变各通路的相对占比。
 - Agent 成熟现在加入三重悖论线索：记忆要动态选择并治理时间有效性，推理脚手架要证明收益大于新增故障面，自我改进的验证器强度应随更新的持久性、作用域和不可逆性提升。
@@ -152,6 +159,9 @@ updated: 2026-08-16T16:29:01+0800
 
 ## Key Takeaways
 
+- Tech Leader 的核心产出不是更多亲自完成的复杂代码，而是一个持续学习的工程系统：正确问题更容易被看见，错误方案更早暴露，架构保留演进路径，团队判断不依赖个人，技术投资能被业务结果和现实反馈校准。
+- 精通 AI Agent 不等于熟悉最多框架，而是能把真实任务建模为受约束的控制循环，沿任务规格、观察、上下文、状态、计划、工具、执行、反馈、验证和停止条件定位失败，并把重复失败沉淀成测试、规则、工具或 Skill。
+- 问题不是问句本身，而是一个能设想可能性的主体发现当前现实与认知模型不足以决定下一步；好问题会优先显化那个最可能改变行动的未知量。
 - 形式化不是把现实完整复制成符号，而是为特定目的选择重要区别，并固定对象、表示、规则与判定条件；它提高规则执行的一致性，却不自动保证规则真实、公平或符合人的意图。
 - 产品经理不应把“潜意识”当作用户行为黑箱，也不应把催眠当作控制技术；更可靠的工作模型是追踪注意、期待、能力、提示、自动性和情境，并用自述、行为与结果三角验证，同时把用户自主性设为硬约束。
 - 能量充足不等于营养充足：热量只回答可供能成分携带多少能量，营养判断还要看蛋白质、脂肪类型、维生素、矿物质、水和膳食纤维；人体长期储存的主要是甘油三酯，而不是“热量本身”。

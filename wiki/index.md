@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-08-12T23:17:18+0800
+updated: 2026-08-16T17:13:51+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -141,6 +141,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/AI Learning Tutor Loop|AI Learning Tutor Loop]] — AI Learning Tutor Loop uses a source-grounded AI system to map a field, expose disagreements, test understanding, and repair errors. (#learning #tutoring #questions)
 - [[wiki/concepts/Analogy-Making|Analogy-Making]] — Analogy-making is the cognitive act of understanding a new situation by mapping it onto familiar structures. (#cognition #concepts #thinking)
 - [[wiki/concepts/Analysis|Analysis]] — Analysis opens a whole along its own structure, identifies parts and relations, then recomposes them into actionable understanding. (#thinking #concepts #reasoning)
+- [[wiki/concepts/Nature of a Question|Nature of a Question]] — 问题产生于现实、认知模型与行动之间的裂口：主体能够设想多种可能，却发现当前现实不足以可靠决定下一步。 (#thinking #cognition #judgment #reasoning)
 - [[wiki/concepts/Logic Tree and Pyramid Principle|Logic Tree and Pyramid Principle]] — 逻辑树向下拆问题以发现答案，金字塔原理向上收结论以交付答案；二者共享父子层级、同层分组和上下统摄结构。 (#thinking #reasoning #workflow)
 - [[wiki/concepts/五大思维三层架构|五大思维三层架构]] — 五大思维三层架构把结构化思维视为操作界面，系统/逻辑提供方向和规则，创造/批判提供突破和检验。 (#thinking #reasoning #problem-solving #mechanism)
 - [[wiki/concepts/问题解决铁三角|问题解决铁三角]] — 问题解决铁三角把思维模式、方法论与具体问题看作共同进化系统，而不是工具套用流程。 (#thinking #problem-solving #methodology #mechanism)
@@ -243,6 +244,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Verification Gap|Verification Gap]] — 验证鸿沟描述 AI 生成代码速度与人类/组织验证速度之间扩大的差距，是 Vibe 时代软件工程的新瓶颈。 (#ai-coding #verification #software-engineering #quality)
 
 ## Syntheses
+- [[wiki/syntheses/Euclid as a Case of Formalization's Limits|Euclid as a Case of Formalization's Limits]] — 欧几里得几何是最完整的形式化范例，却把视觉直觉、语义指称、刚体运动和"空间是否为平"留在圈外；两千年后掀翻数学与物理的东西恰恰从这些圈外剩余长出。 (#thinking #reasoning #formal-language #mathematics #history)
+- [[wiki/syntheses/From Senior Engineer to Tech Leader|From Senior Engineer to Tech Leader]] — 高级工程师走向 Tech Leader 的核心不是扩大个人解题量，而是让架构可演进、团队判断可扩散，并把技术投入持续对齐高杠杆问题。 ( #leadership #engineering #architecture #career)
 - [[wiki/syntheses/Hypnosis and Unconscious Curriculum for Product Managers|面向产品经理的催眠与潜意识经典教材]] — 从去魅、竞争理论和现代无意识出发，把经典教材转译为用户研究、行为设计、产品实验与伦理红队的 8 周学习路线。 ( #product #psychology #hypnosis #behavioral-design #ethics)
 - [[wiki/syntheses/AI Agent Three Paradoxes|AI Agent 三重悖论]] — 记忆选择、推理脚手架与自我改进验证器相互依赖；成熟 Agent 需要让三者共同接受外部现实、独立验证与回滚约束。 ( #synthesis #agents #memory #harness #feedback)
 - [[wiki/syntheses/Rank Reduction as Generative Model Discovery|降秩方法的底层原理与有效边界]] — 降秩把复杂领域建模为由少数隐藏机制生成的现象空间，再用逐层下沉、消融、反生成、外推和结构同构寻找最小解释骨架。 ( #thinking #reasoning #mechanism #skills #judgment)
@@ -267,6 +270,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Agent Skill Implementation Landscape|Agent Skill Implementation Landscape]] — Agent skill 是按需加载的操作知识包；行业实践可分为知识包、工具函数、协议服务和企业插件四类实现路线。 (#agents #skills #tools #context #workflow)
 - [[wiki/syntheses/Coding Agent Debugging Skills as Evidence Gates|Coding Agent Debugging Skills as Evidence Gates]] — 高频编码 skill 把 debugging、TDD、架构、并发、浏览器测试和框架范式压成证据门禁、责任账本与反馈回路。 (#agents #skills #ai-coding #debugging #verification #software-engineering)
 - [[wiki/syntheses/Agent System Design Space|Agent System Design Space]] — Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, cache economics, and runtime APIs. (#synthesis #agents #architecture)
+- [[wiki/syntheses/AI Agent Engineering Learning Path|AI Agent Engineering Learning Path]] — 一条以可靠 Agent 系统工程为目标的 12 周学习路线，从单 Agent 控制循环、harness、验证与评测，逐步推进到记忆、Skill 和多 Agent。 (#agents #learning #harness #evaluation #software-engineering)
 - [[wiki/syntheses/AI Engineering Workflow|AI Engineering Workflow]] — AI Engineering Workflow connects agent mental models, workflow control, tool design, coding constraints, and requirement normalization. (#synthesis #agents #workflow)
 - [[wiki/syntheses/AI Harness × Testing Strategy|AI Harness × Testing Strategy]] — In AI coding, testing strategy becomes harness design: tests are runtime feedback surfaces, not only post-implementation QA. (#agents #harness #testing #software-engineering)
 - [[wiki/syntheses/AI Memory × Context Graph|AI Memory × Context Graph]] — AI memory becomes organizationally useful when remembered items are placed in a context graph of owners, evidence, freshness, and permissions. (#agents #memory #organization)
@@ -299,6 +303,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
+- [[wiki/sources/The Art of Doing Science and Engineering Source Guide|The Art of Doing Science and Engineering Source Guide]] — 汉明把 Learning to Learn 定义为面向未来的元教育：在知识过时、问题变化和系统演化中，持续选择重要问题、学习基础结构并修正自己的思维风格。 ( #book-notes #learning #engineering #leadership)
 - [[wiki/sources/Clinical Hypnosis Classic Texts Source Guide|催眠经典教材导览]] — 汇总催眠理论、研究、临床实践与历史经典，保留状态论、解离论和社会认知论的竞争解释。 ( #books #psychology #hypnosis #research)
 - [[wiki/sources/Unconscious Mind Classic Texts Source Guide|潜意识经典教材导览]] — 从精神动力性无意识到适应性无意识、自动加工、行动归因和判断偏差的经典阅读谱系。 ( #books #psychology #cognition #decision-making)
 - [[wiki/sources/Behavioral Product Design and Ethics Source Guide|行为产品设计与伦理导览]] — 把注意、期待和自动加工转译为行为诊断与选择架构，并以透明、拒绝、撤回和长期用户利益约束产品影响。 ( #product #behavioral-design #ethics #dark-patterns)

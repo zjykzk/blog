@@ -23,7 +23,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 9
-updated: 2026-08-12T23:17:18+0800
+updated: 2026-08-15T22:44:31+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -140,6 +140,7 @@ tags:
 - [[wiki/syntheses/Coding Agent Debugging Skills as Evidence Gates]] — treats high-frequency coding skills as evidence gates, responsibility ledgers, and feedback loops for AI coding work.
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/syntheses/Agent System Design Space]]
+- [[wiki/syntheses/AI Agent Engineering Learning Path]] — 把 Agent control loop、ETCLOVG harness、轨迹评测、context、memory、Skill 与 multi-agent 组织成一条可执行的 12 周工程学习路线。
 - [[wiki/syntheses/AI Agent Three Paradoxes|AI Agent 三重悖论]] — 把记忆选择、推理脚手架与自我改进验证器放进同一个循环依赖模型，并把外部接地视为共同破局点。
 
 ## Source notes

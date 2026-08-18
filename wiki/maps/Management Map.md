@@ -12,7 +12,7 @@ base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-06-13T18:08:13+0800
+updated: 2026-08-16T17:13:51+0800
 aliases:
   - 管理地图
 tags:
@@ -46,6 +46,7 @@ tags:
 
 ## Syntheses
 
+- [[wiki/syntheses/From Senior Engineer to Tech Leader]] — 高级工程师走向 Tech Leader 的三条长期问题：架构可演进、团队判断可扩散、技术投入对齐高杠杆结果。
 - [[wiki/syntheses/AI 泡沫判断的结构]] — 用“泡沫破裂后什么留下”测试 AI 投资判断是否从市场姿态进入结构模型。
 - [[wiki/syntheses/Decision Modes for Engineering Work]]
 - [[wiki/syntheses/Thinking and Judgment Workflow]]
@@ -53,6 +54,7 @@ tags:
 
 ## Source layer
 
+- [[wiki/sources/The Art of Doing Science and Engineering Source Guide]] — 汉明用 Learning to Learn、系统工程和重要问题说明技术领导者如何持续修正方向与工作方式。
 - [[wiki/sources/组织角色与 AI 适配 Source Guide]]
 - [[wiki/sources/软件工程真正降临 Source Guide]] — 中文长文：把 AI 时代研发组织重构为继承分治边界的认知产线，强调分工协调总线、产线设计师和认知边界守卫。
 - [[wiki/sources/Chatham House Rule Source Guide]]

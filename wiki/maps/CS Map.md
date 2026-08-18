@@ -14,7 +14,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 8
-updated: 2026-08-12T23:17:18+0800
+updated: 2026-08-16T17:13:51+0800
 aliases:
   - Computer Science Map
 tags:
@@ -41,6 +41,7 @@ tags:
 
 - [[wiki/concepts/Formalization]] — 形式化把意义空间中的对象、区别、规则和判定条件固定下来，使任务能被稳定委托、机械执行与重复检查。
 - [[wiki/concepts/Knowledge Formalization Gradient]] — 从经验、日常语言和概念逐步走向形式模型、数学与逻辑的抽象路径。
+- [[wiki/syntheses/Euclid as a Case of Formalization's Limits]] — 欧几里得几何作为最完整形式化的硬案例：视觉直觉、语义指称、刚体运动和平行公设都被留在圈外，圈外剩余正是希尔伯特公理化与非欧几何的入口。
 
 ## Performance and systems
 
@@ -97,6 +98,7 @@ tags:
 
 ## Syntheses
 
+- [[wiki/syntheses/From Senior Engineer to Tech Leader]] — 把架构工作从个人解复杂题上移到系统可演进、团队判断可扩散和技术投资可校准。
 - [[wiki/syntheses/Programming Language Three Operations|编程语言的秩：压缩、裁决与展开]] — 用压缩、裁决、展开三道工序解释语言抽象、类型检查、编译运行与范式差异。
 - [[wiki/syntheses/AI 时代开发岗位分层与协作]] — AI 时代开发岗位会分层为探索闭环、系统 owner 责任和被压缩的执行交付。
 - [[wiki/syntheses/From User Story to Architecture]]
@@ -104,6 +106,7 @@ tags:
 
 ## Source layer
 
+- [[wiki/sources/The Art of Doing Science and Engineering Source Guide]] — 汉明关于思维风格、系统工程、度量和重要问题的工程职业 source guide。
 - [[wiki/sources/Kimball Dimensional Modeling Techniques Source Guide]] — Kimball Group 2013 technique catalog: four-step design process, grain, fact/dimension patterns, conformed dimensions, SCD types, hierarchy handling, and special schemas.
 - [[wiki/sources/Software Methodology by Pan Jianyu]]
 - [[wiki/sources/Published Posts]]

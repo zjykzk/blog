@@ -13,7 +13,7 @@ created: 2026-04-27
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-07-19T22:00:16+0800
+updated: 2026-08-15T11:20:41+0800
 aliases:
   - 分类思维地图
   - 分类地图
@@ -38,6 +38,8 @@ provenance:
 5. [[wiki/topics/Limits of Classification]]
 
 如果要先看更底层的动作，进入 [[wiki/concepts/Analysis]]。 ^[inferred]
+
+如果要追问“问题为什么会产生”，进入 [[wiki/concepts/Nature of a Question]]：它把问题定位为现实、认知模型与行动之间的裂口，并区分 Problem、Question 与 Issue。
 
 如果要看面向真实问题的操作型文章，进入 [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]：它把“混沌问题”拆成技术、框架和结构化思维三层，并用 MECE、逻辑树、横向展开、纵向深挖和追问为什么作为入门动作。
 
