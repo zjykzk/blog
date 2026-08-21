@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-08-16T17:13:51+0800
+updated: 2026-08-21T22:47:56+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -87,6 +87,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Relation as Contextual Constraint|Relation as Contextual Constraint]] — 关系是在特定语境中约束对象如何共同出现、被理解或发生变化的规则；“有关系”若不说明类型、方向、边界和证据，仍只是一个低信息量命题。 ( #thinking #reasoning #systems #mechanism)
 - [[wiki/concepts/Search and Learning as Meta-Methods|Search and Learning as Meta-Methods]] — 搜索与学习是元能力：不装载领域答案，只装载产生答案的过程，因此能随算力任意扩展；本质是同一台"生成→评估→改进"的发现引擎，人则把这台引擎的算力预付在演化与文化里。 (#training #cognition #llm #learning)
 - [[wiki/concepts/Class as Learned Invariance|Class as Learned Invariance]] — 学习判断"同一类"不是查表归档，而是在表示空间里、由归纳偏置引导、被评价信号裁定，发现一条"什么变了也不改变答案"的不变性；划对了叫抽象，划错了叫过拟合。 (#training #cognition #learning #llm)
 - [[wiki/concepts/Doris Join Shuffle Strategy|Doris Join Shuffle Strategy]] — Doris 的 Join 分两层选型：先定算法（Hash/Nest Loop），再定分布（Broadcast/Shuffle/Bucket Shuffle/Colocate），网络代价从 N×T(R) 降到 0；Runtime Filter 再动态裁掉大表探测前的行数。 (#database #doris #olap #join #query-optimization)

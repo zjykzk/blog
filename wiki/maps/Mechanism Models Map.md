@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-08-15T11:20:41+0800
+updated: 2026-08-21T22:47:56+0800
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -51,6 +51,7 @@ aliases:
 这一组模型用于从事件下潜到结构。
 
 - [[wiki/concepts/System]]：系统不是一堆部件，而是一组关系在边界和时间中反复生成整体行为。
+- [[wiki/concepts/Relation as Contextual Constraint|关系作为语境中的约束]]：把“有关系”展开为对象、关系类型、语境、方向、边界和证据，并区分共现、依赖与因果。
 - [[wiki/concepts/Iceberg Model]]：把可见事件下潜到模式、结构和心智模型，防止把重复问题当成孤立事故。
 - [[wiki/concepts/Feedback Loops]]：结果反过来影响原因，形成增长、稳定、振荡或失控。
 - [[wiki/concepts/Leverage Points]]：越靠近结构、信息流、规则、激励、目标函数和心智模型，越可能改变生成结果的机制。
