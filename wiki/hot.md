@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: 从「检索 vs 推理」出发，把 Agent 重述为问题求解系统：目标+状态+记忆+检索+推理+规划+行动+反馈的统一闭环，推理是建立在模式学习之上的上下文内计算。
+summary: 线性层 y=Wx+b 是神经网络最基础的一步计算：重新加权组合输入并改变维度；LM head 就是把隐藏状态投影成 logits 的线性层。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-08-24T12:09:19+0800
+updated: 2026-08-24T14:05:47+0800
 ---
 
 ## Recent Activity
+- 2026-08-24T14:05:47+0800 — 已捕获 [[wiki/concepts/Linear Layer|Linear Layer]]：线性层是神经网络最基础的一步计算 y=Wx+b，把输入向量重新加权组合并改变维度，参数 W、b 可学习；纯线性叠加仍等价单层，须靠非线性激活才有表达力；LM head 就是把隐藏状态投影成 [[wiki/concepts/Logits|logits]] 的线性层。
 - 2026-08-24T12:09:19+0800 — 已摄入 [[wiki/sources/检索推理规划与Agent问题求解 Source Guide|检索推理规划与Agent问题求解]]（ChatGPT 分享对话），蒸馏为 5 个概念 [[wiki/concepts/Retrieval vs Reasoning|Retrieval vs Reasoning]]、[[wiki/concepts/Planning as Goal-Directed Reasoning|Planning as Goal-Directed Reasoning]]、[[wiki/concepts/Agent State|Agent State]]、[[wiki/concepts/Context as Working Memory|Context as Working Memory]]、[[wiki/concepts/LLM Reasoning as In-Context Computation|LLM Reasoning as In-Context Computation]] 与综合 [[wiki/syntheses/Agent as Problem-Solving System|Agent as Problem-Solving System]]：检索是「找节点」、推理是「建边」；规划是面向目标的推理；上下文是工作记忆载体而非记忆本身；状态是为决定「接下来」所需的最小充分信息；大模型推理是参数(知识/先验)+Transformer(计算)+上下文(问题/临时状态)组合涌现的上下文内计算，Agent 则把这些统一为状态空间搜索与不确定性收窄的求解闭环。
 - 2026-08-24T12:05:00+0800 — 已摄入 [[wiki/sources/解释生命与分子实体 Source Guide|解释生命与分子实体]]（ChatGPT 分享对话），并蒸馏为 [[wiki/concepts/Life as Dissipative Information Structure|Life as Dissipative Information Structure]] 与 [[wiki/concepts/Entropy|Entropy]]：把“生命从无序产生有序且不违反热二定律”改写为“利用环境自由能维持低熵结构并复制信息”的机制链 熵→自由能→信息→自复制→自然选择→生命；真正必需的不是分子，而是能稳定承载信息、可因果作用、处于非平衡态的物理自由度。
 - 2026-08-21T22:57:20+0800 — 已捕获 [[wiki/concepts/Logits|Logits]]：logits 是模型针对当前上下文为整个词表计算的原始相对分数，不是概率或事实置信度；固定模型对固定状态原则上产生相同 raw logits，随机性通常先进入 sampling，再通过新 token 反馈使后续 logits 和生成轨迹分叉。
@@ -167,6 +168,7 @@ updated: 2026-08-24T12:09:19+0800
 
 ## Key Takeaways
 
+- 线性层 y=Wx+b 是神经网络的骨架：它只做“加权组合 + 改变维度”，本身是线性的，因此纯线性层无论堆多少层都等价于一层，必须靠非线性激活才有表达力；LLM 的 LM head 就是把隐藏状态投影成 logits 的那一层线性层。
 - Logits 是 LLM 对“下一 token 候选空间”的原始相对评分，不是概率、更不是事实真值；固定精确输入原则上得到固定 raw logits，但 sampling 与自回归反馈能让完整生成呈现“局部确定、全局随机”。
 - “有关系”不等于“有因果”：它最低限度只表示两个对象能在某个语境中共同满足一种关系；一个有信息量的关系还必须说明它约束或排除了哪些可能性。
 

@@ -47,6 +47,7 @@ This distinction explains why a model can be fixed while latency, cost, and thro
 
 - [[wiki/concepts/LLM]]
 - [[wiki/concepts/Logits]]
+- [[wiki/concepts/Linear Layer]]
 - [[wiki/concepts/Neural Network Inference Boundary]]
 - [[wiki/topics/LLM Inference Systems]]
 - [[wiki/sources/Life of a Token Source Guide]]

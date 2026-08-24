@@ -153,6 +153,7 @@ inference system = 在硬件和并发约束下运行整个循环
 
 ## Related
 
+- [[wiki/concepts/Linear Layer]]
 - [[wiki/concepts/LLM]]
 - [[wiki/concepts/Next-Token Pipeline]]
 - [[wiki/concepts/Autoregressive Decoding]]

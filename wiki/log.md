@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-08-21T22:57:20+0800
+updated: 2026-08-24T14:05:47+0800
 aliases:
   - Wiki Log
 tags:
@@ -380,3 +380,4 @@ tags:
 - [2026-08-21T22:57:20+0800] CAPTURE type=concept page="wiki/concepts/Logits.md" title="Logits"
 - [2026-08-24T12:05:00+0800] INGEST source="chatgpt-share:6a8bbaa9-dbb0-83ee-ad09-a81c039ed1a2" pages_updated=5 pages_created=3 mode=append note="解释生命与分子实体: source guide + concepts Life as Dissipative Information Structure, Entropy"
 - [2026-08-24T12:09:19+0800] INGEST source="https://chatgpt.com/share/6a8bbde7-a668-83ee-a76f-60ff58322ccb" pages_updated=4 pages_created=6 mode=append note="检索推理规划与Agent问题求解: source guide + concepts Retrieval vs Reasoning, Planning as Goal-Directed Reasoning, Agent State, Context as Working Memory, LLM Reasoning as In-Context Computation + synthesis Agent as Problem-Solving System"
+- [2026-08-24T14:05:47+0800] CAPTURE type=concept page="wiki/concepts/Linear Layer.md" title="Linear Layer"

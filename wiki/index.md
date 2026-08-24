@@ -204,6 +204,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/LLM Inference Benchmarking|LLM Inference Benchmarking]] — LLM inference benchmarking compares latency, throughput, and goodput under request shapes and service-level objectives. (#llm #inference #benchmarking)
 - [[wiki/concepts/LLM|LLM]] — LLMs are neural text models whose learned tensor computation must be distinguished from the external harness, serving system, and control-flow code around them. (#llm #concept)
 - [[wiki/concepts/Logits|Logits]] — Logits 是 LLM 为整个词表产生的原始相对分数；固定模型对固定状态原则上给出相同 raw logits，sampling 与上下文反馈使生成轨迹分叉。 ( #llm #inference #probability)
+- [[wiki/concepts/Linear Layer|Linear Layer]] — 线性层是神经网络最基础的一步计算 y=Wx+b，把输入向量重新加权组合并改变维度；LM head 就是把隐藏状态投影成 logits 的线性层。 ( #llm #inference #transformer)
 - [[wiki/concepts/Next-Token Pipeline|Next-Token Pipeline]] — The next-token pipeline turns text into token IDs, vectors, contextual hidden states, logits, probabilities, and finally one sampled output token. (#llm #inference #transformer)
 - [[wiki/concepts/Tokenization|Tokenization]] — Tokenization converts text into model vocabulary IDs, giving the neural network discrete symbols it can embed and process numerically. (#llm #inference #representation)
 - [[wiki/concepts/Transformer Residual Stream|Transformer Residual Stream]] — The transformer residual stream carries token representations across layers while attention and FFN sublayers add learned deltas into it. (#llm #transformer #inference)

@@ -74,6 +74,7 @@ tags:
 - [[wiki/concepts/Agent State]] — 状态是决定未来所需的充分信息、是对历史的压缩、不等于世界本身。
 - [[wiki/concepts/Context as Working Memory]] — 上下文是工作记忆载体，记忆是更广的持久化机制，二者与状态处于不同层次。
 - [[wiki/concepts/Logits]] — 模型在每个生成位置为整个词表产生的原始相对分数，是模型计算与 softmax、sampling 等解码控制之间的边界。
+- [[wiki/concepts/Linear Layer]] — 神经网络最基础的一步计算 y=Wx+b；LM head 就是把隐藏状态投影成 logits 的线性层。
 - [[wiki/concepts/Next-Token Pipeline]]
 - [[wiki/concepts/Tokenization]]
 - [[wiki/concepts/Transformer Residual Stream]]
