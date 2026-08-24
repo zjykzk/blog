@@ -52,6 +52,7 @@ aliases:
 
 - [[wiki/concepts/System]]：系统不是一堆部件，而是一组关系在边界和时间中反复生成整体行为。
 - [[wiki/concepts/Life as Dissipative Information Structure|生命作为耗散信息结构]]：生命不是违反熵增的有序，而是开放系统利用环境自由能维持局部低熵结构、并把信息带噪复制给下一代，靠差异性复制成功率被选择而累积复杂性。
+- [[wiki/concepts/Arrow of Time|时间箭头]]：微观定律时间反演对称，宏观的“过去→未来”方向来自低熵初始条件（Past Hypothesis）、统计规律与粗粒化——不可逆性是概率压倒而非微观定律的属性。
 - [[wiki/concepts/Relation as Contextual Constraint|关系作为语境中的约束]]：把“有关系”展开为对象、关系类型、语境、方向、边界和证据，并区分共现、依赖与因果。
 - [[wiki/concepts/Iceberg Model]]：把可见事件下潜到模式、结构和心智模型，防止把重复问题当成孤立事故。
 - [[wiki/concepts/Feedback Loops]]：结果反过来影响原因，形成增长、稳定、振荡或失控。

@@ -75,6 +75,7 @@ provenance:
 - [[wiki/sources/推理证明与未知问答 Source Guide]]——推理教学追问 source guide：未知是受约束判断空位，证明是公开化、规则化、可回查的推理
 - [[wiki/sources/光速不变与相对性原则问答 Source Guide]]——中文物理教学问答：从光速不变、公设来源、相对性原则讲到非惯性参考系
 - [[wiki/sources/解释生命与分子实体 Source Guide]]——中文物理/生物学教学问答：从热二定律、自由能、熵讲到信息、DNA、RNA 世界假说与自然选择，串成“熵→自由能→信息→自复制→自然选择→生命”
+- [[wiki/sources/热力学第二定律与时间箭头 Source Guide]]——中文物理教学问答：从第二定律最直观表述、热量流向、玻尔兹曼熵，追问到“为什么熵增”（概率/组合），再深钻到时间箭头、低熵初始条件（Past Hypothesis）与粗粒化
 - [[wiki/sources/The Bitter Lesson Source Guide]]——Rich Sutton 经典短文：能随算力扩展的通用方法（search、learning）长期压过内置人类知识，并主张只内置能发现复杂性的元方法
 - [[wiki/sources/推理能力训练 Source Guide]]——推理能力训练 source guide：用概念清晰、因果建模、反例意识、预测和复盘训练判断校准能力
 - [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]——中文问题拆解文章：用 MECE、维度选择、逻辑树、横向展开和纵向追问，把复杂问题转成可行动的小结构

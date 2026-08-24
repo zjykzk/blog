@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: 线性层 y=Wx+b 是神经网络最基础的一步计算：重新加权组合输入并改变维度；LM head 就是把隐藏状态投影成 logits 的线性层。
+summary: 最近摄入一段中文物理教学问答，新增 [[wiki/concepts/Arrow of Time|时间箭头]] 概念并增补 [[wiki/concepts/Entropy|熵]] 的统计/组合基础：时间方向不来自微观定律，而来自低熵初始条件、统计规律与粗粒化。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-08-24T14:05:47+0800
+updated: 2026-08-24T14:20:00+0800
 ---
 
 ## Recent Activity
+- 2026-08-24T14:20:00+0800 — 已摄入 [[wiki/sources/热力学第二定律与时间箭头 Source Guide|热力学第二定律与时间箭头]]（ChatGPT 分享对话，`解释→为什么→继续` 三次追问），新建 [[wiki/concepts/Arrow of Time|Arrow of Time]] 并增补 [[wiki/concepts/Entropy|Entropy]]：时间箭头不来自微观定律（时间反演对称），而来自低熵初始条件（Past Hypothesis）+ 统计规律 + 粗粒化；熵增是概率/组合压倒（C(N,N/2) 在 N 大时巨大，P(低→高)≈1），“熵减非不可能，只是概率极小”；粗粒化把熵接到信息缺失，串起热力学→统计力学→信息论。
 - 2026-08-24T14:05:47+0800 — 已捕获 [[wiki/concepts/Linear Layer|Linear Layer]]：线性层是神经网络最基础的一步计算 y=Wx+b，把输入向量重新加权组合并改变维度，参数 W、b 可学习；纯线性叠加仍等价单层，须靠非线性激活才有表达力；LM head 就是把隐藏状态投影成 [[wiki/concepts/Logits|logits]] 的线性层。
 - 2026-08-24T12:09:19+0800 — 已摄入 [[wiki/sources/检索推理规划与Agent问题求解 Source Guide|检索推理规划与Agent问题求解]]（ChatGPT 分享对话），蒸馏为 5 个概念 [[wiki/concepts/Retrieval vs Reasoning|Retrieval vs Reasoning]]、[[wiki/concepts/Planning as Goal-Directed Reasoning|Planning as Goal-Directed Reasoning]]、[[wiki/concepts/Agent State|Agent State]]、[[wiki/concepts/Context as Working Memory|Context as Working Memory]]、[[wiki/concepts/LLM Reasoning as In-Context Computation|LLM Reasoning as In-Context Computation]] 与综合 [[wiki/syntheses/Agent as Problem-Solving System|Agent as Problem-Solving System]]：检索是「找节点」、推理是「建边」；规划是面向目标的推理；上下文是工作记忆载体而非记忆本身；状态是为决定「接下来」所需的最小充分信息；大模型推理是参数(知识/先验)+Transformer(计算)+上下文(问题/临时状态)组合涌现的上下文内计算，Agent 则把这些统一为状态空间搜索与不确定性收窄的求解闭环。
 - 2026-08-24T12:05:00+0800 — 已摄入 [[wiki/sources/解释生命与分子实体 Source Guide|解释生命与分子实体]]（ChatGPT 分享对话），并蒸馏为 [[wiki/concepts/Life as Dissipative Information Structure|Life as Dissipative Information Structure]] 与 [[wiki/concepts/Entropy|Entropy]]：把“生命从无序产生有序且不违反热二定律”改写为“利用环境自由能维持低熵结构并复制信息”的机制链 熵→自由能→信息→自复制→自然选择→生命；真正必需的不是分子，而是能稳定承载信息、可因果作用、处于非平衡态的物理自由度。
@@ -33,7 +34,7 @@ updated: 2026-08-24T14:05:47+0800
 ## Active Threads
 
 - Agent 现在形成一条「问题求解系统」主线：把大模型定位为求解系统里的推理引擎之一，用目标+状态+记忆+检索+推理+规划+行动+反馈的统一闭环把问题求解重述为状态空间搜索与不确定性收窄。其中检索是从既有信息空间「找节点」（答案已存在），推理是依据信息与规则「建边」产生原本没有直接给出的新结论；规划是面向目标的推理，从目标倒推在顺序、依赖、代价与不确定性下的可接受路径；状态是某时刻为决定「接下来会发生什么」所需的最小充分信息（对历史的压缩，不是世界本身）；上下文是 Agent 的工作记忆载体（当前正被模型使用的信息状态），承担记忆功能但不等于记忆；大模型推理不是简单模式匹配，而是建立在模式学习之上的上下文内计算——参数提供知识与先验、Transformer 提供计算机制、上下文提供当前问题与临时状态，三者组合涌现出推理。
-- 物理/生命机制现在加入一条“生命作为耗散信息结构”线索：生命不是违反熵增的有序，而是开放系统利用环境自由能维持局部低熵结构、并把信息带噪复制给下一代；总熵仍增（ΔS_宇宙>0）。熵最好读成“一个宏观态有多少种微观实现方式”而非混乱程度，热力学熵 S=k_B lnΩ 与信息熵 H=-Σp log p 在等概率时统一为 S=k_B H。真正必需的不是“分子”，而是能稳定承载信息、可因果作用、处于非平衡态的物理自由度；分子只是合适载体。自然选择只需复制+变异+差异性复制成功率，无需目标或意识。
+- 物理/生命机制现在加入一条“生命作为耗散信息结构”线索：生命不是违反熵增的有序，而是开放系统利用环境自由能维持局部低熵结构、并把信息带噪复制给下一代；总熵仍增（ΔS_宇宙>0）。熵最好读成“一个宏观态有多少种微观实现方式”而非混乱程度，热力学熵 S=k_B lnΩ 与信息熵 H=-Σp log p 在等概率时统一为 S=k_B H。真正必需的不是“分子”，而是能稳定承载信息、可因果作用、处于非平衡态的物理自由度；分子只是合适载体。自然选择只需复制+变异+差异性复制成功率，无需目标或意识。这条线现在再往下钻到[[wiki/concepts/Arrow of Time|时间箭头]]：微观定律时间反演对称，宏观的“过去→未来”方向并不写在定律里，而是低熵初始条件（Past Hypothesis）+ 统计规律（高熵态微观实现数压倒性多，P(低→高)≈1）+ 粗粒化（把微观态压成宏观态、熵度量被丢弃的信息）三者叠加涌现；不可逆性是概率压倒而非禁令。熵因此也是“我们对微观信息的缺失程度”，把热力学、统计力学与信息论接到同一根轴。
 - LLM inference 现在补齐 logits 边界：模型把当前上下文映射成覆盖词表的 raw logits，softmax 与 decoding policy 把相对分数变成一次 token 选择；模型参数固定只意味着映射固定，不意味着每个位置的 logits 数值固定，而 sampling 产生的新 token 会经自回归反馈改变后续全部 logits。
 - 关系与结构化思维现在加入一条“语境约束”线索：关系不是对象之间附加的一根线，而是规定哪些配对、解释或变化在当前语境中成立；“有关系”只是弱存在命题，只有补全类型、方向、机制、证据和边界后，才能进入推理、系统分析或因果判断。
 - 技术领导力现在加入汉明的 Learning to Learn 线索：高级工程师的成长不是扩大个人解题量，而是同时经营三个系统问题——架构能否低成本应对变化，团队能否在没有个人审批时维持判断质量，技术投入能否连接业务结果并接受反馈修正。

@@ -88,7 +88,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 
 ## Concepts
 - [[wiki/concepts/Life as Dissipative Information Structure|Life as Dissipative Information Structure]] — 生命不是“违反熵增的有序”，而是利用环境自由能维持低熵结构、并复制自身信息的非平衡系统；真正必需的不是“分子”，而是能稳定承载信息、可因果作用、处于非平衡态的物理自由度。 (#physics #systems #mechanism #cognition #learning)
-- [[wiki/concepts/Entropy|Entropy]] — 熵最好理解为“一个宏观状态背后有多少种微观状态能实现它”，而不是“混乱程度”；热力学熵 S=k_B lnΩ 与信息熵 H=-Σp log p 背后是同一个分布结构，等概率时 S=k_B H。 (#physics #systems #mechanism #reasoning #learning)
+- [[wiki/concepts/Entropy|Entropy]] — 熵最好理解为“一个宏观状态背后有多少种微观状态能实现它”，而不是“混乱程度”；熵增是概率/组合结果，热力学熵 S=k_B lnΩ 与信息熵 H=-Σp log p 背后是同一分布结构，等概率时 S=k_B H。 (#physics #systems #mechanism #reasoning #learning)
+- [[wiki/concepts/Arrow of Time|Arrow of Time]] — 微观定律时间反演对称，宏观却有“过去→未来”方向；时间箭头不来自微观定律，而来自低熵初始条件（Past Hypothesis）、统计规律与粗粒化。 (#physics #systems #mechanism #reasoning #cognition)
 - [[wiki/concepts/Relation as Contextual Constraint|Relation as Contextual Constraint]] — 关系是在特定语境中约束对象如何共同出现、被理解或发生变化的规则；“有关系”若不说明类型、方向、边界和证据，仍只是一个低信息量命题。 ( #thinking #reasoning #systems #mechanism)
 - [[wiki/concepts/Search and Learning as Meta-Methods|Search and Learning as Meta-Methods]] — 搜索与学习是元能力：不装载领域答案，只装载产生答案的过程，因此能随算力任意扩展；本质是同一台"生成→评估→改进"的发现引擎，人则把这台引擎的算力预付在演化与文化里。 (#training #cognition #llm #learning)
 - [[wiki/concepts/Class as Learned Invariance|Class as Learned Invariance]] — 学习判断"同一类"不是查表归档，而是在表示空间里、由归纳偏置引导、被评价信号裁定，发现一条"什么变了也不改变答案"的不变性；划对了叫抽象，划错了叫过拟合。 (#training #cognition #learning #llm)
@@ -316,6 +317,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 ## Sources
 - [[wiki/sources/检索推理规划与Agent问题求解 Source Guide|检索推理规划与Agent问题求解 Source Guide]] — 保存一段中文对话：从检索与推理的区别出发，讨论 LLM 推理的本质、模式匹配之争、规划作为目标导向推理、上下文与记忆、状态，并汇成 Agent 作为问题求解系统的统一模型。 (#agents #reasoning #llm #problem-solving #llm-wiki)
 - [[wiki/sources/解释生命与分子实体 Source Guide|解释生命与分子实体 Source Guide]] — 中文物理/生物学教学问答：从热二定律、自由能、熵讲到信息、DNA、RNA 世界假说与自然选择，串成“熵→自由能→信息→自复制→自然选择→生命”的解释链。 (#physics #learning #cognition #mechanism #systems)
+- [[wiki/sources/热力学第二定律与时间箭头 Source Guide|热力学第二定律与时间箭头 Source Guide]] — 中文物理教学问答：从第二定律最直观表述、热量流向、玻尔兹曼熵，追问到“为什么熵增”（概率/组合），再深钻到时间箭头、低熵初始条件与粗粒化。 (#physics #learning #cognition #mechanism #systems)
 - [[wiki/sources/The Art of Doing Science and Engineering Source Guide|The Art of Doing Science and Engineering Source Guide]] — 汉明把 Learning to Learn 定义为面向未来的元教育：在知识过时、问题变化和系统演化中，持续选择重要问题、学习基础结构并修正自己的思维风格。 ( #book-notes #learning #engineering #leadership)
 - [[wiki/sources/Clinical Hypnosis Classic Texts Source Guide|催眠经典教材导览]] — 汇总催眠理论、研究、临床实践与历史经典，保留状态论、解离论和社会认知论的竞争解释。 ( #books #psychology #hypnosis #research)
 - [[wiki/sources/Unconscious Mind Classic Texts Source Guide|潜意识经典教材导览]] — 从精神动力性无意识到适应性无意识、自动加工、行动归因和判断偏差的经典阅读谱系。 ( #books #psychology #cognition #decision-making)

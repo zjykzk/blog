@@ -11,8 +11,9 @@ aliases:
   - 熵自由能信息生命链
 sources:
   - chatgpt-share:6a8bbaa9-dbb0-83ee-ad09-a81c039ed1a2
+  - chatgpt-share:6a8bdea6-dbe8-83ee-956c-27fdc51ee77e
 created: 2026-08-24T12:05:00+0800
-updated: 2026-08-24T12:05:00+0800
+updated: 2026-08-24T14:20:00+0800
 summary: >-
   生命不是“违反熵增的有序”，而是利用环境自由能维持低熵结构、并复制自身信息的非平衡系统；真正必需的不是“分子”，而是能稳定承载信息、可因果作用、处于非平衡态的物理自由度。
 provenance:
@@ -26,6 +27,8 @@ tier: supporting
 relationships:
   - target: "[[wiki/concepts/Entropy]]"
     type: uses
+  - target: "[[wiki/concepts/Arrow of Time]]"
+    type: related_to
   - target: "[[wiki/concepts/Mechanism Model]]"
     type: implements
   - target: "[[wiki/concepts/System]]"
@@ -134,8 +137,10 @@ RNA 世界假说是解释这个过渡的一个**研究框架**（非已证实历
 ## Related
 
 - [[wiki/concepts/Entropy]] —— 熵与自由能的基础，提供“微观状态数”和“能量落差”两个支点。
+- [[wiki/concepts/Arrow of Time]] —— 宇宙低熵起点→熵增链条，是生命出现方向性的前提。
 - [[wiki/concepts/Mechanism Model]] —— 本页把生命写成结果/变量/约束/激励/反馈/时间的机制句。
 - [[wiki/concepts/System]] —— 生命是关系、边界、反馈与时间共同生成整体行为的系统。
 - [[wiki/concepts/Relation as Contextual Constraint]] —— 帮助区分“相关/有序/信息/因果”这些容易混用的关系。
 - [[wiki/concepts/Class as Learned Invariance]] —— 自然选择与学习都是“生成→评估→选择”的发现引擎。
 - [[wiki/sources/解释生命与分子实体 Source Guide]] —— 本页的来源对话与完整保留内容。
+- [[wiki/sources/热力学第二定律与时间箭头 Source Guide]] —— 姊妹篇：从第二定律正向推到时间箭头与生命。

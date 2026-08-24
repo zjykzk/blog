@@ -1,8 +1,9 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 69,
-    "total_pages": 422
+    "total_sources_ingested": 70,
+    "total_pages": 424,
+    "last_updated": "2026-08-24T14:20:00+0800"
   },
   "sources": {
     "chatgpt-share:6a8bbaa9-dbb0-83ee-ad09-a81c039ed1a2": {
@@ -1500,6 +1501,27 @@
         "wiki/concepts/Agent.md",
         "wiki/concepts/Agentic Control Loop.md",
         "wiki/concepts/Reasoning as Structure Mapping.md"
+      ]
+    },
+    "chatgpt-share:6a8bdea6-dbe8-83ee-956c-27fdc51ee77e": {
+      "ingested_at": "2026-08-24T14:20:00+0800",
+      "size_bytes": 17556,
+      "modified_at": "2026-08-24T14:20:00+0800",
+      "content_hash": "sha256:05120f399905ca23e2375becb80d1d4c39dfcd08c6a1f3551dd61b3aa726353f",
+      "source_type": "data",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/热力学第二定律与时间箭头 Source Guide.md",
+        "wiki/concepts/Arrow of Time.md"
+      ],
+      "pages_updated": [
+        "wiki/concepts/Entropy.md",
+        "wiki/concepts/Life as Dissipative Information Structure.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md",
+        "wiki/maps/Learning Map.md",
+        "wiki/maps/Mechanism Models Map.md"
       ]
     }
   },

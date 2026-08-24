@@ -12,20 +12,23 @@ aliases:
   - Shannon entropy
 sources:
   - chatgpt-share:6a8bbaa9-dbb0-83ee-ad09-a81c039ed1a2
+  - chatgpt-share:6a8bdea6-dbe8-83ee-956c-27fdc51ee77e
 created: 2026-08-24T12:05:00+0800
-updated: 2026-08-24T12:05:00+0800
+updated: 2026-08-24T14:20:00+0800
 summary: >-
-  熵最好理解为“一个宏观状态背后有多少种微观状态能实现它”，而不是“混乱程度”；热力学熵 S=k_B lnΩ 与信息熵 H=-Σp log p 背后是同一个分布结构，等概率时 S=k_B H。
+  熵最好理解为“一个宏观状态背后有多少种微观状态能实现它”，而不是“混乱程度”；熵增是概率/组合结果（高熵态微观实现数压倒性多），热力学熵 S=k_B lnΩ 与信息熵 H=-Σp log p 背后是同一分布结构，等概率时 S=k_B H。
 provenance:
   extracted: 0.85
   inferred: 0.13
   ambiguous: 0.02
-base_confidence: 0.42
+base_confidence: 0.55
 lifecycle: draft
 lifecycle_changed: 2026-08-24
 tier: supporting
 relationships:
   - target: "[[wiki/concepts/Life as Dissipative Information Structure]]"
+    type: related_to
+  - target: "[[wiki/concepts/Arrow of Time]]"
     type: related_to
   - target: "[[wiki/concepts/Context Information Density]]"
     type: related_to
@@ -66,6 +69,44 @@ S = k_B ln Ω
 ```
 
 这也解释了为什么热从高温流向低温、气体会扩散、冰会融化——系统从“少数微观态对应的宏观态”自然趋向“大量微观态对应的宏观态”。
+
+### 为什么熵会增加：概率而非物理力
+
+“系统倾向熵增”不是一种神秘的物理力，而是一个**组合/概率问题**：微观状态越多的宏观状态，出现的概率就越大。最小的例子——两个粒子 A、B 各自可在左 L 或右 R：
+
+```text
+微观态   A B   宏观态
+  1      L L   都在左边      ← 1 种实现
+  2      L R   一左一右  ┐
+  3      R L   一左一右  ┘   ← 2 种实现
+  4      R R   都在右边      ← 1 种实现
+```
+
+若微观态等概率，则 `P(都在左)=1/4`，`P(一左一右)=2/4`——“一左一右”的概率是“都在左”的 2 倍。粒子一多，差距变得恐怖：`N` 个粒子全在左边只有 `Ω=1` 种排列，而大约一半一半有 `Ω=C(N,N/2)` 种。当 `N=100`：
+
+```text
+全部在左边       →  1 种
+一半左一半右     →  C(100,50) ≈ 10²⁹ 种
+```
+
+所以你几乎不可能看到所有分子恰好跑到一边。**熵减并非绝对不可能**（均匀气体突然全挤到左边并不违反微观定律），只是对 `~10²³` 量级的系统，其概率小得离谱。因此第二定律更准确的说法不是“熵绝对不能减少”，而是：
+
+```text
+对于拥有巨大数量粒子的宏观系统，
+熵减事件概率极其微小，宏观上表现为熵必然增加。
+```
+
+这条“概率压倒”论证也正是宏观[[wiki/concepts/Arrow of Time|时间箭头]]的来源：`P(低熵→高熵)≈1`，`P(高熵→低熵)≈0`。
+
+### 热量为什么从高温流向低温
+
+同一个原理给出热流方向。热量 `Q` 从高温 `T_h` 流向低温 `T_c` 时，总熵变化：
+
+```text
+ΔS = -Q/T_h + Q/T_c
+```
+
+因为 `T_h > T_c`，所以 `1/T_c > 1/T_h`，于是 `ΔS > 0`——热从高温流向低温使总熵增加，反向则会使总熵减少，因此不会自发发生。
 
 ### 熵不是“秩序”的反义词
 
@@ -109,6 +150,8 @@ S = k_B H
 
 这就是热力学熵与信息熵之间深层关系的来源。^[inferred]
 
+熵还可以从**粗粒化（coarse-graining）**的角度理解：我们把大量微观态压缩成少数宏观量（温度、压强）来描述世界，熵于是也度量“被这次压缩丢弃掉的微观信息有多少”。这条“微观 → 宏观压缩 → 信息缺失 → 熵”的线索，把熵进一步接到[[wiki/concepts/Arrow of Time|时间箭头]]与信息论。^[inferred]
+
 ## Entropy and Free Energy
 
 自由能把熵接回“能量还能不能做功”。恒温恒压下的吉布斯自由能：
@@ -126,6 +169,8 @@ G = H - TS
 - **“熵 = 秩序的反义词”**：不准确。冰→水熵增，但“水更乱”是误导性说法。
 - **“信息 = 低熵/秩序”**：错。信息量与“有序程度”不是一回事（规律串与随机串的信息量不能简单比较有序度）。
 - **“自然界喜欢混乱”**：错。这是概率支配，不是偏好——高熵态只是压倒性地更可能被观察到。
+- **“熵绝对不能减少”**：不准确。熵减不违反微观定律，只是对宏观系统概率极小；第二定律是统计规律，不是绝对禁令。
+- **“熵是物体的客观内禀属性”**：不完整。熵依赖粗粒化——选择哪些宏观量、忽略哪些微观细节，决定了 Ω。
 
 ## Compact Model
 
@@ -135,6 +180,7 @@ G = H - TS
 特殊、受限                 普遍、自由
 
 孤立系统倾向进入“微观实现方式最多”的宏观态（ΔS ≥ 0）
+熵增是概率压倒：P(低熵→高熵) ≈ 1，P(高熵→低熵) ≈ 0
 等概率时：S = k_B ln Ω = k_B H
 ```
 
@@ -143,6 +189,8 @@ G = H - TS
 ## Related
 
 - [[wiki/concepts/Life as Dissipative Information Structure]] —— 生命用自由能维持局部低熵结构，把熵增推给环境。
+- [[wiki/concepts/Arrow of Time]] —— 熵增的概率论证（P(低→高)≈1）加低熵初始条件与粗粒化，生成宏观时间箭头。
 - [[wiki/concepts/Context Information Density]] —— 另一处把“信息/不确定性”当作工程量的场景。
 - [[wiki/concepts/AI Coding Information-Theoretic Framework]] —— 用信息论视角判断输入是否在降低剩余猜测空间。
-- [[wiki/sources/解释生命与分子实体 Source Guide]] —— 本页的来源对话与完整保留内容。
+- [[wiki/sources/解释生命与分子实体 Source Guide]] —— 本页的来源对话与完整保留内容（熵→自由能→信息→生命）。
+- [[wiki/sources/热力学第二定律与时间箭头 Source Guide]] —— 增补统计/组合基础与热量流向论证的来源对话。
