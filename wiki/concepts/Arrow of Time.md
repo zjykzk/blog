@@ -166,3 +166,4 @@ B → A  只有极少微观路径   →   P(B→A) ≈ 0
 - [[wiki/concepts/Mechanism Model]] —— 时间箭头是“初始条件+统计+描述粒度”生成宏观不可逆性的机制。
 - [[wiki/sources/热力学第二定律与时间箭头 Source Guide]] —— 本页的来源对话与完整保留内容。
 - [[wiki/sources/光速不变与相对性原则问答 Source Guide]] —— 同类“区分公设/框架与已证结论”的物理教学问答。
+- [[wiki/topics/Theory of Everything Popular Science]] —— 处理时间之矢的科普书单（尤其《宇宙的结构》）。

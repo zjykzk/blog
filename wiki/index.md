@@ -77,6 +77,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/Technical Management|Technical Management]] — 这页聚合的是技术管理里比较稳定、可反复使用的判断，而不是具体某次团队事件。 (#management #leadership #engineering)
 - [[wiki/topics/Testing Purpose|Testing Purpose]] — 测试的直接目的，不是追求某个表面指标，而是增加对代码正确性的信心。 (#testing #quality #software-engineering)
 - [[wiki/topics/Testing Strategy|Testing Strategy]] — Testing Strategy combines test layering, test purpose, and AI-era quality gates to increase confidence in software changes. (#testing #quality #software-engineering)
+- [[wiki/topics/Theory of Everything Popular Science|Theory of Everything Popular Science]] — 万物理论（大统一/量子引力）方向的科普高分书单与阅读路线：从罗韦利、格林入门，读透弦论与圈量子引力两条路线，再补上批判与大师原声。 (#physics #reading #books)
 - [[wiki/topics/Thinking in Systems|Thinking in Systems]] — 系统视角把反复问题放进边界、要素、连接、反馈、延迟、目标和杠杆点中理解。 (#systems-thinking #feedback #mental-models)
 - [[wiki/topics/Tool Routing|Tool Routing]] — 当前笔记里关于 router / adapter 的判断，可以进一步抽成一个独立主题：工具路由不是附属细节，而是 agent 系统的核心结构设计。 (#agents #tools)
 - [[wiki/topics/TRAE Agent Capability Preparation Plan|TRAE Agent Capability Preparation Plan]] — TRAE Agent 能力准备计划围绕 AI Coding Agent 的架构、上下文、模型路由、验证闭环、指标和实验体系组织面试准备。 (#ai-coding #agents #context-engineering #career)

@@ -48,6 +48,7 @@ tags:
 - [[wiki/concepts/Uncertainty as Meaning Fuel]]
 - [[wiki/topics/架构落地方法]]
 - [[wiki/concepts/架构认知框架]]
+- [[wiki/topics/Theory of Everything Popular Science]] — 万物理论（大统一/量子引力）方向的科普高分书单与阅读路线。
 
 ## Syntheses
 
