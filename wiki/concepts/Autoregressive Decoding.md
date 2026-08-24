@@ -7,7 +7,7 @@ category: concepts
 sources:
   - inline:life-of-a-token-2026-05-09
 created: 2026-05-09T00:00:00+08:00
-updated: 2026-05-09T00:00:00+08:00
+updated: 2026-08-21T22:57:20+0800
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-09
@@ -43,6 +43,7 @@ This makes [[wiki/concepts/Prefill Decode Split]], [[wiki/concepts/Continuous Ba
 
 ## Related
 
+- [[wiki/concepts/Logits]]
 - [[wiki/concepts/Next-Token Pipeline]]
 - [[wiki/concepts/KV Cache]]
 - [[wiki/concepts/Prefill Decode Split]]

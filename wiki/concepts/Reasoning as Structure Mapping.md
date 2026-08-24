@@ -122,6 +122,8 @@ Reasoning = source structure + target structure + relation mapping + constraint 
 ## Related
 
 - [[wiki/concepts/Analysis]]
+- [[wiki/concepts/Retrieval vs Reasoning]]
+- [[wiki/concepts/LLM Reasoning as In-Context Computation]]
 - [[wiki/topics/Critical Thinking]]
 - [[wiki/syntheses/Thinking and Judgment Workflow]]
 - [[wiki/sources/推理概念解剖 Source Guide]]

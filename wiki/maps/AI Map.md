@@ -23,7 +23,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 9
-updated: 2026-08-15T22:44:31+0800
+updated: 2026-08-21T22:57:20+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -68,6 +68,12 @@ tags:
 - [[wiki/concepts/Search and Learning as Meta-Methods]] — search 与 learning 是能随算力任意扩展的元能力，本质是同一台"生成→评估→改进"的发现引擎。
 - [[wiki/concepts/Class as Learned Invariance]] — 学习判断"同一类"是发现一条不变性/等价关系，而非查表归档；过拟合即学到错误的等价关系。
 - [[wiki/concepts/LLM]]
+- [[wiki/concepts/LLM Reasoning as In-Context Computation]] — LLM 推理不是简单模式匹配，而是建立在模式学习之上的上下文内计算；参数供知识、Transformer 供计算、上下文供当前状态。
+- [[wiki/concepts/Retrieval vs Reasoning]] — 检索找已有信息/节点，推理产生新结论/建边。
+- [[wiki/concepts/Planning as Goal-Directed Reasoning]] — 规划是面向目标、从目标倒推行动序列的推理。
+- [[wiki/concepts/Agent State]] — 状态是决定未来所需的充分信息、是对历史的压缩、不等于世界本身。
+- [[wiki/concepts/Context as Working Memory]] — 上下文是工作记忆载体，记忆是更广的持久化机制，二者与状态处于不同层次。
+- [[wiki/concepts/Logits]] — 模型在每个生成位置为整个词表产生的原始相对分数，是模型计算与 softmax、sampling 等解码控制之间的边界。
 - [[wiki/concepts/Next-Token Pipeline]]
 - [[wiki/concepts/Tokenization]]
 - [[wiki/concepts/Transformer Residual Stream]]
@@ -142,6 +148,7 @@ tags:
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/syntheses/AI Agent Engineering Learning Path]] — 把 Agent control loop、ETCLOVG harness、轨迹评测、context、memory、Skill 与 multi-agent 组织成一条可执行的 12 周工程学习路线。
 - [[wiki/syntheses/AI Agent Three Paradoxes|AI Agent 三重悖论]] — 把记忆选择、推理脚手架与自我改进验证器放进同一个循环依赖模型，并把外部接地视为共同破局点。
+- [[wiki/syntheses/Agent as Problem-Solving System]] — 把大模型定位为问题求解系统里的推理引擎之一，用目标+状态+记忆+检索+推理+规划+行动+反馈的统一闭环，将问题求解重述为状态空间搜索与不确定性收窄。
 
 ## Source notes
 
@@ -251,3 +258,4 @@ tags:
 
 ## Source Guides
 - [[wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide|配置/钩子/代码库/技能放置决策]] — 判断一个行为应放进项目配置、hook、代码库还是 skill。
+- [[wiki/sources/检索推理规划与Agent问题求解 Source Guide|检索推理规划与 Agent 问题求解]] — ChatGPT 对话：从"检索 vs 推理"逐层澄清推理、规划、上下文、记忆、状态，收敛到 Agent 问题求解闭环。

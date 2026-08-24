@@ -56,4 +56,6 @@ Agentic Control Loop 把 LLM agent 看成一个动态控制系统，而不是一
 - [[wiki/topics/AI Harness]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Agent Action Space]]
+- [[wiki/concepts/Agent State]]
+- [[wiki/syntheses/Agent as Problem-Solving System]]
 - [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]]

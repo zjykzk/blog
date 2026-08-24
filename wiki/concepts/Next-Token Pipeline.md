@@ -7,7 +7,7 @@ category: concepts
 sources:
   - inline:life-of-a-token-2026-05-09
 created: 2026-05-09T00:00:00+08:00
-updated: 2026-05-09T00:00:00+08:00
+updated: 2026-08-21T22:57:20+0800
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-09
@@ -34,8 +34,8 @@ The next-token pipeline is the sequence of transformations that turns an input s
 - Position information is added so the model can distinguish the same token appearing in different sequence positions.
 - Transformer layers repeatedly combine self-attention, feed-forward computation, normalization, and [[wiki/concepts/Transformer Residual Stream|residual stream]] updates.
 - Self-attention routes information across prior positions; FFN layers transform each position independently after routing has happened.
-- The final hidden vector at the last position is projected by the LM head into logits over the vocabulary.
-- Softmax and sampling turn logits into the next token; [[wiki/concepts/Autoregressive Decoding]] then feeds that token back into the next step.
+- The final hidden vector at the last position is projected by the LM head into [[wiki/concepts/Logits]], one raw relative score for each vocabulary token.
+- Softmax and sampling turn [[wiki/concepts/Logits|logits]] into the next token; [[wiki/concepts/Autoregressive Decoding]] then feeds that token back into the next step.
 
 ## Why it matters
 
@@ -46,6 +46,7 @@ This distinction explains why a model can be fixed while latency, cost, and thro
 ## Related
 
 - [[wiki/concepts/LLM]]
+- [[wiki/concepts/Logits]]
 - [[wiki/concepts/Neural Network Inference Boundary]]
 - [[wiki/topics/LLM Inference Systems]]
 - [[wiki/sources/Life of a Token Source Guide]]

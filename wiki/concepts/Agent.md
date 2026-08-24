@@ -63,9 +63,11 @@ Agent 与普通 LLM 调用的差别，不在于“是否输出了多段推理文
 
 - [[wiki/concepts/Agent Tool]]
 - [[wiki/concepts/Agent Action Space]]
+- [[wiki/concepts/Agent State]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Agentic AI Architecture Taxonomy]]
 - [[wiki/syntheses/Agent System Design Space]]
+- [[wiki/syntheses/Agent as Problem-Solving System]]
 - [[wiki/maps/AI Map]]
 
 ## Source Notes

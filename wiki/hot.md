@@ -1,17 +1,20 @@
 ---
 title: Hot Cache
 category: meta
-summary: 关系是在具体语境中约束对象如何共同出现、被理解或发生变化的规则；把类型、方向、边界与证据说清，才能让“有关系”成为可检验命题。
+summary: 从「检索 vs 推理」出发，把 Agent 重述为问题求解系统：目标+状态+记忆+检索+推理+规划+行动+反馈的统一闭环，推理是建立在模式学习之上的上下文内计算。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-08-21T22:47:56+0800
+updated: 2026-08-24T12:09:19+0800
 ---
 
 ## Recent Activity
+- 2026-08-24T12:09:19+0800 — 已摄入 [[wiki/sources/检索推理规划与Agent问题求解 Source Guide|检索推理规划与Agent问题求解]]（ChatGPT 分享对话），蒸馏为 5 个概念 [[wiki/concepts/Retrieval vs Reasoning|Retrieval vs Reasoning]]、[[wiki/concepts/Planning as Goal-Directed Reasoning|Planning as Goal-Directed Reasoning]]、[[wiki/concepts/Agent State|Agent State]]、[[wiki/concepts/Context as Working Memory|Context as Working Memory]]、[[wiki/concepts/LLM Reasoning as In-Context Computation|LLM Reasoning as In-Context Computation]] 与综合 [[wiki/syntheses/Agent as Problem-Solving System|Agent as Problem-Solving System]]：检索是「找节点」、推理是「建边」；规划是面向目标的推理；上下文是工作记忆载体而非记忆本身；状态是为决定「接下来」所需的最小充分信息；大模型推理是参数(知识/先验)+Transformer(计算)+上下文(问题/临时状态)组合涌现的上下文内计算，Agent 则把这些统一为状态空间搜索与不确定性收窄的求解闭环。
+- 2026-08-24T12:05:00+0800 — 已摄入 [[wiki/sources/解释生命与分子实体 Source Guide|解释生命与分子实体]]（ChatGPT 分享对话），并蒸馏为 [[wiki/concepts/Life as Dissipative Information Structure|Life as Dissipative Information Structure]] 与 [[wiki/concepts/Entropy|Entropy]]：把“生命从无序产生有序且不违反热二定律”改写为“利用环境自由能维持低熵结构并复制信息”的机制链 熵→自由能→信息→自复制→自然选择→生命；真正必需的不是分子，而是能稳定承载信息、可因果作用、处于非平衡态的物理自由度。
+- 2026-08-21T22:57:20+0800 — 已捕获 [[wiki/concepts/Logits|Logits]]：logits 是模型针对当前上下文为整个词表计算的原始相对分数，不是概率或事实置信度；固定模型对固定状态原则上产生相同 raw logits，随机性通常先进入 sampling，再通过新 token 反馈使后续 logits 和生成轨迹分叉。
 - 2026-08-21T22:47:56+0800 — 已捕获 [[wiki/concepts/Relation as Contextual Constraint|Relation as Contextual Constraint]]：把“有关系”从模糊联想展开为语境中的约束命题，并区分分类、相似、共现、依赖、构成与因果。
 - 2026-08-16T22:37:52+0800 — 已捕获 [[wiki/syntheses/Euclid as a Case of Formalization's Limits|Euclid as a Case of Formalization's Limits]]：把 [[wiki/concepts/Formalization|形式化]] 的"必然有外部"判断放到数学史上检验——欧几里得这个最完整的形式化，把视觉直觉、语义指称、刚体运动和平行公设四类东西留在圈外；前三类是系统内部的裂缝（靠图形和经验偷偷补上），第四类是现实对应（空间是否为平只是选择），而两千年后掀翻数学与物理的希尔伯特公理化和非欧几何，恰恰从这些圈外剩余长出。
 - 2026-08-16T17:13:51+0800 — 已整理 [[wiki/sources/The Art of Doing Science and Engineering Source Guide|The Art of Doing Science and Engineering]]，并综合为 [[wiki/syntheses/From Senior Engineer to Tech Leader|From Senior Engineer to Tech Leader]]：Learning to Learn 不是多学知识，而是在技术过时、问题变化和系统演化中持续修正选题、架构、团队判断与技术投资。
@@ -28,6 +31,9 @@ updated: 2026-08-21T22:47:56+0800
 
 ## Active Threads
 
+- Agent 现在形成一条「问题求解系统」主线：把大模型定位为求解系统里的推理引擎之一，用目标+状态+记忆+检索+推理+规划+行动+反馈的统一闭环把问题求解重述为状态空间搜索与不确定性收窄。其中检索是从既有信息空间「找节点」（答案已存在），推理是依据信息与规则「建边」产生原本没有直接给出的新结论；规划是面向目标的推理，从目标倒推在顺序、依赖、代价与不确定性下的可接受路径；状态是某时刻为决定「接下来会发生什么」所需的最小充分信息（对历史的压缩，不是世界本身）；上下文是 Agent 的工作记忆载体（当前正被模型使用的信息状态），承担记忆功能但不等于记忆；大模型推理不是简单模式匹配，而是建立在模式学习之上的上下文内计算——参数提供知识与先验、Transformer 提供计算机制、上下文提供当前问题与临时状态，三者组合涌现出推理。
+- 物理/生命机制现在加入一条“生命作为耗散信息结构”线索：生命不是违反熵增的有序，而是开放系统利用环境自由能维持局部低熵结构、并把信息带噪复制给下一代；总熵仍增（ΔS_宇宙>0）。熵最好读成“一个宏观态有多少种微观实现方式”而非混乱程度，热力学熵 S=k_B lnΩ 与信息熵 H=-Σp log p 在等概率时统一为 S=k_B H。真正必需的不是“分子”，而是能稳定承载信息、可因果作用、处于非平衡态的物理自由度；分子只是合适载体。自然选择只需复制+变异+差异性复制成功率，无需目标或意识。
+- LLM inference 现在补齐 logits 边界：模型把当前上下文映射成覆盖词表的 raw logits，softmax 与 decoding policy 把相对分数变成一次 token 选择；模型参数固定只意味着映射固定，不意味着每个位置的 logits 数值固定，而 sampling 产生的新 token 会经自回归反馈改变后续全部 logits。
 - 关系与结构化思维现在加入一条“语境约束”线索：关系不是对象之间附加的一根线，而是规定哪些配对、解释或变化在当前语境中成立；“有关系”只是弱存在命题，只有补全类型、方向、机制、证据和边界后，才能进入推理、系统分析或因果判断。
 - 技术领导力现在加入汉明的 Learning to Learn 线索：高级工程师的成长不是扩大个人解题量，而是同时经营三个系统问题——架构能否低成本应对变化，团队能否在没有个人审批时维持判断质量，技术投入能否连接业务结果并接受反馈修正。
 - Bitter Lesson 现在为学习与 AI 加上一条元能力主线：能随算力任意扩展的只有 search 与 learning，因为它们装载的是"发现答案的过程"而非答案本身；两者是同一台"空间 + 评价信号 + 迭代"的发现引擎在不同空间/时间尺度上的投影，学习本身就是一种搜索。人个体的"省搜索、靠先验"并不违反 Bitter Lesson——那场大规模搜索预付在演化与文化里，个体只是继承压缩结果，并多出一手"重构空间"的创造能力。由此进一步得到分类观：学习判断"同一类"不是查表归档，而是在表示空间里、由归纳偏置引导、被评价信号裁定，发现一条"什么变了也不改变答案"的不变性；划对了叫抽象，划错了叫过拟合。
@@ -161,7 +167,9 @@ updated: 2026-08-21T22:47:56+0800
 
 ## Key Takeaways
 
+- Logits 是 LLM 对“下一 token 候选空间”的原始相对评分，不是概率、更不是事实真值；固定精确输入原则上得到固定 raw logits，但 sampling 与自回归反馈能让完整生成呈现“局部确定、全局随机”。
 - “有关系”不等于“有因果”：它最低限度只表示两个对象能在某个语境中共同满足一种关系；一个有信息量的关系还必须说明它约束或排除了哪些可能性。
+
 - Tech Leader 的核心产出不是更多亲自完成的复杂代码，而是一个持续学习的工程系统：正确问题更容易被看见，错误方案更早暴露，架构保留演进路径，团队判断不依赖个人，技术投资能被业务结果和现实反馈校准。
 - 精通 AI Agent 不等于熟悉最多框架，而是能把真实任务建模为受约束的控制循环，沿任务规格、观察、上下文、状态、计划、工具、执行、反馈、验证和停止条件定位失败，并把重复失败沉淀成测试、规则、工具或 Skill。
 - 问题不是问句本身，而是一个能设想可能性的主体发现当前现实与认知模型不足以决定下一步；好问题会优先显化那个最可能改变行动的未知量。

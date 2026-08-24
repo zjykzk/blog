@@ -1,10 +1,30 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 67,
-    "total_pages": 412
+    "total_sources_ingested": 69,
+    "total_pages": 422
   },
   "sources": {
+    "chatgpt-share:6a8bbaa9-dbb0-83ee-ad09-a81c039ed1a2": {
+      "ingested_at": "2026-08-24T12:05:00+0800",
+      "size_bytes": 30784,
+      "modified_at": "2026-08-24T12:05:00+0800",
+      "content_hash": "sha256:973d8af7f1293ce4a3d9ec866fddd72e1dfe8ae134c751478184b790c53fe528",
+      "source_type": "data",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/解释生命与分子实体 Source Guide.md",
+        "wiki/concepts/Life as Dissipative Information Structure.md",
+        "wiki/concepts/Entropy.md"
+      ],
+      "pages_updated": [
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md",
+        "wiki/maps/Learning Map.md",
+        "wiki/maps/Mechanism Models Map.md"
+      ]
+    },
     "inline:buddhist-awakening-correction-2026-06-21": {
       "ingested_at": "2026-06-21T13:45:05+0800",
       "size_bytes": 3680,
@@ -1454,6 +1474,32 @@
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"
+      ]
+    },
+    "https://chatgpt.com/share/6a8bbde7-a668-83ee-a76f-60ff58322ccb": {
+      "ingested_at": "2026-08-24T12:09:19+0800",
+      "size_bytes": 70382,
+      "modified_at": "2026-08-24T12:09:19+0800",
+      "content_hash": "sha256:7d5227581d365311db30628707f1622cc4b7e5f09650aec1f6f7c563eb29adb7",
+      "source_type": "data",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/检索推理规划与Agent问题求解 Source Guide.md",
+        "wiki/concepts/Retrieval vs Reasoning.md",
+        "wiki/concepts/Planning as Goal-Directed Reasoning.md",
+        "wiki/concepts/Agent State.md",
+        "wiki/concepts/Context as Working Memory.md",
+        "wiki/concepts/LLM Reasoning as In-Context Computation.md",
+        "wiki/syntheses/Agent as Problem-Solving System.md"
+      ],
+      "pages_updated": [
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md",
+        "wiki/maps/AI Map.md",
+        "wiki/concepts/Agent.md",
+        "wiki/concepts/Agentic Control Loop.md",
+        "wiki/concepts/Reasoning as Structure Mapping.md"
       ]
     }
   },

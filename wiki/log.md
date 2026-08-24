@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-08-12T23:17:18+0800
+updated: 2026-08-21T22:57:20+0800
 aliases:
   - Wiki Log
 tags:
@@ -377,3 +377,6 @@ tags:
 - [2026-08-16T18:46:00+0800] LINT_FIX rule=7 provenance_drift_fixed=12 mode="normalize-frontmatter" note="recomputed marker-based fractions; only 12 genuine drifts>0.20 (prior report of 39 was denominator artifact)"
 - [2026-08-16T18:47:00+0800] LINT issues_found=0 orphans=0 broken_links=0 stale=236 contradictions=0 prov_issues=0 missing_summary=0 fragmented_clusters=0 visibility_issues=0 promotion_candidates=0 synthesis_gaps=4 relationship_issues=0 note="post-fix verification; broken_links residual=4 PNG embeds are false positives (files exist); stale/synthesis_gaps are informational not defects"
 - [2026-08-21T22:47:56+0800] CAPTURE type=concept page="wiki/concepts/Relation as Contextual Constraint.md" title="Relation as Contextual Constraint"
+- [2026-08-21T22:57:20+0800] CAPTURE type=concept page="wiki/concepts/Logits.md" title="Logits"
+- [2026-08-24T12:05:00+0800] INGEST source="chatgpt-share:6a8bbaa9-dbb0-83ee-ad09-a81c039ed1a2" pages_updated=5 pages_created=3 mode=append note="解释生命与分子实体: source guide + concepts Life as Dissipative Information Structure, Entropy"
+- [2026-08-24T12:09:19+0800] INGEST source="https://chatgpt.com/share/6a8bbde7-a668-83ee-a76f-60ff58322ccb" pages_updated=4 pages_created=6 mode=append note="检索推理规划与Agent问题求解: source guide + concepts Retrieval vs Reasoning, Planning as Goal-Directed Reasoning, Agent State, Context as Working Memory, LLM Reasoning as In-Context Computation + synthesis Agent as Problem-Solving System"

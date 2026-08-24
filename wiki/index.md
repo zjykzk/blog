@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-08-21T22:47:56+0800
+updated: 2026-08-24T12:05:00+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -87,6 +87,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Life as Dissipative Information Structure|Life as Dissipative Information Structure]] — 生命不是“违反熵增的有序”，而是利用环境自由能维持低熵结构、并复制自身信息的非平衡系统；真正必需的不是“分子”，而是能稳定承载信息、可因果作用、处于非平衡态的物理自由度。 (#physics #systems #mechanism #cognition #learning)
+- [[wiki/concepts/Entropy|Entropy]] — 熵最好理解为“一个宏观状态背后有多少种微观状态能实现它”，而不是“混乱程度”；热力学熵 S=k_B lnΩ 与信息熵 H=-Σp log p 背后是同一个分布结构，等概率时 S=k_B H。 (#physics #systems #mechanism #reasoning #learning)
 - [[wiki/concepts/Relation as Contextual Constraint|Relation as Contextual Constraint]] — 关系是在特定语境中约束对象如何共同出现、被理解或发生变化的规则；“有关系”若不说明类型、方向、边界和证据，仍只是一个低信息量命题。 ( #thinking #reasoning #systems #mechanism)
 - [[wiki/concepts/Search and Learning as Meta-Methods|Search and Learning as Meta-Methods]] — 搜索与学习是元能力：不装载领域答案，只装载产生答案的过程，因此能随算力任意扩展；本质是同一台"生成→评估→改进"的发现引擎，人则把这台引擎的算力预付在演化与文化里。 (#training #cognition #llm #learning)
 - [[wiki/concepts/Class as Learned Invariance|Class as Learned Invariance]] — 学习判断"同一类"不是查表归档，而是在表示空间里、由归纳偏置引导、被评价信号裁定，发现一条"什么变了也不改变答案"的不变性；划对了叫抽象，划错了叫过拟合。 (#training #cognition #learning #llm)
@@ -201,6 +203,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Law of Unintended Consequences]] — The Law of Unintended Consequences warns that interventions in complex systems can create benefits, side effects, or perverse results not predicted by the original plan. (#software-engineering #systems #complexity #feedback)
 - [[wiki/concepts/LLM Inference Benchmarking|LLM Inference Benchmarking]] — LLM inference benchmarking compares latency, throughput, and goodput under request shapes and service-level objectives. (#llm #inference #benchmarking)
 - [[wiki/concepts/LLM|LLM]] — LLMs are neural text models whose learned tensor computation must be distinguished from the external harness, serving system, and control-flow code around them. (#llm #concept)
+- [[wiki/concepts/Logits|Logits]] — Logits 是 LLM 为整个词表产生的原始相对分数；固定模型对固定状态原则上给出相同 raw logits，sampling 与上下文反馈使生成轨迹分叉。 ( #llm #inference #probability)
 - [[wiki/concepts/Next-Token Pipeline|Next-Token Pipeline]] — The next-token pipeline turns text into token IDs, vectors, contextual hidden states, logits, probabilities, and finally one sampled output token. (#llm #inference #transformer)
 - [[wiki/concepts/Tokenization|Tokenization]] — Tokenization converts text into model vocabulary IDs, giving the neural network discrete symbols it can embed and process numerically. (#llm #inference #representation)
 - [[wiki/concepts/Transformer Residual Stream|Transformer Residual Stream]] — The transformer residual stream carries token representations across layers while attention and FFN sublayers add learned deltas into it. (#llm #transformer #inference)
@@ -243,6 +246,11 @@ This is the navigation hub and full page inventory for the structured wiki layer
 
 - [[wiki/concepts/Vibe Coding|Vibe Coding]] — Vibe Coding 是 AI coding 中从补全到放飞的一条协作谱系；它让代码生成变便宜，也把验证责任推到中心。 (#ai-coding #software-engineering #agents)
 - [[wiki/concepts/Verification Gap|Verification Gap]] — 验证鸿沟描述 AI 生成代码速度与人类/组织验证速度之间扩大的差距，是 Vibe 时代软件工程的新瓶颈。 (#ai-coding #verification #software-engineering #quality)
+- [[wiki/concepts/Retrieval vs Reasoning|Retrieval vs Reasoning]] — 检索是从已有信息空间找到已存在的答案（找节点），推理是依据已有信息与规则产生原本没有直接给出的新结论（建边）。 (#reasoning #retrieval #agents #llm)
+- [[wiki/concepts/Planning as Goal-Directed Reasoning|Planning as Goal-Directed Reasoning]] — 规划是一种面向目标的推理：从目标倒推行动序列，在动作的顺序、依赖、代价与不确定性下，为跨越当前状态到目标状态推演出一条可接受的路径。 (#planning #reasoning #agents #problem-solving)
+- [[wiki/concepts/Agent State|Agent State]] — 状态是在某时刻为了决定"接下来会发生什么"而必须知道的全部相关信息；它是对历史的压缩、是对世界的充分抽象，而不是世界本身或全部信息。 (#agents #state #memory #problem-solving)
+- [[wiki/concepts/Context as Working Memory|Context as Working Memory]] — 上下文是 Agent 的工作记忆载体（当前正在被模型使用的信息状态），记忆是更广义的信息持久化机制；上下文承担记忆功能但不等于记忆。 (#agents #context #memory #llm)
+- [[wiki/concepts/LLM Reasoning as In-Context Computation|LLM Reasoning as In-Context Computation]] — 大模型的推理不是简单模式匹配，而是建立在模式学习之上的上下文内计算——参数提供知识与先验、Transformer 提供计算机制、上下文提供当前问题与临时状态，三者组合涌现出推理。 (#llm #reasoning #in-context-learning #cognition)
 
 ## Syntheses
 - [[wiki/syntheses/Euclid as a Case of Formalization's Limits|Euclid as a Case of Formalization's Limits]] — 欧几里得几何是最完整的形式化范例，却把视觉直觉、语义指称、刚体运动和"空间是否为平"留在圈外；两千年后掀翻数学与物理的东西恰恰从这些圈外剩余长出。 (#thinking #reasoning #formal-language #mathematics #history)
@@ -271,6 +279,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Agent Skill Implementation Landscape|Agent Skill Implementation Landscape]] — Agent skill 是按需加载的操作知识包；行业实践可分为知识包、工具函数、协议服务和企业插件四类实现路线。 (#agents #skills #tools #context #workflow)
 - [[wiki/syntheses/Coding Agent Debugging Skills as Evidence Gates|Coding Agent Debugging Skills as Evidence Gates]] — 高频编码 skill 把 debugging、TDD、架构、并发、浏览器测试和框架范式压成证据门禁、责任账本与反馈回路。 (#agents #skills #ai-coding #debugging #verification #software-engineering)
 - [[wiki/syntheses/Agent System Design Space|Agent System Design Space]] — Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, cache economics, and runtime APIs. (#synthesis #agents #architecture)
+- [[wiki/syntheses/Agent as Problem-Solving System|Agent as Problem-Solving System]] — 把大模型定位为问题求解系统里的推理引擎之一，用目标+状态+记忆+检索+推理+规划+行动+反馈的统一闭环，将问题求解重述为状态空间搜索与不确定性收窄。 (#synthesis #agents #reasoning #problem-solving #llm)
 - [[wiki/syntheses/AI Agent Engineering Learning Path|AI Agent Engineering Learning Path]] — 一条以可靠 Agent 系统工程为目标的 12 周学习路线，从单 Agent 控制循环、harness、验证与评测，逐步推进到记忆、Skill 和多 Agent。 (#agents #learning #harness #evaluation #software-engineering)
 - [[wiki/syntheses/AI Engineering Workflow|AI Engineering Workflow]] — AI Engineering Workflow connects agent mental models, workflow control, tool design, coding constraints, and requirement normalization. (#synthesis #agents #workflow)
 - [[wiki/syntheses/AI Harness × Testing Strategy|AI Harness × Testing Strategy]] — In AI coding, testing strategy becomes harness design: tests are runtime feedback surfaces, not only post-implementation QA. (#agents #harness #testing #software-engineering)
@@ -304,6 +313,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
+- [[wiki/sources/检索推理规划与Agent问题求解 Source Guide|检索推理规划与Agent问题求解 Source Guide]] — 保存一段中文对话：从检索与推理的区别出发，讨论 LLM 推理的本质、模式匹配之争、规划作为目标导向推理、上下文与记忆、状态，并汇成 Agent 作为问题求解系统的统一模型。 (#agents #reasoning #llm #problem-solving #llm-wiki)
+- [[wiki/sources/解释生命与分子实体 Source Guide|解释生命与分子实体 Source Guide]] — 中文物理/生物学教学问答：从热二定律、自由能、熵讲到信息、DNA、RNA 世界假说与自然选择，串成“熵→自由能→信息→自复制→自然选择→生命”的解释链。 (#physics #learning #cognition #mechanism #systems)
 - [[wiki/sources/The Art of Doing Science and Engineering Source Guide|The Art of Doing Science and Engineering Source Guide]] — 汉明把 Learning to Learn 定义为面向未来的元教育：在知识过时、问题变化和系统演化中，持续选择重要问题、学习基础结构并修正自己的思维风格。 ( #book-notes #learning #engineering #leadership)
 - [[wiki/sources/Clinical Hypnosis Classic Texts Source Guide|催眠经典教材导览]] — 汇总催眠理论、研究、临床实践与历史经典，保留状态论、解离论和社会认知论的竞争解释。 ( #books #psychology #hypnosis #research)
 - [[wiki/sources/Unconscious Mind Classic Texts Source Guide|潜意识经典教材导览]] — 从精神动力性无意识到适应性无意识、自动加工、行动归因和判断偏差的经典阅读谱系。 ( #books #psychology #cognition #decision-making)

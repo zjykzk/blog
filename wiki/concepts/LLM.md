@@ -16,7 +16,7 @@ provenance:
   inferred: 0.15
   ambiguous: 0.0
 source_count: 3
-updated: 2026-05-09T00:00:00+08:00
+updated: 2026-08-21T22:57:20+0800
 aliases:
   - llm
 tags:
@@ -48,7 +48,7 @@ tags:
 
 The vLLM source adds a serving-side boundary: an LLM is not the same thing as an [[wiki/topics/LLM Inference Systems|inference system]].
 
-The model defines the transformer computation and sampling distribution, while the inference system decides scheduling, [[wiki/concepts/KV Cache]] allocation, batching, prefill/decode handling, speculative decoding, serving endpoints, and benchmark tradeoffs.
+The model defines the transformer computation that produces [[wiki/concepts/Logits|raw logits]], while the inference system decides decoding and sampling policy, scheduling, [[wiki/concepts/KV Cache]] allocation, batching, prefill/decode handling, speculative decoding, serving endpoints, and benchmark tradeoffs.
 
 That distinction matters because user-visible latency, throughput, and cost can change substantially while the underlying model weights stay the same. ^[inferred]
 
@@ -61,6 +61,7 @@ Surrounding operations such as sampling, stop checks, cache management, safety f
 ## Cross-links
 
 - [[wiki/concepts/Agent]]
+- [[wiki/concepts/Logits]]
 - [[wiki/concepts/Next-Token Pipeline]]
 - [[wiki/concepts/Neural Network Inference Boundary]]
 - [[wiki/topics/LLM Inference Systems]]
