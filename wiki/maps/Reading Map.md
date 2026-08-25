@@ -49,6 +49,7 @@ tags:
 - [[wiki/topics/架构落地方法]]
 - [[wiki/concepts/架构认知框架]]
 - [[wiki/topics/Theory of Everything Popular Science]] — 万物理论（大统一/量子引力）方向的科普高分书单与阅读路线。
+- [[wiki/topics/如何阅读康德]] — 把康德当“论证机器”读：抓“先天综合判断如何可能”，先导论后原著，顺论证不顺结论。
 
 ## Syntheses
 
