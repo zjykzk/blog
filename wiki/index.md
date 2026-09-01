@@ -92,6 +92,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Life as Dissipative Information Structure|Life as Dissipative Information Structure]] — 生命不是“违反熵增的有序”，而是利用环境自由能维持低熵结构、并复制自身信息的非平衡系统；真正必需的不是“分子”，而是能稳定承载信息、可因果作用、处于非平衡态的物理自由度。 (#physics #systems #mechanism #cognition #learning)
 - [[wiki/concepts/Entropy|Entropy]] — 熵最好理解为“一个宏观状态背后有多少种微观状态能实现它”，而不是“混乱程度”；熵增是概率/组合结果，热力学熵 S=k_B lnΩ 与信息熵 H=-Σp log p 背后是同一分布结构，等概率时 S=k_B H。 (#physics #systems #mechanism #reasoning #learning)
 - [[wiki/concepts/Arrow of Time|Arrow of Time]] — 微观定律时间反演对称，宏观却有“过去→未来”方向；时间箭头不来自微观定律，而来自低熵初始条件（Past Hypothesis）、统计规律与粗粒化。 (#physics #systems #mechanism #reasoning #cognition)
+- [[wiki/concepts/Universality of Physical Law|Universality of Physical Law]] — 物理定律处处适用不是被证明的定理，而是每天被观测检验、至今未被证伪的经验假设；可逐层还原为对称=无差别=不可分辨=自我同一（A=A）。 (#physics #systems #mechanism #reasoning #cognition)
 - [[wiki/concepts/Relation as Contextual Constraint|Relation as Contextual Constraint]] — 关系是在特定语境中约束对象如何共同出现、被理解或发生变化的规则；“有关系”若不说明类型、方向、边界和证据，仍只是一个低信息量命题。 ( #thinking #reasoning #systems #mechanism)
 - [[wiki/concepts/Search and Learning as Meta-Methods|Search and Learning as Meta-Methods]] — 搜索与学习是元能力：不装载领域答案，只装载产生答案的过程，因此能随算力任意扩展；本质是同一台"生成→评估→改进"的发现引擎，人则把这台引擎的算力预付在演化与文化里。 (#training #cognition #llm #learning)
 - [[wiki/concepts/Class as Learned Invariance|Class as Learned Invariance]] — 学习判断"同一类"不是查表归档，而是在表示空间里、由归纳偏置引导、被评价信号裁定，发现一条"什么变了也不改变答案"的不变性；划对了叫抽象，划错了叫过拟合。 (#training #cognition #learning #llm)

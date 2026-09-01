@@ -161,6 +161,7 @@ B → A  只有极少微观路径   →   P(B→A) ≈ 0
 ## Related
 
 - [[wiki/concepts/Entropy]] —— 时间箭头建立在“熵=微观实现数”和熵增的概率论证之上。
+- [[wiki/concepts/Universality of Physical Law]] —— 时间箭头是“时间平移对称被低熵初始条件打破”，与定律普适性的对称-守恒轴同源。
 - [[wiki/concepts/Life as Dissipative Information Structure]] —— 宇宙低熵起点→熵增链条是生命出现方向性的前提。
 - [[wiki/concepts/Context Information Density]] —— 粗粒化把熵接到“信息缺失”，与信息密度同源。
 - [[wiki/concepts/Mechanism Model]] —— 时间箭头是“初始条件+统计+描述粒度”生成宏观不可逆性的机制。
