@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-08-24T12:05:00+0800
+updated: 2026-09-01T23:34:53+0800
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -123,6 +123,7 @@ aliases:
 
 这一组模型解释组织里责任、信息、权力和激励如何生成行为。
 
+- [[wiki/concepts/Institution as Consequence Structure|制度作为后果结构]]：奖惩决定做不做，资格决定谁能做，程序决定怎样做才被承认；四者连同执行预期把规则变成真实的行为约束。
 - [[wiki/concepts/Accountability]]：公开、署名、承担风险让社会和组织能把责任、权益和杠杆路由到人。
 - [[wiki/concepts/Institutional Friction]]：组织在对话、决策、所有权和共享现实上退化时，会产生协调损耗。
 - [[wiki/concepts/Organizational Memory]]：组织记忆把个人工作变成共享工作，再变成可被未来决策调用的制度记忆。

@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-08-24T12:05:00+0800
+updated: 2026-09-01T23:34:53+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -88,6 +88,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Institution as Consequence Structure|制度作为后果结构]] — 制度是被共同承认并可稳定维持的行为规则与后果结构；奖惩决定做不做，资格决定谁能做，程序决定怎样做才被承认。 ( #organization #management #systems #mechanism)
 - [[wiki/concepts/Life as Dissipative Information Structure|Life as Dissipative Information Structure]] — 生命不是“违反熵增的有序”，而是利用环境自由能维持低熵结构、并复制自身信息的非平衡系统；真正必需的不是“分子”，而是能稳定承载信息、可因果作用、处于非平衡态的物理自由度。 (#physics #systems #mechanism #cognition #learning)
 - [[wiki/concepts/Entropy|Entropy]] — 熵最好理解为“一个宏观状态背后有多少种微观状态能实现它”，而不是“混乱程度”；熵增是概率/组合结果，热力学熵 S=k_B lnΩ 与信息熵 H=-Σp log p 背后是同一分布结构，等概率时 S=k_B H。 (#physics #systems #mechanism #reasoning #learning)
 - [[wiki/concepts/Arrow of Time|Arrow of Time]] — 微观定律时间反演对称，宏观却有“过去→未来”方向；时间箭头不来自微观定律，而来自低熵初始条件（Past Hypothesis）、统计规律与粗粒化。 (#physics #systems #mechanism #reasoning #cognition)

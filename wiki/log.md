@@ -382,3 +382,4 @@ tags:
 - [2026-08-24T12:09:19+0800] INGEST source="https://chatgpt.com/share/6a8bbde7-a668-83ee-a76f-60ff58322ccb" pages_updated=4 pages_created=6 mode=append note="检索推理规划与Agent问题求解: source guide + concepts Retrieval vs Reasoning, Planning as Goal-Directed Reasoning, Agent State, Context as Working Memory, LLM Reasoning as In-Context Computation + synthesis Agent as Problem-Solving System"
 - [2026-08-24T14:05:47+0800] CAPTURE type=concept page="wiki/concepts/Linear Layer.md" title="Linear Layer"
 - [2026-08-24T14:20:00+0800] INGEST source="chatgpt-share:6a8bdea6-dbe8-83ee-956c-27fdc51ee77e" pages_updated=6 pages_created=2 mode=append note="热力学第二定律与时间箭头: source guide + concept Arrow of Time; enriched Entropy (统计/组合基础、热量流向、熵减概率) + cross-linked Life as Dissipative Information Structure"
+- [2026-09-01T23:34:53+0800] CAPTURE type=concept page="wiki/concepts/Institution as Consequence Structure.md" title="制度作为后果结构"

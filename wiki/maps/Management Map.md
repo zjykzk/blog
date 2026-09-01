@@ -12,7 +12,7 @@ base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-08-16T17:13:51+0800
+updated: 2026-09-01T23:34:53+0800
 aliases:
   - 管理地图
 tags:
@@ -33,6 +33,7 @@ tags:
 
 ## Concepts and frameworks
 
+- [[wiki/concepts/Institution as Consequence Structure|制度作为后果结构]] — 用资格、程序、奖惩和执行解释制度如何进入人的选择，并稳定塑造组织行为。
 - [[wiki/concepts/Cynefin Framework]]
 - [[wiki/concepts/Iceberg Model]]
 - [[wiki/topics/Mental Models]]
