@@ -15,7 +15,7 @@ created: 2026-04-26
 base_confidence: 0.32
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-08-24T12:05:00+0800
+updated: 2026-09-05T15:52:30+0800
 aliases:
   - 学习地图
 provenance:
@@ -57,6 +57,7 @@ provenance:
 - [[wiki/syntheses/Knowledge System Construction]]——把问题牵引、知识成网、SECI、知识资产化、CODE、实践共同体和知识审计合成一套知识体系构建闭环
 - [[wiki/syntheses/ICAP 与知识类型的适用边界]]——把 ICAP 定位为学习深度刻度，而不是所有知识的同一种学习处方，并区分事实、概念、因果、程序、判断和情境知识的用法
 - [[wiki/syntheses/Application and Creation Distinction]]——用学习理论、创造力研究、设计理论和实用主义加固“应用/创造”的边界
+- [[wiki/syntheses/Music Genres as Philosophies of Life]]——把音乐风格读成可被身体实践的哲学：声音形式连接痛苦、自由、主体性、共同体与产业收编
 - [[wiki/syntheses/深度思考 高阶思维与本质理解]]——把高阶审题、深度下钻、本质句和现实校验组织成一套可执行思考训练框架
 - [[wiki/syntheses/成就感驱动与行动动力结构]]——把成就感放进行动奖励、反馈周期、价值感外包和内核奖励函数的结构里理解
 - [[wiki/syntheses/总结式读书的认知损失]]——从表征、图式、心智模型和解释性理解说明总结不能替代原书的认知建构过程
