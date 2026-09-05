@@ -19,6 +19,7 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-09-05T10:00:00+0800] CAPTURE type=concept page="wiki/concepts/Political Left and Right.md" title="政治光谱：左派与右派"
 - [2026-08-16T22:37:52+0800] CAPTURE type=synthesis page="wiki/syntheses/Euclid as a Case of Formalization's Limits.md" title="Euclid as a Case of Formalization's Limits"
 - [2026-08-16T16:29:01+0800] CAPTURE type=concept page="wiki/concepts/Search and Learning as Meta-Methods.md" title="Search and Learning as Meta-Methods"
 - [2026-08-16T16:29:01+0800] CAPTURE type=concept page="wiki/concepts/Class as Learned Invariance.md" title="Class as Learned Invariance"

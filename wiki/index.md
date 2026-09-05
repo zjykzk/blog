@@ -88,6 +88,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Political Left and Right|政治光谱：左派与右派]] — 左派/右派不是固定立场，而是相对于“现存秩序”的态度与“平等 vs 自由/秩序”的排序；参照系不同标签会颠倒，中国语境与西方几乎镜像。 (#politics #thinking #systems #judgment)
 - [[wiki/concepts/Institution as Consequence Structure|制度作为后果结构]] — 制度是被共同承认并可稳定维持的行为规则与后果结构；奖惩决定做不做，资格决定谁能做，程序决定怎样做才被承认。 ( #organization #management #systems #mechanism)
 - [[wiki/concepts/Life as Dissipative Information Structure|Life as Dissipative Information Structure]] — 生命不是“违反熵增的有序”，而是利用环境自由能维持低熵结构、并复制自身信息的非平衡系统；真正必需的不是“分子”，而是能稳定承载信息、可因果作用、处于非平衡态的物理自由度。 (#physics #systems #mechanism #cognition #learning)
 - [[wiki/concepts/Entropy|Entropy]] — 熵最好理解为“一个宏观状态背后有多少种微观状态能实现它”，而不是“混乱程度”；熵增是概率/组合结果，热力学熵 S=k_B lnΩ 与信息熵 H=-Σp log p 背后是同一分布结构，等概率时 S=k_B H。 (#physics #systems #mechanism #reasoning #learning)
