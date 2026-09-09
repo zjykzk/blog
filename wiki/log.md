@@ -386,3 +386,5 @@ tags:
 - [2026-09-01T23:34:53+0800] CAPTURE type=concept page="wiki/concepts/Institution as Consequence Structure.md" title="制度作为后果结构"
 - [2026-09-01T23:53:00+0800] CAPTURE type=concept page="wiki/concepts/Universality of Physical Law.md" title="Universality of Physical Law"
 - [2026-09-05T15:52:30+0800] CAPTURE type=synthesis page="wiki/syntheses/Music Genres as Philosophies of Life.md" title="Music Genres as Philosophies of Life"
+- [2026-09-09T21:39:46+0800] CAPTURE type=source page="wiki/sources/The Tiers of Context Engines Source Guide.md" title="The Tiers of Context Engines Source Guide"
+- [2026-09-09T21:39:46+0800] CAPTURE type=synthesis page="wiki/syntheses/Agent Knowledge Architecture.md" title="Agent Knowledge Architecture"

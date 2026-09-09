@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近新增“政治光谱：左派与右派”概念，用“相对参照系 + 多维投影”解释左右标签为何随语境（尤其中西之间）颠倒。
+summary: 最近新增 Agent 知识架构：按决策作用、时间尺度和执行强度组织事实、程序、因果、规范、目标、能力、元知识与当前状态。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-09-05T16:30:00+0800
+updated: 2026-09-09T21:39:46+0800
 ---
 
 ## Recent Activity
+- 2026-09-09T21:39:46+0800 — 已捕获 [[wiki/sources/The Tiers of Context Engines Source Guide|The Tiers of Context Engines]] 与 [[wiki/syntheses/Agent Knowledge Architecture|Agent Knowledge Architecture]]：原图的事实/程序 dual RAG 是“认识世界 + 指导行动”的最小闭环；生产级 Agent 还要把语义、情景、因果、规范、目标、能力、元知识和当前状态分流到 RAG、Memory、Skill、Tool Registry、Policy 与状态层。
 - 2026-09-05T16:30:00+0800 — 已捕获 [[wiki/concepts/Political Left and Right|政治光谱：左派与右派]]：左派/右派不是跨时空的固定立场，而是相对于“现存秩序”的态度与“平等 vs 自由/秩序”的排序。理解要点是“先定参照系 + 分清哪根轴”：现状不同标签就颠倒，一维左右只是多维立场（经济轴/文化轴）的投影。中国语境几乎与西方镜像——经济上中左≈西左，但政治文化上中国“右派”（自由派）要变革、限制政府权力，反占西方左派位置；且“右派”因 1957 反右带有历史罪名色彩。接入 [[wiki/concepts/Relation as Contextual Constraint|关系作为语境约束]] 与 [[wiki/topics/Methods of Classification|分类方法]]。
 - 2026-09-05T15:52:30+0800 — 已捕获 [[wiki/syntheses/Music Genres as Philosophies of Life|Music Genres as Philosophies of Life]]：音乐风格不只是声音分类，也会把生存张力编码成声音形式，经身体实践形成共同体、身份和行动，再受产业传播、收编与再创造影响；并以蓝调、爵士、摇滚、朋克、金属、嘻哈、电子、极简与流行等风格展示不同哲学回答。
 - 2026-09-01T23:53:00+0800 — 已捕获 [[wiki/concepts/Universality of Physical Law|Universality of Physical Law]]：物理定律处处适用不是被证明的定理，而是每天被观测检验（远方光谱、CMB、精细结构常数漂移上限）、至今未被证伪的经验假设；顺着 `普适→对称（诺特：对称↔守恒）→无差别（找不到可分辨的标记）→不可分辨（莱布尼茨）→自我同一 A=A` 一路还原到逻辑最底层。补充定义性回环（不普适的我们根本不叫定律）与规范场论"对称即冗余"的开放追问，以及可观测宇宙/能标的诚实边界。
@@ -36,6 +37,8 @@ updated: 2026-09-05T16:30:00+0800
 - 2026-07-19T22:00:16+0800 — 已捕获 [[wiki/syntheses/Rank Reduction as Generative Model Discovery|降秩方法的底层原理与有效边界]]：降秩不是总结重点，而是发现最小解释性生成模型；逐层下沉产生候选，消融与反生成压紧骨架，外推和变更测试让模型承担失败风险。
 
 ## Active Threads
+
+- Agent context 现在加入“知识架构”线索：不要因内容都表现为文本就塞进同一个向量库；先按描述、解释、指导、限制、评价和校准等决策作用分类，再检查时间尺度与执行强度，决定知识是供模型参考、必须引用、必须遵循，还是应成为模型不可绕过的硬约束。
 
 - 政治/概念分析现在加入一条“政治光谱：左派与右派”线索：左右不是固定立场，而是相对于现存秩序的态度与“平等 vs 自由/秩序”的排序。读任何“左/右”都要先做两步——先定参照系（现状不同则标签颠倒），再分清是经济轴还是文化/政治轴（一维左右只是多维立场的投影）。中国语境几乎与西方镜像：经济上中左≈西左，但中国“右派”（自由派）在政治上要宪政、限制政府、亲市场亲西方，占了西方左派的“要变革”位置，同时又因 1957 反右运动带有历史罪名色彩。这与 [[wiki/concepts/Relation as Contextual Constraint|关系作为语境约束]]（相对关系词脱离语境即低信息量）和 [[wiki/topics/Methods of Classification|分类方法]]（按哪根轴切决定分类）同源。
 
@@ -180,6 +183,7 @@ updated: 2026-09-05T16:30:00+0800
 
 ## Key Takeaways
 
+- 事实知识与程序知识构成 Agent 的最小行动闭环，但不是完备分类；生产级系统还要显式管理因果、规范、目标、能力、元知识和任务状态，并把高风险规则从“希望模型记得”提升为 policy、权限和执行门禁。
 - 制度不只是成文规则，而是能被共同预期和稳定执行的后果结构：奖惩决定做不做，资格决定谁能做，程序决定怎样做才被承认；判断制度要看真实结算，而不只看它宣称的目标。
 - 线性层 y=Wx+b 是神经网络的骨架：它只做“加权组合 + 改变维度”，本身是线性的，因此纯线性层无论堆多少层都等价于一层，必须靠非线性激活才有表达力；LLM 的 LM head 就是把隐藏状态投影成 logits 的那一层线性层。
 - Logits 是 LLM 对“下一 token 候选空间”的原始相对评分，不是概率、更不是事实真值；固定精确输入原则上得到固定 raw logits，但 sampling 与自回归反馈能让完整生成呈现“局部确定、全局随机”。

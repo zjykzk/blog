@@ -12,7 +12,7 @@ tags:
 sources:
   - conversation:2026-05-06
 created: 2026-05-06T21:35:29+08:00
-updated: 2026-05-06T21:40:37+08:00
+updated: 2026-09-09T21:39:46+0800
 aliases:
   - 知识类型
   - 知识分类
@@ -136,3 +136,4 @@ lifecycle_changed: 2026-05-06
 - [[wiki/concepts/Knowledge as Network]]
 - [[wiki/topics/Learning Methodology]]
 - [[wiki/topics/Categorical Thinking]]
+- [[wiki/syntheses/Agent Knowledge Architecture]] — 把面向人类认知的知识类型进一步投射到 Agent 的检索、状态、Skill、工具、Policy 与 Harness 运行层。

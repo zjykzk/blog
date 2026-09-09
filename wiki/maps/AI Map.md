@@ -23,7 +23,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 9
-updated: 2026-08-21T22:57:20+0800
+updated: 2026-09-09T21:39:46+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -147,6 +147,7 @@ tags:
 - [[wiki/syntheses/Coding Agent Debugging Skills as Evidence Gates]] — treats high-frequency coding skills as evidence gates, responsibility ledgers, and feedback loops for AI coding work.
 - [[wiki/syntheses/AI Engineering Workflow]]
 - [[wiki/syntheses/Agent System Design Space]]
+- [[wiki/syntheses/Agent Knowledge Architecture]] — 把事实/程序的最小行动闭环扩展成 Agent 的九类知识分工，并用时间尺度和执行强度决定检索、状态、Skill、Policy 与 Harness 的落点。
 - [[wiki/syntheses/AI Agent Engineering Learning Path]] — 把 Agent control loop、ETCLOVG harness、轨迹评测、context、memory、Skill 与 multi-agent 组织成一条可执行的 12 周工程学习路线。
 - [[wiki/syntheses/AI Agent Three Paradoxes|AI Agent 三重悖论]] — 把记忆选择、推理脚手架与自我改进验证器放进同一个循环依赖模型，并把外部接地视为共同破局点。
 - [[wiki/syntheses/Agent as Problem-Solving System]] — 把大模型定位为问题求解系统里的推理引擎之一，用目标+状态+记忆+检索+推理+规划+行动+反馈的统一闭环，将问题求解重述为状态空间搜索与不确定性收窄。
@@ -161,6 +162,7 @@ tags:
 - `pages/llm.md`
 - `pages/karpathy-guidelines.md`
 - [[wiki/sources/Agent Systems Papers Source Guide]]
+- [[wiki/sources/The Tiers of Context Engines Source Guide]] — 用委托梯度比较人脑、通用 AI 产品、企业平台和自建系统中的 Context Engine。
 - [[wiki/sources/Skills for the Future Software Profession Paper Source Guide]] — 未来软件工程师的三项核心责任：可执行 V&V、agentic pipeline 架构与认知债务治理。
 - [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]]
 - [[wiki/sources/AI Agent Systems Architectures Applications and Evaluation Paper Source Guide]] — arXiv 2601.01743 source guide for agent architectures, infrastructure, evaluation metrics, and application domains.

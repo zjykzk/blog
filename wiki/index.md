@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-09-01T23:34:53+0800
+updated: 2026-09-09T21:39:46+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -285,6 +285,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Agent Skill Implementation Landscape|Agent Skill Implementation Landscape]] — Agent skill 是按需加载的操作知识包；行业实践可分为知识包、工具函数、协议服务和企业插件四类实现路线。 (#agents #skills #tools #context #workflow)
 - [[wiki/syntheses/Coding Agent Debugging Skills as Evidence Gates|Coding Agent Debugging Skills as Evidence Gates]] — 高频编码 skill 把 debugging、TDD、架构、并发、浏览器测试和框架范式压成证据门禁、责任账本与反馈回路。 (#agents #skills #ai-coding #debugging #verification #software-engineering)
 - [[wiki/syntheses/Agent System Design Space|Agent System Design Space]] — Agent System Design Space compares agent architectures by values, context, tools, permissions, memory, delegation, recovery, cache economics, and runtime APIs. (#synthesis #agents #architecture)
+- [[wiki/syntheses/Agent Knowledge Architecture|Agent Knowledge Architecture]] — Agent 知识架构按决策作用区分事实、语义、情景、程序、因果、规范、目标、能力和元知识，再按时间尺度与约束强度决定其运行时落点。 ( #agents #context #memory #harness #architecture)
 - [[wiki/syntheses/Agent as Problem-Solving System|Agent as Problem-Solving System]] — 把大模型定位为问题求解系统里的推理引擎之一，用目标+状态+记忆+检索+推理+规划+行动+反馈的统一闭环，将问题求解重述为状态空间搜索与不确定性收窄。 (#synthesis #agents #reasoning #problem-solving #llm)
 - [[wiki/syntheses/AI Agent Engineering Learning Path|AI Agent Engineering Learning Path]] — 一条以可靠 Agent 系统工程为目标的 12 周学习路线，从单 Agent 控制循环、harness、验证与评测，逐步推进到记忆、Skill 和多 Agent。 (#agents #learning #harness #evaluation #software-engineering)
 - [[wiki/syntheses/AI Engineering Workflow|AI Engineering Workflow]] — AI Engineering Workflow connects agent mental models, workflow control, tool design, coding constraints, and requirement normalization. (#synthesis #agents #workflow)
@@ -320,6 +321,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
+- [[wiki/sources/The Tiers of Context Engines Source Guide|The Tiers of Context Engines Source Guide]] — 按上下文规划由谁运行，把 Context Engine 分成人工、产品内嵌、平台配置和自建工程四种形态，并以控制、杠杆和集成引力解释选择。 ( #article #agents #context #architecture)
 - [[wiki/sources/检索推理规划与Agent问题求解 Source Guide|检索推理规划与Agent问题求解 Source Guide]] — 保存一段中文对话：从检索与推理的区别出发，讨论 LLM 推理的本质、模式匹配之争、规划作为目标导向推理、上下文与记忆、状态，并汇成 Agent 作为问题求解系统的统一模型。 (#agents #reasoning #llm #problem-solving #llm-wiki)
 - [[wiki/sources/解释生命与分子实体 Source Guide|解释生命与分子实体 Source Guide]] — 中文物理/生物学教学问答：从热二定律、自由能、熵讲到信息、DNA、RNA 世界假说与自然选择，串成“熵→自由能→信息→自复制→自然选择→生命”的解释链。 (#physics #learning #cognition #mechanism #systems)
 - [[wiki/sources/热力学第二定律与时间箭头 Source Guide|热力学第二定律与时间箭头 Source Guide]] — 中文物理教学问答：从第二定律最直观表述、热量流向、玻尔兹曼熵，追问到“为什么熵增”（概率/组合），再深钻到时间箭头、低熵初始条件与粗粒化。 (#physics #learning #cognition #mechanism #systems)
