@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近新增 Agent 知识架构：按决策作用、时间尺度和执行强度组织事实、程序、因果、规范、目标、能力、元知识与当前状态。
+summary: 最近新增 AI-native SDLC：用版本化工件、门禁触发和生产反馈回流，把软件交付从线性 handoff 改造成受治理的闭环。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-09-09T21:39:46+0800
+updated: 2026-09-10T21:22:11+0800
 ---
 
 ## Recent Activity
+- 2026-09-10T21:22:11+0800 — 已摄入 [[wiki/sources/The AI-Native SDLC Playbook Source Guide|The AI-Native SDLC Playbook]]：Anthropic 用 `intent.md → spec.md → plan.md → diff/tests → PR/review → deployment/incident` 串起六阶段工件链；Skills 承载建议性政策，Hooks/测试/CI/权限承担确定性门禁，人类保留意图、风险、例外与生产授权，生产异常再回流为下一轮 intent。
 - 2026-09-09T21:39:46+0800 — 已捕获 [[wiki/sources/The Tiers of Context Engines Source Guide|The Tiers of Context Engines]] 与 [[wiki/syntheses/Agent Knowledge Architecture|Agent Knowledge Architecture]]：原图的事实/程序 dual RAG 是“认识世界 + 指导行动”的最小闭环；生产级 Agent 还要把语义、情景、因果、规范、目标、能力、元知识和当前状态分流到 RAG、Memory、Skill、Tool Registry、Policy 与状态层。
 - 2026-09-05T16:30:00+0800 — 已捕获 [[wiki/concepts/Political Left and Right|政治光谱：左派与右派]]：左派/右派不是跨时空的固定立场，而是相对于“现存秩序”的态度与“平等 vs 自由/秩序”的排序。理解要点是“先定参照系 + 分清哪根轴”：现状不同标签就颠倒，一维左右只是多维立场（经济轴/文化轴）的投影。中国语境几乎与西方镜像——经济上中左≈西左，但政治文化上中国“右派”（自由派）要变革、限制政府权力，反占西方左派位置；且“右派”因 1957 反右带有历史罪名色彩。接入 [[wiki/concepts/Relation as Contextual Constraint|关系作为语境约束]] 与 [[wiki/topics/Methods of Classification|分类方法]]。
 - 2026-09-05T15:52:30+0800 — 已捕获 [[wiki/syntheses/Music Genres as Philosophies of Life|Music Genres as Philosophies of Life]]：音乐风格不只是声音分类，也会把生存张力编码成声音形式，经身体实践形成共同体、身份和行动，再受产业传播、收编与再创造影响；并以蓝调、爵士、摇滚、朋克、金属、嘻哈、电子、极简与流行等风格展示不同哲学回答。
@@ -37,6 +38,8 @@ updated: 2026-09-09T21:39:46+0800
 - 2026-07-19T22:00:16+0800 — 已捕获 [[wiki/syntheses/Rank Reduction as Generative Model Discovery|降秩方法的底层原理与有效边界]]：降秩不是总结重点，而是发现最小解释性生成模型；逐层下沉产生候选，消融与反生成压紧骨架，外推和变更测试让模型承担失败风险。
 
 ## Active Threads
+
+- AI 软件工程现在加入“生命周期工件链”线索：AI-native 不是在传统 SDLC 每一格加入生成，而是让每个阶段提交下游可消费、人工可审核、版本控制可追溯的工件；先建立反馈、门禁、职责分离和 rollback，再扩大自主运行范围。
 
 - Agent context 现在加入“知识架构”线索：不要因内容都表现为文本就塞进同一个向量库；先按描述、解释、指导、限制、评价和校准等决策作用分类，再检查时间尺度与执行强度，决定知识是供模型参考、必须引用、必须遵循，还是应成为模型不可绕过的硬约束。
 
@@ -183,6 +186,7 @@ updated: 2026-09-09T21:39:46+0800
 
 ## Key Takeaways
 
+- AI-native SDLC 的核心不是更快写代码，而是重建交付控制面：`intent/spec/plan` 分离目标、行为与实施承诺，测试和 eval 提供不同时间尺度的反馈，生产信号回流为新 intent；自动化应止于明确的人类风险门。
 - 事实知识与程序知识构成 Agent 的最小行动闭环，但不是完备分类；生产级系统还要显式管理因果、规范、目标、能力、元知识和任务状态，并把高风险规则从“希望模型记得”提升为 policy、权限和执行门禁。
 - 制度不只是成文规则，而是能被共同预期和稳定执行的后果结构：奖惩决定做不做，资格决定谁能做，程序决定怎样做才被承认；判断制度要看真实结算，而不只看它宣称的目标。
 - 线性层 y=Wx+b 是神经网络的骨架：它只做“加权组合 + 改变维度”，本身是线性的，因此纯线性层无论堆多少层都等价于一层，必须靠非线性激活才有表达力；LLM 的 LM head 就是把隐藏状态投影成 logits 的那一层线性层。

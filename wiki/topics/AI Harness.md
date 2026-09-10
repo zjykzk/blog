@@ -24,16 +24,17 @@ sources:
   - https://arxiv.org/pdf/2601.01743
   - inline:ai-coding-information-theory-cheer-2026-07-12
   - inline:ai-agent-three-paradoxes-2026-07-20
+  - https://claude.com/blog/the-ai-native-sdlc-playbook
 created: 2026-05-04
-base_confidence: 0.82
+base_confidence: 0.81
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.84
   inferred: 0.14
   ambiguous: 0.02
-source_count: 19
-updated: 2026-07-20T04:29:25+0800
+source_count: 20
+updated: 2026-09-10T21:22:11+0800
 aliases:
   - harness
 tags:
@@ -339,6 +340,10 @@ This extends the harness ratchet. A repeated failure can become a feedforward ru
 
 这不意味着所有 agent 都必须采用重型 policy engine，而是说明：只要系统开始拥有真实工具能力，harness 就不能只被理解为“接线层”，还必须被理解为 governance layer。
 
+[[wiki/sources/The AI-Native SDLC Playbook Source Guide]] 把这个 governance layer 具体分成四种强度：`CLAUDE.md` 保存仓库上下文与操作知识，Skills 分发按任务触发的建议性政策，Hooks/测试/CI/权限把机器可判定规则变成确定性门禁，人类则保留意图、冲突、例外、高风险代码与生产授权。
+
+这个分层的关键不是文件放在哪里，而是谁拥有最终裁决权。Skill 可以提高合规概率，却不能保证政策成立；必须始终成立的约束应进入 agent 无权绕过的执行层。反过来，无法被完整计算的产品适配、架构取舍和风险接受也不能伪装成自动化真值。^[inferred]
+
 ## Enterprise company-brain substrate
 
 [[wiki/sources/Company Brain Source Guide]] shifts the harness question from coding agents to enterprise agents. In that setting, tool access and indexed data are not enough; agents also need the organization's memory of why data means what it means.
@@ -403,6 +408,7 @@ This strengthens the current harness-ratchet view. A human can turn repeated fai
 - [[wiki/sources/AI Memory Survey Source Guide]]
 - [[wiki/sources/AI Coding 信息论框架 Source Guide]]
 - [[wiki/sources/AI Agent 三重悖论 Source Guide]]
+- [[wiki/sources/The AI-Native SDLC Playbook Source Guide]]
 
 ## Navigation
 

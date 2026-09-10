@@ -18,16 +18,17 @@ sources:
   - https://mp.weixin.qq.com/s/64e7occeVSutUJzZAWVutg
   - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
   - inline:ai-coding-information-theory-cheer-2026-07-12
+  - https://claude.com/blog/the-ai-native-sdlc-playbook
 created: 2026-05-04
-base_confidence: 0.44
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.86
   inferred: 0.13
   ambiguous: 0.01
-source_count: 15
-updated: 2026-07-12T23:19:18+0800
+source_count: 14
+updated: 2026-09-10T21:22:11+0800
 aliases:
   - AI 工作流
   - Agent workflow
@@ -183,6 +184,10 @@ This strengthens a recurring synthesis: AI engineering is not just faster genera
 
 [[wiki/sources/Harness Engineering Is Cybernetics Source Guide]] gives that loop a cybernetic vocabulary: sensors, actuators, desired state, and calibration. The shared hinge is machine-readable judgment: documentation, architecture rules, tests, CI output, and review principles must tell the system what “good” means before agents can reliably repair toward it. ^[inferred]
 
+[[wiki/sources/The AI-Native SDLC Playbook Source Guide]] 把这条工作流扩展到完整软件生命周期。关键不是给传统六阶段各加一个 AI 助手，而是让每个阶段提交下游可消费、人工可审核、Git 可追溯的工件：`intent.md → spec.md → plan.md → diff + tests → PR + review findings → deployment / incident record`。被接受的工件触发下一阶段，生产异常再写成新的 `intent.md`，于是交付从线性 handoff 变成可持续闭环。
+
+这也给工作流增加一条 source-of-truth 约束：Markdown 工件可以是权威记录，也可以只是 Jira、ServiceNow、Figma 或监管系统的工作副本，但每类工件必须声明唯一权威来源，并通过 record ID 与 commit SHA 保持链接。否则“机器可读的工件链”会退化成另一套不同步的文档。
+
 ## Why this synthesis matters
 
 如果没有这条综合链路，AI 工程容易只剩下局部技巧：
@@ -237,6 +242,7 @@ This strengthens a recurring synthesis: AI engineering is not just faster genera
 - [[wiki/sources/Company Brain Source Guide]]
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 - [[wiki/sources/AI Coding 信息论框架 Source Guide]]
+- [[wiki/sources/The AI-Native SDLC Playbook Source Guide]]
 
 ## Navigation
 

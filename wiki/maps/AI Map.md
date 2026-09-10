@@ -14,16 +14,17 @@ sources:
   - https://arxiv.org/pdf/2601.01743
   - https://cdn.openai.com/pdf/8a9f00cf-d379-4e20-b06f-dd7ba5196a11/OAI_WhitePaper_Codex-maxxing26.pdf
   - https://arxiv.org/pdf/2606.21894
+  - https://claude.com/blog/the-ai-native-sdlc-playbook
 created: 2026-05-04
-base_confidence: 0.67
+base_confidence: 0.97
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 9
-updated: 2026-09-09T21:39:46+0800
+source_count: 10
+updated: 2026-09-10T21:22:11+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -211,6 +212,7 @@ tags:
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 - [[wiki/sources/The Bitter Lesson Source Guide]] — Rich Sutton 1997/2019 经典短文：能随算力扩展的通用方法（search、learning）长期压过内置的人类知识。
 - [[wiki/sources/The Art of Loop Engineering Source Guide]] — LangChain 文章：agent 生产力价值来自多层循环叠加，而不只是模型能力。
+- [[wiki/sources/The AI-Native SDLC Playbook Source Guide]] — Anthropic 的企业实施 playbook：用版本化工件、门禁触发和生产反馈回流，把 Plan、Design、Build、Test、Deploy、Maintain 从线性 handoff 改造成受治理的闭环。
 - [[wiki/sources/Structured-Prompt-Driven Development Source Guide]]
 - [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源：围绕 Vibe coding、验证鸿沟、意图-生成-验证循环、复杂度和团队门禁组织 AI 软件工程入门。
 - [[wiki/sources/SPDD Abstraction First Source Guide]]

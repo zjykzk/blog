@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-09-09T21:39:46+0800
+updated: 2026-09-10T21:22:11+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -405,6 +405,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Agentic Coding Unknowns Source Guide|Agentic Coding Unknowns Source Guide]] — Thariq Shihipar's Fable article frames agentic coding as iterative unknown discovery across prompt, plan, implementation, review, and buy-in artifacts. (#article #agents #ai-coding #workflow #context)
 - [[wiki/sources/Dive into Claude Code Source Guide|Dive into Claude Code Source Guide]] — Direct arXiv source guide for Claude Code as an agent-system design-space case, preserving its values, principles, harness architecture, OpenClaw comparison, and future directions. (#paper #arxiv #agents #harness #ai-coding)
 - [[wiki/sources/The Art of Loop Engineering Source Guide]] — LangChain 文章把生产级 agent 价值归因于四层循环叠加：agent 执行、验证、事件触发和基于 traces 的外层改进。 (#article #agents #harness #feedback #workflow)
+- [[wiki/sources/The AI-Native SDLC Playbook Source Guide]] — Anthropic 的阶段式企业实施指南，用版本化工件、反馈循环、自动门禁和风险分层的人类判断连接 Plan、Design、Build、Test、Deploy 与 Maintain。 (#article #software-engineering #ai-coding #harness #workflow)
 - [[wiki/sources/Epiplexity Paper Notes|Epiplexity Paper Notes]] — 这页保留论文 From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence 的阅读笔记，并作为 Epiplexity 的来源层。 (#paper #information-theory)
 - [[wiki/sources/Evaluation Concept Anatomy Source Guide|Evaluation Concept Anatomy Source Guide]] — Source guide for the ljg-learn concept anatomy note on evaluation as scale-shaped value judgment. (#thinking #concepts)
 - [[wiki/sources/Frontend Development Workflow Roundtable Source Guide|Frontend Development Workflow Roundtable Source Guide]] — 这份圆桌更适合作为一个 source facing note 进入当前仓库，而不是直接承担前端工程方法论的稳定母页角色。 (#frontend #software-engineering #workflow #ux #roundtable)

@@ -1,9 +1,9 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 70,
-    "total_pages": 424,
-    "last_updated": "2026-08-24T14:20:00+0800"
+    "total_sources_ingested": 71,
+    "total_pages": 425,
+    "last_updated": "2026-09-10T21:22:11+0800"
   },
   "sources": {
     "chatgpt-share:6a8bbaa9-dbb0-83ee-ad09-a81c039ed1a2": {
@@ -1522,6 +1522,28 @@
         "wiki/log.md",
         "wiki/maps/Learning Map.md",
         "wiki/maps/Mechanism Models Map.md"
+      ]
+    },
+    "https://claude.com/blog/the-ai-native-sdlc-playbook": {
+      "ingested_at": "2026-09-10T21:22:11+0800",
+      "source_url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+      "size_bytes": 70799,
+      "content_hash": "sha256:c1cd56603f0a8442e57f04407c1c1668fc221ab6ea8717edb871dbcf09280ea0",
+      "source_type": "url",
+      "stub": false,
+      "project": null,
+      "promotion_status": "sources",
+      "pages_created": [
+        "wiki/sources/The AI-Native SDLC Playbook Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/syntheses/AI Engineering Workflow.md",
+        "wiki/topics/AI Harness.md",
+        "wiki/concepts/Verification Loop.md",
+        "wiki/maps/AI Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
       ]
     }
   },

@@ -12,9 +12,10 @@ sources:
   - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
   - https://www.langchain.com/blog/the-art-of-loop-engineering
   - inline:ai-agent-three-paradoxes-2026-07-20
+  - https://claude.com/blog/the-ai-native-sdlc-playbook
 created: 2026-05-05T14:03:13+08:00
-updated: 2026-07-20T04:29:25+0800
-base_confidence: 0.79
+updated: 2026-09-10T21:22:11+0800
+base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
@@ -114,6 +115,16 @@ The key point is that the AI cannot close the loop if the team has no executable
 
 This connects [[wiki/topics/Testing Strategy]] to harness design: TDD is not only a developer habit, but a way to give the agent a fast external truth signal before human review. ^[inferred]
 
+## Three feedback horizons
+
+[[wiki/sources/The AI-Native SDLC Playbook Source Guide]] 把软件交付中的 verification 分到三个时间尺度：
+
+- **任务内反馈**：测试、构建、lint 和截图比较持续返回当前实现循环；
+- **配置级回归**：`CLAUDE.md`、Skill、Hook、prompt 或模型变化时，用真实任务集运行 eval，检查 Agent 行为是否退化；
+- **生产回流**：指标越界和事故触发诊断，修复后把失败类别固化为 eval，较大的问题重新写成 `intent.md`。
+
+三者不能互相替代。任务测试证明一次实现，配置 eval 检查控制系统，生产信号检验系统在真实环境中的后果。把生产事故回写成 eval 与新 intent，才使局部 verification 能进入 [[wiki/concepts/Harness Ratchet]]。^[inferred]
+
 ## Related
 
 - [[wiki/topics/AI Harness]]
@@ -136,3 +147,4 @@ This connects [[wiki/topics/Testing Strategy]] to harness design: TDD is not onl
 - [[wiki/concepts/Loop Engineering]]
 - [[wiki/sources/The Art of Loop Engineering Source Guide]]
 - [[wiki/sources/AI Agent 三重悖论 Source Guide]]
+- [[wiki/sources/The AI-Native SDLC Playbook Source Guide]]
