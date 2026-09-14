@@ -1,17 +1,18 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近新增 AI-native SDLC：用版本化工件、门禁触发和生产反馈回流，把软件交付从线性 handoff 改造成受治理的闭环。
+summary: 最近捕获构建产品前的三个约束：一页纸压缩歧义，可分离核心能力承接复利，定义性约束生成产品身份；能力分层只间接改善设计。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-09-10T21:22:11+0800
+updated: 2026-09-14T16:35:10+0800
 ---
 
 ## Recent Activity
+- 2026-09-14T16:35:10+0800 — 已捕获 [[wiki/sources/Three Constraints for Building Products Source Guide|构建产品前的三个约束]]（Jordan Lord）：一页纸限制复杂度与歧义，可分离核心能力保留长期杠杆，定义性约束限制功能膨胀并生成产品身份。进一步澄清“分离”不是让产品脱离技术，而是区分稳定能力与当前产品表达：它让外层能试错，避免把技术展示误当产品，并迫使产品说明自己在工作流、反馈、协作和信任上的增量价值；这些设计收益属于推论，不是作者直接展开的主张。
 - 2026-09-10T21:22:11+0800 — 已摄入 [[wiki/sources/The AI-Native SDLC Playbook Source Guide|The AI-Native SDLC Playbook]]：Anthropic 用 `intent.md → spec.md → plan.md → diff/tests → PR/review → deployment/incident` 串起六阶段工件链；Skills 承载建议性政策，Hooks/测试/CI/权限承担确定性门禁，人类保留意图、风险、例外与生产授权，生产异常再回流为下一轮 intent。
 - 2026-09-09T21:39:46+0800 — 已捕获 [[wiki/sources/The Tiers of Context Engines Source Guide|The Tiers of Context Engines]] 与 [[wiki/syntheses/Agent Knowledge Architecture|Agent Knowledge Architecture]]：原图的事实/程序 dual RAG 是“认识世界 + 指导行动”的最小闭环；生产级 Agent 还要把语义、情景、因果、规范、目标、能力、元知识和当前状态分流到 RAG、Memory、Skill、Tool Registry、Policy 与状态层。
 - 2026-09-05T16:30:00+0800 — 已捕获 [[wiki/concepts/Political Left and Right|政治光谱：左派与右派]]：左派/右派不是跨时空的固定立场，而是相对于“现存秩序”的态度与“平等 vs 自由/秩序”的排序。理解要点是“先定参照系 + 分清哪根轴”：现状不同标签就颠倒，一维左右只是多维立场（经济轴/文化轴）的投影。中国语境几乎与西方镜像——经济上中左≈西左，但政治文化上中国“右派”（自由派）要变革、限制政府权力，反占西方左派位置；且“右派”因 1957 反右带有历史罪名色彩。接入 [[wiki/concepts/Relation as Contextual Constraint|关系作为语境约束]] 与 [[wiki/topics/Methods of Classification|分类方法]]。
@@ -38,6 +39,8 @@ updated: 2026-09-10T21:22:11+0800
 - 2026-07-19T22:00:16+0800 — 已捕获 [[wiki/syntheses/Rank Reduction as Generative Model Discovery|降秩方法的底层原理与有效边界]]：降秩不是总结重点，而是发现最小解释性生成模型；逐层下沉产生候选，消融与反生成压紧骨架，外推和变更测试让模型承担失败风险。
 
 ## Active Threads
+
+- 产品约束现在加入“能力—产品—身份”三层：[[wiki/sources/Three Constraints for Building Products Source Guide|Jordan Lord 的三个约束]]用一页纸压缩方向歧义，用可分离核心能力承接长期复利，再用用户可感知的定义性约束生成产品身份。能力分层对设计的收益是间接的：它阻止团队把技术输出直接当产品，让稳定内核支持外层试错，并迫使产品说明自己在工作流、反馈、协作和信任上的增量价值；但在重复场景尚未成立前做物理抽离，会滑向“平台先行”。
 
 - AI 软件工程现在加入“生命周期工件链”线索：AI-native 不是在传统 SDLC 每一格加入生成，而是让每个阶段提交下游可消费、人工可审核、版本控制可追溯的工件；先建立反馈、门禁、职责分离和 rollback，再扩大自主运行范围。
 
@@ -186,6 +189,7 @@ updated: 2026-09-10T21:22:11+0800
 
 ## Key Takeaways
 
+- 产品背后的核心能力与具体产品分层，不等于一开始就拆平台；它先是认知分离，让产品表达可以围绕用户任务变化、底层投入继续复利。只有多个真实场景证明能力重复且边界稳定后，才值得工程化抽离。
 - AI-native SDLC 的核心不是更快写代码，而是重建交付控制面：`intent/spec/plan` 分离目标、行为与实施承诺，测试和 eval 提供不同时间尺度的反馈，生产信号回流为新 intent；自动化应止于明确的人类风险门。
 - 事实知识与程序知识构成 Agent 的最小行动闭环，但不是完备分类；生产级系统还要显式管理因果、规范、目标、能力、元知识和任务状态，并把高风险规则从“希望模型记得”提升为 policy、权限和执行门禁。
 - 制度不只是成文规则，而是能被共同预期和稳定执行的后果结构：奖惩决定做不做，资格决定谁能做，程序决定怎样做才被承认；判断制度要看真实结算，而不只看它宣称的目标。

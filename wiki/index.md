@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-09-10T21:22:11+0800
+updated: 2026-09-14T16:35:10+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -443,6 +443,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/How to Get Rich Source Guide|How to Get Rich Source Guide]] — Source guide for Naval Ravikant's How to Get Rich tweetstorm PDF, focused on wealth, equity, specific knowledge, accountability, leverage, and judgment. (#wealth #leverage #career #judgment)
 - [[wiki/sources/高难度沟通 Source Guide]] — 这页保存《高难度沟通》读书笔记：用真实目标、情绪管理、情感需求和双向推进，把冲突、争取和推进场景转成可行动对话。 (#book #management #organization #judgment #thinking)
 - [[wiki/sources/Hard Constraints Source Guide|Hard Constraints Source Guide]] — 这页导览《约束：先尊重，再行动》：有效叙事必须先尊重资源、时间、规律和他人能动性等硬约束。 (#article #thinking #systems #judgment)
+- [[wiki/sources/Three Constraints for Building Products Source Guide|Three Constraints for Building Products Source Guide]] — Jordan Lord 用一页纸、可分离核心能力和定义性约束筛选产品；能力与产品分层让产品表达可变、底层投入可复利，但不自动保证好设计。 ( #blog #thinking #systems #judgment #mechanism)
 - [[wiki/sources/Heavy-Tailed World Source Guide|Heavy-Tailed World Source Guide]] — 这页导览《重尾：世界服从极端值》：世界常由少数极端值、正反馈和乘法效应支配，策略应从求平均转向长板、复利与保本。 (#wealth #leverage #systems-thinking #probability)
 - [[wiki/sources/能动与稳态生存逻辑 Source Guide|能动与稳态生存逻辑 Source Guide]] — 这页导览《能动：稳态生存的观念陷阱》：旧观念来自匮乏、弱规则和简单模型，在高波动世界会限制能动性。 (#article #thinking #wealth #systems-thinking)
 - [[wiki/sources/How LLMs Actually Work Source Guide|How LLMs Actually Work Source Guide]] — Source guide for an interactive walkthrough of the LLM pipeline, from web data and tokenization through pretraining, post-training, RAG, and security. (#llm #transformer #security)
