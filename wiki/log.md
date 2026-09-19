@@ -391,3 +391,5 @@ tags:
 - [2026-09-10T21:06:40+0800] QUERY query="https://claude.com/blog/the-ai-native-sdlc-playbook 这篇文章在 wiki 里面吗" result_pages=0 mode=normal escalated=true
 - [2026-09-10T21:22:11+0800] INGEST_URL url="https://claude.com/blog/the-ai-native-sdlc-playbook" page="wiki/sources/The AI-Native SDLC Playbook Source Guide.md" project=null pages_created=1 pages_updated=7 mode=append
 - [2026-09-14T16:35:10+0800] CAPTURE type=source page="wiki/sources/Three Constraints for Building Products Source Guide.md" title="Three Constraints for Building Products Source Guide"
+- [2026-09-19T17:56:15+0800] CAPTURE type=concept page="wiki/concepts/Belief and Attitude.md" title="Belief and Attitude"
+- [2026-09-19T17:56:16+0800] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=1

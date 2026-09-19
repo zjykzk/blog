@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近捕获构建产品前的三个约束：一页纸压缩歧义，可分离核心能力承接复利，定义性约束生成产品身份；能力分层只间接改善设计。
+summary: 最近捕获 belief 与 attitude 的区别和生成机制：信念组织事实判断，态度把事实、价值、情感与身份代价压成行动倾向。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-09-14T16:35:10+0800
+updated: 2026-09-19T17:56:15+0800
 ---
 
 ## Recent Activity
+- 2026-09-19T17:56:16+0800 — 标签检查：[[wiki/concepts/Belief and Attitude|Belief and Attitude]] 使用现有规范标签 `psychology`、`cognition`、`judgment`、`learning`、`mechanism`，无需新增或归一化标签。
+- 2026-09-19T17:56:15+0800 — 已捕获 [[wiki/concepts/Belief and Attitude|Belief and Attitude]]：belief 是把命题接受为真的认知判断，不等于客观事实；attitude 是由事实判断、价值排序、情感记忆与身份代价共同形成的评价和行动倾向。信息经来源信任与既有世界模型形成 belief，再经估值形成 attitude，行动结果又反馈并修正或强化二者。
 - 2026-09-14T16:35:10+0800 — 已捕获 [[wiki/sources/Three Constraints for Building Products Source Guide|构建产品前的三个约束]]（Jordan Lord）：一页纸限制复杂度与歧义，可分离核心能力保留长期杠杆，定义性约束限制功能膨胀并生成产品身份。进一步澄清“分离”不是让产品脱离技术，而是区分稳定能力与当前产品表达：它让外层能试错，避免把技术展示误当产品，并迫使产品说明自己在工作流、反馈、协作和信任上的增量价值；这些设计收益属于推论，不是作者直接展开的主张。
 - 2026-09-10T21:22:11+0800 — 已摄入 [[wiki/sources/The AI-Native SDLC Playbook Source Guide|The AI-Native SDLC Playbook]]：Anthropic 用 `intent.md → spec.md → plan.md → diff/tests → PR/review → deployment/incident` 串起六阶段工件链；Skills 承载建议性政策，Hooks/测试/CI/权限承担确定性门禁，人类保留意图、风险、例外与生产授权，生产异常再回流为下一轮 intent。
 - 2026-09-09T21:39:46+0800 — 已捕获 [[wiki/sources/The Tiers of Context Engines Source Guide|The Tiers of Context Engines]] 与 [[wiki/syntheses/Agent Knowledge Architecture|Agent Knowledge Architecture]]：原图的事实/程序 dual RAG 是“认识世界 + 指导行动”的最小闭环；生产级 Agent 还要把语义、情景、因果、规范、目标、能力、元知识和当前状态分流到 RAG、Memory、Skill、Tool Registry、Policy 与状态层。
@@ -39,6 +41,8 @@ updated: 2026-09-14T16:35:10+0800
 - 2026-07-19T22:00:16+0800 — 已捕获 [[wiki/syntheses/Rank Reduction as Generative Model Discovery|降秩方法的底层原理与有效边界]]：降秩不是总结重点，而是发现最小解释性生成模型；逐层下沉产生候选，消融与反生成压紧骨架，外推和变更测试让模型承担失败风险。
 
 ## Active Threads
+
+- 认知机制现在加入“belief → attitude → action → feedback”线索：belief 把信息和经验压成对世界的判断，attitude 再把这些判断与需要、价值、情感和身份代价压成行动方向。分析分歧时要分别检查证据与来源、价值排序与身份代价，不能把反对简单归因于“不懂事实”。
 
 - 产品约束现在加入“能力—产品—身份”三层：[[wiki/sources/Three Constraints for Building Products Source Guide|Jordan Lord 的三个约束]]用一页纸压缩方向歧义，用可分离核心能力承接长期复利，再用用户可感知的定义性约束生成产品身份。能力分层对设计的收益是间接的：它阻止团队把技术输出直接当产品，让稳定内核支持外层试错，并迫使产品说明自己在工作流、反馈、协作和信任上的增量价值；但在重复场景尚未成立前做物理抽离，会滑向“平台先行”。
 
@@ -189,6 +193,7 @@ updated: 2026-09-14T16:35:10+0800
 
 ## Key Takeaways
 
+- Belief 与 attitude 不是客观和主观的两分：belief 是可被证据检验的事实判断，attitude 是事实判断经过价值、情感和身份代价后形成的评价与行动倾向；仅补充信息往往不足以改变态度。
 - 产品背后的核心能力与具体产品分层，不等于一开始就拆平台；它先是认知分离，让产品表达可以围绕用户任务变化、底层投入继续复利。只有多个真实场景证明能力重复且边界稳定后，才值得工程化抽离。
 - AI-native SDLC 的核心不是更快写代码，而是重建交付控制面：`intent/spec/plan` 分离目标、行为与实施承诺，测试和 eval 提供不同时间尺度的反馈，生产信号回流为新 intent；自动化应止于明确的人类风险门。
 - 事实知识与程序知识构成 Agent 的最小行动闭环，但不是完备分类；生产级系统还要显式管理因果、规范、目标、能力、元知识和任务状态，并把高风险规则从“希望模型记得”提升为 policy、权限和执行门禁。

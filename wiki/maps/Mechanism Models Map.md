@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-09-14T16:35:10+0800
+updated: 2026-09-19T17:56:15+0800
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -175,6 +175,7 @@ aliases:
 - [[wiki/concepts/Search and Learning as Meta-Methods]]：把学习与搜索压成同一台"空间 + 评价信号 + 迭代"的发现引擎，用算力驱动"生成→评估→改进"持续逼近目标。
 - [[wiki/concepts/Class as Learned Invariance]]：把"判断同一类"解释为发现一条由归纳偏置引导、评价信号裁定的不变性/等价关系，过拟合即学到错误的等价关系。
 - [[wiki/concepts/三个自我模型]]：成长要改写内核自我的预测模型、先验假设和更新规则。
+- [[wiki/concepts/Belief and Attitude]]：信息经来源信任、既有经验和世界模型形成 belief，再经需要、价值、情感与身份代价形成 attitude，行动结果随后反馈并强化或修正二者。
 - [[wiki/syntheses/Zima Blue 自我回归与无我]]：把无限可能、有限自我、因缘生成和“成为”冲动的止息连成一条自我机制分析。
 
 适用问题：为什么我以为懂了但不会用？为什么输入很多却没有结构？为什么 AI 如果只代做会破坏学习反馈？
