@@ -8,10 +8,11 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-09-19T17:56:15+0800
+updated: 2026-09-25T17:23:00+08:00
 ---
 
 ## Recent Activity
+- 2026-09-25T17:23:00+08:00 — 已捕获 [[wiki/concepts/Existence Desire and Problem Cycles|存在、需要、欲望与问题循环]]：身体需要、自我调节与有意识欲望分层；有限需要也能产生问题，后续循环可能来自身体消耗、目标变化或行动后果。同时为 [[wiki/concepts/Nature of a Question|问题的本质]] 补明“被意识到的认知与行动问题”的范围。标签沿用现有 taxonomy，无需新增或归一化。
 - 2026-09-19T17:56:16+0800 — 标签检查：[[wiki/concepts/Belief and Attitude|Belief and Attitude]] 使用现有规范标签 `psychology`、`cognition`、`judgment`、`learning`、`mechanism`，无需新增或归一化标签。
 - 2026-09-19T17:56:15+0800 — 已捕获 [[wiki/concepts/Belief and Attitude|Belief and Attitude]]：belief 是把命题接受为真的认知判断，不等于客观事实；attitude 是由事实判断、价值排序、情感记忆与身份代价共同形成的评价和行动倾向。信息经来源信任与既有世界模型形成 belief，再经估值形成 attitude，行动结果又反馈并修正或强化二者。
 - 2026-09-14T16:35:10+0800 — 已捕获 [[wiki/sources/Three Constraints for Building Products Source Guide|构建产品前的三个约束]]（Jordan Lord）：一页纸限制复杂度与歧义，可分离核心能力保留长期杠杆，定义性约束限制功能膨胀并生成产品身份。进一步澄清“分离”不是让产品脱离技术，而是区分稳定能力与当前产品表达：它让外层能试错，避免把技术展示误当产品，并迫使产品说明自己在工作流、反馈、协作和信任上的增量价值；这些设计收益属于推论，不是作者直接展开的主张。
@@ -192,6 +193,7 @@ updated: 2026-09-19T17:56:15+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+- 身体的许多维持过程不必由有意识欲望启动；自我调节的功能也不足以证明主观体验。问题循环应区分需要再次出现、目标变化和行动的新后果，不能由循环本身推出欲望无限或前次解决失败。
 
 - Belief 与 attitude 不是客观和主观的两分：belief 是可被证据检验的事实判断，attitude 是事实判断经过价值、情感和身份代价后形成的评价与行动倾向；仅补充信息往往不足以改变态度。
 - 产品背后的核心能力与具体产品分层，不等于一开始就拆平台；它先是认知分离，让产品表达可以围绕用户任务变化、底层投入继续复利。只有多个真实场景证明能力重复且边界稳定后，才值得工程化抽离。

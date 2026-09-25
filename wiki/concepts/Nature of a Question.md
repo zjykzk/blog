@@ -11,9 +11,10 @@ aliases:
   - question as model-action gap
 sources:
   - conversation:2026-08-15
+  - conversation:2026-09-25
   - /Users/zenk/Documents/notes/20260815T105354--追本-问题的本质__think.org
 created: 2026-08-15T11:20:41+0800
-updated: 2026-08-15T11:20:41+0800
+updated: 2026-09-25T17:23:00+08:00
 summary: >-
   问题产生于现实、认知模型与行动之间的裂口：主体能够设想多种可能，却发现当前现实不足以可靠决定下一步。
 provenance:
@@ -28,6 +29,8 @@ lifecycle_changed: 2026-08-15
 # Nature of a Question
 
 问题是一个能设想可能性的主体，意识到当前现实与认知模型不足以可靠决定下一步的状态。
+
+这里主要界定主体已经意识到的认知与行动问题。需要受损的处境也可能尚未被察觉，例如未被发现的营养不足；因此，问题处境、被察觉的问题与需要求解的任务应分开。[[wiki/concepts/Existence Desire and Problem Cycles|存在、需要、欲望与问题循环]] 补充这些层次，以及身体消耗、目标变化和行动后果如何产生下一轮问题。
 
 ## What It Is
 
@@ -94,6 +97,7 @@ lifecycle_changed: 2026-08-15
 
 ## Related
 
+- [[wiki/concepts/Existence Desire and Problem Cycles|存在、需要、欲望与问题循环]]
 - [[wiki/topics/Problem Framing]]
 - [[wiki/topics/Critical Thinking]]
 - [[wiki/syntheses/不确定性下的判断]]

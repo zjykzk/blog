@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-09-19T17:56:15+0800
+updated: 2026-09-25T17:23:00+08:00
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -50,6 +50,7 @@ aliases:
 
 这一组模型用于从事件下潜到结构。
 
+- [[wiki/concepts/Existence Desire and Problem Cycles|存在、需要、欲望与问题循环]]：区分生命维持、自我调节与欲望体验，并检查身体消耗、目标变化、行动后果怎样使问题再次出现。
 - [[wiki/concepts/System]]：系统不是一堆部件，而是一组关系在边界和时间中反复生成整体行为。
 - [[wiki/concepts/Life as Dissipative Information Structure|生命作为耗散信息结构]]：生命不是违反熵增的有序，而是开放系统利用环境自由能维持局部低熵结构、并把信息带噪复制给下一代，靠差异性复制成功率被选择而累积复杂性。
 - [[wiki/concepts/Arrow of Time|时间箭头]]：微观定律时间反演对称，宏观的“过去→未来”方向来自低熵初始条件（Past Hypothesis）、统计规律与粗粒化——不可逆性是概率压倒而非微观定律的属性。

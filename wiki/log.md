@@ -393,3 +393,6 @@ tags:
 - [2026-09-14T16:35:10+0800] CAPTURE type=source page="wiki/sources/Three Constraints for Building Products Source Guide.md" title="Three Constraints for Building Products Source Guide"
 - [2026-09-19T17:56:15+0800] CAPTURE type=concept page="wiki/concepts/Belief and Attitude.md" title="Belief and Attitude"
 - [2026-09-19T17:56:16+0800] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=1
+- [2026-09-25T17:23:00+08:00] CAPTURE type=concept page="wiki/concepts/Existence Desire and Problem Cycles.md" title="Existence Desire and Problem Cycles"
+- [2026-09-25T17:23:00+08:00] UPDATE type=concept page="wiki/concepts/Nature of a Question.md" reason="区分问题处境与被意识到的认知行动问题，链接存在与欲望循环"
+- [2026-09-25T17:23:00+08:00] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=1

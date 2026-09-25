@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-09-19T17:56:15+0800
+updated: 2026-09-25T17:23:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -88,6 +88,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Existence Desire and Problem Cycles|存在、需要、欲望与问题循环]] — 区分身体存在、维持需要、自我调节与有意识欲望，解释问题如何由目标与条件的不匹配产生，以及身体消耗、目标变化和行动后果怎样引出下一轮。 ( #cognition #psychology #systems #mechanism #feedback)
 - [[wiki/concepts/Belief and Attitude|Belief and Attitude]] — Belief 把命题接受为真，attitude 则把事实判断、价值、情感和社会代价压成对对象的评价与行动倾向；二者在经验与反馈中相互塑造。 ( #psychology #cognition #judgment #learning #mechanism)
 - [[wiki/concepts/Political Left and Right|政治光谱：左派与右派]] — 左派/右派不是固定立场，而是相对于“现存秩序”的态度与“平等 vs 自由/秩序”的排序；参照系不同标签会颠倒，中国语境与西方几乎镜像。 (#politics #thinking #systems #judgment)
 - [[wiki/concepts/Institution as Consequence Structure|制度作为后果结构]] — 制度是被共同承认并可稳定维持的行为规则与后果结构；奖惩决定做不做，资格决定谁能做，程序决定怎样做才被承认。 ( #organization #management #systems #mechanism)
