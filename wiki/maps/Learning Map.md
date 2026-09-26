@@ -15,7 +15,7 @@ created: 2026-04-26
 base_confidence: 0.32
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-09-19T17:56:15+0800
+updated: 2026-09-26T22:35:00+08:00
 aliases:
   - 学习地图
 provenance:
@@ -52,6 +52,8 @@ provenance:
 - [[wiki/concepts/Hard Constraint]]——让叙事和行动先接受资源、时间、规律与他人能动性的现实校验
 
 ## 跨源综合
+
+- [[wiki/syntheses/Cognition Functional Framework|认知功能框架]]——用双向联系理解感知、记忆、推理与行动，区分执行控制、元认知和主观体验，并保留六层图的评审与修订图表
 
 - [[wiki/syntheses/From Senior Engineer to Tech Leader]]——把 Learning to Learn 转成高级工程师的系统演进、团队能力扩散和技术投资三条长期问题
 - [[wiki/syntheses/Learning Methodology Across Sources]]——七条原则在多本学习书里的印证矩阵

@@ -396,3 +396,5 @@ tags:
 - [2026-09-25T17:23:00+08:00] CAPTURE type=concept page="wiki/concepts/Existence Desire and Problem Cycles.md" title="Existence Desire and Problem Cycles"
 - [2026-09-25T17:23:00+08:00] UPDATE type=concept page="wiki/concepts/Nature of a Question.md" reason="区分问题处境与被意识到的认知行动问题，链接存在与欲望循环"
 - [2026-09-25T17:23:00+08:00] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=1
+- [2026-09-26T22:35:00+08:00] CAPTURE type=synthesis page="wiki/syntheses/Cognition Functional Framework.md" title="Cognition Functional Framework" qmd="skipped: QMD_WIKI_COLLECTION unset"
+- [2026-09-26T22:35:00+08:00] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=1

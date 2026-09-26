@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-09-25T17:23:00+08:00
+updated: 2026-09-26T22:35:00+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -261,6 +261,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/LLM Reasoning as In-Context Computation|LLM Reasoning as In-Context Computation]] — 大模型的推理不是简单模式匹配，而是建立在模式学习之上的上下文内计算——参数提供知识与先验、Transformer 提供计算机制、上下文提供当前问题与临时状态，三者组合涌现出推理。 (#llm #reasoning #in-context-learning #cognition)
 
 ## Syntheses
+- [[wiki/syntheses/Cognition Functional Framework|认知功能框架：相互作用、反馈与意识边界]] — 用相互作用的功能模块修订认知六层图，补入情绪、动机与执行控制，区分自我表征、元认知和主观体验；附修订图表。 ( #cognition #psychology #reasoning #feedback #learning)
 - [[wiki/syntheses/Euclid as a Case of Formalization's Limits|Euclid as a Case of Formalization's Limits]] — 欧几里得几何是最完整的形式化范例，却把视觉直觉、语义指称、刚体运动和"空间是否为平"留在圈外；两千年后掀翻数学与物理的东西恰恰从这些圈外剩余长出。 (#thinking #reasoning #formal-language #mathematics #history)
 - [[wiki/syntheses/From Senior Engineer to Tech Leader|From Senior Engineer to Tech Leader]] — 高级工程师走向 Tech Leader 的核心不是扩大个人解题量，而是让架构可演进、团队判断可扩散，并把技术投入持续对齐高杠杆问题。 ( #leadership #engineering #architecture #career)
 - [[wiki/syntheses/Hypnosis and Unconscious Curriculum for Product Managers|面向产品经理的催眠与潜意识经典教材]] — 从去魅、竞争理论和现代无意识出发，把经典教材转译为用户研究、行为设计、产品实验与伦理红队的 8 周学习路线。 ( #product #psychology #hypnosis #behavioral-design #ethics)
