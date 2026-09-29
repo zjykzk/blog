@@ -14,7 +14,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 8
-updated: 2026-08-16T17:13:51+0800
+updated: 2026-09-29T18:14:09+0800
 aliases:
   - Computer Science Map
 tags:
@@ -78,6 +78,7 @@ tags:
 - [[wiki/topics/Frontend Development Workflow]]
 - [[wiki/topics/Testing Strategy]]
 - [[wiki/concepts/Executable Specification]] — 可执行规格把需求意图压成机器可检查承诺，并区分规格是否对准真实需求的 validation 与实现是否满足规格的 verification。
+- [[wiki/concepts/Judgment Externalization]] — 把专家判断变成可版本化、可机器执行、可复核和可修正的判定资产，使验证吞吐不必线性依赖人工审核。
 - [[wiki/concepts/Vibe Coding]] — Vibe coding 让代码生成成本下降，但也把理解、验证和责任边界推到工程中心。
 - [[wiki/concepts/Verification Gap]] — AI 代码生成速度与人类/组织验证速度之间的差距，是 Vibe 时代的软件工程瓶颈。
 - [[wiki/syntheses/Quality Engineering Three Generators]]
@@ -137,6 +138,7 @@ tags:
 - [[wiki/sources/软件工程真正降临 Source Guide]] — 中文长文：从经典工程史和控制论推导软件工程的 AI 中心产线化路径，强调确定性裁判、小闭环、分治单元和产线设计师。
 - [[wiki/sources/大模型时代软件工程的本质与演进 Source Guide]] — 中文长文：从需求工程、Naur、DDD、Brooks、Lehman、Woods 到 AI “无理论代码”，论证软件工程是问题定义、知识传递与应用。
 - [[wiki/sources/AI 什么都能写与软件价值重心转移 Source Guide]] — 中文长文：把 db9、技术栈迁移、遗留系统重写和企业维护争议串成“代码变便宜，知识与判断变贵”的 AI 软件工程线索。
+- [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide]] — 中文长文与 Excalidraw 图：生成变便宜后，工程化对象从动作上移到判定，规则与证据进入机器可执行闭环。
 - [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源：用成本结构、验证鸿沟、意图-生成-验证循环、复杂度、测试、版本控制和门禁解释 Vibe 时代的软件工程。
 - `content/posts/cs/arch/arch.md`
 - `content/posts/cs/dist/circuit-breaker.md`

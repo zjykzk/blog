@@ -14,8 +14,11 @@ relationships:
     type: related_to
   - target: "[[wiki/topics/Spec-Driven Development]]"
     type: uses
+  - target: "[[wiki/concepts/Judgment Externalization]]"
+    type: related_to
 sources:
   - wiki/sources/Vibe 时代的软件工程.md
+  - conversation:2026-09-29
 summary: 验证鸿沟是 AI 代码生成速度与人类理解、验证速度之间扩大的差距；它把软件工程瓶颈从生产转向质量判断。
 provenance:
   extracted: 0.80
@@ -26,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-03
 tier: supporting
 created: 2026-07-03T21:45:37+0800
-updated: 2026-07-11T23:53:54+0800
+updated: 2026-09-29T18:14:09+0800
 ---
 # Verification Gap
 
@@ -45,6 +48,7 @@ updated: 2026-07-11T23:53:54+0800
 
 - 任务委托要按“能否验证”来定粒度，而不是按“模型能否一次写出来”来定粒度。
 - [[wiki/topics/Spec-Driven Development]]、可执行验收条件和测试用例可以把部分人工理解压力转成机器可检查门禁。
+- [[wiki/concepts/Judgment Externalization]] 进一步把人的判断从逐件审核改成前置规则、机器批量执行、抽样校准和异常裁决，使判定吞吐有机会随生成吞吐扩张。^[inferred]
 - [[wiki/concepts/Vibe Coding]] 在高风险或难验证区域会扩大验证鸿沟；在低风险且自动验证充分的区域，放飞式协作才更接近合理选择。
 
 ## Open Questions
@@ -55,3 +59,4 @@ updated: 2026-07-11T23:53:54+0800
 ## Sources
 
 - [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源文档。
+- [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide]] — 从工序自动化上移到判定链路，并讨论组织规模与人才路径。

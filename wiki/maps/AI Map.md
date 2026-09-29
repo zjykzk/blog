@@ -24,7 +24,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 10
-updated: 2026-09-10T21:22:11+0800
+updated: 2026-09-29T18:14:09+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -94,6 +94,7 @@ tags:
 - [[wiki/concepts/LLM Inference Benchmarking]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Executable Specification]] — 把意图转成机器可检查承诺，是 AI coding 中 verification loop 能获得稳定真值信号的前提。
+- [[wiki/concepts/Judgment Externalization]] — 把判定标准、证据、执行和治理留在模型调用之外，让程序与模型批量判定，只把例外送回人。
 - [[wiki/concepts/Cognitive Debt]] — AI 生成更多软件制品后，人和组织逐渐失去对意图、架构与设计理由的理解。
 - [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/Agent Skill]]
@@ -213,6 +214,7 @@ tags:
 - [[wiki/sources/The Bitter Lesson Source Guide]] — Rich Sutton 1997/2019 经典短文：能随算力扩展的通用方法（search、learning）长期压过内置的人类知识。
 - [[wiki/sources/The Art of Loop Engineering Source Guide]] — LangChain 文章：agent 生产力价值来自多层循环叠加，而不只是模型能力。
 - [[wiki/sources/The AI-Native SDLC Playbook Source Guide]] — Anthropic 的企业实施 playbook：用版本化工件、门禁触发和生产反馈回流，把 Plan、Design、Build、Test、Deploy、Maintain 从线性 handoff 改造成受治理的闭环。
+- [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide]] — 中文长文与 Excalidraw 图：把 AI 软件工程的瓶颈从生成转向判定，并用标准、证据、执行与治理构成机器可运行的判定闭环。
 - [[wiki/sources/Structured-Prompt-Driven Development Source Guide]]
 - [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源：围绕 Vibe coding、验证鸿沟、意图-生成-验证循环、复杂度和团队门禁组织 AI 软件工程入门。
 - [[wiki/sources/SPDD Abstraction First Source Guide]]

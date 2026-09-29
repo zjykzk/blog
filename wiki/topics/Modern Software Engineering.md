@@ -13,6 +13,7 @@ sources:
   - inline:laws-of-software-engineering-unintended-consequences-2026-06-09
   - https://dora.dev/guides/dora-metrics/
   - wiki/sources/Vibe 时代的软件工程.md
+  - conversation:2026-09-29
 created: 2026-04-21
 base_confidence: 0.55
 lifecycle: draft
@@ -22,7 +23,7 @@ provenance:
   inferred: 0.18
   ambiguous: 0.00
 source_count: 5
-updated: 2026-07-11T23:53:54+0800
+updated: 2026-09-29T18:14:09+0800
 aliases:
   - 软件工程
   - modern software engineering
@@ -90,6 +91,8 @@ The source names [[wiki/concepts/Verification Gap]] as the new center of gravity
 
 This strengthens the page's core thesis: modern software engineering should be judged by the quality of its evidence loops and recovery structures, not by local implementation throughput. ^[inferred]
 
+[[wiki/concepts/Judgment Externalization]] names the organizational move needed to keep those evidence loops from becoming a new manual bottleneck. The team externalizes standards, evidence, execution, and governance so programs and model judges can run most decisions at machine speed, while people design the rules, audit samples, and adjudicate exceptions. ^[inferred]
+
 ## Navigation
 
 - [[wiki/topics/面向对象分析与设计]]
@@ -101,6 +104,8 @@ This strengthens the page's core thesis: modern software engineering should be j
 - [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/concepts/Vibe Coding]]
 - [[wiki/concepts/Verification Gap]]
+- [[wiki/concepts/Judgment Externalization]]
+- [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Vibe 时代的软件工程]]
 - `pages/软件工程.md`

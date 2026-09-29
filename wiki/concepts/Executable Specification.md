@@ -10,7 +10,7 @@ sources:
   - https://github.com/scikit-learn/scikit-learn/issues/15534
   - https://github.com/scikit-learn/scikit-learn/pull/15535
 created: 2026-07-10T20:16:00+0800
-updated: 2026-07-12T00:30:14+0800
+updated: 2026-09-29T18:14:09+0800
 summary: >-
   Executable specification turns intent into machine-checkable commitments, separating validation of the spec from verification of the implementation.
 provenance:
@@ -33,6 +33,8 @@ relationships:
     type: implements
   - target: "[[wiki/concepts/Evidence Question Decomposition]]"
     type: uses
+  - target: "[[wiki/concepts/Judgment Externalization]]"
+    type: related_to
 ---
 
 # Executable Specification
@@ -154,6 +156,7 @@ SpecRover 论文把这个例子用作 code intent extraction 的动机：它从 
 
 ## Related
 
+- [[wiki/concepts/Judgment Externalization]] — 把可执行规格放入标准、证据、执行与治理组成的机器判定系统。
 - [[wiki/topics/Spec-Driven Development]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Evidence Question Decomposition]]

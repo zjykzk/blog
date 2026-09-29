@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-09-26T22:35:00+08:00
+updated: 2026-09-29T18:14:09+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -190,6 +190,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Evaluation|Evaluation]] — Evaluation is the act of placing an object inside a scale so its value, quality, meaning, or position can appear. (#thinking #concepts #judgment)
 - [[wiki/concepts/Evidence Question Decomposition|Evidence Question Decomposition]] — Evidence question decomposition turns a broad judgment into checkable questions with evidence anchors, answers, failure types, and repair actions. (#thinking #judgment #evaluation #mechanism #feedback)
 - [[wiki/concepts/Executable Specification|Executable Specification]] — Executable specification turns intent into machine-checkable commitments, separating validation of the spec from verification of the implementation. (#software-engineering #specs #testing #ai-coding #verification)
+- [[wiki/concepts/Judgment Externalization|Judgment Externalization]] — 判定外化把个人或模型内部的判断依据变成可版本化、机器执行、复核和修正的组织资产，让人从逐件审核转向规则设计、抽样校准与异常裁决。 ( #software-engineering #ai-coding #judgment #testing #feedback)
 - [[wiki/concepts/Cognitive Debt|Cognitive Debt]] — Cognitive debt is the loss of human and organizational understanding of software intent, architecture, and rationale as agents generate and maintain more artifacts. ( #software-engineering #ai-coding #architecture #knowledge #responsibility)
 - [[wiki/concepts/Expression Three Channels|Expression Three Channels]] — 人向外表达，靠三根独立的生成器撑着。关掉任何一根，表达塌一块。
 - [[wiki/concepts/Feedback Loops|Feedback Loops]] — Feedback loops are system structures where results flow back to influence future causes, creating growth, stability, or oscillation.
@@ -376,6 +377,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/软件工程真正降临 Source Guide|软件工程真正降临 Source Guide]] — 保留一篇中文长文对 AI 软件工程范式的完整推演：从软件工程未彻底工程化，到 AI 中心产线、确定性裁判、分治继承和隐性知识蒸馏。 (#article #agents #ai-coding #software-engineering #mechanism)
 - [[wiki/sources/大模型时代软件工程的本质与演进 Source Guide|大模型时代软件工程的本质与演进 Source Guide]] — 保留一篇中文长文：软件工程是问题定义、知识传递与应用；AI 代码生成会放大“无理论代码”风险，资深工程师要守住架构理论。 (#article #software-engineering #ai-coding #architecture #cognition)
 - [[wiki/sources/AI 什么都能写与软件价值重心转移 Source Guide|AI 什么都能写与软件价值重心转移 Source Guide]] — 保留一篇中文长文：AI 让实现、迁移和重写成本下降，软件价值重心转向知识、规格、harness、判断和责任。 (#article #agents #ai-coding #software-engineering #judgment)
+- [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide|Software Engineering 3.0 Judgment Shift Source Guide]] — 保存软件工程 3.0 的六条判断与 Excalidraw 图：AI 让生成变便宜后，工程重心从动作上移到可执行、可审计、可反馈的判定体系。 ( #article #software-engineering #ai-coding #judgment #organization)
 - [[wiki/sources/Memory for Autonomous LLM Agents Source Guide|Memory for Autonomous LLM Agents Source Guide]] — Source guide for arXiv 2603.07670 on autonomous LLM-agent memory mechanisms, evaluation, applications, engineering realities, and open frontiers. (#paper #agents #memory #survey)
 - [[wiki/sources/Memory in the Age of AI Agents Paper Source Guide|Memory in the Age of AI Agents Paper Source Guide]] — Source guide for arXiv 2512.13564 on agent memory forms, functions, dynamics, resources, and future frontiers. (#paper #arxiv #agents #memory #survey)
 - [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide|What Happens Inside Agent Memory Paper Source Guide]] — Source guide for arXiv 2605.03354 on circuit-level analysis of agent memory failures, control-before-content asymmetry, shared memory hubs, and stage-level diagnostics. (#paper #arxiv #agents #memory #harness)

@@ -398,3 +398,6 @@ tags:
 - [2026-09-25T17:23:00+08:00] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=1
 - [2026-09-26T22:35:00+08:00] CAPTURE type=synthesis page="wiki/syntheses/Cognition Functional Framework.md" title="Cognition Functional Framework" qmd="skipped: QMD_WIKI_COLLECTION unset"
 - [2026-09-26T22:35:00+08:00] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=1
+- [2026-09-29T18:14:09+0800] CAPTURE type=source page="wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide.md" title="Software Engineering 3.0 Judgment Shift Source Guide" source="Excalidraw/ai effective.md"
+- [2026-09-29T18:14:09+0800] CAPTURE type=concept page="wiki/concepts/Judgment Externalization.md" title="Judgment Externalization"
+- [2026-09-29T18:14:09+0800] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=2
