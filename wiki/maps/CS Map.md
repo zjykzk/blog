@@ -14,7 +14,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 8
-updated: 2026-09-29T18:14:09+0800
+updated: 2026-10-01T01:10:38+0800
 aliases:
   - Computer Science Map
 tags:
@@ -106,6 +106,8 @@ tags:
 - [[wiki/syntheses/类和对象结构图的建模作用]] — OOAD 中类和对象结构图的核心作用是把业务世界压成责任容器及其关系，而不是提前列代码类清单。
 
 ## Source layer
+
+- [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] — 用探索策略改进程序发现的质量与调用量，在 Lasso 和 GPU 优化中区分发现成本、程序性能及逐项回退。
 
 - [[wiki/sources/The Art of Doing Science and Engineering Source Guide]] — 汉明关于思维风格、系统工程、度量和重要问题的工程职业 source guide。
 - [[wiki/sources/Kimball Dimensional Modeling Techniques Source Guide]] — Kimball Group 2013 technique catalog: four-step design process, grain, fact/dimension patterns, conformed dimensions, SCD types, hierarchy handling, and special schemas.

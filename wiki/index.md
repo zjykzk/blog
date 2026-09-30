@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-09-29T18:14:09+0800
+updated: 2026-10-01T01:10:38+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -88,6 +88,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+
+- [[wiki/concepts/Discovery Replay Simulator|Discovery Replay Simulator]] — 用逐步揭示的历史发现树比较探索规则，复用执行结果，同时保留有限支持域与线上泛化边界。 ( #agents #harness #optimization #memory #feedback)
 - [[wiki/concepts/Existence Desire and Problem Cycles|存在、需要、欲望与问题循环]] — 区分身体存在、维持需要、自我调节与有意识欲望，解释问题如何由目标与条件的不匹配产生，以及身体消耗、目标变化和行动后果怎样引出下一轮。 ( #cognition #psychology #systems #mechanism #feedback)
 - [[wiki/concepts/Belief and Attitude|Belief and Attitude]] — Belief 把命题接受为真，attitude 则把事实判断、价值、情感和社会代价压成对对象的评价与行动倾向；二者在经验与反馈中相互塑造。 ( #psychology #cognition #judgment #learning #mechanism)
 - [[wiki/concepts/Political Left and Right|政治光谱：左派与右派]] — 左派/右派不是固定立场，而是相对于“现存秩序”的态度与“平等 vs 自由/秩序”的排序；参照系不同标签会颠倒，中国语境与西方几乎镜像。 (#politics #thinking #systems #judgment)
@@ -325,6 +327,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
+
+- [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] — 固定模型下利用历史回放优化探索调度；保留 Lasso、数学和 GPU 结果、逐项反例及完整成本限制。 ( #paper #agents #harness #optimization #memory)
 - [[wiki/sources/The Tiers of Context Engines Source Guide|The Tiers of Context Engines Source Guide]] — 按上下文规划由谁运行，把 Context Engine 分成人工、产品内嵌、平台配置和自建工程四种形态，并以控制、杠杆和集成引力解释选择。 ( #article #agents #context #architecture)
 - [[wiki/sources/检索推理规划与Agent问题求解 Source Guide|检索推理规划与Agent问题求解 Source Guide]] — 保存一段中文对话：从检索与推理的区别出发，讨论 LLM 推理的本质、模式匹配之争、规划作为目标导向推理、上下文与记忆、状态，并汇成 Agent 作为问题求解系统的统一模型。 (#agents #reasoning #llm #problem-solving #llm-wiki)
 - [[wiki/sources/解释生命与分子实体 Source Guide|解释生命与分子实体 Source Guide]] — 中文物理/生物学教学问答：从热二定律、自由能、熵讲到信息、DNA、RNA 世界假说与自然选择，串成“熵→自由能→信息→自复制→自然选择→生命”的解释链。 (#physics #learning #cognition #mechanism #systems)

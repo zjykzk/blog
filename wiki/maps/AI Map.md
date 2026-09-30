@@ -24,7 +24,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 10
-updated: 2026-09-29T18:14:09+0800
+updated: 2026-10-01T01:10:38+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -37,6 +37,8 @@ tags:
 这是当前 AI / Agent / LLM 知识簇的入口页。
 
 ## Concepts
+
+- [[wiki/concepts/Discovery Replay Simulator|Discovery Replay Simulator]] — 把已执行搜索记录变成策略试验环境，区分回放筛选与真实新发现。
 
 - [[wiki/concepts/Agent]]
 - [[wiki/concepts/Agent Transformer]] — 把 agent 形式化为 policy、memory、tools、verifiers、environment 的控制回路，而不是裸模型。
@@ -264,5 +266,7 @@ tags:
 - 从 journals 中抽取稳定判断，回填到 topic / concept 页面。
 
 ## Source Guides
+
+- [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] — 发现树回放、探索调度代码改进及其有限历史支持域。
 - [[wiki/sources/配置 钩子 代码库与技能放置决策 Source Guide|配置/钩子/代码库/技能放置决策]] — 判断一个行为应放进项目配置、hook、代码库还是 skill。
 - [[wiki/sources/检索推理规划与Agent问题求解 Source Guide|检索推理规划与 Agent 问题求解]] — ChatGPT 对话：从"检索 vs 推理"逐层澄清推理、规划、上下文、记忆、状态，收敛到 Agent 问题求解闭环。

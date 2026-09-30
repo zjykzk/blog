@@ -401,3 +401,7 @@ tags:
 - [2026-09-29T18:14:09+0800] CAPTURE type=source page="wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide.md" title="Software Engineering 3.0 Judgment Shift Source Guide" source="Excalidraw/ai effective.md"
 - [2026-09-29T18:14:09+0800] CAPTURE type=concept page="wiki/concepts/Judgment Externalization.md" title="Judgment Externalization"
 - [2026-09-29T18:14:09+0800] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=2
+
+- [2026-10-01T01:10:38+0800] CAPTURE type=source page="wiki/sources/Dream-RSI Paper Source Guide.md" title="Dream-RSI Paper Source Guide" qmd="skipped: QMD_WIKI_COLLECTION unset"
+- [2026-10-01T01:10:38+0800] CAPTURE type=concept page="wiki/concepts/Discovery Replay Simulator.md" title="Discovery Replay Simulator" qmd="skipped: QMD_WIKI_COLLECTION unset"
+- [2026-10-01T01:10:38+0800] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=2

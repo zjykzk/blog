@@ -10,12 +10,13 @@ tags:
   - memory
   - optimization
 sources:
+  - https://github.com/zhengkid/Dream-RSI/blob/c67937fa0452fbda3fad92107d1f30699380da39/papers/Dream-RSI.pdf
   - conversation:2026-05-31
   - inline:ai-agent-three-paradoxes-2026-07-20
 created: 2026-05-31T15:02:10+0800
-updated: 2026-07-20T04:29:25+0800
+updated: 2026-10-01T01:10:38+0800
 summary: >-
-  自进化 agent 地图按学习层次组织已实现系统，并用验证器独立性、现实接地和更新范围判断改进能否安全持久。
+  自进化 agent 地图按学习层次组织已实现系统，包含发现历史回放驱动的探索调度代码改进，并用验证器独立性、现实接地和更新范围判断改进边界。
 provenance:
   extracted: 0.68
   inferred: 0.27
@@ -40,6 +41,7 @@ aliases:
 
 Harness code 层
   - Meta-Harness
+  - Dream-RSI：回放发现树，改进探索调度代码
   - 搜索可执行 agent 外壳：prompting、retrieval、memory update、tool orchestration
 
 Skill repository 层
@@ -173,6 +175,12 @@ Meta-Harness 把 [[wiki/topics/AI Harness]] 从 runtime plumbing 变成 search s
 
 它的风险也最大：自动搜索 harness code 容易触及 security、authorization、governance 和 benchmark overfitting，需要强 human review 和外部评估。^[inferred]
 
+### Dream-RSI
+
+[[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] 把已完成的发现树组织为 [[wiki/concepts/Discovery Replay Simulator|Discovery Replay Simulator]]，用历史结果低成本比较探索策略，再部署选中的调度代码执行新一轮真实搜索。发现模型与评测器保持不变，更新的是开路线、沿线改进、并行和停止规则。
+
+它为 harness 层提供了一个范围明确的实例：历史既供代理阅读，也作为策略试验环境。Lasso 与 GPU 任务显示部分设置下可减少发现调用或改善找到的程序，但数学任务有持平和落后结果；在同一历史池中选优，不保证下一轮线上进步，调用节省也不等于总成本节省。
+
 ## Memory Baselines and Earlier Patterns
 
 ### ReasoningBank and MemP
@@ -198,12 +206,16 @@ MemGPT 解决“记忆如何存放和分页”，但不直接解决“从失败�
 | 自动优化单个 skill | Skills-Coach, Hermes |
 | 管理一整个 skill 仓库 | SkillOS |
 | 自动搜索 agent 外壳代码 | Meta-Harness |
+| 复用旧发现结果改进探索机会分配 | Dream-RSI |
 | 做最小反思原型 | Reflexion |
 | 做 memory substrate | MemGPT, ReasoningBank, MemP |
 
 成熟度上，SkillOS 和 Skills-Coach 的评估闭环最清楚；Meta-Harness 最有野心但风险高；GenericAgent 更偏 token-efficient harness；AutoAgent 的运行时适应覆盖面最广但反思可靠性是关键弱点；Hermes 是工程化方向很对的 GEPA 延伸，但当前 wiki 还没有独立论文级 source guide。^[inferred]
 
 ## Related
+
+- [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]]
+- [[wiki/concepts/Discovery Replay Simulator|Discovery Replay Simulator]]
 
 - [[wiki/concepts/Continual Learning for AI Agents]]
 - [[wiki/concepts/Verifier Hierarchy]]
