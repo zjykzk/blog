@@ -15,6 +15,7 @@ sources:
   - https://cdn.openai.com/pdf/8a9f00cf-d379-4e20-b06f-dd7ba5196a11/OAI_WhitePaper_Codex-maxxing26.pdf
   - https://arxiv.org/pdf/2606.21894
   - https://claude.com/blog/the-ai-native-sdlc-playbook
+  - https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html
 created: 2026-05-04
 base_confidence: 0.97
 lifecycle: draft
@@ -23,7 +24,7 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 10
+source_count: 11
 updated: 2026-10-01T01:10:38+0800
 aliases:
   - 项目/AI
@@ -209,6 +210,7 @@ tags:
 - [[wiki/sources/Maintainability Sensors for Coding Agents Source Guide]] — Birgitta Böckeler's Martin Fowler follow-up on maintainability sensors for coding agents: linting, dependency rules, coupling data, AI modularity review, and regression testing with coverage/mutation signals.
 - [[wiki/sources/ADK Skill Design Patterns Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
+- [[wiki/sources/Agentic Engineering at Zalando Source Guide]] — 250+ 团队中的组织级实践：统一接入与观测，开放工具探索，以风险审批、Skill、培训和身份平台逐步收敛。
 - [[wiki/sources/Compounding Engineering Source Guide]]
 - [[wiki/sources/Company Brain Source Guide]]
 - [[wiki/sources/Memory Is State Not a Service Source Guide]]

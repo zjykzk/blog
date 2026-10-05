@@ -17,6 +17,7 @@ updated: 2026-10-01T01:10:38+0800
 - 2026-09-29T18:14:09+0800 — 已捕获 [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide|软件工程 3.0 判定转向]] 与 [[wiki/concepts/Judgment Externalization|判定外化]]，并纳入 [[Excalidraw/ai effective|AI effective]]：生成速度超过人工复核后，判定系统应把标准、证据、执行和治理留在模型调用之外，由程序与大模型批量判定，人在规则设计、抽样校准和异常裁决处介入。
 - 2026-09-26T22:35:00+08:00 — 已捕获 [[wiki/syntheses/Cognition Functional Framework|认知功能框架]]：保留六层图的评审理由，以双向功能模块补入情绪、动机与执行控制，区分自我表征、元认知和主观体验；关联修订 HTML 与高清 PNG。标签沿用现有 taxonomy。
 - 2026-09-25T17:23:00+08:00 — 已捕获 [[wiki/concepts/Existence Desire and Problem Cycles|存在、需要、欲望与问题循环]]：身体需要、自我调节与有意识欲望分层；有限需要也能产生问题，后续循环可能来自身体消耗、目标变化或行动后果。同时为 [[wiki/concepts/Nature of a Question|问题的本质]] 补明“被意识到的认知与行动问题”的范围。标签沿用现有 taxonomy，无需新增或归一化。
+- 2026-09-21T23:22:10+0800 — 已捕获 [[wiki/sources/Agentic Engineering at Zalando Source Guide|Agentic Engineering at Zalando]]：250+ 团队共享 LLM 接入、认证与观测，但保留模型和工具选择；再用 Session/PR/复杂度数据识别效果，以风险审批、Skill、Guild、培训和平台默认能力沉淀经验。组织级闭环是“降低实验门槛 → 多路线探索 → 观察结果 → 编码规则 → 扩大采用”，下一阶段瓶颈转向仓库 readiness、沙箱、身份委托与责任链。
 - 2026-09-19T17:56:16+0800 — 标签检查：[[wiki/concepts/Belief and Attitude|Belief and Attitude]] 使用现有规范标签 `psychology`、`cognition`、`judgment`、`learning`、`mechanism`，无需新增或归一化标签。
 - 2026-09-19T17:56:15+0800 — 已捕获 [[wiki/concepts/Belief and Attitude|Belief and Attitude]]：belief 是把命题接受为真的认知判断，不等于客观事实；attitude 是由事实判断、价值排序、情感记忆与身份代价共同形成的评价和行动倾向。信息经来源信任与既有世界模型形成 belief，再经估值形成 attitude，行动结果又反馈并修正或强化二者。
 - 2026-09-14T16:35:10+0800 — 已捕获 [[wiki/sources/Three Constraints for Building Products Source Guide|构建产品前的三个约束]]（Jordan Lord）：一页纸限制复杂度与歧义，可分离核心能力保留长期杠杆，定义性约束限制功能膨胀并生成产品身份。进一步澄清“分离”不是让产品脱离技术，而是区分稳定能力与当前产品表达：它让外层能试错，避免把技术展示误当产品，并迫使产品说明自己在工作流、反馈、协作和信任上的增量价值；这些设计收益属于推论，不是作者直接展开的主张。
@@ -52,6 +53,9 @@ updated: 2026-10-01T01:10:38+0800
 - AI 软件工程现在加入“判定外化”线索：[[wiki/concepts/Verification Gap|验证鸿沟]] 不能靠人逐件审核来解决。组织要把专家判断改写成规则、样本、评测、执行器和治理记录，让确定性程序与 LLM judge 处理大多数结果，只把冲突、新场景和高风险例外送回人；人的裁决再沉淀为下一轮规则与样本。
 
 - 认知结构现在补入 [[wiki/syntheses/Cognition Functional Framework|功能框架的证据边界]]：能力分类、加工过程、生物实现与意识理论需要分开；目标、经验和情绪会反向影响加工，反馈更新也可能强化偏差。
+
+- Agentic Engineering 现在从个人 harness 扩展到组织操作系统：[[wiki/sources/Agentic Engineering at Zalando Source Guide|Zalando 的 2.5 年实践]]把统一接入、工具自由、过程观测、风险分层和知识扩散串成一个持续学习闭环。AI 会放大既有工程系统；因此不应只提升生成能力，还要让仓库暴露上下文和验证，让审批成本随风险变化，并把局部经验写入 Skill、培训和平台边界。
+
 - 认知机制现在加入“belief → attitude → action → feedback”线索：belief 把信息和经验压成对世界的判断，attitude 再把这些判断与需要、价值、情感和身份代价压成行动方向。分析分歧时要分别检查证据与来源、价值排序与身份代价，不能把反对简单归因于“不懂事实”。
 
 - 产品约束现在加入“能力—产品—身份”三层：[[wiki/sources/Three Constraints for Building Products Source Guide|Jordan Lord 的三个约束]]用一页纸压缩方向歧义，用可分离核心能力承接长期复利，再用用户可感知的定义性约束生成产品身份。能力分层对设计的收益是间接的：它阻止团队把技术输出直接当产品，让稳定内核支持外层试错，并迫使产品说明自己在工作流、反馈、协作和信任上的增量价值；但在重复场景尚未成立前做物理抽离，会滑向“平台先行”。
@@ -207,6 +211,7 @@ updated: 2026-10-01T01:10:38+0800
 - 判定外化不是让人逐件审核 AI 产出，而是把共同判断前置成标准、证据、执行器和治理规则，由程序与大模型批量运行；人只在目标定义、抽样校准、规则冲突和高风险例外处介入。
 - 认知图的模块与箭头需要说明分类尺度和关系含义；能记录自身信息或监测错误，不足以证明存在主观体验。解释性框架不能因图形完整而被当作科学定论。
 - 身体的许多维持过程不必由有意识欲望启动；自我调节的功能也不足以证明主观体验。问题循环应区分需要再次出现、目标变化和行动的新后果，不能由循环本身推出欲望无限或前次解决失败。
+- Agentic Engineering 的组织级最小闭环不是“统一一个 Agent”，而是统一可观测与安全底座、开放局部探索、用结果筛选实践、把有效经验变成可执行组织资产；变化快的部分保持可替换，风险高的部分集中控制，成熟部分再标准化。
 
 - Belief 与 attitude 不是客观和主观的两分：belief 是可被证据检验的事实判断，attitude 是事实判断经过价值、情感和身份代价后形成的评价与行动倾向；仅补充信息往往不足以改变态度。
 - 产品背后的核心能力与具体产品分层，不等于一开始就拆平台；它先是认知分离，让产品表达可以围绕用户任务变化、底层投入继续复利。只有多个真实场景证明能力重复且边界稳定后，才值得工程化抽离。

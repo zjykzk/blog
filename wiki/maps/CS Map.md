@@ -8,12 +8,13 @@ provenance:
   extracted: 0.95
   inferred: 0.05
   ambiguous: 0.00
-sources: []
+sources:
+  - https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html
 created: 2026-04-21
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 8
+source_count: 9
 updated: 2026-10-01T01:10:38+0800
 aliases:
   - Computer Science Map
@@ -141,6 +142,7 @@ tags:
 - [[wiki/sources/大模型时代软件工程的本质与演进 Source Guide]] — 中文长文：从需求工程、Naur、DDD、Brooks、Lehman、Woods 到 AI “无理论代码”，论证软件工程是问题定义、知识传递与应用。
 - [[wiki/sources/AI 什么都能写与软件价值重心转移 Source Guide]] — 中文长文：把 db9、技术栈迁移、遗留系统重写和企业维护争议串成“代码变便宜，知识与判断变贵”的 AI 软件工程线索。
 - [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide]] — 中文长文与 Excalidraw 图：生成变便宜后，工程化对象从动作上移到判定，规则与证据进入机器可执行闭环。
+- [[wiki/sources/Agentic Engineering at Zalando Source Guide]] — Zalando 将 Agentic Engineering 落到统一基础设施、过程可观测、风险分级、知识扩散、仓库 readiness 与身份治理。
 - [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源：用成本结构、验证鸿沟、意图-生成-验证循环、复杂度、测试、版本控制和门禁解释 Vibe 时代的软件工程。
 - `content/posts/cs/arch/arch.md`
 - `content/posts/cs/dist/circuit-breaker.md`

@@ -11,8 +11,9 @@ sources:
   - wiki/sources/Vibe 时代的软件工程.md
   - https://x.com/trq212/article/2073100352921215386
   - https://www.langchain.com/blog/the-art-of-loop-engineering
+  - https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html
 created: 2026-05-07T22:03:56+08:00
-updated: 2026-07-04T23:00:06+0800
+updated: 2026-09-21T23:22:10+0800
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-07
@@ -88,6 +89,14 @@ Parsons names several recurring failure modes:
 - invisible dependencies: teams unknowingly rely on model behaviors that may change across upgrades
 - premature relief: teams survive one AI tooling wave and underestimate the next wave of cloud agents and autonomous orchestration
 
+## Organizational Scale
+
+[[wiki/sources/Agentic Engineering at Zalando Source Guide]] extends the concept from an individual coding discipline to an organization-level operating system. At this scale, agentic engineering depends on five coupled layers: shared access infrastructure, freedom to explore tools and models, observability of sessions and delivery outcomes, mechanisms that spread local learning, and risk/identity controls that bound autonomous action.
+
+The corresponding adoption loop is: lower the cost of experimentation, observe real behavior, identify useful and harmful patterns, encode the lessons into rules/skills/training/platform defaults, then expand adoption while preserving tool choice. ^[inferred]
+
+This also sharpens the amplification principle: coding agents do not independently create engineering maturity. They increase the gain of the surrounding system, so repository quality, verification surfaces, deployment previews, authentication boundaries, and review incentives determine whether faster generation compounds into faster learning or faster disorder. ^[inferred]
+
 ## Related
 
 - [[wiki/topics/AI Harness]]
@@ -112,3 +121,4 @@ Parsons names several recurring failure modes:
 - [[wiki/sources/Vibe 时代的软件工程]]
 - [[wiki/sources/Agentic Coding Unknowns Source Guide]]
 - [[wiki/sources/The Art of Loop Engineering Source Guide]]
+- [[wiki/sources/Agentic Engineering at Zalando Source Guide]]
