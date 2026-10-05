@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近捕获 Dream-RSI：以发现历史回放改进探索调度，保留同模型效果、逐项反例、历史覆盖与完整成本边界。
+summary: 最近捕获数学与 AI 的目标错位：区分解题、理解与培养，并检验生产方式变化后的代理指标。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-01T01:10:38+0800
+updated: 2026-10-03T16:01:27+08:00
 ---
 
 ## Recent Activity
+
+- 2026-10-03T16:01:27+08:00 — 已捕获 [[wiki/sources/Math and AI Misalignment Source Guide|数学与 AI 的目标错位]]：保留核心问题、概念结构、推理流程与变化机制；为 [[wiki/concepts/Understanding|理解]] 和 [[wiki/concepts/Evaluation|评价]] 补入答案与能力形成的分离及代理指标有效性，并接入 AI、学习地图。
 
 - 2026-10-01T01:10:38+0800 — 已捕获 [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] 与 [[wiki/concepts/Discovery Replay Simulator|Discovery Replay Simulator]]：把真实搜索树变为逐步揭示结果的策略试验环境；区分历史内选优、线上新发现和端到端成本，并接入自进化 Agents、AI 与 CS 地图。标签沿用现有 taxonomy。
 - 2026-09-29T18:14:09+0800 — 已捕获 [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide|软件工程 3.0 判定转向]] 与 [[wiki/concepts/Judgment Externalization|判定外化]]，并纳入 [[Excalidraw/ai effective|AI effective]]：生成速度超过人工复核后，判定系统应把标准、证据、执行和治理留在模型调用之外，由程序与大模型批量判定，人在规则设计、抽样校准和异常裁决处介入。
@@ -206,6 +208,8 @@ updated: 2026-10-01T01:10:38+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- AI 直接产出成果后，解题成功与人的理解、方法迁移及共同体培养未必同步增长；评价需要重新检验代理指标，工作设计需要承接解释、整合和训练。参见 [[wiki/sources/Math and AI Misalignment Source Guide|数学与 AI 的目标错位]]，这些机制保留为风险分析。^[inferred]
 
 - 发现历史可以成为探索策略的试验环境，但回放只能揭示已有结果；同池分数不下降不是在线进步保证，发现调用减少也不能直接换算成总费用同比下降。
 - 判定外化不是让人逐件审核 AI 产出，而是把共同判断前置成标准、证据、执行器和治理规则，由程序与大模型批量运行；人只在目标定义、抽样校准、规则冲突和高风险例外处介入。

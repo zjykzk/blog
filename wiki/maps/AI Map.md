@@ -25,7 +25,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 11
-updated: 2026-10-01T01:10:38+0800
+updated: 2026-10-03T16:01:27+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -158,6 +158,8 @@ tags:
 - [[wiki/syntheses/Agent as Problem-Solving System]] — 把大模型定位为问题求解系统里的推理引擎之一，用目标+状态+记忆+检索+推理+规划+行动+反馈的统一闭环，将问题求解重述为状态空间搜索与不确定性收窄。
 
 ## Source notes
+
+- [[wiki/sources/Math and AI Misalignment Source Guide|数学与 AI 的目标错位]] — 解题评测与数学理解、培养和传承之间的目标偏离；保留 AI 有益作用和风险证据边界。
 
 - `pages/项目___AI.md`
 - `pages/项目___AI___skills.md`

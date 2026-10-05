@@ -15,7 +15,7 @@ created: 2026-04-26
 base_confidence: 0.32
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-09-26T22:35:00+08:00
+updated: 2026-10-03T16:01:27+08:00
 aliases:
   - 学习地图
 provenance:
@@ -66,6 +66,8 @@ provenance:
 - [[wiki/syntheses/总结式读书的认知损失]]——从表征、图式、心智模型和解释性理解说明总结不能替代原书的认知建构过程
 
 ## 相关源笔记（pages/ 与 mobu/）
+
+- [[wiki/sources/Math and AI Misalignment Source Guide|数学与 AI 的目标错位]]——AI 直接产出答案后，需要重新连接成果、人的理解与下一代研究者培养
 
 - [[wiki/sources/The Art of Doing Science and Engineering Source Guide]]——汉明用教育/训练、知识半衰期、系统工程和重要问题解释为什么要学会学习
 - [[wiki/sources/NotebookLM Learning Workflow Source Guide]]——Ihtesham Ali 的 NotebookLM 学习 workflow source guide

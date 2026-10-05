@@ -10,6 +10,7 @@ tags:
   - judgment
 sources:
   - /Users/zenk/Documents/notes/20260506T204024--概念解剖-评价__concept.org
+  - https://mathandai.org/multilingual.php?lang=zh
 provenance:
   extracted: 0.72
   inferred: 0.28
@@ -18,7 +19,7 @@ base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 created: 2026-05-06T20:58:15+08:00
-updated: 2026-05-10T14:24:08+08:00
+updated: 2026-10-03T16:01:27+08:00
 aliases:
   - 评价
   - assessment
@@ -67,12 +68,19 @@ This matters because a precise score can still be a weak evaluation if it measur
 - Using a scale that hides the object's most important qualities. ^[inferred]
 - Letting evaluation become a tool of conformity rather than a way to help the object become more legible and more capable. ^[inferred]
 
+## Proxy Validity When Production Changes
+
+代理指标与最终目标之间的关联，需要在成果生产方式改变后重新检验。过去“解出难题”常伴随新方法与人的理解；AI 可以直接给出成果时，解题表现就不能单独证明使用者的理解、方法迁移或共同体培养能力同步增长。[[wiki/sources/Math and AI Misalignment Source Guide|数学与 AI 的目标错位]] 提供了这一风险案例，但没有证明所有解题评测均已失效。^[inferred]
+
+评价既观察活动，也通过奖励和资源配置改变活动。若持续奖励易计数的产出，却不承认解释、整合和培养的贡献，就可能使指标提升与长期目标发生偏离；这条机制需要结合具体情境和证据判断。^[inferred]
+
 ## Source Compression
 
 The concept-anatomy source compresses evaluation into one sentence: evaluation is not saying whether something is good or bad, but making it appear in a particular value-form through a particular scale.
 
 ## Related
 
+- [[wiki/sources/Math and AI Misalignment Source Guide]]
 - [[wiki/sources/Evaluation Concept Anatomy Source Guide]]
 - [[wiki/topics/Critical Thinking]]
 - [[wiki/topics/Mental Models]]

@@ -9,6 +9,7 @@ tags:
   - learning
   - concepts
 sources:
+  - https://mathandai.org/multilingual.php?lang=zh
   - inline:understanding-cloud-2026-05-06
   - inline:hofstadter-frame-discussion-2026-05-06
   - https://philpapers.org/rec/HOFSAE-2
@@ -26,7 +27,7 @@ base_confidence: 0.32
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 created: 2026-05-06T19:18:40+08:00
-updated: 2026-06-09T11:12:36+0800
+updated: 2026-10-03T16:01:27+08:00
 ---
 # Understanding
 
@@ -93,6 +94,12 @@ updated: 2026-06-09T11:12:36+0800
 - 读书后不要只问“记住了什么”，要问相关概念云的形状有没有改变。
 - 输出和教学之所以有效，是因为它迫使理解从隐约的云变成可迁移、可解释、可重建的结构。
 
+## AI 产出与人的理解
+
+[[wiki/sources/Math and AI Misalignment Source Guide|数学与 AI 的目标错位]] 将解题成果视为概念理解的工具和代理指标，并指出数学思想需要经过撰写、讨论、简化和教学才能进入共同知识。
+
+获得一个答案与形成理解可以分离。使用 AI 得到正确结果，并不能单独证明使用者已经能解释方法、迁移结构或提出新问题；检查理解仍需观察这些能力。AI 也可能帮助形成这些能力，关键在于使用过程是否促进学习者重建和运用知识。^[inferred]
+
 ## Open Questions
 
 - “理解的云”与认知科学中的原型理论、类比理论、概念空间理论之间能否进一步对齐？^[inferred]
@@ -111,4 +118,5 @@ updated: 2026-06-09T11:12:36+0800
 
 ## Sources
 
+- [[wiki/sources/Math and AI Misalignment Source Guide]] — 数学家联署宣言，讨论解题成果、概念理解与共同体传承之间的目标偏离。
 - [[wiki/sources/Understanding as Concept Cloud Source Guide]] — inline note on understanding as a cloud shaped by similarity and abstraction
