@@ -19,16 +19,17 @@ sources:
   - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
   - inline:ai-coding-information-theory-cheer-2026-07-12
   - https://claude.com/blog/the-ai-native-sdlc-playbook
+  - https://x.com/AndrewYNg/article/2088302050706686198
 created: 2026-05-04
 base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.86
-  inferred: 0.13
+  extracted: 0.84
+  inferred: 0.15
   ambiguous: 0.01
-source_count: 14
-updated: 2026-09-10T21:22:11+0800
+source_count: 15
+updated: 2026-10-06T16:39:47+0800
 aliases:
   - AI 工作流
   - Agent workflow
@@ -188,6 +189,23 @@ This strengthens a recurring synthesis: AI engineering is not just faster genera
 
 这也给工作流增加一条 source-of-truth 约束：Markdown 工件可以是权威记录，也可以只是 Jira、ServiceNow、Figma 或监管系统的工作副本，但每类工件必须声明唯一权威来源，并通过 record ID 与 commit SHA 保持链接。否则“机器可读的工件链”会退化成另一套不同步的文档。
 
+## 7. Cover the full responsibility stack
+
+[[wiki/sources/AI Engineering Skills Map Source Guide]] 把这条工作流从“如何与 coding agent 协作”向上下游各扩一层：上游是 shaping the build，负责把业务背景、客户目标和产品判断压成可执行规格；下游是 AI 应用的 eval、错误分析、部署与治理，负责把概率性输出变成可观测、可改进的生产系统。
+
+四项能力在交付中构成如下责任链：^[inferred]
+
+```text
+业务问题与用户目标
+  → 塑造要构建的产品
+  → 用软件工程基础表达约束与取舍
+  → 用 coding agents 放大执行
+  → 用 eval、错误分析和治理控制 AI 行为
+  → 让运行证据反馈到下一轮产品定义
+```
+
+这使 AI engineering 不等于 agent 操作技巧。Agent 只占执行层；如果缺少上游方向判断，系统会更快地做错事；如果缺少下游验证与治理，系统会更快地产生无法信任的结果。^[inferred]
+
 ## Why this synthesis matters
 
 如果没有这条综合链路，AI 工程容易只剩下局部技巧：
@@ -243,6 +261,7 @@ This strengthens a recurring synthesis: AI engineering is not just faster genera
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 - [[wiki/sources/AI Coding 信息论框架 Source Guide]]
 - [[wiki/sources/The AI-Native SDLC Playbook Source Guide]]
+- [[wiki/sources/AI Engineering Skills Map Source Guide]]
 
 ## Navigation
 

@@ -10,12 +10,13 @@ provenance:
   ambiguous: 0.00
 sources:
   - https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html
+  - https://x.com/AndrewYNg/article/2088302050706686198
 created: 2026-04-21
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 9
-updated: 2026-10-01T01:10:38+0800
+source_count: 10
+updated: 2026-10-06T16:39:47+0800
 aliases:
   - Computer Science Map
 tags:
@@ -108,6 +109,7 @@ tags:
 
 ## Source layer
 
+- [[wiki/sources/AI Engineering Skills Map Source Guide]] — 代码执行被 Agent 放大后，软件工程基础承担约束与取舍，产品塑造和验证治理成为新的责任重心。
 - [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] — 用探索策略改进程序发现的质量与调用量，在 Lasso 和 GPU 优化中区分发现成本、程序性能及逐项回退。
 
 - [[wiki/sources/The Art of Doing Science and Engineering Source Guide]] — 汉明关于思维风格、系统工程、度量和重要问题的工程职业 source guide。

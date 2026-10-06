@@ -12,14 +12,15 @@ sources:
   - https://x.com/trq212/article/2073100352921215386
   - https://www.langchain.com/blog/the-art-of-loop-engineering
   - https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html
+  - https://x.com/AndrewYNg/article/2088302050706686198
 created: 2026-05-07T22:03:56+08:00
-updated: 2026-09-21T23:22:10+0800
+updated: 2026-10-06T16:39:47+0800
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-07
 provenance:
-  extracted: 0.80
-  inferred: 0.20
+  extracted: 0.78
+  inferred: 0.22
   ambiguous: 0.0
 aliases:
   - agentic coding
@@ -97,6 +98,14 @@ The corresponding adoption loop is: lower the cost of experimentation, observe r
 
 This also sharpens the amplification principle: coding agents do not independently create engineering maturity. They increase the gain of the surrounding system, so repository quality, verification surfaces, deployment previews, authentication boundaries, and review incentives determine whether faster generation compounds into faster learning or faster disorder. ^[inferred]
 
+## Capability Stack
+
+[[wiki/sources/AI Engineering Skills Map Source Guide]] places coding-agent fluency inside a broader set of AI engineering responsibilities: building and deploying probabilistic AI applications, retaining software-engineering fundamentals, using coding agents effectively, and shaping what should be built.
+
+These capabilities form a responsibility stack rather than four interchangeable techniques: product and business judgment choose the target; software-engineering knowledge exposes constraints and trade-offs; agent skill amplifies execution; evals, error analysis, and deployment controls close the loop around uncertain AI behavior. ^[inferred]
+
+As coding agents improve at delivering against a clear specification, human responsibility moves upstream toward problem selection and specification while remaining downstream at verification, governance, and production-risk boundaries. The engineer becomes accountable for the whole build loop, not merely for producing code. ^[inferred]
+
 ## Related
 
 - [[wiki/topics/AI Harness]]
@@ -122,3 +131,4 @@ This also sharpens the amplification principle: coding agents do not independent
 - [[wiki/sources/Agentic Coding Unknowns Source Guide]]
 - [[wiki/sources/The Art of Loop Engineering Source Guide]]
 - [[wiki/sources/Agentic Engineering at Zalando Source Guide]]
+- [[wiki/sources/AI Engineering Skills Map Source Guide]]

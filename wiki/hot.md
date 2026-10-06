@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近补全机制模型的六要素职责、缺项盲区与亲子出游例子，把结构诊断从口诀推进到可操作解释。
+summary: 最近补入 AI 工程责任栈：产品塑造决定方向，软件工程承担取舍，coding agent 放大执行，eval 与治理控制不确定性。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-06T15:29:40+0800
+updated: 2026-10-06T16:39:47+0800
 ---
 
 ## Recent Activity
+
+- 2026-10-06T16:39:47+08:00 — 已捕获 [[wiki/sources/AI Engineering Skills Map Source Guide|AI Engineering Skills Map]]：保留 Andrew Ng 的四项 AI 工程能力，并将其重组为“产品方向—工程判断—Agent 执行—评估治理”的责任栈；同步更新 [[wiki/concepts/Agentic Engineering]]、[[wiki/syntheses/AI Engineering Workflow]] 及 AI/CS 地图。
 
 - 2026-10-06T15:29:40+08:00 — 已更新 [[wiki/concepts/Mechanism Model|Mechanism Model]]：说明结果、变量、约束、激励、反馈和时间各自承担什么分析职责、缺少任一要素会形成什么盲区，并用亲子出游展示“短暂快乐”如何与“被动消费”区分。
 
@@ -63,6 +65,8 @@ updated: 2026-10-06T15:29:40+0800
 - Dream-RSI 与发现历史回放：旧树如何为调度代码提供可复用反馈，以及有限覆盖、上下文变化和同池过拟合如何限制迁移。
 
 - AI 软件工程现在加入“判定外化”线索：[[wiki/concepts/Verification Gap|验证鸿沟]] 不能靠人逐件审核来解决。组织要把专家判断改写成规则、样本、评测、执行器和治理记录，让确定性程序与 LLM judge 处理大多数结果，只把冲突、新场景和高风险例外送回人；人的裁决再沉淀为下一轮规则与样本。
+
+- AI 工程现在形成“方向—判断—执行—验证”责任栈：[[wiki/sources/AI Engineering Skills Map Source Guide|Andrew Ng 的技能地图]]把 shaping the build、软件工程基础、coding agent 使用、AI 应用构建与部署连接起来。Agent 只放大执行；上游仍需定义问题与规格，下游仍需用 eval、错误分析和治理控制概率性行为。^[inferred]
 
 - 认知结构现在补入 [[wiki/syntheses/Cognition Functional Framework|功能框架的证据边界]]：能力分类、加工过程、生物实现与意识理论需要分开；目标、经验和情绪会反向影响加工，反馈更新也可能强化偏差。
 
@@ -218,6 +222,8 @@ updated: 2026-10-06T15:29:40+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- AI 工程不是“会用 coding agent”的同义词。完整责任链是：选择值得解决的问题，用软件工程知识表达约束和取舍，让 Agent 放大执行，再用 eval、错误分析和治理把不确定输出收进可持续反馈闭环。^[inferred]
 
 - 机制解释的六个要素按分析职责协作：结果钉住解释对象，变量提出干预候选，约束划定可行空间，激励解释选择，反馈解释重复，时间解释累积与反转；它们不是互斥的事物分类。^[inferred]
 
