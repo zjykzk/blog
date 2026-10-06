@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近捕获数学与 AI 的目标错位：区分解题、理解与培养，并检验生产方式变化后的代理指标。
+summary: 最近扩展行动动力结构：动力不是内在燃料，而是身体、环境、习性、价值、觉察、最小行动与结果反馈共同生成的循环。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-03T16:01:27+08:00
+updated: 2026-10-06T10:17:38+0800
 ---
 
 ## Recent Activity
+
+- 2026-10-06T10:17:38+08:00 — 已更新 [[wiki/syntheses/成就感驱动与行动动力结构]]：把“成就感不宜成为唯一燃料”的局部诊断扩展成完整行动动力模型，连接身体资源、环境后果、自主与关系、意义与责任、觉察、最小行动和反馈；补入人格地位/行为责任/能力状态三分，以及价值的事实、他人、主体、可错性四道检验。
 
 - 2026-10-05T23:53:05+08:00 — 已捕获 [[wiki/syntheses/Buddhist Practice Nihilism and Liberation|佛法修行、虚无与解脱]]：区分现世解脱、慈悲的独立价值前提、佛教式自由的人格塑造，以及般涅槃的相续终止；同步修正 [[wiki/concepts/佛家觉悟结构]] 中“正见自然推出慈悲”的过强表达，并接入机制模型地图。
 
@@ -212,6 +214,8 @@ updated: 2026-10-03T16:01:27+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 动力不是行动前必须出现的单一燃料，而是价值在身体、环境、习性和关系约束中，经觉察与可进入行动转化为后果、再由反馈塑造下一次行动的循环；强烈感受不等于持久动力，行动本身也会生成动力。^[inferred]
 
 - 佛法不是“万物无意义”的虚无主义，但也不能只用“空不等于无”消解质疑：现世解脱仍保留感受与行动；空性不能自动推出慈悲；早期佛教的般涅槃否认实有主体被消灭，却明确包含新的个人经验与轮回相续不再生起。^[inferred]
 

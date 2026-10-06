@@ -315,7 +315,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/React UI Organization Model|React UI Organization Model]] — Synthesis of React as a UI organization model combining declarative rendering, components, and state management. (#frontend #react #ui)
 - [[wiki/syntheses/Reality-Refutable Engineering Systems|Reality-Refutable Engineering Systems]] — Mature engineering systems let reality challenge their models through feedback, appeal, accountability, and redesign triggers. (#synthesis #software-engineering #systems #governance #feedback)
 - [[wiki/syntheses/Thinking and Judgment Workflow|Thinking and Judgment Workflow]] — 这页把问题定义、模型切换、五大思维协作和批判性审查串成一条可执行的思考与判断工作流。 (#synthesis #thinking #reasoning #methods)
-- [[wiki/syntheses/成就感驱动与行动动力结构|成就感驱动与行动动力结构]] — 成就感可以作为行动奖励，但如果成为唯一燃料，就会让行动动力、价值感和短期反馈过度绑定。 (#thinking #cognition #learning #feedback #mechanism)
+- [[wiki/syntheses/成就感驱动与行动动力结构|成就感驱动与行动动力结构]] — 行动动力是身体资源、环境后果、习性、心理需要、价值判断、觉察与行为反馈共同形成的循环；成就感只是其中一种奖励。 ( #thinking #cognition #learning #feedback #mechanism)
 - [[wiki/syntheses/深度思考 高阶思维与本质理解|深度思考、高阶思维与本质理解]] — 深度思考负责下钻生成机制，高阶思维负责审查问题框架，二者经由现实校验共同逼近本质并形成深度理解。 (#thinking #learning #cognition #judgment)
 - [[wiki/syntheses/总结式读书的认知损失]] — 只听读别人总结好的书会替代学习者自己的表征、图式、心智模型和解释性建构，使知识停留在可复述结论而非可迁移理解。 (#learning #cognition #thinking)
 - [[wiki/syntheses/Coding Agent User Harness × Verification Loop|Coding Agent User Harness × Verification Loop]] — A user harness becomes useful when verification signals enter the loop early enough to steer agents and update durable controls. (#agents #harness #ai-coding #testing)
