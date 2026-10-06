@@ -179,6 +179,7 @@ aliases:
 - [[wiki/concepts/三个自我模型]]：成长要改写内核自我的预测模型、先验假设和更新规则。
 - [[wiki/concepts/Belief and Attitude]]：信息经来源信任、既有经验和世界模型形成 belief，再经需要、价值、情感与身份代价形成 attitude，行动结果随后反馈并强化或修正二者。
 - [[wiki/syntheses/Zima Blue 自我回归与无我]]：把无限可能、有限自我、因缘生成和“成为”冲动的止息连成一条自我机制分析。
+- [[wiki/syntheses/Buddhist Practice Nihilism and Liberation|佛法修行、虚无与解脱]]：把无我、离苦、慈悲、自由与般涅槃拆成事实判断、价值选择、人格训练和相续终止四层，防止用空性自动推出伦理结论。
 
 适用问题：为什么我以为懂了但不会用？为什么输入很多却没有结构？为什么 AI 如果只代做会破坏学习反馈？
 

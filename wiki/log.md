@@ -409,3 +409,5 @@ tags:
 - [2026-10-01T01:10:38+0800] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=2
 
 - [2026-10-03T16:01:27+08:00] CAPTURE type=source page="wiki/sources/Math and AI Misalignment Source Guide.md" title="Math and AI Misalignment Source Guide" pages_updated="wiki/concepts/Evaluation.md;wiki/concepts/Understanding.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
+
+- [2026-10-05T23:53:05+0800] CAPTURE type=synthesis page="wiki/syntheses/Buddhist Practice Nihilism and Liberation.md" title="佛法修行、虚无与解脱" pages_updated="wiki/concepts/佛家觉悟结构.md;wiki/maps/Mechanism Models Map.md;wiki/index.md;wiki/hot.md" source="/Users/zenk/Context/20261005T234939--圆桌-佛法修行终点与虚无__roundtable.md" qmd="skipped: QMD_WIKI_COLLECTION unset"

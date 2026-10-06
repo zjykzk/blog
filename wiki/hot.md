@@ -13,6 +13,8 @@ updated: 2026-10-03T16:01:27+08:00
 
 ## Recent Activity
 
+- 2026-10-05T23:53:05+08:00 — 已捕获 [[wiki/syntheses/Buddhist Practice Nihilism and Liberation|佛法修行、虚无与解脱]]：区分现世解脱、慈悲的独立价值前提、佛教式自由的人格塑造，以及般涅槃的相续终止；同步修正 [[wiki/concepts/佛家觉悟结构]] 中“正见自然推出慈悲”的过强表达，并接入机制模型地图。
+
 - 2026-10-03T16:01:27+08:00 — 已捕获 [[wiki/sources/Math and AI Misalignment Source Guide|数学与 AI 的目标错位]]：保留核心问题、概念结构、推理流程与变化机制；为 [[wiki/concepts/Understanding|理解]] 和 [[wiki/concepts/Evaluation|评价]] 补入答案与能力形成的分离及代理指标有效性，并接入 AI、学习地图。
 
 - 2026-10-01T01:10:38+0800 — 已捕获 [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] 与 [[wiki/concepts/Discovery Replay Simulator|Discovery Replay Simulator]]：把真实搜索树变为逐步揭示结果的策略试验环境；区分历史内选优、线上新发现和端到端成本，并接入自进化 Agents、AI 与 CS 地图。标签沿用现有 taxonomy。
@@ -49,6 +51,8 @@ updated: 2026-10-03T16:01:27+08:00
 - 2026-07-19T22:00:16+0800 — 已捕获 [[wiki/syntheses/Rank Reduction as Generative Model Discovery|降秩方法的底层原理与有效边界]]：降秩不是总结重点，而是发现最小解释性生成模型；逐层下沉产生候选，消融与反生成压紧骨架，外推和变更测试让模型承担失败风险。
 
 ## Active Threads
+
+- 佛家觉悟结构现在加入“事实—价值—训练—终点”边界：无我与缘起能削弱自我特权，却不能自动推出慈悲；佛教还需明确承担离苦的价值选择。修行是否解脱不能只看欲望减少或主观平静，还要检查反省能力、感受范围、退出权与长期后果。[[wiki/syntheses/Buddhist Practice Nihilism and Liberation|佛法修行、虚无与解脱]]进一步保留了般涅槃“没有实体被消灭，但相续停止”的真实张力。
 
 - Dream-RSI 与发现历史回放：旧树如何为调度代码提供可复用反馈，以及有限覆盖、上下文变化和同池过拟合如何限制迁移。
 
@@ -208,6 +212,8 @@ updated: 2026-10-03T16:01:27+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 佛法不是“万物无意义”的虚无主义，但也不能只用“空不等于无”消解质疑：现世解脱仍保留感受与行动；空性不能自动推出慈悲；早期佛教的般涅槃否认实有主体被消灭，却明确包含新的个人经验与轮回相续不再生起。^[inferred]
 
 - AI 直接产出成果后，解题成功与人的理解、方法迁移及共同体培养未必同步增长；评价需要重新检验代理指标，工作设计需要承接解释、整合和训练。参见 [[wiki/sources/Math and AI Misalignment Source Guide|数学与 AI 的目标错位]]，这些机制保留为风险分析。^[inferred]
 
