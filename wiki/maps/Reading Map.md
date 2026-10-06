@@ -14,7 +14,7 @@ base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-08-16T17:13:51+0800
+updated: 2026-10-06T13:18:48+0800
 aliases:
   - 读书地图
 tags:
@@ -53,6 +53,7 @@ tags:
 
 ## Syntheses
 
+- [[wiki/syntheses/Problem-Driven Reading Workbench|问题驱动的阅读工作台]] — 分离全部藏书、当前问题书架与正在阅读层，用容量和退出机制保护注意力。
 - [[wiki/syntheses/From Senior Engineer to Tech Leader]] — 把汉明的 Learning to Learn 转成高级工程师走向 Tech Leader 的系统、团队和方向三问。
 - [[wiki/syntheses/丝绸之路中的宗教组织力量]] — 把《丝绸之路》中的宗教读成贸易信任、帝国合法性、身份边界、冲突动员和文化混合的组织力量。
 - [[wiki/syntheses/Thinking and Judgment Workflow]]

@@ -13,7 +13,7 @@ created: 2026-04-26
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-06T19:18:40+08:00
+updated: 2026-10-06T13:18:48+0800
 aliases:
   - 学习方法论
   - 如何学习
@@ -53,6 +53,8 @@ provenance:
 先有一个自己卡着的问题。知识是被问题拽出来的工具。
 
 **动作**：每学一段东西，先写下"我为什么要学这个？我想回答什么问题？" 写不出来就先别学。
+
+电子书库可以用 [[wiki/syntheses/Problem-Driven Reading Workbench|问题驱动的阅读工作台]] 落实这条原则：完整藏书负责保存可能性，当前书架只容纳能推进少量当前问题的书。^[inferred]
 
 ### 2. just-in-time，不 just-in-case
 
