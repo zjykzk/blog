@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-10-06T10:17:38+08:00
+updated: 2026-10-06T15:29:40+0800
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -90,7 +90,7 @@ aliases:
 
 这一组模型最接近“拆机制”的操作模板。
 
-- [[wiki/concepts/Mechanism Model]]：用结果、变量、约束、激励、反馈和时间把混乱叙事压成结构句。
+- [[wiki/concepts/Mechanism Model]]：用结果、变量、约束、激励、反馈和时间把混乱叙事压成结构句，并检查缺少任一要素时会出现的解释盲区。
 - [[wiki/concepts/囚徒困境]]：说明在信息隔离、承诺缺失和背叛诱惑下，个体理性的局部最优如何共同生成集体次优。
 - [[wiki/concepts/Hard Constraint]]：行动必须先通过资源、时间、规律和他人能动性的现实校验。
 - [[wiki/sources/Three Constraints for Building Products Source Guide|构建产品前的三个约束]]：用一页纸、可分离核心能力和定义性约束压缩项目的认知、资产与设计搜索空间，并区分作者的复利主张与对产品设计收益的进一步推论。

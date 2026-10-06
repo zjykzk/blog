@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近建立问题驱动的阅读工作台：保留完整藏书，但只让能推进少量当前问题的书占据设备与注意力。
+summary: 最近补全机制模型的六要素职责、缺项盲区与亲子出游例子，把结构诊断从口诀推进到可操作解释。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-06T13:18:48+0800
+updated: 2026-10-06T15:29:40+0800
 ---
 
 ## Recent Activity
+
+- 2026-10-06T15:29:40+08:00 — 已更新 [[wiki/concepts/Mechanism Model|Mechanism Model]]：说明结果、变量、约束、激励、反馈和时间各自承担什么分析职责、缺少任一要素会形成什么盲区，并用亲子出游展示“短暂快乐”如何与“被动消费”区分。
 
 - 2026-10-06T13:18:48+08:00 — 已捕获 [[wiki/syntheses/Problem-Driven Reading Workbench|问题驱动的阅读工作台]]：分离全部藏书、当前问题书架和正在阅读三层；用问题有效期、地图/机制/反方角色、容量上限与退出条件，把 Kindle 从囤书仓库变成注意力受限的工作台。
 
@@ -216,6 +218,8 @@ updated: 2026-10-06T13:18:48+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 机制解释的六个要素按分析职责协作：结果钉住解释对象，变量提出干预候选，约束划定可行空间，激励解释选择，反馈解释重复，时间解释累积与反转；它们不是互斥的事物分类。^[inferred]
 
 - 动力不是行动前必须出现的单一燃料，而是价值在身体、环境、习性和关系约束中，经觉察与可进入行动转化为后果、再由反馈塑造下一次行动的循环；强烈感受不等于持久动力，行动本身也会生成动力。^[inferred]
 
