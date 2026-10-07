@@ -10,15 +10,16 @@ aliases:
   - Andrew Ng AI Engineering Skills Map
 sources:
   - https://x.com/AndrewYNg/article/2088302050706686198
+  - https://x.com/AndrewYNg/article/2090840747738374568
   - conversation:2026-10-06
 source_url: https://x.com/AndrewYNg/article/2088302050706686198
 created: 2026-10-06T16:39:47+0800
-updated: 2026-10-06T16:39:47+0800
+updated: 2026-10-06T23:40:38+0800
 summary: >-
-  Andrew Ng 将 AI 工程能力归纳为构建与部署 AI 应用、软件工程基础、使用 coding agents、塑造产品方向四层，并以持续学习维持整套能力。
+  Andrew Ng 将 AI 工程能力归纳为 AI 应用交付、软件工程基础、coding agents 与产品塑造；续文再把 AI 应用交付拆成基础、grounding、agent、eval 和生产闭环。
 provenance:
-  extracted: 0.70
-  inferred: 0.28
+  extracted: 0.72
+  inferred: 0.26
   ambiguous: 0.02
 base_confidence: 0.42
 lifecycle: draft
@@ -161,6 +162,24 @@ AI 应用面对概率性输出，质量控制不能只问某个固定输入是�
 
 模型、Agent 和工作流的快速变化缩短了具体技巧的有效期。持续试用、比较、验证并更新工作方式，不只是学习前的准备，而是维持整套工程能力的运行机制。^[inferred]
 
+## 第一层展开：构建与部署 AI 应用
+
+[[wiki/sources/Building and Deploying AI Applications Source Guide]] 把第一项顶层能力继续拆成六部分：LLM foundations、grounding models with data、building agentic systems、evaluation-driven development、operating in production 和 machine learning foundations。
+
+这六部分在图上并列，在运行结构中却承担不同职责：LLM/ML 基础解释组件边界，grounding 提供任务证据，agentic system 组织行动空间，production 暴露现实反馈，而 evaluation-driven development 根据 traces 与错误分析选择下一项干预。^[inferred]
+
+这也把“用可靠系统包住不可靠组件”具体化为一条自适应开发循环：^[inferred]
+
+```text
+理解模型与误差
+→ 提供正确数据
+→ 设计行动结构
+→ 观察真实行为
+→ eval 与错误分析
+→ 选择下一项修改
+→ 在生产中继续学习
+```
+
 ## 边界与开放问题
 
 - 文章没有给出数据集、访谈样本、分析方法和权重，无法判断四项技能是否真的覆盖最重要的全部能力。
@@ -182,3 +201,4 @@ AI 应用面对概率性输出，质量控制不能只问某个固定输入是�
 - [[wiki/sources/The Conductor Developer Source Guide]]
 - [[wiki/sources/AI Evals FAQ Source Guide]]
 - [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide]]
+- [[wiki/sources/Building and Deploying AI Applications Source Guide]]

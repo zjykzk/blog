@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-10-06T16:39:47+0800
+updated: 2026-10-06T23:40:38+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -330,6 +330,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 
 ## Sources
 - [[wiki/sources/AI Engineering Skills Map Source Guide|AI Engineering Skills Map Source Guide]] — Andrew Ng 将 AI 工程能力分为 AI 应用交付、软件工程判断、coding agent 使用和产品塑造四层，并以持续学习维持整套能力。 ( #article #agents #ai-coding #software-engineering #judgment)
+- [[wiki/sources/Building and Deploying AI Applications Source Guide|Building and Deploying AI Applications Source Guide]] — Andrew Ng 将 AI 应用交付拆成 LLM/ML 基础、grounding、agentic systems、eval 驱动开发和生产运营，重点是用反馈把不可靠组件组织成可靠系统。 ( #article #llm #agents #feedback #software-engineering)
 - [[wiki/sources/Math and AI Misalignment Source Guide|数学与 AI 的目标错位]] — 数学家联署宣言：区分解题成果、概念理解与共同体传承，分析成果与能力分离、吸收速度失配及评价激励风险。 ( #article #llm #learning #metrics #organization)
 
 - [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] — 固定模型下利用历史回放优化探索调度；保留 Lasso、数学和 GPU 结果、逐项反例及完整成本限制。 ( #paper #agents #harness #optimization #memory)

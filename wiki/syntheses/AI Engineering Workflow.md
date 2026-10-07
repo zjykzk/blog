@@ -20,16 +20,17 @@ sources:
   - inline:ai-coding-information-theory-cheer-2026-07-12
   - https://claude.com/blog/the-ai-native-sdlc-playbook
   - https://x.com/AndrewYNg/article/2088302050706686198
+  - https://x.com/AndrewYNg/article/2090840747738374568
 created: 2026-05-04
 base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.84
-  inferred: 0.15
+  extracted: 0.85
+  inferred: 0.14
   ambiguous: 0.01
-source_count: 15
-updated: 2026-10-06T16:39:47+0800
+source_count: 16
+updated: 2026-10-06T23:40:38+0800
 aliases:
   - AI 工作流
   - Agent workflow
@@ -206,6 +207,23 @@ This strengthens a recurring synthesis: AI engineering is not just faster genera
 
 这使 AI engineering 不等于 agent 操作技巧。Agent 只占执行层；如果缺少上游方向判断，系统会更快地做错事；如果缺少下游验证与治理，系统会更快地产生无法信任的结果。^[inferred]
 
+## 8. Let evaluation choose the next intervention
+
+[[wiki/sources/Building and Deploying AI Applications Source Guide]] 进一步说明，AI 输出的不确定性会改变开发过程本身：工程师很难在开始时规划全部实现步骤，只能反复构建、观察 traces 和输出、分析失败，再决定下一项最值得尝试的修改。
+
+这使 [[wiki/concepts/Evaluation|evaluation]] 从交付末端的验收动作变成开发过程的控制环：^[inferred]
+
+```text
+模型 / 数据 / workflow 假设
+→ 构建一部分系统
+→ 观察 traces 与生产行为
+→ eval + error analysis
+→ 选择模型、grounding、工具或架构干预
+→ 再构建并比较
+```
+
+LLM/ML foundations、grounding、agentic architecture 和 production operations 提供不同的干预面；eval/error analysis 决定当前应该进入哪个干预面。系统性进步因此不是“不断试更多技巧”，而是用证据减少下一步选择的随机性。^[inferred]
+
 ## Why this synthesis matters
 
 如果没有这条综合链路，AI 工程容易只剩下局部技巧：
@@ -262,6 +280,7 @@ This strengthens a recurring synthesis: AI engineering is not just faster genera
 - [[wiki/sources/AI Coding 信息论框架 Source Guide]]
 - [[wiki/sources/The AI-Native SDLC Playbook Source Guide]]
 - [[wiki/sources/AI Engineering Skills Map Source Guide]]
+- [[wiki/sources/Building and Deploying AI Applications Source Guide]]
 
 ## Navigation
 

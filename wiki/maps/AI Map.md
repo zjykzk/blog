@@ -12,6 +12,7 @@ sources:
   - https://arxiv.org/abs/2605.23023
   - https://www.langchain.com/blog/the-art-of-loop-engineering
   - https://x.com/AndrewYNg/article/2088302050706686198
+  - https://x.com/AndrewYNg/article/2090840747738374568
   - https://arxiv.org/pdf/2601.01743
   - https://cdn.openai.com/pdf/8a9f00cf-d379-4e20-b06f-dd7ba5196a11/OAI_WhitePaper_Codex-maxxing26.pdf
   - https://arxiv.org/pdf/2606.21894
@@ -25,8 +26,8 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 12
-updated: 2026-10-06T16:39:47+0800
+source_count: 13
+updated: 2026-10-06T23:40:38+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -221,6 +222,7 @@ tags:
 - [[wiki/sources/The Bitter Lesson Source Guide]] — Rich Sutton 1997/2019 经典短文：能随算力扩展的通用方法（search、learning）长期压过内置的人类知识。
 - [[wiki/sources/The Art of Loop Engineering Source Guide]] — LangChain 文章：agent 生产力价值来自多层循环叠加，而不只是模型能力。
 - [[wiki/sources/AI Engineering Skills Map Source Guide]] — Andrew Ng 的四项 AI 工程能力：AI 应用交付、软件工程基础、coding agent 使用与 shaping the build；持续学习负责更新整套能力。
+- [[wiki/sources/Building and Deploying AI Applications Source Guide]] — 细化 AI 应用交付的六项能力，并把 eval/error analysis 作为模型、数据、agent 架构与生产运营之间的开发控制环。
 - [[wiki/sources/The AI-Native SDLC Playbook Source Guide]] — Anthropic 的企业实施 playbook：用版本化工件、门禁触发和生产反馈回流，把 Plan、Design、Build、Test、Deploy、Maintain 从线性 handoff 改造成受治理的闭环。
 - [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide]] — 中文长文与 Excalidraw 图：把 AI 软件工程的瓶颈从生成转向判定，并用标准、证据、执行与治理构成机器可运行的判定闭环。
 - [[wiki/sources/Structured-Prompt-Driven Development Source Guide]]

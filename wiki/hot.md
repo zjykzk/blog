@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近补入 AI 工程责任栈：产品塑造决定方向，软件工程承担取舍，coding agent 放大执行，eval 与治理控制不确定性。
+summary: 最近展开 AI 应用交付：LLM/ML 基础、grounding、agentic systems 与生产运营提供干预面，eval/error analysis 决定下一步。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-06T16:39:47+0800
+updated: 2026-10-06T23:40:38+0800
 ---
 
 ## Recent Activity
+
+- 2026-10-06T23:40:38+08:00 — 已捕获 [[wiki/sources/Building and Deploying AI Applications Source Guide|构建与部署 AI 应用技能地图]]：把六项能力重组为“理解模型—提供证据—组织行动—评估选择—生产反馈”闭环，并更新顶层技能地图、AI 工程工作流及 AI/CS 地图。
 
 - 2026-10-06T16:39:47+08:00 — 已捕获 [[wiki/sources/AI Engineering Skills Map Source Guide|AI Engineering Skills Map]]：保留 Andrew Ng 的四项 AI 工程能力，并将其重组为“产品方向—工程判断—Agent 执行—评估治理”的责任栈；同步更新 [[wiki/concepts/Agentic Engineering]]、[[wiki/syntheses/AI Engineering Workflow]] 及 AI/CS 地图。
 
@@ -67,6 +69,8 @@ updated: 2026-10-06T16:39:47+0800
 - AI 软件工程现在加入“判定外化”线索：[[wiki/concepts/Verification Gap|验证鸿沟]] 不能靠人逐件审核来解决。组织要把专家判断改写成规则、样本、评测、执行器和治理记录，让确定性程序与 LLM judge 处理大多数结果，只把冲突、新场景和高风险例外送回人；人的裁决再沉淀为下一轮规则与样本。
 
 - AI 工程现在形成“方向—判断—执行—验证”责任栈：[[wiki/sources/AI Engineering Skills Map Source Guide|Andrew Ng 的技能地图]]把 shaping the build、软件工程基础、coding agent 使用、AI 应用构建与部署连接起来。Agent 只放大执行；上游仍需定义问题与规格，下游仍需用 eval、错误分析和治理控制概率性行为。^[inferred]
+
+- AI 应用交付现在加入“自适应开发”线索：[[wiki/sources/Building and Deploying AI Applications Source Guide|构建与部署 AI 应用]]把 LLM/ML 基础、grounding、agentic architecture、eval 和生产运营串成循环。前四者提供可修改的系统表面，生产提供现实信号，eval/error analysis 根据证据选择下一项干预。^[inferred]
 
 - 认知结构现在补入 [[wiki/syntheses/Cognition Functional Framework|功能框架的证据边界]]：能力分类、加工过程、生物实现与意识理论需要分开；目标、经验和情绪会反向影响加工，反馈更新也可能强化偏差。
 
@@ -222,6 +226,8 @@ updated: 2026-10-06T16:39:47+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- AI 应用的可靠性不是要求模型永远正确，而是让 grounding、工具边界、harness、fallback、eval 和生产监控共同发现错误、限制影响并更新下一轮开发；eval 的关键产出不是分数，而是更值得做的下一步。^[inferred]
 
 - AI 工程不是“会用 coding agent”的同义词。完整责任链是：选择值得解决的问题，用软件工程知识表达约束和取舍，让 Agent 放大执行，再用 eval、错误分析和治理把不确定输出收进可持续反馈闭环。^[inferred]
 
