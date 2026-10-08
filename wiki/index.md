@@ -156,6 +156,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Nature of a Question|Nature of a Question]] — 问题产生于现实、认知模型与行动之间的裂口：主体能够设想多种可能，却发现当前现实不足以可靠决定下一步。 (#thinking #cognition #judgment #reasoning)
 - [[wiki/concepts/Logic Tree and Pyramid Principle|Logic Tree and Pyramid Principle]] — 逻辑树向下拆问题以发现答案，金字塔原理向上收结论以交付答案；二者共享父子层级、同层分组和上下统摄结构。 (#thinking #reasoning #workflow)
 - [[wiki/concepts/五大思维三层架构|五大思维三层架构]] — 五大思维三层架构把结构化思维视为操作界面，系统/逻辑提供方向和规则，创造/批判提供突破和检验。 (#thinking #reasoning #problem-solving #mechanism)
+- [[wiki/concepts/Methodology|方法论]] — 方法论不是一类问题的固定解法，而是定义问题、选择与组合方法、检验结果并根据反馈修正解法的上层框架。 ( #thinking #problem-solving #methodology #feedback)
 - [[wiki/concepts/问题解决铁三角|问题解决铁三角]] — 问题解决铁三角把思维模式、方法论与具体问题看作共同进化系统，而不是工具套用流程。 (#thinking #problem-solving #methodology #mechanism)
 - [[wiki/concepts/方法论双循环|方法论双循环]] — 方法论双循环把方法论分为解决问题的结构线和升级工具的框架线，使交付与能力成长同时发生。 (#methodology #problem-solving #feedback #thinking #mechanism)
 - [[wiki/concepts/思维模式与思维框架|思维模式与思维框架]] — 思维模式是默认认知倾向，思维框架是可切换的分析结构；前者决定怎么看，后者帮助怎么拆。 (#thinking #cognition #methodology #problem-solving)

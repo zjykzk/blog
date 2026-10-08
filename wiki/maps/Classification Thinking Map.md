@@ -13,7 +13,7 @@ created: 2026-04-27
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-09-09T21:39:46+0800
+updated: 2026-10-06T16:06:02+0800
 aliases:
   - 分类思维地图
   - 分类地图
@@ -58,6 +58,8 @@ provenance:
 如果要把总评拆成可检查的判断责任链，进入 [[wiki/concepts/Evidence Question Decomposition]]：它把“好不好 / 对不对 / 靠不靠谱”拆成维度、原子问题、证据锚点、是非答案、错因类型和修复动作。
 
 如果要看结构化思维如何和系统、逻辑、创造性、批判性思维协作，进入 [[wiki/concepts/五大思维三层架构]]：它把结构化思维定义为操作界面，系统/逻辑提供方向与规则，创造/批判提供突破与检验。
+
+如果要先弄清“方法论”这个上位概念，进入 [[wiki/concepts/Methodology|方法论]]：它不是一类问题的固定解法，而是定义问题、选择方法、检验结果并根据反馈更新解法的规则。
 
 如果要看真实问题如何反向训练思维与方法，进入 [[wiki/concepts/问题解决铁三角]] 和 [[wiki/concepts/方法论双循环]]：前者把思维模式、方法论和具体问题放进共同进化系统，后者把问题解决拆成“结构线”和“框架线”。
 
@@ -115,6 +117,7 @@ provenance:
 - 逻辑树与金字塔原理：共享层级结构，但前者服务于问题探索，后者服务于结论交付 ^[inferred]
 - 证据问题分解：把总评拆成能问、能答、能追责的检查点 ^[inferred]
 - 五大思维三层架构：把分类、分层、关联和验证动作放入系统、逻辑、创造、批判协同循环 ^[inferred]
+- 方法论：规定怎样从一类问题生成、检验和更新具体解法，而不是把既有步骤当成固定答案 ^[inferred]
 - 问题解决铁三角：让分类和结构化分析进入真实问题、方法论复盘和思维能力锤炼的共同进化闭环 ^[inferred]
 - 思维模式与思维框架：区分默认认知倾向和可切换分析结构，避免把底层习惯与工具模板混为一谈 ^[inferred]
 
@@ -138,6 +141,7 @@ provenance:
 - [[wiki/sources/四层次原因分析法 Source Guide]]
 - [[wiki/concepts/Evidence Question Decomposition]]
 - [[wiki/concepts/五大思维三层架构]]
+- [[wiki/concepts/Methodology|方法论]]
 - [[wiki/concepts/问题解决铁三角]]
 - [[wiki/concepts/方法论双循环]]
 - [[wiki/concepts/思维模式与思维框架]]

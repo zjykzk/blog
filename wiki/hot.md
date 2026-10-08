@@ -17,6 +17,8 @@ updated: 2026-10-06T23:40:38+0800
 
 - 2026-10-06T16:39:47+08:00 — 已捕获 [[wiki/sources/AI Engineering Skills Map Source Guide|AI Engineering Skills Map]]：保留 Andrew Ng 的四项 AI 工程能力，并将其重组为“产品方向—工程判断—Agent 执行—评估治理”的责任栈；同步更新 [[wiki/concepts/Agentic Engineering]]、[[wiki/syntheses/AI Engineering Workflow]] 及 AI/CS 地图。
 
+- 2026-10-06T16:06:02+08:00 — 已捕获 [[wiki/concepts/Methodology|方法论]]：区分方法、流程、理论与方法论，把方法论定义为一类问题的解法生成与校验框架，并用问题定义、证据、方法选择、结果检验和反馈修正说明其运作边界。
+
 - 2026-10-06T15:29:40+08:00 — 已更新 [[wiki/concepts/Mechanism Model|Mechanism Model]]：说明结果、变量、约束、激励、反馈和时间各自承担什么分析职责、缺少任一要素会形成什么盲区，并用亲子出游展示“短暂快乐”如何与“被动消费”区分。
 
 - 2026-10-06T13:18:48+08:00 — 已捕获 [[wiki/syntheses/Problem-Driven Reading Workbench|问题驱动的阅读工作台]]：分离全部藏书、当前问题书架和正在阅读三层；用问题有效期、地图/机制/反方角色、容量上限与退出条件，把 Kindle 从囤书仓库变成注意力受限的工作台。
@@ -230,6 +232,8 @@ updated: 2026-10-06T23:40:38+0800
 - AI 应用的可靠性不是要求模型永远正确，而是让 grounding、工具边界、harness、fallback、eval 和生产监控共同发现错误、限制影响并更新下一轮开发；eval 的关键产出不是分数，而是更值得做的下一步。^[inferred]
 
 - AI 工程不是“会用 coding agent”的同义词。完整责任链是：选择值得解决的问题，用软件工程知识表达约束和取舍，让 Agent 放大执行，再用 eval、错误分析和治理把不确定输出收进可持续反馈闭环。^[inferred]
+
+- 方法论不是一类问题的固定解法，而是规定怎样定义问题、选择方法、接受证据、判断结果并根据反馈更新解法的上层框架；只有步骤而没有理由、边界与修正机制的做法，更接近流程或模板。^[inferred]
 
 - 机制解释的六个要素按分析职责协作：结果钉住解释对象，变量提出干预候选，约束划定可行空间，激励解释选择，反馈解释重复，时间解释累积与反转；它们不是互斥的事物分类。^[inferred]
 
