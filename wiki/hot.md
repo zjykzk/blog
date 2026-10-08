@@ -27,6 +27,8 @@ updated: 2026-10-06T23:40:38+0800
 
 - 2026-10-05T23:53:05+08:00 — 已捕获 [[wiki/syntheses/Buddhist Practice Nihilism and Liberation|佛法修行、虚无与解脱]]：区分现世解脱、慈悲的独立价值前提、佛教式自由的人格塑造，以及般涅槃的相续终止；同步修正 [[wiki/concepts/佛家觉悟结构]] 中“正见自然推出慈悲”的过强表达，并接入机制模型地图。
 
+- 2026-10-05T16:18:21+08:00 — 已捕获 [[wiki/sources/AI Evals FAQ Source Guide|AI Evals FAQ]]：从真实 traces 做错误分析，把领域专家判断写成单一、可行动的检查，用人工标签验证 Judge，再把生产中新发现的失败回流进 CI；为 [[wiki/concepts/Evaluation|评价]] 补入尺度与测试集随产品演化的自适应循环，并接入 AI 与读书地图。
+
 - 2026-10-03T16:01:27+08:00 — 已捕获 [[wiki/sources/Math and AI Misalignment Source Guide|数学与 AI 的目标错位]]：保留核心问题、概念结构、推理流程与变化机制；为 [[wiki/concepts/Understanding|理解]] 和 [[wiki/concepts/Evaluation|评价]] 补入答案与能力形成的分离及代理指标有效性，并接入 AI、学习地图。
 
 - 2026-10-01T01:10:38+0800 — 已捕获 [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] 与 [[wiki/concepts/Discovery Replay Simulator|Discovery Replay Simulator]]：把真实搜索树变为逐步揭示结果的策略试验环境；区分历史内选优、线上新发现和端到端成本，并接入自进化 Agents、AI 与 CS 地图。标签沿用现有 taxonomy。

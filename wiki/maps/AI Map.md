@@ -11,6 +11,7 @@ sources:
   - https://arxiv.org/abs/2605.07358v1
   - https://arxiv.org/abs/2605.23023
   - https://www.langchain.com/blog/the-art-of-loop-engineering
+  - https://hamel.dev/blog/posts/evals-faq/
   - https://x.com/AndrewYNg/article/2088302050706686198
   - https://x.com/AndrewYNg/article/2090840747738374568
   - https://arxiv.org/pdf/2601.01743
@@ -26,7 +27,7 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 13
+source_count: 14
 updated: 2026-10-06T23:40:38+0800
 aliases:
   - 项目/AI
@@ -221,6 +222,7 @@ tags:
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 - [[wiki/sources/The Bitter Lesson Source Guide]] — Rich Sutton 1997/2019 经典短文：能随算力扩展的通用方法（search、learning）长期压过内置的人类知识。
 - [[wiki/sources/The Art of Loop Engineering Source Guide]] — LangChain 文章：agent 生产力价值来自多层循环叠加，而不只是模型能力。
+- [[wiki/sources/AI Evals FAQ Source Guide]] — 从真实 traces 生成 failure taxonomy、rubric 和可信 evaluator，再把生产失败回流为回归检查与产品改进。
 - [[wiki/sources/AI Engineering Skills Map Source Guide]] — Andrew Ng 的四项 AI 工程能力：AI 应用交付、软件工程基础、coding agent 使用与 shaping the build；持续学习负责更新整套能力。
 - [[wiki/sources/Building and Deploying AI Applications Source Guide]] — 细化 AI 应用交付的六项能力，并把 eval/error analysis 作为模型、数据、agent 架构与生产运营之间的开发控制环。
 - [[wiki/sources/The AI-Native SDLC Playbook Source Guide]] — Anthropic 的企业实施 playbook：用版本化工件、门禁触发和生产反馈回流，把 Plan、Design、Build、Test、Deploy、Maintain 从线性 handoff 改造成受治理的闭环。

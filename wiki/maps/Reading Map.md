@@ -62,6 +62,7 @@ tags:
 
 ## Current source guides
 
+- [[wiki/sources/AI Evals FAQ Source Guide|AI Evals FAQ]] — 产品评估不是一组静态分数，而是从真实失败中生成标准、验证评估器并持续改写产品的反馈过程。
 - [[wiki/sources/The Art of Doing Science and Engineering Source Guide]] — 《科学与工程的艺术》：技术细节会过时，长期能力是选择重要问题、学习基础结构并修正思维风格。
 - [[wiki/sources/Iceberg Model Source Guide]]
 - [[wiki/sources/Modern Software Engineering Notes]]

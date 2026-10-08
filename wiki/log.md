@@ -410,6 +410,9 @@ tags:
 
 - [2026-10-03T16:01:27+08:00] CAPTURE type=source page="wiki/sources/Math and AI Misalignment Source Guide.md" title="Math and AI Misalignment Source Guide" pages_updated="wiki/concepts/Evaluation.md;wiki/concepts/Understanding.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
 
+- [2026-10-05T16:18:21+0800] CAPTURE type=source page="wiki/sources/AI Evals FAQ Source Guide.md" title="AI Evals FAQ Source Guide" pages_updated="wiki/concepts/Evaluation.md;wiki/maps/AI Map.md;wiki/maps/Reading Map.md;wiki/index.md;wiki/hot.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
+- [2026-10-05T16:18:21+0800] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=2
+
 - [2026-10-05T23:53:05+0800] CAPTURE type=synthesis page="wiki/syntheses/Buddhist Practice Nihilism and Liberation.md" title="佛法修行、虚无与解脱" pages_updated="wiki/concepts/佛家觉悟结构.md;wiki/maps/Mechanism Models Map.md;wiki/index.md;wiki/hot.md" source="/Users/zenk/Context/20261005T234939--圆桌-佛法修行终点与虚无__roundtable.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
 - [2026-10-06T10:17:38+0800] UPDATE type=synthesis page="wiki/syntheses/成就感驱动与行动动力结构.md" title="成就感驱动与行动动力结构" pages_updated="wiki/maps/Learning Map.md;wiki/maps/Mechanism Models Map.md;wiki/index.md;wiki/hot.md" source="/Users/zenk/Context/20261005T163937--圆桌-人的动力__roundtable.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
 - [2026-10-06T13:18:48+0800] CAPTURE type=synthesis page="wiki/syntheses/Problem-Driven Reading Workbench.md" title="问题驱动的阅读工作台" pages_updated="wiki/topics/Learning Methodology.md;wiki/topics/World Knowledge Reading Roadmap.md;wiki/maps/Reading Map.md;wiki/index.md;wiki/hot.md" qmd="skipped: QMD_WIKI_COLLECTION unset"

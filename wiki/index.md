@@ -330,6 +330,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
+- [[wiki/sources/AI Evals FAQ Source Guide|AI Evals FAQ Source Guide]] — 从真实 traces 发现产品失败，把专家判断变成可验证的单项检查，再连接 CI、生产监控与持续改进；同时解释 criteria drift 与动态测试集。 ( #article #llm #feedback #metrics #testing)
 - [[wiki/sources/AI Engineering Skills Map Source Guide|AI Engineering Skills Map Source Guide]] — Andrew Ng 将 AI 工程能力分为 AI 应用交付、软件工程判断、coding agent 使用和产品塑造四层，并以持续学习维持整套能力。 ( #article #agents #ai-coding #software-engineering #judgment)
 - [[wiki/sources/Building and Deploying AI Applications Source Guide|Building and Deploying AI Applications Source Guide]] — Andrew Ng 将 AI 应用交付拆成 LLM/ML 基础、grounding、agentic systems、eval 驱动开发和生产运营，重点是用反馈把不可靠组件组织成可靠系统。 ( #article #llm #agents #feedback #software-engineering)
 - [[wiki/sources/Math and AI Misalignment Source Guide|数学与 AI 的目标错位]] — 数学家联署宣言：区分解题成果、概念理解与共同体传承，分析成果与能力分离、吸收速度失配及评价激励风险。 ( #article #llm #learning #metrics #organization)

@@ -11,15 +11,16 @@ tags:
 sources:
   - /Users/zenk/Documents/notes/20260506T204024--概念解剖-评价__concept.org
   - https://mathandai.org/multilingual.php?lang=zh
+  - https://hamel.dev/blog/posts/evals-faq/
 provenance:
-  extracted: 0.72
-  inferred: 0.28
+  extracted: 0.74
+  inferred: 0.26
   ambiguous: 0.00
-base_confidence: 0.37
+base_confidence: 0.73
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 created: 2026-05-06T20:58:15+08:00
-updated: 2026-10-03T16:01:27+08:00
+updated: 2026-10-05T16:18:21+0800
 aliases:
   - 评价
   - assessment
@@ -74,12 +75,21 @@ This matters because a precise score can still be a weak evaluation if it measur
 
 评价既观察活动，也通过奖励和资源配置改变活动。若持续奖励易计数的产出，却不承认解释、整合和培养的贡献，就可能使指标提升与长期目标发生偏离；这条机制需要结合具体情境和证据判断。^[inferred]
 
+## AI Product Evaluation as an Adaptive Loop
+
+[[wiki/sources/AI Evals FAQ Source Guide|AI Evals FAQ]] 把产品评估放进一条由真实失败驱动的循环：审阅 traces，归纳 failure taxonomy，把领域专家的判断写成 rubric，再选择代码断言、人工审阅或经人工标签验证的分类器执行检查。生产中新发现的失败进入回归集，评估结果则指导 prompt、retrieval、tool、应用代码或产品流程的下一轮修改。
+
+这条循环说明，评价尺度不是天然固定的。团队会在看到新输出后补充要求，产品与用户也会持续变化；因此 eval set 与 rubric 必须演化，历史分数只有在测试对象、案例难度和尺度保持可比时才适合直接比较。^[inferred]
+
+好的 product eval 应检查单一、具体、可行动的失败。综合分数可以用于总览，但必须保留各项明细，才能知道究竟是哪种用户问题改善或恶化。
+
 ## Source Compression
 
 The concept-anatomy source compresses evaluation into one sentence: evaluation is not saying whether something is good or bad, but making it appear in a particular value-form through a particular scale.
 
 ## Related
 
+- [[wiki/sources/AI Evals FAQ Source Guide]]
 - [[wiki/sources/Math and AI Misalignment Source Guide]]
 - [[wiki/sources/Evaluation Concept Anatomy Source Guide]]
 - [[wiki/topics/Critical Thinking]]
