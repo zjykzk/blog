@@ -1,9 +1,9 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 73,
-    "total_pages": 436,
-    "last_updated": "2026-09-12T00:00:00+0800"
+    "total_sources_ingested": 74,
+    "total_pages": 522,
+    "last_updated": "2026-10-11T23:28:02+08:00"
   },
   "sources": {
     "chatgpt-share:6a8bbaa9-dbb0-83ee-ad09-a81c039ed1a2": {
@@ -1600,6 +1600,34 @@
         "wiki/hot.md",
         "wiki/log.md",
         "wiki/maps/AI Map.md"
+      ]
+    },
+    "https://martinfowler.com/articles/healthy-peer-feedback.html": {
+      "ingested_at": "2026-10-11T23:28:02+08:00",
+      "source_url": "https://martinfowler.com/articles/healthy-peer-feedback.html",
+      "source_id": "martinfowler.com/anuja-karnik-sumeet-gayathri-moghe",
+      "source_type": "url",
+      "stub": false,
+      "project": null,
+      "placement": "sources",
+      "source_page": "wiki/sources/Healthy Peer Feedback Source Guide.md",
+      "extraction_method": "defuddle",
+      "hash_basis": "defuddle_markdown_utf8",
+      "size_bytes": 29887,
+      "modified_at": null,
+      "published_at": "2026-09-24",
+      "content_hash": "sha256:394981c7d0989e807bfd04b30823ebcaa409b7e8ec60ac8cacdd9a953ab0e4c4",
+      "pages_created": [
+        "wiki/sources/Healthy Peer Feedback Source Guide.md",
+        "wiki/topics/Peer Feedback.md",
+        "wiki/concepts/Context-Situation-Behaviour-Impact.md",
+        "wiki/concepts/Feedback Impact Levels.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/Technical Management.md",
+        "wiki/concepts/Feedback Loops.md",
+        "wiki/sources/高难度沟通 Source Guide.md",
+        "wiki/maps/Management Map.md"
       ]
     }
   },

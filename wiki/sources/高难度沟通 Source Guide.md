@@ -8,13 +8,13 @@ tags: [book, management, organization, judgment, thinking]
 sources:
   - mobu/读书/高难度沟通.md
 created: 2026-05-30T18:30:04+0800
-updated: 2026-05-30T18:30:04+0800
+updated: 2026-10-11T23:28:02+08:00
 summary: >-
   这页保存《高难度沟通》读书笔记：用真实目标、情绪管理、情感需求和双向推进，把冲突、争取和推进场景转成可行动对话。
 provenance:
-  extracted: 0.88
-  inferred: 0.12
-  ambiguous: 0.00
+  extracted: 0.86
+  inferred: 0.14
+  ambiguous: 0.0
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: 2026-05-30
@@ -244,6 +244,12 @@ aliases:
 - “需求四象限”和“球形影响链”是否需要单独补图或例子，才能在实际沟通前快速使用？
 - 技术管理场景中，如何区分对方的业务需求、情感需求和权力/角色需求？
 - 当对话对象没有合作意愿时，哪些步骤仍然有效，哪些需要升级为边界或决策问题？
+
+## 同伴反馈的交叉参照
+
+[[wiki/sources/Healthy Peer Feedback Source Guide]] 为本页“真实目标—情绪管理—双向推进”补入日常团队反馈的对照实践。[[wiki/concepts/Context-Situation-Behaviour-Impact|CSBI]] 先问情境，再区分行为与给予者感知的影响；[[wiki/concepts/Feedback Impact Levels]] 则让对话从单次内容推进到重复模式与合作关系。两者可以被理解为中性开场、积极聆听与归责推进的具体工作场景。^[inferred]
+
+[[wiki/topics/Peer Feedback]] 还区分个人偏好和团队规范：非强制建议可以被反思后不采纳，共同规范反复未落实并损害合作时可能需要正式管理介入。这为“尊重自主权”和“坚定推进”同时存在提供了更具体的边界。^[inferred]
 
 ## Related
 

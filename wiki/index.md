@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-10-11T20:40:28+08:00
+updated: 2026-10-11T23:28:02+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -41,6 +41,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/maps/Software Design Map|Software Design Map]] — 这页把软件设计中的核心概念按层次放在一张图里。关键区分是： (#software-design #architecture #map)
 
 ## Topics
+- [[wiki/topics/Peer Feedback|Peer Feedback]] — 同伴反馈在真实协作中交换观察与影响，结合 CSBI、影响层级和接收闭环持续培养团队。 ( #management #organization #feedback)
 - [[wiki/topics/如何阅读康德|如何阅读康德]] — 一套把康德当“论证机器”而非“观点书”来读的可操作路径：抓住“先天综合判断如何可能”这根总问题，先读导论再攻原著，顺论证不顺结论。 (#reading #philosophy #epistemology #method)
 - [[wiki/topics/Dimensional Modeling]] — Dimensional modeling organizes analytic data around business processes, declared grain, dimensions, and facts so BI queries stay understandable and performant. (#database #data-warehouse #modeling)
 - [[wiki/topics/AI Harness|AI Harness]] — AI Harness is the runtime order layer and cybernetic steering system that connects model, context, tools, permissions, state, recovery, cache stability, and feedback loops. (#agents #harness #runtime)
@@ -76,7 +77,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/Software Development Thought Lineage|Software Development Thought Lineage]] — 这页关心的核心问题，不是某一条具体方法怎么落地，也不是现代软件工程的总定义，而是：不同软件开发思想是如何在历史上一个接一个出现、彼此修正，并逐步形成今天这组主流方法栈的。 (#software-engineering #methodology #history #development)
 - [[wiki/topics/Software Methodology|Software Methodology]] — 这里的'软件方法'，特指潘加宇《软件方法》所代表的那条建模与分析主线：不是先列功能，而是先锁定组织改进，再逐步收缩到系统边界，最后把责任落实到对象与代码。
 - [[wiki/topics/Spec-Driven Development|Spec-Driven Development]] — Spec-Driven Development treats specs as contracts that guide implementation, validation, and AI coding work before code becomes the default truth. (#software-engineering #specs #ai-coding #process)
-- [[wiki/topics/Technical Management|Technical Management]] — 这页聚合的是技术管理里比较稳定、可反复使用的判断，而不是具体某次团队事件。 (#management #leadership #engineering)
+- [[wiki/topics/Technical Management|Technical Management]] — 技术管理从个人执行转向团队目标、梯队与授权；日常同伴反馈让团队成长与合作问题及时进入闭环。 ( #management #leadership #engineering)
 - [[wiki/topics/Testing Purpose|Testing Purpose]] — 测试的直接目的，不是追求某个表面指标，而是增加对代码正确性的信心。 (#testing #quality #software-engineering)
 - [[wiki/topics/Testing Strategy|Testing Strategy]] — Testing Strategy combines test layering, test purpose, and AI-era quality gates to increase confidence in software changes. (#testing #quality #software-engineering)
 - [[wiki/topics/Theory of Everything Popular Science|Theory of Everything Popular Science]] — 万物理论（大统一/量子引力）方向的科普高分书单与阅读路线：从罗韦利、格林入门，读透弦论与圈量子引力两条路线，再补上批判与大师原声。 (#physics #reading #books)
@@ -91,6 +92,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Context-Situation-Behaviour-Impact|Context-Situation-Behaviour-Impact]] — CSBI 先理解情境，再用具体场景、行为与感知影响组织反馈对话。 ( #management #organization #feedback)
+- [[wiki/concepts/Feedback Impact Levels|Feedback Impact Levels]] — 反馈按累积影响区分内容、模式与关系，避免对反复问题机械重复同一句建议。 ( #management #organization #feedback)
 - [[wiki/concepts/Propositional and Predicate Logic|命题逻辑与谓词逻辑]] — 命题逻辑分析整句之间的真假连接，谓词逻辑还表示对象、性质、关系与量词；区分亚里士多德词项逻辑、斯多葛命题逻辑与弗雷格现代量化逻辑。 (#reasoning #thinking #formal-language #history)
 - [[wiki/concepts/Unembedding and Weight Tying|Unembedding and Weight Tying]] — Unembedding linearly projects a hidden state into one logit per vocabulary item; weight tying reuses input-embedding parameters for this output projection in some architectures. (#llm #inference #probability)
 - [[wiki/concepts/Transformer Feed-Forward Network|Transformer Feed-Forward Network]] — A Transformer FFN applies a learned nonlinear feature transformation independently at each token position, then writes the resulting update back to the residual stream. (#llm #inference #mechanism)
@@ -348,6 +351,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
+- [[wiki/sources/Healthy Peer Feedback Source Guide|Healthy Peer Feedback Source Guide]] — Anuja Karnik 与 Sumeet Gayathri Moghe 的健康反馈指南：中文结构导读、完整英文正文及方法边界。 ( #article #management #organization #feedback)
 - [[wiki/sources/人生的问题循环|人生的问题循环]] — 本地原始草稿用需要、欲望、约束、行动与后果解释人生问题如何反复形成，并连接已经展开的概念页。 (#cognition #thinking #mechanism)
 - [[wiki/sources/Anti-Patterns in Software Blogging Source Guide|软件博客反模式]] — Michael Lynch 用六类反模式说明技术文章应尽快承诺价值、控制知识依赖、保持页内自足，并把语言与网页呈现纳入读者体验。 ( #article #software-engineering #cognition #frontend)
 - [[wiki/sources/AI Engineering Skills Map Source Guide|AI Engineering Skills Map Source Guide]] — Andrew Ng 将 AI 工程能力分为 AI 应用交付、软件工程判断、coding agent 使用和产品塑造四层，并以持续学习维持整套能力。 ( #article #agents #ai-coding #software-engineering #judgment)

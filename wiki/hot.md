@@ -1,88 +1,27 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近建立规则裁决 Agent 评测方法：把合规判断拆成裁决链，并用混淆矩阵区分漏报、误伤与过度裁决。
+summary: 最近收录健康同伴反馈：先理解情境，再讨论具体行为与影响，用内容—模式—关系层级和接收闭环维护日常团队反馈。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-11T20:40:28+08:00
+updated: 2026-10-11T23:28:02+08:00
 ---
 
 ## Recent Activity
+
+- 2026-10-11T23:28:02+08:00 — 已收录 [[wiki/sources/Healthy Peer Feedback Source Guide|健康同伴反馈]]：保留完整英文正文，建立 [[wiki/topics/Peer Feedback|同伴反馈]]、[[wiki/concepts/Context-Situation-Behaviour-Impact|CSBI]] 与 [[wiki/concepts/Feedback Impact Levels|反馈影响层级]]；补入技术管理、反馈回路及高难度沟通。核心变化是从评审时收集评语转向日常情境理解、具体影响和接收后的闭环。
 
 - 2026-10-11T20:40:28+08:00 — 已捕获 [[wiki/concepts/Propositional and Predicate Logic|命题逻辑与谓词逻辑]]：以苏格拉底例子说明整句连接与对象、谓词、量词的区别，并澄清亚里士多德三段论、斯多葛命题逻辑和弗雷格现代量化逻辑的历史关系。
 
 - 2026-10-10T19:36:48+08:00 — 已捕获 [[wiki/sources/Agent Benchmark Landscape Research Report Source Guide|Agent 评测集研究报告]]、[[wiki/topics/Rule Adjudication Agent Evaluation|规则裁决 Agent 评测]] 与 [[wiki/concepts/Confusion Matrix|混淆矩阵]]：从 42 来源 benchmark 地图收敛到规则适用性—事实—构成要件—例外—证据充分性的可审计裁决链，并用五类终局结论揭示漏报、误伤、错误拒判与过度裁决。
 
-- 2026-10-10T14:37:15+08:00 — 已捕获 [[wiki/sources/The Physicists Philosophy of Physics Source Guide|物理学家的物理学哲学]]：Peebles 用四个可修正假设说明物理理论怎样获得可信度，并把变化机制重构为“社会性候选搜索—风险预测—跨方法经验收敛—旧理论近似继承—异常再开放”；同时为 [[wiki/concepts/Universality of Physical Law|物理定律普适性]]补入现实性信心的证据结构，接入机制模型与读书地图。
-
-- 2026-10-08T23:17:28+08:00 — 已捕获 [[wiki/sources/Anti-Patterns in Software Blogging Source Guide|软件博客反模式]]：保留 Michael Lynch 的六类失败模式，并将它们综合为“价值承诺—知识依赖—阅读摩擦”的读者负担结构；同时为 [[wiki/concepts/Logic Tree and Pyramid Principle|逻辑树与金字塔原理]]补入信息顺序之外的技术写作成本。
-
-- 2026-10-06T23:40:38+08:00 — 已捕获 [[wiki/sources/Building and Deploying AI Applications Source Guide|构建与部署 AI 应用技能地图]]：把六项能力重组为“理解模型—提供证据—组织行动—评估选择—生产反馈”闭环，并更新顶层技能地图、AI 工程工作流及 AI/CS 地图。
-
-- 2026-10-06T16:39:47+08:00 — 已捕获 [[wiki/sources/AI Engineering Skills Map Source Guide|AI Engineering Skills Map]]：保留 Andrew Ng 的四项 AI 工程能力，并将其重组为“产品方向—工程判断—Agent 执行—评估治理”的责任栈；同步更新 [[wiki/concepts/Agentic Engineering]]、[[wiki/syntheses/AI Engineering Workflow]] 及 AI/CS 地图。
-
-- 2026-10-06T16:06:02+08:00 — 已捕获 [[wiki/concepts/Methodology|方法论]]：区分方法、流程、理论与方法论，把方法论定义为一类问题的解法生成与校验框架，并用问题定义、证据、方法选择、结果检验和反馈修正说明其运作边界。
-
-- 2026-10-06T15:29:40+08:00 — 已更新 [[wiki/concepts/Mechanism Model|Mechanism Model]]：说明结果、变量、约束、激励、反馈和时间各自承担什么分析职责、缺少任一要素会形成什么盲区，并用亲子出游展示“短暂快乐”如何与“被动消费”区分。
-
-- 2026-10-06T13:18:48+08:00 — 已捕获 [[wiki/syntheses/Problem-Driven Reading Workbench|问题驱动的阅读工作台]]：分离全部藏书、当前问题书架和正在阅读三层；用问题有效期、地图/机制/反方角色、容量上限与退出条件，把 Kindle 从囤书仓库变成注意力受限的工作台。
-
-- 2026-10-06T13:13:38+08:00 — [[wiki/topics/World Knowledge Reading Roadmap|世界基本认知持续阅读清单]] 新增思维训练支线：以《学会提问》《怎样解题》《超预测》为 P0 主线，补入结构表达、形式逻辑、才智陷阱、数据识别和多模型书目，并加入每周真实问题判断卡。
-
-- 2026-10-06T12:49:49+08:00 — 已建立 [[wiki/topics/World Knowledge Reading Roadmap|世界基本认知持续阅读清单]]：把自然、社会、人、学习方法和孩子自主学习的推荐书集中为长期队列，用地图、机制、反方、证据与整合角色去重，并规定读后提升到 source、concept、topic、synthesis 或 map 的路径。
-
-- 2026-10-06T10:17:38+08:00 — 已更新 [[wiki/syntheses/成就感驱动与行动动力结构]]：把“成就感不宜成为唯一燃料”的局部诊断扩展成完整行动动力模型，连接身体资源、环境后果、自主与关系、意义与责任、觉察、最小行动和反馈；补入人格地位/行为责任/能力状态三分，以及价值的事实、他人、主体、可错性四道检验。
-
-- 2026-10-05T23:53:05+08:00 — 已捕获 [[wiki/syntheses/Buddhist Practice Nihilism and Liberation|佛法修行、虚无与解脱]]：区分现世解脱、慈悲的独立价值前提、佛教式自由的人格塑造，以及般涅槃的相续终止；同步修正 [[wiki/concepts/佛家觉悟结构]] 中“正见自然推出慈悲”的过强表达，并接入机制模型地图。
-
-- 2026-10-05T16:18:21+08:00 — 已捕获 [[wiki/sources/AI Evals FAQ Source Guide|AI Evals FAQ]]：从真实 traces 做错误分析，把领域专家判断写成单一、可行动的检查，用人工标签验证 Judge，再把生产中新发现的失败回流进 CI；为 [[wiki/concepts/Evaluation|评价]] 补入尺度与测试集随产品演化的自适应循环，并接入 AI 与读书地图。
-
-- 2026-10-05T05:49:32+08:00 — 已捕获 [[wiki/sources/Prospects for an Engineering Discipline of Software Source Guide|软件成为工程学科的前景]]：保留 Mary Shaw 的三阶段模型、土木与化工对照、知识编纂循环和五项议程；为 [[wiki/topics/Modern Software Engineering|现代软件工程]] 补充共同设计知识的判准，接入 CS 与读书地图。
-
-- 2026-10-03T16:01:27+08:00 — 已捕获 [[wiki/sources/Math and AI Misalignment Source Guide|数学与 AI 的目标错位]]：保留核心问题、概念结构、推理流程与变化机制；为 [[wiki/concepts/Understanding|理解]] 和 [[wiki/concepts/Evaluation|评价]] 补入答案与能力形成的分离及代理指标有效性，并接入 AI、学习地图。
-
-- 2026-10-03T11:43:34+08:00 — 已捕获 [[wiki/sources/On the Nature of Time Source Guide|On the Nature of Time]]：按核心问题、概念结构与七步推理整理计算时间观；为 [[wiki/concepts/Arrow of Time|时间箭头]] 补充计算限制与低熵边界条件的区别，并接入机制模型与读书地图。
-- 2026-10-01T01:10:38+0800 — 已捕获 [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] 与 [[wiki/concepts/Discovery Replay Simulator|Discovery Replay Simulator]]：把真实搜索树变为逐步揭示结果的策略试验环境；区分历史内选优、线上新发现和端到端成本，并接入自进化 Agents、AI 与 CS 地图。标签沿用现有 taxonomy。
-- 2026-09-29T18:14:09+0800 — 已捕获 [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide|软件工程 3.0 判定转向]] 与 [[wiki/concepts/Judgment Externalization|判定外化]]，并纳入 [[Excalidraw/ai effective|AI effective]]：生成速度超过人工复核后，判定系统应把标准、证据、执行和治理留在模型调用之外，由程序与大模型批量判定，人在规则设计、抽样校准和异常裁决处介入。
-- 2026-09-26T22:35:00+08:00 — 已捕获 [[wiki/syntheses/Cognition Functional Framework|认知功能框架]]：保留六层图的评审理由，以双向功能模块补入情绪、动机与执行控制，区分自我表征、元认知和主观体验；关联修订 HTML 与高清 PNG。标签沿用现有 taxonomy。
-- 2026-09-25T17:23:00+08:00 — 已捕获 [[wiki/concepts/Existence Desire and Problem Cycles|存在、需要、欲望与问题循环]]：身体需要、自我调节与有意识欲望分层；有限需要也能产生问题，后续循环可能来自身体消耗、目标变化或行动后果。同时为 [[wiki/concepts/Nature of a Question|问题的本质]] 补明“被意识到的认知与行动问题”的范围。标签沿用现有 taxonomy，无需新增或归一化。
-- 2026-09-21T23:22:10+0800 — 已捕获 [[wiki/sources/Agentic Engineering at Zalando Source Guide|Agentic Engineering at Zalando]]：250+ 团队共享 LLM 接入、认证与观测，但保留模型和工具选择；再用 Session/PR/复杂度数据识别效果，以风险审批、Skill、Guild、培训和平台默认能力沉淀经验。组织级闭环是“降低实验门槛 → 多路线探索 → 观察结果 → 编码规则 → 扩大采用”，下一阶段瓶颈转向仓库 readiness、沙箱、身份委托与责任链。
-- 2026-09-19T17:56:16+0800 — 标签检查：[[wiki/concepts/Belief and Attitude|Belief and Attitude]] 使用现有规范标签 `psychology`、`cognition`、`judgment`、`learning`、`mechanism`，无需新增或归一化标签。
-- 2026-09-19T17:56:15+0800 — 已捕获 [[wiki/concepts/Belief and Attitude|Belief and Attitude]]：belief 是把命题接受为真的认知判断，不等于客观事实；attitude 是由事实判断、价值排序、情感记忆与身份代价共同形成的评价和行动倾向。信息经来源信任与既有世界模型形成 belief，再经估值形成 attitude，行动结果又反馈并修正或强化二者。
-- 2026-09-14T16:35:10+0800 — 已捕获 [[wiki/sources/Three Constraints for Building Products Source Guide|构建产品前的三个约束]]（Jordan Lord）：一页纸限制复杂度与歧义，可分离核心能力保留长期杠杆，定义性约束限制功能膨胀并生成产品身份。进一步澄清“分离”不是让产品脱离技术，而是区分稳定能力与当前产品表达：它让外层能试错，避免把技术展示误当产品，并迫使产品说明自己在工作流、反馈、协作和信任上的增量价值；这些设计收益属于推论，不是作者直接展开的主张。
-- 2026-09-12T00:00:00+0800 — 已捕获 [[wiki/concepts/Attention as the Scarce Resource|Attention as the Scarce Resource]] 与 [[wiki/sources/The Conductor Developer Source Guide|The Conductor Developer]]（Rachel Laycock @ Martin Fowler）：AI 没改变好软件的样子，只改变了什么变稀缺——代码不再稀缺，**人的注意力成为瓶颈**。瓶颈不是沿交付生命周期（编码→设计→架构→验证）后移，而是落到人身上。顶尖开发者不再整天心流，而是**编排 agent**（派活/给上下文/评估/抓错/判断迭代还是放行），像**指挥**：价值在于把整个系统装在脑中，而非亲自演奏。并行 agent 约 8 个（10–12）触顶，人成瓶颈。对策=高管技能：保护注意力、管理精力、减少决策、建帮大脑而非日历的系统。落地补上机制与有名方法：注意力残留（Leroy）→ 批处理巡检+留可续接标记；决策疲劳（Baumeister）→ 把重复判断固化成 if-then 规则（Gollwitzer）+ 抬高 agent 的 Definition of Done；精力管理（Loehr & Schwartz）→ 高精力时段做人脑决策；外置状态（GTD/Allen）→ 用看板记 agent 状态，脑子只持有系统结构。一句话：用结构替代意志力。
-- 2026-09-11T00:00:00+0800 — 已捕获 [[wiki/concepts/Long-Running Agent Harness|Long-Running Agent Harness]] 与 [[wiki/sources/Effective Harnesses for Long-Running Agents Source Guide|Effective Harnesses for Long-Running Agents]]：Anthropic 把跨多个上下文窗口的长任务拆成两种初始 prompt——初始化 Agent 只规划（把一句话需求扩展成 200+ 条全 `failing` 的 JSON 任务清单，并搭 `init.sh`/`claude-progress.txt`/初始 git commit），执行 Agent 每轮只做一个 feature、开局读进度+git+清单找回状态、收尾写描述性 commit+更新进度+把 `passes` 翻 true。中间成果（代码 git 固化、清单 passes 翻转、进度笔记）就是跨轮记忆；本质是把 agent 记忆外置到文件系统与 git。治「一把梭」与「过早收工」两个失败模式；单靠 compaction 不够。科学计算版进度文件叫 `CHANGELOG.md`，强调记录失败尝试，配 test oracle + Ralph loop（C 编译器约 2000 会话）。
-- 2026-09-10T21:22:11+0800 — 已摄入 [[wiki/sources/The AI-Native SDLC Playbook Source Guide|The AI-Native SDLC Playbook]]：Anthropic 用 `intent.md → spec.md → plan.md → diff/tests → PR/review → deployment/incident` 串起六阶段工件链；Skills 承载建议性政策，Hooks/测试/CI/权限承担确定性门禁，人类保留意图、风险、例外与生产授权，生产异常再回流为下一轮 intent。
-- 2026-09-09T21:39:46+0800 — 已捕获 [[wiki/sources/The Tiers of Context Engines Source Guide|The Tiers of Context Engines]] 与 [[wiki/syntheses/Agent Knowledge Architecture|Agent Knowledge Architecture]]：原图的事实/程序 dual RAG 是“认识世界 + 指导行动”的最小闭环；生产级 Agent 还要把语义、情景、因果、规范、目标、能力、元知识和当前状态分流到 RAG、Memory、Skill、Tool Registry、Policy 与状态层。
-- 2026-09-07T23:52:13+0800 — 已捕获 [[wiki/concepts/Causal Reasoning|因果推理]]：因果推理不问两个东西是否一起出现，而问主动改变其中一个因素后结果是否会变化；核心是把相关性、共同原因、选择偏差、反向因果和真实干预效应拆开。接入 [[wiki/concepts/Relation as Contextual Constraint|关系作为语境约束]]、[[wiki/concepts/Mechanism Model|机制模型]] 与 [[wiki/topics/Probability|概率]]。
-- 2026-09-05T16:30:00+0800 — 已捕获 [[wiki/concepts/Political Left and Right|政治光谱：左派与右派]]：左派/右派不是跨时空的固定立场，而是相对于“现存秩序”的态度与“平等 vs 自由/秩序”的排序。理解要点是“先定参照系 + 分清哪根轴”：现状不同标签就颠倒，一维左右只是多维立场（经济轴/文化轴）的投影。中国语境几乎与西方镜像——经济上中左≈西左，但政治文化上中国“右派”（自由派）要变革、限制政府权力，反占西方左派位置；且“右派”因 1957 反右带有历史罪名色彩。接入 [[wiki/concepts/Relation as Contextual Constraint|关系作为语境约束]] 与 [[wiki/topics/Methods of Classification|分类方法]]。
-- 2026-09-05T15:52:30+0800 — 已捕获 [[wiki/syntheses/Music Genres as Philosophies of Life|Music Genres as Philosophies of Life]]：音乐风格不只是声音分类，也会把生存张力编码成声音形式，经身体实践形成共同体、身份和行动，再受产业传播、收编与再创造影响；并以蓝调、爵士、摇滚、朋克、金属、嘻哈、电子、极简与流行等风格展示不同哲学回答。
-- 2026-09-01T23:53:00+0800 — 已捕获 [[wiki/concepts/Universality of Physical Law|Universality of Physical Law]]：物理定律处处适用不是被证明的定理，而是每天被观测检验（远方光谱、CMB、精细结构常数漂移上限）、至今未被证伪的经验假设；顺着 `普适→对称（诺特：对称↔守恒）→无差别（找不到可分辨的标记）→不可分辨（莱布尼茨）→自我同一 A=A` 一路还原到逻辑最底层。补充定义性回环（不普适的我们根本不叫定律）与规范场论"对称即冗余"的开放追问，以及可观测宇宙/能标的诚实边界。
-- 2026-09-01T23:34:53+0800 — 已捕获 [[wiki/concepts/Institution as Consequence Structure|制度作为后果结构]]：制度不只是文本，而是被共同承认并可稳定维持的规则与后果结构；奖惩决定做不做，资格决定谁能做，程序决定怎样做才被承认，执行预期则让规则在后果尚未发生前就进入行动者的选择。
-- 2026-08-24T14:20:00+0800 — 已摄入 [[wiki/sources/热力学第二定律与时间箭头 Source Guide|热力学第二定律与时间箭头]]（ChatGPT 分享对话，`解释→为什么→继续` 三次追问），新建 [[wiki/concepts/Arrow of Time|Arrow of Time]] 并增补 [[wiki/concepts/Entropy|Entropy]]：时间箭头不来自微观定律（时间反演对称），而来自低熵初始条件（Past Hypothesis）+ 统计规律 + 粗粒化；熵增是概率/组合压倒（C(N,N/2) 在 N 大时巨大，P(低→高)≈1），“熵减非不可能，只是概率极小”；粗粒化把熵接到信息缺失，串起热力学→统计力学→信息论。
-- 2026-08-24T14:05:47+0800 — 已捕获 [[wiki/concepts/Linear Layer|Linear Layer]]：线性层是神经网络最基础的一步计算 y=Wx+b，把输入向量重新加权组合并改变维度，参数 W、b 可学习；纯线性叠加仍等价单层，须靠非线性激活才有表达力；LM head 就是把隐藏状态投影成 [[wiki/concepts/Logits|logits]] 的线性层。
-- 2026-08-24T12:09:19+0800 — 已摄入 [[wiki/sources/检索推理规划与Agent问题求解 Source Guide|检索推理规划与Agent问题求解]]（ChatGPT 分享对话），蒸馏为 5 个概念 [[wiki/concepts/Retrieval vs Reasoning|Retrieval vs Reasoning]]、[[wiki/concepts/Planning as Goal-Directed Reasoning|Planning as Goal-Directed Reasoning]]、[[wiki/concepts/Agent State|Agent State]]、[[wiki/concepts/Context as Working Memory|Context as Working Memory]]、[[wiki/concepts/LLM Reasoning as In-Context Computation|LLM Reasoning as In-Context Computation]] 与综合 [[wiki/syntheses/Agent as Problem-Solving System|Agent as Problem-Solving System]]：检索是「找节点」、推理是「建边」；规划是面向目标的推理；上下文是工作记忆载体而非记忆本身；状态是为决定「接下来」所需的最小充分信息；大模型推理是参数(知识/先验)+Transformer(计算)+上下文(问题/临时状态)组合涌现的上下文内计算，Agent 则把这些统一为状态空间搜索与不确定性收窄的求解闭环。
-- 2026-08-24T12:05:00+0800 — 已摄入 [[wiki/sources/解释生命与分子实体 Source Guide|解释生命与分子实体]]（ChatGPT 分享对话），并蒸馏为 [[wiki/concepts/Life as Dissipative Information Structure|Life as Dissipative Information Structure]] 与 [[wiki/concepts/Entropy|Entropy]]：把“生命从无序产生有序且不违反热二定律”改写为“利用环境自由能维持低熵结构并复制信息”的机制链 熵→自由能→信息→自复制→自然选择→生命；真正必需的不是分子，而是能稳定承载信息、可因果作用、处于非平衡态的物理自由度。
-- 2026-08-21T22:57:20+0800 — 已捕获 [[wiki/concepts/Logits|Logits]]：logits 是模型针对当前上下文为整个词表计算的原始相对分数，不是概率或事实置信度；固定模型对固定状态原则上产生相同 raw logits，随机性通常先进入 sampling，再通过新 token 反馈使后续 logits 和生成轨迹分叉。
-- 2026-08-21T22:47:56+0800 — 已捕获 [[wiki/concepts/Relation as Contextual Constraint|Relation as Contextual Constraint]]：把“有关系”从模糊联想展开为语境中的约束命题，并区分分类、相似、共现、依赖、构成与因果。
-- 2026-08-16T22:37:52+0800 — 已捕获 [[wiki/syntheses/Euclid as a Case of Formalization's Limits|Euclid as a Case of Formalization's Limits]]：把 [[wiki/concepts/Formalization|形式化]] 的"必然有外部"判断放到数学史上检验——欧几里得这个最完整的形式化，把视觉直觉、语义指称、刚体运动和平行公设四类东西留在圈外；前三类是系统内部的裂缝（靠图形和经验偷偷补上），第四类是现实对应（空间是否为平只是选择），而两千年后掀翻数学与物理的希尔伯特公理化和非欧几何，恰恰从这些圈外剩余长出。
-- 2026-08-16T17:13:51+0800 — 已整理 [[wiki/sources/The Art of Doing Science and Engineering Source Guide|The Art of Doing Science and Engineering]]，并综合为 [[wiki/syntheses/From Senior Engineer to Tech Leader|From Senior Engineer to Tech Leader]]：Learning to Learn 不是多学知识，而是在技术过时、问题变化和系统演化中持续修正选题、架构、团队判断与技术投资。
-- 2026-08-16T16:29:01+0800 — 已捕获 [[wiki/concepts/Search and Learning as Meta-Methods|Search and Learning as Meta-Methods]] 与 [[wiki/concepts/Class as Learned Invariance|Class as Learned Invariance]]，并整理 [[wiki/sources/The Bitter Lesson Source Guide|The Bitter Lesson]]：search/learning 是能随算力任意扩展的元能力，本质是同一台"生成→评估→改进"的发现引擎；人把算力预付在演化与文化，个体坐享其成；学习判断"同一类"则是发现一条由归纳偏置引导、评价信号裁定的不变性/等价关系。
-- 2026-08-15T22:44:31+0800 — 已捕获 [[wiki/syntheses/AI Agent Engineering Learning Path|AI Agent Engineering Learning Path]]：用一个持续演化的 Repo Task Agent 串起 12 周实践，学习顺序是单 Agent 控制循环、工具与安全执行、生命周期、可观测与评测、context、memory、Skill，最后用基线决定是否引入多 Agent。
-- 2026-08-15T11:20:41+0800 — 已捕获 [[wiki/concepts/Nature of a Question|Nature of a Question]]：问题不只是“缺少答案”，而是主体能设想多种可能，却发现当前现实与认知模型不足以可靠决定下一步；提问的作用是把这一模型—行动缺口显化。
-- 2026-08-14T00:00:00+0800 — 已捕获 [[wiki/concepts/Doris Join Shuffle Strategy|Doris Join Shuffle Strategy]]：Doris 的 Join 执行分两层——先定算法（Hash/Nest Loop），再定数据分布（Broadcast/Shuffle/Bucket Shuffle/Colocate），网络代价从 N×T(R) 递减到 0；Colocate 依赖 Colocation Group 与逐分区分桶对齐，Runtime Filter 再动态裁掉大表探测前的行数。
-- 2026-08-12T23:17:18+0800 — 已捕获 [[wiki/concepts/Formalization|形式化]]，并整理 [[wiki/sources/Code as Agent Harness Paper Source Guide|Code as Agent Harness]]：形式化是可靠委托的翻译层；代码把形式结构进一步变成可执行、可检视、有状态的 Agent 工作对象。
-- 2026-08-02T11:03:05+0800 — 已研究并整理 [[wiki/syntheses/Hypnosis and Unconscious Curriculum for Product Managers|面向产品经理的催眠与潜意识经典教材]]：以 10 本不同作者的催眠核心书单为起点，连接现代无意识、行为设计、视频课程与暗黑模式伦理。
-- 2026-07-25T19:17:29+0800 — 已捕获 [[wiki/concepts/Nutrients Calories and Human Energy Storage|营养素、热量与人体能量储存]]：区分营养素与热量，并把人体能量去向组织成 ATP 即时使用、糖原短期周转、脂肪长期储存和蛋白质应急供能四层结构。
-- 2026-07-20T04:29:25+0800 — 已摄入 [[wiki/sources/AI Agent 三重悖论 Source Guide]]：保留 AI 生成长文原文，并将可迁移结构沉淀为 [[wiki/syntheses/AI Agent Three Paradoxes|AI Agent 三重悖论]]、[[wiki/concepts/Temporal Memory Validity]] 与 [[wiki/concepts/Verifier Hierarchy]]。
-- 2026-07-19T22:12:59+0800 — 已捕获 [[wiki/concepts/Knowledge Formalization Gradient|Knowledge Formalization Gradient]]：知识的形式化梯度不是完整学科分类，也不是高低排序，而是从经验与生活世界，经日常语言、概念方法、领域理论和形式模型，走向数学与逻辑的抽象路径。
-- 2026-07-19T22:00:16+0800 — 已捕获 [[wiki/syntheses/Rank Reduction as Generative Model Discovery|降秩方法的底层原理与有效边界]]：降秩不是总结重点，而是发现最小解释性生成模型；逐层下沉产生候选，消融与反生成压紧骨架，外推和变更测试让模型承担失败风险。
-
 ## Active Threads
+
+- 同伴反馈文化：区分个人偏好与共同规范，观察内容问题如何累积为模式和关系影响。
 
 - 世界基本认知现在有持续阅读主线：自然回答约束与可能，社会回答制度与协作，人回答感知、动机与行动；每个领域用地图书取得全貌、机制书解释生成、反方书破除单一路径，最后用系统与认识论工具连接。新增书籍统一维护在 [[wiki/topics/World Knowledge Reading Roadmap|世界基本认知持续阅读清单]]，设备的当前阅读面由 [[wiki/syntheses/Problem-Driven Reading Workbench|问题驱动的阅读工作台]] 限流。
 
@@ -257,6 +196,8 @@ updated: 2026-10-11T20:40:28+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 同伴反馈要先理解情境再解释行为；对影响的感知需要澄清，反馈接收者可以行动，也可以说明反思后的不采纳。日常闭环比集中收集评语更能维持反馈供给。
 
 - [[wiki/concepts/Propositional and Predicate Logic|命题逻辑与谓词逻辑]]：用现代谓词符号重写古典三段论，不代表亚里士多德建立了现代谓词逻辑；古代推理传统与现代形式体系应分开理解。
 

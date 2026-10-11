@@ -6,19 +6,20 @@ category: concepts
 summary: Feedback loops are system structures where results flow back to influence future causes, creating growth, stability, or oscillation.
 tags: []
 sources:
+  - https://martinfowler.com/articles/healthy-peer-feedback.html
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
   - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
   - mobu/读书/架构师启示录-知识模型、落地方法与思维模式.md
   - mobu/读书/架构师启示录-知识模型、落地方法与思维模式_第8章及以后章节.md
 created: 2026-04-26
-base_confidence: 0.44
+base_confidence: 0.79
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.94
-  inferred: 0.06
-  ambiguous: 0.00
-updated: 2026-05-13T00:06:14+08:00
+  extracted: 0.88
+  inferred: 0.12
+  ambiguous: 0.0
+updated: 2026-10-11T23:28:02+08:00
 aliases:
   - 反馈回路
   - Feedback Loop
@@ -106,6 +107,16 @@ The delay matters. If the team waits too long to update the artifacts, the same 
 《架构师启示录》把敏捷理解为一种负反馈：尽快知道当前进度和目标之间的差距，然后据此调整行动。DevOps 则减少研发、QA、运维之间的信息差，让反馈更快进入交付链路。
 
 在系统维护中，笔记还把系统问题分为事件、行为、结构三个层次：事件是负载变高，行为是负载在某类情况下持续变高，结构才是产生这些事件和行为的根因。这使反馈回路不只是一个抽象系统概念，也成为架构演进和故障分析的方法。
+
+## 团队同伴反馈：信号如何影响下一次互动
+
+[[wiki/sources/Healthy Peer Feedback Source Guide]] 把团队视作社会系统，把持续的同伴反馈视作遥测信号：团队没有反馈时，表面和谐可能掩盖大家看见却没有说出的隐患。
+
+在 [[wiki/topics/Peer Feedback]] 中，接收者采取行动并告诉给予者效果，会鼓励给予者继续提供反馈；即使不采纳，也可以说明反思后的判断并保持对话。作者把这称为关闭反馈回路。
+
+由此可重建两条不同的环：有效行为得到具体表扬而被重复，是强化路径；妨碍协作的行为通过观察、情境澄清和行动调整而减少，是纠偏路径。表扬/批评的情绪色彩，与系统意义上的正反馈/负反馈不能直接画等号；判断依据仍是回路放大还是抑制什么变量。^[inferred]
+
+给予者看到自己的信息被认真对待，会更愿意继续提供信息，形成反馈供给与回应之间的强化回路。把反馈与绩效奖惩或公开地位风险绑定，也可能形成相反的循环：人们保留批评，信号变弱，问题更晚暴露。后一条是根据作者的反模式分析重建的机制，未在本文中被实证检验。^[inferred]
 
 ## 一个判断句
 

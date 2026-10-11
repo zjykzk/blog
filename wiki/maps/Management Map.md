@@ -12,13 +12,17 @@ base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-09-01T23:34:53+0800
+updated: 2026-10-11T23:28:02+08:00
 aliases:
   - 管理地图
 tags:
   - management
   - leadership
   - map
+provenance:
+  extracted: 0.95
+  inferred: 0.05
+  ambiguous: 0.0
 ---
 # Management Map
 
@@ -26,12 +30,17 @@ tags:
 
 ## Topics
 
+- [[wiki/topics/Peer Feedback]] — 日常交换具体观察、强化有效行为、改善合作，并通过跟进维持反馈文化。
+
 - [[wiki/topics/Technical Management]]
 - [[wiki/topics/Resource Formula]]
 - [[wiki/topics/Judgment Under Leverage]]
 - [[wiki/topics/Wealth Creation]]
 
 ## Concepts and frameworks
+
+- [[wiki/concepts/Context-Situation-Behaviour-Impact|CSBI]] — 先问情境，再说清场景、行为和感知影响，并邀请共同找办法。
+- [[wiki/concepts/Feedback Impact Levels]] — 反馈随影响从单次内容推进到重复模式、合作关系。
 
 - [[wiki/concepts/Institution as Consequence Structure|制度作为后果结构]] — 用资格、程序、奖惩和执行解释制度如何进入人的选择，并稳定塑造组织行为。
 - [[wiki/concepts/Cynefin Framework]]
@@ -54,6 +63,8 @@ tags:
 - [[wiki/syntheses/Acting Under Complexity]]
 
 ## Source layer
+
+- [[wiki/sources/Healthy Peer Feedback Source Guide]] — 两位作者的 Thoughtworks 反馈实践：完整英文正文、CSBI、影响层级、接收闭环及反模式。
 
 - [[wiki/sources/The Art of Doing Science and Engineering Source Guide]] — 汉明用 Learning to Learn、系统工程和重要问题说明技术领导者如何持续修正方向与工作方式。
 - [[wiki/sources/组织角色与 AI 适配 Source Guide]]
