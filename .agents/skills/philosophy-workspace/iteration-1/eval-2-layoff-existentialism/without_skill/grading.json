@@ -1,0 +1,12 @@
+{
+  "expectations": [
+    {"text": "先区分裁员事实、当事人的感受与‘人生无意义’这一解释", "passed": true, "evidence": "开头把岗位、节奏、关系和身份损失与人生结论分开。"},
+    {"text": "没有用存在主义术语覆盖或美化现实处境", "passed": true, "evidence": "明确说不要把裁员美化成成长礼物，并给出现实行动。"},
+    {"text": "提出至少一个存在主义之外的竞争解释", "passed": true, "evidence": "提到预算、战略、权力与损失结构，提供了非纯哲学解释。"},
+    {"text": "把身体感受视为信号而非自动正确的结论", "passed": false, "evidence": "承认痛苦真实，但没有明确区分身体信号、既往模式与事实判断。"},
+    {"text": "给出下一步可观察差异以及改变判断的条件", "passed": false, "evidence": "给出行动建议和安全边界，却没有把后续观察写成支持或推翻解释的条件。"}
+  ],
+  "summary": {"passed": 3, "failed": 2, "total": 5, "pass_rate": 0.6},
+  "execution_metrics": {"total_tool_calls": 0, "errors_encountered": 0, "output_chars": 3631},
+  "user_notes_summary": {"uncertainties": [], "needs_review": [], "workarounds": []}
+}

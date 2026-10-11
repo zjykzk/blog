@@ -17,18 +17,19 @@ sources:
   - https://arxiv.org/pdf/2601.01743
   - https://cdn.openai.com/pdf/8a9f00cf-d379-4e20-b06f-dd7ba5196a11/OAI_WhitePaper_Codex-maxxing26.pdf
   - https://arxiv.org/pdf/2606.21894
+  - https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb
   - https://claude.com/blog/the-ai-native-sdlc-playbook
   - https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html
 created: 2026-05-04
-base_confidence: 0.97
+base_confidence: 0.94
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 14
-updated: 2026-10-06T23:40:38+0800
+source_count: 15
+updated: 2026-10-10T19:36:48+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -51,9 +52,11 @@ tags:
 - [[wiki/concepts/Agent Loop Human Judgment Positions]] — 人在 agent loop 中的结构性位置：定义价值、切任务边界、设置否决、硬门禁、持久状态、人工门、理解校准和循环复盘。
 - [[wiki/concepts/Agent Evaluation CLASSic Framework]]
 - [[wiki/concepts/Agent Evaluation Metric Vector]] — 用成功率、成本、工具正确性、恢复率、循环率、安全违规和人工介入等轨迹指标评估 agent。
+- [[wiki/concepts/Confusion Matrix]] — 交叉统计标准结论与 Agent 判断，展开漏报、误伤、错误拒判和过度裁决的方向。
 - [[wiki/concepts/Agentic AI Architecture Taxonomy]]
 - [[wiki/concepts/Agentic Control Loop]]
 - [[wiki/concepts/Loop Engineering]] — 把 agent 执行、验证、事件触发和 trace-driven 改进叠成生产级 agent 系统的循环工程。
+- [[wiki/concepts/Long-Running Agent Harness]] — 用初始化角色（任务清单+环境）与执行角色（逐 feature 增量推进+留 git/进度/清单工件）让 agent 跨多个上下文窗口接力完成长任务。
 - [[wiki/concepts/Event-Driven Agent Loop]] — 用 cron、webhook、schedule 或 channel 把 agent 接入业务生态并自动唤醒。
 - [[wiki/concepts/Agent Tool]]
 - [[wiki/concepts/AI Collaboration Scaffolding]]
@@ -84,7 +87,13 @@ tags:
 - [[wiki/concepts/Linear Layer]] — 神经网络最基础的一步计算 y=Wx+b；LM head 就是把隐藏状态投影成 logits 的线性层。
 - [[wiki/concepts/Next-Token Pipeline]]
 - [[wiki/concepts/Tokenization]]
+- [[wiki/concepts/Token Embedding]]
+- [[wiki/concepts/Positional Encoding]]
+- [[wiki/concepts/Self-Attention]]
+- [[wiki/concepts/Transformer Feed-Forward Network]]
 - [[wiki/concepts/Transformer Residual Stream]]
+- [[wiki/concepts/Logit Lens]]
+- [[wiki/concepts/Unembedding and Weight Tying]]
 - [[wiki/concepts/Autoregressive Decoding]]
 - [[wiki/concepts/Neural Network Inference Boundary]]
 - [[wiki/concepts/Epiplexity]]
@@ -98,6 +107,7 @@ tags:
 - [[wiki/concepts/Prefill Decode Split]]
 - [[wiki/concepts/Speculative Decoding]]
 - [[wiki/concepts/LLM Inference Benchmarking]]
+- [[wiki/concepts/Arithmetic Intensity]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Executable Specification]] — 把意图转成机器可检查承诺，是 AI coding 中 verification loop 能获得稳定真值信号的前提。
 - [[wiki/concepts/Judgment Externalization]] — 把判定标准、证据、执行和治理留在模型调用之外，让程序与模型批量判定，只把例外送回人。
@@ -111,6 +121,7 @@ tags:
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Harnessability]]
 - [[wiki/concepts/Agentic Engineering]]
+- [[wiki/concepts/Attention as the Scarce Resource]] — AI 让代码生成变廉价后，瓶颈移到人的注意力；开发者从独奏者变指挥（编排 8+ agent），需要高管式的注意力/精力/决策管理。
 - [[wiki/concepts/Agentic Coding Unknowns]] — prompt-map 与 codebase-territory 之间的缺口；需要通过 blind spot pass、prototype、interview、reference、notes 和 quiz 被提前暴露。
 - [[wiki/concepts/Vibe Coding]] — AI coding 协作谱系中最放飞的一端，适合低风险易验证区域，但会放大验证责任。
 - [[wiki/concepts/Verification Gap]] — 生成速度与验证速度之间的差距，是 AI coding 转向工程纪律的关键压力。
@@ -136,6 +147,7 @@ tags:
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/topics/Prompt Frequency]]
 - [[wiki/topics/AI Harness]]
+- [[wiki/topics/Rule Adjudication Agent Evaluation]] — 用适用性、事实、构成要件、例外、证据充分性和多类终局结论评测规则裁决 Agent。
 - [[wiki/topics/Learnable Structure in Data]]
 - [[wiki/topics/LLM Inference Systems]]
 - [[wiki/topics/TRAE Agent Capability Preparation Plan]] — 面向 AI Coding Agent 能力优化岗位的架构、上下文、调度、模型、验证和评估准备路线。
@@ -202,6 +214,7 @@ tags:
 - [[wiki/sources/Cursor Codebase Indexing Source Guide]] — Manthan Gupta X article on Cursor codebase indexing: semantic/vector search, sparse n-gram regex search, Merkle sync/proofs, Turbopuffer namespaces, and dynamic context discovery.
 - [[wiki/sources/从知识堆积到结构化记忆 Source Guide]]
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
+- [[wiki/sources/The Conductor Developer Source Guide]] — Rachel Laycock 的 Martin Fowler rambling：AI 让代码变廉价，瓶颈移到人的注意力；开发者像指挥编排 agent，需高管式精力管理。
 - [[wiki/sources/Claude Code Skills Source Guide]]
 - [[wiki/sources/COLLEAGUE.SKILL Paper Source Guide]] — primary paper guide for person-grounded trace-to-skill distillation, including dual capability/behavior tracks, correction lifecycle, rollback, and deployment boundaries.
 - [[wiki/sources/Seeing Like an Agent Source Guide]]
@@ -223,10 +236,12 @@ tags:
 - [[wiki/sources/The Bitter Lesson Source Guide]] — Rich Sutton 1997/2019 经典短文：能随算力扩展的通用方法（search、learning）长期压过内置的人类知识。
 - [[wiki/sources/The Art of Loop Engineering Source Guide]] — LangChain 文章：agent 生产力价值来自多层循环叠加，而不只是模型能力。
 - [[wiki/sources/AI Evals FAQ Source Guide]] — 从真实 traces 生成 failure taxonomy、rubric 和可信 evaluator，再把生产失败回流为回归检查与产品改进。
+- [[wiki/sources/Agent Benchmark Landscape Research Report Source Guide]] — 42 来源 Agent benchmark 地图，区分构念、环境、grader 与版本，并给出静态回归、fresh/OOD 和私有 canary 三层组合。
 - [[wiki/sources/AI Engineering Skills Map Source Guide]] — Andrew Ng 的四项 AI 工程能力：AI 应用交付、软件工程基础、coding agent 使用与 shaping the build；持续学习负责更新整套能力。
 - [[wiki/sources/Building and Deploying AI Applications Source Guide]] — 细化 AI 应用交付的六项能力，并把 eval/error analysis 作为模型、数据、agent 架构与生产运营之间的开发控制环。
 - [[wiki/sources/The AI-Native SDLC Playbook Source Guide]] — Anthropic 的企业实施 playbook：用版本化工件、门禁触发和生产反馈回流，把 Plan、Design、Build、Test、Deploy、Maintain 从线性 handoff 改造成受治理的闭环。
 - [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide]] — 中文长文与 Excalidraw 图：把 AI 软件工程的瓶颈从生成转向判定，并用标准、证据、执行与治理构成机器可运行的判定闭环。
+- [[wiki/sources/Effective Harnesses for Long-Running Agents Source Guide]] — Anthropic 工程文章：初始化 Agent 搭环境+任务清单、执行 Agent 逐 feature 增量推进并留 git/进度工件，让 agent 跨多个上下文窗口接力完成长任务。
 - [[wiki/sources/Structured-Prompt-Driven Development Source Guide]]
 - [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源：围绕 Vibe coding、验证鸿沟、意图-生成-验证循环、复杂度和团队门禁组织 AI 软件工程入门。
 - [[wiki/sources/SPDD Abstraction First Source Guide]]

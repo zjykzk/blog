@@ -6,8 +6,10 @@ summary: Source guide for the Life of a Token article, focused on the next-token
 category: sources
 sources:
   - inline:life-of-a-token-2026-05-09
+  - https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb
+source_url: https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb
 created: 2026-05-09T00:00:00+08:00
-updated: 2026-05-09T00:00:00+08:00
+updated: 2026-08-30T21:03:10+0800
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-09
@@ -25,11 +27,13 @@ tags:
 ---
 # Life of a Token Source Guide
 
-This page tracks the pasted article "Life of a Token: LLM's Next-Token Pipeline" as a source for the model-internal side of the AI inference cluster.
+This page tracks "Life of a Token: LLM's Next-Token Pipeline", first captured as an inline paste and later resolved to its canonical Feishu URL, as a source for the model-internal side of the AI inference cluster.
 
 ## Source identity
 
 - Source: inline paste, `inline:life-of-a-token-2026-05-09`
+- Canonical URL: <https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb>
+- Feishu revision observed: document revision 15, last edited 2026-04-15T09:36:02Z
 - Title: Life of a Token: LLM's Next-Token Pipeline
 - Model traced: GPT-2 Small
 - Main example: `The capital of France is` → ` Paris`
@@ -57,7 +61,9 @@ This page tracks the pasted article "Life of a Token: LLM's Next-Token Pipeline"
 
 The source strengthens [[wiki/topics/LLM Inference Systems]] by adding the model-internal token pipeline beneath the serving-system view from vLLM.
 
-The durable concepts extracted from this source are [[wiki/concepts/Next-Token Pipeline]], [[wiki/concepts/Tokenization]], [[wiki/concepts/Transformer Residual Stream]], [[wiki/concepts/Autoregressive Decoding]], and [[wiki/concepts/Neural Network Inference Boundary]].
+The first ingest extracted [[wiki/concepts/Next-Token Pipeline]], [[wiki/concepts/Tokenization]], [[wiki/concepts/Transformer Residual Stream]], [[wiki/concepts/Autoregressive Decoding]], and [[wiki/concepts/Neural Network Inference Boundary]]. The canonical-URL ingest adds the mechanisms that were still compressed inside that overview: [[wiki/concepts/Token Embedding]], [[wiki/concepts/Positional Encoding]], [[wiki/concepts/Self-Attention]], [[wiki/concepts/Transformer Feed-Forward Network]], [[wiki/concepts/Logit Lens]], [[wiki/concepts/Unembedding and Weight Tying]], and [[wiki/concepts/Arithmetic Intensity]].
+
+Source-specific traces such as the `" Paris"` probability, individual attention-head weights, the layer-by-layer logit-lens table, and A100 timing estimates remain evidence for this checkpoint and setup rather than universal model constants. The distilled concept pages retain the mechanism while making those boundaries explicit. ^[inferred]
 
 ## Open questions
 
@@ -68,6 +74,11 @@ The durable concepts extracted from this source are [[wiki/concepts/Next-Token P
 
 - [[wiki/topics/LLM Inference Systems]]
 - [[wiki/concepts/LLM]]
+- [[wiki/concepts/Token Embedding]]
+- [[wiki/concepts/Self-Attention]]
+- [[wiki/concepts/Transformer Feed-Forward Network]]
+- [[wiki/concepts/Logit Lens]]
+- [[wiki/concepts/Arithmetic Intensity]]
 - [[wiki/concepts/KV Cache]]
 - [[wiki/concepts/Prefill Decode Split]]
 - [[wiki/maps/AI Map]]

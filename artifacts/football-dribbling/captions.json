@@ -1,0 +1,194 @@
+[
+  {
+    "start": 0.35,
+    "end": 1.722,
+    "text": "小个怎么过大个？",
+    "scene": "opening"
+  },
+  {
+    "start": 2.122,
+    "end": 5.332,
+    "text": "正面硬冲、拼力量，很容易被挡住。",
+    "scene": "opening"
+  },
+  {
+    "start": 8.35,
+    "end": 12.331,
+    "text": "过人，是创造对手当下来不及覆盖的空间。",
+    "scene": "space"
+  },
+  {
+    "start": 12.731,
+    "end": 15.931,
+    "text": "先观察，再调动，最后进入空当。",
+    "scene": "space"
+  },
+  {
+    "start": 18.35,
+    "end": 21.046,
+    "text": "腿长，覆盖范围通常更大。",
+    "scene": "momentum"
+  },
+  {
+    "start": 21.284,
+    "end": 24.054,
+    "text": "但任何人改变方向都需要时间。",
+    "scene": "momentum"
+  },
+  {
+    "start": 24.293,
+    "end": 27.65,
+    "text": "看他的移动和支撑脚，别只看身高。",
+    "scene": "momentum"
+  },
+  {
+    "start": 28.35,
+    "end": 30.833,
+    "text": "太近，容易被伸脚断球。",
+    "scene": "distance"
+  },
+  {
+    "start": 31.233,
+    "end": 32.994,
+    "text": "太远，对手不用动。",
+    "scene": "distance"
+  },
+  {
+    "start": 33.394,
+    "end": 36.284,
+    "text": "合适的距离，是你还能控球变向，",
+    "scene": "distance"
+  },
+  {
+    "start": 36.684,
+    "end": 38.987,
+    "text": "又能让他必须作出判断。",
+    "scene": "distance"
+  },
+  {
+    "start": 42.35,
+    "end": 44.123,
+    "text": "快、慢、快。",
+    "scene": "tempo"
+  },
+  {
+    "start": 44.523,
+    "end": 47.715,
+    "text": "接近时减速，观察他是否跟着调整。",
+    "scene": "tempo"
+  },
+  {
+    "start": 48.115,
+    "end": 50.332,
+    "text": "他一犹豫，你再突然启动。",
+    "scene": "tempo"
+  },
+  {
+    "start": 54.35,
+    "end": 57.416,
+    "text": "肩膀向左，给出要走左边的信号。",
+    "scene": "feint"
+  },
+  {
+    "start": 57.816,
+    "end": 60.92,
+    "text": "看到他向左承重，再向右拨球。",
+    "scene": "feint"
+  },
+  {
+    "start": 61.32,
+    "end": 63.936,
+    "text": "假动作，是让他先作出反应。",
+    "scene": "feint"
+  },
+  {
+    "start": 66.35,
+    "end": 69.14,
+    "text": "从侧面突破，别往人身上撞。",
+    "scene": "diagonal"
+  },
+  {
+    "start": 69.54,
+    "end": 71.692,
+    "text": "斜向四十五度只是示意，",
+    "scene": "diagonal"
+  },
+  {
+    "start": 72.092,
+    "end": 75.566,
+    "text": "真正的方向，要看空当和对手的站位。",
+    "scene": "diagonal"
+  },
+  {
+    "start": 78.35,
+    "end": 82.25,
+    "text": "球出了他的伸脚范围，他就要转身、换步。",
+    "scene": "firststep"
+  },
+  {
+    "start": 82.65,
+    "end": 86.101,
+    "text": "第一脚把球送进空当，随后加速跟上。",
+    "scene": "firststep"
+  },
+  {
+    "start": 88.35,
+    "end": 91.326,
+    "text": "保持距离，改变节奏，诱导重心。",
+    "scene": "recap"
+  },
+  {
+    "start": 91.566,
+    "end": 94.392,
+    "text": "再斜向突破，用第一步加速拉开。",
+    "scene": "recap"
+  },
+  {
+    "start": 94.631,
+    "end": 97.65,
+    "text": "一个简单假动作，就能把这些连起来。",
+    "scene": "recap"
+  },
+  {
+    "start": 98.35,
+    "end": 99.309,
+    "text": "重心在哪？",
+    "scene": "questions"
+  },
+  {
+    "start": 99.709,
+    "end": 101.19,
+    "text": "我要让他往哪边动？",
+    "scene": "questions"
+  },
+  {
+    "start": 101.59,
+    "end": 102.944,
+    "text": "哪一侧有空间？",
+    "scene": "questions"
+  },
+  {
+    "start": 103.344,
+    "end": 105.256,
+    "text": "他一动，我什么时候加速？",
+    "scene": "questions"
+  },
+  {
+    "start": 109.35,
+    "end": 112.958,
+    "text": "小个不要和大个比力量，要让他改变方向。",
+    "scene": "ending"
+  },
+  {
+    "start": 113.358,
+    "end": 115.312,
+    "text": "别只想，我要做什么动作。",
+    "scene": "ending"
+  },
+  {
+    "start": 115.712,
+    "end": 118.035,
+    "text": "要想，我要让防守者做什么。",
+    "scene": "ending"
+  }
+]

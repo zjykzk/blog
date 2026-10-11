@@ -125,7 +125,44 @@
   "mdFontColor": "Black",
   "mdBorderColor": "Black",
   "mdCSS": "",
-  "scriptEngineSettings": {},
+  "scriptEngineSettings": {
+    "Downloaded/Add Next Step in Process": {
+      "Starting arrowhead": {
+        "value": "none",
+        "valueset": [
+          "none",
+          "arrow",
+          "triangle",
+          "bar",
+          "dot"
+        ]
+      },
+      "Ending arrowhead": {
+        "value": "triangle",
+        "valueset": [
+          "none",
+          "arrow",
+          "triangle",
+          "bar",
+          "dot"
+        ]
+      },
+      "Line points": {
+        "value": 0,
+        "description": "Number of line points between start and end"
+      },
+      "Gap between elements": {
+        "value": 100
+      },
+      "Wrap text at (number of characters)": {
+        "value": 25
+      },
+      "Fix width": {
+        "value": true,
+        "description": "The object around the text should have fix width to fit the wrapped text"
+      }
+    }
+  },
   "previousRelease": "2.22.3",
   "showReleaseNotes": true,
   "excalidrawMasteryPromoCollapsed": false,

@@ -1,0 +1,6 @@
+[
+  "All three with-skill runs passed the five reading-posture checks; each baseline run missed two checks.",
+  "The most consistent differentiator was the explicit change-mind condition: all with-skill runs included one, while none of the baseline runs did.",
+  "Baseline responses already handled context and plain-language explanation well, so the skill's added value is epistemic calibration rather than basic exposition.",
+  "Mean output length rose from 2,657 to 5,149 characters; the skill should use its compressed route when the user asks a narrow question."
+]

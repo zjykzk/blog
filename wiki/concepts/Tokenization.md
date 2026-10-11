@@ -6,8 +6,9 @@ summary: Tokenization converts text into model vocabulary IDs, giving the neural
 category: concepts
 sources:
   - inline:life-of-a-token-2026-05-09
+  - https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb
 created: 2026-05-09T00:00:00+08:00
-updated: 2026-05-09T00:00:00+08:00
+updated: 2026-08-30T21:03:10+0800
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-09
@@ -44,6 +45,7 @@ Exact token identity also matters for [[wiki/concepts/KV Cache]] and [[wiki/conc
 ## Related
 
 - [[wiki/concepts/Next-Token Pipeline]]
+- [[wiki/concepts/Token Embedding]]
 - [[wiki/concepts/Prompt Caching]]
 - [[wiki/concepts/KV Cache]]
 - [[wiki/sources/Life of a Token Source Guide]]

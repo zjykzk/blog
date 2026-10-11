@@ -1,0 +1,44 @@
+{
+  "artifact": "football-dribbling-120s-1080p.mp4",
+  "delivery_status": "tactical_animation_preview",
+  "live_action_present": false,
+  "format": {
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "width": 1920,
+    "height": 1080,
+    "fps": 25,
+    "decoded_frames": 3000,
+    "video_duration_seconds": 120,
+    "audio_duration_seconds": 120,
+    "file_size_bytes": 5489799,
+    "audio_codec": "aac",
+    "sample_rate_hz": 48000,
+    "audio_channels": 2
+  },
+  "checks": {
+    "full_video_audio_decode": "passed, ffmpeg exit 0",
+    "contiguous_scenes": 11,
+    "nonoverlapping_subtitle_cues": 32,
+    "last_subtitle_end_seconds": 118.035,
+    "local_player_links": "all referenced files exist",
+    "visual_inspection": "13 storyboard frames viewed in contact sheet; full-size distance frame and frame decoded at 60 seconds viewed",
+    "schematic_geometry": "sampled token and ball positions throughout; no ball passage through defender token; comparison scenes intentionally cut between demonstrations"
+  },
+  "encoded_audio_measurement": {
+    "method": "FFmpeg loudnorm input measurement on final MP4",
+    "integrated_lufs": -17.43,
+    "true_peak_dbtp": -1.09,
+    "loudness_range_lu": 6.3
+  },
+  "audio_sources": {
+    "voice": "Microsoft Edge TTS zh-CN-YunyangNeural, male Mandarin synthetic voice",
+    "music": "original procedural synth, 94 BPM, voice-sensitive music attenuation"
+  },
+  "limits": [
+    "No real football footage or photorealistic human motion is included or validated.",
+    "Player tokens, defensive coverage and weight-bearing arrows are explanatory graphics, not measured biomechanics.",
+    "Audio was checked for timing and signal levels, not manually auditioned for pronunciation and prosody.",
+    "The local HTML player's resources were checked; browser interaction was not exercised."
+  ]
+}

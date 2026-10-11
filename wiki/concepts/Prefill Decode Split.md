@@ -7,8 +7,9 @@ category: concepts
 sources:
   - https://www.aleksagordic.com/blog/vllm
   - inline:life-of-a-token-2026-05-09
+  - https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb
 created: 2026-05-06T12:17:59+08:00
-updated: 2026-05-09T00:00:00+08:00
+updated: 2026-08-30T21:03:10+0800
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-06
@@ -36,6 +37,8 @@ The Life of a Token source frames this as a split between reading the known prom
 
 The source frames prefill as usually compute-bound and decode as often memory-bandwidth-bound.
 
+This is a common operating regime, not a universal classification: batch size, sequence length, model architecture, quantization, kernels, and hardware can move either phase across the compute/bandwidth boundary. [[wiki/concepts/Arithmetic Intensity]] makes that boundary explicit. ^[inferred]
+
 That difference matters because a long prompt can monopolize an engine step if it is prefilling all at once, while decode traffic is latency-sensitive because users perceive inter-token delay.
 
 ## Chunked prefill
@@ -57,5 +60,6 @@ The source presents this as a way to control time-to-first-token and inter-token
 - [[wiki/concepts/Continuous Batching]]
 - [[wiki/concepts/LLM Inference Benchmarking]]
 - [[wiki/concepts/Autoregressive Decoding]]
+- [[wiki/concepts/Arithmetic Intensity]]
 - [[wiki/sources/vLLM Inference Systems Source Guide]]
 - [[wiki/sources/Life of a Token Source Guide]]

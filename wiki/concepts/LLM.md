@@ -7,6 +7,7 @@ summary: LLMs are neural text models whose learned tensor computation must be di
 sources:
   - https://www.aleksagordic.com/blog/vllm
   - inline:life-of-a-token-2026-05-09
+  - https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb
 created: 2026-05-01
 base_confidence: 0.44
 lifecycle: draft
@@ -16,7 +17,7 @@ provenance:
   inferred: 0.15
   ambiguous: 0.0
 source_count: 3
-updated: 2026-08-21T22:57:20+0800
+updated: 2026-08-30T21:03:10+0800
 aliases:
   - llm
 tags:
@@ -54,7 +55,7 @@ That distinction matters because user-visible latency, throughput, and cost can 
 
 ## Model computation boundary
 
-The Life of a Token source adds a model-internal boundary: the learned part of the system is a fixed set of floating-point weights that maps token sequences through embeddings, attention, feed-forward layers, a [[wiki/concepts/Transformer Residual Stream|residual stream]], and an LM head.
+The Life of a Token source adds a model-internal boundary: the learned part of the system is a fixed set of floating-point weights that maps token sequences through [[wiki/concepts/Token Embedding|token embeddings]], [[wiki/concepts/Positional Encoding|position information]], [[wiki/concepts/Self-Attention|self-attention]], a [[wiki/concepts/Transformer Feed-Forward Network|feed-forward network]], a [[wiki/concepts/Transformer Residual Stream|residual stream]], and [[wiki/concepts/Unembedding and Weight Tying|unembedding]].
 
 Surrounding operations such as sampling, stop checks, cache management, safety filtering, and output validation are ordinary control-flow software around the [[wiki/concepts/Next-Token Pipeline]]. This is the [[wiki/concepts/Neural Network Inference Boundary]].
 
@@ -63,6 +64,9 @@ Surrounding operations such as sampling, stop checks, cache management, safety f
 - [[wiki/concepts/Agent]]
 - [[wiki/concepts/Logits]]
 - [[wiki/concepts/Next-Token Pipeline]]
+- [[wiki/concepts/Token Embedding]]
+- [[wiki/concepts/Self-Attention]]
+- [[wiki/concepts/Transformer Feed-Forward Network]]
 - [[wiki/concepts/Neural Network Inference Boundary]]
 - [[wiki/topics/LLM Inference Systems]]
 - [[wiki/maps/AI Map]]

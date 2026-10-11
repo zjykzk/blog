@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>团队协作流动诊断卡</title>
+  <link rel="stylesheet" href="../assets/course.css">
+</head>
+<body>
+<main>
+  <p class="kicker">Reference · 软件工程领导力</p>
+  <h1>协作流动诊断卡</h1>
+  <p class="deck">当团队说“协作太慢”时，不讨论抽象态度。拿一件已经完成的真实工作，沿时间线找摩擦。</p>
+
+  <h2>四个观察量</h2>
+  <div class="grid">
+    <section class="card"><h3>总历时</h3><p>从团队承诺做，到用户可以使用。不是某个工程师开始编码的时间。</p></section>
+    <section class="card"><h3>活跃工作时间</h3><p>需求澄清、设计、编码、评审、测试、发布中真正有人推进的时间。</p></section>
+    <section class="card"><h3>等待时间</h3><p>总历时减活跃工作时间。标记在等谁、等什么条件、为什么不能继续。</p></section>
+    <section class="card"><h3>交接次数</h3><p>责任主体发生改变，且接手者需要重新建立上下文的次数。</p></section>
+  </div>
+
+  <h2>快速算法</h2>
+  <ol class="checklist">
+    <li>选一件最近完成、规模普通、跨过主要角色的需求。</li>
+    <li>画出从承诺到上线的关键事件，不补写理想流程。</li>
+    <li>给每段标记“工作”或“等待”，圈出所有责任交接。</li>
+    <li>计算：等待时间 = 总历时 − 活跃工作时间。</li>
+    <li>只挑最长的一段等待，写出一个可证伪的机制假设。</li>
+    <li>设计两周内可撤销的小实验；同时观察速度与质量。</li>
+  </ol>
+
+  <h2>常见机制假设</h2>
+  <div class="grid">
+    <section class="card"><h3>批量过大</h3><p>工作只有凑成一批才被评审、测试或发布。</p></section>
+    <section class="card"><h3>在制品过多</h3><p>每个人都很忙，但完成之前又不断启动新工作。</p></section>
+    <section class="card"><h3>责任边界破碎</h3><p>一次价值交付必须反复跨团队、跨角色重新排队。</p></section>
+    <section class="card"><h3>决策权不清</h3><p>信息已经足够，但不知道谁能拍板，或决定不断被推翻。</p></section>
+    <section class="card"><h3>反馈回路过长</h3><p>代码、方案或需求的错误在很久以后才暴露。</p></section>
+    <section class="card"><h3>认知负荷过高</h3><p>推进一件事需要掌握过多系统、规则、工具和隐性知识。</p></section>
+  </div>
+
+  <h2>领导者的提问</h2>
+  <p class="thesis">不要先问：“谁慢了？”<br>先问：“工作在哪儿停止流动？系统为什么允许它停在那里？”</p>
+
+  <p class="citation">依据：<a href="https://dora.dev/devops-capabilities/process/wip-limits/">DORA — WIP Limits</a>；<a href="https://kanban.university/kanban-guide/">Kanban University — Kanban Guide</a>；<a href="https://queue.acm.org/detail.cfm?id=3595878">ACM Queue — DevEx</a>。</p>
+  <nav><a href="../lessons/0001-see-collaboration-as-flow.html">← 返回第一课</a><span>打印版速查材料</span></nav>
+</main>
+</body>
+</html>

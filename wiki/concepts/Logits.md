@@ -12,8 +12,9 @@ aliases:
   - 原始预测分数
 sources:
   - conversation:2026-08-21
+  - https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb
 created: 2026-08-21T22:52:35+0800
-updated: 2026-08-21T22:52:35+0800
+updated: 2026-08-30T21:03:10+0800
 summary: Logits 是 LLM 在每个生成位置为整个词表产生的原始相对分数；softmax 和解码策略随后把这片可能性空间收缩成一个 token。
 provenance:
   extracted: 0.88
@@ -30,6 +31,8 @@ relationships:
     type: related_to
   - target: "[[wiki/concepts/LLM]]"
     type: related_to
+  - target: "[[wiki/concepts/Unembedding and Weight Tying]]"
+    type: derived_from
 ---
 
 # Logits
@@ -90,6 +93,8 @@ next token
 ~~~
 
 模型直接产生 *raw logits*。Temperature、repetition penalty、logit bias、非法 token mask、top-k、top-p 和 guided decoding 等策略在模型与最终选择之间改变或筛选这组分数；工程库有时也把处理后的分数笼统称为 logits。
+
+在 GPT-2 的例子里，[[wiki/concepts/Unembedding and Weight Tying|unembedding]] 把最后位置的隐藏状态投影到 50,257 个词表方向。这个投影输出仍是实数 logits；只有后续 argmax 或 sampling 才产生整数 token ID。Top-k 只裁剪候选集，若裁剪后仍随机采样，它并不保证选择 top-1。^[inferred]
 
 ## What Stays Fixed
 
@@ -156,6 +161,8 @@ inference system = 在硬件和并发约束下运行整个循环
 - [[wiki/concepts/Linear Layer]]
 - [[wiki/concepts/LLM]]
 - [[wiki/concepts/Next-Token Pipeline]]
+- [[wiki/concepts/Unembedding and Weight Tying]]
+- [[wiki/concepts/Logit Lens]]
 - [[wiki/concepts/Autoregressive Decoding]]
 - [[wiki/concepts/Neural Network Inference Boundary]]
 - [[wiki/topics/LLM Inference Systems]]

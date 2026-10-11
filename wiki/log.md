@@ -386,18 +386,26 @@ tags:
 - [2026-09-01T23:34:53+0800] CAPTURE type=concept page="wiki/concepts/Institution as Consequence Structure.md" title="制度作为后果结构"
 - [2026-09-01T23:53:00+0800] CAPTURE type=concept page="wiki/concepts/Universality of Physical Law.md" title="Universality of Physical Law"
 - [2026-09-05T15:52:30+0800] CAPTURE type=synthesis page="wiki/syntheses/Music Genres as Philosophies of Life.md" title="Music Genres as Philosophies of Life"
+- [2026-09-07T23:52:13+0800] CAPTURE type=concept page="wiki/concepts/Causal Reasoning.md" title="Causal Reasoning"
 - [2026-09-09T21:39:46+0800] CAPTURE type=source page="wiki/sources/The Tiers of Context Engines Source Guide.md" title="The Tiers of Context Engines Source Guide"
 - [2026-09-09T21:39:46+0800] CAPTURE type=synthesis page="wiki/syntheses/Agent Knowledge Architecture.md" title="Agent Knowledge Architecture"
 - [2026-09-10T21:06:40+0800] QUERY query="https://claude.com/blog/the-ai-native-sdlc-playbook 这篇文章在 wiki 里面吗" result_pages=0 mode=normal escalated=true
 - [2026-09-10T21:22:11+0800] INGEST_URL url="https://claude.com/blog/the-ai-native-sdlc-playbook" page="wiki/sources/The AI-Native SDLC Playbook Source Guide.md" project=null pages_created=1 pages_updated=7 mode=append
+- [2026-09-11T00:00:00+0800] CAPTURE type=concept page="wiki/concepts/Long-Running Agent Harness.md" title="Long-Running Agent Harness"
+- [2026-09-11T00:00:00+0800] CAPTURE type=source page="wiki/sources/Effective Harnesses for Long-Running Agents Source Guide.md" title="Effective Harnesses for Long-Running Agents Source Guide"
+- [2026-09-12T00:00:00+0800] CAPTURE type=concept page="wiki/concepts/Attention as the Scarce Resource.md" title="Attention as the Scarce Resource"
+- [2026-09-12T00:00:00+0800] CAPTURE type=source page="wiki/sources/The Conductor Developer Source Guide.md" title="The Conductor Developer Source Guide"
 - [2026-09-14T16:35:10+0800] CAPTURE type=source page="wiki/sources/Three Constraints for Building Products Source Guide.md" title="Three Constraints for Building Products Source Guide"
 - [2026-09-19T17:56:15+0800] CAPTURE type=concept page="wiki/concepts/Belief and Attitude.md" title="Belief and Attitude"
 - [2026-09-19T17:56:16+0800] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=1
+- [2026-09-21T22:14:47+0800] QUERY query="表征 图式" result_pages=4 mode=normal escalated=false
 - [2026-09-21T23:22:10+0800] CAPTURE type=source page="wiki/sources/Agentic Engineering at Zalando Source Guide.md" title="Agentic Engineering at Zalando Source Guide"
 - [2026-09-21T23:22:11+0800] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=1
 - [2026-09-25T17:23:00+08:00] CAPTURE type=concept page="wiki/concepts/Existence Desire and Problem Cycles.md" title="Existence Desire and Problem Cycles"
 - [2026-09-25T17:23:00+08:00] UPDATE type=concept page="wiki/concepts/Nature of a Question.md" reason="区分问题处境与被意识到的认知行动问题，链接存在与欲望循环"
 - [2026-09-25T17:23:00+08:00] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=1
+- [2026-09-25T21:27:38+0800] QUERY query="如何学习一门学科" result_pages=5 mode=normal escalated=false
+- [2026-09-25T21:29:34+0800] QUERY query="wiki 中有 MIT 一个学生的学习方法吗" result_pages=2 mode=normal escalated=false
 - [2026-09-26T22:35:00+08:00] CAPTURE type=synthesis page="wiki/syntheses/Cognition Functional Framework.md" title="Cognition Functional Framework" qmd="skipped: QMD_WIKI_COLLECTION unset"
 - [2026-09-26T22:35:00+08:00] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=1
 - [2026-09-29T18:14:09+0800] CAPTURE type=source page="wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide.md" title="Software Engineering 3.0 Judgment Shift Source Guide" source="Excalidraw/ai effective.md"
@@ -407,14 +415,26 @@ tags:
 - [2026-10-01T01:10:38+0800] CAPTURE type=source page="wiki/sources/Dream-RSI Paper Source Guide.md" title="Dream-RSI Paper Source Guide" qmd="skipped: QMD_WIKI_COLLECTION unset"
 - [2026-10-01T01:10:38+0800] CAPTURE type=concept page="wiki/concepts/Discovery Replay Simulator.md" title="Discovery Replay Simulator" qmd="skipped: QMD_WIKI_COLLECTION unset"
 - [2026-10-01T01:10:38+0800] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=2
+- [2026-10-03T11:43:34+08:00] CAPTURE type=source page="wiki/sources/On the Nature of Time Source Guide.md" title="On the Nature of Time Source Guide" qmd="skipped: QMD_WIKI_COLLECTION unset"
+- [2026-10-03T11:43:34+08:00] UPDATE type=concept page="wiki/concepts/Arrow of Time.md" reason="Distinguish computational prediction limits from time direction and low-entropy boundary conditions"
+- [2026-10-03T11:43:34+08:00] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=2
 
 - [2026-10-03T16:01:27+08:00] CAPTURE type=source page="wiki/sources/Math and AI Misalignment Source Guide.md" title="Math and AI Misalignment Source Guide" pages_updated="wiki/concepts/Evaluation.md;wiki/concepts/Understanding.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
+
+- [2026-10-05T05:49:32+08:00] CAPTURE type=source page="wiki/sources/Prospects for an Engineering Discipline of Software Source Guide.md" title="Prospects for an Engineering Discipline of Software Source Guide" pages_updated="wiki/topics/Modern Software Engineering.md;wiki/maps/CS Map.md;wiki/maps/Reading Map.md;wiki/index.md;wiki/hot.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
+- [2026-10-05T05:49:32+08:00] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=1
+
+- [2026-10-05T05:56:58+08:00] QUERY query="到现在为止有哪些软件工程实践符合 Mary Shaw 的定义" result_pages=3 mode=normal escalated=true external_sources="PostgreSQL;Rust;SQLite;Google SRE;AWS formal methods"
 
 - [2026-10-05T16:18:21+0800] CAPTURE type=source page="wiki/sources/AI Evals FAQ Source Guide.md" title="AI Evals FAQ Source Guide" pages_updated="wiki/concepts/Evaluation.md;wiki/maps/AI Map.md;wiki/maps/Reading Map.md;wiki/index.md;wiki/hot.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
 - [2026-10-05T16:18:21+0800] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=2
 
 - [2026-10-05T23:53:05+0800] CAPTURE type=synthesis page="wiki/syntheses/Buddhist Practice Nihilism and Liberation.md" title="佛法修行、虚无与解脱" pages_updated="wiki/concepts/佛家觉悟结构.md;wiki/maps/Mechanism Models Map.md;wiki/index.md;wiki/hot.md" source="/Users/zenk/Context/20261005T234939--圆桌-佛法修行终点与虚无__roundtable.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
 - [2026-10-06T10:17:38+0800] UPDATE type=synthesis page="wiki/syntheses/成就感驱动与行动动力结构.md" title="成就感驱动与行动动力结构" pages_updated="wiki/maps/Learning Map.md;wiki/maps/Mechanism Models Map.md;wiki/index.md;wiki/hot.md" source="/Users/zenk/Context/20261005T163937--圆桌-人的动力__roundtable.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
+- [2026-10-06T12:23:45+0800] QUERY query="怎样帮助孩子自主学习；推荐地图书、深挖书和反方书" result_pages=4 mode=normal escalated=true
+- [2026-10-06T12:28:04+0800] QUERY query="继续推荐如何学习主题书籍" result_pages=4 mode=normal escalated=false
+- [2026-10-06T12:49:49+0800] CAPTURE type=topic page="wiki/topics/World Knowledge Reading Roadmap.md" title="世界基本认知持续阅读清单" pages_updated="wiki/maps/Reading Map.md;wiki/index.md;wiki/hot.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
+- [2026-10-06T13:13:38+0800] UPDATE type=topic page="wiki/topics/World Knowledge Reading Roadmap.md" title="世界基本认知持续阅读清单" reason="add thinking-training books, reading order, and weekly judgment practice protocol" pages_updated="wiki/hot.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
 - [2026-10-06T13:18:48+0800] CAPTURE type=synthesis page="wiki/syntheses/Problem-Driven Reading Workbench.md" title="问题驱动的阅读工作台" pages_updated="wiki/topics/Learning Methodology.md;wiki/topics/World Knowledge Reading Roadmap.md;wiki/maps/Reading Map.md;wiki/index.md;wiki/hot.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
 - [2026-10-06T15:29:40+0800] UPDATE type=concept page="wiki/concepts/Mechanism Model.md" title="Mechanism Model" reason="explain six analytic roles and missing-dimension blind spots; add parenting outing example" pages_updated="wiki/maps/Mechanism Models Map.md;wiki/index.md;wiki/hot.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
 - [2026-10-06T16:06:02+0800] CAPTURE type=concept page="wiki/concepts/Methodology.md" title="Methodology" pages_updated="wiki/concepts/问题解决铁三角.md;wiki/concepts/方法论双循环.md;wiki/maps/Classification Thinking Map.md;wiki/index.md;wiki/hot.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
@@ -422,3 +442,9 @@ tags:
 - [2026-10-06T16:39:47+0800] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=1
 - [2026-10-06T23:40:38+0800] CAPTURE type=source page="wiki/sources/Building and Deploying AI Applications Source Guide.md" title="Building and Deploying AI Applications Source Guide" pages_updated="wiki/sources/AI Engineering Skills Map Source Guide.md;wiki/syntheses/AI Engineering Workflow.md;wiki/maps/AI Map.md;wiki/maps/CS Map.md;wiki/index.md;wiki/hot.md" source="https://x.com/AndrewYNg/article/2090840747738374568" qmd="skipped: QMD_WIKI_COLLECTION unset"
 - [2026-10-06T23:40:38+0800] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=1
+- [2026-10-08T23:17:28+0800] CAPTURE type=source page="wiki/sources/Anti-Patterns in Software Blogging Source Guide.md" title="Anti-Patterns in Software Blogging Source Guide" pages_updated="wiki/concepts/Logic Tree and Pyramid Principle.md;wiki/maps/CS Map.md;wiki/index.md;wiki/hot.md" source="https://refactoringenglish.com/blog/anti-patterns-software-blogging/" qmd="skipped: QMD_WIKI_COLLECTION unset"
+- [2026-10-10T14:37:15+0800] CAPTURE type=source page="wiki/sources/The Physicists Philosophy of Physics Source Guide.md" title="The Physicists’ Philosophy of Physics Source Guide" pages_updated="wiki/concepts/Universality of Physical Law.md;wiki/maps/Mechanism Models Map.md;wiki/maps/Reading Map.md;wiki/index.md;wiki/hot.md" source="https://arxiv.org/abs/2401.16506" qmd="skipped: QMD_WIKI_COLLECTION unset"
+- [2026-10-10T19:36:48+0800] CAPTURE type=topic page="wiki/topics/Rule Adjudication Agent Evaluation.md" title="Rule Adjudication Agent Evaluation" pages_updated="wiki/concepts/Agent Evaluation Metric Vector.md;wiki/concepts/Confusion Matrix.md;wiki/maps/AI Map.md;wiki/index.md;wiki/hot.md" source="conversation:2026-10-10" qmd="skipped: QMD_WIKI_COLLECTION unset"
+- [2026-10-10T19:36:48+0800] CAPTURE type=concept page="wiki/concepts/Confusion Matrix.md" title="Confusion Matrix" pages_updated="wiki/concepts/Agent Evaluation Metric Vector.md;wiki/topics/Rule Adjudication Agent Evaluation.md;wiki/maps/AI Map.md;wiki/index.md;wiki/hot.md" source="conversation:2026-10-10" qmd="skipped: QMD_WIKI_COLLECTION unset"
+- [2026-10-10T19:36:48+0800] CAPTURE type=source page="wiki/sources/Agent Benchmark Landscape Research Report Source Guide.md" title="Agent Benchmark Landscape Research Report Source Guide" pages_updated="wiki/topics/Rule Adjudication Agent Evaluation.md;wiki/maps/AI Map.md;wiki/index.md;wiki/hot.md" source="/Users/zenk/Documents/Agent_Benchmark_Landscape_Research_20261010/research_report_20261010_agent_benchmark_landscape.md" qmd="skipped: QMD_WIKI_COLLECTION unset"
+- [2026-10-10T19:36:48+0800] TAG_AUDIT tags_normalized=0 unknown_tags=0 pages_modified=3

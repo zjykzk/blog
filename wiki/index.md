@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-10-06T23:40:38+0800
+updated: 2026-10-10T19:36:48+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -45,6 +45,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/AI Harness|AI Harness]] — AI Harness is the runtime order layer and cybernetic steering system that connects model, context, tools, permissions, state, recovery, cache stability, and feedback loops. (#agents #harness #runtime)
 - [[wiki/topics/AI Memory|AI Memory]] — AI Memory is the persistent state layer that lets agents and organizations retain, retrieve, update, and learn from experience beyond one context window. (#agents #memory #context)
 - [[wiki/topics/AI Skills Workflow|AI Skills Workflow]] — AI Skills Workflow treats skills as reusable workflows that gather, order, persist, and reload context for more stable agent behavior. (#skills #workflow)
+- [[wiki/topics/Rule Adjudication Agent Evaluation|Rule Adjudication Agent Evaluation]] — 规则裁决 Agent 评测把合规判断拆成适用性、事实、构成要件、例外和证据充分性，并用裁决图、边界样本和错误方向定位失败。 ( #agents #testing #metrics #judgment #feedback)
 - [[wiki/topics/BoltDB Internals|BoltDB Internals]] — BoltDB 是一个非常适合入门数据库实现的案例：代码量相对小，但已经覆盖了页式存储、B+ 树、事务、空闲页管理、写时复制等核心机制。 (#database #storage #golang)
 - [[wiki/topics/Categorical Thinking|Categorical Thinking]] — 分类思维选择维度并切开对象，是结构化思维中最基础的操作动作之一。
 - [[wiki/topics/Classification Procedure|Classification Procedure]] — 分类流程把分类从“列类别”改成一套目标牵引的操作：先确定对象和用途，再选维度、划边界、验行动差异。 (#thinking #reasoning #judgment)
@@ -78,6 +79,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/Testing Purpose|Testing Purpose]] — 测试的直接目的，不是追求某个表面指标，而是增加对代码正确性的信心。 (#testing #quality #software-engineering)
 - [[wiki/topics/Testing Strategy|Testing Strategy]] — Testing Strategy combines test layering, test purpose, and AI-era quality gates to increase confidence in software changes. (#testing #quality #software-engineering)
 - [[wiki/topics/Theory of Everything Popular Science|Theory of Everything Popular Science]] — 万物理论（大统一/量子引力）方向的科普高分书单与阅读路线：从罗韦利、格林入门，读透弦论与圈量子引力两条路线，再补上批判与大师原声。 (#physics #reading #books)
+- [[wiki/topics/World Knowledge Reading Roadmap|世界基本认知持续阅读清单]] — 持续维护自然、社会、人及学习方法的阅读队列，以地图、机制、反方和整合四类书逐步建立可校验的世界模型。 ( #reading #books #learning #cognition #systems)
 - [[wiki/topics/Thinking in Systems|Thinking in Systems]] — 系统视角把反复问题放进边界、要素、连接、反馈、延迟、目标和杠杆点中理解。 (#systems-thinking #feedback #mental-models)
 - [[wiki/topics/Tool Routing|Tool Routing]] — 当前笔记里关于 router / adapter 的判断，可以进一步抽成一个独立主题：工具路由不是附属细节，而是 agent 系统的核心结构设计。 (#agents #tools)
 - [[wiki/topics/TRAE Agent Capability Preparation Plan|TRAE Agent Capability Preparation Plan]] — TRAE Agent 能力准备计划围绕 AI Coding Agent 的架构、上下文、模型路由、验证闭环、指标和实验体系组织面试准备。 (#ai-coding #agents #context-engineering #career)
@@ -92,13 +94,16 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Discovery Replay Simulator|Discovery Replay Simulator]] — 用逐步揭示的历史发现树比较探索规则，复用执行结果，同时保留有限支持域与线上泛化边界。 ( #agents #harness #optimization #memory #feedback)
 - [[wiki/concepts/Existence Desire and Problem Cycles|存在、需要、欲望与问题循环]] — 区分身体存在、维持需要、自我调节与有意识欲望，解释问题如何由目标与条件的不匹配产生，以及身体消耗、目标变化和行动后果怎样引出下一轮。 ( #cognition #psychology #systems #mechanism #feedback)
 - [[wiki/concepts/Belief and Attitude|Belief and Attitude]] — Belief 把命题接受为真，attitude 则把事实判断、价值、情感和社会代价压成对对象的评价与行动倾向；二者在经验与反馈中相互塑造。 ( #psychology #cognition #judgment #learning #mechanism)
+- [[wiki/concepts/Attention as the Scarce Resource|Attention as the Scarce Resource]] — AI 让代码生成变廉价后，软件开发的瓶颈不再是任一交付阶段，而是人的注意力；顶尖开发者从"独奏者"变成"指挥"（编排 8+ agent），需要像高管一样保护注意力、管理精力、减少决策、把系统状态外置。 (#agents #ai-coding #attention #judgment)
+- [[wiki/concepts/Long-Running Agent Harness|Long-Running Agent Harness]] — 把跨多个上下文窗口的长任务拆成初始化角色（把大任务钉成可测任务清单+搭环境）与执行角色（逐条增量推进、每轮把代码/清单/进度/git 留作可续接工件）；本质是把 agent 记忆外置到文件系统与 git。 (#agents #harness #memory #context #workflow)
 - [[wiki/concepts/Political Left and Right|政治光谱：左派与右派]] — 左派/右派不是固定立场，而是相对于“现存秩序”的态度与“平等 vs 自由/秩序”的排序；参照系不同标签会颠倒，中国语境与西方几乎镜像。 (#politics #thinking #systems #judgment)
 - [[wiki/concepts/Institution as Consequence Structure|制度作为后果结构]] — 制度是被共同承认并可稳定维持的行为规则与后果结构；奖惩决定做不做，资格决定谁能做，程序决定怎样做才被承认。 ( #organization #management #systems #mechanism)
 - [[wiki/concepts/Life as Dissipative Information Structure|Life as Dissipative Information Structure]] — 生命不是“违反熵增的有序”，而是利用环境自由能维持低熵结构、并复制自身信息的非平衡系统；真正必需的不是“分子”，而是能稳定承载信息、可因果作用、处于非平衡态的物理自由度。 (#physics #systems #mechanism #cognition #learning)
 - [[wiki/concepts/Entropy|Entropy]] — 熵最好理解为“一个宏观状态背后有多少种微观状态能实现它”，而不是“混乱程度”；熵增是概率/组合结果，热力学熵 S=k_B lnΩ 与信息熵 H=-Σp log p 背后是同一分布结构，等概率时 S=k_B H。 (#physics #systems #mechanism #reasoning #learning)
 - [[wiki/concepts/Arrow of Time|Arrow of Time]] — 微观定律时间反演对称，宏观却有“过去→未来”方向；时间箭头不来自微观定律，而来自低熵初始条件（Past Hypothesis）、统计规律与粗粒化。 (#physics #systems #mechanism #reasoning #cognition)
-- [[wiki/concepts/Universality of Physical Law|Universality of Physical Law]] — 物理定律处处适用不是被证明的定理，而是每天被观测检验、至今未被证伪的经验假设；可逐层还原为对称=无差别=不可分辨=自我同一（A=A）。 (#physics #systems #mechanism #reasoning #cognition)
+- [[wiki/concepts/Universality of Physical Law|Universality of Physical Law]] — 物理定律处处适用不是被证明的定理，而是由跨方法预测、独立测量与理论继承不断检验的经验假设；对称性解释其结构，近似收敛解释物理学为何把它看作现实。 (#physics #systems #mechanism #reasoning #cognition)
 - [[wiki/concepts/Relation as Contextual Constraint|Relation as Contextual Constraint]] — 关系是在特定语境中约束对象如何共同出现、被理解或发生变化的规则；“有关系”若不说明类型、方向、边界和证据，仍只是一个低信息量命题。 ( #thinking #reasoning #systems #mechanism)
+- [[wiki/concepts/Causal Reasoning|Causal Reasoning]] — 因果推理判断主动改变某个因素后结果是否会变化，核心是把相关性、共同原因、选择偏差和真实干预效应区分开。 ( #thinking #reasoning #mechanism #probability #judgment)
 - [[wiki/concepts/Search and Learning as Meta-Methods|Search and Learning as Meta-Methods]] — 搜索与学习是元能力：不装载领域答案，只装载产生答案的过程，因此能随算力任意扩展；本质是同一台"生成→评估→改进"的发现引擎，人则把这台引擎的算力预付在演化与文化里。 (#training #cognition #llm #learning)
 - [[wiki/concepts/Class as Learned Invariance|Class as Learned Invariance]] — 学习判断"同一类"不是查表归档，而是在表示空间里、由归纳偏置引导、被评价信号裁定，发现一条"什么变了也不改变答案"的不变性；划对了叫抽象，划错了叫过拟合。 (#training #cognition #learning #llm)
 - [[wiki/concepts/Doris Join Shuffle Strategy|Doris Join Shuffle Strategy]] — Doris 的 Join 分两层选型：先定算法（Hash/Nest Loop），再定分布（Broadcast/Shuffle/Bucket Shuffle/Colocate），网络代价从 N×T(R) 降到 0；Runtime Filter 再动态裁掉大表探测前的行数。 (#database #doris #olap #join #query-optimization)
@@ -123,6 +128,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Agentic Engineering|Agentic Engineering]] — Agentic engineering is production AI coding where humans shape harnesses, checks, skills, and attention allocation instead of merely prompting or approving diffs. (#agents #ai-coding #software-engineering)
 - [[wiki/concepts/Agent Evaluation CLASSic Framework|Agent Evaluation CLASSic Framework]] — Agent Evaluation CLASSic Framework evaluates agent systems by cost, latency, accuracy, security, and stability instead of static answer quality alone. (#agents #evaluation #safety)
 - [[wiki/concepts/Agent Evaluation Metric Vector|Agent Evaluation Metric Vector]] — Agent Evaluation Metric Vector treats agent evaluation as a trajectory-level vector of success, cost, tool correctness, robustness, safety, and intervention metrics. (#agents #evaluation #safety)
+- [[wiki/concepts/Confusion Matrix|Confusion Matrix]] — 混淆矩阵交叉统计标准答案与系统预测，使准确率隐藏的漏报、误伤、错误拒判和过度裁决方向可见。 ( #metrics #testing #judgment #agents)
 - [[wiki/concepts/Agentic AI Architecture Taxonomy|Agentic AI Architecture Taxonomy]] — Agentic AI Architecture Taxonomy decomposes agent systems into core components, cognitive architecture, learning, multi-agent systems, environments, and evaluation. (#agents #architecture #taxonomy)
 - [[wiki/concepts/Agentic Control Loop|Agentic Control Loop]] — Agentic Control Loop models an LLM agent as perception, memory update, planning, action, execution feedback, and repeated state transition. (#agents #architecture #control-loop)
 - [[wiki/concepts/Loop Engineering|Loop Engineering]] — Loop Engineering stacks execution, verification, event-triggering, and trace-driven improvement loops around an agent so value compounds beyond one model call. (#agents #harness #feedback #workflow)
@@ -330,11 +336,16 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
-- [[wiki/sources/AI Evals FAQ Source Guide|AI Evals FAQ Source Guide]] — 从真实 traces 发现产品失败，把专家判断变成可验证的单项检查，再连接 CI、生产监控与持续改进；同时解释 criteria drift 与动态测试集。 ( #article #llm #feedback #metrics #testing)
+- [[wiki/sources/Anti-Patterns in Software Blogging Source Guide|软件博客反模式]] — Michael Lynch 用六类反模式说明技术文章应尽快承诺价值、控制知识依赖、保持页内自足，并把语言与网页呈现纳入读者体验。 ( #article #software-engineering #cognition #frontend)
 - [[wiki/sources/AI Engineering Skills Map Source Guide|AI Engineering Skills Map Source Guide]] — Andrew Ng 将 AI 工程能力分为 AI 应用交付、软件工程判断、coding agent 使用和产品塑造四层，并以持续学习维持整套能力。 ( #article #agents #ai-coding #software-engineering #judgment)
 - [[wiki/sources/Building and Deploying AI Applications Source Guide|Building and Deploying AI Applications Source Guide]] — Andrew Ng 将 AI 应用交付拆成 LLM/ML 基础、grounding、agentic systems、eval 驱动开发和生产运营，重点是用反馈把不可靠组件组织成可靠系统。 ( #article #llm #agents #feedback #software-engineering)
+- [[wiki/sources/AI Evals FAQ Source Guide|AI Evals FAQ Source Guide]] — 从真实 traces 发现产品失败，把专家判断变成可验证的单项检查，再连接 CI、生产监控与持续改进；同时解释 criteria drift 与动态测试集。 ( #article #llm #feedback #metrics #testing)
+- [[wiki/sources/Agent Benchmark Landscape Research Report Source Guide|Agent Benchmark Landscape Research Report Source Guide]] — 42 个一手与官方来源构成的 Agent benchmark 地图，比较任务构念、环境、grader、可靠性和生命周期，并提出静态回归、fresh/OOD 与私有 canary 三层组合。 ( #survey #agents #metrics #testing #judgment)
+- [[wiki/sources/Prospects for an Engineering Discipline of Software Source Guide|软件成为工程学科的前景]] — Mary Shaw（1990）区分工艺、商业生产与专业工程，以历史对照和知识编纂循环解释常规设计能力的形成。 ( #paper #software-engineering #learning #organization #feedback)
 - [[wiki/sources/Math and AI Misalignment Source Guide|数学与 AI 的目标错位]] — 数学家联署宣言：区分解题成果、概念理解与共同体传承，分析成果与能力分离、吸收速度失配及评价激励风险。 ( #article #llm #learning #metrics #organization)
 
+- [[wiki/sources/On the Nature of Time Source Guide|On the Nature of Time Source Guide]] — Wolfram 以计算不可约性与有限观察者解释时间展开，并分析时间方向、单一历史、共同现实及 Ruliad 所需的额外条件。 ( #article #physics #cognition #reasoning #mechanism)
+- [[wiki/sources/The Physicists Philosophy of Physics Source Guide|The Physicists’ Philosophy of Physics Source Guide]] — Peebles 把物理学的隐含工作哲学压成四个可修正假设，并用跨方法证据收敛、风险预测和旧理论的近似继承解释物理学为何自认在逼近独立现实。 ( #paper #physics #reasoning #mechanism)
 - [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] — 固定模型下利用历史回放优化探索调度；保留 Lasso、数学和 GPU 结果、逐项反例及完整成本限制。 ( #paper #agents #harness #optimization #memory)
 - [[wiki/sources/The Tiers of Context Engines Source Guide|The Tiers of Context Engines Source Guide]] — 按上下文规划由谁运行，把 Context Engine 分成人工、产品内嵌、平台配置和自建工程四种形态，并以控制、杠杆和集成引力解释选择。 ( #article #agents #context #architecture)
 - [[wiki/sources/检索推理规划与Agent问题求解 Source Guide|检索推理规划与Agent问题求解 Source Guide]] — 保存一段中文对话：从检索与推理的区别出发，讨论 LLM 推理的本质、模式匹配之争、规划作为目标导向推理、上下文与记忆、状态，并汇成 Agent 作为问题求解系统的统一模型。 (#agents #reasoning #llm #problem-solving #llm-wiki)
@@ -474,6 +485,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/LLM Reasoning Is Latent, Not the Chain of Thought Source Guide|LLM Reasoning Is Latent, Not the Chain of Thought Source Guide]] — 这篇 arXiv 论文更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#paper #arxiv #reasoning #llm)
 - [[wiki/sources/LLM Wiki Source Guide]] — Source guide for Karpathy's LLM Wiki idea file: a persistent, LLM-maintained Markdown wiki that compiles raw sources into cumulative, cross-linked knowledge. (#article #llm #agents #memory #llm-wiki)
 - [[wiki/sources/Lost in the Middle Paper Source Guide|Lost in the Middle Paper Source Guide]] — Source guide for the Lost in the Middle paper, focused on long-context positional bias and evaluation protocols for usable context. (#paper #llm #context #evaluation)
+- [[wiki/sources/Effective Harnesses for Long-Running Agents Source Guide|Effective Harnesses for Long-Running Agents Source Guide]] — Anthropic 工程文章：用初始化 Agent（搭环境+任务清单）与执行 Agent（逐 feature 增量推进+留 git/进度工件）两种初始 prompt，让 agent 跨多个上下文窗口稳定接力完成长任务。 (#agents #harness #anthropic #memory #context)
 - [[wiki/sources/Managed Agents Source Guide|Managed Agents Source Guide]] — 这篇 Anthropic engineering article 更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#agents #harness #anthropic)
 - [[wiki/sources/Memory Is State Not a Service Source Guide|Memory Is State Not a Service Source Guide]] — Source guide for NanoThoughts' Company Brain article arguing that memory must be shared inspectable state, not isolated tool-local memory services. (#article #agents #memory #organization)
 - [[wiki/sources/Meta-Harness Paper Source Guide|Meta-Harness Paper Source Guide]] — Source guide for the Meta-Harness paper, focused on automated search over executable model harnesses using full filesystem access to code, scores, and traces. (#paper #arxiv #agents #harness)
@@ -503,6 +515,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/React 状态范围与复杂全局状态 Source Guide]] — 这页保存一段中文 React 状态管理追问：从 Hook 选择推进到复杂全局状态、高频细粒度更新和“全局”范围判断。 (#article #frontend #architecture)
 - [[wiki/sources/web_chunk|Web Chunk Source Guide]] — 这页保存一份中文前端构建讲解：bundler 把源码 module graph 转换成 chunks/assets，loadable 只是提供代码分割信号。 (#frontend #architecture #software-engineering)
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide|Reducing Friction in AI-Assisted Development Source Guide]] — Source guide for Rahul Garg's Martin Fowler article on five patterns for reducing friction in AI-assisted development. (#ai-coding #software-engineering #workflow #collaboration)
+- [[wiki/sources/The Conductor Developer Source Guide|The Conductor Developer Source Guide]] — Source guide for Rachel Laycock's Martin Fowler rambling：AI 让代码变廉价后，瓶颈移到人的注意力，顶尖开发者像指挥一样编排 agent，并需要高管式的精力与注意力管理。 (#article #agents #ai-coding #attention)
 - [[wiki/sources/Revised Bloom Taxonomy Source Guide|Revised Bloom Taxonomy Source Guide]] — Source guide for Anderson and Krathwohl's revised Bloom taxonomy, separating apply from create as cognitive process categories. (#learning #taxonomy #cognition)
 - [[wiki/sources/Seeing Like an Agent Source Guide|Seeing Like an Agent Source Guide]] — Source guide for Thariq Shihipar's Claude Code article on action-space design, tool iteration, elicitation, task coordination, search, and progressive disclosure. (#agents #tools #claude-code)
 - [[wiki/sources/Second-System Effect Source Guide]] — Source guide preserving Fred Brooks's Second-System Effect as a warning that successful lean first systems are often followed by overengineered successors. (#book #software-engineering #architecture #systems)

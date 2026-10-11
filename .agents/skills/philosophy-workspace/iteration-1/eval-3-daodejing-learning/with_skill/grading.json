@@ -1,0 +1,12 @@
+{
+  "expectations": [
+    {"text": "没有把‘为道日损’解释成简单的反学习或反知识", "passed": true, "evidence": "开头直接否定反学习读法，并区分增加知识与减少多余干预。"},
+    {"text": "明确指出单句脱离篇章语境的解释限度", "passed": true, "evidence": "补回第四十八章后续句子，并指出把一句话直接变成行动口号的问题。"},
+    {"text": "用普通话区分知识增加、执著减少与现实判断", "passed": true, "evidence": "用医生增加诊断能力同时减少先入为主和过度干预的例子说明。"},
+    {"text": "没有把直觉神化为真理，并提供了竞争解释", "passed": true, "evidence": "明确区分经验压缩、偏见和恐惧，并指出有些困境来自知识或行动不足。"},
+    {"text": "以有条件、可修改的判断收尾", "passed": true, "evidence": "结尾用知识是否提高预测质量、直觉是否与事实冲突作为改口条件。"}
+  ],
+  "summary": {"passed": 5, "failed": 0, "total": 5, "pass_rate": 1.0},
+  "execution_metrics": {"total_tool_calls": 0, "errors_encountered": 0, "output_chars": 2841},
+  "user_notes_summary": {"uncertainties": ["章句解释未做版本间校勘，本测试只评价阅读姿势。"], "needs_review": [], "workarounds": []}
+}

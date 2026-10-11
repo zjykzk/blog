@@ -15,8 +15,10 @@ aliases:
   - coarse-graining
 sources:
   - chatgpt-share:6a8bdea6-dbe8-83ee-956c-27fdc51ee77e
+  - https://writings.stephenwolfram.com/2024/10/on-the-nature-of-time/
+  - conversation:2026-10-03
 created: 2026-08-24T14:20:00+0800
-updated: 2026-08-24T14:20:00+0800
+updated: 2026-10-03T11:43:34+08:00
 summary: >-
   微观物理定律基本是时间反演对称的，宏观世界却有明确的“过去→未来”；时间箭头不来自微观定律，而来自低熵初始条件（Past Hypothesis）、统计规律与粗粒化——熵增只是从少数微观实现的宏观态走向多数微观实现的宏观态。
 provenance:
@@ -129,6 +131,14 @@ B → A  只有极少微观路径   →   P(B→A) ≈ 0
 
 这把**热力学 → 统计力学 → 信息论**接到同一根轴上：熵既是“有多少种微观实现方式”，也是“我们不知道的那部分信息有多少”。这条线与 [[wiki/concepts/Context Information Density]] 里“信息=不确定性的削减”是同源直觉。^[inferred]
 
+## 计算视角：预测限制与时间方向
+
+Wolfram 在 [[wiki/sources/On the Nature of Time Source Guide|On the Nature of Time]] 中提出：计算不可约的演化可以把简单初态的结构编码进难以识别的微观相关性；有限观察者无法恢复全部细节，因此体验到有序结构的消散。他进一步把可准备、可记忆的过去与难以提前计算的未来联系起来，用以解释热力学和心理时间箭头的对齐。
+
+这一视角补充了粗粒化中的计算能力限制，但“不能普遍跳过计算”首先是预测问题，“为什么选定这个时间方向”则仍是边界条件问题。原文承认，一个特殊有序状态向两个方向演化都可能复杂化，因此计算困难本身不足以选择唯一方向；还需说明低熵边界条件与可靠记录如何形成。^[inferred]
+
+把预测限制、方向选择、连贯历史和观察者之间的共同现实分开，可避免将“有限观察者”当成所有时间现象的充分解释。^[inferred]
+
 ## Why It Matters
 
 - **时间的方向不是基本的，是涌现的。** 它是初始条件加统计规律加描述粒度共同生成的宏观现象，而非写在微观定律里的原语。这是一种典型的“机制生成结果”结构（见 [[wiki/concepts/Mechanism Model]]）。
@@ -160,6 +170,7 @@ B → A  只有极少微观路径   →   P(B→A) ≈ 0
 
 ## Related
 
+- [[wiki/sources/On the Nature of Time Source Guide]] —— 计算不可约性与有限观察者的时间观，以及它与低熵边界条件的关系。
 - [[wiki/concepts/Entropy]] —— 时间箭头建立在“熵=微观实现数”和熵增的概率论证之上。
 - [[wiki/concepts/Universality of Physical Law]] —— 时间箭头是“时间平移对称被低熵初始条件打破”，与定律普适性的对称-守恒轴同源。
 - [[wiki/concepts/Life as Dissipative Information Structure]] —— 宇宙低熵起点→熵增链条是生命出现方向性的前提。

@@ -9,6 +9,8 @@ provenance:
   inferred: 0.05
   ambiguous: 0.00
 sources:
+  - https://refactoringenglish.com/blog/anti-patterns-software-blogging/
+  - https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb
   - https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html
   - https://x.com/AndrewYNg/article/2088302050706686198
   - https://x.com/AndrewYNg/article/2090840747738374568
@@ -16,8 +18,8 @@ created: 2026-04-21
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 11
-updated: 2026-10-06T23:40:38+0800
+source_count: 13
+updated: 2026-10-08T23:17:28+0800
 aliases:
   - Computer Science Map
 tags:
@@ -51,6 +53,8 @@ tags:
 - [[wiki/topics/High Concurrency]]
 - [[wiki/topics/Circuit Breaker]]
 - [[wiki/topics/Go Memory Model]]
+- [[wiki/concepts/Arithmetic Intensity]] — 用 FLOPs/Byte 与 roofline 分界判断算子受计算吞吐还是内存带宽限制，并解释低 batch LLM decode 为什么常被权重搬运卡住。
+- [[wiki/topics/LLM Inference Systems]] — 把模型执行、KV cache、调度、batching 与延迟/吞吐约束组织成一个 token-serving 系统。
 - [[wiki/sources/Principles of Mechanical Sympathy Source Guide]] — hardware-aware performance principles: predictable memory access, cache-line contention, single-writer ownership, and batching.
 - [[wiki/sources/Law of Leaky Abstractions Source Guide]] — abstraction-boundary principle: useful high-level models eventually expose lower-layer behavior at edge cases.
 - [[wiki/sources/Hyrums Law Source Guide|Hyrum's Law Source Guide]] — API-evolution principle: observable behavior becomes de facto contract once enough users depend on it.
@@ -110,6 +114,8 @@ tags:
 
 ## Source layer
 
+- [[wiki/sources/Anti-Patterns in Software Blogging Source Guide|软件博客反模式]] — 用开头绕远、知识假设、链接/续篇依赖、过度正式和 HTML 可读性说明技术文章如何把不必要的理解与操作成本转嫁给读者。
+- [[wiki/sources/Prospects for an Engineering Discipline of Software Source Guide|软件成为工程学科的前景]] — Mary Shaw（1990）：从工艺、商业生产到专业工程，解释经验编纂、科学分析与常规设计如何结合。
 - [[wiki/sources/AI Engineering Skills Map Source Guide]] — 代码执行被 Agent 放大后，软件工程基础承担约束与取舍，产品塑造和验证治理成为新的责任重心。
 - [[wiki/sources/Building and Deploying AI Applications Source Guide]] — AI 系统开发由固定实现计划转向根据 traces、eval 与生产反馈选择下一项模型、数据或架构干预。
 - [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] — 用探索策略改进程序发现的质量与调用量，在 Lasso 和 GPU 优化中区分发现成本、程序性能及逐项回退。

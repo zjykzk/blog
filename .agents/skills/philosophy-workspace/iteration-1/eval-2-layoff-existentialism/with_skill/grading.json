@@ -1,0 +1,12 @@
+{
+  "expectations": [
+    {"text": "先区分裁员事实、当事人的感受与‘人生无意义’这一解释", "passed": true, "evidence": "开头明确区分职位、节奏和身份的丧失、真实痛苦与人生终极判断。"},
+    {"text": "没有用存在主义术语覆盖或美化现实处境", "passed": true, "evidence": "明确拒绝把裁员说成自由或成长，并保留现金流、制度与健康约束。"},
+    {"text": "提出至少一个存在主义之外的竞争解释", "passed": true, "evidence": "给出急性应激、资源危机和结构性伤害等竞争解释。"},
+    {"text": "把身体感受视为信号而非自动正确的结论", "passed": true, "evidence": "将绝望视为需要观察恢复条件和风险变化的真实体验，而非人生事实。"},
+    {"text": "给出下一步可观察差异以及改变判断的条件", "passed": true, "evidence": "列出陪伴、睡眠和基本安排后的变化，以及绝望加重、自伤想法或经济危机出现时的改口条件。"}
+  ],
+  "summary": {"passed": 5, "failed": 0, "total": 5, "pass_rate": 1.0},
+  "execution_metrics": {"total_tool_calls": 0, "errors_encountered": 0, "output_chars": 6789},
+  "user_notes_summary": {"uncertainties": [], "needs_review": [], "workarounds": []}
+}

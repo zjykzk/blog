@@ -14,7 +14,7 @@ base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-10-06T13:18:48+0800
+updated: 2026-10-10T14:37:15+0800
 aliases:
   - 读书地图
 tags:
@@ -49,6 +49,7 @@ tags:
 - [[wiki/topics/架构落地方法]]
 - [[wiki/concepts/架构认知框架]]
 - [[wiki/topics/Theory of Everything Popular Science]] — 万物理论（大统一/量子引力）方向的科普高分书单与阅读路线。
+- [[wiki/topics/World Knowledge Reading Roadmap|世界基本认知持续阅读清单]] — 当前长期阅读队列；按自然、社会、人、学习方法分区，并用地图书、机制书、反方书和整合书控制结构与重复。
 - [[wiki/topics/如何阅读康德]] — 把康德当“论证机器”读：抓“先天综合判断如何可能”，先导论后原著，顺论证不顺结论。
 
 ## Syntheses
@@ -63,6 +64,9 @@ tags:
 ## Current source guides
 
 - [[wiki/sources/AI Evals FAQ Source Guide|AI Evals FAQ]] — 产品评估不是一组静态分数，而是从真实失败中生成标准、验证评估器并持续改写产品的反馈过程。
+- [[wiki/sources/Prospects for an Engineering Discipline of Software Source Guide|软件成为工程学科的前景]] — 土木与化工的历史对照、软件知识编纂循环，以及普通专业者如何取得可靠设计能力。
+- [[wiki/sources/On the Nature of Time Source Guide|On the Nature of Time]] — Wolfram 的计算时间观：从计算不可约性和有限观察者到时间箭头、多路历史与 Ruliad，保留模型主张与论证边界。
+- [[wiki/sources/The Physicists Philosophy of Physics Source Guide|物理学家的物理学哲学]] — Peebles 用四个可修正假设、跨方法证据收敛和旧理论的近似继承，解释物理学为何自认在逼近独立现实。
 - [[wiki/sources/The Art of Doing Science and Engineering Source Guide]] — 《科学与工程的艺术》：技术细节会过时，长期能力是选择重要问题、学习基础结构并修正思维风格。
 - [[wiki/sources/Iceberg Model Source Guide]]
 - [[wiki/sources/Modern Software Engineering Notes]]

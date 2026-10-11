@@ -1,0 +1,12 @@
+{
+  "expectations": [
+    {"text": "没有把‘上帝死了’直接等同于‘宗教已经没用’", "passed": true, "evidence": "开头明确区分宗教的社会作用与最高价值根据的失效。"},
+    {"text": "区分了作者主张、解释所需前提与读者可能的推论", "passed": true, "evidence": "论证骨架分别列出观察、关键假设、推理、结论与边界。"},
+    {"text": "包含不依赖哲学术语的普通话复述", "passed": true, "evidence": "用拆除承重墙后仍想保留原有荷载的日常比喻复述。"},
+    {"text": "同时说明该解释照亮什么和可能遮住什么", "passed": true, "evidence": "镜片测试分别讨论价值根据断裂，以及宗教现实作用和多元道德来源。"},
+    {"text": "结尾包含具体的改口条件或可反驳信号", "passed": true, "evidence": "明确写出宗教仍能提供可信根据或世俗伦理能稳定支撑价值时应改读为权威转形。"}
+  ],
+  "summary": {"passed": 5, "failed": 0, "total": 5, "pass_rate": 1.0},
+  "execution_metrics": {"total_tool_calls": 0, "errors_encountered": 0, "output_chars": 5817},
+  "user_notes_summary": {"uncertainties": ["哲学史事实未做外部资料核验，本测试只评价阅读姿势。"], "needs_review": [], "workarounds": []}
+}

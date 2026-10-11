@@ -16,8 +16,9 @@ aliases:
   - nn.Linear
 sources:
   - conversation:2026-08-24
+  - https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb
 created: 2026-08-24T14:05:47+0800
-updated: 2026-08-24T14:05:47+0800
+updated: 2026-08-30T21:03:10+0800
 summary: 线性层是神经网络最基础的一步计算 y=Wx+b：把输入向量重新加权组合、改变维度，参数 W、b 可学习；LM head 就是把隐藏状态投影成 logits 的线性层。
 provenance:
   extracted: 0.85
@@ -91,6 +92,8 @@ logits z（如 50000 维 = 词表大小）
 
 此时权重矩阵 $W$ 形状为 `[V, hidden]`（$V$ 为词表大小）。$W$ 的每一行对应一个 token，相当于该 token 的“特征模板”；隐藏状态与某行的点积越大，对应 token 的 [[wiki/concepts/Logits|logit]] 就越高。因此“把隐藏状态映射成 logits”本质就是一次线性层计算加一次点积匹配。
 
+这个输出投影也叫 [[wiki/concepts/Unembedding and Weight Tying|unembedding]]。GPT-2 把输出权重与输入 token embedding 绑定，但 weight tying 是架构选择，不是线性层或所有语言模型的必备性质。^[inferred]
+
 ## When to Use
 
 - 需要**改变表示维度**（投影、升降维、把某层输出接到不同宽度的下一层）时，用线性层。
@@ -103,4 +106,5 @@ logits z（如 50000 维 = 词表大小）
 - [[wiki/concepts/Logits]]
 - [[wiki/concepts/Next-Token Pipeline]]
 - [[wiki/concepts/Transformer Residual Stream]]
+- [[wiki/concepts/Unembedding and Weight Tying]]
 - [[wiki/concepts/LLM]]

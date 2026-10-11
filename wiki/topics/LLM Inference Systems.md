@@ -7,8 +7,9 @@ category: topics
 sources:
   - https://www.aleksagordic.com/blog/vllm
   - inline:life-of-a-token-2026-05-09
+  - https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb
 created: 2026-05-06T12:17:59+08:00
-updated: 2026-05-09T00:00:00+08:00
+updated: 2026-08-30T21:03:10+0800
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-06
@@ -43,7 +44,7 @@ This loop is simple at the surface, but its behavior depends on how the system a
 
 ## Model-internal token path
 
-The Life of a Token source adds the model-internal view below the serving loop: raw text becomes token IDs through [[wiki/concepts/Tokenization]], token IDs become vectors, transformer blocks update a [[wiki/concepts/Transformer Residual Stream|residual stream]], and the LM head projects the final hidden state into next-token logits.
+The Life of a Token source adds the model-internal view below the serving loop: raw text becomes token IDs through [[wiki/concepts/Tokenization]], IDs become [[wiki/concepts/Token Embedding|token embeddings]] with [[wiki/concepts/Positional Encoding|position information]], [[wiki/concepts/Self-Attention]] and the [[wiki/concepts/Transformer Feed-Forward Network]] add contextual updates to a [[wiki/concepts/Transformer Residual Stream|residual stream]], and [[wiki/concepts/Unembedding and Weight Tying|unembedding]] projects the final hidden state into next-token logits.
 
 That [[wiki/concepts/Next-Token Pipeline]] is still only one step of generation. [[wiki/concepts/Autoregressive Decoding]] wraps it in a serial loop where each sampled token is appended before the next token can be predicted.
 
@@ -57,6 +58,7 @@ High-throughput inference has to manage several tensions at once:
 - [[wiki/concepts/Autoregressive Decoding]]: output tokens create a causal loop-carried dependency, so decode must advance one sampled token at a time.
 - [[wiki/concepts/Speculative Decoding]]: multiple candidate tokens can be proposed and verified to reduce the number of expensive large-model steps.
 - [[wiki/concepts/LLM Inference Benchmarking]]: latency, throughput, and goodput pull the system toward different operating points.
+- [[wiki/concepts/Arithmetic Intensity]]: low-batch decode often moves far more model bytes than the floating-point work can amortize, while batching raises weight reuse.
 
 This makes inference serving a systems problem, not only a model problem. ^[inferred]
 
@@ -76,6 +78,10 @@ That split helps keep the model execution path stable while adding web and distr
 
 - [[wiki/concepts/Next-Token Pipeline]]
 - [[wiki/concepts/Tokenization]]
+- [[wiki/concepts/Token Embedding]]
+- [[wiki/concepts/Self-Attention]]
+- [[wiki/concepts/Transformer Feed-Forward Network]]
+- [[wiki/concepts/Arithmetic Intensity]]
 - [[wiki/concepts/Autoregressive Decoding]]
 - [[wiki/concepts/KV Cache]]
 - [[wiki/topics/High Concurrency]]

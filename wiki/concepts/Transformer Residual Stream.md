@@ -6,8 +6,9 @@ summary: The transformer residual stream carries token representations across la
 category: concepts
 sources:
   - inline:life-of-a-token-2026-05-09
+  - https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb
 created: 2026-05-09T00:00:00+08:00
-updated: 2026-05-09T00:00:00+08:00
+updated: 2026-08-30T21:03:10+0800
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-09
@@ -44,6 +45,9 @@ It also explains why intermediate probes such as logit lens can be suggestive wi
 ## Related
 
 - [[wiki/concepts/Next-Token Pipeline]]
+- [[wiki/concepts/Self-Attention]]
+- [[wiki/concepts/Transformer Feed-Forward Network]]
+- [[wiki/concepts/Logit Lens]]
 - [[wiki/concepts/LLM]]
 - [[wiki/topics/LLM Inference Systems]]
 - [[wiki/sources/Life of a Token Source Guide]]

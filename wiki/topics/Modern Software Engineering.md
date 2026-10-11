@@ -4,9 +4,10 @@ type: topic
 status: seed
 category: topics
 summary: >-
-  Modern Software Engineering treats software development as empirical, evidence-driven problem solving under change, feedback, AI collaboration, and unintended consequences.
+  Modern Software Engineering treats development as evidence-driven problem solving and shared design knowledge, under change, feedback, AI collaboration, and unintended consequences.
 
 sources:
+  - https://www.sei.cmu.edu/documents/1010/1990_005_001_299270.pdf
   - https://martinfowler.com/articles/reduce-friction-ai/
   - https://martinfowler.com/articles/reduce-friction-ai/encoding-team-standards.html
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
@@ -23,7 +24,7 @@ provenance:
   inferred: 0.18
   ambiguous: 0.00
 source_count: 5
-updated: 2026-09-29T18:14:09+0800
+updated: 2026-10-05T05:49:32+08:00
 aliases:
   - 软件工程
   - modern software engineering
@@ -51,6 +52,12 @@ tags:
 - 建立假设
 - 通过反馈修正
 - 用经验与证据而不是纯直觉推动工程决策
+
+## Engineering as shared design knowledge
+
+[[wiki/sources/Prospects for an Engineering Discipline of Software Source Guide|Mary Shaw 的 1990 年报告]]补充了职业层面的判准：管理流程使商业生产稳定，而工程学科还要把成熟科学与实践经验组织成可分析、可选择、可复用的设计知识，让普通专业者能够可靠地完成常规设计。报告以土木工程、化学工程和软件中的算法、数据结构、编译器构造作比较；其“尚未普遍工程化”判断属于当时的历史语境。
+
+这为本页的经验主义增加一个检验问题：反馈是否只帮助当前项目过关，还是更新了下一位工程师能够使用的知识？观察、假设和修正若能沉淀为有适用条件的参考资料、设计规则和工具，个人经验才有机会变成职业的共同能力。^[inferred]
 
 ## AI-assisted collaboration
 

@@ -7,8 +7,9 @@ category: concepts
 sources:
   - https://www.aleksagordic.com/blog/vllm
   - inline:life-of-a-token-2026-05-09
+  - https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb
 created: 2026-05-06T12:17:59+08:00
-updated: 2026-05-09T00:00:00+08:00
+updated: 2026-08-30T21:03:10+0800
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-06
@@ -46,6 +47,8 @@ Without continuous batching, an engine either wastes compute on padding or waits
 
 The Life of a Token source adds a hardware reason: decode often reuses the same model weights for very little per-token computation, so batching lets multiple requests amortize memory movement across more token work.
 
+In [[wiki/concepts/Arithmetic Intensity]] terms, batching increases useful FLOPs per byte of model weight moved. The article's `2–4×` throughput figure is a source-specific range, not a guarantee: gains depend on request lengths, arrival patterns, token budgets, cache pressure, kernels, and the baseline scheduler. ^[inferred]
+
 The tradeoff is that scheduling becomes a first-class part of [[wiki/topics/LLM Inference Systems]]: token budgets, cache block availability, preemption, and request priority all influence which tokens run next.
 
 ## Related
@@ -54,5 +57,6 @@ The tradeoff is that scheduling becomes a first-class part of [[wiki/topics/LLM 
 - [[wiki/concepts/Prefill Decode Split]]
 - [[wiki/concepts/LLM Inference Benchmarking]]
 - [[wiki/concepts/Autoregressive Decoding]]
+- [[wiki/concepts/Arithmetic Intensity]]
 - [[wiki/sources/vLLM Inference Systems Source Guide]]
 - [[wiki/sources/Life of a Token Source Guide]]

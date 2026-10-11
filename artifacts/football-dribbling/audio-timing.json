@@ -1,0 +1,83 @@
+{
+  "engine": "edge",
+  "voice": "zh-CN-YunyangNeural",
+  "scenes": [
+    {
+      "id": "opening",
+      "voice_seconds": 4.583,
+      "tempo_factor": 0.88,
+      "last_voice_end": 5.332,
+      "scene_end": 8
+    },
+    {
+      "id": "space",
+      "voice_seconds": 7.181,
+      "tempo_factor": 0.88,
+      "last_voice_end": 15.931,
+      "scene_end": 18
+    },
+    {
+      "id": "momentum",
+      "voice_seconds": 8.824,
+      "tempo_factor": 0.88,
+      "last_voice_end": 27.65,
+      "scene_end": 28
+    },
+    {
+      "id": "distance",
+      "voice_seconds": 9.437,
+      "tempo_factor": 0.88,
+      "last_voice_end": 38.987,
+      "scene_end": 42
+    },
+    {
+      "id": "tempo",
+      "voice_seconds": 7.182,
+      "tempo_factor": 0.88,
+      "last_voice_end": 50.332,
+      "scene_end": 54
+    },
+    {
+      "id": "feint",
+      "voice_seconds": 8.786,
+      "tempo_factor": 0.88,
+      "last_voice_end": 63.936,
+      "scene_end": 66
+    },
+    {
+      "id": "diagonal",
+      "voice_seconds": 8.416,
+      "tempo_factor": 0.88,
+      "last_voice_end": 75.566,
+      "scene_end": 78
+    },
+    {
+      "id": "firststep",
+      "voice_seconds": 7.351,
+      "tempo_factor": 0.88,
+      "last_voice_end": 86.101,
+      "scene_end": 88
+    },
+    {
+      "id": "recap",
+      "voice_seconds": 8.82,
+      "tempo_factor": 0.924,
+      "last_voice_end": 97.65,
+      "scene_end": 98
+    },
+    {
+      "id": "questions",
+      "voice_seconds": 5.706,
+      "tempo_factor": 0.88,
+      "last_voice_end": 105.256,
+      "scene_end": 109
+    },
+    {
+      "id": "ending",
+      "voice_seconds": 7.885,
+      "tempo_factor": 0.88,
+      "last_voice_end": 118.035,
+      "scene_end": 120
+    }
+  ]
+}

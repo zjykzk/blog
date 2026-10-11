@@ -7,3 +7,19 @@ public
 .claude/logs/
 .claude/runtime/
 .claude/worktrees/
+
+# >>> aidev managed gitignore
+.aidev/*
+!.aidev/
+!.aidev/presets/
+!.aidev/presets/**
+!.aidev/instructions/
+!.aidev/instructions/**
+!.aidev/skills/
+!.aidev/skills/**
+!.aidev/agents/
+!.aidev/agents/**
+!.aidev/mcps/
+!.aidev/mcps/**
+# <<< aidev managed gitignore
+*/**/node_modules

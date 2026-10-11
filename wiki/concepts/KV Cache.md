@@ -8,8 +8,9 @@ sources:
   - https://x.com/_avichawla/article/2044670188998803855
   - https://www.aleksagordic.com/blog/vllm
   - inline:life-of-a-token-2026-05-09
+  - https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb
 created: 2026-05-05T00:00:00+08:00
-updated: 2026-05-09T00:00:00+08:00
+updated: 2026-08-30T21:03:10+0800
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -38,7 +39,9 @@ Transformer inference has two broad phases:
 
 During attention, each token produces query, key, and value vectors. The key and value vectors for a token are determined by the preceding token sequence; once computed for a fixed prefix, they do not need to be recomputed for the same prefix.
 
-The Life of a Token source frames this as memoization inside [[wiki/concepts/Autoregressive Decoding]]: each generated token appends new K/V rows, while prior rows remain valid because causal masking prevents future tokens from changing past attention state.
+The Life of a Token source frames this as memoization inside [[wiki/concepts/Autoregressive Decoding]]: each generated token appends new K/V rows, while prior rows remain valid because causal [[wiki/concepts/Self-Attention|self-attention]] prevents future tokens from changing past attention state.
+
+For its LLaMA 3.1 8B example (32 layers, 8 KV heads, head dimension 128, FP16), the source estimates per-token cache storage as $2 \times 32 \times 8 \times 128 \times 2$ bytes, or about 0.125 MiB. A 128K-token conversation is therefore about 16 GiB before allocator, runtime, activation, fragmentation, and safety-margin overhead; the resulting raw A100 concurrency arithmetic is an upper bound, not a deployable capacity target. ^[inferred]
 
 The [[wiki/concepts/Prompt Caching]] source describes provider-side prompt caching as persisting those key/value tensors and indexing them by a hash of the token sequence.
 
@@ -93,6 +96,8 @@ Prefix caching then adds a second reuse path: complete token blocks can be hashe
 - [[wiki/concepts/Paged Attention]]
 - [[wiki/concepts/Prefill Decode Split]]
 - [[wiki/concepts/Autoregressive Decoding]]
+- [[wiki/concepts/Self-Attention]]
+- [[wiki/concepts/Arithmetic Intensity]]
 - [[wiki/topics/LLM Inference Systems]]
 - [[wiki/concepts/LLM]]
 - [[wiki/topics/Context Management]]

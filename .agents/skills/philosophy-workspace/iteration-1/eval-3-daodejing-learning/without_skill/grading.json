@@ -1,0 +1,12 @@
+{
+  "expectations": [
+    {"text": "没有把‘为道日损’解释成简单的反学习或反知识", "passed": true, "evidence": "明确指出老子反对的不是知识本身。"},
+    {"text": "明确指出单句脱离篇章语境的解释限度", "passed": false, "evidence": "补充了后续章句，但没有明确说明仅凭单句能判断到哪里、不能判断到哪里。"},
+    {"text": "用普通话区分知识增加、执著减少与现实判断", "passed": true, "evidence": "用增加见闻能力和减少成见执著作了清楚区分。"},
+    {"text": "没有把直觉神化为真理，并提供了竞争解释", "passed": true, "evidence": "说明直觉可能来自经验，也可能来自恐惧、欲望、偏见和习惯。"},
+    {"text": "以有条件、可修改的判断收尾", "passed": false, "evidence": "结尾给出稳妥读法，但没有写出什么新事实会迫使判断改变。"}
+  ],
+  "summary": {"passed": 3, "failed": 2, "total": 5, "pass_rate": 0.6},
+  "execution_metrics": {"total_tool_calls": 0, "errors_encountered": 0, "output_chars": 1744},
+  "user_notes_summary": {"uncertainties": ["章句解释未做版本间校勘，本测试只评价阅读姿势。"], "needs_review": [], "workarounds": []}
+}

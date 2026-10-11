@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>第一课：别管人有多忙，先看工作怎么流</title>
+  <link rel="stylesheet" href="../assets/course.css">
+</head>
+<body>
+<main>
+  <header>
+    <p class="kicker">Lesson 0001 · 约 12 分钟</p>
+    <h1>别管人有多忙，<br>先看工作怎么流</h1>
+    <p class="deck">你今天获得的不是一套流程，而是一种领导者视角：把“协作低效”从对人的评价，改写成对工作系统的诊断。</p>
+    <div class="meta"><span>任务：复盘一件真实需求</span><span>产出：一个可验证的摩擦假设</span></div>
+  </header>
+
+  <div class="rule"></div>
+  <p class="thesis">团队效率的基本单位不是“一个人一天写了多少”，而是“一件价值从承诺到交付，经历了多少工作、等待与返工”。</p>
+
+  <h2>为什么资深团队仍会协作低效？</h2>
+  <p>局部看，每个人可能都很专业、很忙；整体看，工作却在评审、依赖、决策和发布之间排队。继续催促个人，只会让更多工作同时开工，进一步延长等待。</p>
+  <p>DORA 把限制在制品视为改善软件交付的重要能力；Kanban 的基本流动度量也把总历时、交付率和在制品放在中心。它们共同提醒我们：<strong>忙碌是资源状态，交付才是系统结果。</strong><sup><a href="#sources">[1][2]</a></sup></p>
+
+  <h2>只用一条时间线</h2>
+  <p>选一件最近完成的普通需求。从团队真正承诺开始，到用户可以使用为止。不要画规定中的流程，只还原实际发生过什么。</p>
+  <div class="grid">
+    <section class="card"><span class="number">01</span><h3>工作</h3><p>有人正在澄清、设计、编码、评审、测试或发布。</p></section>
+    <section class="card"><span class="number">02</span><h3>等待</h3><p>工作暂时无人推进，在等人、等决定、等环境或等批次。</p></section>
+    <section class="card"><span class="number">03</span><h3>交接</h3><p>责任主体改变，接手者需要重新获取上下文。</p></section>
+    <section class="card"><span class="number">04</span><h3>返工</h3><p>迟到的反馈使已完成的工作被重新打开。</p></section>
+  </div>
+
+  <h2>现在诊断一件真实工作</h2>
+  <p>估算即可。这里的目标不是考核团队，而是确定下一次应该观察哪里。</p>
+  <form class="exercise" data-flow-form>
+    <label>这件工作的简短名称<input name="item" placeholder="例如：新增风控规则发布能力"></label>
+    <div class="grid">
+      <label>从承诺到上线共多少天？<input name="elapsed" type="number" min="0.1" step="0.1" required></label>
+      <label>真正推进约多少天？<input name="active" type="number" min="0" step="0.1" required></label>
+    </div>
+    <label>责任主体交接了几次？<input name="handoffs" type="number" min="0" step="1" required></label>
+    <label>最长的一段等待在等什么？<textarea name="longestWait" placeholder="写事实：等谁、等什么条件、持续多久。不要先写“沟通意识差”。"></textarea></label>
+    <button type="submit">生成流动画像</button>
+    <div class="result" data-flow-result aria-live="polite"></div>
+  </form>
+
+  <h2>把观察改写成机制假设</h2>
+  <p>不要写“测试响应慢”。用下面这个句式：</p>
+  <div class="formula">当［某类工作］到达［某阶段］时，因为［规则 / 依赖 / 决策权 / 容量］，它会等待［某条件］，于是［交付或质量结果］受到影响。</div>
+  <p>例如：“当跨服务需求进入联调时，因为三个团队各自排期且没有共同完成定义，它会等待所有接口分别就绪，于是大部分交付周期耗在排队和二次对齐上。”</p>
+
+  <h2>你的第一个领导动作</h2>
+  <ol class="checklist">
+    <li>本周找两位参与者，用 20 分钟校对这条时间线。</li>
+    <li>只讨论事实发生的顺序，不讨论谁应负责。</li>
+    <li>选最长等待，设计一个两周内可撤销的小实验。</li>
+    <li>同时记录总历时与返工/故障信号，防止用质量换速度。</li>
+  </ol>
+  <p>ACM 的 DevEx 研究将反馈回路、认知负荷与心流状态作为关键维度；SPACE 研究则明确反对用单个指标定义开发者生产力。因此，这张时间线是<strong>调查入口</strong>，不是绩效排行榜。<sup><a href="#sources">[3][4]</a></sup></p>
+
+  <details>
+    <summary>先凭记忆回答，再展开核对</summary>
+    <p><strong>问题：</strong>为什么“所有人都很忙”可能反而意味着交付更慢？</p>
+    <p><strong>核对：</strong>忙碌可能来自同时启动过多工作。工作在各阶段间排队、切换上下文并等待反馈，个人利用率升高，端到端完成时间却变长。</p>
+  </details>
+
+  <h2 id="sources">首选阅读</h2>
+  <p><strong><a href="https://dora.dev/devops-capabilities/process/wip-limits/">DORA：Work in process limits</a></strong>。先读这一篇；读完只回答一个问题：“我们在哪个阶段不断开工，却没有同样快地完工？”</p>
+  <p class="citation">[1] DORA, Work in process limits. [2] Kanban University, The Kanban Method. [3] ACM Queue, DevEx: What Actually Drives Productivity. [4] Microsoft Research, The SPACE of Developer Productivity.</p>
+
+  <p class="print-note">把你的时间线、机制假设或疑问直接发给老师；下一轮会据此判断是继续学流动、团队边界，还是决策机制。</p>
+  <nav><a href="../reference/flow-diagnosis.html">流动诊断速查卡 →</a><span>下一课由你的真实案例决定</span></nav>
+</main>
+<script src="../assets/flow-diagnostic.js"></script>
+</body>
+</html>

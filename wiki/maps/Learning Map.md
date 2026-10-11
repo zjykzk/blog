@@ -47,6 +47,7 @@ provenance:
 - [[wiki/concepts/Cognitive Engineering]]——设计人、工具与反馈构成的认知系统
 - [[wiki/concepts/AI Learning Tutor Loop]]——用 AI 源材料系统建立知识地形、诊断理解并修补错误
 - [[wiki/concepts/Narrative]]——把事实串成可预测、可赋义、可协调、可行动的因果线索
+- [[wiki/concepts/Causal Reasoning]]——把相关性、共同原因和选择偏差拆开，判断主动改变某个因素是否真的会改变结果
 - [[wiki/concepts/三个自我模型]]——把当下体验、角色叙事和底层预测模型区分开，解释成长为什么要改训练样本、奖励函数和更新规则
 - [[wiki/concepts/Belief and Attitude]]——区分“把命题当真”与“评价对象并准备行动”，并追踪信息如何经世界模型、价值、情感和身份形成信念与态度
 - [[wiki/concepts/Hard Constraint]]——让叙事和行动先接受资源、时间、规律与他人能动性的现实校验

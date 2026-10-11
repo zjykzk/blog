@@ -1,0 +1,304 @@
+{
+  "metadata": {
+    "skill_name": "book-mastery",
+    "skill_path": "/Users/zenk/study/wiki/.agents/skills/book-mastery",
+    "executor_model": "GPT-5",
+    "analyzer_model": "GPT-5",
+    "timestamp": "2026-10-06T06:59:33Z",
+    "evals_run": [
+      1,
+      2,
+      3
+    ],
+    "runs_per_configuration": 1
+  },
+  "runs": [
+    {
+      "eval_id": 1,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 4,
+        "failed": 0,
+        "total": 4,
+        "time_seconds": 0.0,
+        "tokens": 89,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "明确说明此次判断基于用户提供的《有限反馈》材料，而不是凭模型记忆",
+          "passed": true,
+          "evidence": "回复开头明确写道：\"我会以你提供的完整书稿为依据\"。这清楚地将判断依据指向用户提供的材料，而非模型记忆。"
+        },
+        {
+          "text": "第一条回复只提出一个需要用户用自己的话重建全书问题、回答与推理路径的问题",
+          "passed": true,
+          "evidence": "唯一的测试题是：\"这本书最想解决什么问题？作者最后给出了什么回答？中间靠哪几步走到那里？\" 三个子句共同构成一次全书重建任务，依次要求重建核心问题、最终回答和推理路径；回复还要求用户不要查看原文或笔记。"
+        },
+        {
+          "text": "没有提前讲解书中答案、给出掌握结论或评分",
+          "passed": true,
+          "evidence": "全文只有依据说明、闭卷要求和无提示基线问题，没有出现书中答案、掌握等级、结论或分数。"
+        },
+        {
+          "text": "问题结束后停下来等待用户回答",
+          "passed": true,
+          "evidence": "response.md 在重建问题的问号后直接结束，没有追加讲解、提示、后续测试或自答，符合停下来等待回答的要求。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 4,
+        "failed": 0,
+        "total": 4,
+        "time_seconds": 0.0,
+        "tokens": 155,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "明确说明目前缺少可靠材料，不能据此判断整本书是否掌握",
+          "passed": true,
+          "evidence": "Response states: ‘我目前只有书名，而且在当前目录和 `~/Context/` 没找到匹配的 `__book.md` 或 coverage，不能仅凭模型记忆可靠地判断你是否掌握整本书。’ This explicitly identifies the missing reliable source and refuses to assess whole-book mastery from the title alone."
+        },
+        {
+          "text": "没有虚构《海边的黑色齿轮》的内容，也没有凭常识开始泛化测验",
+          "passed": true,
+          "evidence": "The entire response discusses only source availability and next-step options. It contains no claims about the book's plot, arguments, concepts, characters, or themes, and asks no generic mastery-test question."
+        },
+        {
+          "text": "只提出一个获取原书、拆书笔记或检索授权的问题",
+          "passed": true,
+          "evidence": "The response contains one question: ‘请你提供原书（PDF/EPUB）、带 coverage 的 `ljg-book` 成品或读书笔记，或者明确允许我检索可靠材料——你希望选哪一种？’ It is a single request offering the three permitted source/access routes."
+        },
+        {
+          "text": "没有给出掌握结论或分数",
+          "passed": true,
+          "evidence": "The response says mastery cannot yet be judged and provides neither a mastery classification nor a numeric score."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.5,
+        "passed": 2,
+        "failed": 2,
+        "total": 4,
+        "time_seconds": 0.0,
+        "tokens": 187,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "没有因为能够背框架和复述原例就判定已经掌握或给出总分",
+          "passed": true,
+          "evidence": "回复明确拒绝据此下结论：‘它还不能证明你能解释结构、迁移到陌生情境或识别适用边界，所以我现在不能可靠地宣布“已经掌握”或给出总分。’"
+        },
+        {
+          "text": "明确区分回忆证据与迁移掌握证据",
+          "passed": true,
+          "evidence": "回复将‘能背出五部分框架并复述书中例子’界定为‘待验证的自述’，并与‘解释结构、迁移到陌生情境或识别适用边界’所需证据明确区分。"
+        },
+        {
+          "text": "只提出一个基于陌生情境的迁移问题",
+          "passed": false,
+          "evidence": "回复提出的是对原书的无提示重建：‘这本书最想解决什么问题？作者最后给出了什么回答？中间靠哪几步走到那里？’这不是基于陌生情境的迁移问题，而且文字上包含三个子问。"
+        },
+        {
+          "text": "迁移问题没有泄露书中五部分框架的正确套用方式，并停下来等待回答",
+          "passed": false,
+          "evidence": "回复确实在提问后停下且没有直接泄露五部分框架，但所提问题并非迁移问题，而是要求重建原书问题、结论和推理步骤，因此该组合期待未满足。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.5,
+        "passed": 2,
+        "failed": 2,
+        "total": 4,
+        "time_seconds": 0.0,
+        "tokens": 231,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "明确说明此次判断基于用户提供的《有限反馈》材料，而不是凭模型记忆",
+          "passed": false,
+          "evidence": "回复没有提到用户提供的《有限反馈》材料，也没有说明判断将以该材料而非模型记忆为依据。开头只说‘我现在还没有足够证据直接下结论’，这说明证据不足，但不是来源声明。"
+        },
+        {
+          "text": "第一条回复只提出一个需要用户用自己的话重建全书问题、回答与推理路径的问题",
+          "passed": false,
+          "evidence": "回复形式上只提出一题，也要求‘只凭记忆，用自己的话’，但题目要求用户为‘一位朋友正在推进一项重要、信息不足、出错代价又很高的工作’给出行动建议、调整依据、停止条件和个人例子。这是一道情境应用/迁移题，没有要求重建全书所解决的问题、作者的回答以及从问题走到回答的推理路径。"
+        },
+        {
+          "text": "没有提前讲解书中答案、给出掌握结论或评分",
+          "passed": true,
+          "evidence": "回复只解释验收方式并提出问题，没有讲解《有限反馈》的书中答案，没有宣布用户已掌握或未掌握，也没有给出分数；‘我现在还没有足够证据直接下结论’是暂缓判断而非掌握结论。"
+        },
+        {
+          "text": "问题结束后停下来等待用户回答",
+          "passed": true,
+          "evidence": "response.md 在第一题的问句与‘并举一个你自己的例子’后立即结束，没有继续作答、提示正确答案或发起第二题，因而确实停下来等待用户回答。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.5,
+        "passed": 2,
+        "failed": 2,
+        "total": 4,
+        "time_seconds": 0.0,
+        "tokens": 275,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "明确说明目前缺少可靠材料，不能据此判断整本书是否掌握",
+          "passed": true,
+          "evidence": "回复明确写道：\"我现在只有书名，无法核验《海边的黑色齿轮》实际讲了什么\"，并说明只有在用户提供原书、目录、笔记或可靠简介后，才能校准事实并给出最终判断。"
+        },
+        {
+          "text": "没有虚构《海边的黑色齿轮》的内容，也没有凭常识开始泛化测验",
+          "passed": false,
+          "evidence": "回复没有虚构具体书中内容，但在只有书名、无可靠材料的情况下仍立即发起通用的\"无提示重建\"测验，要求回答核心问题、核心回答、三个关键环节及具体情节/证据。这正是缺少来源时开始泛化测验，因此整条复合断言不成立。"
+        },
+        {
+          "text": "只提出一个获取原书、拆书笔记或检索授权的问题",
+          "passed": false,
+          "evidence": "回复没有提出一个明确的来源获取问题；它只是陈述\"之后你再提供原书、目录、笔记或可靠简介中的任一种\"，随后提出了一个含四个子问题的内容测验。因而既非仅提出一个来源获取问题，也增加了多个与来源获取无关的问题。"
+        },
+        {
+          "text": "没有给出掌握结论或分数",
+          "passed": true,
+          "evidence": "回复只说明当前无法判定，并邀请用户作答；全文没有声称用户已掌握或未掌握，也没有给出任何分数。"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.75,
+        "passed": 3,
+        "failed": 1,
+        "total": 4,
+        "time_seconds": 0.0,
+        "tokens": 257,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "没有因为能够背框架和复述原例就判定已经掌握或给出总分",
+          "passed": true,
+          "evidence": "回复明确说：‘现在还不能判定你“已经掌握”，也不能仅凭这两项证据给出可信的总分。’全文没有给出总分。"
+        },
+        {
+          "text": "明确区分回忆证据与迁移掌握证据",
+          "passed": true,
+          "evidence": "回复把‘能背出五部分框架、复述书中例子’界定为‘记住并熟悉了内容’，随后对比说明掌握还需‘把框架迁移到陌生情境’，明确区分了回忆/熟悉证据和迁移证据。"
+        },
+        {
+          "text": "只提出一个基于陌生情境的迁移问题",
+          "passed": true,
+          "evidence": "回复只给出一个新的招聘筛选模型情境，并围绕该单一情境询问‘你下一步会怎么做，为什么？’；没有追加第二个独立情境或题目。"
+        },
+        {
+          "text": "迁移问题没有泄露书中五部分框架的正确套用方式，并停下来等待回答",
+          "passed": false,
+          "evidence": "回复虽在提问后停下等待回答，但问题的脚手架‘哪些事实仍未知、什么不能拿来试错、你要收集什么信息，以及在什么条件下停止试探并正式推进’几乎依次提示了书中的状态、约束、反馈/探针和承诺，泄露了五部分框架在该情境中的正确套用方向。"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 0.8333,
+        "stddev": 0.2887,
+        "min": 0.5,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "tokens": {
+        "mean": 143.6667,
+        "stddev": 49.9733,
+        "min": 89,
+        "max": 187
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.5833,
+        "stddev": 0.1443,
+        "min": 0.5,
+        "max": 0.75
+      },
+      "time_seconds": {
+        "mean": 0.0,
+        "stddev": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "tokens": {
+        "mean": 254.3333,
+        "stddev": 22.1209,
+        "min": 231,
+        "max": 275
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.25",
+      "time_seconds": "+0.0",
+      "tokens": "-111"
+    }
+  },
+  "notes": [
+    "Across all 12 assertions per configuration, with_skill passes 10/12 (83.3%) versus 7/12 (58.3%) without_skill, a 25 percentage-point advantage; the advantage is not uniform across evals.",
+    "Eval 1 and eval 2 each improve from 2/4 without_skill to 4/4 with_skill, while eval 3 declines from 3/4 without_skill to 2/4 with_skill.",
+    "In eval 1, the two differentiating assertions both favor with_skill: it explicitly grounds the assessment in the user-provided material rather than model memory, and it begins with the requested whole-book reconstruction question; both configurations avoid revealing answers or scoring and stop after the question.",
+    "In eval 2, both configurations state that reliable material is missing and avoid a mastery score, but only with_skill both refrains from starting a generic quiz and asks a single source-or-search-authorization question; without_skill immediately starts a multi-part content quiz despite acknowledging the missing source.",
+    "Eval 3 contains the only assertion that passes without_skill but fails with_skill: the requested single unfamiliar-scenario transfer question. The with_skill response instead returns to whole-book reconstruction, so both transfer-related assertions fail there.",
+    "Eval 3's combined assertion that the transfer question must not reveal the five-part framework and must then wait for the answer fails in both configurations, but for different observed reasons: with_skill does not ask a transfer question at all, while without_skill asks one but its scaffolding reveals the framework's application sequence.",
+    "Five assertions pass in both configurations and therefore do not distinguish skill value in this sample: eval 1's no-answer-or-score and wait-for-response checks, eval 2's missing-material boundary and no-score checks, and eval 3's refusal to infer mastery from recall plus its recall-versus-transfer distinction.",
+    "The skill reduces output length in every eval: 89 vs 231 tokens in eval 1, 155 vs 275 in eval 2, and 187 vs 257 in eval 3. Overall mean usage is 143.7 vs 254.3 tokens, about 43.5% lower with_skill.",
+    "All six runs report 0.0 seconds, 0 tool calls, and 0 errors, so this benchmark provides no usable differentiation for latency, tool use, or error recovery.",
+    "The metadata says runs_per_configuration is 3, but benchmark.json contains only one run for each eval/configuration pair (six runs total). Consequently, the reported standard deviations describe differences across the three evals rather than repeat-run variability, and no flakiness or run-to-run consistency conclusion is supported."
+  ]
+}

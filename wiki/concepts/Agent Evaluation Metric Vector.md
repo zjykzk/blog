@@ -7,7 +7,7 @@ category: concepts
 sources:
   - https://arxiv.org/pdf/2601.01743
 created: 2026-07-05T12:25:46+0800
-updated: 2026-07-05T12:25:46+0800
+updated: 2026-10-10T19:36:48+0800
 base_confidence: 0.67
 lifecycle: draft
 lifecycle_changed: "2026-07-05"
@@ -20,6 +20,10 @@ relationships:
     type: extends
   - target: "[[wiki/concepts/Verification Loop]]"
     type: uses
+  - target: "[[wiki/topics/Rule Adjudication Agent Evaluation]]"
+    type: related_to
+  - target: "[[wiki/concepts/Confusion Matrix]]"
+    type: related_to
 aliases:
   - agent metric vector
   - trajectory-level agent metrics
@@ -75,6 +79,8 @@ For [[wiki/syntheses/Agent System Design Space]], this means agent architectures
 ## Related
 
 - [[wiki/concepts/Agent Evaluation CLASSic Framework]]
+- [[wiki/topics/Rule Adjudication Agent Evaluation]] — 把指标向量应用到规则适用性、构成要件、证据充分性和例外处理。
+- [[wiki/concepts/Confusion Matrix]] — 展开最终标签中的漏报、误伤和过度裁决方向。
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/syntheses/Agent System Design Space]]

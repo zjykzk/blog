@@ -1,9 +1,9 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 71,
-    "total_pages": 425,
-    "last_updated": "2026-09-10T21:22:11+0800"
+    "total_sources_ingested": 73,
+    "total_pages": 436,
+    "last_updated": "2026-09-12T00:00:00+0800"
   },
   "sources": {
     "chatgpt-share:6a8bbaa9-dbb0-83ee-ad09-a81c039ed1a2": {
@@ -814,6 +814,47 @@
         "wiki/log.md"
       ]
     },
+    "https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb": {
+      "ingested_at": "2026-08-30T21:03:10+0800",
+      "source_url": "https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb",
+      "size_bytes": 69565,
+      "modified_at": "2026-04-15T17:36:02+0800",
+      "content_hash": "sha256:05657ae945af9d4b474d1994f59bf4504306704ab6680a2842efd46feee7f79f",
+      "hash_basis": "lark-cli docs +fetch markdown UTF-8 content",
+      "source_type": "url",
+      "stub": false,
+      "project": null,
+      "promotion_status": "sources",
+      "pages_created": [
+        "wiki/concepts/Token Embedding.md",
+        "wiki/concepts/Positional Encoding.md",
+        "wiki/concepts/Self-Attention.md",
+        "wiki/concepts/Transformer Feed-Forward Network.md",
+        "wiki/concepts/Logit Lens.md",
+        "wiki/concepts/Unembedding and Weight Tying.md",
+        "wiki/concepts/Arithmetic Intensity.md"
+      ],
+      "pages_updated": [
+        "wiki/sources/Life of a Token Source Guide.md",
+        "wiki/concepts/Next-Token Pipeline.md",
+        "wiki/concepts/Tokenization.md",
+        "wiki/concepts/Transformer Residual Stream.md",
+        "wiki/concepts/Autoregressive Decoding.md",
+        "wiki/concepts/Neural Network Inference Boundary.md",
+        "wiki/concepts/Prefill Decode Split.md",
+        "wiki/concepts/KV Cache.md",
+        "wiki/concepts/Continuous Batching.md",
+        "wiki/concepts/LLM.md",
+        "wiki/concepts/Logits.md",
+        "wiki/concepts/Linear Layer.md",
+        "wiki/topics/LLM Inference Systems.md",
+        "wiki/maps/AI Map.md",
+        "wiki/maps/CS Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
     "https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf": {
       "ingested_at": "2026-05-09T20:15:00+08:00",
       "size_bytes": 2645665,
@@ -1544,6 +1585,21 @@
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"
+      ]
+    },
+    "https://martinfowler.com/rachels-ramblings/conductor-developer.html": {
+      "ingested_at": "2026-09-12T00:00:00+0800",
+      "source_type": "url",
+      "project": null,
+      "pages_created": [
+        "wiki/concepts/Attention as the Scarce Resource.md",
+        "wiki/sources/The Conductor Developer Source Guide.md"
+      ],
+      "pages_updated": [
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md",
+        "wiki/maps/AI Map.md"
       ]
     }
   },

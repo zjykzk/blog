@@ -6,8 +6,9 @@ summary: The neural-network inference boundary separates learned tensor computat
 category: concepts
 sources:
   - inline:life-of-a-token-2026-05-09
+  - https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb
 created: 2026-05-09T00:00:00+08:00
-updated: 2026-05-09T00:00:00+08:00
+updated: 2026-08-30T21:03:10+0800
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-09
@@ -41,6 +42,8 @@ This boundary prevents a common category error: treating model behavior as if it
 
 The boundary also explains why model-internal debugging remains hard: activations can be printed, but they are not symbolic program variables with human-readable names. ^[inferred]
 
+Interpretability tools such as [[wiki/concepts/Logit Lens]], probing, activation patching, and sparse autoencoders can expose signals or test local interventions, but they do not reconstruct a complete symbolic execution trace. ^[inferred]
+
 ## Related
 
 - [[wiki/concepts/Next-Token Pipeline]]
@@ -48,4 +51,5 @@ The boundary also explains why model-internal debugging remains hard: activation
 - [[wiki/topics/LLM Inference Systems]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/concepts/Verification Loop]]
+- [[wiki/concepts/Logit Lens]]
 - [[wiki/sources/Life of a Token Source Guide]]

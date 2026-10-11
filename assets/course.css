@@ -1,0 +1,81 @@
+:root {
+  color-scheme: light;
+  --paper: #f7f3e9;
+  --ink: #17211d;
+  --muted: #667068;
+  --line: #d8d2c3;
+  --accent: #b93a2b;
+  --accent-soft: #f1ddd5;
+  --green: #1f6b52;
+  --green-soft: #dbe9df;
+  --max: 780px;
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 18px; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: ui-serif, Georgia, "Noto Serif SC", "Songti SC", serif;
+  line-height: 1.7;
+}
+
+main {
+  width: min(calc(100% - 2rem), var(--max));
+  margin: 0 auto;
+  padding: 4.5rem 0 7rem;
+}
+
+.kicker {
+  margin: 0 0 .4rem;
+  color: var(--accent);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: .76rem;
+  font-weight: 750;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+h1, h2, h3 { line-height: 1.18; }
+h1 { margin: 0; font-size: clamp(2.2rem, 7vw, 4.2rem); letter-spacing: -.055em; }
+h2 { margin-top: 3.6rem; font-size: 1.55rem; letter-spacing: -.025em; }
+h3 { margin: 0 0 .4rem; font-size: 1rem; font-family: ui-sans-serif, system-ui, sans-serif; }
+.deck { max-width: 33rem; margin: 1.25rem 0 2rem; color: var(--muted); font-size: 1.12rem; }
+.meta { display: flex; flex-wrap: wrap; gap: .55rem 1.2rem; color: var(--muted); font: .78rem/1.4 ui-sans-serif, system-ui, sans-serif; }
+.rule { height: 1px; margin: 2.5rem 0; background: var(--line); }
+.thesis { margin: 2.5rem 0; padding: 1.4rem 1.6rem; border-left: .3rem solid var(--accent); background: rgba(255,255,255,.36); font-size: 1.25rem; }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1rem; }
+.card { padding: 1.1rem 1.2rem; border: 1px solid var(--line); border-radius: .35rem; background: rgba(255,255,255,.28); }
+.card p { margin: .25rem 0 0; color: var(--muted); font-size: .92rem; }
+.number { color: var(--accent); font: 700 1.6rem/1 ui-sans-serif, system-ui, sans-serif; }
+.exercise { margin-top: 1.4rem; padding: 1.4rem; border: 1px solid var(--ink); border-radius: .4rem; background: #fffdf7; box-shadow: .35rem .35rem 0 var(--line); }
+label { display: block; margin-top: 1rem; font: 650 .83rem/1.4 ui-sans-serif, system-ui, sans-serif; }
+input, select, textarea, button { font: inherit; }
+input, select, textarea { width: 100%; margin-top: .35rem; padding: .7rem .75rem; border: 1px solid #aaa496; border-radius: .25rem; background: white; color: var(--ink); }
+textarea { min-height: 5rem; resize: vertical; }
+button { margin-top: 1.2rem; padding: .65rem 1rem; border: 0; border-radius: .25rem; background: var(--ink); color: white; cursor: pointer; font-family: ui-sans-serif, system-ui, sans-serif; font-weight: 700; }
+button:hover, button:focus-visible { background: var(--accent); }
+.result { display: none; margin-top: 1.25rem; padding: 1rem; background: var(--green-soft); border-left: .3rem solid var(--green); }
+.result[data-visible="true"] { display: block; }
+.result strong { font-family: ui-sans-serif, system-ui, sans-serif; }
+.formula { padding: .8rem 1rem; background: var(--ink); color: var(--paper); font: .95rem/1.5 ui-monospace, SFMono-Regular, Consolas, monospace; overflow-x: auto; }
+.checklist { padding-left: 1.2rem; }
+.checklist li { margin: .6rem 0; }
+.citation { color: var(--muted); font-size: .8rem; }
+a { color: var(--green); text-decoration-thickness: .08em; text-underline-offset: .16em; }
+nav { display: flex; justify-content: space-between; gap: 1rem; margin-top: 4rem; padding-top: 1rem; border-top: 1px solid var(--line); font: .82rem/1.4 ui-sans-serif, system-ui, sans-serif; }
+details { margin-top: 1rem; padding: .7rem 1rem; border: 1px solid var(--line); background: rgba(255,255,255,.25); }
+summary { cursor: pointer; font-weight: 700; }
+.print-note { color: var(--muted); font-size: .78rem; }
+
+@media (max-width: 620px) { .grid { grid-template-columns: 1fr; } main { padding-top: 2.5rem; } }
+@media print {
+  body { background: white; font-size: 11pt; }
+  main { width: 100%; padding: 0; }
+  .exercise button, .print-note { display: none; }
+  a { color: inherit; }
+  .card, .exercise { break-inside: avoid; box-shadow: none; }
+}

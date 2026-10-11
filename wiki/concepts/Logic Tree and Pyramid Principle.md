@@ -17,14 +17,15 @@ relationships:
     type: uses
 sources:
   - conversation:2026-07-15
+  - https://refactoringenglish.com/blog/anti-patterns-software-blogging/
 created: 2026-07-15T00:52:22+0800
-updated: 2026-07-15T00:52:22+0800
+updated: 2026-10-08T23:17:28+0800
 summary: 逻辑树与金字塔原理共享父子层级、同层分组和上下统摄结构；逻辑树向下拆问题以发现答案，金字塔向上收结论以交付答案。
 provenance:
   extracted: 0.72
   inferred: 0.28
   ambiguous: 0.00
-base_confidence: 0.42
+base_confidence: 0.60
 lifecycle: draft
 lifecycle_changed: 2026-07-15
 tier: supporting
@@ -164,6 +165,12 @@ tier: supporting
 
 这与 [[wiki/topics/Categorical Thinking]] 的边界一致：分类负责把对象切开，系统思考负责把被切开的对象重新连接；与 [[wiki/concepts/五大思维三层架构]] 的协作关系也一致：结构化思维负责外化框架，逻辑思维检查推理链，批判性思维检查证据、假设和反例。
 
+## 技术文章不只需要信息顺序
+
+[[wiki/sources/Anti-Patterns in Software Blogging Source Guide|软件博客反模式]]为金字塔原理的读者模型补充了顺序之外的成本：读者在看到结论之前要不要穿过冗长前奏，理解时要不要补术语、点链接或读前文，最终页面是否在手机上溢出或难以辨认。
+
+因此，“结论先行、理由分组”是降低认知成本的重要条件，却不是技术文章完成交付的充分条件。文章还要尽早说明收益、提供最低充分背景、保持页内自足，并让最终渲染可读；否则逻辑结构正确，读者仍可能在到达结构之前退出。^[inferred]
+
 ## Related
 
 - [[wiki/concepts/Analysis]]
@@ -176,3 +183,4 @@ tier: supporting
 - [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]
 - [[wiki/sources/五大思维三层架构 Source Guide]]
 - [[wiki/sources/表达清晰圆桌 Source Guide]]
+- [[wiki/sources/Anti-Patterns in Software Blogging Source Guide|软件博客反模式]]

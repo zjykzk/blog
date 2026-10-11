@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-10-06T15:29:40+0800
+updated: 2026-10-10T14:37:15+0800
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -54,8 +54,11 @@ aliases:
 - [[wiki/concepts/System]]：系统不是一堆部件，而是一组关系在边界和时间中反复生成整体行为。
 - [[wiki/concepts/Life as Dissipative Information Structure|生命作为耗散信息结构]]：生命不是违反熵增的有序，而是开放系统利用环境自由能维持局部低熵结构、并把信息带噪复制给下一代，靠差异性复制成功率被选择而累积复杂性。
 - [[wiki/concepts/Arrow of Time|时间箭头]]：微观定律时间反演对称，宏观的“过去→未来”方向来自低熵初始条件（Past Hypothesis）、统计规律与粗粒化——不可逆性是概率压倒而非微观定律的属性。
+- [[wiki/sources/On the Nature of Time Source Guide|Wolfram 的计算时间观]]：以不可约计算与有限观察者解释时间展开，并区分时间方向、单一历史与共同现实分别需要的条件。
 - [[wiki/concepts/Universality of Physical Law|物理定律普适性]]：定律处处适用不是被证明的定理，而是每天被观测检验、至今未被证伪的经验假设；可逐层还原为对称（诺特：对称↔守恒）=无差别=不可分辨=自我同一（A=A）。
+- [[wiki/sources/The Physicists Philosophy of Physics Source Guide|物理学家的物理学哲学]]：把理论演化展开为社会性候选搜索、风险预测、跨方法经验收敛、旧理论近似继承与异常再开放的循环。
 - [[wiki/concepts/Relation as Contextual Constraint|关系作为语境中的约束]]：把“有关系”展开为对象、关系类型、语境、方向、边界和证据，并区分共现、依赖与因果。
+- [[wiki/concepts/Causal Reasoning|因果推理]]：把“相关”推进到“如果主动改变某个因素，结果是否会变”的干预判断，并检查共同原因、选择偏差和反事实比较。
 - [[wiki/concepts/Iceberg Model]]：把可见事件下潜到模式、结构和心智模型，防止把重复问题当成孤立事故。
 - [[wiki/concepts/Feedback Loops]]：结果反过来影响原因，形成增长、稳定、振荡或失控。
 - [[wiki/concepts/Leverage Points]]：越靠近结构、信息流、规则、激励、目标函数和心智模型，越可能改变生成结果的机制。

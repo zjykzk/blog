@@ -1,0 +1,12 @@
+{
+  "expectations": [
+    {"text": "没有把‘上帝死了’直接等同于‘宗教已经没用’", "passed": true, "evidence": "开头直接否定该等同，并区分最高保证与宗教用途。"},
+    {"text": "区分了作者主张、解释所需前提与读者可能的推论", "passed": true, "evidence": "说明尼采的文化诊断，并列出三种不能直接推出的结论。"},
+    {"text": "包含不依赖哲学术语的普通话复述", "passed": true, "evidence": "用废除旧宪法后继续沿用旧制度的城市比喻复述。"},
+    {"text": "同时说明该解释照亮什么和可能遮住什么", "passed": false, "evidence": "主要展开该命题能解释什么，没有给出宗教仍有现实作用或非宗教价值来源等强竞争解释。"},
+    {"text": "结尾包含具体的改口条件或可反驳信号", "passed": false, "evidence": "结尾留下三个追问，但没有说明出现什么观察时应收窄或放弃当前解释。"}
+  ],
+  "summary": {"passed": 3, "failed": 2, "total": 5, "pass_rate": 0.6},
+  "execution_metrics": {"total_tool_calls": 0, "errors_encountered": 0, "output_chars": 2597},
+  "user_notes_summary": {"uncertainties": ["哲学史事实未做外部资料核验，本测试只评价阅读姿势。"], "needs_review": [], "workarounds": []}
+}
