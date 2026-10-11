@@ -19,7 +19,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 13
-updated: 2026-10-11T17:48:36+08:00
+updated: 2026-10-11T20:40:28+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -44,6 +44,7 @@ tags:
 
 ## Formal languages and language structure
 
+- [[wiki/concepts/Propositional and Predicate Logic|命题逻辑与谓词逻辑]] — 从整句真假连接到对象、性质、关系与量词，区分古代三段论、斯多葛命题逻辑和现代量化逻辑。
 - [[wiki/concepts/Formalization]] — 形式化把意义空间中的对象、区别、规则和判定条件固定下来，使任务能被稳定委托、机械执行与重复检查。
 - [[wiki/concepts/Knowledge Formalization Gradient]] — 从经验、日常语言和概念逐步走向形式模型、数学与逻辑的抽象路径。
 - [[wiki/syntheses/Euclid as a Case of Formalization's Limits]] — 欧几里得几何作为最完整形式化的硬案例：视觉直觉、语义指称、刚体运动和平行公设都被留在圈外，圈外剩余正是希尔伯特公理化与非欧几何的入口。

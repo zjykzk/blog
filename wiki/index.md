@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-10-11T17:48:36+08:00
+updated: 2026-10-11T20:40:28+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -91,6 +91,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Propositional and Predicate Logic|命题逻辑与谓词逻辑]] — 命题逻辑分析整句之间的真假连接，谓词逻辑还表示对象、性质、关系与量词；区分亚里士多德词项逻辑、斯多葛命题逻辑与弗雷格现代量化逻辑。 (#reasoning #thinking #formal-language #history)
 - [[wiki/concepts/Unembedding and Weight Tying|Unembedding and Weight Tying]] — Unembedding linearly projects a hidden state into one logit per vocabulary item; weight tying reuses input-embedding parameters for this output projection in some architectures. (#llm #inference #probability)
 - [[wiki/concepts/Transformer Feed-Forward Network|Transformer Feed-Forward Network]] — A Transformer FFN applies a learned nonlinear feature transformation independently at each token position, then writes the resulting update back to the residual stream. (#llm #inference #mechanism)
 - [[wiki/concepts/Token Embedding|Token Embedding]] — Token embedding maps each vocabulary ID to a learned vector that initializes a transformer's token representation; the lookup itself is static across contexts. (#llm #mechanism #inference)

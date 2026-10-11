@@ -8,10 +8,12 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-10T19:36:48+0800
+updated: 2026-10-11T20:40:28+08:00
 ---
 
 ## Recent Activity
+
+- 2026-10-11T20:40:28+08:00 — 已捕获 [[wiki/concepts/Propositional and Predicate Logic|命题逻辑与谓词逻辑]]：以苏格拉底例子说明整句连接与对象、谓词、量词的区别，并澄清亚里士多德三段论、斯多葛命题逻辑和弗雷格现代量化逻辑的历史关系。
 
 - 2026-10-10T19:36:48+08:00 — 已捕获 [[wiki/sources/Agent Benchmark Landscape Research Report Source Guide|Agent 评测集研究报告]]、[[wiki/topics/Rule Adjudication Agent Evaluation|规则裁决 Agent 评测]] 与 [[wiki/concepts/Confusion Matrix|混淆矩阵]]：从 42 来源 benchmark 地图收敛到规则适用性—事实—构成要件—例外—证据充分性的可审计裁决链，并用五类终局结论揭示漏报、误伤、错误拒判与过度裁决。
 
@@ -255,6 +257,8 @@ updated: 2026-10-10T19:36:48+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- [[wiki/concepts/Propositional and Predicate Logic|命题逻辑与谓词逻辑]]：用现代谓词符号重写古典三段论，不代表亚里士多德建立了现代谓词逻辑；古代推理传统与现代形式体系应分开理解。
 
 - 规则裁决 Agent 不能只按“符合/违规”二分类评测。可信裁决必须同时证明规则适用、相关事实成立、构成要件满足、例外不成立且证据充分；缺少任何一项时，应保留不适用、证据不足或人工复核，而不是强行给确定答案。^[inferred]
 

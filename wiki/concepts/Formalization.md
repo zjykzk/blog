@@ -8,7 +8,7 @@ sources:
   - conversation:2026-08-12
   - https://arxiv.org/abs/2605.18747
 created: 2026-08-12T23:17:18+0800
-updated: 2026-10-11T17:53:08+08:00
+updated: 2026-10-11T20:40:28+08:00
 summary: >-
   形式化把依赖背景、直觉和临场理解的问题，改写成对象、表示、规则与判定标准明确的结构，使推理能够被稳定委托、执行和检查。
 provenance:
@@ -195,6 +195,8 @@ adult = age >= 16
 - 代码运行成功即现实结论正确的保证。 ^[inferred]
 
 ## Related
+
+- [[wiki/concepts/Propositional and Predicate Logic|命题逻辑与谓词逻辑]] — 同一句自然语言可以被表示为整句命题或对象与谓词的关系；表示粒度决定哪些结构能被形式推理使用。
 
 - [[wiki/concepts/Knowledge Formalization Gradient]] — 形式化在知识表达中的渐进路径。
 - [[wiki/concepts/Executable Specification]] — 把意图压成机器可检查承诺。
