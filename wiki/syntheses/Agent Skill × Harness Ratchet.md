@@ -16,11 +16,11 @@ sources:
   - wiki/sources/Agent Engineering Source Guide.md
   - wiki/sources/GEPA Paper River Source Guide.md
 created: 2026-06-09T14:38:22+08:00
-updated: 2026-07-12T00:07:31+0800
+updated: 2026-10-11T17:54:15+08:00
 summary: Skills become ratchet surfaces when repeated agent failures are converted into revised instructions, examples, constraints, scripts, or evaluable helper code.
 provenance:
-  extracted: 0.59
-  inferred: 0.41
+  extracted: 0.04
+  inferred: 0.96
   ambiguous: 0.00
 base_confidence: 0.44
 lifecycle: draft
@@ -50,6 +50,12 @@ That creates a useful placement rule: put universal runtime constraints into the
 The skill itself should preserve a second boundary: repeated calculations, fixed scoring, formatting constraints, and mandatory gates move into scripts or checkers, while interpretation, exception handling, and synthesis remain model work. This prevents a ratchet from hardening probabilistic judgment into an unreliable instruction while still making reproducible parts executable. ^[inferred]
 
 “Design for the arc” extends the ratchet beyond one invocation: a diagnostic result becomes repair context, a failed check becomes a plan input, and a recurring failure becomes a candidate gotcha, test, script, or harness change. The skill is therefore both an execution surface and a routing point into the next improvement loop. ^[inferred]
+
+## Verification scope and rollback
+
+[[wiki/concepts/Continual Learning for AI Agents]] distinguishes context, skills, harness code and model weights as different update scopes. A repeated failure may justify a skill proposal, but it does not by itself authorize a shared permanent change. ^[inferred]
+
+The ratchet needs retained failure examples, separate verification cases, recorded versions, and rollback. The wider the number of future tasks affected, the more verification should rely on independent execution or held-out evidence rather than the editor's self-review. ^[inferred]
 
 ## Tensions and Trade-offs
 

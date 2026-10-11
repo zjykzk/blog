@@ -15,13 +15,13 @@ sources:
   - https://www.erickson-foundation.org/the-collected-works
   - https://wwnorton.co.uk/search/contributors?q=D.+Corydon+Hammond
 created: 2026-08-02T11:03:05+08:00
-updated: 2026-08-02T11:03:05+08:00
+updated: 2026-10-11T17:54:15+08:00
 summary: >-
   催眠理论、研究、临床实践与历史经典的分级书目，保留彼此竞争的理论传统，并标明产品经理的阅读价值与误用风险。
 provenance:
-  extracted: 0.79
-  inferred: 0.18
-  ambiguous: 0.03
+  extracted: 0.60
+  inferred: 0.40
+  ambiguous: 0.00
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-08-02
@@ -38,12 +38,14 @@ relationships:
 
 ## 选书标准
 
-- 被 SCEH、ASCH、APA、Oxford、Routledge、American Psychiatric Publishing 等专业组织或学术出版社收录；
-- 在催眠史上代表独立且重要的理论/实践传统；
-- 能让产品经理理解机制、研究方法或语言设计，而不是只提供“话术”；
-- 明确标记年代限制、临床边界和争议。
+- 被 SCEH、ASCH、APA、Oxford、Routledge、American Psychiatric Publishing 等专业组织或学术出版社收录； ^[inferred]
+- 在催眠史上代表独立且重要的理论/实践传统； ^[inferred]
+- 能让产品经理理解机制、研究方法或语言设计，而不是只提供“话术”； ^[inferred]
+- 明确标记年代限制、临床边界和争议。 ^[inferred]
 
 ## 核心书单
+
+表中的出版、作者和获奖信息来自列出的书目来源；“产品经理读什么”、推荐顺序和产品对应问题是本页的跨领域分析，不代表这些教材验证了相应产品效果。^[inferred]
 
 以下 10 本由不同作者或主编主导，满足“至少 7 本、不同作者”的要求。
 
@@ -82,28 +84,28 @@ William S. Kroger 著，1977 年出版，是覆盖医疗、牙科和心理应用
 
 ### 只读 3 本
 
-1. *The Suggestible Brain*：建立兴趣和日常连接；
-2. *Essentials of Clinical Hypnosis*：去魅并建立证据标准；
-3. *The Oxford Handbook of Hypnosis*：按问题查阅完整地图。
+1. *The Suggestible Brain*：建立兴趣和日常连接； ^[inferred]
+2. *Essentials of Clinical Hypnosis*：去魅并建立证据标准； ^[inferred]
+3. *The Oxford Handbook of Hypnosis*：按问题查阅完整地图。 ^[inferred]
 
 ### 读 7 本
 
 在前三本基础上增加：
 
-4. *Divided Consciousness*；
-5. *Hypnosis: A Scientific Approach*；
-6. *Trancework*；
-7. *Hypnotic Realities*。
+4. *Divided Consciousness*； ^[inferred]
+5. *Hypnosis: A Scientific Approach*； ^[inferred]
+6. *Trancework*； ^[inferred]
+7. *Hypnotic Realities*。 ^[inferred]
 
 这组故意让相互冲突的解释并存：Hilgard 强调解离，Barber 强调社会认知与任务因素，Yapko 偏实践整合，Erickson 展示个体化语言。读者必须比较它们各自解释了什么，而不是寻找唯一门派。
 
 ### 产品经理只选章节
 
-- Oxford Handbook：定义、理论视角、可暗示性、认知无意识、测量；
-- Essentials：神话、证据、期待和记忆；
-- Trancework：会谈结构、语言原则、反馈与个体化；
-- Hammond：只做语言结构分析，不学“照稿施术”；
-- Spiegel：个体差异和注意/解离模型。
+- Oxford Handbook：定义、理论视角、可暗示性、认知无意识、测量； ^[inferred]
+- Essentials：神话、证据、期待和记忆； ^[inferred]
+- Trancework：会谈结构、语言原则、反馈与个体化； ^[inferred]
+- Hammond：只做语言结构分析，不学“照稿施术”； ^[inferred]
+- Spiegel：个体差异和注意/解离模型。 ^[inferred]
 
 ## 从教材提取的产品问题
 

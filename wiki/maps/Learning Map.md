@@ -15,7 +15,7 @@ created: 2026-04-26
 base_confidence: 0.32
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-06T10:17:38+08:00
+updated: 2026-10-11T17:48:16+08:00
 aliases:
   - 学习地图
 provenance:
@@ -36,6 +36,7 @@ provenance:
 - [[wiki/concepts/Cognition Three Channels]]——认识三根：接/替/想
 - [[wiki/concepts/Expression Three Channels]]——表达三根：编/载/解
 - [[wiki/concepts/Knowledge as Network]]——知识是网不是塔
+- [[wiki/concepts/Hierarchical Syntactic Structure]]——从线性词序恢复成分嵌套与依存关系，区分句法模型与神经实现。
 - [[wiki/concepts/Understanding]]——理解是由相似结构和抽象层级共同塑形的概念云
 - [[wiki/concepts/Application]]——让抽象知识在具体约束中产生效果
 - [[wiki/concepts/Creation]]——把未成形的可能性组织成可继续使用的新秩序
@@ -44,6 +45,7 @@ provenance:
 - [[wiki/concepts/Class as Learned Invariance]]——学习判断"同一类"是发现一条"什么变了也不改变答案"的不变性；划对了叫抽象，划错了叫过拟合
 - [[wiki/concepts/Cognitive Load Theory]]——用工作记忆带宽、外在负荷、内在负荷和图式形成解释教学设计
 - [[wiki/concepts/Autonomy-Supportive Parenting]]——通过温暖、边界、选择、责任和渐进退出，帮助孩子把规则内化成自己的理由
+- [[wiki/concepts/Freedom and Self-Discipline]]——区分即时欲望自由与跨时间的自我主宰，检查规则是否由自己理解、认领并可修订。
 - [[wiki/concepts/Cognitive Engineering]]——设计人、工具与反馈构成的认知系统
 - [[wiki/concepts/AI Learning Tutor Loop]]——用 AI 源材料系统建立知识地形、诊断理解并修补错误
 - [[wiki/concepts/Narrative]]——把事实串成可预测、可赋义、可协调、可行动的因果线索

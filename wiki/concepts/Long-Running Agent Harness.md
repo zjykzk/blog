@@ -14,7 +14,7 @@ aliases:
   - 初始化-执行 双角色
 relationships:
   - target: "[[wiki/topics/AI Harness]]"
-    type: part_of
+    type: related_to
   - target: "[[wiki/topics/Context Management]]"
     type: uses
   - target: "[[wiki/topics/AI Memory]]"

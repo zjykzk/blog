@@ -15,7 +15,6 @@ updated: 2026-07-12T00:07:31+0800
 aliases:
   - 思考与判断工作流
 tags:
-  - synthesis
   - thinking
   - reasoning
   - methods

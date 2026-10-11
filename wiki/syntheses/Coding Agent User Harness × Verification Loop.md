@@ -13,11 +13,11 @@ sources:
   - wiki/concepts/Harness Ratchet
   - wiki/sources/Harness Engineering Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-07-12T00:07:31+0800
+updated: 2026-10-11T17:54:15+08:00
 summary: A user harness becomes useful when verification signals enter the loop early enough to steer agents and update durable controls.
 provenance:
-  extracted: 0.65
-  inferred: 0.35
+  extracted: 0.30
+  inferred: 0.70
   ambiguous: 0.00
 base_confidence: 0.37
 lifecycle: draft
@@ -47,6 +47,12 @@ The pair appears in pages about agentic engineering, controls, harness ratchets,
 The practical unit of AI coding improvement is not a better prompt; it is a shorter path from generated work to usable truth signal. ^[inferred]
 
 A coding-agent user harness compounds when verification output changes durable control surfaces: rules, tests, hooks, review rubrics, task templates, skill instructions, or done conditions. If verification only catches today's error, the harness remains manual QA. If verification changes next week's default environment, it becomes harness learning. ^[inferred]
+
+## Independent evidence before durable updates
+
+[[wiki/concepts/Verification Loop]] now separates **independence** from **grounding**: a reviewer can be independent yet weakly grounded, or execute real tests while sharing the generator's wrong specification. Passing a check is evidence about the encoded condition, not proof that the condition represents the real goal. ^[inferred]
+
+[[wiki/concepts/Agentic Engineering]] connects error analysis, automated checks, deployment and product feedback. Use local checks to repair the current result, then assess repeated failures before changing shared rules, skills or harness code. Durable updates need recorded evidence, bounded edit rights and rollback; a convincing self-review alone is insufficient. ^[inferred]
 
 ## Tensions and Trade-offs
 

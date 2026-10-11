@@ -29,7 +29,6 @@ relationships:
   - target: "[[wiki/concepts/Verifier Hierarchy]]"
     type: uses
 tags:
-  - synthesis
   - agents
   - memory
   - harness

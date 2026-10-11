@@ -14,7 +14,8 @@ sources:
   - conversation:2026-05-17
 created: 2026-05-17T23:35:07+08:00
 updated: 2026-05-17T23:35:07+08:00
-summary: Source guide for Caer Sanders' Martin Fowler article on mechanical sympathy: predictable memory access, cache lines, single writers, batching, and observability.
+summary: >-
+  Source guide for Caer Sanders' Martin Fowler article on mechanical sympathy: predictable memory access, cache lines, single writers, batching, and observability.
 provenance:
   extracted: 0.91
   inferred: 0.09

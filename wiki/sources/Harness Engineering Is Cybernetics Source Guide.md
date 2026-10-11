@@ -12,7 +12,8 @@ aliases:
   - odysseus0z harness cybernetics article
 sources:
   - https://x.com/odysseus0z/status/2030416758138634583?s=46&t=GqNFmk6Xi41yVO4sAJf36g
-summary: Source guide for George's X article framing harness engineering as cybernetics: sensors, actuators, feedback loops, and machine-readable judgment.
+summary: >-
+  Source guide for George's X article framing harness engineering as cybernetics: sensors, actuators, feedback loops, and machine-readable judgment.
 provenance:
   extracted: 1.00
   inferred: 0.00

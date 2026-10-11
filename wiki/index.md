@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-10-10T19:36:48+0800
+updated: 2026-10-11T17:48:36+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -41,6 +41,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/maps/Software Design Map|Software Design Map]] — 这页把软件设计中的核心概念按层次放在一张图里。关键区分是： (#software-design #architecture #map)
 
 ## Topics
+- [[wiki/topics/如何阅读康德|如何阅读康德]] — 一套把康德当“论证机器”而非“观点书”来读的可操作路径：抓住“先天综合判断如何可能”这根总问题，先读导论再攻原著，顺论证不顺结论。 (#reading #philosophy #epistemology #method)
 - [[wiki/topics/Dimensional Modeling]] — Dimensional modeling organizes analytic data around business processes, declared grain, dimensions, and facts so BI queries stay understandable and performant. (#database #data-warehouse #modeling)
 - [[wiki/topics/AI Harness|AI Harness]] — AI Harness is the runtime order layer and cybernetic steering system that connects model, context, tools, permissions, state, recovery, cache stability, and feedback loops. (#agents #harness #runtime)
 - [[wiki/topics/AI Memory|AI Memory]] — AI Memory is the persistent state layer that lets agents and organizations retain, retrieve, update, and learn from experience beyond one context window. (#agents #memory #context)
@@ -90,11 +91,20 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Unembedding and Weight Tying|Unembedding and Weight Tying]] — Unembedding linearly projects a hidden state into one logit per vocabulary item; weight tying reuses input-embedding parameters for this output projection in some architectures. (#llm #inference #probability)
+- [[wiki/concepts/Transformer Feed-Forward Network|Transformer Feed-Forward Network]] — A Transformer FFN applies a learned nonlinear feature transformation independently at each token position, then writes the resulting update back to the residual stream. (#llm #inference #mechanism)
+- [[wiki/concepts/Token Embedding|Token Embedding]] — Token embedding maps each vocabulary ID to a learned vector that initializes a transformer's token representation; the lookup itself is static across contexts. (#llm #mechanism #inference)
+- [[wiki/concepts/Self-Attention|Self-Attention]] — Self-attention compares learned queries and keys to compute input-dependent mixtures of values, routing information across permitted sequence positions. (#llm #mechanism #context #inference)
+- [[wiki/concepts/Positional Encoding|Positional Encoding]] — Positional encoding injects token order into transformer representations through learned absolute vectors or position-dependent transformations such as RoPE. (#llm #mechanism #context)
+- [[wiki/concepts/Logit Lens|Logit Lens]] — Logit Lens applies a model's final normalization and vocabulary projection to intermediate residual states to inspect which tokens are linearly decodable at each layer. (#llm #inference #mechanism)
+- [[wiki/concepts/Hierarchical Syntactic Structure|Hierarchical Syntactic Structure]] — 句法理解把线性词序重建为成分嵌套、功能依存与跨距联系；深层/表层结构是生成语法对关系结构如何转化为可发音序列的早期回答。 (#cognition #learning #formal-language)
+- [[wiki/concepts/Freedom and Self-Discipline|自由与自律]] — 自由与自律在当下欲望层面相互冲突，在跨时间的自我主宰层面彼此支撑；关键不在有没有约束，而在谁制定、为何接受以及能否修订约束。 (#thinking #cognition #judgment #mechanism)
+- [[wiki/concepts/Arithmetic Intensity|Arithmetic Intensity]] — Arithmetic intensity measures FLOPs per byte moved; the roofline threshold predicts whether a workload is limited by compute throughput or memory bandwidth. (#llm #inference #systems #optimization)
 
 - [[wiki/concepts/Discovery Replay Simulator|Discovery Replay Simulator]] — 用逐步揭示的历史发现树比较探索规则，复用执行结果，同时保留有限支持域与线上泛化边界。 ( #agents #harness #optimization #memory #feedback)
 - [[wiki/concepts/Existence Desire and Problem Cycles|存在、需要、欲望与问题循环]] — 区分身体存在、维持需要、自我调节与有意识欲望，解释问题如何由目标与条件的不匹配产生，以及身体消耗、目标变化和行动后果怎样引出下一轮。 ( #cognition #psychology #systems #mechanism #feedback)
 - [[wiki/concepts/Belief and Attitude|Belief and Attitude]] — Belief 把命题接受为真，attitude 则把事实判断、价值、情感和社会代价压成对对象的评价与行动倾向；二者在经验与反馈中相互塑造。 ( #psychology #cognition #judgment #learning #mechanism)
-- [[wiki/concepts/Attention as the Scarce Resource|Attention as the Scarce Resource]] — AI 让代码生成变廉价后，软件开发的瓶颈不再是任一交付阶段，而是人的注意力；顶尖开发者从"独奏者"变成"指挥"（编排 8+ agent），需要像高管一样保护注意力、管理精力、减少决策、把系统状态外置。 (#agents #ai-coding #attention #judgment)
+- [[wiki/concepts/Attention as the Scarce Resource|Attention as the Scarce Resource]] — AI makes code generation cheap, shifting the bottleneck to human attention: developers coordinate agents, judge results, and protect energy with clearer workflows. (#agents #ai-coding #attention #judgment)
 - [[wiki/concepts/Long-Running Agent Harness|Long-Running Agent Harness]] — 把跨多个上下文窗口的长任务拆成初始化角色（把大任务钉成可测任务清单+搭环境）与执行角色（逐条增量推进、每轮把代码/清单/进度/git 留作可续接工件）；本质是把 agent 记忆外置到文件系统与 git。 (#agents #harness #memory #context #workflow)
 - [[wiki/concepts/Political Left and Right|政治光谱：左派与右派]] — 左派/右派不是固定立场，而是相对于“现存秩序”的态度与“平等 vs 自由/秩序”的排序；参照系不同标签会颠倒，中国语境与西方几乎镜像。 (#politics #thinking #systems #judgment)
 - [[wiki/concepts/Institution as Consequence Structure|制度作为后果结构]] — 制度是被共同承认并可稳定维持的行为规则与后果结构；奖惩决定做不做，资格决定谁能做，程序决定怎样做才被承认。 ( #organization #management #systems #mechanism)
@@ -271,6 +281,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/LLM Reasoning as In-Context Computation|LLM Reasoning as In-Context Computation]] — 大模型的推理不是简单模式匹配，而是建立在模式学习之上的上下文内计算——参数提供知识与先验、Transformer 提供计算机制、上下文提供当前问题与临时状态，三者组合涌现出推理。 (#llm #reasoning #in-context-learning #cognition)
 
 ## Syntheses
+- [[wiki/syntheses/数据字典的秩|数据字典的秩]] — 数据字典的秩是一层元命题（符号不自解释）托两根柱子（意义跨主体会分裂、跨时间会蒸发），并可展开成主体数×意义寿命的建设强度坐标系。 (#database #data-warehouse #metadata #thinking #mechanism)
 - [[wiki/syntheses/Problem-Driven Reading Workbench|问题驱动的阅读工作台]] — 将藏书库与当前阅读面分离，用少量当前问题、书籍角色和退出机制，把 Kindle 从囤书仓库变成注意力受限的阅读工作台。 ( #learning #cognition #thinking #workflow #judgment)
 - [[wiki/syntheses/Cognition Functional Framework|认知功能框架：相互作用、反馈与意识边界]] — 用相互作用的功能模块修订认知六层图，补入情绪、动机与执行控制，区分自我表征、元认知和主观体验；附修订图表。 ( #cognition #psychology #reasoning #feedback #learning)
 - [[wiki/syntheses/Euclid as a Case of Formalization's Limits|Euclid as a Case of Formalization's Limits]] — 欧几里得几何是最完整的形式化范例，却把视觉直觉、语义指称、刚体运动和"空间是否为平"留在圈外；两千年后掀翻数学与物理的东西恰恰从这些圈外剩余长出。 (#thinking #reasoning #formal-language #mathematics #history)
@@ -336,6 +347,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
+- [[wiki/sources/人生的问题循环|人生的问题循环]] — 本地原始草稿用需要、欲望、约束、行动与后果解释人生问题如何反复形成，并连接已经展开的概念页。 (#cognition #thinking #mechanism)
 - [[wiki/sources/Anti-Patterns in Software Blogging Source Guide|软件博客反模式]] — Michael Lynch 用六类反模式说明技术文章应尽快承诺价值、控制知识依赖、保持页内自足，并把语言与网页呈现纳入读者体验。 ( #article #software-engineering #cognition #frontend)
 - [[wiki/sources/AI Engineering Skills Map Source Guide|AI Engineering Skills Map Source Guide]] — Andrew Ng 将 AI 工程能力分为 AI 应用交付、软件工程判断、coding agent 使用和产品塑造四层，并以持续学习维持整套能力。 ( #article #agents #ai-coding #software-engineering #judgment)
 - [[wiki/sources/Building and Deploying AI Applications Source Guide|Building and Deploying AI Applications Source Guide]] — Andrew Ng 将 AI 应用交付拆成 LLM/ML 基础、grounding、agentic systems、eval 驱动开发和生产运营，重点是用反馈把不可靠组件组织成可靠系统。 ( #article #llm #agents #feedback #software-engineering)
@@ -542,7 +554,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/光速不变与相对性原则问答 Source Guide|光速不变与相对性原则问答 Source Guide]] — 中文物理教学问答：光速不变为何成为公设、相对性原则如何约束物理规律、非惯性系为何需要惯性力。 (#learning #cognition #physics #reasoning)
 
 ## Meta
-- [[wiki/hot|Hot Cache]] — Recent activity ingested DORA Metrics as a delivery-system feedback frame connecting throughput, instability, batch size, and anti-Goodhart metric use.
+- [[wiki/hot|Hot Cache]] — 最近建立规则裁决 Agent 评测方法：把合规判断拆成裁决链，并用混淆矩阵区分漏报、误伤与过度裁决。
 - [[wiki/log|LLM Wiki Log]] — 建立 wiki/ 作为稳定知识层入口。 明确目标结构： raw/ 为原始材料层， wiki/ 为复利知识层。 首批试点选择 AI / Agent 知识簇。 保留 pages/ 、 journals/ 、 mobu/ 、 content/posts/ 作为迁移来源。 (#llm-wiki #log)
 - [[wiki/NAMING|NAMING]] — 这份文档规定 wiki/ 下笔记的命名和放置规则。
 - [[wiki/README|README]] — This directory is the stable knowledge layer of the vault.

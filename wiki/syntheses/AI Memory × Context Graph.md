@@ -13,11 +13,11 @@ sources:
   - wiki/concepts/Organizational Memory
   - wiki/concepts/Semantic File System
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-07-12T00:07:31+0800
+updated: 2026-10-11T17:54:15+08:00
 summary: AI memory becomes organizationally useful when remembered items are placed in a context graph of owners, evidence, freshness, and permissions.
 provenance:
-  extracted: 0.64
-  inferred: 0.36
+  extracted: 0.27
+  inferred: 0.73
   ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
@@ -49,6 +49,12 @@ The important question for organizational AI memory is not “can the system rem
 A remembered statement needs edges: source, owner, artifact, decision, commitment, permission, freshness, contradiction, and downstream action. Without those edges, memory can increase confidence while weakening accountability. With those edges, memory can support governed action: ask, wait, escalate, cite, update, delete, or execute. ^[inferred]
 
 This makes the context graph a memory-quality layer. It turns memory from stored text into navigable institutional state. ^[inferred]
+
+## Memory management beyond retrieval
+
+[[wiki/topics/AI Memory]] treats memory as managed state: a system must decide what to write, revise, forget, isolate by task, and evaluate. A context graph should preserve evidence, ownership and the history of corrections so that a plausible edge is not mistaken for an authorized current fact. ^[inferred]
+
+Long context does not supply this management layer by itself. Stable knowledge, past episodes and current execution state need different update and isolation rules; stale task state must not become a reusable permission or approval. Retrieval quality should be evaluated together with task outcomes, update cost and harmful carry-over. ^[inferred]
 
 ## Tensions and Trade-offs
 

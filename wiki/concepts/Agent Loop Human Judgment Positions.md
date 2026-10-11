@@ -6,12 +6,12 @@ sources:
   - conversation:2026-06-30
   - /Users/zenk/Documents/notes/20260630T181051--paper-loop-engineering__paper.org
 created: 2026-06-30T18:22:54+0800
-updated: 2026-07-12T00:07:31+0800
+updated: 2026-10-11T17:54:15+08:00
 summary: >-
   Agent loop human judgment positions are the structural points where humans define value, boundaries, veto power, state, gates, and loop repair instead of operating every agent turn.
 provenance:
-  extracted: 0.50
-  inferred: 0.50
+  extracted: 0.00
+  inferred: 1.00
   ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
@@ -79,11 +79,11 @@ This is why [[wiki/concepts/Agentic Engineering]] treats senior engineering work
 
 Use this concept when designing or reviewing any recurring agent workflow: ^[inferred]
 
-- coding-agent triage loops
-- automated issue repair loops
-- wiki maintenance loops
-- CI or release-monitoring loops
-- multi-agent planning and review systems
+- coding-agent triage loops ^[inferred]
+- automated issue repair loops ^[inferred]
+- wiki maintenance loops ^[inferred]
+- CI or release-monitoring loops ^[inferred]
+- multi-agent planning and review systems ^[inferred]
 - any scheduled automation that can act without a human pressing the next button ^[inferred]
 
 A quick review question is: ^[inferred]

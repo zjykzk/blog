@@ -14,7 +14,6 @@ updated: 2026-05-01
 aliases:
   - 从用户故事到架构
 tags:
-  - synthesis
   - requirements
   - architecture
   - software-engineering

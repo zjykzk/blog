@@ -3,7 +3,8 @@ title: NotebookLM Learning Workflow Source Guide
 type: source
 status: draft
 category: sources
-summary: Source guide for Ihtesham Ali's NotebookLM learning workflow thread: corpus loading, mental-model prompts, disagreement mapping, and diagnostic feedback.
+summary: >-
+  Source guide for Ihtesham Ali's NotebookLM learning workflow thread: corpus loading, mental-model prompts, disagreement mapping, and diagnostic feedback.
 tags:
   - learning
   - notebooklm

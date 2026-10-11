@@ -3,7 +3,8 @@ title: Theory Is All You Need Source Guide
 type: source
 status: seed
 category: sources
-summary: 这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。
+summary: >-
+  这页保留 Teppo Felin 与 Matthias Holweg 的论文 Theory Is All You Need: AI, Human Cognition, and Causal Reasoning 的阅读导览。
 sources: []
 created: 2026-05-01
 base_confidence: 0.37

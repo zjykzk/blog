@@ -18,7 +18,7 @@ base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 7
-updated: 2026-07-11T23:53:54+0800
+updated: 2026-10-11T17:54:15+08:00
 aliases:
   - 思维框架
 tags:
@@ -26,13 +26,16 @@ tags:
   - models
   - decision-making
 provenance:
-  extracted: 0.85
-  inferred: 0.15
+  extracted: 0.65
+  inferred: 0.35
   ambiguous: 0.00
 ---
 # Mental Models
 
 这页聚合的是一组可以反复调用的思维工具，而不是某个单一学科知识点。
+
+> [!note] 综合与出处
+> 此页连接多种思维工具；“Understanding/Analysis/Creation”等应用关系是本库的综合判断，已标注推断，不是各来源作者共同提出的理论。使用这些连接时，应回到对应来源与具体反例检验。
 
 ## Core idea
 

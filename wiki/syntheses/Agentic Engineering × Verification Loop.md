@@ -12,11 +12,11 @@ sources:
   - wiki/sources/Compounding Engineering Source Guide
   - wiki/sources/Agentic-First Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-07-12T00:07:31+0800
+updated: 2026-10-11T17:54:15+08:00
 summary: Agentic engineering shifts engineering effort from generating code to designing verification loops that make generated work safe to accept.
 provenance:
-  extracted: 0.58
-  inferred: 0.42
+  extracted: 0.30
+  inferred: 0.70
   ambiguous: 0.00
 base_confidence: 0.42
 lifecycle: draft
@@ -45,6 +45,12 @@ This pair appears in pages and sources about production AI coding: ^[inferred]
 Agentic engineering is not “AI writes code and humans review more.” It is the discipline of deciding which parts of verification can be made executable, which need semantic review, and where each signal enters the workflow. ^[inferred]
 
 A team becomes agentic when its verification loops are strong enough that generated work can be accepted, rejected, repaired, or escalated without relying on heroic human inspection of every diff. ^[inferred]
+
+## Independent evidence before durable updates
+
+[[wiki/concepts/Verification Loop]] now separates **independence** from **grounding**: a reviewer can be independent yet weakly grounded, or execute real tests while sharing the generator's wrong specification. Passing a check is evidence about the encoded condition, not proof that the condition represents the real goal. ^[inferred]
+
+[[wiki/concepts/Agentic Engineering]] connects error analysis, automated checks, deployment and product feedback. Use local checks to repair the current result, then assess repeated failures before changing shared rules, skills or harness code. Durable updates need recorded evidence, bounded edit rights and rollback; a convincing self-review alone is insufficient. ^[inferred]
 
 ## Tensions and Trade-offs
 

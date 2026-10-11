@@ -19,7 +19,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 13
-updated: 2026-10-08T23:17:28+0800
+updated: 2026-10-11T17:48:36+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -103,6 +103,10 @@ tags:
 - [[wiki/topics/架构落地方法]]
 - [[wiki/concepts/架构知识模型]]
 - [[wiki/concepts/架构认知框架]]
+
+## 元数据与语义治理
+
+- [[wiki/syntheses/数据字典的秩]]——用跨主体的意义对齐与跨时间的意义保存解释字段、口径、owner 和版本治理。
 
 ## Syntheses
 

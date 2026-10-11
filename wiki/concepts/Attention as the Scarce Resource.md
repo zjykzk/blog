@@ -3,12 +3,13 @@ title: Attention as the Scarce Resource
 type: concept
 status: seed
 category: concepts
-summary: When AI makes code generation cheap, the binding constraint in software development shifts from any delivery phase to human attention, turning great developers into conductors who must manage energy and decisions like executives.
+summary: >-
+  AI makes code generation cheap, shifting the bottleneck to human attention: developers coordinate agents, judge results, and protect energy with clearer workflows.
 sources:
   - https://martinfowler.com/rachels-ramblings/conductor-developer.html
   - conversation:2026-09-12
 created: 2026-09-12T00:00:00+0800
-updated: 2026-09-12T00:00:00+0800
+updated: 2026-10-11T17:50:30+08:00
 base_confidence: 0.40
 lifecycle: draft
 lifecycle_changed: 2026-09-12
@@ -46,9 +47,9 @@ The scarcity shows up as a hard ceiling on parallel agents. Engineers report run
 
 Three mechanisms explain why attention, not hours, is the constraint: ^[inferred]
 
-- **Attention residue** (Leroy, 2009): switching from task A to task B leaves part of attention stuck on A, especially when A was left unfinished. Every glance at an agent's output adds residue, so high-frequency polling of many agents degrades all of them.
-- **Decision fatigue** (Baumeister's ego-depletion line): decisions draw on a limited resource. A conductor makes hundreds of micro-decisions a day ("good enough? / iterate? / which agent?"), so *decision density*, not clock time, is what exhausts.
-- **Loss of protected flow**: the old world optimized around long uninterrupted focus; the new world trades that for high-frequency shallow switching, so the old "find a quiet block" tactic no longer covers the cost.
+- **Attention residue** (Leroy, 2009): switching from task A to task B leaves part of attention stuck on A, especially when A was left unfinished. Every glance at an agent's output adds residue, so high-frequency polling of many agents degrades all of them. ^[inferred]
+- **Decision fatigue** (Baumeister's ego-depletion line): decisions draw on a limited resource. A conductor makes hundreds of micro-decisions a day ("good enough? / iterate? / which agent?"), so *decision density*, not clock time, is what exhausts. ^[inferred]
+- **Loss of protected flow**: the old world optimized around long uninterrupted focus; the new world trades that for high-frequency shallow switching, so the old "find a quiet block" tactic no longer covers the cost. ^[inferred]
 
 ## When to Use
 
@@ -56,11 +57,11 @@ The concept applies whenever a person is steering multiple AI workstreams rather
 
 Concrete moves that operationalize each principle: ^[inferred]
 
-- **Batch, don't interrupt** — set fixed inspection windows (e.g. every 25–45 min) to review all agents at once instead of reacting to each return, collapsing N random switches into one planned one.
-- **Leave a ready-to-resume marker** — before switching away, write the acceptance criterion and what you'll check on return; Leroy's remedy for residue is a clear stopping point.
-- **Sequence by energy, not time** (Loehr & Schwartz, *The Power of Full Engagement*): put high-judgment decisions (architecture, "is this agent off-track?", rip-and-redo) in your peak window; put low-cognition inspection in the trough.
-- **Turn repeat judgments into rules** (Gollwitzer's implementation intentions): encode recurring micro-decisions as if-then policies and raise the agent's own Definition of Done so you only spend a decision when it hits the line.
-- **Externalize state** (GTD, David Allen: the mind is for having ideas, not holding them): track each agent's status on a board (in-progress / awaiting review / shipped / blocked) so attention is not stolen by "did I miss one?" The conductor holds the *structure* of the system in their head, but the system's live state lives on the score.
+- **Batch, don't interrupt** — set fixed inspection windows (e.g. every 25–45 min) to review all agents at once instead of reacting to each return, collapsing N random switches into one planned one. ^[inferred]
+- **Leave a ready-to-resume marker** — before switching away, write the acceptance criterion and what you'll check on return; Leroy's remedy for residue is a clear stopping point. ^[inferred]
+- **Sequence by energy, not time** (Loehr & Schwartz, *The Power of Full Engagement*): put high-judgment decisions (architecture, "is this agent off-track?", rip-and-redo) in your peak window; put low-cognition inspection in the trough. ^[inferred]
+- **Turn repeat judgments into rules** (Gollwitzer's implementation intentions): encode recurring micro-decisions as if-then policies and raise the agent's own Definition of Done so you only spend a decision when it hits the line. ^[inferred]
+- **Externalize state** (GTD, David Allen: the mind is for having ideas, not holding them): track each agent's status on a board (in-progress / awaiting review / shipped / blocked) so attention is not stolen by "did I miss one?" The conductor holds the *structure* of the system in their head, but the system's live state lives on the score. ^[inferred]
 
 The one-line frame: **replace willpower with structure.**
 

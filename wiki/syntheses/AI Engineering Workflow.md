@@ -35,7 +35,6 @@ aliases:
   - AI 工作流
   - Agent workflow
 tags:
-  - synthesis
   - agents
   - workflow
 ---

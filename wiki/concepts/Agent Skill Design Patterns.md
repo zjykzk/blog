@@ -3,7 +3,8 @@ title: Agent Skill Design Patterns
 type: concept
 status: seed
 category: concepts
-summary: Agent Skill Design Patterns classify SKILL.md content by the control problem it solves: knowledge, structure, review, questioning, or workflow gates.
+summary: >-
+  Agent Skill Design Patterns classify SKILL.md content by the control problem it solves: knowledge, structure, review, questioning, or workflow gates.
 sources:
   - https://x.com/GoogleCloudTech/article/2033953579824758855
   - https://lavinigam.com/posts/adk-skill-design-patterns/

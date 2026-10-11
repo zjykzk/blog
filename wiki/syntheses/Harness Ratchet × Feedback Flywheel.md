@@ -15,11 +15,12 @@ sources:
   - wiki/sources/Agent Harness Engineering Survey Source Guide.md
   - wiki/sources/LLM Wiki Source Guide.md
 created: 2026-06-09T14:38:22+08:00
-updated: 2026-07-12T00:07:31+0800
-summary: Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system.
+updated: 2026-10-11T17:54:15+08:00
+summary: >-
+  Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system.
 provenance:
-  extracted: 0.62
-  inferred: 0.38
+  extracted: 0.06
+  inferred: 0.94
   ambiguous: 0.00
 base_confidence: 0.44
 lifecycle: draft

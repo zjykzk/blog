@@ -17,11 +17,11 @@ sources:
   - wiki/sources/Compounding Engineering Source Guide.md
   - wiki/sources/Agent Harness Engineering Survey Source Guide.md
 created: 2026-06-09T14:38:22+08:00
-updated: 2026-07-12T00:07:31+0800
+updated: 2026-10-11T17:54:15+08:00
 summary: Verification loops catch local task errors; feedback flywheels convert those signals into durable improvements to context, standards, workflows, and guardrails.
 provenance:
-  extracted: 0.66
-  inferred: 0.34
+  extracted: 0.11
+  inferred: 0.89
   ambiguous: 0.00
 base_confidence: 0.44
 lifecycle: draft
@@ -51,6 +51,12 @@ A verification loop without a flywheel can catch the same mistake forever. A fly
 [[wiki/concepts/Loop Engineering]] makes the two levels operational. An inner grader loop checks the current output against deterministic tests or a semantic rubric and returns repair feedback; an outer trace-analysis loop examines repeated tool calls, grader failures, and human corrections, then proposes changes to prompts, tools, memory, skills, or grader configuration. ^[inferred]
 
 The outer loop must retain diagnostic traces rather than only pass rates. A scalar score says that the system failed; the sequence of actions and feedback indicates which durable surface should change. ^[inferred]
+
+## Independent evidence before durable updates
+
+[[wiki/concepts/Verification Loop]] now separates **independence** from **grounding**: a reviewer can be independent yet weakly grounded, or execute real tests while sharing the generator's wrong specification. Passing a check is evidence about the encoded condition, not proof that the condition represents the real goal. ^[inferred]
+
+[[wiki/concepts/Agentic Engineering]] connects error analysis, automated checks, deployment and product feedback. Use local checks to repair the current result, then assess repeated failures before changing shared rules, skills or harness code. Durable updates need recorded evidence, bounded edit rights and rollback; a convincing self-review alone is insufficient. ^[inferred]
 
 ## Tensions and Trade-offs
 

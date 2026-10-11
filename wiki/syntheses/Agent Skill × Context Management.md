@@ -13,11 +13,12 @@ sources:
   - wiki/sources/Claude Code Skills Source Guide
   - wiki/sources/Agent Skills Survey Paper Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-07-12T00:07:31+0800
-summary: Skills are context-routing devices: they add capability by making task-specific context loadable only when the workflow needs it.
+updated: 2026-10-11T17:54:15+08:00
+summary: >-
+  Skills are context-routing devices: they add capability by making task-specific context loadable only when the workflow needs it.
 provenance:
-  extracted: 0.64
-  inferred: 0.36
+  extracted: 0.19
+  inferred: 0.81
   ambiguous: 0.00
 base_confidence: 0.37
 lifecycle: draft
@@ -47,6 +48,12 @@ The pair appears across the AI and agent cluster: ^[inferred]
 A skill should be judged by its **activation boundary**, not only by its contents. The question is not “does this skill contain useful knowledge?” but “does the agent reliably load this knowledge exactly when it improves the next decision?” ^[inferred]
 
 This reframes the `description` field, folder structure, reference files, and scripts as routing machinery. The skill body carries capability, but the skill boundary protects context density. In mature agent systems, the boundary may matter more than the body because an excellent skill loaded at the wrong time becomes distractor context. ^[inferred]
+
+## Cache stability and durable learning
+
+[[wiki/topics/Context Management]] distinguishes useful context from cache-stable context. Progressive disclosure should load relevant material while protecting a stable prefix and placing changing task evidence in a bounded area. A skill that is relevant but rewrites the whole prompt on every step can still waste latency and cost. ^[inferred]
+
+[[wiki/concepts/Continual Learning for AI Agents]] distinguishes transient context edits, persistent skill changes, and runtime or model updates. Skill self-evolution needs a verification gate suited to the scope of the change, separate proposal and adoption rights, and a way to roll back. Loading a skill and accepting a new shared skill version are different decisions. ^[inferred]
 
 ## Tensions and Trade-offs
 

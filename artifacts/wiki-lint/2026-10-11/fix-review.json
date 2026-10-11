@@ -1,0 +1,414 @@
+{
+  "timestamp": "2026-10-11T17:54:15+08:00",
+  "provenance_adjustments": [
+    {
+      "page": "concepts/Agent Loop Human Judgment Positions.md",
+      "before": {
+        "extracted": 0.5,
+        "inferred": 0.5,
+        "ambiguous": 0.0
+      },
+      "after": {
+        "inferred": 1.0,
+        "ambiguous": 0.0,
+        "extracted": 0.0
+      },
+      "basis": "Reviewed scope of paragraph markers and explicit editorial claims before recomputation."
+    },
+    {
+      "page": "sources/Clinical Hypnosis Classic Texts Source Guide.md",
+      "before": {
+        "extracted": 0.79,
+        "inferred": 0.18,
+        "ambiguous": 0.03
+      },
+      "after": {
+        "inferred": 0.4,
+        "ambiguous": 0.0,
+        "extracted": 0.6
+      },
+      "basis": "Reviewed scope of paragraph markers and explicit editorial claims before recomputation."
+    },
+    {
+      "page": "syntheses/AI Harness × Testing Strategy.md",
+      "before": {
+        "extracted": 0.64,
+        "inferred": 0.36,
+        "ambiguous": 0.0
+      },
+      "after": {
+        "inferred": 0.73,
+        "ambiguous": 0.0,
+        "extracted": 0.27
+      },
+      "basis": "Reviewed scope of paragraph markers and explicit editorial claims before recomputation."
+    },
+    {
+      "page": "syntheses/AI Memory × Context Graph.md",
+      "before": {
+        "extracted": 0.64,
+        "inferred": 0.36,
+        "ambiguous": 0.0
+      },
+      "after": {
+        "inferred": 0.73,
+        "ambiguous": 0.0,
+        "extracted": 0.27
+      },
+      "basis": "Reviewed scope of paragraph markers and explicit editorial claims before recomputation."
+    },
+    {
+      "page": "syntheses/Agent Skill × Context Management.md",
+      "before": {
+        "extracted": 0.64,
+        "inferred": 0.36,
+        "ambiguous": 0.0
+      },
+      "after": {
+        "inferred": 0.81,
+        "ambiguous": 0.0,
+        "extracted": 0.19
+      },
+      "basis": "Reviewed scope of paragraph markers and explicit editorial claims before recomputation."
+    },
+    {
+      "page": "syntheses/Agent Skill × Harness Ratchet.md",
+      "before": {
+        "extracted": 0.59,
+        "inferred": 0.41,
+        "ambiguous": 0.0
+      },
+      "after": {
+        "inferred": 0.96,
+        "ambiguous": 0.0,
+        "extracted": 0.04
+      },
+      "basis": "Reviewed scope of paragraph markers and explicit editorial claims before recomputation."
+    },
+    {
+      "page": "syntheses/Agentic Engineering × Verification Loop.md",
+      "before": {
+        "extracted": 0.58,
+        "inferred": 0.42,
+        "ambiguous": 0.0
+      },
+      "after": {
+        "inferred": 0.7,
+        "ambiguous": 0.0,
+        "extracted": 0.3
+      },
+      "basis": "Reviewed scope of paragraph markers and explicit editorial claims before recomputation."
+    },
+    {
+      "page": "syntheses/Buddhist Practice Nihilism and Liberation.md",
+      "before": {
+        "extracted": 0.55,
+        "inferred": 0.3,
+        "ambiguous": 0.15
+      },
+      "after": {
+        "inferred": 0.54,
+        "ambiguous": 0.19,
+        "extracted": 0.27
+      },
+      "basis": "Reviewed scope of paragraph markers and explicit editorial claims before recomputation."
+    },
+    {
+      "page": "syntheses/Coding Agent User Harness × Verification Loop.md",
+      "before": {
+        "extracted": 0.65,
+        "inferred": 0.35,
+        "ambiguous": 0.0
+      },
+      "after": {
+        "inferred": 0.7,
+        "ambiguous": 0.0,
+        "extracted": 0.3
+      },
+      "basis": "Reviewed scope of paragraph markers and explicit editorial claims before recomputation."
+    },
+    {
+      "page": "syntheses/Harness Ratchet × Feedback Flywheel.md",
+      "before": {
+        "extracted": 0.62,
+        "inferred": 0.38,
+        "ambiguous": 0.0
+      },
+      "after": {
+        "inferred": 0.94,
+        "ambiguous": 0.0,
+        "extracted": 0.06
+      },
+      "basis": "Reviewed scope of paragraph markers and explicit editorial claims before recomputation."
+    },
+    {
+      "page": "syntheses/Learning Methodology × Mental Models.md",
+      "before": {
+        "extracted": 0.66,
+        "inferred": 0.34,
+        "ambiguous": 0.0
+      },
+      "after": {
+        "inferred": 0.67,
+        "ambiguous": 0.0,
+        "extracted": 0.33
+      },
+      "basis": "Reviewed scope of paragraph markers and explicit editorial claims before recomputation."
+    },
+    {
+      "page": "syntheses/Verification Loop × Feedback Flywheel.md",
+      "before": {
+        "extracted": 0.66,
+        "inferred": 0.34,
+        "ambiguous": 0.0
+      },
+      "after": {
+        "inferred": 0.89,
+        "ambiguous": 0.0,
+        "extracted": 0.11
+      },
+      "basis": "Reviewed scope of paragraph markers and explicit editorial claims before recomputation."
+    },
+    {
+      "page": "topics/Mental Models.md",
+      "before": {
+        "extracted": 0.85,
+        "inferred": 0.15,
+        "ambiguous": 0.0
+      },
+      "after": {
+        "inferred": 0.35,
+        "ambiguous": 0.0,
+        "extracted": 0.65
+      },
+      "basis": "Reviewed scope of paragraph markers and explicit editorial claims before recomputation."
+    }
+  ],
+  "original_provenance_reviews": [
+    {
+      "page": "concepts/Agent Loop Human Judgment Positions.md",
+      "status": "markers reviewed and provenance summary recomputed"
+    },
+    {
+      "page": "concepts/Attention as the Scarce Resource.md",
+      "status": "markers reviewed; paragraph scope corrected"
+    },
+    {
+      "page": "concepts/Causal Reasoning.md",
+      "status": "markers reviewed; paragraph scope corrected"
+    },
+    {
+      "page": "concepts/Formalization.md",
+      "status": "markers reviewed; paragraph scope corrected"
+    },
+    {
+      "page": "concepts/Freedom and Self-Discipline.md",
+      "status": "markers reviewed; paragraph scope corrected"
+    },
+    {
+      "page": "concepts/Judgment Externalization.md",
+      "status": "markers reviewed; paragraph scope corrected"
+    },
+    {
+      "page": "concepts/Positional Encoding.md",
+      "status": "markers reviewed; paragraph scope corrected"
+    },
+    {
+      "page": "concepts/Universality of Physical Law.md",
+      "status": "markers reviewed; paragraph scope corrected"
+    },
+    {
+      "page": "concepts/生产资料与生产要素.md",
+      "status": "markers reviewed; paragraph scope corrected"
+    },
+    {
+      "page": "sources/AI Evals FAQ Source Guide.md",
+      "status": "markers reviewed; paragraph scope corrected"
+    },
+    {
+      "page": "sources/Clinical Hypnosis Classic Texts Source Guide.md",
+      "status": "markers reviewed and provenance summary recomputed"
+    },
+    {
+      "page": "syntheses/Agent Knowledge Architecture.md",
+      "status": "markers reviewed; paragraph scope corrected"
+    },
+    {
+      "page": "syntheses/Agent Skill × Harness Ratchet.md",
+      "status": "markers reviewed and provenance summary recomputed"
+    },
+    {
+      "page": "syntheses/Buddhist Practice Nihilism and Liberation.md",
+      "status": "editorial claims marked; religious uncertainty retained in synthesis page with sourcing warning"
+    },
+    {
+      "page": "syntheses/Euclid as a Case of Formalization's Limits.md",
+      "status": "markers reviewed; paragraph scope corrected"
+    },
+    {
+      "page": "syntheses/Harness Ratchet × Feedback Flywheel.md",
+      "status": "markers reviewed and provenance summary recomputed"
+    },
+    {
+      "page": "syntheses/Problem-Driven Reading Workbench.md",
+      "status": "markers reviewed; paragraph scope corrected"
+    },
+    {
+      "page": "syntheses/Verification Loop × Feedback Flywheel.md",
+      "status": "markers reviewed and provenance summary recomputed"
+    },
+    {
+      "page": "syntheses/丝绸之路中的宗教组织力量.md",
+      "status": "markers reviewed; paragraph scope corrected"
+    },
+    {
+      "page": "syntheses/数据字典的秩.md",
+      "status": "markers reviewed; paragraph scope corrected"
+    },
+    {
+      "page": "topics/Mental Models.md",
+      "status": "derived applications explicitly labeled; hub advisory retained"
+    },
+    {
+      "page": "topics/Theory of Everything Popular Science.md",
+      "status": "markers reviewed; paragraph scope corrected"
+    }
+  ],
+  "source_snapshots": [
+    {
+      "page": "syntheses/AI Agent Engineering Learning Path.md",
+      "source": "wiki/concepts/Agent.md",
+      "sha256": "188b54b9783d0e7d9b898005542693c65044c7245e44d936ae23426bc1e60108",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/AI Agent Engineering Learning Path.md",
+      "source": "wiki/concepts/Agentic Control Loop.md",
+      "sha256": "6500ccad1d8b3c381212b1aea047226dc6f768dba5807da9de803219fb0891c4",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/AI Agent Engineering Learning Path.md",
+      "source": "wiki/sources/Code as Agent Harness Paper Source Guide.md",
+      "sha256": "470c076a5321037a7b2ac5bab1a1b74bc096d492e1a25667dc402f68a9044c30",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/AI Harness × Testing Strategy.md",
+      "source": "wiki/topics/AI Harness",
+      "sha256": "f81505ab5eced735729bf498791d8a037cd512415716394517426566cc2452ef",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/AI Harness × Testing Strategy.md",
+      "source": "wiki/concepts/Agentic Engineering",
+      "sha256": "9cfdb3b35b2912558fa9feda30374a555fc50037f1a4119ca009168104623b72",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/AI Harness × Testing Strategy.md",
+      "source": "wiki/concepts/Verification Loop",
+      "sha256": "3ab4f29c6d4e069f8d487f00de89972bb526c86e6a0cafbbc91c5752695a79b9",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/AI Memory × Context Graph.md",
+      "source": "wiki/topics/AI Memory",
+      "sha256": "08bae44199b42cc8bb01647f57326f6bd98f3d6a5c9fd2340bda2bd484705327",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/Agent Knowledge Architecture.md",
+      "source": "wiki/concepts/Knowledge Types",
+      "sha256": "645d05296355a3b63f2f879f608918f6729ea54d2056a426e22ea4408d08cc20",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/Agent Skill × Context Management.md",
+      "source": "wiki/topics/Context Management",
+      "sha256": "b9a184af9284c9bf115a880cf5f052637bbfaef0a42f11a6576ce845a11fc4b7",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/Agent Skill × Context Management.md",
+      "source": "wiki/concepts/Agentic Engineering",
+      "sha256": "9cfdb3b35b2912558fa9feda30374a555fc50037f1a4119ca009168104623b72",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/Agent Skill × Context Management.md",
+      "source": "wiki/concepts/Continual Learning for AI Agents",
+      "sha256": "76f6003a0d11b81841180a4ee861a4cd7c2867bc064787dd4bacf47313acb6f1",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/Agent Skill × Harness Ratchet.md",
+      "source": "wiki/concepts/Continual Learning for AI Agents.md",
+      "sha256": "76f6003a0d11b81841180a4ee861a4cd7c2867bc064787dd4bacf47313acb6f1",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/Agentic Engineering × Verification Loop.md",
+      "source": "wiki/concepts/Agentic Engineering",
+      "sha256": "9cfdb3b35b2912558fa9feda30374a555fc50037f1a4119ca009168104623b72",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/Agentic Engineering × Verification Loop.md",
+      "source": "wiki/concepts/Verification Loop",
+      "sha256": "3ab4f29c6d4e069f8d487f00de89972bb526c86e6a0cafbbc91c5752695a79b9",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/Coding Agent User Harness × Verification Loop.md",
+      "source": "wiki/concepts/Verification Loop",
+      "sha256": "3ab4f29c6d4e069f8d487f00de89972bb526c86e6a0cafbbc91c5752695a79b9",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/Coding Agent User Harness × Verification Loop.md",
+      "source": "wiki/concepts/Agentic Engineering",
+      "sha256": "9cfdb3b35b2912558fa9feda30374a555fc50037f1a4119ca009168104623b72",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/Learning Methodology × Mental Models.md",
+      "source": "wiki/topics/Learning Methodology",
+      "sha256": "a97e17027f19ba44662e7d3ed59602c2cbe61638516d3a799f181f35639b283c",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/Learning Methodology × Mental Models.md",
+      "source": "wiki/concepts/Understanding",
+      "sha256": "02c1b47de0235090c3924efc8ea090993b54cfcc6ea85225e9ea56f18fcfb94e",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/Rank Reduction as Generative Model Discovery.md",
+      "source": ".agents/skills/ljg-rank/SKILL.md",
+      "sha256": "1abb107af637727444cb32ac6eba3d0a1354edefbe06c6f3384d87cafaaafc09",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/Verification Loop × Feedback Flywheel.md",
+      "source": "wiki/concepts/Verification Loop.md",
+      "sha256": "3ab4f29c6d4e069f8d487f00de89972bb526c86e6a0cafbbc91c5752695a79b9",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/Verification Loop × Feedback Flywheel.md",
+      "source": "wiki/concepts/Agentic Engineering.md",
+      "sha256": "9cfdb3b35b2912558fa9feda30374a555fc50037f1a4119ca009168104623b72",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    },
+    {
+      "page": "syntheses/数据字典的秩.md",
+      "source": ".agents/skills/ljg-rank/SKILL.md",
+      "sha256": "1abb107af637727444cb32ac6eba3d0a1354edefbe06c6f3384d87cafaaafc09",
+      "review": "source text reviewed; substantive updates incorporated where needed; mtime alone is not a content change"
+    }
+  ],
+  "confidence_disposition": "Unclassified source strings cannot justify automatic confidence changes. Keep 210 heuristic candidates as a separate metadata migration queue.",
+  "synthesis_gap_disposition": "Six suggested syntheses are content opportunities, not structural defects; do not create pages just to zero the audit.",
+  "stale_disposition": "Age is an overlay; refresh only reviewed or changed content, do not mass-bump updated."
+}

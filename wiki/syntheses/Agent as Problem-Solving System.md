@@ -4,7 +4,6 @@ type: synthesis
 status: draft
 category: syntheses
 tags:
-  - synthesis
   - agents
   - reasoning
   - problem-solving

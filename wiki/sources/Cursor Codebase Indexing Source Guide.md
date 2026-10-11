@@ -3,7 +3,8 @@ title: Cursor Codebase Indexing Source Guide
 type: source
 status: growing
 category: sources
-summary: Source guide for Manthan Gupta's Cursor indexing article: two search indexes, Merkle sync/proofs, Turbopuffer namespaces, and file-backed dynamic context.
+summary: >-
+  Source guide for Manthan Gupta's Cursor indexing article: two search indexes, Merkle sync/proofs, Turbopuffer namespaces, and file-backed dynamic context.
 sources:
   - https://x.com/manthanguptaa/article/2067096080886698364
 created: 2026-06-19T09:30:54+0800

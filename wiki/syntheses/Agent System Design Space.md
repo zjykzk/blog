@@ -32,7 +32,6 @@ aliases:
   - Agent architecture design space
   - AI agent system design space
 tags:
-  - synthesis
   - agents
   - architecture
 ---

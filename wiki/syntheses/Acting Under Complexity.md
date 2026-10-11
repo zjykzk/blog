@@ -17,7 +17,6 @@ aliases:
   - 在复杂性下行动
   - complexity action framework
 tags:
-  - synthesis
   - complexity
   - decision-making
   - thinking

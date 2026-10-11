@@ -13,11 +13,12 @@ sources:
   - wiki/concepts/Verification Loop
   - wiki/sources/Coding with AI Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-07-12T00:07:31+0800
-summary: In AI coding, testing strategy becomes harness design: tests are runtime feedback surfaces, not only post-implementation QA.
+updated: 2026-10-11T17:54:15+08:00
+summary: >-
+  In AI coding, testing strategy becomes harness design: tests are runtime feedback surfaces, not only post-implementation QA.
 provenance:
-  extracted: 0.64
-  inferred: 0.36
+  extracted: 0.27
+  inferred: 0.73
   ambiguous: 0.00
 base_confidence: 0.37
 lifecycle: draft
@@ -49,6 +50,12 @@ Testing strategy becomes more valuable when it moves from a coverage artifact to
 In human-only coding, tests mainly increase confidence in changes. In AI coding, tests also shape the agent's next action. A failing test can become a repair prompt; a missing test becomes missing feedback; an ambiguous acceptance condition becomes a harness blind spot. ^[inferred]
 
 Therefore the AI-era testing question is not only “what should be tested?” but “where should this test signal enter the agent loop?” Unit tests, contract tests, visual checks, mutation tests, lint rules, and review rubrics have different value depending on whether they run during generation, pre-commit, CI, or periodic drift review. ^[inferred]
+
+## Verification independence and goal fit
+
+[[wiki/concepts/Verification Loop]] separates verifier independence from grounding. A test may exercise real code while sharing the generator's mistaken interpretation; it can also satisfy a specification that misses the product goal. Runtime checks therefore need explicit acceptance criteria and independent evidence, not just successful execution. ^[inferred]
+
+[[wiki/concepts/Agentic Engineering]] adds a broader skills-and-workflow view: generation, context assembly, testing, error analysis, and deployment contribute to the same product outcome. Testing strategy should reserve human review for unresolved goal or risk decisions and send reproducible failures back into the agent loop. ^[inferred]
 
 ## Tensions and Trade-offs
 

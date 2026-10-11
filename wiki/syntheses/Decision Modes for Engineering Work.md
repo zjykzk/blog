@@ -14,7 +14,6 @@ updated: 2026-04-21
 aliases:
   - 工程工作的决策模式
 tags:
-  - synthesis
   - decision-making
   - management
   - engineering

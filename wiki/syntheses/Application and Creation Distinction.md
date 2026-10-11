@@ -5,7 +5,6 @@ status: draft
 category: syntheses
 summary: Application adapts an existing abstraction to constraints; creation reorganizes materials into a new durable order.
 tags:
-  - synthesis
   - thinking
   - learning
   - creativity

@@ -3,7 +3,8 @@ title: Epiplexity Paper Notes
 type: source
 status: seed
 category: sources
-summary: 这页保留论文 From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence 的阅读笔记，并作为 Epiplexity 的来源层。
+summary: >-
+  这页保留论文 From Entropy to Epiplexity: Rethinking Information for Computationally Bounded Intelligence 的阅读笔记，并作为 Epiplexity 的来源层。
 sources: []
 created: 2026-04-24
 base_confidence: 0.37

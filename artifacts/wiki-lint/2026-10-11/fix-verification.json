@@ -1,0 +1,287 @@
+{
+  "timestamp": "2026-10-11T17:55:18+08:00",
+  "passed_checks": [
+    "orphans",
+    "broken_links",
+    "frontmatter_parse_errors",
+    "duplicate_frontmatter_keys",
+    "missing_frontmatter",
+    "summary_issues",
+    "lifecycle_schema_issues",
+    "supersession_issues",
+    "typed_relationship_issues",
+    "index_issues"
+  ],
+  "strict_yaml_parsing": "all 517 files checked; governance exceptions apply",
+  "source_revision_verified": "aae828dc95fa449555456c2b0f0c172ce8b1bd09",
+  "unchanged_existing_base_confidence": true,
+  "lifecycle_changes": "only invalid seed repaired to draft",
+  "changed_wiki_pages": [
+    {
+      "page": "concepts/Agent Loop Human Judgment Positions.md",
+      "metadata_changed": true,
+      "sha256": "74789281615d1dd942e129ab4f909b08842ca8c4f7baaf35c38216d95fd965b6"
+    },
+    {
+      "page": "concepts/Agent Skill Design Patterns.md",
+      "metadata_changed": false,
+      "sha256": "517fec2a6d789db5548871eb32bea3a7274fb7cc63a31ab21a61dd2f81c1af79"
+    },
+    {
+      "page": "concepts/Arrow of Time.md",
+      "metadata_changed": true,
+      "sha256": "531a73ea438ec7b1fc5a38eb3fd11369f0a42a7a16518586e3ee9643a6755632"
+    },
+    {
+      "page": "concepts/Attention as the Scarce Resource.md",
+      "metadata_changed": true,
+      "sha256": "35ceeb6fae3ae820d8a9fef05016b00d1e813b80a86483a49fca217071495d4c"
+    },
+    {
+      "page": "concepts/Causal Reasoning.md",
+      "metadata_changed": true,
+      "sha256": "906021676c20ff1fbeb2aa1a18ff9158dbdc9d775712c7ea45ed9aa1ee09d2b8"
+    },
+    {
+      "page": "concepts/Existence Desire and Problem Cycles.md",
+      "metadata_changed": true,
+      "sha256": "7e4990d46c31c8a7dbdf490c18e7e9856a8bb02088df20da51973c2ce797f4c8"
+    },
+    {
+      "page": "concepts/Formalization.md",
+      "metadata_changed": true,
+      "sha256": "72f1b8da881d03ff35f297d4d800a5e16ef28e7b173f50587720885ea0b748b0"
+    },
+    {
+      "page": "concepts/Freedom and Self-Discipline.md",
+      "metadata_changed": true,
+      "sha256": "1501e3f2603178050ec890440e43d92ad783f81f1cda1d1148c53363d8770466"
+    },
+    {
+      "page": "concepts/Judgment Externalization.md",
+      "metadata_changed": true,
+      "sha256": "cbfe879571603a69200df562d25c8323df65e1c98cb158d52051a69b977934f8"
+    },
+    {
+      "page": "concepts/Long-Running Agent Harness.md",
+      "metadata_changed": true,
+      "sha256": "23ce404f95c2b9a22591287ea79114705a0aac6912eab206a3fc903bfbcb03c7"
+    },
+    {
+      "page": "concepts/Universality of Physical Law.md",
+      "metadata_changed": true,
+      "sha256": "f44c7164f5e3bd40a9c33eb2c668e49666da80b0bdb863acc63c4a5c57e1c844"
+    },
+    {
+      "page": "index.md",
+      "metadata_changed": true,
+      "sha256": "de3b71cf82539fdaaa4f4a2b8508f5c25f167a2b696846228a39dbd81e274418"
+    },
+    {
+      "page": "log.md",
+      "metadata_changed": true,
+      "sha256": "7578002c96dce91e1c19809e4449a9055437489d53bf06086393e2cf63bdf108"
+    },
+    {
+      "page": "maps/CS Map.md",
+      "metadata_changed": true,
+      "sha256": "c7c047a1ef07c11defde96a59e687e4f3d2a0dbc7d18e4b299c8b319d199bceb"
+    },
+    {
+      "page": "maps/Learning Map.md",
+      "metadata_changed": true,
+      "sha256": "222d926d2598feae05f7b4a17aec0e8d41128a7125484f5426ec2477f0c43296"
+    },
+    {
+      "page": "sources/AI Evals FAQ Source Guide.md",
+      "metadata_changed": true,
+      "sha256": "c94a0b5e3de860710a0d7349cd09149e167b639c667281d6fb08b3477f7880d5"
+    },
+    {
+      "page": "sources/Clinical Hypnosis Classic Texts Source Guide.md",
+      "metadata_changed": true,
+      "sha256": "9da04fe0e1f02abbb93753cbeb3888959343b3ccbe0b06d45737884aa8ff9d93"
+    },
+    {
+      "page": "sources/Cursor Codebase Indexing Source Guide.md",
+      "metadata_changed": false,
+      "sha256": "a4499beb6f3c78cba96f98b811486e44c5ba28ac74c21741e5b031e14cd88e49"
+    },
+    {
+      "page": "sources/Epiplexity Paper Notes.md",
+      "metadata_changed": false,
+      "sha256": "80a422e570cd2e682fbe4c1d7eb34bfec69306b02cf11577e6943c0cb357faa4"
+    },
+    {
+      "page": "sources/Harness Engineering Is Cybernetics Source Guide.md",
+      "metadata_changed": false,
+      "sha256": "5a72495669200f6485c9d619aae2cf703cc8830d76bb3560fcb39740a77c2143"
+    },
+    {
+      "page": "sources/Harness Engineering Source Guide.md",
+      "metadata_changed": false,
+      "sha256": "39ebeea19512387da20bc0260a11cd12995760f0e5251e761430302872d559e4"
+    },
+    {
+      "page": "sources/NotebookLM Learning Workflow Source Guide.md",
+      "metadata_changed": false,
+      "sha256": "8e5f4b77f4a5faf2efb96319400c091b438f4c28abd7d133356bf6afec374bba"
+    },
+    {
+      "page": "sources/Principles of Mechanical Sympathy Source Guide.md",
+      "metadata_changed": false,
+      "sha256": "07bc5425789a33ba6cd8b068b6f4bee04a29656528b94c70004f3f5b2b70abe9"
+    },
+    {
+      "page": "sources/Theory Is All You Need Source Guide.md",
+      "metadata_changed": false,
+      "sha256": "4456c1294a540880e09e5cacda8038f6df65f44a5e76daed7e97ba6d017ad357"
+    },
+    {
+      "page": "sources/人生的问题循环.md",
+      "metadata_changed": true,
+      "sha256": "fd6b29df27ac319f90f29145f4d142b06bada18aee89a3b639c833faf402324a"
+    },
+    {
+      "page": "syntheses/AI Agent Three Paradoxes.md",
+      "metadata_changed": true,
+      "sha256": "5dc6f36abedf75cde0de95c4629f980afedd615ac0810629f40c8d6b1d80702a"
+    },
+    {
+      "page": "syntheses/AI Engineering Workflow.md",
+      "metadata_changed": true,
+      "sha256": "47d10bf2cc1b464cf4801a69cbe017848a9a7b84020d8c04658f3637eb694031"
+    },
+    {
+      "page": "syntheses/AI Harness × Testing Strategy.md",
+      "metadata_changed": true,
+      "sha256": "de94c8e0a9d7768c7cf866f04c1e22864ff3ff48169f4fa4edab2ec33425d0be"
+    },
+    {
+      "page": "syntheses/AI Memory × Context Graph.md",
+      "metadata_changed": true,
+      "sha256": "6eded9e99f69c2de510e9cfb646694ef77c5ce6f3d9504199cb8cd48d767739e"
+    },
+    {
+      "page": "syntheses/Acting Under Complexity.md",
+      "metadata_changed": true,
+      "sha256": "e2dfa173f5e1fb60b6823336c25d88e0a5aceda2a2a05713400ffbb33fb7dfe3"
+    },
+    {
+      "page": "syntheses/Agent Knowledge Architecture.md",
+      "metadata_changed": true,
+      "sha256": "7bf1b0b286af7788068e83e2bc694b28530fee6b4e651aa661f5c0bf73d91060"
+    },
+    {
+      "page": "syntheses/Agent Skill × Context Management.md",
+      "metadata_changed": true,
+      "sha256": "06dca703d850aa8f6450c73f25a27ec72100d4fe52143269a779b7d39fa994f3"
+    },
+    {
+      "page": "syntheses/Agent Skill × Harness Ratchet.md",
+      "metadata_changed": true,
+      "sha256": "571b30be3155f18cbc4d1ad89ce911e2ae0477841ce7d95939647430eee3702f"
+    },
+    {
+      "page": "syntheses/Agent System Design Space.md",
+      "metadata_changed": true,
+      "sha256": "9cf8c01d50218c438f6c32772f3c0f1f8a759b4acf2bf5a504f5b76730112746"
+    },
+    {
+      "page": "syntheses/Agent as Problem-Solving System.md",
+      "metadata_changed": true,
+      "sha256": "41553952898f61abdc65d0450347ed7a1d2599dcc620e6f2a3a3f459a8f79b13"
+    },
+    {
+      "page": "syntheses/Agentic Engineering × Verification Loop.md",
+      "metadata_changed": true,
+      "sha256": "2fba923ddf2df93efcc3002ce3206dce87c3e523451e1758f4a3d63a31bf6716"
+    },
+    {
+      "page": "syntheses/Application and Creation Distinction.md",
+      "metadata_changed": true,
+      "sha256": "6bccceacbd8791cf499e566c93d3739fd4e1b18f36b753c38e5de111bc7fda37"
+    },
+    {
+      "page": "syntheses/Buddhist Practice Nihilism and Liberation.md",
+      "metadata_changed": true,
+      "sha256": "19ab61d64e3f6f47fc965831e3e8c946a45f3a90561f827ba5f7529d6e0096a3"
+    },
+    {
+      "page": "syntheses/Coding Agent User Harness × Verification Loop.md",
+      "metadata_changed": true,
+      "sha256": "bc68d55283d9fa5af425b41b79304d56cfeb3d152df7430c7f62f57580623346"
+    },
+    {
+      "page": "syntheses/Decision Modes for Engineering Work.md",
+      "metadata_changed": true,
+      "sha256": "c40e2e9992fe08ea2bc83cc676988efe026e722089fb36c2e77dd142bfd71995"
+    },
+    {
+      "page": "syntheses/Euclid as a Case of Formalization's Limits.md",
+      "metadata_changed": true,
+      "sha256": "3d39235ea34276fd9c77d6e017c28961d5116adab5247900afa0d6f0b23d94b5"
+    },
+    {
+      "page": "syntheses/From User Story to Architecture.md",
+      "metadata_changed": true,
+      "sha256": "fc324c2f7380fecd856bd1375eeaa0dc558ef5bae25aba83eda556334b6a1ebd"
+    },
+    {
+      "page": "syntheses/Harness Ratchet × Feedback Flywheel.md",
+      "metadata_changed": true,
+      "sha256": "25c2ff41368a29cd77ade22c95119ec78e0c3794217ef20ac696ee7eafc54fd6"
+    },
+    {
+      "page": "syntheses/Learning Methodology × Mental Models.md",
+      "metadata_changed": true,
+      "sha256": "784beee1337ba76b6ef598a6bfd13bdb5d7dc611a002f4621745aad55a63a211"
+    },
+    {
+      "page": "syntheses/Problem-Driven Reading Workbench.md",
+      "metadata_changed": true,
+      "sha256": "97ffc764c261d7726bdc200102161eba9d7d90c3cb177bc8605e50baf535b597"
+    },
+    {
+      "page": "syntheses/Rank Reduction as Generative Model Discovery.md",
+      "metadata_changed": true,
+      "sha256": "2a38d21436994be2d25299583d9c34c3c6ad7fac6b636bf253f9f751490f0e45"
+    },
+    {
+      "page": "syntheses/Thinking and Judgment Workflow.md",
+      "metadata_changed": true,
+      "sha256": "e4720860ec22f5c12ea6c2868c5b9be39c7e77d85a4532a89684db3b6fc5ff0a"
+    },
+    {
+      "page": "syntheses/Verification Loop × Feedback Flywheel.md",
+      "metadata_changed": true,
+      "sha256": "76d96509b5e7d6dcda2e84b95b30269a0cdfd38c0193357dcad7f7a122c763c9"
+    },
+    {
+      "page": "syntheses/不确定性下的判断.md",
+      "metadata_changed": true,
+      "sha256": "e811670e38d8a4626624edf1d5b84a8b29a43d0fb6e0ea3a8274ea7b4e7d6da1"
+    },
+    {
+      "page": "syntheses/数据字典的秩.md",
+      "metadata_changed": true,
+      "sha256": "f640828ab6e1d32237b095f731cb9f016f57249e754068621ecee119789a611c"
+    },
+    {
+      "page": "topics/Mental Models.md",
+      "metadata_changed": true,
+      "sha256": "d761c3f8a09c241503da6782c8f4701e82a1d327b0e1ddc8b679559d4b526a47"
+    },
+    {
+      "page": "topics/Theory of Everything Popular Science.md",
+      "metadata_changed": true,
+      "sha256": "2fdc864ebe10a440aeb78f2fc17cd129ba82f4970c9a28685437155177942d53"
+    },
+    {
+      "page": "topics/如何阅读康德.md",
+      "metadata_changed": true,
+      "sha256": "20162df201abc269ed4174991946e129af11f417ef00dcebd80ef906d199c1e2"
+    }
+  ],
+  "qmd": "skipped: QMD_WIKI_COLLECTION unset"
+}

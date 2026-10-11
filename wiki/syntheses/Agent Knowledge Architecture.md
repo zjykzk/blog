@@ -13,7 +13,7 @@ sources:
   - https://denis2054.github.io/Context-Engineering-for-Multi-Agent-Systems/media/three_tier_context_engines.html
   - wiki/concepts/Knowledge Types
 created: 2026-09-09T21:39:46+0800
-updated: 2026-09-09T21:39:46+0800
+updated: 2026-10-11T17:53:08+08:00
 summary: >-
   Agent 知识架构按决策作用区分事实、语义、情景、程序、因果、规范、目标、能力和元知识，再按时间尺度与约束强度决定其运行时落点。
 provenance:
@@ -143,11 +143,11 @@ Context Engine 的核心工作不是把所有知识放进一个向量数据库�
 
 为 Agent 设计知识系统时，可以依次追问：
 
-1. 这份知识在决策中负责描述、解释、指导、限制、评价，还是校准？
-2. 它是稳定知识、版本化规则、历史事件，还是当前任务状态？
-3. 它只供参考，还是必须引用、必须执行或不可绕过？
-4. 它的来源、所有者、生效时间、适用范围和失效条件是什么？
-5. 它应该由语义检索找到，还是由 schema、状态机、权限和 policy 确定性地执行？
+1. 这份知识在决策中负责描述、解释、指导、限制、评价，还是校准？ ^[inferred]
+2. 它是稳定知识、版本化规则、历史事件，还是当前任务状态？ ^[inferred]
+3. 它只供参考，还是必须引用、必须执行或不可绕过？ ^[inferred]
+4. 它的来源、所有者、生效时间、适用范围和失效条件是什么？ ^[inferred]
+5. 它应该由语义检索找到，还是由 schema、状态机、权限和 policy 确定性地执行？ ^[inferred]
 
 最终原则是：**不要按“都是文本”来组织 Agent 知识，而要按“它怎样改变决策与行动”来组织。** ^[inferred]
 
