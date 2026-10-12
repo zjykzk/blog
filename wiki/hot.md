@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近收录 AI Agent 时代的三种工程之乐：making 可上移，knowing 会因只识别不生成而退化，mattering 需要迁移到判断与责任。
+summary: 最近收录“看透的方法”：从事实与重复模式抽出机制，用竞争解释、预测和小型干预校准判断。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-12T23:14:28+0800
+updated: 2026-10-12T23:26:44+0800
 ---
 
 ## Recent Activity
+
+- 2026-10-12T23:26:44+08:00 — 已捕获 [[wiki/topics/Seeing Clearly|看透的方法]]：把“看透”从动机猜测改写为事实分层、重复模式、机制建模、竞争解释和小型干预组成的判断流程；解释必须能压缩多个现象、产生区别性预测，并说明什么证据会迫使自己改口。
 
 - 2026-10-12T23:14:28+08:00 — 已收录 [[wiki/sources/Three Joys of Engineering Source Guide|AI Agent 时代的三种工程之乐]]，并建立 [[wiki/concepts/Engineering Work Three Joys|Engineering Work Three Joys]]：making 可以从逐行实现上移到系统塑造，knowing 会在只选择 Agent 答案、不再独立生成时退化，mattering 则需要从不可替代的实现者迁移到问题选择、判断与责任。识别—生成差距已补入 [[wiki/concepts/Cognitive Debt|认知债务]] 和 [[wiki/concepts/Agent Loop Human Judgment Positions|Agent 循环中的人类判断位置]]。
 
@@ -200,6 +202,8 @@ updated: 2026-10-12T23:14:28+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- “看透”不是给人贴上更锋利的标签，而是用事实、重复模式、约束与激励构造多个可竞争的解释，再让预测和小型干预接受现实校准；不能说明改口条件的解释仍然只是自洽叙事。^[inferred]
 
 - AI Agent 对工程工作的影响不是一条单一生产率轴：making 可以上移到系统与循环，knowing 会因 recognition 取代 generation 而退化，mattering 则必须从实现稀缺性迁移到问题选择、判断、否决和最终责任。后两项不会仅靠提高 Agent 能力自动得到保护。^[inferred]
 

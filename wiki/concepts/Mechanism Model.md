@@ -203,6 +203,7 @@ aliases:
 ## Related
 
 - [[wiki/maps/Mechanism Models Map]]
+- [[wiki/topics/Seeing Clearly|看透的方法]]
 - [[wiki/concepts/Institution as Consequence Structure|制度作为后果结构]]
 - [[wiki/concepts/System]]
 - [[wiki/concepts/Feedback Loops]]

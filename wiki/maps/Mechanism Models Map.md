@@ -94,6 +94,7 @@ aliases:
 这一组模型最接近“拆机制”的操作模板。
 
 - [[wiki/concepts/Mechanism Model]]：用结果、变量、约束、激励、反馈和时间把混乱叙事压成结构句，并检查缺少任一要素时会出现的解释盲区。
+- [[wiki/topics/Seeing Clearly|看透的方法]]：先分开事实、解释与情绪，再从重复结果中抽出生成机制，用竞争解释、区别性预测和小型干预防止“看透”退化为动机猜测。
 - [[wiki/concepts/囚徒困境]]：说明在信息隔离、承诺缺失和背叛诱惑下，个体理性的局部最优如何共同生成集体次优。
 - [[wiki/concepts/Hard Constraint]]：行动必须先通过资源、时间、规律和他人能动性的现实校验。
 - [[wiki/sources/Three Constraints for Building Products Source Guide|构建产品前的三个约束]]：用一页纸、可分离核心能力和定义性约束压缩项目的认知、资产与设计搜索空间，并区分作者的复利主张与对产品设计收益的进一步推论。

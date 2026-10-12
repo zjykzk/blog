@@ -41,6 +41,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/maps/Software Design Map|Software Design Map]] — 这页把软件设计中的核心概念按层次放在一张图里。关键区分是： (#software-design #architecture #map)
 
 ## Topics
+- [[wiki/topics/Seeing Clearly|Seeing Clearly]] — 看透不是猜中他人动机，而是从事实与重复结果中抽出生成机制，保留竞争解释，并用预测和小型干预让现实校准判断。 ( #thinking #judgment #reasoning #mechanism #methods)
 - [[wiki/topics/Peer Feedback|Peer Feedback]] — 同伴反馈在真实协作中交换观察与影响，结合 CSBI、影响层级和接收闭环持续培养团队。 ( #management #organization #feedback)
 - [[wiki/topics/如何阅读康德|如何阅读康德]] — 一套把康德当“论证机器”而非“观点书”来读的可操作路径：抓住“先天综合判断如何可能”这根总问题，先读导论再攻原著，顺论证不顺结论。 (#reading #philosophy #epistemology #method)
 - [[wiki/topics/Dimensional Modeling]] — Dimensional modeling organizes analytic data around business processes, declared grain, dimensions, and facts so BI queries stay understandable and performant. (#database #data-warehouse #modeling)
