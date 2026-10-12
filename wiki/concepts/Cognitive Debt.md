@@ -10,12 +10,15 @@ aliases:
 relationships:
   - target: "[[wiki/concepts/Agentic Engineering]]"
     type: related_to
+  - target: "[[wiki/concepts/Engineering Work Three Joys]]"
+    type: related_to
   - target: "[[wiki/concepts/Organizational Memory]]"
     type: related_to
   - target: "[[wiki/concepts/Executable Specification]]"
     type: uses
 sources:
   - https://arxiv.org/pdf/2606.21894
+  - https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7514210769282994176-fOyn
 summary: Cognitive debt is the loss of human and organizational understanding of software intent, architecture, and rationale as agents generate and maintain more artifacts.
 provenance:
   extracted: 0.82
@@ -26,7 +29,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-12
 tier: supporting
 created: 2026-07-12T00:30:14+0800
-updated: 2026-07-12T00:30:14+0800
+updated: 2026-10-12T23:14:28+0800
 ---
 
 # Cognitive Debt
@@ -58,6 +61,22 @@ more agent-produced artifacts
 ```
 
 The loop is not caused simply by using AI. It appears when production is delegated without preserving the artifacts and responsibility needed to reconstruct the system's intent. ^[inferred]
+
+## Recognition-Generation Gap
+
+[[wiki/sources/Three Joys of Engineering Source Guide|Addy Osmani's making-knowing-mattering lens]] sharpens cognitive debt at the individual level: choosing among an Agent's suggestions exercises recognition, while constructing a design without supplied options exercises generation.
+
+Recognition can create a feeling of fluency because a proposed answer looks understandable. That feeling does not prove the engineer can independently recall the constraints, build the same structure, explain the tradeoffs, or notice an omitted alternative. Cognitive debt can therefore grow before obvious review failure appears. ^[inferred]
+
+```text
+agent supplies options
+-> human selects instead of constructing
+-> generative recall and system modeling receive fewer repetitions
+-> independent design and fault localization weaken
+-> future agent output becomes harder to challenge
+```
+
+Understanding calibration should sometimes use free-response checks: predict the design or failure before viewing suggestions, explain representative changes without relying on the agent transcript, and personally debug a sample of consequential failures. The goal is not to preserve manual coding volume; it is to preserve the generative understanding needed to direct and veto automation. ^[inferred]
 
 ## Early Signals
 
@@ -102,3 +121,5 @@ These controls do not eliminate the need for agents. They change delegation from
 - [[wiki/concepts/Context Anchoring]]
 - [[wiki/concepts/Verification Gap]]
 - [[wiki/concepts/Accountability]]
+- [[wiki/concepts/Engineering Work Three Joys]]
+- [[wiki/sources/Three Joys of Engineering Source Guide]]

@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近收录健康同伴反馈：先理解情境，再讨论具体行为与影响，用内容—模式—关系层级和接收闭环维护日常团队反馈。
+summary: 最近收录 AI Agent 时代的三种工程之乐：making 可上移，knowing 会因只识别不生成而退化，mattering 需要迁移到判断与责任。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-11T23:28:02+08:00
+updated: 2026-10-12T23:14:28+0800
 ---
 
 ## Recent Activity
+
+- 2026-10-12T23:14:28+08:00 — 已收录 [[wiki/sources/Three Joys of Engineering Source Guide|AI Agent 时代的三种工程之乐]]，并建立 [[wiki/concepts/Engineering Work Three Joys|Engineering Work Three Joys]]：making 可以从逐行实现上移到系统塑造，knowing 会在只选择 Agent 答案、不再独立生成时退化，mattering 则需要从不可替代的实现者迁移到问题选择、判断与责任。识别—生成差距已补入 [[wiki/concepts/Cognitive Debt|认知债务]] 和 [[wiki/concepts/Agent Loop Human Judgment Positions|Agent 循环中的人类判断位置]]。
 
 - 2026-10-11T23:28:02+08:00 — 已收录 [[wiki/sources/Healthy Peer Feedback Source Guide|健康同伴反馈]]：保留完整英文正文，建立 [[wiki/topics/Peer Feedback|同伴反馈]]、[[wiki/concepts/Context-Situation-Behaviour-Impact|CSBI]] 与 [[wiki/concepts/Feedback Impact Levels|反馈影响层级]]；补入技术管理、反馈回路及高难度沟通。核心变化是从评审时收集评语转向日常情境理解、具体影响和接收后的闭环。
 
@@ -20,6 +22,8 @@ updated: 2026-10-11T23:28:02+08:00
 - 2026-10-10T19:36:48+08:00 — 已捕获 [[wiki/sources/Agent Benchmark Landscape Research Report Source Guide|Agent 评测集研究报告]]、[[wiki/topics/Rule Adjudication Agent Evaluation|规则裁决 Agent 评测]] 与 [[wiki/concepts/Confusion Matrix|混淆矩阵]]：从 42 来源 benchmark 地图收敛到规则适用性—事实—构成要件—例外—证据充分性的可审计裁决链，并用五类终局结论揭示漏报、误伤、错误拒判与过度裁决。
 
 ## Active Threads
+
+- AI 软件工程现在加入“三种工程之乐”线索：[[wiki/concepts/Engineering Work Three Joys|making、knowing、mattering]] 分别追踪创造心流、系统理解和职业重要感。最隐蔽的风险不是少写代码，而是工程师仍能识别 Agent 答案，却逐渐不能独立生成、解释和反驳方案；理解校准因此需要自由回答式抽样，而不只是 diff 审批。
 
 - 同伴反馈文化：区分个人偏好与共同规范，观察内容问题如何累积为模式和关系影响。
 
@@ -196,6 +200,8 @@ updated: 2026-10-11T23:28:02+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- AI Agent 对工程工作的影响不是一条单一生产率轴：making 可以上移到系统与循环，knowing 会因 recognition 取代 generation 而退化，mattering 则必须从实现稀缺性迁移到问题选择、判断、否决和最终责任。后两项不会仅靠提高 Agent 能力自动得到保护。^[inferred]
 
 - 同伴反馈要先理解情境再解释行为；对影响的感知需要澄清，反馈接收者可以行动，也可以说明反思后的不采纳。日常闭环比集中收集评语更能维持反馈供给。
 

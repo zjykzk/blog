@@ -5,8 +5,9 @@ tags: [agents, harness, judgment, ai-coding, software-engineering]
 sources:
   - conversation:2026-06-30
   - /Users/zenk/Documents/notes/20260630T181051--paper-loop-engineering__paper.org
+  - https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7514210769282994176-fOyn
 created: 2026-06-30T18:22:54+0800
-updated: 2026-10-11T17:54:15+08:00
+updated: 2026-10-12T23:14:28+0800
 summary: >-
   Agent loop human judgment positions are the structural points where humans define value, boundaries, veto power, state, gates, and loop repair instead of operating every agent turn.
 provenance:
@@ -55,7 +56,7 @@ A human-owned loop needs at least eight judgment positions. ^[inferred]
 
 6. Human doors: humans reserve at least one non-bypassable entry point into the loop. Final merge, high-risk approval, release sampling, budget overflow, repeated evaluator rejection, and ambiguous requirements are common doors. ^[inferred]
 
-7. Understanding calibration: humans sample outputs to keep their mental model current. The goal is not to read every generated line, but to remain able to explain representative changes and notice comprehension rot. ^[inferred]
+7. Understanding calibration: humans sample outputs to keep their mental model current. The goal is not to read every generated line, but to remain able to explain representative changes and notice comprehension rot. [[wiki/sources/Three Joys of Engineering Source Guide|The making-knowing-mattering lens]] adds a recognition-generation test: selecting an Agent suggestion is not evidence that the human could independently produce or reject the underlying design. Some samples should therefore require prediction, explanation, or construction before Agent options are revealed. ^[inferred]
 
 8. Loop-level retrospection: humans review the loop itself. Discovery quality, evaluator rejection rate, inbox accumulation, repeated escaped defects, token cost, state-file decay, and skipped gates reveal whether the system remains trustworthy. ^[inferred]
 
@@ -100,3 +101,5 @@ If the answer is unclear, the loop may be automated but not governed. ^[inferred
 - [[wiki/concepts/Computational and Inferential Controls]]
 - [[wiki/concepts/Workflow Graph Orchestration]]
 - [[wiki/sources/Humans and Agents in Software Engineering Loops Source Guide]]
+- [[wiki/concepts/Engineering Work Three Joys]]
+- [[wiki/sources/Three Joys of Engineering Source Guide]]

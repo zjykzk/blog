@@ -20,6 +20,7 @@ sources:
   - https://kcnrpnk9jqxn.feishu.cn/wiki/LDSUwt1Gfi5uOmkhRXScfIExnBb
   - https://claude.com/blog/the-ai-native-sdlc-playbook
   - https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html
+  - https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7514210769282994176-fOyn
 created: 2026-05-04
 base_confidence: 0.94
 lifecycle: draft
@@ -28,8 +29,8 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 15
-updated: 2026-10-10T19:36:48+0800
+source_count: 16
+updated: 2026-10-12T23:14:28+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -112,6 +113,7 @@ tags:
 - [[wiki/concepts/Executable Specification]] — 把意图转成机器可检查承诺，是 AI coding 中 verification loop 能获得稳定真值信号的前提。
 - [[wiki/concepts/Judgment Externalization]] — 把判定标准、证据、执行和治理留在模型调用之外，让程序与模型批量判定，只把例外送回人。
 - [[wiki/concepts/Cognitive Debt]] — AI 生成更多软件制品后，人和组织逐渐失去对意图、架构与设计理由的理解。
+- [[wiki/concepts/Engineering Work Three Joys]] — 用 making、knowing、mattering 区分 Agent 对创造感、系统理解与职业重要感的不同影响。
 - [[wiki/concepts/Harness Ratchet]]
 - [[wiki/concepts/Agent Skill]]
 - [[wiki/concepts/Agent Skill Design Patterns]]
@@ -238,6 +240,7 @@ tags:
 - [[wiki/sources/AI Evals FAQ Source Guide]] — 从真实 traces 生成 failure taxonomy、rubric 和可信 evaluator，再把生产失败回流为回归检查与产品改进。
 - [[wiki/sources/Agent Benchmark Landscape Research Report Source Guide]] — 42 来源 Agent benchmark 地图，区分构念、环境、grader 与版本，并给出静态回归、fresh/OOD 和私有 canary 三层组合。
 - [[wiki/sources/AI Engineering Skills Map Source Guide]] — Andrew Ng 的四项 AI 工程能力：AI 应用交付、软件工程基础、coding agent 使用与 shaping the build；持续学习负责更新整套能力。
+- [[wiki/sources/Three Joys of Engineering Source Guide]] — Addy Osmani 用 making、knowing、mattering 解释 Agent 同时带来的解放、理解力退化与身份失落。
 - [[wiki/sources/Building and Deploying AI Applications Source Guide]] — 细化 AI 应用交付的六项能力，并把 eval/error analysis 作为模型、数据、agent 架构与生产运营之间的开发控制环。
 - [[wiki/sources/The AI-Native SDLC Playbook Source Guide]] — Anthropic 的企业实施 playbook：用版本化工件、门禁触发和生产反馈回流，把 Plan、Design、Build、Test、Deploy、Maintain 从线性 handoff 改造成受治理的闭环。
 - [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide]] — 中文长文与 Excalidraw 图：把 AI 软件工程的瓶颈从生成转向判定，并用标准、证据、执行与治理构成机器可运行的判定闭环。
