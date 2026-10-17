@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-10-12T23:14:28+0800
+updated: 2026-10-17T00:41:23+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -420,6 +420,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/AI 什么都能写与软件价值重心转移 Source Guide|AI 什么都能写与软件价值重心转移 Source Guide]] — 保留一篇中文长文：AI 让实现、迁移和重写成本下降，软件价值重心转向知识、规格、harness、判断和责任。 (#article #agents #ai-coding #software-engineering #judgment)
 - [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide|Software Engineering 3.0 Judgment Shift Source Guide]] — 保存软件工程 3.0 的六条判断与 Excalidraw 图：AI 让生成变便宜后，工程重心从动作上移到可执行、可审计、可反馈的判定体系。 ( #article #software-engineering #ai-coding #judgment #organization)
 - [[wiki/sources/Three Joys of Engineering Source Guide|Three Joys of Engineering Source Guide]] — Addy Osmani 用 making、knowing、mattering 拆解工程师面对 AI Agent 的解放感与失落感，并指出选择答案不能替代独立生成答案。 ( #article #software-engineering #ai-coding #cognition #judgment)
+- [[wiki/sources/Coding Is Not Solved Source Guide|Coding Is Not Solved Source Guide]] — Alex Ewerlöf 区分代码生成与可问责的软件工程：AI 降低实现成本，却未消除理解、验证、非功能保证、恢复和人类责任。 ( #article #ai-coding #software-engineering #reliability #responsibility)
 - [[wiki/sources/Memory for Autonomous LLM Agents Source Guide|Memory for Autonomous LLM Agents Source Guide]] — Source guide for arXiv 2603.07670 on autonomous LLM-agent memory mechanisms, evaluation, applications, engineering realities, and open frontiers. (#paper #agents #memory #survey)
 - [[wiki/sources/Memory in the Age of AI Agents Paper Source Guide|Memory in the Age of AI Agents Paper Source Guide]] — Source guide for arXiv 2512.13564 on agent memory forms, functions, dynamics, resources, and future frontiers. (#paper #arxiv #agents #memory #survey)
 - [[wiki/sources/What Happens Inside Agent Memory Paper Source Guide|What Happens Inside Agent Memory Paper Source Guide]] — Source guide for arXiv 2605.03354 on circuit-level analysis of agent memory failures, control-before-content asymmetry, shared memory hubs, and stage-level diagnostics. (#paper #arxiv #agents #memory #harness)

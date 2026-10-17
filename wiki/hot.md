@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近收录“看透的方法”：从事实与重复模式抽出机制，用竞争解释、预测和小型干预校准判断。
+summary: 最近收录 Coding Is Not Solved：AI 已降低代码生成成本，但理解、验证、非功能保证、恢复与人类问责仍是软件工程的约束。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-12T23:26:44+0800
+updated: 2026-10-17T00:41:23+0800
 ---
 
 ## Recent Activity
+
+- 2026-10-17T00:41:23+08:00 — 已收录 [[wiki/sources/Coding Is Not Solved Source Guide|Coding Is Not Solved]]：把“AI 会写代码”与“软件工程已被解决”分开，保留风险容忍度、FR/NFR、随机生成与确定性 harness、知识—授权—问责三支柱、软件价格分化和职业迁移；新视角已补入 [[wiki/concepts/Cognitive Debt|认知债务]]、[[wiki/concepts/Verification Gap|验证鸿沟]] 与 [[wiki/concepts/Accountability|问责]]。
 
 - 2026-10-12T23:26:44+08:00 — 已捕获 [[wiki/topics/Seeing Clearly|看透的方法]]：把“看透”从动机猜测改写为事实分层、重复模式、机制建模、竞争解释和小型干预组成的判断流程；解释必须能压缩多个现象、产生区别性预测，并说明什么证据会迫使自己改口。
 
@@ -24,6 +26,8 @@ updated: 2026-10-12T23:26:44+0800
 - 2026-10-10T19:36:48+08:00 — 已捕获 [[wiki/sources/Agent Benchmark Landscape Research Report Source Guide|Agent 评测集研究报告]]、[[wiki/topics/Rule Adjudication Agent Evaluation|规则裁决 Agent 评测]] 与 [[wiki/concepts/Confusion Matrix|混淆矩阵]]：从 42 来源 benchmark 地图收敛到规则适用性—事实—构成要件—例外—证据充分性的可审计裁决链，并用五类终局结论揭示漏报、误伤、错误拒判与过度裁决。
 
 ## Active Threads
+
+- AI 软件工程现在加入“可问责的软件尚未解决”线索：[[wiki/sources/Coding Is Not Solved Source Guide|代码生成不等于软件所有权]]。生成吞吐超过理解与验证吞吐时，前置节省会以诊断、恢复和问责断裂的形式回流；测试只覆盖实现验证，还需要意图验证与所有权验证。市场因此可能分成低价低保证的软件和以经验、SLA、恢复能力提供溢价的服务。^[inferred]
 
 - AI 软件工程现在加入“三种工程之乐”线索：[[wiki/concepts/Engineering Work Three Joys|making、knowing、mattering]] 分别追踪创造心流、系统理解和职业重要感。最隐蔽的风险不是少写代码，而是工程师仍能识别 Agent 答案，却逐渐不能独立生成、解释和反驳方案；理解校准因此需要自由回答式抽样，而不只是 diff 审批。
 
@@ -202,6 +206,8 @@ updated: 2026-10-12T23:26:44+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- AI 是否解决了 coding 取决于分析单位：狭义代码合成已经被大幅商品化，但可问责的软件工程仍要求人和组织维持问题理解、非功能保证、故障恢复与后果承担。真正的约束是生成、理解和验证速度能否匹配，而不是模型一次能写多少代码。^[inferred]
 
 - “看透”不是给人贴上更锋利的标签，而是用事实、重复模式、约束与激励构造多个可竞争的解释，再让预测和小型干预接受现实校准；不能说明改口条件的解释仍然只是自洽叙事。^[inferred]
 

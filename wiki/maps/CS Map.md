@@ -15,12 +15,13 @@ sources:
   - https://x.com/AndrewYNg/article/2088302050706686198
   - https://x.com/AndrewYNg/article/2090840747738374568
   - https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7514210769282994176-fOyn
+  - https://blog.alexewerlof.com/p/coding-is-not-solved
 created: 2026-04-21
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 14
-updated: 2026-10-12T23:14:28+0800
+source_count: 15
+updated: 2026-10-17T00:41:23+0800
 aliases:
   - Computer Science Map
 tags:
@@ -160,6 +161,7 @@ tags:
 - [[wiki/sources/AI 什么都能写与软件价值重心转移 Source Guide]] — 中文长文：把 db9、技术栈迁移、遗留系统重写和企业维护争议串成“代码变便宜，知识与判断变贵”的 AI 软件工程线索。
 - [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide]] — 中文长文与 Excalidraw 图：生成变便宜后，工程化对象从动作上移到判定，规则与证据进入机器可执行闭环。
 - [[wiki/sources/Three Joys of Engineering Source Guide]] — Addy Osmani 从 making、knowing、mattering 分析 Agent 对工程能力与职业意义的非对称影响。
+- [[wiki/sources/Coding Is Not Solved Source Guide]] — 代码合成成本下降后，软件工程瓶颈转向非功能保证、理解、验证、恢复和可追溯的人类问责。
 - [[wiki/sources/Agentic Engineering at Zalando Source Guide]] — Zalando 将 Agentic Engineering 落到统一基础设施、过程可观测、风险分级、知识扩散、仓库 readiness 与身份治理。
 - [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源：用成本结构、验证鸿沟、意图-生成-验证循环、复杂度、测试、版本控制和门禁解释 Vibe 时代的软件工程。
 - `content/posts/cs/arch/arch.md`

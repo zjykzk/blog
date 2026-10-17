@@ -16,20 +16,23 @@ relationships:
     type: related_to
   - target: "[[wiki/concepts/Executable Specification]]"
     type: uses
+  - target: "[[wiki/sources/Coding Is Not Solved Source Guide]]"
+    type: related_to
 sources:
   - https://arxiv.org/pdf/2606.21894
   - https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7514210769282994176-fOyn
+  - https://blog.alexewerlof.com/p/coding-is-not-solved
 summary: Cognitive debt is the loss of human and organizational understanding of software intent, architecture, and rationale as agents generate and maintain more artifacts.
 provenance:
-  extracted: 0.82
-  inferred: 0.18
+  extracted: 0.80
+  inferred: 0.20
   ambiguous: 0.00
-base_confidence: 0.67
+base_confidence: 0.82
 lifecycle: draft
 lifecycle_changed: 2026-07-12
 tier: supporting
 created: 2026-07-12T00:30:14+0800
-updated: 2026-10-12T23:14:28+0800
+updated: 2026-10-17T00:41:23+0800
 ---
 
 # Cognitive Debt
@@ -62,6 +65,23 @@ more agent-produced artifacts
 
 The loop is not caused simply by using AI. It appears when production is delegated without preserving the artifacts and responsibility needed to reconstruct the system's intent. ^[inferred]
 
+## Generation-Understanding Speed Mismatch
+
+[[wiki/sources/Coding Is Not Solved Source Guide|Coding Is Not Solved]] sharpens the mechanism as a throughput mismatch: AI can increase code volume and change frequency much faster than an organization can increase human understanding, review, and recovery capacity.
+
+```text
+generation throughput rises
+-> inspection covers a smaller share of change
+-> local success is mistaken for lifecycle ownership
+-> hidden assumptions and failure paths accumulate
+-> incidents require reconstructing intent under pressure
+-> recovery cost reveals the deferred understanding work
+```
+
+Passing tests or user acceptance checks can reduce defect risk without proving that the organization can explain the system, validate the tests against real intent, or repair novel failures. Cognitive debt is therefore partly deferred recovery work: time saved during generation can reappear later as slower diagnosis and weaker accountability. ^[inferred]
+
+The acceptable amount of this debt depends on risk tolerance. Personal software and disposable prototypes can rationally carry more; systems whose failure costs money, life, legal exposure, or cascading damage require stronger preservation of understanding.
+
 ## Recognition-Generation Gap
 
 [[wiki/sources/Three Joys of Engineering Source Guide|Addy Osmani's making-knowing-mattering lens]] sharpens cognitive debt at the individual level: choosing among an Agent's suggestions exercises recognition, while constructing a design without supplied options exercises generation.
@@ -83,6 +103,7 @@ Understanding calibration should sometimes use free-response checks: predict the
 - Teams can describe what code does but not why the behavior is required.
 - Architectural decisions exist only inside old chats or agent trajectories.
 - A passing test suite is treated as sufficient evidence even when no one can validate the tests against user intent.
+- Code and change throughput rise while time-to-explain, time-to-localize, or time-to-recover gets worse.
 - Failures require broad agent search because humans cannot localize likely responsibility boundaries.
 - Requirements, specifications, code, tests, policies, and design rationale drift independently.
 - No human custodian can answer for an AI-generated component over its lifecycle.
@@ -123,3 +144,4 @@ These controls do not eliminate the need for agents. They change delegation from
 - [[wiki/concepts/Accountability]]
 - [[wiki/concepts/Engineering Work Three Joys]]
 - [[wiki/sources/Three Joys of Engineering Source Guide]]
+- [[wiki/sources/Coding Is Not Solved Source Guide]]

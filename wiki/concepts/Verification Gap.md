@@ -16,20 +16,23 @@ relationships:
     type: uses
   - target: "[[wiki/concepts/Judgment Externalization]]"
     type: related_to
+  - target: "[[wiki/sources/Coding Is Not Solved Source Guide]]"
+    type: related_to
 sources:
   - wiki/sources/Vibe 时代的软件工程.md
   - conversation:2026-09-29
+  - https://blog.alexewerlof.com/p/coding-is-not-solved
 summary: 验证鸿沟是 AI 代码生成速度与人类理解、验证速度之间扩大的差距；它把软件工程瓶颈从生产转向质量判断。
 provenance:
   extracted: 0.80
   inferred: 0.18
   ambiguous: 0.02
-base_confidence: 0.37
+base_confidence: 0.74
 lifecycle: draft
 lifecycle_changed: 2026-07-03
 tier: supporting
 created: 2026-07-03T21:45:37+0800
-updated: 2026-09-29T18:14:09+0800
+updated: 2026-10-17T00:41:23+0800
 ---
 # Verification Gap
 
@@ -43,6 +46,18 @@ updated: 2026-09-29T18:14:09+0800
 - 单步正确率看似很高时，连续多步不验证仍会快速复合成低整体正确率；因此 AI 协作不能只靠“差不多对”的直觉。
 - 缩小验证鸿沟的主要手段包括：更小的委托粒度、明确的意图规格、自动测试、类型检查、静态分析、人工高风险评审和频繁可回滚提交。
 - 验证鸿沟把 [[wiki/topics/Testing Strategy]] 从质量保障实践升级为 AI 协作的产能约束：不能验证的生成速度，最终会变成复杂度债务。 ^[inferred]
+
+## Understanding Is Part of Verification
+
+[[wiki/sources/Coding Is Not Solved Source Guide|Coding Is Not Solved]] 把验证鸿沟从“有没有测试”进一步推进到“能不能承担后果”：测试、编译器、lint 和 harness 可以筛掉大量局部错误，却不能自动证明规格对准真实需求、非功能保证完整，或团队能在新型故障中恢复系统。
+
+因此验证至少有三层：
+
+1. **实现验证**：代码是否满足已经写下的规则、类型和测试。
+2. **意图验证**：这些规则与测试是否真正表达用户需求、边界条件和风险容忍度。
+3. **所有权验证**：负责者是否能解释关键行为、定位失败并在压力下恢复服务。^[inferred]
+
+生成速度只有在三层验证的吞吐能够承接时，才会稳定转化为交付速度；否则节省的是前置生成时间，增加的是后续诊断与恢复时间。^[inferred]
 
 ## Engineering Implications
 
@@ -60,3 +75,4 @@ updated: 2026-09-29T18:14:09+0800
 
 - [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源文档。
 - [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide]] — 从工序自动化上移到判定链路，并讨论组织规模与人才路径。
+- [[wiki/sources/Coding Is Not Solved Source Guide]] — 将验证连接到非功能保证、系统理解和人类问责。
