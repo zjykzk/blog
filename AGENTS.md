@@ -38,3 +38,5 @@ The repository is in a transition from a mixed notes vault to a more structured 
 - Prefer organizing durable knowledge under `wiki/` instead of adding new material to legacy note areas
 - Do not treat `wiki/Welcome.md` as the homepage when updating navigation or entrypoints
 - When classifying new material, use the structure in `wiki/NAMING.md`
+
+@AGENTS.md
