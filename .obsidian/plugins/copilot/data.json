@@ -30,7 +30,6 @@
   "defaultSaveFolder": "copilot/copilot-conversations",
   "defaultConversationTag": "copilot-conversation",
   "autosaveChat": true,
-  "autoAddActiveContentToContext": true,
   "defaultOpenArea": "view",
   "defaultSendShortcut": "enter",
   "customPromptsFolder": "copilot/copilot-custom-prompts",
@@ -341,7 +340,7 @@
   "inlineEditCommands": [],
   "projectList": [],
   "lastDismissedVersion": "4.0.11",
-  "lastShownStartupVersion": null,
+  "lastShownStartupVersion": "4.0.15",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
@@ -349,6 +348,7 @@
   "enableMiyo": false,
   "enableMiyoSearchSkill": false,
   "miyoSearchAll": false,
+  "miyoExtraSearchFolders": [],
   "relevantNotesLiveUpdate": true,
   "miyoServerUrl": "",
   "selfHostSearchProvider": "firecrawl",
@@ -572,6 +572,7 @@
       "minimax-m3"
     ]
   },
+  "autoAddActiveContentToContext": true,
   "temperature": 0.1,
   "generateAIChatTitleOnSave": true,
   "showSuggestedPrompts": true,

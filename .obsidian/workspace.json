@@ -11,58 +11,15 @@
             "id": "a9f87afd1bd3f1b1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "wiki/maps/AI Map.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2026-10-18 19.40.16.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "AI Map"
-            }
-          },
-          {
-            "id": "22bf6c460fdd6246",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/sources/Skills for the Future Software Profession Paper Source Guide.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Skills for the Future Software Profession Paper Source Guide"
-            }
-          },
-          {
-            "id": "280bf226dc257aa1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/maps/Reading Map.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Reading Map"
-            }
-          },
-          {
-            "id": "359a56a473b7c7d4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.14.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.14.4"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-10-18 19.40.16.excalidraw"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -215,8 +171,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot (Quick Chat)"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
             }
           },
           {
@@ -225,12 +181,22 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          },
+          {
+            "id": "d75c5bab9fc1fa38",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-agent-chat-view",
+              "state": {},
+              "icon": "copilot-agent",
+              "title": "Copilot Agent"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -252,28 +218,45 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "359a56a473b7c7d4",
+  "active": "a9f87afd1bd3f1b1",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-06-22 20.55.52.excalidraw.md",
+    "Excalidraw/Drawing 2026-10-18 19.40.16.excalidraw.md",
+    "wiki/concepts/LLM.md",
+    "wiki/concepts/Search and Learning as Meta-Methods.md",
+    "wiki/concepts/AI Capability Experience Funnel.md",
+    "wiki/sources/AI Capability Experience Funnel Source Guide.md",
+    "wiki/sources/Coding Is Not Solved Source Guide.md",
+    "wiki/concepts/Verification Loop.md",
+    "artifacts/wiki-lint/2026-10-11/report.md",
+    "artifacts/wiki-lint/2026-10-11/fix-report.md",
+    "wiki/sources/Skills for the Future Software Profession Paper Source Guide.md",
+    "2026-10-13.md",
+    "wiki/topics/Seeing Clearly.md",
+    "wiki/maps/Reading Map.md",
+    "wiki/concepts/Engineering Work Three Joys.md",
+    "wiki/sources/Three Joys of Engineering Source Guide.md",
+    "wiki/concepts/Feedback Impact Levels.md",
+    "wiki/concepts/Context-Situation-Behaviour-Impact.md",
+    "wiki/topics/Peer Feedback.md",
+    "wiki/sources/Healthy Peer Feedback Source Guide.md",
+    "wiki/concepts/Propositional and Predicate Logic.md",
+    "artifacts/wiki-lint/2026-10-11/fix-verification.json",
+    "artifacts/wiki-lint/2026-10-11/after-findings.json",
+    "artifacts/wiki-lint/2026-10-11/fix-review.json",
+    "artifacts/wiki-lint/2026-10-11/provenance-review-actions.json",
+    "artifacts/wiki-lint/2026-10-11/content-fix-actions.json",
+    "artifacts/wiki-lint/2026-10-11/fix-actions.json",
+    "artifacts/wiki-lint/2026-10-11/fix-before.json",
+    "artifacts/wiki-lint/2026-10-11/findings.json",
+    "artifacts/wiki-lint/2026-10-11",
+    "artifacts/wiki-lint",
+    "wiki/syntheses/数据字典的秩.md",
+    "wiki/concepts/Hierarchical Syntactic Structure.md",
+    "wiki/concepts/Freedom and Self-Discipline.md",
     "wiki/sources/人生的问题循环.md",
     "wiki/sources/Agent Benchmark Landscape Research Report Source Guide.md",
-    "wiki/concepts/Confusion Matrix.md",
-    "wiki/topics/Rule Adjudication Agent Evaluation.md",
-    "wiki/sources/The Physicists Philosophy of Physics Source Guide.md",
-    "wiki/topics/World Knowledge Reading Roadmap.md",
-    "wiki/sources/Anti-Patterns in Software Blogging Source Guide.md",
-    "artifacts/football-dribbling-production-pack.zip",
-    "artifacts/football-dribbling/verification.json",
     "artifacts/football-dribbling/_build/encoded-frame-60s.png",
-    "artifacts/football-dribbling/preview.html",
-    "artifacts/football-dribbling/narration.md",
-    "artifacts/football-dribbling/production-guide.md",
-    "artifacts/football-dribbling/football-dribbling-120s-1080p.mp4",
-    "artifacts/football-dribbling/_build/adjusted-10-02.wav",
-    "artifacts/football-dribbling/_build/tempo-10-02.wav",
-    "artifacts/football-dribbling/_build/adjusted-10-01.wav",
-    "artifacts/football-dribbling/_build/tempo-10-01.wav",
-    "artifacts/football-dribbling/_build/adjusted-10-00.wav",
-    "artifacts/football-dribbling/_build/tempo-10-00.wav",
     "artifacts/football-dribbling/contact-sheet.jpg",
     "artifacts/football-dribbling/poster.jpg",
     "artifacts/football-dribbling/stills/13-117.0s.jpg",
@@ -284,23 +267,6 @@
     "artifacts/football-dribbling/stills/08-060.0s.jpg",
     "artifacts/football-dribbling/stills/07-048.0s.jpg",
     "Untitled 1.canvas",
-    "wiki/concepts/Mechanism Model.md",
-    "wiki/sources/Building and Deploying AI Applications Source Guide.md",
-    "wiki/sources/AI Engineering Skills Map Source Guide.md",
-    "wiki/concepts/Methodology.md",
-    "wiki/syntheses/Buddhist Practice Nihilism and Liberation.md",
-    "wiki/syntheses/Problem-Driven Reading Workbench.md",
-    "wiki/concepts/三个自我模型.md",
-    "wiki/concepts/佛家觉悟结构.md",
-    "wiki/sources/佛家觉悟结构 Source Guide.md",
-    "wiki/concepts/囚徒困境.md",
-    "wiki/concepts/五大思维三层架构.md",
-    "wiki/sources/ADK Skill Design Patterns Source Guide.md",
-    "Excalidraw/ai effective.md",
-    "20261005T234939--圆桌-佛法修行终点与虚无__roundtable.md",
-    "wiki/sources/AI Evals FAQ Source Guide.md",
-    "wiki/sources/Prospects for an Engineering Discipline of Software Source Guide.md",
-    "wiki/sources/Math and AI Misalignment Source Guide.md",
     "wiki/sources/Untitled.canvas",
     "Untitled.canvas"
   ]
