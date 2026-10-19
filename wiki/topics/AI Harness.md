@@ -25,16 +25,17 @@ sources:
   - inline:ai-coding-information-theory-cheer-2026-07-12
   - inline:ai-agent-three-paradoxes-2026-07-20
   - https://claude.com/blog/the-ai-native-sdlc-playbook
+  - https://x.com/karpathy/status/2109361546505966046
 created: 2026-05-04
 base_confidence: 0.81
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.84
-  inferred: 0.14
+  extracted: 0.82
+  inferred: 0.16
   ambiguous: 0.02
-source_count: 20
-updated: 2026-09-10T21:22:11+0800
+source_count: 21
+updated: 2026-10-17T23:51:28+0800
 aliases:
   - harness
 tags:
@@ -59,6 +60,8 @@ AI Harness 不是模型本身，也不是某一个工具本身。它更像 agent
 - 模型调用只是中心动作之一
 - harness 决定这个动作发生在什么边界内
 - 同样的模型，放在不同 harness 里，会得到不同的稳定性、可控性与安全性
+
+[[wiki/concepts/AI Capability Experience Funnel]] 把这条差异扩展到能力判断：用户体验到的不是裸模型，而是模型、访问层、任务跨度、可验证性与工作流的乘积。大问题储备让长程能力有显现机会；工具、状态、权限和验证器再决定潜力能否稳定转化为结果。因此 harness 不只是可靠性外壳，也是模型能力的实现表面。^[inferred]
 
 所以 harness 更适合被理解为 runtime order layer，而不是外围工程杂项。
 

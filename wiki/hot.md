@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近收录 Coding Is Not Solved：AI 已降低代码生成成本，但理解、验证、非功能保证、恢复与人类问责仍是软件工程的约束。
+summary: 最近收录 AI 能力体验漏斗：模型访问、任务跨度、领域可验证性与工作流共同决定人实际看见的 AI 能力。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-17T00:41:23+0800
+updated: 2026-10-17T23:51:28+0800
 ---
 
 ## Recent Activity
+
+- 2026-10-17T23:51:28+08:00 — 已收录 [[wiki/sources/AI Capability Experience Funnel Source Guide|Karpathy 的 AI 能力体验漏斗]]，并建立 [[wiki/concepts/AI Capability Experience Funnel|AI Capability Experience Funnel]]：把模型能力、系统能力和用户体验到的能力分开，用访问、任务跨度、领域可验证性、工作流成熟度与大问题储备解释为何公众、普通用户、专业者和内部前沿使用者形成不同现实；新框架已补入 [[wiki/concepts/Agent]] 与 [[wiki/topics/AI Harness]]。
 
 - 2026-10-17T00:41:23+08:00 — 已收录 [[wiki/sources/Coding Is Not Solved Source Guide|Coding Is Not Solved]]：把“AI 会写代码”与“软件工程已被解决”分开，保留风险容忍度、FR/NFR、随机生成与确定性 harness、知识—授权—问责三支柱、软件价格分化和职业迁移；新视角已补入 [[wiki/concepts/Cognitive Debt|认知债务]]、[[wiki/concepts/Verification Gap|验证鸿沟]] 与 [[wiki/concepts/Accountability|问责]]。
 
@@ -26,6 +28,8 @@ updated: 2026-10-17T00:41:23+0800
 - 2026-10-10T19:36:48+08:00 — 已捕获 [[wiki/sources/Agent Benchmark Landscape Research Report Source Guide|Agent 评测集研究报告]]、[[wiki/topics/Rule Adjudication Agent Evaluation|规则裁决 Agent 评测]] 与 [[wiki/concepts/Confusion Matrix|混淆矩阵]]：从 42 来源 benchmark 地图收敛到规则适用性—事实—构成要件—例外—证据充分性的可审计裁决链，并用五类终局结论揭示漏报、误伤、错误拒判与过度裁决。
 
 ## Active Threads
+
+- AI 能力判断现在加入“体验漏斗”线索：[[wiki/concepts/AI Capability Experience Funnel|AI 能力体验漏斗]] 区分裸模型、完整系统和用户实际体验。短问答、真实代码库与跨周任务暴露的不是同一种能力；同一模型在不同 access、harness 和 verifier 中也不是同一个生产系统。比较 AI 判断前，应先对齐访问层、任务跨度、可验证性和工作流。^[inferred]
 
 - AI 软件工程现在加入“可问责的软件尚未解决”线索：[[wiki/sources/Coding Is Not Solved Source Guide|代码生成不等于软件所有权]]。生成吞吐超过理解与验证吞吐时，前置节省会以诊断、恢复和问责断裂的形式回流；测试只覆盖实现验证，还需要意图验证与所有权验证。市场因此可能分成低价低保证的软件和以经验、SLA、恢复能力提供溢价的服务。^[inferred]
 
@@ -206,6 +210,8 @@ updated: 2026-10-17T00:41:23+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 对 AI 能力的争论必须先对齐观察条件：模型等级、访问权限、任务规模、执行时间、领域真值信号和 harness。公众的弱体验不能证明前沿能力不存在，内部演示也不能证明能力已经便宜、稳定和普遍可用；真正可迁移的分析单位是模型、环境、验证与人的问题储备共同组成的系统。^[inferred]
 
 - AI 是否解决了 coding 取决于分析单位：狭义代码合成已经被大幅商品化，但可问责的软件工程仍要求人和组织维持问题理解、非功能保证、故障恢复与后果承担。真正的约束是生成、理解和验证速度能否匹配，而不是模型一次能写多少代码。^[inferred]
 

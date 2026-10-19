@@ -6,16 +6,17 @@ category: concepts
 summary: Agent is a control-loop system that uses perception, memory, planning, tools, and feedback to act in an environment over time.
 sources:
   - https://arxiv.org/abs/2601.12560v1
+  - https://x.com/karpathy/status/2109361546505966046
 created: 2026-04-20
-base_confidence: 0.67
+base_confidence: 0.68
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.96
-  inferred: 0.04
-  ambiguous: 0.00
-source_count: 1
-updated: 2026-05-15T21:33:01+08:00
+  extracted: 0.90
+  inferred: 0.08
+  ambiguous: 0.02
+source_count: 2
+updated: 2026-10-17T23:51:28+0800
 aliases:
   - agent
   - LLM agent
@@ -47,6 +48,12 @@ Agent 与普通 LLM 调用的差别，不在于“是否输出了多段推理文
 
 因此，讨论 agent 能力时不应只问模型强不强，还要问 [[wiki/topics/AI Harness]] 如何组织上下文、工具、权限、记忆、验证和恢复。
 
+## Capability Layers
+
+[[wiki/concepts/AI Capability Experience Funnel]] 进一步要求区分三层：模型本身的潜在能力、模型进入工具与反馈环境后的系统能力，以及具体用户在自己的访问等级、任务跨度和工作流中实际体验到的能力。
+
+同一模型在短问答、真实代码库和跨周长任务中暴露的不是同一组能力；同一任务在没有工具、状态与验证器的聊天界面中，也不能代表它在完整 Agent 系统中的上限。反过来，少数高预算内部系统的表现同样不能直接代表普通用户已经获得的能力。^[inferred]
+
 ## Upstream Concepts
 
 - [[wiki/concepts/LLM]]
@@ -66,6 +73,7 @@ Agent 与普通 LLM 调用的差别，不在于“是否输出了多段推理文
 - [[wiki/concepts/Agent State]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Agentic AI Architecture Taxonomy]]
+- [[wiki/concepts/AI Capability Experience Funnel]]
 - [[wiki/syntheses/Agent System Design Space]]
 - [[wiki/syntheses/Agent as Problem-Solving System]]
 - [[wiki/maps/AI Map]]
@@ -73,5 +81,6 @@ Agent 与普通 LLM 调用的差别，不在于“是否输出了多段推理文
 ## Source Notes
 
 - [[wiki/sources/Agentic Artificial Intelligence Paper Source Guide]]
+- [[wiki/sources/AI Capability Experience Funnel Source Guide]]
 - `pages/Agent.md`
 - `journals/2026_04_04.md`

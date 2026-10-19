@@ -22,6 +22,7 @@ sources:
   - https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html
   - https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7514210769282994176-fOyn
   - https://blog.alexewerlof.com/p/coding-is-not-solved
+  - https://x.com/karpathy/status/2109361546505966046
 created: 2026-05-04
 base_confidence: 0.94
 lifecycle: draft
@@ -30,8 +31,8 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 17
-updated: 2026-10-17T00:41:23+0800
+source_count: 18
+updated: 2026-10-17T23:51:28+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -48,6 +49,7 @@ tags:
 - [[wiki/concepts/Discovery Replay Simulator|Discovery Replay Simulator]] — 把已执行搜索记录变成策略试验环境，区分回放筛选与真实新发现。
 
 - [[wiki/concepts/Agent]]
+- [[wiki/concepts/AI Capability Experience Funnel]] — 区分模型能力、系统能力与用户体验到的能力，用访问、任务跨度、领域可验证性、工作流和大问题储备解释认知漏斗。
 - [[wiki/concepts/Agent Transformer]] — 把 agent 形式化为 policy、memory、tools、verifiers、environment 的控制回路，而不是裸模型。
 - [[wiki/concepts/Workflow Graph Orchestration]]
 - [[wiki/concepts/Human-LLM Co-Planning Interaction Space]]
@@ -243,6 +245,7 @@ tags:
 - [[wiki/sources/AI Engineering Skills Map Source Guide]] — Andrew Ng 的四项 AI 工程能力：AI 应用交付、软件工程基础、coding agent 使用与 shaping the build；持续学习负责更新整套能力。
 - [[wiki/sources/Three Joys of Engineering Source Guide]] — Addy Osmani 用 making、knowing、mattering 解释 Agent 同时带来的解放、理解力退化与身份失落。
 - [[wiki/sources/Coding Is Not Solved Source Guide]] — 把“coding 已解决”的争论改写为生成、理解、验证与问责的速度失配，并追踪认知债、SLA 溢价和工程职业分化。
+- [[wiki/sources/AI Capability Experience Funnel Source Guide]] — Karpathy 用四层人群漏斗和任务跨度、领域锯齿、访问权限解释为何不同用户像活在不同 AI 现实中。
 - [[wiki/sources/Building and Deploying AI Applications Source Guide]] — 细化 AI 应用交付的六项能力，并把 eval/error analysis 作为模型、数据、agent 架构与生产运营之间的开发控制环。
 - [[wiki/sources/The AI-Native SDLC Playbook Source Guide]] — Anthropic 的企业实施 playbook：用版本化工件、门禁触发和生产反馈回流，把 Plan、Design、Build、Test、Deploy、Maintain 从线性 handoff 改造成受治理的闭环。
 - [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide]] — 中文长文与 Excalidraw 图：把 AI 软件工程的瓶颈从生成转向判定，并用标准、证据、执行与治理构成机器可运行的判定闭环。
