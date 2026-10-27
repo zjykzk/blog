@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-10-17T23:51:28+0800
+updated: 2026-10-26T23:41:30+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -93,6 +93,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Context Pointer|Context Pointer]] — 当前上下文中指向外部材料并说明读取条件的路由提示，支持按任务分支加载参考。 ( #agents #context #skills #workflow)
+- [[wiki/concepts/Leading Words|Leading Words]] — 用已有语义的短词或短语唤起行为要求，锚定执行并增强 context pointer 的辨识度。 ( #agents #context #skills #workflow)
 - [[wiki/concepts/Context-Situation-Behaviour-Impact|Context-Situation-Behaviour-Impact]] — CSBI 先理解情境，再用具体场景、行为与感知影响组织反馈对话。 ( #management #organization #feedback)
 - [[wiki/concepts/Feedback Impact Levels|Feedback Impact Levels]] — 反馈按累积影响区分内容、模式与关系，避免对反复问题机械重复同一句建议。 ( #management #organization #feedback)
 - [[wiki/concepts/Propositional and Predicate Logic|命题逻辑与谓词逻辑]] — 命题逻辑分析整句之间的真假连接，谓词逻辑还表示对象、性质、关系与量词；区分亚里士多德词项逻辑、斯多葛命题逻辑与弗雷格现代量化逻辑。 (#reasoning #thinking #formal-language #history)
@@ -324,7 +326,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/AI Engineering Workflow|AI Engineering Workflow]] — AI Engineering Workflow connects agent mental models, workflow control, tool design, coding constraints, and requirement normalization. (#synthesis #agents #workflow)
 - [[wiki/syntheses/AI Harness × Testing Strategy|AI Harness × Testing Strategy]] — In AI coding, testing strategy becomes harness design: tests are runtime feedback surfaces, not only post-implementation QA. (#agents #harness #testing #software-engineering)
 - [[wiki/syntheses/AI Memory × Context Graph|AI Memory × Context Graph]] — AI memory becomes organizationally useful when remembered items are placed in a context graph of owners, evidence, freshness, and permissions. (#agents #memory #organization)
-- [[wiki/syntheses/Agent Skill × Context Management|Agent Skill × Context Management]] — Skills are context-routing devices: they add capability by making task-specific context loadable only when the workflow needs it. (#agents #skills #context #workflow)
+- [[wiki/syntheses/Agent Skill × Context Management|Agent Skill × Context Management]] — Skills route task-specific context through activation pointers; placement, completion criteria, and discovery costs shape reliable execution. ( #agents #skills #context #workflow)
 - [[wiki/syntheses/Agentic Engineering × Verification Loop|Agentic Engineering × Verification Loop]] — Agentic engineering shifts engineering effort from generating code to designing verification loops that make generated work safe to accept. (#agents #ai-coding #testing #software-engineering)
 - [[wiki/syntheses/Application and Creation Distinction|Application and Creation Distinction]] — Application adapts an existing abstraction to constraints; creation reorganizes materials into a new durable order. (#synthesis #thinking #learning #creativity)
 - [[wiki/syntheses/Business Analysis to Software Design|Business Analysis to Software Design]] — Synthesis of how business modeling and software analysis become software design through domain boundaries and shared models. (#software-methodology #analysis #design)
@@ -354,6 +356,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
+- [[wiki/sources/Writing for Agents Source Guide|Writing for Agents Source Guide]] — 用 SFAM 拆解 Agent 文档写作：两种负担、信息层级、完成条件、行为锚点、调用方式与修剪。 ( #agents #context #skills #workflow #harness)
 - [[wiki/sources/Healthy Peer Feedback Source Guide|Healthy Peer Feedback Source Guide]] — Anuja Karnik 与 Sumeet Gayathri Moghe 的健康反馈指南：中文结构导读、完整英文正文及方法边界。 ( #article #management #organization #feedback)
 - [[wiki/sources/人生的问题循环|人生的问题循环]] — 本地原始草稿用需要、欲望、约束、行动与后果解释人生问题如何反复形成，并连接已经展开的概念页。 (#cognition #thinking #mechanism)
 - [[wiki/sources/Anti-Patterns in Software Blogging Source Guide|软件博客反模式]] — Michael Lynch 用六类反模式说明技术文章应尽快承诺价值、控制知识依赖、保持页内自足，并把语言与网页呈现纳入读者体验。 ( #article #software-engineering #cognition #frontend)

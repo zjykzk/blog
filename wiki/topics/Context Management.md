@@ -17,6 +17,7 @@ sources:
   - https://arxiv.org/abs/2603.28052
   - https://arxiv.org/abs/2603.07670
   - inline:ai-coding-information-theory-cheer-2026-07-12
+  - https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-for-agents/SKILL.md
 created: 2026-05-04
 base_confidence: 0.57
 lifecycle: draft
@@ -25,8 +26,8 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.0
-source_count: 11
-updated: 2026-07-12T23:19:18+0800
+source_count: 12
+updated: 2026-10-26T23:41:30+08:00
 aliases:
   - 上下文管理
 tags:
@@ -114,6 +115,14 @@ This strengthens the current density view: context management is not only preser
 [[wiki/sources/Seeing Like an Agent Source Guide]] adds a second progressive-disclosure path from Claude Code practice: instead of preloading RAG context, give the agent search tools so it can build context itself. As models improved, Claude Code moved from handing Claude retrieved snippets toward letting Claude search the codebase, follow skill references, and recursively discover relevant material.
 
 This reframes context management as supervised exploration, not just context selection. The harness designs which search and disclosure paths exist, while the model performs some of the context assembly. ^[inferred]
+
+## Disclosure depends on pointers
+
+[[wiki/sources/Writing for Agents Source Guide]] names the small always-visible entry as a [[wiki/concepts/Context Pointer|context pointer]]. It must identify the external material and encode the task conditions for reading it. Moving content out of the main file only helps if that pointer still makes necessary reference reliably reachable.
+
+The source separates permanent context load from the human's cognitive load of remembering documents and manual skills. Reference loaded on demand avoids permanent body cost, but still occupies the current context after loading. Disclosure changes when the cost is paid and who carries discovery responsibility.
+
+[[wiki/concepts/Leading Words|Leading words]] can strengthen both reference discovery and execution by giving recurring concepts a short shared label. Their effectiveness should be evaluated alongside pointer misses, mistaken activations, and premature completion; shorter text alone does not establish better context management. ^[inferred]
 
 ## Externalized decision context
 

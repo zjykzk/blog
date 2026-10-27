@@ -32,7 +32,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 18
-updated: 2026-10-17T23:51:28+0800
+updated: 2026-10-26T23:41:30+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -68,6 +68,8 @@ tags:
 - [[wiki/concepts/Design-First Collaboration]]
 - [[wiki/concepts/Dependency-Ordered Decision Making]] — 按决策依赖稳定上游节点，每轮用用户反馈重算后续分支，并在共享理解确认前阻止过早执行。
 - [[wiki/concepts/Context Anchoring]]
+- [[wiki/concepts/Context Pointer]] — 当前上下文中的材料入口与读取条件，控制分支参考何时加载。
+- [[wiki/concepts/Leading Words]] — 用已有语义的短标签锚定执行与材料发现，效果需运行验证。
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/concepts/Feedback Flywheel]]
 - [[wiki/concepts/Agent Memory Write-Manage-Read Loop]]
@@ -179,6 +181,7 @@ tags:
 
 ## Source notes
 
+- [[wiki/sources/Writing for Agents Source Guide]] — Agent 文档写作：两种负担、信息阶梯、完成条件、行为锚点和持续修剪。
 - [[wiki/sources/Math and AI Misalignment Source Guide|数学与 AI 的目标错位]] — 解题评测与数学理解、培养和传承之间的目标偏离；保留 AI 有益作用和风险证据边界。
 
 - `pages/项目___AI.md`

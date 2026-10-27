@@ -12,13 +12,14 @@ sources:
   - wiki/concepts/Continual Learning for AI Agents
   - wiki/sources/Claude Code Skills Source Guide
   - wiki/sources/Agent Skills Survey Paper Source Guide
+  - wiki/sources/Writing for Agents Source Guide
 created: 2026-05-23T02:28:40+08:00
-updated: 2026-10-11T17:54:15+08:00
+updated: 2026-10-26T23:41:30+08:00
 summary: >-
-  Skills are context-routing devices: they add capability by making task-specific context loadable only when the workflow needs it.
+  Skills route task-specific context through activation pointers; information placement, completion criteria, and discovery costs determine whether that context supports reliable execution.
 provenance:
-  extracted: 0.19
-  inferred: 0.81
+  extracted: 0.25
+  inferred: 0.75
   ambiguous: 0.00
 base_confidence: 0.37
 lifecycle: draft
@@ -49,6 +50,16 @@ A skill should be judged by its **activation boundary**, not only by its content
 
 This reframes the `description` field, folder structure, reference files, and scripts as routing machinery. The skill body carries capability, but the skill boundary protects context density. In mature agent systems, the boundary may matter more than the body because an excellent skill loaded at the wrong time becomes distractor context. ^[inferred]
 
+## Pointers, behavior anchors, and completion boundaries
+
+[[wiki/sources/Writing for Agents Source Guide]] makes the activation boundary explicit as a [[wiki/concepts/Context Pointer|context pointer]]: an in-context reference naming external material and the conditions for reading it. A weak pointer can make useful reference material effectively unavailable even when its body is accurate.
+
+It also separates context load from human cognitive load. Always-visible descriptions spend the agent's attention; manual-only skills spend the human's memory of what exists and when to invoke it. Progressive disclosure reallocates these costs rather than eliminating them.
+
+[[wiki/concepts/Leading Words|Leading words]] can anchor both execution and discovery by reusing compact concepts with existing model associations. Their value depends on the observed behavior; a shorter label that loses a crucial condition is a failed compression. ^[inferred]
+
+Loading the right material is only the first gate. Checkable and exhaustive completion criteria tell the agent when the current work is genuinely finished. Sequence splitting is justified by observed rushing and needs a real context boundary to hide later steps; multiple files in the same active context do not provide that isolation.
+
 ## Cache stability and durable learning
 
 [[wiki/topics/Context Management]] distinguishes useful context from cache-stable context. Progressive disclosure should load relevant material while protecting a stable prefix and placing changing task evidence in a bounded area. A skill that is relevant but rewrites the whole prompt on every step can still waste latency and cost. ^[inferred]
@@ -70,6 +81,9 @@ This reframes the `description` field, folder structure, reference files, and sc
 
 ## Related
 
+- [[wiki/concepts/Context Pointer]]
+- [[wiki/concepts/Leading Words]]
+- [[wiki/sources/Writing for Agents Source Guide]]
 - [[wiki/concepts/Agent Skill]]
 - [[wiki/topics/Context Management]]
 - [[wiki/topics/AI Skills Workflow]]

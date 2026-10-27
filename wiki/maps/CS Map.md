@@ -22,7 +22,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 16
-updated: 2026-10-17T23:51:28+0800
+updated: 2026-10-26T23:41:30+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -123,6 +123,7 @@ tags:
 
 ## Source layer
 
+- [[wiki/sources/Writing for Agents Source Guide]] — 把 Skill 与 AGENTS.md 文档设计为可发现、分层且有明确完成条件的执行指导。
 - [[wiki/sources/Anti-Patterns in Software Blogging Source Guide|软件博客反模式]] — 用开头绕远、知识假设、链接/续篇依赖、过度正式和 HTML 可读性说明技术文章如何把不必要的理解与操作成本转嫁给读者。
 - [[wiki/sources/Prospects for an Engineering Discipline of Software Source Guide|软件成为工程学科的前景]] — Mary Shaw（1990）：从工艺、商业生产到专业工程，解释经验编纂、科学分析与常规设计如何结合。
 - [[wiki/sources/AI Engineering Skills Map Source Guide]] — 代码执行被 Agent 放大后，软件工程基础承担约束与取舍，产品塑造和验证治理成为新的责任重心。

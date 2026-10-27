@@ -13,8 +13,10 @@ sources:
   - https://arxiv.org/abs/2605.07358v1
   - https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity
   - https://engineering.block.xyz/blog/3-principles-for-designing-agent-skills
+  - https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-for-agents/SKILL.md
+  - https://github.com/mattpocock/skills/blob/main/skills/productivity/writing-for-agents/SKILL-MECHANICS.md
 created: 2026-05-06T10:51:47+08:00
-updated: 2026-07-04T13:49:20+0800
+updated: 2026-10-26T23:41:30+08:00
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-06
@@ -58,7 +60,7 @@ The article's practical rule is that durable skills tend to fit cleanly into one
 - Put the highest-signal warnings in a gotchas section, and grow that section from repeated failures.
 - Use progressive disclosure: the top-level skill should route to references, scripts, examples, templates, or assets only when needed.
 - Avoid over-prescribing every shell step; specify intent and constraints so the agent can adapt to local state.
-- Write the description field as trigger guidance for the model, not as a human-facing abstract.
+- For model-invoked skills, write the description as trigger guidance for the model; descriptions for manual-only skills may serve as human-facing summaries when the host excludes them from autonomous discovery.
 - Cache setup answers when a skill needs stable user or environment configuration.
 - Store durable plugin data outside the skill directory when the data should survive upgrades.
 - Give the skill code when a deterministic helper can replace repeated reconstruction.
@@ -69,6 +71,12 @@ These principles connect directly to [[wiki/topics/AI Skills Workflow]]: a stron
 [[wiki/sources/Seeing Like an Agent Source Guide]] adds why skills matter for action-space design: they can add functionality through progressive disclosure without adding another always-visible top-level tool. The model can read a skill file, follow references recursively, and discover task-specific context only when needed.
 
 This makes skills a middle layer between static prompt context and explicit tool calls. They enlarge [[wiki/concepts/Agent Action Space]] while keeping the immediate tool menu smaller. ^[inferred]
+
+## Discovery and completion boundaries
+
+[[wiki/sources/Writing for Agents Source Guide]] treats a model-visible description as a [[wiki/concepts/Context Pointer|context pointer]]: it names capability and the task branches that should load it. [[wiki/concepts/Leading Words|Leading words]] give recurring behaviors a compact semantic anchor, while completion criteria define the coverage required before execution can end.
+
+Its invocation model distinguishes model-invoked skills from manual-only skills using `disable-model-invocation: true`. Autonomous discovery spends permanent context load; manual discovery spends the user's memory of the catalog. These mechanics must be checked against the actual host rather than assumed from a Markdown field alone. ^[inferred]
 
 ## Marketplace Implication
 
@@ -131,6 +139,9 @@ This strengthens the distinction between craft and persona. In a colleague setti
 
 ## Related
 
+- [[wiki/concepts/Context Pointer]]
+- [[wiki/concepts/Leading Words]]
+- [[wiki/sources/Writing for Agents Source Guide]]
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/topics/AI Harness]]
 - [[wiki/topics/Context Management]]
