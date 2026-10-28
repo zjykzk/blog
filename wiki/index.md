@@ -357,6 +357,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 
 ## Sources
 - [[wiki/sources/Writing for Agents Source Guide|Writing for Agents Source Guide]] — 用 SFAM 拆解 Agent 文档写作：两种负担、信息层级、完成条件、行为锚点、调用方式与修剪。 ( #agents #context #skills #workflow #harness)
+- [[wiki/sources/Retro Coding Agent Environment Source Guide|Retro Coding Agent Environment Source Guide]] — 用 SFAM 拆解编码会话的环境复盘：从真实证据发现缺口，并把问题路由到自动检查、Reviewer、导航指针或信息基础设施。 ( #agents #harness #ai-coding #feedback #workflow)
 - [[wiki/sources/Healthy Peer Feedback Source Guide|Healthy Peer Feedback Source Guide]] — Anuja Karnik 与 Sumeet Gayathri Moghe 的健康反馈指南：中文结构导读、完整英文正文及方法边界。 ( #article #management #organization #feedback)
 - [[wiki/sources/人生的问题循环|人生的问题循环]] — 本地原始草稿用需要、欲望、约束、行动与后果解释人生问题如何反复形成，并连接已经展开的概念页。 (#cognition #thinking #mechanism)
 - [[wiki/sources/Anti-Patterns in Software Blogging Source Guide|软件博客反模式]] — Michael Lynch 用六类反模式说明技术文章应尽快承诺价值、控制知识依赖、保持页内自足，并把语言与网页呈现纳入读者体验。 ( #article #software-engineering #cognition #frontend)

@@ -17,12 +17,13 @@ sources:
   - https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7514210769282994176-fOyn
   - https://blog.alexewerlof.com/p/coding-is-not-solved
   - https://x.com/karpathy/status/2109361546505966046
+  - https://raw.githubusercontent.com/mattpocock/skills/refs/heads/main/skills/engineering/retro/SKILL.md
 created: 2026-04-21
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 16
-updated: 2026-10-26T23:41:30+08:00
+source_count: 17
+updated: 2026-10-28T14:40:23+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -124,6 +125,7 @@ tags:
 ## Source layer
 
 - [[wiki/sources/Writing for Agents Source Guide]] — 把 Skill 与 AGENTS.md 文档设计为可发现、分层且有明确完成条件的执行指导。
+- [[wiki/sources/Retro Coding Agent Environment Source Guide]] — 把编码会话中的错误和摩擦转成自动检查、Reviewer 标准、导航指针或信息访问改进。
 - [[wiki/sources/Anti-Patterns in Software Blogging Source Guide|软件博客反模式]] — 用开头绕远、知识假设、链接/续篇依赖、过度正式和 HTML 可读性说明技术文章如何把不必要的理解与操作成本转嫁给读者。
 - [[wiki/sources/Prospects for an Engineering Discipline of Software Source Guide|软件成为工程学科的前景]] — Mary Shaw（1990）：从工艺、商业生产到专业工程，解释经验编纂、科学分析与常规设计如何结合。
 - [[wiki/sources/AI Engineering Skills Map Source Guide]] — 代码执行被 Agent 放大后，软件工程基础承担约束与取舍，产品塑造和验证治理成为新的责任重心。

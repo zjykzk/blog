@@ -15,8 +15,9 @@ sources:
   - wiki/sources/Continual Learning for AI Agents Source Guide.md
   - wiki/sources/Agent Engineering Source Guide.md
   - wiki/sources/GEPA Paper River Source Guide.md
+  - wiki/sources/Retro Coding Agent Environment Source Guide.md
 created: 2026-06-09T14:38:22+08:00
-updated: 2026-10-11T17:54:15+08:00
+updated: 2026-10-28T14:40:23+08:00
 summary: Skills become ratchet surfaces when repeated agent failures are converted into revised instructions, examples, constraints, scripts, or evaluable helper code.
 provenance:
   extracted: 0.04
@@ -46,6 +47,10 @@ The common situation is a workflow that repeatedly needs the same operational ju
 A harness ratchet does not always need to modify harness code. If the failure is task-specific, domain-specific, or workflow-specific, the right durable artifact may be a skill. ^[inferred]
 
 That creates a useful placement rule: put universal runtime constraints into the harness; put reusable workflow judgment into skills; put project-local facts into repository context or memory. ^[inferred]
+
+[[wiki/sources/Retro Coding Agent Environment Source Guide]] turns that broad placement rule into an incident-to-control decision. Fixed syntactic patterns, banned APIs, import shapes and file-location rules should become repository-native lint, pre-commit or CI checks. Cross-file consistency and surrounding-style judgments belong in reviewer-loaded standards. Information that is merely hard to find belongs behind a short repository-context pointer, while missing evidence calls for logs or read-only service access. ^[inferred]
+
+The placement decision should also account for context pressure. Implementation agents spend context on exploration, code generation and debugging, whereas review agents start from a diff. Judgment-heavy standards can therefore be imposed during review without charging every implementation step the same context cost. ^[inferred]
 
 The skill itself should preserve a second boundary: repeated calculations, fixed scoring, formatting constraints, and mandatory gates move into scripts or checkers, while interpretation, exception handling, and synthesis remain model work. This prevents a ratchet from hardening probabilistic judgment into an unreliable instruction while still making reproducible parts executable. ^[inferred]
 
@@ -77,3 +82,4 @@ The ratchet needs retained failure examples, separate verification cases, record
 - [[wiki/concepts/Continual Learning for AI Agents]]
 - [[wiki/topics/AI Skills Workflow]]
 - [[wiki/syntheses/Agent Skill × Context Management]]
+- [[wiki/sources/Retro Coding Agent Environment Source Guide]]

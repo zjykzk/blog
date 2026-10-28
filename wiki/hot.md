@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近收录 Writing for Agents：用上下文指针、行为锚点和完成条件设计 Agent 文档。
+summary: 最近收录 Retro Agent 环境复盘：从 Session 证据发现缺口，把不同问题路由到自动检查、Reviewer、导航或信息基础设施。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-26T23:41:30+08:00
+updated: 2026-10-28T14:40:23+08:00
 ---
 
 ## Recent Activity
+
+- 2026-10-28T14:40:23+08:00 — 已捕获 [[wiki/sources/Retro Coding Agent Environment Source Guide|Retro Agent 环境复盘]]：把 coding session 中的错误、搜索成本与信息缺口视为环境传感器，并按机械约束、判断约束、导航缺口与证据缺口分别落到自动检查、Reviewer 标准、上下文指针和信息基础设施；防护层选择规则已补入 [[wiki/syntheses/Agent Skill × Harness Ratchet]]。
 
 - 2026-10-26T23:41:30+08:00 — 已捕获 [[wiki/sources/Writing for Agents Source Guide|Agent 文档写作方法]]，建立 [[wiki/concepts/Context Pointer|上下文指针]] 与 [[wiki/concepts/Leading Words|行为锚点]]：pointer 说明何时读取哪份材料，leading word 用已有概念关联唤起一套做法；已补入 Agent Skill、Context Management 及二者综合页，保留自然语言指导不能保证触发、完成或正确性的边界。
 
@@ -30,6 +32,8 @@ updated: 2026-10-26T23:41:30+08:00
 - 2026-10-10T19:36:48+08:00 — 已捕获 [[wiki/sources/Agent Benchmark Landscape Research Report Source Guide|Agent 评测集研究报告]]、[[wiki/topics/Rule Adjudication Agent Evaluation|规则裁决 Agent 评测]] 与 [[wiki/concepts/Confusion Matrix|混淆矩阵]]：从 42 来源 benchmark 地图收敛到规则适用性—事实—构成要件—例外—证据充分性的可审计裁决链，并用五类终局结论揭示漏报、误伤、错误拒判与过度裁决。
 
 ## Active Threads
+
+- Agent 环境改进现在加入“证据—分类—防护层”线索：[[wiki/sources/Retro Coding Agent Environment Source Guide|Retro]] 从 Session 事实出发，优先把机械违规编成 lint/hook/CI，把判断标准交给 Review，把常驻指令压成导航指针；这使 [[wiki/concepts/Feedback Flywheel]] 与 [[wiki/concepts/Coding Agent User Harness]] 之间出现一个具体的改进路由器。^[inferred]
 
 - Agent 文档写作现在加入“发现—分层—完成—修剪”线索：[[wiki/sources/Writing for Agents Source Guide|Writing for Agents]] 用 pointer 管理材料入口，用信息阶梯保护主路径，用可检查且穷尽的完成条件抵抗提前结束；[[wiki/concepts/Leading Words|leading words]] 压缩重复解释，但实际触发和行为增量仍需运行验证。^[inferred]
 
@@ -214,6 +218,8 @@ updated: 2026-10-26T23:41:30+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 一次 Agent 失败只有进入合适的防护层才会形成 ratchet：机器可判定的模式进入检查，需要上下文判断的标准进入 Review，难找的信息进入短指针，取不到的证据进入日志或只读接口。把所有教训都追加到 `AGENTS.md`，既降低执行确定性，又让每次实现支付固定上下文成本。^[inferred]
 
 - Agent 文档的可靠性取决于正确发现、信息位置、完成边界和持续相关性；[[wiki/concepts/Context Pointer]] 管理何时读哪份材料，[[wiki/concepts/Leading Words]] 唤起一组行为要求，两者都要以实际执行检验。^[inferred]
 
