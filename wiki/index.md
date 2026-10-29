@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-10-29T15:38:53+08:00
+updated: 2026-10-29T22:04:49+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -427,6 +427,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide|Software Engineering 3.0 Judgment Shift Source Guide]] — 保存软件工程 3.0 的六条判断与 Excalidraw 图：AI 让生成变便宜后，工程重心从动作上移到可执行、可审计、可反馈的判定体系。 ( #article #software-engineering #ai-coding #judgment #organization)
 - [[wiki/sources/Three Joys of Engineering Source Guide|Three Joys of Engineering Source Guide]] — Addy Osmani 用 making、knowing、mattering 拆解工程师面对 AI Agent 的解放感与失落感，并指出选择答案不能替代独立生成答案。 ( #article #software-engineering #ai-coding #cognition #judgment)
 - [[wiki/sources/Coding Is Not Solved Source Guide|Coding Is Not Solved Source Guide]] — Alex Ewerlöf 区分代码生成与可问责的软件工程：AI 降低实现成本，却未消除理解、验证、非功能保证、恢复和人类责任。 ( #article #ai-coding #software-engineering #reliability #responsibility)
+- [[wiki/sources/AI Refactoring Legacy Systems Source Guide|AI Refactoring Legacy Systems Source Guide]] — 遗留系统的规则常散落在人脑、工单和历史事故中；AI 安全重构要把它们转成不变式、行为基线、决策记录与可回滚边界。 ( #article #ai-coding #software-engineering #refactoring #reliability)
 - [[wiki/sources/AI Capability Experience Funnel Source Guide|AI Capability Experience Funnel Source Guide]] — Karpathy 用四层人群漏斗解释 AI 能力认知分化：任务跨度、领域可验证性、系统工作流与访问权限共同决定用户实际看见的能力。 ( #article #agents #llm #ai-coding #judgment)
 - [[wiki/sources/Memory for Autonomous LLM Agents Source Guide|Memory for Autonomous LLM Agents Source Guide]] — Source guide for arXiv 2603.07670 on autonomous LLM-agent memory mechanisms, evaluation, applications, engineering realities, and open frontiers. (#paper #agents #memory #survey)
 - [[wiki/sources/Memory in the Age of AI Agents Paper Source Guide|Memory in the Age of AI Agents Paper Source Guide]] — Source guide for arXiv 2512.13564 on agent memory forms, functions, dynamics, resources, and future frontiers. (#paper #arxiv #agents #memory #survey)

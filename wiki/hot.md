@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近收录第三方登录认证：外部平台确认账户身份，网站核验结果后建立本地会话，并独立判断业务权限。
+summary: 最近收录 AI 重构遗留系统：模型越能快速改代码，越要把隐式业务规则转成不变式、行为基线、决策记录与可回滚边界。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-29T15:38:53+08:00
+updated: 2026-10-29T22:04:49+0800
 ---
 
 ## Recent Activity
+
+- 2026-10-29T22:04:49+08:00 — 已收录 [[wiki/sources/AI Refactoring Legacy Systems Source Guide|AI 重构遗留系统]]：区分实现规划与约束规划，说明隐式业务规则如何在测试全绿时被 AI 当作冗余删除，并将 brownfield 的当前行为、期望行为与合同级不变式边界补入 [[wiki/topics/Spec-Driven Development]] 和 [[wiki/concepts/Verification Gap]]。
 
 - 2026-10-29T15:38:53+08:00 — 已捕获 [[wiki/concepts/Third Party Authentication|第三方登录认证]]：保留授权码兑换、身份凭证核验和本地会话流程，区分 OAuth 授权与 OIDC 身份认证，并把“先核验外部声明，再改变本地状态”补入信息流与状态流转设计原则。
 
@@ -34,6 +36,8 @@ updated: 2026-10-29T15:38:53+08:00
 - 2026-10-10T19:36:48+08:00 — 已捕获 [[wiki/sources/Agent Benchmark Landscape Research Report Source Guide|Agent 评测集研究报告]]、[[wiki/topics/Rule Adjudication Agent Evaluation|规则裁决 Agent 评测]] 与 [[wiki/concepts/Confusion Matrix|混淆矩阵]]：从 42 来源 benchmark 地图收敛到规则适用性—事实—构成要件—例外—证据充分性的可审计裁决链，并用五类终局结论揭示漏报、误伤、错误拒判与过度裁决。
 
 ## Active Threads
+
+- AI 遗留系统改造现在加入“约束规划”线索：[[wiki/sources/AI Refactoring Legacy Systems Source Guide|AI 重构遗留系统]]把规划从详细实现步骤转向不可破坏行为、变化证据、授权与退出机制；表征测试只证明“当前这样运行”，仍要结合合同、监管、下游依赖和历史决策区分期望行为与真正不变式。^[inferred]
 
 - 跨平台身份接入：[[wiki/concepts/Third Party Authentication|第三方登录认证]] 将外部账户验证、授权码兑换、身份结果核验和本地会话建立分开；登录身份、第三方资源许可与网站业务权限需要分别判断。
 
@@ -222,6 +226,8 @@ updated: 2026-10-29T15:38:53+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- AI 可以减少详细实现规划，却不会消除约束发现：遗留系统安全重构需要先把隐式业务规则转成不变式、行为基线与决策证据，再用增量迁移、灰度和回滚把大改写变成可逆实验；当前行为不自动等于正确行为。^[inferred]
 
 - 第三方登录依赖可核验的身份结果：授权码是临时兑换凭据，ID Token 表达身份，Access Token 用于资源访问，本地会话 Cookie 维持网站自己的登录状态；这些凭据的职责不能互换。
 

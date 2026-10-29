@@ -10,6 +10,7 @@ sources:
   - https://martinfowler.com/articles/reduce-friction-ai/context-anchoring.html
   - https://www.chrismdp.com/coding-with-ai/
   - wiki/sources/Vibe 时代的软件工程.md
+  - https://mp.weixin.qq.com/s/-krMZiLCBJ25NFJk9tlcAg
 created: 2026-04-26
 base_confidence: 0.44
 lifecycle: draft
@@ -18,8 +19,8 @@ provenance:
   extracted: 0.78
   inferred: 0.20
   ambiguous: 0.04
-source_count: 6
-updated: 2026-07-11T23:53:54+0800
+source_count: 7
+updated: 2026-10-29T22:04:49+0800
 aliases:
   - SDD
 tags:
@@ -95,6 +96,10 @@ This does not reject spec discipline entirely; it narrows the useful spec target
 
 The source also warns against over-large delegation. A spec that cannot be validated at its chosen grain becomes a code dump prompt, not an engineering contract. ^[inferred]
 
+[[wiki/sources/AI Refactoring Legacy Systems Source Guide|AI 重构遗留系统]] 补充了 brownfield 约束：从旧代码反向恢复规格时，不能把“当前行为”直接当作“正确行为”。先用表征测试建立行为基线，再结合合同、监管、下游依赖和历史决策，区分当前行为、期望行为与合同级不变式。^[inferred]
+
+这也把 plan 的对象从详细实现步骤转向约束规划：明确什么不能改变、怎样发现变化、谁授权变化，以及失败时如何灰度和回滚。AI 可以减少实现规划，但不会消除约束发现。^[inferred]
+
 ## Open questions
 
 - 从 legacy code 反向抽规约时，规约未必比代码更接近意图——这是 brownfield 的特殊挑战
@@ -121,3 +126,4 @@ The source also warns against over-large delegation. A spec that cannot be valid
 - [[wiki/sources/Reducing Friction in AI-Assisted Development Source Guide]]
 - [[wiki/sources/Coding with AI Source Guide]]
 - [[wiki/sources/Vibe 时代的软件工程]]
+- [[wiki/sources/AI Refactoring Legacy Systems Source Guide]]

@@ -16,14 +16,15 @@ sources:
   - https://x.com/AndrewYNg/article/2090840747738374568
   - https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7514210769282994176-fOyn
   - https://blog.alexewerlof.com/p/coding-is-not-solved
+  - https://mp.weixin.qq.com/s/-krMZiLCBJ25NFJk9tlcAg
   - https://x.com/karpathy/status/2109361546505966046
   - https://raw.githubusercontent.com/mattpocock/skills/refs/heads/main/skills/engineering/retro/SKILL.md
 created: 2026-04-21
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 17
-updated: 2026-10-29T15:38:53+08:00
+source_count: 18
+updated: 2026-10-29T22:04:49+0800
 aliases:
   - Computer Science Map
 tags:
@@ -167,6 +168,7 @@ tags:
 - [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide]] — 中文长文与 Excalidraw 图：生成变便宜后，工程化对象从动作上移到判定，规则与证据进入机器可执行闭环。
 - [[wiki/sources/Three Joys of Engineering Source Guide]] — Addy Osmani 从 making、knowing、mattering 分析 Agent 对工程能力与职业意义的非对称影响。
 - [[wiki/sources/Coding Is Not Solved Source Guide]] — 代码合成成本下降后，软件工程瓶颈转向非功能保证、理解、验证、恢复和可追溯的人类问责。
+- [[wiki/sources/AI Refactoring Legacy Systems Source Guide]] — 用合同级不变式、表征测试、ADR/RFC、绞杀榕、灰度和回滚约束 AI 对复杂遗留系统的改动。
 - [[wiki/sources/AI Capability Experience Funnel Source Guide]] — 代码与数学因数字化和可验证性形成能力尖峰；专业者因此比短问答用户更早体验到长程 Agent 杠杆与审查瓶颈。
 - [[wiki/sources/Agentic Engineering at Zalando Source Guide]] — Zalando 将 Agentic Engineering 落到统一基础设施、过程可观测、风险分级、知识扩散、仓库 readiness 与身份治理。
 - [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源：用成本结构、验证鸿沟、意图-生成-验证循环、复杂度、测试、版本控制和门禁解释 Vibe 时代的软件工程。

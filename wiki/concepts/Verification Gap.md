@@ -18,10 +18,13 @@ relationships:
     type: related_to
   - target: "[[wiki/sources/Coding Is Not Solved Source Guide]]"
     type: related_to
+  - target: "[[wiki/sources/AI Refactoring Legacy Systems Source Guide]]"
+    type: related_to
 sources:
   - wiki/sources/Vibe 时代的软件工程.md
   - conversation:2026-09-29
   - https://blog.alexewerlof.com/p/coding-is-not-solved
+  - https://mp.weixin.qq.com/s/-krMZiLCBJ25NFJk9tlcAg
 summary: 验证鸿沟是 AI 代码生成速度与人类理解、验证速度之间扩大的差距；它把软件工程瓶颈从生产转向质量判断。
 provenance:
   extracted: 0.80
@@ -32,7 +35,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-03
 tier: supporting
 created: 2026-07-03T21:45:37+0800
-updated: 2026-10-17T00:41:23+0800
+updated: 2026-10-29T22:04:49+0800
 ---
 # Verification Gap
 
@@ -46,6 +49,7 @@ updated: 2026-10-17T00:41:23+0800
 - 单步正确率看似很高时，连续多步不验证仍会快速复合成低整体正确率；因此 AI 协作不能只靠“差不多对”的直觉。
 - 缩小验证鸿沟的主要手段包括：更小的委托粒度、明确的意图规格、自动测试、类型检查、静态分析、人工高风险评审和频繁可回滚提交。
 - 验证鸿沟把 [[wiki/topics/Testing Strategy]] 从质量保障实践升级为 AI 协作的产能约束：不能验证的生成速度，最终会变成复杂度债务。 ^[inferred]
+- [[wiki/sources/AI Refactoring Legacy Systems Source Guide|AI 重构遗留系统]] 补充了语义覆盖缺口：即使现有测试全部通过，合同、监管、下游依赖和事故经验形成的隐式规则仍可能不在测试中；验证必须同时检查行为基线是否变化，以及变化是否获得业务授权。^[inferred]
 
 ## Understanding Is Part of Verification
 
@@ -76,3 +80,4 @@ updated: 2026-10-17T00:41:23+0800
 - [[wiki/sources/Vibe 时代的软件工程]] — 本地 PDF 抽取源文档。
 - [[wiki/sources/Software Engineering 3.0 Judgment Shift Source Guide]] — 从工序自动化上移到判定链路，并讨论组织规模与人才路径。
 - [[wiki/sources/Coding Is Not Solved Source Guide]] — 将验证连接到非功能保证、系统理解和人类问责。
+- [[wiki/sources/AI Refactoring Legacy Systems Source Guide]] — 说明测试全绿仍可能遗漏遗留系统中的合同、监管、下游依赖和历史事故规则。

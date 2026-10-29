@@ -22,6 +22,7 @@ sources:
   - https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html
   - https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7514210769282994176-fOyn
   - https://blog.alexewerlof.com/p/coding-is-not-solved
+  - https://mp.weixin.qq.com/s/-krMZiLCBJ25NFJk9tlcAg
   - https://x.com/karpathy/status/2109361546505966046
   - https://raw.githubusercontent.com/mattpocock/skills/refs/heads/main/skills/engineering/retro/SKILL.md
 created: 2026-05-04
@@ -32,8 +33,8 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 19
-updated: 2026-10-28T14:40:23+08:00
+source_count: 20
+updated: 2026-10-29T22:04:49+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -250,6 +251,7 @@ tags:
 - [[wiki/sources/AI Engineering Skills Map Source Guide]] — Andrew Ng 的四项 AI 工程能力：AI 应用交付、软件工程基础、coding agent 使用与 shaping the build；持续学习负责更新整套能力。
 - [[wiki/sources/Three Joys of Engineering Source Guide]] — Addy Osmani 用 making、knowing、mattering 解释 Agent 同时带来的解放、理解力退化与身份失落。
 - [[wiki/sources/Coding Is Not Solved Source Guide]] — 把“coding 已解决”的争论改写为生成、理解、验证与问责的速度失配，并追踪认知债、SLA 溢价和工程职业分化。
+- [[wiki/sources/AI Refactoring Legacy Systems Source Guide]] — 遗留系统的隐式业务规则不在模型上下文与现有测试中；AI 重构需要把它们显性化为不变式、行为基线、决策记录和可回滚边界。
 - [[wiki/sources/AI Capability Experience Funnel Source Guide]] — Karpathy 用四层人群漏斗和任务跨度、领域锯齿、访问权限解释为何不同用户像活在不同 AI 现实中。
 - [[wiki/sources/Building and Deploying AI Applications Source Guide]] — 细化 AI 应用交付的六项能力，并把 eval/error analysis 作为模型、数据、agent 架构与生产运营之间的开发控制环。
 - [[wiki/sources/The AI-Native SDLC Playbook Source Guide]] — Anthropic 的企业实施 playbook：用版本化工件、门禁触发和生产反馈回流，把 Plan、Design、Build、Test、Deploy、Maintain 从线性 handoff 改造成受治理的闭环。
