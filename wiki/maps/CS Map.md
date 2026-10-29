@@ -23,7 +23,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 17
-updated: 2026-10-28T14:40:23+08:00
+updated: 2026-10-29T15:38:53+08:00
 aliases:
   - Computer Science Map
 tags:
@@ -38,6 +38,7 @@ tags:
 
 ## Distributed systems
 
+- [[wiki/concepts/Third Party Authentication|第三方登录认证]] — 通过授权码兑换和身份结果核验跨平台确认账户，再由网站建立本地会话并判断业务权限。
 - [[wiki/topics/Circuit Breaker]]
 - [[wiki/sources/CAP Theorem Source Guide|CAP Theorem Source Guide]] — CAP theorem source guide：在网络分区下，一致性和可用性不能同时获得强保证；实际设计要看操作级一致性、延迟和失败模式。
 - [[wiki/sources/Fallacies of Distributed Computing Source Guide]] — distributed-systems checklist：不要假设网络可靠、零延迟、无限带宽、安全、拓扑静态、单一管理员、传输免费或同构。

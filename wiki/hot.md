@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近收录 Retro Agent 环境复盘：从 Session 证据发现缺口，把不同问题路由到自动检查、Reviewer、导航或信息基础设施。
+summary: 最近收录第三方登录认证：外部平台确认账户身份，网站核验结果后建立本地会话，并独立判断业务权限。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-28T14:40:23+08:00
+updated: 2026-10-29T15:38:53+08:00
 ---
 
 ## Recent Activity
+
+- 2026-10-29T15:38:53+08:00 — 已捕获 [[wiki/concepts/Third Party Authentication|第三方登录认证]]：保留授权码兑换、身份凭证核验和本地会话流程，区分 OAuth 授权与 OIDC 身份认证，并把“先核验外部声明，再改变本地状态”补入信息流与状态流转设计原则。
 
 - 2026-10-28T14:40:23+08:00 — 已捕获 [[wiki/sources/Retro Coding Agent Environment Source Guide|Retro Agent 环境复盘]]：把 coding session 中的错误、搜索成本与信息缺口视为环境传感器，并按机械约束、判断约束、导航缺口与证据缺口分别落到自动检查、Reviewer 标准、上下文指针和信息基础设施；防护层选择规则已补入 [[wiki/syntheses/Agent Skill × Harness Ratchet]]。
 
@@ -32,6 +34,8 @@ updated: 2026-10-28T14:40:23+08:00
 - 2026-10-10T19:36:48+08:00 — 已捕获 [[wiki/sources/Agent Benchmark Landscape Research Report Source Guide|Agent 评测集研究报告]]、[[wiki/topics/Rule Adjudication Agent Evaluation|规则裁决 Agent 评测]] 与 [[wiki/concepts/Confusion Matrix|混淆矩阵]]：从 42 来源 benchmark 地图收敛到规则适用性—事实—构成要件—例外—证据充分性的可审计裁决链，并用五类终局结论揭示漏报、误伤、错误拒判与过度裁决。
 
 ## Active Threads
+
+- 跨平台身份接入：[[wiki/concepts/Third Party Authentication|第三方登录认证]] 将外部账户验证、授权码兑换、身份结果核验和本地会话建立分开；登录身份、第三方资源许可与网站业务权限需要分别判断。
 
 - Agent 环境改进现在加入“证据—分类—防护层”线索：[[wiki/sources/Retro Coding Agent Environment Source Guide|Retro]] 从 Session 事实出发，优先把机械违规编成 lint/hook/CI，把判断标准交给 Review，把常驻指令压成导航指针；这使 [[wiki/concepts/Feedback Flywheel]] 与 [[wiki/concepts/Coding Agent User Harness]] 之间出现一个具体的改进路由器。^[inferred]
 
@@ -218,6 +222,8 @@ updated: 2026-10-28T14:40:23+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 第三方登录依赖可核验的身份结果：授权码是临时兑换凭据，ID Token 表达身份，Access Token 用于资源访问，本地会话 Cookie 维持网站自己的登录状态；这些凭据的职责不能互换。
 
 - 一次 Agent 失败只有进入合适的防护层才会形成 ratchet：机器可判定的模式进入检查，需要上下文判断的标准进入 Review，难找的信息进入短指针，取不到的证据进入日志或只读接口。把所有教训都追加到 `AGENTS.md`，既降低执行确定性，又让每次实现支付固定上下文成本。^[inferred]
 
