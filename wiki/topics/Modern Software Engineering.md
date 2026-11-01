@@ -34,7 +34,7 @@ provenance:
   inferred: 0.21
   ambiguous: 0.03
 source_count: 13
-updated: 2026-11-01T22:57:50+0800
+updated: 2026-11-02T00:22:29+0800
 aliases:
   - 软件工程
   - modern software engineering
@@ -281,6 +281,7 @@ The problem-chain map starts from real goals, incomplete intent, specification u
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/concepts/Feedback Flywheel]]
+- [[wiki/concepts/Engineering Practice Evaluation Frame]]
 - [[wiki/concepts/Software Engineering as Knowledge Discovery]]
 - [[wiki/concepts/Tacit Knowledge]]
 - [[wiki/sources/软件工程为何必须成为学习专家 Source Guide]]

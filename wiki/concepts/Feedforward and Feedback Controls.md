@@ -7,7 +7,7 @@ summary: Feedforward controls shape an agent before action; feedback controls in
 sources:
   - https://martinfowler.com/articles/harness-engineering.html
 created: 2026-05-06T22:24:21+08:00
-updated: 2026-05-06T22:24:21+08:00
+updated: 2026-11-02T00:22:29+0800
 base_confidence: 0.44
 lifecycle: draft
 lifecycle_changed: 2026-05-06
@@ -66,6 +66,7 @@ For [[wiki/concepts/Harness Ratchet]], the design question is: should a recurrin
 ## Related
 
 - [[wiki/topics/AI Harness]]
+- [[wiki/concepts/Engineering Practice Evaluation Frame]]
 - [[wiki/concepts/Coding Agent User Harness]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/concepts/Harness Ratchet]]

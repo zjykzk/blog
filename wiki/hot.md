@@ -1,25 +1,27 @@
 ---
 title: Hot Cache
 category: meta
-summary: 软件工程学习主线已区分认识论根因与外部变化：先验未知、默会知识和可执行知识转换使持续学习在静态环境中也不可缺少。
+summary: 工程实践评估主线已补入六问框架：从控制目标、机制、信息和调节动作一路检查到新增成本与失效边界。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-11-01T22:57:50+0800
+updated: 2026-11-02T00:22:29+0800
 ---
 
 ## Recent Activity
+
+- 2026-11-02T00:22:29+08:00 — 已捕获 [[wiki/concepts/Engineering Practice Evaluation Frame|工程实践第一性原理检查表]]：用控制目标、作用机制、所需信息、调节动作、新增成本和失效边界六问，把“团队有没有做实践”推进为“实践是否形成真实控制回路”。
 
 - 2026-11-01T22:57:50+08:00 — 已收录 [[wiki/sources/软件工程为何必须成为学习专家 Source Guide|软件工程为何必须成为学习专家]]，并建立 [[wiki/concepts/Software Engineering as Knowledge Discovery|软件工程作为知识发现]] 与 [[wiki/concepts/Tacit Knowledge|默会知识]]：区分外部变化这一加速器与先验未知、分布式判断、实践反馈这些学习根因；Armour、Farley 等具体术语和引文归属保留待一手核验。
 
 - 2026-11-01T22:54:18+08:00 — 已用 Pressman《Software Engineering: A Practitioner’s Approach》第九版与 Sommerville《Software Engineering》第十版全书重读更新 [[wiki/topics/Modern Software Engineering]]：将经验学习与风险控制重新定位为学习、治理回路，补齐价值、规格、构造、证据、演化、可信赖性、社会技术系统和职业责任；问题链—解决方案链已保存为可编辑 Excalidraw。
 
-- 2026-11-01T19:54:56+08:00 — 已收录 [[wiki/sources/Life as a State of Matter Source Guide|生命是一种物态吗]]：保留概念结构、假设、推理流程与变化机制，分别注明原文索引与转载、Pross 补充理论和分析推演；动态动力学稳定、复制不充分及演化不必增加复杂性的边界已补入 [[wiki/concepts/Life as Dissipative Information Structure]]。
-
 ## Active Threads
+
+- 工程实践评估现在加入“目标—机制—信息—调节—成本—边界”线索：[[wiki/concepts/Engineering Practice Evaluation Frame|六问框架]]把实践视为系统干预，要求说明偏差如何被感知、谁采取动作、结果如何回流，以及何时成本或前提变化会使实践失效；这使流程仪式能够被还原为可检验控制回路。^[inferred]
 
 - 软件工程学习主线现在区分三类不确定性：先验未知使初始模型不完备，[[wiki/concepts/Tacit Knowledge|默会知识]]使判断无法一次性完整转录，外部变化则使既有模型更快失效。即使冻结环境，前两项仍要求用实例、原型、测试和运行证据持续发现知识；但学习只是完整工程闭环中的一个回路。^[inferred]
 
@@ -220,6 +222,8 @@ updated: 2026-11-01T22:57:50+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 一项工程实践的价值不由名称、流行度或执行合规决定，而由它是否能感知目标偏差、通过明确机制触发责任动作、以可接受成本改变系统状态，并在失效边界外及时退出或修正。^[inferred]
 
 - 解释生命应分别追踪材料、组织和持续过程，并区分维持、演化与起源。数量稳定不等于组织正常，复制不等于可演化，选择也不保证复杂性增加或认知必然出现。^[inferred]
 

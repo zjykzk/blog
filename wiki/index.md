@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-11-01T22:57:50+0800
+updated: 2026-11-02T00:22:29+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -194,6 +194,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Cognition Three Channels|Cognition Three Channels]] — 人认识世界靠三根独立的生成器撑着。关掉任何一根，认识塌一块。
 - [[wiki/concepts/Cognitive Engineering|Cognitive Engineering]] — 认知工程学不是单独研究'人怎么想'，而是研究如何设计工具、信息结构与反馈机制，让人更容易想对、做对、协同对。
 - [[wiki/concepts/engineering-thinking|Engineering Thinking]] — Engineering thinking turns vague intent into reliable, testable, repairable, evolvable structures under real constraints. (#engineering #software-engineering #systems #judgment #feedback)
+- [[wiki/concepts/Engineering Practice Evaluation Frame|Engineering Practice Evaluation Frame]] — 工程实践评估框架用控制目标、作用机制、所需信息、调节动作、新增成本和失效边界六问，判断一项实践是否真正改变系统行为。 ( #engineering #software-engineering #judgment #mechanism #feedback)
 - [[wiki/concepts/工程复杂度共同结构]] — 工程复杂度共同结构把所有工程共有的难题压缩为目标、约束、分解、接口、反馈和演化六个问题。 (#engineering #systems #complexity #feedback #architecture)
 - [[wiki/concepts/Component-Based Architecture|Component-Based Architecture]] — Component-based architecture organizes an interface or system as composable units with local responsibilities. (#frontend #architecture #modularity)
 - [[wiki/concepts/Concept|Concept]] — 概念不是词，而是有限生命面对连续世界时制造的边界。

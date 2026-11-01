@@ -7,15 +7,16 @@ status: draft
 tags: [engineering, software-engineering, systems, judgment, feedback]
 sources:
   - conversation:2026-05-08
+  - conversation:2026-11-02
 created: 2026-05-08T22:31:50+08:00
-updated: 2026-05-08T22:31:50+08:00
+updated: 2026-11-02T00:22:29+0800
 summary: >-
   Engineering thinking turns vague intent into reliable, testable, repairable, evolvable structures under real constraints.
 provenance:
-  extracted: 0.82
-  inferred: 0.18
+  extracted: 0.80
+  inferred: 0.20
   ambiguous: 0.00
-base_confidence: 0.42
+base_confidence: 0.58
 lifecycle: draft
 lifecycle_changed: 2026-05-08
 aliases:
@@ -175,6 +176,8 @@ Engineering thinking can be compressed into this transformation table:
 | technical system | human-machine-organization system |
 | current implementation | evolvable structure |
 
+[[wiki/concepts/Engineering Practice Evaluation Frame]] turns this broad responsibility model into six questions for any specific practice: what it controls, how it works, what information it needs, how it produces regulation, what costs it adds, and where it fails. A practice is engineering-relevant only when its mechanism and feedback can change the target state, not merely when the team performs its ritual. ^[inferred]
+
 A minimal software-engineering responsibility system follows the same logic:
 
 1. Problem definition card: current situation, success criteria, non-goals, constraints, affected people, risk, and target legitimacy.
@@ -226,6 +229,7 @@ Engineering thinking also asks: “How can that value be reliably implemented, w
 ## Related
 
 - [[wiki/topics/Modern Software Engineering]]
+- [[wiki/concepts/Engineering Practice Evaluation Frame]]
 - [[wiki/topics/Problem Framing]]
 - [[wiki/concepts/Feedback Loops]]
 - [[wiki/topics/Testing Strategy]]

@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-11-01T19:54:56+0800
+updated: 2026-11-02T00:22:29+0800
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -111,6 +111,7 @@ aliases:
 这一组模型解释工程系统为什么可靠、失控、返工或演化困难。
 
 - [[wiki/concepts/engineering-thinking]]：工程思维把模糊意图变成可靠、可测试、可修复、可演化的结构。
+- [[wiki/concepts/Engineering Practice Evaluation Frame]]：把工程实践还原成控制目标、机制、信息、调节、成本和失效边界，检查它是否形成真实控制回路。
 - [[wiki/syntheses/Reality-Refutable Engineering Systems]]：成熟工程系统允许现实通过反馈、申诉、问责和重设计触发器反驳自己的模型。
 - [[wiki/topics/Modern Software Engineering]]：现代软件工程是一种经验主义、证据驱动的问题求解活动，而不是单纯流程仪式。
 - [[wiki/topics/Testing Strategy]]：测试通过分层、质量门和 AI 时代验证机制增加对变化正确性的信心。

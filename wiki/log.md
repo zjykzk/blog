@@ -10,7 +10,7 @@ base_confidence: 0.20
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 0
-updated: 2026-11-01T22:57:50+0800
+updated: 2026-11-02T00:22:29+0800
 aliases:
   - Wiki Log
 tags:
@@ -19,6 +19,7 @@ tags:
 ---
 
 # LLM Wiki Log
+- [2026-11-02T00:22:29+0800] CAPTURE type=concept page="wiki/concepts/Engineering Practice Evaluation Frame.md" title="Engineering Practice Evaluation Frame"
 - [2026-11-01T22:57:50+0800] INGEST source="inline:software-engineering-learning-imperative-2026-11-01" pages_updated=9 pages_created=3 mode=append
 - [2026-09-05T10:00:00+0800] CAPTURE type=concept page="wiki/concepts/Political Left and Right.md" title="政治光谱：左派与右派"
 - [2026-08-16T22:37:52+0800] CAPTURE type=synthesis page="wiki/syntheses/Euclid as a Case of Formalization's Limits.md" title="Euclid as a Case of Formalization's Limits"

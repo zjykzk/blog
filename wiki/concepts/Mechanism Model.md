@@ -9,7 +9,7 @@ sources:
   - conversation:2026-05-12
   - conversation:2026-10-06
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-10-06T15:29:40+0800
+updated: 2026-11-02T00:22:29+0800
 summary: >-
   机制模型用结果、变量、约束、激励、反馈和时间解释现象为什么被稳定生成，并用六个要素的不同分析职责暴露解释缺口。
 provenance:
@@ -203,6 +203,7 @@ aliases:
 ## Related
 
 - [[wiki/maps/Mechanism Models Map]]
+- [[wiki/concepts/Engineering Practice Evaluation Frame]]
 - [[wiki/topics/Seeing Clearly|看透的方法]]
 - [[wiki/concepts/Institution as Consequence Structure|制度作为后果结构]]
 - [[wiki/concepts/System]]

@@ -5,15 +5,16 @@ category: concepts
 tags: [thinking, judgment, evaluation, mechanism, feedback]
 sources:
   - conversation:2026-06-27
+  - conversation:2026-11-02
 created: 2026-06-27T02:24:07+0800
-updated: 2026-06-27T02:24:07+0800
+updated: 2026-11-02T00:22:29+0800
 summary: >-
   Evidence question decomposition turns a broad judgment into checkable questions with evidence anchors, answers, failure types, and repair actions.
 provenance:
-  extracted: 0.97
-  inferred: 0.03
+  extracted: 0.94
+  inferred: 0.06
   ambiguous: 0.00
-base_confidence: 0.42
+base_confidence: 0.58
 lifecycle: draft
 lifecycle_changed: 2026-06-27
 tier: supporting
@@ -92,6 +93,8 @@ LLM 回答评估里，“这回答靠谱吗”太整。更好的拆法是：是�
 
 它尤其适合和 [[wiki/concepts/Evaluation]]、[[wiki/concepts/Analysis]]、[[wiki/concepts/Verification Loop]] 一起使用：Evaluation 提供尺度，Analysis 负责切开对象，Verification Loop 负责让检查点接上现实反馈。
 
+[[wiki/concepts/Engineering Practice Evaluation Frame]] 是这一方法在工程实践选择上的专用化：它把“这项实践好不好”拆成控制目标、作用机制、所需信息、调节动作、新增成本和失效边界六个可追责问题。^[inferred]
+
 ## Boundaries
 
 证据问题分解不能替代整体判断。架构是否过早抽象、需求方向是否值得做、设计是否保住概念完整性，这类问题可以拆出检查点，但仍需要整体关系判断。
@@ -101,6 +104,7 @@ LLM 回答评估里，“这回答靠谱吗”太整。更好的拆法是：是�
 ## Related
 
 - [[wiki/concepts/Evaluation]]
+- [[wiki/concepts/Engineering Practice Evaluation Frame]]
 - [[wiki/concepts/Analysis]]
 - [[wiki/concepts/Verification Loop]]
 - [[wiki/syntheses/Reality-Refutable Engineering Systems]]
