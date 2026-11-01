@@ -46,16 +46,92 @@ tags:
 - [[wiki/topics/Software Methodology]] 关心潘加宇《软件方法》那条具体的建模与分析主线
 - 本页关心的是统摄这些实践的上位视角
 
-当前已有笔记里，现代软件工程最核心的一句定义种子是：
+Pressman 与 Sommerville 的基础教材给出更完整的定义：软件工程是在成本、时间、组织和社会约束下，组织人员、过程、方法与工具，把利益相关者需要持续转化为可运行、可验证、可信赖、可维护并能长期演化的软件系统。
 
-- 使用经验主义和科学的方法解决软件问题
+“使用经验主义和科学方法解决软件问题”仍然重要，但只描述了学习方式，不能代替完整工程闭环。更完整的结构是：
 
-这一定义值得保留，因为它把软件工程从“纯编程技巧”拉回到更可验证的方法论：
+- **价值**决定为什么构建、由谁受益；
+- **规格**把目标和约束转成可讨论、可验证的承诺；
+- **构造**把理解变成会在现实中运行并产生后果的系统；
+- **证据**说明为何相信系统足够正确、可信和安全；
+- **演化**让系统在需求、人员、平台和环境改变后继续有用；
+- **治理**明确谁作出决定、谁承担风险以及公共责任如何进入判断。^[inferred]
 
-- 观察现实
-- 建立假设
-- 通过反馈修正
-- 用经验与证据而不是纯直觉推动工程决策
+知识生产是这个系统的**学习回路**，风险控制是它的**治理回路**；二者服务于价值实现和可持续系统构造，而不是软件工程的全部。^[inferred]
+
+## Classical Engineering Foundation
+
+### Two complementary process skeletons
+
+Pressman 把软件工程组织为分层技术：
+
+```text
+Tools
+Methods
+Process
+Quality Focus
+```
+
+质量承诺是基岩，过程为协作、里程碑、质量、风险和变化建立共同上下文，方法提供需求、建模、设计、构造和测试的技术性做法，工具为过程与方法提供自动或半自动支持。工具不能替代方法，方法不能替代过程，形式合规也不能替代真实质量文化。^[inferred]
+
+Pressman 的五项通用框架活动构成纵向价值流：
+
+```text
+Communication → Planning → Modeling → Construction → Deployment
+```
+
+项目跟踪、风险管理、质量保证、技术评审、度量、配置管理、复用管理和工作产品管理作为 umbrella activities 横贯全程。风险控制因此只是横向治理的一部分，不是整个软件工程的主线。
+
+Sommerville 则用四项基本活动描述所有软件过程：
+
+```text
+Specification → Development → Validation → Evolution
+```
+
+这些是逻辑活动，不要求一次性按瀑布顺序执行。敏捷、迭代和增量过程会在每个短周期中重复它们；大型、关键或受监管系统则会增加更正式的工件、追踪和独立验证。
+
+### Quality is contextual
+
+Sommerville 将好软件的核心属性概括为：
+
+- **Maintainability**：能够随业务、人员和环境变化而演化；
+- **Dependability and security**：可靠、安全，不造成不可接受损害并能抵御恶意行为；
+- **Efficiency**：合理使用计算、存储和网络资源；
+- **Acceptability**：目标用户能够理解和使用，并能进入既有工作与技术环境。
+
+这些属性没有统一优先级。飞控、支付、消费应用和一次性脚本需要不同的质量组合和工程强度。质量不是抽象完美，而是在具体风险、约束和生命周期中作出可辩护的取舍。^[inferred]
+
+### Seven problem classes
+
+两本教材的全生命周期内容可以归纳为七类问题链。^[inferred]
+
+| Problem | Engineering response | Mechanism |
+|---|---|---|
+| 不知道该构建什么 | 利益相关者识别、需求获取与协商、场景、原型、验收条件 | 把模糊愿望转成目标、约束和可反驳承诺 |
+| 不知道如何形成可执行结构 | 多视图建模、架构、模块化、接口与契约 | 外化高影响决策，分离关注点并局部化变化 |
+| 不知道系统是否足够正确 | 评审、静态分析、分层测试、验收和运行证据 | 用互补证据逐层排除错误，而不是宣称绝对正确 |
+| 多人如何共同构造 | 计划、依赖管理、里程碑、评审、度量和跨职能责任 | 建立共同目标、责任、工件和偏差坐标 |
+| 系统如何长期改变 | 配置项、baseline、版本、影响分析、回归测试、维护与重构 | 让变化可追踪、可重建、可比较、可回滚 |
+| 失败后如何限制损害 | 预防、检测、隔离、降级、恢复、韧性与安全保证 | 阻止故障传播，并在未知异常中保留恢复能力 |
+| 系统是否值得构建 | 社会技术分析、风险治理、职业责任与公共利益 | 把技术决定、受益者、受害者和责任主体重新连接 |
+
+### Trust always has a boundary
+
+任何保证都只在模型和假设范围内成立：
+
+- 形式证明相对于规格成立；
+- 测试相对于输入、断言和环境成立；
+- 可靠性数字相对于运行分布成立；
+- safety case 相对于已知危险和指定环境成立；
+- 安全测试主要覆盖已知攻击与可构造路径。
+
+成熟工程不声称系统绝对正确，而要说明：凭什么信、信到什么程度、在哪些条件下成立，以及哪些变化会迫使重新验证。^[inferred]
+
+### No universal method
+
+过程和工件强度必须按系统类型、关键性、生命周期、团队规模、需求稳定度、客户参与、监管要求、组织文化、外部依赖和失败可逆性裁剪。瀑布适合稳定且需要正式协调的部分；原型适合需求无法预先说清的部分；螺旋适合风险优先消减；敏捷适合可增量交付且能快速反馈的环境；持续交付和 SRE 把验证延伸到真实生产。
+
+这些模型不是互相淘汰的教派，而是对活动顺序、批量大小、风险顺序和反馈延迟的不同安排。一个受监管系统可以同时采用阶段门、架构风险分析、迭代开发、自动化测试和渐进发布。^[inferred]
 
 ## Engineering as shared design knowledge
 
@@ -169,11 +245,12 @@ AI reduces code-generation cost but does not remove uncertainty, bounded cogniti
 
 ### Concept map artifacts
 
-- ![[diagrams/software-engineering-concept-map.excalidraw]]
+- ![[diagrams/software-engineering-first-principles.excalidraw]]
+- [[diagrams/software-engineering-first-principles.excalidraw|Editable problem-chain and solution-chain map]]
 - [[diagrams/software-engineering-concept-map.excalidraw|Editable software engineering concept map]]
 - [[diagrams/software-engineering-first-principles-combined.excalidraw|Editable three-panel first-principles map]]
 
-The concept map groups first principles, learning, process models, architecture, coupling, evolvability, quality, production, organization, and AI while preserving their cross-links. The three-panel map retains the longer causal derivation from constraints to practices.
+The problem-chain map starts from real goals, incomplete intent, specification uncertainty, cognitive divergence, coupling, construction risk, limited evidence, production failure, and long-term responsibility, then maps each failure generator to an engineering response and closes the loop through runtime, evolution, and governance feedback. The other maps preserve the wider concept inventory and longer causal derivation. ^[inferred]
 
 ## Navigation
 

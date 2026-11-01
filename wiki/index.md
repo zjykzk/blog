@@ -68,7 +68,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/Limits of Classification|Limits of Classification]] — 它擅长把混乱切开，却不自动提供关系、过程、演化和反馈。很多理解错误，不是因为不会分类，而是因为 把分类工具误当成了世界本身 。
 - [[wiki/topics/Mental Models|Mental Models]] — 这页聚合的是一组可以反复调用的思维工具，而不是某个单一学科知识点。 (#thinking #models #decision-making)
 - [[wiki/topics/Methods of Classification|Methods of Classification]] — 分类方法的差异，本质上不是“分成几类”，而是 按什么维度切对象 。
-- [[wiki/topics/Modern Software Engineering|Modern Software Engineering]] — 从不确定性、有限认知、持续变化、必然失败与组织沟通约束，推导知识外显、过程选择、模块化、验证和生产反馈。 ( #software-engineering #methods #feedback #architecture)
+- [[wiki/topics/Modern Software Engineering|Modern Software Engineering]] — 以价值、规格、构造、证据、演化和治理为完整主线，连接经典过程骨架、情境化质量、问题链、反馈闭环及 AI 时代的瓶颈迁移。 ( #software-engineering #methods #feedback #architecture)
 - [[wiki/topics/Probability|Probability]] — 概率不只是一个数学章节名，也是一种处理不确定性的核心框架。 (#thinking #probability #judgment)
 - [[wiki/topics/Problem Framing|Problem Framing]] — 这个定义虽然简单，但它迫使我们先把“预期”说清楚，而不是直接跳进解决方案。 (#thinking #problem-solving #methods)
 - [[wiki/topics/Prompt Frequency|Prompt Frequency]] — 一个值得单独抽出来的判断是：在语义不变时，越接近训练语料中常见表达的 prompt，模型通常越容易发挥出能力。 (#llm #prompting)
