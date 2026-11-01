@@ -24,7 +24,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 18
-updated: 2026-10-29T22:04:49+0800
+updated: 2026-11-01T19:45:03+0800
 aliases:
   - Computer Science Map
 tags:
@@ -102,7 +102,7 @@ tags:
 - [[wiki/topics/Testing Purpose]]
 - [[wiki/topics/Problem Framing]]
 - [[wiki/topics/Spec-Driven Development]]
-- [[wiki/topics/Modern Software Engineering]]
+- [[wiki/topics/Modern Software Engineering]] — 以第一性原理概念地图把学习、复杂性、过程模型、耦合、质量、生产反馈、组织结构与 AI 成本迁移组织成一个统一工程闭环。
 - [[wiki/topics/Software Development Thought Lineage]]
 - [[wiki/concepts/Agent Loop Human Judgment Positions]] — AI coding loop 中人应保留的工程判断位置：价值、边界、否决、硬门禁、状态、人工入口、理解校准和循环修正。
 - [[wiki/concepts/Engineering Work Three Joys]] — 工程工作的创造感、理解感和重要感在 Agent 时代发生不同迁移；识别 Agent 答案不能替代独立生成方案。

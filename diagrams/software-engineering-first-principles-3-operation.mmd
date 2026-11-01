@@ -1,0 +1,62 @@
+graph LR
+  A["承接图2<br/>自动化测试与持续集成<br/>仍然只是预生产证据"]
+
+  B1["问题6<br/>测试环境无法穷尽<br/>真实用户、数据、并发和故障组合"]
+  B2["结论<br/>通过测试不等于<br/>在生产中安全且有价值"]
+  B3["推导<br/>必须把生产环境<br/>纳入学习闭环"]
+
+  C1["渐进暴露<br/>持续交付 · 特性开关<br/>暗部署 · 金丝雀"]
+  C2["控制失败影响<br/>自动回滚<br/>部署与发布解耦"]
+  C3["可观测性<br/>日志 · 指标 · 追踪<br/>业务与用户行为数据"]
+  C4["可靠性与流动度量<br/>SLO · 错误预算<br/>DORA指标"]
+
+  D1["问题7<br/>生产反馈跨越业务、开发<br/>测试和运维多个角色"]
+  D2["组织机制<br/>知识和决策只能沿<br/>真实沟通路径流动"]
+  D3["康威定律<br/>责任与沟通边界会投射为<br/>接口、服务和架构边界"]
+
+  E1["团队结构<br/>跨职能自治团队<br/>端到端责任 · 逆康威演练"]
+  E2["学习文化<br/>生成型文化 · 免责复盘<br/>5 Whys · 自动化防护"]
+
+  F1["AI环境变化<br/>代码生成成本下降<br/>但事实约束没有消失"]
+  F2["瓶颈迁移<br/>从写代码迁移到知识质量<br/>边界设计、判断和验证"]
+  F3["知识工程实践<br/>上下文工程<br/>先生成概念字典、模型、测试策略等中间知识"]
+  F4["复用专家思考<br/>CoT模板 · RAG · Agent"]
+  F5["确定性验证不变<br/>编译 · 测试 · 评审<br/>渐进发布 · 生产反馈"]
+
+  G1["统一闭环<br/>发现未知 → 外显知识 → 建立假设<br/>→ 小批量实现 → 模块化控制复杂性<br/>→ 自动验证 → 渐进运行<br/>→ 生产与组织反馈 → 修正知识和结构"]
+  G2["两个直接目标<br/>成为学习专家<br/>管理复杂性"]
+  Z["闭环返回图1<br/>真实运行产生新的未知与变化<br/>重新触发需求探索"]
+
+  A --> B1 --> B2 --> B3
+  B3 --> C1
+  B3 --> C2
+  B3 --> C3
+  B3 --> C4
+  C1 --> D1
+  C2 --> D1
+  C3 --> D1
+  C4 --> D1
+  D1 --> D2 --> D3
+  D3 --> E1
+  D3 --> E2
+  E1 --> F1
+  E2 --> F1
+  F1 --> F2
+  F2 --> F3
+  F2 --> F4
+  F2 --> F5
+  F3 --> G1
+  F4 --> G1
+  F5 --> G1
+  G1 --> G2 --> Z
+
+  classDef entry fill:#DCFCE7,stroke:#15803D,color:#052E16,stroke-width:3px;
+  classDef problem fill:#FFE4E6,stroke:#BE123C,color:#4C0519,stroke-width:2px;
+  classDef reasoning fill:#FFF4D6,stroke:#B7791F,color:#4A2C0A,stroke-width:2px;
+  classDef practice fill:#E0F2FE,stroke:#0369A1,color:#082F49,stroke-width:2px;
+  classDef goal fill:#F3E8FF,stroke:#7E22CE,color:#3B0764,stroke-width:3px;
+  class A,Z entry;
+  class B1,B2,D1,D2,D3,F1,F2 problem;
+  class B3 reasoning;
+  class C1,C2,C3,C4,E1,E2,F3,F4,F5 practice;
+  class G1,G2 goal;

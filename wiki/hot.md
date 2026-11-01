@@ -13,6 +13,8 @@ updated: 2026-11-01T19:54:56+0800
 
 ## Recent Activity
 
+- 2026-11-01T19:45:03+08:00 — 已更新 [[wiki/topics/Modern Software Engineering|Modern Software Engineering]]：用第一性原理概念地图把现实不确定、有限认知、可执行知识、生产验证与组织沟通五个约束，推导到知识外显、过程模型、模块化、耦合平衡、质量内建、生产反馈、组织结构和 AI 时代的验证瓶颈；可编辑 Excalidraw 已保存在 `diagrams/`。
+
 - 2026-11-01T19:54:56+08:00 — 已收录 [[wiki/sources/Life as a State of Matter Source Guide|生命是一种物态吗]]：保留概念结构、假设、推理流程与变化机制，分别注明原文索引与转载、Pross 补充理论和分析推演；动态动力学稳定、复制不充分及演化不必增加复杂性的边界已补入 [[wiki/concepts/Life as Dissipative Information Structure]]。
 
 - 2026-10-29T22:04:49+08:00 — 已收录 [[wiki/sources/AI Refactoring Legacy Systems Source Guide|AI 重构遗留系统]]：区分实现规划与约束规划，说明隐式业务规则如何在测试全绿时被 AI 当作冗余删除，并将 brownfield 的当前行为、期望行为与合同级不变式边界补入 [[wiki/topics/Spec-Driven Development]] 和 [[wiki/concepts/Verification Gap]]。
@@ -38,6 +40,8 @@ updated: 2026-11-01T19:54:56+0800
 - 2026-10-10T19:36:48+08:00 — 已捕获 [[wiki/sources/Agent Benchmark Landscape Research Report Source Guide|Agent 评测集研究报告]]、[[wiki/topics/Rule Adjudication Agent Evaluation|规则裁决 Agent 评测]] 与 [[wiki/concepts/Confusion Matrix|混淆矩阵]]：从 42 来源 benchmark 地图收敛到规则适用性—事实—构成要件—例外—证据充分性的可审计裁决链，并用五类终局结论揭示漏报、误伤、错误拒判与过度裁决。
 
 ## Active Threads
+
+- 现代软件工程现在加入“第一性原理—概念地图”线索：现实不确定要求经验学习，有限认知要求局部化复杂性，模块协作要求平衡耦合，人的可错性要求内建质量，生产不可模拟要求渐进发布与可观测性，沟通结构则把团队边界投射为系统边界；AI 只改变实现成本，不改变这些约束。^[inferred]
 
 - 生命机制现在加入动态动力学稳定线索：组织或种群可在组分持续更新时延续，但耗散、复制和可演化性需要分别检验；维持成立不等于起源已解释，“生命物态”仍是研究框架。[[wiki/sources/Life as a State of Matter Source Guide]] 保留原文未取得全文的限制。^[inferred]
 
@@ -230,6 +234,8 @@ updated: 2026-11-01T19:54:56+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 软件工程实践不是并列工具箱，而是对底层约束的不同响应：不确定性推导学习与小批量，有限认知推导模块化，模块协作推导耦合平衡，持续变化与人的可错性推导重构和自动验证，生产差异推导可观测性与渐进发布，组织沟通推导康威式边界；AI 使这些判断与验证约束更加突出。^[inferred]
 
 - 解释生命应分别追踪材料、组织和持续过程，并区分维持、演化与起源。数量稳定不等于组织正常，复制不等于可演化，选择也不保证复杂性增加或认知必然出现。^[inferred]
 

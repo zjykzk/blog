@@ -1,0 +1,199 @@
+graph TD
+  SE["软件工程<br/>在变化中持续交付<br/>可验证、可演化的价值"]
+
+  F["第一性原理"]
+  F1["现实不确定<br/>持续变化"]
+  F2["认知有限<br/>知识隐性分散"]
+  F3["软件是<br/>可执行知识"]
+  F4["真实运行是<br/>最终验证"]
+  F5["沟通结构决定<br/>知识流动路径"]
+
+  G1["目标一<br/>成为学习专家"]
+  G2["目标二<br/>管理复杂性"]
+
+  K["知识与需求"]
+  K1["业务假设"]
+  K2["3C · 用户故事<br/>INVEST · 故事地图"]
+  K3["TQA · 统一语言<br/>概念字典"]
+  K4["SBE<br/>Given-When-Then"]
+
+  E["实验与反馈"]
+  E1["原型 · MVP"]
+  E2["迭代增量"]
+  E3["小批量"]
+  E4["限制WIP"]
+
+  P["过程模型<br/>按不确定性选择"]
+  P1["预测型<br/>瀑布 · V模型"]
+  P2["探索型<br/>原型 · RAD"]
+  P3["风险驱动<br/>螺旋 · RUP"]
+  P4["适应型<br/>敏捷 · Scrum · XP<br/>Kanban · Lean"]
+  P5["运行闭环<br/>DevOps · CD · SRE"]
+
+  A["架构与模块化"]
+  A1["抽象"]
+  A2["分解"]
+  A3["信息隐藏"]
+  A4["模块化"]
+  A5["单一知识来源"]
+
+  C["耦合平衡"]
+  C1["整合强度"]
+  C2["距离"]
+  C3["波动性"]
+  C4["高强度 + 近距离<br/>高内聚"]
+  C5["低强度 + 远距离<br/>松耦合"]
+  C6["DDD限界上下文<br/>契约 · 防腐层<br/>依赖倒置"]
+
+  V["演化性"]
+  V1["简单设计<br/>YAGNI"]
+  V2["持续重构"]
+  V3["技术债治理"]
+  V4["API兼容与弃用"]
+  V5["边界重平衡"]
+
+  Q["质量内建"]
+  Q1["TDD"]
+  Q2["测试金字塔<br/>契约测试"]
+  Q3["静态检查<br/>代码评审"]
+  Q4["主干开发 · CI"]
+  Q5["配置管理<br/>不可变制品"]
+
+  R["生产反馈"]
+  R1["持续交付"]
+  R2["特性开关 · 暗部署"]
+  R3["金丝雀 · 自动回滚"]
+  R4["日志 · 指标 · 追踪"]
+  R5["SLO · 错误预算<br/>DORA指标"]
+
+  O["组织与文化"]
+  O1["康威定律"]
+  O2["跨职能自治团队"]
+  O3["端到端责任"]
+  O4["逆康威演练"]
+  O5["生成型文化"]
+  O6["免责复盘 · 5 Whys<br/>自动化防护"]
+
+  AI["AI时代的知识工程"]
+  AI1["代码生成成本下降"]
+  AI2["瓶颈迁移到<br/>知识、边界、判断、验证"]
+  AI3["上下文工程<br/>中间知识"]
+  AI4["CoT模板<br/>RAG · Agent"]
+  AI5["编译 · 测试 · 评审<br/>生产反馈"]
+
+  SE -->|"受制于"| F
+  F --> F1
+  F --> F2
+  F --> F3
+  F --> F4
+  F --> F5
+
+  SE -->|"直接目标"| G1
+  SE -->|"直接目标"| G2
+
+  G1 -->|"通过外显知识"| K
+  G1 -->|"通过受控试错"| E
+  G1 -->|"通过选择反馈结构"| P
+  G1 -->|"从真实结果学习"| R
+  G1 -->|"沉淀组织知识"| O
+
+  G2 -->|"通过局部化"| A
+  G2 -->|"通过约束连接"| C
+  G2 -->|"通过持续整理"| V
+  G2 -->|"通过机器反馈"| Q
+
+  K --> K1
+  K --> K2
+  K --> K3
+  K --> K4
+
+  E --> E1
+  E --> E2
+  E --> E3
+  E --> E4
+
+  P --> P1
+  P --> P2
+  P --> P3
+  P --> P4
+  P --> P5
+
+  A --> A1
+  A --> A2
+  A --> A3
+  A --> A4
+  A --> A5
+
+  C --> C1
+  C --> C2
+  C --> C3
+  C1 --> C4
+  C2 --> C4
+  C3 --> C4
+  C1 --> C5
+  C2 --> C5
+  C3 --> C5
+  C4 --> C6
+  C5 --> C6
+
+  V --> V1
+  V --> V2
+  V --> V3
+  V --> V4
+  V --> V5
+
+  Q --> Q1
+  Q --> Q2
+  Q --> Q3
+  Q --> Q4
+  Q --> Q5
+
+  R --> R1
+  R --> R2
+  R --> R3
+  R --> R4
+  R --> R5
+
+  O --> O1
+  O --> O2
+  O --> O3
+  O --> O4
+  O --> O5
+  O --> O6
+
+  AI --> AI1
+  AI1 --> AI2
+  AI2 --> AI3
+  AI2 --> AI4
+  AI2 --> AI5
+
+  K -. "提供领域语义" .-> C6
+  K4 -. "成为可执行规范" .-> Q2
+  E3 -. "支持高频集成" .-> Q4
+  P5 -. "扩展到生产" .-> R
+  C6 -. "限制变化传播" .-> V
+  Q -. "提供预生产信心" .-> R
+  R -. "产生新证据" .-> K1
+  O1 -. "塑造系统边界" .-> A
+
+  SE -->|"成本结构发生变化"| AI
+  AI3 -. "增强知识外显" .-> K
+  AI5 -. "不能替代" .-> Q
+  AI5 -. "最终依赖" .-> R
+
+  classDef center fill:#DCFCE7,stroke:#15803D,color:#052E16,stroke-width:4px;
+  classDef foundation fill:#F3E8FF,stroke:#7E22CE,color:#3B0764,stroke-width:2px;
+  classDef goal fill:#D1FAE5,stroke:#047857,color:#064E3B,stroke-width:3px;
+  classDef knowledge fill:#E0F2FE,stroke:#0369A1,color:#082F49,stroke-width:2px;
+  classDef architecture fill:#FFF4D6,stroke:#B7791F,color:#4A2C0A,stroke-width:2px;
+  classDef quality fill:#FFE4E6,stroke:#BE123C,color:#4C0519,stroke-width:2px;
+  classDef organization fill:#CCFBF1,stroke:#0F766E,color:#042F2E,stroke-width:2px;
+  classDef ai fill:#FCE7F3,stroke:#BE185D,color:#500724,stroke-width:2px;
+  class SE center;
+  class F,F1,F2,F3,F4,F5 foundation;
+  class G1,G2 goal;
+  class K,K1,K2,K3,K4,E,E1,E2,E3,E4,P,P1,P2,P3,P4,P5 knowledge;
+  class A,A1,A2,A3,A4,A5,C,C1,C2,C3,C4,C5,C6,V,V1,V2,V3,V4,V5 architecture;
+  class Q,Q1,Q2,Q3,Q4,Q5,R,R1,R2,R3,R4,R5 quality;
+  class O,O1,O2,O3,O4,O5,O6 organization;
+  class AI,AI1,AI2,AI3,AI4,AI5 ai;

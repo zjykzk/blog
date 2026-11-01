@@ -1,0 +1,56 @@
+graph TD
+    C["结论：软件工程是在持续变化与有限认知中<br/>把现实目标转化为可托付、可演化的软件能力"]
+    PH["问题链：代码能运行，系统仍可能失败"]
+    P1["现实目标、资源与社会约束"] --> P2["意图不完整｜环境持续变化"]
+    P2 --> P3["规格不确定｜成功标准含混"]
+    P3 --> P4["认知差异｜协作与知识传递失真"]
+    P4 --> P5["结构复杂｜依赖与耦合扩散"]
+    P5 --> P6["构造缺陷｜复用与组合风险"]
+    P6 --> P7["证据有限｜生成速度超过验证速度"]
+    P7 --> P8["部署运行偏差｜故障跨边界传播"]
+    P8 --> P9["长期演化、知识流失｜社会后果与责任累积"]
+
+    SH["解决方案链：建立学习、构造、验证与治理闭环"]
+    S1["定义价值、利益相关者、质量属性与责任边界"] --> S2["需求协商｜可验证规格与验收条件"]
+    S2 --> S3["多视图建模、DDD｜显化知识与假设"]
+    S3 --> S4["模块化、信息隐藏｜边界、接口与契约"]
+    S4 --> S5["小批量构造｜评审与复用治理"]
+    S5 --> S6["分层验证｜独立证据与双向追踪"]
+    S6 --> S7["配置管理、CI/CD、灰度｜可观测、隔离与恢复"]
+    S7 --> S8["维护、重构、版本追踪｜保存设计理由与知识"]
+    S8 --> S9["风险、安全、质量治理｜职业与公共责任"]
+
+    B["横向基座：Quality Focus → Process → Methods → Tools"]
+
+    C --> PH --> P1
+    P9 --> SH --> S1
+
+    P1 -. "界定价值" .-> S1
+    P3 -. "把含混变成承诺" .-> S2
+    P4 -. "外化共同理解" .-> S3
+    P5 -. "局部化变化" .-> S4
+    P6 -. "缩小批次并审查" .-> S5
+    P7 -. "逐层积累可信证据" .-> S6
+    P8 -. "限制传播并回拉" .-> S7
+    P9 -. "持续演化与负责" .-> S8
+    P9 -. "约束现实后果" .-> S9
+
+    B --> S1
+    B --> S4
+    B --> S6
+    B --> S9
+
+    S7 == "运行反馈" ==> P2
+    S8 == "演化反馈" ==> P3
+    S9 == "治理反馈" ==> P1
+
+    classDef conclusion fill:#1f2937,stroke:#111827,color:#ffffff,stroke-width:3px;
+    classDef heading fill:#fef3c7,stroke:#d97706,color:#78350f,stroke-width:3px;
+    classDef problem fill:#fee2e2,stroke:#dc2626,color:#7f1d1d,stroke-width:2px;
+    classDef solution fill:#dcfce7,stroke:#16a34a,color:#14532d,stroke-width:2px;
+    classDef base fill:#dbeafe,stroke:#2563eb,color:#1e3a8a,stroke-width:2px;
+    class C conclusion;
+    class PH,SH heading;
+    class P1,P2,P3,P4,P5,P6,P7,P8,P9 problem;
+    class S1,S2,S3,S4,S5,S6,S7,S8,S9 solution;
+    class B base;

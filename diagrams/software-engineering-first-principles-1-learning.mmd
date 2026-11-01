@@ -1,0 +1,65 @@
+graph LR
+  A["第一性原理<br/>从不可消除的事实出发"]
+
+  A1["现实约束<br/>现实持续变化<br/>且不可完全预测"]
+  A2["认知约束<br/>人的认知有限<br/>知识隐性、分散且会犯错"]
+  A3["软件约束<br/>软件是可执行知识<br/>复制便宜，交互会放大复杂度"]
+  A4["验证约束<br/>价值与正确性最终只能<br/>在真实运行中验证"]
+  A5["组织约束<br/>知识和决策只能沿<br/>组织沟通路径流动"]
+
+  B1["问题1<br/>项目早期拥有的知识最少<br/>还存在未知的未知"]
+  B2["结果<br/>无法在开始时获得<br/>完整、正确的需求"]
+  B3["推导<br/>软件开发不是按图生产<br/>而是持续学习"]
+  B4["目标<br/>把模糊愿望转成<br/>可证伪的业务假设"]
+
+  P1["协作提取知识<br/>3C · 用户故事 · INVEST<br/>用户故事地图 · TQA"]
+  P2["显性化共同模型<br/>统一语言 · 概念字典<br/>SBE · Given-When-Then"]
+
+  C1["问题2<br/>假设只有运行后才能验证<br/>一次性交付使反馈太晚、返工太贵"]
+  C2["推导<br/>构造最小可运行增量<br/>缩短学习周期"]
+  C3["共同底座<br/>迭代增量 · 小批量<br/>限制WIP"]
+
+  M1["高确定性<br/>瀑布模型 · V模型"]
+  M2["先看见再理解<br/>原型模型 · RAD"]
+  M3["高技术／架构风险<br/>螺旋模型 · RUP"]
+  M4["高业务不确定性<br/>敏捷 · Scrum · XP<br/>Kanban · Lean"]
+  M5["持续生产反馈<br/>DevOps · 持续交付 · SRE"]
+  Z["继续到图2<br/>持续增量扩大系统规模<br/>引出复杂性问题"]
+
+  A --> A1
+  A --> A2
+  A --> A3
+  A --> A4
+  A --> A5
+  A1 --> B1
+  A2 --> B1
+  A3 --> B1
+  A4 --> B1
+  A5 --> B1
+  B1 --> B2 --> B3 --> B4
+  B4 --> P1
+  B4 --> P2
+  P1 --> C1
+  P2 --> C1
+  C1 --> C2 --> C3
+  C3 --> M1
+  C3 --> M2
+  C3 --> M3
+  C3 --> M4
+  C3 --> M5
+  M1 --> Z
+  M2 --> Z
+  M3 --> Z
+  M4 --> Z
+  M5 --> Z
+
+  classDef axiom fill:#F3E8FF,stroke:#7E22CE,color:#3B0764,stroke-width:2px;
+  classDef problem fill:#FFE4E6,stroke:#BE123C,color:#4C0519,stroke-width:2px;
+  classDef inference fill:#E0F2FE,stroke:#0369A1,color:#082F49,stroke-width:2px;
+  classDef model fill:#FFF4D6,stroke:#B7791F,color:#4A2C0A,stroke-width:2px;
+  classDef next fill:#DCFCE7,stroke:#15803D,color:#052E16,stroke-width:3px;
+  class A,A1,A2,A3,A4,A5 axiom;
+  class B1,B2,C1 problem;
+  class B3,B4,P1,P2,C2,C3 inference;
+  class M1,M2,M3,M4,M5 model;
+  class Z next;
