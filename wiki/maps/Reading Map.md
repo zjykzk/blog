@@ -14,7 +14,7 @@ base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-10-10T14:37:15+0800
+updated: 2026-11-01T19:54:56+0800
 aliases:
   - 读书地图
 tags:
@@ -63,6 +63,7 @@ tags:
 
 ## Current source guides
 
+- [[wiki/sources/Life as a State of Matter Source Guide|生命是一种物态吗]] — 生命起源的四维导读：概念结构、假设、推理流程、变化机制；区分原文摘录、动态稳定补充理论与待验证推演。
 - [[wiki/sources/AI Evals FAQ Source Guide|AI Evals FAQ]] — 产品评估不是一组静态分数，而是从真实失败中生成标准、验证评估器并持续改写产品的反馈过程。
 - [[wiki/sources/Prospects for an Engineering Discipline of Software Source Guide|软件成为工程学科的前景]] — 土木与化工的历史对照、软件知识编纂循环，以及普通专业者如何取得可靠设计能力。
 - [[wiki/sources/On the Nature of Time Source Guide|On the Nature of Time]] — Wolfram 的计算时间观：从计算不可约性和有限观察者到时间箭头、多路历史与 Ruliad，保留模型主张与论证边界。

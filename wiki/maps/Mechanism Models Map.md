@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-10-10T14:37:15+0800
+updated: 2026-11-01T19:54:56+0800
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -52,7 +52,8 @@ aliases:
 
 - [[wiki/concepts/Existence Desire and Problem Cycles|存在、需要、欲望与问题循环]]：区分生命维持、自我调节与欲望体验，并检查身体消耗、目标变化、行动后果怎样使问题再次出现。
 - [[wiki/concepts/System]]：系统不是一堆部件，而是一组关系在边界和时间中反复生成整体行为。
-- [[wiki/concepts/Life as Dissipative Information Structure|生命作为耗散信息结构]]：生命不是违反熵增的有序，而是开放系统利用环境自由能维持局部低熵结构、并把信息带噪复制给下一代，靠差异性复制成功率被选择而累积复杂性。
+- [[wiki/concepts/Life as Dissipative Information Structure|生命作为耗散信息结构]]：连接非平衡供能、动态稳定、信息复制与选择，区分组织维持、演化与起源；选择改变后继组成，不保证复杂性持续增加。
+- [[wiki/sources/Life as a State of Matter Source Guide|生命是一种物态吗]]：从晶体与胚胎、耗散结构与生命的区别，推进到动态动力学稳定和复制的候选机制，保留物态分类与充分解释的边界。
 - [[wiki/concepts/Arrow of Time|时间箭头]]：微观定律时间反演对称，宏观的“过去→未来”方向来自低熵初始条件（Past Hypothesis）、统计规律与粗粒化——不可逆性是概率压倒而非微观定律的属性。
 - [[wiki/sources/On the Nature of Time Source Guide|Wolfram 的计算时间观]]：以不可约计算与有限观察者解释时间展开，并区分时间方向、单一历史与共同现实分别需要的条件。
 - [[wiki/concepts/Universality of Physical Law|物理定律普适性]]：定律处处适用不是被证明的定理，而是每天被观测检验、至今未被证伪的经验假设；可逐层还原为对称（诺特：对称↔守恒）=无差别=不可分辨=自我同一（A=A）。

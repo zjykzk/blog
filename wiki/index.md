@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-10-29T22:04:49+0800
+updated: 2026-11-01T19:54:56+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -116,7 +116,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Long-Running Agent Harness|Long-Running Agent Harness]] — 把跨多个上下文窗口的长任务拆成初始化角色（把大任务钉成可测任务清单+搭环境）与执行角色（逐条增量推进、每轮把代码/清单/进度/git 留作可续接工件）；本质是把 agent 记忆外置到文件系统与 git。 (#agents #harness #memory #context #workflow)
 - [[wiki/concepts/Political Left and Right|政治光谱：左派与右派]] — 左派/右派不是固定立场，而是相对于“现存秩序”的态度与“平等 vs 自由/秩序”的排序；参照系不同标签会颠倒，中国语境与西方几乎镜像。 (#politics #thinking #systems #judgment)
 - [[wiki/concepts/Institution as Consequence Structure|制度作为后果结构]] — 制度是被共同承认并可稳定维持的行为规则与后果结构；奖惩决定做不做，资格决定谁能做，程序决定怎样做才被承认。 ( #organization #management #systems #mechanism)
-- [[wiki/concepts/Life as Dissipative Information Structure|Life as Dissipative Information Structure]] — 生命不是“违反熵增的有序”，而是利用环境自由能维持低熵结构、并复制自身信息的非平衡系统；真正必需的不是“分子”，而是能稳定承载信息、可因果作用、处于非平衡态的物理自由度。 (#physics #systems #mechanism #cognition #learning)
+- [[wiki/concepts/Life as Dissipative Information Structure|Life as Dissipative Information Structure]] — 连接非平衡供能、动态组织维持、信息复制与选择；区分 DKS、亚稳态及生命起源，保留复制不充分和演化不必增加复杂性的边界。 (#physics #systems #mechanism #cognition #learning)
 - [[wiki/concepts/Entropy|Entropy]] — 熵最好理解为“一个宏观状态背后有多少种微观状态能实现它”，而不是“混乱程度”；熵增是概率/组合结果，热力学熵 S=k_B lnΩ 与信息熵 H=-Σp log p 背后是同一分布结构，等概率时 S=k_B H。 (#physics #systems #mechanism #reasoning #learning)
 - [[wiki/concepts/Arrow of Time|Arrow of Time]] — 微观定律时间反演对称，宏观却有“过去→未来”方向；时间箭头不来自微观定律，而来自低熵初始条件（Past Hypothesis）、统计规律与粗粒化。 (#physics #systems #mechanism #reasoning #cognition)
 - [[wiki/concepts/Universality of Physical Law|Universality of Physical Law]] — 物理定律处处适用不是被证明的定理，而是由跨方法预测、独立测量与理论继承不断检验的经验假设；对称性解释其结构，近似收敛解释物理学为何把它看作现实。 (#physics #systems #mechanism #reasoning #cognition)
@@ -357,6 +357,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
+- [[wiki/sources/Life as a State of Matter Source Guide|Life as a State of Matter Source Guide]] — 按概念结构、假设、推理流程与变化机制拆解生命动态物质状态提议，区分原文可核对论证、DKS 补充理论与推演。 (#physics #systems #mechanism #reasoning #article)
 - [[wiki/sources/Writing for Agents Source Guide|Writing for Agents Source Guide]] — 用 SFAM 拆解 Agent 文档写作：两种负担、信息层级、完成条件、行为锚点、调用方式与修剪。 ( #agents #context #skills #workflow #harness)
 - [[wiki/sources/Retro Coding Agent Environment Source Guide|Retro Coding Agent Environment Source Guide]] — 用 SFAM 拆解编码会话的环境复盘：从真实证据发现缺口，并把问题路由到自动检查、Reviewer、导航指针或信息基础设施。 ( #agents #harness #ai-coding #feedback #workflow)
 - [[wiki/sources/Healthy Peer Feedback Source Guide|Healthy Peer Feedback Source Guide]] — Anuja Karnik 与 Sumeet Gayathri Moghe 的健康反馈指南：中文结构导读、完整英文正文及方法边界。 ( #article #management #organization #feedback)

@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近收录 AI 重构遗留系统：模型越能快速改代码，越要把隐式业务规则转成不变式、行为基线、决策记录与可回滚边界。
+summary: 最近收录生命作为动态物质状态的四维导读，并把动态稳定及演化边界补入生命概念。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-29T22:04:49+0800
+updated: 2026-11-01T19:54:56+0800
 ---
 
 ## Recent Activity
+
+- 2026-11-01T19:54:56+08:00 — 已收录 [[wiki/sources/Life as a State of Matter Source Guide|生命是一种物态吗]]：保留概念结构、假设、推理流程与变化机制，分别注明原文索引与转载、Pross 补充理论和分析推演；动态动力学稳定、复制不充分及演化不必增加复杂性的边界已补入 [[wiki/concepts/Life as Dissipative Information Structure]]。
 
 - 2026-10-29T22:04:49+08:00 — 已收录 [[wiki/sources/AI Refactoring Legacy Systems Source Guide|AI 重构遗留系统]]：区分实现规划与约束规划，说明隐式业务规则如何在测试全绿时被 AI 当作冗余删除，并将 brownfield 的当前行为、期望行为与合同级不变式边界补入 [[wiki/topics/Spec-Driven Development]] 和 [[wiki/concepts/Verification Gap]]。
 
@@ -36,6 +38,8 @@ updated: 2026-10-29T22:04:49+0800
 - 2026-10-10T19:36:48+08:00 — 已捕获 [[wiki/sources/Agent Benchmark Landscape Research Report Source Guide|Agent 评测集研究报告]]、[[wiki/topics/Rule Adjudication Agent Evaluation|规则裁决 Agent 评测]] 与 [[wiki/concepts/Confusion Matrix|混淆矩阵]]：从 42 来源 benchmark 地图收敛到规则适用性—事实—构成要件—例外—证据充分性的可审计裁决链，并用五类终局结论揭示漏报、误伤、错误拒判与过度裁决。
 
 ## Active Threads
+
+- 生命机制现在加入动态动力学稳定线索：组织或种群可在组分持续更新时延续，但耗散、复制和可演化性需要分别检验；维持成立不等于起源已解释，“生命物态”仍是研究框架。[[wiki/sources/Life as a State of Matter Source Guide]] 保留原文未取得全文的限制。^[inferred]
 
 - AI 遗留系统改造现在加入“约束规划”线索：[[wiki/sources/AI Refactoring Legacy Systems Source Guide|AI 重构遗留系统]]把规划从详细实现步骤转向不可破坏行为、变化证据、授权与退出机制；表征测试只证明“当前这样运行”，仍要结合合同、监管、下游依赖和历史决策区分期望行为与真正不变式。^[inferred]
 
@@ -226,6 +230,8 @@ updated: 2026-10-29T22:04:49+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 解释生命应分别追踪材料、组织和持续过程，并区分维持、演化与起源。数量稳定不等于组织正常，复制不等于可演化，选择也不保证复杂性增加或认知必然出现。^[inferred]
 
 - AI 可以减少详细实现规划，却不会消除约束发现：遗留系统安全重构需要先把隐式业务规则转成不变式、行为基线与决策证据，再用增量迁移、灰度和回滚把大改写变成可逆实验；当前行为不自动等于正确行为。^[inferred]
 
