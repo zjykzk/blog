@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-11-01T19:54:56+0800
+updated: 2026-11-01T22:57:50+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -235,6 +235,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Knowledge as Network|Knowledge as Network]] — 知识没有全局层级，只有局部的序。看起来像金字塔，其实是张网。
 - [[wiki/concepts/Knowledge Formalization Gradient|Knowledge Formalization Gradient]] — 知识的形式化梯度描述知识从生活经验、日常语言、概念方法和领域理论逐步走向形式模型、数学与逻辑的抽象路径。 (#thinking #cognition #learning #reasoning #systems)
 - [[wiki/concepts/Knowledge Types|Knowledge Types]] — 知识类型按知识在人脑和行动中的功能划分；布卢姆分类则描述对知识的掌握深度。 (#cognition #learning #concepts #taxonomy)
+- [[wiki/concepts/Tacit Knowledge|Tacit Knowledge]] — 默会知识是人能在实践中识别、判断或行动，却无法在当前条件下一次性完整表达和转移的知识；它依赖情境、身体、模式与共同体。 ( #knowledge #cognition #learning #practice #judgment)
+- [[wiki/concepts/Software Engineering as Knowledge Discovery|Software Engineering as Knowledge Discovery]] — 软件开发把未知问题与业务判断逐步转成可执行、可检验的知识；外部变化会加速模型失效，但未知本身已足以要求持续学习。 ( #software-engineering #learning #cognition #knowledge #feedback)
 - [[wiki/concepts/KV Cache|KV Cache]] — KV cache stores transformer key/value tensors so repeated prefixes or generated histories do not need full attention recomputation. (#llm #inference #caching)
 - [[wiki/concepts/Leverage Points|Leverage Points]] — 杠杆点是系统里“改一点，结果却变很多”的位置。
 - [[wiki/concepts/Law of Unintended Consequences]] — The Law of Unintended Consequences warns that interventions in complex systems can create benefits, side effects, or perverse results not predicted by the original plan. (#software-engineering #systems #complexity #feedback)
@@ -358,6 +360,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 
 ## Sources
 - [[wiki/sources/Life as a State of Matter Source Guide|Life as a State of Matter Source Guide]] — 按概念结构、假设、推理流程与变化机制拆解生命动态物质状态提议，区分原文可核对论证、DKS 补充理论与推演。 (#physics #systems #mechanism #reasoning #article)
+- [[wiki/sources/Business Modeling and DDD NotebookLM Practice Map Source Guide|Business Modeling and DDD NotebookLM Practice Map Source Guide]] — 把 NotebookLM 资料中的 36 项实践按业务建模、战略 DDD、战术 DDD、架构、组织交付和对象设计六层映射到它们直接解决的问题。 ( #software-engineering #requirements #architecture #organization)
 - [[wiki/sources/Writing for Agents Source Guide|Writing for Agents Source Guide]] — 用 SFAM 拆解 Agent 文档写作：两种负担、信息层级、完成条件、行为锚点、调用方式与修剪。 ( #agents #context #skills #workflow #harness)
 - [[wiki/sources/Retro Coding Agent Environment Source Guide|Retro Coding Agent Environment Source Guide]] — 用 SFAM 拆解编码会话的环境复盘：从真实证据发现缺口，并把问题路由到自动检查、Reviewer、导航指针或信息基础设施。 ( #agents #harness #ai-coding #feedback #workflow)
 - [[wiki/sources/Healthy Peer Feedback Source Guide|Healthy Peer Feedback Source Guide]] — Anuja Karnik 与 Sumeet Gayathri Moghe 的健康反馈指南：中文结构导读、完整英文正文及方法边界。 ( #article #management #organization #feedback)
@@ -492,6 +495,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/人力资本 信号筛选和社交资本 Source Guide|人力资本、信号筛选和社交资本 Source Guide]] — 这页保存一篇中文文章对学校教育三种功能的说明：人力资本、信号筛选和社交资本，并区分小学、初中、高中和大学的功能重心。 (#article #learning #cognition #education #judgment)
 - [[wiki/sources/自主支持 献祭式教育终结者 Source Guide|自主支持：献祭式教育终结者 Source Guide]] — 这页保存一篇中文文章对自主支持型养育、心理控制、过度养育、边际效益递减和父母渐进退出机制的说明。 (#article #learning #cognition #education #psychology)
 - [[wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide|默会知识：AI 永远都不可能替代的技能 Source Guide]] — 这页保存一篇中文文章对默会知识、现场内居、AI 可训练边界，以及个人在 AI 时代如何积累新默会的说明。 (#article #learning #cognition #agents #skills)
+- [[wiki/sources/软件工程为何必须成为学习专家 Source Guide|软件工程为何必须成为学习专家 Source Guide]] — 保存一段中文论证：外部变化只是学习失效的加速器，先验未知、默会知识与软件的知识媒介属性才构成软件工程持续学习的认识论根因。 ( #software-engineering #learning #cognition #knowledge #methods)
 - [[wiki/sources/刻意练习 天赋的作用究竟是什么 Source Guide|刻意练习：天赋的作用究竟是什么 Source Guide]] — 这页保存一篇中文文章对刻意练习、天赋、专家表现、风格形成和成长路径的说明：练习是误差压缩，天赋是敏感度与可塑性。 (#article #learning #cognition #education #thinking)
 - [[wiki/sources/拥抱和桥接 知识迁移 Source Guide|拥抱和桥接：知识迁移 Source Guide]] — 这页保存一篇中文课程材料对知识迁移、惰性知识、低路/高路迁移，以及拥抱与桥接教学策略的说明。 (#article #learning #cognition #education #thinking)
 - [[wiki/sources/The ICAP Framework Paper Source Guide|The ICAP Framework Paper Source Guide]] — Chi 与 Wylie 2014 原论文 source guide，保留 ICAP 四模式、知识变化过程、实证验证、限制条件和与建构主义/认知负荷/Bloom 的比较。 (#paper #learning #cognition #education)
@@ -519,6 +523,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Managed Agents Source Guide|Managed Agents Source Guide]] — 这篇 Anthropic engineering article 更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#agents #harness #anthropic)
 - [[wiki/sources/Memory Is State Not a Service Source Guide|Memory Is State Not a Service Source Guide]] — Source guide for NanoThoughts' Company Brain article arguing that memory must be shared inspectable state, not isolated tool-local memory services. (#article #agents #memory #organization)
 - [[wiki/sources/Meta-Harness Paper Source Guide|Meta-Harness Paper Source Guide]] — Source guide for the Meta-Harness paper, focused on automated search over executable model harnesses using full filesystem access to code, scores, and traces. (#paper #arxiv #agents #harness)
+- [[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide|Harness² Recursive Agent Harnessing Paper Source Guide]] — 无标准答案时，用任务内 Propose–Probe–Compose 改进 harness，并把有行为证据支持的 harness、脚本与经验递归到后续任务。 (#paper #arxiv #agents #harness #optimization)
 - [[wiki/sources/Mobu Notes|Mobu Notes Source Guide]] — mobu/ 目前是个人知识与领域素材的大池子，适合作为 raw/domain input 层，而不是直接作为稳定 wiki 层。 (#mobu #raw)
 - [[wiki/sources/Narrative as First Principle Source Guide|Narrative as First Principle Source Guide]] — 这页导览一篇把叙事视为事实、物理、意识、意义、协作与行动之间接口的世界观文章。 (#thinking #worldview #cognition #coordination)
 - [[wiki/sources/内核 你的三个自我 Source Guide|内核：你的三个自我 Source Guide]] — 这页导览《内核：你的三个自我》：人成长的关键不是改情绪或人设，而是通过训练样本、奖励函数和反馈改写内核自我。 (#article #cognition #learning #thinking #llm)

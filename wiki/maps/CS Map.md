@@ -16,15 +16,16 @@ sources:
   - https://x.com/AndrewYNg/article/2090840747738374568
   - https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7514210769282994176-fOyn
   - https://blog.alexewerlof.com/p/coding-is-not-solved
-  - https://mp.weixin.qq.com/s/-krMZiLCBJ25NFJk9tlcAg
   - https://x.com/karpathy/status/2109361546505966046
+  - https://arxiv.org/abs/2610.14224
+  - https://mp.weixin.qq.com/s/-krMZiLCBJ25NFJk9tlcAg
   - https://raw.githubusercontent.com/mattpocock/skills/refs/heads/main/skills/engineering/retro/SKILL.md
 created: 2026-04-21
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 18
-updated: 2026-11-01T22:54:18+0800
+source_count: 19
+updated: 2026-11-01T22:57:50+0800
 aliases:
   - Computer Science Map
 tags:
@@ -103,6 +104,8 @@ tags:
 - [[wiki/topics/Problem Framing]]
 - [[wiki/topics/Spec-Driven Development]]
 - [[wiki/topics/Modern Software Engineering]] — 以 Pressman 与 Sommerville 的经典骨架为主干，把价值、规格、构造、证据、演化、治理，以及学习、复杂性、可信赖性、组织责任与 AI 成本迁移组织成统一工程闭环。
+- [[wiki/concepts/Software Engineering as Knowledge Discovery]] — 区分先验未知、默会知识与外部变化，解释开发为何要用实例、原型、测试和生产证据持续修正模型。
+- [[wiki/concepts/Tacit Knowledge]] — 解释无法一次性完整写进文档的情境判断、模式识别、具身技能与团队默契。
 - [[wiki/topics/Software Development Thought Lineage]]
 - [[wiki/concepts/Agent Loop Human Judgment Positions]] — AI coding loop 中人应保留的工程判断位置：价值、边界、否决、硬门禁、状态、人工入口、理解校准和循环修正。
 - [[wiki/concepts/Engineering Work Three Joys]] — 工程工作的创造感、理解感和重要感在 Agent 时代发生不同迁移；识别 Agent 答案不能替代独立生成方案。
@@ -130,9 +133,11 @@ tags:
 - [[wiki/sources/Retro Coding Agent Environment Source Guide]] — 把编码会话中的错误和摩擦转成自动检查、Reviewer 标准、导航指针或信息访问改进。
 - [[wiki/sources/Anti-Patterns in Software Blogging Source Guide|软件博客反模式]] — 用开头绕远、知识假设、链接/续篇依赖、过度正式和 HTML 可读性说明技术文章如何把不必要的理解与操作成本转嫁给读者。
 - [[wiki/sources/Prospects for an Engineering Discipline of Software Source Guide|软件成为工程学科的前景]] — Mary Shaw（1990）：从工艺、商业生产到专业工程，解释经验编纂、科学分析与常规设计如何结合。
+- [[wiki/sources/软件工程为何必须成为学习专家 Source Guide]] — 区分变化这一加速器与先验未知、默会知识、可执行知识媒介这些学习根因，并保留 Armour、Farley 等归属待一手核验的边界。
 - [[wiki/sources/AI Engineering Skills Map Source Guide]] — 代码执行被 Agent 放大后，软件工程基础承担约束与取舍，产品塑造和验证治理成为新的责任重心。
 - [[wiki/sources/Building and Deploying AI Applications Source Guide]] — AI 系统开发由固定实现计划转向根据 traces、eval 与生产反馈选择下一项模型、数据或架构干预。
 - [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] — 用探索策略改进程序发现的质量与调用量，在 Lasso 和 GPU 优化中区分发现成本、程序性能及逐项回退。
+- [[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide|Harness² Paper Source Guide]] — 把 harness 视为可执行软件配置：用 matched runs 评估修改，把 diff、trace、采用理由和适用条件一起保存，并把行为证据与正确性验证分开。
 
 - [[wiki/sources/The Art of Doing Science and Engineering Source Guide]] — 汉明关于思维风格、系统工程、度量和重要问题的工程职业 source guide。
 - [[wiki/sources/Kimball Dimensional Modeling Techniques Source Guide]] — Kimball Group 2013 technique catalog: four-step design process, grain, fact/dimension patterns, conformed dimensions, SCD types, hierarchy handling, and special schemas.

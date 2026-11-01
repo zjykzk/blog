@@ -1,9 +1,9 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 74,
-    "total_pages": 522,
-    "last_updated": "2026-10-11T23:28:02+08:00"
+    "total_sources_ingested": 75,
+    "total_pages": 525,
+    "last_updated": "2026-11-01T22:57:50+0800"
   },
   "sources": {
     "chatgpt-share:6a8bbaa9-dbb0-83ee-ad09-a81c039ed1a2": {
@@ -1628,6 +1628,31 @@
         "wiki/concepts/Feedback Loops.md",
         "wiki/sources/高难度沟通 Source Guide.md",
         "wiki/maps/Management Map.md"
+      ]
+    },
+    "inline:software-engineering-learning-imperative-2026-11-01": {
+      "ingested_at": "2026-11-01T22:57:50+0800",
+      "size_bytes": 4917,
+      "modified_at": "2026-11-01T22:57:50+0800",
+      "content_hash": "sha256:e97adb33198073822f94df7e480d6b0c43a1afcb28ba9098d607f8e03a30c016",
+      "hash_basis": "exact preserved inline UTF-8 text",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "wiki/sources/软件工程为何必须成为学习专家 Source Guide.md",
+        "wiki/concepts/Software Engineering as Knowledge Discovery.md",
+        "wiki/concepts/Tacit Knowledge.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/Modern Software Engineering.md",
+        "wiki/concepts/Knowledge Types.md",
+        "wiki/concepts/Cynefin Framework.md",
+        "wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide.md",
+        "wiki/maps/CS Map.md",
+        "wiki/maps/Learning Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
       ]
     }
   },

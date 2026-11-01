@@ -11,17 +11,18 @@ tags:
   - taxonomy
 sources:
   - conversation:2026-05-06
+  - inline:software-engineering-learning-imperative-2026-11-01
 created: 2026-05-06T21:35:29+08:00
-updated: 2026-09-09T21:39:46+0800
+updated: 2026-11-01T22:57:50+0800
 aliases:
   - 知识类型
   - 知识分类
   - knowledge taxonomy
 provenance:
-  extracted: 0.78
-  inferred: 0.22
+  extracted: 0.76
+  inferred: 0.24
   ambiguous: 0.00
-base_confidence: 0.42
+base_confidence: 0.53
 lifecycle: draft
 lifecycle_changed: 2026-05-06
 ---
@@ -94,6 +95,12 @@ lifecycle_changed: 2026-05-06
 
 这与 [[wiki/concepts/Concept]] 相连：概念的核心作用是制造边界、压缩经验、支持预测和行动。也与 [[wiki/concepts/Understanding]] 相连：理解不是拥有一句定义，而是让概念云能横向连接相似结构、纵向穿梭抽象层级。^[inferred]
 
+## Tacit and Explicit Are a Different Axis
+
+事实、概念、程序、因果、模式、判断、情境和元知识按**功能**分类；[[wiki/concepts/Tacit Knowledge|默会知识]]与显性知识则按**可表达与可转移程度**分类。两条轴不能合并。^[inferred]
+
+同一种功能知识可以同时具有显性层与默会层。例如，程序知识可以写成步骤，也可以包含难以写清的手感；判断知识可以写成规则，也可以依赖专家对弱信号、例外和责任的情境整合。软件工程中的共同建模、实例、测试和评审，正是在不断移动这条边界，而不是一次性消灭默会层。^[inferred]
+
 ## Relation to Bloom's Taxonomy
 
 知识类型和布卢姆分类属于两个维度。
@@ -134,6 +141,8 @@ lifecycle_changed: 2026-05-06
 - [[wiki/concepts/Concept]]
 - [[wiki/concepts/Understanding]]
 - [[wiki/concepts/Knowledge as Network]]
+- [[wiki/concepts/Tacit Knowledge]]
+- [[wiki/concepts/Software Engineering as Knowledge Discovery]]
 - [[wiki/topics/Learning Methodology]]
 - [[wiki/topics/Categorical Thinking]]
 - [[wiki/syntheses/Agent Knowledge Architecture]] — 把面向人类认知的知识类型进一步投射到 Agent 的检索、状态、Skill、工具、Policy 与 Harness 运行层。

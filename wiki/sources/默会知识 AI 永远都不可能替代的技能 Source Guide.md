@@ -8,7 +8,7 @@ tags: [article, learning, cognition, agents, skills]
 sources:
   - conversation:2026-05-23
 created: 2026-05-23T01:58:00+08:00
-updated: 2026-05-23T01:58:00+08:00
+updated: 2026-11-01T22:57:50+0800
 summary: >-
   这页保存一篇中文文章对默会知识、现场内居、AI 可训练边界，以及个人在 AI 时代如何积累新默会的说明。
 provenance:
@@ -159,10 +159,9 @@ Polanyi 常举的人脸识别，已经被 AI 攻克。机器人可以学习骑�
 
 这篇文章应保留为 source guide，而不是直接覆盖或新建一个宽泛的“默会知识”概念页。原因是它不仅定义 Tacit Knowledge，还包含“同事.skill”的 AI 时代情境、Polanyi/Ryle/Collins/具身认知引用链、学习方法和个人竞争力建议。
 
-稳定概念层可以后续再提炼两条：
+稳定概念层现在已经提炼出 [[wiki/concepts/Tacit Knowledge]]，用于承接默会知识的定义、四类来源、参与式习得机制，以及它在软件工程和 AI 中的边界。
 
-- “默会知识”本身：与 [[wiki/concepts/Knowledge Types]]、[[wiki/topics/Learning Methodology]]、[[wiki/syntheses/Knowledge System Construction]] 连接。
-- “AI 时代的新默会”：与 [[wiki/concepts/Specific Knowledge]]、[[wiki/concepts/Agent Skill]]、[[wiki/concepts/Encoding Team Standards]] 和 [[wiki/syntheses/AI 时代开发岗位分层与协作]] 连接。
+“AI 时代的新默会”仍保留为后续综合方向：它可连接 [[wiki/concepts/Specific Knowledge]]、[[wiki/concepts/Agent Skill]]、[[wiki/concepts/Encoding Team Standards]] 和 [[wiki/syntheses/AI 时代开发岗位分层与协作]]。
 
 文章中“AI 已经在吃掉默会知识外圈”的判断应保持 source-level。它有方向性价值，但原文没有给出可验证的系统性证据来界定哪些默会知识已经被自动化、哪些尚不能自动化。
 
@@ -176,6 +175,8 @@ Polanyi 常举的人脸识别，已经被 AI 攻克。机器人可以学习骑�
 
 ## Related
 
+- [[wiki/concepts/Tacit Knowledge]]
+- [[wiki/concepts/Software Engineering as Knowledge Discovery]]
 - [[wiki/topics/Learning Methodology]]
 - [[wiki/concepts/Knowledge Types]]
 - [[wiki/syntheses/Knowledge System Construction]]

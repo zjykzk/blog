@@ -19,16 +19,22 @@ sources:
   - conversation:2026-11-01
   - /Users/zenk/Downloads/Software Engineering A Practitioners Approach.epub
   - /Users/zenk/Downloads/Software engineering.pdf
+  - inline:software-engineering-learning-imperative-2026-11-01
+relationships:
+  - target: "[[wiki/concepts/Software Engineering as Knowledge Discovery]]"
+    type: uses
+  - target: "[[wiki/concepts/Tacit Knowledge]]"
+    type: uses
 created: 2026-04-21
-base_confidence: 0.55
+base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 provenance:
-  extracted: 0.78
-  inferred: 0.22
-  ambiguous: 0.00
-source_count: 8
-updated: 2026-11-01T22:54:18+0800
+  extracted: 0.76
+  inferred: 0.21
+  ambiguous: 0.03
+source_count: 13
+updated: 2026-11-01T22:57:50+0800
 aliases:
   - 软件工程
   - modern software engineering
@@ -194,6 +200,20 @@ Modern software engineering practices can be derived from five constraints rathe
 
 These constraints converge on two direct goals: become expert at learning and manage complexity. Learning discovers and corrects knowledge; complexity management keeps the resulting changes understandable, testable, deployable, and reversible. Each goal enables the other: learning creates change, change creates complexity, and modularity lowers the cost of the next learning cycle. ^[inferred]
 
+### Why learning remains necessary without external change
+
+[[wiki/concepts/Software Engineering as Knowledge Discovery]] sharpens the causal argument by separating three sources of uncertainty:
+
+- **Epistemic unknowns:** the team does not initially know every rule, interaction, failure mode, or value trade-off. Some omissions only become visible when it builds, tests, or operates a system.
+- **Tacit and distributed knowledge:** [[wiki/concepts/Tacit Knowledge|business and engineering judgment]] is spread across people, practices, histories, and embodied pattern recognition; a static document cannot transfer all of it in one pass.
+- **External change:** markets, users, organizations, dependencies, and platforms invalidate knowledge that was previously adequate.
+
+External change accelerates model decay, but the first two conditions already make learning necessary even in a hypothetically frozen environment. Development therefore uses dialogue, examples, prototypes, slices, tests, and runtime evidence not only to react to change, but to discover what was missing from the initial model. ^[inferred]
+
+The source discussion connects this claim to Armour's orders of ignorance, software as a knowledge medium, and Farley's “become experts at learning” formulation. Those exact terms and attributions have not yet been checked against the primary books, so they remain source-level claims in [[wiki/sources/软件工程为何必须成为学习专家 Source Guide]]. ^[ambiguous]
+
+This clarification does not make software engineering synonymous with learning. Learning remains one loop inside the broader value, specification, construction, evidence, evolution, and governance system described above. ^[inferred]
+
 ### From uncertainty to executable knowledge
 
 Unknowns and tacit business knowledge make complete upfront requirements impossible. [[wiki/topics/User Stories]], 3C, INVEST, story mapping, TQA, ubiquitous language, concept dictionaries, and specification by example externalize partial understanding so it can be discussed and contradicted.
@@ -261,6 +281,9 @@ The problem-chain map starts from real goals, incomplete intent, specification u
 - [[wiki/concepts/AI Collaboration Scaffolding]]
 - [[wiki/concepts/Encoding Team Standards]]
 - [[wiki/concepts/Feedback Flywheel]]
+- [[wiki/concepts/Software Engineering as Knowledge Discovery]]
+- [[wiki/concepts/Tacit Knowledge]]
+- [[wiki/sources/软件工程为何必须成为学习专家 Source Guide]]
 - [[wiki/concepts/Vibe Coding]]
 - [[wiki/concepts/Verification Gap]]
 - [[wiki/concepts/Judgment Externalization]]

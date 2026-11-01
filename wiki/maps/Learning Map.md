@@ -15,7 +15,7 @@ created: 2026-04-26
 base_confidence: 0.32
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-11T17:48:16+08:00
+updated: 2026-11-01T22:57:50+0800
 aliases:
   - 学习地图
 provenance:
@@ -36,6 +36,8 @@ provenance:
 - [[wiki/concepts/Cognition Three Channels]]——认识三根：接/替/想
 - [[wiki/concepts/Expression Three Channels]]——表达三根：编/载/解
 - [[wiki/concepts/Knowledge as Network]]——知识是网不是塔
+- [[wiki/concepts/Tacit Knowledge]]——人能实践却无法在当前媒介中一次性完整表达和转移的知识，依赖情境、模式、身体与共同体
+- [[wiki/concepts/Software Engineering as Knowledge Discovery]]——即使外部环境冻结，先验未知与默会知识仍要求通过实践、反馈和运行证据持续学习
 - [[wiki/concepts/Hierarchical Syntactic Structure]]——从线性词序恢复成分嵌套与依存关系，区分句法模型与神经实现。
 - [[wiki/concepts/Understanding]]——理解是由相似结构和抽象层级共同塑形的概念云
 - [[wiki/concepts/Application]]——让抽象知识在具体约束中产生效果
@@ -98,6 +100,7 @@ provenance:
 - [[wiki/sources/人力资本 信号筛选和社交资本 Source Guide]]——中文文章：把学校教育拆成人力资本、信号筛选和社交资本三种功能，并区分小学、初中、高中和大学的功能重心
 - [[wiki/sources/自主支持 献祭式教育终结者 Source Guide]]——中文文章：用自主支持、心理控制、过度养育和渐进退出解释为什么孩子不是父母作品
 - [[wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide]]——中文文章：把默会知识解释为现场内居、复杂模式识别、情境判断、集体默契和具身经验，并讨论 AI 时代的新默会积累
+- [[wiki/sources/软件工程为何必须成为学习专家 Source Guide]]——中文论证：外部变化只是加速器，先验未知、默会知识和可执行知识媒介才让学习成为软件工程的必要回路
 - [[wiki/sources/拥抱和桥接 知识迁移 Source Guide]]——中文课程材料：用拥抱建立近迁移的情境触发，用桥接把场景提纯成可复用心智模型
 - [[wiki/sources/刻意练习 天赋的作用究竟是什么 Source Guide]]——中文文章：把刻意练习解释为误差压缩技术，把天赋解释为敏感度、可塑性、奖励函数和环境选择能力
 - [[wiki/sources/How People Learn Transfer Source Guide]]——学习迁移与应用的外部来源

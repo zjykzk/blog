@@ -1,59 +1,43 @@
 ---
 title: Hot Cache
 category: meta
-summary: 现代软件工程主线已用 Pressman 与 Sommerville 全书重读校准：知识学习与风险控制分别是学习、治理回路，完整工程还必须覆盖价值、规格、构造、证据、演化和公共责任。
+summary: 软件工程学习主线已区分认识论根因与外部变化：先验未知、默会知识和可执行知识转换使持续学习在静态环境中也不可缺少。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-11-01T22:54:18+0800
+updated: 2026-11-01T22:57:50+0800
 ---
 
 ## Recent Activity
 
-- 2026-11-01T22:54:18+08:00 — 已用 Pressman《Software Engineering: A Practitioner’s Approach》第九版与 Sommerville《Software Engineering》第十版全书重读更新 [[wiki/topics/Modern Software Engineering]]：将经验学习与风险控制重新定位为学习、治理回路，补齐价值、规格、构造、证据、演化、可信赖性、社会技术系统和职业责任；问题链—解决方案链已保存为可编辑 Excalidraw。
+- 2026-11-01T22:57:50+08:00 — 已收录 [[wiki/sources/软件工程为何必须成为学习专家 Source Guide|软件工程为何必须成为学习专家]]，并建立 [[wiki/concepts/Software Engineering as Knowledge Discovery|软件工程作为知识发现]] 与 [[wiki/concepts/Tacit Knowledge|默会知识]]：区分外部变化这一加速器与先验未知、分布式判断、实践反馈这些学习根因；Armour、Farley 等具体术语和引文归属保留待一手核验。
 
-- 2026-11-01T19:45:03+08:00 — 已更新 [[wiki/topics/Modern Software Engineering|Modern Software Engineering]]：用第一性原理概念地图把现实不确定、有限认知、可执行知识、生产验证与组织沟通五个约束，推导到知识外显、过程模型、模块化、耦合平衡、质量内建、生产反馈、组织结构和 AI 时代的验证瓶颈；可编辑 Excalidraw 已保存在 `diagrams/`。
+- 2026-11-01T22:54:18+08:00 — 已用 Pressman《Software Engineering: A Practitioner’s Approach》第九版与 Sommerville《Software Engineering》第十版全书重读更新 [[wiki/topics/Modern Software Engineering]]：将经验学习与风险控制重新定位为学习、治理回路，补齐价值、规格、构造、证据、演化、可信赖性、社会技术系统和职业责任；问题链—解决方案链已保存为可编辑 Excalidraw。
 
 - 2026-11-01T19:54:56+08:00 — 已收录 [[wiki/sources/Life as a State of Matter Source Guide|生命是一种物态吗]]：保留概念结构、假设、推理流程与变化机制，分别注明原文索引与转载、Pross 补充理论和分析推演；动态动力学稳定、复制不充分及演化不必增加复杂性的边界已补入 [[wiki/concepts/Life as Dissipative Information Structure]]。
 
-- 2026-10-29T22:04:49+08:00 — 已收录 [[wiki/sources/AI Refactoring Legacy Systems Source Guide|AI 重构遗留系统]]：区分实现规划与约束规划，说明隐式业务规则如何在测试全绿时被 AI 当作冗余删除，并将 brownfield 的当前行为、期望行为与合同级不变式边界补入 [[wiki/topics/Spec-Driven Development]] 和 [[wiki/concepts/Verification Gap]]。
-
-- 2026-10-29T15:38:53+08:00 — 已捕获 [[wiki/concepts/Third Party Authentication|第三方登录认证]]：保留授权码兑换、身份凭证核验和本地会话流程，区分 OAuth 授权与 OIDC 身份认证，并把“先核验外部声明，再改变本地状态”补入信息流与状态流转设计原则。
-
-- 2026-10-28T14:40:23+08:00 — 已捕获 [[wiki/sources/Retro Coding Agent Environment Source Guide|Retro Agent 环境复盘]]：把 coding session 中的错误、搜索成本与信息缺口视为环境传感器，并按机械约束、判断约束、导航缺口与证据缺口分别落到自动检查、Reviewer 标准、上下文指针和信息基础设施；防护层选择规则已补入 [[wiki/syntheses/Agent Skill × Harness Ratchet]]。
-
-- 2026-10-26T23:41:30+08:00 — 已捕获 [[wiki/sources/Writing for Agents Source Guide|Agent 文档写作方法]]，建立 [[wiki/concepts/Context Pointer|上下文指针]] 与 [[wiki/concepts/Leading Words|行为锚点]]：pointer 说明何时读取哪份材料，leading word 用已有概念关联唤起一套做法；已补入 Agent Skill、Context Management 及二者综合页，保留自然语言指导不能保证触发、完成或正确性的边界。
-
-- 2026-10-17T23:51:28+08:00 — 已收录 [[wiki/sources/AI Capability Experience Funnel Source Guide|Karpathy 的 AI 能力体验漏斗]]，并建立 [[wiki/concepts/AI Capability Experience Funnel|AI Capability Experience Funnel]]：把模型能力、系统能力和用户体验到的能力分开，用访问、任务跨度、领域可验证性、工作流成熟度与大问题储备解释为何公众、普通用户、专业者和内部前沿使用者形成不同现实；新框架已补入 [[wiki/concepts/Agent]] 与 [[wiki/topics/AI Harness]]。
-
-- 2026-10-17T00:41:23+08:00 — 已收录 [[wiki/sources/Coding Is Not Solved Source Guide|Coding Is Not Solved]]：把“AI 会写代码”与“软件工程已被解决”分开，保留风险容忍度、FR/NFR、随机生成与确定性 harness、知识—授权—问责三支柱、软件价格分化和职业迁移；新视角已补入 [[wiki/concepts/Cognitive Debt|认知债务]]、[[wiki/concepts/Verification Gap|验证鸿沟]] 与 [[wiki/concepts/Accountability|问责]]。
-
-- 2026-10-12T23:26:44+08:00 — 已捕获 [[wiki/topics/Seeing Clearly|看透的方法]]：把“看透”从动机猜测改写为事实分层、重复模式、机制建模、竞争解释和小型干预组成的判断流程；解释必须能压缩多个现象、产生区别性预测，并说明什么证据会迫使自己改口。
-
-- 2026-10-12T23:14:28+08:00 — 已收录 [[wiki/sources/Three Joys of Engineering Source Guide|AI Agent 时代的三种工程之乐]]，并建立 [[wiki/concepts/Engineering Work Three Joys|Engineering Work Three Joys]]：making 可以从逐行实现上移到系统塑造，knowing 会在只选择 Agent 答案、不再独立生成时退化，mattering 则需要从不可替代的实现者迁移到问题选择、判断与责任。识别—生成差距已补入 [[wiki/concepts/Cognitive Debt|认知债务]] 和 [[wiki/concepts/Agent Loop Human Judgment Positions|Agent 循环中的人类判断位置]]。
-
-- 2026-10-11T23:28:02+08:00 — 已收录 [[wiki/sources/Healthy Peer Feedback Source Guide|健康同伴反馈]]：保留完整英文正文，建立 [[wiki/topics/Peer Feedback|同伴反馈]]、[[wiki/concepts/Context-Situation-Behaviour-Impact|CSBI]] 与 [[wiki/concepts/Feedback Impact Levels|反馈影响层级]]；补入技术管理、反馈回路及高难度沟通。核心变化是从评审时收集评语转向日常情境理解、具体影响和接收后的闭环。
-
-- 2026-10-11T20:40:28+08:00 — 已捕获 [[wiki/concepts/Propositional and Predicate Logic|命题逻辑与谓词逻辑]]：以苏格拉底例子说明整句连接与对象、谓词、量词的区别，并澄清亚里士多德三段论、斯多葛命题逻辑和弗雷格现代量化逻辑的历史关系。
-
-- 2026-10-10T19:36:48+08:00 — 已捕获 [[wiki/sources/Agent Benchmark Landscape Research Report Source Guide|Agent 评测集研究报告]]、[[wiki/topics/Rule Adjudication Agent Evaluation|规则裁决 Agent 评测]] 与 [[wiki/concepts/Confusion Matrix|混淆矩阵]]：从 42 来源 benchmark 地图收敛到规则适用性—事实—构成要件—例外—证据充分性的可审计裁决链，并用五类终局结论揭示漏报、误伤、错误拒判与过度裁决。
-
 ## Active Threads
 
-- 现代软件工程现在以经典教材骨架校准第一性原理：价值、规格、构造、证据、演化和治理构成主线；现实不确定要求经验学习，有限认知要求局部化复杂性，人的可错性要求分层验证，生产差异要求渐进发布与恢复，社会技术后果要求职业责任。知识生产与风险控制分别是学习和治理回路，AI 只改变部分活动成本，不能替代完整工程闭环。^[inferred]
+- 软件工程学习主线现在区分三类不确定性：先验未知使初始模型不完备，[[wiki/concepts/Tacit Knowledge|默会知识]]使判断无法一次性完整转录，外部变化则使既有模型更快失效。即使冻结环境，前两项仍要求用实例、原型、测试和运行证据持续发现知识；但学习只是完整工程闭环中的一个回路。^[inferred]
 
 - 生命机制现在加入动态动力学稳定线索：组织或种群可在组分持续更新时延续，但耗散、复制和可演化性需要分别检验；维持成立不等于起源已解释，“生命物态”仍是研究框架。[[wiki/sources/Life as a State of Matter Source Guide]] 保留原文未取得全文的限制。^[inferred]
+
+- 现代软件工程现在以经典教材骨架校准第一性原理：价值、规格、构造、证据、演化和治理构成主线；现实不确定要求经验学习，有限认知要求局部化复杂性，人的可错性要求分层验证，生产差异要求渐进发布与恢复，社会技术后果要求职业责任。知识生产与风险控制分别是学习和治理回路，AI 只改变部分活动成本，不能替代完整工程闭环。^[inferred]
 
 - AI 遗留系统改造现在加入“约束规划”线索：[[wiki/sources/AI Refactoring Legacy Systems Source Guide|AI 重构遗留系统]]把规划从详细实现步骤转向不可破坏行为、变化证据、授权与退出机制；表征测试只证明“当前这样运行”，仍要结合合同、监管、下游依赖和历史决策区分期望行为与真正不变式。^[inferred]
 
 - 跨平台身份接入：[[wiki/concepts/Third Party Authentication|第三方登录认证]] 将外部账户验证、授权码兑换、身份结果核验和本地会话建立分开；登录身份、第三方资源许可与网站业务权限需要分别判断。
 
+- 软件方法论现在加入“问题层—实践族”线索：业务建模修复现实与需求失真，战略 DDD 修复语义和模型边界，战术 DDD 修复规则进入代码后的失真，架构实践修复依赖结构，组织交付实践修复团队与反馈回路，对象设计修复局部职责分配。实践应从可观察的问题层进入，而不是被当作并排的流行工具。^[inferred]
+
 - Agent 环境改进现在加入“证据—分类—防护层”线索：[[wiki/sources/Retro Coding Agent Environment Source Guide|Retro]] 从 Session 事实出发，优先把机械违规编成 lint/hook/CI，把判断标准交给 Review，把常驻指令压成导航指针；这使 [[wiki/concepts/Feedback Flywheel]] 与 [[wiki/concepts/Coding Agent User Harness]] 之间出现一个具体的改进路由器。^[inferred]
 
 - Agent 文档写作现在加入“发现—分层—完成—修剪”线索：[[wiki/sources/Writing for Agents Source Guide|Writing for Agents]] 用 pointer 管理材料入口，用信息阶梯保护主路径，用可检查且穷尽的完成条件抵抗提前结束；[[wiki/concepts/Leading Words|leading words]] 压缩重复解释，但实际触发和行为增量仍需运行验证。^[inferred]
+
+- Harness 自进化现在加入开放任务的两层递归：[[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide|Harness²]] 在当前任务上以 matched probe 筛选修改，再把修改、适用条件与行为证据写入经验库，供后续任务重新检验；它不直接继承上一任务的局部 harness，也不把行为差异误当作正确性证明。
 
 - AI 能力判断现在加入“体验漏斗”线索：[[wiki/concepts/AI Capability Experience Funnel|AI 能力体验漏斗]] 区分裸模型、完整系统和用户实际体验。短问答、真实代码库与跨周任务暴露的不是同一种能力；同一模型在不同 access、harness 和 verifier 中也不是同一个生产系统。比较 AI 判断前，应先对齐访问层、任务跨度、可验证性和工作流。^[inferred]
 
@@ -237,17 +221,23 @@ updated: 2026-11-01T22:54:18+0800
 
 ## Key Takeaways
 
+- 解释生命应分别追踪材料、组织和持续过程，并区分维持、演化与起源。数量稳定不等于组织正常，复制不等于可演化，选择也不保证复杂性增加或认知必然出现。^[inferred]
+
 - 软件工程不是代码生产、知识工程或风险控制中任何一个单项的同义词。它在成本、时间、组织和社会约束下，把利益相关者需要转化为可运行、可验证、可信赖、可维护并能长期演化的系统；每项保证都应说明证据、适用环境和失效条件。^[inferred]
 
-- 解释生命应分别追踪材料、组织和持续过程，并区分维持、演化与起源。数量稳定不等于组织正常，复制不等于可演化，选择也不保证复杂性增加或认知必然出现。^[inferred]
+- “成为学习专家”不只因为世界会变化。先验未知意味着开工时模型已经不完备，默会知识意味着文档不能一次性传完判断；变化只是进一步缩短知识有效期。经验主义的作用，是把这些未知转成可承受的探针和可修正的证据。^[inferred]
 
 - AI 可以减少详细实现规划，却不会消除约束发现：遗留系统安全重构需要先把隐式业务规则转成不变式、行为基线与决策证据，再用增量迁移、灰度和回滚把大改写变成可逆实验；当前行为不自动等于正确行为。^[inferred]
 
 - 第三方登录依赖可核验的身份结果：授权码是临时兑换凭据，ID Token 表达身份，Access Token 用于资源访问，本地会话 Cookie 维持网站自己的登录状态；这些凭据的职责不能互换。
 
+- 软件实践不是成熟度清单。先判断失败发生在业务现实、共享语义、领域模型、系统依赖、组织反馈还是对象职责，再引入能改变该层生成机制的最小实践；跨层实践需要说明主要问题入口，不能仅按名称归类。^[inferred]
+
 - 一次 Agent 失败只有进入合适的防护层才会形成 ratchet：机器可判定的模式进入检查，需要上下文判断的标准进入 Review，难找的信息进入短指针，取不到的证据进入日志或只读接口。把所有教训都追加到 `AGENTS.md`，既降低执行确定性，又让每次实现支付固定上下文成本。^[inferred]
 
 - Agent 文档的可靠性取决于正确发现、信息位置、完成边界和持续相关性；[[wiki/concepts/Context Pointer]] 管理何时读哪份材料，[[wiki/concepts/Leading Words]] 唤起一组行为要求，两者都要以实际执行检验。^[inferred]
+
+- Harness² 把“没有 ground truth”从无法改进改写成有限证据问题：同条件执行可以检验修改是否改变目标行为，跨任务经验可以复用修改理由；但 selector 误判、共同错误前提和运行随机性说明 probe 不是 verifier，经验进入未来默认行为前仍需独立验证与现实反馈。^[inferred]
 
 - 对 AI 能力的争论必须先对齐观察条件：模型等级、访问权限、任务规模、执行时间、领域真值信号和 harness。公众的弱体验不能证明前沿能力不存在，内部演示也不能证明能力已经便宜、稳定和普遍可用；真正可迁移的分析单位是模型、环境、验证与人的问题储备共同组成的系统。^[inferred]
 

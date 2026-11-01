@@ -4,13 +4,15 @@ type: concept
 status: growing
 category: concepts
 summary: Cynefin Framework 适合用来判断问题处在哪种上下文里，再决定应该用什么动作模式，而不是先假定所有问题都能靠一种统一方法解决。
-sources: []
+sources:
+  - mobu/工具/Cynefin_Framework.md
+  - inline:software-engineering-learning-imperative-2026-11-01
 created: 2026-04-21
-base_confidence: 0.37
+base_confidence: 0.51
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 1
-updated: 2026-04-21
+source_count: 2
+updated: 2026-11-01T22:57:50+0800
 aliases:
   - Cynefin
 tags:
@@ -45,6 +47,7 @@ Cynefin Framework 适合用来判断问题处在哪种上下文里，再决定�
 - 需要实验来发现模式
 - 更适合 `probe -> sense -> respond`
 - 适合创新探索和高不确定性问题
+- 与 [[wiki/concepts/Software Engineering as Knowledge Discovery]] 相连：安全的小探针把尚未进入问题模型的未知逐步变成可观察证据。^[inferred]
 
 ### Chaotic
 
@@ -86,6 +89,7 @@ Cynefin Framework 适合用来判断问题处在哪种上下文里，再决定�
 
 - [[wiki/maps/Management Map]]
 - [[wiki/syntheses/Decision Modes for Engineering Work]]
+- [[wiki/concepts/Software Engineering as Knowledge Discovery]]
 
 ## Source notes
 
