@@ -13,10 +13,11 @@ sources:
   - https://github.com/zhengkid/Dream-RSI/blob/c67937fa0452fbda3fad92107d1f30699380da39/papers/Dream-RSI.pdf
   - conversation:2026-05-31
   - inline:ai-agent-three-paradoxes-2026-07-20
+  - https://arxiv.org/abs/2610.14224
 created: 2026-05-31T15:02:10+0800
-updated: 2026-10-01T01:10:38+0800
+updated: 2026-11-03T00:49:22+0800
 summary: >-
-  自进化 agent 地图按学习层次组织已实现系统，包含发现历史回放驱动的探索调度代码改进，并用验证器独立性、现实接地和更新范围判断改进边界。
+  自进化 agent 地图按学习层次组织已实现系统，加入开放任务中的任务内 harness 改进与跨任务经验递归，并用验证器独立性、现实接地和更新范围判断边界。
 provenance:
   extracted: 0.68
   inferred: 0.27
@@ -41,6 +42,7 @@ aliases:
 
 Harness code 层
   - Meta-Harness
+  - Harness²：现场 probe 当前任务，积累有证据支持的 harness 经验
   - Dream-RSI：回放发现树，改进探索调度代码
   - 搜索可执行 agent 外壳：prompting、retrieval、memory update、tool orchestration
 
@@ -175,6 +177,16 @@ Meta-Harness 把 [[wiki/topics/AI Harness]] 从 runtime plumbing 变成 search s
 
 它的风险也最大：自动搜索 harness code 容易触及 security、authorization、governance 和 benchmark overfitting，需要强 human review 和外部评估。^[inferred]
 
+### Harness²
+
+[[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide|Harness²]] 把 harness 自进化放到没有可见 ground truth 的开放任务现场。任务内的 Propose–Probe–Compose 先运行基础 harness，再让通用与领域编辑者分别提出修改，在同一任务和条件下重跑候选，最后只组合有行为差异支持的修改。
+
+第二层递归不直接把上一任务的 harness 变成下一任务的默认值，而是保存采用的 harness、scripts、适用条件与 probe 证据，供后续任务的 proposer 和 composer 检索。它因此同时更新当前执行配置与未来“怎样改配置”的经验。
+
+两个容易混淆的维度是：通用与领域编辑者按问题视角提出整份候选，不是各改一个固定部件；composer 的新 harness 在同题下一轮继续优化属于第一层顺序迭代，跨任务更新经验库才是第二层递归。效果取舍依赖同题行为对照，停止搜索依赖预算，两者都不构成最终正确性证明。
+
+其边界比结果提升更重要：probe 观察的是行为变化，不是正确性；selector 曾在 `95, 85, 85, 80, 55` 分的候选中选中 `55` 分结果，共同错误前提也可能逃过候选对比。它需要独立 verifier、重复 probe 与现实反馈来阻止错误经验进入递归。^[inferred]
+
 ### Dream-RSI
 
 [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] 把已完成的发现树组织为 [[wiki/concepts/Discovery Replay Simulator|Discovery Replay Simulator]]，用历史结果低成本比较探索策略，再部署选中的调度代码执行新一轮真实搜索。发现模型与评测器保持不变，更新的是开路线、沿线改进、并行和停止规则。
@@ -206,6 +218,7 @@ MemGPT 解决“记忆如何存放和分页”，但不直接解决“从失败�
 | 自动优化单个 skill | Skills-Coach, Hermes |
 | 管理一整个 skill 仓库 | SkillOS |
 | 自动搜索 agent 外壳代码 | Meta-Harness |
+| 在无标准答案的新任务上现场改 harness，并跨任务积累修改经验 | Harness² |
 | 复用旧发现结果改进探索机会分配 | Dream-RSI |
 | 做最小反思原型 | Reflexion |
 | 做 memory substrate | MemGPT, ReasoningBank, MemP |
@@ -230,6 +243,7 @@ MemGPT 解决“记忆如何存放和分页”，但不直接解决“从失败�
 - [[wiki/sources/Skills-Coach Paper Source Guide]]
 - [[wiki/sources/SkillOS Paper Source Guide]]
 - [[wiki/sources/Meta-Harness Paper Source Guide]]
+- [[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide]]
 - [[wiki/sources/GEPA Paper River Source Guide]]
 - [[wiki/sources/SkillOpt Paper River Source Guide]]
 - [[wiki/sources/Raw Experience to Skill Consumption Paper Source Guide]]

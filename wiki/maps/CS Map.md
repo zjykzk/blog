@@ -25,7 +25,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 19
-updated: 2026-11-02T00:22:29+0800
+updated: 2026-11-03T00:49:22+0800
 aliases:
   - Computer Science Map
 tags:
@@ -138,7 +138,7 @@ tags:
 - [[wiki/sources/AI Engineering Skills Map Source Guide]] — 代码执行被 Agent 放大后，软件工程基础承担约束与取舍，产品塑造和验证治理成为新的责任重心。
 - [[wiki/sources/Building and Deploying AI Applications Source Guide]] — AI 系统开发由固定实现计划转向根据 traces、eval 与生产反馈选择下一项模型、数据或架构干预。
 - [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] — 用探索策略改进程序发现的质量与调用量，在 Lasso 和 GPU 优化中区分发现成本、程序性能及逐项回退。
-- [[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide|Harness² Paper Source Guide]] — 把 harness 视为可执行软件配置：用 matched runs 评估修改，把 diff、trace、采用理由和适用条件一起保存，并把行为证据与正确性验证分开。
+- [[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide|Harness² Paper Source Guide]] — 用同题试跑筛选可执行配置的修改，用预算控制搜索；跨任务保存修改证据与适用条件，新任务仍从基础 harness 起步，正确性另需验证。
 
 - [[wiki/sources/The Art of Doing Science and Engineering Source Guide]] — 汉明关于思维风格、系统工程、度量和重要问题的工程职业 source guide。
 - [[wiki/sources/Kimball Dimensional Modeling Techniques Source Guide]] — Kimball Group 2013 technique catalog: four-step design process, grain, fact/dimension patterns, conformed dimensions, SCD types, hierarchy handling, and special schemas.

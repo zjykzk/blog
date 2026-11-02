@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Harness² 算法执行过程演示</title>
+<style>
+  body{margin:0;background:#0B151B;color:#F3F4ED;font-family:-apple-system,"PingFang SC","Hiragino Sans GB",sans-serif}
+  main{max-width:1120px;margin:0 auto;padding:32px 20px}
+  h1{font-size:28px;margin:0 0 6px}
+  p{color:#8FA7A9;margin:0 0 20px}
+  video{width:100%;border-radius:12px;background:#000}
+  ol{columns:2;color:#8FA7A9;line-height:1.9;padding-left:20px}
+  button{background:none;border:0;color:#B7F76D;cursor:pointer;font:inherit;padding:0}
+</style>
+</head>
+<body>
+<main>
+  <h1>Harness² 算法执行过程演示</h1>
+  <p>来源：Harness²: Recursive Agent Harnessing for an Open World（arXiv:2610.14224v1）。示意动画，非论文原始系统录屏。</p>
+  <video controls preload="metadata" poster="poster.jpg">
+    <source src="harness2-algorithm-1080p.mp4" type="video/mp4">
+    <track kind="subtitles" src="subtitles.vtt" srclang="zh" label="中文" default>
+  </video>
+  <ol id="chapters"></ol>
+</main>
+<script>
+const chapters = [
+  [0, '同一个模型，换一套工作套件'], [11.3, '什么是 harness'], [25.6, '第 0 步 参考运行'],
+  [47.6, '第 1 步 提出'], [69.8, '第 2 步 试跑'], [87.0, '第 3 步 组合'],
+  [106.7, '优化时看不到分数'], [129.2, '第 4 步 扩展预算与选择'], [148.5, '第 5 步 沉淀经验'],
+  [168.9, '边界：行为变化 ≠ 结果正确'], [187.9, '两层循环']
+];
+const video = document.querySelector('video');
+const list = document.getElementById('chapters');
+for (const [time, label] of chapters) {
+  const item = document.createElement('li');
+  const button = document.createElement('button');
+  const m = Math.floor(time / 60), s = String(Math.floor(time % 60)).padStart(2, '0');
+  button.textContent = `${m}:${s}  ${label}`;
+  button.onclick = () => { video.currentTime = time; video.play(); };
+  item.appendChild(button);
+  list.appendChild(item);
+}
+</script>
+</body>
+</html>

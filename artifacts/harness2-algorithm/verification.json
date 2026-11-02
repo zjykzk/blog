@@ -1,0 +1,41 @@
+{
+  "artifact": "harness2-algorithm-1080p.mp4",
+  "delivery_status": "explainer_animation",
+  "source": "https://arxiv.org/abs/2610.14224",
+  "format": {
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "width": 1920,
+    "height": 1080,
+    "fps": 25,
+    "video_duration_seconds": 202.24,
+    "audio_duration_seconds": 202.34,
+    "file_size_bytes": 9785008,
+    "audio_codec": "aac",
+    "sample_rate_hz": 48000,
+    "audio_channels": 2
+  },
+  "checks": {
+    "full_video_audio_decode": "passed, ffmpeg exit 0",
+    "scenes": 11,
+    "subtitle_cues": 31,
+    "last_subtitle_end": "00:03:21.687",
+    "visual_inspection": "check frames for every scene rendered and viewed before final render; 11 frames decoded from the final MP4 and viewed in contact-sheet.jpg",
+    "layout_fixes_applied": "reference-scene banner and issue chips moved off the trace panel; selector arrows rerouted outside the parallel panel; summary loop label moved inside the frame"
+  },
+  "encoded_audio_measurement": {
+    "method": "FFmpeg loudnorm input measurement on final MP4",
+    "integrated_lufs": -16.08,
+    "true_peak_dbtp": -1.72,
+    "loudness_range_lu": 2.8
+  },
+  "audio_sources": {
+    "voice": "Microsoft Edge TTS zh-CN-YunyangNeural, male Mandarin synthetic voice",
+    "music": "original procedural pad, ducked under narration"
+  },
+  "limits": [
+    "This is an explanatory animation, not a recording of the paper's system.",
+    "The production-task case, the four adopted edits, and the 43.1 -> 77.8 score come from the paper; trace steps, the probe comparison table and the discarded edit are illustrative and marked 示意.",
+    "Benchmark numbers are the paper's reported results, not reproduced here."
+  ]
+}

@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 工程实践评估主线已补入六问框架：从控制目标、机制、信息和调节动作一路检查到新增成本与失效边界。
+summary: 最近澄清 Harness² 的编辑者分工、同题行为判效与预算停止：同任务迭代 harness，跨任务递归经验库；新任务仍从基础配置起步。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-11-02T00:22:29+0800
+updated: 2026-11-03T00:49:22+0800
 ---
 
 ## Recent Activity
+
+- 2026-11-03T00:49:22+08:00 — 已更新 [[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide|Harness²]]：两位编辑者按问题视角各交整份候选；probe 做同题行为对照，分数属于事后评测；按预算停止优化。补入第一层顺序迭代与第二层经验库递归的对照及流程图，并链接本地算法演示；差异同步到 [[wiki/topics/AI Harness]] 与 [[wiki/maps/Self-Evolving Agents Map]]。
 
 - 2026-11-02T00:22:29+08:00 — 已捕获 [[wiki/concepts/Engineering Practice Evaluation Frame|工程实践第一性原理检查表]]：用控制目标、作用机制、所需信息、调节动作、新增成本和失效边界六问，把“团队有没有做实践”推进为“实践是否形成真实控制回路”。
 
@@ -39,7 +41,7 @@ updated: 2026-11-02T00:22:29+0800
 
 - Agent 文档写作现在加入“发现—分层—完成—修剪”线索：[[wiki/sources/Writing for Agents Source Guide|Writing for Agents]] 用 pointer 管理材料入口，用信息阶梯保护主路径，用可检查且穷尽的完成条件抵抗提前结束；[[wiki/concepts/Leading Words|leading words]] 压缩重复解释，但实际触发和行为增量仍需运行验证。^[inferred]
 
-- Harness 自进化现在加入开放任务的两层递归：[[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide|Harness²]] 在当前任务上以 matched probe 筛选修改，再把修改、适用条件与行为证据写入经验库，供后续任务重新检验；它不直接继承上一任务的局部 harness，也不把行为差异误当作正确性证明。
+- Harness 自进化现在明确区分 [[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide|Harness²]] 的两个更新对象：第一层用同题 probe 筛选当前 harness 修改，顺序扩展可继续使用上一轮的新 harness；第二层在任务结束后更新经验库，新任务仍从基础 harness 起步，提出与组合时查阅经验。通用/领域是诊断视角，不是固定部件；预算停止和行为变化都不证明正确。
 
 - AI 能力判断现在加入“体验漏斗”线索：[[wiki/concepts/AI Capability Experience Funnel|AI 能力体验漏斗]] 区分裸模型、完整系统和用户实际体验。短问答、真实代码库与跨周任务暴露的不是同一种能力；同一模型在不同 access、harness 和 verifier 中也不是同一个生产系统。比较 AI 判断前，应先对齐访问层、任务跨度、可验证性和工作流。^[inferred]
 
@@ -241,7 +243,7 @@ updated: 2026-11-02T00:22:29+0800
 
 - Agent 文档的可靠性取决于正确发现、信息位置、完成边界和持续相关性；[[wiki/concepts/Context Pointer]] 管理何时读哪份材料，[[wiki/concepts/Leading Words]] 唤起一组行为要求，两者都要以实际执行检验。^[inferred]
 
-- Harness² 把“没有 ground truth”从无法改进改写成有限证据问题：同条件执行可以检验修改是否改变目标行为，跨任务经验可以复用修改理由；但 selector 误判、共同错误前提和运行随机性说明 probe 不是 verifier，经验进入未来默认行为前仍需独立验证与现实反馈。^[inferred]
+- Harness² 的三个判断应分开：probe 决定哪些修改有行为证据，预算决定何时停止搜索，外部验证决定哪些正确性性质成立。第二层积累的是“什么条件下怎样改有用”的经验，并不直接继承上一任务的完整 harness，也不训练组合者的模型或改写其指令。
 
 - 对 AI 能力的争论必须先对齐观察条件：模型等级、访问权限、任务规模、执行时间、领域真值信号和 harness。公众的弱体验不能证明前沿能力不存在，内部演示也不能证明能力已经便宜、稳定和普遍可用；真正可迁移的分析单位是模型、环境、验证与人的问题储备共同组成的系统。^[inferred]
 

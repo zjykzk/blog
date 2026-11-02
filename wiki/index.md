@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-11-02T00:22:29+0800
+updated: 2026-11-03T00:49:22+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -524,7 +524,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/sources/Managed Agents Source Guide|Managed Agents Source Guide]] — 这篇 Anthropic engineering article 更适合作为一个 source facing note 进入当前仓库，而不是直接升格成稳定 wiki 母页。 (#agents #harness #anthropic)
 - [[wiki/sources/Memory Is State Not a Service Source Guide|Memory Is State Not a Service Source Guide]] — Source guide for NanoThoughts' Company Brain article arguing that memory must be shared inspectable state, not isolated tool-local memory services. (#article #agents #memory #organization)
 - [[wiki/sources/Meta-Harness Paper Source Guide|Meta-Harness Paper Source Guide]] — Source guide for the Meta-Harness paper, focused on automated search over executable model harnesses using full filesystem access to code, scores, and traces. (#paper #arxiv #agents #harness)
-- [[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide|Harness² Recursive Agent Harnessing Paper Source Guide]] — 无标准答案时，用任务内 Propose–Probe–Compose 改进 harness，并把有行为证据支持的 harness、脚本与经验递归到后续任务。 (#paper #arxiv #agents #harness #optimization)
+- [[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide|Harness² Recursive Agent Harnessing Paper Source Guide]] — 编辑者分工、同题判效与预算停止；第一层迭代当前 harness，第二层更新跨任务经验库，新任务仍从基础配置起步。 ( #paper #arxiv #agents #harness #optimization)
 - [[wiki/sources/Mobu Notes|Mobu Notes Source Guide]] — mobu/ 目前是个人知识与领域素材的大池子，适合作为 raw/domain input 层，而不是直接作为稳定 wiki 层。 (#mobu #raw)
 - [[wiki/sources/Narrative as First Principle Source Guide|Narrative as First Principle Source Guide]] — 这页导览一篇把叙事视为事实、物理、意识、意义、协作与行动之间接口的世界观文章。 (#thinking #worldview #cognition #coordination)
 - [[wiki/sources/内核 你的三个自我 Source Guide|内核：你的三个自我 Source Guide]] — 这页导览《内核：你的三个自我》：人成长的关键不是改情绪或人设，而是通过训练样本、奖励函数和反馈改写内核自我。 (#article #cognition #learning #thinking #llm)

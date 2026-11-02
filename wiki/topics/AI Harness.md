@@ -26,6 +26,7 @@ sources:
   - inline:ai-agent-three-paradoxes-2026-07-20
   - https://claude.com/blog/the-ai-native-sdlc-playbook
   - https://x.com/karpathy/status/2109361546505966046
+  - https://arxiv.org/abs/2610.14224
 created: 2026-05-04
 base_confidence: 0.81
 lifecycle: draft
@@ -34,8 +35,8 @@ provenance:
   extracted: 0.82
   inferred: 0.16
   ambiguous: 0.02
-source_count: 21
-updated: 2026-10-17T23:51:28+0800
+source_count: 22
+updated: 2026-11-03T00:49:22+0800
 aliases:
   - harness
 tags:
@@ -385,6 +386,18 @@ For the AI Harness topic, the important generalization is: a harness is not only
 
 This strengthens the current harness-ratchet view. A human can turn repeated failures into rules and checks; an outer-loop coding agent can also search for code-level harness changes, provided traces are rich enough and validation/evaluation stay outside the proposer.
 
+[[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide|Harness²]] adds an open-world, task-local optimization regime. When no ground-truth answer or visible rubric exists, it runs the current harness to establish a behavioral reference, asks generalist and domain editors to propose changes, probes each candidate under matched conditions, and composes only changes supported by observed behavioral differences.
+
+Its second recursion updates how future harnesses are edited: adopted harnesses, scripts, applicability conditions, and probe evidence enter an experience library, while each new task still starts from the base harness. This avoids treating the previous task's local configuration as a universal default and turns harness evolution into evidence-bearing experience reuse. ^[inferred]
+
+第一层的两位编辑者按问题视角分工：通用执行习惯与领域知识；两者各交一整份候选 harness，手册、指令、脚本和工具提示都属于 harness。两份候选可以包含多处修改，composer 再依据试跑证据决定采用多少处。
+
+把 composer 产出的新 harness 接回同一任务的下一轮优化，是第一层内部的顺序迭代。第二层则在任务结束后更新经验库，后续任务仍从基础 harness 开始，只在提出与组合时检索经验；编辑者与组合者的指令、模型参数和取舍规则保持不变。
+
+运行时 probe 是同题行为对照，benchmark 分数只用于论文事后评测。任务内优化按单步、并行候选数量或顺序轮数的预设预算停止；保留原 harness 或不写新经验属于保守取舍，并不意味着证明正确或算法已经收敛。
+
+The boundary is equally important: behavioral contrast can show that an edit changed execution, but it cannot prove the output is correct. Shared false assumptions, stochastic runs, and a selector that prefers a polished but broken result remain outside this evidence channel. Harness optimization therefore still needs independent verification, repeated probes for high-variance tasks, and reality-grounded validation.
+
 ## Peer topics
 
 - [[wiki/topics/AI Skills Workflow]]
@@ -412,6 +425,7 @@ This strengthens the current harness-ratchet view. A human can turn repeated fai
 - [[wiki/sources/AI Coding 信息论框架 Source Guide]]
 - [[wiki/sources/AI Agent 三重悖论 Source Guide]]
 - [[wiki/sources/The AI-Native SDLC Playbook Source Guide]]
+- [[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide]]
 
 ## Navigation
 

@@ -24,6 +24,7 @@ sources:
   - https://blog.alexewerlof.com/p/coding-is-not-solved
   - https://mp.weixin.qq.com/s/-krMZiLCBJ25NFJk9tlcAg
   - https://x.com/karpathy/status/2109361546505966046
+  - https://arxiv.org/abs/2610.14224
   - https://raw.githubusercontent.com/mattpocock/skills/refs/heads/main/skills/engineering/retro/SKILL.md
 created: 2026-05-04
 base_confidence: 0.94
@@ -33,8 +34,8 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 20
-updated: 2026-10-29T22:04:49+0800
+source_count: 21
+updated: 2026-11-03T00:49:22+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -264,6 +265,7 @@ tags:
 - [[wiki/sources/SPDD Iterative Review Source Guide]]
 - [[wiki/sources/Continual Learning for AI Agents Source Guide]]
 - [[wiki/sources/Meta-Harness Paper Source Guide]]
+- [[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide]] — Harness² 以通用/领域视角提出候选，用同题行为证据取舍、预算控制停止；区分同任务 harness 顺序迭代与跨任务经验库递归。
 - [[wiki/sources/GEPA Paper River Source Guide]] — GEPA 论文倒读法：把 prompt/agent 优化从自动 prompt 搜索、DSPy/MIPROv2 多模块优化、TextGrad/GRPO 反馈路线推进到轨迹反思和 Pareto 进化。
 - [[wiki/sources/SkillOpt Paper River Source Guide]] — SkillOpt 论文倒读法：把 skill 自进化从轨迹反思和技能库路线推进到失败根因、候选选择和改动前后验证。
 - [[wiki/sources/SkillOpt Paper Source Guide]] — SkillOpt 原论文 source guide：把 agent skill 当成可训练外部状态，用 bounded text edits、held-out gate、rejected-edit buffer 和 slow/meta update 训练 compact best_skill.md。
