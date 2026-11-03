@@ -195,7 +195,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Cognitive Engineering|Cognitive Engineering]] — 认知工程学不是单独研究'人怎么想'，而是研究如何设计工具、信息结构与反馈机制，让人更容易想对、做对、协同对。
 - [[wiki/concepts/engineering-thinking|Engineering Thinking]] — Engineering thinking turns vague intent into reliable, testable, repairable, evolvable structures under real constraints. (#engineering #software-engineering #systems #judgment #feedback)
 - [[wiki/concepts/Engineering Practice Evaluation Frame|Engineering Practice Evaluation Frame]] — 工程实践评估框架用控制目标、作用机制、所需信息、调节动作、新增成本和失效边界六问，判断一项实践是否真正改变系统行为。 ( #engineering #software-engineering #judgment #mechanism #feedback)
-- [[wiki/concepts/工程复杂度共同结构]] — 工程复杂度共同结构把所有工程共有的难题压缩为目标、约束、分解、接口、反馈和演化六个问题。 (#engineering #systems #complexity #feedback #architecture)
+- [[wiki/concepts/工程复杂度共同结构]] — 工程复杂度共同结构把工程难题压缩为目标、约束、分解、接口、反馈和演化，并区分认知分解与结构模块化的双重来源。 (#engineering #systems #complexity #feedback #architecture)
 - [[wiki/concepts/Component-Based Architecture|Component-Based Architecture]] — Component-based architecture organizes an interface or system as composable units with local responsibilities. (#frontend #architecture #modularity)
 - [[wiki/concepts/Concept|Concept]] — 概念不是词，而是有限生命面对连续世界时制造的边界。
 - [[wiki/concepts/Conceptual Integrity|Conceptual Integrity]] — 软件设计中的概念完整性，不是风格统一，而是一个系统里的所有部分都像从同一个头脑里长出来：用户、程序员、机器面对它时，都能感觉到这里面只有一套世界观。

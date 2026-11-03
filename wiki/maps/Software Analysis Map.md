@@ -9,7 +9,7 @@ created: 2026-05-02
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-07-10T20:15:07+08:00
+updated: 2026-10-28T15:24:26+08:00
 aliases:
   - 软件分析地图
   - 软件分析核心概念地图
@@ -365,6 +365,7 @@ CRUD 可以出现在实现和管理后台里，但不应在分析阶段冒充核
 - [[wiki/sources/Use Case 开发管理 Source Guide]]
 - [[wiki/sources/Use Case concept graph]]
 - [[wiki/sources/Use Case 协作与追踪矩阵 Source Guide]]
+- [[wiki/sources/Business Modeling and DDD NotebookLM Practice Map Source Guide]] — 按业务建模、战略 DDD、战术 DDD、架构、组织交付和对象设计六层，对照实践与其直接解决的问题。
 - [[wiki/syntheses/Use Cases as AI Coding Traceability Anchors]]
 - [[wiki/maps/Software Design Map]]
 - [[wiki/concepts/Software Design Three Generators]]

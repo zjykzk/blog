@@ -25,7 +25,7 @@ base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 19
-updated: 2026-11-03T00:49:22+0800
+updated: 2026-11-03T18:51:25+0800
 aliases:
   - Computer Science Map
 tags:
@@ -104,6 +104,7 @@ tags:
 - [[wiki/topics/Problem Framing]]
 - [[wiki/topics/Spec-Driven Development]]
 - [[wiki/topics/Modern Software Engineering]] — 以 Pressman 与 Sommerville 的经典骨架为主干，把价值、规格、构造、证据、演化、治理，以及学习、复杂性、可信赖性、组织责任与 AI 成本迁移组织成统一工程闭环。
+- [[wiki/concepts/工程复杂度共同结构]] — 区分认知分解与结构模块化：前者把整体压成有限头脑可处理的局部，后者让变化、故障和责任尽量停在局部。
 - [[wiki/concepts/Engineering Practice Evaluation Frame]] — 用控制目标、作用机制、所需信息、调节动作、新增成本和失效边界六问，判断工程实践是否真正改变系统行为。
 - [[wiki/concepts/Software Engineering as Knowledge Discovery]] — 区分先验未知、默会知识与外部变化，解释开发为何要用实例、原型、测试和生产证据持续修正模型。
 - [[wiki/concepts/Tacit Knowledge]] — 解释无法一次性完整写进文档的情境判断、模式识别、具身技能与团队默契。

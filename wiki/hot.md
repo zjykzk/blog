@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 最近澄清 Harness² 的编辑者分工、同题行为判效与预算停止：同任务迭代 harness，跨任务递归经验库；新任务仍从基础配置起步。
+summary: 软件工程复杂度主线已区分认知分解与结构模块化：认知有限要求切小问题，影响扩散要求建立边界。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-11-03T00:49:22+0800
+updated: 2026-11-03T18:51:25+0800
 ---
 
 ## Recent Activity
+
+- 2026-11-03T18:51:25+08:00 — 已更新 [[wiki/concepts/工程复杂度共同结构]]：认知有限首先造成模型与现实的认识裂缝，分解与抽象是认知回应；局部影响扩散造成控制裂缝，模块化、接口、契约与隔离是结构回应。并将原先平铺的设计词汇改成“动作—结构—规则—机制—质量目标—总体组织”的层级链。
 
 - 2026-11-03T00:49:22+08:00 — 已更新 [[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide|Harness²]]：两位编辑者按问题视角各交整份候选；probe 做同题行为对照，分数属于事后评测；按预算停止优化。补入第一层顺序迭代与第二层经验库递归的对照及流程图，并链接本地算法演示；差异同步到 [[wiki/topics/AI Harness]] 与 [[wiki/maps/Self-Evolving Agents Map]]。
 
@@ -22,6 +24,8 @@ updated: 2026-11-03T00:49:22+0800
 - 2026-11-01T22:54:18+08:00 — 已用 Pressman《Software Engineering: A Practitioner’s Approach》第九版与 Sommerville《Software Engineering》第十版全书重读更新 [[wiki/topics/Modern Software Engineering]]：将经验学习与风险控制重新定位为学习、治理回路，补齐价值、规格、构造、证据、演化、可信赖性、社会技术系统和职业责任；问题链—解决方案链已保存为可编辑 Excalidraw。
 
 ## Active Threads
+
+- 软件设计现在明确区分两股边界动力：有限认知要求把整体切成可理解的局部，系统耦合要求让变化、故障和责任尽量停在局部。前者生成分解与抽象，后者生成模块化、接口、契约和隔离；架构负责围绕质量目标组织这些层次。^[inferred]
 
 - 工程实践评估现在加入“目标—机制—信息—调节—成本—边界”线索：[[wiki/concepts/Engineering Practice Evaluation Frame|六问框架]]把实践视为系统干预，要求说明偏差如何被感知、谁采取动作、结果如何回流，以及何时成本或前提变化会使实践失效；这使流程仪式能够被还原为可检验控制回路。^[inferred]
 
@@ -224,6 +228,8 @@ updated: 2026-11-03T00:49:22+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 认知有限首先解释为什么心智模型不完整，也直接推动分解；但模块化还来自局部影响会扩散这一控制问题。分解是认知动作，模块化是结构回应，二者在边界设计处汇合。^[inferred]
 
 - 一项工程实践的价值不由名称、流行度或执行合规决定，而由它是否能感知目标偏差、通过明确机制触发责任动作、以可接受成本改变系统状态，并在失效边界外及时退出或修正。^[inferred]
 

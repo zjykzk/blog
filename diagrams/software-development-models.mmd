@@ -1,0 +1,51 @@
+graph TD
+  A["开发模型处在『过程与反馈编排层』<br/>它决定活动顺序、批次大小、风险处理顺序和反馈周期"]
+  B["先判断环境<br/>需求是否稳定？技术是否成熟？风险能否提前分析？<br/>是否需要持续获得生产反馈？"]
+
+  C1["问题与方案稳定<br/>变更昂贵、合规与阶段审查重要"]
+  C2["需求需要通过可见产品快速澄清<br/>但系统规模或寿命较有限"]
+  C3["架构或技术风险高<br/>需要先消除最大风险"]
+  C4["业务变化快、存在未知的未知<br/>可以增量交付并获得用户反馈"]
+  C5["软件是长期运行的在线服务<br/>需要持续、安全地进入生产"]
+
+  M1["预测型模型<br/>瀑布模型：按需求→设计→实现→测试推进<br/>V 模型：为每个开发阶段匹配验证阶段"]
+  M2["探索型模型<br/>原型模型：先构造可见原型以发现需求<br/>RAD：时间盒内快速组合与交付"]
+  M3["风险驱动模型<br/>螺旋模型：每轮识别、分析并降低风险<br/>RUP：用例驱动、架构中心、迭代增量"]
+  M4["适应型模型<br/>敏捷：短周期交付并根据反馈调整<br/>Scrum 管迭代 · XP 管工程实践<br/>Kanban/Lean 管流动、WIP与浪费"]
+  M5["运行闭环模型<br/>DevOps：开发与运维共同承担端到端结果<br/>持续交付：主干开发、CI/CD、渐进发布<br/>SRE：用 SLO、错误预算和自动化治理可靠性"]
+
+  X["共同底座：迭代与增量<br/>把大问题拆成可运行、可验证的小批次<br/>RUP、敏捷、螺旋和DevOps都可使用"]
+  Y["不是线性替代关系，而是可组合<br/>例：合规阶段门 + RUP架构风险管理<br/>+ Scrum/XP团队开发 + DevOps/SRE生产闭环"]
+
+  A --> B
+  B -->|"高确定性"| C1
+  B -->|"先看见再理解"| C2
+  B -->|"高技术／架构风险"| C3
+  B -->|"高业务不确定性"| C4
+  B -->|"需要生产反馈"| C5
+
+  C1 --> M1
+  C2 --> M2
+  C3 --> M3
+  C4 --> M4
+  C5 --> M5
+
+  M2 --> X
+  M3 --> X
+  M4 --> X
+  M5 --> X
+  M1 -->|"也可按阶段内增量实施"| X
+  X --> Y
+
+  M1 -. "交付能力可叠加" .-> M5
+  M3 -. "运行反馈可叠加" .-> M5
+  M4 -. "自然互补" .-> M5
+
+  classDef framing fill:#F3E8FF,stroke:#7E22CE,color:#3B0764,stroke-width:2px;
+  classDef condition fill:#FFF4D6,stroke:#B7791F,color:#4A2C0A,stroke-width:2px;
+  classDef model fill:#E0F2FE,stroke:#0369A1,color:#082F49,stroke-width:2px;
+  classDef synthesis fill:#DCFCE7,stroke:#15803D,color:#052E16,stroke-width:3px;
+  class A,B framing;
+  class C1,C2,C3,C4,C5 condition;
+  class M1,M2,M3,M4,M5 model;
+  class X,Y synthesis;

@@ -1,5 +1,39 @@
 {
-  "choices": [],
+  "choices": [
+    {
+      "id": "32441643-ab5e-4c96-9f4f-38f91e371a43",
+      "name": "note",
+      "type": "Template",
+      "command": false,
+      "templatePath": "templates/note.md.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYY-MM-DD}}"
+      },
+      "discoverExistingNotesBeforeCreate": false,
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "wiki/sources"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "copyLinkToClipboard": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsBehavior": {
+        "kind": "prompt"
+      }
+    }
+  ],
   "inputPrompt": "single-line",
   "persistInputPromptDrafts": true,
   "useSelectionAsCaptureValue": true,
@@ -9,7 +43,7 @@
   "devMode": false,
   "templateFolderPaths": [],
   "announceUpdates": "major",
-  "version": "2.32.1",
+  "version": "2.33.1",
   "globalVariables": {},
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,

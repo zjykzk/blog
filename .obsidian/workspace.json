@@ -4,22 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "df0cf67ca1486f82",
+        "id": "3cf3f43cf801f5c8",
         "type": "tabs",
         "children": [
           {
-            "id": "a9f87afd1bd3f1b1",
+            "id": "b2bb845f76535879",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-10-18 19.40.16.excalidraw.md"
+                "file": "wiki/NAMING.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-10-18 19.40.16.excalidraw"
+              "icon": "lucide-file",
+              "title": "NAMING"
+            }
+          },
+          {
+            "id": "12e32c8f41655404",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/note.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "note.md"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.34375
+    "width": 506.6015625
   },
   "right": {
     "id": "7eba894845c12087",
@@ -191,8 +208,8 @@
             "state": {
               "type": "copilot-agent-chat-view",
               "state": {},
-              "icon": "copilot-agent",
-              "title": "Copilot Agent"
+              "icon": "lucide-ghost",
+              "title": "copilot-agent-chat-view"
             }
           }
         ],
@@ -205,7 +222,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-importer:Open Importer": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -215,59 +231,60 @@
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "copilot:Open Copilot Agent Chat": false
+      "copilot:Open Copilot Agent Chat": false,
+      "obsidian-importer:Import notes": false
     }
   },
-  "active": "a9f87afd1bd3f1b1",
+  "active": "12e32c8f41655404",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-06-22 20.55.52.excalidraw.md",
-    "Excalidraw/Drawing 2026-10-18 19.40.16.excalidraw.md",
-    "wiki/concepts/LLM.md",
-    "wiki/concepts/Search and Learning as Meta-Methods.md",
-    "wiki/concepts/AI Capability Experience Funnel.md",
-    "wiki/sources/AI Capability Experience Funnel Source Guide.md",
-    "wiki/sources/Coding Is Not Solved Source Guide.md",
-    "wiki/concepts/Verification Loop.md",
-    "artifacts/wiki-lint/2026-10-11/report.md",
-    "artifacts/wiki-lint/2026-10-11/fix-report.md",
-    "wiki/sources/Skills for the Future Software Profession Paper Source Guide.md",
+    "wiki/sources/journals/2026-11-02.md",
+    "raw/journals/README.md",
+    "wiki/sources/journals",
+    "NOTES.md",
+    "templates/note.md.md",
+    "wiki/sources/ADK Skill Design Patterns Source Guide.md",
+    "wiki/NAMING.md",
+    "templates",
+    "Pasted image 20260421133444.png",
+    "README.md",
+    "ai.png",
+    "knowledge-system-language-philosophy.png",
+    "wiki/syntheses/Agent Harness Loop and Goal Implementations.md",
     "2026-10-13.md",
-    "wiki/topics/Seeing Clearly.md",
-    "wiki/maps/Reading Map.md",
-    "wiki/concepts/Engineering Work Three Joys.md",
-    "wiki/sources/Three Joys of Engineering Source Guide.md",
-    "wiki/concepts/Feedback Impact Levels.md",
-    "wiki/concepts/Context-Situation-Behaviour-Impact.md",
-    "wiki/topics/Peer Feedback.md",
-    "wiki/sources/Healthy Peer Feedback Source Guide.md",
-    "wiki/concepts/Propositional and Predicate Logic.md",
-    "artifacts/wiki-lint/2026-10-11/fix-verification.json",
-    "artifacts/wiki-lint/2026-10-11/after-findings.json",
-    "artifacts/wiki-lint/2026-10-11/fix-review.json",
-    "artifacts/wiki-lint/2026-10-11/provenance-review-actions.json",
-    "artifacts/wiki-lint/2026-10-11/content-fix-actions.json",
-    "artifacts/wiki-lint/2026-10-11/fix-actions.json",
-    "artifacts/wiki-lint/2026-10-11/fix-before.json",
-    "artifacts/wiki-lint/2026-10-11/findings.json",
-    "artifacts/wiki-lint/2026-10-11",
-    "artifacts/wiki-lint",
-    "wiki/syntheses/数据字典的秩.md",
-    "wiki/concepts/Hierarchical Syntactic Structure.md",
-    "wiki/concepts/Freedom and Self-Discipline.md",
-    "wiki/sources/人生的问题循环.md",
-    "wiki/sources/Agent Benchmark Landscape Research Report Source Guide.md",
-    "artifacts/football-dribbling/_build/encoded-frame-60s.png",
-    "artifacts/football-dribbling/contact-sheet.jpg",
-    "artifacts/football-dribbling/poster.jpg",
-    "artifacts/football-dribbling/stills/13-117.0s.jpg",
-    "artifacts/football-dribbling/stills/12-103.0s.jpg",
-    "artifacts/football-dribbling/stills/11-093.0s.jpg",
-    "artifacts/football-dribbling/stills/10-082.0s.jpg",
-    "artifacts/football-dribbling/stills/09-072.5s.jpg",
-    "artifacts/football-dribbling/stills/08-060.0s.jpg",
-    "artifacts/football-dribbling/stills/07-048.0s.jpg",
+    "2026-04-21.md",
+    "AGENTS.md",
+    "diagrams/swebok-v4-concept-atlas/10-groups/10-product-engineering.excalidraw",
+    "diagrams/swebok-v4-concept-atlas/20-knowledge-areas/ka02-ka-02-software-architecture.excalidraw",
+    "diagrams/swebok-v4-concept-atlas/30-details/ka02-detail-01-software-architecture-fun.excalidraw",
+    "diagrams/swebok-v4-concept-atlas/40-deep-details/ka02_s3_2-architectural-design.excalidraw",
+    "diagrams/swebok-v4-concept-atlas/40-deep-details/ka02_s3_1-architecture-in-context.excalidraw",
+    "diagrams/swebok-v4-concept-atlas/00-overview.excalidraw",
+    "wiki/concepts/Engineering Practice Evaluation Frame.md",
+    "diagrams/swebok-v4-concept-atlas/40-deep-details/ka05_s1_2-key-issues-part-01.excalidraw",
+    "diagrams/swebok-v4-concept-atlas/30-details/ka09-detail-01-initiation-and-scope-defi.excalidraw",
+    "wiki/concepts/Tacit Knowledge.md",
+    "wiki/concepts/Software Engineering as Knowledge Discovery.md",
+    "wiki/sources/软件工程为何必须成为学习专家 Source Guide.md",
+    "wiki/sources/Life as a State of Matter Source Guide.md",
+    "diagrams/software-engineering-first-principles.png",
+    "diagrams/software-engineering-first-principles.svg",
+    "diagrams/software-engineering-concept-map.svg",
+    "diagrams/software-development-models.svg",
+    "diagrams/software-engineering-concept-map-editable.svg",
+    "diagrams/software-engineering-problem-chain.svg",
+    "diagrams/software-engineering-problem-chain.png",
+    "Excalidraw/SE.excalidraw.md",
+    "Excalidraw/llm.excalidraw.md",
+    "Excalidraw/agent.excalidraw.md",
+    "Excalidraw/pi-agent.excalidraw.md",
+    "Excalidraw/enginering in baidu.excalidraw.md",
+    "artifacts/harness2-algorithm/README.md",
+    "artifacts/harness2-algorithm/narration.md",
+    "wiki/sources/AI Refactoring Legacy Systems Source Guide.md",
+    "wiki/concepts/Third Party Authentication.md",
+    "wiki/sources/Business Modeling and DDD NotebookLM Practice Map Source Guide.md",
     "Untitled 1.canvas",
-    "wiki/sources/Untitled.canvas",
-    "Untitled.canvas"
+    "Untitled.canvas",
+    "wiki/sources/Untitled.canvas"
   ]
 }

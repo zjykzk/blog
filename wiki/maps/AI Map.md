@@ -22,9 +22,9 @@ sources:
   - https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html
   - https://www.linkedin.com/posts/addyosmani_ai-programming-softwareengineering-activity-7514210769282994176-fOyn
   - https://blog.alexewerlof.com/p/coding-is-not-solved
-  - https://mp.weixin.qq.com/s/-krMZiLCBJ25NFJk9tlcAg
   - https://x.com/karpathy/status/2109361546505966046
   - https://arxiv.org/abs/2610.14224
+  - https://mp.weixin.qq.com/s/-krMZiLCBJ25NFJk9tlcAg
   - https://raw.githubusercontent.com/mattpocock/skills/refs/heads/main/skills/engineering/retro/SKILL.md
 created: 2026-05-04
 base_confidence: 0.94

@@ -11,7 +11,7 @@ created: 2026-05-03
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-07-11T23:46:22+0800
+updated: 2026-11-03T18:51:25+0800
 aliases:
   - 软件设计地图
   - 软件设计核心概念地图
@@ -333,6 +333,8 @@ mindmap
 
 DDD 更适合归入 `设计方法论`，不是单个设计原则。它包含一组围绕领域、语言和边界展开的设计原则与建模实践。
 
+[[wiki/concepts/工程复杂度共同结构]]进一步区分了边界设计的两股来源：认知有限要求用分解与抽象把整体切成可理解的局部；局部影响会沿依赖扩散，又要求用模块、接口、契约与隔离把变化和故障限制在局部。分解是认知动作，模块化是结构回应，二者不应被当成同层同义词。^[inferred]
+
 这张图可以和 `[[wiki/concepts/Software Design Three Generators]]` 配合阅读：这里是展开地图，后者是把软件设计压缩成 `划线、接线、流转` 三个生成器。
 
 ## 架构师启示录补充
@@ -365,6 +367,7 @@ DDD 更适合归入 `设计方法论`，不是单个设计原则。它包含一�
 
 ## Source layer
 
+- [[wiki/sources/Business Modeling and DDD NotebookLM Practice Map Source Guide]] — 把 36 项业务建模、DDD、架构、交付和对象设计实践映射到各自直接处理的问题，并保留跨层边界。
 - [[wiki/sources/Use Case 开发管理 Source Guide]] — 说明 Use Case 如何作为行为契约衔接 UI、API、应用服务、领域模型、持久化、测试和任务拆分。
 - [[wiki/sources/Use Case 协作与追踪矩阵 Source Guide]] — 说明产品、业务、RD、QA 和设计如何围绕同一个用例补充领域模型、UI、API、测试与开发任务追踪矩阵。
 - [[wiki/sources/架构文档与图示之道 Source Guide]] — 保存一份关于架构文档、C4/UML 图示、ADR 与 Docs as Code 的中文课程材料。

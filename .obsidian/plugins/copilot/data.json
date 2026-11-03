@@ -30,6 +30,7 @@
   "defaultSaveFolder": "copilot/copilot-conversations",
   "defaultConversationTag": "copilot-conversation",
   "autosaveChat": true,
+  "autoAttachActiveNote": true,
   "defaultOpenArea": "view",
   "defaultSendShortcut": "enter",
   "customPromptsFolder": "copilot/copilot-custom-prompts",
@@ -340,15 +341,17 @@
   "inlineEditCommands": [],
   "projectList": [],
   "lastDismissedVersion": "4.0.11",
-  "lastShownStartupVersion": "4.0.15",
+  "lastShownStartupVersion": "4.0.16",
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
   "enableSelfHostMode": false,
   "enableMiyo": false,
-  "enableMiyoSearchSkill": false,
+  "enableMiyoSearchSkill": true,
   "miyoSearchAll": false,
   "miyoExtraSearchFolders": [],
+  "miyoSearchMaxResults": 20,
+  "miyoSearchMaxVariants": 2,
   "relevantNotesLiveUpdate": true,
   "miyoServerUrl": "",
   "selfHostSearchProvider": "firecrawl",
@@ -357,7 +360,7 @@
   "parallelApiKey": "",
   "exaApiKey": "",
   "supadataApiKey": "",
-  "docProcessorBackend": "plus",
+  "enableMiyoDocumentProcessing": false,
   "enableLexicalBoosts": true,
   "suggestedDefaultCommands": true,
   "autonomousAgentEnabledToolIds": [
@@ -388,6 +391,7 @@
     "activeBackend": "opencode",
     "backends": {},
     "debugFullFrames": true,
+    "offerFeedbackCards": true,
     "notificationSound": true,
     "notificationSoundId": "piano",
     "welcomeDismissed": false,
@@ -395,9 +399,534 @@
       "folder": "copilot/skills"
     }
   },
-  "providers": {},
-  "configuredModels": [],
-  "backends": {},
+  "providers": {
+    "1ea17fea-5344-4e71-8e40-974aec733666": {
+      "providerType": "anthropic",
+      "displayName": "Claude",
+      "origin": {
+        "kind": "agent",
+        "agentType": "claude"
+      },
+      "requiresApiKey": false,
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "addedAt": 1793518147018,
+      "apiKeyKeychainId": null
+    }
+  },
+  "configuredModels": [
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "default",
+        "displayName": "Default (recommended)",
+        "description": "Use the default model (currently Opus 5.5) · $4/$20 per Mtok"
+      },
+      "configuredModelId": "f44395f5-ae55-4b1d-bbdb-0ddf1f3369d1",
+      "configuredAt": 1793518151645
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "opus",
+        "displayName": "Opus",
+        "description": "Opus 5.5 · Best for everyday, complex tasks · $4/$20 per Mtok"
+      },
+      "configuredModelId": "bf4221b9-b034-4313-8185-79c0cb62c6e4",
+      "configuredAt": 1793518151646
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "fable",
+        "displayName": "Fable",
+        "description": "Fable 5.1 · Most capable for your hardest and longest-running tasks · $10/$50 per Mtok"
+      },
+      "configuredModelId": "9f8e6dca-77ba-443d-9821-362579e70ba5",
+      "configuredAt": 1793518151646
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "sonnet",
+        "displayName": "Sonnet",
+        "description": "Sonnet 5.5 · Efficient for routine tasks · $2/$10 per Mtok"
+      },
+      "configuredModelId": "0752117c-042a-41fd-ae10-5f8b36cce948",
+      "configuredAt": 1793518151646
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "haiku",
+        "displayName": "Haiku",
+        "description": "Haiku 5.5 · Fastest for quick answers · $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100k)"
+      },
+      "configuredModelId": "43f483c9-2a51-48cb-88d8-cbde49b63ddc",
+      "configuredAt": 1793518151646
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gpt-6-1-sol",
+        "displayName": "Ferry GPT-6.1-Sol",
+        "description": "From gateway"
+      },
+      "configuredModelId": "77e12bd9-86e7-4b71-be7b-878183254c8c",
+      "configuredAt": 1793518151646
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gpt-6-1-sol-max[1m]",
+        "displayName": "Ferry GPT-6.1-Sol Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "7aa341a7-7eb3-46d0-9b09-d502b73f6aa6",
+      "configuredAt": 1793518151646
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gpt-6-astra",
+        "displayName": "Ferry GPT-6-Astra",
+        "description": "From gateway"
+      },
+      "configuredModelId": "e94efdf7-3ff9-4e6d-b08f-6bfaab62e391",
+      "configuredAt": 1793518151646
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gpt-6-astra-max[1m]",
+        "displayName": "Ferry GPT-6-Astra Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "e5db9cf9-7378-4937-9463-ad45bd6f8054",
+      "configuredAt": 1793518151646
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gpt-5-6-sol",
+        "displayName": "Ferry GPT-5.6-Sol",
+        "description": "From gateway"
+      },
+      "configuredModelId": "10728126-f524-4611-aed7-13db0e70bf01",
+      "configuredAt": 1793518151646
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gpt-5-6-sol-max[1m]",
+        "displayName": "Ferry GPT-5.6-Sol Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "15b1d963-dd37-43a3-8d73-71e6450cf329",
+      "configuredAt": 1793518151646
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gpt-5-6-terra",
+        "displayName": "Ferry GPT-5.6-Terra",
+        "description": "From gateway"
+      },
+      "configuredModelId": "ff1c3155-87c8-4080-89e7-ee124891e4e3",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gpt-5-6-terra-max[1m]",
+        "displayName": "Ferry GPT-5.6-Terra Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "fe676b84-b45e-48c9-89d8-274d67a34841",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gpt-5-6-luna",
+        "displayName": "Ferry GPT-5.6-Luna",
+        "description": "From gateway"
+      },
+      "configuredModelId": "6ff3e4d8-76f4-44e4-a172-0a3b2e1440de",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gpt-5-6-luna-max[1m]",
+        "displayName": "Ferry GPT-5.6-Luna Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "3f58bd44-74fb-4b0b-9f81-bf4797e316e4",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gpt-5-5",
+        "displayName": "Ferry GPT-5.5",
+        "description": "From gateway"
+      },
+      "configuredModelId": "aaa628ea-1609-46e3-9a1b-84c5989ad1fa",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gpt-5-5-max[1m]",
+        "displayName": "Ferry GPT-5.5 Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "43e084d8-47c0-4c5d-9543-8c1fd9ff2d2b",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gpt-5-4",
+        "displayName": "Ferry GPT-5.4",
+        "description": "From gateway"
+      },
+      "configuredModelId": "28639636-49f1-4bc7-9f17-effff174894f",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gpt-5-4-max[1m]",
+        "displayName": "Ferry GPT-5.4 Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "8d728694-0a5e-455d-8bbd-fc663100007d",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gpt-5-2",
+        "displayName": "Ferry GPT-5.2",
+        "description": "From gateway"
+      },
+      "configuredModelId": "ea439cde-b605-42e9-84d3-5da9cc3fd6cc",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-openrouter-4o",
+        "displayName": "Ferry Opus 5.5",
+        "description": "From gateway"
+      },
+      "configuredModelId": "d94fb281-5817-45c6-9493-544644a43388",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-openrouter-4o-max[1m]",
+        "displayName": "Ferry Opus 5.5 Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "3a03a929-702a-4e5f-9a55-edf6e9c3aa1f",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-openrouter-3o",
+        "displayName": "Ferry Opus 4.8",
+        "description": "From gateway"
+      },
+      "configuredModelId": "722bca75-9d80-4135-aa05-e684fd15e53d",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-openrouter-3o-max[1m]",
+        "displayName": "Ferry Opus 4.8 Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "d0b309f9-a406-4939-bd27-b79b29346fff",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-openrouter-2o",
+        "displayName": "Ferry Opus 4.7",
+        "description": "From gateway"
+      },
+      "configuredModelId": "ba11d511-cc1f-470e-bef4-da2538b40084",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-openrouter-2o-max[1m]",
+        "displayName": "Ferry Opus 4.7 Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "bf369309-5a1b-4331-9630-070e9d000b87",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-openrouter-1o",
+        "displayName": "Ferry Opus 4.6",
+        "description": "From gateway"
+      },
+      "configuredModelId": "cc02fc08-8bf1-45b3-a4ec-e72ff9ce2a55",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-openrouter-1o-max[1m]",
+        "displayName": "Ferry Opus 4.6 Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "37a1a41f-425d-456e-9ccd-1bf6c397f4c8",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-openrouter-1",
+        "displayName": "Ferry openrouter-1 (Opus)",
+        "description": "From gateway"
+      },
+      "configuredModelId": "09b53ed5-6a1b-43f4-8257-479faba1b551",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-openrouter-1-max[1m]",
+        "displayName": "Ferry openrouter-1 (Opus) Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "77e7a8ba-f4a1-4054-8ab1-f5fe0a785516",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-doubao-seed-evolving[1m]",
+        "displayName": "Ferry Seed-Evolving",
+        "description": "From gateway"
+      },
+      "configuredModelId": "9afbe30f-5c8d-40e7-9e30-b19a17c4b878",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-doubao-seed-2-1-pro",
+        "displayName": "Ferry Seed-2.1-Pro-0915",
+        "description": "From gateway"
+      },
+      "configuredModelId": "e7a30d94-3761-48a0-b45d-ec674aa3db98",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-doubao-seed-2-1-pro-max[1m]",
+        "displayName": "Ferry Seed-2.1-Pro-0915 Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "ea913e08-c936-424d-b872-e5a890869ff0",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-doubao-seed-2-1-turbo",
+        "displayName": "Ferry Seed-2.1-Turbo",
+        "description": "From gateway"
+      },
+      "configuredModelId": "e13cda63-9a70-419f-b96a-b55db146fa17",
+      "configuredAt": 1793518151647
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-seed-dogfooding-2-0",
+        "displayName": "Ferry Seed-Dogfooding-2.0",
+        "description": "From gateway"
+      },
+      "configuredModelId": "62e6bc1f-93f1-4446-8e50-22e6fdec408c",
+      "configuredAt": 1793518151648
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-doubao-seed-code",
+        "displayName": "Ferry Seed-Code",
+        "description": "From gateway"
+      },
+      "configuredModelId": "70fb0ed0-8714-40b2-86e5-75f17d30a7f9",
+      "configuredAt": 1793518151648
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-doubao-seed-code-max",
+        "displayName": "Ferry Seed-Code Max 200K",
+        "description": "From gateway"
+      },
+      "configuredModelId": "13e47dc3-50ea-49f1-8fe2-03639d610f23",
+      "configuredAt": 1793518151648
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-deepseek-v4-1-flash",
+        "displayName": "Ferry DeepSeek-V4.1-Flash",
+        "description": "From gateway"
+      },
+      "configuredModelId": "06e71441-2372-4eb7-bd2d-922cf5f78b99",
+      "configuredAt": 1793518151648
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-deepseek-v4-1-flash-max[1m]",
+        "displayName": "Ferry DeepSeek-V4.1-Flash Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "31b7fc19-0b4d-4ad2-a419-98fba127a087",
+      "configuredAt": 1793518151648
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-deepseek-v4-pro",
+        "displayName": "Ferry DeepSeek-V4-Pro",
+        "description": "From gateway"
+      },
+      "configuredModelId": "0a3406e4-8692-4a7c-ad59-d53d7fc92f3c",
+      "configuredAt": 1793518151648
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-deepseek-v4-pro-max[1m]",
+        "displayName": "Ferry DeepSeek-V4-Pro Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "77123ca6-6c70-49cf-9e03-7757c99e1c6c",
+      "configuredAt": 1793518151648
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-deepseek-v4-flash",
+        "displayName": "Ferry DeepSeek-V4-Flash",
+        "description": "From gateway"
+      },
+      "configuredModelId": "7cc624c9-dcea-45c4-8ca0-c5ca40d5ee2e",
+      "configuredAt": 1793518151648
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-deepseek-v4-flash-max[1m]",
+        "displayName": "Ferry DeepSeek-V4-Flash Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "827b1f21-39a1-421e-89d4-54d4af13d78f",
+      "configuredAt": 1793518151648
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gemini-3-1-pro",
+        "displayName": "Ferry Gemini-3.1-Pro-Preview",
+        "description": "From gateway"
+      },
+      "configuredModelId": "71c44d1f-4bf3-4014-b66e-d9a4224e8669",
+      "configuredAt": 1793518151648
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gemini-3-1-pro-max[1m]",
+        "displayName": "Ferry Gemini-3.1-Pro-Preview Max 1M",
+        "description": "From gateway"
+      },
+      "configuredModelId": "003d0812-366e-463c-9d12-cc4dadff036f",
+      "configuredAt": 1793518151648
+    },
+    {
+      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
+      "info": {
+        "id": "claude-gemini-3-flash",
+        "displayName": "Ferry Gemini-3-Flash-Preview",
+        "description": "From gateway"
+      },
+      "configuredModelId": "e2c0c576-ec3d-4eba-8a2a-2a6fe979e40d",
+      "configuredAt": 1793518151648
+    }
+  ],
+  "backends": {
+    "claude": {
+      "enabledModels": [
+        "f44395f5-ae55-4b1d-bbdb-0ddf1f3369d1",
+        "bf4221b9-b034-4313-8185-79c0cb62c6e4",
+        "9f8e6dca-77ba-443d-9821-362579e70ba5",
+        "0752117c-042a-41fd-ae10-5f8b36cce948",
+        "43f483c9-2a51-48cb-88d8-cbde49b63ddc",
+        "77e12bd9-86e7-4b71-be7b-878183254c8c",
+        "7aa341a7-7eb3-46d0-9b09-d502b73f6aa6",
+        "e94efdf7-3ff9-4e6d-b08f-6bfaab62e391",
+        "e5db9cf9-7378-4937-9463-ad45bd6f8054",
+        "10728126-f524-4611-aed7-13db0e70bf01",
+        "15b1d963-dd37-43a3-8d73-71e6450cf329",
+        "ff1c3155-87c8-4080-89e7-ee124891e4e3",
+        "fe676b84-b45e-48c9-89d8-274d67a34841",
+        "6ff3e4d8-76f4-44e4-a172-0a3b2e1440de",
+        "3f58bd44-74fb-4b0b-9f81-bf4797e316e4",
+        "aaa628ea-1609-46e3-9a1b-84c5989ad1fa",
+        "43e084d8-47c0-4c5d-9543-8c1fd9ff2d2b",
+        "28639636-49f1-4bc7-9f17-effff174894f",
+        "8d728694-0a5e-455d-8bbd-fc663100007d",
+        "ea439cde-b605-42e9-84d3-5da9cc3fd6cc",
+        "d94fb281-5817-45c6-9493-544644a43388",
+        "3a03a929-702a-4e5f-9a55-edf6e9c3aa1f",
+        "722bca75-9d80-4135-aa05-e684fd15e53d",
+        "d0b309f9-a406-4939-bd27-b79b29346fff",
+        "ba11d511-cc1f-470e-bef4-da2538b40084",
+        "bf369309-5a1b-4331-9630-070e9d000b87",
+        "cc02fc08-8bf1-45b3-a4ec-e72ff9ce2a55",
+        "37a1a41f-425d-456e-9ccd-1bf6c397f4c8",
+        "09b53ed5-6a1b-43f4-8257-479faba1b551",
+        "77e7a8ba-f4a1-4054-8ab1-f5fe0a785516",
+        "9afbe30f-5c8d-40e7-9e30-b19a17c4b878",
+        "e7a30d94-3761-48a0-b45d-ec674aa3db98",
+        "ea913e08-c936-424d-b872-e5a890869ff0",
+        "e13cda63-9a70-419f-b96a-b55db146fa17",
+        "62e6bc1f-93f1-4446-8e50-22e6fdec408c",
+        "70fb0ed0-8714-40b2-86e5-75f17d30a7f9",
+        "13e47dc3-50ea-49f1-8fe2-03639d610f23",
+        "06e71441-2372-4eb7-bd2d-922cf5f78b99",
+        "31b7fc19-0b4d-4ad2-a419-98fba127a087",
+        "0a3406e4-8692-4a7c-ad59-d53d7fc92f3c",
+        "77123ca6-6c70-49cf-9e03-7757c99e1c6c",
+        "7cc624c9-dcea-45c4-8ca0-c5ca40d5ee2e",
+        "827b1f21-39a1-421e-89d4-54d4af13d78f",
+        "71c44d1f-4bf3-4014-b66e-d9a4224e8669",
+        "003d0812-366e-463c-9d12-cc4dadff036f",
+        "e2c0c576-ec3d-4eba-8a2a-2a6fe979e40d"
+      ]
+    }
+  },
   "copilotPlusCatalog": {
     "models": [
       {
@@ -426,10 +955,7 @@
         "description": "A frontier open-weight model.",
         "toolCall": true,
         "reasoning": true,
-        "reasoningEfforts": [
-          "none",
-          "high"
-        ],
+        "reasoningEfforts": [],
         "modalities": {
           "input": [
             "text"
@@ -487,10 +1013,7 @@
         "description": "The July 2026 DeepSeek V4 Flash snapshot: fast, cheap, and broadly capable.",
         "toolCall": true,
         "reasoning": true,
-        "reasoningEfforts": [
-          "none",
-          "high"
-        ],
+        "reasoningEfforts": [],
         "modalities": {
           "input": [
             "text"
@@ -572,6 +1095,7 @@
       "minimax-m3"
     ]
   },
+  "docProcessorBackend": "plus",
   "autoAddActiveContentToContext": true,
   "temperature": 0.1,
   "generateAIChatTitleOnSave": true,
@@ -587,5 +1111,5 @@
   "autoAddSelectionToContext": false,
   "miyoConnectionMode": "local",
   "_keychainVaultId": "04bdca4a",
-  "settingsVersion": 14
+  "settingsVersion": 16
 }
