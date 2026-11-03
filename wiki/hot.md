@@ -8,10 +8,12 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-11-03T18:51:25+0800
+updated: 2026-11-03T23:53:58+0800
 ---
 
 ## Recent Activity
+
+- 2026-11-03T23:53:58+08:00 — 已捕获 [[wiki/concepts/Culture Civilization and Institutions|文化、文明与制度]]：文化提供共享意义与正当性，制度把意义转成可执行的规则和后果；二者通过行为经验形成反馈，文明则检验这一整体能否跨代协作、约束力量并持续纠错。
 
 - 2026-11-03T18:51:25+08:00 — 已更新 [[wiki/concepts/工程复杂度共同结构]]：认知有限首先造成模型与现实的认识裂缝，分解与抽象是认知回应；局部影响扩散造成控制裂缝，模块化、接口、契约与隔离是结构回应。并将原先平铺的设计词汇改成“动作—结构—规则—机制—质量目标—总体组织”的层级链。
 
@@ -228,6 +230,8 @@ updated: 2026-11-03T18:51:25+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 文化回答什么正当，制度规定什么会真实发生，文明检验二者耦合后的秩序是否既能组织协作，也能约束力量、保护尊严并修复错误；稳定本身不等于文明。^[inferred]
 
 - 认知有限首先解释为什么心智模型不完整，也直接推动分解；但模块化还来自局部影响会扩散这一控制问题。分解是认知动作，模块化是结构回应，二者在边界设计处汇合。^[inferred]
 

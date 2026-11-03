@@ -12,7 +12,7 @@ base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-10-11T23:28:02+08:00
+updated: 2026-11-03T23:53:58+0800
 aliases:
   - 管理地图
 tags:
@@ -43,6 +43,7 @@ provenance:
 - [[wiki/concepts/Feedback Impact Levels]] — 反馈随影响从单次内容推进到重复模式、合作关系。
 
 - [[wiki/concepts/Institution as Consequence Structure|制度作为后果结构]] — 用资格、程序、奖惩和执行解释制度如何进入人的选择，并稳定塑造组织行为。
+- [[wiki/concepts/Culture Civilization and Institutions|文化、文明与制度]] — 区分共享意义、规则后果与总体文明能力，并解释文化正当性和制度经验如何共同塑造组织行为。
 - [[wiki/concepts/Cynefin Framework]]
 - [[wiki/concepts/Iceberg Model]]
 - [[wiki/topics/Mental Models]]
