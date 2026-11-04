@@ -1,19 +1,17 @@
 ---
 title: Hot Cache
 category: meta
-summary: 产品经理的核心职能是在有限资源和不完整信息下选择值得解决的问题，组织共同取舍，并让真实结果持续校正产品方向。
+summary: 软件工程复杂度主线已区分认知分解与结构模块化：认知有限要求切小问题，影响扩散要求建立边界。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-11-04T00:07:26+0800
+updated: 2026-11-03T23:53:58+0800
 ---
 
 ## Recent Activity
-
-- 2026-11-04T00:07:26+08:00 — 已捕获 [[wiki/concepts/Product Manager Core Function|产品经理的核心职能]]：产品经理不是需求管理员，而是在有限资源下选择值得解决的问题、组织跨职能取舍，并让真实反馈修正下一轮产品决策。
 
 - 2026-11-03T23:53:58+08:00 — 已捕获 [[wiki/concepts/Culture Civilization and Institutions|文化、文明与制度]]：文化提供共享意义与正当性，制度把意义转成可执行的规则和后果；二者通过行为经验形成反馈，文明则检验这一整体能否跨代协作、约束力量并持续纠错。
 
@@ -232,8 +230,6 @@ updated: 2026-11-04T00:07:26+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
-
-- 产品经理的核心产出不是需求文档或功能数量，而是更可靠的产品选择：为谁解决什么、为何现在做、哪些不做，以及什么证据会改变当前决定。^[inferred]
 
 - 文化回答什么正当，制度规定什么会真实发生，文明检验二者耦合后的秩序是否既能组织协作，也能约束力量、保护尊严并修复错误；稳定本身不等于文明。^[inferred]
 

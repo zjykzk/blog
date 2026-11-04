@@ -93,7 +93,6 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
-- [[wiki/concepts/Product Manager Core Function|产品经理的核心职能]] — 产品经理判断为谁解决什么问题，组织跨职能取舍，并通过真实反馈持续修正产品方向。 (#product #decision-making #organization #feedback)
 - [[wiki/concepts/Culture Civilization and Institutions|文化、文明与制度]] — 文化提供共享意义，制度把意义变成稳定规则与后果；二者通过行为反馈共同决定社会能否形成约束力量、保护尊严并持续纠错的文明秩序。 ( #organization #systems #mechanism #thinking)
 - [[wiki/concepts/Third Party Authentication|第三方登录认证]] — 外部平台确认账户身份，网站核验结果后建立本地会话；区分 OAuth 授权、OIDC 身份认证与业务权限。 (#software-engineering #architecture #mechanism)
 - [[wiki/concepts/Context Pointer|Context Pointer]] — 当前上下文中指向外部材料并说明读取条件的路由提示，支持按任务分支加载参考。 ( #agents #context #skills #workflow)
