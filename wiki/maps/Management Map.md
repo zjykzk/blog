@@ -12,7 +12,7 @@ base_confidence: 0.57
 lifecycle: draft
 lifecycle_changed: 2026-05-05
 source_count: 4
-updated: 2026-11-03T23:53:58+0800
+updated: 2026-11-04T00:07:26+0800
 aliases:
   - 管理地图
 tags:
@@ -38,6 +38,8 @@ provenance:
 - [[wiki/topics/Wealth Creation]]
 
 ## Concepts and frameworks
+
+- [[wiki/concepts/Product Manager Core Function|产品经理的核心职能]] — 在有限资源和不完整信息下判断为谁解决什么问题，组织取舍，并用真实反馈修正方向。
 
 - [[wiki/concepts/Context-Situation-Behaviour-Impact|CSBI]] — 先问情境，再说清场景、行为和感知影响，并邀请共同找办法。
 - [[wiki/concepts/Feedback Impact Levels]] — 反馈随影响从单次内容推进到重复模式、合作关系。
