@@ -1,6 +1,12 @@
 {
   "version": 1,
   "skills": {
+    "answer-me-with-html": {
+      "source": "QingYunA/answer-me-with-html",
+      "sourceType": "github",
+      "skillPath": "skills/answer-me-with-html/SKILL.md",
+      "computedHash": "fcde5e8add3eeabf088349a9ef722611e1d0b15298877f8fb76df032b23754b1"
+    },
     "claude-history-ingest": {
       "source": "Ar9av/obsidian-wiki",
       "sourceType": "github",

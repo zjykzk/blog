@@ -303,6 +303,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/From Senior Engineer to Tech Leader|From Senior Engineer to Tech Leader]] — 高级工程师走向 Tech Leader 的核心不是扩大个人解题量，而是让架构可演进、团队判断可扩散，并把技术投入持续对齐高杠杆问题。 ( #leadership #engineering #architecture #career)
 - [[wiki/syntheses/Hypnosis and Unconscious Curriculum for Product Managers|面向产品经理的催眠与潜意识经典教材]] — 从去魅、竞争理论和现代无意识出发，把经典教材转译为用户研究、行为设计、产品实验与伦理红队的 8 周学习路线。 ( #product #psychology #hypnosis #behavioral-design #ethics)
 - [[wiki/syntheses/AI Agent Three Paradoxes|AI Agent 三重悖论]] — 记忆选择、推理脚手架与自我改进验证器相互依赖；成熟 Agent 需要让三者共同接受外部现实、独立验证与回滚约束。 ( #synthesis #agents #memory #harness #feedback)
+- [[wiki/syntheses/Agent Harness Loop and Goal Implementations]] — 区分 tool、goal、recurring 三层循环，并把 operational goal 表示为意图、完成定义、持久状态、verifier 与 authority；authority 决定谁有权让完成判断、批准、取消与重排真正生效。 (#agents #harness #control-loop #goal)
 - [[wiki/syntheses/Rank Reduction as Generative Model Discovery|降秩方法的底层原理与有效边界]] — 降秩把复杂领域建模为由少数隐藏机制生成的现象空间，再用逐层下沉、消融、反生成、外推和结构同构寻找最小解释骨架。 ( #thinking #reasoning #mechanism #skills #judgment)
 - [[wiki/syntheses/Programming Language Three Operations|编程语言的秩：压缩、裁决与展开]] — 编程语言把人的意图压成符号，用规则裁定符号的去路，再把符号展开成机器事件；抽象是保留任务相关结构的有损压缩机制。 ( #software-engineering #systems #thinking #mechanism)
 - [[wiki/syntheses/偏好之外 节日回应与人的形成|偏好之外：节日、回应与人的形成]] — 节日把连续时间变成可纪念、可同步、可回应的生命结构；成熟回应以真实、痛苦、托付、给予、承诺、潜能和有限性为对象。 (#thinking #cognition #judgment #reasoning)

@@ -394,7 +394,6 @@
     "offerFeedbackCards": true,
     "notificationSound": true,
     "notificationSoundId": "piano",
-    "welcomeDismissed": false,
     "skills": {
       "folder": "copilot/skills"
     }
@@ -612,26 +611,6 @@
         "description": "From gateway"
       },
       "configuredModelId": "ea439cde-b605-42e9-84d3-5da9cc3fd6cc",
-      "configuredAt": 1793518151647
-    },
-    {
-      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
-      "info": {
-        "id": "claude-openrouter-4o",
-        "displayName": "Ferry Opus 5.5",
-        "description": "From gateway"
-      },
-      "configuredModelId": "d94fb281-5817-45c6-9493-544644a43388",
-      "configuredAt": 1793518151647
-    },
-    {
-      "providerId": "1ea17fea-5344-4e71-8e40-974aec733666",
-      "info": {
-        "id": "claude-openrouter-4o-max[1m]",
-        "displayName": "Ferry Opus 5.5 Max 1M",
-        "description": "From gateway"
-      },
-      "configuredModelId": "3a03a929-702a-4e5f-9a55-edf6e9c3aa1f",
       "configuredAt": 1793518151647
     },
     {
@@ -898,8 +877,6 @@
         "28639636-49f1-4bc7-9f17-effff174894f",
         "8d728694-0a5e-455d-8bbd-fc663100007d",
         "ea439cde-b605-42e9-84d3-5da9cc3fd6cc",
-        "d94fb281-5817-45c6-9493-544644a43388",
-        "3a03a929-702a-4e5f-9a55-edf6e9c3aa1f",
         "722bca75-9d80-4135-aa05-e684fd15e53d",
         "d0b309f9-a406-4939-bd27-b79b29346fff",
         "ba11d511-cc1f-470e-bef4-da2538b40084",

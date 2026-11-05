@@ -35,7 +35,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 21
-updated: 2026-11-03T00:49:22+0800
+updated: 2026-11-03T18:53:23+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -180,6 +180,7 @@ tags:
 - [[wiki/syntheses/Agent Knowledge Architecture]] — 把事实/程序的最小行动闭环扩展成 Agent 的九类知识分工，并用时间尺度和执行强度决定检索、状态、Skill、Policy 与 Harness 的落点。
 - [[wiki/syntheses/AI Agent Engineering Learning Path]] — 把 Agent control loop、ETCLOVG harness、轨迹评测、context、memory、Skill 与 multi-agent 组织成一条可执行的 12 周工程学习路线。
 - [[wiki/syntheses/AI Agent Three Paradoxes|AI Agent 三重悖论]] — 把记忆选择、推理脚手架与自我改进验证器放进同一个循环依赖模型，并把外部接地视为共同破局点。
+- [[wiki/syntheses/Agent Harness Loop and Goal Implementations]] — 对比 Claude Code、Codex 与 pi 的 tool、goal、recurring loop，并区分 verifier 的事实判断与 authority 的状态转换权。
 - [[wiki/syntheses/Agent as Problem-Solving System]] — 把大模型定位为问题求解系统里的推理引擎之一，用目标+状态+记忆+检索+推理+规划+行动+反馈的统一闭环，将问题求解重述为状态空间搜索与不确定性收窄。
 
 ## Source notes

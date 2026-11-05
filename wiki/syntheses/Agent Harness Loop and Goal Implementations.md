@@ -2,12 +2,21 @@
 title: Agent Harness Loop and Goal Implementations
 type: synthesis
 status: draft
-updated: 2026-11-02
+category: syntheses
+created: 2026-11-02
+updated: 2026-11-03T18:53:23+0800
+base_confidence: 0.90
+lifecycle: draft
+lifecycle_changed: 2026-11-02
+provenance:
+  extracted: 0.86
+  inferred: 0.14
+  ambiguous: 0.00
 aliases:
   - Agent Harness 中 Loop 与 Goal 的实现原理
   - Coding Agent Loop and Goal
   - Agent 循环与目标实现
-summary: Claude Code、OpenAI Codex 与 pi 分别用 evaluator condition、provenance goal context 和 transcript state 实现目标连续性，而 tool loop、goal loop 与 recurring loop 属于不同控制层。
+summary: Claude Code、OpenAI Codex 与 pi 用不同机制维持目标连续性；tool、goal、recurring loop 属于不同控制层，authority 决定谁有权让完成判断、批准、取消与重排真正生效。
 tags:
   - agents
   - harness
@@ -18,6 +27,7 @@ sources:
   - https://code.claude.com/docs/en/scheduled-tasks.md
   - https://github.com/openai/codex
   - https://github.com/earendil-works/pi
+  - conversation:2026-11-03
 ---
 
 # Agent Harness Loop and Goal Implementations
@@ -58,6 +68,27 @@ Goal 也不是必须存在的类。更一般的表示是：
 `G = <I, D, S, V, A>`
 
 其中 `I` 是原始意图，`D` 是 definition of done 与约束，`S` 是持久进度状态，`V` 是 verifier 或继续谓词，`A` 是能够宣告完成、批准、取消或重排的 authority。只有 prompt 时，模型隐式估计 `D` 与 `V`；goal loop 显式化 `V`；长任务 harness 外置 `S`；安全边界显式化 `A`。
+
+#### Why Authority Is Separate from Verification
+
+`V` 与 `A` 回答不同问题。`V` 判断完成条件是否成立，并产出证据或 verdict；`A` 决定这个判断是否有权引发状态转换。`tests_passed = true` 属于验证事实，`merge_allowed = true` 属于授权决定。即使 verifier 判断技术条件已经满足，系统仍可能停在等待发布、付款、发送或合并批准的状态。
+
+| 状态转换 | `V` 提供的判断或证据 | `A` 决定的权限 |
+|---|---|---|
+| 宣告完成 | 测试通过、产物存在、条件满足 | 是否清除 goal、关闭任务、合并或发布 |
+| 执行高风险动作 | 前置条件满足、动作可行 | 是否允许部署、发送、付款或修改生产状态 |
+| 取消或暂停 | evaluator 仍可能判断“尚未完成” | 用户、预算控制器或策略仍可停止运行 |
+| 重排下一轮 | 任务仍有剩余工作 | 谁能改变 cadence、截止时间或下次唤醒 |
+
+Authority 之所以必须显式存在，有五个原因：
+
+- **防止自我认证。** 执行任务的 agent 可以提交完成证据，但不应仅凭“我完成了”就关闭目标。
+- **隔离不可逆副作用。** 完成判定不自动授予部署、发布、发送或支付权限。
+- **保护目标完整性。** 工具结果、prompt injection 或子 agent 不应伪造用户目标或修改完成权限；Codex 将 user goal 与自动 continuation 分开，正是在保存这种 provenance 边界。
+- **保留人工接管与资源治理。** 用户、预算控制器或安全策略可以在 verifier 要求继续时暂停或取消任务。
+- **建立可审计责任。** 系统需要记录谁批准、取消、改期或宣告完成，而不只记录 evaluator 给出的结论。
+
+如果只描述目标的语义内容，`G = <I, D>` 已经可以表达“想达到什么”。这里把 `A` 纳入五元组，是因为建模对象是会长期运行、消耗资源并可能产生外部副作用的 **operational goal contract**。没有 `A`，harness 会把“评价结果”与“控制权”折叠为同一件事，使任何能输出 verdict 的组件同时获得终止任务或授权副作用的权力。^[inferred]
 
 ### 2. Claude Code：Evaluator Goal Loop 与 Session Scheduler
 
