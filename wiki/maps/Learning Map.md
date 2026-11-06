@@ -15,7 +15,7 @@ created: 2026-04-26
 base_confidence: 0.32
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-11-01T22:57:50+0800
+updated: 2026-11-07T01:34:33+0800
 aliases:
   - 学习地图
 provenance:
@@ -58,6 +58,7 @@ provenance:
 
 ## 跨源综合
 
+- [[wiki/syntheses/Personal Capability Training System|个人能力训练系统]]——以真实项目为训练载体，把身体、注意力、判断、人机协作、反馈、关系与复利资产组织成同一条长期闭环
 - [[wiki/syntheses/Cognition Functional Framework|认知功能框架]]——用双向联系理解感知、记忆、推理与行动，区分执行控制、元认知和主观体验，并保留六层图的评审与修订图表
 
 - [[wiki/syntheses/From Senior Engineer to Tech Leader]]——把 Learning to Learn 转成高级工程师的系统演进、团队能力扩散和技术投资三条长期问题

@@ -1,17 +1,19 @@
 ---
 title: Hot Cache
 category: meta
-summary: 产品经理的核心职能是在有限资源和不完整信息下选择值得解决的问题，组织共同取舍，并让真实结果持续校正产品方向。
+summary: 个人能力应由真实项目统一训练；身体供能、注意力配置、现实反馈与资产沉淀构成长期进化闭环。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-11-06T22:02:33+0800
+updated: 2026-11-07T01:34:33+0800
 ---
 
 ## Recent Activity
+
+- 2026-11-07T01:34:33+08:00 — 已捕获 [[wiki/syntheses/Personal Capability Training System|个人能力训练系统]]：用一个真实项目统一训练主体性、判断、人机协作、交付、反馈、关系与资产化，并以身体供能、注意力配置、现实反馈和资产沉淀维持长期闭环。
 
 - 2026-11-06T22:02:33+08:00 — 已更新 [[wiki/concepts/Mechanism Model|机制模型]]：从结果产生与产生条件持续存在推导六项职责，补入团队救火示例与反事实检验；同步校准 [[wiki/concepts/Feedback Loops|反馈回路]]，明确重复不必来自反馈。
 
@@ -236,6 +238,8 @@ updated: 2026-11-06T22:02:33+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 个人能力训练不应退化为彼此孤立的习惯打卡。真实项目提供共同约束和外部检验；身体提供稳定输入，注意力决定资源流向，现实反馈校准判断，知识、工具、信誉与关系沉淀则让每轮劳动降低下一轮成本。
 
 - “为什么总是这样”要同时解释结果怎样产生、产生条件为何持续存在；重复不证明自我强化，激励不包办全部行为，时间还包含延迟、积累、顺序与历史。六项是可检验解释的检查表，不是唯一完备的世界分类。
 
