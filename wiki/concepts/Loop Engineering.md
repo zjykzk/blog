@@ -21,7 +21,8 @@ relationships:
 sources:
   - https://www.langchain.com/blog/the-art-of-loop-engineering
   - https://cdn.openai.com/pdf/8a9f00cf-d379-4e20-b06f-dd7ba5196a11/OAI_WhitePaper_Codex-maxxing26.pdf
-summary: Loop Engineering stacks execution, verification, event-triggering, trace-driven improvement, memory, review, and artifact loops around an agent so value compounds beyond one model call.
+  - https://drive.google.com/file/d/1qzKI4DKnyHRpXK1J3ATPqwaqLc0iNu-M/view
+summary: Loop Engineering turns one Agent run into a recurring system through task discovery, isolated execution, independent verification, persistent state, triggering, and human-governed constraints.
 provenance:
   extracted: 0.78
   inferred: 0.22
@@ -31,7 +32,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04T23:00:06+0800
-updated: 2026-07-07T21:07:28+08:00
+updated: 2026-11-07T01:51:41+0800
 ---
 
 # Loop Engineering
@@ -48,6 +49,24 @@ Loop Engineering 是把 agent 从“模型调用工具的一次性执行”推�
 [[wiki/sources/Codex Maxxing for Long Running Work Source Guide]] 给这组循环补了一个产品化样例：长期线程承载上下文，memory vault 记录滚动状态，thread automation 周期性唤醒同一工作流，strong goal 提供完成判据，side panel 让 artifact 成为下一轮上下文。这里的 loop 不只是 agent 内部执行循环，而是“工作有地方住、能被人审查、能在变化后回来继续”的 operating loop。^[inferred]
 
 这四层不是并列功能清单，而是由内向外扩张的控制系统：内层负责把事做完，外层负责让做完的事更可靠、更自动、更会学习。^[inferred]
+
+## Five Moves and Six Parts
+
+[[wiki/sources/Loop Engineering Anthropic Playbook Source Guide|《Loop Engineering: The Anthropic Playbook》]] 从一次循环内部提出另一种分解：
+
+1. **Discovery** 选择本轮值得做的工作。
+2. **Handoff** 把有边界的任务交给隔离执行环境。
+3. **Verification** 让独立检查者依据证据接受或否决结果。
+4. **Persistence** 把进度、证据与未决项写出上下文窗口。
+5. **Scheduling** 用时间或事件重新触发下一轮。
+
+五项分别回答“做什么、谁来做、是否正确、下轮记得什么、何时再运行”。删除任一项，系统会退化为 blind、tangled、nodding、amnesiac 或 manual loop。它因此是软件 Agent 场景中的近似最小操作集，但不是形式化证明出的唯一分类。^[inferred]
+
+文档再用六个部件实现这些动作：Automations、Worktrees、Skills、Connectors、Sub-agents 和 Memory。部件比动作多一项，因为 Skills 与 Connectors 都服务 Discovery，而 Connectors 又跨越 Discovery 与 Persistence。
+
+六部件不是本体论上的最小集。Worktree、Skill、Connector 和 Sub-agent 都受当前软件开发工具链影响，可以由沙箱、策略服务、事件队列、确定性检查器或人工 reviewer 替换。^[inferred] 文档后面的首个循环检查表又加入 Token cap 与 Human review，说明六部件描述运行骨架，不覆盖全部治理。^[inferred]
+
+真正不可缺的不是固定名词数量，而是五类约束得到回答：任务来源、执行边界、否决机制、跨轮状态和再次触发。^[inferred]
 
 ## Why It Matters
 
@@ -74,6 +93,7 @@ Loop Engineering 不等于把人排除出系统。文章把人放在几个判断
 
 ## Related
 
+- [[wiki/sources/Loop Engineering Anthropic Playbook Source Guide]]
 - [[wiki/sources/The Art of Loop Engineering Source Guide]]
 - [[wiki/sources/Codex Maxxing for Long Running Work Source Guide]]
 - [[wiki/topics/AI Harness]]

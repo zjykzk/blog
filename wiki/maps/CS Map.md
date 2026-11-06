@@ -20,12 +20,13 @@ sources:
   - https://arxiv.org/abs/2610.14224
   - https://mp.weixin.qq.com/s/-krMZiLCBJ25NFJk9tlcAg
   - https://raw.githubusercontent.com/mattpocock/skills/refs/heads/main/skills/engineering/retro/SKILL.md
+  - https://drive.google.com/file/d/1qzKI4DKnyHRpXK1J3ATPqwaqLc0iNu-M/view
 created: 2026-04-21
 base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-source_count: 19
-updated: 2026-11-03T18:51:25+0800
+source_count: 20
+updated: 2026-11-07T01:51:41+0800
 aliases:
   - Computer Science Map
 tags:
@@ -140,6 +141,7 @@ tags:
 - [[wiki/sources/Building and Deploying AI Applications Source Guide]] — AI 系统开发由固定实现计划转向根据 traces、eval 与生产反馈选择下一项模型、数据或架构干预。
 - [[wiki/sources/Dream-RSI Paper Source Guide|Dream-RSI Paper Source Guide]] — 用探索策略改进程序发现的质量与调用量，在 Lasso 和 GPU 优化中区分发现成本、程序性能及逐项回退。
 - [[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide|Harness² Paper Source Guide]] — 用同题试跑筛选可执行配置的修改，用预算控制搜索；跨任务保存修改证据与适用条件，新任务仍从基础 harness 起步，正确性另需验证。
+- [[wiki/sources/Loop Engineering Anthropic Playbook Source Guide]] — 把无人值守软件 Agent 拆成任务发现、隔离执行、独立验证、持久状态和再次触发，并区分功能职责与工具实现。
 
 - [[wiki/sources/The Art of Doing Science and Engineering Source Guide]] — 汉明关于思维风格、系统工程、度量和重要问题的工程职业 source guide。
 - [[wiki/sources/Kimball Dimensional Modeling Techniques Source Guide]] — Kimball Group 2013 technique catalog: four-step design process, grain, fact/dimension patterns, conformed dimensions, SCD types, hierarchy handling, and special schemas.

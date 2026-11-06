@@ -8,10 +8,12 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-11-07T01:34:33+0800
+updated: 2026-11-07T01:51:41+0800
 ---
 
 ## Recent Activity
+
+- 2026-11-07T01:51:41+08:00 — 已收录 [[wiki/sources/Loop Engineering Anthropic Playbook Source Guide|Loop Engineering: The Anthropic Playbook]]，并更新 [[wiki/concepts/Loop Engineering]]：五动作是选定粒度下的近似最小功能集，六部件则是受软件工具链影响的可替换参考架构；运行骨架之外仍需预算、人工入口和独立否决权。
 
 - 2026-11-07T01:34:33+08:00 — 已捕获 [[wiki/syntheses/Personal Capability Training System|个人能力训练系统]]：用一个真实项目统一训练主体性、判断、人机协作、交付、反馈、关系与资产化，并以身体供能、注意力配置、现实反馈和资产沉淀维持长期闭环。
 
@@ -238,6 +240,8 @@ updated: 2026-11-07T01:34:33+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- Loop Engineering 的五动作通过删除测试获得较强的操作完备性：缺少任务发现、执行边界、独立验证、跨轮状态或再次触发，都会退化成特定失败模式。六部件没有同等地位，它们是当前工具生态的实现映射，可被其他机制替换，也没有覆盖预算与人工治理。^[inferred]
 
 - 个人能力训练不应退化为彼此孤立的习惯打卡。真实项目提供共同约束和外部检验；身体提供稳定输入，注意力决定资源流向，现实反馈校准判断，知识、工具、信誉与关系沉淀则让每轮劳动降低下一轮成本。
 

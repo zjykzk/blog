@@ -26,6 +26,7 @@ sources:
   - https://arxiv.org/abs/2610.14224
   - https://mp.weixin.qq.com/s/-krMZiLCBJ25NFJk9tlcAg
   - https://raw.githubusercontent.com/mattpocock/skills/refs/heads/main/skills/engineering/retro/SKILL.md
+  - https://drive.google.com/file/d/1qzKI4DKnyHRpXK1J3ATPqwaqLc0iNu-M/view
 created: 2026-05-04
 base_confidence: 0.94
 lifecycle: draft
@@ -34,8 +35,8 @@ provenance:
   extracted: 0.90
   inferred: 0.10
   ambiguous: 0.00
-source_count: 21
-updated: 2026-11-03T18:53:23+0800
+source_count: 22
+updated: 2026-11-07T01:51:41+0800
 aliases:
   - 项目/AI
   - AI Hub
@@ -62,7 +63,7 @@ tags:
 - [[wiki/concepts/Confusion Matrix]] — 交叉统计标准结论与 Agent 判断，展开漏报、误伤、错误拒判和过度裁决的方向。
 - [[wiki/concepts/Agentic AI Architecture Taxonomy]]
 - [[wiki/concepts/Agentic Control Loop]]
-- [[wiki/concepts/Loop Engineering]] — 把 agent 执行、验证、事件触发和 trace-driven 改进叠成生产级 agent 系统的循环工程。
+- [[wiki/concepts/Loop Engineering]] — 用任务发现、隔离执行、独立验证、持久状态和再次触发，把单次 Agent 运行变成可治理的多轮系统。
 - [[wiki/concepts/Long-Running Agent Harness]] — 用初始化角色（任务清单+环境）与执行角色（逐 feature 增量推进+留 git/进度/清单工件）让 agent 跨多个上下文窗口接力完成长任务。
 - [[wiki/concepts/Event-Driven Agent Loop]] — 用 cron、webhook、schedule 或 channel 把 agent 接入业务生态并自动唤醒。
 - [[wiki/concepts/Agent Tool]]
@@ -248,6 +249,7 @@ tags:
 - [[wiki/sources/Team AI Coding Harness Seminar Source Guide]]
 - [[wiki/sources/The Bitter Lesson Source Guide]] — Rich Sutton 1997/2019 经典短文：能随算力扩展的通用方法（search、learning）长期压过内置的人类知识。
 - [[wiki/sources/The Art of Loop Engineering Source Guide]] — LangChain 文章：agent 生产力价值来自多层循环叠加，而不只是模型能力。
+- [[wiki/sources/Loop Engineering Anthropic Playbook Source Guide]] — 五动作与六部件的工作笔记；区分近似最小的功能动作和可替换的工具实现，并保留治理与证据边界。
 - [[wiki/sources/AI Evals FAQ Source Guide]] — 从真实 traces 生成 failure taxonomy、rubric 和可信 evaluator，再把生产失败回流为回归检查与产品改进。
 - [[wiki/sources/Agent Benchmark Landscape Research Report Source Guide]] — 42 来源 Agent benchmark 地图，区分构念、环境、grader 与版本，并给出静态回归、fresh/OOD 和私有 canary 三层组合。
 - [[wiki/sources/AI Engineering Skills Map Source Guide]] — Andrew Ng 的四项 AI 工程能力：AI 应用交付、软件工程基础、coding agent 使用与 shaping the build；持续学习负责更新整套能力。
