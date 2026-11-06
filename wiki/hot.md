@@ -8,10 +8,12 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-11-04T00:07:26+0800
+updated: 2026-11-06T22:02:33+0800
 ---
 
 ## Recent Activity
+
+- 2026-11-06T22:02:33+08:00 — 已更新 [[wiki/concepts/Mechanism Model|机制模型]]：从结果产生与产生条件持续存在推导六项职责，补入团队救火示例与反事实检验；同步校准 [[wiki/concepts/Feedback Loops|反馈回路]]，明确重复不必来自反馈。
 
 - 2026-11-04T00:07:26+08:00 — 已捕获 [[wiki/concepts/Product Manager Core Function|产品经理的核心职能]]：产品经理不是需求管理员，而是在有限资源下选择值得解决的问题、组织跨职能取舍，并让真实反馈修正下一轮产品决策。
 
@@ -234,6 +236,8 @@ updated: 2026-11-04T00:07:26+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- “为什么总是这样”要同时解释结果怎样产生、产生条件为何持续存在；重复不证明自我强化，激励不包办全部行为，时间还包含延迟、积累、顺序与历史。六项是可检验解释的检查表，不是唯一完备的世界分类。
 
 - 产品经理的核心产出不是需求文档或功能数量，而是更可靠的产品选择：为谁解决什么、为何现在做、哪些不做，以及什么证据会改变当前决定。^[inferred]
 

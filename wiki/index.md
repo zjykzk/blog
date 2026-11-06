@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-11-03T23:53:58+0800
+updated: 2026-11-06T22:02:33+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -253,7 +253,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/Autoregressive Decoding|Autoregressive Decoding]] — Autoregressive decoding generates one token at a time because each newly sampled token becomes part of the context for the next step. (#llm #inference #decoding)
 - [[wiki/concepts/Neural Network Inference Boundary|Neural Network Inference Boundary]] — The neural-network inference boundary separates learned tensor computation from surrounding traditional control-flow code. (#llm #inference #systems)
 - [[wiki/concepts/Lost in the Middle Effect|Lost in the Middle Effect]] — The lost-in-the-middle effect is the long-context failure mode where models use information best at the beginning or end and worse in the middle. (#llm #context #evaluation)
-- [[wiki/concepts/Mechanism Model|Mechanism Model]] — 机制模型用结果、变量、约束、激励、反馈和时间解释现象为什么被稳定生成，并用六个要素的不同职责暴露解释缺口。 (#thinking #systems #judgment #mechanism)
+- [[wiki/concepts/Mechanism Model|Mechanism Model]] — 从结果产生、可行选择、行为选择和状态演化推导六项分析职责；区分重复与反馈，以反事实预期检验机制解释。 ( #thinking #systems #judgment #mechanism)
 - [[wiki/concepts/囚徒困境]] — 囚徒困境说明在缺少信任、承诺、惩罚、重复和信息透明时，个体理性的局部最优会共同生成集体次优。 (#systems-thinking #mechanism #judgment #cooperation)
 - [[wiki/concepts/Meta-Harness|Meta-Harness]] — Meta-Harness searches over executable LLM harness code using a coding-agent proposer with access to prior code, scores, and traces. (#agents #harness #optimization)
 - [[wiki/concepts/Skill Self-Evolution|Skill Self-Evolution]] — Skill self-evolution improves agent skills by generating boundary tasks, optimizing instructions or code, executing comparisons, and evaluating traceable results. (#agents #skills #optimization)

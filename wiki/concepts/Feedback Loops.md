@@ -6,6 +6,7 @@ category: concepts
 summary: Feedback loops are system structures where results flow back to influence future causes, creating growth, stability, or oscillation.
 tags: []
 sources:
+  - conversation:2026-11-06
   - https://martinfowler.com/articles/healthy-peer-feedback.html
   - https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html
   - https://donellameadows.org/wp-content/userfiles/iceberg-model.pdf
@@ -19,7 +20,7 @@ provenance:
   extracted: 0.88
   inferred: 0.12
   ambiguous: 0.0
-updated: 2026-10-11T23:28:02+08:00
+updated: 2026-11-06T22:02:33+0800
 aliases:
   - 反馈回路
   - Feedback Loop
@@ -29,7 +30,7 @@ aliases:
 
 反馈回路是系统里“结果反过来影响原因”的闭环。
 
-没有回路，就只有线性因果；有了回路，系统才会出现增长、稳定、振荡、失控、恢复这些动态行为。
+反馈使结果能够参与下一轮条件的形成，从而产生放大、纠偏等动态行为。但重复本身不能证明存在反馈：固定的外部条件也可能持续产生相同结果，例如每次审批都按固定流程等待三天。判断有无反馈，要检查结果是否确实反过来改变了后续原因，而不能只看现象是否重复。详见 [[wiki/concepts/Mechanism Model|机制模型]] 的六项职责与适用边界。
 
 ## 两种基本类型
 

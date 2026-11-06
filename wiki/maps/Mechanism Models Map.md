@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-11-03T23:53:58+0800
+updated: 2026-11-06T22:02:33+0800
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -94,7 +94,7 @@ aliases:
 
 这一组模型最接近“拆机制”的操作模板。
 
-- [[wiki/concepts/Mechanism Model]]：用结果、变量、约束、激励、反馈和时间把混乱叙事压成结构句，并检查缺少任一要素时会出现的解释盲区。
+- [[wiki/concepts/Mechanism Model]]：从结果产生、可行选择、行为选择和状态演化推导六项分析职责；区分稳定条件造成的重复与反馈循环，并用反事实预期检验解释。
 - [[wiki/topics/Seeing Clearly|看透的方法]]：先分开事实、解释与情绪，再从重复结果中抽出生成机制，用竞争解释、区别性预测和小型干预防止“看透”退化为动机猜测。
 - [[wiki/concepts/囚徒困境]]：说明在信息隔离、承诺缺失和背叛诱惑下，个体理性的局部最优如何共同生成集体次优。
 - [[wiki/concepts/Hard Constraint]]：行动必须先通过资源、时间、规律和他人能动性的现实校验。
