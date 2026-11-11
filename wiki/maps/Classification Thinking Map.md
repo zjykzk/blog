@@ -9,18 +9,19 @@ sources:
   - /Users/zenk/Documents/notes/20260506T194300--概念解剖-分析__concept.org
   - inline:five-thinking-modes-three-layer-architecture-2026-06-23
   - /Users/zenk/study/wiki/wiki/sources/问题解决的终极模型：思维、方法与问题的“铁三角”如何共同进化.md
+  - http://thereitis.org/principles-of-categorization/
 created: 2026-04-27
-base_confidence: 0.37
+base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-10-06T16:06:02+0800
+updated: 2026-11-11T23:54:05+0800
 aliases:
   - 分类思维地图
   - 分类地图
-source_count: 1
+source_count: 4
 provenance:
-  extracted: 0.75
-  inferred: 0.25
+  extracted: 0.76
+  inferred: 0.24
   ambiguous: 0.00
 ---
 # Classification Thinking Map
@@ -40,6 +41,8 @@ provenance:
 如果要先看更底层的动作，进入 [[wiki/concepts/Analysis]]。 ^[inferred]
 
 如果要追问“问题为什么会产生”，进入 [[wiki/concepts/Nature of a Question]]：它把问题定位为现实、认知模型与行动之间的裂口，并区分 Problem、Question 与 Issue。
+
+如果要看分类为何既受任务塑造、又受经验结构约束，进入 [[wiki/sources/Principles of Categorization Source Guide]]：Rosch 用认知经济与感知世界结构解释 [[wiki/concepts/Basic-Level Categorization|基本层级]] 和 [[wiki/concepts/Prototypicality|典型性]]，并提醒原型效应不是现成的表征或加工理论。
 
 如果要看面向真实问题的操作型文章，进入 [[wiki/sources/拆解 让复杂问题变清晰 Source Guide]]：它把“混沌问题”拆成技术、框架和结构化思维三层，并用 MECE、逻辑树、横向展开、纵向深挖和追问为什么作为入门动作。
 
@@ -77,7 +80,7 @@ provenance:
 
 - [[wiki/topics/Classification Procedure]]
 
-回答：面对一团对象时，如何从对象、目标、维度、边界和用途出发，做出能支持行动的分类。 ^[inferred]
+回答：如何用范围契约建立对象池，以对比样本和观察镜头生成候选维度，再用维度卡、评分矩阵、留出样本、反事实和行动差异筛选分类。 ^[inferred]
 
 ### 3. 方法库
 

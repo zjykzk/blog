@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-11-10T12:31:51+08:00
+updated: 2026-11-11T23:54:05+0800
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -51,7 +51,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/Rule Adjudication Agent Evaluation|Rule Adjudication Agent Evaluation]] — 规则裁决 Agent 评测把合规判断拆成适用性、事实、构成要件、例外和证据充分性，并用裁决图、边界样本和错误方向定位失败。 ( #agents #testing #metrics #judgment #feedback)
 - [[wiki/topics/BoltDB Internals|BoltDB Internals]] — BoltDB 是一个非常适合入门数据库实现的案例：代码量相对小，但已经覆盖了页式存储、B+ 树、事务、空闲页管理、写时复制等核心机制。 (#database #storage #golang)
 - [[wiki/topics/Categorical Thinking|Categorical Thinking]] — 分类思维选择维度并切开对象，是结构化思维中最基础的操作动作之一。
-- [[wiki/topics/Classification Procedure|Classification Procedure]] — 分类流程把分类从“列类别”改成一套目标牵引的操作：先确定对象和用途，再选维度、划边界、验行动差异。 (#thinking #reasoning #judgment)
+- [[wiki/topics/Classification Procedure|Classification Procedure]] — 用范围契约建立对象池，以对比样本和观察镜头生成维度，用评分矩阵、留出样本、反事实和行动差异筛选分类。 (#thinking #reasoning #judgment)
 - [[wiki/topics/Circuit Breaker|Circuit Breaker]] — Circuit Breaker 是分布式系统里的保护机制：当下游服务已经过载或不可用时，不再继续把请求打过去，而是主动快速失败，避免故障扩大。 (#distributed-systems #resilience #architecture)
 - [[wiki/topics/Context Management|Context Management]] — Context management designs what enters, stays in, leaves, and stays stable in an AI agent's active context under finite attention, ordering, and cache constraints. (#agents #context)
 - [[wiki/topics/Critical Thinking|Critical Thinking]] — 批判性思维用问题链审查前提、证据、反例和论证漏洞，是五大思维架构中的质量守门层。 (#thinking #reasoning #methods)
@@ -93,6 +93,8 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/topics/面向对象分析与设计|面向对象分析与设计]] — 把面向对象分析与设计压到最少，背后真正撑住它的不是一长串术语，而是三根独立的力：责任、协作、抗变。
 
 ## Concepts
+- [[wiki/concepts/Basic-Level Categorization|Basic-Level Categorization]] — 基本层级是在分类树中仍保留共同属性、形状、动作与用途的最一般层级，平衡包容度、预测信息和辨别成本。 ( #cognition #learning #reasoning #thinking)
+- [[wiki/concepts/Prototypicality|Prototypicality]] — 典型性描述成员作为类别“好例子”的程度；它约束类别理论，但不自动指定单一原型对象、表征或学习机制。 ( #cognition #learning #reasoning #thinking)
 - [[wiki/concepts/Product Manager Core Function|产品经理的核心职能]] — 产品经理判断为谁解决什么问题，组织跨职能取舍，并通过真实反馈持续修正产品方向。 (#product #decision-making #organization #feedback)
 - [[wiki/concepts/Culture Civilization and Institutions|文化、文明与制度]] — 文化提供共享意义，制度把意义变成稳定规则与后果；二者通过行为反馈共同决定社会能否形成约束力量、保护尊严并持续纠错的文明秩序。 ( #organization #systems #mechanism #thinking)
 - [[wiki/concepts/Third Party Authentication|第三方登录认证]] — 外部平台确认账户身份，网站核验结果后建立本地会话；区分 OAuth 授权、OIDC 身份认证与业务权限。 (#software-engineering #architecture #mechanism)
@@ -365,6 +367,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/syntheses/Harness Ratchet × Feedback Flywheel|Harness Ratchet × Feedback Flywheel]] — Harness ratchets and feedback flywheels are complementary maintenance loops: one hardens the agent runtime, the other updates the broader collaboration system. (#agents #harness #feedback #workflow)
 
 ## Sources
+- [[wiki/sources/Principles of Categorization Source Guide|Principles of Categorization Source Guide]] — Rosch 用认知经济与感知世界结构解释基本层级和典型性，并严格区分原型效应与具体加工、表征或学习理论。 ( #cognition #learning #reasoning #thinking)
 - [[wiki/sources/Life as a State of Matter Source Guide|Life as a State of Matter Source Guide]] — 按概念结构、假设、推理流程与变化机制拆解生命动态物质状态提议，区分原文可核对论证、DKS 补充理论与推演。 (#physics #systems #mechanism #reasoning #article)
 - [[wiki/sources/Business Modeling and DDD NotebookLM Practice Map Source Guide|Business Modeling and DDD NotebookLM Practice Map Source Guide]] — 把 NotebookLM 资料中的 36 项实践按业务建模、战略 DDD、战术 DDD、架构、组织交付和对象设计六层映射到它们直接解决的问题。 ( #software-engineering #requirements #architecture #organization)
 - [[wiki/sources/Writing for Agents Source Guide|Writing for Agents Source Guide]] — 用 SFAM 拆解 Agent 文档写作：两种负担、信息层级、完成条件、行为锚点、调用方式与修剪。 ( #agents #context #skills #workflow #harness)

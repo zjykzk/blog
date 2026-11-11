@@ -8,18 +8,19 @@ tags: []
 sources:
   - /Users/zenk/Documents/notes/20260506T194300--概念解剖-分析__concept.org
   - inline:five-thinking-modes-three-layer-architecture-2026-06-23
+  - http://thereitis.org/principles-of-categorization/
 created: 2026-04-27
-base_confidence: 0.37
+base_confidence: 0.74
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-06-23T14:35:24Z
+updated: 2026-11-11T23:32:35+0800
 aliases:
   - 分类思维
   - Classification Thinking
-source_count: 1
+source_count: 3
 provenance:
-  extracted: 0.78
-  inferred: 0.22
+  extracted: 0.82
+  inferred: 0.18
   ambiguous: 0.00
 ---
 # Categorical Thinking
@@ -43,6 +44,17 @@ provenance:
 - 对象：人 / 事 / 机制
 
 所以分类不是发现世界唯一正确的格子，而是主动选择一个对当前任务最有用的切法。
+
+## 分类既非照抄世界，也非任意切割
+
+[[wiki/sources/Principles of Categorization Source Guide|Rosch 的分类原则]]补上了一个重要约束：分类者会主动选择维度，但并非所有切法同样可用。感知到的属性以相关束出现——形状、部件、用途和动作方式常共同变化；分类若贴近这些结构，就能以较低认知成本提供较多预测信息。
+
+因此分类位于两端之间：
+
+- 它不是从世界上直接抄下一组永恒边界，因为知觉能力、文化、已有词汇和任务都会塑造属性；
+- 它也不是任意造格子，因为完全脱离经验相关结构的分类无法稳定支持识别、预测和行动。
+
+[[wiki/concepts/Basic-Level Categorization]]说明层级粒度存在常见的中间最优点；[[wiki/concepts/Prototypicality]]说明类内成员也常呈中心—边缘梯度，而不是完全平坦。
 
 ## 它到底在做什么
 

@@ -5,15 +5,20 @@ status: draft
 category: topics
 summary: 分类方法的差异，本质上不是“分成几类”，而是 按什么维度切对象 。
 tags: []
-sources: []
+sources:
+  - http://thereitis.org/principles-of-categorization/
 created: 2026-04-27
-base_confidence: 0.37
+base_confidence: 0.45
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-04-27
+updated: 2026-11-11T23:32:35+0800
 aliases:
   - 分类的方法
   - 分类方法
+provenance:
+  extracted: 0.90
+  inferred: 0.10
+  ambiguous: 0.00
 ---
 
 # Methods of Classification
@@ -138,11 +143,22 @@ aliases:
 
 ### 原型分类
 
-不是看是否严格满足定义，而是看像不像一个典型成员。
+不是只问成员是否满足必要且充分条件，而是比较它在多大程度上呈现类别的高频共享结构。[[wiki/concepts/Prototypicality]]记录的是成员作为“好例子”的梯度；它不自动证明脑中保存着一个唯一原型模板。
 
-适合自然语言和模糊概念。
+适合自然语言类别、感知对象和边界模糊但清楚案例稳定的概念。
 
-风险是边界不清，也容易受刻板印象影响。
+风险包括：
+
+- 把经验上的典型性误当成类别本质；
+- 忽略典型成员会随比较域、文化和任务改变；
+- 将原型效应过度解释成某一种表征或学习机制；
+- 在社会类别中把样本偏差固化为刻板印象。^[inferred]
+
+### 基本层级分类
+
+分类树的每一层并不等价。[[wiki/concepts/Basic-Level Categorization]]寻找仍能保留共同属性、形状、动作和用途的最一般层级：过高会丢失预测信息，过低会增加辨别成本却很少改变处理方式。
+
+适合命名体系、目录粒度、界面信息架构和领域词汇设计。推广到抽象领域时，需要重新验证“共同属性”和“共同行动”是否真的在同一层收敛。^[inferred]
 
 ### 家族相似分类
 

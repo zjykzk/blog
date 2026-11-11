@@ -7,17 +7,18 @@ summary: 概念不是词，而是有限生命面对连续世界时制造的边�
 tags: []
 sources:
   - inline:understanding-cloud-2026-05-06
+  - http://thereitis.org/principles-of-categorization/
 created: 2026-05-03
-base_confidence: 0.32
+base_confidence: 0.60
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-05-06T19:18:40+08:00
+updated: 2026-11-11T23:32:35+0800
 aliases:
   - 概念
   - concept
 provenance:
-  extracted: 0.84
-  inferred: 0.16
+  extracted: 0.78
+  inferred: 0.22
   ambiguous: 0.00
 ---
 # Concept
@@ -80,6 +81,12 @@ provenance:
 
 - 分类的边界是人为制造的，不是天然长在世界上的。
 - 分类必须接受世界的反击：完全任意的切法无法支持预测和行动。
+
+## 边界之外还有中心
+
+[[wiki/sources/Principles of Categorization Source Guide|Rosch 的分类研究]]说明，概念不只靠边界组织，也常靠清楚案例和中心—边缘梯度组织。[[wiki/concepts/Prototypicality]]让人即使不知道精确边界，也能稳定判断哪个成员更像该类；[[wiki/concepts/Basic-Level Categorization]]则说明概念粒度存在常见的认知经济点。
+
+这修正了“概念只是边界装置”的过度压缩：边界回答什么被纳入，典型性回答类内如何组织，基本层级回答在哪个抽象尺度上使用最经济。^[inferred]
 
 ## 与知识的关系
 

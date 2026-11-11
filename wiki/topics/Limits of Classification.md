@@ -5,15 +5,20 @@ status: draft
 category: topics
 summary: 它擅长把混乱切开，却不自动提供关系、过程、演化和反馈。很多理解错误，不是因为不会分类，而是因为 把分类工具误当成了世界本身 。
 tags: []
-sources: []
+sources:
+  - http://thereitis.org/principles-of-categorization/
 created: 2026-04-27
-base_confidence: 0.37
+base_confidence: 0.45
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-04-27
+updated: 2026-11-11T23:32:35+0800
 aliases:
   - 分类的边界
   - 分类的局限
+provenance:
+  extracted: 0.92
+  inferred: 0.08
+  ambiguous: 0.00
 ---
 
 # Limits of Classification
@@ -27,6 +32,15 @@ aliases:
 > 分类擅长切开，不擅长连接；擅长命名，不擅长解释变化。
 
 所以分类可以是理解的入口，但很少是理解的终点。
+
+## 人为边界不等于任意边界
+
+分类会受语言、文化、身体能力和任务塑造，但这不意味着任何切法都一样好。[[wiki/sources/Principles of Categorization Source Guide|Rosch]]指出，感知属性常以相关束出现；有效分类会利用这种结构，在压缩差异时保留可预测信息。
+
+因此需要同时警惕两种错误：
+
+- **自然主义错误**：把当前类别和属性当成世界预先刻好的唯一边界；
+- **任意主义错误**：因为边界含有建构成分，就认为分类无需接受识别、预测和行动结果的约束。^[inferred]
 
 ## 四类主要边界
 

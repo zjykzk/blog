@@ -1,9 +1,9 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 75,
-    "total_pages": 525,
-    "last_updated": "2026-11-01T22:57:50+0800"
+    "total_sources_ingested": 76,
+    "total_pages": 528,
+    "last_updated": "2026-11-11T23:32:35+0800"
   },
   "sources": {
     "chatgpt-share:6a8bbaa9-dbb0-83ee-ad09-a81c039ed1a2": {
@@ -1650,6 +1650,42 @@
         "wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide.md",
         "wiki/maps/CS Map.md",
         "wiki/maps/Learning Map.md",
+        "wiki/index.md",
+        "wiki/hot.md",
+        "wiki/log.md"
+      ]
+    },
+    "http://thereitis.org/principles-of-categorization/": {
+      "ingested_at": "2026-11-11T23:32:35+0800",
+      "source_url": "http://thereitis.org/principles-of-categorization/",
+      "source_id": "thereitis.org/eleanor-rosch",
+      "source_type": "url",
+      "stub": false,
+      "project": null,
+      "promotion_status": "sources",
+      "placement": "sources",
+      "source_page": "wiki/sources/Principles of Categorization Source Guide.md",
+      "extraction_method": "defuddle",
+      "hash_basis": "defuddle_markdown_utf8",
+      "size_bytes": 64905,
+      "modified_at": null,
+      "published_at": "1978",
+      "hosted_copy_published_at": "2008-12-05",
+      "content_hash": "sha256:d6f4d0979db03245e5238ca1aad4a594c50dedbb1cddab097184c6df6b1c434b",
+      "pages_created": [
+        "wiki/sources/Principles of Categorization Source Guide.md",
+        "wiki/concepts/Basic-Level Categorization.md",
+        "wiki/concepts/Prototypicality.md"
+      ],
+      "pages_updated": [
+        "wiki/topics/Categorical Thinking.md",
+        "wiki/topics/Methods of Classification.md",
+        "wiki/topics/What Makes a Good Classification.md",
+        "wiki/topics/Limits of Classification.md",
+        "wiki/topics/Classification Procedure.md",
+        "wiki/maps/Classification Thinking Map.md",
+        "wiki/concepts/Class as Learned Invariance.md",
+        "wiki/concepts/Concept.md",
         "wiki/index.md",
         "wiki/hot.md",
         "wiki/log.md"

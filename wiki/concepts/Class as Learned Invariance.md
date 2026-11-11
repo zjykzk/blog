@@ -13,15 +13,16 @@ aliases:
 sources:
   - http://www.incompleteideas.net/IncIdeas/BitterLesson.html
   - conversation:2026-08-16
+  - http://thereitis.org/principles-of-categorization/
 created: 2026-08-16T16:29:01+0800
-updated: 2026-08-16T16:29:01+0800
+updated: 2026-11-11T23:32:35+0800
 summary: >-
   学习判断"同一类"不是查表归档，而是在表示空间里、由归纳偏置引导、被评价信号裁定，去发现一条"什么变了也不改变答案"的不变性/等价关系。
 provenance:
-  extracted: 0.96
-  inferred: 0.00
+  extracted: 0.88
+  inferred: 0.08
   ambiguous: 0.04
-base_confidence: 0.44
+base_confidence: 0.77
 lifecycle: draft
 lifecycle_changed: 2026-08-16
 ---
@@ -82,6 +83,16 @@ flowchart LR
 ```
 
 抽掉被判定为"可变量"的属性，剩下的那个不变核，就是"类"。
+
+## 与典型性的互补
+
+[[wiki/concepts/Prototypicality]]补充了边界内部的结构：即使多个成员都满足同一组任务相关不变性，它们也可能以不同程度呈现类别的高频共享属性。^[inferred]
+
+- 学到的不变性解释哪些变化可被忽略、类别边界为何能稳定；
+- 典型性解释同一类别内部为何仍有更清楚和更边缘的成员；
+- [[wiki/concepts/Basic-Level Categorization]]则解释分类树上哪个抽象层级常能兼顾包容度与信息量。
+
+因此“等价类”是有用的形式化压缩，但自然认知中的类别未必是内部完全平坦的集合。^[inferred]
 
 ## When to Use
 

@@ -1,43 +1,27 @@
 ---
 title: Hot Cache
 category: meta
-summary: 个人能力应由真实项目统一训练；身体供能、注意力配置、现实反馈与资产沉淀构成长期进化闭环。
+summary: 分类系统在认知经济、经验结构、基本层级和典型性之间取得平衡；边界受任务塑造，却并非任意。
 tags: []
 sources: []
 created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-11-10T12:31:51+08:00
+updated: 2026-11-11T23:54:05+0800
 ---
 
 ## Recent Activity
 
+- 2026-11-11T23:54:05+08:00 — 已更新 [[wiki/topics/Classification Procedure|分类流程]]：范围契约与多路径枚举建立对象池；同表象异处理、异表象同处理和边界样本对生成候选维度，再以维度卡、评分矩阵、留出样本和未知入口检验覆盖与泛化。
+
+- 2026-11-11T23:32:35+08:00 — 已收录 [[wiki/sources/Principles of Categorization Source Guide|Rosch 的分类原则]]，建立 [[wiki/concepts/Basic-Level Categorization|基本层级分类]] 与 [[wiki/concepts/Prototypicality|典型性]]：分类在认知经济与经验结构之间取舍，类别可有稳定中心—边缘梯度，但原型效应不自动等于一种心智表征或学习机制。
+
 - 2026-11-10T12:31:51+08:00 — 已捕获 [[wiki/syntheses/LLM Risk Rule Discovery|大模型风险规则发现]]：区分核验、预测与干预，结合案例归纳和规范推导，用五项学术参考说明有约束搜索、反例反馈和泛化条件。
 
-- 2026-11-07T01:51:41+08:00 — 已收录 [[wiki/sources/Loop Engineering Anthropic Playbook Source Guide|Loop Engineering: The Anthropic Playbook]]，并更新 [[wiki/concepts/Loop Engineering]]：五动作是选定粒度下的近似最小功能集，六部件则是受软件工具链影响的可替换参考架构；运行骨架之外仍需预算、人工入口和独立否决权。
-
-- 2026-11-07T01:34:33+08:00 — 已捕获 [[wiki/syntheses/Personal Capability Training System|个人能力训练系统]]：用一个真实项目统一训练主体性、判断、人机协作、交付、反馈、关系与资产化，并以身体供能、注意力配置、现实反馈和资产沉淀维持长期闭环。
-
-- 2026-11-06T22:02:33+08:00 — 已更新 [[wiki/concepts/Mechanism Model|机制模型]]：从结果产生与产生条件持续存在推导六项职责，补入团队救火示例与反事实检验；同步校准 [[wiki/concepts/Feedback Loops|反馈回路]]，明确重复不必来自反馈。
-
-- 2026-11-04T00:07:26+08:00 — 已捕获 [[wiki/concepts/Product Manager Core Function|产品经理的核心职能]]：产品经理不是需求管理员，而是在有限资源下选择值得解决的问题、组织跨职能取舍，并让真实反馈修正下一轮产品决策。
-
-- 2026-11-03T23:53:58+08:00 — 已捕获 [[wiki/concepts/Culture Civilization and Institutions|文化、文明与制度]]：文化提供共享意义与正当性，制度把意义转成可执行的规则和后果；二者通过行为经验形成反馈，文明则检验这一整体能否跨代协作、约束力量并持续纠错。
-
-- 2026-11-03T18:53:23+08:00 — 已更新 [[wiki/syntheses/Agent Harness Loop and Goal Implementations]]：区分 verifier 的事实判断与 authority 的状态转换权；补充自我认证、不可逆副作用、目标 provenance、人工接管、资源治理与审计责任，并说明 `A` 属于 operational goal contract，而非最小语义目标。
-
-- 2026-11-03T18:51:25+08:00 — 已更新 [[wiki/concepts/工程复杂度共同结构]]：认知有限首先造成模型与现实的认识裂缝，分解与抽象是认知回应；局部影响扩散造成控制裂缝，模块化、接口、契约与隔离是结构回应。并将原先平铺的设计词汇改成“动作—结构—规则—机制—质量目标—总体组织”的层级链。
-
-- 2026-11-03T00:49:22+08:00 — 已更新 [[wiki/sources/Harness2 Recursive Agent Harnessing Paper Source Guide|Harness²]]：两位编辑者按问题视角各交整份候选；probe 做同题行为对照，分数属于事后评测；按预算停止优化。补入第一层顺序迭代与第二层经验库递归的对照及流程图，并链接本地算法演示；差异同步到 [[wiki/topics/AI Harness]] 与 [[wiki/maps/Self-Evolving Agents Map]]。
-
-- 2026-11-02T00:22:29+08:00 — 已捕获 [[wiki/concepts/Engineering Practice Evaluation Frame|工程实践第一性原理检查表]]：用控制目标、作用机制、所需信息、调节动作、新增成本和失效边界六问，把“团队有没有做实践”推进为“实践是否形成真实控制回路”。
-
-- 2026-11-01T22:57:50+08:00 — 已收录 [[wiki/sources/软件工程为何必须成为学习专家 Source Guide|软件工程为何必须成为学习专家]]，并建立 [[wiki/concepts/Software Engineering as Knowledge Discovery|软件工程作为知识发现]] 与 [[wiki/concepts/Tacit Knowledge|默会知识]]：区分外部变化这一加速器与先验未知、分布式判断、实践反馈这些学习根因；Armour、Farley 等具体术语和引文归属保留待一手核验。
-
-- 2026-11-01T22:54:18+08:00 — 已用 Pressman《Software Engineering: A Practitioner’s Approach》第九版与 Sommerville《Software Engineering》第十版全书重读更新 [[wiki/topics/Modern Software Engineering]]：将经验学习与风险控制重新定位为学习、治理回路，补齐价值、规格、构造、证据、演化、可信赖性、社会技术系统和职业责任；问题链—解决方案链已保存为可编辑 Excalidraw。
-
 ## Active Threads
+
+- 分类思维现在形成“范围—对象池—对比样本—候选维度—比较—验证”线索：范围契约和多路径枚举逼近对象覆盖；样本卡统一观察面，三类样本对与八类镜头生成候选，维度卡把含义与动作绑定，评分矩阵初筛，留出样本检查泛化。^[inferred]
 
 - 软件设计现在明确区分两股边界动力：有限认知要求把整体切成可理解的局部，系统耦合要求让变化、故障和责任尽量停在局部。前者生成分解与抽象，后者生成模块化、接口、契约和隔离；架构负责围绕质量目标组织这些层次。^[inferred]
 
@@ -242,6 +226,8 @@ updated: 2026-11-10T12:31:51+08:00
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 候选维度应从标准化样本卡和处理差异中生成，而不是凭术语联想：同表象异处理揭示隐藏差异，异表象同处理揭示不变量，边界对寻找动作翻转点；最后用行动区分度、类内一致性、类间分离度、可观察性、覆盖度、稳定性、独立增量和成本比较。^[inferred]
 
 - 大模型风险规则生成是有约束的假设搜索：候选生成概率不等于真实性；调查资格、统计有效性与裁决权限应分开，少量实例和基准实验不能直接证明全平台效果。[[wiki/syntheses/LLM Risk Rule Discovery|大模型风险规则发现]]
 

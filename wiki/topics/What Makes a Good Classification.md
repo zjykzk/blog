@@ -5,15 +5,21 @@ status: draft
 category: topics
 summary: 好的分类，不是最整齐的分类，也不是看起来最像“标准答案”的分类，而是 最能支持理解、判断和行动的分类 。
 tags: []
-sources: []
+sources:
+  - http://thereitis.org/principles-of-categorization/
+  - conversation:2026-11-11
 created: 2026-04-27
-base_confidence: 0.37
+base_confidence: 0.60
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-04-27
+updated: 2026-11-11T23:54:05+0800
 aliases:
   - 什么是好的分类
   - 好分类
+provenance:
+  extracted: 0.80
+  inferred: 0.20
+  ambiguous: 0.00
 ---
 
 # What Makes a Good Classification
@@ -21,6 +27,35 @@ aliases:
 好的分类，不是最整齐的分类，也不是看起来最像“标准答案”的分类，而是**最能支持理解、判断和行动的分类**。
 
 分类本来就是工具，所以判断它好不好，关键不在美感，而在收益。
+
+## 认知经济与世界结构
+
+[[wiki/sources/Principles of Categorization Source Guide|Rosch]]把好分类的收益进一步拆成两项：以较少认知努力获得较多信息，并尽量贴合感知世界中真实存在的属性共现结构。
+
+这意味着分类质量不仅看类间是否分开，还看粒度是否合适：
+
+- 上位类若压掉太多共同形状、用途和处理方式，虽简洁却预测力不足；
+- 下位类若只增加名称和边界成本，却不改变属性与动作，则细分收益过低；
+- [[wiki/concepts/Basic-Level Categorization]]常处在二者之间的信息跃迁点；
+- [[wiki/concepts/Prototypicality]]则说明类内也可有稳定梯度，不必强求所有成员同等典型。
+
+## 候选维度的筛选
+
+[[wiki/topics/Classification Procedure]] 将维度选择还原为“目的 → 决策 → 行动差异 → 候选维度”。候选维度可按五项比较：
+
+1. **行动区分度**：取值改变时，后续处理是否真的改变；
+2. **解释力**：是否说明对象为何需要不同处理；
+3. **可观察性**：能否用稳定证据判断，而不是依赖模糊感觉；
+4. **覆盖度**：是否适用于大部分真实样本和边界案例；
+5. **使用成本**：采集和判断成本是否低于分类带来的收益。^[inferred]
+
+反事实检查是最硬的快速筛选：保持其他条件不变，只改变该维度；若判断和行动都不变，它通常不是当前目的下的主维度。这个检查衡量决策相关性，不单独证明因果。^[inferred]
+
+## 覆盖是有边界的
+
+“类别不遗漏”不等于“对象已找全”。[[wiki/topics/Classification Procedure]]区分对象全面、类别全面与视角全面：MECE 只能检查已定义全集内的分支覆盖，无法证明父边界、信息来源和观察视角本身完整。^[inferred]
+
+更可靠的覆盖证据来自范围契约、多路径枚举、外部反例、未知入口和经验饱和。分类应明确自己覆盖的是哪个时间、空间、状态和证据范围，并允许新对象触发修订，而不是宣称开放世界中的绝对完备。^[inferred]
 
 ## 三个基本标准
 
