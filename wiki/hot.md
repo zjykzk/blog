@@ -8,10 +8,12 @@ created: 2026-05-04
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
-updated: 2026-11-07T01:51:41+0800
+updated: 2026-11-10T12:31:51+08:00
 ---
 
 ## Recent Activity
+
+- 2026-11-10T12:31:51+08:00 — 已捕获 [[wiki/syntheses/LLM Risk Rule Discovery|大模型风险规则发现]]：区分核验、预测与干预，结合案例归纳和规范推导，用五项学术参考说明有约束搜索、反例反馈和泛化条件。
 
 - 2026-11-07T01:51:41+08:00 — 已收录 [[wiki/sources/Loop Engineering Anthropic Playbook Source Guide|Loop Engineering: The Anthropic Playbook]]，并更新 [[wiki/concepts/Loop Engineering]]：五动作是选定粒度下的近似最小功能集，六部件则是受软件工具链影响的可替换参考架构；运行骨架之外仍需预算、人工入口和独立否决权。
 
@@ -240,6 +242,8 @@ updated: 2026-11-07T01:51:41+0800
 - Application and creation now have an externally grounded boundary: application is contextual transfer of an existing abstraction, while creation is novel-and-appropriate reordering that can survive use, judgment, or continuation.
 
 ## Key Takeaways
+
+- 大模型风险规则生成是有约束的假设搜索：候选生成概率不等于真实性；调查资格、统计有效性与裁决权限应分开，少量实例和基准实验不能直接证明全平台效果。[[wiki/syntheses/LLM Risk Rule Discovery|大模型风险规则发现]]
 
 - Loop Engineering 的五动作通过删除测试获得较强的操作完备性：缺少任务发现、执行边界、独立验证、跨轮状态或再次触发，都会退化成特定失败模式。六部件没有同等地位，它们是当前工具生态的实现映射，可被其他机制替换，也没有覆盖预算与人工治理。^[inferred]
 

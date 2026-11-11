@@ -19,8 +19,9 @@ relationships:
     type: related_to
 sources:
   - conversation:2026-10-10
+  - conversation:2026-11-10
 created: 2026-10-10T19:36:48+0800
-updated: 2026-10-10T19:36:48+0800
+updated: 2026-11-10T12:31:51+08:00
 summary: >-
   规则裁决 Agent 评测把合规判断拆成适用性、事实、构成要件、例外和证据充分性，并用多类结论、裁决图、边界样本和错误方向评估可靠性。
 provenance:
@@ -66,6 +67,12 @@ COMPLIANT 不等于 NOT PROVEN VIOLATION。缺少必要字段时，正确输出�
 评测首先检查裁决链是否正确，再检查最终标签。只对标签判分会奖励“猜中答案但理由错误”的系统，也无法判断错误来自规则检索、事实提取、要件判断、例外处理还是证据不足时的过度裁决。
 
 这是一种 [[wiki/concepts/Judgment Externalization|判定外化]]：标准答案不只保存结论，还保存规则版本、相关事实、证据位置、构成要件和例外，使另一个执行者能够沿同一依据重放判断。
+
+## Rule Discovery Boundary
+
+[[wiki/syntheses/LLM Risk Rule Discovery|大模型风险规则发现]] 处理候选条件的提出、调查与泛化验证；本页处理规则给定或检索后的适用性与事实裁决。发现规则值得用于抽检排序，并不证明它足以支持违规认定。两类能力应分别评测，再检验端到端效果。^[inferred]
+
+生成模型可以提出规则与测试样例，但独立效果应由未参与修改的证据检验；将测试失败反复反馈给模型后，原测试集已参与开发。执行器准确计算表达式，也不能担保规则适用或事实标签可靠。参见 [[wiki/syntheses/LLM Risk Rule Discovery#Academic References and Provenance|相关学术依据]]。
 
 ## Two Evaluation Tracks
 
@@ -162,6 +169,8 @@ review_required: false
 - 在证据不足或规则冲突时仍要求 Agent 给出确定结论。
 
 ## Related
+
+- [[wiki/syntheses/LLM Risk Rule Discovery|大模型风险规则发现]] — 从候选发现到有限调查、反例修正和独立验证。
 
 - [[wiki/concepts/Agent Evaluation Metric Vector]] — 通用 Agent 轨迹指标向量。
 - [[wiki/concepts/Confusion Matrix]] — 展开最终标签的错误方向。

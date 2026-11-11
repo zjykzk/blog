@@ -8,7 +8,7 @@ tags: [thinking, systems, judgment, mechanism]
 sources:
   - conversation:2026-05-12
 created: 2026-05-12T00:14:41+08:00
-updated: 2026-11-06T22:02:33+0800
+updated: 2026-11-10T12:31:51+08:00
 summary: >-
   机制模型地图把 wiki 中能解释“结果如何被稳定生成”的模型收拢为系统、认知、工程、组织、AI、学习和财富几组入口。
 provenance:
@@ -146,6 +146,8 @@ aliases:
 ## 6. AI agent 与 harness 机制
 
 这一组模型解释 agent 系统的能力、失控、修复和演化来自哪里。
+
+- [[wiki/syntheses/LLM Risk Rule Discovery|大模型风险规则发现]]：有约束的假设搜索通过真实证据与反例修改候选；核验、预测和干预效果需要不同依据。
 
 - [[wiki/topics/AI Harness]]：harness 是连接模型、上下文、工具、权限、状态、恢复和反馈的运行时秩序层。
 - [[wiki/concepts/Coding Agent User Harness]]：开发者通过上下文、工具、规则、检查和模板塑造 agent 行为。

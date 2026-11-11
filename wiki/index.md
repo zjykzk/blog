@@ -5,7 +5,7 @@ tags:
  - llm-wiki
 sources: []
 created: 2026-05-04
-updated: 2026-11-06T22:02:33+0800
+updated: 2026-11-10T12:31:51+08:00
 base_confidence: 0.30
 lifecycle: draft
 lifecycle_changed: 2026-05-05
@@ -296,6 +296,7 @@ This is the navigation hub and full page inventory for the structured wiki layer
 - [[wiki/concepts/LLM Reasoning as In-Context Computation|LLM Reasoning as In-Context Computation]] — 大模型的推理不是简单模式匹配，而是建立在模式学习之上的上下文内计算——参数提供知识与先验、Transformer 提供计算机制、上下文提供当前问题与临时状态，三者组合涌现出推理。 (#llm #reasoning #in-context-learning #cognition)
 
 ## Syntheses
+- [[wiki/syntheses/LLM Risk Rule Discovery|大模型风险规则发现]] — 从案例、法规与机制生成候选，用事实核查、反例和独立评估约束推广；保留可预测性、不确定性、行动权限与学术证据边界。 ( #llm #reasoning #probability #judgment #feedback)
 - [[wiki/syntheses/Personal Capability Training System|个人能力训练系统]] — 以真实项目统一训练主体性、判断、人机协作、交付、反馈、关系与资产化；身体供能、注意力配置、现实反馈和资产沉淀构成长期闭环。 (#learning #cognition #judgment #workflow #ai)
 - [[wiki/syntheses/数据字典的秩|数据字典的秩]] — 数据字典的秩是一层元命题（符号不自解释）托两根柱子（意义跨主体会分裂、跨时间会蒸发），并可展开成主体数×意义寿命的建设强度坐标系。 (#database #data-warehouse #metadata #thinking #mechanism)
 - [[wiki/syntheses/Problem-Driven Reading Workbench|问题驱动的阅读工作台]] — 将藏书库与当前阅读面分离，用少量当前问题、书籍角色和退出机制，把 Kindle 从囤书仓库变成注意力受限的阅读工作台。 ( #learning #cognition #thinking #workflow #judgment)

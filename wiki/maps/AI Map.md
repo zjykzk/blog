@@ -36,7 +36,7 @@ provenance:
   inferred: 0.10
   ambiguous: 0.00
 source_count: 22
-updated: 2026-11-07T01:51:41+0800
+updated: 2026-11-10T12:31:51+08:00
 aliases:
   - 项目/AI
   - AI Hub
@@ -168,6 +168,8 @@ tags:
 - [[wiki/maps/Self-Evolving Agents Map]] — 自进化 agent 地图按学习层次组织运行时认知、技能、技能仓库、harness 代码和记忆基线系统。
 
 ## Syntheses
+
+- [[wiki/syntheses/LLM Risk Rule Discovery|大模型风险规则发现]] — 从案例、法规与机制生成候选，用事实核查、反例和独立评估约束推广；保留可预测性、不确定性、行动权限与学术证据边界。 ( #llm #reasoning #probability #judgment #feedback)
 
 - [[wiki/syntheses/AGENTS.md as Repository Operation Contract]] — 把 AGENTS.md 定位为编码智能体的最小仓库操作契约，并区分上下文指导与自动化强制。
 - [[wiki/syntheses/AI 泡沫判断的结构]] — 区分 AI 技术真实、资产价格过热与泡沫破裂后的价值残留。
