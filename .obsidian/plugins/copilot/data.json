@@ -388,7 +388,7 @@
   "convertedDocOutputFolder": "",
   "agentMode": {
     "byok": {},
-    "activeBackend": "opencode",
+    "activeBackend": "claude",
     "backends": {},
     "debugFullFrames": true,
     "offerFeedbackCards": true,

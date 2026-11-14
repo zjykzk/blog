@@ -13,24 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/NAMING.md",
+                "file": "wiki/concepts/Agent Loop Human Judgment Positions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NAMING"
+              "title": "Agent Loop Human Judgment Positions"
             }
           },
           {
-            "id": "12e32c8f41655404",
+            "id": "01fac5be4c3e51c0",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "release-notes",
               "state": {
-                "file": "Excalidraw/SE.excalidraw.md"
+                "currentVersion": "1.15.0"
               },
-              "icon": "excalidraw-icon",
-              "title": "SE.excalidraw"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.15.0"
             }
           }
         ],
@@ -89,11 +89,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 506.6015625
+    "width": 340.609375
   },
   "right": {
     "id": "7eba894845c12087",
@@ -186,8 +187,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "copilot-chat-view"
+              "icon": "message-square",
+              "title": "Copilot Quick Chat"
             }
           },
           {
@@ -196,8 +197,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -206,8 +207,8 @@
             "state": {
               "type": "copilot-agent-chat-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "copilot-agent-chat-view"
+              "icon": "copilot-agent",
+              "title": "Copilot Agent Chat"
             }
           }
         ],
@@ -215,7 +216,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 313.421875,
     "collapsed": true
   },
   "left-ribbon": {
@@ -233,8 +234,36 @@
       "obsidian-importer:Import notes": false
     }
   },
-  "active": "12e32c8f41655404",
+  "active": "01fac5be4c3e51c0",
   "lastOpenFiles": [
+    "dedao-liujia-body.txt",
+    "wiki/concepts/Prototypicality.md",
+    "wiki/concepts/Basic-Level Categorization.md",
+    "wiki/sources/Principles of Categorization Source Guide.md",
+    "artifacts/risk-rule-first-principles-20261108/README.md",
+    "wiki/syntheses/LLM Risk Rule Discovery.md",
+    "artifacts/risk-rule-first-principles-20261108/evidence.jsonl",
+    "artifacts/risk-rule-first-principles-20261108/sources.jsonl",
+    "artifacts/risk-rule-first-principles-20261108/explanation.md",
+    "artifacts/risk-rule-first-principles-20261108/sources/retrieval-supplement.json",
+    "artifacts/risk-rule-first-principles-20261108/sources/learning-theory.txt",
+    "artifacts/risk-rule-first-principles-20261108/sources/interactive-synthesis.txt",
+    "artifacts/risk-rule-first-principles-20261108/sources/interactive-synthesis.pdf",
+    "artifacts/risk-rule-first-principles-20261108/sources/learning-theory.pdf",
+    "artifacts/risk-rule-first-principles-20261108/sources/hypothesis-refinement.txt",
+    "artifacts/risk-rule-first-principles-20261108/sources/hypothesis-search.txt",
+    "artifacts/risk-rule-first-principles-20261108/sources/retrieval.json",
+    "wiki/sources/Loop Engineering Anthropic Playbook Source Guide.md",
+    "wiki/syntheses/Personal Capability Training System.md",
+    "wiki/concepts/Agentic Engineering.md",
+    "wiki/sources/Doris 写入与 Routine Load Source Guide.md",
+    "wiki/maps/CS Map.md",
+    "journals/2025_12_27.md",
+    "wiki/syntheses/不确定性下的判断.md",
+    "wiki/sources/默会知识 AI 永远都不可能替代的技能 Source Guide.md",
+    "wiki/syntheses/Agent as Problem-Solving System.md",
+    "wiki/NAMING.md",
+    "Excalidraw/SE.excalidraw.md",
     "Excalidraw/SE-v2.excalidraw.md",
     "Excalidraw/backend.excalidraw.md",
     "Excalidraw/enginering in baidu.excalidraw.md",
@@ -242,37 +271,9 @@
     "Excalidraw/agent.excalidraw.md",
     "Excalidraw/ai effective.md",
     "Excalidraw/ai native workflow.excalidraw.md",
-    "Excalidraw/SE.excalidraw.md",
-    "diagrams/software-engineering-feedback-loop.excalidraw",
     "diagrams/software-engineering-feedback-loop.png",
     "diagrams/software-engineering-feedback-loop.svg",
-    "diagrams/software-engineering-feedback-loop.mmd",
     "copilot/skills/json-canvas/SKILL.md",
-    "copilot/skills/json-canvas/LICENSE",
-    "copilot/skills/json-canvas/references/EXAMPLES.md",
-    "copilot/skills/json-canvas/references",
-    "copilot/skills/json-canvas",
-    "copilot/skills/obsidian-bases/SKILL.md",
-    "copilot/skills/obsidian-bases/LICENSE",
-    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
-    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
-    "copilot/skills/obsidian-bases/references",
-    "copilot/skills/obsidian-bases",
-    "copilot/skills/obsidian-markdown/SKILL.md",
-    "copilot/skills/obsidian-markdown/LICENSE",
-    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
-    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
-    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
-    "copilot/skills/obsidian-markdown/references",
-    "copilot/skills/copilot-fetch-x/SKILL.md",
-    "copilot/skills/copilot-youtube-transcript/SKILL.md",
-    "copilot/skills/copilot-web-fetch/SKILL.md",
-    "copilot/skills/copilot-web-search/SKILL.md",
-    "AGENTS.md",
-    "wiki/syntheses/Cognition Functional Framework.md",
-    "wiki/concepts/Product Manager Core Function.md",
-    "wiki/concepts/Culture Civilization and Institutions.md",
-    "wiki/maps/Learning Map.md",
     "Pasted image 20260421133444.png",
     "ai.png",
     "knowledge-system-language-philosophy.png",
